@@ -1,0 +1,53 @@
+---
+description: There are some differences between at.js and mbox.js. This section lists some of the differences and limitations, to help you be successful with at.js.
+keywords: visual experience composer limitations;browser support;integrations;plugins;asynchronous considerations
+seo-description: There are some differences between at.js and mbox.js. This section lists some of the differences and limitations, to help you be successful with at.js.
+seo-title: at.js Limitations
+solution: Target
+title: at.js Limitations
+topic: Premium
+uuid: d18791b2-e1c3-40ee-9219-0949fb9f90b9
+index: y
+internal: n
+snippet: y
+translate: y
+---
+
+# at.js Limitations
+
+This section contains the following information:
+
+* [Known Visual Experience Composer Limitations](c_target-atjs-limitations.md#section_4B63C97169DE4C93B22944E880FD3DF1)
+* [Integrations and Plugins](c_target-atjs-limitations.md#section_D92E31170176406AAC7B5005F03D3425)
+* [Asynchronous Considerations](c_target-atjs-limitations.md#section_B586360A3DD34E2995AE25A18E3FB953)
+
+
+## Known Visual Experience Composer Limitations {#section_4B63C97169DE4C93B22944E880FD3DF1}
+
+
+* Insert Element and Rearrange options in the Visual Experience Composer should be avoided in single-page apps. Because the DOM is not cleared on page load events in single-page apps like it is with traditional websites, the Insert Element and Rearrange manipulations might be reapplied multiple times depending on how the visitor navigates the SPA.
+
+
+
+## Integrations and Plugins {#section_D92E31170176406AAC7B5005F03D3425}
+
+Some functions within `mbox.js` are not available in `at.js`. Internal [mbox.js objects and methods](r_variables_profiles_parameters_methods.md#section_8C78059D15D9452F95636A5640188537) (such as `mbox`, `mboxCurrent`, `mboxFactoryDefault`, `mboxFactories`, and others) are no longer supported by `at.js` (example: `mboxFactoryDefault`). This is by design, intended to discourage you from "hacking" `at.js` to develop unsupported functionality that over the long term can cripple an implementation and make it impossible to upgrade. The only exposed methods are covered in the API pages of this documentation. Because of this: 
+
+* Legacy, page-based [integrations](c_target-atjs-integrations.md#concept_C100BC4F073C4B57A608B309D0157B39) with other Adobe solutions might not work and should be upgraded to newer, server-side integrations.
+* [Custom plugins developed for mbox.js](c_target-atjs-plugins.md#concept_F5D4C0A4DACF41409CC42FDD93B13FAF) might not work unless updated for `at.js`. Make sure you include any [plugins](c_target-atjs-plugins.md#concept_F5D4C0A4DACF41409CC42FDD93B13FAF) as part of your testing. 
+
+
+
+## Asynchronous Considerations {#section_B586360A3DD34E2995AE25A18E3FB953}
+
+Because all mboxes are now asynchronous, they won't block page rendering or return in the order in which they fired.
+
+* Legacy page-based `Target` to `Analytics` integration will not work. This integration requires that the `Target` call is made before the `Analytics` call. 
+
+* Beware of JavaScript dependencies between your offer and the page. You should not assume that the JavaScript in your offer is going to execute before the hardcoded JavaScript below the mbox.
+
+* Beware of JavaScript dependencies between multiple offers on the page. You can no longer assume that the offer delivered by the first mbox is going to execute before the offer delivered by your second mbox.
+
+* DOM Manipulation and Redirect offers should be delivered through the auto-created global mbox in `at.js` and delivered in the `<head>`. An `mboxCreate()` function at the top of the `<body>` will likely result in flicker of default content. 
+
+
