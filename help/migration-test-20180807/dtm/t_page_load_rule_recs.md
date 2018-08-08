@@ -59,4 +59,4 @@ translate: y
        </tr> 
        </tbody> 
        </table>
-1. Save the rule, then click ** `Approve and Publish` **.
+1. Save the rule, then click **`Approve and Publish`**.
