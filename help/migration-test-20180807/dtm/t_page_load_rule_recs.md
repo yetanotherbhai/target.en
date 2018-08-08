@@ -19,14 +19,10 @@ translate: y
 >
 >Before creating a page load, you must[create your data elements](t_data_elements_recs.md#task_C5F0DF393F494D7785F656DE3FBA6AF3). 
 
-
-
->1. In Dynamic Tag Manager, select ** `Page Load Rules` ** from the left navigation.
->1. Create a rule.
-
->       Use the following settings:
-
->    <table id="table_DB0B8B6F54D54EC3AB61A07EB8BE6C26"> 
+1. In Dynamic Tag Manager, select ** `Page Load Rules` ** from the left navigation.
+1. Create a rule.
+       Use the following settings:
+    <table id="table_DB0B8B6F54D54EC3AB61A07EB8BE6C26"> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry">Element</th> 
@@ -63,6 +59,4 @@ translate: y
   </tr> 
  </tbody> 
 </table>
-
->1. Save the rule, then click ** `Approve and Publish` **.
-
+1. Save the rule, then click ** `Approve and Publish` **.
