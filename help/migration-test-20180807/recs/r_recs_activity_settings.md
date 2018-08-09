@@ -19,7 +19,7 @@ translate: y
 
 >This video includes information about activity settings.
 
-><table id="table_A3A70CC0C9F54131BB9F098B4DA8C9D6"> 
+<table id="table_A3A70CC0C9F54131BB9F098B4DA8C9D6"> 
  <thead> 
   <tr> 
    <th class="entry" colspan="2">Activity Settings</th> 
