@@ -4,7 +4,7 @@ seo-description: Sometimes activities don't go as expected. Here are some potent
 seo-title: Troubleshooting Automated Personalization
 title: Troubleshooting Automated Personalization
 title_outputclass: premium
-uuid: 33b77dea-6670-492e-96a6-bf62e2721fd3
+uuid: 898df988-e9ec-4a14-bc82-d28e58495963
 badge: assets/premium.png
 index: y
 internal: n

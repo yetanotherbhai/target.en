@@ -5,7 +5,7 @@ seo-description: Choose a success metric that qualifies the user for the reporti
 seo-title: Apply a Reporting Audience to a Success Metric
 solution: Target
 title: Apply a Reporting Audience to a Success Metric
-uuid: dbd4919c-98d2-473b-a180-0b808f76ad0d
+uuid: 0fb28047-c61b-46ec-bcf6-b4d383e6d9c0
 index: y
 internal: n
 snippet: y
@@ -16,7 +16,7 @@ translate: y
 
 For all activities, the [!UICONTROL  Applied At] drop-down list lets you apply an audience to a success metric so you can view reporting numbers after the metric has been reached and for subsequent actions. 
 
-![](../assets/success metric.png) 
+![](../assets/success_metric.png) 
 
 For example, suppose you have created an activity for all visitors entering from your home page and reaching the conversion page, but you also want to drill down more on visitors who have added more than $50 into the cart before converting. 
 
@@ -35,4 +35,4 @@ Consider the following information when applying a reporting audience to a succe
 
 To view the segmentation in reporting, select the desired audience from the Audience drop-down list in the activity's report. 
 
-![](../assets/reporting audience dropdown.png) 
+![](../assets/reporting_audience_dropdown.png) 

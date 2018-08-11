@@ -6,7 +6,7 @@ seo-title: Edit an Activity or Save as Draft
 solution: Target
 title: Edit an Activity or Save as Draft
 topic: Standard
-uuid: 64e6db5e-9446-4057-8891-cc898877300d
+uuid: 0f583379-166d-4c53-856a-565d2fc57203
 index: y
 internal: n
 snippet: y
@@ -39,11 +39,11 @@ This section contains the following information:
 
    Target opens the activity and you see the Experiences page (the first step in the three-step guided workflow). A split button displays at the top right fo the page, as shown below: 
 
-   ![](../assets/edit split button.png) 
+   ![](../assets/edit_split_button.png) 
 
 1. Edit the activity, as desired using the split button: 
 
-   ![](../assets/edit split button 2.png) 
+   ![](../assets/edit_split_button_2.png) 
 
 
     * **Next: **To edit another page in the three-step workflow, click ** [!UICONTROL  Next] ** to advance to the desired step. For example, in the illustration above, clicking [!UICONTROL  Next] displays the Targeting step. 
@@ -61,7 +61,7 @@ This section contains the following information:
 
 1. To avoid having to step through the workflow, click the desired activity from the Activities page to open it, then select an option from the ** [!UICONTROL  Edit Activity] ** drop-down list. 
 
-   ![](../assets/edit activity.png) 
+   ![](../assets/edit_activity.png) 
 
 1. Select the desired option:: 
 
@@ -100,7 +100,7 @@ You can save an activity in draft mode if the activity setup has been started bu
 
 1. Select the desired option from the split button: 
 
-   ![](../assets/save draft.png) 
+   ![](../assets/save_draft.png) 
 
 
     * **Next: **To edit another page in the three-step workflow, click ** [!UICONTROL  Next] ** to advance to the desired step. 

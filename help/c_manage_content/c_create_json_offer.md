@@ -6,7 +6,7 @@ seo-title: Create JSON Offers
 solution: Target
 title: Create JSON Offers
 topic: Standard
-uuid: 2eeecc7d-0dcf-4293-a8e0-47795b9bf72f
+uuid: 0d2b1e74-e6b8-481a-8257-8c5422a43610
 index: y
 internal: n
 snippet: y

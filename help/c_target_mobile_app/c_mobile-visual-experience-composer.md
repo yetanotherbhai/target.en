@@ -6,7 +6,7 @@ seo-title: Mobile App Visual Experience Composer
 solution: Target
 title: Mobile App Visual Experience Composer
 topic: Standard
-uuid: b33be2c8-4469-45ea-9896-2e7978b24c78
+uuid: 15c72c41-d6c4-4f42-98b1-a32dbb459a5a
 index: y
 internal: n
 snippet: y
@@ -197,7 +197,7 @@ The following illustration represents the process of using the Mobile VEC:
   </tr> 
   <tr> 
    <td colname="col1"> <p>Authoring </p> </td> 
-   <td colname="col2"> <p>Author a <a href="c_activities.xml#concept_D317A95A1AB54674BA7AB65C7985BA03" format="dita" scope="local"> Target activity </a>, with real-time preview of actions performed in the Target UI. </p> </td> 
+   <td colname="col2"> <p>Author a <a href="c_activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03" format="dita" scope="local"> Target activity </a>, with real-time preview of actions performed in the Target UI. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Delivery </p> </td> 
@@ -258,7 +258,7 @@ After the app is connected and a real-time view of the app appears in the VEC, y
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Swap Image </p> </td> 
-   <td colname="col2"> <p>Replace an image in the app with an alternate image. These images will be served via <a href="../ov/t_scene7_settings.xml#task_37AD0768EFBA4E588955FE3D5DD670A5" format="dita" scope="local"> Adobe Scene7 </a>. </p> </td> 
+   <td colname="col2"> <p>Replace an image in the app with an alternate image. These images will be served via <a href="../ov/t_scene7_settings.md#task_37AD0768EFBA4E588955FE3D5DD670A5" format="dita" scope="local"> Adobe Scene7 </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Change Text </p> </td> 

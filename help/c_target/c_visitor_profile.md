@@ -7,7 +7,7 @@ solution: Target
 subtopic: Getting Started
 title: Visitor Profiles
 topic: Standard
-uuid: 049dde47-b0d0-474f-80e6-39b9750b5f05
+uuid: d94f1b2b-7184-4035-a7ed-8cfcaa41fdeb
 index: y
 internal: n
 snippet: y

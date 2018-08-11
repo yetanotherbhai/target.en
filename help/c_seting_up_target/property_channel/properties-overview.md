@@ -8,7 +8,7 @@ subtopic: Getting Started
 title: Configure Enterprise Permissions
 title_outputclass: premium
 topic: Premium
-uuid: 89c6b482-6444-4d79-bfbd-93f7e50c8917
+uuid: e43cbeac-34d6-4529-8511-e0fde753175d
 badge: assets/premium.png
 index: y
 internal: n
@@ -38,27 +38,27 @@ The following table lists the tasks you should perform to create properties and 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <a href="properties-overview.xml#concept_22F2855DBF0D4754B9460F5D68749C71/section_A92AF0F921B743FEB9E9033433BD816A" format="dita" scope="local"> 1. Add Users (Optional) </a> </p> </td> 
+   <td colname="col1"> <p> <a href="properties-overview.md#concept_22F2855DBF0D4754B9460F5D68749C71/section_A92AF0F921B743FEB9E9033433BD816A" format="dita" scope="local"> 1. Add Users (Optional) </a> </p> </td> 
    <td colname="col2"> <p> <span class="keyword"> Adobe Admin Console for Enterprise </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="properties-overview.xml#concept_22F2855DBF0D4754B9460F5D68749C71/section_B82EB409B67C4D9D9D20CE30E48DB1DC" format="dita" scope="local"> 2. Create a Workspace (Product Profile) </a> </p> </td> 
+   <td colname="col1"> <p> <a href="properties-overview.md#concept_22F2855DBF0D4754B9460F5D68749C71/section_B82EB409B67C4D9D9D20CE30E48DB1DC" format="dita" scope="local"> 2. Create a Workspace (Product Profile) </a> </p> </td> 
    <td colname="col2"> <p> <span class="keyword"> Adobe Admin Console for Enterprise </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="properties-overview.xml#concept_22F2855DBF0D4754B9460F5D68749C71/section_5F5CB9AA7A9F4D26953E22016DA59605" format="dita" scope="local"> 3. Create User Groups (Optional) </a> </p> </td> 
+   <td colname="col1"> <p> <a href="properties-overview.md#concept_22F2855DBF0D4754B9460F5D68749C71/section_5F5CB9AA7A9F4D26953E22016DA59605" format="dita" scope="local"> 3. Create User Groups (Optional) </a> </p> </td> 
    <td colname="col2"> <p> <span class="keyword"> Adobe Admin Console for Enterprise </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="properties-overview.xml#concept_22F2855DBF0D4754B9460F5D68749C71/section_E8F2C92BE0F4466AB87604059C9CF3FD" format="dita" scope="local"> 4. Create Properties </a> </p> </td> 
+   <td colname="col1"> <p> <a href="properties-overview.md#concept_22F2855DBF0D4754B9460F5D68749C71/section_E8F2C92BE0F4466AB87604059C9CF3FD" format="dita" scope="local"> 4. Create Properties </a> </p> </td> 
    <td colname="col2"> <p>Target UI </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="properties-overview.xml#concept_22F2855DBF0D4754B9460F5D68749C71/section_9B17A59807A94712BE642942442EBBC8" format="dita" scope="local"> 5: Update Your Implementation to Include the at_property Parameter </a> </p> </td> 
+   <td colname="col1"> <p> <a href="properties-overview.md#concept_22F2855DBF0D4754B9460F5D68749C71/section_9B17A59807A94712BE642942442EBBC8" format="dita" scope="local"> 5: Update Your Implementation to Include the at_property Parameter </a> </p> </td> 
    <td colname="col2"> <p>Target UI / <span class="codeph"> at.js </span> functions / Dynamic Tag Management </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="properties-overview.xml#concept_22F2855DBF0D4754B9460F5D68749C71/section_8C425E43E5DD4111BBFC734A2B7ABC80" format="dita" scope="local"> 6: Specify Roles and Permissions </a> </p> </td> 
+   <td colname="col1"> <p> <a href="properties-overview.md#concept_22F2855DBF0D4754B9460F5D68749C71/section_8C425E43E5DD4111BBFC734A2B7ABC80" format="dita" scope="local"> 6: Specify Roles and Permissions </a> </p> </td> 
    <td colname="col2"> <p> <span class="keyword"> Adobe Admin Console for Enterprise </span> </p> </td> 
   </tr> 
  </tbody> 
@@ -212,7 +212,7 @@ Properties belong to specific channels (Web, Mobile, Email, and API/Other).
 
 1. Click **Create Property**. 
 
-   ![](../../assets/new property.png) 
+   ![](../../assets/new_property.png) 
 
    Fill in the fields: 
 
@@ -248,11 +248,11 @@ To use the [!DNL  Target] user-permissions functionality, you must add the ` at_
 
     1. Hover your mouse pointer over the [!UICONTROL  Last Updated] column for the desired property to display and click the [!UICONTROL  Code] icon (  ![](../../assets/icon_code.png)). 
 
-       ![](../../assets/code property.png) 
+       ![](../../assets/code_property.png) 
 
     1. Right-click the highlighted implementation code to copy it to your clipboard. 
 
-       ![](../../assets/code property 2.png) 
+       ![](../../assets/code_property_2.png) 
 
 
 1. Update your Target implementation with the implementation code obtained in the previous step. 
@@ -262,19 +262,19 @@ To use the [!DNL  Target] user-permissions functionality, you must add the ` at_
 
     * **Via a "Global Parameter" in [!DNL  Dynamic Tag Management] (Adobe Activation):** 
 
-      ![](../../assets/property token 2.png) 
+      ![](../../assets/property_token_2.png) 
 
       For more information, see [ Global Parameters - Adobe Target ](https://marketing.adobe.com/resources/help/en_US/dtm/target_global_params.html) in the *Dynamic Tag Management Product Documentation*. 
 
     * **Via the targetPageParams() function: **Place the following code in the &lt;head&gt; tags, above the at.js or mbox.js reference. 
 
-      ![](../../assets/property token 1.png) 
+      ![](../../assets/property_token_1.png) 
 
       For more information about how to do this with at.js, see [ targetPageParams() ](cmp_at.js_Functions.md#reference_B235C9F6DA79449ABE3E23F914FEABAE). 
 
     * **Via the mboxCreate() function:** 
 
-      ![](../../assets/property token 3.png) 
+      ![](../../assets/property_token_3.png) 
 
       For more information about how to do this with at.js, see [ targetPageParams() ](cmp_at.js_Functions.md#reference_B235C9F6DA79449ABE3E23F914FEABAE). [ mboxCreate(mbox,params) ](cmp_at.js_Functions.md#reference_E68805FE86C64792B2066DB17B253D74) 
 
@@ -301,7 +301,7 @@ To use the [!DNL  Target] user-permissions functionality, you must add the ` at_
 
    The [!UICONTROL  Configuration Users] tab displays all of the users in that workspace. 
 
-   ![](../../assets/configuration users.png) 
+   ![](../../assets/configuration_users.png) 
 
 1. Select the desired permissions role (Approver, Editor, or Observer) by using the drop-down list for each user in the [!UICONTROL  Product Role] column. 
 

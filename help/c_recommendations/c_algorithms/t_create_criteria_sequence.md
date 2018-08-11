@@ -7,7 +7,7 @@ solution: Target
 title: Creating Criteria Sequences
 title_outputclass: premium
 topic: Premium
-uuid: 249c5651-8616-4d04-adcf-f2f6bd2b46c2
+uuid: a680e156-e5ce-4401-9aab-a821583cd7ad
 badge: assets/premium.png
 index: y
 internal: n

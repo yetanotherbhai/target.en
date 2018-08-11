@@ -6,7 +6,7 @@ seo-title: Target Mobile Preview
 solution: Target
 title: Target Mobile Preview
 topic: Advanced,Standard,Classic
-uuid: bf666e90-997a-44c9-8451-ee2778148e90
+uuid: 81536fa9-1776-4773-ba09-94d946e06b73
 index: y
 internal: n
 snippet: y

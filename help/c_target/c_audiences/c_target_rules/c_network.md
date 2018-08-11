@@ -5,7 +5,7 @@ seo-description: You can create audiences based on network details.
 seo-title: Network
 solution: Target
 title: Network
-uuid: 45bc9533-256f-475f-9f4a-8a356fa3d673
+uuid: 86a6d1c7-b791-48c9-b94d-282ceb9058d9
 index: y
 internal: n
 snippet: y

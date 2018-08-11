@@ -6,7 +6,7 @@ seo-title: Uploading Content
 solution: Target
 title: Uploading Content
 topic: Standard
-uuid: 3ade5307-cece-41f2-b4e1-a532f7ba1f60
+uuid: bd56560e-14fb-480a-9a38-fb7c3dad7467
 index: y
 internal: n
 snippet: y

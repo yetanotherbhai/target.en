@@ -7,7 +7,7 @@ solution: Target
 subtopic: Code Editor
 title: Modifications
 topic: Standard
-uuid: f2b5486f-b7d4-4da4-ac42-892bb6040115
+uuid: 2d30fb53-9e2a-4167-90ba-5ca33c115a9c
 index: y
 internal: n
 snippet: y
@@ -310,7 +310,7 @@ This message indicates that the structure of your page has changed since the act
 
 The missing selectors might be reached using Browse mode. We recommend that you delete and then re-create each experience to ensure that your content looks as you expect, as indicated in the warning message. 
 
-![](../assets/code editor 2.png) 
+![](../assets/code_editor_2.png) 
 
 * **When I delete an element, I see a warning tells me that says "Deleting this action may impact subsequent actions." What does this mean?** * 
 

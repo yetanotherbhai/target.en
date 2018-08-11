@@ -6,7 +6,7 @@ solution: Target
 subtopic: Multivariate Test
 title: Redirect to a URL
 topic: Standard
-uuid: edf3a22b-75b4-4a18-b2b3-f6c9460c078a
+uuid: 55f60b23-833a-441c-9a21-b6ead5cd29dd
 index: y
 internal: n
 snippet: y

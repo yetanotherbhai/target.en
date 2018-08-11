@@ -5,7 +5,7 @@ seo-description: Information about issues customers face when using cloud-based 
 seo-title: Using Cloud-Based Instances with Target
 solution: Target
 title: Using Cloud-Based Instances with Target
-uuid: 67a10ec2-86b2-4619-9cfe-4e3eb335908c
+uuid: 14260868-1b6d-459a-9d68-5fa1a6a20369
 index: y
 internal: n
 snippet: y

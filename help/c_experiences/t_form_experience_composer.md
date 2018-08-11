@@ -6,7 +6,7 @@ seo-title: Form-Based Experience Composer
 solution: Target
 title: Form-Based Experience Composer
 topic: Standard
-uuid: 592428a1-d567-43ba-af8a-1587b41f0ce4
+uuid: 4e88573c-a7b1-4df1-8f17-f7b570c20ef8
 index: y
 internal: n
 snippet: y
@@ -64,7 +64,7 @@ If you are creating a Recommendations activity, there are no experiences. Choose
 >       You can also enter a location that is not listed here. This can be useful if the mbox has not yet been created or viewed on a page. Type the name of the location. Be careful when entering a location that does not yet exist. If the spelling or capitalization does not match the spelling and capitalization when the mbox call is made, the activity will not deliver. Manually entered locations are saved to the list. 
 >1. Click ** [!UICONTROL  Add Audience Refinements] **, then choose one or more [ audience](c_target.md#concept_A782F8481A5041EBA75103CB26376522) for this activity.
 
->       ![](../assets/location_refinements 2.png) 
+>       ![](../assets/location_refinements_2.png) 
 
 >       In the Form-based Experience Composer, Refinements have been replaced with full audience functionality. Refinements for existing activities have been migrated to [ activity-only audiences](creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483). 
 >1. Select the type of content you want to appear in that location.
@@ -105,7 +105,7 @@ If you are creating a Recommendations activity, there are no experiences. Choose
   </tr> 
   <tr> 
    <td colname="col1"> <p>Create HTML Offer </p> </td> 
-   <td colname="col2"> <p>Type or paste the HTML offer source code in the Enter HTML field. </p> <p>For information about using the code editor to create or edit HTML offers, see <a href="c_vec_code_editor.xml#concept_B3A6E9EE3A60406DB640E205EA1745B5" format="dita" scope="local"> Code Editor</a>. </p> </td> 
+   <td colname="col2"> <p>Type or paste the HTML offer source code in the Enter HTML field. </p> <p>For information about using the code editor to create or edit HTML offers, see <a href="c_vec_code_editor.md#concept_B3A6E9EE3A60406DB640E205EA1745B5" format="dita" scope="local"> Code Editor</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -114,11 +114,11 @@ If you are creating a Recommendations activity, there are no experiences. Choose
 
 >       While selecting Recommendations criteria in the Form-Based Experience Composer, there is now a direct link to the selected Criteria card so you can quickly and easily edit the criteria. 
 
->       ![](../assets/change criteria.png) 
+>       ![](../assets/change_criteria.png) 
 
 >       From the Targeting page of the Target three-step guided workflow: 
 
->       ![](../assets/change criteria 2.png) 
+>       ![](../assets/change_criteria_2.png) 
 >1. (Optional, for AB activities, Automated Personalization, and Experience Targeting) To repeat this process for additional locations, click  and configure the location and content.
 >1. Click ** [!UICONTROL  Continue] **, then complete the activity creation steps as usual for your activity type.
 

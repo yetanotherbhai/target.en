@@ -3,7 +3,7 @@ description: The way Target makes and responds to calls from your page depends o
 seo-description: The way Target makes and responds to calls from your page depends on the version of the Target library you are using, whether the Experience Cloud Visitor ID implementation is present, and whether the visitor ID exists.
 seo-title: Target Page Methods by mbox.js Library Version
 title: Target Page Methods by mbox.js Library Version
-uuid: 9908cfa0-e2db-4a69-848e-8532d30f2394
+uuid: a04d4eb0-88a0-44d5-a562-d81aa2c62caf
 index: y
 internal: n
 snippet: y

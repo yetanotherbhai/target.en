@@ -6,7 +6,7 @@ seo-title: Target APIs and NodeJS SDK
 solution: Target
 title: Target APIs and NodeJS SDK
 topic: Recommendations
-uuid: 6957f352-7f62-4064-a19e-6838439bd1c6
+uuid: d9daa88a-eb37-46ff-828e-5ebc8ce6f96f
 index: y
 internal: n
 snippet: y
@@ -60,7 +60,7 @@ The following table lists the various APIs and the NodeJS SDK and provides addit
   </tr> 
   <tr> 
    <td colname="col1"> <p>Target Classic APIs </p> </td> 
-   <td colname="col2"> <p>The Target Classic UI and APIs have been decommissioned. For information about switching to Target’s modern APIs, see <a href="c_target-api-documentation.xml#concept_3A31E26C8FAF49598152ACFE088BD4D2" format="dita" scope="local"> Transitioning from Target Legacy APIs to Adobe I/O</a>. </p> </td> 
+   <td colname="col2"> <p>The Target Classic UI and APIs have been decommissioned. For information about switching to Target’s modern APIs, see <a href="c_target-api-documentation.md#concept_3A31E26C8FAF49598152ACFE088BD4D2" format="dita" scope="local"> Transitioning from Target Legacy APIs to Adobe I/O</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

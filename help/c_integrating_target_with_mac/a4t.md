@@ -7,7 +7,7 @@ solution: Target
 subtopic: Multivariate Test
 title: Adobe Analytics as the Reporting Source for Adobe Target (A4T)
 topic: Standard
-uuid: 4dcb2b5e-f7b5-41ee-a42f-5be0957aa3a3
+uuid: 93190a31-1bf8-4931-8267-d8ff0a668b2d
 index: y
 internal: n
 snippet: y
@@ -215,7 +215,7 @@ The following table shows you which activity types support Analytics as the repo
   <tr> 
    <td colname="col1"> <p>Any activity using a Redirect offer </p> </td> 
    <td colname="col3"> <p>Yes </p> </td> 
-   <td colname="col5"> <p>There are stricter minimum requirements for using redirect offers with A4T. For more information, see <a href="c_a4t-faq-redirect-offers.xml#concept_21BF213F10E1414A9DCD4A98AF207905" format="dita" scope="local"> Redirect Offers - A4T FAQ </a>. </p> </td> 
+   <td colname="col5"> <p>There are stricter minimum requirements for using redirect offers with A4T. For more information, see <a href="c_a4t-faq-redirect-offers.md#concept_21BF213F10E1414A9DCD4A98AF207905" format="dita" scope="local"> Redirect Offers - A4T FAQ </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Node.JS </p> </td> 
@@ -238,18 +238,18 @@ To view A4T reports in [!DNL  Target], click ** [!UICONTROL  Activities] **, cli
 
 
 
-You can toggle between the [!UICONTROL  Table View] (  ![](../assets/icon table view report.png) ) and [!UICONTROL  Graph View] (  ![](../assets/icon graph view report.png) ) of the report by clicking the appropriate icon at the top right side of the report. 
+You can toggle between the [!UICONTROL  Table View] (  ![](../assets/icon_table_view_report.png) ) and [!UICONTROL  Graph View] (  ![](../assets/icon_graph_view_report.png) ) of the report by clicking the appropriate icon at the top right side of the report. 
 
 The following illustration shows the [!UICONTROL  Graph View] of an A4T report with the [!UICONTROL  Report Metric] drop-down list displaying the available [!DNL  Analytics] goal metrics: 
 
-![](../assets/a4t report graph1.png) 
+![](../assets/a4t_report_graph1.png) 
 
 The following illustration shows the [!UICONTROL  Graph View] of an A4T report with the [!UICONTROL  Audience] drop-down list displaying the available [!DNL  Analytics] audiences: 
 
-![](../assets/a4t report graph2.png) 
+![](../assets/a4t_report_graph2.png) 
 
 The following illustration shows the [!UICONTROL  Table View] of an A4T report: 
 
-![](../assets/a4t report table.png) 
+![](../assets/a4t_report_table.png) 
 
 To view the report in [!DNL  Analytics] rather than in [!DNL  Target], click ** [!UICONTROL  View in Analytics] ** along the top of the report. 

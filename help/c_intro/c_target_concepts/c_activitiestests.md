@@ -7,7 +7,7 @@ solution: Target
 subtopic: Getting Started
 title: Activities and Tests
 topic: Standard
-uuid: b8773561-96ce-49bd-be54-85be68971c08
+uuid: 80c81932-cc42-4558-862d-f205d621c752
 index: y
 internal: n
 snippet: y
@@ -65,8 +65,8 @@ There are several types of activities:
    <td colname="col1"> <p class="- topic/p "> <a href="https://marketing.adobe.com/resources/help/en_US/target/target/t_test_ab.html" format="https" scope="external"> A/B test</a> </p> </td> 
    <td colname="col2"> <p class="- topic/p ">A/B Testing compares two or more versions of your Web site content to see which version best improves your conversions during a pre-specified test period. </p> <p>The following are two types of A/B tests you can use: </p> 
     <ul id="ul_1A94061695D74ABEADE7C579B1349F09"> 
-     <li id="li_97B7AB009C86403AA6ABEECE03B15659"> <p><a href="../target/automated_traffic_allocation.xml#concept_A1407678796B4C569E94CBA8A9F7F5D4" format="dita" scope="local"> Auto-Allocate</a> </p> <p>Auto Allocate identifies a winner among two or more experiences and automatically reallocates more traffic to the winner to increase conversions while the test continues to run and learn. </p> </li> 
-     <li id="li_69D72AECB5524DC0B2C80AE332B5A178"> <p><a href="../target/c_auto-target-to-optimize.xml#concept_67779E5B7F67427A97D7EA2A6FB919B3" format="dita" scope="local"> Auto-Target For Personalized Experiences</a> </p> <p>Auto Target uses advanced machine learning to identify multiple high performing marketer-defined experiences, and serves the most tailored experience to each visitor based on their individual customer profile and the behavior of previous visitors with similar profiles, in order to personalize content and drive conversions. </p> </li> 
+     <li id="li_97B7AB009C86403AA6ABEECE03B15659"> <p><a href="../target/automated_traffic_allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4" format="dita" scope="local"> Auto-Allocate</a> </p> <p>Auto Allocate identifies a winner among two or more experiences and automatically reallocates more traffic to the winner to increase conversions while the test continues to run and learn. </p> </li> 
+     <li id="li_69D72AECB5524DC0B2C80AE332B5A178"> <p><a href="../target/c_auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3" format="dita" scope="local"> Auto-Target For Personalized Experiences</a> </p> <p>Auto Target uses advanced machine learning to identify multiple high performing marketer-defined experiences, and serves the most tailored experience to each visitor based on their individual customer profile and the behavior of previous visitors with similar profiles, in order to personalize content and drive conversions. </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 

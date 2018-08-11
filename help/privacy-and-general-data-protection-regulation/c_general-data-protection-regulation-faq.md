@@ -6,7 +6,7 @@ seo-title: General Data Protection Regulation FAQ
 solution: Target
 title: General Data Protection Regulation FAQ
 topic: Standard
-uuid: 6a42a474-2f62-4004-8420-00c659a271ec
+uuid: 5b6ac498-b507-44c9-9801-b27d713f893f
 index: y
 internal: n
 snippet: y
@@ -279,15 +279,15 @@ The following table contains descriptions for the returned fields in the data ac
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> namespace</span> </p> </td> 
-   <td colname="col2"> <p>Also referred to as data source. See <a href="c_general-data-protection-regulation-faq.xml#concept_41F88DE95D2943178BEC382736B5C038/section_F7D0EE4E6A28490FB20056A0D26118BC" format="dita" scope="local"> What IDs are supported to help customers complete a GDPR access and deletion request for Target?</a>” </p> </td> 
+   <td colname="col2"> <p>Also referred to as data source. See <a href="c_general-data-protection-regulation-faq.md#concept_41F88DE95D2943178BEC382736B5C038/section_F7D0EE4E6A28490FB20056A0D26118BC" format="dita" scope="local"> What IDs are supported to help customers complete a GDPR access and deletion request for Target?</a>” </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> type</span> </p> </td> 
-   <td colname="col2"> <p>The type of ID for which you requested the GDPR data access. Target accepts several ID types, some of which are standard and some of which are Target-specific. See <a href="c_general-data-protection-regulation-faq.xml#concept_41F88DE95D2943178BEC382736B5C038/section_F7D0EE4E6A28490FB20056A0D26118BC" format="dita" scope="local"> What IDs are supported to help customers complete a GDPR access and deletion request for Target?</a> </p> </td> 
+   <td colname="col2"> <p>The type of ID for which you requested the GDPR data access. Target accepts several ID types, some of which are standard and some of which are Target-specific. See <a href="c_general-data-protection-regulation-faq.md#concept_41F88DE95D2943178BEC382736B5C038/section_F7D0EE4E6A28490FB20056A0D26118BC" format="dita" scope="local"> What IDs are supported to help customers complete a GDPR access and deletion request for Target?</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> value</span> </p> </td> 
-   <td colname="col2"> <p>The ID of the namespace/data source. See <a href="c_general-data-protection-regulation-faq.xml#concept_41F88DE95D2943178BEC382736B5C038/section_F7D0EE4E6A28490FB20056A0D26118BC" format="dita" scope="local"> What IDs are supported to help customers complete a GDPR access and deletion request for Target?</a> for accepted values. </p> </td> 
+   <td colname="col2"> <p>The ID of the namespace/data source. See <a href="c_general-data-protection-regulation-faq.md#concept_41F88DE95D2943178BEC382736B5C038/section_F7D0EE4E6A28490FB20056A0D26118BC" format="dita" scope="local"> What IDs are supported to help customers complete a GDPR access and deletion request for Target?</a> for accepted values. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> integration code</span> </p> </td> 
@@ -331,7 +331,7 @@ The following table contains description of the illustrative profile JSON fields
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> Sample_Parameter</span> </p> </td> 
-   <td colname="col2"> <p>Many pieces of information in the Target profile are uploaded or directly provided by the Data Controller. In this example, a parameter was uploaded into the Target profile using the Profile Update API. For more information, see <a href="../ov2/c_methods-to-get-data-into-target.xml#concept_0069C0EFB56C4700BB33F2F35C2B9B17" format="dita" scope="local"> Methods to get Data into Target</a>. </p> </td> 
+   <td colname="col2"> <p>Many pieces of information in the Target profile are uploaded or directly provided by the Data Controller. In this example, a parameter was uploaded into the Target profile using the Profile Update API. For more information, see <a href="../ov2/c_methods-to-get-data-into-target.md#concept_0069C0EFB56C4700BB33F2F35C2B9B17" format="dita" scope="local"> Methods to get Data into Target</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> user.ReturnTimeOfDay</span> </p> </td> 
@@ -343,7 +343,7 @@ The following table contains description of the illustrative profile JSON fields
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> user.sessionCountScript</span> </p> </td> 
-   <td colname="col2"> <p>Many pieces of information in the Target profile are uploaded or directly provided by the Data Controller. In this example, a profile script is incrementing the number of sessions this visitor has made to the Data Controller’s site. For more information, see <a href="c_profile_parameters.xml#concept_8C07AEAB0A144FECA8B4FEB091AED4D2" format="dita" scope="local"> Profile Script Attributes</a>. </p> </td> 
+   <td colname="col2"> <p>Many pieces of information in the Target profile are uploaded or directly provided by the Data Controller. In this example, a profile script is incrementing the number of sessions this visitor has made to the Data Controller’s site. For more information, see <a href="c_profile_parameters.md#concept_8C07AEAB0A144FECA8B4FEB091AED4D2" format="dita" scope="local"> Profile Script Attributes</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

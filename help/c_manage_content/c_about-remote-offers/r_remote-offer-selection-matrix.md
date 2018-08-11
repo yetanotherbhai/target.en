@@ -6,7 +6,7 @@ seo-title: Remote Offer Selection Matrix
 solution: Target
 title: Remote Offer Selection Matrix
 topic: Standard
-uuid: 74acd476-9909-477d-97e1-be072fb981da
+uuid: e1382c03-ca7d-41d6-818a-0eb1123b6ade
 index: y
 internal: n
 snippet: y

@@ -6,7 +6,7 @@ seo-title: Targets and Audiences Frequently Asked Questions
 solution: Target
 title: Targets and Audiences Frequently Asked Questions
 topic: Standard
-uuid: aaccd93f-6a6b-43df-a969-1e6207522185
+uuid: 34225274-0b16-4f42-bf57-2b5c95a7ba89
 index: y
 internal: n
 snippet: y

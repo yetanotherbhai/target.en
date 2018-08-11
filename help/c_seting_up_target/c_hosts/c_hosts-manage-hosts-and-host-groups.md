@@ -6,7 +6,7 @@ seo-title: Manage Hosts and Environments
 solution: Target
 title: Manage Hosts and Environments
 topic: Standard
-uuid: 4eb8e776-99c0-404c-b937-0a4f35fc6df4
+uuid: 1fb3d1c0-b03b-44f1-b0e4-604fdd7bc273
 index: y
 internal: n
 snippet: y

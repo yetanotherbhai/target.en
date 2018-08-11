@@ -7,7 +7,7 @@ solution: Target
 subtopic: Multivariate Test
 title: Analytics for Target (A4T) Reporting
 topic: Standard
-uuid: 92c5ebcd-3737-44d6-9199-856b269df633
+uuid: 5b52255f-048b-482d-94bc-da0321d9317d
 index: y
 internal: n
 snippet: y

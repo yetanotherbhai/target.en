@@ -6,7 +6,7 @@ seo-title: Site Pages
 solution: Target
 title: Site Pages
 topic: Standard
-uuid: dbf8a44e-c87f-4a63-943c-8732ac579a07
+uuid: d3a917b1-d3a6-4ed8-b091-e88da13e1ffc
 index: y
 internal: n
 snippet: y
@@ -75,7 +75,7 @@ Use a:
 
 as illustrated below: 
 
-![](../../../assets/site pages.png) 
+![](../../../assets/site_pages.png) 
 
 This video includes information about using audience categories. 
 

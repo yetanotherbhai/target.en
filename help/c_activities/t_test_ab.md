@@ -5,7 +5,7 @@ seo-description: A/B Testing compares two or more versions of your Web site cont
 seo-title: A/B Test
 solution: Target
 title: A/B Test
-uuid: 1a1217e7-f89f-4fc0-a4cd-3a661d7a29f5
+uuid: 9d61b8a0-7b2f-405c-93a2-29db33f7cdd6
 index: y
 internal: n
 snippet: y

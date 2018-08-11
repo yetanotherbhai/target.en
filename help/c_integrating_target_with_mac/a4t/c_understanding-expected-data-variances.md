@@ -6,7 +6,7 @@ seo-title: Expected Data Variances When Not Using A4T
 solution: Target
 title: Expected Data Variances When Not Using A4T
 topic: Advanced
-uuid: 36e5d221-26b6-4ca1-9b86-8a09df3ea8b5
+uuid: 0b2f4175-668a-4465-bb6e-8e7d59e44d57
 index: y
 internal: n
 snippet: y
@@ -20,7 +20,7 @@ translate: y
 <table id="table_8C6EF23E70CF4788AADA1C9941DEDF31"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <p>Note:  With A4T, both Analytics and Target reporting of activities use Analytics data exclusively, so there is no variance between the solutions in Target activity reports. In some circumstances, however, customers might compare Target data to Analytics data outside the scope of the A4T integration and, thus, experience the variance issues described below. </p> </p> <p>Here is a scenario in which you might experience expected data variance: Suppose you create an Auto-Allocate activity open to all visitors to a particular page. Because Auto-Allocate activities don't support A4T, all of the activity data is collected by Target. You might expect that the visitors to the activity in the Target reporting should match the visitors to that page in the Analytics reporting for the same date range. This is a scenario in which the variance described below is expected. </p> <p>For a complete list of activity types that support A4T, see <a href="a4t.xml#concept_7540C8C04259434AB6EE33B09F47A1DE/section_F487896214BF4803AF78C552EF1669AA" format="dita" scope="local"> Supported Activity Types </a>. </p> </td> 
+   <td colname="col1"> <p> <p>Note:  With A4T, both Analytics and Target reporting of activities use Analytics data exclusively, so there is no variance between the solutions in Target activity reports. In some circumstances, however, customers might compare Target data to Analytics data outside the scope of the A4T integration and, thus, experience the variance issues described below. </p> </p> <p>Here is a scenario in which you might experience expected data variance: Suppose you create an Auto-Allocate activity open to all visitors to a particular page. Because Auto-Allocate activities don't support A4T, all of the activity data is collected by Target. You might expect that the visitors to the activity in the Target reporting should match the visitors to that page in the Analytics reporting for the same date range. This is a scenario in which the variance described below is expected. </p> <p>For a complete list of activity types that support A4T, see <a href="a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE/section_F487896214BF4803AF78C552EF1669AA" format="dita" scope="local"> Supported Activity Types </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

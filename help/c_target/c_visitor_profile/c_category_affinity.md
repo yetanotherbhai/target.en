@@ -6,7 +6,7 @@ seo-title: Category Affinity
 solution: Target
 title: Category Affinity
 topic: Standard
-uuid: 9ec39db9-3c9e-4276-8d90-df54a902dec5
+uuid: d61909ab-2e95-4895-a10c-56190e0cab53
 index: y
 internal: n
 snippet: y

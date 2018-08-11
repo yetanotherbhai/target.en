@@ -6,7 +6,7 @@ seo-title: Multiple Experience Versions in an A/B Test
 solution: Target
 title: Multiple Experience Versions in an A/B Test
 topic: Standard
-uuid: c122b376-1f99-4ea5-abff-2c5e8f4fb896
+uuid: ad4905d5-4f3a-4566-ad94-c9864e8cd176
 index: y
 internal: n
 snippet: y

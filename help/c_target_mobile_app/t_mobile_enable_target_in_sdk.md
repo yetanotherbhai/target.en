@@ -5,7 +5,7 @@ seo-description: Add the Adobe Mobile Services SDK to your app.
 seo-title: Enable Target in the SDK
 title: Enable Target in the SDK
 topic: Target
-uuid: 5bf10008-b7a4-41e2-8e6b-36b1b4f05f4f
+uuid: ecb1b9a9-1872-4a2d-ad36-a3b9f22e1da5
 index: y
 internal: n
 snippet: y

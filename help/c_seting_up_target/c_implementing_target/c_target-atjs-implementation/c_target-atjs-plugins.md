@@ -6,7 +6,7 @@ seo-title: at.js Plug-ins
 solution: Target
 title: at.js Plug-ins
 topic: Standard
-uuid: cf8e0d44-1df8-4631-9370-42c5c6c66d65
+uuid: aba251cd-63de-4d24-a8a1-8935c2d4f33f
 index: y
 internal: n
 snippet: y
@@ -31,7 +31,7 @@ Here is the current status of some of the plug-ins that are used by many custome
  <tbody> 
   <tr> 
    <td colname="col1"> mboxTrack </td> 
-   <td colname="col2"> <p>Not supported. </p> <p>This is replaced by the <a href="cmp_at.js_Functions.xml#reference_7E0F19368F9C4BC38F1E5DC5E717E487" format="dita" scope="local"> adobe.target.trackEvent(options)</a> function. Update your plug-ins to apply the new function. </p> <p> See the <a href="c_target-atjs-integrations.xml#concept_C100BC4F073C4B57A608B309D0157B39" format="dita" scope="local"> integrations</a> page. </p> </td> 
+   <td colname="col2"> <p>Not supported. </p> <p>This is replaced by the <a href="cmp_at.js_Functions.md#reference_7E0F19368F9C4BC38F1E5DC5E717E487" format="dita" scope="local"> adobe.target.trackEvent(options)</a> function. Update your plug-ins to apply the new function. </p> <p> See the <a href="c_target-atjs-integrations.md#concept_C100BC4F073C4B57A608B309D0157B39" format="dita" scope="local"> integrations</a> page. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Persistent Profile Backup Plugin </td> 

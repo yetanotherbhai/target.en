@@ -5,7 +5,7 @@ seo-title: Target Automated Personalization Offers
 solution: Target,Analytics
 title: Target Automated Personalization Offers
 title_outputclass: premium
-uuid: b1c6f901-e230-4c17-8314-e07891dfccca
+uuid: 141ebcd8-2681-487f-a82b-7e378cfdf839
 badge: assets/premium.png
 index: y
 internal: n

@@ -6,7 +6,7 @@ seo-title: Profile and Variable Glossary
 solution: Target
 title: Profile and Variable Glossary
 topic: Standard
-uuid: d81a1d2b-c7d1-4fe0-96b9-19cac5555b53
+uuid: c8ba7424-ec93-473f-9d28-cf3244f72b17
 index: y
 internal: n
 snippet: y
@@ -239,7 +239,7 @@ This section contains the following information:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> mbox3rdPartyId </span> </p> </td> 
-   <td colname="col2"> <p>An mbox parameter to sync a customer ID to Target's mboxPCID. A customer ID is an ID your company uses to track visitors, such as a CRM ID, membership ID, or something similar. This ID can then be used to add information via the Profile APIs and <a href="c_working-with-customer-attributes.xml#concept_16C5C434D32D4EB1AD44A71821F3DEE8" format="dita" scope="local"> Customer Attributes </a>. </p> </td> 
+   <td colname="col2"> <p>An mbox parameter to sync a customer ID to Target's mboxPCID. A customer ID is an ID your company uses to track visitors, such as a CRM ID, membership ID, or something similar. This ID can then be used to add information via the Profile APIs and <a href="c_working-with-customer-attributes.md#concept_16C5C434D32D4EB1AD44A71821F3DEE8" format="dita" scope="local"> Customer Attributes </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> mboxPageValue </span> </p> </td> 
@@ -251,7 +251,7 @@ This section contains the following information:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> mboxOverride.browserIp </span> </p> </td> 
-   <td colname="col2"> <p>Sets a different geo than the actual location so you can test how something would look in another location. </p> <p> <p>Note:  Using mboxOverride parameters should be used only while testing the activity and not in production. The use of any <span class="codeph"> mboxOverride </span> parameters can cause reporting discrepancies when using <a href="../a4t/a4t.xml#concept_7540C8C04259434AB6EE33B09F47A1DE" format="dita" scope="local"> Analytics for Target </a> (A4T). You should use <a href="c_activity-qa.xml#concept_9329EF33DE7D41CA9815C8115DBC4E40" format="dita" scope="local"> Activity QA mode </a> while testing to ensure that your activity works as expected before pushing the activity into your live environment. </p> </p> </td> 
+   <td colname="col2"> <p>Sets a different geo than the actual location so you can test how something would look in another location. </p> <p> <p>Note:  Using mboxOverride parameters should be used only while testing the activity and not in production. The use of any <span class="codeph"> mboxOverride </span> parameters can cause reporting discrepancies when using <a href="../a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE" format="dita" scope="local"> Analytics for Target </a> (A4T). You should use <a href="c_activity-qa.md#concept_9329EF33DE7D41CA9815C8115DBC4E40" format="dita" scope="local"> Activity QA mode </a> while testing to ensure that your activity works as expected before pushing the activity into your live environment. </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>

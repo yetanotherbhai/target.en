@@ -5,7 +5,7 @@ seo-description: You can add start/end dates and times to target users who visit
 seo-title: Time Frame
 solution: Target
 title: Time Frame
-uuid: 4b258b16-2bbd-454a-ae71-299dfffe2956
+uuid: 831b6fb4-9038-4537-98f7-58c4be3f7d6c
 index: y
 internal: n
 snippet: y
@@ -39,7 +39,7 @@ For example, using the [ combined, ad-hoc audiences feature](c_combining-multipl
 
 1. (Conditional) Click ** [!UICONTROL  Week and Day Parting] ** to set recurring patterns, including days of the weeks and times. 
 
-   ![](../../../assets/week and day parting.png) 
+   ![](../../../assets/week_and_day_parting.png) 
 
    You could use Week and Day Parting options, for example, to display a "Chat Now" option to visitors only during the days and hours that your call center is staffed. 
 

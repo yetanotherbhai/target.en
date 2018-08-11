@@ -3,7 +3,7 @@ description: null
 seo-description: null
 seo-title: 2014 Releases
 title: 2014 Releases
-uuid: c56d7553-4602-4750-b9d7-9439d28cbf14
+uuid: c4114500-8381-4f90-9b83-84729ae1903c
 index: y
 internal: n
 snippet: y
@@ -108,11 +108,11 @@ This release includes the following new features:
      <li id="li_36E18493A95B4C96BFA3133CDFD8826A">Single line of code implementation with WYSIWYG content editing </li> 
      <li id="li_79B1878FA64A40E88A973C57C39FC5FF">Primary goal for the activity currently uses the Conversion metric. Revenue and engagement are available as additional metrics. </li> 
      <li id="li_FE94A79767EF4534BD02B2AFD7E27E1B">Connection to the <span class="keyword"> Master Marketing Profile </span> for seamless collection of advance visitor behavioral data <p>For information about using the <span class="keyword"> Master Marketing Profile </span> with <span class="keyword"> Target </span>, see <a href="https://marketing.adobe.com/resources/help/en_US/target/mmp/c_mmp.html" format="http" scope="external"> Master Marketing Profile and Real-Time Audiences </a> in the <span class="keyword"> Adobe Target </span> Integration guide. </p> </li> 
-    </ul> <p>See <a href="t_automated_personalization.xml#task_8AAF837796D74CF893CA2F88BA1491C9" format="dita" scope="local"> Automated Personalization </a>. </p> </td> 
+    </ul> <p>See <a href="t_automated_personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9" format="dita" scope="local"> Automated Personalization </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Multiple activities on one page </td> 
-   <td colname="col2"> <p>Content from multiple Target Standard activities can be delivered on one page from one <span class="keyword"> Target </span> server call. </p> <p> <p>Note:  This does not affect the Target Classic priorities evaluation. </p> </p> <p>To learn more about the Target priorities decision process, refer to the <a href="https://marketing.adobe.com/resources/help/en_US/target/target/c_priority.html" format="http" scope="external"> Target Standard help </a>. </p> <p>For information about how Target determines which experience to show when multiple activities target the same location on a page, see <a href="c_priority.xml#concept_1780C11FEA57440499F0047DD6900E0F" format="dita" scope="local"> Priority </a>. </p> </td> 
+   <td colname="col2"> <p>Content from multiple Target Standard activities can be delivered on one page from one <span class="keyword"> Target </span> server call. </p> <p> <p>Note:  This does not affect the Target Classic priorities evaluation. </p> </p> <p>To learn more about the Target priorities decision process, refer to the <a href="https://marketing.adobe.com/resources/help/en_US/target/target/c_priority.html" format="http" scope="external"> Target Standard help </a>. </p> <p>For information about how Target determines which experience to show when multiple activities target the same location on a page, see <a href="c_priority.md#concept_1780C11FEA57440499F0047DD6900E0F" format="dita" scope="local"> Priority </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -149,7 +149,7 @@ This release includes the following new features
  <tbody> 
   <tr> 
    <td colname="col1"> Adobe Analytics-enhanced reporting for Adobe Target </td> 
-   <td colname="col2"> Adobe Analytics customers can select <a href="https://marketing.adobe.com/resources/help/en_US/target/a4t/" format="http" scope="external"> Analytics as the default reporting source </a> during the <a href="t_create_a4t.xml#task_FE48F7B077C44A5BA015B087428412EF" format="dita" scope="local"> test set-up process </a>. Selecting all success metrics or audiences you want to use to filter your results is no longer required. Within reporting, you can select any success metric or audience segment defined in Analytics and retroactively apply it to your reporting for extensive filtering and drill-down analysis of your optimization results. <p> <p>Note:  To request access to this feature, visit <a href="http://www.adobe.com/go/audiences" format="http" scope="external"> http://www.adobe.com/go/audiences </a>. </p> </p> </td> 
+   <td colname="col2"> Adobe Analytics customers can select <a href="https://marketing.adobe.com/resources/help/en_US/target/a4t/" format="http" scope="external"> Analytics as the default reporting source </a> during the <a href="t_create_a4t.md#task_FE48F7B077C44A5BA015B087428412EF" format="dita" scope="local"> test set-up process </a>. Selecting all success metrics or audiences you want to use to filter your results is no longer required. Within reporting, you can select any success metric or audience segment defined in Analytics and retroactively apply it to your reporting for extensive filtering and drill-down analysis of your optimization results. <p> <p>Note:  To request access to this feature, visit <a href="http://www.adobe.com/go/audiences" format="http" scope="external"> http://www.adobe.com/go/audiences </a>. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Master marketing profile real-time audiences </td> 
@@ -157,11 +157,11 @@ This release includes the following new features
   </tr> 
   <tr> 
    <td colname="col1"> Experience targeting activity type </td> 
-   <td colname="col2"> <a href="t_experience_target.xml#task_A53DF336CB9F4D7BB87EF2106099EFC4" format="dita" scope="local"> Target different experiences to different audiences in one activity </a>. <p> <p>Note:  This provides similar functionality to the Landing Page campaign in Target Advanced. </p> </p> </td> 
+   <td colname="col2"> <a href="t_experience_target.md#task_A53DF336CB9F4D7BB87EF2106099EFC4" format="dita" scope="local"> Target different experiences to different audiences in one activity </a>. <p> <p>Note:  This provides similar functionality to the Landing Page campaign in Target Advanced. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Multi-page testing </td> 
-   <td colname="col2"> <p> <a href="t_temtest.xml#task_2539D51A18044F82B0D9895636546781" format="dita" scope="local"> Choose to run a test or targeted activity across a set of webpages </a>. You can now deliver tests to every product page, or modify your global nav on every page of the site. Use a simple rule builder to specify what the group of pages should be. </p> </td> 
+   <td colname="col2"> <p> <a href="t_temtest.md#task_2539D51A18044F82B0D9895636546781" format="dita" scope="local"> Choose to run a test or targeted activity across a set of webpages </a>. You can now deliver tests to every product page, or modify your global nav on every page of the site. Use a simple rule builder to specify what the group of pages should be. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -234,15 +234,15 @@ This release includes the following new features
  <tbody> 
   <tr> 
    <td colname="col1"> Activity collisions </td> 
-   <td colname="col2"> <p> Target Standard now provides a list of activity collisions. An activity collision occurs when multiple activities are set up to deliver content to the same page. If an activity collision occurs, you may not see the expected content on your page because you've entered a different activity. </p> <p> All activities on the same URL are listed, regardless of any audience targeting in each activity. </p> <p> If your activity contains collisions, a <span class="wintitle"> Collisions </span> tab is available the on the activity overview page. Open this tab for a list of activities that are colliding. Click an activity in the list to view the overview page for that activity. </p> <p>See <a href="c_activity_collisions.xml#concept_0BC6B929592744DFA7DA01FF4F91052E" format="dita" scope="local"> Activity Collisions </a>. </p> </td> 
+   <td colname="col2"> <p> Target Standard now provides a list of activity collisions. An activity collision occurs when multiple activities are set up to deliver content to the same page. If an activity collision occurs, you may not see the expected content on your page because you've entered a different activity. </p> <p> All activities on the same URL are listed, regardless of any audience targeting in each activity. </p> <p> If your activity contains collisions, a <span class="wintitle"> Collisions </span> tab is available the on the activity overview page. Open this tab for a list of activities that are colliding. Click an activity in the list to view the overview page for that activity. </p> <p>See <a href="c_activity_collisions.md#concept_0BC6B929592744DFA7DA01FF4F91052E" format="dita" scope="local"> Activity Collisions </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> New targeting options: Profile, User </td> 
-   <td colname="col2"> You can now target profile and user parameters. See <a href="c_audiences.xml#concept_65BE870D290E412D8BBF557EEA67C271" format="dita" scope="local"> Audiences </a>. </td> 
+   <td colname="col2"> You can now target profile and user parameters. See <a href="c_audiences.md#concept_65BE870D290E412D8BBF557EEA67C271" format="dita" scope="local"> Audiences </a>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Insert elements </td> 
-   <td colname="col2"> <p>You can now add any kind of element to your page in addition to modifying existing content. Add text, code, lists, and more to create entirely different experiences to test. </p> <p>See <a href="r_viztarget_options.xml#reference_3BD1BEEAFA584A749ED2D08F14732E81" format="dita" scope="local"> Visual Experience Composer Options </a>. </p> </td> 
+   <td colname="col2"> <p>You can now add any kind of element to your page in addition to modifying existing content. Add text, code, lists, and more to create entirely different experiences to test. </p> <p>See <a href="r_viztarget_options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81" format="dita" scope="local"> Visual Experience Composer Options </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -270,23 +270,23 @@ This release includes the following new features and enhancements:
  <tbody> 
   <tr> 
    <td colname="col1"> Estimate revenue lift </td> 
-   <td colname="col2"> <p>Target can estimate the revenue lift you would attain if all users view the winning experience. </p> <p>This estimate calculates the amount of lift achieved by the winning experience and your total number of visitors over the life of the test, and shows the lift you might achieve if every visitor sees the winning experience, if the trends continue as they have during the test. </p> <p> The accuracy of the estimate depends on a number of factors, including projected figures if current trends continue. These values are estimates based on past performance and should not be used for financial guidance. Future results may vary. </p> <p>See <a href="c_estimating_lift_in_revenue.xml#concept_32F875D8F91349CE86AF391F65BEAEEE" format="dita" scope="local"> Estimating Lift in Revenue </a>. </p> </td> 
+   <td colname="col2"> <p>Target can estimate the revenue lift you would attain if all users view the winning experience. </p> <p>This estimate calculates the amount of lift achieved by the winning experience and your total number of visitors over the life of the test, and shows the lift you might achieve if every visitor sees the winning experience, if the trends continue as they have during the test. </p> <p> The accuracy of the estimate depends on a number of factors, including projected figures if current trends continue. These values are estimates based on past performance and should not be used for financial guidance. Future results may vary. </p> <p>See <a href="c_estimating_lift_in_revenue.md#concept_32F875D8F91349CE86AF391F65BEAEEE" format="dita" scope="local"> Estimating Lift in Revenue </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Undo/Redo </td> 
-   <td colname="col2"> <p>You can undo changes you make to your activities during an editing session. You can also redo undone changes. </p> <p>See <a href="r_viztarget_options.xml#reference_3BD1BEEAFA584A749ED2D08F14732E81" format="dita" scope="local"> Visual Experience Composer Options </a>. </p> </td> 
+   <td colname="col2"> <p>You can undo changes you make to your activities during an editing session. You can also redo undone changes. </p> <p>See <a href="r_viztarget_options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81" format="dita" scope="local"> Visual Experience Composer Options </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Move element </td> 
-   <td colname="col2"> <p>You can move elements on your page. Unlike Rearrange Elements, Move does not shift other elements to make room for the element being moved. Use your arrow keys to fine tune the move. </p> <p>See <a href="r_viztarget_options.xml#reference_3BD1BEEAFA584A749ED2D08F14732E81" format="dita" scope="local"> Visual Experience Composer Options </a>. </p> </td> 
+   <td colname="col2"> <p>You can move elements on your page. Unlike Rearrange Elements, Move does not shift other elements to make room for the element being moved. Use your arrow keys to fine tune the move. </p> <p>See <a href="r_viztarget_options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81" format="dita" scope="local"> Visual Experience Composer Options </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Resize element </td> 
-   <td colname="col2"> <p>You can resize an element on your page. When you select Resize, a handle appears in a corner of the element that lets you drag that corner to resize. </p> <p>See <a href="r_viztarget_options.xml#reference_3BD1BEEAFA584A749ED2D08F14732E81" format="dita" scope="local"> Visual Experience Composer Options </a>. </p> </td> 
+   <td colname="col2"> <p>You can resize an element on your page. When you select Resize, a handle appears in a corner of the element that lets you drag that corner to resize. </p> <p>See <a href="r_viztarget_options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81" format="dita" scope="local"> Visual Experience Composer Options </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Target a location when setting up an audience </td> 
-   <td colname="col2"> <p>When creating an audience, you can select a location (mbox) and specify parameters for that location. </p> <p>See <a href="t_create-audience.xml#task_1D507519D3AD4390B507F188BD294DC1" format="dita" scope="local"> Creating a New Audience </a>. </p> </td> 
+   <td colname="col2"> <p>When creating an audience, you can select a location (mbox) and specify parameters for that location. </p> <p>See <a href="t_create-audience.md#task_1D507519D3AD4390B507F188BD294DC1" format="dita" scope="local"> Creating a New Audience </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Preview links (Enhancement) </td> 

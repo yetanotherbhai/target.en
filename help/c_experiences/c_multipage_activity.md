@@ -6,7 +6,7 @@ seo-title: Multipage Activity
 solution: Target
 title: Multipage Activity
 topic: Advanced
-uuid: 87341f2f-8be7-40fe-bbe0-38b9d0cf2699
+uuid: 08d643fa-151b-4bef-b356-5a48ad16b344
 index: y
 internal: n
 snippet: y
@@ -37,7 +37,7 @@ To add pages to a test:
 
 1. Use that navigational bar to specify your pages and to set the default page. Click ** [!UICONTROL  Add Page] ** to add an additional page. 
 
-   Click the  ![](../assets/action menu.png) to display an action menu: 
+   Click the  ![](../assets/action_menu.png) to display an action menu: 
 
    ![](../assets/multipage_menu.png) 
 

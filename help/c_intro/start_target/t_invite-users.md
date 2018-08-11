@@ -7,7 +7,7 @@ solution: Target
 subtopic: Getting Started
 title: Invite Users to Target
 topic: Standard
-uuid: c9ee0ebd-c021-4e6b-a88f-08ad9a608a3e
+uuid: 38499884-f1f6-4067-a879-d22b3652c2a5
 index: y
 internal: n
 snippet: y
@@ -51,4 +51,4 @@ This video explains how to set up [!DNL  Target] users and administrators.
 
 >       You will not see the new user listed on the [!UICONTROL  Users] page until the user logs in using his or her Adobe Experience Cloud account and then logs in to [!DNL  Target Standard/Premium] by clicking the [!DNL  Target] card. 
 
->       ![](../../assets/target card.png) 
+>       ![](../../assets/target_card.png) 

@@ -6,7 +6,7 @@ seo-title: View Multiple Metrics in a Report
 solution: Target
 title: View Multiple Metrics in a Report
 topic: Premium
-uuid: 52b6d279-ef38-46d7-86e9-43fe90909cf7
+uuid: 9de73453-ad50-44b3-bddc-f416dde90ade
 index: y
 internal: n
 snippet: y
@@ -35,7 +35,7 @@ Be aware of the following information as you work with multiple metrics in repor
 
 1. Click the ** [!UICONTROL  Report Metric] ** drop-down list to display the [!UICONTROL  Shown Metrics] and [!UICONTROL  Hidden Metrics] lists. 
 
-   ![](../../assets/multiple metrics.png) 
+   ![](../../assets/multiple_metrics.png) 
 
    You can use the [!UICONTROL  Search] box to quickly find available metrics to add to the [!UICONTROL  Shown Metrics] list. 
 
@@ -55,16 +55,16 @@ Be aware of the following information as you work with multiple metrics in repor
 
 1. While viewing the report in the Table View, hover your mouse pointer on any metric's column header to display a blue arrow. Click the arrow to expand the table to display the [!UICONTROL  Lift] and [!UICONTROL  Confidence] for that metric. 
 
-   ![](../../assets/multiple metrics table.png) 
+   ![](../../assets/multiple_metrics_table.png) 
 
    You can expand only one metric/column at a time. Click the arrow again to collapse the columns. 
 
 1. While viewing the report in the Graph View, the you can select individual metrics to display from the drop-down list: 
 
-   ![](../../assets/multiple metrics graph.png) 
+   ![](../../assets/multiple_metrics_graph.png) 
 
    Likewise, when viewing the report in the Graph View, the Revenue dimension displays as a drop-down list: 
 
-   ![](../../assets/muttiple revenue.png) 
+   ![](../../assets/muttiple_revenue.png) 
 
 

@@ -6,7 +6,7 @@ seo-title: Enabling Mixed Content in Your Browser
 solution: Target
 title: Enabling Mixed Content in Your Browser
 topic: Advanced,Standard,Classic
-uuid: 4b51186e-fed0-49e2-800b-28a6030fcb41
+uuid: 48e3b879-7f6b-40c9-be2a-dbf1cddba60f
 index: y
 internal: n
 snippet: y
@@ -18,7 +18,7 @@ translate: y
 ## Enabling Mixed Content in Your Browser {#concept_46D022D50280468C9EF6D5DF6EFC911C}
 >Some browsers block the display of a page if secure content is mixed with insecure content.If the Visual Experience Composer (VEC) tries to open a page containing mixed (secure and insecure) content, a message displays showing how to disable blocking in your browser so you can open an HTTP site or a site that has mixed calls (HTTPS and HTTP). 
 
-![](../../assets/mixed content warning.gif) 
+![](../../assets/mixed_content_warning.gif) 
 
 Previously, when mixed content was not allowed, you could still perform some actions in Step 1 of the three-step guided workflow when creating activities. Target now blocks actions in Step 1. When this message displays, you must enable mixed content before continuing. 
 

@@ -5,7 +5,7 @@ seo-description: Audience filters (or audiences) are groups of visitors who shar
 seo-title: Audience Filters for Reporting
 solution: Target
 title: Audience Filters for Reporting
-uuid: c5a7d3ab-1629-45a4-9370-ec68a6136b5c
+uuid: 885b8d74-d0d0-42aa-ac20-06cd375a3c09
 index: y
 internal: n
 snippet: y
@@ -49,30 +49,30 @@ The following sections provide more information about setting up and reporting o
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Create the appropriate activity or test. </p> </td> 
-   <td colname="col2"> <p> <a href="../ov/c_activitiestests.xml#concept_38D25CB81E8E4926A0ABC34042766DC3" format="dita" scope="local"> Activities and Tests </a> </p> </td> 
+   <td colname="col2"> <p> <a href="../ov/c_activitiestests.md#concept_38D25CB81E8E4926A0ABC34042766DC3" format="dita" scope="local"> Activities and Tests </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Create audiences, if necessary. </p> </td> 
-   <td colname="col2"> <p> <a href="t_create-audience.xml#task_E18BD77A9A8F4ED0AC50569F94556558" format="dita" scope="local"> Creating an Audience </a> </p> </td> 
+   <td colname="col2"> <p> <a href="t_create-audience.md#task_E18BD77A9A8F4ED0AC50569F94556558" format="dita" scope="local"> Creating an Audience </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Combine multiple audiences, if necessary. </p> </td> 
-   <td colname="col2"> <p> <a href="c_combining-multiple-audiences.xml#concept_A7386F1EA4394BD2AB72399C225981E5" format="dita" scope="local"> Combining Multiple Audiences </a> </p> </td> 
+   <td colname="col2"> <p> <a href="c_combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5" format="dita" scope="local"> Combining Multiple Audiences </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Apply audiences on the activity's <span class="wintitle"> Goals &amp;amp; Settings </span> page. </p> </td> 
    <td colname="col2"> <p> 
      <ul id="ul_1634445C235F4FB7B07108EC335709FC"> 
-      <li id="li_1E3FD1C5E3574933AF8E3B603AF593FE">A/B Test: <a href="../target/r_ab_goals_and_settings.xml#reference_B25389FD6F3A4989801E740364B089CC" format="dita" scope="local"> Goals and Settings </a> </li> 
-      <li id="li_D568A47623054F198FA19C0DE89EBB7B">Automated Personalization: <a href="../target/t_automated_personalization.xml#task_8AAF837796D74CF893CA2F88BA1491C9" format="dita" scope="local"> Automated Personalization </a> </li> 
-      <li id="li_53AB587AAF024EDA9A63717F6D2236FE">Experience Targeting: <a href="r_xt_goals_and_settings.xml#reference_B25389FD6F3A4989801E740364B089CC" format="dita" scope="local"> Goals and Settings </a> </li> 
-      <li id="li_14EC76ACC56647BC8CC6A10065E25B78">Multivariate Test: <a href="../mvt/r_goals_and_settings.xml#reference_B25389FD6F3A4989801E740364B089CC" format="dita" scope="local"> Goals and Settings </a> </li> 
-      <li id="li_4F53678E97B449DDB6C9ED07C2D1CF47">Activity Settings: <a href="t_activity_settings.xml#task_C6B2FF8374724933BE79A83549B9CD02" format="dita" scope="local"> Activity Settings </a> </li> 
+      <li id="li_1E3FD1C5E3574933AF8E3B603AF593FE">A/B Test: <a href="../target/r_ab_goals_and_settings.md#reference_B25389FD6F3A4989801E740364B089CC" format="dita" scope="local"> Goals and Settings </a> </li> 
+      <li id="li_D568A47623054F198FA19C0DE89EBB7B">Automated Personalization: <a href="../target/t_automated_personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9" format="dita" scope="local"> Automated Personalization </a> </li> 
+      <li id="li_53AB587AAF024EDA9A63717F6D2236FE">Experience Targeting: <a href="r_xt_goals_and_settings.md#reference_B25389FD6F3A4989801E740364B089CC" format="dita" scope="local"> Goals and Settings </a> </li> 
+      <li id="li_14EC76ACC56647BC8CC6A10065E25B78">Multivariate Test: <a href="../mvt/r_goals_and_settings.md#reference_B25389FD6F3A4989801E740364B089CC" format="dita" scope="local"> Goals and Settings </a> </li> 
+      <li id="li_4F53678E97B449DDB6C9ED07C2D1CF47">Activity Settings: <a href="t_activity_settings.md#task_C6B2FF8374724933BE79A83549B9CD02" format="dita" scope="local"> Activity Settings </a> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>View reports with information about your audience filters. </p> </td> 
-   <td colname="col2"> <p> <a href="c_report-settings.xml#concept_3A80D5A394EC4B639DC715E06085BDB0" format="dita" scope="local"> Report Settings </a> </p> </td> 
+   <td colname="col2"> <p> <a href="c_report-settings.md#concept_3A80D5A394EC4B639DC715E06085BDB0" format="dita" scope="local"> Report Settings </a> </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -7,7 +7,7 @@ solution: Target
 title: Base Implementation
 title_outputclass: premium
 topic: Premium
-uuid: ebb4cd99-c968-4708-a5ec-ded6e244ff2b
+uuid: 06578914-9047-43fe-b312-7245bcd8e349
 badge: assets/premium.png
 index: y
 internal: n
@@ -37,7 +37,7 @@ There are two methods to provide information about products and services to [!DN
   </tr> 
   <tr> 
    <td colname="col1"> <p>Pass parameters through a Google or CSV feed </p> </td> 
-   <td colname="col2"> <p>This method works well for collections that do not change frequently. It is usually not necessary to change your mbox implementation or other page code to provide product information through a feed. However, the product list remains static, so quick changes are more difficult. For more information, see <a href="c_feeds.xml#concept_1228B31E3D0B483B9DD42C5E2AE436E3" format="dita" scope="local"> Feeds </a>. </p> </td> 
+   <td colname="col2"> <p>This method works well for collections that do not change frequently. It is usually not necessary to change your mbox implementation or other page code to provide product information through a feed. However, the product list remains static, so quick changes are more difficult. For more information, see <a href="c_feeds.md#concept_1228B31E3D0B483B9DD42C5E2AE436E3" format="dita" scope="local"> Feeds </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

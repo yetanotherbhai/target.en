@@ -7,7 +7,7 @@ solution: Target
 title: Entity Attributes
 title_outputclass: premium
 topic: Premium
-uuid: 83ec79a0-674a-4eb1-8106-5ed13a875b5a
+uuid: e6ee034c-d6c0-4f70-bb99-ef4c50d5548d
 badge: assets/premium.png
 index: y
 internal: n
@@ -123,7 +123,7 @@ translate: y
      </codeblock> </p> <p>Custom entity attributes support multiple values. A multi-value entity attribute can include up to 100 values. Each value can be up to 100 characters. Values that exceed 100 characters are ignored. </p> <p>Example: </p> <p> 
      <codeblock>
        'entity.secondary=["band1",&amp;nbsp;"band2"]' 
-     </codeblock> </p> <p> <p>Note:  Multi-value custom entity attributes require valid JSON arrays. For correct syntax information, see <a href="c_custom_entity_attributes.xml#concept_E5CF39BCAC8140309A73828706288322" format="dita" scope="local"> Custom Entity Attributes </a>. </p> </p> </td> 
+     </codeblock> </p> <p> <p>Note:  Multi-value custom entity attributes require valid JSON arrays. For correct syntax information, see <a href="c_custom_entity_attributes.md#concept_E5CF39BCAC8140309A73828706288322" format="dita" scope="local"> Custom Entity Attributes </a>. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> entity.event.detailsOnly </span> </p> <p>Single-value only. </p> </td> 

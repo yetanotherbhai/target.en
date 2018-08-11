@@ -6,7 +6,7 @@ seo-title: Migrate to at.js from mbox.js
 solution: Target
 title: Migrate to at.js from mbox.js
 topic: Standard
-uuid: 5f4fedd2-9b7b-4ba2-9807-a84dd05c35f2
+uuid: c9f98446-9f3f-40e4-b8b6-39e005353e13
 index: y
 internal: n
 snippet: y
@@ -48,11 +48,11 @@ Use the following steps to migrate from [!DNL  mbox.js] to [!DNL  at.js] and to 
   </tr> 
   <tr> 
    <td colname="col1"> <p>mboxUpdate </p> </td> 
-   <td colname="col2"> <p> Migration should be simple when <a href="cmp_at.js_Functions.xml#reference_61B2B9F351344CF5B0915D5AFD21C5FE" format="dita" scope="local"> <span class="codeph"> mboxUpdate() </span> </a> is used in conjunction with <span class="codeph"> mboxDefine() </span> or <a href="cmp_at.js_Functions.xml#reference_E68805FE86C64792B2066DB17B253D74" format="dita" scope="local"> <span class="codeph"> mboxCreate() </span> </a>. <span class="codeph"> mboxUpdate() </span> does not update the auto-created global mbox or an mbox originally created by <span class="codeph"> getOffer() </span>. In these circumstances, <a href="cmp_at.js_Functions.xml#reference_C81525D1598A4A1199740DCAB81A7FDF" format="dita" scope="local"> a combination of <span class="codeph"> getOffer() </span> and <span class="codeph"> applyOffer() </span> </a> should be used to replace <span class="codeph"> mboxUpdate() </span> when migrating to at.js. </p> </td> 
+   <td colname="col2"> <p> Migration should be simple when <a href="cmp_at.js_Functions.md#reference_61B2B9F351344CF5B0915D5AFD21C5FE" format="dita" scope="local"> <span class="codeph"> mboxUpdate() </span> </a> is used in conjunction with <span class="codeph"> mboxDefine() </span> or <a href="cmp_at.js_Functions.md#reference_E68805FE86C64792B2066DB17B253D74" format="dita" scope="local"> <span class="codeph"> mboxCreate() </span> </a>. <span class="codeph"> mboxUpdate() </span> does not update the auto-created global mbox or an mbox originally created by <span class="codeph"> getOffer() </span>. In these circumstances, <a href="cmp_at.js_Functions.md#reference_C81525D1598A4A1199740DCAB81A7FDF" format="dita" scope="local"> a combination of <span class="codeph"> getOffer() </span> and <span class="codeph"> applyOffer() </span> </a> should be used to replace <span class="codeph"> mboxUpdate() </span> when migrating to at.js. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Custom clicktracking mboxes, including mboxTrack </p> </td> 
-   <td colname="col2"> <p>We recommend that you update your code to use <a href="cmp_at.js_Functions.xml#reference_7E0F19368F9C4BC38F1E5DC5E717E487" format="dita" scope="local"> trackEvent() </a>. </p> </td> 
+   <td colname="col2"> <p>We recommend that you update your code to use <a href="cmp_at.js_Functions.md#reference_7E0F19368F9C4BC38F1E5DC5E717E487" format="dita" scope="local"> trackEvent() </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

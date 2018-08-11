@@ -5,7 +5,7 @@ seo-description: Use metrics in an Experience Targeting (XT) activity to determi
 seo-title: Set Metrics
 solution: Target,standard
 title: Set Metrics
-uuid: 847c779c-a496-47dc-b08d-fed6d1315783
+uuid: a326d77b-32e0-49f0-9306-8714ba5943c2
 index: y
 internal: n
 snippet: y

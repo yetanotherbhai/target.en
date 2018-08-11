@@ -3,7 +3,7 @@ description: The Adobe Mobile SDK contacts the Target server to get the content 
 seo-description: The Adobe Mobile SDK contacts the Target server to get the content along with other data points to show the right experience to the user.
 seo-title: How Target Works in Mobile Apps
 title: How Target Works in Mobile Apps
-uuid: 76131a73-48b5-4cc5-a826-fd5b138fd02b
+uuid: 490f7fd4-b32a-48c4-ab34-532c237db8e3
 index: y
 internal: n
 snippet: y

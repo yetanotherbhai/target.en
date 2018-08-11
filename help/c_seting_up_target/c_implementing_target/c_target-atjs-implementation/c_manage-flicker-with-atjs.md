@@ -6,7 +6,7 @@ seo-title: How at.js Manages Flicker
 solution: Target
 title: How at.js Manages Flicker
 topic: Standard
-uuid: d090eceb-f33c-41ff-999d-04f6755f10e4
+uuid: a0968404-6bdc-45bb-b79c-0fd917dfa11d
 index: y
 internal: n
 snippet: y

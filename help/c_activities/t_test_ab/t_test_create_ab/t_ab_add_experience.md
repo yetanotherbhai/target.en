@@ -5,7 +5,7 @@ seo-description: The Visual Experience Composer provides a visual interface for 
 seo-title: Add Experience
 solution: Target
 title: Add Experience
-uuid: dcd4583e-ca4d-42f2-acca-49255b6b46da
+uuid: bf0ef883-0f0f-4ea0-b3a6-a6b00eab6174
 index: y
 internal: n
 snippet: y

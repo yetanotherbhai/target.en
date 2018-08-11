@@ -7,7 +7,7 @@ solution: Target
 subtopic: Getting Started
 title: Privacy
 topic: Standard
-uuid: 5ff0e1f4-1698-4623-b230-5978e4ef7181
+uuid: 3c543ac5-0ea5-4b11-b737-fd340545abfd
 index: y
 internal: n
 snippet: y

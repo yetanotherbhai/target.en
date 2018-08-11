@@ -6,7 +6,7 @@ seo-title: Lift and Confidence - A4T FAQ
 solution: Target
 title: Lift and Confidence - A4T FAQ
 topic: Standard
-uuid: 59d54fc6-06f3-46e4-8f53-d216f76aba60
+uuid: c6f959c2-cf5f-4797-9138-21cb0758bca3
 index: y
 internal: n
 snippet: y

@@ -6,7 +6,7 @@ seo-title: Automated Personalization Summary Reports
 solution: Target
 title: Automated Personalization Summary Reports
 title_outputclass: premium
-uuid: 224c5865-1106-43d8-b00c-f741086eb911
+uuid: a90825d6-2256-430d-a7c5-d31de717c837
 badge: assets/premium.png
 index: y
 internal: n

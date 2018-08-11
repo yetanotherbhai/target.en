@@ -6,7 +6,7 @@ solution: Target
 subtopic: Multivariate Test
 title: Create an Experience Targeting Activity
 topic: Standard
-uuid: 070b7bc6-10a3-4d77-b771-6171c74caafa
+uuid: 5de89239-bf6f-4835-b210-5f8e83cf906a
 index: y
 internal: n
 snippet: y

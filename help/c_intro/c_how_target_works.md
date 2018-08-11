@@ -7,7 +7,7 @@ solution: Target
 subtopic: Getting Started
 title: How Adobe Target Works
 topic: Standard
-uuid: dfb90325-00b5-4bd4-b6e5-9a23c7d7184b
+uuid: 17293227-4d1e-443e-81fa-7f8305b70e46
 index: y
 internal: n
 snippet: y

@@ -6,7 +6,7 @@ solution: Target
 title: Estimate the Traffic Required for Success
 title_outputclass: premium
 topic: Standard
-uuid: 45e7674b-78a4-42b0-bcd8-e4aaeab48d67
+uuid: bff6e6dc-d447-4969-8ff8-b538237f6b90
 badge: assets/premium.png
 index: y
 internal: n

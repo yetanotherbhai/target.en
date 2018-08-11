@@ -6,7 +6,7 @@ seo-title: IP Addresses Used by Recommendations Feed-Processing Servers
 title: IP Addresses Used by Recommendations Feed-Processing Servers
 title_outputclass: premium
 topic: Premium
-uuid: 7fba7297-9dfc-4243-8f3a-703817a57cac
+uuid: 80c33e21-347d-414b-84fa-948f33b9a7d9
 badge: assets/premium.png
 index: y
 internal: n

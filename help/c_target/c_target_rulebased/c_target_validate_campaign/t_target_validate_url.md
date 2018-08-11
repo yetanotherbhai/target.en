@@ -5,7 +5,7 @@ seo-description: Follow these steps to validate targeting to a URL or referring 
 seo-title: Validate Targeting to URL or Referring URL Parameters
 solution: Target
 title: Validate Targeting to URL or Referring URL Parameters
-uuid: 0b3eb9ee-7e6c-45cb-835b-767149d90713
+uuid: 7d93b83e-0629-4466-ac40-1d7912c5fdbc
 index: y
 internal: n
 snippet: y

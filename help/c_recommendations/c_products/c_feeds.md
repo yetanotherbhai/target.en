@@ -7,7 +7,7 @@ solution: Target
 title: Feeds
 title_outputclass: premium
 topic: Premium
-uuid: fea830c5-0124-455e-8bfc-590347a0371f
+uuid: f2b05f71-3d6d-4f6a-9be0-cf3c78567748
 badge: assets/premium.png
 index: y
 internal: n

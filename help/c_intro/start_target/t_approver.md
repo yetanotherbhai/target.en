@@ -7,7 +7,7 @@ solution: Target
 subtopic: Getting Started
 title: Assign Yourself the Approver Role
 topic: Standard
-uuid: eab345ae-1a20-401c-89b3-2f3d9638e2d1
+uuid: c740b086-6279-4b84-8d4b-5418d78c7e50
 index: y
 internal: n
 snippet: y

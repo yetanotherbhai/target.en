@@ -7,7 +7,7 @@ solution: Target
 title: Collections
 title_outputclass: premium
 topic: Premium
-uuid: 9b4aa909-ac20-4223-962f-d0a93e1c45e3
+uuid: b0a0cc77-6e65-4728-a7ab-79f7a7756088
 badge: assets/premium.png
 index: y
 internal: n

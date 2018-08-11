@@ -6,7 +6,7 @@ seo-title: Test Summary
 solution: Target
 title: Test Summary
 topic: Standard
-uuid: e7b3ee25-7630-49c7-b8d0-f2f01100c2cd
+uuid: 088a2356-f53e-49c6-8bbb-9f815ec4460b
 index: y
 internal: n
 snippet: y

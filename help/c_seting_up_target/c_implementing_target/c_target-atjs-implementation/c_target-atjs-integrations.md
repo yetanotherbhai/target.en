@@ -6,7 +6,7 @@ seo-title: at.js Integrations
 solution: Target
 title: at.js Integrations
 topic: Standard
-uuid: fbe37263-6fcf-4205-84b0-a8d4c4bbdcb0
+uuid: 5c7112a9-a247-4c2d-bf3c-a0d5709b8793
 index: y
 internal: n
 snippet: y
@@ -114,7 +114,7 @@ This section contains the following information:
   </tr> 
   <tr> 
    <td colname="col1"> <p>Third-party data providers (e.g. Demandbase, Bluekai, weather APIs) </p> </td> 
-   <td colname="col2"> <p>Many third-party data providers used to supplement Target's user profiling can be replicated using <a href="cmp_at.js_Functions.xml#reference_B3ACC004D45E460C8DD94C1476D2625C" format="dita" scope="local"> registerExtension() </a>. </p> </td> 
+   <td colname="col2"> <p>Many third-party data providers used to supplement Target's user profiling can be replicated using <a href="cmp_at.js_Functions.md#reference_B3ACC004D45E460C8DD94C1476D2625C" format="dita" scope="local"> registerExtension() </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -5,7 +5,7 @@ seo-description: Manage exclusion groups and duplicate offers in Automated Perso
 seo-title: Manage Exclusions
 solution: Target,Analytics
 title: Manage Exclusions
-uuid: db5343b9-94fd-4678-b2b2-2ea0e94653e6
+uuid: 6c5e6c50-025b-4982-8f2e-16dbf655abbb
 index: y
 internal: n
 snippet: y
@@ -35,12 +35,12 @@ translate: y
 >1. While creating or editing an AP activity, click ** [!UICONTROL  Manage Content] ** in the header bar.
 >1. In the [!UICONTROL  Manage Content] dialog box, click ** [!UICONTROL  Exclusion Group] **.
 
->       ![Step Result](../../assets/exclusion group create.png) 
+>       ![Step Result](../../assets/exclusion_group_create.png) 
 
 >       If you have previously created exclusion groups, they display in the list. If you have not yet created an exclusion group, you are prompted to create one. 
 >1. Click ** [!UICONTROL  Create Exclusion Group.] **
 
->       ![Step Result](../../assets/exclusion group create dialog.png) 
+>       ![Step Result](../../assets/exclusion_group_create_dialog.png) 
 >1. (Required) Specify a descriptive name for the exclusion group.
 
 >       A descriptive name helps you or others quickly locate and understand a group's purpose. 

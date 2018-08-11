@@ -7,7 +7,7 @@ solution: Target
 subtopic: Multivariate Test
 title: Troubleshooting Analytics and Target Integration (A4T)
 topic: Standard
-uuid: 08cf346c-9497-4dac-9051-71eafe2bc34a
+uuid: e621dbc9-64fb-4be0-b48d-d10e876c7211
 index: y
 internal: n
 snippet: y

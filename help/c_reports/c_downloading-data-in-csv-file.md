@@ -7,7 +7,7 @@ solution: Target
 subtopic: Multivariate Test
 title: Downloading Data in a CSV File
 topic: Standard
-uuid: 649cbede-7427-4b0e-9ec6-c47f8538fbb1
+uuid: 652f5aaf-7e1a-4352-896c-d731b7bb28e4
 index: y
 internal: n
 snippet: y
@@ -25,7 +25,7 @@ To download data in a CSV file:
 
 1. Click the ** [!UICONTROL  Reports] ** tab. 
 
-1. Click the [!UICONTROL  Download] icon (  ![](../assets/icon download report.png) ), then select a report type to download for analysis in Excel and other tools. 
+1. Click the [!UICONTROL  Download] icon (  ![](../assets/icon_download_report.png) ), then select a report type to download for analysis in Excel and other tools. 
 
 
 

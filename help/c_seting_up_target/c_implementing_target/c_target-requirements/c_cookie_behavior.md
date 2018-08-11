@@ -7,7 +7,7 @@ solution: Target
 subtopic: Getting Started
 title: Target Cookie
 topic: Standard
-uuid: aade4477-6b11-476c-a0b1-e8742bea39a5
+uuid: c89c95fd-463f-4ebd-a8ac-4a037bfcbf1f
 index: y
 internal: n
 snippet: y
@@ -265,7 +265,7 @@ From Apple:
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Opt-out support </p> </td> 
-   <td colname="col2"> <p>Apple's WebKit tracking changes breaks opt-out support. </p> <p>Target opt-out uses a cookie in the <span class="filepath"> clientcode.tt.omtrdc.net </span> domain. For more details, see <a href="c_privacy.xml#concept_639482A343DB4963A6144378E1D8D7F0" format="dita" scope="local"> Privacy </a>. </p> <p>Target supports two opt-outs: </p> <p> 
+   <td colname="col2"> <p>Apple's WebKit tracking changes breaks opt-out support. </p> <p>Target opt-out uses a cookie in the <span class="filepath"> clientcode.tt.omtrdc.net </span> domain. For more details, see <a href="c_privacy.md#concept_639482A343DB4963A6144378E1D8D7F0" format="dita" scope="local"> Privacy </a>. </p> <p>Target supports two opt-outs: </p> <p> 
      <ul id="ul_BC41B5AA41884FFE8EAA34F3EB5EF254"> 
       <li id="li_1D79215CB0714FD7B33E7A310B6236C7"> <p>One per client (the client manages the opt-out link). </p> </li> 
       <li id="li_C0CB5430AFA54FC79CAD62676602EB8B"> <p>One via Adobe that opts the user out of all Target functionality for all customers. </p> </li> 
@@ -273,7 +273,7 @@ From Apple:
   </tr> 
   <tr> 
    <td colname="col1"> <p>Target activities </p> </td> 
-   <td colname="col2"> <p>Customers can choose their <a href="c_visitor_profile_lifetime.xml#concept_D9F21B416F1F49159F03036BA2DD54FD" format="dita" scope="local"> profile lifetime length </a> for their Target accounts—up to 90 days. The concern is that if the account's profile lifetime is longer than 30 days, and the first-party cookie gets purged because the customer's domain has been marked as tracking users cross-site, behavior for Safari visitors will be affected in the following areas in Target: </p> <p> 
+   <td colname="col2"> <p>Customers can choose their <a href="c_visitor_profile_lifetime.md#concept_D9F21B416F1F49159F03036BA2DD54FD" format="dita" scope="local"> profile lifetime length </a> for their Target accounts—up to 90 days. The concern is that if the account's profile lifetime is longer than 30 days, and the first-party cookie gets purged because the customer's domain has been marked as tracking users cross-site, behavior for Safari visitors will be affected in the following areas in Target: </p> <p> 
      <ul id="ul_FB4D6702D440456EBD16DA4108F90DA9"> 
       <li id="li_AB4D43B0CAFD49ADAFD1DF7C2DFC5A55"> <p><b>Target Reports</b> </p> <p> 
         <ul id="ul_0CFA08EDE5A449A68FC8493B67C7668E"> 

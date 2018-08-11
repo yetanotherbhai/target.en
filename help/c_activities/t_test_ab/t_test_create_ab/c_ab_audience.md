@@ -6,7 +6,7 @@ seo-title: Select Audience
 solution: Target
 title: Select Audience
 topic: Standard
-uuid: b569aae2-6d0f-455d-8479-8efc9682cfff
+uuid: 0a5f076e-5985-466d-8a06-3852f7bc9a7a
 index: y
 internal: n
 snippet: y
@@ -55,7 +55,7 @@ By default, all visitors are your audience. However, you can change the audience
 
 Note that you can also edit or copy an audience by hovering over the desired audience in the [!UICONTROL  Choose Audience] dialog box, as shown below. Copying an audience is helpful if you want to create a similar audience to an existing audience. You can make a copy of the audience, make your edits, then save it as a new audience. This hover functionality exists in other activity types as well. 
 
-![](../../../assets/audience picker hover.png) 
+![](../../../assets/audience_picker_hover.png) 
 
 When creating an audience, you can select a location (mbox) and specify parameters for that location. Under Custom Parameters, select the mbox, then specify the desired parameters. 
 

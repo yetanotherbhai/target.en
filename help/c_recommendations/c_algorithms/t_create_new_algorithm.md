@@ -7,7 +7,7 @@ solution: Target
 title: Creating Criteria
 title_outputclass: premium
 topic: Premium
-uuid: 6c08e75a-ac68-40f3-ad97-d1db796f2e50
+uuid: 9ab67437-7154-4c40-b539-bba41aee36a5
 badge: assets/premium.png
 index: y
 internal: n
@@ -272,7 +272,7 @@ Each criteria is defined in its own tab. Traffic is split evenly across your dif
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="uicontrol"> Recently Viewed Items </span> </p> </td> 
-   <td colname="col2"> <p>Uses the visitor's history (spanning sessions) to present the last <i>x</i> items the visitor has viewed, based on the number of slots in the design. </p> <p>The Recently Viewed Items criteria now returns results specific to a given <a href="../ov2/c_hosts.xml#concept_516BB01EBFBD4449AB03940D31AEB66E" format="dita" scope="local"> environment </a>. If two sites belong to different environments and a visitor switches between the two sites, each site shows only recently viewed items from the appropriate site. If two sites are in the same environment and a visitor switches between the two sites, the visitor will see the same recently viewed items for both sites. </p> </td> 
+   <td colname="col2"> <p>Uses the visitor's history (spanning sessions) to present the last <i>x</i> items the visitor has viewed, based on the number of slots in the design. </p> <p>The Recently Viewed Items criteria now returns results specific to a given <a href="../ov2/c_hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E" format="dita" scope="local"> environment </a>. If two sites belong to different environments and a visitor switches between the two sites, each site shows only recently viewed items from the appropriate site. If two sites are in the same environment and a visitor switches between the two sites, the visitor will see the same recently viewed items for both sites. </p> </td> 
    <td colname="col03"> <p>None </p> </td> 
    <td colname="col3"> <p>General pages, such as home or landing pages and offsite ads. </p> </td> 
   </tr> 

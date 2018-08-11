@@ -6,7 +6,7 @@ seo-title: Location Contribution Report
 solution: Target
 title: Location Contribution Report
 topic: Standard
-uuid: b3b7d780-cd40-4153-a243-41eb916470b6
+uuid: 12355e52-0d5f-4d69-af71-8fa328c247fc
 index: y
 internal: n
 snippet: y

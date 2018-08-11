@@ -6,7 +6,7 @@ seo-title: Activity Setup - A4T FAQ
 solution: Target
 title: Activity Setup - A4T FAQ
 topic: Standard
-uuid: f6c796a0-a919-40cb-9d9b-eee0d7a0d9d5
+uuid: 101186af-0708-4d26-a4ea-f665b10489ff
 index: y
 internal: n
 snippet: y

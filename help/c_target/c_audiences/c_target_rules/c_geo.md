@@ -6,7 +6,7 @@ seo-title: Geo
 solution: Target,Analytics
 title: Geo
 topic: Reports and analytics
-uuid: 53c8164b-ad4c-48d2-aab5-10fae3de7a21
+uuid: 7f0829ee-a9b2-4086-906b-44bb3e74af4c
 index: y
 internal: n
 snippet: y

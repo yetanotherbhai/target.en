@@ -7,7 +7,7 @@ solution: Target
 subtopic: Getting Started
 title: Accept the Invitation
 topic: Standard
-uuid: a238e6c5-c1fa-47c5-a2b9-40aae9554640
+uuid: 8bade476-84e4-444d-971b-8c8d50dbceff
 index: y
 internal: n
 snippet: y

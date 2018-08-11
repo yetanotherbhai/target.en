@@ -6,7 +6,7 @@ seo-title: iOS - Setting Up the Mobile App
 solution: Target
 title: iOS - Setting Up the Mobile App
 topic: Standard
-uuid: fcc45ab1-a51a-4f9b-86c0-376e424d637a
+uuid: ea29a744-e80a-4059-a040-522d4a64d25f
 index: y
 internal: n
 snippet: y
@@ -74,7 +74,7 @@ This section contains the following information:
 
        The following image shows the final state of the General tab: 
 
-       ![](../../assets/mobile-vec-ios 1.png) 
+       ![](../../assets/mobile-vec-ios_1.png) 
 
 
 1. Add the required iOS system libraries (if not already present in your project): 
@@ -95,7 +95,7 @@ This section contains the following information:
 
        The following image shows the final state of the build settings: 
 
-       ![](../../assets/mobile-vec-ios 2.png) 
+       ![](../../assets/mobile-vec-ios_2.png) 
 
 
 1. Change build settings for Mobile VEC: 

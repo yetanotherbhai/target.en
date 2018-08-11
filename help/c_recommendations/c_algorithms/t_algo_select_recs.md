@@ -7,7 +7,7 @@ solution: Target
 title: Select Criteria
 title_outputclass: premium
 topic: Premium
-uuid: bd8cdce5-2159-41b8-8dd0-f41de2b3a7d1
+uuid: f6a35369-5041-4ec5-a62c-a20e552d1f54
 badge: assets/premium.png
 index: y
 internal: n

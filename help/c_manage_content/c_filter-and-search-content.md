@@ -6,7 +6,7 @@ seo-title: Search Content and Create Smart Collections
 solution: Target
 title: Search Content and Create Smart Collections
 topic: Premium
-uuid: 62bead22-670e-49b3-bc77-85e241d698c3
+uuid: f115e70e-85d9-432d-a69d-450fafb5c234
 index: y
 internal: n
 snippet: y
@@ -54,11 +54,11 @@ You can create saved searches, called smart collections, to save time when perfo
 
 1. Click the ** [!UICONTROL  Browse] ** icon (  ![](../assets/icon_browse.png) ) to display the [!UICONTROL  Select Path] dialog box. 
 
-   ![](../assets/browse folders.png) 
+   ![](../assets/browse_folders.png) 
 
 1. Browse to and select the desired folder that you want to base the smart collection on, then click the ** [!UICONTROL  Confirm] ** icon (  ![](../assets/icon_confirm.png) ). 
 
-   ![](../assets/browse folders2.png) 
+   ![](../assets/browse_folders2.png) 
 
 1. (Optional) Select from among the various options to narrow your filter, for example, file type and size. 
 

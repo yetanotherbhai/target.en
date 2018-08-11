@@ -5,7 +5,7 @@ seo-description: Display problems sometimes occur in the Visual Experience Compo
 seo-title: Troubleshooting the Visual Experience Composer and Enhanced Experience Composer
 solution: Target
 title: Troubleshooting the Visual Experience Composer and Enhanced Experience Composer
-uuid: 65d5c502-757d-4740-b8b1-6e2434bfaf71
+uuid: ec8f5121-ee36-4e0b-8cba-17fe9f2fd992
 index: y
 internal: n
 snippet: y
@@ -91,11 +91,11 @@ This can happen if the URL contains a # character. To fix the issue, switch into
 
 If your website's CSP headers block Target libraries, then loads the website but prevents editing, ensure that the Target libraries are not blocked. 
 
-![](../assets/cps headers.png) 
+![](../assets/cps_headers.png) 
 
 As a workaround, you can configure a Requestly rule to remove CSP headers, as shown below: 
 
-![](../assets/cps headers 2.png) 
+![](../assets/cps_headers_2.png) 
 
 You can configure a similar Requestly rule for any header that causes a resource to not load inside the VEC. 
 
@@ -176,7 +176,7 @@ To disable the Enhanced Experience Composer, go to ** [!UICONTROL  Setup] ** > *
 
 Some users see the following error message in the console: 
 
-![](../assets/error message.jpg) 
+![](../assets/error_message.jpg) 
 
 If neither the Visual Experience Composer nor the Enhanced Experience Composer works, use a browser extension like Requestly (Chrome or Firefox) or Modify Response Headers (Firefox) that can overwrite the X-Frames header options for your site and allow them to be loaded in iFrames, enabling the VEC. If you are unable to use browser extensions, use the Form Composer. 
 
@@ -213,7 +213,7 @@ If neither the Visual Experience Composer nor the Enhanced Experience Composer w
 
         * Change ** [!UICONTROL  Equals] ** to ** [!UICONTROL  Contains] ** as the condition for the source URL and enter the URL of the activity that you are trying to load in the VEC. 
 
-      ![](../assets/chrome extension.png) 
+      ![](../assets/chrome_extension.png) 
 
 
 1. Click ** [!UICONTROL  Save] **. 
@@ -245,7 +245,7 @@ If neither the Visual Experience Composer nor the Enhanced Experience Composer w
 
 
 
-![](../assets/firefox extension.png) 
+![](../assets/firefox_extension.png) 
 
 After setting up an extension, open Target. Your pages should now load in the Visual Experience Composer, even if the Enhanced Experience Composer is disabled. 
 
@@ -332,15 +332,15 @@ To check the TLS version on your website using Firefox (other browsers have simi
 
 1. Click the ** [!UICONTROL  Show Site Information] ** icon on the browser's address bar. 
 
-   ![](../assets/firefox more info.png) 
+   ![](../assets/firefox_more_info.png) 
 
 1. Click ** [!UICONTROL  Show Connection Details] ** > ** [!UICONTROL  More Information] **. 
 
-   ![](../assets/firefox more info 2.png) 
+   ![](../assets/firefox_more_info_2.png) 
 
 1. Examine the TLS version information under Technical Details: 
 
-   ![](../assets/firefox more info 3.png) 
+   ![](../assets/firefox_more_info_3.png) 
 
 1. If you find that your website is showing TLS 1.0, see [ TLS (Transport Layer Security) Encryption Changes ](c_tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451) for information about Target's TLS support policy. To remedy the situation for now (valid until September 12, 2018), reach out to [ Customer Care ](r_problem.md#reference_ACA3391A00EF467B87930A450050077C) for configuration with your TLS version and the domain. 
 

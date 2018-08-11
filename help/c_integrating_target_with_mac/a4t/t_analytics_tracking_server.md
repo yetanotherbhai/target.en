@@ -4,7 +4,7 @@ keywords: analytics tracking server;A4T;Adobe Experience Cloud debugger;reportin
 seo-description: If you are using an older version of at.js or mbox.js, you must specify an analytics tracking server for activities that use Analytics for Target (A4T).
 seo-title: Using an Analytics Tracking Server
 title: Using an Analytics Tracking Server
-uuid: 314e7f3c-7881-4fb4-9ed2-d46af9eb37de
+uuid: bad1d01c-2c47-47ed-94e1-aef1934fff65
 index: y
 internal: n
 snippet: y

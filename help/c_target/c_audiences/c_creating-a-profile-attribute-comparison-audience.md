@@ -6,7 +6,7 @@ seo-title: Creating a Profile Attribute Comparison Audience
 solution: Target
 title: Creating a Profile Attribute Comparison Audience
 topic: Advanced,Standard,Classic
-uuid: 4a25c75a-a260-4e05-b67d-8f3e6ea9d993
+uuid: 14ca14e3-4772-4d47-b4d0-bb4717b4893c
 index: y
 internal: n
 snippet: y
@@ -44,17 +44,17 @@ For more information, see [ Methods to get Data into Target](c_methods-to-get-da
 
 1. From the ** [!UICONTROL  Visitor Profile] ** drop-down list, choose an attribute: 
 
-   ![](../../assets/propensity score 1.png) 
+   ![](../../assets/propensity_score_1.png) 
 
 1. Choose your Evaluator: 
 
-   ![](../../assets/propensity score 2.png) 
+   ![](../../assets/propensity_score_2.png) 
 
 1. From the ** [!UICONTROL  Choose Comparison Type] ** drop-down list, choose ** [!UICONTROL  Attribute] **. 
 
    The "static value" comparison type lets you compare your visitor profile attribute to specific value(s). 
 
-   ![](../../assets/propensity score 3.png) 
+   ![](../../assets/propensity_score_3.png) 
 
 
    >[!NOTE]
@@ -66,6 +66,6 @@ For more information, see [ Methods to get Data into Target](c_methods-to-get-da
 
    For example, if the "Kitchen" attribute score for a specific visitor is greater than the score for "Decor," then that visitor would be included in this audience. 
 
-   ![](../../assets/propensity score 4.png) 
+   ![](../../assets/propensity_score_4.png) 
 
 

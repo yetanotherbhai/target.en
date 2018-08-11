@@ -7,7 +7,7 @@ solution: Target
 subtopic: Getting Started
 title: Customer Attributes
 topic: Standard
-uuid: 20ce7a0b-9bb1-4d39-b06b-961d377f4fee
+uuid: 4bee9dea-d424-4121-a3c7-ac0f136efb77
 index: y
 internal: n
 snippet: y
@@ -53,7 +53,7 @@ Consider the following information as your work with customer attributes and Tar
 
 Complete the following steps to use CRM data in [!DNL  Target], as illustrated below: 
 
-![](../../assets/crm workflow.png) 
+![](../../assets/crm_workflow.png) 
 
 Detailed instructions for completing each of the following tasks can be found in [ Create a Customer Attribute Source and Upload the Data File ](https://marketing.adobe.com/resources/help/en_US/mcloud/t_crs_usecase.html) in the *Experience Cloud and Core Services Product Documentation*. 
 
@@ -202,7 +202,7 @@ You might encounter the following issues when working with customer attributes a
   </tr> 
   <tr> 
    <td colname="col1"> <p>Customer attributes are not being imported into Target. </p> </td> 
-   <td colname="col2"> <p>If you cannot find CRS data in Target, ensure that the import occurred within the last <i>x</i> days where <i>x</i> is the Target <a href="../ov/c_visitor_profile_lifetime.xml#concept_D9F21B416F1F49159F03036BA2DD54FD" format="dita" scope="local"> Visitor Profile Lifetime </a> value (14 days by default). </p> </td> 
+   <td colname="col2"> <p>If you cannot find CRS data in Target, ensure that the import occurred within the last <i>x</i> days where <i>x</i> is the Target <a href="../ov/c_visitor_profile_lifetime.md#concept_D9F21B416F1F49159F03036BA2DD54FD" format="dita" scope="local"> Visitor Profile Lifetime </a> value (14 days by default). </p> </td> 
   </tr> 
  </tbody> 
 </table>

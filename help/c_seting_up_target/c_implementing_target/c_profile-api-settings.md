@@ -7,7 +7,7 @@ solution: Target
 subtopic: Getting Started
 title: Profile API Settings
 topic: Standard
-uuid: 0dd08ac0-4b91-4968-8653-5812a142ec59
+uuid: dcbda2b5-8631-463b-afd8-73492b2fca5c
 index: y
 internal: n
 snippet: y
@@ -27,11 +27,11 @@ For added security, you can require that the Bulk Update API call require a vali
 
 1. Under ** [!UICONTROL  Profile API Settings] **, use the ** [!UICONTROL  Require Authentication] ** drop-down list to enable or disable authentication requirements. 
 
-   ![](../../assets/profile api settings.png) 
+   ![](../../assets/profile_api_settings.png) 
 
 1. (Conditional) If you enabled authentication requirements, click ** [!UICONTROL  Generate Pofile Authentication Token] **. 
 
-   ![](../../assets/profile api settings 2.png) 
+   ![](../../assets/profile_api_settings_2.png) 
 
    The token expires according to the time listed in the [!UICONTROL  Expires In] box. 
 

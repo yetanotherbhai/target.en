@@ -6,7 +6,7 @@ seo-title: Multivariate Test
 solution: Target
 title: Multivariate Test
 topic: Premium
-uuid: 1cc8255e-1ebd-4b22-aac4-22ce0e0882d6
+uuid: 9d685f33-2fd8-4279-9197-95dab7fd6f1d
 index: y
 internal: n
 snippet: y

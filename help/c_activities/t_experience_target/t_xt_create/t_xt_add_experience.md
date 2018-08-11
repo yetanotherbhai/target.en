@@ -6,7 +6,7 @@ seo-title: Create Experience
 solution: Target
 title: Create Experience
 topic: Advanced,Standard,Classic
-uuid: d08eaa04-ca2f-4467-9cb8-d628c211f866
+uuid: 03ede9d7-7d27-488e-a2f3-e32a499b1e5b
 index: y
 internal: n
 snippet: y
@@ -95,7 +95,7 @@ For additional detail about experiences, see [ Experiences ](c_experiences.md#co
 >       >You can drag and drop audience/experience pairs while creating or editing XT activities to arrange the pairs in the desired order. Visitors will be evaluated for experiences in order, from top to bottom.
 
 
->       ![](../../../assets/move experiences.jpg) 
+>       ![](../../../assets/move_experiences.jpg) 
 
 >       Experience Targeting assumes that order matters. If a visitor falls into the first audience/experience pair, the first experience is delivered. 
 
@@ -109,5 +109,5 @@ For additional detail about experiences, see [ Experiences ](c_experiences.md#co
 
 >    * Delete 
 
->       ![](../../../assets/experience edit.png) 
+>       ![](../../../assets/experience_edit.png) 
 >       ** [!UICONTROL  Continue] **

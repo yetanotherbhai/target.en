@@ -5,7 +5,7 @@ seo-title: Behavioral Targeting Basic Steps
 solution: Target
 title: Behavioral Targeting Basic Steps
 topic: Standard
-uuid: 746e4669-486b-47b1-80e0-285484c6f919
+uuid: 07f4cb61-61f0-41f9-9099-80d0b3e8d6d7
 index: y
 internal: n
 snippet: y

@@ -6,7 +6,7 @@ seo-title: Activity Creation
 solution: Target
 title: Activity Creation
 topic: Advanced,Standard,Classic
-uuid: 1ee0d0d2-539e-4f34-b761-3dcda4acd03f
+uuid: 7d44f2e4-52af-4d68-8ce5-a7460d40cf90
 index: y
 internal: n
 snippet: y

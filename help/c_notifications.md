@@ -6,7 +6,7 @@ seo-title: Notifications
 solution: Target
 title: Notifications
 topic: Standard
-uuid: 29e1ca3c-1b8d-4027-9f3b-77f5c010a802
+uuid: d02d5f92-5d11-4feb-8fca-2c54de03205c
 index: y
 internal: n
 snippet: y

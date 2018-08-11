@@ -6,7 +6,7 @@ seo-title: Experience Cloud Audiences
 solution: Target
 title: Experience Cloud Audiences
 topic: Standard
-uuid: b5b36f60-7d49-4d9c-9044-821683bfb661
+uuid: b0770a87-66f5-439a-95a5-91a73c1cbf22
 index: y
 internal: n
 snippet: y

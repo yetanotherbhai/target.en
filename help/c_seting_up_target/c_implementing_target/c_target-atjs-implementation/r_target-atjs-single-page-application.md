@@ -6,7 +6,7 @@ seo-title: Single-Page Application Implementation
 solution: Target
 title: Single-Page Application Implementation
 topic: standard
-uuid: 389b7d8d-127e-4a7b-b17d-7a2d7c96f065
+uuid: ba830f88-3ba8-41cf-b63e-2c8fee0ba7da
 index: y
 internal: n
 snippet: y

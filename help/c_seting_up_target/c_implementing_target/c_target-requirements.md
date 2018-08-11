@@ -6,7 +6,7 @@ solution: Target
 subtopic: Getting Started
 title: Target Requirements
 topic: Standard
-uuid: 46f8545d-b794-440a-bc95-54edd9eaaa54
+uuid: affae638-3846-49b0-9036-6d865cee34ba
 index: y
 internal: n
 snippet: y
@@ -29,11 +29,11 @@ To implement Target, you need one of the following [!DNL  Target] libraries:
  <tbody> 
   <tr> 
    <td colname="col1"> <p>at.js </p> </td> 
-   <td colname="col2"> <p>Version 0.9.3 or later. </p> <p>For more information, see <a href="../ov2/c_target-atjs-implementation.xml#concept_8AC8D169E02944B1A547A0CAD97EAC17" format="dita" scope="local"> at.js Implementation</a>. </p> <p>If you want to use redirect offers in activities that use Adobe Analytics as the reporting source (A4T), there are additional minimum requirements your implementation must meet. For more information, see <a href="../a4t/c_a4t-faq-redirect-offers.xml#concept_21BF213F10E1414A9DCD4A98AF207905" format="dita" scope="local"> Redirect Offers - A4T FAQ</a> . </p> </td> 
+   <td colname="col2"> <p>Version 0.9.3 or later. </p> <p>For more information, see <a href="../ov2/c_target-atjs-implementation.md#concept_8AC8D169E02944B1A547A0CAD97EAC17" format="dita" scope="local"> at.js Implementation</a>. </p> <p>If you want to use redirect offers in activities that use Adobe Analytics as the reporting source (A4T), there are additional minimum requirements your implementation must meet. For more information, see <a href="../a4t/c_a4t-faq-redirect-offers.md#concept_21BF213F10E1414A9DCD4A98AF207905" format="dita" scope="local"> Redirect Offers - A4T FAQ</a> . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>mbox.js </p> </td> 
-   <td colname="col2"> <p>Version 53 or later. </p> <p>Version 58 or later is recommended. If the Experience Cloud ID Service and Adobe Analytics in Target (A4T) are being used, v58 is the minimum-supported <span class="filepath"> mbox.js</span> version. </p> <p>For more information, see <a href="t_mbox_download.xml#task_4EAE26BB84FD4E1D858F411AEDF4B420" format="dita" scope="local"> Mbox.js Implementation</a>. </p> </td> 
+   <td colname="col2"> <p>Version 53 or later. </p> <p>Version 58 or later is recommended. If the Experience Cloud ID Service and Adobe Analytics in Target (A4T) are being used, v58 is the minimum-supported <span class="filepath"> mbox.js</span> version. </p> <p>For more information, see <a href="t_mbox_download.md#task_4EAE26BB84FD4E1D858F411AEDF4B420" format="dita" scope="local"> Mbox.js Implementation</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

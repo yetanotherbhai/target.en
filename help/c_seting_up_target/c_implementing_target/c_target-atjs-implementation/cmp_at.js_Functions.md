@@ -7,7 +7,7 @@ solution: Target
 subtopic: Getting Started
 title: at.js Functions
 topic: Standard
-uuid: ccafbb99-80e8-462a-adbc-76ba465f1047
+uuid: 98e6c2ca-93eb-40e6-ad8f-e6c0387c88e7
 index: y
 internal: n
 snippet: y
@@ -624,7 +624,7 @@ You can override the following settings:
    <td colname="col1"> <p>bodyHiddenStyle </p> </td> 
    <td colname="col2"> <p>String </p> </td> 
    <td colname="col3"> <p>body { opacity: 0 } </p> </td> 
-   <td colname="col4"> <p>Used only when <span class="codeph"> globalMboxAutocreate === true </span> to minimize the chance of flicker </p> <p>For more information, see <a href="c_manage-flicker-with-atjs.xml#concept_AA168574397D4474B993EEAB90865EBA" format="dita" scope="local"> How at.js Manages Flicker </a>. </p> </td> 
+   <td colname="col4"> <p>Used only when <span class="codeph"> globalMboxAutocreate === true </span> to minimize the chance of flicker </p> <p>For more information, see <a href="c_manage-flicker-with-atjs.md#concept_AA168574397D4474B993EEAB90865EBA" format="dita" scope="local"> How at.js Manages Flicker </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>bodyHidingEnabled </p> </td> 
@@ -670,9 +670,9 @@ You can override the following settings:
   </tr> 
   <tr> 
    <td colname="col1"> <p>dataProviders </p> </td> 
-   <td colname="col2"> <p>See <a href="cmp_at.js_Functions.xml#concept_8DACBC47ABDE4279BB102B42609FE506/section_42725F3C837247D58AE1831EA330E44D" format="dita" scope="local"> Data Providers </a> below. </p> </td> 
-   <td colname="col3"> <p>See <a href="cmp_at.js_Functions.xml#concept_8DACBC47ABDE4279BB102B42609FE506/section_42725F3C837247D58AE1831EA330E44D" format="dita" scope="local"> Data Providers </a> below. </p> </td> 
-   <td colname="col4"> <p>See <a href="cmp_at.js_Functions.xml#concept_8DACBC47ABDE4279BB102B42609FE506/section_42725F3C837247D58AE1831EA330E44D" format="dita" scope="local"> Data Providers </a> below. </p> </td> 
+   <td colname="col2"> <p>See <a href="cmp_at.js_Functions.md#concept_8DACBC47ABDE4279BB102B42609FE506/section_42725F3C837247D58AE1831EA330E44D" format="dita" scope="local"> Data Providers </a> below. </p> </td> 
+   <td colname="col3"> <p>See <a href="cmp_at.js_Functions.md#concept_8DACBC47ABDE4279BB102B42609FE506/section_42725F3C837247D58AE1831EA330E44D" format="dita" scope="local"> Data Providers </a> below. </p> </td> 
+   <td colname="col4"> <p>See <a href="cmp_at.js_Functions.md#concept_8DACBC47ABDE4279BB102B42609FE506/section_42725F3C837247D58AE1831EA330E44D" format="dita" scope="local"> Data Providers </a> below. </p> </td> 
   </tr> 
  </tbody> 
 </table>

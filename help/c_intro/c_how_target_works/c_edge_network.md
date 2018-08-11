@@ -7,7 +7,7 @@ solution: Target
 subtopic: Getting Started
 title: The Edge Network
 topic: Standard
-uuid: 14fda9aa-6b6d-4997-95f3-72122afeaa08
+uuid: 7b648282-86c5-4e8c-a652-70d784bf4230
 index: y
 internal: n
 snippet: y
@@ -20,7 +20,7 @@ To improve response times, Edge environments house only activity logic and cache
 
 Each Edge node has all the information required to respond to the user's content request, and track analytics data on that request. User requests are routed to the nearest Edge node. 
 
-![](../../assets/edge network.png) 
+![](../../assets/edge_network.png) 
 
 Core Edge site locations contain both a data collection center and a data processing center. Edge site locations contain only a data collection center. Each report suite is assigned to a specific data processing center. 
 

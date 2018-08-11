@@ -6,7 +6,7 @@ seo-title: Download at.js
 solution: Target
 title: Download at.js
 topic: Premium
-uuid: 42e64b10-2768-4a89-9232-3e128c6642b0
+uuid: b04ae049-c532-4e61-8180-846477ebbcf3
 index: y
 internal: n
 snippet: y
@@ -71,7 +71,7 @@ To download [!DNL  at.js] from the [!DNL  Target] interface:
   </tr> 
   <tr> 
    <td colname="col1"> Advanced Settings </td> 
-   <td colname="col2"> <p>Refer to <a href="c_target-atjs-advanced-settings.xml#concept_2FA0456607D04F82B0539C5BF5309812" format="dita" scope="local"> at.js Advanced Settings </a>. </p> </td> 
+   <td colname="col2"> <p>Refer to <a href="c_target-atjs-advanced-settings.md#concept_2FA0456607D04F82B0539C5BF5309812" format="dita" scope="local"> at.js Advanced Settings </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Code Settings </td> 

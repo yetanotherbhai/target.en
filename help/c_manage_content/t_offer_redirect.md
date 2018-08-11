@@ -6,7 +6,7 @@ seo-title: Create Redirect Offers
 solution: Target
 title: Create Redirect Offers
 topic: Standard
-uuid: ab445be7-6e59-4218-8126-d55bacee5018
+uuid: 1ab6fd58-22a2-4480-91d2-effbfe447001
 index: y
 internal: n
 snippet: y

@@ -7,7 +7,7 @@ solution: Target
 subtopic: Getting Started
 title: Users
 topic: Standard
-uuid: 27e96f54-de07-4dfc-aaf9-ea625f2b1153
+uuid: ae67fc4f-f945-4db5-a004-a5ed4ff6d27d
 index: y
 internal: n
 snippet: y
@@ -24,7 +24,7 @@ translate: y
    <td colname="col1"> <p> Properties and Permissions functionality is available as part of the <span class="keyword"> Target Premium</span> solution. They are not available in <span class="keyword"> Target Standard</span> without a <span class="keyword"> Target Premium</span> license. </p> <p>You can tell whether your organization has a Standard or Premium license by clicking the <span class="wintitle"> Setup</span> link at the top of the Target UI. </p> <p> 
      <ul id="ul_829C5A2E317C40DDAB679A3AC9B67DC3"> 
       <li id="li_DB7A95A7929E457EACE6E8D531E36CA2"> <p><b>Target Standard Customers: </b>If you see the <span class="wintitle"> Users</span> tab (<span class="wintitle"> Setup</span> &gt; <span class="wintitle"> Users</span>), your organization has a Target Standard license. Target Standard customers should follow the instructions in this topic to add users and assign permissions in the Adobe Admin Console. </p> </li> 
-      <li id="li_7DA386EFE11F4F5F82125B7E07D0145C"> <p><b>Target Premium Customers: </b>If you see the <span class="wintitle"> Properties</span> tab (<span class="wintitle"> Setup</span> &gt; <span class="wintitle"> Properties</span>), your organization has a Target Premium license. Target Premium customers should follow the instructions in <a href="../target/property_channel.xml#concept_E396B16FA2024ADBA27BC056138F9838" format="dita" scope="local"> Enterprise User Permissions</a> and <a href="../target/properties-overview.xml#concept_22F2855DBF0D4754B9460F5D68749C71" format="dita" scope="local"> Configure Enterprise Permissions</a> to add users and assign permissions in the Adobe Admin Console. </p> </li> 
+      <li id="li_7DA386EFE11F4F5F82125B7E07D0145C"> <p><b>Target Premium Customers: </b>If you see the <span class="wintitle"> Properties</span> tab (<span class="wintitle"> Setup</span> &gt; <span class="wintitle"> Properties</span>), your organization has a Target Premium license. Target Premium customers should follow the instructions in <a href="../target/property_channel.md#concept_E396B16FA2024ADBA27BC056138F9838" format="dita" scope="local"> Enterprise User Permissions</a> and <a href="../target/properties-overview.md#concept_22F2855DBF0D4754B9460F5D68749C71" format="dita" scope="local"> Configure Enterprise Permissions</a> to add users and assign permissions in the Adobe Admin Console. </p> </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 
@@ -103,7 +103,7 @@ System admin users must add users to the system. Users are not automatically add
 
    The [!UICONTROL  Configuration Users] tab displays all of the users in that workspace. 
 
-   ![](../assets/configuration users.png) 
+   ![](../assets/configuration_users.png) 
 
 1. Select the desired permissions role (Observer, Editor, or Approver) by using the drop-down list for each user in the [!UICONTROL  Product Role] column. 
 

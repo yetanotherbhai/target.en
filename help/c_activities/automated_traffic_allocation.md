@@ -6,7 +6,7 @@ seo-title: Auto-Allocate
 solution: Target
 title: Auto-Allocate
 topic: Standard
-uuid: 58b0faf5-146c-41cd-9a48-f2ad91eae473
+uuid: 6adc1b9f-0e8d-40d7-97a4-fc4bce6f0847
 index: y
 internal: n
 snippet: y
@@ -208,7 +208,7 @@ The illustration shows how the traffic allocated to each experience progresses o
   </tr> 
   <tr> 
    <td colname="col1"> <p style="text-align: center;"><img id="image_E34C5278F17945379811E8B9568A4BA7" href="../assets/aa-phase-n.png" /> </p> </td> 
-   <td colname="col2"> <p><b>Round <i>n</i>: </b>As the activity progresses, a high-performing experience starts to emerge and the process continues until there is a winning experience. When the confidence interval of the experience with the highest conversion rate doesn't overlap with any other experience's confidence interval, it is labeled the winner and a <a href="c_determine-winner.xml#concept_5741A89ED7224E1285A3BC34B2CCD0F9" format="dita" scope="local"> badge displays on the activity's page</a> and in the Activity list. </p> <p> 
+   <td colname="col2"> <p><b>Round <i>n</i>: </b>As the activity progresses, a high-performing experience starts to emerge and the process continues until there is a winning experience. When the confidence interval of the experience with the highest conversion rate doesn't overlap with any other experience's confidence interval, it is labeled the winner and a <a href="c_determine-winner.md#concept_5741A89ED7224E1285A3BC34B2CCD0F9" format="dita" scope="local"> badge displays on the activity's page</a> and in the Activity list. </p> <p> 
      <ul id="ul_6F0D50E969E4450595E964C22CDE9635"> 
       <li id="li_96093AC2B40547D7A28483DEF142B195"> <p>The algorithm picks experience C as the clear winner. </p> </li> 
      </ul> </p> <p>At this point the algorithm serves 80% of traffic to experience C, while 20% of traffic continues to be served randomly to all experiences (A, B, C, and D). In total, C gets 85% of traffic. In the unlikely event that the confidence interval of the winner begins to overlap again, the algorithm reverts to the behavior of round 4 above. </p> <p> <p type="important">Note:  If you manually chose a winner earlier in the process, it would have been easy to choose the wrong experience. For this reason, it is best practice to wait until the algorithm determines the winning experience. </p> </p> </td> 

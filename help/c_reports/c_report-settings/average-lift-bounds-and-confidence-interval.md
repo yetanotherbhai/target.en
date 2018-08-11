@@ -6,7 +6,7 @@ seo-title: Average Lift, Lift Bounds, and Confidence Interval
 solution: Target
 title: Average Lift, Lift Bounds, and Confidence Interval
 topic: Premium
-uuid: cd840005-c0bb-4cd0-8b30-00389c31b9a2
+uuid: 75fe0895-8cfb-4e26-8d66-4e7941f12c66
 index: y
 internal: n
 snippet: y
@@ -56,7 +56,7 @@ The lift information in the Target reporting UI includes:
   </tr> 
   <tr> 
    <td colname="col1"> <p>Lift Bounds </p> </td> 
-   <td colname="col2"> <p>This is the 95% confidence interval of the lift. It displays as a range below the average lift. See <a href="average-lift-bounds-and-confidence-interval.xml#topic_AFFDC672A8A34D028B100EF6BE5D8129/section_35BD6FB7AFD346E28BA093147C248471" format="dita" scope="local"> Example Calculation</a> for an example of how these lift bounds are calculated. </p> </td> 
+   <td colname="col2"> <p>This is the 95% confidence interval of the lift. It displays as a range below the average lift. See <a href="average-lift-bounds-and-confidence-interval.md#topic_AFFDC672A8A34D028B100EF6BE5D8129/section_35BD6FB7AFD346E28BA093147C248471" format="dita" scope="local"> Example Calculation</a> for an example of how these lift bounds are calculated. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Boxplot Graph </p> </td> 
@@ -79,7 +79,7 @@ The lift bounds represent the 95% confidence intervals of the lift that the spec
 
 The lift bounds are calculated using the following formula: 
 
-![](../../assets/lift diagram.png) 
+![](../../assets/lift_diagram.png) 
 
 There is some additional calculation to arrive at the input to our lift bounds: 
 
@@ -88,11 +88,11 @@ There is some additional calculation to arrive at the input to our lift bounds:
 
 * **Lift Variance: **The Standard Error of Experience N’s success metric and the Standard Error of the Control Experience’s success metric are needed to determine the lift variance, which is calculated using the following formula (illustrated in the case the success metric is conversion). 
 
-  ![](../../assets/lift variance.png) 
+  ![](../../assets/lift_variance.png) 
 
 * **Conversion Rate / Success Metric Standard Error: **Standard error is calculated in the same way for Experience N and the Control, using the following formula (illustrated in the case the success metric is conversion). You can learn more about [ standard error here](https://en.wikipedia.org/wiki/Standard_error). 
 
-  ![](../../assets/standard error.png) 
+  ![](../../assets/standard_error.png) 
 
 
   >[!NOTE]
@@ -137,25 +137,25 @@ Based on our formulas, we can calculate the inputs we need for the lift bounds.
 
 **Standard Error for Experience A (Control)** 
 
-![](../../assets/standard error A.png) 
+![](../../assets/standard_error_A.png) 
 
 **Standard Error for Experience B** 
 
-![](../../assets/standard error B.png) 
+![](../../assets/standard_error_B.png) 
 
 **Lift Variance for Experience B** 
 
-![](../../assets/lift variance B.png) 
+![](../../assets/lift_variance_B.png) 
 
 **Lift Bounds for Experience B** 
 
 Expected Lift for Experience B: 
 
-![](../../assets/lift bounds B.png) 
+![](../../assets/lift_bounds_B.png) 
 
 Therefore, the lift bounds for Experience B would be: 
 
-![](../../assets/lift bounds B2.png) 
+![](../../assets/lift_bounds_B2.png) 
 
 ## When Are Lift Bounds Not Displayed? {#section_C5622E1E94684DAD937249B51A9E42CC}
 

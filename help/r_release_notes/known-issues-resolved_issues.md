@@ -6,7 +6,7 @@ seo-title: Known Issues and Resolved Issues
 solution: Target
 title: Known Issues and Resolved Issues
 topic: Premium
-uuid: 2ccf0e3d-c1a2-49a1-a1a8-68ca527455b1
+uuid: a51fb95f-d6df-4a86-8f31-19c36a2974be
 index: y
 internal: n
 snippet: y
@@ -84,13 +84,13 @@ The following table lists the known issues for this release:
   </tr> 
   <tr> 
    <td colname="col1"> <p>mbox.js </p> </td> 
-   <td colname="col3"> <p>The <span class="codeph"> mbox.js </span> library does not support client-side templating languages, such as Handlebars and Mustache. The <span class="codeph"> at.js </span> library does support these languages. </p> <p> <p>Note:  The <span class="codeph"> mbox.js </span> library is no longer being developed. All customers should migrate from <span class="codeph"> mbox.js </span> to <span class="codeph"> at.js </span>. For more information, see <a href="../ov2/t_target-migrate-atjs.xml#task_DE55DCE9AC2F49728395665DE1B1E6EA" format="dita" scope="local"> Migrate to at.js from mbox.js </a>. </p> </p> </td> 
+   <td colname="col3"> <p>The <span class="codeph"> mbox.js </span> library does not support client-side templating languages, such as Handlebars and Mustache. The <span class="codeph"> at.js </span> library does support these languages. </p> <p> <p>Note:  The <span class="codeph"> mbox.js </span> library is no longer being developed. All customers should migrate from <span class="codeph"> mbox.js </span> to <span class="codeph"> at.js </span>. For more information, see <a href="../ov2/t_target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA" format="dita" scope="local"> Migrate to at.js from mbox.js </a>. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Redirect offers </p> </td> 
    <td colname="col3"> <p>The following are known issues with redirect offers: </p> <p> 
      <ul id="ul_961891B771FA40A3A34D48CF08E28F55"> 
-      <li id="li_496FD2182D654079944732439E3A5837"> <p>A race condition on your page might cause page views on the original page and on the redirect page to be counted. Updates are planned in Q2 2018 to the <span class="filepath"> at.js </span> implementation to ensure that this race condition can be avoided. For more information about the issue and a workaround, see <a href="../a4t/c_a4t-faq-redirect-offers.xml#concept_21BF213F10E1414A9DCD4A98AF207905" format="dita" scope="local"> Redirect Offers - A4T FAQ </a>. </p> </li> 
+      <li id="li_496FD2182D654079944732439E3A5837"> <p>A race condition on your page might cause page views on the original page and on the redirect page to be counted. Updates are planned in Q2 2018 to the <span class="filepath"> at.js </span> implementation to ensure that this race condition can be avoided. For more information about the issue and a workaround, see <a href="../a4t/c_a4t-faq-redirect-offers.md#concept_21BF213F10E1414A9DCD4A98AF207905" format="dita" scope="local"> Redirect Offers - A4T FAQ </a>. </p> </li> 
       <li id="li_63A5A8139A96453F84A7E095B2A93FF0"> <p>Redirect activities in <span class="codeph"> at.js </span> implementations cause the preview URL to enter into a loop (the offer is delivered repeatedly). </p> <p>This issue does not impact the actual delivery of the offer. (TGT-23019) </p> </li> 
      </ul> </p> </td> 
   </tr> 
@@ -145,7 +145,7 @@ As known issues above are resolved, they will be moved to the following table an
   </tr> 
   <tr> 
    <td colname="col1"> <p>at.js </p> </td> 
-   <td colname="col3"> <p>The algorithm for extracting the top-level domain that should be used when saving cookies has changed in <span class="codeph"> at.js </span> version 0.9.6. Because of this change, cookies cannot be saved to addresses that use IP. Most of the time, IP addresses are used for testing purposes, but as workarounds you can use DNS entries, adjust the hosts file on a local box, or <a href="../ov2/cmp_at.js_Functions.xml#concept_8DACBC47ABDE4279BB102B42609FE506" format="dita" scope="local"> use the <span class="codeph"> targetGlobalSettings() </span> at.js function insert a code snippet to support IP addresses </a>. </p> </td> 
+   <td colname="col3"> <p>The algorithm for extracting the top-level domain that should be used when saving cookies has changed in <span class="codeph"> at.js </span> version 0.9.6. Because of this change, cookies cannot be saved to addresses that use IP. Most of the time, IP addresses are used for testing purposes, but as workarounds you can use DNS entries, adjust the hosts file on a local box, or <a href="../ov2/cmp_at.js_Functions.md#concept_8DACBC47ABDE4279BB102B42609FE506" format="dita" scope="local"> use the <span class="codeph"> targetGlobalSettings() </span> at.js function insert a code snippet to support IP addresses </a>. </p> </td> 
    <td colname="col4"> <p>This issue was remedied in at.js version 1.2. </p> </td> 
   </tr> 
   <tr> 
@@ -217,7 +217,7 @@ As known issues above are resolved, they will be moved to the following table an
   </tr> 
   <tr> 
    <td colname="col1"> <p>at.js </p> </td> 
-   <td colname="col3"> <p>When users attempt to download <span class="codeph"> at.js </span> from the <a href="../ov2/c_target-configure-atjs.xml#concept_1E1F958F9CCC4E35AD97581EFAF659E2" format="dita" scope="local"> Implementation details </a> page after updating <span class="codeph"> at.js </span> settings, <span class="codeph"> mbox.js </span> is downloaded instead of <span class="codeph"> at.js </span>. (TGT-23069) </p> </td> 
+   <td colname="col3"> <p>When users attempt to download <span class="codeph"> at.js </span> from the <a href="../ov2/c_target-configure-atjs.md#concept_1E1F958F9CCC4E35AD97581EFAF659E2" format="dita" scope="local"> Implementation details </a> page after updating <span class="codeph"> at.js </span> settings, <span class="codeph"> mbox.js </span> is downloaded instead of <span class="codeph"> at.js </span>. (TGT-23069) </p> </td> 
    <td colname="col4"> <p>Fixed in the Target 17.3.1 release (March 30, 2017). </p> </td> 
   </tr> 
   <tr> 

@@ -6,7 +6,7 @@ seo-title: Switching Experiences in Experience Targeting
 solution: Target
 title: Switching Experiences in Experience Targeting
 topic: Advanced,Standard,Classic
-uuid: 8a03487c-381c-4b7c-9585-706a3be78f88
+uuid: 3843f155-abdb-46ea-9215-239e93420afc
 index: y
 internal: n
 snippet: y
@@ -47,7 +47,7 @@ With Experience Targeting, you can control which experience visitors see as thei
   </tr> 
   <tr> 
    <td colname="col1"> <p>Category Affinity </p> </td> 
-   <td colname="col2"> <p>The <a href="c_category_affinity.xml#concept_75EC1E1123014448B8B92AD16B2D72CC" format="dita" scope="local"> category affinity</a> feature in <span class="keyword"> Target</span> automatically captures the categories users visit and then calculates the users' affinity for the category for targeting purposes. For example, visitors who viewed several articles on your website about a particular subject could be presented with content related to that subject. </p> </td> 
+   <td colname="col2"> <p>The <a href="c_category_affinity.md#concept_75EC1E1123014448B8B92AD16B2D72CC" format="dita" scope="local"> category affinity</a> feature in <span class="keyword"> Target</span> automatically captures the categories users visit and then calculates the users' affinity for the category for targeting purposes. For example, visitors who viewed several articles on your website about a particular subject could be presented with content related to that subject. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Day of Week </p> </td> 
@@ -65,7 +65,7 @@ To leverage these capabilities in [!DNL  Target], it is important to understand 
 
   For example, in the following activity setup, a visitor accessed your website from the United States and then traveled to Germany and visited your website a second time. During the first visit, this visitor qualified for Experience A (United States). After viewing your website from Germany, this visitor switched to Experience B (Germany). 
 
-  ![](../../../assets/xt_priority us germany.png) 
+  ![](../../../assets/xt_priority_us_germany.png) 
 
 * **Visitors will also switch between experiences if they stop qualifying for their current audience but start qualifying for a lower-priority experience.** 
 
@@ -73,28 +73,28 @@ To leverage these capabilities in [!DNL  Target], it is important to understand 
 
   For example, in the following activity setup, a visitor accessed your website from the United States and then traveled to France and visited your website a second time. During the first visit, this visitor qualified for Experience A (United States). After viewing your website from France, this visitor will remain in the original experience. 
 
-  ![](../../../assets/xt_priority us germany.png) 
+  ![](../../../assets/xt_priority_us_germany.png) 
 
 * **An experience targeted to "All Visitors" can be used as the last experience in the experience targeting activity to "catch" any visitors that have not fallen into any other experience. If an experience targeted to "All Visitors" is not the last in the order, other targeted experiences listed lower than this experience will still be evaluated.** 
 
   For example, in the following activity setup, a visitor accessed your website from the United States and then traveled to Germany and visited your website a second time. During the first visit, this visitor qualified for Experience A (United States). After viewing your website from Germany, this visitor will remain in Experience A (United States). 
 
-  ![](../../../assets/xt_priority us all visitors.png) 
+  ![](../../../assets/xt_priority_us_all_visitors.png) 
 
   If this is undesirable, you can create a new audience that is explicitly defined as the inverse of your targeted audience, as shown in the following example: 
 
-  ![](../../../assets/xt_priority us not us.png) 
+  ![](../../../assets/xt_priority_us_not_us.png) 
 
 * **With a single-experience XT activity, visitors will remain in an experience even if they cease to qualify for the audience that put them in that experience.** 
 
   If this is undesirable, you could create another experience targeted to the inverse audience (for example, "Not United States" as opposed to "United States"). As another option, you could create an A/B activity targeted to your desired audience with 100% traffic allocation, as shown below: 
 
-  ![](../../../assets/xt_priority one experience.png) 
+  ![](../../../assets/xt_priority_one_experience.png) 
 
 * **The priority of experiences is defined by their order (top down) as they display in the Target UI. ** 
 
   This is important to keep in mind in scenarios where a visitor might qualify for more than one of your audiences. For example, if you have two experiences: one targeted to "United States" and one targeted to "New York," a visitor located in New York would qualify for both audiences. Therefore, you must ensure that the "New York" experience is defined before the "United States" experience in the Target UI. This ensures that the more targeted "New York" experience has the higher priority, as shown in the following example: 
 
-  ![](../../../assets/xt_priority ny us.png) 
+  ![](../../../assets/xt_priority_ny_us.png) 
 
 

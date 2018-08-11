@@ -6,7 +6,7 @@ seo-title: TLS (Transport Layer Security) Encryption Changes
 solution: Target
 title: TLS (Transport Layer Security) Encryption Changes
 topic: Standard
-uuid: 1d8d7c0d-cd2d-4752-9c08-9c5140ae7ba6
+uuid: 5c48b239-b222-4691-b48c-599a0b1606e4
 index: y
 internal: n
 snippet: y
@@ -100,14 +100,14 @@ To check the TLS version on your website using Firefox (other browsers have simi
 
 1. Click the ** [!UICONTROL  Show Site Information] ** icon on the browser's address bar. 
 
-   ![](../../../assets/firefox more info.png) 
+   ![](../../../assets/firefox_more_info.png) 
 
 1. Click ** [!UICONTROL  Show Connection Details] ** > ** [!UICONTROL  More Information] **. 
 
-   ![](../../../assets/firefox more info 2.png) 
+   ![](../../../assets/firefox_more_info_2.png) 
 
 1. Examine the TLS version information under Technical Details: 
 
-   ![](../../../assets/firefox more info 3.png) 
+   ![](../../../assets/firefox_more_info_3.png) 
 
 

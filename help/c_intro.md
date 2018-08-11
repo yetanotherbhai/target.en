@@ -6,7 +6,7 @@ seo-title: Introduction to Target
 solution: Target
 title: Introduction to Target
 topic: Advanced
-uuid: 4b90053f-059d-4767-a540-53fea6c2c204
+uuid: 45f85a46-d1f3-4d6b-899a-f514e6640fea
 index: y
 internal: n
 snippet: y
@@ -32,15 +32,15 @@ The [!DNL  Adobe Target] solution contains several components:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <a href="c_intro.xml#concept_536BD00F739B419A9812B475898DE4CD/section_ACD5EFF17AAB4E979CBEFA0145CCD905" format="dita" scope="local"> Target Standard </a> </td> 
+   <td colname="col1"> <a href="c_intro.md#concept_536BD00F739B419A9812B475898DE4CD/section_ACD5EFF17AAB4E979CBEFA0145CCD905" format="dita" scope="local"> Target Standard </a> </td> 
    <td colname="col2"> <p>Provides a visual interface for creating and managing A/B tests and rules-based targeting activities. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <a href="c_intro.xml#concept_536BD00F739B419A9812B475898DE4CD/section_7728D488C2824105A1D5C6675352CE23" format="dita" scope="local"> Target Premium </a> </td> 
+   <td colname="col1"> <a href="c_intro.md#concept_536BD00F739B419A9812B475898DE4CD/section_7728D488C2824105A1D5C6675352CE23" format="dita" scope="local"> Target Premium </a> </td> 
    <td colname="col2"> <p> Adds premium features to the Target Standard interface. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <a href="c_intro.xml#concept_536BD00F739B419A9812B475898DE4CD/section_9554068100054D2DBDB298CBE5A0E413" format="dita" scope="local"> Recommendations Classic </a> </td> 
+   <td colname="col1"> <a href="c_intro.md#concept_536BD00F739B419A9812B475898DE4CD/section_9554068100054D2DBDB298CBE5A0E413" format="dita" scope="local"> Recommendations Classic </a> </td> 
    <td colname="col2"> <p>Automatically displays products or content that might interest your customers based on previous user activity on your Web site. </p> </td> 
   </tr> 
  </tbody> 
@@ -102,15 +102,15 @@ Target Premium includes the following premium features:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <a href="t_automated_personalization.xml#task_8AAF837796D74CF893CA2F88BA1491C9" format="dita" scope="local"> Automated Personalization </a> </p> </td> 
+   <td colname="col1"> <p> <a href="t_automated_personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9" format="dita" scope="local"> Automated Personalization </a> </p> </td> 
    <td colname="col2"> <p>Automated Personalization provides advanced machine learning algorithms to drive personalized experiences and improved conversion rates for digital experiences. </p> <p class="- topic/p ">Automated personalization (formerly Test&amp;amp;Target 1:1) records visitor activity on the site, building a profile of visitors so content can be targeted to similar visitors. It tracks responses to content, both for individuals and the population as a whole, then uses sophisticated modeling approaches to automatically target each individual by accounting for everything known about that visitor. </p> <p class="- topic/p ">Automated personalization learns by itself and requires minimum human analysis. Fully automated, it learns continuously. The system builds models and automatically learns what products an individual visitor is most likely to be interested in. Every time a visitor interacts with the site, information is collected and stored in the visitor profile. Multiple algorithms are available to provide the best model for your system. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="c_auto-target-to-optimize.xml#concept_67779E5B7F67427A97D7EA2A6FB919B3" format="dita" scope="local"> Auto-Target For Personalized Experiences </a> </p> </td> 
+   <td colname="col1"> <p> <a href="c_auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3" format="dita" scope="local"> Auto-Target For Personalized Experiences </a> </p> </td> 
    <td colname="col2"> <p>Auto-Target uses advanced machine learning to identify multiple high-performing marketer-defined experiences, and serves the most tailored experience to each visitor based on their individual customer profile and the behavior of previous visitors with similar profiles, in order to personalize content and drive conversions. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../recs/c_recommendations.xml#concept_7556C8A4543942F2A77B13A29339C0C0" format="dita" scope="local"> Recommendations </a> </p> </td> 
+   <td colname="col1"> <p> <a href="../recs/c_recommendations.md#concept_7556C8A4543942F2A77B13A29339C0C0" format="dita" scope="local"> Recommendations </a> </p> </td> 
    <td colname="col2"> <p>Recommendations activities automatically display products or content that might interest your customers based on previous user activity. Recommendations help direct customers to relevant items they might otherwise not know about. </p> <p>A recommendation determines how a product is suggested to a customer, depending on that customer's activities on the site. For example: </p> <p> 
      <ul id="ul_FC58B6F3654141B6B5354C204A0FF74D"> 
       <li id="li_6CDECE730A8F4C70AA5401170C8BD7BA"> <p>Encourage people who purchase a backpack to consider buying hiking shoes and trekking poles. </p> <p>Create a recommendation that shows items that are often purchased together, using the "People who bought this also bought that" criteria. </p> </li> 
@@ -119,7 +119,7 @@ Target Premium includes the following premium features:
      </ul> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="property_channel.xml#concept_E396B16FA2024ADBA27BC056138F9838" format="dita" scope="local"> Enterprise User Permissions </a> </p> </td> 
+   <td colname="col1"> <p> <a href="property_channel.md#concept_E396B16FA2024ADBA27BC056138F9838" format="dita" scope="local"> Enterprise User Permissions </a> </p> </td> 
    <td colname="col2"> <p>Enterprise User Permission functionality lets you create different projects (called "Product Profiles" in the <span class="keyword"> Adobe Admin Console for Enterprise </span>) to allow you to assign different permissions for a single user that dictate that user's access rights for each project. These distinct projects can be compared to the way that report suites work in <span class="keyword"> Adobe Analytics </span>. Each project can have specific users with specific roles that apply to a set of properties. The result is that customers will be able to restrict the view, edit, and approval access to their users based on region, environment (dev/stage/prod), channel, or other custom criteria. </p> </td> 
   </tr> 
  </tbody> 

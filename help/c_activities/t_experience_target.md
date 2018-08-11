@@ -5,7 +5,7 @@ seo-description: Experience Targeting (XT) delivers content to a specific audien
 seo-title: Experience Targeting
 solution: Target
 title: Experience Targeting
-uuid: 6f88d59b-e4ee-44e1-81d0-746c34a9e384
+uuid: 7bc7128f-1126-42f0-a7af-fd7d87041be9
 index: y
 internal: n
 snippet: y

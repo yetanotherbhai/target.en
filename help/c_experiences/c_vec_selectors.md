@@ -6,7 +6,7 @@ seo-title: Element Selectors Used in the Visual Experience Composer
 solution: Target
 title: Element Selectors Used in the Visual Experience Composer
 topic: Standard
-uuid: 8e662298-a86b-4739-a13e-634d0ef5870e
+uuid: 7a738867-11a3-4b64-9db0-1161e5928e5a
 index: y
 internal: n
 snippet: y

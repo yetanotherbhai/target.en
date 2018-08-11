@@ -5,7 +5,7 @@ seo-description: Use the Offers library to manage your code offer and image offe
 seo-title: Offers
 solution: Target
 title: Offers
-uuid: f506842b-10d1-44fc-8fd8-4cf562b440e9
+uuid: 7bd4317c-0d00-4afc-8ea4-cc29e43bfd49
 index: y
 internal: n
 snippet: y
@@ -50,11 +50,11 @@ Click ** [!UICONTROL  Offers] ** to open the library. The library contains the o
 
 The [!UICONTROL  Offers] page has two tabs along the right side: Code Offers and Image Offers that let you view offers by type. 
 
-![](assets/offers page.png) 
+![](assets/offers_page.png) 
 
 You can filter offers by type ( HTML Offer, Redirect Offer, Remote Offer, or Folder) and by source (Adobe Target, Adobe Target Classic, Adobe Experience Manager, Adobe Mobile Services, or API). 
 
-![](assets/offers filter.png) 
+![](assets/offers_filter.png) 
 
 You can edit or copy a folder or offer by hovering over the desired item, then by clicking the Edit or Copy icons. 
 

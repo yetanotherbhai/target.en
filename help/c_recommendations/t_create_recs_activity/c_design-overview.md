@@ -6,7 +6,7 @@ seo-title: Design Overview
 solution: Target
 title: Design Overview
 topic: Premium
-uuid: 6ae84f10-66f6-493b-a8bf-3f55539fe7bb
+uuid: a192ef56-324e-4470-97a9-30a533882048
 index: y
 internal: n
 snippet: y
@@ -34,7 +34,7 @@ The following example shows how to JSON responses can be returned when configuri
 
 1. Ensure that the "HTML Design" option is turned off: 
 
-   ![](../../assets/html design toggle.png) 
+   ![](../../assets/html_design_toggle.png) 
 
 1. The following code is an example below of what you could paste into your design: 
 
@@ -136,7 +136,7 @@ The following example shows how to JSON responses can be returned when configuri
 
    After your algorithm has run, and you have results, your response should look something like this: 
 
-   ![](../../assets/json recommendation.png) 
+   ![](../../assets/json_recommendation.png) 
 
 
 ## Additional JSON Object Tips and Tricks {#section_C305673C68944749969DB239E3221DC2}

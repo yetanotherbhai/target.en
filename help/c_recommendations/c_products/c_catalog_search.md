@@ -7,7 +7,7 @@ solution: Target
 title: Catalog Search
 title_outputclass: premium
 topic: Premium
-uuid: dc8d145d-e636-4845-9ad5-b2b93d9a0e41
+uuid: 0b2cb411-8217-450d-8edf-e0c5719dd12b
 badge: assets/premium.png
 index: y
 internal: n

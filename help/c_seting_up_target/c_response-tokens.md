@@ -7,7 +7,7 @@ solution: Target
 subtopic: Getting Started
 title: Response Tokens
 topic: Standard
-uuid: 278a3aa4-4c16-4600-9cdb-af9322232520
+uuid: e791af07-7a6e-4ae9-8e59-e76357e4c3f3
 index: y
 internal: n
 snippet: y
@@ -39,11 +39,11 @@ A key difference between plug-ins and response tokens is that while plug-ins del
  <tbody> 
   <tr> 
    <td colname="col1"> <p>at.js </p> </td> 
-   <td colname="col2"> <p>Ensure that you are using <span class="filepath"> at.js </span> version 1.1 or later. For information about downloading the latest version of at.js, see <a href="../ov2/c_target-configure-atjs.xml#concept_1E1F958F9CCC4E35AD97581EFAF659E2" format="dita" scope="local"> Download at.js </a>. For information about new functionality in each version of at.js, see <a href="../ov2/r_target-atjs-versions.xml#reference_DBB5EDB79EC44E558F9E08D4774A0F7A" format="dita" scope="local"> at.js Version Details </a>. </p> <p>Customers using <span class="filepath"> at.js </span> are encouraged to use response tokens and move away from plugins. Some plugins that rely on internal methods that exist in <span class="filepath"> mbox.js </span>, but not in <span class="filepath"> at.js </span>, will be delivered but will fail. For more information, see <a href="../ov2/c_target-atjs-limitations.xml#concept_FA99E4D6EC274552BF45E01AFB76CCAE" format="dita" scope="local"> at.js Limitations </a>. </p> </td> 
+   <td colname="col2"> <p>Ensure that you are using <span class="filepath"> at.js </span> version 1.1 or later. For information about downloading the latest version of at.js, see <a href="../ov2/c_target-configure-atjs.md#concept_1E1F958F9CCC4E35AD97581EFAF659E2" format="dita" scope="local"> Download at.js </a>. For information about new functionality in each version of at.js, see <a href="../ov2/r_target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A" format="dita" scope="local"> at.js Version Details </a>. </p> <p>Customers using <span class="filepath"> at.js </span> are encouraged to use response tokens and move away from plugins. Some plugins that rely on internal methods that exist in <span class="filepath"> mbox.js </span>, but not in <span class="filepath"> at.js </span>, will be delivered but will fail. For more information, see <a href="../ov2/c_target-atjs-limitations.md#concept_FA99E4D6EC274552BF45E01AFB76CCAE" format="dita" scope="local"> at.js Limitations </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>mbox.js </p> </td> 
-   <td colname="col2"> <p>Plugins will continue to be supported and delivered when using <span class="filepath"> mbox.js </span>. </p> <p>However, customers using <span class="filepath"> mbox.js </span> and plugins are encouraged to move to <span class="filepath"> at.js </span> and response tokens. For information about the advantages of using <span class="filepath"> at.js </span> over <span class="filepath"> mbox.js </span>, see <a href="../ov2/c_target-atjs-faq.xml#concept_D6EFE8D84A06476DB5ABD494D7E8C769" format="dita" scope="local"> at.js Frequently Asked Questions </a>. For information about migrating, see <a href="../ov2/t_target-migrate-atjs.xml#task_DE55DCE9AC2F49728395665DE1B1E6EA" format="dita" scope="local"> Migrate to at.js from mbox.js </a>. </p> <p>After the deprecation of <span class="keyword"> Target Classic </span> (November 2017), you might need to contact Client Care to edit or disable existing plugins. You should have audited your plugins before <span class="keyword"> Target Classic </span> was deprecated and disabled unwanted plugins. </p> <p>You cannot create new plugins in Target Standard/Premium. Instead, use response tokens. </p> <p>Old SiteCatalyst plugins should be disabled and replaced with <a href="../a4t/a4t.xml#concept_7540C8C04259434AB6EE33B09F47A1DE" format="dita" scope="local"> Adobe Analytics as the Reporting Source for Adobe Target (A4T) </a>. The ttMeta plugin should be disabled and replaced with the <a href="https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj" format="https" scope="external"> Adobe Experience Cloud Debugger </a>. </p> </td> 
+   <td colname="col2"> <p>Plugins will continue to be supported and delivered when using <span class="filepath"> mbox.js </span>. </p> <p>However, customers using <span class="filepath"> mbox.js </span> and plugins are encouraged to move to <span class="filepath"> at.js </span> and response tokens. For information about the advantages of using <span class="filepath"> at.js </span> over <span class="filepath"> mbox.js </span>, see <a href="../ov2/c_target-atjs-faq.md#concept_D6EFE8D84A06476DB5ABD494D7E8C769" format="dita" scope="local"> at.js Frequently Asked Questions </a>. For information about migrating, see <a href="../ov2/t_target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA" format="dita" scope="local"> Migrate to at.js from mbox.js </a>. </p> <p>After the deprecation of <span class="keyword"> Target Classic </span> (November 2017), you might need to contact Client Care to edit or disable existing plugins. You should have audited your plugins before <span class="keyword"> Target Classic </span> was deprecated and disabled unwanted plugins. </p> <p>You cannot create new plugins in Target Standard/Premium. Instead, use response tokens. </p> <p>Old SiteCatalyst plugins should be disabled and replaced with <a href="../a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE" format="dita" scope="local"> Adobe Analytics as the Reporting Source for Adobe Target (A4T) </a>. The ttMeta plugin should be disabled and replaced with the <a href="https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj" format="https" scope="external"> Adobe Experience Cloud Debugger </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -66,7 +66,7 @@ This section contains the following information:
 
 1. In [!DNL  Target], click ** [!UICONTROL  Setup] ** > ** [!UICONTROL  Response Tokens] **. 
 
-   ![](../assets/response tokens.png) 
+   ![](../assets/response_tokens.png) 
 
 1. Activate the desired response tokens, such as ` activity.id`, ` option.id`, and so forth. 
 
@@ -159,7 +159,7 @@ This section contains the following information:
   <tr> 
    <td colname="col1" morerows="8"> <p>Geo </p> </td> 
    <td colname="col2"> <p>geo.country </p> </td> 
-   <td colname="col03" morerows="8"> <p>See <a href="c_geo.xml#concept_5B4D99DE685348FB877929EE0F942670" format="dita" scope="local"> Geo </a> for more information about using geo targeting in activities. </p> </td> 
+   <td colname="col03" morerows="8"> <p>See <a href="c_geo.md#concept_5B4D99DE685348FB877929EE0F942670" format="dita" scope="local"> Geo </a> for more information about using geo targeting in activities. </p> </td> 
    <td colname="col3"> <p>profile.geolocation.country </p> </td> 
   </tr> 
   <tr> 
@@ -209,7 +209,7 @@ This section contains the following information:
 
    Click ** [!UICONTROL  Create] **, provide the token name, then click ** [!UICONTROL  Activate] **. 
 
-   ![](../assets/response token create.png) 
+   ![](../assets/response_token_create.png) 
 
 1. Create an activity. 
 

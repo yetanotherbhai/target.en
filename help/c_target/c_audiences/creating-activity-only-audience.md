@@ -6,7 +6,7 @@ seo-title: Creating an Activity-Only Audience
 solution: Target
 title: Creating an Activity-Only Audience
 topic: Advanced,Standard,Classic
-uuid: ae07a87e-392a-425a-9d6d-d18c46b50d22
+uuid: 964a4796-faf8-432a-bd20-94fa487f84c7
 index: y
 internal: n
 snippet: y
@@ -29,7 +29,7 @@ Activity-only audiences provide the following benefits:
 
 1. While creating an activity, in the ** [!UICONTROL  Audience] ** box, click the ** [!UICONTROL  Edit] ** icon (  ![](../../assets/icon_more_options.png) ), then click ** [!UICONTROL  Replace Audience] **. 
 
-   ![](../../assets/replace audiience.png) 
+   ![](../../assets/replace_audiience.png) 
 
 1. On the Choose Audience page, click ** [!UICONTROL  Activity Only Audience] **. 
 

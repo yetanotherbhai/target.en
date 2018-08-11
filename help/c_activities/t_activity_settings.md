@@ -7,7 +7,7 @@ solution: Target
 subtopic: Multivariate Test
 title: Activity Settings
 topic: Standard
-uuid: 1c7625f8-6bc1-405a-8b22-2da58b58fd7b
+uuid: 96d40964-a4c5-4076-a193-89fb66a9314f
 index: y
 internal: n
 snippet: y

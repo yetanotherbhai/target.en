@@ -6,7 +6,7 @@ seo-title: Android - Setting Up the Mobile App
 solution: Target
 title: Android - Setting Up the Mobile App
 topic: Standard
-uuid: c4801de5-918f-4a53-8ed0-86d9f103689f
+uuid: cc13b462-68a1-4c80-b441-9c83f33517e0
 index: y
 internal: n
 snippet: y

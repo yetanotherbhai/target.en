@@ -6,7 +6,7 @@ seo-title: mbox.js Version Details
 solution: Target
 subtopic: Getting Started
 title: mbox.js Version Details
-uuid: 9701ccb3-0dfc-4f91-9779-1df38b1327a1
+uuid: 136a7d18-4c5e-46a6-90e1-61b249045447
 index: y
 internal: n
 snippet: y

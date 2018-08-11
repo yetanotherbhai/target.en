@@ -7,7 +7,7 @@ solution: Target
 title: Automated Personalization
 title_outputclass: premium
 topic: Advanced
-uuid: aaaa9700-eb51-46e0-8adc-045aae7c9270
+uuid: 8beb52dc-6999-4cfd-a4ac-ecf02d0eb1b3
 badge: assets/premium.png
 index: y
 internal: n

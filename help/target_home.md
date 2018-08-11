@@ -4,7 +4,7 @@ seo-title: Adobe Target Product Documentation
 solution: Target
 title: Adobe Target Product Documentation
 topic: Premium
-uuid: 1083d218-a655-4e6f-93da-47da52612736
+uuid: bc23fb12-e361-49b2-b380-1a9c39e21c53
 index: y
 internal: n
 snippet: y
@@ -22,7 +22,7 @@ translate: y
 <table id="table_1887789FB95243F9AC71E6FC4A50650A"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><b> <a href="c_target-insider-newsletter.xml#concept_7600A06142034A3FA325EF7FA898DDE8" format="dita" scope="local"> Subscribe to the Adobe Target Insider Newsletter! </a></b> </p> <p>The Adobe Target Insider is a monthly newsletter for members of the Adobe Target community. Learn about product updates and future plans, personalization and optimization tips and tricks, customer successes, upcoming events, information-filled white papers, popular blog posts, and more. </p> </td> 
+   <td colname="col1"> <p><b> <a href="c_target-insider-newsletter.md#concept_7600A06142034A3FA325EF7FA898DDE8" format="dita" scope="local"> Subscribe to the Adobe Target Insider Newsletter! </a></b> </p> <p>The Adobe Target Insider is a monthly newsletter for members of the Adobe Target community. Learn about product updates and future plans, personalization and optimization tips and tricks, customer successes, upcoming events, information-filled white papers, popular blog posts, and more. </p> </td> 
   </tr> 
  </tbody> 
 </table>

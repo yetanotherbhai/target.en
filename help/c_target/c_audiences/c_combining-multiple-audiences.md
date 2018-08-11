@@ -6,7 +6,7 @@ seo-title: Combining Multiple Audiences
 solution: Target
 title: Combining Multiple Audiences
 topic: Advanced,Standard,Classic
-uuid: b190f321-6e00-4efc-987d-eaac37a9af09
+uuid: 8e9220cb-fef4-448e-9c0a-037756d11b27
 index: y
 internal: n
 snippet: y

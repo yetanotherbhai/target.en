@@ -6,7 +6,7 @@ seo-title: Mobile Viewport Configuration
 solution: Target
 title: Mobile Viewport Configuration
 topic: Standard
-uuid: 96d61cb6-6121-4954-8b3c-c2bbf37576ec
+uuid: 95b21803-af46-4599-9f5d-8c81b48aa57c
 index: y
 internal: n
 snippet: y

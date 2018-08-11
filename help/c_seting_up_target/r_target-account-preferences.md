@@ -7,7 +7,7 @@ solution: Target
 subtopic: Getting Started
 title: Preferences
 topic: Standard
-uuid: f18edfe6-21d7-411b-a2f0-ec6a51bbf611
+uuid: 50bcc478-c773-49c3-93ed-b2764c91f8b9
 index: y
 internal: n
 snippet: y
@@ -141,7 +141,7 @@ You can choose one or both of the following options:
   </tr> 
   <tr> 
    <td colname="col1"> <p>Enable Enhanced Experience Composer </p> </td> 
-   <td colname="col2"> <p>Allows editing on iFrame-busting sites and sites with mixed content. Some sites may not be compatible with the enhanced version. Uncheck this option to revert to the original Experience Composer. Activity delivery on sites is not affected by this choice. </p> <p>For more information, see <a href="https://marketing.adobe.com/resources/help/en_US/target/target/r_troubleshoot_composer.html" format="https" scope="external"> Troubleshooting the Visual Experience Composer </a>. </p> <p> <p>Note:  You can also enable the <span class="wintitle"> Enhanced Experience Composer </span> at the activity level. For more information, see <a href="../target/c_experiences.xml#concept_A2E10F6AFB3D4AEAB6951EE14688848D" format="dita" scope="local"> Experiences </a>. </p> </p> </td> 
+   <td colname="col2"> <p>Allows editing on iFrame-busting sites and sites with mixed content. Some sites may not be compatible with the enhanced version. Uncheck this option to revert to the original Experience Composer. Activity delivery on sites is not affected by this choice. </p> <p>For more information, see <a href="https://marketing.adobe.com/resources/help/en_US/target/target/r_troubleshoot_composer.html" format="https" scope="external"> Troubleshooting the Visual Experience Composer </a>. </p> <p> <p>Note:  You can also enable the <span class="wintitle"> Enhanced Experience Composer </span> at the activity level. For more information, see <a href="../target/c_experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D" format="dita" scope="local"> Experiences </a>. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Generate Experience Snapshots </p> </td> 
@@ -167,7 +167,7 @@ You can add devices to use when previewing experiences. Each device has an assoc
  <tbody> 
   <tr> 
    <td colname="col1"> <p class="premium">Add New </p> </td> 
-   <td colname="col2"> <p>Click <span class="uicontrol"> Add New </span>, specify a descriptive name for the mobile viewport, specify the width and height, select the desired operating system, then click Save. </p> <p>For information about how to add a mobile viewport, see <a href="../target/t_mobile_viewport_configuration.xml#task_B4B161499DC0470584ED922A4D20FCAB" format="dita" scope="local"> Mobile Viewport Configuration </a>. </p> </td> 
+   <td colname="col2"> <p>Click <span class="uicontrol"> Add New </span>, specify a descriptive name for the mobile viewport, specify the width and height, select the desired operating system, then click Save. </p> <p>For information about how to add a mobile viewport, see <a href="../target/t_mobile_viewport_configuration.md#task_B4B161499DC0470584ED922A4D20FCAB" format="dita" scope="local"> Mobile Viewport Configuration </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

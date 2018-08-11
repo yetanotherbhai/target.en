@@ -6,7 +6,7 @@ seo-title: User Permission Requirements
 solution: Target,Analytics
 title: User Permission Requirements
 topic: Reports and analytics
-uuid: 478d8d84-96c0-4634-9d06-e7d8b0fd528d
+uuid: 06622c07-8c9c-4fdd-825f-6382887a02a2
 index: y
 internal: n
 snippet: y

@@ -7,7 +7,7 @@ solution: Target
 subtopic: Getting Started
 title: Configure at.js
 topic: Standard
-uuid: 3d1f8381-93a4-4fd5-ab6b-be8433d1918c
+uuid: 15592228-9ea0-49dd-bfda-c4610cf5183c
 index: y
 internal: n
 snippet: y
@@ -100,11 +100,11 @@ Please consult with Client Care before changing these settings. These settings a
      <ul id="ul_F9154E3EC6BF41ECA49216BF4373AF6C"> 
       <li id="li_C26553FD85B94850944F623CA94CD370"> <p>If the value is too low, users might see default content most of the time, although the visitor could be counted as a participant in the activity. </p> </li> 
       <li id="li_6BDF05026AA747D2A494BE5E5A199717"> <p>If the value is too high, visitors might see blank regions on your web page or blank pages if you use body hiding for extended periods of time. </p> </li> 
-     </ul> </p> <p>To get a better understanding of mbox response times, look at the Network tab in your browser's Developer Tools. You can also use third-party web performance monitoring tools, such as Catchpoint. </p> <p> <p>Note: The <a href="cmp_at.js_Functions.xml#concept_8DACBC47ABDE4279BB102B42609FE506" format="dita" scope="local"> visitorApiTimeout setting</a> ensures that <span class="keyword"> Target</span> doesn't wait for the Visitor API response for too long. This setting and the <span class="wintitle"> Timeout</span> setting for <span class="codeph"> at.js</span> described here do not affect each other. </p> </p> </td> 
+     </ul> </p> <p>To get a better understanding of mbox response times, look at the Network tab in your browser's Developer Tools. You can also use third-party web performance monitoring tools, such as Catchpoint. </p> <p> <p>Note: The <a href="cmp_at.js_Functions.md#concept_8DACBC47ABDE4279BB102B42609FE506" format="dita" scope="local"> visitorApiTimeout setting</a> ensures that <span class="keyword"> Target</span> doesn't wait for the Visitor API response for too long. This setting and the <span class="wintitle"> Timeout</span> setting for <span class="codeph"> at.js</span> described here do not affect each other. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Legacy Browser Support </td> 
-   <td colname="col2"> <p> <p>Note: The <span class="wintitle"> Legacy Browser Support</span> option is available in <span class="codeph"> at.js</span> version 0.9.3 and earlier. This option was removed in <span class="codeph"> at.js</span> version 0.9.4. For a list of browsers supported by <span class="codeph"> at.js</span>, see <a href="../ov/r_supported_browsers.xml#reference_01B4BF99E7D545A7998773202A2F6100" format="dita" scope="local"> Supported Browsers</a>. </p> </p> <p> Legacy browsers are older browsers that do not fully support CORS (Cross Origin Resource Sharing). These browsers include: Internet Explorer browsers earlier than version 11 and Safari versions 6 and below. If Legacy Browser Support is disabled, Target does not deliver content or count visitors in reports on these browsers. If this option is enabled, it is recommended to do quality assurance across older browsers to ensure a good customer experience. </p> </td> 
+   <td colname="col2"> <p> <p>Note: The <span class="wintitle"> Legacy Browser Support</span> option is available in <span class="codeph"> at.js</span> version 0.9.3 and earlier. This option was removed in <span class="codeph"> at.js</span> version 0.9.4. For a list of browsers supported by <span class="codeph"> at.js</span>, see <a href="../ov/r_supported_browsers.md#reference_01B4BF99E7D545A7998773202A2F6100" format="dita" scope="local"> Supported Browsers</a>. </p> </p> <p> Legacy browsers are older browsers that do not fully support CORS (Cross Origin Resource Sharing). These browsers include: Internet Explorer browsers earlier than version 11 and Safari versions 6 and below. If Legacy Browser Support is disabled, Target does not deliver content or count visitors in reports on these browsers. If this option is enabled, it is recommended to do quality assurance across older browsers to ensure a good customer experience. </p> </td> 
   </tr> 
  </tbody> 
 </table>

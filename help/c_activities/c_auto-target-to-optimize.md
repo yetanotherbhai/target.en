@@ -7,7 +7,7 @@ solution: Target
 title: Auto-Target
 title_outputclass: premium
 topic: Standard
-uuid: 9c04b6e7-f1af-4253-bae6-0c78b2db565f
+uuid: cdc5d3af-d4a1-4ff1-aff9-1046d2a6eb6a
 badge: assets/premium.png
 index: y
 internal: n
@@ -119,15 +119,15 @@ Learn more about the data and algorithms underlying Auto-Target and Automated Pe
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><a href="c_algo_random_forest.xml#concept_48F3CDAA16A848D2A84CDCD19DAAE3AA" format="dita" scope="local"> Random Forest Algorithm</a> </p> </td> 
+   <td colname="col1"> <p><a href="c_algo_random_forest.md#concept_48F3CDAA16A848D2A84CDCD19DAAE3AA" format="dita" scope="local"> Random Forest Algorithm</a> </p> </td> 
    <td colname="col2"> <p>Target's main personalization algorithm used in both Auto-Target and Automated Personalization is Random Forest. Ensemble methods like Random Forest use multiple learning algorithms to obtain better predictive performance than could be obtained from any of the constituent learning algorithms. The Random Forest algorithm in the automated personalization system is a classification, or regression method, that operates by constructing a multitude of decision trees at training time. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><a href="c_uploading-data-for-target's-personalization-algorithms.xml#concept_85EA505B37E54514A1C8AB91553FEED6" format="dita" scope="local"> Uploading Data For Target's Personalization Algorithms</a> </p> </td> 
+   <td colname="col1"> <p><a href="c_uploading-data-for-target's-personalization-algorithms.md#concept_85EA505B37E54514A1C8AB91553FEED6" format="dita" scope="local"> Uploading Data For Target's Personalization Algorithms</a> </p> </td> 
    <td colname="col2"> There are several ways to input data for Auto-Target and Automated Personalization models. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><a href="r_ap_data.xml#reference_255BD3DE7AD04DC9B766E0BC78961058" format="dita" scope="local"> Data Collection for Target's Personalization Algorithms</a> </p> </td> 
+   <td colname="col1"> <p><a href="r_ap_data.md#reference_255BD3DE7AD04DC9B766E0BC78961058" format="dita" scope="local"> Data Collection for Target's Personalization Algorithms</a> </p> </td> 
    <td colname="col2"> <p> Target's personalization algorithms automatically collect a variety of data. </p> </td> 
   </tr> 
  </tbody> 

@@ -7,7 +7,7 @@ solution: Target
 subtopic: Multivariate Test
 title: Reports
 topic: Standard
-uuid: b10c985c-f73e-481a-a54c-3306a6f09d01
+uuid: 13f06248-326c-4ef3-9b6a-ce176e1b486b
 index: y
 internal: n
 snippet: y
@@ -47,33 +47,33 @@ In addition to the general reporting information in this topic and its subtopics
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><a href="c_auto-target-to-optimize.xml#concept_67779E5B7F67427A97D7EA2A6FB919B3" format="dita" scope="local"> Auto-Target</a> (AT) </p> </td> 
+   <td colname="col1"> <p><a href="c_auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3" format="dita" scope="local"> Auto-Target</a> (AT) </p> </td> 
    <td colname="col2"> <p> 
      <ul id="ul_81F3B2F17153401DBE4180F8CDA02CFB"> 
-      <li id="li_6649B81BDA274685871478C1B6EC60DB"> <p>Information about the Summary report for AT activities. For more information, see <a href="c_auto-target-summary-report.xml#concept_E2171F7B57C1417DAAD7E7909A3FB073" format="dita" scope="local"> Auto-Target Summary Report</a>. </p> </li> 
-      <li id="li_5BE42826325744BCA8F449CC282853AD"> <p>Information about the two Personalization Insights reports for AT and AP activities: Automated Segments report and Model Attribute Ranking report. For more information, see <a href="c_personalization-insights-reports.xml#concept_A897070E1EDC403EB84CFB7A6ECAD767" format="dita" scope="local"> Personalization Insights Reports</a>. </p> </li> 
+      <li id="li_6649B81BDA274685871478C1B6EC60DB"> <p>Information about the Summary report for AT activities. For more information, see <a href="c_auto-target-summary-report.md#concept_E2171F7B57C1417DAAD7E7909A3FB073" format="dita" scope="local"> Auto-Target Summary Report</a>. </p> </li> 
+      <li id="li_5BE42826325744BCA8F449CC282853AD"> <p>Information about the two Personalization Insights reports for AT and AP activities: Automated Segments report and Model Attribute Ranking report. For more information, see <a href="c_personalization-insights-reports.md#concept_A897070E1EDC403EB84CFB7A6ECAD767" format="dita" scope="local"> Personalization Insights Reports</a>. </p> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><a href="t_automated_personalization.xml#task_8AAF837796D74CF893CA2F88BA1491C9" format="dita" scope="local"> Automated Personalization</a> (AP) </p> </td> 
+   <td colname="col1"> <p><a href="t_automated_personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9" format="dita" scope="local"> Automated Personalization</a> (AP) </p> </td> 
    <td colname="col2"> <p> 
      <ul id="ul_A1BA81DA5EC948E2A4384083907BA7B2"> 
-      <li id="li_C370889D33244710BDDD34FE68A44F28"> <p>Information about the two AP Summary reports for AP activities: Activity Level report and Offer Level report.. For more information, see <a href="c_reports_ap.xml#concept_C02BAFC922114A44846998FD956E345A" format="dita" scope="local"> Automated Personalization Summary Reports</a>. </p> </li> 
-      <li id="li_5720539F6D4645608E9593E8F4368C51"> <p>Information about the two Personalization Insights reports for AP and AT activities: Automated Segments report and Model Attribute Ranking report. For more information, see <a href="c_personalization-insights-reports.xml#concept_A897070E1EDC403EB84CFB7A6ECAD767" format="dita" scope="local"> Personalization Insights Reports</a>. </p> </li> 
+      <li id="li_C370889D33244710BDDD34FE68A44F28"> <p>Information about the two AP Summary reports for AP activities: Activity Level report and Offer Level report.. For more information, see <a href="c_reports_ap.md#concept_C02BAFC922114A44846998FD956E345A" format="dita" scope="local"> Automated Personalization Summary Reports</a>. </p> </li> 
+      <li id="li_5720539F6D4645608E9593E8F4368C51"> <p>Information about the two Personalization Insights reports for AP and AT activities: Automated Segments report and Model Attribute Ranking report. For more information, see <a href="c_personalization-insights-reports.md#concept_A897070E1EDC403EB84CFB7A6ECAD767" format="dita" scope="local"> Personalization Insights Reports</a>. </p> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><a href="../mvt/c_multivariate_testing.xml#concept_628695CDC71B449B8DCC2F5654C11499" format="dita" scope="local"> Multivariate Test</a> (MVT) </p> </td> 
+   <td colname="col1"> <p><a href="../mvt/c_multivariate_testing.md#concept_628695CDC71B449B8DCC2F5654C11499" format="dita" scope="local"> Multivariate Test</a> (MVT) </p> </td> 
    <td colname="col2"> <p> 
      <ul id="ul_335ECDC31B0B45EC831EDA824A85B096"> 
-      <li id="li_967E0EC06E914E308F8F985D505C1339"> <p>Information about the two reports for MVT activities: Experience Performance report and Location Contribution report.. For more information, see <a href="../mvt/c_mvt_reporting.xml#concept_E28CBEF835C7423CB1DCAE8D1912335C" format="dita" scope="local"> Analyze Your Multivariate Test Results</a>. </p> </li> 
+      <li id="li_967E0EC06E914E308F8F985D505C1339"> <p>Information about the two reports for MVT activities: Experience Performance report and Location Contribution report.. For more information, see <a href="../mvt/c_mvt_reporting.md#concept_E28CBEF835C7423CB1DCAE8D1912335C" format="dita" scope="local"> Analyze Your Multivariate Test Results</a>. </p> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><a href="../a4t/a4t.xml#concept_7540C8C04259434AB6EE33B09F47A1DE" format="dita" scope="local"> Adobe Analytics as the Reporting Source for Adobe Target (A4T)</a> </p> </td> 
+   <td colname="col1"> <p><a href="../a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE" format="dita" scope="local"> Adobe Analytics as the Reporting Source for Adobe Target (A4T)</a> </p> </td> 
    <td colname="col2"> <p> 
      <ul id="ul_31083A6CAA3C4DF58996460347AB1C8D"> 
-      <li id="li_981A84CA7169459ABC3EF49E1BD16B02"> <p>Information about using Adobe Analytics as the reporting source for Target. A4T gives you access to Analytics reports for your Target activities. For more information, see <a href="c_analytics-for-target-a4t-reporting.xml#concept_49805AB5ADEB4CD4A95F60C75918FF16" format="dita" scope="local"> Analytics for Target (A4T) Reporting</a>. </p> </li> 
+      <li id="li_981A84CA7169459ABC3EF49E1BD16B02"> <p>Information about using Adobe Analytics as the reporting source for Target. A4T gives you access to Analytics reports for your Target activities. For more information, see <a href="c_analytics-for-target-a4t-reporting.md#concept_49805AB5ADEB4CD4A95F60C75918FF16" format="dita" scope="local"> Analytics for Target (A4T) Reporting</a>. </p> </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 
@@ -93,13 +93,13 @@ In addition to the general reporting information in this topic and its subtopics
 
    The following illustration shows the [!UICONTROL  Type] drop-down list with two types selected: 
 
-   ![](assets/report filters.png) 
+   ![](assets/report_filters.png) 
 
 1. Click the ** [!UICONTROL  Reports] ** tab. 
 
    Each report includes a legend to help you understand the report. 
 
-   ![](assets/report menu bar.png) 
+   ![](assets/report_menu_bar.png) 
 
    The legend displays the following information: 
 

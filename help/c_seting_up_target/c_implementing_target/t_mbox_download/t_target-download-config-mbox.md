@@ -7,7 +7,7 @@ solution: Target
 subtopic: Getting Started
 title: Download mbox.js
 topic: Standard
-uuid: fea063bf-f814-4c3f-85c5-c240e291953b
+uuid: 24f6cdac-5b7d-4153-88cb-96056c4c1708
 index: y
 internal: n
 snippet: y

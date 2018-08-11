@@ -6,7 +6,7 @@ seo-title: Profile Attributes
 solution: Target
 title: Profile Attributes
 topic: Advanced,Standard,Classic
-uuid: 6fbf6b3b-16b0-4414-9b2e-860684db29d5
+uuid: 9458c8c5-e17b-4310-8163-a4c415189936
 index: y
 internal: n
 snippet: y
@@ -34,11 +34,11 @@ The following types of profile attributes are available:
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Mbox </p> </td> 
-   <td colname="col2"> <p>Passed in directly through page code when creating the mbox. See <a href="../ov/c_pass_parameters_to_global_mbox.xml#concept_33362A04146C4E3C8E7089B65F38B5E5" format="dita" scope="local"> Passing Parameters to a Global Mbox </a>. </p> <p> <p>Note:  <span class="keyword"> Target </span> has a limit of 50 unique profile attributes per mbox call. If you need to pass more than 50 profile attributes to <span class="keyword"> Target </span>, you can pass them using the <span class="wintitle"> Profile Update </span> API method. For more information, see <a href="http://developers.adobetarget.com/api/#updating-profiles" format="http" scope="external"> Profile Update </a> in the Adobe Target API documentation. </p> </p> </td> 
+   <td colname="col2"> <p>Passed in directly through page code when creating the mbox. See <a href="../ov/c_pass_parameters_to_global_mbox.md#concept_33362A04146C4E3C8E7089B65F38B5E5" format="dita" scope="local"> Passing Parameters to a Global Mbox </a>. </p> <p> <p>Note:  <span class="keyword"> Target </span> has a limit of 50 unique profile attributes per mbox call. If you need to pass more than 50 profile attributes to <span class="keyword"> Target </span>, you can pass them using the <span class="wintitle"> Profile Update </span> API method. For more information, see <a href="http://developers.adobetarget.com/api/#updating-profiles" format="http" scope="external"> Profile Update </a> in the Adobe Target API documentation. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Script </p> </td> 
-   <td colname="col2"> <p>Defined directly with a JavaScript code snippet. These can store running totals like total money spent by consumer and are executed on each mbox request. See <a href="c_profile_parameters.xml#concept_8C07AEAB0A144FECA8B4FEB091AED4D2" format="dita" scope="local"> Profile Script Attributes </a>. </p> </td> 
+   <td colname="col2"> <p>Defined directly with a JavaScript code snippet. These can store running totals like total money spent by consumer and are executed on each mbox request. See <a href="c_profile_parameters.md#concept_8C07AEAB0A144FECA8B4FEB091AED4D2" format="dita" scope="local"> Profile Script Attributes </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -138,11 +138,11 @@ For example, the following profile script information card is accessed by hoveri
 
 The [!UICONTROL  Script Info] tab contains the following information: Name, Status, Token Type, Script ID , Change Log, and Description. 
 
-![](../../assets/profile script info card.png) 
+![](../../assets/profile_script_info_card.png) 
 
 The [!UICONTROL  Script Usage] tab lists the activities (and their workspaces) that reference the selected profile script. 
 
-![](../../assets/profile script info card usage tab.png) 
+![](../../assets/profile_script_info_card_usage_tab.png) 
 
 
 
@@ -165,11 +165,11 @@ The [!UICONTROL  Script Usage] tab lists the activities (and their workspaces) t
 
 When a profile script is disabled, a yellow alert icon displays next to the profile script in the Target UI, as illustrated below: 
 
-![](../../assets/profile script invalid.png) 
+![](../../assets/profile_script_invalid.png) 
 
 On hover, details on the error display, as illustrated below: 
 
-![](../../assets/profile script hover.png) 
+![](../../assets/profile_script_hover.png) 
 
 Typical reasons for the system to disable profile scripts include the following: 
 
@@ -328,7 +328,7 @@ The following methods can be used to debug profile scripts:
 
   Any time you load a page for your site with Target on it, part of the response from Target will contain your value for the given profile script, as shown below: 
 
-  ![](../../assets/debug profile script 1.png) 
+  ![](../../assets/debug_profile_script_1.png) 
 
 * **Use the mboxTrace Debugging Tool to Debug Profile Scripts.** 
 
@@ -338,6 +338,6 @@ The following methods can be used to debug profile scripts:
 
   This is a little more informative than the response token because you get a before-executed snapshot and an after-snapshot of your profile. It will also show all your available profiles. 
 
-  ![](../../assets/debug profile script 2.png) 
+  ![](../../assets/debug_profile_script_2.png) 
 
 

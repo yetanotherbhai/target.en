@@ -7,7 +7,7 @@ solution: Target
 subtopic: Mobile Viewports
 title: Troubleshooting Multivariate Tests
 topic: Standard
-uuid: e0974383-16c1-4ebf-8068-90ff2e520e19
+uuid: 6aaa76ca-693b-491c-b7cc-beba391e070d
 index: y
 internal: n
 snippet: y

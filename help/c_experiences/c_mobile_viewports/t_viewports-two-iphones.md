@@ -6,7 +6,7 @@ seo-title: Use Case  Target Two iPhone Versions
 solution: Target
 title: Use Case  Target Two iPhone Versions
 topic: Premium
-uuid: 5d487edc-3bb3-48a7-b95a-9dd32274593b
+uuid: 6dbc5e1b-3d65-47b8-8c51-3c566c0902ba
 index: y
 internal: n
 snippet: y

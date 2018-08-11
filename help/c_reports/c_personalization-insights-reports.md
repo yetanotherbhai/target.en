@@ -6,7 +6,7 @@ seo-title: Personalization Insights Reports
 solution: Target
 title: Personalization Insights Reports
 title_outputclass: premium
-uuid: 944fb0cd-72c0-43ba-868b-3ae4ed443e0a
+uuid: 94caa951-252f-454f-8a85-4657036d5e9c
 badge: assets/premium.png
 index: y
 internal: n
@@ -85,7 +85,7 @@ There are two reports available in Personalization Insights:
 
    The Summary report displays, which provides information about the performance of your activities, represented by the first screen icon (  ![](../assets/icon_summary_report.png) ). The two additional icons represent the two Personalization Insights reports: Automated Segments (  ![](../assets/icon_automated_segments_report.png) ) and Model Attribute Ranking (  ![](../assets/icon_model_attribute_ranking.png) ). Note that Auto-Target has an additional graph icon (  ![](../assets/icon_graph_report.png) ) for the graphical view of the Summary report. 
 
-   ![](../assets/personalization insights.png) 
+   ![](../assets/personalization_insights.png) 
 
 
    >[!IMPORTANT]
@@ -101,11 +101,11 @@ There are two reports available in Personalization Insights:
 
    Unlike the Summary report (performance reporting), Personalization Insights, including Automated Segments, is available only for fixed date ranges: 15 days, 30 days, 45 days, 60 days, and 90 days. These fixed date ranges allow Personalization Insights to use a large enough range of data to reduce the likelihood that you derive insights from a short-lived pattern in your activity. The two decisions you can make for your date range is the "End Date" and the "Duration." You'll notice that the "Start" is greyed out. The start date automatically changes based on your selections for the end date and duration. 
 
-   ![](../assets/personalization insights calendar 1.png) 
+   ![](../assets/personalization_insights_calendar_1.png) 
 
    You can access the available fixed date ranges from the "Choose Duration" drop-down list. 
 
-   ![](../assets/personalization insights calendar 2.png) 
+   ![](../assets/personalization_insights_calendar_2.png) 
 
 1. Review the Automated Segments report data. 
 
@@ -123,7 +123,7 @@ There are two reports available in Personalization Insights:
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Left-hand side panel </p> </td> 
-   <td colname="col2"> <p>The left-hand side panel lists the 20 largest "automated segments" identified by Target's personalization models for this activity. An "automated segment" is like an audience, but it is defined by Target's personalization models instead of by the marketer. Each automated segment is made up of specific values (or value ranges) of specific attributes. </p> <p>Note that automated segments can overlap. Automated segments can be defined by one, two, three, or four attributes. See the examples below for more details. </p> <p>To learn more about Target's personalization models, see <a href="c_algo_random_forest.xml#concept_48F3CDAA16A848D2A84CDCD19DAAE3AA" format="dita" scope="local"> Random Forest Algorithm </a>. To learn more about the attributes Target's personalization models use to create the automated segments, see <a href="r_ap_data.xml#reference_255BD3DE7AD04DC9B766E0BC78961058" format="dita" scope="local"> Data Collection for Target's Personalization Algorithms </a>. </p> </td> 
+   <td colname="col2"> <p>The left-hand side panel lists the 20 largest "automated segments" identified by Target's personalization models for this activity. An "automated segment" is like an audience, but it is defined by Target's personalization models instead of by the marketer. Each automated segment is made up of specific values (or value ranges) of specific attributes. </p> <p>Note that automated segments can overlap. Automated segments can be defined by one, two, three, or four attributes. See the examples below for more details. </p> <p>To learn more about Target's personalization models, see <a href="c_algo_random_forest.md#concept_48F3CDAA16A848D2A84CDCD19DAAE3AA" format="dita" scope="local"> Random Forest Algorithm </a>. To learn more about the attributes Target's personalization models use to create the automated segments, see <a href="r_ap_data.md#reference_255BD3DE7AD04DC9B766E0BC78961058" format="dita" scope="local"> Data Collection for Target's Personalization Algorithms </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Center graph </p> </td> 
@@ -156,13 +156,13 @@ There are two reports available in Personalization Insights:
 
    This automated segment is defined based on only one attribute. Visitors included in this automated segment saw this AP activity on a weekday outside of typical working hours or on a weekend. 
 
-   ![](../assets/automated_segment example 1.png) 
+   ![](../assets/automated_segment_example_1.png) 
 
    **Automated Segment Example 2** 
 
    This automated segment is defined based on two attributes. Visitors included in this automated segment who saw this AP activity had fewer than three page views in their current visit and were geographically based within the Latitude 42.57 and 47.29 (approximately between New Hampshire/Oregon and Washington/Maine for a US-based company). 
 
-   ![](../assets/automated_segment example 2.png) 
+   ![](../assets/automated_segment_example_2.png) 
 
 1. (Optional) [ Download the report in CSV format ](c_report-settings.md#section_77E65C50BAAF4AB79242DB3A8778ADEF) for analysis in Excel and other tools. 
 
@@ -202,7 +202,7 @@ There are two reports available in Personalization Insights:
   </tr> 
   <tr> 
    <td colname="col1"> <p>Bar graph </p> </td> 
-   <td colname="col2"> <p>The multi-colored bar graph at the top of the screen allows you to visualize these relative importance scores and maps to the dot's color beside each respective attribute in the table. You can also hover over a specific color in the bar chart to see the attribute it represents. </p> <p>The importance scores across the top 100 attributes add to 100%. For more information about how to add more attributes that Target's personalization models can use, see <a href="c_uploading-data-for-target's-personalization-algorithms.xml#concept_85EA505B37E54514A1C8AB91553FEED6" format="dita" scope="local"> Uploading Data for Target's Personalization Algorithms </a>. </p> </td> 
+   <td colname="col2"> <p>The multi-colored bar graph at the top of the screen allows you to visualize these relative importance scores and maps to the dot's color beside each respective attribute in the table. You can also hover over a specific color in the bar chart to see the attribute it represents. </p> <p>The importance scores across the top 100 attributes add to 100%. For more information about how to add more attributes that Target's personalization models can use, see <a href="c_uploading-data-for-target's-personalization-algorithms.md#concept_85EA505B37E54514A1C8AB91553FEED6" format="dita" scope="local"> Uploading Data for Target's Personalization Algorithms </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

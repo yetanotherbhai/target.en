@@ -5,7 +5,7 @@ seo-description: Multivariate Tests require some planning before you can create 
 seo-title: Plan a Multivariate Test
 solution: Target
 title: Plan a Multivariate Test
-uuid: b16e50f2-c457-4032-80f7-add0e46db1b9
+uuid: fea49b64-55a2-4747-b91f-aa8413a57f83
 index: y
 internal: n
 snippet: y

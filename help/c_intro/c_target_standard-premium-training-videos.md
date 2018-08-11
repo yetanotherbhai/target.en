@@ -6,7 +6,7 @@ seo-title: Training Videos for Adobe Target Standard and Premium
 solution: Target
 title: Training Videos for Adobe Target Standard and Premium
 topic: Advanced
-uuid: 6dae0b4f-853b-4e5e-9b2d-380437729ba3
+uuid: 7c703662-4694-40a6-9065-9e83ac16f69c
 index: y
 internal: n
 snippet: y
@@ -53,4 +53,4 @@ Video introductions to [!DNL  Target] concepts and tools are available on Adobe'
 
 To see more videos and premium content, scroll down and click ** [!UICONTROL  Explore Now] **. 
 
-![](../assets/explore now.png) 
+![](../assets/explore_now.png) 

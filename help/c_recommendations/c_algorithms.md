@@ -7,7 +7,7 @@ solution: Target
 title: Criteria
 title_outputclass: premium
 topic: Premium
-uuid: 1f029714-38e8-44f1-9d07-913dc3035c73
+uuid: 294db3ab-5552-4edf-8ae8-6d4b90a98fb3
 badge: assets/premium.png
 index: y
 internal: n
@@ -95,7 +95,7 @@ The recommendation key you select determines the criteria type. There are severa
      </ul> </p> <p>When you base recommendations on custom attributes, you must select the custom attribute and then select the recommendation type. </p> <p>You can perform real-time filtering on top of your own custom criteria output. For example, you can limit your recommended items to only those from a visitor's favorite category or brand. This gives you the power to combine off-line calculations with real-time filtering. </p> <p>This functionality means that you can use Target to add personalization on top of your offline calculated recommendations or custom-curated lists. This combines the power of your data scientists and research with Adobe's tried-and-true delivery, run-time filtering, A/B testing, targeting, reporting, integrations, and more. </p> <p>With the addition of inclusion rules on Custom criteria, this turns otherwise static recommendations into dynamic recommendations based a visitor's interests. </p> <p> 
      <ul id="ul_BDD55AB34F4A43C691D2399C16AA3D6C"> 
       <li id="li_133C33E0D02E4861A4C855BD8A492E69"> <p>Custom criteria are configurable, like other criteria in recommendations. </p> </li> 
-      <li id="li_AC201F0917BF465C985E8947635F762E"> <p>You can use <a href="c_collections.xml#concept_671BEFFB997D4F1282665BF3CAC00AC5" format="dita" scope="local"> collections</a>, <a href="c_feeds.xml#task_DD6D2F889E234F8C82B1604A3B315D81" format="dita" scope="local"> exclusions</a>, and <a href="c_use-dynamic-and-static-inclusion-rules.xml#concept_4CB5C0FA705D4E449BD0B37B3D987F9F" format="dita" scope="local"> inclusions</a> (including the special rules for Price and Inventory) in the same way as any other criteria. </p> </li> 
+      <li id="li_AC201F0917BF465C985E8947635F762E"> <p>You can use <a href="c_collections.md#concept_671BEFFB997D4F1282665BF3CAC00AC5" format="dita" scope="local"> collections</a>, <a href="c_feeds.md#task_DD6D2F889E234F8C82B1604A3B315D81" format="dita" scope="local"> exclusions</a>, and <a href="c_use-dynamic-and-static-inclusion-rules.md#concept_4CB5C0FA705D4E449BD0B37B3D987F9F" format="dita" scope="local"> inclusions</a> (including the special rules for Price and Inventory) in the same way as any other criteria. </p> </li> 
      </ul> </p> <p>Possible use-cases include: </p> <p> 
      <ul id="ul_E353950A09DB4CFD91FF7F580D77A6A5"> 
       <li id="li_2348C2FFEFD44084AF639A59B0452CFC"> <p>You want to recommend movies from a custom-curated list, but <i>only</i> if the visitor hasn't already watched them. </p> </li> 
@@ -122,13 +122,13 @@ The recommendation key you select determines the criteria type. There are severa
   </tr> 
   <tr> 
    <td colname="col1"> <p>Recently Viewed Items </p> </td> 
-   <td colname="col2"> <p>Recommend the items a visitor has viewed most recently, such as the items a visitor looked at the last time he or she visited your site, or the articles that are trending most highly right now. </p> <p>The Recently Viewed Items algorithm returns results specific to a visitor’s activity within an <a href="../ov2/c_hosts.xml#concept_516BB01EBFBD4449AB03940D31AEB66E" format="dita" scope="local"> environment</a>. If two sites belong to different environments and a visitor switches between the two sites, the algorithm will return only recently viewed items from the appropriate site. </p> <p>This criteria type is not limited by collections. </p> <p> 
+   <td colname="col2"> <p>Recommend the items a visitor has viewed most recently, such as the items a visitor looked at the last time he or she visited your site, or the articles that are trending most highly right now. </p> <p>The Recently Viewed Items algorithm returns results specific to a visitor’s activity within an <a href="../ov2/c_hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E" format="dita" scope="local"> environment</a>. If two sites belong to different environments and a visitor switches between the two sites, the algorithm will return only recently viewed items from the appropriate site. </p> <p>This criteria type is not limited by collections. </p> <p> 
      <ul id="ul_9017DDFB12AA4826BF139D5D24610574"> 
       <li id="li_B0A11E8C999C402EA7333481E9F04C1C"> <p>Recently Viewed Items </p> </li> 
      </ul> </p> <p> <p>Note:  You cannot use the Recently Viewed Items criteria for backup recommendations. </p> </p> <p>Recently Viewed Items/Media can be filtered so that only items with a particular attribute are displayed. </p> <p> 
      <ul id="ul_A2D260F01CA047EEA72EF56BD0EE88FA"> 
       <li id="li_DB107DD357B741CCB2B7A4FDAD16F9D6"> <p>Recently Viewed criteria are configurable, like other criteria in recommendations. </p> </li> 
-      <li id="li_85452C03F0924D4C8D854509F1293021"> <p>You can use <a href="c_collections.xml#concept_671BEFFB997D4F1282665BF3CAC00AC5" format="dita" scope="local"> collections</a>, <a href="c_feeds.xml#task_DD6D2F889E234F8C82B1604A3B315D81" format="dita" scope="local"> exclusions</a>, and <a href="c_use-dynamic-and-static-inclusion-rules.xml#concept_4CB5C0FA705D4E449BD0B37B3D987F9F" format="dita" scope="local"> inclusions</a> (including the special rules for Price and Inventory) in the same way as any other criteria. </p> </li> 
+      <li id="li_85452C03F0924D4C8D854509F1293021"> <p>You can use <a href="c_collections.md#concept_671BEFFB997D4F1282665BF3CAC00AC5" format="dita" scope="local"> collections</a>, <a href="c_feeds.md#task_DD6D2F889E234F8C82B1604A3B315D81" format="dita" scope="local"> exclusions</a>, and <a href="c_use-dynamic-and-static-inclusion-rules.md#concept_4CB5C0FA705D4E449BD0B37B3D987F9F" format="dita" scope="local"> inclusions</a> (including the special rules for Price and Inventory) in the same way as any other criteria. </p> </li> 
      </ul> </p> <p>Possible use-cases include: </p> <p> 
      <ul id="ul_664648DD336643AEAE57FD931BBC742C"> 
       <li id="li_70FFEEB8514345A0B6DBFA1A47C071DA"> <p> A multi-national company with multiple businesses might have a visitor view items across multiple digital properties. In this case, you can limit the recently viewed items to display only for the respective property where it was viewed. This prevents Recently Viewed items from displaying on another digital property's site. </p> </li> 
@@ -154,7 +154,7 @@ The recommendation key you select determines the criteria type. There are severa
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Items/Media with Similar Attributes </p> </td> 
-   <td colname="col2"> <p> Recommends items or media similar to items or media based on current page activity or past visitor behavior. </p> <p> <p>Note: If you select <span class="uicontrol"> Items</span>/<span class="uicontrol"> Media with Similar Attributes</span>, you will have the option to set <a href="t_create_new_algorithm.xml#concept_5402DAFA279C4E46A9A449526889A0CB" format="dita" scope="local"> content similarity rules</a>. </p> </p> </td> 
+   <td colname="col2"> <p> Recommends items or media similar to items or media based on current page activity or past visitor behavior. </p> <p> <p>Note: If you select <span class="uicontrol"> Items</span>/<span class="uicontrol"> Media with Similar Attributes</span>, you will have the option to set <a href="t_create_new_algorithm.md#concept_5402DAFA279C4E46A9A449526889A0CB" format="dita" scope="local"> content similarity rules</a>. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p class="- topic/p "> People Who Viewed This, Viewed That </p> </td> 
@@ -202,15 +202,15 @@ All one-day criteria run twice daily. All one-week and longer criteria run once 
 
 You can view criteria details on a pop-up card by hovering over a card and by clicking the Information icon (  ![](../assets/icon_information.png) ) on a criteria card without opening the criteria. 
 
-![](../assets/criteria hover.png) 
+![](../assets/criteria_hover.png) 
 
 Click the ** [!UICONTROL  Algorithm Info] ** tab to view general information about the selected criteria, including its Name, Descriptions, Industry Vertical, Page Type(s), Recommendation Key, Recommendation Logic, and Algorithm ID. 
 
-![](../assets/criteria info.png) 
+![](../assets/criteria_info.png) 
 
 Click the ** [!UICONTROL  Algorithm Usage] ** tab to view a list of activities that reference the selected criteria. The card lists active and inactive activities. Click the Live Activities or Inactivities drop-down lists to view the entire list of activities that reference that criteria. You can click the activity link to open the activity for editing. 
 
-![](../assets/criteria usage.png) 
+![](../assets/criteria_usage.png) 
 
 ## Determining When Criteria Results are Ready to Display {#section_03F328C07F234692B6D996DF745584B3}
 
@@ -218,8 +218,8 @@ From the activity diagram, Criteria cards now indicate when results are ready to
 
 The following illustration shows the activity diagram on a Recommendations activity's Overview page. You can also see the activity diagram with criteria status results from step 2 during the activity-creation workflow. 
 
-![](../assets/criteria status.png) 
+![](../assets/criteria_status.png) 
 
 Status results include the following: Results Ready, Results Not Ready, and Feed Failure, as illustrated in the following diagram: 
 
-![](../assets/criteria status multi.png) 
+![](../assets/criteria_status_multi.png) 

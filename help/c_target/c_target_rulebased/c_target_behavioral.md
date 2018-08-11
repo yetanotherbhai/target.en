@@ -6,7 +6,7 @@ seo-title: Behavioral Targeting
 solution: Target
 title: Behavioral Targeting
 topic: Standard
-uuid: f97a5d47-ab68-44cd-a9e3-e539f8568ca8
+uuid: 430be2b4-731d-4210-9583-ca79de582c3d
 index: y
 internal: n
 snippet: y

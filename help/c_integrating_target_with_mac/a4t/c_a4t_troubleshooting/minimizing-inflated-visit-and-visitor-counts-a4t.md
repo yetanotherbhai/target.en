@@ -7,7 +7,7 @@ solution: Target
 subtopic: Multivariate Test
 title: Minimizing Inflated Visit and Visitor Counts in A4T
 topic: Standard
-uuid: b6fbd290-1cc6-4af2-944c-b812190496e5
+uuid: c6badb8e-6b98-4751-976b-97fc6b60c0db
 index: y
 internal: n
 snippet: y
@@ -91,7 +91,7 @@ We recommend reviewing the following steps, in order, to reduce partial data col
   </tr> 
   <tr> 
    <td colname="col1"> <img href="../../../assets/step2_icon.png" id="image_76B61DEABE3849CCB39135FDD7399EAA" /> </td> 
-   <td colname="col2"> <p>Ensure the <span class="codeph"> visitorAPI.js </span>, <span class="codeph"> appMeasurement.js </span>, <span class="codeph"> mbox.js </span>/ <span class="codeph"> at.js </span> libraries are on A4T compatible versions. To learn more about implementation requirements, see <a href="c_before_implement.xml#concept_046BC89C03044417A30B63CE34C22543" format="dita" scope="local"> Before You Implement </a>. </p> </td> 
+   <td colname="col2"> <p>Ensure the <span class="codeph"> visitorAPI.js </span>, <span class="codeph"> appMeasurement.js </span>, <span class="codeph"> mbox.js </span>/ <span class="codeph"> at.js </span> libraries are on A4T compatible versions. To learn more about implementation requirements, see <a href="c_before_implement.md#concept_046BC89C03044417A30B63CE34C22543" format="dita" scope="local"> Before You Implement </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <img href="../../../assets/step3_icon.png" id="image_9933AC9D3A884BD9814A6B697610CAE9" /> </td> 
@@ -99,7 +99,7 @@ We recommend reviewing the following steps, in order, to reduce partial data col
   </tr> 
   <tr> 
    <td colname="col1"> <img href="../../../assets/step4_icon.png" id="image_844E896941E2489A943BE10AD710ED36" /> </td> 
-   <td colname="col2"> <p>Confirm that the implementation libraries load in the correct order on your sites. For more information, see <a href="c_a4timplementation.xml#concept_CE78750AC2A4487D8ACD9369B3EAC85A" format="dita" scope="local"> Analytics for Target Implementation </a>. </p> </td> 
+   <td colname="col2"> <p>Confirm that the implementation libraries load in the correct order on your sites. For more information, see <a href="c_a4timplementation.md#concept_CE78750AC2A4487D8ACD9369B3EAC85A" format="dita" scope="local"> Analytics for Target Implementation </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

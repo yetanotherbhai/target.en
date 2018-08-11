@@ -6,7 +6,7 @@ seo-title: Troubleshooting Activities
 solution: Target
 title: Troubleshooting Activities
 topic: Advanced,Standard,Classic
-uuid: 12627d78-0267-4446-a291-253b9040d9b9
+uuid: 8ceb602c-cef7-4cb6-a82c-907790b2691e
 index: y
 internal: n
 snippet: y
@@ -73,7 +73,7 @@ translate: y
    <td colname="col2"> <p> <b>Validate:</b>Click <span class="uicontrol"> Create Activity </span>. If the option is not available, you most likely have not been given sufficient rights to create an activity. </p> <p> <b>Options:</b> </p> <p>Once you are added as a user in Target you need to have the Approver role in order to create Activities. </p> <p> 
      <ul id="ul_817DD00057774B06827A6451A2B46BE0"> 
       <li id="li_2E7A1D33C2CF4BEA8782C2AD78F4874E"> <p>Ask the Admin of your account to make you an Approver. </p> </li> 
-      <li id="li_A3BABEB70AA1419C8B709F8FDB3BDBA8"> <p>If you are the Admin, give yourself the Approver role from <span class="uicontrol"> Setup </span> &gt; <span class="uicontrol"> Users </span> in Target Standard. </p> <p> See <a href="../ov/t_approver.xml#task_15CAA437A71444E2932B333D5E66A3C7" format="dita" scope="local"> Assign Yourself the Approver Role </a>. </p> </li> 
+      <li id="li_A3BABEB70AA1419C8B709F8FDB3BDBA8"> <p>If you are the Admin, give yourself the Approver role from <span class="uicontrol"> Setup </span> &gt; <span class="uicontrol"> Users </span> in Target Standard. </p> <p> See <a href="../ov/t_approver.md#task_15CAA437A71444E2932B333D5E66A3C7" format="dita" scope="local"> Assign Yourself the Approver Role </a>. </p> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
@@ -81,7 +81,7 @@ translate: y
    <td colname="col2"> <p> <b>Validate:</b> Go to the Visual Experience Composer for the existing activity. Look for warning message indicating that the selectors (or structure) has changed. </p> <p> <b>Options:</b> </p> <p> 
      <ul id="ul_8CACB4017E0048D88A21433785827B6A"> 
       <li id="li_E7AF83ABC5FE4759AB77ECA4AA71D3EB"> <p>Rebuild the activity. </p> </li> 
-     </ul> </p> <p>For more information about how page modifications affect Target's ability to display, see <a href="c_vec_scenarios.xml#concept_A458A95F65B4401588016683FB1694DB" format="dita" scope="local"> Page Modification Scenarios </a>. </p> </td> 
+     </ul> </p> <p>For more information about how page modifications affect Target's ability to display, see <a href="c_vec_scenarios.md#concept_A458A95F65B4401588016683FB1694DB" format="dita" scope="local"> Page Modification Scenarios </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>The structure of the page is modified during page load (at run time). </p> </td> 
@@ -89,7 +89,7 @@ translate: y
      <ul id="ul_8C2E2601DA6B4E4CA388EF0D9C748759"> 
       <li id="li_9E970E0E9B1847C7AD030CB67C032AF7"> <p> Update page code to uniquely identify each element that will be tested (using an <span class="codeph"> id </span>). </p> </li> 
       <li id="li_2523B1A8518E45F2B4130ED52DE7A0CF"> <p> Stop dynamically modifying the class or siblings as described above. </p> </li> 
-     </ul> </p> <p>For more information about how page modifications affect Target's ability to display, see <a href="c_vec_scenarios.xml#concept_A458A95F65B4401588016683FB1694DB" format="dita" scope="local"> Page Modification Scenarios </a>. </p> </td> 
+     </ul> </p> <p>For more information about how page modifications affect Target's ability to display, see <a href="c_vec_scenarios.md#concept_A458A95F65B4401588016683FB1694DB" format="dita" scope="local"> Page Modification Scenarios </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="filepath"> Mbox.js </span> is popping all subsequent code out of the head and into the body. </p> </td> 

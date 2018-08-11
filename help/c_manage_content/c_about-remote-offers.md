@@ -6,7 +6,7 @@ seo-title: Create Remote Offers
 solution: Target
 title: Create Remote Offers
 topic: Standard
-uuid: d6a3f037-177d-43e2-9a76-3f523558d033
+uuid: fe6830e5-bcfa-40a5-923d-aa9dc536fd23
 index: y
 internal: n
 snippet: y

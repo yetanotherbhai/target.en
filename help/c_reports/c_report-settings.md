@@ -6,7 +6,7 @@ seo-title: Report Settings
 solution: Target
 title: Report Settings
 topic: Premium
-uuid: 0009b447-4422-484a-9a75-703af55c003c
+uuid: 8fb2c5c6-fd7d-4073-9c3f-2143a055c311
 index: y
 internal: n
 snippet: y
@@ -17,7 +17,7 @@ translate: y
 
 To display a report, click ** [!UICONTROL  Activities] **, click the desired activity from the list, then click the ** [!UICONTROL  Reports] ** tab. 
 
-![](../assets/report ui.png) 
+![](../assets/report_ui.png) 
 
 This section contains the following information: 
 
@@ -67,11 +67,11 @@ You can also configure an individual activity's report as desired and then save 
 
 1. Next to ** [!UICONTROL  Target Preset] **, click  ![](../assets/icon_more_options.png) > ** [!UICONTROL  Save as New] **. 
 
-   ![](../assets/report preset.png) 
+   ![](../assets/report_preset.png) 
 
    The New Preset dialog box displays: 
 
-   ![](../assets/report preset dialog.png) 
+   ![](../assets/report_preset_dialog.png) 
 
 1. Review the information in the Filters and Settings sections to ensure that the report is configured as desired, then specify the ** [!UICONTROL  Preset Name] ** (up to 50 characters). 
 
@@ -85,7 +85,7 @@ You can also configure an individual activity's report as desired and then save 
 
 Select the desired preset from the ** [!UICONTROL  Target Preset] ** drop-down list. 
 
-![](../assets/report preset drop-down.png) 
+![](../assets/report_preset_drop-down.png) 
 
 **Edit a Preset** 
 
@@ -96,7 +96,7 @@ Select the desired preset from the ** [!UICONTROL  Target Preset] ** drop-down l
 
    After you click [!UICONTROL  Save] after editing the report's configuration, an asterisk ( * ) displays after the preset name to indicate that the preset has changed, as shown below: 
 
-   ![](../assets/report preset asterisk.png) 
+   ![](../assets/report_preset_asterisk.png) 
 
 1. Click  ![](../assets/icon_more_options.png) > ** [!UICONTROL  Save as New] ** to create a new preset. 
 
@@ -104,7 +104,7 @@ Select the desired preset from the ** [!UICONTROL  Target Preset] ** drop-down l
 
    Click  ![](../assets/icon_more_options.png) > ** [!UICONTROL  Update] ** to update the current preset. 
 
-   ![](../assets/report preset update.png) 
+   ![](../assets/report_preset_update.png) 
 
 
 
@@ -115,7 +115,7 @@ Select the desired preset from the ** [!UICONTROL  Target Preset] ** drop-down l
 
 1. Click  ![](../assets/icon_more_options.png) > ** [!UICONTROL  Delete] **. 
 
-   ![](../assets/report preset delete.png) 
+   ![](../assets/report_preset_delete.png) 
 
 1. Click ** [!UICONTROL  Delete] ** again to confirm your deletion. 
 
@@ -158,7 +158,7 @@ For more information, see [ Audiences](c_target.md#concept_A782F8481A5041EBA7510
 
 The Date Range box displays the reports current date range. Click the drop-down icon to display a calendar that lets you change the report's date range. 
 
-![](../assets/date range.png) 
+![](../assets/date_range.png) 
 
 Select new ** [!UICONTROL  Start] ** and ** [!UICONTROL  End] ** dates for the report. You can also use the ** [!UICONTROL  From Start of Activity] ** and ** [!UICONTROL  Till End of Activity] ** check boxes. 
 
@@ -209,11 +209,11 @@ Depending on the selected activity type, the options vary:
 
 ## Download {#section_77E65C50BAAF4AB79242DB3A8778ADEF}
 
-Click the Download icon (  ![](../assets/icon download report.png) ) to download report data in a [!DNL  .csv] format for quick import into Excel, Access, or other data analysis programs. For more information, see [ Downloading Data in a CSV File](c_downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75). 
+Click the Download icon (  ![](../assets/icon_download_report.png) ) to download report data in a [!DNL  .csv] format for quick import into Excel, Access, or other data analysis programs. For more information, see [ Downloading Data in a CSV File](c_downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75). 
 
 ## Refresh {#section_E203729F2F314DF3856D2EE67C60B370}
 
-Click  ![](../assets/icon refresh.png) to refresh a report's table and graph view without refreshing the entire page, its configuration, or its date range. 
+Click  ![](../assets/icon_refresh.png) to refresh a report's table and graph view without refreshing the entire page, its configuration, or its date range. 
 
 ## More Options {#section_AB1B5C695D7045A0A0AC0E2698D2E7DE}
 
@@ -221,7 +221,7 @@ Click the More Options icon (  ![](../assets/icon_more_options.png) ) to access 
 
 ## Table View {#section_4E7E75955A964847ADFF2C2314EC0F21}
 
-Click the ** [!UICONTROL  Table View] **icon (  ![](../assets/icon table view report.png) ) to view the report as a table. 
+Click the ** [!UICONTROL  Table View] **icon (  ![](../assets/icon_table_view_report.png) ) to view the report as a table. 
 
 ## Graph View {#section_0D24B902A8D142468ADB7EEF1D941786}
 
@@ -254,7 +254,7 @@ Select or deselect experiences on the left side of the chart to display or hide 
 
 If the following illustration, only experiences B and C display in the report: 
 
-![](../assets/report experiences.png) 
+![](../assets/report_experiences.png) 
 
 ## Running Average {#section_59066693158C4433B87D07402C2BC6CD}
 
@@ -269,7 +269,7 @@ Select the desired graph view:
 * Daily Lift
 
 
-![](../assets/report running average.png) 
+![](../assets/report_running_average.png) 
 
 
 >[!NOTE]
@@ -288,13 +288,13 @@ To access the Counting Methodology option, while viewing a report in graph mode,
 
 The counting methodology will be the same as the one selected in the [!UICONTROL  Settings] dialog, described above. 
 
-![](../assets/counting methodology.png) 
+![](../assets/counting_methodology.png) 
 
 By default, the graph is plotted in [!UICONTROL  Daily] mode. 
 
 You can change the mode by clicking the [!UICONTROL  Daily] drop-down list, then selecting [!UICONTROL  Cumulative]. 
 
-![](../assets/counting methodology 2.png) 
+![](../assets/counting_methodology_2.png) 
 
 
 >[!NOTE]
@@ -337,16 +337,16 @@ If you hover over any of the greyed experiences, a new grey plot line correspond
 
 As an example, the following illustration shows an activity's graph that has 26 experiences: 
 
-![](../assets/graph 1.png) 
+![](../assets/graph_1.png) 
 
 The graph displays the lines for the first 16 experiences (some overlap, so it appears that there are fewer than 16 lines). The colored dot in the Experiences pane on the left side next to each experience name indicate that the experience's plot line displays in the corresponding color. 
 
 If you scroll down in the Experiences pane, you'll notice that the names for the 17th through 26th experiences are greyed out, as shown in the following illustration: 
 
-![](../assets/graph 2.png) 
+![](../assets/graph_2.png) 
 
 If you hover over one of the greyed experiences, a new grey plot line corresponding to that experience temporarily displays in the graph. 
 
 Suppose you want to display the plot line for Experience R and you don't want to see the line for Experience P. You can click Experience P's name to deselect it and then click Experience R's name to select it, as shown below: 
 
-![](../assets/graph 3.png) 
+![](../assets/graph_3.png) 

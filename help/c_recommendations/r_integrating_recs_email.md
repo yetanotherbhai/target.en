@@ -7,7 +7,7 @@ solution: Target
 title: Integrating Recommendations with Email
 title_outputclass: premium
 topic: Recommendations
-uuid: dfa7675c-7c90-4ba4-aa4d-f0feabf02dbe
+uuid: bba69417-da13-42b9-a5a1-6932f9b5bf1d
 badge: assets/premium.png
 index: y
 internal: n

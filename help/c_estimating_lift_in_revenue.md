@@ -6,7 +6,7 @@ seo-title: Estimating Lift in Revenue
 solution: Target
 title: Estimating Lift in Revenue
 topic: Advanced,Standard,Classic
-uuid: 4f95ad92-0756-405b-b32a-a29da09d897d
+uuid: c49ad336-5a55-4788-a6a2-4b262e469e8e
 index: y
 internal: n
 snippet: y

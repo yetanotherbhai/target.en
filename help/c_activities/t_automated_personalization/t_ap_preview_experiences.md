@@ -7,7 +7,7 @@ solution: Target
 title: Preview Experiences for Automated Personalization in the Visual Experience Composer
 title_outputclass: premium
 topic: Premium
-uuid: 49e24c0e-4e40-4cc9-856e-4df07c3104d9
+uuid: 72a07384-cfcc-4dc6-8c9c-7f6d623bdbd0
 badge: assets/premium.png
 index: y
 internal: n

@@ -6,7 +6,7 @@ seo-title: Hosts
 solution: Target
 title: Hosts
 topic: Standard
-uuid: 69d077ab-14d2-4e18-8c26-5780552233c3
+uuid: 1b267c52-076f-4fc7-b094-623cfb1a1351
 index: y
 internal: n
 snippet: y

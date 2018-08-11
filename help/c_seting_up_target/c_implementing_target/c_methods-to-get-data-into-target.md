@@ -7,7 +7,7 @@ solution: Target
 subtopic: Getting Started
 title: Methods to get Data into Target
 topic: Standard
-uuid: df98d588-0623-4681-aced-0bd4a0cbffa9
+uuid: 008ea2cc-dfbb-461a-a0c4-6eb80d3c5b07
 index: y
 internal: n
 snippet: y
@@ -85,7 +85,7 @@ The following methods are available:
   </tr> 
   <tr> 
    <td colname="col1"> <p>Links to Relevant Information </p> </td> 
-   <td colname="col2"> <p>Recommendations: <a href="../recs/r_implementation_page_type.xml#reference_DE38BB07BD3C4511B176CDAB45E126FC" format="dita" scope="local"> Implementation According to Page Type </a> </p> <p>Order confirmation: <a href="../ov/t_create_orderconfirm-page-mbox-atjs.xml#task_E85D2F64FEB84201A594F2288FABF053" format="dita" scope="local"> Create an Order Confirmation mbox - at.js </a> </p> <p>Category affinity: <a href="../target/c_category_affinity.xml#concept_75EC1E1123014448B8B92AD16B2D72CC" format="dita" scope="local"> Category Affinity </a> </p> </td> 
+   <td colname="col2"> <p>Recommendations: <a href="../recs/r_implementation_page_type.md#reference_DE38BB07BD3C4511B176CDAB45E126FC" format="dita" scope="local"> Implementation According to Page Type </a> </p> <p>Order confirmation: <a href="../ov/t_create_orderconfirm-page-mbox-atjs.md#task_E85D2F64FEB84201A594F2288FABF053" format="dita" scope="local"> Create an Order Confirmation mbox - at.js </a> </p> <p>Category affinity: <a href="../target/c_category_affinity.md#concept_75EC1E1123014448B8B92AD16B2D72CC" format="dita" scope="local"> Category Affinity </a> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -141,7 +141,7 @@ The following methods are available:
   </tr> 
   <tr> 
    <td colname="col1"> <p>Links to Relevant Information </p> </td> 
-   <td colname="col2"> <p> <a href="../target/c_profile_parameters.xml#concept_01A30B4762D64CD5946B3AA38DC8A201" format="dita" scope="local"> Profile Attributes </a> </p> <p> <a href="../target/c_visitor_profile.xml#concept_E972690B9A4C4372A34229FA37EDA38E" format="dita" scope="local"> Visitor Profile </a> </p> </td> 
+   <td colname="col2"> <p> <a href="../target/c_profile_parameters.md#concept_01A30B4762D64CD5946B3AA38DC8A201" format="dita" scope="local"> Profile Attributes </a> </p> <p> <a href="../target/c_visitor_profile.md#concept_E972690B9A4C4372A34229FA37EDA38E" format="dita" scope="local"> Visitor Profile </a> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -190,7 +190,7 @@ The following methods are available:
   </tr> 
   <tr> 
    <td colname="col1"> <p>Links to Relevant Information </p> </td> 
-   <td colname="col2"> <p> <a href="../target/c_profile_parameters.xml#concept_8C07AEAB0A144FECA8B4FEB091AED4D2" format="dita" scope="local"> Profile Script Attributes </a> </p> </td> 
+   <td colname="col2"> <p> <a href="../target/c_profile_parameters.md#concept_8C07AEAB0A144FECA8B4FEB091AED4D2" format="dita" scope="local"> Profile Script Attributes </a> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -208,7 +208,7 @@ The following methods are available:
   </tr> 
   <tr> 
    <td colname="col1"> <p>Format </p> </td> 
-   <td colname="col2"> <p>The <span class="codeph"> window.targetGlobalSettings.dataProviders </span> setting is an array of data providers. </p> <p>For more information about the structure for each data provider, see <a href="cmp_at.js_Functions.xml#concept_8DACBC47ABDE4279BB102B42609FE506/section_42725F3C837247D58AE1831EA330E44D" format="dita" scope="local"> Data Providers </a>. </p> </td> 
+   <td colname="col2"> <p>The <span class="codeph"> window.targetGlobalSettings.dataProviders </span> setting is an array of data providers. </p> <p>For more information about the structure for each data provider, see <a href="cmp_at.js_Functions.md#concept_8DACBC47ABDE4279BB102B42609FE506/section_42725F3C837247D58AE1831EA330E44D" format="dita" scope="local"> Data Providers </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Example Use Cases </p> </td> 
@@ -224,11 +224,11 @@ The following methods are available:
   </tr> 
   <tr> 
    <td colname="col1"> <p>Code Examples </p> </td> 
-   <td colname="col2"> <p>Several examples can be found in <a href="cmp_at.js_Functions.xml#concept_8DACBC47ABDE4279BB102B42609FE506/section_42725F3C837247D58AE1831EA330E44D" format="dita" scope="local"> Data Providers </a>. </p> </td> 
+   <td colname="col2"> <p>Several examples can be found in <a href="cmp_at.js_Functions.md#concept_8DACBC47ABDE4279BB102B42609FE506/section_42725F3C837247D58AE1831EA330E44D" format="dita" scope="local"> Data Providers </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Links to Relevant Information </p> </td> 
-   <td colname="col2"> <p>Documentation: <a href="cmp_at.js_Functions.xml#concept_8DACBC47ABDE4279BB102B42609FE506/section_42725F3C837247D58AE1831EA330E44D" format="dita" scope="local"> Data Providers </a> </p> <p>Training Videos: </p> <p> 
+   <td colname="col2"> <p>Documentation: <a href="cmp_at.js_Functions.md#concept_8DACBC47ABDE4279BB102B42609FE506/section_42725F3C837247D58AE1831EA330E44D" format="dita" scope="local"> Data Providers </a> </p> <p>Training Videos: </p> <p> 
      <ul id="ul_E85E32034ECC4E7781A7FBF982998918"> 
       <li id="li_3885523E41D94234A11438334D2E8B4F"> <p> <a href="https://helpx.adobe.com/target/kt/using/dataProviders-atjs-feature-video-use.html" format="html" scope="external"> Using Data Providers in Adobe Target </a> </p> </li> 
       <li id="li_77786BA65FCA4A188A5F87330272701B"> <p> <a href="https://helpx.adobe.com/target/kt/using/dataProviders-atjs-technical-video-implement.html" format="html" scope="external"> Implement Data Providers in Adobe Target </a> </p> </li> 

@@ -6,7 +6,7 @@ seo-title: at.js Frequently Asked Questions
 solution: Target
 subtopic: Getting Started
 title: at.js Frequently Asked Questions
-uuid: b082428e-a30f-4ae1-9d39-8a6dd8fbfe98
+uuid: 80a4043b-8720-42e6-8d0b-378bdf0edf0e
 index: y
 internal: n
 snippet: y
@@ -46,7 +46,7 @@ Among other benefits, [!DNL  at.js] improves page-load times for web implementat
 
 The following diagram illustrates page-load performance using ` mbox.js` versus ` at.js`. 
 
-![](../../../assets/atjs vesus mboxjs.png) 
+![](../../../assets/atjs_vesus_mboxjs.png) 
 
 As illustrated above, using ` mbox.js`, page content does not begin to load until after the [!DNL  Target] call is complete. Using ` at.js`, page content begins loading when the [!DNL  Target] call is initiated and does not wait until the call is complete. 
 

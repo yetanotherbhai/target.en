@@ -5,7 +5,7 @@ seo-title: Validate Targeting to Profile Parameters
 solution: Target
 title: Validate Targeting to Profile Parameters
 topic: Premium
-uuid: 29c88b20-8eef-43f7-93e8-be1ade928bad
+uuid: 89561209-e598-44d5-9587-3408c47eee7a
 index: y
 internal: n
 snippet: y

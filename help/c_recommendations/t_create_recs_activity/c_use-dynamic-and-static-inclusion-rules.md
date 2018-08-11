@@ -7,7 +7,7 @@ solution: Target
 title: Use Dynamic and Static Inclusion Rules
 title_outputclass: premium
 topic: Premium
-uuid: ae929666-8c18-4cb8-86d6-75ec2c4545b7
+uuid: 6161d086-2144-49d6-a2b9-ee9e76388835
 badge: assets/premium.png
 index: y
 internal: n
@@ -34,7 +34,7 @@ This section contains the following information:
 
 While you are [ creating criteria ](t_create_new_algorithm.md#task_8A9CB465F28D44899F69F38AD27352FE), click ** [!UICONTROL  Add Filtering Rule] ** under ** [!UICONTROL  Inclusion Rules] **. 
 
-![](../../assets/inclusion options.png) 
+![](../../assets/inclusion_options.png) 
 
 The available options vary depending on the selected industry vertical and recommendation key. 
 
@@ -42,7 +42,7 @@ The available options vary depending on the selected industry vertical and recom
 
 While [ creating a promotion ](t_adding_promotions.md#task_CC5BD28C364742218C1ACAF0D45E0E14), select ** [!UICONTROL  Promote by Attribute] **, then click ** [!UICONTROL  Add Filtering Rule] **. 
 
-![](../../assets/inclusion options promotion.png) 
+![](../../assets/inclusion_options_promotion.png) 
 
 ## Filter Types {#section_0125F1ED10A84C0EB45325122460EBCD}
 
@@ -139,7 +139,7 @@ You can choose several options to handle empty values when filtering by Entity A
 
 Previously, no results were returned if a value was empty. The "If *x* is Empty" drop-down list lets you choose the appropriate action to perform if the criteria has empty values, as shown in the following illustration: 
 
-![](../../assets/empty value.png) 
+![](../../assets/empty_value.png) 
 
 To select the desired action, hover over the gear icon (  ![](../../assets/icon_gear.png) ), then choose the desired action: 
 
@@ -184,7 +184,7 @@ For example, you could use the [!UICONTROL  Profile Attribute Matching] option t
 
 You can now use inclusion rules to match a job seeker's location and degree from his or her visitor's profile to a job listing, as shown in the following example: 
 
-![](../../assets/job seeker.png) 
+![](../../assets/job_seeker.png) 
 
 The job listing on the left side requires that the visitor is in San Francisco, New York, or Los Angeles ( ` entity.jobCity`) and have either a BSCS or MBA degree ( ` entity.requiredDegree`). 
 
@@ -204,7 +204,7 @@ entity.requiredDegree&amp;nbsp;-&amp;nbsp;equals&amp;nbsp;-&amp;nbsp;the&amp;nbs
 ```
 Dynamic filters using profile attribute matching allows you to do more with fewer activities, as shown below: 
 
-![](../../assets/dynamic before and after.png) 
+![](../../assets/dynamic_before_and_after.png) 
 
 The diagram in the top of the above illustration depicts how dynamic filters using profile attributes work. You can create one audience that uses criteria (in the above scenario, city and degree) to display a job listing that the visitor qualifies for. This filter works for an almost infinite number of possibilities regarding location and degree. 
 
@@ -212,7 +212,7 @@ The diagrams in the bottom of the illustration depicts just two of the many audi
 
 Without using profile attributes, your audiences and experiences would look like the top half of the following illustration, but with additional audience/experience pairs for every conceivable scenario. 
 
-![](../../assets/dynamic audience experience pairs.png) 
+![](../../assets/dynamic_audience_experience_pairs.png) 
 
 Dynamic filters using profile attributes that match entity attributes to user attributes let you set up one audience that dynamically, on the fly, delivers the desired experience, as shown in the bottom half of the above illustration. 
 

@@ -7,7 +7,7 @@ solution: Target
 subtopic: Getting Started
 title: Click Tracking
 topic: Standard
-uuid: ac2e19bb-852c-4b35-816d-01889290f273
+uuid: 2bd49512-d152-459f-abd0-58a93d6d31bb
 index: y
 internal: n
 snippet: y

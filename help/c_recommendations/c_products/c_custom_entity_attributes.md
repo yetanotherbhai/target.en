@@ -7,7 +7,7 @@ solution: Target
 title: Custom Entity Attributes
 title_outputclass: premium
 topic: Premium
-uuid: 85408b4d-7da4-4ddd-9b36-162acfb84a00
+uuid: 34446884-18fc-4645-a183-13db68b8a22c
 badge: assets/premium.png
 index: y
 internal: n

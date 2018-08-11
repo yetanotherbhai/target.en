@@ -7,7 +7,7 @@ solution: Target
 subtopic: Getting Started
 title: Search Engine Optimization (SEO) Friendly Testing
 topic: Standard
-uuid: 922b31f1-d45b-4134-bbf7-b36189f61180
+uuid: c67fc7b6-8c69-4687-b214-4ef961c0e980
 index: y
 internal: n
 snippet: y

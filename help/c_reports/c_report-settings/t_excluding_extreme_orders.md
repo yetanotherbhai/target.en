@@ -6,7 +6,7 @@ seo-title: Exclude Extreme Values
 solution: Target
 title: Exclude Extreme Values
 topic: Premium
-uuid: 0f990d17-7a69-4a75-a293-37f5eebd0caa
+uuid: 110decd8-b474-455e-94a7-0de63fe66249
 index: y
 internal: n
 snippet: y
@@ -35,5 +35,5 @@ When a value is marked extreme, its order value is replaced with the average ord
 >1. Open an activity that includes Revenue or Engagement metric types, then click the ** [!UICONTROL  Reports] ** tab.
 >1. Click the gear icon (  ![](../../assets/icon_gear.png)) to display the [!UICONTROL  Report Settings] options.
 
->       ![Step Result](../../assets/exclude extreme values.png)1. Toggle the ** [!UICONTROL  Exclude Extreme Values] ** option on or off, as desired.
+>       ![Step Result](../../assets/exclude_extreme_values.png)1. Toggle the ** [!UICONTROL  Exclude Extreme Values] ** option on or off, as desired.
 >1. Click ** [!UICONTROL  Save Settings] **.

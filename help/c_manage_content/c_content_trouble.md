@@ -7,7 +7,7 @@ solution: Target
 subtopic: Multivariate Test
 title: Troubleshooting Content Delivery
 topic: Standard
-uuid: 1cd8e864-449a-4b65-9f83-dafad1098a7c
+uuid: 9c0bd710-56b7-4b23-9c3d-f092e4bb3b3a
 index: y
 internal: n
 snippet: y

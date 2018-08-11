@@ -7,7 +7,7 @@ solution: Target
 subtopic: Getting Started
 title: Setting Up Target
 topic: Standard
-uuid: 26e4d589-bc26-4264-9e87-24092be68ae7
+uuid: 95a5f06d-34b7-4927-bd5f-5a15cfc5136d
 index: y
 internal: n
 snippet: y
