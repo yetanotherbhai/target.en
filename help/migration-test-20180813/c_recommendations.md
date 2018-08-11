@@ -48,7 +48,7 @@ translate: y
 
 The following illustration shows recommendations on a web page: 
 
-![](/migration-test-20180813/assets/velocity_example.png) 
+![](assets/velocity_example.png) 
 
 A recommendation determines how a product is suggested to a customer, depending on that customer's activities on the site. For example: 
 
