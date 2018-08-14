@@ -6,7 +6,7 @@ seo-title: Site Pages
 solution: Target
 title: Site Pages
 topic: Standard
-uuid: 7fd62d6f-055f-4c88-b7e0-1815d35589de
+uuid: f00cd75a-cae0-4493-8f6b-911753340845
 index: y
 internal: n
 snippet: y
@@ -23,15 +23,15 @@ translate: y
 
 
 
-1. In the [!DNL  Target] interface, click ** [!UICONTROL  Audiences] ** > ** [!UICONTROL  Create Audience] **. 
+1. In the [!DNL  Target] interface, click **[!UICONTROL  Audiences]** > **[!UICONTROL  Create Audience]**. 
 
 1. Name the audience. 
 
-1. Click ** [!UICONTROL  Add Rule] ** > ** [!UICONTROL  Site Pages] **. 
+1. Click **[!UICONTROL  Add Rule]** > **[!UICONTROL  Site Pages]**. 
 
-   ![](../../../assets/target_site_pages.png) 
+   ![](assets/target_site_pages.png) 
 
-1. Click ** [!UICONTROL  Select] **, then select one of the following options: 
+1. Click **[!UICONTROL  Select]**, then select one of the following options: 
 
 
     * ** Current Page: **The page the user is currently on, which is the page that contains an mbox in the activity. If you target at the activity level, this could be a page with an mbox that you are using to define entry conditions, or a page that displays content. If you are targeting by experience, then the current page is the page that the display mbox is on. For Success metric or conversion targeting, then it is the page that those mboxes are on. 
@@ -56,9 +56,9 @@ translate: y
 
 
 
-1. (Optional) Click ** [!UICONTROL  Add Rule] ** and set up additional rules for the audience. 
+1. (Optional) Click **[!UICONTROL  Add Rule]** and set up additional rules for the audience. 
 
-1. Click ** [!UICONTROL  Save] **. 
+1. Click **[!UICONTROL  Save]**. 
 
 
 
@@ -75,7 +75,7 @@ Use a:
 
 as illustrated below: 
 
-![](../../../assets/site_pages.png) 
+![](assets/site_pages.png) 
 
 This video includes information about using audience categories. 
 

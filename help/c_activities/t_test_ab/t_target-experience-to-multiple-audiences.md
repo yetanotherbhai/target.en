@@ -6,7 +6,7 @@ seo-title: Multiple Experience Versions in an A/B Test
 solution: Target
 title: Multiple Experience Versions in an A/B Test
 topic: Standard
-uuid: 35b84a69-3991-4f8f-80d2-709c01f4a396
+uuid: 950073c1-904f-429d-a6b5-da47fd191731
 index: y
 internal: n
 snippet: y
@@ -31,12 +31,12 @@ In this case, what you need are geo-specific versions of the experience, so you 
 
 >1. [ Create an A/B activity](../../c_activities/t_test_ab/t_test_create_ab.md#task_68C8079BF9FF4625A3BD6680D554BB72) as you normally would.
 
->1. Select the experience, then click ** [!UICONTROL  Configure] ** > ** [!UICONTROL  Audiences] ** > ** [!UICONTROL  Multiple Audiences] **.
+>1. Select the experience, then click **[!UICONTROL  Configure]** > **[!UICONTROL  Audiences]** > **[!UICONTROL  Multiple Audiences]**.
 
->       ![](../../assets/multiple-audiences.png) 
->1. Click ** [!UICONTROL  Add Audience] **, then select the first audience you want to target. Repeat for each audience.
+>       ![](assets/multiple-audiences.png) 
+>1. Click **[!UICONTROL  Add Audience]**, then select the first audience you want to target. Repeat for each audience.
 
->       ![](../../assets/exp-versions.png) 
+>       ![](assets/exp-versions.png) 
 
 >       If the audience does not yet exist, click [ Create Audience](../../c_target/c_audiences/t_create-audience.md#task_E18BD77A9A8F4ED0AC50569F94556558) and set it up. 
 

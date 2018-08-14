@@ -7,7 +7,7 @@ solution: Target
 subtopic: Multivariate Test
 title: Downloading Data in a CSV File
 topic: Standard
-uuid: eb676911-57d9-4378-bba7-38088a50472c
+uuid: fd3ee9e1-ff3a-40b4-a19e-6e7bdfb076cd
 index: y
 internal: n
 snippet: y
@@ -23,9 +23,9 @@ To download data in a CSV file:
 
    If you have many activities, you can filter the list by selecting options from the [!UICONTROL  Type], [!UICONTROL  Status], [!UICONTROL  Reporting Source], [!UICONTROL  Experience Composer], [!UICONTROL  Metrics Type], and [!UICONTROL  Activity Source] drop-down lists. 
 
-1. Click the ** [!UICONTROL  Reports] ** tab. 
+1. Click the **[!UICONTROL  Reports]** tab. 
 
-1. Click the [!UICONTROL  Download] icon (  ![](../assets/icon_download_report.png) ), then select a report type to download for analysis in Excel and other tools. 
+1. Click the [!UICONTROL  Download] icon (  ![](assets/icon_download_report.png) ), then select a report type to download for analysis in Excel and other tools. 
 
 
 

@@ -6,7 +6,7 @@ seo-title: Multivariate Test Best Practices
 solution: Target
 title: Multivariate Test Best Practices
 topic: Standard
-uuid: 964dcf96-bd11-4049-829c-d7bb5202bead
+uuid: 78498ac1-e11f-48a8-845f-2458b0e387f9
 index: y
 internal: n
 snippet: y

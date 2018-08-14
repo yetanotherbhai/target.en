@@ -7,8 +7,8 @@ solution: Target
 title: Using a Backup Recommendation
 title_outputclass: premium
 topic: Premium
-uuid: 0a398cae-ad4a-46b8-8681-9ad3301c0a3c
-badge: assets/premium.png
+uuid: 3cf388ae-9f09-4601-9352-44258e79f750
+badge: premium
 index: y
 internal: n
 snippet: y

@@ -7,7 +7,7 @@ solution: Target
 subtopic: Getting Started
 title: Locations
 topic: Standard
-uuid: e48e37bb-0ef2-4b67-92e6-a13dc41b49a0
+uuid: 578f5076-1fd4-496b-9d15-66390dff2334
 index: y
 internal: n
 snippet: y

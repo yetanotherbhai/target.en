@@ -7,7 +7,7 @@ solution: Target
 subtopic: Getting Started
 title: Profile API Settings
 topic: Standard
-uuid: 27c7e8c0-1403-436e-a257-fec4be036272
+uuid: 116877b5-5b5f-46b0-8981-ec21babe5c40
 index: y
 internal: n
 snippet: y
@@ -23,15 +23,15 @@ For added security, you can require that the Bulk Update API call require a vali
 **To require authentication and to generate an access token using the Target UI:** 
 
 
-1. Click ** [!UICONTROL  Setup] ** > ** [!UICONTROL  Implementation] **. 
+1. Click **[!UICONTROL  Setup]** > **[!UICONTROL  Implementation]**. 
 
-1. Under ** [!UICONTROL  Profile API Settings] **, use the ** [!UICONTROL  Require Authentication] ** drop-down list to enable or disable authentication requirements. 
+1. Under **[!UICONTROL  Profile API Settings]**, use the **[!UICONTROL  Require Authentication]** drop-down list to enable or disable authentication requirements. 
 
-   ![](../../assets/profile_api_settings.png) 
+   ![](assets/profile_api_settings.png) 
 
-1. (Conditional) If you enabled authentication requirements, click ** [!UICONTROL  Generate Pofile Authentication Token] **. 
+1. (Conditional) If you enabled authentication requirements, click **[!UICONTROL  Generate Pofile Authentication Token]**. 
 
-   ![](../../assets/profile_api_settings_2.png) 
+   ![](assets/profile_api_settings_2.png) 
 
    The token expires according to the time listed in the [!UICONTROL  Expires In] box. 
 

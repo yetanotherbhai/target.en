@@ -6,7 +6,7 @@ solution: Target
 subtopic: Getting Started
 title: Scene7 Settings
 topic: Standard
-uuid: 511fb725-c3af-4a15-be85-104d69db6968
+uuid: 15ee6e25-ad39-4333-bb27-9622756a8823
 index: y
 internal: n
 snippet: y
@@ -32,7 +32,7 @@ Note that the storage URL and the final Scene7 publish URLs of images are differ
 
 To integrate with Scene7, you need to specify some of your Scene7 information. 
 
->1. Click ** [!UICONTROL  Setup] ** > ** [!UICONTROL  Scene7 Settings] **.
+>1. Click **[!UICONTROL  Setup]** > **[!UICONTROL  Scene7 Settings]**.
 >1. Specify the following Scene7 account information:
 
 >       **Scene7 region: **The region for your Scene7 account: North America, Europe, or Asia. 
@@ -42,4 +42,4 @@ To integrate with Scene7, you need to specify some of your Scene7 information.
 >       **Scene7 email address:** The email address used to log in to Scene7. 
 
 >       **Scene7 password:** The password used to log in to Scene7. 
->1. Click ** [!UICONTROL  Submit] **.
+>1. Click **[!UICONTROL  Submit]**.

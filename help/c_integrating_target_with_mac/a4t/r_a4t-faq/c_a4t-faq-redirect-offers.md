@@ -6,7 +6,7 @@ seo-title: Redirect Offers - A4T FAQ
 solution: Target
 title: Redirect Offers - A4T FAQ
 topic: Standard
-uuid: dc2a38b1-8342-4f13-81dc-9cb6233edc70
+uuid: 547ed57b-940d-4405-b948-1671892d5334
 index: y
 internal: n
 snippet: y

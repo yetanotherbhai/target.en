@@ -6,7 +6,7 @@ seo-title: Profile Attributes
 solution: Target
 title: Profile Attributes
 topic: Advanced,Standard,Classic
-uuid: 344635a5-31e3-41f5-a465-bc34477eaf1f
+uuid: b1728e5c-68a6-467b-b94a-6fe233baf0bb
 index: y
 internal: n
 snippet: y
@@ -18,7 +18,7 @@ translate: y
 ## Profile Attributes {#concept_01A30B4762D64CD5946B3AA38DC8A201}
 >Profile attributes are parameters that are specific to the visitor. These attributes are stored in the visitor's profile to provide information about the visitor that can be used in your campaigns.As the visitor browses, or when the visitor returns for another session, the saved profile attributes can be used to target content, or log information for segment filtering. 
 
-To set up profile attributes, click ** [!UICONTROL  Audiences] ** > ** [!UICONTROL  Profile Scripts.] ** 
+To set up profile attributes, click **[!UICONTROL  Audiences]** > **[!UICONTROL  Profile Scripts.]** 
 
 The following types of profile attributes are available: 
 
@@ -72,13 +72,13 @@ This section contains the following information:
 
 Profile scripts are available under the [!UICONTROL  Audiences] tab in the [!DNL  Target] interface. 
 
-To add a new profile script, click the ** [!UICONTROL  Profile Scripts] ** tab, ** [!UICONTROL  Create Script] **, then write your script. 
+To add a new profile script, click the **[!UICONTROL  Profile Scripts]** tab, **[!UICONTROL  Create Script]**, then write your script. 
 
 Or 
 
-To copy an existing profile script, from the [!UICONTROL  Profile Scripts] list, hover over the desired script, then click the ** [!UICONTROL  Copy] ** icon (  ![](../../assets/icon_copy.png) ). You can then edit the audience to create a similar audience. 
+To copy an existing profile script, from the [!UICONTROL  Profile Scripts] list, hover over the desired script, then click the **[!UICONTROL  Copy]** icon (  ![](assets/icon_copy.png) ). You can then edit the audience to create a similar audience. 
 
-![](../../assets/profile-script.png) 
+![](assets/profile-script.png) 
 
 This video includes information about using and creating profile scripts. 
 
@@ -138,11 +138,11 @@ For example, the following profile script information card is accessed by hoveri
 
 The [!UICONTROL  Script Info] tab contains the following information: Name, Status, Token Type, Script ID , Change Log, and Description. 
 
-![](../../assets/profile_script_info_card.png) 
+![](assets/profile_script_info_card.png) 
 
 The [!UICONTROL  Script Usage] tab lists the activities (and their workspaces) that reference the selected profile script. 
 
-![](../../assets/profile_script_info_card_usage_tab.png) 
+![](assets/profile_script_info_card_usage_tab.png) 
 
 
 
@@ -165,11 +165,11 @@ The [!UICONTROL  Script Usage] tab lists the activities (and their workspaces) t
 
 When a profile script is disabled, a yellow alert icon displays next to the profile script in the Target UI, as illustrated below: 
 
-![](../../assets/profile_script_invalid.png) 
+![](assets/profile_script_invalid.png) 
 
 On hover, details on the error display, as illustrated below: 
 
-![](../../assets/profile_script_hover.png) 
+![](assets/profile_script_hover.png) 
 
 Typical reasons for the system to disable profile scripts include the following: 
 
@@ -324,20 +324,20 @@ The following methods can be used to debug profile scripts:
 
 * **Add Profile Scripts as Response Tokens to Debug Profile Scripts:** 
 
-  In Target, click ** [!UICONTROL  Setup] **, click ** [!UICONTROL  Response Tokens] **, then enable the profile script you want to debug. 
+  In Target, click **[!UICONTROL  Setup]**, click **[!UICONTROL  Response Tokens]**, then enable the profile script you want to debug. 
 
   Any time you load a page for your site with Target on it, part of the response from Target will contain your value for the given profile script, as shown below: 
 
-  ![](../../assets/debug_profile_script_1.png) 
+  ![](assets/debug_profile_script_1.png) 
 
 * **Use the mboxTrace Debugging Tool to Debug Profile Scripts.** 
 
-  This method requires an authorization token that you can generate by clicking ** [!UICONTROL  Target] ** > ** [!UICONTROL  Setup] ** > ** [!UICONTROL  Implementation] ** > ** [!UICONTROL  Generate Authorization Token] **. 
+  This method requires an authorization token that you can generate by clicking **[!UICONTROL  Target]** > **[!UICONTROL  Setup]** > **[!UICONTROL  Implementation]** > **[!UICONTROL  Generate Authorization Token]**. 
 
   You then you add these two parameters to your page URL after the "?": ` mboxTrace=window&amp;amp;authorization=YOURTOKEN`. 
 
   This is a little more informative than the response token because you get a before-executed snapshot and an after-snapshot of your profile. It will also show all your available profiles. 
 
-  ![](../../assets/debug_profile_script_2.png) 
+  ![](assets/debug_profile_script_2.png) 
 
 

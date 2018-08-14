@@ -5,7 +5,7 @@ seo-description: The Visual Experience Composer provides a visual interface for 
 seo-title: Add Experience
 solution: Target
 title: Add Experience
-uuid: e0ac5664-b220-48af-aa6f-e7f46a428c47
+uuid: 5ae33dc0-3adc-4b3e-bcc5-1d9ba00659a6
 index: y
 internal: n
 snippet: y
@@ -16,16 +16,16 @@ translate: y
 
 For additional detail about experiences, see [ Experiences ](../../../c_experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D). 
 
->1. Click ** [!UICONTROL  Add Experience] **.
+>1. Click **[!UICONTROL  Add Experience]**.
 
 
 >       >[!NOTE]
 >       >
 >       >If you are targeting an experience to an audience, you must select the audience before you can add an experience. A message appears to remind you to choose your audience.
 
->1. When prompted, enter the activity URL. Type the complete URL (including ` http://`), then click ** [!UICONTROL  Continue] **.
+>1. When prompted, enter the activity URL. Type the complete URL (including ` http://`), then click **[!UICONTROL  Continue]**.
 
->       The Experience Composer (see [ Experiences ](../../../c_experiences.md#concept_1D011219034B492BB03C08B3BB80E3F0)) opens the page that is specified in your [ Account Preferences ](https://marketing.adobe.com/resources/help/en_US/target/target/t_account_preferences.html). To display a different page, click the Globe icon and enter the URL in the Select URL box in the Experience Composer and click ** [!UICONTROL  Continue] **. If you entered a URL for a site that does not include the Target Standard JavaScript code, you cannot select page elements. 
+>       The Experience Composer (see [ Experiences ](../../../c_experiences.md#concept_1D011219034B492BB03C08B3BB80E3F0)) opens the page that is specified in your [ Account Preferences ](https://marketing.adobe.com/resources/help/en_US/target/target/t_account_preferences.html). To display a different page, click the Globe icon and enter the URL in the Select URL box in the Experience Composer and click **[!UICONTROL  Continue]**. If you entered a URL for a site that does not include the Target Standard JavaScript code, you cannot select page elements. 
 
 >       By default, the Visual Experience Composer does not allow changes to elements containing JavaScript, such as rotating banners. You can select to disable JavaScript if you want to be able to alter those elements using the Visual Experience Composer. 
 
@@ -83,11 +83,11 @@ For additional detail about experiences, see [ Experiences ](../../../c_experien
 
 >       The activity diagram displays: 
 
->       ![](../../../assets/ab_flodia.png) 
+>       ![](assets/ab_flodia.png) 
 
 >       If an experience includes cross-domain content, the thumbnail might not display accurately and is replaced by an icon. 
 >1. Specify the percentage of visitors who will see each experience in the activity.
 
->       You can show multiple experiences to the same audience. A diagram displays showing your selected audience and the experiences you've added to the activity. Specify the percentage of times you want each experience to be shown. You can split the percentages evenly between all experiences, or specify higher or lower percentages for each experience. The total for all experiences must equal 100%. You can also click ** [!UICONTROL  Add Experience] ** to add another experience to the activity. 
+>       You can show multiple experiences to the same audience. A diagram displays showing your selected audience and the experiences you've added to the activity. Specify the percentage of times you want each experience to be shown. You can split the percentages evenly between all experiences, or specify higher or lower percentages for each experience. The total for all experiences must equal 100%. You can also click **[!UICONTROL  Add Experience]** to add another experience to the activity. 
 
->       Click ** [!UICONTROL  Continue] ** when you are finished with this step. 
+>       Click **[!UICONTROL  Continue]** when you are finished with this step. 

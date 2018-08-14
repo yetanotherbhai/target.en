@@ -6,7 +6,7 @@ seo-title: Download at.js
 solution: Target
 title: Download at.js
 topic: Premium
-uuid: 271278b8-f75d-4038-b32c-469cceabd958
+uuid: 75b0ec40-98d4-45db-ba33-c60a45ebdf6f
 index: y
 internal: n
 snippet: y
@@ -41,11 +41,11 @@ This section contains the following information:
 To download [!DNL  at.js] from the [!DNL  Target] interface: 
 
 
-1. Click ** [!UICONTROL  Setup] ** > ** [!UICONTROL  Implementation] **. 
+1. Click **[!UICONTROL  Setup]** > **[!UICONTROL  Implementation]**. 
 
-1. Select ** [!UICONTROL  at.js] **. 
+1. Select **[!UICONTROL  at.js]**. 
 
-1. Click ** [!UICONTROL  Edit at.js Settings] **. 
+1. Click **[!UICONTROL  Edit at.js Settings]**. 
 
    The Settings page shows your [!DNL  at.js] settings. Some of these settings are informational only. 
 
@@ -81,13 +81,13 @@ To download [!DNL  at.js] from the [!DNL  Target] interface:
 </table>
 
 
-1. Click ** [!UICONTROL  Code] ** and enter any custom header and footer JavaScript to execute at the top of the library, such as ` targetPageParams`. 
+1. Click **[!UICONTROL  Code]** and enter any custom header and footer JavaScript to execute at the top of the library, such as ` targetPageParams`. 
 
    If you used [!DNL  mbox.js] in the past, you might notice fewer fields. However, there are ways to do many of the same things in [!DNL  at.js] that you did in [!DNL  mbox.js]. For example, if you used mbox parameters in [!DNL  mbox.js], in [!DNL  at.js] you can use [ targetPageParamsAll ](../../../c_seting_up_target/c_implementing_target/c_target-atjs-implementation/cmp_at.js_Functions.md#reference_97E77FCDD793403685ECCA5A44305F93). The [!DNL  mbox.js] Extra JavaScript field is replaced by the [!DNL  at.js] Header and Footer fields, which provide more control of the code. 
 
-1. Click ** [!UICONTROL  Save] **. 
+1. Click **[!UICONTROL  Save]**. 
 
-1. Return to the Implementation page and click ** [!UICONTROL  Download at.js] **. 
+1. Return to the Implementation page and click **[!UICONTROL  Download at.js]**. 
 
 
 
@@ -98,7 +98,7 @@ To download [!DNL  at.js] using the API.
 
 1. Get your client code. 
 
-   Your client code is available at the top of the ** [!UICONTROL  Setup] ** > ** [!UICONTROL  Implementation] ** > ** [!UICONTROL  Edit at.js Settings] ** page of the [!DNL  Target] interface. 
+   Your client code is available at the top of the **[!UICONTROL  Setup]** > **[!UICONTROL  Implementation]** > **[!UICONTROL  Edit at.js Settings]** page of the [!DNL  Target] interface. 
 
 1. Get your admin number. 
 
@@ -111,7 +111,7 @@ To download [!DNL  at.js] using the API.
    ```
 
 
-   Replace ` < * ` client code` *>` with the client code from Step 1. 
+   Replace ` < *` client code`*>` with the client code from Step 1. 
 
    The result of loading this URL should look similar to the following example: 
 
@@ -138,11 +138,11 @@ To download [!DNL  at.js] using the API.
 
 
 
-    * Replace ` < * ` admin number` *>` with your admin number. 
+    * Replace ` < *` admin number`*>` with your admin number. 
 
-    * Replace ` < * ` client code` *>` with the client code from Step 1. 
+    * Replace ` < *` client code`*>` with the client code from Step 1. 
 
-    * Replace ` < * ` version number` *>` with the desired [ [!DNL  at.js] version number ](../../../c_seting_up_target/c_implementing_target/c_target-atjs-implementation/r_target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A) (for example, 0.9.4). 
+    * Replace ` < *` version number`*>` with the desired [ [!DNL  at.js] version number ](../../../c_seting_up_target/c_implementing_target/c_target-atjs-implementation/r_target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A) (for example, 0.9.4). 
 
 
 

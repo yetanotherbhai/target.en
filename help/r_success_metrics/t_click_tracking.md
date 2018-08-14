@@ -7,7 +7,7 @@ solution: Target
 subtopic: Getting Started
 title: Click Tracking
 topic: Standard
-uuid: ca532b9f-d458-4eb8-bc2d-45d2d1ab8d0d
+uuid: bcd4db0b-970c-460b-b6ec-b8a2a517dc38
 index: y
 internal: n
 snippet: y
@@ -68,9 +68,9 @@ This video includes information about creating click-tracking success metrics.
 ## Setting Up Click Tracking {#section_5540C5A533114E57BAE022A600B02E72}
 
 
-1. When setting your goals on the [!UICONTROL  Goals &amp;amp; Settings] page for your activity , select the ** [!UICONTROL  Conversion] ** success metric. 
+1. When setting your goals on the [!UICONTROL  Goals &amp;amp; Settings] page for your activity , select the **[!UICONTROL  Conversion]** success metric. 
 
-1. For the action, select ** [!UICONTROL  Clicked an element] **, then click ** [!UICONTROL  Select elements] **. 
+1. For the action, select **[!UICONTROL  Clicked an element]**, then click **[!UICONTROL  Select elements]**. 
 
    Your page opens in the [!UICONTROL  Visual Experience Composer] (VEC). 
 

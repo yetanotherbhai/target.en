@@ -6,7 +6,7 @@ seo-title: Sharing Metrics, Segments, and Reports - A4T FAQ
 solution: Target
 title: Sharing Metrics, Segments, and Reports - A4T FAQ
 topic: Standard
-uuid: e92137a8-6815-4c26-91ba-244afdaa052a
+uuid: c7efb1ac-c7df-4791-9cb6-64793237db01
 index: y
 internal: n
 snippet: y

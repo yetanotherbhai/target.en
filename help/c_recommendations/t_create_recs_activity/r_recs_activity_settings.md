@@ -8,8 +8,8 @@ subtopic: Recommendations
 title: Recommendations Activity Settings
 title_outputclass: premium
 topic: Premium
-uuid: b39178c8-d5dd-4c2a-ae52-70f3113be4d0
-badge: assets/premium.png
+uuid: 3de019bd-32e9-452e-bba4-95e7d56178ff
+badge: premium
 index: y
 internal: n
 snippet: y

@@ -8,8 +8,8 @@ subtopic: Getting Started
 title: Enterprise User Permissions
 title_outputclass: premium
 topic: Premium
-uuid: dc361e0c-552a-4025-b282-5b92834d689b
-badge: assets/premium.png
+uuid: 5eea9f0f-a143-4084-90b3-cb09273a5d3f
+badge: premium
 index: y
 internal: n
 snippet: y
@@ -25,7 +25,7 @@ translate: y
   <tr> 
    <td colname="col1"> <p> Properties and Permissions functionality is available as part of the <span class="keyword"> Target Premium </span> solution. They are not available in <span class="keyword"> Target Standard </span> without a <span class="keyword"> Target Premium </span> license. </p> <p>Your Target implementation can be using any version of at.js or mbox.js. </p> <p>You can tell whether your organization has a Standard or Premium license by clicking the <span class="wintitle"> Setup </span> link at the top of the Target UI. </p> <p> 
      <ul id="ul_3911B1BA89C54A9D91F5CD47ADC31C6E"> 
-      <li id="li_439701DC0EA9408FA833314D7569D5FA"> <p><b>Target Standard Customers: </b>If you see the <span class="wintitle"> Users </span> tab ( <span class="wintitle"> Setup </span> &gt; <span class="wintitle"> Users </span>), your organization has a Target Standard license. Target Standard customers should follow the instructions in <a href="../c_seting_up_target/c_user_management.md#concept_501166A5F8FB4964A3AAA15D6095C6BE" format="dita" scope="local"> Users </a> to add users and assign permissions in the Adobe Admin Console. </p> <p>Target Standard users see the following error message when clicking the Properties tab. There is nothing wrong with Target. Target Standard users do not have access to the Target Premium Enterprise Permissions functionality. </p> <p style="text-align: center;"> <img href="../assets/sorry.png" id="image_4ED3EC4ECEB0465E9863DEF38BE459D7" /> </p> </li> 
+      <li id="li_439701DC0EA9408FA833314D7569D5FA"> <p><b>Target Standard Customers: </b>If you see the <span class="wintitle"> Users </span> tab ( <span class="wintitle"> Setup </span> &gt; <span class="wintitle"> Users </span>), your organization has a Target Standard license. Target Standard customers should follow the instructions in <a href="../c_seting_up_target/c_user_management.md#concept_501166A5F8FB4964A3AAA15D6095C6BE" format="dita" scope="local"> Users </a> to add users and assign permissions in the Adobe Admin Console. </p> <p>Target Standard users see the following error message when clicking the Properties tab. There is nothing wrong with Target. Target Standard users do not have access to the Target Premium Enterprise Permissions functionality. </p> <p style="text-align: center;"> <img href="assets/sorry.png" id="image_4ED3EC4ECEB0465E9863DEF38BE459D7" /> </p> </li> 
       <li id="li_82A31FD812AA49F9A684B5860240DF26"> <p><b>Target Premium Customers: </b>If you see the <span class="wintitle"> Properties </span> tab ( <span class="wintitle"> Setup </span> &gt; Properties), your organization has a Target Premium license. Target Premium customers should follow the instructions in this topic and in <a href="../c_seting_up_target/property_channel/properties-overview.md#concept_22F2855DBF0D4754B9460F5D68749C71" format="dita" scope="local"> Configure Enterprise Permissions </a>. </p> </li> 
      </ul> </p> </td> 
   </tr> 
@@ -134,13 +134,13 @@ The following information explains the way permissions were enforced previously 
 
 The new [!UICONTROL  Permissions] functionality lets you create different projects (called "Product Profiles" in the [!DNL  Adobe Admin Console for Enterprise]) to allow you to assign different permissions for a single user that dictate that user's access rights for each project. These distinct projects can be compared to the way that report suites work in [!DNL  Adobe Analytics]. Each project can have specific users with specific roles that apply to a set of properties. The result is that customers will be able to restrict the view, edit, and approval access to their users based on region, environment (dev/stage/prod), channel, or other custom criteria, as shown below: 
 
-![](../assets/permissions.png) 
+![](assets/permissions.png) 
 
 For example, a specific user might have "approval" access on the Americas websites but only "view" access on the European mobile app. That same user might not have any access to even view the activities offered on web and mobile properties in the APAC region. 
 
 The current [!DNL  Target] [!UICONTROL  Permissions] model has three permission roles (Observer, Editor, and Approver), as shown in the following illustration: 
 
-![](../assets/permissions_1.png) 
+![](assets/permissions_1.png) 
 
 Each role has different levels of permissions: 
 
@@ -171,17 +171,17 @@ Each role has different levels of permissions:
 
 It is important to note that each user's role applies to every page, property, or site in your account that includes [!DNL  Target] tags, as shown below: 
 
-![](../assets/permissions_2.png) 
+![](assets/permissions_2.png) 
 
 The new [!DNL  Target] [!UICONTROL  Permissions] model has the same three permission roles (Observer, Editor, and Approver); however, you can assign a user's permissions roles separately for individual pages, properties, or sites, as shown below: 
 
-![](../assets/permissions_3.png) 
+![](assets/permissions_3.png) 
 
 In this example, Jan has Approver permissions to the US Homepage and the US Site and Observer permissions to the France Site. 
 
 Furthermore, Jan won't be able to see pages, properties, or sites in [!DNL  Target] that she doesn't have permissions to see, as shown below: 
 
-![](../assets/permissions_4.png) 
+![](assets/permissions_4.png) 
 
 In this example, Jan cannot see the Product Pages, Russia Site, and the Careers Site. 
 
@@ -228,11 +228,11 @@ The new Permissions functionality can be seen in various places in the [!DNL  Ta
 
 * **Workspace (Product Profile) drop-down list: **The Workspace drop-down list displays at the top of the [!UICONTROL  Activities], [!UICONTROL  Audiences], and [!UICONTROL  Offers] pages. Select the desired workspace to filter the list to display only items in the selected workspace. 
 
-  ![](../assets/workspace_drop-down.png) 
+  ![](assets/workspace_drop-down.png) 
 
 * **Activity Creation: **When you create a new activity, it is created in the currently selected workspace. You'll see channel selection options in the first dialog box that lets you choose the desired channel for the activity: Web, Mobile App, Email, or Other/API. 
 
-  ![](../assets/channel_options.png) 
+  ![](assets/channel_options.png) 
 
 * **Audience Creation: **When you create a new audience, it is created in the currently selected workspace. 
 
@@ -240,7 +240,7 @@ The new Permissions functionality can be seen in various places in the [!DNL  Ta
 
 * **Properties page (Setup &amp;gt; Properties): **You can use the [!UICONTROL  Search] box, the [!UICONTROL  Channel], and [!UICONTROL  Product Profile] options to filter the [!UICONTROL  Property] List. 
 
-  ![](../assets/properties_list.png) 
+  ![](assets/properties_list.png) 
 
 
 

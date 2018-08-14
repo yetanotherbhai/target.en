@@ -6,7 +6,7 @@ seo-title: Edit an Activity or Save as Draft
 solution: Target
 title: Edit an Activity or Save as Draft
 topic: Standard
-uuid: cdf621d0-0442-4a92-9ae9-385c3f0da176
+uuid: 28b21093-5b69-4457-a39f-77e47a39d3d0
 index: y
 internal: n
 snippet: y
@@ -33,24 +33,24 @@ This section contains the following information:
 ## Edit an Activity by Using the Hover Button on the Activities Page {#section_29EE2ECA6B88473A8F9AC5600FFBB174}
 
 
-1. From the ** [!UICONTROL  Activities] ** page, hover over the activity you want to edit, then click the ** [!UICONTROL  Edit] ** icon (  ![](../assets/icon_edit.png) ). 
+1. From the **[!UICONTROL  Activities]** page, hover over the activity you want to edit, then click the **[!UICONTROL  Edit]** icon (  ![](assets/icon_edit.png) ). 
 
-   ![](../assets/hover_edit.png) 
+   ![](assets/hover_edit.png) 
 
    Target opens the activity and you see the Experiences page (the first step in the three-step guided workflow). A split button displays at the top right fo the page, as shown below: 
 
-   ![](../assets/edit_split_button.png) 
+   ![](assets/edit_split_button.png) 
 
 1. Edit the activity, as desired using the split button: 
 
-   ![](../assets/edit_split_button_2.png) 
+   ![](assets/edit_split_button_2.png) 
 
 
-    * **Next: **To edit another page in the three-step workflow, click ** [!UICONTROL  Next] ** to advance to the desired step. For example, in the illustration above, clicking [!UICONTROL  Next] displays the Targeting step. 
+    * **Next: **To edit another page in the three-step workflow, click **[!UICONTROL  Next]** to advance to the desired step. For example, in the illustration above, clicking [!UICONTROL  Next] displays the Targeting step. 
 
-    * **Save &amp;amp; Close: **Make the desired changes on the current step, click the drop-down on the split button, then select ** [!UICONTROL  Save and Close] ** to save your changes and display the activity's [!UICONTROL  Overview] page. 
+    * **Save &amp;amp; Close: **Make the desired changes on the current step, click the drop-down on the split button, then select **[!UICONTROL  Save and Close]** to save your changes and display the activity's [!UICONTROL  Overview] page. 
 
-    * **Save: **Make the desired changes on a step, click the drop-down on the split button, then select ** [!UICONTROL  Save] ** to save your changes and remain on that step where you can continue to make changes. Wait for the save to complete before making additional changes. The VEC reloads with the refreshed changes after the save is complete. 
+    * **Save: **Make the desired changes on a step, click the drop-down on the split button, then select **[!UICONTROL  Save]** to save your changes and remain on that step where you can continue to make changes. Wait for the save to complete before making additional changes. The VEC reloads with the refreshed changes after the save is complete. 
 
 
 
@@ -59,31 +59,31 @@ This section contains the following information:
 ## Edit an Activity by Opening the Activity by Clicking Its Name on the Activities Page {#section_176180DAD17E40CEA441903F39E0AA1C}
 
 
-1. To avoid having to step through the workflow, click the desired activity from the Activities page to open it, then select an option from the ** [!UICONTROL  Edit Activity] ** drop-down list. 
+1. To avoid having to step through the workflow, click the desired activity from the Activities page to open it, then select an option from the **[!UICONTROL  Edit Activity]** drop-down list. 
 
-   ![](../assets/edit_activity.png) 
+   ![](assets/edit_activity.png) 
 
 1. Select the desired option:: 
 
     * **Edit Experiences: **Takes you directly to the [!UICONTROL  Experiences] page (the first step in the guided workflow). Make your desired changes, then use the split button (explained above) to save the activity. 
     
-        * Click ** [!UICONTROL  Save &amp;amp; Close] ** to save your changes and display the activity's Overview page. 
+        * Click **[!UICONTROL  Save &amp;amp; Close]** to save your changes and display the activity's Overview page. 
 
-        * Click ** [!UICONTROL  Save] ** to save your changes and remain on that step where you can continue to make changes. Wait for the save to complete before making additional changes. The VEC reloads with the refreshed changes after the save is complete. 
+        * Click **[!UICONTROL  Save]** to save your changes and remain on that step where you can continue to make changes. Wait for the save to complete before making additional changes. The VEC reloads with the refreshed changes after the save is complete. 
 
 
     * **Edit Targeting: **Takes you directly to the [!UICONTROL  Targeting] page (the second step in the guided workflow). Make your desired changes, then use the split button (explained above) to save the activity. 
     
-        * Click ** [!UICONTROL  Save &amp;amp; Close] ** to save your changes and display the activity's Overview page. 
+        * Click **[!UICONTROL  Save &amp;amp; Close]** to save your changes and display the activity's Overview page. 
 
-        * Click ** [!UICONTROL  Save] ** to save your changes and remain on that step where you can continue to make changes. Wait for the save to complete before making additional changes. The VEC reloads with the refreshed changes after the save is complete. 
+        * Click **[!UICONTROL  Save]** to save your changes and remain on that step where you can continue to make changes. Wait for the save to complete before making additional changes. The VEC reloads with the refreshed changes after the save is complete. 
 
 
     * **Edit Goals &amp;amp; Settings: **Takes you directly to the [!UICONTROL  Goals &amp;amp; Settings] page (the final step in the guided workflow). Make your desired changes, then use the split button (explained above) to save the activity. 
     
-        * Click ** [!UICONTROL  Save &amp;amp; Close] ** to save your changes and display the activity's Overview page. 
+        * Click **[!UICONTROL  Save &amp;amp; Close]** to save your changes and display the activity's Overview page. 
 
-        * Click ** [!UICONTROL  Save] ** to save your changes and remain on that step where you can continue to make changes. Wait for the save to complete before making additional changes. The VEC reloads with the refreshed changes after the save is complete. 
+        * Click **[!UICONTROL  Save]** to save your changes and remain on that step where you can continue to make changes. Wait for the save to complete before making additional changes. The VEC reloads with the refreshed changes after the save is complete. 
 
 
 
@@ -100,14 +100,14 @@ You can save an activity in draft mode if the activity setup has been started bu
 
 1. Select the desired option from the split button: 
 
-   ![](../assets/save_draft.png) 
+   ![](assets/save_draft.png) 
 
 
-    * **Next: **To edit another page in the three-step workflow, click ** [!UICONTROL  Next] ** to advance to the desired step. 
+    * **Next: **To edit another page in the three-step workflow, click **[!UICONTROL  Next]** to advance to the desired step. 
 
-    * **Save Draft &amp;amp; Close: **Make the desired changes on the current step, click the drop-down on the split button, then select ** [!UICONTROL  Save Draft and Close] ** to save your changes and display the activity's [!UICONTROL  Overview] page. 
+    * **Save Draft &amp;amp; Close: **Make the desired changes on the current step, click the drop-down on the split button, then select **[!UICONTROL  Save Draft and Close]** to save your changes and display the activity's [!UICONTROL  Overview] page. 
 
-    * **Save Draft: **Make the desired changes on a step, click the drop-down on the split button, then select ** [!UICONTROL  Save Draft] ** to save your changes and remain on that step. 
+    * **Save Draft: **Make the desired changes on a step, click the drop-down on the split button, then select **[!UICONTROL  Save Draft]** to save your changes and remain on that step. 
 
 
 
@@ -128,7 +128,7 @@ If you are part of a multi-national organization, you might have a workspace for
 
 For more information about workspaces and the Enterprise User Permissions functionality, see [ Enterprise User Permissions ](../c_seting_up_target/property_channel.md#concept_E396B16FA2024ADBA27BC056138F9838). 
 
-If you have Enterprise User Permissions enabled in your environment, you can copy activities to the same workspace or to another workspace. You cannot currently move an activity from one workspace to another. To copy an activity to another workspace, from the [!UICONTROL  Activities] page, hover over the activity you want to copy, click the [!UICONTROL  Copy] icon (  ![](../assets/icon_copy.png) ), then select the desired workspace from the drop-down list. 
+If you have Enterprise User Permissions enabled in your environment, you can copy activities to the same workspace or to another workspace. You cannot currently move an activity from one workspace to another. To copy an activity to another workspace, from the [!UICONTROL  Activities] page, hover over the activity you want to copy, click the [!UICONTROL  Copy] icon (  ![](assets/icon_copy.png) ), then select the desired workspace from the drop-down list. 
 
 Consider the following information when using the copy/edit functionality with workspaces: 
 

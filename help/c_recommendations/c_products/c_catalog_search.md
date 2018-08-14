@@ -7,8 +7,8 @@ solution: Target
 title: Catalog Search
 title_outputclass: premium
 topic: Premium
-uuid: f4b9a288-0a27-49ef-bfbc-fb2b31708832
-badge: assets/premium.png
+uuid: 5306b913-d1c7-4a8a-b1a9-95b3105be728
+badge: premium
 index: y
 internal: n
 snippet: y
@@ -19,9 +19,9 @@ translate: y
 
 You can refine your search by selecting a search option from the options menu that displays when you click the down arrow in the search field. 
 
-![](../../assets/searchproductsmenu.png) 
+![](assets/searchproductsmenu.png) 
 
-** [!UICONTROL  ALL] ** searches across all of the other search criteria, using OR logic. 
+**[!UICONTROL  ALL]** searches across all of the other search criteria, using OR logic. 
 
 In the search results, you click Settings to specify the production host group environment whose catalog you are displaying. An item can exist only once within an environment. You can also scroll through the items in the search results to view thumbnails and other product information. 
 
@@ -29,7 +29,7 @@ The number that displays next to "Products" is the number of products that match
 
 Click the refresh icon to re-index your catalog. Be aware that indexing can take some time, depending on the size of your feed. 
 
-The catalog is automatically refreshed every hour. Click ** [!UICONTROL  Refresh] ** to reindex the catalog between automatic refreshes. 
+The catalog is automatically refreshed every hour. Click **[!UICONTROL  Refresh]** to reindex the catalog between automatic refreshes. 
 
 You can create collections or exclusions using Advanced Search on the Catalog Search page (Recommendations &amp;gt; Catalog Search &amp;gt; Advanced Search). After creating a search using "id &amp;gt; contains," for example, you can then click Save As &amp;gt; Collection or Exclusion. 
 

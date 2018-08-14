@@ -7,7 +7,7 @@ solution: Target
 subtopic: Getting Started
 title: Configure at.js
 topic: Standard
-uuid: ec6d38b4-ebe2-4b0d-8b84-5eb27f1d379b
+uuid: 7a0ec8b2-551e-4325-b46b-67019fecc5bc
 index: y
 internal: n
 snippet: y
@@ -26,9 +26,9 @@ translate: y
 To open the [!UICONTROL  Settings] page: 
 
 
-1. Click ** [!UICONTROL  Setup] ** > ** [!UICONTROL  Implementation] **. 
+1. Click **[!UICONTROL  Setup]** > **[!UICONTROL  Implementation]**. 
 
-1. Select ** [!UICONTROL  at.js] ** > ** [!UICONTROL  Edit at.js Settings] **. 
+1. Select **[!UICONTROL  at.js]** > **[!UICONTROL  Edit at.js Settings]**. 
 
 
 

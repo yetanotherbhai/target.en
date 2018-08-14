@@ -7,8 +7,8 @@ solution: Target
 title: Automated Personalization FAQ
 title_outputclass: premium
 topic: Premium
-uuid: eeaca41e-7c6a-4e84-b7c7-60d2066854dc
-badge: assets/premium.png
+uuid: db90cf92-de85-4def-863d-147632f9dcbc
+badge: premium
 index: y
 internal: n
 snippet: y

@@ -6,7 +6,7 @@ seo-title: Creating an Audience
 solution: Target
 title: Creating an Audience
 topic: Advanced,Standard,Classic
-uuid: 0fe3c523-64b9-4c53-9c48-3ae379ee72f3
+uuid: 7a6ed6dc-8615-4875-981e-1b2f079d4f81
 index: y
 internal: n
 snippet: y
@@ -49,7 +49,7 @@ You can mix both boolean operators to create complex rules; however, operators a
 
 For example, the following rule targets visitors who use either Chrome or Firefox on a Windows computer: 
 
-![](../../assets/audience_create.png) 
+![](assets/audience_create.png) 
 
 
 >[!NOTE]
@@ -60,22 +60,22 @@ For example, the following rule targets visitors who use either Chrome or Firefo
 
 **To create a new audience:** 
 
->1. Click ** [!UICONTROL  Audiences] ** in the top menu bar.
+>1. Click **[!UICONTROL  Audiences]** in the top menu bar.
 
->       ![](../../assets/audiences_list.png) 
->1. From the [!UICONTROL  Audiences] list, click ** [!UICONTROL  + Create Audience] **.
+>       ![](assets/audiences_list.png) 
+>1. From the [!UICONTROL  Audiences] list, click **[!UICONTROL  + Create Audience]**.
 >   Or 
 
->   To copy an existing audience, from the [!UICONTROL  Audiences] list, hover over the desired audience, then click the ** [!UICONTROL  Copy] ** icon (  ![](../../assets/icon_copy.png) ). You can then edit the audience to create a similar audience. 
+>   To copy an existing audience, from the [!UICONTROL  Audiences] list, hover over the desired audience, then click the **[!UICONTROL  Copy]** icon (  ![](assets/icon_copy.png) ). You can then edit the audience to create a similar audience. 
 >
 >1. Type a descriptive audience name.
->1. Click ** [!UICONTROL  + Add Rule] **.
+>1. Click **[!UICONTROL  + Add Rule]**.
 
 >       Rules make it possible to limit your audience to a subset of you site visitors. 
 >1. Select a rule type.
 
 >       Each rule type has its own parameters. See [ Categories for Audiences ](../../c_target/c_audiences/c_target_rules.md#concept_E3A77E42F1644503A829B5107B20880D) for more information on configuring each type of audience rule. 
 >1. Define the rule parameters.
->1. Click ** [!UICONTROL  Save] **.
+>1. Click **[!UICONTROL  Save]**.
 
 >       Newly created audiences appear in the list after a few seconds of processing delay. If the audience does not display immediately in the list, try searching for the audience or refresh the list. 

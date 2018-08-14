@@ -7,8 +7,8 @@ solution: Target
 title: Integrating Recommendations with Email
 title_outputclass: premium
 topic: Recommendations
-uuid: 90af70f2-4d7d-4562-a384-a8e5c98a0960
-badge: assets/premium.png
+uuid: cfcc656d-63d7-4f0d-96b9-e6ad740bd921
+badge: premium
 index: y
 internal: n
 snippet: y

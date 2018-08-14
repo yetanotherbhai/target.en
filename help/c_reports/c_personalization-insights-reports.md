@@ -6,8 +6,8 @@ seo-title: Personalization Insights Reports
 solution: Target
 title: Personalization Insights Reports
 title_outputclass: premium
-uuid: 2feaab7c-528a-4a3e-ba86-51821e4228f3
-badge: assets/premium.png
+uuid: d57e7350-37b9-44d6-ad75-374572040cdc
+badge: premium
 index: y
 internal: n
 snippet: y
@@ -77,15 +77,15 @@ There are two reports available in Personalization Insights:
 ## Accessing and Interpreting Automated Segments and Model Attribute Ranking Reports {#section_8E8F997AAAF44A1B9EE06EB6FB652801}
 
 
-1. Click ** [!UICONTROL  Activities] **, then click the desired AP or AT activity from the list. 
+1. Click **[!UICONTROL  Activities]**, then click the desired AP or AT activity from the list. 
 
    If you have many activities, you can filter the list by selecting options from the Type, Status, Reporting Source, Experience Composer, Metrics Type, and Activity Source drop-down lists. 
 
-1. Click ** [!UICONTROL  Reports] **. 
+1. Click **[!UICONTROL  Reports]**. 
 
-   The Summary report displays, which provides information about the performance of your activities, represented by the first screen icon (  ![](../assets/icon_summary_report.png) ). The two additional icons represent the two Personalization Insights reports: Automated Segments (  ![](../assets/icon_automated_segments_report.png) ) and Model Attribute Ranking (  ![](../assets/icon_model_attribute_ranking.png) ). Note that Auto-Target has an additional graph icon (  ![](../assets/icon_graph_report.png) ) for the graphical view of the Summary report. 
+   The Summary report displays, which provides information about the performance of your activities, represented by the first screen icon (  ![](assets/icon_summary_report.png) ). The two additional icons represent the two Personalization Insights reports: Automated Segments (  ![](assets/icon_automated_segments_report.png) ) and Model Attribute Ranking (  ![](assets/icon_model_attribute_ranking.png) ). Note that Auto-Target has an additional graph icon (  ![](assets/icon_graph_report.png) ) for the graphical view of the Summary report. 
 
-   ![](../assets/personalization_insights.png) 
+   ![](assets/personalization_insights.png) 
 
 
    >[!IMPORTANT]
@@ -93,19 +93,19 @@ There are two reports available in Personalization Insights:
    >Automated Segments and Model Attribute Ranking reports won't be available until at least 15 days after you've activated your activity. During this initial period, you won't be able to access these reports or click the Automated Segments and Model Attribute Ranking icons. After 15 days have passed, assuming there is sufficient personalized traffic in your activity, Automated Segments and Model Attribute Ranking reports will be available.
 
 
-1. After 15 days from activating the activity, you can click the ** [!UICONTROL  Automated Segments] ** icon (  ![](../assets/icon_automated_segments_report.png) ). 
+1. After 15 days from activating the activity, you can click the **[!UICONTROL  Automated Segments]** icon (  ![](assets/icon_automated_segments_report.png) ). 
 
-   ![](../assets/automated_segments.png) 
+   ![](assets/automated_segments.png) 
 
 1. Select the desired date range. 
 
    Unlike the Summary report (performance reporting), Personalization Insights, including Automated Segments, is available only for fixed date ranges: 15 days, 30 days, 45 days, 60 days, and 90 days. These fixed date ranges allow Personalization Insights to use a large enough range of data to reduce the likelihood that you derive insights from a short-lived pattern in your activity. The two decisions you can make for your date range is the "End Date" and the "Duration." You'll notice that the "Start" is greyed out. The start date automatically changes based on your selections for the end date and duration. 
 
-   ![](../assets/personalization_insights_calendar_1.png) 
+   ![](assets/personalization_insights_calendar_1.png) 
 
    You can access the available fixed date ranges from the "Choose Duration" drop-down list. 
 
-   ![](../assets/personalization_insights_calendar_2.png) 
+   ![](assets/personalization_insights_calendar_2.png) 
 
 1. Review the Automated Segments report data. 
 
@@ -131,7 +131,7 @@ There are two reports available in Personalization Insights:
   </tr> 
   <tr> 
    <td colname="col1"> <p>Pie charts </p> </td> 
-   <td colname="col2"> <p>The pie charts at the top of the center panel show the size of the automated segment, as well as the total number of personalized visits in the activity (for example, traffic to this activity that was served by the personalization model. It does not include control traffic or traffic served by the overall winner model). Note that the size of the segment is based only on personalized visits. </p> <p style="text-align: center;"> <img href="../assets/pie.png" id="image_2F8733BB8AC94E9B8748BB8D3DB35D05" /> </p> </td> 
+   <td colname="col2"> <p>The pie charts at the top of the center panel show the size of the automated segment, as well as the total number of personalized visits in the activity (for example, traffic to this activity that was served by the personalization model. It does not include control traffic or traffic served by the overall winner model). Note that the size of the segment is based only on personalized visits. </p> <p style="text-align: center;"> <img href="assets/pie.png" id="image_2F8733BB8AC94E9B8748BB8D3DB35D05" /> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Dual-axis bar chart </p> </td> 
@@ -156,13 +156,13 @@ There are two reports available in Personalization Insights:
 
    This automated segment is defined based on only one attribute. Visitors included in this automated segment saw this AP activity on a weekday outside of typical working hours or on a weekend. 
 
-   ![](../assets/automated_segment_example_1.png) 
+   ![](assets/automated_segment_example_1.png) 
 
    **Automated Segment Example 2** 
 
    This automated segment is defined based on two attributes. Visitors included in this automated segment who saw this AP activity had fewer than three page views in their current visit and were geographically based within the Latitude 42.57 and 47.29 (approximately between New Hampshire/Oregon and Washington/Maine for a US-based company). 
 
-   ![](../assets/automated_segment_example_2.png) 
+   ![](assets/automated_segment_example_2.png) 
 
 1. (Optional) [ Download the report in CSV format ](../c_reports/c_report-settings.md#section_77E65C50BAAF4AB79242DB3A8778ADEF) for analysis in Excel and other tools. 
 
@@ -172,9 +172,9 @@ There are two reports available in Personalization Insights:
    >The Personalization Insights UI report contains select information. The CSV download for both Automated Segments and Model Attribute Ranking contain additional details. The Automated Segment Insights Report download includes additional Automated Segments beyond the top segments included in the UI, along with how those segments performed against your offers or experiences.
 
 
-1. After 15 days from activating the activity, you can click the ** [!UICONTROL  Model Attribute Ranking] ** icon (  ![](../assets/icon_model_attribute_ranking.png) ). 
+1. After 15 days from activating the activity, you can click the **[!UICONTROL  Model Attribute Ranking]** icon (  ![](assets/icon_model_attribute_ranking.png) ). 
 
-   ![](../assets/model_attribute_ranking.png) 
+   ![](assets/model_attribute_ranking.png) 
 
 1. Select the desired date range. 
 
@@ -182,7 +182,7 @@ There are two reports available in Personalization Insights:
 
 1. Review the Model Attribute Ranking report data. 
 
-   ![](../assets/model_attribute_ranking_report.png) 
+   ![](assets/model_attribute_ranking_report.png) 
 
    The following table explains how to interpret the report and describes its elements: 
 

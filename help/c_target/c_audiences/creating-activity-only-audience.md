@@ -6,7 +6,7 @@ seo-title: Creating an Activity-Only Audience
 solution: Target
 title: Creating an Activity-Only Audience
 topic: Advanced,Standard,Classic
-uuid: 47faa0be-2802-4133-a655-ee9b321a1dba
+uuid: a5e964cd-74bd-4202-8565-6e517e20ac3b
 index: y
 internal: n
 snippet: y
@@ -27,19 +27,19 @@ Activity-only audiences provide the following benefits:
 **To create an activity-only audience:** 
 
 
-1. While creating an activity, in the ** [!UICONTROL  Audience] ** box, click the ** [!UICONTROL  Edit] ** icon (  ![](../../assets/icon_more_options.png) ), then click ** [!UICONTROL  Replace Audience] **. 
+1. While creating an activity, in the **[!UICONTROL  Audience]** box, click the **[!UICONTROL  Edit]** icon (  ![](assets/icon_more_options.png) ), then click **[!UICONTROL  Replace Audience]**. 
 
-   ![](../../assets/replace_audiience.png) 
+   ![](assets/replace_audiience.png) 
 
-1. On the Choose Audience page, click ** [!UICONTROL  Activity Only Audience] **. 
+1. On the Choose Audience page, click **[!UICONTROL  Activity Only Audience]**. 
 
-   ![](../../assets/activity-only-aud.png) 
+   ![](assets/activity-only-aud.png) 
 
-1. Click ** [!UICONTROL  Create Audience] **. 
+1. Click **[!UICONTROL  Create Audience]**. 
 
 1. Type a descriptive audience name. 
 
-1. Click ** [!UICONTROL  + Add Rule] **. 
+1. Click **[!UICONTROL  + Add Rule]**. 
 
    Rules make it possible to limit your audience to a subset of you site visitors. 
 
@@ -49,7 +49,7 @@ Activity-only audiences provide the following benefits:
 
 1. Define the rule parameters. 
 
-1. Click ** [!UICONTROL  Save] **. 
+1. Click **[!UICONTROL  Save]**. 
 
 
 

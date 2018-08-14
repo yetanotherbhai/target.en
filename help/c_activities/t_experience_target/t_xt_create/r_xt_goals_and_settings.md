@@ -6,7 +6,7 @@ seo-title: Goals and Settings
 solution: Target
 title: Goals and Settings
 topic: Standard
-uuid: cdb6929d-f1a9-45c0-9704-b0a5111fec12
+uuid: 84f607a0-c2e0-49c7-adf5-3500e6d1d89b
 index: y
 internal: n
 snippet: y
@@ -53,7 +53,7 @@ This video includes information about activity settings.
 
 The available settings depend on whether you use Target or Analytics as the data source. 
 
-![](../../../assets/ab_settings.png) 
+![](assets/ab_settings.png) 
 
 ## Activity Settings {#section_DCBDC354261F420EBD4B43EA34947BAC}
 
@@ -123,7 +123,7 @@ The available settings depend on whether you use Target or Analytics as the data
 
 Advanced settings are available for Experience Targeting goal metrics. 
 
-![](../../../assets/Menu_AdvancedSettings.png) 
+![](assets/Menu_AdvancedSettings.png) 
 
 
 >[!NOTE]
@@ -147,8 +147,8 @@ Advanced settings are available for Experience Targeting goal metrics.
    <td colname="col2"> <p>Use this option to only count someone as reaching the success metric if they’ve previously reached a different success metric. For example a test conversion might only be valid if the visitor clicks on the offer, or reaches a particular page before converting. </p> <p>You can provided dependency on multiple metrics along with the flexibility to choose whether the metric should be reached or not reached for the count to increase. </p> <p>You must define both (or multiple) success metrics before you can make one dependent on another. </p> <p>The <span class="wintitle"> Add Dependency </span> option allows the success metric to increment if another success metric has been reached or has not been reached. </p> <p>To add a dependency: </p> <p> 
      <ol id="ol_7CE86C31CD5541039A3265E14D0C3630"> 
       <li id="li_3E374D8B28B443FA9FE8AF2B02814A82"> <p>After adding additional metrics, click <span class="uicontrol"> Advanced Settings </span>. </p> </li> 
-      <li id="li_F65C369C8F354A6CBD447ED26D9F79E4"> <p>Click the <span class="uicontrol"> Add Dependency </span> option: </p> <p style="text-align: center;"> <img href="../../../assets/add_dependency.png" id="image_D3C6E4862509435E86A1F61B88F342CA" /> </p> </li> 
-      <li id="li_9A6F187B4C294A9C8B5C834C76B32767"> <p>Drag and drop the desired metrics from the left pane into the right pane, then click <span class="uicontrol"> Reached </span> to toggle the setting between <span class="uicontrol"> Reached </span> and <span class="uicontrol"> Not Reached </span>. </p> <p style="text-align: center;"> <img href="../../../assets/add_dependency_reached.png" id="image_CA136FD10D754BD1B26C621DF2A4858D" /> </p> </li> 
+      <li id="li_F65C369C8F354A6CBD447ED26D9F79E4"> <p>Click the <span class="uicontrol"> Add Dependency </span> option: </p> <p style="text-align: center;"> <img href="assets/add_dependency.png" id="image_D3C6E4862509435E86A1F61B88F342CA" /> </p> </li> 
+      <li id="li_9A6F187B4C294A9C8B5C834C76B32767"> <p>Drag and drop the desired metrics from the left pane into the right pane, then click <span class="uicontrol"> Reached </span> to toggle the setting between <span class="uicontrol"> Reached </span> and <span class="uicontrol"> Not Reached </span>. </p> <p style="text-align: center;"> <img href="assets/add_dependency_reached.png" id="image_CA136FD10D754BD1B26C621DF2A4858D" /> </p> </li> 
      </ol> </p> <p>You can edit or remove dependencies after adding them. </p> </td> 
   </tr> 
   <tr> 

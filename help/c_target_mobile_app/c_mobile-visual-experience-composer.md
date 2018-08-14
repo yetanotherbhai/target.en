@@ -6,7 +6,7 @@ seo-title: Mobile App Visual Experience Composer
 solution: Target
 title: Mobile App Visual Experience Composer
 topic: Standard
-uuid: 8a1e0a01-29f9-417b-98f5-389c5b7848ac
+uuid: 9c89a1ca-f534-4c70-99ca-77e931126649
 index: y
 internal: n
 snippet: y
@@ -179,7 +179,7 @@ For Android, here's a table for incorrect locations to put the ` targetView` cal
 
 The following illustration represents the process of using the Mobile VEC: 
 
-![](../assets/mobile-vec-diagram.png) 
+![](assets/mobile-vec-diagram.png) 
 
 
 
@@ -211,13 +211,13 @@ The following illustration represents the process of using the Mobile VEC:
 The Mobile VEC connects in real-time to the marketer's mobile app for authoring Target activities. In order to enable that, the first step is to securely pair (authorize) the mobile device and app with Target. 
 
 
-1. While creating an A/B Test activity, for example, select ** [!UICONTROL  Mobile App] **, select ** [!UICONTROL  Visual (Default)] **, then click ** [!UICONTROL  Next] **. 
+1. While creating an A/B Test activity, for example, select **[!UICONTROL  Mobile App]**, select **[!UICONTROL  Visual (Default)]**, then click **[!UICONTROL  Next]**. 
 
-   ![](../assets/mobile-vec-create-1.png) 
+   ![](assets/mobile-vec-create-1.png) 
 
-1. Enter the app's URL, then click ** [!UICONTROL  Create Deep Link] **. 
+1. Enter the app's URL, then click **[!UICONTROL  Create Deep Link]**. 
 
-   ![](../assets/mobile-vec-create-2.png) 
+   ![](assets/mobile-vec-create-2.png) 
 
 
 
@@ -236,7 +236,7 @@ The pairing process contains the following steps:
 
    After the connection is established, a real-time view of the app appears in the Target Interface. The app has a red boundary overlay that is an indicator that the app is connected to Target, as shown in the illustration below. 
 
-   ![](../assets/mobile-vec-create-3.png) 
+   ![](assets/mobile-vec-create-3.png) 
 
    Devices that are already paired can be reconnected by launching the app and opening the authoring interface. 
 
@@ -269,7 +269,7 @@ After the app is connected and a real-time view of the app appears in the VEC, y
 
 Actions performed in the VEC are visible in real-time in the app, thereby allowing for a real-time preview capability during authoring. Actions are associated with relevant Mobile Screens or Views and are associated appropriately. 
 
-![](../assets/mobile-vec-create-4.png) 
+![](assets/mobile-vec-create-4.png) 
 
 ## Troubleshooting {#section_625794A4821B4F799933150F652056C5}
 

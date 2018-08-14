@@ -5,7 +5,7 @@ seo-description: Target users based on pre-built targeting rules.
 seo-title: Target Library
 solution: Target
 title: Target Library
-uuid: 2bf3ffcc-99ef-4b96-a634-448302b69c43
+uuid: f336f926-2e8b-414f-89ae-1d94060f4ddf
 index: y
 internal: n
 snippet: y
@@ -24,15 +24,15 @@ The pre-built audiences in the Target Library category are legacy audiences and 
 
 
 
-1. In the [!DNL  Target] interface, click ** [!UICONTROL  Audiences] ** > ** [!UICONTROL  Create Audience] **. 
+1. In the [!DNL  Target] interface, click **[!UICONTROL  Audiences]** > **[!UICONTROL  Create Audience]**. 
 
 1. Name the audience. 
 
-1. Click ** [!UICONTROL  Add Rule] ** > ** [!UICONTROL  Target Library] **. 
+1. Click **[!UICONTROL  Add Rule]** > **[!UICONTROL  Target Library]**. 
 
-   ![](../../../assets/target_library.png) 
+   ![](assets/target_library.png) 
 
-1. Click ** [!UICONTROL  Select] **, then select a pre-built targeting rule. 
+1. Click **[!UICONTROL  Select]**, then select a pre-built targeting rule. 
 
    Pre-built targeting rules include, Window Operating System, Tablet Device, Safari Browser, Returning Visitors, Referred from Google, and more. 
 
@@ -40,9 +40,9 @@ The pre-built audiences in the Target Library category are legacy audiences and 
 
    Kindle, Silk, iPad, Sony Tablet, TF101, GT-P1000, GT-P1000R, GT-P1000M, SGH-T849, SHW-M180S, GT-I9000T, BNTV250, and Tablet PC. 
 
-1. (Optional) Click ** [!UICONTROL  Add Rule] ** and set up additional rules for the audience. 
+1. (Optional) Click **[!UICONTROL  Add Rule]** and set up additional rules for the audience. 
 
-1. Click ** [!UICONTROL  Save] **. 
+1. Click **[!UICONTROL  Save]**. 
 
 
 

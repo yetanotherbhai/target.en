@@ -6,7 +6,7 @@ seo-title: View Multiple Metrics in a Report
 solution: Target
 title: View Multiple Metrics in a Report
 topic: Premium
-uuid: 5b33ef80-6dc4-4ddc-933e-052cee2696f2
+uuid: b0cd7291-a22a-48fd-9b3f-7492a650e884
 index: y
 internal: n
 snippet: y
@@ -31,17 +31,17 @@ Be aware of the following information as you work with multiple metrics in repor
 **To select multiple metrics to display in the report: ** 
 
 
-1. To display a report, click ** [!UICONTROL  Activities] **, click the desired activity from the list, then click the ** [!UICONTROL  Reports] ** tab. 
+1. To display a report, click **[!UICONTROL  Activities]**, click the desired activity from the list, then click the **[!UICONTROL  Reports]** tab. 
 
-1. Click the ** [!UICONTROL  Report Metric] ** drop-down list to display the [!UICONTROL  Shown Metrics] and [!UICONTROL  Hidden Metrics] lists. 
+1. Click the **[!UICONTROL  Report Metric]** drop-down list to display the [!UICONTROL  Shown Metrics] and [!UICONTROL  Hidden Metrics] lists. 
 
-   ![](../../assets/multiple_metrics.png) 
+   ![](assets/multiple_metrics.png) 
 
    You can use the [!UICONTROL  Search] box to quickly find available metrics to add to the [!UICONTROL  Shown Metrics] list. 
 
    Note that you can select multiple metrics from both the [!UICONTROL  Table View] and [!UICONTROL  Graph View] modes of the report. 
 
-1. Hover your mouse pointer over the desired metrics in the [!UICONTROL  Hidden Metrics] list, then click ** [!UICONTROL  Select] ** to move them to the [!UICONTROL  Shown Metrics] list. 
+1. Hover your mouse pointer over the desired metrics in the [!UICONTROL  Hidden Metrics] list, then click **[!UICONTROL  Select]** to move them to the [!UICONTROL  Shown Metrics] list. 
 
    Or 
 
@@ -51,20 +51,20 @@ Be aware of the following information as you work with multiple metrics in repor
 
    You can rearrange the metrics by dragging and dropping them into the desired order in the [!UICONTROL  Shown Metrics] list. The selected order will be reflected in the Table View and Graph View. To remove a metric from the [!UICONTROL  Shown Metrics] list, hover your mouse pointer over the metric, then click the **X** icon. 
 
-1. Click ** [!UICONTROL  Save] ** when finished. 
+1. Click **[!UICONTROL  Save]** when finished. 
 
 1. While viewing the report in the Table View, hover your mouse pointer on any metric's column header to display a blue arrow. Click the arrow to expand the table to display the [!UICONTROL  Lift] and [!UICONTROL  Confidence] for that metric. 
 
-   ![](../../assets/multiple_metrics_table.png) 
+   ![](assets/multiple_metrics_table.png) 
 
    You can expand only one metric/column at a time. Click the arrow again to collapse the columns. 
 
 1. While viewing the report in the Graph View, the you can select individual metrics to display from the drop-down list: 
 
-   ![](../../assets/multiple_metrics_graph.png) 
+   ![](assets/multiple_metrics_graph.png) 
 
    Likewise, when viewing the report in the Graph View, the Revenue dimension displays as a drop-down list: 
 
-   ![](../../assets/muttiple_revenue.png) 
+   ![](assets/muttiple_revenue.png) 
 
 

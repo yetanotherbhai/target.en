@@ -5,7 +5,7 @@ seo-description: Target visitors based on the search engine or landing page that
 seo-title: Traffic Sources
 solution: Target
 title: Traffic Sources
-uuid: 1ccafbae-bc64-4b4d-8544-bcfb8adac8e4
+uuid: b569cb9d-cf7b-4d0e-b821-899fa80deb55
 index: y
 internal: n
 snippet: y
@@ -19,15 +19,15 @@ For example, you can target based on the visitor's browser, search engine, or th
 You can combine multiple traffic sources to create a complex targeting rule. 
 
 
-1. In the [!DNL  Target] interface, click ** [!UICONTROL  Audiences] ** > ** [!UICONTROL  Create Audience] **. 
+1. In the [!DNL  Target] interface, click **[!UICONTROL  Audiences]** > **[!UICONTROL  Create Audience]**. 
 
 1. Name the audience. 
 
-1. Click ** [!UICONTROL  Add Rule] ** > ** [!UICONTROL  Traffic Sources] **. 
+1. Click **[!UICONTROL  Add Rule]** > **[!UICONTROL  Traffic Sources]**. 
 
-   ![](../../../assets/target_traffic_source.png) 
+   ![](assets/target_traffic_source.png) 
 
-1. Click ** [!UICONTROL  Select] **, then select one of the following options: 
+1. Click **[!UICONTROL  Select]**, then select one of the following options: 
 
 
     * From Baidu
@@ -39,9 +39,9 @@ You can combine multiple traffic sources to create a complex targeting rule.
     * Referring Landing Page: Query
 
 
-1. (Optional) Click ** [!UICONTROL  Add Rule] ** and set up additional rules for the audience. 
+1. (Optional) Click **[!UICONTROL  Add Rule]** and set up additional rules for the audience. 
 
-1. Click ** [!UICONTROL  Save] **. 
+1. Click **[!UICONTROL  Save]**. 
 
 
 

@@ -6,7 +6,7 @@ seo-title: Create JSON Offers
 solution: Target
 title: Create JSON Offers
 topic: Standard
-uuid: 4d6a2ce9-af82-4abe-9db5-d28529bd459a
+uuid: ded743c1-6edf-4783-b8af-ace20e176c44
 index: y
 internal: n
 snippet: y
@@ -52,17 +52,17 @@ This section contains the following information:
 ## Creating a JSON Offer {#section_BB9C72D59DEA4EFB97A906AE7569AD7A}
 
 
-1. Click ** [!UICONTROL  Offers] **, then select the ** [!UICONTROL  Code Offers] ** tab. 
+1. Click **[!UICONTROL  Offers]**, then select the **[!UICONTROL  Code Offers]** tab. 
 
-1. Click ** [!UICONTROL  Create] ** > ** [!UICONTROL  JSON Offer] **. 
+1. Click **[!UICONTROL  Create]** > **[!UICONTROL  JSON Offer]**. 
 
-   ![](../assets/offer-json.png) 
+   ![](assets/offer-json.png) 
 
 1. Type an offer name. 
 
-1. Type or paste your JSON code in the ** [!UICONTROL  Code] ** box. 
+1. Type or paste your JSON code in the **[!UICONTROL  Code]** box. 
 
-1. Click ** [!UICONTROL  Save] **. 
+1. Click **[!UICONTROL  Save]**. 
 
 
 
@@ -167,6 +167,6 @@ adobe.target.getOffer({
 
 ## Filtering Offers by the JSON Offer Type {#section_52533555BCE6420C8A95EB4EB8907BDE}
 
-You can filter the Offers Library by the JSON offer type by clicking the ** [!UICONTROL  Type] ** drop-down list, then by selecting the ** [!UICONTROL  JSON] ** checkbox. 
+You can filter the Offers Library by the JSON offer type by clicking the **[!UICONTROL  Type]** drop-down list, then by selecting the **[!UICONTROL  JSON]** checkbox. 
 
-![](../assets/offer-json-filter.png) 
+![](assets/offer-json-filter.png) 

@@ -6,7 +6,7 @@ solution: Target
 subtopic: Multivariate Test
 title: Create an Experience Targeting Activity
 topic: Standard
-uuid: 4bd3607d-0b5f-4a7a-9fba-3aeb08c7dbd9
+uuid: 50749ff2-fce1-4280-921a-3e2bdf73be60
 index: y
 internal: n
 snippet: y
@@ -16,9 +16,9 @@ translate: y
 # Create an Experience Targeting Activity
 
 
->1. From the [!UICONTROL  Activities] list, click ** [!UICONTROL  Create Activity] ** > ** [!UICONTROL  Experience Targeting] **.
+>1. From the [!UICONTROL  Activities] list, click **[!UICONTROL  Create Activity]** > **[!UICONTROL  Experience Targeting]**.
 
->       ![](../../assets/xt_select.png) 
+>       ![](assets/xt_select.png) 
 
 
 >       >[!NOTE]
@@ -27,9 +27,9 @@ translate: y
 
 
 >       For information about the activity types, see [ Activities ](../../c_activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03). 
->1. Enter your [ activity URL ](../../c_activities/t_experience_target/t_xt_create/c_xt_activity_url.md#concept_D28549AAA0A14E3BB5F05F32BE8ABC90), then click ** [!UICONTROL  Next] **.
+>1. Enter your [ activity URL ](../../c_activities/t_experience_target/t_xt_create/c_xt_activity_url.md#concept_D28549AAA0A14E3BB5F05F32BE8ABC90), then click **[!UICONTROL  Next]**.
 
->       ![](../../assets/form_url.png) 
+>       ![](assets/form_url.png) 
 
 >       If your account is configured with a default URL, that URL appears by default. You can change from the default to another URL. 
 
@@ -40,7 +40,7 @@ translate: y
 >       The Visual Experience Composer opens, showing the page specified in the URL. 
 >1. Type a name for the activity in the space provided.
 
->       ![](../../assets/xt_name.png) 
+>       ![](assets/xt_name.png) 
 
 >       The following characters are not allowed in an activity name: 
 
@@ -53,7 +53,7 @@ translate: y
 
 >1. [ Create any new experiences ](../../c_activities/t_experience_target/t_xt_create/t_xt_add_experience.md#task_454646F2895242D3B92DC395A0CE1A00) by changing the elements on the page.
 
->       The Experience Composer (see [ Experiences ](../../c_experiences.md#concept_1D011219034B492BB03C08B3BB80E3F0)) opens the page that is specified in your [ Account Preferences ](https://marketing.adobe.com/resources/help/en_US/target/target/t_account_preferences.html). To display a different page, click the Globe icon and enter the URL in the Select URL box in the Experience Composer and click ** [!UICONTROL  Continue] **. If you entered a URL for a site that does not include the Target Standard JavaScript code, you cannot select page elements. 
+>       The Experience Composer (see [ Experiences ](../../c_experiences.md#concept_1D011219034B492BB03C08B3BB80E3F0)) opens the page that is specified in your [ Account Preferences ](https://marketing.adobe.com/resources/help/en_US/target/target/t_account_preferences.html). To display a different page, click the Globe icon and enter the URL in the Select URL box in the Experience Composer and click **[!UICONTROL  Continue]**. If you entered a URL for a site that does not include the Target Standard JavaScript code, you cannot select page elements. 
 
 >       By default, the Visual Experience Composer does not allow changes to elements containing JavaScript, such as rotating banners. You can select to disable JavaScript if you want to be able to alter those elements using the Visual Experience Composer. 
 
@@ -72,16 +72,16 @@ translate: y
 >       >
 >       >If you deliver an image from a source other than your main page (such as an image hosted on akamai.net and delivered on dell.com), then that image does not display in the thumbnail of the page shown in the flow diagram.
 
->1. Click ** [!UICONTROL  Next] **.
+>1. Click **[!UICONTROL  Next]**.
 
 >       The flow diagram opens. 
 
->       ![](../../assets/xt_diagram.png) 
+>       ![](assets/xt_diagram.png) 
 
 >       The flow diagram leads you through the steps of choosing the audience for the activity and setting up experiences. 
->1. Mouse over the audience, click the ** [!UICONTROL  Edit] ** icon (  ![](../../assets/icon_more_options.png) ) that displays, click ** [!UICONTROL  Change Audience] **, then select the audience for the first experience in your activity.
+>1. Mouse over the audience, click the **[!UICONTROL  Edit]** icon (  ![](assets/icon_more_options.png) ) that displays, click **[!UICONTROL  Change Audience]**, then select the audience for the first experience in your activity.
 
->       ![](../../assets/xt_change_audience.png) 
+>       ![](assets/xt_change_audience.png) 
 
 >       The audience library appears. The audience library contains audiences that have previously been defined, including some common audiences that are pre-built as a part of Target. You can either select an audience from the library, or [ create a new audience ](../../c_target/c_audiences.md#concept_65BE870D290E412D8BBF557EEA67C271). To show the same experience to all entrants, choose All Visitors. 
 
@@ -99,20 +99,20 @@ translate: y
 >       >Audiences are automatically imported in the background when you open the audience list and the imported audiences are more than 10 minutes old.
 
 
->       You can click the [!UICONTROL  Edit] icon (  ![](../../assets/icon_more_options.png) ) that displays, then click [!UICONTROL  Remove Audience] to remove an existing audience. 
->1. Click ** [!UICONTROL  Add Experience Targeting] **.
+>       You can click the [!UICONTROL  Edit] icon (  ![](assets/icon_more_options.png) ) that displays, then click [!UICONTROL  Remove Audience] to remove an existing audience. 
+>1. Click **[!UICONTROL  Add Experience Targeting]**.
 
 
 >       >[!NOTE]
 >       >
 >       >If you are targeting an experience to an audience, you must select the audience before you can add an experience. A message appears to remind you to choose your audience.
 
->1. (Optional) Click ** [!UICONTROL  Add] ** and set up additional targeted experiences.
+>1. (Optional) Click **[!UICONTROL  Add]** and set up additional targeted experiences.
 
->       ![](../../assets/xt_add_xt.png) 
+>       ![](assets/xt_add_xt.png) 
 
->       Click ** [!UICONTROL  Continue] ** when you are finished with this step. 
+>       Click **[!UICONTROL  Continue]** when you are finished with this step. 
 >1. Specify the [ goals and settings ](../../c_activities/t_experience_target/t_xt_create/r_xt_goals_and_settings.md#reference_B25389FD6F3A4989801E740364B089CC) for the activity.
 
->       ![](../../assets/xt_settings.png) 
->1. Click ** [!UICONTROL  Save &amp;amp; Close] **.
+>       ![](assets/xt_settings.png) 
+>1. Click **[!UICONTROL  Save &amp;amp; Close]**.

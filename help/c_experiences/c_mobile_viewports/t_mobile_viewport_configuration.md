@@ -6,7 +6,7 @@ seo-title: Mobile Viewport Configuration
 solution: Target
 title: Mobile Viewport Configuration
 topic: Standard
-uuid: 89c06560-bf7f-4a1f-9008-7634124ee0a9
+uuid: d3ebb3c5-7f6f-41d6-8582-849ad4498bc2
 index: y
 internal: n
 snippet: y
@@ -39,12 +39,12 @@ This video includes information about setting up mobile viewports in the account
 </table>
 
 
->1. Click ** [!UICONTROL  Setup] ** > ** [!UICONTROL  Preferences] **.
->1. In the Mobile Viewports Configuration section of the Account Preferences page, click ** [!UICONTROL  Add new] ** to add a mobile viewport.
+>1. Click **[!UICONTROL  Setup]** > **[!UICONTROL  Preferences]**.
+>1. In the Mobile Viewports Configuration section of the Account Preferences page, click **[!UICONTROL  Add new]** to add a mobile viewport.
 
 >       To change the configuration of an existing mobile viewport, select that viewport, then click the Edit (pencil) icon. 
 
->       ![](../../assets/viewpoert_add.png) 
+>       ![](assets/viewpoert_add.png) 
 >1. Type a name for the mobile viewport.
 
 >       Give your mobile viewport a descriptive name that is easy to recognize. The name can be up to 36 characters long. 
@@ -70,4 +70,4 @@ This video includes information about setting up mobile viewports in the account
 
 
 >       If you use the [ Enhanced Experience Composer](../../c_experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) and choose an operating system, Target emulates that device when you view the page. If, for example, there is a different look and feel for Android than iOS on your responsive site, Target mimics that behavior. 
->1. Click ** [!UICONTROL  Save] **.
+>1. Click **[!UICONTROL  Save]**.

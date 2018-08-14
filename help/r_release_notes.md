@@ -6,7 +6,7 @@ seo-title: Target Release Notes
 solution: Target
 title: Target Release Notes
 topic: Recommendations
-uuid: 024d7395-64f2-4c29-a11d-e7392b9f1915
+uuid: 4accf387-a4d7-4c6d-97a0-9ea603fe24de
 index: y
 internal: n
 snippet: y

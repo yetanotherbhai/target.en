@@ -7,7 +7,7 @@ solution: Target
 subtopic: Getting Started
 title: at.js Functions
 topic: Standard
-uuid: 69436b58-0088-4c27-9955-fd4ec29eec55
+uuid: b0c3b802-488f-488e-b5a4-e5ac60a55402
 index: y
 internal: n
 snippet: y
@@ -680,7 +680,7 @@ You can override the following settings:
 
 ## Usage {#section_9AD6FA3690364F7480C872CB55567FB0}
 
-This function can be defined before ` at.js` is loaded or in ** [!UICONTROL  Setup] ** > ** [!UICONTROL  Implementation] ** > ** [!UICONTROL  Edit at.js Settings] ** > ** [!UICONTROL  Code Settings] ** > ** [!UICONTROL  Library Header] **. 
+This function can be defined before ` at.js` is loaded or in **[!UICONTROL  Setup]** > **[!UICONTROL  Implementation]** > **[!UICONTROL  Edit at.js Settings]** > **[!UICONTROL  Code Settings]** > **[!UICONTROL  Library Header]**. 
 
 The Library Header field allows you to enter free-form JavaScript. The customization code should look something similar to the following example: 
 
@@ -877,7 +877,7 @@ Consider the following when working with the ` dataProviders` setting:
 <draft-comment otherprops="merge">
   ov2/r_target-atjs-targetpageparams.xml 
 </draft-comment>
->This function is very useful for including the same set of parameters on multiple mbox calls. The function needs to be defined by the customer. It should return an array of parameters that will be passed only to the global mbox request. This function can be defined before ` at.js` is loaded or in ** [!UICONTROL  Setup] ** > ** [!UICONTROL  Implementation] ** > ** [!UICONTROL  Edit at.js Settings] ** > ** [!UICONTROL  Code Settings] ** > ** [!UICONTROL  Library Header] **. 
+>This function is very useful for including the same set of parameters on multiple mbox calls. The function needs to be defined by the customer. It should return an array of parameters that will be passed only to the global mbox request. This function can be defined before ` at.js` is loaded or in **[!UICONTROL  Setup]** > **[!UICONTROL  Implementation]** > **[!UICONTROL  Edit at.js Settings]** > **[!UICONTROL  Code Settings]** > **[!UICONTROL  Library Header]**. 
 
 >You can pass in parameters to target-global-mbox using the ` targetPageParams()` function in any of the following ways: 
 
@@ -934,7 +934,7 @@ Consider the following when working with the ` dataProviders` setting:
 <draft-comment otherprops="merge">
   ov2/r_target-atjs-targetpageparamsall.xml 
 </draft-comment>
->This is very useful for including the same set of parameters on multiple mbox calls. The function needs to be defined by the customer. It should return an array of parameters that will be passed to all mbox requests on the page. This function can be defined before ` at.js` is loaded or in ** [!UICONTROL  Setup] ** > ** [!UICONTROL  Implementation] ** > ** [!UICONTROL  Edit at.js Settings] ** > ** [!UICONTROL  Code Settings] ** > ** [!UICONTROL  Library Header] **. 
+>This is very useful for including the same set of parameters on multiple mbox calls. The function needs to be defined by the customer. It should return an array of parameters that will be passed to all mbox requests on the page. This function can be defined before ` at.js` is loaded or in **[!UICONTROL  Setup]** > **[!UICONTROL  Implementation]** > **[!UICONTROL  Edit at.js Settings]** > **[!UICONTROL  Code Settings]** > **[!UICONTROL  Library Header]**. 
 
 >You can pass in parameters to target-global-mbox using the targetPageParamsAll() function in any of the following ways: 
 

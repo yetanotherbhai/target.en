@@ -7,7 +7,7 @@ solution: Target
 subtopic: Getting Started
 title: Customer Attributes
 topic: Standard
-uuid: 4faf2e9c-5493-44cc-9a66-5a87c2d3af4b
+uuid: fad60cd1-05c9-4713-a2be-42cfc09ef060
 index: y
 internal: n
 snippet: y
@@ -32,7 +32,7 @@ This section contains the following information:
 
 The People core service is part of the [!DNL  Adobe Experience Cloud] and provides enterprises a tool to push their customer data to the [!DNL  Experience Cloud] platform. Data onboarded to the [!DNL  Experience Cloud] is available for all [!DNL  Experience Cloud] workflows. [!DNL  Adobe Target] utilizes this data for targeting returning customer based on attributes. [!DNL  Adobe Analytics] consumes these attributes and they can be used for analysis and segmentation. 
 
-![](../../assets/crs.png) 
+![](assets/crs.png) 
 
 Consider the following information as your work with customer attributes and Target: 
 
@@ -53,7 +53,7 @@ Consider the following information as your work with customer attributes and Tar
 
 Complete the following steps to use CRM data in [!DNL  Target], as illustrated below: 
 
-![](../../assets/crm_workflow.png) 
+![](assets/crm_workflow.png) 
 
 Detailed instructions for completing each of the following tasks can be found in [ Create a Customer Attribute Source and Upload the Data File ](https://marketing.adobe.com/resources/help/en_US/mcloud/t_crs_usecase.html) in the *Experience Cloud and Core Services Product Documentation*. 
 
@@ -62,9 +62,9 @@ Detailed instructions for completing each of the following tasks can be found in
 
    Export customer data from your CRM to CSV format to create a [!DNL  .csv] file. Alternately, a zip or gzip file can be created for uploading. Ensure that first row of CSV is the header and all rows (customer data) have the same number of entries. 
 
-   ![](../../assets/CRS_sample.png) 
+   ![](assets/CRS_sample.png) 
 
-   ![](../../assets/CRS_CSV_sample.png) 
+   ![](assets/CRS_CSV_sample.png) 
 
 1. Create the attribute source and upload the data file. 
 
@@ -87,17 +87,17 @@ Detailed instructions for completing each of the following tasks can be found in
 
    Click [!UICONTROL  Save] after schema validation is complete. The file upload time varies depending on the size. 
 
-   ![](../../assets/SchemaValidate.png) 
+   ![](assets/SchemaValidate.png) 
 
-   ![](../../assets/upload1.png) 
+   ![](assets/upload1.png) 
 
 1. Configure subscriptions and activate the attribute source. 
 
-   Click ** [!UICONTROL  Add Subscription] **, then select the solution to subscribe these attributes. [ Configuring a subscription ](https://marketing.adobe.com/resources/help/en_US/mcloud/subscription.html) sets up the data flow between the Experience Cloud and solutions. Activating the attribute source allows the data to flow to subscribed solutions. The customer records you have uploaded are matched up with incoming ID signals from your website or application. 
+   Click **[!UICONTROL  Add Subscription]**, then select the solution to subscribe these attributes. [ Configuring a subscription ](https://marketing.adobe.com/resources/help/en_US/mcloud/subscription.html) sets up the data flow between the Experience Cloud and solutions. Activating the attribute source allows the data to flow to subscribed solutions. The customer records you have uploaded are matched up with incoming ID signals from your website or application. 
 
-   ![](../../assets/solution.png.jpeg) 
+   ![](assets/solution.png.jpeg) 
 
-   ![](../../assets/activate.PNG) 
+   ![](assets/activate.PNG) 
 
    While performing this step, be aware of the following limitations: 
 
@@ -128,7 +128,7 @@ You can use customer attributes in [!DNL  Target] in the following ways:
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Creating targeting audiences </p> </td> 
-   <td colname="col2"> <p>In <span class="keyword"> Target </span>, you can select a customer attribute from the <span class="wintitle"> Visitor Profile </span> section when creating an audience. All customer attributes have the prefix &lt; <span class="varname"> data_source_name </span>&gt; in the list. Combine these attributes as required with other data attributes to build audiences. </p> <p style="text-align: center;"> <img href="../../assets/TargetAudience.png" id="image_00473D9BBCE843DAB2C1736FE52CB3DE" /> </p> </td> 
+   <td colname="col2"> <p>In <span class="keyword"> Target </span>, you can select a customer attribute from the <span class="wintitle"> Visitor Profile </span> section when creating an audience. All customer attributes have the prefix &lt; <span class="varname"> data_source_name </span>&gt; in the list. Combine these attributes as required with other data attributes to build audiences. </p> <p style="text-align: center;"> <img href="assets/TargetAudience.png" id="image_00473D9BBCE843DAB2C1736FE52CB3DE" /> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Creating profile scripts using tokens </p> </td> 

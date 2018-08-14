@@ -6,7 +6,7 @@ seo-title: Report Settings
 solution: Target
 title: Report Settings
 topic: Premium
-uuid: a89e1b34-cc4b-4589-be1d-e77172f97567
+uuid: 39fc7c4c-1505-40a5-9cf9-a67b89e1b0e1
 index: y
 internal: n
 snippet: y
@@ -15,9 +15,9 @@ translate: y
 
 # Report Settings
 
-To display a report, click ** [!UICONTROL  Activities] **, click the desired activity from the list, then click the ** [!UICONTROL  Reports] ** tab. 
+To display a report, click **[!UICONTROL  Activities]**, click the desired activity from the list, then click the **[!UICONTROL  Reports]** tab. 
 
-![](../assets/report_ui.png) 
+![](assets/report_ui.png) 
 
 This section contains the following information: 
 
@@ -65,27 +65,27 @@ You can also configure an individual activity's report as desired and then save 
 
 1. Configure the activity's report as desired (metrics, date ranges, audiences, advanced settings, and so forth). 
 
-1. Next to ** [!UICONTROL  Target Preset] **, click  ![](../assets/icon_more_options.png) > ** [!UICONTROL  Save as New] **. 
+1. Next to **[!UICONTROL  Target Preset]**, click  ![](assets/icon_more_options.png) > **[!UICONTROL  Save as New]**. 
 
-   ![](../assets/report_preset.png) 
+   ![](assets/report_preset.png) 
 
    The New Preset dialog box displays: 
 
-   ![](../assets/report_preset_dialog.png) 
+   ![](assets/report_preset_dialog.png) 
 
-1. Review the information in the Filters and Settings sections to ensure that the report is configured as desired, then specify the ** [!UICONTROL  Preset Name] ** (up to 50 characters). 
+1. Review the information in the Filters and Settings sections to ensure that the report is configured as desired, then specify the **[!UICONTROL  Preset Name]** (up to 50 characters). 
 
-1. (Conditional) If you want this to be your default/favorite report view, slide the ** [!UICONTROL  Set This as Default Preset] ** toggle to the On position. 
+1. (Conditional) If you want this to be your default/favorite report view, slide the **[!UICONTROL  Set This as Default Preset]** toggle to the On position. 
 
-1. Click ** [!UICONTROL  Save] **. 
+1. Click **[!UICONTROL  Save]**. 
 
 
 
 **Select a Different Preset** 
 
-Select the desired preset from the ** [!UICONTROL  Target Preset] ** drop-down list. 
+Select the desired preset from the **[!UICONTROL  Target Preset]** drop-down list. 
 
-![](../assets/report_preset_drop-down.png) 
+![](assets/report_preset_drop-down.png) 
 
 **Edit a Preset** 
 
@@ -96,15 +96,15 @@ Select the desired preset from the ** [!UICONTROL  Target Preset] ** drop-down l
 
    After you click [!UICONTROL  Save] after editing the report's configuration, an asterisk ( * ) displays after the preset name to indicate that the preset has changed, as shown below: 
 
-   ![](../assets/report_preset_asterisk.png) 
+   ![](assets/report_preset_asterisk.png) 
 
-1. Click  ![](../assets/icon_more_options.png) > ** [!UICONTROL  Save as New] ** to create a new preset. 
+1. Click  ![](assets/icon_more_options.png) > **[!UICONTROL  Save as New]** to create a new preset. 
 
    Or 
 
-   Click  ![](../assets/icon_more_options.png) > ** [!UICONTROL  Update] ** to update the current preset. 
+   Click  ![](assets/icon_more_options.png) > **[!UICONTROL  Update]** to update the current preset. 
 
-   ![](../assets/report_preset_update.png) 
+   ![](assets/report_preset_update.png) 
 
 
 
@@ -113,11 +113,11 @@ Select the desired preset from the ** [!UICONTROL  Target Preset] ** drop-down l
 
 1. Select the preset that you want to delete. 
 
-1. Click  ![](../assets/icon_more_options.png) > ** [!UICONTROL  Delete] **. 
+1. Click  ![](assets/icon_more_options.png) > **[!UICONTROL  Delete]**. 
 
-   ![](../assets/report_preset_delete.png) 
+   ![](assets/report_preset_delete.png) 
 
-1. Click ** [!UICONTROL  Delete] ** again to confirm your deletion. 
+1. Click **[!UICONTROL  Delete]** again to confirm your deletion. 
 
 
 
@@ -142,7 +142,7 @@ The following list describes some of the situations that might cause a preset to
 
 ## Report Metric {#section_894ABD7148244806B7CE556EBBA2AD62}
 
-Click the ** [!UICONTROL  Report Metric] ** drop-down list to select a different [ success metric](../r_success_metrics.md#reference_D011575C85DA48E989A244593D9B9924) or multiple metrics to display in the graph and chart. 
+Click the **[!UICONTROL  Report Metric]** drop-down list to select a different [ success metric](../r_success_metrics.md#reference_D011575C85DA48E989A244593D9B9924) or multiple metrics to display in the graph and chart. 
 
 By default, the primary metric is determined in the success metrics setup when you create the activity. If you change the setup and re-save the activity, the primary metric for reporting is updated. 
 
@@ -158,11 +158,11 @@ For more information, see [ Audiences](../c_target.md#concept_A782F8481A5041EBA7
 
 The Date Range box displays the reports current date range. Click the drop-down icon to display a calendar that lets you change the report's date range. 
 
-![](../assets/date_range.png) 
+![](assets/date_range.png) 
 
-Select new ** [!UICONTROL  Start] ** and ** [!UICONTROL  End] ** dates for the report. You can also use the ** [!UICONTROL  From Start of Activity] ** and ** [!UICONTROL  Till End of Activity] ** check boxes. 
+Select new **[!UICONTROL  Start]** and **[!UICONTROL  End]** dates for the report. You can also use the **[!UICONTROL  From Start of Activity]** and **[!UICONTROL  Till End of Activity]** check boxes. 
 
-Click ** [!UICONTROL  Custom Dates] ** to select pre-defined date ranges: Last 7 Days, Last 15 Days, or Last 30 Days. These pre-defined date ranges are rolling ranges. If the start date is less than the number of days chosen, the calendar will show the range from the start date but roll on once the start date becomes older than the number of days chosen as the activity duration increases. 
+Click **[!UICONTROL  Custom Dates]** to select pre-defined date ranges: Last 7 Days, Last 15 Days, or Last 30 Days. These pre-defined date ranges are rolling ranges. If the start date is less than the number of days chosen, the calendar will show the range from the start date but roll on once the start date becomes older than the number of days chosen as the activity duration increases. 
 
 Reports have the following date restrictions: 
 
@@ -174,11 +174,11 @@ Reports have the following date restrictions:
 
 ## Settings {#section_D99CE462107D45CABE0960F820E1E972}
 
-Click the [!UICONTROL  Settings] icon (  ![](../assets/icon_gear.png) ) to configure report settings, then click ** [!UICONTROL  Save Settings] ** when done. 
+Click the [!UICONTROL  Settings] icon (  ![](assets/icon_gear.png) ) to configure report settings, then click **[!UICONTROL  Save Settings]** when done. 
 
 The following illustration shows the Settings dialog box for an A/B activity: 
 
-![](../assets/ab_settings_dialog.png) 
+![](assets/ab_settings_dialog.png) 
 
 Depending on the selected activity type, the options vary: 
 
@@ -209,23 +209,23 @@ Depending on the selected activity type, the options vary:
 
 ## Download {#section_77E65C50BAAF4AB79242DB3A8778ADEF}
 
-Click the Download icon (  ![](../assets/icon_download_report.png) ) to download report data in a [!DNL  .csv] format for quick import into Excel, Access, or other data analysis programs. For more information, see [ Downloading Data in a CSV File](../c_reports/c_downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75). 
+Click the Download icon (  ![](assets/icon_download_report.png) ) to download report data in a [!DNL  .csv] format for quick import into Excel, Access, or other data analysis programs. For more information, see [ Downloading Data in a CSV File](../c_reports/c_downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75). 
 
 ## Refresh {#section_E203729F2F314DF3856D2EE67C60B370}
 
-Click  ![](../assets/icon_refresh.png) to refresh a report's table and graph view without refreshing the entire page, its configuration, or its date range. 
+Click  ![](assets/icon_refresh.png) to refresh a report's table and graph view without refreshing the entire page, its configuration, or its date range. 
 
 ## More Options {#section_AB1B5C695D7045A0A0AC0E2698D2E7DE}
 
-Click the More Options icon (  ![](../assets/icon_more_options.png) ) to access the [!UICONTROL  Edit Activity] and [!UICONTROL  View Experience URLs] options. 
+Click the More Options icon (  ![](assets/icon_more_options.png) ) to access the [!UICONTROL  Edit Activity] and [!UICONTROL  View Experience URLs] options. 
 
 ## Table View {#section_4E7E75955A964847ADFF2C2314EC0F21}
 
-Click the ** [!UICONTROL  Table View] **icon (  ![](../assets/icon_table_view_report.png) ) to view the report as a table. 
+Click the **[!UICONTROL  Table View]**icon (  ![](assets/icon_table_view_report.png) ) to view the report as a table. 
 
 ## Graph View {#section_0D24B902A8D142468ADB7EEF1D941786}
 
-Click the ** [!UICONTROL  Graph View] ** icon (  ![](../assets/icon_graph_report.png) ) to view the report as a graph. 
+Click the **[!UICONTROL  Graph View]** icon (  ![](assets/icon_graph_report.png) ) to view the report as a graph. 
 
 ## Average Lift, Lift Bounds, and Confidence Interval {#section_0D87615B1D3344B3858BA494EEBC16FB}
 
@@ -244,7 +244,7 @@ Consider the following:
 
 ## Location Contribution {#section_5832F126AC114AE1ABFFF4D9B904393B}
 
-Click the ** [!UICONTROL  Location Contribution] ** (  ![](../assets/icon_location_contribution.png) ) icon to switch the report to show contribution by location. 
+Click the **[!UICONTROL  Location Contribution]** (  ![](assets/icon_location_contribution.png) ) icon to switch the report to show contribution by location. 
 
 ## Experiences {#section_3A450DE1FA7E43F0AAB73165EC3D1C34}
 
@@ -254,7 +254,7 @@ Select or deselect experiences on the left side of the chart to display or hide 
 
 If the following illustration, only experiences B and C display in the report: 
 
-![](../assets/report_experiences.png) 
+![](assets/report_experiences.png) 
 
 ## Running Average {#section_59066693158C4433B87D07402C2BC6CD}
 
@@ -269,7 +269,7 @@ Select the desired graph view:
 * Daily Lift
 
 
-![](../assets/report_running_average.png) 
+![](assets/report_running_average.png) 
 
 
 >[!NOTE]
@@ -284,17 +284,17 @@ Select the desired graph view:
 
 You can choose the counting methodology for graphs in reports. Note that this is not supported for Automated Personalization (AP) activities. 
 
-To access the Counting Methodology option, while viewing a report in graph mode, click the ** [!UICONTROL  My Primary Goal] ** drop-down, then select the counting methodology. 
+To access the Counting Methodology option, while viewing a report in graph mode, click the **[!UICONTROL  My Primary Goal]** drop-down, then select the counting methodology. 
 
 The counting methodology will be the same as the one selected in the [!UICONTROL  Settings] dialog, described above. 
 
-![](../assets/counting_methodology.png) 
+![](assets/counting_methodology.png) 
 
 By default, the graph is plotted in [!UICONTROL  Daily] mode. 
 
 You can change the mode by clicking the [!UICONTROL  Daily] drop-down list, then selecting [!UICONTROL  Cumulative]. 
 
-![](../assets/counting_methodology_2.png) 
+![](assets/counting_methodology_2.png) 
 
 
 >[!NOTE]
@@ -337,16 +337,16 @@ If you hover over any of the greyed experiences, a new grey plot line correspond
 
 As an example, the following illustration shows an activity's graph that has 26 experiences: 
 
-![](../assets/graph_1.png) 
+![](assets/graph_1.png) 
 
 The graph displays the lines for the first 16 experiences (some overlap, so it appears that there are fewer than 16 lines). The colored dot in the Experiences pane on the left side next to each experience name indicate that the experience's plot line displays in the corresponding color. 
 
 If you scroll down in the Experiences pane, you'll notice that the names for the 17th through 26th experiences are greyed out, as shown in the following illustration: 
 
-![](../assets/graph_2.png) 
+![](assets/graph_2.png) 
 
 If you hover over one of the greyed experiences, a new grey plot line corresponding to that experience temporarily displays in the graph. 
 
 Suppose you want to display the plot line for Experience R and you don't want to see the line for Experience P. You can click Experience P's name to deselect it and then click Experience R's name to select it, as shown below: 
 
-![](../assets/graph_3.png) 
+![](assets/graph_3.png) 

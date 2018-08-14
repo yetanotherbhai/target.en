@@ -7,7 +7,7 @@ solution: Target
 subtopic: Multivariate Test
 title: A4T Reporting
 topic: Standard
-uuid: 9f668727-069e-4f9d-9b9c-157219b3edb9
+uuid: 2936d40f-6f47-43dc-8e06-8c03e610fa11
 index: y
 internal: n
 snippet: y
@@ -45,9 +45,9 @@ When the Select operation is used and you sort on *Entrants*, then only experien
 
 ## Reports in Analytics {#section_F6884872DC864AE7913587FAED4CD11C}
 
-In Analytics, click ** [!UICONTROL  Target] ** > ** [!UICONTROL  Target Activities] ** in the left menu. In Target, the activity's reports automatically show Analytics data, metrics, and segments. Data appears in these reports approximately an hour after it is collected from the site. All metrics, audiences, and values in the reports come from the report suite you selected when you set up the activity. 
+In Analytics, click **[!UICONTROL  Target]** > **[!UICONTROL  Target Activities]** in the left menu. In Target, the activity's reports automatically show Analytics data, metrics, and segments. Data appears in these reports approximately an hour after it is collected from the site. All metrics, audiences, and values in the reports come from the report suite you selected when you set up the activity. 
 
-In Analytics, use the Target Activities report to view the results of your Target activity. Test&amp;Target (Legacy) Reports provides information about your old Test&amp;Target plug-in style page integrations and does not include Analytics for Target data. In the Activities report, view information about your Target experiences. Click ** [!UICONTROL  Metrics] **, then select the ** [!UICONTROL  Target] ** metric type. Two metrics are available for your report: 
+In Analytics, use the Target Activities report to view the results of your Target activity. Test&amp;Target (Legacy) Reports provides information about your old Test&amp;Target plug-in style page integrations and does not include Analytics for Target data. In the Activities report, view information about your Target experiences. Click **[!UICONTROL  Metrics]**, then select the **[!UICONTROL  Target]** metric type. Two metrics are available for your report: 
 
 
 * **Activity Entries: **Matches the Entrants number in the Target report. 

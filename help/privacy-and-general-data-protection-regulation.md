@@ -6,7 +6,7 @@ seo-title: Privacy and General Data Protection Regulation (GDPR)
 solution: Target
 title: Privacy and General Data Protection Regulation (GDPR)
 topic: Standard
-uuid: b2c429fb-cc96-4759-9716-eee4d6119c9b
+uuid: 64eec275-d9c6-4d7f-ac8f-9c7b880300ba
 index: y
 internal: n
 snippet: y

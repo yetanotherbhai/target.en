@@ -7,7 +7,7 @@ solution: Target
 subtopic: Getting Started
 title: Audiences
 topic: Standard
-uuid: 1071bd49-74a3-4153-990c-81d09578a2db
+uuid: 7617a7c7-6cf8-4009-99b3-b773d67c0924
 index: y
 internal: n
 snippet: y

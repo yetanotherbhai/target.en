@@ -6,7 +6,7 @@ seo-title: Determine a Winner
 solution: Target
 title: Determine a Winner
 topic: Standard
-uuid: 12c11713-25c4-4a51-90e8-7e5e19fe9705
+uuid: f2d3c7cf-f724-4bc8-ad5d-36376af82750
 index: y
 internal: n
 snippet: y
@@ -29,11 +29,11 @@ This section contains the following information:
 
 When using the [!UICONTROL  Auto-Allocate] feature, [!DNL  Target] displays a badge at the top of the activity's page indicating "No Winner Yet" until the activity reaches the minimum number of conversions with sufficient confidence. 
 
-![](../../assets/auto_traffic_no_winner.png) 
+![](assets/auto_traffic_no_winner.png) 
 
 When a clear winner is declared, [!DNL  Target] displays "Winner: Experience X." 
 
-![](../../assets/auto_traffic_winner.png) 
+![](assets/auto_traffic_winner.png) 
 
 
 >[!NOTE]
@@ -54,11 +54,11 @@ Normal A/B tests compute confidence based on p-values. Auto-Allocate does not us
 
 The following illustration shows an activity that doesn't yet have a winner: 
 
-![](../../assets/no_winner.png) 
+![](assets/no_winner.png) 
 
 The following illustration shows an activity that has a winner: 
 
-![](../../assets/winner_found.png) 
+![](assets/winner_found.png) 
 
 ## Frequently Asked Questions {#section_C8E068512A93458D8C006760B1C0B6A2}
 

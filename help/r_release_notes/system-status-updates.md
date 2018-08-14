@@ -6,7 +6,7 @@ seo-title: System Status Updates
 solution: Target
 title: System Status Updates
 topic: Recommendations
-uuid: 69557e4e-9168-4036-abf4-21f31e84c3e0
+uuid: cc729ed1-2d3b-47d7-8b4a-7ada7907e75f
 index: y
 internal: n
 snippet: y
@@ -19,7 +19,7 @@ Access the [!UICONTROL  System Status] page by going to the following URL:
 
 [ [!DNL  http://status.adobe.com] ](http://status.adobe.com) 
 
-![](../assets/system_status.png) 
+![](assets/system_status.png) 
 
 The available statuses include: 
 

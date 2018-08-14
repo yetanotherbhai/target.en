@@ -7,7 +7,7 @@ solution: Target
 subtopic: Getting Started
 title: Experiences and Page Designs
 topic: Standard
-uuid: bf555dfe-51ef-45f9-834d-4bafe4379816
+uuid: be787971-2fb9-4f21-9c0c-b35522091263
 index: y
 internal: n
 snippet: y

@@ -6,7 +6,7 @@ seo-title: Form-Based Experience Composer
 solution: Target
 title: Form-Based Experience Composer
 topic: Standard
-uuid: 9764b05d-0396-4a83-a915-b0f8cbf02586
+uuid: dbd9b42b-75c7-4391-a2fe-a13f67d29f10
 index: y
 internal: n
 snippet: y
@@ -46,14 +46,14 @@ This video provides a demo of the form-based composer:
 
 If you are creating a Recommendations activity, there are no experiences. Choose your criteria and design. If you choose multiple criteria or designs, Target automatically generates the experiences. 
 
->1. Click ** [!UICONTROL  Create Activity] **, then select the type of activity you want to create.
+>1. Click **[!UICONTROL  Create Activity]**, then select the type of activity you want to create.
 
 >       The Form-Based Experience Composer is available for A/B tests, Experience Targeting, Automated Personalization, and Recommendations activities. 
->1. Select ** [!UICONTROL  Form-Based Experience Composer] ** from the [!UICONTROL  New Activity]dialog box.
+>1. Select **[!UICONTROL  Form-Based Experience Composer]** from the [!UICONTROL  New Activity]dialog box.
 
 >       The Form-Based Experience Composer opens. 
 
->       ![](../assets/location_refinements.png) 
+>       ![](assets/location_refinements.png) 
 
 >       This screen is different if you are creating a Recommendations activity. Recommendations activities do not include experiences. 
 >1. Name the activity.
@@ -62,14 +62,14 @@ If you are creating a Recommendations activity, there are no experiences. Choose
 >       When you click in the Select Location box, a list of available locations appears. Select one of those locations. To choose the global location delivered via target.js, choose “target-global-mbox.” 
 
 >       You can also enter a location that is not listed here. This can be useful if the mbox has not yet been created or viewed on a page. Type the name of the location. Be careful when entering a location that does not yet exist. If the spelling or capitalization does not match the spelling and capitalization when the mbox call is made, the activity will not deliver. Manually entered locations are saved to the list. 
->1. Click ** [!UICONTROL  Add Audience Refinements] **, then choose one or more [ audience](../c_target.md#concept_A782F8481A5041EBA75103CB26376522) for this activity.
+>1. Click **[!UICONTROL  Add Audience Refinements]**, then choose one or more [ audience](../c_target.md#concept_A782F8481A5041EBA75103CB26376522) for this activity.
 
->       ![](../assets/location_refinements_2.png) 
+>       ![](assets/location_refinements_2.png) 
 
 >       In the Form-based Experience Composer, Refinements have been replaced with full audience functionality. Refinements for existing activities have been migrated to [ activity-only audiences](../c_target/c_audiences/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483). 
 >1. Select the type of content you want to appear in that location.
 
->       ![](../assets/form_content.png) 
+>       ![](assets/form_content.png) 
 >1. For the content type you selected, specify the content.
 
 
@@ -110,17 +110,17 @@ If you are creating a Recommendations activity, there are no experiences. Choose
  </tbody> 
 </table>
 
->       For a Recommendations activity, the Content drop-down gives you the Add Recommendation option. Click ** [!UICONTROL  Add Recommendation] **, then select the page type. Then follow the usual steps as defined in the interface to [ create a Recommendations activity](https://marketing.adobe.com/resources/help/en_US/target/recs/t_create_recs_activity.html). 
+>       For a Recommendations activity, the Content drop-down gives you the Add Recommendation option. Click **[!UICONTROL  Add Recommendation]**, then select the page type. Then follow the usual steps as defined in the interface to [ create a Recommendations activity](https://marketing.adobe.com/resources/help/en_US/target/recs/t_create_recs_activity.html). 
 
 >       While selecting Recommendations criteria in the Form-Based Experience Composer, there is now a direct link to the selected Criteria card so you can quickly and easily edit the criteria. 
 
->       ![](../assets/change_criteria.png) 
+>       ![](assets/change_criteria.png) 
 
 >       From the Targeting page of the Target three-step guided workflow: 
 
->       ![](../assets/change_criteria_2.png) 
+>       ![](assets/change_criteria_2.png) 
 >1. (Optional, for AB activities, Automated Personalization, and Experience Targeting) To repeat this process for additional locations, click  and configure the location and content.
->1. Click ** [!UICONTROL  Continue] **, then complete the activity creation steps as usual for your activity type.
+>1. Click **[!UICONTROL  Continue]**, then complete the activity creation steps as usual for your activity type.
 
 >    
 >    * [ Create an A/B Test ](../c_activities/t_test_ab/t_test_create_ab.md#task_68C8079BF9FF4625A3BD6680D554BB72)

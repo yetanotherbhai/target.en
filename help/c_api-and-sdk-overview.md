@@ -6,7 +6,7 @@ seo-title: Target APIs and NodeJS SDK
 solution: Target
 title: Target APIs and NodeJS SDK
 topic: Recommendations
-uuid: 9fb0ea1d-2358-488b-ab34-4bac87f69b59
+uuid: 966e81a0-ab13-4b06-a860-5060025c27b3
 index: y
 internal: n
 snippet: y

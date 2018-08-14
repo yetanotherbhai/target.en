@@ -5,7 +5,7 @@ seo-description: Integrating Adobe Target with Adobe Analytics and other Experie
 seo-title: Integrating Adobe Target with the Experience Cloud
 solution: Target
 title: Integrating Adobe Target with the Experience Cloud
-uuid: 90463118-44a1-4116-82fc-dfab80627561
+uuid: 487b4643-66d3-4ae7-8e28-2f32d22c1fa1
 index: y
 internal: n
 snippet: y

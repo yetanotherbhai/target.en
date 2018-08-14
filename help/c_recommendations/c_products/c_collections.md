@@ -7,8 +7,8 @@ solution: Target
 title: Collections
 title_outputclass: premium
 topic: Premium
-uuid: ee9ede09-834f-4468-a202-ba0b215bd06a
-badge: assets/premium.png
+uuid: dc541299-0c6b-4bbe-927a-de507facdb1c
+badge: premium
 index: y
 internal: n
 snippet: y
@@ -43,16 +43,16 @@ When you are creating or editing a [!DNL  Recommendations] activity, the collect
 <draft-comment otherprops="merge">
   recs/t_create_collection.xml 
 </draft-comment>
->1. Click ** [!UICONTROL  Recommendations] ** > ** [!UICONTROL  Collections] **.
->1. Click ** [!UICONTROL  Create Collection] **.
+>1. Click **[!UICONTROL  Recommendations]** > **[!UICONTROL  Collections]**.
+>1. Click **[!UICONTROL  Create Collection]**.
 
->       ![Step Result](../../assets/CreateCollection.png) 
->1. Type a ** [!UICONTROL  Name] ** for the collection.
+>       ![Step Result](assets/CreateCollection.png) 
+>1. Type a **[!UICONTROL  Name]** for the collection.
 
->       You can also enter an optional ** [!UICONTROL  Description] **. 
+>       You can also enter an optional **[!UICONTROL  Description]**. 
 >1. Set the rules used to build the collection.
 
 >       For example, your collection might be built around a product ID or category, margin, or any other parameter in the list. 
 
 >       You can add rules to use multiple parameters to define a collection. Multiple rules are joined with an AND. All specified rules must be matched for the collection to apply. 
->1. Click ** [!UICONTROL  Save] **.
+>1. Click **[!UICONTROL  Save]**.

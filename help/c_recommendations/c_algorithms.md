@@ -7,8 +7,8 @@ solution: Target
 title: Criteria
 title_outputclass: premium
 topic: Premium
-uuid: 4827e7f2-731f-4cd0-a6d6-79e9341143be
-badge: assets/premium.png
+uuid: 747f01ed-530b-462f-809e-a989c55b888d
+badge: premium
 index: y
 internal: n
 snippet: y
@@ -200,17 +200,17 @@ All one-day criteria run twice daily. All one-week and longer criteria run once 
 
 ## Viewing Criteria Information {#section_7162DE58E4594FD688A4D7FDB829FD8B}
 
-You can view criteria details on a pop-up card by hovering over a card and by clicking the Information icon (  ![](../assets/icon_information.png) ) on a criteria card without opening the criteria. 
+You can view criteria details on a pop-up card by hovering over a card and by clicking the Information icon (  ![](assets/icon_information.png) ) on a criteria card without opening the criteria. 
 
-![](../assets/criteria_hover.png) 
+![](assets/criteria_hover.png) 
 
-Click the ** [!UICONTROL  Algorithm Info] ** tab to view general information about the selected criteria, including its Name, Descriptions, Industry Vertical, Page Type(s), Recommendation Key, Recommendation Logic, and Algorithm ID. 
+Click the **[!UICONTROL  Algorithm Info]** tab to view general information about the selected criteria, including its Name, Descriptions, Industry Vertical, Page Type(s), Recommendation Key, Recommendation Logic, and Algorithm ID. 
 
-![](../assets/criteria_info.png) 
+![](assets/criteria_info.png) 
 
-Click the ** [!UICONTROL  Algorithm Usage] ** tab to view a list of activities that reference the selected criteria. The card lists active and inactive activities. Click the Live Activities or Inactivities drop-down lists to view the entire list of activities that reference that criteria. You can click the activity link to open the activity for editing. 
+Click the **[!UICONTROL  Algorithm Usage]** tab to view a list of activities that reference the selected criteria. The card lists active and inactive activities. Click the Live Activities or Inactivities drop-down lists to view the entire list of activities that reference that criteria. You can click the activity link to open the activity for editing. 
 
-![](../assets/criteria_usage.png) 
+![](assets/criteria_usage.png) 
 
 ## Determining When Criteria Results are Ready to Display {#section_03F328C07F234692B6D996DF745584B3}
 
@@ -218,8 +218,8 @@ From the activity diagram, Criteria cards now indicate when results are ready to
 
 The following illustration shows the activity diagram on a Recommendations activity's Overview page. You can also see the activity diagram with criteria status results from step 2 during the activity-creation workflow. 
 
-![](../assets/criteria_status.png) 
+![](assets/criteria_status.png) 
 
 Status results include the following: Results Ready, Results Not Ready, and Feed Failure, as illustrated in the following diagram: 
 
-![](../assets/criteria_status_multi.png) 
+![](assets/criteria_status_multi.png) 

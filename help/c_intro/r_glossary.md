@@ -5,7 +5,7 @@ seo-title: Glossary
 solution: Target
 title: Glossary
 topic: Standard
-uuid: 4e28c325-bca5-403e-a989-2cb3b30ea75f
+uuid: f2b2b90a-ffcf-4459-81a1-f3dbaf5e057a
 index: y
 internal: n
 snippet: y

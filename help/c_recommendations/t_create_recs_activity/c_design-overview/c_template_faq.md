@@ -7,8 +7,8 @@ solution: Target
 title: Design FAQ
 title_outputclass: premium
 topic: Premium
-uuid: 2226f099-6806-4b3c-95af-469567986ae0
-badge: assets/premium.png
+uuid: d92fa31b-327e-45dc-8692-95312c0f8b92
+badge: premium
 index: y
 internal: n
 snippet: y
@@ -44,7 +44,7 @@ Altering the design that is currently in use takes a while to update. To change 
 
 ## How can I capture key information for display in the design? Example: If we want to display the key product's category, how would I code that value in the velocity design? {#section_F08043B14BA24BC8815FEF25F4F84C39}
 
-The `$key. * ` value` *` parameter captures most of the key product's information to display within the design. Example: If you want to display the key product's thumbnail, you would use ` $key.thumbnailURL`. 
+The `$key. *` value`*` parameter captures most of the key product's information to display within the design. Example: If you want to display the key product's thumbnail, you would use ` $key.thumbnailURL`. 
 
 ## Which version of Velocity is used? {#section_28F00E15A4A54A768782A3F5BB0CDB21}
 

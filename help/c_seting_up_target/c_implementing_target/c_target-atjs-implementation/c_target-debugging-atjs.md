@@ -10,7 +10,7 @@ seo-description: Information about the status of traditional Target debugging te
 seo-title: Debugging at.js
 title: Debugging at.js
 topic: Target
-uuid: ea9131a0-1e44-4d52-b7ef-66fe0faeabc9
+uuid: 9ad2e3f3-56ed-4145-9021-ce068999aeae
 index: y
 internal: n
 snippet: y

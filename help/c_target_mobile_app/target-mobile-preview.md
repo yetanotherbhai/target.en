@@ -6,7 +6,7 @@ seo-title: Target Mobile Preview
 solution: Target
 title: Target Mobile Preview
 topic: Advanced,Standard,Classic
-uuid: a936df92-33f8-467b-813d-38f550da8f06
+uuid: c5da6e5a-5045-4048-87f1-cc61fb2c9632
 index: y
 internal: n
 snippet: y
@@ -59,11 +59,11 @@ The mobile preview functionality lets you fully test your Mobile app activities 
 
    The following illustration is an example on iOS: 
 
-   ![](../assets/mobile-preview-url-scheme-ios.png) 
+   ![](assets/mobile-preview-url-scheme-ios.png) 
 
    The following illustration is an example on Android: 
 
-   ![](../assets/Android_Deeplink.png) 
+   ![](assets/Android_Deeplink.png) 
 
 1. **Track Adobe DeepLink** 
 
@@ -116,11 +116,11 @@ The mobile preview functionality lets you fully test your Mobile app activities 
 ## Generating a Preview Link {#section_D9D58173FFF34E9BB75EBF357273F128}
 
 
-1. In the Target UI, click the ** [!UICONTROL  More Options] ** icon (  ![](../assets/icon_more_options.png) ), then select ** [!UICONTROL  Create Mobile Preview] **. 
+1. In the Target UI, click the **[!UICONTROL  More Options]** icon (  ![](assets/icon_more_options.png) ), then select **[!UICONTROL  Create Mobile Preview]**. 
 
-   ![](../assets/mobile-preview-create.png) 
+   ![](assets/mobile-preview-create.png) 
 
-1. Select the activities that you want to preview, then click ** [!UICONTROL  Generate Mobile Preview LInk] **. 
+1. Select the activities that you want to preview, then click **[!UICONTROL  Generate Mobile Preview LInk]**. 
 
 
    >[!NOTE]
@@ -128,17 +128,17 @@ The mobile preview functionality lets you fully test your Mobile app activities 
    >Only form-based AB and XT activities can be selected.
 
 
-   ![](../assets/mobile-preview-select-activities.png) 
+   ![](assets/mobile-preview-select-activities.png) 
 
 1. Specify your app's URL scheme. 
 
    This needs to be the same as what is present in your iOS or Android app. Repeat this process separately for iOS and Android, if required. 
 
-   ![](../assets/mobile-preview-enter-url-scheme.png) 
+   ![](assets/mobile-preview-enter-url-scheme.png) 
 
-1. Click ** [!UICONTROL  Generate Mobile Preview Link] **, then copy the link. 
+1. Click **[!UICONTROL  Generate Mobile Preview Link]**, then copy the link. 
 
-   ![](../assets/mobile-preview-generate-and-copy.png) 
+   ![](assets/mobile-preview-generate-and-copy.png) 
 
 
 
@@ -156,29 +156,29 @@ Open the link in a mobile browser on a device where you have your app installed.
 <table id="table_F853E79832954A87850BDDAF36D88A7F"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p style="text-align: center;"> <img id="image_D6C60AC753FA4296B440B8C5F6BB5603" href="../assets/mobile-preview-open-deeplink.png" /> </p> </td> 
-   <td colname="col2"> <p style="text-align: center;"> <img id="image_F1459ADE032F4B12880385F0CF6218FA" href="../assets/mobile-preview-open-app.png" /> </p> </td> 
+   <td colname="col1"> <p style="text-align: center;"> <img id="image_D6C60AC753FA4296B440B8C5F6BB5603" href="assets/mobile-preview-open-deeplink.png" /> </p> </td> 
+   <td colname="col2"> <p style="text-align: center;"> <img id="image_F1459ADE032F4B12880385F0CF6218FA" href="assets/mobile-preview-open-app.png" /> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
    Your app opens and starts the Target Mobile Preview Mode. 
 
-1. Select the combination of experiences that you want to see, then click ** [!UICONTROL  Launch Experiences] **. 
+1. Select the combination of experiences that you want to see, then click **[!UICONTROL  Launch Experiences]**. 
 
 
 
 <table id="table_6123AAE2EE9D426CA477BD71B4361489"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p style="text-align: center;"> <img href="../assets/mobile-preview-experience-selection-1.png" id="image_C9AA4C0525A449AA91A253BDD177A1DC" /> </p> </td> 
-   <td colname="col2"> <p style="text-align: center;"> <img id="image_CE9638C68F184AE1AA66A0CDE9AA3770" href="../assets/mobile-preview-experience-result-1-france.png" /> </p> </td> 
-   <td colname="col3"> <p style="text-align: center;"> <img id="image_92CB96E9A4274216B7A328F2B49FAEF3" href="../assets/mobile-preview-experience-result-1-shipfree.png" /> </p> </td> 
+   <td colname="col1"> <p style="text-align: center;"> <img href="assets/mobile-preview-experience-selection-1.png" id="image_C9AA4C0525A449AA91A253BDD177A1DC" /> </p> </td> 
+   <td colname="col2"> <p style="text-align: center;"> <img id="image_CE9638C68F184AE1AA66A0CDE9AA3770" href="assets/mobile-preview-experience-result-1-france.png" /> </p> </td> 
+   <td colname="col3"> <p style="text-align: center;"> <img id="image_92CB96E9A4274216B7A328F2B49FAEF3" href="assets/mobile-preview-experience-result-1-shipfree.png" /> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p style="text-align: center;"> <img id="image_E7117C66BA534B2B87F1BDBA20E9EC5A" href="../assets/mobile-preview-experience-selection-2.png" /> </p> </td> 
-   <td colname="col2"> <p style="text-align: center;"> <img id="image_3E880BB6C6D34F1EAC64C21CE07A9267" href="../assets/mobile-preview-experience-result-2-aus.png" /> </p> </td> 
-   <td colname="col3"> <p style="text-align: center;"> <img id="image_2B419DDBD58B4C0CB4E5A967FCA50922" href="../assets/mobile-preview-experience-result-2-10off.png" /> </p> </td> 
+   <td colname="col1"> <p style="text-align: center;"> <img id="image_E7117C66BA534B2B87F1BDBA20E9EC5A" href="assets/mobile-preview-experience-selection-2.png" /> </p> </td> 
+   <td colname="col2"> <p style="text-align: center;"> <img id="image_3E880BB6C6D34F1EAC64C21CE07A9267" href="assets/mobile-preview-experience-result-2-aus.png" /> </p> </td> 
+   <td colname="col3"> <p style="text-align: center;"> <img id="image_2B419DDBD58B4C0CB4E5A967FCA50922" href="assets/mobile-preview-experience-result-2-10off.png" /> </p> </td> 
   </tr> 
  </tbody> 
 </table>

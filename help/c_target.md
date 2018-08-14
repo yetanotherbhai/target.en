@@ -5,7 +5,7 @@ seo-description: Target different content and experiences to specific audiences 
 seo-title: Audiences
 solution: Target
 title: Audiences
-uuid: 118f6921-96e7-45e8-ac5f-0c12949f7146
+uuid: 01d18ee7-2b72-493f-9b8e-5c86b0669134
 index: y
 internal: n
 snippet: y

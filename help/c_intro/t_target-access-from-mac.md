@@ -7,7 +7,7 @@ solution: Target
 subtopic: Getting Started
 title: Access Target from the Adobe Experience Cloud
 topic: Standard
-uuid: 59313bc3-c82a-4960-8154-b0462e2894f5
+uuid: 105a8846-3c28-47f8-a423-3ef5add5b291
 index: y
 internal: n
 snippet: y
@@ -44,15 +44,15 @@ This video includes information about [!DNL  Adobe Target] in the [!DNL  Experie
 </table>
 
 
->1. After signing into the [!DNL  Experience Cloud], click the App icon (  ![](../assets/icon_mc_apps.png) ) in the navigation bar.
+>1. After signing into the [!DNL  Experience Cloud], click the App icon (  ![](assets/icon_mc_apps.png) ) in the navigation bar.
 
->       ![](../assets/appmenu.png) 
+>       ![](assets/appmenu.png) 
 >1. Click the [!DNL  Target] icon in the App menu.
 
->       ![](../assets/appmenu-target.png) 
->1. Click ** [!UICONTROL  Launch] ** on the [!DNL  Target] card.
+>       ![](assets/appmenu-target.png) 
+>1. Click **[!UICONTROL  Launch]** on the [!DNL  Target] card.
 
->       ![](../assets/target-launch.png) 
->1. (Optional) To set [!DNL  Target] as your default view when you log in to the [!DNL  Experience Cloud], click ** [!UICONTROL  Edit Profile] ** under your profile avatar, then set your landing page preference.
+>       ![](assets/target-launch.png) 
+>1. (Optional) To set [!DNL  Target] as your default view when you log in to the [!DNL  Experience Cloud], click **[!UICONTROL  Edit Profile]** under your profile avatar, then set your landing page preference.
 
->       ![](../assets/pagepref.png) 
+>       ![](assets/pagepref.png) 

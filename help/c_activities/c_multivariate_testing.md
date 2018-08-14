@@ -6,7 +6,7 @@ seo-title: Multivariate Test
 solution: Target
 title: Multivariate Test
 topic: Premium
-uuid: 223d400c-5f17-4c01-a264-1121cd761464
+uuid: 8c6381d9-5385-4bce-a563-b66d1003ed88
 index: y
 internal: n
 snippet: y
@@ -62,7 +62,7 @@ Adobe Target uses full-factorial multivariate tests to help you optimize your co
 
 In Target, each combination is one experience. The multivariate test compares each experience so you can learn which combinations are the most successful. At the same time, data is collected and analyzed to understand how each location and the offers influence the success metric. 
 
-![](../assets/multivariate.png) 
+![](assets/multivariate.png) 
 
 Because of the number of combinations that can be generated, a multivariate test requires more time and traffic than an A/B test. The page must receive enough traffic to produce statistically significant results for each experience. To obtain useful results, you need to understand the amount of traffic your page receives and test the optimal number of combinations for the right amount of time to get the required results. Target's [ Traffic Estimator ](../c_activities/c_multivariate_testing/t_create_multivariate_test/t_traffic_estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714) can help you design a test that works with your traffic. Before you use the Traffic Estimator, you should have good statistics showing the number of impressions and conversions your site normally receives. Consider your traffic levels per day. The more experiences in an activity, the more traffic the activity will need to include or the longer your activity will need to run. If your traffic isn't very high, you should test a small number of combinations; otherwise, the amount of time required to produce meaningful test results might be too long to be useful. 
 

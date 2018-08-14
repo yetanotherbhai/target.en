@@ -5,7 +5,7 @@ seo-title: Estimate the Traffic Required for a Successful Test
 solution: Target
 title: Estimate the Traffic Required for a Successful Test
 topic: Standard
-uuid: bff65a60-f1c4-4763-9ca0-6fdf068a4843
+uuid: bebea71d-605a-4fdd-b04b-7ef4e5a4e66a
 index: y
 internal: n
 snippet: y
@@ -29,11 +29,11 @@ The test uses the Bonferroni correction to correct for multiple comparisons. Thi
 
 The Traffic Estimator also provides feedback that lets you know whether you have sufficient traffic for the test you designed to succeed. 
 
->1. From the Experience Composer, click ** [!UICONTROL  Traffic] **.
+>1. From the Experience Composer, click **[!UICONTROL  Traffic]**.
 
->       The Traffic Estimator opens. You can click ** [!UICONTROL  Traffic] ** again to hide the Traffic Estimator. 
+>       The Traffic Estimator opens. You can click **[!UICONTROL  Traffic]** again to hide the Traffic Estimator. 
 
->       ![](../../../assets/estimatorempty.png) 
+>       ![](assets/estimatorempty.png) 
 >1. Provide the typical conversion rate, estimated activity impressions per day, and test duration.
 
 >    
@@ -51,7 +51,7 @@ The Traffic Estimator also provides feedback that lets you know whether you have
 
 >       Near the top of the Traffic Estimator, the values you entered are calculated and the results are shown. 
 
->       ![](../../../assets/estimatorinsufficient.png) 
+>       ![](assets/estimatorinsufficient.png) 
 
 >       As you change the numbers, the estimate changes. For example, if you are testing a large number of experiences and your conversion rate and impressions are too low, the Traffic Estimator shows how long the test will need to run to be successful. Or, if your traffic is low, the Traffic Estimator might suggest a lower number of experiences so you can run the test the desired number of days. 
 
@@ -64,4 +64,4 @@ The Traffic Estimator also provides feedback that lets you know whether you have
 
 >       Adjust the numbers until the Traffic Estimator says you have sufficient traffic, then design your test accordingly. 
 
->       ![](../../../assets/estimatorok.png) 
+>       ![](assets/estimatorok.png) 

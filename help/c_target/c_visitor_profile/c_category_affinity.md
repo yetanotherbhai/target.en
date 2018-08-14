@@ -6,7 +6,7 @@ seo-title: Category Affinity
 solution: Target
 title: Category Affinity
 topic: Standard
-uuid: e0d37bc3-ad0e-429d-8a59-7ffa8b50bb97
+uuid: b3ebb11a-a30c-4674-828e-ab2a7ccf30af
 index: y
 internal: n
 snippet: y
@@ -76,19 +76,19 @@ For example, viewing categoryA then categoryB in one session results in A: 10, B
 ## Create an Audience to Use Category Affinity {#section_A27C600BBA664FE7A74F8FE076B78F40}
 
 
-1. From the ** [!UICONTROL  Audiences] ** list, click ** [!UICONTROL  + Create Audience] **. 
+1. From the **[!UICONTROL  Audiences]** list, click **[!UICONTROL  + Create Audience]**. 
 
    Or 
 
-   To copy an existing audience, from the Audiences list, hover over the desired audience, then click the Copy icon (  ![](../../assets/icon_copy.png) ). You can then edit the audience to create a similar audience. 
+   To copy an existing audience, from the Audiences list, hover over the desired audience, then click the Copy icon (  ![](assets/icon_copy.png) ). You can then edit the audience to create a similar audience. 
 
 1. Type a descriptive audience name. 
 
-1. Click ** [!UICONTROL  + Add Rule] ** > ** [!UICONTROL  Visitor Profile] **. 
+1. Click **[!UICONTROL  + Add Rule]** > **[!UICONTROL  Visitor Profile]**. 
 
-1. From the ** [!UICONTROL  Visitor Profile] ** drop-down list, select ** [!UICONTROL  Category Affinity] **. 
+1. From the **[!UICONTROL  Visitor Profile]** drop-down list, select **[!UICONTROL  Category Affinity]**. 
 
-   ![](../../assets/affinity.png) 
+   ![](assets/affinity.png) 
 
 1. Select the desired category: 
 
@@ -111,7 +111,7 @@ For example, viewing categoryA then categoryB in one session results in A: 10, B
 
 1. Specify each new value in a separate line (for example, "shoes"). 
 
-1. Click ** [!UICONTROL  Save] **. 
+1. Click **[!UICONTROL  Save]**. 
 
 
 

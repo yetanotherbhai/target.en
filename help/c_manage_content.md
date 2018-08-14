@@ -5,7 +5,7 @@ seo-description: Use the Offers library to manage your code offer and image offe
 seo-title: Offers
 solution: Target
 title: Offers
-uuid: e0c0aa6f-ae12-447e-b7d7-83bfcf1f1af2
+uuid: d5864c45-7bbe-45f1-afe0-a77b704c12fd
 index: y
 internal: n
 snippet: y
@@ -46,7 +46,7 @@ This video includes information about managing offers.
  </tbody> 
 </table>
 
-Click ** [!UICONTROL  Offers] ** to open the library. The library contains the offers that have been set up via [!DNL  Target Standard/Premium], [!DNL  Target Classic], [!DNL  Adobe Experience Manager] (AEM), [!DNL  Adobe Mobile Services] (AMS), and APIs. Offers created in [!DNL  Target Classic] or other solutions are editable in [!DNL  Target Standard/Premium]. 
+Click **[!UICONTROL  Offers]** to open the library. The library contains the offers that have been set up via [!DNL  Target Standard/Premium], [!DNL  Target Classic], [!DNL  Adobe Experience Manager] (AEM), [!DNL  Adobe Mobile Services] (AMS), and APIs. Offers created in [!DNL  Target Classic] or other solutions are editable in [!DNL  Target Standard/Premium]. 
 
 The [!UICONTROL  Offers] page has two tabs along the right side: Code Offers and Image Offers that let you view offers by type. 
 

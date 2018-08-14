@@ -6,7 +6,7 @@ seo-title: Create an A/B Test
 solution: Target
 title: Create an A/B Test
 topic: Advanced,Standard,Classic
-uuid: 1b83ba08-608a-4136-8ce1-6eafc4ec8187
+uuid: 6b181249-404e-46f1-9cf9-6d16374653fc
 index: y
 internal: n
 snippet: y
@@ -43,9 +43,9 @@ This video demonstrates how to create an A/B test using the [!DNL  Target] three
 
 **To Create an A/B test:** 
 
->1. From the [!UICONTROL  Activities] list, click ** [!UICONTROL  Create Activity] ** > ** [!UICONTROL  A/B Test] **.
+>1. From the [!UICONTROL  Activities] list, click **[!UICONTROL  Create Activity]** > **[!UICONTROL  A/B Test]**.
 
->       ![](../../assets/ab_select.png) 
+>       ![](assets/ab_select.png) 
 
 
 >       >[!NOTE]
@@ -55,22 +55,22 @@ This video demonstrates how to create an A/B test using the [!DNL  Target] three
 
 >       For information about the various activity types, see [ Activities](../../c_activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03). 
 
->       ![](../../assets/ab_newactivityurl.png) 
->1. Select ** [!UICONTROL  Visual Experience Composer] **, if necessary.
+>       ![](assets/ab_newactivityurl.png) 
+>1. Select **[!UICONTROL  Visual Experience Composer]**, if necessary.
 
 >       For troubleshooting information about the VEC, should you have problems, see [ Troubleshooting the Visual Experience Composer](../../c_experiences/r_troubleshoot_composer.md#reference_77743144F10143A3A89D56E116D296E4). 
 
 >       If you prefer to use the Form-Based Experience Composer, select that option. See [ Form-Based Experience Composer](https://marketing.adobe.com/resources/help/en_US/target/target/t_form_experience_composer.html). 
->1. Specify your [ activity URL](../../c_activities/t_test_ab/t_test_create_ab/c_ab_activity_url.md#concept_D28549AAA0A14E3BB5F05F32BE8ABC90), then click ** [!UICONTROL  Create] **.
+>1. Specify your [ activity URL](../../c_activities/t_test_ab/t_test_create_ab/c_ab_activity_url.md#concept_D28549AAA0A14E3BB5F05F32BE8ABC90), then click **[!UICONTROL  Create]**.
 
 >       If your account is configured with a default URL, that URL appears by default. You can change from the default to another URL. 
 
 >       The [!UICONTROL  Visual Experience Composer] opens, showing the page specified in the URL. 
 
->       ![](../../assets/vec.png) 
+>       ![](assets/vec.png) 
 >1. Type a name for the activity in the space provided.
 
->       ![](../../assets/ab_newname.png) 
+>       ![](assets/ab_newname.png) 
 
 >       The following characters are not allowed in an activity name: 
 
@@ -88,29 +88,29 @@ This video demonstrates how to create an A/B test using the [!DNL  Target] three
 
 >   For more information about adding and modifying experiences in the [!UICONTROL  Visual Experience Composer], see [ Add Experience](../../c_activities/t_test_ab/t_test_create_ab/t_ab_add_experience.md#task_454646F2895242D3B92DC395A0CE1A00). To modify Experience B, start with Step 3. 
 >
->1. Click ** [!UICONTROL  Target] ** at the top of the [!UICONTROL  Visual Experience Composer] to move to the next step in the three-step guided workflow.
+>1. Click **[!UICONTROL  Target]** at the top of the [!UICONTROL  Visual Experience Composer] to move to the next step in the three-step guided workflow.
 
 >       The flow diagram opens. 
 
->       ![](../../assets/ab_flow.png) 
+>       ![](assets/ab_flow.png) 
 
 >       The flow diagram leads you through the steps of choosing the audience for the activity and setting up experiences. 
->1. In the [!UICONTROL  Audience] box, click the edit icon (  ![](../../assets/icon_edit.png) ), then [ select the audience](../../c_activities/t_test_ab/t_test_create_ab/c_ab_audience.md#concept_A268236C1224451DB7844BF67F41A087) for your activity.
+>1. In the [!UICONTROL  Audience] box, click the edit icon (  ![](assets/icon_edit.png) ), then [ select the audience](../../c_activities/t_test_ab/t_test_create_ab/c_ab_audience.md#concept_A268236C1224451DB7844BF67F41A087) for your activity.
 
 >1. Choose the percentage of qualifying visitors that you want to enter the activity.
 
->       ![](../../assets/audperc.png) 
+>       ![](assets/audperc.png) 
 
 >       For example, you might limit entries to 50% of all visitors or 45% of your "Californians" audience. 
 >1. Set up your traffic allocation.
 
 >       You can show multiple experiences to the same audience. A diagram displays showing your selected audience and the experiences you've added to the activity. 
 
->       If you select ** [!UICONTROL  Manual] **, specify the percentage of entrants you want to see each experience. You can split the percentages evenly between all experiences, or specify higher or lower percentages for each experience. The total for all experiences must equal 100%. 
+>       If you select **[!UICONTROL  Manual]**, specify the percentage of entrants you want to see each experience. You can split the percentages evenly between all experiences, or specify higher or lower percentages for each experience. The total for all experiences must equal 100%. 
 
->       If you select ** [!UICONTROL  Auto-allocate to best experience] **, most activity entrants are automatically directed to higher-performing experiences. Some visitors are allocated to all experiences, to maintain exploration of experiences and to recognize changes in performance trends. See [ Automated Traffic Allocation](../../c_activities/automated_traffic_allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4). 
+>       If you select **[!UICONTROL  Auto-allocate to best experience]**, most activity entrants are automatically directed to higher-performing experiences. Some visitors are allocated to all experiences, to maintain exploration of experiences and to recognize changes in performance trends. See [ Automated Traffic Allocation](../../c_activities/automated_traffic_allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4). 
 
->       **First Look: **If you select ** [!UICONTROL  Auto-target to optimize] **, Target uses advanced machine learning algorithms to automatically target visitors with the best experience to maximize your goals. 
+>       **First Look: **If you select **[!UICONTROL  Auto-target to optimize]**, Target uses advanced machine learning algorithms to automatically target visitors with the best experience to maximize your goals. 
 
 
 >       >[!NOTE]
@@ -120,9 +120,9 @@ This video demonstrates how to create an A/B test using the [!DNL  Target] three
 
 >       For more information, see [ Auto-Target to Optimize](../../c_activities/c_auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3). 
 
->       You can also click ** [!UICONTROL  Add Experience] ** to add another experience to the activity. 
->1. When you are satisfied with your audience and experience choices, click ** [!UICONTROL  Next] ** to move to the third step of the three-step guided workflow.
+>       You can also click **[!UICONTROL  Add Experience]** to add another experience to the activity. 
+>1. When you are satisfied with your audience and experience choices, click **[!UICONTROL  Next]** to move to the third step of the three-step guided workflow.
 >1. Specify the [ goals and settings](../../c_activities/t_test_ab/t_test_create_ab/r_ab_goals_and_settings.md#reference_B25389FD6F3A4989801E740364B089CC) for the activity.
 
->       ![](../../assets/ab_settings.png) 
->1. Click ** [!UICONTROL  Save] **.
+>       ![](assets/ab_settings.png) 
+>1. Click **[!UICONTROL  Save]**.

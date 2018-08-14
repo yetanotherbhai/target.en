@@ -6,7 +6,7 @@ seo-title: Use Case  Target Two iPhone Versions
 solution: Target
 title: Use Case  Target Two iPhone Versions
 topic: Premium
-uuid: a2121301-0c31-41b4-8d0b-d7893cecd106
+uuid: cee1b054-e400-408c-a26b-6c9c610b0c0e
 index: y
 internal: n
 snippet: y
@@ -16,7 +16,7 @@ translate: y
 # Use Case: Target Two iPhone Versions
 
 
->1. In Target Standard, click ** [!UICONTROL  Setup] ** > ** [!UICONTROL  Preferences] **.
+>1. In Target Standard, click **[!UICONTROL  Setup]** > **[!UICONTROL  Preferences]**.
 
 >1. In the Mobile Viewport Configuration section of the Preferences page, create mobile viewports for iPhone 6 and iPhone 6 plus.
 
@@ -29,18 +29,18 @@ translate: y
 >       |  iPhone 6  | 375  | 667  | iOS  |
 >       |  iPhone 6 Plus  | 414  | 736  | iOS  |
 
->       ![](../../assets/iphoneviewportconfig.png) 
+>       ![](assets/iphoneviewportconfig.png) 
 >1. Create an activity with the experience you would like to Target.
 >1. Select the experience you want to target to visitors who access your site from an iPhone 6 or iPhone 6 Plus.
 
->1. When selecting your target, click ** [!UICONTROL  Create Audience] **, then configure an audience as shown in the image below:
+>1. When selecting your target, click **[!UICONTROL  Create Audience]**, then configure an audience as shown in the image below:
 
 
 
->       ![](../../assets/iphoneaudiences.png) 
+>       ![](assets/iphoneaudiences.png) 
 
 >       Because the phone could be rotated to landscape, requiring both height and width to be greater than 320 simultaneously creates a condition that only the 6 and 6 Plus would be able to meet, when combined with the iPhone Device Model. 
->1. Click ** [!UICONTROL  Save] **.
+>1. Click **[!UICONTROL  Save]**.
 
 >1. Continue setting up your activity as you normally would.
 

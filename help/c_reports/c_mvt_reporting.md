@@ -5,7 +5,7 @@ seo-description: After running your multivariate test, analyze the results using
 seo-title: Analyze Your Multivariate Test Results
 solution: Target
 title: Analyze Your Multivariate Test Results
-uuid: 09b96db2-33f7-4ed4-a21a-8859f54218ee
+uuid: 46e2124d-e214-463b-b7f7-a3adb641aa18
 index: y
 internal: n
 snippet: y

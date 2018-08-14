@@ -6,7 +6,7 @@ seo-title: Global mbox Frequently Asked Questions
 solution: Target
 title: Global mbox Frequently Asked Questions
 topic: Standard
-uuid: c3667bdb-1fea-4562-b1e9-1a3309e99809
+uuid: 02bdee5c-5613-40f4-8170-3e7a055003c3
 index: y
 internal: n
 snippet: y
@@ -42,11 +42,11 @@ These same parameters must be sent to the target-global-mbox via ` targetPagePar
 
 You'll also want to add targeting to the conversion piece so that Target only counts conversions on the target-global-mbox when the order confirmation page has been viewed, as shown below: 
 
-![](../../../assets/revenue1.png) 
+![](assets/revenue1.png) 
 
 The Site Pages section illustrated above contains the following selections: Current Page, URL, contains, orderconfirm. 
 
-![](../../../assets/revenue2.png) 
+![](assets/revenue2.png) 
 
 The options in the above illustration include the following settings: 
 

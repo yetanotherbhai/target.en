@@ -3,7 +3,7 @@ description: null
 seo-description: null
 seo-title: Release Notes - 2018
 title: Release Notes - 2018
-uuid: 911f807d-e017-4fdb-950e-0f112ef406d0
+uuid: 436dbbae-45c3-4cfb-a896-4d58583c690a
 index: y
 internal: n
 snippet: y
@@ -74,7 +74,7 @@ This release includes the following features and enhancements:
   <!-- <row> <entry colname="col1"> <p>Form-Based Activities </p> </entry> <entry colname="col2"> <p>This release includes a new priority model for activities that use the Form-Based Experience Composer with only a global mbox. Before this release, content from multiple activities was returned to the page and overwrote content from other returned activities. Now, only the top priority activity's content is returned. </p> </entry> </row> --> 
   <tr> 
    <td colname="col1"> <p>Visual Experience Composer (VEC) </p> </td> 
-   <td colname="col2"> <p>When you click an action in the Modifications panel, the VEC automatically scrolls the web page and the corresponding element is highlighted. You no longer need to manually scroll down to find the HTML element that was affected by the modification. </p> <p style="text-align: center;"> <img href="../assets/modifications_panel.png" id="image_6E01280636E34ADDA9527AD18A34310B" /> </p> <p>(TGT-30441) </p> </td> 
+   <td colname="col2"> <p>When you click an action in the Modifications panel, the VEC automatically scrolls the web page and the corresponding element is highlighted. You no longer need to manually scroll down to find the HTML element that was affected by the modification. </p> <p style="text-align: center;"> <img href="assets/modifications_panel.png" id="image_6E01280636E34ADDA9527AD18A34310B" /> </p> <p>(TGT-30441) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Supported browsers </p> </td> 

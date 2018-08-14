@@ -6,7 +6,7 @@ seo-title: Working with Content in the Library
 solution: Target
 title: Working with Content in the Library
 topic: Premium
-uuid: 6d17e5ca-2ab7-4800-b224-d2d3b88d07c5
+uuid: 834195fe-d757-4378-93a7-a093148d5605
 index: y
 internal: n
 snippet: y
@@ -41,7 +41,7 @@ This video includes information about managing content.
 </table>
 
 
->1. Click ** [!UICONTROL  Offer] **, select the ** [!UICONTROL  Code Offer] ** or ** [!UICONTROL  Image Offer] ** tab, then locate the asset you want to work with.
+>1. Click **[!UICONTROL  Offer]**, select the **[!UICONTROL  Code Offer]** or **[!UICONTROL  Image Offer]** tab, then locate the asset you want to work with.
 >   For more information about searching the Offer library and creating Smart Collections, see [ Filter and Search Content](../c_manage_content/c_filter-and-search-content.md#concept_3B59B8F025BF4CEA82ECC5199D365276). 
 >
 >1. Hover over the item you want to work with, then select an action.
@@ -96,5 +96,5 @@ This video includes information about managing content.
  </tbody> 
 </table>
 
->1. To change the image that represents an item in the library, click the item, then click the ** [!UICONTROL  Properties] ** icon, click ** [!UICONTROL  Edit] **, and then add an image.
+>1. To change the image that represents an item in the library, click the item, then click the **[!UICONTROL  Properties]** icon, click **[!UICONTROL  Edit]**, and then add an image.
 

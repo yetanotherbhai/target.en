@@ -7,8 +7,8 @@ solution: Target
 title: Recommendations FAQ
 title_outputclass: premium
 topic: Premium
-uuid: 3f29d137-1797-4f79-830b-f19725760edc
-badge: assets/premium.png
+uuid: 2046e8dd-2c88-4676-8159-b8b108f71e14
+badge: premium
 index: y
 internal: n
 snippet: y
@@ -72,7 +72,7 @@ Target has a [ Filter Incompatible Criteria ](../c_recommendations/c_plan_implem
 
 To access the [!UICONTROL  Filter Incompatible Criteria] setting, click [!UICONTROL  Recommendations] > [!UICONTROL  Settings]: 
 
-![](../assets/recs_settings_filter.png) 
+![](assets/recs_settings_filter.png) 
 
 If the [!UICONTROL  Filter Incompatible Criteria] setting is NOT enabled, Target does not filter algorithms in the Algorithm Picker and all algorithms are displayed. 
 
@@ -80,7 +80,7 @@ If the [!UICONTROL  Filter Incompatible Criteria] setting is enabled, in VEC act
 
 If the [!UICONTROL  Filter Incompatible Criteria] setting is enabled, you can still view non-compatible algorithms by deselecting the [!UICONTROL  Compatible] checkbox while selecting criteria. 
 
-![](../assets/compatible_checkbox.png) 
+![](assets/compatible_checkbox.png) 
 
 The following list contains special cases in which Target does not display the [!UICONTROL  Compatible] checkbox: 
 
@@ -104,7 +104,7 @@ Consider the following information if you see a collection go to zero that previ
 
 * Are you looking at the right environment? Go to [!DNL  /target/products.html#recsSettings] to double check (as shown below). 
 
-  ![](../assets/product_catalog.png) 
+  ![](assets/product_catalog.png) 
 
 * Is your index up to date? Go t o [!DNL  /target/products.html#productSearch] and check how many hours old the index is (for example, “Indexed 3 hour(s) ago”). You can refresh the index as needed. 
 
@@ -122,7 +122,7 @@ Attribute weighting exists in two forms: "standard attribute weighting" and "con
 
 "Standard attribute weighting" applies to most, if not all, criteria types (not just Content Similarity).This type of weighting gives more weight to certain attribute values. In the following example, Nike products will get a bump in the output recommendations. 
 
-![](../assets/attribute_weighting_example.png) 
+![](assets/attribute_weighting_example.png) 
 
 
 
@@ -130,7 +130,7 @@ Attribute weighting exists in two forms: "standard attribute weighting" and "con
 
 This type of weighting is more dynamic, and is based on the current “recommendation key” (the currently viewed item). In the following example (brand x 16), if a visitor were viewing Nike sneakers, that visitor is more likely to be recommended other Nike products (not necessarily only sneakers) rather than competitors’ sneakers. If a visitor were viewing Adidas sneakers, he or she is more likely to be recommended Adidas products. 
 
-![](../assets/content_similarity_example.png) 
+![](assets/content_similarity_example.png) 
 
 ## Why is Target sometimes unable to show recommendations? {#section_DB3F40673AED42228E407C05437D99E9}
 

@@ -6,7 +6,7 @@ seo-title: Training Videos for Adobe Target Standard and Premium
 solution: Target
 title: Training Videos for Adobe Target Standard and Premium
 topic: Advanced
-uuid: 778e56ee-4f42-4832-b3f9-b3595105191e
+uuid: fa0a4ed4-1767-4945-be12-f99b4a254478
 index: y
 internal: n
 snippet: y
@@ -43,14 +43,14 @@ Training videos are embedded inside relevant topics in this guide. Click the vid
 
 Video introductions to [!DNL  Target] concepts and tools are available on the [ Adobe YouTube channel](https://www.youtube.com/channel/UC75Ir2u14wz-0IKWH-RkWAA/playlists). 
 
-![](../assets/youtube.png) 
+![](assets/youtube.png) 
 
 ## Adobe Video Training Resource {#section_72038F5E77BE48C183DEB4DDE709B0DC}
 
 Video introductions to [!DNL  Target] concepts and tools are available on Adobe's [ video learning resource](http://www.adobe.com/training/video.html). 
 
-![](../assets/menu-training-vids.png) 
+![](assets/menu-training-vids.png) 
 
-To see more videos and premium content, scroll down and click ** [!UICONTROL  Explore Now] **. 
+To see more videos and premium content, scroll down and click **[!UICONTROL  Explore Now]**. 
 
-![](../assets/explore_now.png) 
+![](assets/explore_now.png) 

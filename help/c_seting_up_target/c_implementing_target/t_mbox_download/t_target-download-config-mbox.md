@@ -7,7 +7,7 @@ solution: Target
 subtopic: Getting Started
 title: Download mbox.js
 topic: Standard
-uuid: 448eda9f-7601-4f58-a154-19d574369da1
+uuid: 662234cd-1096-4a4e-a375-71801acd5d72
 index: y
 internal: n
 snippet: y
@@ -44,8 +44,8 @@ This video explains how to implement [!DNL  mbox.js].
 
 To use the [!DNL  Adobe Target] [!UICONTROL  Visual Experience Editor], you must include an additional line of JavaScript as part of your [!DNL  mbox.js] file. 
 
->1. Click ** [!UICONTROL  Setup] ** > ** [!UICONTROL  Implementation] ** in [!DNL  Target Standard].
->1. Click ** [!UICONTROL  Download mbox.js] ** and follow the prompts to save the file.
+>1. Click **[!UICONTROL  Setup]** > **[!UICONTROL  Implementation]** in [!DNL  Target Standard].
+>1. Click **[!UICONTROL  Download mbox.js]** and follow the prompts to save the file.
 >1. (Conditional) If you use [!DNL  mbox.js] version 60 or later, you can configure the library to automatically hide page content by default until mboxes load to reduce flicker on responsive sites.
 >   For more information, see "Suppress page-load flicker" in [ mbox.js Advanced Settings ](../../../c_seting_up_target/c_implementing_target/t_mbox_download/r_advanced_mboxjs_settings.md#reference_A9C8DAC6DF7743EDBCF1D71F8F20843C). 
 >

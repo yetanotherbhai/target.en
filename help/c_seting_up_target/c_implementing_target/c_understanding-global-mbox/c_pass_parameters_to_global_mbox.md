@@ -7,7 +7,7 @@ solution: Target
 subtopic: Getting Started
 title: Passing Parameters to a Global mbox
 topic: Standard
-uuid: fd0226f9-18bd-412d-8cc3-3b37a39e0a23
+uuid: 0375afc0-d710-452b-89c3-1c7c42cf751e
 index: y
 internal: n
 snippet: y

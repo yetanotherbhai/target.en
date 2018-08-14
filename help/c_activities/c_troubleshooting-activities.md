@@ -6,7 +6,7 @@ seo-title: Troubleshooting Activities
 solution: Target
 title: Troubleshooting Activities
 topic: Advanced,Standard,Classic
-uuid: 8d387d53-4b26-45ef-8e31-26d4946a925a
+uuid: 2c02d9b6-0164-44ff-9857-b50cbbfb2fd0
 index: y
 internal: n
 snippet: y

@@ -6,7 +6,7 @@ seo-title: Android - Setting Up the Mobile App
 solution: Target
 title: Android - Setting Up the Mobile App
 topic: Standard
-uuid: 7c63c765-6248-475b-9f96-5f53c607f5cc
+uuid: 5a92eb96-8ebd-4c2e-a617-fad8e5be941f
 index: y
 internal: n
 snippet: y
@@ -38,21 +38,21 @@ This section contains the following information:
 
 1. In Android Studio, follow the directions to add the [!DNL  .AAR] file in the [!DNL  android-lib] subdirectory: [ https://stackoverflow.com/questions/16682847/how-to-manually-include-external-aar-package-using-new-gradle-android-build-syst ](https://stackoverflow.com/questions/16682847/how-to-manually-include-external-aar-package-using-new-gradle-android-build-syst). (Shortened directions for Android Studios are added below for completeness.) 
 
-    1. Click ** [!UICONTROL  File] ** > ** [!UICONTROL  New] ** > ** [!UICONTROL  New Module] **. 
+    1. Click **[!UICONTROL  File]** > **[!UICONTROL  New]** > **[!UICONTROL  New Module]**. 
 
-    1. Select ** [!UICONTROL  Import .JAR/.AAR Package] **, then click ** [!UICONTROL  Next] **. 
+    1. Select **[!UICONTROL  Import .JAR/.AAR Package]**, then click **[!UICONTROL  Next]**. 
 
-    1. Specify the path to the [!DNL  .AAR] file, then click ** [!UICONTROL  Finish] **. 
+    1. Specify the path to the [!DNL  .AAR] file, then click **[!UICONTROL  Finish]**. 
 
-    1. Click ** [!UICONTROL  File] ** > ** [!UICONTROL  Project Structure] ** (Ctrl+Shift+Alt+S). 
+    1. Click **[!UICONTROL  File]** > **[!UICONTROL  Project Structure]** (Ctrl+Shift+Alt+S). 
 
-    1. Under ** [!UICONTROL  Modules] ** in left menu, select ** [!UICONTROL  app] **. 
+    1. Under **[!UICONTROL  Modules]** in left menu, select **[!UICONTROL  app]**. 
 
-    1. Click the ** [!UICONTROL  Dependencies] ** tab. 
+    1. Click the **[!UICONTROL  Dependencies]** tab. 
 
     1. Click the green "+" in the upper right corner. 
 
-    1. Select ** [!UICONTROL  Module Dependency] **. 
+    1. Select **[!UICONTROL  Module Dependency]**. 
 
     1. Select the new module from the list. 
 

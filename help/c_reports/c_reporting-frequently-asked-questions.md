@@ -6,7 +6,7 @@ seo-title: Reporting Frequently Asked Questions
 solution: Target
 title: Reporting Frequently Asked Questions
 topic: Standard
-uuid: 5c37faf1-f4ab-49ac-a7d4-6b9476b93456
+uuid: 006bb6a2-8bfe-4cca-bcf5-00e0f07af905
 index: y
 internal: n
 snippet: y
@@ -42,23 +42,23 @@ If you have a development environment selected, you might see the following erro
 To change the environment for an activity's report: 
 
 
-1. Click ** [!UICONTROL  Activities] **, click the desired activity from the list, then click the ** [!UICONTROL  Reports] ** tab. 
+1. Click **[!UICONTROL  Activities]**, click the desired activity from the list, then click the **[!UICONTROL  Reports]** tab. 
 
-1. Click the [!UICONTROL  Settings] icon (  ![](../assets/icon_gear.png) ) to configure report settings. 
+1. Click the [!UICONTROL  Settings] icon (  ![](assets/icon_gear.png) ) to configure report settings. 
 
-   ![](../assets/ab_settings_dialog.png) 
+   ![](assets/ab_settings_dialog.png) 
 
 
    >[!NOTE]
    >
-   >The Settings icon ( ![](../assets/icon_gear.png) ) is not available for Automated Personalization reports. 
+   >The Settings icon ( ![](assets/icon_gear.png) ) is not available for Automated Personalization reports. 
 
 
-1. From the ** [!UICONTROL  Environment] ** drop-down list, select ** [!UICONTROL  Production] **. 
+1. From the **[!UICONTROL  Environment]** drop-down list, select **[!UICONTROL  Production]**. 
 
    Report data might not be available if you have a development environment selected. 
 
-1. Click ** [!UICONTROL  Save Settings] **. 
+1. Click **[!UICONTROL  Save Settings]**. 
 
 
 

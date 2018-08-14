@@ -3,7 +3,7 @@ description: null
 seo-description: null
 seo-title: 2014 Releases
 title: 2014 Releases
-uuid: 4b8b4ce2-2242-444d-a797-e3bd135fa59a
+uuid: 496b5e30-6a20-4159-9811-4f94791f2064
 index: y
 internal: n
 snippet: y
@@ -43,7 +43,7 @@ This release includes the following features and enhancements:
 
 |  Feature/Enhancement  | Description  |
 |---|---|
-|   | Added the ability to edit and inject custom JavaScript in the experience editor when you choose ** [!UICONTROL  Edit HTML] ** from the actions menu.  |
+|   | Added the ability to edit and inject custom JavaScript in the experience editor when you choose **[!UICONTROL  Edit HTML]** from the actions menu.  |
 |   | Audiences are automatically imported in the background when a user opens the audience list and the imported audiences are more than 10 minutes old.  |
 |  Increased size of HTML offers than can be synced to [!DNL  Target Classic]  | Increased the former 64KB limit to 256KB.  |
 
@@ -68,7 +68,7 @@ This release includes the following new features and enhancements:
 **Fixes** 
 
 *
-* Fixed a problem where selected links were not marked as selected when users clicked ** [!UICONTROL  Select Link] ** on the [!UICONTROL  Goals and Settings] page.
+* Fixed a problem where selected links were not marked as selected when users clicked **[!UICONTROL  Select Link]** on the [!UICONTROL  Goals and Settings] page.
 * Fixed an error that prevented a new activity from appearing in the [!UICONTROL  Activity List] after being activated on the [!UICONTROL  Overview] page.
 *
 *
@@ -333,7 +333,7 @@ This release includes the following known issues. These issues will be fixed in 
 *
 *
 *
-* Users cannot select the ** [!UICONTROL  Remove] ** action for content that is wrapped in an mbox.
+* Users cannot select the **[!UICONTROL  Remove]** action for content that is wrapped in an mbox.
 
 
 ## Adobe Target Standard 1.2 (Oct. 31, 2013) {#section_420B5E910D7341AA8DB059C8E1071D53}
@@ -370,7 +370,7 @@ This release includes the following feature:
 
 |  Feature  | Description  |
 |---|---|
-|  [!DNL  mbox.js] download from within Target Standard  | The [!DNL  mbox.js] file can now be downloaded directly from ** [!UICONTROL  Setup] ** > ** [!UICONTROL  Implementation] ** in the Target Standard interface. Previously, the file had to be downloaded from within Target Advanced or be supplied by your account representative or consultant.  |
+|  [!DNL  mbox.js] download from within Target Standard  | The [!DNL  mbox.js] file can now be downloaded directly from **[!UICONTROL  Setup]** > **[!UICONTROL  Implementation]** in the Target Standard interface. Previously, the file had to be downloaded from within Target Advanced or be supplied by your account representative or consultant.  |
 
 This release includes the following fixes and enhancements: 
 

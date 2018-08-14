@@ -5,7 +5,7 @@ seo-description: You can add start/end dates and times to target users who visit
 seo-title: Time Frame
 solution: Target
 title: Time Frame
-uuid: 01fddb4a-e5a8-47ed-b89e-2dec788e9437
+uuid: 8a6e7bdc-f148-4bc2-a583-7ff3a3483c46
 index: y
 internal: n
 snippet: y
@@ -17,13 +17,13 @@ translate: y
 For example, using the [ combined, ad-hoc audiences feature](../../../c_target/c_audiences/c_combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5), you can target low-spenders with specific content during the three days leading up to Black Friday and other content after Black Friday. 
 
 
-1. In the [!DNL  Target] interface, click ** [!UICONTROL  Audiences] ** > ** [!UICONTROL  Create Audience] **. 
+1. In the [!DNL  Target] interface, click **[!UICONTROL  Audiences]** > **[!UICONTROL  Create Audience]**. 
 
 1. Name the audience. 
 
-1. Click ** [!UICONTROL  Add Rule] ** > ** [!UICONTROL  Time Frame] **. 
+1. Click **[!UICONTROL  Add Rule]** > **[!UICONTROL  Time Frame]**. 
 
-   ![](../../../assets/target_timeframe_dialog.png) 
+   ![](assets/target_timeframe_dialog.png) 
 
 1. Specify the Start and End dates and times for the audience. 
 
@@ -37,19 +37,19 @@ For example, using the [ combined, ad-hoc audiences feature](../../../c_target/c
    >Time zone is displayed as GMT +/- NN:NN, where NN:NN is the offset from GMT and reflects the account-level time zone rather than the visitor's time zone. For example, California's time zone would be displayed as GMT +08:00.
 
 
-1. (Conditional) Click ** [!UICONTROL  Week and Day Parting] ** to set recurring patterns, including days of the weeks and times. 
+1. (Conditional) Click **[!UICONTROL  Week and Day Parting]** to set recurring patterns, including days of the weeks and times. 
 
-   ![](../../../assets/week_and_day_parting.png) 
+   ![](assets/week_and_day_parting.png) 
 
    You could use Week and Day Parting options, for example, to display a "Chat Now" option to visitors only during the days and hours that your call center is staffed. 
 
    Select one or more days of the week, then set the start and end times. Click [!UICONTROL  Add More]to specify additional patterns, as desired. 
 
-1. (Optional) Click ** [!UICONTROL  Add Rule] ** and set up additional rules for the audience. 
+1. (Optional) Click **[!UICONTROL  Add Rule]** and set up additional rules for the audience. 
 
    Note that you can repeat Step 5 for each rule, if desired. 
 
-1. Click ** [!UICONTROL  Save] **. 
+1. Click **[!UICONTROL  Save]**. 
 
 
 

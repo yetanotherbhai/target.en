@@ -6,7 +6,7 @@ seo-title: Activity QA
 solution: Target
 title: Activity QA
 topic: Advanced,Standard,Classic
-uuid: 2a101837-0daa-4d6e-9357-de5ee6949765
+uuid: 05313eae-1c5a-429c-815f-c8139a71a83c
 index: y
 internal: n
 snippet: y
@@ -49,13 +49,13 @@ Activity QA lets you fully test your Target activities prior to launching them l
 ## Accessing and Sharing a QA URL {#section_1C59BAA247B247BDB125D1BE8EAD4547}
 
 
-1. From an activity's [!UICONTROL  Overview] page (all types except Automated Personalization), click the ** [!UICONTROL  Activity QA] ** link. 
+1. From an activity's [!UICONTROL  Overview] page (all types except Automated Personalization), click the **[!UICONTROL  Activity QA]** link. 
 
-   ![](../assets/qa_link.png) 
+   ![](assets/qa_link.png) 
 
 1. Configure the following settings: 
 
-   ![](../assets/qa_link_config.png) 
+   ![](assets/qa_link_config.png) 
 
 
     * **Match Audience Rules to See Experiences: **Sometimes you want to confirm that your audience matching works. Other times you just want to check the look and feel of the activity. If this setting is toggled to the "on" position, testers must meet targeting requirements to qualify to see the experiences. For Experience Targeting (XT) activities, a single activity URL is provided. The experience you see is determined by you qualifying for one of the targeting rules. 
@@ -75,7 +75,7 @@ Activity QA lets you fully test your Target activities prior to launching them l
 
 
 
-1. Click ** [!UICONTROL  Done] ** to save your changes. 
+1. Click **[!UICONTROL  Done]** to save your changes. 
 
 1. Share the Activity Link URLs with members of your organization for testing. 
 
@@ -83,7 +83,7 @@ Activity QA lets you fully test your Target activities prior to launching them l
 
    Each Activity Link URL (for Exp A, Exp B, etc.) lets you start the user journey from the corresponding experience. You can click the URL generated for an experience and then proceed with normal site browsing to see experiences on multiple pages (if multiple pages exist). Only one URL is generated per experience, even if the experience spans multiple pages (template testing or multi-page testing). You can navigate the site to see the other pages because the Activity QA is sticky. 
 
-1. To see reports generated from Activity Link URLs, click the activity's ** [!UICONTROL  Reports] ** page, click the ** [!UICONTROL  Settings] ** icon (  ![](../assets/icon_gear.png) ), then select ** [!UICONTROL  QA Mode] ** from the ** [!UICONTROL  Environment] ** drop-down list. 
+1. To see reports generated from Activity Link URLs, click the activity's **[!UICONTROL  Reports]** page, click the **[!UICONTROL  Settings]** icon (  ![](assets/icon_gear.png) ), then select **[!UICONTROL  QA Mode]** from the **[!UICONTROL  Environment]** drop-down list. 
 
 
 

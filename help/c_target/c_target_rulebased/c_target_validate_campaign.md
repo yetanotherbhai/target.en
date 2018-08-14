@@ -5,7 +5,7 @@ seo-description: After you create a targeted campaign, you should verify that it
 seo-title: Validating a Targeted Campaign
 solution: Target
 title: Validating a Targeted Campaign
-uuid: 50fa3a41-ff79-40e3-b636-b53097030711
+uuid: f25bce3f-d6d7-460b-a6ee-b036a746fec5
 index: y
 internal: n
 snippet: y

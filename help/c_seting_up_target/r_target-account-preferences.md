@@ -7,7 +7,7 @@ solution: Target
 subtopic: Getting Started
 title: Preferences
 topic: Standard
-uuid: e80880a0-602f-4181-ba52-3f7781a6e00a
+uuid: f5c34bde-5d71-4228-a105-8a871b8058df
 index: y
 internal: n
 snippet: y
@@ -40,11 +40,11 @@ translate: y
  </tbody> 
 </table>
 
->To set your account preferences, click ** [!UICONTROL  Setup] ** > ** [!UICONTROL  Preferences] **, configure your preferences as desired, then click ** [!UICONTROL  Submit] **. 
+>To set your account preferences, click **[!UICONTROL  Setup]** > **[!UICONTROL  Preferences]**, configure your preferences as desired, then click **[!UICONTROL  Submit]**. 
 
 >The following illustration shows the available settings on the [!UICONTROL  Account Preferences] page. 
 
->![](../assets/preferences.png) 
+>![](assets/preferences.png) 
 
 >The following sections contain more information. Note that some of these preferences are available only if you have [!DNL  Target Premium]. 
 

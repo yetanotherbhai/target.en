@@ -6,7 +6,7 @@ seo-title: mbox.js Frequently Asked Questions
 solution: Target
 subtopic: Getting Started
 title: mbox.js Frequently Asked Questions
-uuid: ee59efd4-d7e4-4aa9-83f4-4befeedab12a
+uuid: c57ebdaa-1f06-4889-a9d4-2ef99fb56472
 index: y
 internal: n
 snippet: y

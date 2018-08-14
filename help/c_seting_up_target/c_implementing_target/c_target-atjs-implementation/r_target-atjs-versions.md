@@ -6,7 +6,7 @@ seo-title: at.js Version Details
 solution: Target
 subtopic: Getting Started
 title: at.js Version Details
-uuid: c972a202-6baa-4567-b33c-a5325ff9f007
+uuid: c86163dd-03ec-4bf8-b359-46ea4355360d
 index: y
 internal: n
 snippet: y

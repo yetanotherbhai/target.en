@@ -6,7 +6,7 @@ seo-title: Targets and Audiences Frequently Asked Questions
 solution: Target
 title: Targets and Audiences Frequently Asked Questions
 topic: Standard
-uuid: 629c735a-5996-4806-b4e0-7bd404e02c22
+uuid: 72a0a378-f1f0-432e-922a-e617d28d0b65
 index: y
 internal: n
 snippet: y
@@ -52,7 +52,7 @@ The user qualifies for the first experience/audience that displays on the activi
 
 For example, in the following illustration, a user from California using a Windows device qualifies for both Experience A (Windows audience) and Experience C (California audience). This user would be shown Experience A because it displays in the list above Experience C on the Targets page. 
 
-![](../assets/audiences_order.png) 
+![](assets/audiences_order.png) 
 
 ## Why do names for the same audience in Target , Adobe Audience Manager (AAM), and the Audience Library in core services differ? {#section_F67E61A607B6444C8DAA4F99C3E95AED}
 

@@ -6,7 +6,7 @@ seo-title: Manage Hosts and Environments
 solution: Target
 title: Manage Hosts and Environments
 topic: Standard
-uuid: 07a3892e-33bb-4009-811e-9aabc0950a56
+uuid: 218536e3-0a62-48a7-94ba-2316eeb2c3d5
 index: y
 internal: n
 snippet: y
@@ -15,9 +15,9 @@ translate: y
 
 # Manage Hosts and Environments
 
-To access the [!UICONTROL  Hosts] list, click ** [!UICONTROL  Setup] ** > ** [!UICONTROL  Hosts] **. 
+To access the [!UICONTROL  Hosts] list, click **[!UICONTROL  Setup]** > **[!UICONTROL  Hosts]**. 
 
-![](../../assets/hosts_list.png) 
+![](assets/hosts_list.png) 
 
 This section contains the following information: 
 
@@ -35,7 +35,7 @@ This section contains the following information:
 
 ## Filter, Sort, or Search the Hosts List {#section_068B23C9D8224EB78BC3B7C8580251B0}
 
-To filter the [!UICONTROL  Hosts] lists by environment, click the ** [!UICONTROL  All] ** drop-down list, then select the desired environment (Production, Staging, Development, or a custom environment you have created). 
+To filter the [!UICONTROL  Hosts] lists by environment, click the **[!UICONTROL  All]** drop-down list, then select the desired environment (Production, Staging, Development, or a custom environment you have created). 
 
 To sort the [!UICONTROL  Hosts] list, click any column header (Name, Environment, or Last Requested) to sort the list in ascending or descending order. 
 
@@ -48,15 +48,15 @@ To select multiple hosts, select the check boxes next to the [!UICONTROL  Name] 
 ## Create an Environment {#section_32097D0993724DF3A202D164D3F18674}
 
 
-1. From the [!UICONTROL  Hosts] list, click the ** [!UICONTROL  Environments] ** tab. 
+1. From the [!UICONTROL  Hosts] list, click the **[!UICONTROL  Environments]** tab. 
 
-1. Click ** [!UICONTROL  Create Environment] **. 
+1. Click **[!UICONTROL  Create Environment]**. 
 
 1. Specify a descriptive name for the environment. 
 
 1. Specify the desired active mode for the environment: [!UICONTROL  Active Activities] or [!UICONTROL  Active and Inactive Activities]. 
 
-1. Click ** [!UICONTROL  Save] **. 
+1. Click **[!UICONTROL  Save]**. 
 
 
 
@@ -69,11 +69,11 @@ If you use Production as your default, all unknown hosts automatically are added
 To set the default environment for reporting: 
 
 
-1. From the [!UICONTROL  Hosts] list, click the ** [!UICONTROL  Settings] ** tab. 
+1. From the [!UICONTROL  Hosts] list, click the **[!UICONTROL  Settings]** tab. 
 
-1. Select the default host from the ** [!UICONTROL  Environment Settings] ** drop-down list. 
+1. Select the default host from the **[!UICONTROL  Environment Settings]** drop-down list. 
 
-1. Click ** [!UICONTROL  Save] **. 
+1. Click **[!UICONTROL  Save]**. 
 
 
 
@@ -91,15 +91,15 @@ You can create a whitelist that specifies hosts (domains) that are authorized to
 To create a whitelist: 
 
 
-1. From the [!UICONTROL  Hosts] list, click the ** [!UICONTROL  Settings] ** tab. 
+1. From the [!UICONTROL  Hosts] list, click the **[!UICONTROL  Settings]** tab. 
 
-1. Select ** [!UICONTROL  Enable Authorized Hosts for Content Delivery] ** checkbox. 
+1. Select **[!UICONTROL  Enable Authorized Hosts for Content Delivery]** checkbox. 
 
-1. Add the desired hosts in the ** [!UICONTROL  Host Contains] ** box, as desired. 
+1. Add the desired hosts in the **[!UICONTROL  Host Contains]** box, as desired. 
 
    Multiple hosts can be listed, each on its own line. 
 
-1. Click ** [!UICONTROL  Save] **. 
+1. Click **[!UICONTROL  Save]**. 
 
 
 
@@ -116,13 +116,13 @@ You can also create a blacklist that specifies hosts (domains) than cannot send 
 ## Change the Name of an Environment {#section_9F5F94285F8E495E9CE69810CE94CA08}
 
 
-1. From the [!UICONTROL  Hosts] list, click the ** [!UICONTROL  Environments] ** tab. 
+1. From the [!UICONTROL  Hosts] list, click the **[!UICONTROL  Environments]** tab. 
 
-1. Hover over the desired environment, then click the ** [!UICONTROL  Edit] ** icon (  ![](../../assets/icon_edit.png) ). 
+1. Hover over the desired environment, then click the **[!UICONTROL  Edit]** icon (  ![](assets/icon_edit.png) ). 
 
 1. Change the environment name. 
 
-1. Click ** [!UICONTROL  Save] **. 
+1. Click **[!UICONTROL  Save]**. 
 
 
 
@@ -131,7 +131,7 @@ You can also create a blacklist that specifies hosts (domains) than cannot send 
 
 1. From the [!UICONTROL  Hosts] list, hover over the host you want to move. 
 
-1. Click the ** [!UICONTROL  Move] ** icon (  ![](../../assets/icon_move.png) ). 
+1. Click the **[!UICONTROL  Move]** icon (  ![](assets/icon_move.png) ). 
 
 1. Select the desired environment from the drop-down list, then click the check mark icon. 
 
@@ -144,9 +144,9 @@ You can delete a host when it is no longer needed.
 
 1. From the [!UICONTROL  Hosts] list, hover over the host you want to delete. 
 
-1. Click the ** [!UICONTROL  Delete] ** icon (  ![](../../assets/icon_delete.png) ). 
+1. Click the **[!UICONTROL  Delete]** icon (  ![](assets/icon_delete.png) ). 
 
-1. Click ** [!UICONTROL  Delete] ** to confirm the deletion. 
+1. Click **[!UICONTROL  Delete]** to confirm the deletion. 
 
 
 
@@ -162,13 +162,13 @@ You can delete a host when it is no longer needed.
 You can delete an environment when it is no longer needed. 
 
 
-1. From the [!UICONTROL  Hosts] list, click the ** [!UICONTROL  Environments] ** tab. 
+1. From the [!UICONTROL  Hosts] list, click the **[!UICONTROL  Environments]** tab. 
 
 1. Hover over the environment you want to delete. 
 
-1. Click the ** [!UICONTROL  Delete] ** icon (  ![](../../assets/icon_delete.png) ). 
+1. Click the **[!UICONTROL  Delete]** icon (  ![](assets/icon_delete.png) ). 
 
-1. Click ** [!UICONTROL  Delete] ** to confirm the deletion. 
+1. Click **[!UICONTROL  Delete]** to confirm the deletion. 
 
 
 

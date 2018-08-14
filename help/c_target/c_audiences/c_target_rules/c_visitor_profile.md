@@ -6,7 +6,7 @@ seo-title: Visitor Profile
 solution: Target
 title: Visitor Profile
 topic: Premium
-uuid: 89817520-435e-40a4-96d5-e076bf4d2bd8
+uuid: 8f482826-bbba-4058-a639-547104cb8482
 index: y
 internal: n
 snippet: y
@@ -16,15 +16,15 @@ translate: y
 # Visitor Profile
 
 
-1. In the [!DNL  Target] interface, click ** [!UICONTROL  Audiences] ** > ** [!UICONTROL  Create Audience] **. 
+1. In the [!DNL  Target] interface, click **[!UICONTROL  Audiences]** > **[!UICONTROL  Create Audience]**. 
 
 1. Name the audience. 
 
-1. Click ** [!UICONTROL  Add Rule] ** > ** [!UICONTROL  Visitor Profile] **. 
+1. Click **[!UICONTROL  Add Rule]** > **[!UICONTROL  Visitor Profile]**. 
 
-   ![](../../../assets/target_visitor_profile.png) 
+   ![](assets/target_visitor_profile.png) 
 
-1. Click ** [!UICONTROL  Select] **, then select one of the following options: 
+1. Click **[!UICONTROL  Select]**, then select one of the following options: 
 
    Visitor profile parameters are passed via the mbox (profile). You can target either new or returning visitors, or include all users. 
 
@@ -42,9 +42,9 @@ translate: y
 
    You can target custom profile parameters and ` user.` parameters. Choose the parameter you use want to use to target your activity. If the desired parameter does not appear, the parameter has not been fired by an mbox. 
 
-1. (Optional) Click ** [!UICONTROL  Add Rule] ** and set up additional rules for the audience. 
+1. (Optional) Click **[!UICONTROL  Add Rule]** and set up additional rules for the audience. 
 
-1. Click ** [!UICONTROL  Save] **. 
+1. Click **[!UICONTROL  Save]**. 
 
 
 

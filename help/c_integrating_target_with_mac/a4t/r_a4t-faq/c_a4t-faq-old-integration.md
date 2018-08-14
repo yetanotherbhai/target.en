@@ -6,7 +6,7 @@ seo-title: Legacy SiteCatalyst to Test&Target Integration - A4T FAQ
 solution: Target
 title: Legacy SiteCatalyst to Test&Target Integration - A4T FAQ
 topic: Standard
-uuid: 63520b2c-f65b-4ad1-bcf9-aca0a90067e2
+uuid: f4e36d62-3d83-4001-acf5-5f221a0362c2
 index: y
 internal: n
 snippet: y

@@ -5,7 +5,7 @@ seo-title: Contacting Adobe
 solution: Target
 title: Contacting Adobe
 topic: Advanced
-uuid: 0de385f0-e2ea-48c4-94cd-eee7d8cc2798
+uuid: 39134e36-2f12-4649-bb63-cd228072099c
 index: y
 internal: n
 snippet: y

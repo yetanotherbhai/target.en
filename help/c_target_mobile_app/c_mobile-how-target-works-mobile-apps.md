@@ -3,7 +3,7 @@ description: The Adobe Mobile SDK contacts the Target server to get the content 
 seo-description: The Adobe Mobile SDK contacts the Target server to get the content along with other data points to show the right experience to the user.
 seo-title: How Target Works in Mobile Apps
 title: How Target Works in Mobile Apps
-uuid: 47e317f5-6903-419e-94ef-f55918a496b7
+uuid: 44f0081d-9397-4e27-a5eb-e562b4137107
 index: y
 internal: n
 snippet: y
@@ -19,7 +19,7 @@ A *target location* is also referred to as an [ mbox](../c_intro/c_target_concep
 
 A *[ success metric](../r_success_metrics.md#reference_D011575C85DA48E989A244593D9B9924)* is an action performed by the user that identifies if a specific activity was successful (such as signing up, making a purchase, booking a ticket, and so on). 
 
-![](../assets/mobile-target-location.png) 
+![](assets/mobile-target-location.png) 
 
 
 * **Target Location:** The content that shows below the register button. This particular user is offered free shipping until 6 PM. This location can be reused across multiple Target activities to run A/B tests and personalization. 
@@ -29,4 +29,4 @@ A *[ success metric](../r_success_metrics.md#reference_D011575C85DA48E989A244593
 
 **Understand How Target Works in the SDK** 
 
-![](../assets/how-target-mobile-works.png) 
+![](assets/how-target-mobile-works.png) 

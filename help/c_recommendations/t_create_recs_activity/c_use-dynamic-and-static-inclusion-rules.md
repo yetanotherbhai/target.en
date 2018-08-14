@@ -7,8 +7,8 @@ solution: Target
 title: Use Dynamic and Static Inclusion Rules
 title_outputclass: premium
 topic: Premium
-uuid: 73ae5030-2345-4a91-af39-eddc2e0db298
-badge: assets/premium.png
+uuid: f9c97239-8a10-48c3-b84e-4cf08c373757
+badge: premium
 index: y
 internal: n
 snippet: y
@@ -32,17 +32,17 @@ This section contains the following information:
 
 ## Adding Filtering Rules to Criteria {#section_CD0D74B8D3BE4A75A78C36CF24A8C57F}
 
-While you are [ creating criteria ](../../c_recommendations/c_algorithms/t_create_new_algorithm.md#task_8A9CB465F28D44899F69F38AD27352FE), click ** [!UICONTROL  Add Filtering Rule] ** under ** [!UICONTROL  Inclusion Rules] **. 
+While you are [ creating criteria ](../../c_recommendations/c_algorithms/t_create_new_algorithm.md#task_8A9CB465F28D44899F69F38AD27352FE), click **[!UICONTROL  Add Filtering Rule]** under **[!UICONTROL  Inclusion Rules]**. 
 
-![](../../assets/inclusion_options.png) 
+![](assets/inclusion_options.png) 
 
 The available options vary depending on the selected industry vertical and recommendation key. 
 
 ## Adding Filtering Rules to Promotions {#section_D59AFB62E2EE423086281CF5D18B1076}
 
-While [ creating a promotion ](../../c_recommendations/t_create_recs_activity/t_adding_promotions.md#task_CC5BD28C364742218C1ACAF0D45E0E14), select ** [!UICONTROL  Promote by Attribute] **, then click ** [!UICONTROL  Add Filtering Rule] **. 
+While [ creating a promotion ](../../c_recommendations/t_create_recs_activity/t_adding_promotions.md#task_CC5BD28C364742218C1ACAF0D45E0E14), select **[!UICONTROL  Promote by Attribute]**, then click **[!UICONTROL  Add Filtering Rule]**. 
 
-![](../../assets/inclusion_options_promotion.png) 
+![](assets/inclusion_options_promotion.png) 
 
 ## Filter Types {#section_0125F1ED10A84C0EB45325122460EBCD}
 
@@ -139,9 +139,9 @@ You can choose several options to handle empty values when filtering by Entity A
 
 Previously, no results were returned if a value was empty. The "If *x* is Empty" drop-down list lets you choose the appropriate action to perform if the criteria has empty values, as shown in the following illustration: 
 
-![](../../assets/empty_value.png) 
+![](assets/empty_value.png) 
 
-To select the desired action, hover over the gear icon (  ![](../../assets/icon_gear.png) ), then choose the desired action: 
+To select the desired action, hover over the gear icon (  ![](assets/icon_gear.png) ), then choose the desired action: 
 
 
 
@@ -184,7 +184,7 @@ For example, you could use the [!UICONTROL  Profile Attribute Matching] option t
 
 You can now use inclusion rules to match a job seeker's location and degree from his or her visitor's profile to a job listing, as shown in the following example: 
 
-![](../../assets/job_seeker.png) 
+![](assets/job_seeker.png) 
 
 The job listing on the left side requires that the visitor is in San Francisco, New York, or Los Angeles ( ` entity.jobCity`) and have either a BSCS or MBA degree ( ` entity.requiredDegree`). 
 
@@ -204,7 +204,7 @@ entity.requiredDegree&amp;nbsp;-&amp;nbsp;equals&amp;nbsp;-&amp;nbsp;the&amp;nbs
 ```
 Dynamic filters using profile attribute matching allows you to do more with fewer activities, as shown below: 
 
-![](../../assets/dynamic_before_and_after.png) 
+![](assets/dynamic_before_and_after.png) 
 
 The diagram in the top of the above illustration depicts how dynamic filters using profile attributes work. You can create one audience that uses criteria (in the above scenario, city and degree) to display a job listing that the visitor qualifies for. This filter works for an almost infinite number of possibilities regarding location and degree. 
 
@@ -212,7 +212,7 @@ The diagrams in the bottom of the illustration depicts just two of the many audi
 
 Without using profile attributes, your audiences and experiences would look like the top half of the following illustration, but with additional audience/experience pairs for every conceivable scenario. 
 
-![](../../assets/dynamic_audience_experience_pairs.png) 
+![](assets/dynamic_audience_experience_pairs.png) 
 
 Dynamic filters using profile attributes that match entity attributes to user attributes let you set up one audience that dynamically, on the fly, delivers the desired experience, as shown in the bottom half of the above illustration. 
 
@@ -270,7 +270,7 @@ When considering the following examples, remember that at least one entire strin
 
 **Scenario 4: **The following illustration demonstrates how to use the "equals" and "is between" operators to promote more expensive items that are from the same category and the same brand. For example, a sporting apparel company can promote more expensive running shoes in an effort to up-sell a visitor looking at running shorts. 
 
-![](../../assets/dynamic3.png) 
+![](assets/dynamic3.png) 
 
 The following rules are used in this example: 
 
@@ -290,7 +290,7 @@ value - is between - 100% and 1000% of - current item's - value
 
 **Scenario 5: **The second illustration demonstrates how to use the "equals" and "is between" operators to promote more expensive items that are from the same category, the same brand, and the house brand. For example, an office supply company can promote more expensive toner cartridges, of both the same brand and the company's house brand, in an effort to up-sell a visitor looking at printers. 
 
-![](../../assets/dynamic4.png) 
+![](assets/dynamic4.png) 
 
 The following rules are used in this example: 
 
@@ -305,7 +305,7 @@ Notice that this example uses two dynamic rules and one static rule.
 
 **Scenario 6: **The third illustration demonstrates how to use the"does not equal" operator to promote a series that does not equal the series that the visitor is currently viewing. For example, a media website could promote a television series that is different than the series the visitor is currently viewing. 
 
-![](../../assets/dynamic5.png) 
+![](assets/dynamic5.png) 
 
 The following rule is used in this example: 
 
@@ -314,7 +314,7 @@ series&amp;nbsp;-&amp;nbsp;does&amp;nbsp;not&amp;nbsp;equal&amp;nbsp;-&amp;nbsp;
 ```
 **Scenario 7: **The fourth illustration demonstrates how to promote compatible accessory items for the visitor's last-purchased item. For example, if someone purchased a new TV, you could dynamically promote an HDMI cable. 
 
-![](../../assets/dynamic1.png) 
+![](assets/dynamic1.png) 
 
 The following rules are used in this example: 
 
@@ -323,7 +323,7 @@ id&amp;nbsp;-&amp;nbsp;equals&amp;nbsp;-&amp;nbsp;last&amp;nbsp;purchased&amp;nb
 ```
 **Scenario 8: **The next illustration demonstrates how to promote items that are on sale for between 90 and 110 percent of the item the visitor is currently viewing. For example, if someone is looking at a TV, you could dynamically promote similar TVs that are on sale in approximately the same price range. 
 
-![](../../assets/dynamic2.png) 
+![](assets/dynamic2.png) 
 
 The following rules are used in this example: 
 
@@ -337,15 +337,15 @@ The content team for a sport's media site wants to show content to users for the
 
 * Use the [!UICONTROL  Ignore This Filtering Rule] option to ignore the team filter altogether, as shown in the following illustration: 
 
-  ![](../../assets/missing1.png) 
+  ![](assets/missing1.png) 
 
 * Use the [!UICONTROL  Do Not Show Any Results for This Criteria] option to not show any media as part of this criteria, as shown in the following illustration: 
 
-  ![](../../assets/missing7.png) 
+  ![](assets/missing7.png) 
 
 * Use the [!UICONTROL  Use a Static Value] option to show media for a specific team (49ers, for example), as in the following illustration: 
 
-  ![](../../assets/missing10.png) 
+  ![](assets/missing10.png) 
 
 
 
@@ -358,7 +358,7 @@ The content team for a sport's media site wants to show content to users for the
 
 
 
-![](../../assets/left_right.png) 
+![](assets/left_right.png) 
 
 The following table shows effective rules and rules that might not be compatible during runtime: 
 

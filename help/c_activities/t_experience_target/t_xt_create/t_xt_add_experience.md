@@ -6,7 +6,7 @@ seo-title: Create Experience
 solution: Target
 title: Create Experience
 topic: Advanced,Standard,Classic
-uuid: 8cded4c2-9838-4768-8c9a-dd401eebbc1e
+uuid: 8abbf683-094d-495d-978d-f3636bf0b706
 index: y
 internal: n
 snippet: y
@@ -17,16 +17,16 @@ translate: y
 
 For additional detail about experiences, see [ Experiences ](../../../c_experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D). 
 
->1. Click ** [!UICONTROL  Add Experience] **.
+>1. Click **[!UICONTROL  Add Experience]**.
 
 
 >       >[!NOTE]
 >       >
 >       >If you are targeting an experience to an audience, you must select the audience before you can add an experience. A message appears to remind you to choose your audience.
 
->1. When prompted, enter the activity URL. Type the complete URL (including ` http://`), then click ** [!UICONTROL  Continue] **.
+>1. When prompted, enter the activity URL. Type the complete URL (including ` http://`), then click **[!UICONTROL  Continue]**.
 
->       The Experience Composer (see [ Experiences ](../../../c_experiences.md#concept_1D011219034B492BB03C08B3BB80E3F0)) opens the page that is specified in your [ Account Preferences ](https://marketing.adobe.com/resources/help/en_US/target/target/t_account_preferences.html). To display a different page, click the Globe icon and enter the URL in the Select URL box in the Experience Composer and click ** [!UICONTROL  Continue] **. If you entered a URL for a site that does not include the Target Standard JavaScript code, you cannot select page elements. 
+>       The Experience Composer (see [ Experiences ](../../../c_experiences.md#concept_1D011219034B492BB03C08B3BB80E3F0)) opens the page that is specified in your [ Account Preferences ](https://marketing.adobe.com/resources/help/en_US/target/target/t_account_preferences.html). To display a different page, click the Globe icon and enter the URL in the Select URL box in the Experience Composer and click **[!UICONTROL  Continue]**. If you entered a URL for a site that does not include the Target Standard JavaScript code, you cannot select page elements. 
 
 >       By default, the Visual Experience Composer does not allow changes to elements containing JavaScript, such as rotating banners. You can select to disable JavaScript if you want to be able to alter those elements using the Visual Experience Composer. 
 
@@ -84,7 +84,7 @@ For additional detail about experiences, see [ Experiences ](../../../c_experien
 
 >       The activity diagram displays: 
 
->       ![](../../../assets/xt_diagram.png) 
+>       ![](assets/xt_diagram.png) 
 
 >       If an experience includes cross-domain content, the thumbnail might not display accurately and is replaced by an icon. 
 >1. Create additional experiences, as desired.
@@ -95,13 +95,13 @@ For additional detail about experiences, see [ Experiences ](../../../c_experien
 >       >You can drag and drop audience/experience pairs while creating or editing XT activities to arrange the pairs in the desired order. Visitors will be evaluated for experiences in order, from top to bottom.
 
 
->       ![](../../../assets/move_experiences.jpg) 
+>       ![](assets/move_experiences.jpg) 
 
 >       Experience Targeting assumes that order matters. If a visitor falls into the first audience/experience pair, the first experience is delivered. 
 
 >       For example, suppose you were not aware that order matters while creating an XT activity. You later realize during testing that visitors that you think should qualify for experiences B or C are instead qualifying for experience A. This could be because the audiences are not mutually exclusive and are not in the proper order (for example, experience A = United States, experience B = San Francisco, and experience C = California). In this scenario, all users from the United States qualify for experience A, even if they are located in San Francisco or elsewhere in California. You can reorder the audience/experience pairs from most restrictive to least restrictive (San Francisco &amp;gt; California &amp;gt; United States) without re-creating the entire activity. 
 
->       Note that you can click the  ![](../../../assets/icon_more_options.png) icon on an experience in an A/B Test or Experience Targeting (XT) activity and choose from the following options, as necessary: 
+>       Note that you can click the  ![](assets/icon_more_options.png) icon on an experience in an A/B Test or Experience Targeting (XT) activity and choose from the following options, as necessary: 
 >    
 >    * Rename 
 
@@ -109,5 +109,5 @@ For additional detail about experiences, see [ Experiences ](../../../c_experien
 
 >    * Delete 
 
->       ![](../../../assets/experience_edit.png) 
->       ** [!UICONTROL  Continue] **
+>       ![](assets/experience_edit.png) 
+>       **[!UICONTROL  Continue]**

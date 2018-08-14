@@ -6,7 +6,7 @@ seo-title: AEM Experience Fragments
 solution: Target
 title: AEM Experience Fragments
 topic: Standard
-uuid: f6f26c12-1776-486d-bbf0-b6ec6073db6c
+uuid: 006a507d-4ff6-4f2b-9408-5f18626bd841
 index: y
 internal: n
 snippet: y
@@ -78,7 +78,7 @@ In order to use AEM experience fragments in Target, you must perform the followi
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <img href="../assets/step1_icon.png" id="image_7928C84A792946B384383AD7E03EB911" /> Integrate AEM with Target </p> </td> 
+   <td colname="col1"> <p> <img href="assets/step1_icon.png" id="image_7928C84A792946B384383AD7E03EB911" /> Integrate AEM with Target </p> </td> 
    <td colname="col2"> <p>For more information, see: </p> <p> 
      <ul id="ul_B0FF2A7AD4694CCF8E7F788F70DDA8F0"> 
       <li id="li_451CDE76FF3F4AB29E08013D8EE3C818"> <p><b>AEM 6.3: </b> <a href="https://docs.adobe.com/docs/en/aem/6-3/administer/integration/marketing-cloud/opt-in.html" format="html" scope="external"> Opting into Adobe Analytics and Adobe Target </a> in the <i>Adobe Experience Manager 6.3</i> documentation. </p> </li> 
@@ -86,7 +86,7 @@ In order to use AEM experience fragments in Target, you must perform the followi
      </ul> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <img href="../assets/step2_icon.png" id="image_CF1B3C977051478B8B0ABE3D41429122" /> Create the experience fragment </p> </td> 
+   <td colname="col1"> <p> <img href="assets/step2_icon.png" id="image_CF1B3C977051478B8B0ABE3D41429122" /> Create the experience fragment </p> </td> 
    <td colname="col2"> <p>Experience fragments are created in AEM. For more information, see: </p> <p> 
      <ul id="ul_DF0E48720E9F4228A2E396B7BADBC690"> 
       <li id="li_626CB3A93A4A45ADAE34AC009A0A649B"> <p><b>AEM 6.3: </b> <a href="https://docs.adobe.com/docs/en/aem/6-3/author/experience-fragments.html" format="html" scope="external"> Experience Fragments </a> in the <i>Adobe Experience Manager 6.3</i> documentation. </p> </li> 
@@ -94,7 +94,7 @@ In order to use AEM experience fragments in Target, you must perform the followi
      </ul> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <img href="../assets/step3_icon.png" id="image_6FBEE3C0B9494944B4AC4960803D6A20" /> Configure AEM to share the experience fragment with Target </p> </td> 
+   <td colname="col1"> <p> <img href="assets/step3_icon.png" id="image_6FBEE3C0B9494944B4AC4960803D6A20" /> Configure AEM to share the experience fragment with Target </p> </td> 
    <td colname="col2"> <p> 
      <ol id="ol_185B3C5984D64ECDB69BEC12CED8B6D9"> 
       <li id="li_832CAA9039EC4C9F81DA7841570C7489"> <p>From within AEM, select the desired experience fragment or its containing folder, then click <span class="uicontrol"> Properties </span>. </p> </li> 
@@ -103,17 +103,17 @@ In order to use AEM experience fragments in Target, you must perform the followi
      </ol> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1" morerows="1"> <p> <img href="../assets/step4_icon.png" id="image_ACC43C96B1894B04BFD2A3AAF5C1A45A" /> Publish the experience fragment and export it into Target </p> </td> 
+   <td colname="col1" morerows="1"> <p> <img href="assets/step4_icon.png" id="image_ACC43C96B1894B04BFD2A3AAF5C1A45A" /> Publish the experience fragment and export it into Target </p> </td> 
    <td colname="col2"> <p> <b>AEM 6.3:</b> </p> <p> 
      <ol id="ol_7700A6562F514538BBDB24EA542B3D2A"> 
       <li id="li_22D1CC5CDFD24EE29929DC4BDF87EEC9"> <p>From within AEM, select the desired experience fragment, click the <span class="uicontrol"> Publish </span> tab, then click the <span class="uicontrol"> Publish </span> button. </p> </li> 
-      <li id="li_F2F2BF28564C422D824DF1E972E7C696"> <p>From within AEM, select the desired experience fragment, click <span class="uicontrol"> Export to Adobe Target </span>, then click <span class="uicontrol"> OK </span>. </p> <p style="text-align: center;"> <img href="../assets/experience_fragment_export_to_target.png" id="image_5A03C93F0A7D40B786D77DE24E24C16B" /> </p> </li> 
+      <li id="li_F2F2BF28564C422D824DF1E972E7C696"> <p>From within AEM, select the desired experience fragment, click <span class="uicontrol"> Export to Adobe Target </span>, then click <span class="uicontrol"> OK </span>. </p> <p style="text-align: center;"> <img href="assets/experience_fragment_export_to_target.png" id="image_5A03C93F0A7D40B786D77DE24E24C16B" /> </p> </li> 
      </ol> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p><b>AEM 6.4:</b> </p> <p> 
      <ol id="ol_027758DB9ED443EABB85F60519019922"> 
-      <li id="li_1E664C716E394516AEC38CC9002426CA"> <p>From within AEM, select the desired experience fragment, click <span class="uicontrol"> Export to Adobe Target </span>. </p> <p style="text-align: center;"> <img href="../assets/experience_fragment_export_to_target.png" id="image_FD1DE3B3569E4090B3B37FE3EE190DEE" /> </p> </li> 
+      <li id="li_1E664C716E394516AEC38CC9002426CA"> <p>From within AEM, select the desired experience fragment, click <span class="uicontrol"> Export to Adobe Target </span>. </p> <p style="text-align: center;"> <img href="assets/experience_fragment_export_to_target.png" id="image_FD1DE3B3569E4090B3B37FE3EE190DEE" /> </p> </li> 
       <li id="li_8BC8835395BC44A2965F491C1268E7BA"> <p>In the dialog box that displays, select <span class="uicontrol"> Publish </span> to publish all of the assets within the experience fragment to Target. </p> </li> 
      </ol> </p> </td> 
   </tr> 
@@ -139,7 +139,7 @@ After performing the preceding tasks, the experience fragment displays on the [!
 
 
 
-You can hover over an experience fragment in the list, then click the View icon (  ![](../assets/icon_info.png) ) to see additional information about the experience fragment, including its public offer delivery URL, its AEM path, and a deep link to open the experience fragment inside of AEM. 
+You can hover over an experience fragment in the list, then click the View icon (  ![](assets/icon_info.png) ) to see additional information about the experience fragment, including its public offer delivery URL, its AEM path, and a deep link to open the experience fragment inside of AEM. 
 
 You can consume Experience Fragments in Target activities using the Visual Experience Composer (VEC) or the Form-Based Experience Composer. 
 
@@ -150,7 +150,7 @@ You can consume Experience Fragments in Target activities using the Visual Exper
 **To consume Experience Fragments using the VEC:** 
 
 
-1. In Target, while creating or editing an experience in the [ Visual Experience Composer ](../c_experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D), click the location on the page where you want to insert AEM content, then select ** [!UICONTROL  Swap with Experience Fragment] ** to display the [!UICONTROL  Choose an Experience Fragment] list. 
+1. In Target, while creating or editing an experience in the [ Visual Experience Composer ](../c_experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D), click the location on the page where you want to insert AEM content, then select **[!UICONTROL  Swap with Experience Fragment]** to display the [!UICONTROL  Choose an Experience Fragment] list. 
 
 
    >[!NOTE]
@@ -160,9 +160,9 @@ You can consume Experience Fragments in Target activities using the Visual Exper
 
    The [!UICONTROL  Experience Fragment] list displays all of the content created in AEM that is now natively available from within Target. 
 
-   ![](../assets/experience_fragment_list.png) 
+   ![](assets/experience_fragment_list.png) 
 
-1. Select the desired experience fragment, then click ** [!UICONTROL  Save] **. 
+1. Select the desired experience fragment, then click **[!UICONTROL  Save]**. 
 
 1. Finish configuring the activity. 
 
@@ -189,13 +189,13 @@ You can consume Experience Fragments in Target activities using the Visual Exper
 
 **To consume Experience Fragments using the Form-based Experience Composer:** 
 
-1. In Target, while creating or editing an experience in the [ Form-Based Experience Composer ](../c_experiences/t_form_experience_composer.md#task_FAC842A6535045B68B4C1AD3E657E56E), select the location on the page where you want to insert AEM content, then select ** [!UICONTROL  Change Experience Fragment] ** to display the [!UICONTROL  Choose an Experience Fragment] list. 
+1. In Target, while creating or editing an experience in the [ Form-Based Experience Composer ](../c_experiences/t_form_experience_composer.md#task_FAC842A6535045B68B4C1AD3E657E56E), select the location on the page where you want to insert AEM content, then select **[!UICONTROL  Change Experience Fragment]** to display the [!UICONTROL  Choose an Experience Fragment] list. 
 
-   ![](../assets/experience_fragment_list.png) 
+   ![](assets/experience_fragment_list.png) 
 
    The [!UICONTROL  Experience Fragment] list displays all of the content created in AEM that is now natively available from within Target. 
 
-1. Select the desired experience fragment, then click ** [!UICONTROL  Save] **. 
+1. Select the desired experience fragment, then click **[!UICONTROL  Save]**. 
 
 1. Finish configuring the activity. 
 

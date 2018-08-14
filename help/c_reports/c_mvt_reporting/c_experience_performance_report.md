@@ -6,7 +6,7 @@ seo-title: Experience Performance Report
 solution: Target
 title: Experience Performance Report
 topic: Premium
-uuid: 9465175f-2ead-4b97-b223-e25af8688860
+uuid: 140bec1e-7a6d-413b-befc-776a3f395777
 index: y
 internal: n
 snippet: y
@@ -41,9 +41,9 @@ This video demonstrates how to create a multivariate test using the Target three
  </tbody> 
 </table>
 
-You can select one or more experiences to compare them. Click on an experience and select ** [!UICONTROL  Preview] ** to open the experience in a browser tab. 
+You can select one or more experiences to compare them. Click on an experience and select **[!UICONTROL  Preview]** to open the experience in a browser tab. 
 
-![](../../assets/experienceperformancetable.png) 
+![](assets/experienceperformancetable.png) 
 
 The top of the report shows the metric, start and end dates, and audience used in the report. You can change any of these factors. 
 

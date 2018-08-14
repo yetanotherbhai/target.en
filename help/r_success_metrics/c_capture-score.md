@@ -7,7 +7,7 @@ solution: Target
 subtopic: Getting Started
 title: Capture Score
 topic: Standard
-uuid: 8441a60d-d722-4c52-ae93-a1a0f4ef4b03
+uuid: 5660d57d-b6e9-488d-95cb-22e44a18a60b
 index: y
 internal: n
 snippet: y
@@ -18,7 +18,7 @@ translate: y
 
 The following example shows how score engagement is calculated in a campaign that tests two experiences, one with a cat image, and one with a dog image. 
 
-![](../assets/example_score.png) 
+![](assets/example_score.png) 
 
 In this example, the first visitor experiences the cat experience. Assume that a global mbox passes in a page score based on the value of the page. If the marketer has captured page count engagement on a success metric associated with ` **any mbox**`, the visit score accumulates for any mbox request seen after the display mbox around the cat image. 
 
@@ -26,7 +26,7 @@ The first page adds 1 to the score, the second page 0.25, the third 0.10, and th
 
 You can take into account acquisition costs and affiliate link revenue by passing adboxes and redirectors, as depicted in the following page flow. Notice that, in this example, both mboxes on the article page pass a score, possibly representing a known CPM. 
 
-![](../assets/example_score2.png) 
+![](assets/example_score2.png) 
 
 **Assigning a Page Score** 
 

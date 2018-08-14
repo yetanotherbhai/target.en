@@ -6,7 +6,7 @@ seo-title: About Audiences
 solution: Target
 title: About Audiences
 topic: Advanced,Standard,Classic
-uuid: 45449a25-1516-40d4-a05b-b99ca70e9568
+uuid: 00ea0596-9299-4874-9d74-9ed17dc1e4fc
 index: y
 internal: n
 snippet: y
@@ -57,13 +57,13 @@ This video includes information about using audiences.
 
 
 
-To access the [!UICONTROL  Audiences] list, click ** [!UICONTROL  Audiences] ** in the top menu bar: 
+To access the [!UICONTROL  Audiences] list, click **[!UICONTROL  Audiences]** in the top menu bar: 
 
-![](../assets/audiences_list.png) 
+![](assets/audiences_list.png) 
 
 The [!UICONTROL  Audiences] list contains all of the audiences that you can use in your activities. Use the [!UICONTROL  Audiences] list to create, edit, delete, copy, or combine audiences. The list also shows the source where the audience was created ( [!DNL  Target], [!DNL  Target Classic], [!DNL  Experience Cloud], and so forth). Predefined audiences, such as "New Visitors" and "Returning Visitors," cannot be renamed. 
 
-You can also target custom profile parameters and ` user.` parameters. When adding an audience, click ** [!UICONTROL  Visitor Profile] **, then under [!UICONTROL  Custom User Parameters] or [!UICONTROL  Custom Profile Parameters] in the [!UICONTROL  Visitor Profile] drop-down list, choose the parameter you use want to use to target your activity. If the desired parameter does not appear, the parameter has not been fired by an mbox. Other custom mbox parameters are available in the [!UICONTROL  Custom Parameters] drop-down list. 
+You can also target custom profile parameters and ` user.` parameters. When adding an audience, click **[!UICONTROL  Visitor Profile]**, then under [!UICONTROL  Custom User Parameters] or [!UICONTROL  Custom Profile Parameters] in the [!UICONTROL  Visitor Profile] drop-down list, choose the parameter you use want to use to target your activity. If the desired parameter does not appear, the parameter has not been fired by an mbox. Other custom mbox parameters are available in the [!UICONTROL  Custom Parameters] drop-down list. 
 
 Use the search box to search your [!UICONTROL  Audiences] list. You can search for any part of an audience name, or you can enclose a specific string in quotes. 
 
@@ -75,21 +75,21 @@ You can view audience definition details on a pop-up card in various places in t
 
 For example, the following audience definition card is accessed by hovering over an audience on the Audience List, then clicking the View icon: 
 
-![](../assets/audience_definition_list.png) 
+![](assets/audience_definition_list.png) 
 
 The following audience definition card is accessed by clicking the View icon on an activity's Overview page: 
 
-![](../assets/audience_definition.png) 
+![](assets/audience_definition.png) 
 
 Click the [!UICONTROL  Audience Usage] tab to see other activities that reference that audience, if applicable. This way you can avoid accidental impact to other activities while editing audiences. Information includes Live Activities, Inactive Activities, Archived Activities, And Syncing Activities. This feature is available for all audiences (Library audiences and [ activity-only audiences](../c_target/c_audiences/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483)). 
 
 If an audience is combined with another audience and the combined audience is used to create an activity, the usage information for both audiences will list that newly created activity. 
 
-![](../assets/audience_definition_list_usage.png) 
+![](assets/audience_definition_list_usage.png) 
 
 The following audience definition card is for an audience imported from the Adobe Experience Cloud. In this instance, the audience was imported from Adobe Audience Manager (AAM). Notice that Target does not show detailed audience definition information because that information is not present in Target. 
 
-![](../assets/audience_definition_mc.png) 
+![](assets/audience_definition_mc.png) 
 
 The following details are available for these imported audience types: 
 
@@ -105,15 +105,15 @@ The following details are available for these imported audience types:
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Mobile audience </p> </td> 
-   <td colname="col2"> <p>Marketing Name, Vendor, and Model. </p> <p>The <span class="codeph"> matches|does not match</span> operator displays instead of <span class="codeph"> equals|does not equal</span>. </p> <p style="text-align: center;"><img href="../assets/imported_mobile_audience.png" id="image_D858836141D34047ABEBCE9FBE302826" /> </p> </td> 
+   <td colname="col2"> <p>Marketing Name, Vendor, and Model. </p> <p>The <span class="codeph"> matches|does not match</span> operator displays instead of <span class="codeph"> equals|does not equal</span>. </p> <p style="text-align: center;"><img href="assets/imported_mobile_audience.png" id="image_D858836141D34047ABEBCE9FBE302826" /> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Visitor-behavior audience </p> </td> 
-   <td colname="col2"> <p>user.categoryAffinity: <span class="codeph"> categoryAffinity</span> with <span class="codeph"> FAVORITE</span> parameter. </p> <p style="text-align: center;"><img href="../assets/imported_category_affinity.png" id="image_117DA80E582F45ACB03B244798A24264" /> </p> <p>Monitoring: <span class="codeph"> Monitoring service equals true</span>. </p> <p>No Monitoring Service: <span class="codeph"> Monitoring service equals false</span>. </p> <p style="text-align: center;"><img href="../assets/imported_monitoring.png" id="image_D63245B224C14837B5DDA33247394CB5" /> </p> </td> 
+   <td colname="col2"> <p>user.categoryAffinity: <span class="codeph"> categoryAffinity</span> with <span class="codeph"> FAVORITE</span> parameter. </p> <p style="text-align: center;"><img href="assets/imported_category_affinity.png" id="image_117DA80E582F45ACB03B244798A24264" /> </p> <p>Monitoring: <span class="codeph"> Monitoring service equals true</span>. </p> <p>No Monitoring Service: <span class="codeph"> Monitoring service equals false</span>. </p> <p style="text-align: center;"><img href="assets/imported_monitoring.png" id="image_D63245B224C14837B5DDA33247394CB5" /> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Audiences using the NOT operator </p> </td> 
-   <td colname="col2"> <p>Single Rule: Target displays the audience in the format <span class="codeph"> [All Visitor AND [NOT [rule]</span>. Single NOT rule displays with AND with AllVisitor audience. </p> <p style="text-align: center;"><img href="../assets/imported_not_audience.png" id="image_E1D8B2BF23C64213984A58CFEF7951F4" /> </p> </td> 
+   <td colname="col2"> <p>Single Rule: Target displays the audience in the format <span class="codeph"> [All Visitor AND [NOT [rule]</span>. Single NOT rule displays with AND with AllVisitor audience. </p> <p style="text-align: center;"><img href="assets/imported_not_audience.png" id="image_E1D8B2BF23C64213984A58CFEF7951F4" /> </p> </td> 
   </tr> 
  </tbody> 
 </table>

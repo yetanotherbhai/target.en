@@ -5,7 +5,7 @@ seo-title: How Target Decides Who Sees What Content
 solution: Target
 title: How Target Decides Who Sees What Content
 topic: Standard
-uuid: c0b1fe22-b424-4b5b-adf1-ec601d9f867b
+uuid: ccf600f7-da11-4fd5-a841-484e57fe853b
 index: y
 internal: n
 snippet: y

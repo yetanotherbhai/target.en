@@ -5,7 +5,7 @@ seo-description: Display problems sometimes occur in the Visual Experience Compo
 seo-title: Troubleshooting the Visual Experience Composer and Enhanced Experience Composer
 solution: Target
 title: Troubleshooting the Visual Experience Composer and Enhanced Experience Composer
-uuid: 41190b60-c58c-4ad2-9744-1690368a04df
+uuid: a645a762-cb2d-49db-b540-eb39862928ac
 index: y
 internal: n
 snippet: y
@@ -91,11 +91,11 @@ This can happen if the URL contains a # character. To fix the issue, switch into
 
 If your website's CSP headers block Target libraries, then loads the website but prevents editing, ensure that the Target libraries are not blocked. 
 
-![](../assets/cps_headers.png) 
+![](assets/cps_headers.png) 
 
 As a workaround, you can configure a Requestly rule to remove CSP headers, as shown below: 
 
-![](../assets/cps_headers_2.png) 
+![](assets/cps_headers_2.png) 
 
 You can configure a similar Requestly rule for any header that causes a resource to not load inside the VEC. 
 
@@ -119,7 +119,7 @@ If the same DOM element ID is used on multiple elements on the page, changing on
 
 ## I can't edit experiences for an iFrame-busting site. (VEC and EEC) {#section_9FE266B964314F2EB75604B4D7047200}
 
-This issue can be addressed by enabling the Enhanced Experience Composer. Click ** [!UICONTROL  Setup] ** > ** [!UICONTROL  Preferences] **, then select the check box that enables the Enhanced Experience Composer. The Enhanced Experience Composer uses an Adobe-managed proxy to load your page for editing. This allows editing on iFrame-busting sites and allows editing on sites and pages where you have not yet added Adobe Target code. The activities do not deliver to the site until the code has been added. Some sites may not load via the Enhanced Experience Composer, in which case you can uncheck this option to load the Visual Experience Composer via an iFrame. [] 
+This issue can be addressed by enabling the Enhanced Experience Composer. Click **[!UICONTROL  Setup]** > **[!UICONTROL  Preferences]**, then select the check box that enables the Enhanced Experience Composer. The Enhanced Experience Composer uses an Adobe-managed proxy to load your page for editing. This allows editing on iFrame-busting sites and allows editing on sites and pages where you have not yet added Adobe Target code. The activities do not deliver to the site until the code has been added. Some sites may not load via the Enhanced Experience Composer, in which case you can uncheck this option to load the Visual Experience Composer via an iFrame. [] 
 
 
 >[!NOTE]
@@ -134,12 +134,12 @@ See "I can't edit experiences for an iFrame-bursting site" above.
 
 ## Bold and italic text styles with Edit Text/HTML or Change text/HTML do not show on my page. Sometimes the text disappears after applying these style changes. (VEC and EEC) {#section_7A71D6DF41084C58B34C18701E8774E5}
 
-If you use ** [!UICONTROL  Edit Text/HTML] ** in the Visual Experience Composer for A/B or Experience Targeting activities or ** [!UICONTROL  Change Text/HTML] ** for Automated Personalization or Multivariate Test activities to make text bold or italic, those styles might not be applied on the page or the text disappears from the page in the Visual Experience Composer. This is because the way the rich-text editor applies these styles might interfere with the website markup. 
+If you use **[!UICONTROL  Edit Text/HTML]** in the Visual Experience Composer for A/B or Experience Targeting activities or **[!UICONTROL  Change Text/HTML]** for Automated Personalization or Multivariate Test activities to make text bold or italic, those styles might not be applied on the page or the text disappears from the page in the Visual Experience Composer. This is because the way the rich-text editor applies these styles might interfere with the website markup. 
 
 If you see this issue: 
 
 
-1. Click the ** [!UICONTROL  HTML] ** button in the rich-text editor to enter source editing mode.
+1. Click the **[!UICONTROL  HTML]** button in the rich-text editor to enter source editing mode.
 1. Find the styles text elements. 
     * For bold text, change ` &amp;lt;strong&amp;gt;` elements to ` &amp;lt;b&amp;gt;`.
     * For italic text, change ` &amp;lt;em&amp;gt;` elements to ` &amp;lt;i&amp;gt;`.
@@ -172,11 +172,11 @@ Several issues can affect page performance in the Target experience composers. S
 
 If issues occur in the Enhanced Experience Composer, try turning off the Enhanced Experience Composer and use the Visual Experience Composer instead. 
 
-To disable the Enhanced Experience Composer, go to ** [!UICONTROL  Setup] ** > ** [!UICONTROL  Preferences] ** and turn off the ** [!UICONTROL  Enable Enhanced Experience Composer] ** option. 
+To disable the Enhanced Experience Composer, go to **[!UICONTROL  Setup]** > **[!UICONTROL  Preferences]** and turn off the **[!UICONTROL  Enable Enhanced Experience Composer]** option. 
 
 Some users see the following error message in the console: 
 
-![](../assets/error_message.jpg) 
+![](assets/error_message.jpg) 
 
 If neither the Visual Experience Composer nor the Enhanced Experience Composer works, use a browser extension like Requestly (Chrome or Firefox) or Modify Response Headers (Firefox) that can overwrite the X-Frames header options for your site and allow them to be loaded in iFrames, enabling the VEC. If you are unable to use browser extensions, use the Form Composer. 
 
@@ -189,7 +189,7 @@ If neither the Visual Experience Composer nor the Enhanced Experience Composer w
 
 1. Open the extension and configure it using the following: 
 
-1. Select ** [!UICONTROL  Modify headers] **. 
+1. Select **[!UICONTROL  Modify headers]**. 
 
 1. Enter the following: 
 
@@ -197,9 +197,9 @@ If neither the Visual Experience Composer nor the Enhanced Experience Composer w
 
     * Modification rules 
     
-        * Toggle ** [!UICONTROL  Add] ** to ** [!UICONTROL  Remove] **. 
+        * Toggle **[!UICONTROL  Add]** to **[!UICONTROL  Remove]**. 
 
-        * Toggle ** [!UICONTROL  Request] ** to ** [!UICONTROL  Response] **. 
+        * Toggle **[!UICONTROL  Request]** to **[!UICONTROL  Response]**. 
 
         * Enter "X-Frame-Options" as the header name. 
 
@@ -211,14 +211,14 @@ If neither the Visual Experience Composer nor the Enhanced Experience Composer w
           >Headers that are manipulated via Requestly are case sensitive.
 
 
-        * Change ** [!UICONTROL  Equals] ** to ** [!UICONTROL  Contains] ** as the condition for the source URL and enter the URL of the activity that you are trying to load in the VEC. 
+        * Change **[!UICONTROL  Equals]** to **[!UICONTROL  Contains]** as the condition for the source URL and enter the URL of the activity that you are trying to load in the VEC. 
 
-      ![](../assets/chrome_extension.png) 
+      ![](assets/chrome_extension.png) 
 
 
-1. Click ** [!UICONTROL  Save] **. 
+1. Click **[!UICONTROL  Save]**. 
 
-   ![](../assets/requestly.png) 
+   ![](assets/requestly.png) 
 
    You should now be able to load the page quickly with the Visual Experience Composer. 
 
@@ -231,21 +231,21 @@ If neither the Visual Experience Composer nor the Enhanced Experience Composer w
 
 1. From your Firefox extensions, select the Modify Response Headers extension. 
 
-1. Click ** [!UICONTROL  Preferences] **. 
+1. Click **[!UICONTROL  Preferences]**. 
 
-1. Select ** [!UICONTROL  Filter] ** from the Action drop down. 
+1. Select **[!UICONTROL  Filter]** from the Action drop down. 
 
-1. In the Header Name field, enter: ** [!UICONTROL  X-Frame-Options] **. 
+1. In the Header Name field, enter: **[!UICONTROL  X-Frame-Options]**. 
 
-1. Repeat Steps 4 and 5 to add a filter with ** [!UICONTROL  x-frame-options] **. 
+1. Repeat Steps 4 and 5 to add a filter with **[!UICONTROL  x-frame-options]**. 
 
-1. Click ** [!UICONTROL  Add] **. 
+1. Click **[!UICONTROL  Add]**. 
 
-1. Click ** [!UICONTROL  Start] **. 
+1. Click **[!UICONTROL  Start]**. 
 
 
 
-![](../assets/firefox_extension.png) 
+![](assets/firefox_extension.png) 
 
 After setting up an extension, open Target. Your pages should now load in the Visual Experience Composer, even if the Enhanced Experience Composer is disabled. 
 
@@ -253,7 +253,7 @@ After setting up an extension, open Target. Your pages should now load in the Vi
 
 
 * The browser is not supported.
-* The browser is blocking a non-secure page on a secure site. Click the icon to the left of the URL in the browser address bar and click ** [!UICONTROL  Disable protection on this page] ** 
+* The browser is blocking a non-secure page on a secure site. Click the icon to the left of the URL in the browser address bar and click **[!UICONTROL  Disable protection on this page]** 
 
 * You entered an invalid URL.
 * You have not entered a default URL in your account setup page.
@@ -306,7 +306,7 @@ You might see the following error message in Target:
 
 ` Error: Your website domain (ISP) is blocking the Enhanced Experience Composer. You can whitelist the Enhanced Experience Composer's IP addresses or turn off Enhanced Experience Composer in [!UICONTROL  Configure] > [!UICONTROL  Page Delivery] menu.` 
 
-![](../assets/EEC_error.png) 
+![](assets/EEC_error.png) 
 
 The following are reasons that you might see this error message and remedies to fix the situation: 
 
@@ -330,17 +330,17 @@ To check the TLS version on your website using Firefox (other browsers have simi
 
 1. Open the affected website in Firefox. 
 
-1. Click the ** [!UICONTROL  Show Site Information] ** icon on the browser's address bar. 
+1. Click the **[!UICONTROL  Show Site Information]** icon on the browser's address bar. 
 
-   ![](../assets/firefox_more_info.png) 
+   ![](assets/firefox_more_info.png) 
 
-1. Click ** [!UICONTROL  Show Connection Details] ** > ** [!UICONTROL  More Information] **. 
+1. Click **[!UICONTROL  Show Connection Details]** > **[!UICONTROL  More Information]**. 
 
-   ![](../assets/firefox_more_info_2.png) 
+   ![](assets/firefox_more_info_2.png) 
 
 1. Examine the TLS version information under Technical Details: 
 
-   ![](../assets/firefox_more_info_3.png) 
+   ![](assets/firefox_more_info_3.png) 
 
 1. If you find that your website is showing TLS 1.0, see [ TLS (Transport Layer Security) Encryption Changes ](../c_seting_up_target/c_implementing_target/c_target-requirements/c_tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451) for information about Target's TLS support policy. To remedy the situation for now (valid until September 12, 2018), reach out to [ Customer Care ](../r_problem.md#reference_ACA3391A00EF467B87930A450050077C) for configuration with your TLS version and the domain. 
 

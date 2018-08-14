@@ -6,7 +6,7 @@ seo-title: at.js Implementation
 solution: Target
 title: at.js Implementation
 topic: Standard
-uuid: c2fcf85a-dc50-4151-9e23-3325099da903
+uuid: 6c9cb9ff-0044-4e9e-8129-52714888d64c
 index: y
 internal: n
 snippet: y

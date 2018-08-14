@@ -7,8 +7,8 @@ solution: Target
 title: Customizing a Design Using Velocity
 title_outputclass: premium
 topic: Premium
-uuid: bb967044-4d4b-4f11-8d19-de82f693c158
-badge: assets/premium.png
+uuid: ad6b1425-5d9c-4166-84ba-63502ef4096a
+badge: premium
 index: y
 internal: n
 snippet: y
@@ -100,7 +100,7 @@ If you use a profile script in your design, the $ preceding the script name must
 
 For example, if you want a design that displays something similar to this: 
 
-![](../../../assets/velocity_example.png) 
+![](assets/velocity_example.png) 
 
 you can use the following code: 
 
@@ -212,7 +212,7 @@ To do this, create a column in your design that uses the ` $key` attribute you a
 
 The result is a design like the following, where one column shows the key item. 
 
-![](../../../assets/rec_key.png) 
+![](assets/rec_key.png) 
 
 When you are creating your [!DNL  Recommendations] activity, if the key item is taken from the visitor's profile, such as "last purchased item," [!DNL  Target] displays a random product in the [!UICONTROL  Visual Experience Composer] (VEC). This is because a profile is not available while you design the activity. When visitors view the page, they will see the expected key item. 
 

@@ -6,7 +6,7 @@ seo-title: Activity Creation
 solution: Target
 title: Activity Creation
 topic: Advanced,Standard,Classic
-uuid: 277673db-f4a7-41a6-a5c9-b1be72d668fe
+uuid: b0fec323-6a17-41c1-a592-b518ee5f5dba
 index: y
 internal: n
 snippet: y
@@ -21,7 +21,7 @@ Before you set up an activity that uses Analytics as the reporting source, estab
 
 Creating a Target Standard activity that uses Analytics as the reporting source is similar to setting up a regular Target Standard activity, with a few important differences. For example, you cannot select a segment for reporting while creating the activity because all segments available in Analytics can be applied when viewing a report. 
 
->1. Click ** [!UICONTROL  Create Activity] **.
+>1. Click **[!UICONTROL  Create Activity]**.
 
 
 >       >[!NOTE]
@@ -29,7 +29,7 @@ Creating a Target Standard activity that uses Analytics as the reporting source 
 >       >An activity name cannot include the "%" character if Analytics is used as the reporting source.
 
 >1. Select the activity type and begin setting up the activity.
->1. When you get to the ** [!UICONTROL  Settings] ** portion of the activity creation flow, choose ** [!UICONTROL  Adobe Analytics] ** and specify your company.
+>1. When you get to the **[!UICONTROL  Settings]** portion of the activity creation flow, choose **[!UICONTROL  Adobe Analytics]** and specify your company.
 >1. Select a report suite.
 
 >       You can choose any report suite that is available to you in Adobe Analytics. The report suite defines where the collected data will be available. Virtual report suites are not included in the report suite list. 
@@ -77,5 +77,5 @@ Creating a Target Standard activity that uses Analytics as the reporting source 
 >       >
 >       >When setting up an activity after setting up Analytics as your reporting source, there is no option to set up audiences for reporting. Analytics segments are available in the Target Activities report.
 
->1. Click ** [!UICONTROL  Save] **.
+>1. Click **[!UICONTROL  Save]**.
 

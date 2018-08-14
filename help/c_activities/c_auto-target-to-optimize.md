@@ -7,8 +7,8 @@ solution: Target
 title: Auto-Target
 title_outputclass: premium
 topic: Standard
-uuid: cb980e55-8a6d-4131-9329-fa6ae128a774
-badge: assets/premium.png
+uuid: 2bf4e01d-7269-4ca3-ac71-51a267d45362
+badge: premium
 index: y
 internal: n
 snippet: y
@@ -26,7 +26,7 @@ translate: y
 
 While [ creating an A/B activity using the three-step guided workflow](../c_activities/t_test_ab/t_test_create_ab.md#task_68C8079BF9FF4625A3BD6680D554BB72), you can choose to allocate traffic using the [!UICONTROL  Auto-Target For Personalized Experiences] option: 
 
-![](../assets/auto-target-ui.png) 
+![](assets/auto-target-ui.png) 
 
 This video explains how to set up an Auto-Target A/B activity: 
 
@@ -149,7 +149,7 @@ The [!UICONTROL  Custom Allocation] drop-down list lets you choose from the foll
 
 
 
-![](../assets/split.png) 
+![](assets/split.png) 
 
 
 
@@ -194,7 +194,7 @@ The [!UICONTROL  Custom Allocation] drop-down list lets you choose from the foll
 
 To adjust the Control percentage, click the - or + symbols. You cannot decrease the control group to less than 10%. 
 
-![](../assets/auto-target-control-bigl.png) 
+![](assets/auto-target-control-bigl.png) 
 
 ## When should you choose Auto-Target over Automated Personalization? {#section_BBC4871C87944DD7A8B925811A30C633}
 

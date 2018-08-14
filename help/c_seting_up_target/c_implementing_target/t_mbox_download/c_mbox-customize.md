@@ -6,7 +6,7 @@ seo-title: Customize Your mbox.js Implementation
 solution: Target
 title: Customize Your mbox.js Implementation
 topic: Premium
-uuid: 94cb57d5-2337-4f28-8694-cf6142e05aed
+uuid: 7253e8a6-3081-48f3-b91e-3074c2e9fad2
 index: y
 internal: n
 snippet: y

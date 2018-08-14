@@ -6,7 +6,7 @@ seo-title: Viewing Reports - A4T FAQ
 solution: Target
 title: Viewing Reports - A4T FAQ
 topic: Standard
-uuid: 7845050f-f4fd-4f69-a46b-db7a79ac7ba9
+uuid: 4ffe670f-bedb-40c1-aa4f-9974e7ff84b5
 index: y
 internal: n
 snippet: y
@@ -72,7 +72,7 @@ Impressions and instances are equal, unless there are multiple mbox calls on the
 
 ## Why do I see "unspecified" in the Analytics reports? What does it mean? {#section_AF38D32DAFEF4DDD95E07424CF682CCA}
 
-![](../../../assets/unspecified.png) 
+![](assets/unspecified.png) 
 
 In other reports, "unspecified" means data did not meet a classification rule, but in A4T this should never happen. If you see "unspecified," then the classification service hasn't run yet. It can take up to 36 hours for activity data to appear in the reports. Even though the activities do not appear in this report until that time, all visitor data tied to those activities is captured and will appear when the classification is complete. 
 

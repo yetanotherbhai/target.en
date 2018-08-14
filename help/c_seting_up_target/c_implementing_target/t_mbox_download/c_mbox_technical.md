@@ -7,7 +7,7 @@ solution: Target
 subtopic: Getting Started
 title: What mbox.js Does
 topic: Standard
-uuid: 1483ba21-8834-4a09-bf3a-a73bcf78ee18
+uuid: c3c3b999-98a0-4636-8c56-cacf488fcad4
 index: y
 internal: n
 snippet: y

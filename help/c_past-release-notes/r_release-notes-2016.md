@@ -3,7 +3,7 @@ description: null
 seo-description: null
 seo-title: 2016 Releases
 title: 2016 Releases
-uuid: d3f419d8-f429-40e5-8cc5-2c67e1c2dfb9
+uuid: 4661e2d0-8dad-4ea9-bb1b-1895605b1732
 index: y
 internal: n
 snippet: y
@@ -414,7 +414,7 @@ The following known issues have been reported:
 
 
 * When "Disable JavaScript" is selected for page A in a multipage activity, JavaScript is disabled everywhere, even though "Disable JavaScript" isn't selected on other pages.
-* Issue with experience preview URLs for experiences with a redirect. As a workaround, in the Experience Composer, click ** [!UICONTROL  Configure] **, choose ** [!UICONTROL  Multiple Audiences] **, and add ** [!UICONTROL  All visitors] ** as the only audience. Continue to save your activity. This does not change the delivery of your activity, but allows preview to work. This will be fixed in the July release of Adobe Target.
+* Issue with experience preview URLs for experiences with a redirect. As a workaround, in the Experience Composer, click **[!UICONTROL  Configure]**, choose **[!UICONTROL  Multiple Audiences]**, and add **[!UICONTROL  All visitors]** as the only audience. Continue to save your activity. This does not change the delivery of your activity, but allows preview to work. This will be fixed in the July release of Adobe Target.
 * The documentation shows the expected behavior for the Redirect URL checkbox. However, due to a bug, the check box does not show as selected by default. This defect will be fixed soon. To check this option in an existing activity with a redirect offer, use the following workaround: 
 
 
@@ -510,7 +510,7 @@ The following known issues have been reported:
 
 
 * When "Disable JavaScript" is selected for page A in a multipage activity, JavaScript is disabled everywhere, even though "Disable JavaScript" isn't selected on other pages.
-* Issue with experience preview URLs for experiences with a redirect. As a workaround, in the Experience Composer, click ** [!UICONTROL  Configure] **, choose ** [!UICONTROL  Multiple Audiences] **, and add ** [!UICONTROL  All visitors] ** as the only audience. Continue to save your activity. This does not change the delivery of your activity, but allows preview to work. This will be fixed in the July release of Adobe Target.
+* Issue with experience preview URLs for experiences with a redirect. As a workaround, in the Experience Composer, click **[!UICONTROL  Configure]**, choose **[!UICONTROL  Multiple Audiences]**, and add **[!UICONTROL  All visitors]** as the only audience. Continue to save your activity. This does not change the delivery of your activity, but allows preview to work. This will be fixed in the July release of Adobe Target.
 
 
 ## New Target Implementation Library, at.js 0.8.0 (May 5, 2016) {#section_6A44C277E82D409AB6DCD0901F43794A}
@@ -598,7 +598,7 @@ This release includes the following features and enhancements:
       <li id="li_C47240826E5844D6843314F453F042FC">Navigation has moved from the left to the top </li> 
       <li id="li_3BB03504E98C40CC85583DCD9A4CEA06">Improved dialog boxes </li> 
       <li id="li_AE71506DF1E748A788C40E1F09951732">Improved activity creation flow </li> 
-     </ul> </p> <p>The way Experience Cloud solutions, including Target, are selected has also changed. To access Experience Cloud solutions and services, click the menu icon: </p> <p style="text-align: center;"> <img href="../assets/menu-shell-400.png" id="image_6E9323E0EBEA41B1A7319D6BCC43E769" width="400" height="140" /> </p> <p>For more information about accessing Target and making Target your default page after logging in to the Experience Cloud, see <a href="../c_intro/t_target-access-from-mac.md#task_5467C72DAFCB4BB583762CAAFC00A5CF" format="dita" scope="local"> Access Target from the Adobe Experience Cloud </a>. </p> <p>For more information about the user interface improvements, see <a href="https://marketing.adobe.com/resources/help/en_US/mcloud/marketing-cloud-interface.html" format="https" scope="external"> What's New in the Adobe Experience Cloud - Spring 2016 </a>. </p> </td> 
+     </ul> </p> <p>The way Experience Cloud solutions, including Target, are selected has also changed. To access Experience Cloud solutions and services, click the menu icon: </p> <p style="text-align: center;"> <img href="assets/menu-shell-400.png" id="image_6E9323E0EBEA41B1A7319D6BCC43E769" width="400" height="140" /> </p> <p>For more information about accessing Target and making Target your default page after logging in to the Experience Cloud, see <a href="../c_intro/t_target-access-from-mac.md#task_5467C72DAFCB4BB583762CAAFC00A5CF" format="dita" scope="local"> Access Target from the Adobe Experience Cloud </a>. </p> <p>For more information about the user interface improvements, see <a href="https://marketing.adobe.com/resources/help/en_US/mcloud/marketing-cloud-interface.html" format="https" scope="external"> What's New in the Adobe Experience Cloud - Spring 2016 </a>. </p> </td> 
   </tr> 
   <!-- <row> <entry colname="col1">Content similarity weighting (First Look) </entry> <entry colname="col2"> <p> Select specific attributes to consider/prioritize in calculating content similarity </p> <p><xref href="https://jira.corp.adobe.com/browse/TGT-15269">https://jira.corp.adobe.com/browse/TGT-15269</xref></p> <p><xref href="https://jira.corp.adobe.com/browse/TGT-15649">https://jira.corp.adobe.com/browse/TGT-15649</xref></p> </entry> </row> --> 
   <tr> 
@@ -709,7 +709,7 @@ The following known issues have been reported:
 * Some interface issues might occur in Internet Explorer 10, including screen flicker and possible slowness.
 * The Chrome version 48 update introduced an issue that causes the Visual Experience Composer to function incorrectly in Chrome. Google is working on a solution. For information, refer to [ https://code.google.com/p/chromium/issues/detail?id=582603 ](https://code.google.com/p/chromium/issues/detail?id=582603). To work around this issue: 
     * Use Firefox or Internet Explorer.
-    * Enable the Enhanced Experience Composer, which can be configured from within the ** [!UICONTROL  Setup] ** > ** [!UICONTROL  Preferences] ** tab.
+    * Enable the Enhanced Experience Composer, which can be configured from within the **[!UICONTROL  Setup]** > **[!UICONTROL  Preferences]** tab.
 
 
 
@@ -736,7 +736,7 @@ The following known issues have been reported:
 * Some interface issues might occur in Internet Explorer 10, including screen flicker and possible slowness.
 * The Chrome version 48 update introduced an issue that causes the Visual Experience Composer to function incorrectly in Chrome. Google is working on a solution. For information, refer to [ https://code.google.com/p/chromium/issues/detail?id=582603 ](https://code.google.com/p/chromium/issues/detail?id=582603). To work around this issue: 
     * Use Firefox or Internet Explorer.
-    * Enable the Enhanced Experience Composer, which can be configured from within the ** [!UICONTROL  Setup] ** > ** [!UICONTROL  Preferences] ** tab.
+    * Enable the Enhanced Experience Composer, which can be configured from within the **[!UICONTROL  Setup]** > **[!UICONTROL  Preferences]** tab.
 
 
 
@@ -823,7 +823,7 @@ The following known issues have been reported:
 * Some interface issues might occur in Internet Explorer 10, including screen flicker and possible slowness.
 * The Chrome version 48 update introduced an issue that causes the Visual Experience Composer to function incorrectly in Chrome. Google is working on a solution. For information, refer to [ https://code.google.com/p/chromium/issues/detail?id=582603 ](https://code.google.com/p/chromium/issues/detail?id=582603). To work around this issue: 
     * Use Firefox or Internet Explorer.
-    * Enable the Enhanced Experience Composer, which can be configured from within the ** [!UICONTROL  Setup] ** > ** [!UICONTROL  Preferences] ** tab.
+    * Enable the Enhanced Experience Composer, which can be configured from within the **[!UICONTROL  Setup]** > **[!UICONTROL  Preferences]** tab.
 
 
 

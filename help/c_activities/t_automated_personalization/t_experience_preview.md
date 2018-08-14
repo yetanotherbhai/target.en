@@ -7,8 +7,8 @@ solution: Target
 title: Share Experience URLs to Preview Automated Personalization Outside of Target
 title_outputclass: premium
 topic: Standard
-uuid: 8109b186-327a-455a-8e4b-f8913411eaee
-badge: assets/premium.png
+uuid: a90d109a-b34d-4713-945a-c1e9b4d45881
+badge: premium
 index: y
 internal: n
 snippet: y
@@ -31,7 +31,7 @@ Use experience URLs to share experiences with team members and to QA experiences
 >1. Create an [ Automated Personalization activity](../../c_activities/t_automated_personalization/t_create_ap_activity.md#task_8AAF837796D74CF893CA2F88BA1491C9) or click the activity to open it.
 
 >       The activity does not have to be live to preview an experience. 
->1. On the activity summary page, click on the three vertical dots, then click ** [!UICONTROL  View Experience URLs] **.
+>1. On the activity summary page, click on the three vertical dots, then click **[!UICONTROL  View Experience URLs]**.
 >1. Review and/or specify your URLs.
 
 >    
@@ -42,7 +42,7 @@ Use experience URLs to share experiences with team members and to QA experiences
 >       You can add multiple URLs, which is useful when running a multi-page test or a template test and you want to preview the activity on more than one page. 
 
 >       A modal window displays links to your experiences on your site to get a "true preview" of the experiences outside of Target's Visual Experience Composer. You must share the links from the message to share the preview. Clicking a link and then copying the resulting URL from the page won't work because the URL contains a parameter that only displays the page correctly when you access the page from the link in the message. Instead, copy the text in the modal window and email the whole text to your team. 
->1. Click ** [!UICONTROL  Generate All] **, then click each experience to preview it.
+>1. Click **[!UICONTROL  Generate All]**, then click each experience to preview it.
 >   If you then make changes to the experience, make sure to generate new preview links for your team by returning to the modal window and clicking **Generate all** to get new links. 
 
 >   **Note:** The preview links open in new tabs and require that the pop-up blocker on your browser is disabled. 
@@ -50,4 +50,4 @@ Use experience URLs to share experiences with team members and to QA experiences
 >1. Click each experience name to preview the activity.
 
 >       The page opens, displaying the activity. 
->1. Click ** [!UICONTROL  Done] ** to return to the activity summary.
+>1. Click **[!UICONTROL  Done]** to return to the activity summary.

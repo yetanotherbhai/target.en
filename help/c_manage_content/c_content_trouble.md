@@ -7,7 +7,7 @@ solution: Target
 subtopic: Multivariate Test
 title: Troubleshooting Content Delivery
 topic: Standard
-uuid: 15ed66e5-0a14-4c02-9837-2eb6b250340c
+uuid: 3db79456-5c33-4ebc-bfae-a9546b97fd6c
 index: y
 internal: n
 snippet: y
@@ -95,13 +95,13 @@ Because mboxTrace and mboxDebug can expose campaign data and profile data to ext
 To retrieve the authorization token: 
 
 
-1. Click ** [!UICONTROL  Setup] ** > ** [!UICONTROL  Implementation] **. 
+1. Click **[!UICONTROL  Setup]** > **[!UICONTROL  Implementation]**. 
 
-1. Select ** [!UICONTROL  mbox.js] ** or ** [!UICONTROL  at.js] **. 
+1. Select **[!UICONTROL  mbox.js]** or **[!UICONTROL  at.js]**. 
 
-1. Click ** [!UICONTROL  Generate Authentication Token] **. 
+1. Click **[!UICONTROL  Generate Authentication Token]**. 
 
-   ![](../assets/gen-auth-token.png) 
+   ![](assets/gen-auth-token.png) 
 
 1. Add the generated token as a parameter to your URL to enable one of the advanced debugging tools. 
 
@@ -178,7 +178,7 @@ Some of the information includes matched and unmatched segment and target IDs:
 
 
 
-You do not need to include , , or  in the query parameter. When you are done with the mboxTrace details, add  and press ** [!UICONTROL  Enter] ** to return to the normal display mode. 
+You do not need to include , , or  in the query parameter. When you are done with the mboxTrace details, add  and press **[!UICONTROL  Enter]** to return to the normal display mode. 
 
 The normal functioning and appearance of your site is not affected by mboxTrace. Visitors will see your regular Recommendations design. 
 
@@ -257,7 +257,7 @@ Mbox.js sends a cookie called "em-disabled" to the visitor if target.js fails to
 
 ## Top sellers are not appearing in Recommendations {#section_3920C857270A406C80BE6CBAC8221ECD}
 
-The * ` SIteCatalyst: purchase` * mbox can't be used for Purchase algorithm traffic data. Use the * ` orderConfirmPage` * mbox instead. 
+The *` SIteCatalyst: purchase`* mbox can't be used for Purchase algorithm traffic data. Use the *` orderConfirmPage`* mbox instead. 
 
 ## Check Activity Priority {#section_3D0DD07240F0465BAF655D0804100AED}
 

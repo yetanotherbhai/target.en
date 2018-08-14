@@ -5,7 +5,7 @@ seo-description: You can send additional information about the location or the u
 seo-title: iOS - Send Custom User Data
 title: iOS - Send Custom User Data
 topic: Target
-uuid: 9446db31-e45e-4e8e-9a28-89cdc51b6d6c
+uuid: 5001ce90-66d3-49a7-ad26-95c4e9ac0dcf
 index: y
 internal: n
 snippet: y
@@ -63,6 +63,6 @@ Although there are some reserved keys, both profile and mbox parameters can cont
 
 >   >       Search for your target location name in your debug console. You will see a call to ` YOUR-CLIENT-CODE.tt.omtrdc.net`with all the parameters that you just passed. 
 
->   >       ![](../assets/mobile-debug.png) 
+>   >       ![](assets/mobile-debug.png) 
 
 >       You can build audiences and restrict or target the display of content using these parameters in Target Standard. 

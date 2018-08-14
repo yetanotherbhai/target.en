@@ -6,7 +6,7 @@ seo-title: Search Content and Create Smart Collections
 solution: Target
 title: Search Content and Create Smart Collections
 topic: Premium
-uuid: 2638dfbb-49d6-471d-bbf2-63f5972ee891
+uuid: 09b61251-27fd-4de4-8819-ad9c387094ff
 index: y
 internal: n
 snippet: y
@@ -25,17 +25,17 @@ This section contains the following information:
 ## Search for Assets by Keyword {#section_2465A71BC95942588F586B1EC8B9E5DB}
 
 
-1. Click ** [!UICONTROL  Offers] ** > ** [!UICONTROL  Image Offers] ** to access the [!UICONTROL  Asset Library]. 
+1. Click **[!UICONTROL  Offers]** > **[!UICONTROL  Image Offers]** to access the [!UICONTROL  Asset Library]. 
 
-   You can click the [!UICONTROL  Card View] icon (  ![](../assets/icon_card_view.png) ) in the top right corner to display assets in card-view format. 
+   You can click the [!UICONTROL  Card View] icon (  ![](assets/icon_card_view.png) ) in the top right corner to display assets in card-view format. 
 
    Or 
 
-   You can click the [!UICONTROL  List View] icon (  ![](../assets/icon_list_view.png) ) in the top right corner to display assets in list-view format. 
+   You can click the [!UICONTROL  List View] icon (  ![](assets/icon_list_view.png) ) in the top right corner to display assets in list-view format. 
 
-1. Click the ** [!UICONTROL  Content Only] ** icon (  ![](../assets/icon_filter.png) ) in the top left corner to display the search box. 
+1. Click the **[!UICONTROL  Content Only]** icon (  ![](assets/icon_filter.png) ) in the top left corner to display the search box. 
 
-   ![](../assets/search_assets.png) 
+   ![](assets/search_assets.png) 
 
 1. In the search box, type a keyword for the asset(s) you want to locate, then press Enter. 
 
@@ -46,31 +46,31 @@ This section contains the following information:
 You can create saved searches, called smart collections, to save time when performing similar searches. A saved search creates a smart collection that is automatically updated with search results. 
 
 
-1. Click ** [!UICONTROL  Offers] ** > ** [!UICONTROL  Image Offers] ** to access the [!UICONTROL  Assets Library]. 
+1. Click **[!UICONTROL  Offers]** > **[!UICONTROL  Image Offers]** to access the [!UICONTROL  Assets Library]. 
 
-   ![](../assets/content.png) 
+   ![](assets/content.png) 
 
-1. Click the ** [!UICONTROL  Content Only] ** icon (  ![](../assets/icon_filter.png) ) in the top left corner to display the [!UICONTROL  Filter &amp;amp; Options] panel in the left rail. 
+1. Click the **[!UICONTROL  Content Only]** icon (  ![](assets/icon_filter.png) ) in the top left corner to display the [!UICONTROL  Filter &amp;amp; Options] panel in the left rail. 
 
-1. Click the ** [!UICONTROL  Browse] ** icon (  ![](../assets/icon_browse.png) ) to display the [!UICONTROL  Select Path] dialog box. 
+1. Click the **[!UICONTROL  Browse]** icon (  ![](assets/icon_browse.png) ) to display the [!UICONTROL  Select Path] dialog box. 
 
-   ![](../assets/browse_folders.png) 
+   ![](assets/browse_folders.png) 
 
-1. Browse to and select the desired folder that you want to base the smart collection on, then click the ** [!UICONTROL  Confirm] ** icon (  ![](../assets/icon_confirm.png) ). 
+1. Browse to and select the desired folder that you want to base the smart collection on, then click the **[!UICONTROL  Confirm]** icon (  ![](assets/icon_confirm.png) ). 
 
-   ![](../assets/browse_folders2.png) 
+   ![](assets/browse_folders2.png) 
 
 1. (Optional) Select from among the various options to narrow your filter, for example, file type and size. 
 
-1. Click ** [!UICONTROL  Save Smart Collection] ** at the bottom of the [!UICONTROL  Filter &amp;amp; Options] panel to display the Save options. 
+1. Click **[!UICONTROL  Save Smart Collection]** at the bottom of the [!UICONTROL  Filter &amp;amp; Options] panel to display the Save options. 
 
-   ![](../assets/save_smart_collection_options.png) 
+   ![](assets/save_smart_collection_options.png) 
 
-1. Specify a name for the smart collection, select the ** [!UICONTROL  Public] ** check box if you want all users in your [!DNL  Target] account to be able to access this smart collection, then click ** [!UICONTROL  Save] **. 
+1. Specify a name for the smart collection, select the **[!UICONTROL  Public]** check box if you want all users in your [!DNL  Target] account to be able to access this smart collection, then click **[!UICONTROL  Save]**. 
 
    The smart collection is added to your saved searches list for future use: 
 
-   ![](../assets/saved_smart_collection.png) 
+   ![](assets/saved_smart_collection.png) 
 
 
 

@@ -5,7 +5,7 @@ seo-title: In-Mbox Profile Attributes
 solution: Target
 title: In-Mbox Profile Attributes
 topic: Standard
-uuid: 269b274c-e641-4721-846a-2ce4a9b8c71e
+uuid: 624d29d0-9554-44a3-a0fa-8120bb3ca6e3
 index: y
 internal: n
 snippet: y

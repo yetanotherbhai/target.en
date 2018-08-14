@@ -5,7 +5,7 @@ seo-description: Each Target report uses a specific set of Adobe Target paramete
 seo-title: Report Parameters
 solution: Target
 title: Report Parameters
-uuid: 565e3b87-bdc3-4d50-9e36-4758929098c1
+uuid: 35539ddf-a41e-4024-b973-0d73d7333928
 index: y
 internal: n
 snippet: y

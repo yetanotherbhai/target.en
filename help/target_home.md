@@ -4,7 +4,7 @@ seo-title: Adobe Target Product Documentation
 solution: Target
 title: Adobe Target Product Documentation
 topic: Premium
-uuid: a29e6c3f-ff80-4789-9589-0d27370c31f0
+uuid: fc0efe4a-a376-473c-afc7-acbdc641adb5
 index: y
 internal: n
 snippet: y

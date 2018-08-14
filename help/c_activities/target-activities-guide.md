@@ -6,7 +6,7 @@ seo-title: Target Activities Guide
 solution: Target
 title: Target Activities Guide
 topic: Standard
-uuid: 9ad7a963-489c-4fba-bf0e-b4e52bed5cc9
+uuid: af19d629-dfb7-44bd-9239-4c1b62d57075
 index: y
 internal: n
 snippet: y
@@ -50,27 +50,27 @@ The following sections contain more information:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Manual A/B Test </p> <p style="text-align: center;"> <img href="../assets/icon_ab.png" id="image_C2A0B65E3C4C4BFFAE3F5DD24C7E5015" /> </p> </td> 
+   <td colname="col1"> <p>Manual A/B Test </p> <p style="text-align: center;"> <img href="assets/icon_ab.png" id="image_C2A0B65E3C4C4BFFAE3F5DD24C7E5015" /> </p> </td> 
    <td colname="col2"> <p>Compares two or more experiences to see which best improves conversions throughout a pre-specified test period. </p> <p>For more information, see <a href="../c_activities/t_test_ab.md#task_05E33EB15C4D4459B5EAFF90A94A7977" format="dita" scope="local"> A/B Test </a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Auto-Allocate </p> <p style="text-align: center;"> <img href="../assets/icon_auto_allocate.png" id="image_F669798BA6C24920ACA26DA2BD0332CD" /> </p> </td> 
+   <td colname="col1"> <p>Auto-Allocate </p> <p style="text-align: center;"> <img href="assets/icon_auto_allocate.png" id="image_F669798BA6C24920ACA26DA2BD0332CD" /> </p> </td> 
    <td colname="col2"> <p> Identifies a winner among two or more experiences, and then re-directs traffic to the winner, increasing conversion as the test runs and learns. </p> <p>For more information, see <a href="../c_activities/automated_traffic_allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4" format="dita" scope="local"> Auto-Allocate </a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Auto-Target </p> <p style="text-align: center;"> <img href="../assets/icon_auto_target.png" id="image_18E9C78428AD4AADB4F72E70ABFFCFD3" /> </p> </td> 
+   <td colname="col1"> <p>Auto-Target </p> <p style="text-align: center;"> <img href="assets/icon_auto_target.png" id="image_18E9C78428AD4AADB4F72E70ABFFCFD3" /> </p> </td> 
    <td colname="col2"> <p> Uses advanced machine learning to personalize content and drive conversions by identifying multiple high-performing, marketer-defined experiences, and then serving the most tailored experience to visitors based on their individual customer profiles and past behaviors of similar visitors. </p> <p>For more information, see <a href="../c_activities/c_auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3" format="dita" scope="local"> Auto-Target For Personalized Experiences </a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Automated Personalization (AP) </p> <p style="text-align: center;"> <img href="../assets/icon_ap.png" id="image_D8FD50F9CE264D1AA3E2CD0ECEAA66AB" /> </p> </td> 
+   <td colname="col1"> <p>Automated Personalization (AP) </p> <p style="text-align: center;"> <img href="assets/icon_ap.png" id="image_D8FD50F9CE264D1AA3E2CD0ECEAA66AB" /> </p> </td> 
    <td colname="col2"> <p> Uses advanced machine learning to personalize content and drive conversions by combining specific offers or messages, and then matching different offer variations to visitors, based on their individual customer profiles. </p> <p>For more information, see <a href="../c_activities/t_automated_personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9" format="dita" scope="local"> Automated Personalization </a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Multivariate Testing (MVT) </p> <p style="text-align: center;"> <img href="../assets/icon_mvt.png" id="image_F652C3C7911F4D6D8070001CC73B32E6" /> </p> </td> 
+   <td colname="col1"> <p>Multivariate Testing (MVT) </p> <p style="text-align: center;"> <img href="assets/icon_mvt.png" id="image_F652C3C7911F4D6D8070001CC73B32E6" /> </p> </td> 
    <td colname="col2"> <p>Compares combinations of offers among elements on a page to see which combination performs the best for a specific audience. Also, identifies which element of the page best improves conversions throughout a pre-specified test period. </p> <p>For more information, see <a href="../c_activities/c_multivariate_testing.md#concept_628695CDC71B449B8DCC2F5654C11499" format="dita" scope="local"> Multivariate Test </a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Experience Targeting (XT) </p> <p style="text-align: center;"> <img href="../assets/icon_xt.png" id="image_7A63B0F5EFA94C1E8C71CDA35088B7DC" /> </p> </td> 
+   <td colname="col1"> <p>Experience Targeting (XT) </p> <p style="text-align: center;"> <img href="assets/icon_xt.png" id="image_7A63B0F5EFA94C1E8C71CDA35088B7DC" /> </p> </td> 
    <td colname="col2"> <p> Delivers content to a specific audience based on a set of marketer-defined rules and criteria. </p> <p>For more information, see <a href="../c_activities/t_experience_target.md#task_A53DF336CB9F4D7BB87EF2106099EFC4" format="dita" scope="local"> Experience Targeting </a>. </p> </td> 
   </tr> 
  </tbody> 

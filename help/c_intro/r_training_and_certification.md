@@ -7,7 +7,7 @@ solution: Target
 subtopic: Getting Started
 title: Training and Certification
 topic: Standard
-uuid: e59cdf90-219a-4da9-9a45-f85b5459c0b5
+uuid: 07285ae4-7fd8-4e65-8295-214282d23b94
 index: y
 internal: n
 snippet: y

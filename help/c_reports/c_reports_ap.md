@@ -6,8 +6,8 @@ seo-title: Automated Personalization Summary Reports
 solution: Target
 title: Automated Personalization Summary Reports
 title_outputclass: premium
-uuid: 939ba739-0605-428d-8033-b468b2357db9
-badge: assets/premium.png
+uuid: 57a5b4f2-f6fd-44c9-9fb6-94695f3aa375
+badge: premium
 index: y
 internal: n
 snippet: y
@@ -24,18 +24,18 @@ translate: y
 
 
 
-1. Click ** [!UICONTROL  Activities] **, click the desired [!UICONTROL  Automated Personalization] activity from the list, then click the ** [!UICONTROL  Reports] ** tab. 
+1. Click **[!UICONTROL  Activities]**, click the desired [!UICONTROL  Automated Personalization] activity from the list, then click the **[!UICONTROL  Reports]** tab. 
 
    If you have many activities, you can filter the list by selecting [!UICONTROL  Automated Personalization] from the [!UICONTROL  Type] drop-down list. 
 
-1. (Optional) Click the [!UICONTROL  Download] icon (  ![](../assets/icon_download.png) ) to download the summary view (for example, comparing Control and Targeted traffic) as broken down by all available success metrics. 
+1. (Optional) Click the [!UICONTROL  Download] icon (  ![](assets/icon_download.png) ) to download the summary view (for example, comparing Control and Targeted traffic) as broken down by all available success metrics. 
 
 
 
 
 >[!NOTE]
 >
->The [!UICONTROL  Settings] icon (  ![](../assets/icon_gear.png) ) is not available for [!UICONTROL  Automated Personalization] reports. 
+>The [!UICONTROL  Settings] icon (  ![](assets/icon_gear.png) ) is not available for [!UICONTROL  Automated Personalization] reports. 
 
 
 
@@ -50,7 +50,7 @@ translate: y
 
 The [!UICONTROL  Activity Level] report compares the aggregate performance of using an [!UICONTROL  Automated Personalization] algorithm to randomly served content (control). 
 
-![](../assets/box_plot_ap.jpg) 
+![](assets/box_plot_ap.jpg) 
 
 The standard rules of results interpretation for A/B testing still apply, including lift, confidence, trending, duration, and so on. For more information about interpreting results, see [ About the Conversion Rate](../c_reports/c_conversion_rate.md#concept_2D9FEDE8F94A485DAC86D611BFBDC844). 
 
@@ -60,7 +60,7 @@ The [!UICONTROL  Offer Level] report for the Random Forest experience compares t
 
 Click the experience algorithm (Random Forest or control) to view the Offer Level report. 
 
-![](../assets/ap_OfferLevelRpt.png) 
+![](assets/ap_OfferLevelRpt.png) 
 
 Offers can be shown within report groups, and these report groups can be collapsed and expanded. Select [!UICONTROL  Reporting Group] in the drop-down list to view rolled-up information by reporting groups, rather than by offers. 
 

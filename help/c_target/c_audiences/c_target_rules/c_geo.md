@@ -6,7 +6,7 @@ seo-title: Geo
 solution: Target,Analytics
 title: Geo
 topic: Reports and analytics
-uuid: 2bc285b4-25c7-409f-9672-53366896d0c2
+uuid: 65c26384-cd5b-4bae-b766-e307a2a52b3b
 index: y
 internal: n
 snippet: y
@@ -54,15 +54,15 @@ This section contains the following information:
 ## Create an Audience with Geo Targeting {#section_49CBFFAAC8694C4AAD3DE4B2DB7B05DE}
 
 
-1. In the [!DNL  Target] interface, click ** [!UICONTROL  Audiences] ** > ** [!UICONTROL  Create Audience] **. 
+1. In the [!DNL  Target] interface, click **[!UICONTROL  Audiences]** > **[!UICONTROL  Create Audience]**. 
 
 1. Name the audience. 
 
-1. Click ** [!UICONTROL  Add Rule] ** > ** [!UICONTROL  Geo] **. 
+1. Click **[!UICONTROL  Add Rule]** > **[!UICONTROL  Geo]**. 
 
-   ![](../../../assets/target_geo.png) 
+   ![](assets/target_geo.png) 
 
-1. Click ** [!UICONTROL  Select] **, then select one of the following options: 
+1. Click **[!UICONTROL  Select]**, then select one of the following options: 
 
 
     * Country
@@ -79,9 +79,9 @@ This section contains the following information:
 
    For Mobile Carrier, [!DNL  Target] uses the IP address registration data (who owns the block of IP addresses) to determine the appropriate mobile carrier using [ Mobile Country Codes (MCC) and Mobile Network Codes MNC) ](http://www.mcc-mnc.com). 
 
-1. (Optional) Click ** [!UICONTROL  Add Rule] ** and set up additional rules for the audience. 
+1. (Optional) Click **[!UICONTROL  Add Rule]** and set up additional rules for the audience. 
 
-1. Click ** [!UICONTROL  Save] **. 
+1. Click **[!UICONTROL  Save]**. 
 
 
 

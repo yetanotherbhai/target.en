@@ -6,7 +6,7 @@ seo-title: A4T Frequently Asked Questions
 solution: Target
 title: A4T Frequently Asked Questions
 topic: Standard
-uuid: 400c07cb-4f8c-4655-bdcf-02bb86e77d1e
+uuid: 98d59c99-3a78-4cf5-addf-88cd1f821aab
 index: y
 internal: n
 snippet: y

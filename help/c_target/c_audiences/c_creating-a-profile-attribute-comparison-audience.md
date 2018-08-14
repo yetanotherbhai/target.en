@@ -6,7 +6,7 @@ seo-title: Creating a Profile Attribute Comparison Audience
 solution: Target
 title: Creating a Profile Attribute Comparison Audience
 topic: Advanced,Standard,Classic
-uuid: 76334fe5-2538-47ec-8210-d0955b590971
+uuid: bfdbf989-96f1-470c-b28e-93626a56f302
 index: y
 internal: n
 snippet: y
@@ -40,21 +40,21 @@ For more information, see [ Methods to get Data into Target](../../c_seting_up_t
 **To create a profile attribute comparison audience:** 
 
 
-1. Click ** [!UICONTROL  Audiences] ** > ** [!UICONTROL  Create Audience] ** > ** [!UICONTROL  Add Rule] ** > ** [!UICONTROL  Visitor Profile] **. 
+1. Click **[!UICONTROL  Audiences]** > **[!UICONTROL  Create Audience]** > **[!UICONTROL  Add Rule]** > **[!UICONTROL  Visitor Profile]**. 
 
-1. From the ** [!UICONTROL  Visitor Profile] ** drop-down list, choose an attribute: 
+1. From the **[!UICONTROL  Visitor Profile]** drop-down list, choose an attribute: 
 
-   ![](../../assets/propensity_score_1.png) 
+   ![](assets/propensity_score_1.png) 
 
 1. Choose your Evaluator: 
 
-   ![](../../assets/propensity_score_2.png) 
+   ![](assets/propensity_score_2.png) 
 
-1. From the ** [!UICONTROL  Choose Comparison Type] ** drop-down list, choose ** [!UICONTROL  Attribute] **. 
+1. From the **[!UICONTROL  Choose Comparison Type]** drop-down list, choose **[!UICONTROL  Attribute]**. 
 
    The "static value" comparison type lets you compare your visitor profile attribute to specific value(s). 
 
-   ![](../../assets/propensity_score_3.png) 
+   ![](assets/propensity_score_3.png) 
 
 
    >[!NOTE]
@@ -66,6 +66,6 @@ For more information, see [ Methods to get Data into Target](../../c_seting_up_t
 
    For example, if the "Kitchen" attribute score for a specific visitor is greater than the score for "Decor," then that visitor would be included in this audience. 
 
-   ![](../../assets/propensity_score_4.png) 
+   ![](assets/propensity_score_4.png) 
 
 

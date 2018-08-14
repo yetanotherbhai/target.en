@@ -7,7 +7,7 @@ solution: Target
 subtopic: Multivariate Test
 title: Behavioral Targeting Examples and Tips
 topic: Standard
-uuid: 9870427b-e30c-44d3-863b-5b34b7cc58eb
+uuid: 95e58819-059e-411e-96c6-b51c0b04d45a
 index: y
 internal: n
 snippet: y
@@ -354,7 +354,7 @@ For more information, see the [ JavaScript Expression Cheat Sheet (PDF) ](http:/
 >On a retail site, a visitor's lifetime purchase history can predict future shopping behavior. As a marketer, you might have a hypothesis that users who have purchased over $200 are more likely to buy products in the future, so your homepage should highlight higher margin products. 
 <draft-comment>
   target/c_target_total_amount.xml 
-</draft-comment>Select ** [!UICONTROL  Segments] ** > ** [!UICONTROL  Profiles] **. Write a script that calculates a user's total lifetime amount spent by adding the new order total on the order confirm page. 
+</draft-comment>Select **[!UICONTROL  Segments]** > **[!UICONTROL  Profiles]**. Write a script that calculates a user's total lifetime amount spent by adding the new order total on the order confirm page. 
 
 The following script assumes that the amount for the current order is passed as an mbox parameter named ` orderTotal`: 
 
@@ -453,7 +453,7 @@ Once the expression targets are created, create a campaign and target the experi
 >Does a visitor behave differently based on the day or time? For example, is behavior different during work hours than after work hours? 
 <draft-comment>
   target/c_target_time_and_day.xml 
-</draft-comment>Select ** [!UICONTROL  Segments] ** > ** [!UICONTROL  Expression Targets] **, then write a script that examines the day and time. In order to use the visitor's local time, use the special * ` profile.browserTime` * variable. Note that this requires [!DNL  mbox.js] version 36 or later. Here is the strategy for work hours versus after work hours, but you can modify for your unique situation: 
+</draft-comment>Select **[!UICONTROL  Segments]** > **[!UICONTROL  Expression Targets]**, then write a script that examines the day and time. In order to use the visitor's local time, use the special *` profile.browserTime`* variable. Note that this requires [!DNL  mbox.js] version 36 or later. Here is the strategy for work hours versus after work hours, but you can modify for your unique situation: 
 
 Create two expression targets: 
 

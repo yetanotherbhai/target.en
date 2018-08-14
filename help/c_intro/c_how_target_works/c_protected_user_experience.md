@@ -7,7 +7,7 @@ solution: Target
 subtopic: Getting Started
 title: Protected User Experience
 topic: Standard
-uuid: e2ca716a-9919-4f63-86d9-72f5d6cc33e8
+uuid: 2f529365-228c-4e03-b441-911893772c0f
 index: y
 internal: n
 snippet: y

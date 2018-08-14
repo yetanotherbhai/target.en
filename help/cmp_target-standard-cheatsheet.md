@@ -6,7 +6,7 @@ seo-title: Target Optimization and Personalization FAQ
 solution: Target
 title: Target Optimization and Personalization FAQ
 topic: Advanced
-uuid: c063f8f6-fc2b-400c-a0dc-07ce0753d7c7
+uuid: b34cee0d-de63-4677-9222-6528e69b6b01
 index: y
 internal: n
 snippet: y

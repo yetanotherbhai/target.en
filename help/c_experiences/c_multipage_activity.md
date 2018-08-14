@@ -6,7 +6,7 @@ seo-title: Multipage Activity
 solution: Target
 title: Multipage Activity
 topic: Advanced
-uuid: 9d477640-e8db-4e14-83bc-c693789f0633
+uuid: e1d1054e-5b52-4cc5-b906-5f25ce6c06eb
 index: y
 internal: n
 snippet: y
@@ -30,16 +30,16 @@ You can specify template rules for each page in the multipage test. For example,
 
 To add pages to a test: 
 
-1. Click the ** [!UICONTROL  Configure] ** gear icon.
-1. Click ** [!UICONTROL  Add Additional Pages] **. A navigation bar appears on the left of the screen. 
+1. Click the **[!UICONTROL  Configure]** gear icon.
+1. Click **[!UICONTROL  Add Additional Pages]**. A navigation bar appears on the left of the screen. 
 
-   ![](../assets/multipage_nav.png) 
+   ![](assets/multipage_nav.png) 
 
-1. Use that navigational bar to specify your pages and to set the default page. Click ** [!UICONTROL  Add Page] ** to add an additional page. 
+1. Use that navigational bar to specify your pages and to set the default page. Click **[!UICONTROL  Add Page]** to add an additional page. 
 
-   Click the  ![](../assets/action_menu.png) to display an action menu: 
+   Click the  ![](assets/action_menu.png) to display an action menu: 
 
-   ![](../assets/multipage_menu.png) 
+   ![](assets/multipage_menu.png) 
 
    Use this menu to rename the pages, perform a redirect test from within the multipage activity or delete the page. 
 

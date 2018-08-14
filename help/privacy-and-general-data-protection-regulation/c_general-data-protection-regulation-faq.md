@@ -6,7 +6,7 @@ seo-title: General Data Protection Regulation FAQ
 solution: Target
 title: General Data Protection Regulation FAQ
 topic: Standard
-uuid: 96cf892d-642d-49b5-8406-50ba55024f06
+uuid: 9802a9ba-8a83-49f6-89ed-45a09a4a50b4
 index: y
 internal: n
 snippet: y

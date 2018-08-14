@@ -7,7 +7,7 @@ solution: Target
 subtopic: Multivariate Test
 title: Auto-Target Summary Report
 topic: Standard
-uuid: 6dd8311b-18de-4d26-939a-79d38525ef07
+uuid: 3ee146dd-6aa0-4100-97cf-0a3ecf9015c5
 index: y
 internal: n
 snippet: y
@@ -18,7 +18,7 @@ translate: y
 
 The following illustration shows what a typical summary report looks like when using Auto-Target: 
 
-![](../assets/autotarget.png) 
+![](assets/autotarget.png) 
 
 Some tips and considerations as you interpret your Auto-Target reports: 
 

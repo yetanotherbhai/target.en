@@ -6,7 +6,7 @@ seo-title: Include the Same Experience on Similar Pages
 solution: Target
 title: Include the Same Experience on Similar Pages
 topic: Premium
-uuid: ce58d8be-cb3f-4db2-b6a1-27fba979dead
+uuid: b15592b6-32a8-4a25-aaa3-56e3171c43f1
 index: y
 internal: n
 snippet: y
@@ -63,9 +63,9 @@ The following demo video includes information about using a template:
 You can specify pages that include the change elements, or apply the change across your site. 
 
 >1. Create an activity as described in [ Activities](../c_activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03).
->1. To specify the pages where the experience will appear, in the Visual Experience Composer click the gear icon, then select ** [!UICONTROL  URL] **.
+>1. To specify the pages where the experience will appear, in the Visual Experience Composer click the gear icon, then select **[!UICONTROL  URL]**.
 
->1. Click ** [!UICONTROL  Add Rule] **, then specify the criteria for the pages you want to add the experience to.
+>1. Click **[!UICONTROL  Add Rule]**, then specify the criteria for the pages you want to add the experience to.
 
 >    
 >    1. Specify the page range. The page range can be one of the following: >    
@@ -86,7 +86,7 @@ You can specify pages that include the change elements, or apply the change acro
 >        * Is not
 
 
->    1. Type the strings that define where the experience is added, such as the domain or the strings contained in the page name. For example, if you select ** [!UICONTROL  Domain] ** and ** [!UICONTROL  Is] **, type the domain where you want the experience added to all pages. 
+>    1. Type the strings that define where the experience is added, such as the domain or the strings contained in the page name. For example, if you select **[!UICONTROL  Domain]** and **[!UICONTROL  Is]**, type the domain where you want the experience added to all pages. 
 
 >       You can include multiple items. 
 
@@ -97,5 +97,5 @@ You can specify pages that include the change elements, or apply the change acro
 
 
 
->1. If desired, enter additional criteria by clicking ** [!UICONTROL  Add Criteria] **and repeating the procedure in the previous step.
+>1. If desired, enter additional criteria by clicking **[!UICONTROL  Add Criteria]**and repeating the procedure in the previous step.
 

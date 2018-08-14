@@ -7,8 +7,8 @@ solution: Target
 title: Feeds
 title_outputclass: premium
 topic: Premium
-uuid: 565bf69f-1759-4801-a70a-b39c5b8a8460
-badge: assets/premium.png
+uuid: 8a68a581-a891-496a-b74c-fc47baeabbf5
+badge: premium
 index: y
 internal: n
 snippet: y
@@ -37,7 +37,7 @@ You can select which columns from your Adobe Target product classifications file
 
 If data is collected by both an entity feed and an mbox, the most recent data wins. Usually, the most recent data comes from an mbox, because it is viewed more often. In the rare event that entity feed data and mbox data hit at the same time, the mbox data is used. 
 
-The [!UICONTROL  Feeds] list ( ** [!UICONTROL  Recommendations] ** > ** [!UICONTROL  Feeds] **) provides information about any feeds you have created. To edit the name of a feed, you must edit the feed itself. When you save with the new name, the feed is refreshed. 
+The [!UICONTROL  Feeds] list ( **[!UICONTROL  Recommendations]** > **[!UICONTROL  Feeds]**) provides information about any feeds you have created. To edit the name of a feed, you must edit the feed itself. When you save with the new name, the feed is refreshed. 
 
 
 >[!NOTE]
@@ -257,11 +257,11 @@ The Analytics Product classification is the only classification available for re
 <draft-comment>
   recs/t_feeds_create.xml 
 </draft-comment>
->1. From within the Target interface, click ** [!UICONTROL  Recommendations] ** > ** [!UICONTROL  Feeds] ** > ** [!UICONTROL  Create Feed] **.
+>1. From within the Target interface, click **[!UICONTROL  Recommendations]** > **[!UICONTROL  Feeds]** > **[!UICONTROL  Create Feed]**.
 
->       ![Step Result](../../assets/CreateFeed.png) 
+>       ![Step Result](assets/CreateFeed.png) 
 >1. Specify a descriptive name for your feed.
->1. Select a ** [!UICONTROL  Source Type] **.
+>1. Select a **[!UICONTROL  Source Type]**.
 
 >       For information about Google Product Feed and CSV feed types, see [ Feeds Overview ](../../c_recommendations/c_products/c_feeds.md#concept_D1E9C7347C5D4583AA69B02E79607890). 
 >1. Specify a Report Suite, or the URL or FTP location where the feed can be accessed.
@@ -269,9 +269,9 @@ The Analytics Product classification is the only classification available for re
 >       If you select FTP, provide the FTP server information, the login credentials, the filename, and the FTP directory. You have the option to use FTP with SSL (FTPS) for more secure uploads. 
 
 >       If you select URL, specify the URL. 
->1. Click the ** [!UICONTROL  Next] ** arrow to display the [!UICONTROL  Schedule] options.
+>1. Click the **[!UICONTROL  Next]** arrow to display the [!UICONTROL  Schedule] options.
 
->       ![Step Result](../../assets/CreateFeedSchedule.png) 
+>       ![Step Result](assets/CreateFeedSchedule.png) 
 >1. Select an update option:
 
 >    
@@ -284,9 +284,9 @@ The Analytics Product classification is the only classification available for re
 >1. Specify the time you want your feed to run.
 
 >       This option is based on the time zone used in your browser. If you want to use a time in a different time zone, you must calculate that time according to your time zone. 
->1. Click the ** [!UICONTROL  Next] ** arrow to display the [!UICONTROL  Mapping] options, then specify how you want to map your data to [!DNL  Target] definitions.
+>1. Click the **[!UICONTROL  Next]** arrow to display the [!UICONTROL  Mapping] options, then specify how you want to map your data to [!DNL  Target] definitions.
 
->       ![Step Result](../../assets/CreatFeedMapping.png) 
+>       ![Step Result](assets/CreatFeedMapping.png) 
 >1. (Optional) If you want the feed to belong to an environment (host group), select the host group.
 
 >       By default the feed belongs to all host groups. This ensures that items in this feed are available in any environment. 
@@ -296,7 +296,7 @@ The Analytics Product classification is the only classification available for re
 >       >
 >       >For more information, see[ Hosts ](../../c_seting_up_target/c_hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E). 
 
->1. Click ** [!UICONTROL  Save] **.
+>1. Click **[!UICONTROL  Save]**.
 >## Feed Statuses and Indicators {#concept_E475986720D1400999868B3DFD14A7A0}
 >Information about the possible feed statuses and their indicators. 
 <draft-comment>
@@ -371,7 +371,7 @@ The following are possible statuses for a feed:
  </tbody> 
 </table>
 
-To update a feed (for example, to make changes to your feed configuration or feed file), open the feed, make any desired changes, and click ** [!UICONTROL  Save] **. 
+To update a feed (for example, to make changes to your feed configuration or feed file), open the feed, make any desired changes, and click **[!UICONTROL  Save]**. 
 
 ## Feed Status Indicators {#section_3C8A236C5CB84C769A9E9E36B8BFABA4}
 
@@ -440,13 +440,13 @@ The status should be yellow because the index should have run roughly one day an
 
 
 
->1. Click ** [!UICONTROL  Recommendations] ** > ** [!UICONTROL  Exclusions] **.
->1. Click ** [!UICONTROL  Create Exclusion] **.
+>1. Click **[!UICONTROL  Recommendations]** > **[!UICONTROL  Exclusions]**.
+>1. Click **[!UICONTROL  Create Exclusion]**.
 
->       ![Step Result](../../assets/CreateExclusion.png) 
->1. Type an exclusion ** [!UICONTROL  Name] **.
+>       ![Step Result](assets/CreateExclusion.png) 
+>1. Type an exclusion **[!UICONTROL  Name]**.
 
 >1. Use the rule builder to create your exclusions.
 
 >       Select a parameter in the Rules list, select an operator, and then enter one or more values to identify the products. Separate multiple values with commas. 
->1. Click ** [!UICONTROL  Save] **.
+>1. Click **[!UICONTROL  Save]**.

@@ -6,7 +6,7 @@ seo-title: Past Release Notes
 solution: Target
 title: Past Release Notes
 topic: Recommendations
-uuid: b98ef56a-ac05-484e-82e9-a7e324eb135d
+uuid: d022b4d5-9d28-4ceb-8f53-ce7ebe4c1d97
 index: y
 internal: n
 snippet: y

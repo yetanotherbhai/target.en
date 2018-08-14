@@ -6,7 +6,7 @@ seo-title: Confidence Level and Confidence Interval
 solution: Target
 title: Confidence Level and Confidence Interval
 topic: Advanced,Standard,Classic
-uuid: f375b49f-ceb3-426c-808e-0d7456a333c1
+uuid: 0397c1fb-6dae-4a07-ab1b-bfb5dee1f60c
 index: y
 internal: n
 snippet: y
@@ -37,7 +37,7 @@ This section contains the following information:
 
 The *confidence level* is represented by the darker percentage in the Conversion Rate column for each experience. 
 
-![](../../assets/conf_report.png)  ![](../../assets/conf_report_detail.png) 
+![](assets/conf_report.png)  ![](assets/conf_report_detail.png) 
 
 The confidence level, or statistical significance, indicates how likely it is that an experience's success was not due to chance. A higher confidence level indicates: 
 
@@ -67,7 +67,7 @@ If the confidence level is over 90% or 95%, then the result can be considered st
 
 The *confidence interval* is a range within which the true value can be found at a given confidence level. The confidence interval appears as a light gray +/- percentage in the Conversion Rate column. In the example below, the confidence interval for Experience B's lift is plus or minus 15.65%. 
 
-![](../../assets/conversion_rate.png) 
+![](assets/conversion_rate.png) 
 
 **Example:** An experience's RPV is $10, its confidence level is 95% and its **confidence interval** is $5 to $15. If we ran this test multiple times, 95% of the time the RPV would be between $5 and $15. 
 
@@ -97,9 +97,9 @@ For example, if you’re optimizing to page views per visitor, you’d export a 
 
 1. Log in to [!DNL  Adobe Analytics]. 
 
-1. Click ** [!UICONTROL  Tools] ** > ** [!UICONTROL  Data Warehouse] **. 
+1. Click **[!UICONTROL  Tools]** > **[!UICONTROL  Data Warehouse]**. 
 
-1. On the ** [!UICONTROL  Data Warehouse Request] ** tab, fill in the fields. 
+1. On the **[!UICONTROL  Data Warehouse Request]** tab, fill in the fields. 
 
    For more information about each field, see "Data Warehouse Descriptions" in [ Data Warehouse ](https://marketing.adobe.com/resources/help/en_US/reference/data_warehouse.html). 
 
@@ -119,7 +119,7 @@ For example, if you’re optimizing to page views per visitor, you’d export a 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Reporting Date </p> </td> 
-   <td colname="col2"> <p>Specify a time period and granularity. </p> <p>As best practice, choose no more than an hour or one day of data for your first request. </p> <p>Data Warehouse files take longer to process the longer the time period requested, so it is always a best practice to request a small time period data first to make sure your file returns the expected result. Then, go to the Request Manager, duplicate your request, and ask for more data the second time. Also, if you toggle granularity to anything other than “None,” the file size will increase drastically. </p> <p style="text-align: center;"> <img href="../../assets/datawarehouse.png" id="image_D58215BCAF2B4DA3B22437C199A59418" /> </p> </td> 
+   <td colname="col2"> <p>Specify a time period and granularity. </p> <p>As best practice, choose no more than an hour or one day of data for your first request. </p> <p>Data Warehouse files take longer to process the longer the time period requested, so it is always a best practice to request a small time period data first to make sure your file returns the expected result. Then, go to the Request Manager, duplicate your request, and ask for more data the second time. Also, if you toggle granularity to anything other than “None,” the file size will increase drastically. </p> <p style="text-align: center;"> <img href="assets/datawarehouse.png" id="image_D58215BCAF2B4DA3B22437C199A59418" /> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Available Segments </p> </td> 
@@ -139,17 +139,17 @@ For example, if you’re optimizing to page views per visitor, you’d export a 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Report Preview </p> </td> 
-   <td colname="col2"> <p>Review your settings before scheduling the report. </p> <p style="text-align: center;"> <img href="../../assets/datawarehouse2.png" id="image_D209CF4053204BE591CEF42BEB0C065C" /> </p> </td> 
+   <td colname="col2"> <p>Review your settings before scheduling the report. </p> <p style="text-align: center;"> <img href="assets/datawarehouse2.png" id="image_D209CF4053204BE591CEF42BEB0C065C" /> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Schedule Delivery </p> </td> 
-   <td colname="col2"> <p>Enter an email address to deliver the file to, name the file, then select <span class="uicontrol"> Send Immediately </span>. </p> <p> <p>Note:  The file can be delivered via FTP under <span class="wintitle"> Advanced Delivery Options </span>. </p> </p> <p style="text-align: center;"> <img href="../../assets/datawarehouse3.png" id="image_DD2DA7CA0FAB4EC78D9BC80476301576" /> </p> </td> 
+   <td colname="col2"> <p>Enter an email address to deliver the file to, name the file, then select <span class="uicontrol"> Send Immediately </span>. </p> <p> <p>Note:  The file can be delivered via FTP under <span class="wintitle"> Advanced Delivery Options </span>. </p> </p> <p style="text-align: center;"> <img href="assets/datawarehouse3.png" id="image_DD2DA7CA0FAB4EC78D9BC80476301576" /> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 
-1. Click ** [!UICONTROL  Request this Report] **. 
+1. Click **[!UICONTROL  Request this Report]**. 
 
    File delivery can take up to 72 hours, depending on the amount of data requested. You can check on the progress of your request at any time by clicking [!UICONTROL  Tools] > [!UICONTROL  Data Warehouse] > [!UICONTROL  Request Manager]. 
 

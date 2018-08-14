@@ -6,7 +6,7 @@ seo-title: Profile and Variable Glossary
 solution: Target
 title: Profile and Variable Glossary
 topic: Standard
-uuid: b19bb32d-2b49-4ac9-a187-75f30284b9a1
+uuid: bed52810-e7e8-40cf-86ff-0a270d379c84
 index: y
 internal: n
 snippet: y
@@ -270,6 +270,6 @@ This section contains the following information:
 
 ## Customer Attributes {#section_62B4821EB6564FF4A14159A837AD4EDB}
 
-Customer attributes can be referenced in profile scripts, formatted as ` crs.get('< * ` Datasource Name` *>.< * ` Attribute name` *>')`. 
+Customer attributes can be referenced in profile scripts, formatted as ` crs.get('< *` Datasource Name`*>.< *` Attribute name`*>')`. 
 
-These attributes are also available as tokens in profile scripts and directly in offers without first requiring a profile script. The token should be in the form: ` $crs. * ` datasourceName` *. * ` attributeName` *`. 
+These attributes are also available as tokens in profile scripts and directly in offers without first requiring a profile script. The token should be in the form: ` $crs. *` datasourceName`*. *` attributeName`*`. 

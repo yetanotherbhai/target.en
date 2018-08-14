@@ -6,7 +6,7 @@ seo-title: Activity QA Bookmarklet
 solution: Target
 title: Activity QA Bookmarklet
 topic: Advanced,Standard,Classic
-uuid: 60d1d459-9459-4e1e-bba2-9964f4a13787
+uuid: 7c3175ee-1c13-4d01-8949-3a359820023d
 index: y
 internal: n
 snippet: y

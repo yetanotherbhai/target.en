@@ -6,7 +6,7 @@ seo-title: About the Conversion Rate
 solution: Target
 title: About the Conversion Rate
 topic: Standard
-uuid: 2810970f-909b-4df2-a300-368cd7be5872
+uuid: c0f997d1-9b6b-46ec-a666-f25fa00a6628
 index: y
 internal: n
 snippet: y
@@ -17,7 +17,7 @@ translate: y
 
 The following illustration shows the chart header for a sample activity with the [!UICONTROL  Conversion Rate], [!UICONTROL  Lift], and [!UICONTROL  Confidence] headers highlighted. 
 
-![](../assets/conversion-rate.jpg) 
+![](assets/conversion-rate.jpg) 
 
 
 >[!NOTE] {class="- topic/note "}
@@ -41,7 +41,7 @@ Shows the median conversion rate, confidence, interval, and the number of conver
 
 For example, examine the following Conversion Rate report column: 
 
-![](../assets/conversion-rate-detail.jpg) 
+![](assets/conversion-rate-detail.jpg) 
 
 The first line is the control experience. It shows a 15% conversion rate, with three conversions. The second line, Experience B, shows a 15% conversion rate, with a confidence interval of plus or minus 15.65% and three conversions. 
 

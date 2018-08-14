@@ -6,7 +6,7 @@ seo-title: Create Redirect Offers
 solution: Target
 title: Create Redirect Offers
 topic: Standard
-uuid: 15a8c467-4eb2-4118-884c-b4d0d403eeec
+uuid: dc611962-6dbe-4ecb-870e-7e597bbc1de8
 index: y
 internal: n
 snippet: y
@@ -44,8 +44,8 @@ The redirect offer executes JavaScript code to redirect the browser. It uses the
 
 **To create a Redirect Offer: ** 
 
->1. Click ** [!UICONTROL  Offers] **, then select the ** [!UICONTROL  Code Offers] ** tab.
->1. Click ** [!UICONTROL  Create] ** > ** [!UICONTROL  Redirect Offer] **.
+>1. Click **[!UICONTROL  Offers]**, then select the **[!UICONTROL  Code Offers]** tab.
+>1. Click **[!UICONTROL  Create]** > **[!UICONTROL  Redirect Offer]**.
 >1. Type an offer name.
 >1. Enter the URL for the unique content or destination you want to redirect to. This must be an absolute URL.
 

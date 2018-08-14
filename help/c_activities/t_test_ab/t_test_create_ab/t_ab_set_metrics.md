@@ -5,7 +5,7 @@ seo-description: Use metrics in an A/B activity to determine when a visit is suc
 seo-title: Set Metrics
 solution: Target,standard
 title: Set Metrics
-uuid: e6f03d61-1e3e-4ea2-88a1-6f1af5a803b3
+uuid: 6bfdf884-3916-4420-9778-3183ade4f2e7
 index: y
 internal: n
 snippet: y
@@ -19,7 +19,7 @@ For detailed information about success metrics, see [ Success Metrics ](../../..
 >1. Specify the goal of the activity.
 >1. Select a [ success metric ](../../../r_success_metrics.md#reference_D011575C85DA48E989A244593D9B9924)
 
->       ![](../../../assets/ab_metrics.png) 
+>       ![](assets/ab_metrics.png) 
 
 >       The [!UICONTROL  Select Metrics] page lists the success metrics you can choose for your activity. The success metrics are divided into the following categories: 
 
@@ -40,4 +40,4 @@ For detailed information about success metrics, see [ Success Metrics ](../../..
 
 >       For more information, see [ Success Metrics ](../../../r_success_metrics.md#reference_D011575C85DA48E989A244593D9B9924). 
 >1. (Optional) Add additional metrics.
->1. Click ** [!UICONTROL  Continue] ** when you are finished setting your metrics.
+>1. Click **[!UICONTROL  Continue]** when you are finished setting your metrics.

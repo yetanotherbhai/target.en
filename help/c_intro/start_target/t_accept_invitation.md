@@ -7,7 +7,7 @@ solution: Target
 subtopic: Getting Started
 title: Accept the Invitation
 topic: Standard
-uuid: b6a347de-f1d3-4e27-8fe2-f8c322e1196f
+uuid: a26ecab8-eb40-45ad-9fc7-f236031736c4
 index: y
 internal: n
 snippet: y
@@ -48,8 +48,8 @@ This video explains how to set up [!DNL  Target] users and administrators.
 
 >       If you do have an Adobe ID, then your Adobe ID is recognized and you are prompted to sign in. 
 >1. Accept the Terms of Use.
->1. Review the summary of what you have done so far, then click ** [!UICONTROL  Continue to Experience Cloud] **.
->1. Sign in to the Adobe Experience Cloud and click ** [!UICONTROL  Link Account] **.
+>1. Review the summary of what you have done so far, then click **[!UICONTROL  Continue to Experience Cloud]**.
+>1. Sign in to the Adobe Experience Cloud and click **[!UICONTROL  Link Account]**.
 
 
 >       >[!NOTE]
@@ -58,7 +58,7 @@ This video explains how to set up [!DNL  Target] users and administrators.
 
 
 >       All Experience Cloud products appear on the linking page. Click ` Link Test&amp;amp;Target` and enter your Test&amp;Target username and password to access Standard and Classic. 
->1. Click ** [!UICONTROL  Continue to Experience Cloud] **.
+>1. Click **[!UICONTROL  Continue to Experience Cloud]**.
 
 >       At this point, you do not yet have any groups set up with entitlements for you to link. 
 >1. If desired, watch the video introducing you to the [!DNL  Adobe Experience Cloud].

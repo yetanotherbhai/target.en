@@ -7,7 +7,7 @@ solution: Target
 subtopic: Getting Started
 title: Understanding the Global mbox
 topic: Standard
-uuid: 0f421a1b-981a-4dcd-8a22-53c84f9021d8
+uuid: 8bf50a52-3fbf-423c-83ea-d44429cbc1d7
 index: y
 internal: n
 snippet: y

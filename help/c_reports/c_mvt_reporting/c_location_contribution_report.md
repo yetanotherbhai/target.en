@@ -6,7 +6,7 @@ seo-title: Location Contribution Report
 solution: Target
 title: Location Contribution Report
 topic: Standard
-uuid: 834616e2-a64f-4233-8d12-d241ab921306
+uuid: c96faeed-62dc-47c8-a92b-83d08ba58cd8
 index: y
 internal: n
 snippet: y
@@ -54,8 +54,8 @@ The Location Contribution report includes two tables.
 
 The first table shows the relative influence of each element. This shows you which of the elements where you have added offers is resulting in the most conversions. 
 
-![](../../assets/locationcontributiontop.png) 
+![](assets/locationcontributiontop.png) 
 
 The second table provides an offer-level report. It shows the conversion rate, lift, and confidence for each offer in each element. This helps you determine which offers are the most successful. The second column shows values for the selected metric (conversion rate, RPV, AOV, orders, or engagement metrics) of the offer and one standardization. 
 
-![](../../assets/locationcontributionbottom.png) 
+![](assets/locationcontributionbottom.png) 

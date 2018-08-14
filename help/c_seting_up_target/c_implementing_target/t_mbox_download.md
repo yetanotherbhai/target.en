@@ -7,7 +7,7 @@ solution: Target
 subtopic: Getting Started
 title: mbox.js Implementation
 topic: Standard
-uuid: b14ae295-4591-49e0-98ab-70dd17aab42c
+uuid: b448fea0-a2f5-4215-86a9-a671724bd2a3
 index: y
 internal: n
 snippet: y
@@ -70,6 +70,6 @@ You do not need to maintain different activity-specific versions of the file.
 
 >1. Reference [!DNL  mbox.js] in the ` &amp;lt;head&amp;gt;` section of each page on your site.
 
->       ` <script src="/ * ` directory` */ * ` scripts` */mbox.js"></script>` 
+>       ` <script src="/ *` directory`*/ *` scripts`*/mbox.js"></script>` 
 
->       Where ` * ` directory` */ * ` scripts` *` is the directory where you saved your [!DNL  mbox.js] file after downloading it. 
+>       Where ` *` directory`*/ *` scripts`*` is the directory where you saved your [!DNL  mbox.js] file after downloading it. 

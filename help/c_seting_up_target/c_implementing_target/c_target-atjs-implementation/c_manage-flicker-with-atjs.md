@@ -6,7 +6,7 @@ seo-title: How at.js Manages Flicker
 solution: Target
 title: How at.js Manages Flicker
 topic: Standard
-uuid: cda447b3-d4f0-46f5-8a1a-4f4896068358
+uuid: 5d01fece-cde6-433a-bf5f-831136204804
 index: y
 internal: n
 snippet: y
@@ -37,7 +37,7 @@ If opacity 0 does not work in your implementation, you can also manage flicker b
 
 The following illustration shows the Hide Body and Show Body calls in the [ overall auto created global mbox flow ](../../../c_seting_up_target/c_implementing_target/c_target-atjs-implementation/c_how_atjs_works.md#concept_7B5951B4394D4478B01FE80D57735F8B): 
 
-![](../../../assets/target-flow2.png) 
+![](assets/target-flow2.png) 
 
 For more information about the ` bodyHiddenStyle` override, see [ targetGlobalSettings() ](../../../c_seting_up_target/c_implementing_target/c_target-atjs-implementation/cmp_at.js_Functions.md#concept_8DACBC47ABDE4279BB102B42609FE506). 
 

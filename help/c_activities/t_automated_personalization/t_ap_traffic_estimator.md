@@ -6,8 +6,8 @@ solution: Target
 title: Estimate the Traffic Required for Success
 title_outputclass: premium
 topic: Standard
-uuid: b9501d89-0a95-4dde-94be-8ce45a650766
-badge: assets/premium.png
+uuid: 36a9064c-a0f5-4965-98cb-63933cb4da8f
+badge: premium
 index: y
 internal: n
 snippet: y
@@ -22,11 +22,11 @@ The Traffic Estimator determines if there is enough traffic to generate personal
 
 Remember that Target randomly serves experiences until the personalization algorithms are built. The checkmark icon beside each offer shows when the model for that offer is ready and Target is able to begin delivering personalized content. Because lift is expected only after the models are ready, the visual indication allows you to set the right expectation. Use the traffic estimator in the Visual Experience Composer (VEC) to get a guideline of when the models will be ready. 
 
->1. From the Experience Composer, click ** [!UICONTROL  Traffic] **.
+>1. From the Experience Composer, click **[!UICONTROL  Traffic]**.
 
->       The Traffic Estimator opens. You can click ** [!UICONTROL  Traffic] ** again to hide the Traffic Estimator. 
+>       The Traffic Estimator opens. You can click **[!UICONTROL  Traffic]** again to hide the Traffic Estimator. 
 
->       ![](../../assets/ap_est.png) 
+>       ![](assets/ap_est.png) 
 >1. Provide the typical conversion rate (or the conversion rate you expect from this activity), estimated activity impressions per day, and test duration.
 
 >    
@@ -44,7 +44,7 @@ Remember that Target randomly serves experiences until the personalization algor
 
 >       Near the top of the Traffic Estimator, the values you entered are calculated and the results are shown. 
 
->       ![](../../assets/ap_est_no.png) 
+>       ![](assets/ap_est_no.png) 
 
 >       As you change the numbers, the estimate changes. For example, if you are testing a large number of combinations and your conversion rate and impressions are too low, the Traffic Estimator shows how long the test will need to run to be successful. Or, if your traffic is low, the Traffic Estimator might suggest a lower number of offer combinations so you can run the test the desired number of days. 
 
@@ -60,6 +60,6 @@ Remember that Target randomly serves experiences until the personalization algor
 
 >       Adjust the numbers until the Traffic Estimator says you have sufficient traffic, then design your test accordingly. 
 
->       ![](../../assets/ap_est_yes.png) 
+>       ![](assets/ap_est_yes.png) 
 
 >       If the traffic is sufficient, the Traffic icon shows a green check. If it is insufficient, the icon shows a red warning label. 

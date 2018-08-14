@@ -7,7 +7,7 @@ solution: Target
 subtopic: Getting Started
 title: Users
 topic: Standard
-uuid: 8d2ec8de-31c4-4256-9872-2e3d0b89fb4d
+uuid: b6073ef7-7bb1-4ab5-8023-0fcda0aaf843
 index: y
 internal: n
 snippet: y
@@ -58,7 +58,7 @@ For tasks performed in the Adobe Admin Console, access the console by following 
 
    Or 
 
-   If you are already logged in to the Experience Cloud, go to [ http://www.marketing.adobe.com](http://www.marketing.adobe.com/), then click the [!UICONTROL  App] icon (  ![](../assets/icon_mc_apps.png) ) in the top navigation bar > click ** [!UICONTROL  Administration] ** on the right side > then click ** [!UICONTROL  Launch Admin Console] **. 
+   If you are already logged in to the Experience Cloud, go to [ http://www.marketing.adobe.com](http://www.marketing.adobe.com/), then click the [!UICONTROL  App] icon (  ![](assets/icon_mc_apps.png) ) in the top navigation bar > click **[!UICONTROL  Administration]** on the right side > then click **[!UICONTROL  Launch Admin Console]**. 
 
 1. (Conditional) If you have access to the [!DNL  Admin Console for Enterprise] for more than one organization, click the user avatar in the right corner or the top navigation bar, then select the desired organization. 
 
@@ -69,7 +69,7 @@ For tasks performed in the Adobe Admin Console, access the console by following 
 All user management must be performed in the [!DNL  Adobe Admin Console for Enterprise]. However, all of your existing users in [!DNL  Target] will be migrated from [!DNL  Target] to the [!DNL  Admin Console for Enterprise]. 
 
 
-1. [ In the Admin Console](../c_seting_up_target/c_user_management.md#section_79796E0227D048F59BAE0AB02E544EBE), click ** [!UICONTROL  User Management] ** > ** [!UICONTROL  Users] ** to create new users or to edit existing users. 
+1. [ In the Admin Console](../c_seting_up_target/c_user_management.md#section_79796E0227D048F59BAE0AB02E544EBE), click **[!UICONTROL  User Management]** > **[!UICONTROL  Users]** to create new users or to edit existing users. 
 
 1. Follow the instructions in [ Manage Users and Groups in the Experience Cloud](https://helpx.adobe.com/enterprise/help/users.html) in the *Enterprise User Guide*. 
 
@@ -80,7 +80,7 @@ All user management must be performed in the [!DNL  Adobe Admin Console for Ente
 You can create user groups, such as Developers, Analysts, Marketers, Executives, etc., and then assign privileges across multiple Adobe products and workspaces. Assigning a new team member all the appropriate privileges across different Adobe products can be as easy as adding them to a specific user group. 
 
 
-1. [ In the Admin Console](../c_seting_up_target/c_user_management.md#section_79796E0227D048F59BAE0AB02E544EBE), click ** [!UICONTROL  User Management] ** > ** [!UICONTROL  User Groups] ** to create new user groups or to edit existing groups. 
+1. [ In the Admin Console](../c_seting_up_target/c_user_management.md#section_79796E0227D048F59BAE0AB02E544EBE), click **[!UICONTROL  User Management]** > **[!UICONTROL  User Groups]** to create new user groups or to edit existing groups. 
 
 1. Follow the instructions in [ Manage Users and Groups in the Experience Cloud](https://helpx.adobe.com/enterprise/help/users.html) in the *Enterprise User Guide*. 
 
@@ -93,17 +93,17 @@ Only system admins can set user roles in Target. For example, a Standard approve
 System admin users must add users to the system. Users are not automatically added. They are invited by email from the Experience Cloud and must confirm their email addresses before their accounts are registered. 
 
 
-1. [ In the Admin Console](../c_seting_up_target/c_user_management.md#section_79796E0227D048F59BAE0AB02E544EBE), click ** [!UICONTROL  Products] **, then select the name of the desired product. 
+1. [ In the Admin Console](../c_seting_up_target/c_user_management.md#section_79796E0227D048F59BAE0AB02E544EBE), click **[!UICONTROL  Products]**, then select the name of the desired product. 
 
-   ![](../assets/workspace.png) 
+   ![](assets/workspace.png) 
 
 1. Click the name of the desired configuration. 
 
-1. Click ** [!UICONTROL  Configuration Users] **. 
+1. Click **[!UICONTROL  Configuration Users]**. 
 
    The [!UICONTROL  Configuration Users] tab displays all of the users in that workspace. 
 
-   ![](../assets/configuration_users.png) 
+   ![](assets/configuration_users.png) 
 
 1. Select the desired permissions role (Observer, Editor, or Approver) by using the drop-down list for each user in the [!UICONTROL  Product Role] column. 
 

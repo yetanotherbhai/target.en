@@ -7,7 +7,7 @@ solution: Target
 subtopic: Getting Started
 title: Setting Up Target
 topic: Standard
-uuid: ff7fdb01-927a-4989-a927-e9635470656a
+uuid: 15ab433b-d58a-423a-9823-4d50b0378fa4
 index: y
 internal: n
 snippet: y
@@ -16,7 +16,7 @@ translate: y
 
 # Setting Up Target
 
-To access the [!UICONTROL  Setup] menu items, click ** [!UICONTROL  Setup] ** in the top menu bar, then click the desired tab along the left side: 
+To access the [!UICONTROL  Setup] menu items, click **[!UICONTROL  Setup]** in the top menu bar, then click the desired tab along the left side: 
 
 
 * Preferences

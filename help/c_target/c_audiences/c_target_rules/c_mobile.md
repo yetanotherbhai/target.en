@@ -6,7 +6,7 @@ seo-title: Mobile
 solution: Target
 title: Mobile
 topic: Standard
-uuid: a4e182d8-d70b-425f-9670-f62bb4d78c6e
+uuid: 6adb0ec7-896e-483a-b3e3-26a4cf6143b0
 index: y
 internal: n
 snippet: y
@@ -15,7 +15,7 @@ translate: y
 
 # Mobile
 
-For example, you might want to show different content to users who enter your page from a phone than you would if they visit from a computer. In that case, you could select the Mobile audience, then select the ** [!UICONTROL  Is Mobile Phone] ** option, then add any specific details that are important to you, such as the type of phone, size of the screen (in pixels), and so on. 
+For example, you might want to show different content to users who enter your page from a phone than you would if they visit from a computer. In that case, you could select the Mobile audience, then select the **[!UICONTROL  Is Mobile Phone]** option, then add any specific details that are important to you, such as the type of phone, size of the screen (in pixels), and so on. 
 
 Mobile targeting is delivered by [ DeviceAtlas](https://deviceatlas.com/device-data/user-agent-tester), a service of DotMobi. DeviceAtlas is a comprehensive database of mobile devices built on data compiled from numerous sources, including manufacturers and network operators. This data is then verified, cross-referenced, and validated to build a large and accurate mobile device database available. 
 
@@ -66,15 +66,15 @@ You can choose more than one mobile device property. Multiple selections are joi
 Customers who are using a custom integration (not using at.js or the Mobile SDK) can collect these parameters themselves and pass them as mbox parameters. 
 
 
-1. In the [!DNL  Target] interface, click ** [!UICONTROL  Audiences] ** > ** [!UICONTROL  Create Audience] **. 
+1. In the [!DNL  Target] interface, click **[!UICONTROL  Audiences]** > **[!UICONTROL  Create Audience]**. 
 
 1. Name the audience. 
 
-1. Click ** [!UICONTROL  Add Rule] ** > ** [!UICONTROL  Mobile] **. 
+1. Click **[!UICONTROL  Add Rule]** > **[!UICONTROL  Mobile]**. 
 
-   ![](../../../assets/target_mobile.png) 
+   ![](assets/target_mobile.png) 
 
-1. Click ** [!UICONTROL  Select] **, then select one of the following options: 
+1. Click **[!UICONTROL  Select]**, then select one of the following options: 
 
 
     * Device Marketing Name 
@@ -103,9 +103,9 @@ Customers who are using a custom integration (not using at.js or the Mobile SDK)
    >You can target by mobile device carrier using the[ Geo settings](../../../c_target/c_audiences/c_target_rules/c_geo.md#concept_5B4D99DE685348FB877929EE0F942670). 
 
 
-1. (Optional) Click ** [!UICONTROL  Add Rule] ** and set up additional rules for the audience. 
+1. (Optional) Click **[!UICONTROL  Add Rule]** and set up additional rules for the audience. 
 
-1. Click ** [!UICONTROL  Save] **. 
+1. Click **[!UICONTROL  Save]**. 
 
 
 

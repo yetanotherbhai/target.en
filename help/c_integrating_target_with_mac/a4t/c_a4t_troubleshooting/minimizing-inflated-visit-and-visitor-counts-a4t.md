@@ -7,7 +7,7 @@ solution: Target
 subtopic: Multivariate Test
 title: Minimizing Inflated Visit and Visitor Counts in A4T
 topic: Standard
-uuid: f2c5d3a6-6286-4d44-acd1-5b3aaacbf6a0
+uuid: 0b935121-6e00-458a-b68e-16f9e88694a1
 index: y
 internal: n
 snippet: y
@@ -86,19 +86,19 @@ We recommend reviewing the following steps, in order, to reduce partial data col
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <img href="../../../assets/step1_icon.png" id="image_21F30BBFC0A249F8B0E1A50EBBEED77D" /> </td> 
+   <td colname="col1"> <img href="assets/step1_icon.png" id="image_21F30BBFC0A249F8B0E1A50EBBEED77D" /> </td> 
    <td colname="col2"> <p>Make sure the report suite selected in <span class="keyword"> Target </span> is the same as the one on the page(s) where the activity will be presented. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <img href="../../../assets/step2_icon.png" id="image_76B61DEABE3849CCB39135FDD7399EAA" /> </td> 
+   <td colname="col1"> <img href="assets/step2_icon.png" id="image_76B61DEABE3849CCB39135FDD7399EAA" /> </td> 
    <td colname="col2"> <p>Ensure the <span class="codeph"> visitorAPI.js </span>, <span class="codeph"> appMeasurement.js </span>, <span class="codeph"> mbox.js </span>/ <span class="codeph"> at.js </span> libraries are on A4T compatible versions. To learn more about implementation requirements, see <a href="../../../c_integrating_target_with_mac/a4t/c_before_implement.md#concept_046BC89C03044417A30B63CE34C22543" format="dita" scope="local"> Before You Implement </a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <img href="../../../assets/step3_icon.png" id="image_9933AC9D3A884BD9814A6B697610CAE9" /> </td> 
+   <td colname="col1"> <img href="assets/step3_icon.png" id="image_9933AC9D3A884BD9814A6B697610CAE9" /> </td> 
    <td colname="col2"> <p>Check to make sure the SDID is getting set on all <span class="keyword"> Target </span> and <span class="keyword"> Analytics </span> calls leaving the page and that they match. </p> <p>Do this by using a network analyzer or debugging tool to ensure that the <span class="codeph"> mboxMCSDID </span> parameter on <span class="keyword"> Target </span> call(s) matches the SDID parameter in the <span class="keyword"> Analytics </span> call. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <img href="../../../assets/step4_icon.png" id="image_844E896941E2489A943BE10AD710ED36" /> </td> 
+   <td colname="col1"> <img href="assets/step4_icon.png" id="image_844E896941E2489A943BE10AD710ED36" /> </td> 
    <td colname="col2"> <p>Confirm that the implementation libraries load in the correct order on your sites. For more information, see <a href="../../../c_integrating_target_with_mac/a4t/c_a4timplementation.md#concept_CE78750AC2A4487D8ACD9369B3EAC85A" format="dita" scope="local"> Analytics for Target Implementation </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -123,7 +123,7 @@ To minimize partial-data hits, you can make your page load faster, update to the
 
 The following illustration shows for the segment definition for the virtual report suite: 
 
-![](../../../assets/ts_a4t.png) 
+![](assets/ts_a4t.png) 
 
 When creating the virtual report suite, specify the following configuration for the segment definition (as shown in the above illustration): 
 

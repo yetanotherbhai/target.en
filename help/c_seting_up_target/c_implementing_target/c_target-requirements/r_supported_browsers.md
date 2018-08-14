@@ -7,7 +7,7 @@ solution: Target
 subtopic: Getting Started
 title: Supported Browsers
 topic: Standard
-uuid: a0baa992-e8aa-43bf-b3cd-eb59366266e3
+uuid: f0383bdb-4fc2-487e-97a5-8e2eab4f08fc
 index: y
 internal: n
 snippet: y

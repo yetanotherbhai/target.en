@@ -6,7 +6,7 @@ seo-title: Test Summary
 solution: Target
 title: Test Summary
 topic: Standard
-uuid: 832bab63-3d53-4521-ae95-93ee56f8818f
+uuid: 5451567b-20de-4f99-a968-6d1de4f4fe4d
 index: y
 internal: n
 snippet: y
@@ -16,7 +16,7 @@ translate: y
 # Test Summary
 
 
->![](../../../assets/summary2.png) 
+>![](assets/summary2.png) 
 
 >The test summary shows: 
 >
@@ -27,4 +27,4 @@ translate: y
 >* Algorithm Currently, the only available algorithm is Full Factorial. The algorithm name is provided for informational purposes, so you are aware of the algorithm being used. 
 
 >* The numbers of included and excluded experiences.
->Click ** [!UICONTROL  Continue] ** when you are satisfied with the test configuration. The Goals and Settings page opens. 
+>Click **[!UICONTROL  Continue]** when you are satisfied with the test configuration. The Goals and Settings page opens. 

@@ -6,7 +6,7 @@ seo-title: Operating System
 solution: Target
 title: Operating System
 topic: Classic
-uuid: 34f644a0-da8c-45af-b8d9-fcbbb921cfaa
+uuid: 6f8031e6-8b9c-450e-8a6d-3a65293a6500
 index: y
 internal: n
 snippet: y
@@ -16,23 +16,23 @@ translate: y
 # Operating System
 
 
-1. In the [!DNL  Target] interface, click ** [!UICONTROL  Audiences] ** > ** [!UICONTROL  Create Audience] **. 
+1. In the [!DNL  Target] interface, click **[!UICONTROL  Audiences]** > **[!UICONTROL  Create Audience]**. 
 
 1. Name the audience. 
 
-1. Click ** [!UICONTROL  Add Rule] ** > ** [!UICONTROL  Operating System] **. 
+1. Click **[!UICONTROL  Add Rule]** > **[!UICONTROL  Operating System]**. 
 
-   ![](../../../assets/target_os.png) 
+   ![](assets/target_os.png) 
 
-1. Click ** [!UICONTROL  Select] **, then select one of the following options: 
+1. Click **[!UICONTROL  Select]**, then select one of the following options: 
 
     * Linux
     * Macintosh
     * Windows
 
-1. (Optional) Click ** [!UICONTROL  Add Rule] ** and set up additional rules for the audience. 
+1. (Optional) Click **[!UICONTROL  Add Rule]** and set up additional rules for the audience. 
 
-1. Click ** [!UICONTROL  Save] **. 
+1. Click **[!UICONTROL  Save]**. 
 
 
 

@@ -6,7 +6,7 @@ seo-title: iOS - Setting Up the Mobile App
 solution: Target
 title: iOS - Setting Up the Mobile App
 topic: Standard
-uuid: ba22b3dc-0052-4d1b-b4fa-f5ce41e765d2
+uuid: b719174b-932f-452a-a063-d1d199fc6452
 index: y
 internal: n
 snippet: y
@@ -58,7 +58,7 @@ This section contains the following information:
        >Make sure Copy Items if Needed is selected.
 
 
-    1. Select your project in left pane, select the ** [!UICONTROL  General] ** tab in the ** [!UICONTROL  Embedded Binaries] ** section, then click the ** [!UICONTROL  Plus Sign ( + )] **. 
+    1. Select your project in left pane, select the **[!UICONTROL  General]** tab in the **[!UICONTROL  Embedded Binaries]** section, then click the **[!UICONTROL  Plus Sign ( + )]**. 
 
     1. Select the following files from the drop-down list: 
 
@@ -70,18 +70,18 @@ This section contains the following information:
 
 
 
-    1. Click ** [!UICONTROL  Add] **. 
+    1. Click **[!UICONTROL  Add]**. 
 
        The following image shows the final state of the General tab: 
 
-       ![](../../assets/mobile-vec-ios_1.png) 
+       ![](assets/mobile-vec-ios_1.png) 
 
 
 1. Add the required iOS system libraries (if not already present in your project): 
 
-    1. In your application project settings, click ** [!UICONTROL  General] **, click ** [!UICONTROL  Linked Frameworks and Libraries] **, then click the ** [!UICONTROL  Plus Sign ( + )] **. 
+    1. In your application project settings, click **[!UICONTROL  General]**, click **[!UICONTROL  Linked Frameworks and Libraries]**, then click the **[!UICONTROL  Plus Sign ( + )]**. 
 
-    1. Select the system framework by searching for the following libraries, selecting them, then clicking the ** [!UICONTROL  Add] ** button. Repeat the previous step and this step for each of the other frameworks and C++ library. 
+    1. Select the system framework by searching for the following libraries, selecting them, then clicking the **[!UICONTROL  Add]** button. Repeat the previous step and this step for each of the other frameworks and C++ library. 
 
     
 <ul class="simplelist"> 
@@ -95,12 +95,12 @@ This section contains the following information:
 
        The following image shows the final state of the build settings: 
 
-       ![](../../assets/mobile-vec-ios_2.png) 
+       ![](assets/mobile-vec-ios_2.png) 
 
 
 1. Change build settings for Mobile VEC: 
 
-    1. In your application project settings, click ** [!UICONTROL  Build Settings] **. 
+    1. In your application project settings, click **[!UICONTROL  Build Settings]**. 
 
     1. In the search dialog, search for "Other Linker Flags." 
 
@@ -111,9 +111,9 @@ This section contains the following information:
 
 1. Add the deeplink handler: 
 
-    1. In your application project settings, click ** [!UICONTROL  Info] **. 
+    1. In your application project settings, click **[!UICONTROL  Info]**. 
 
-    1. Under ** [!UICONTROL  URL Types] **, click the triangle to open it, then click on the Plus Sign to add a new field. 
+    1. Under **[!UICONTROL  URL Types]**, click the triangle to open it, then click on the Plus Sign to add a new field. 
 
     1. Add the following information: 
 
@@ -126,9 +126,9 @@ This section contains the following information:
 
 
 
-    1. Click away from your application project settings > ** [!UICONTROL  General] **. 
+    1. Click away from your application project settings > **[!UICONTROL  General]**. 
 
-    1. Click back on your application project settings > ** [!UICONTROL  Info] ** to ensure your settings were saved. 
+    1. Click back on your application project settings > **[!UICONTROL  Info]** to ensure your settings were saved. 
 
        With the example URL type, the URL scheme for your app will be: 
 

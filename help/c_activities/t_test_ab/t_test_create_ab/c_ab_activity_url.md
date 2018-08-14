@@ -6,7 +6,7 @@ seo-title: Activity URL
 solution: Target
 title: Activity URL
 topic: Standard
-uuid: 3d14a614-77c2-4427-9c41-12cc1604901f
+uuid: faa7c426-fb0a-41ca-bf6e-4f6b248463d2
 index: y
 internal: n
 snippet: y
@@ -15,7 +15,7 @@ translate: y
 
 # Activity URL
 
-When prompted during activity creation, specify the activity URL. Type the complete URL (including ` http://`), then click ** [!UICONTROL  Create] **. 
+When prompted during activity creation, specify the activity URL. Type the complete URL (including ` http://`), then click **[!UICONTROL  Create]**. 
 
 
 >[!NOTE]
@@ -26,11 +26,11 @@ When prompted during activity creation, specify the activity URL. Type the compl
 
 By default, the [!UICONTROL  Visual Experience Composer] opens the page that is specified in your [ Account Preferences](https://marketing.adobe.com/resources/help/en_US/target/target/t_account_preferences.html). You can specify a different page during activity creation. 
 
-To display a different page after the [!UICONTROL  Visual Experience Composer] opens, click the ** [!UICONTROL  Configure] ** gear icon, then select ** [!UICONTROL  URL] **. Enter the URL in the Activity URL field. 
+To display a different page after the [!UICONTROL  Visual Experience Composer] opens, click the **[!UICONTROL  Configure]** gear icon, then select **[!UICONTROL  URL]**. Enter the URL in the Activity URL field. 
 
-![](../../../assets/url-config.png) 
+![](assets/url-config.png) 
 
-Click ** [!UICONTROL  Add Template Rule] ** to add more pages or sections to the activity. 
+Click **[!UICONTROL  Add Template Rule]** to add more pages or sections to the activity. 
 
 Additional rules can be based on any of the following: 
 
@@ -45,7 +45,7 @@ Additional rules can be based on any of the following:
 
 Additional rules can be joined to the Activity URL with AND or OR. All rules you add are evaluated against each other with AND. 
 
-Click ** [!UICONTROL  Save] ** when you have finished. 
+Click **[!UICONTROL  Save]** when you have finished. 
 
 <a id="section_373CAB401E6A43EFA4D82E000581A4D3"></a>
 
@@ -56,7 +56,7 @@ Click ** [!UICONTROL  Save] ** when you have finished.
 
 
 
-By default, the [!UICONTROL  Visual Experience Composer] does not allow changes to elements containing JavaScript, such as rotating banners. You can toggle off ** [!UICONTROL  Render using JavaScript] ** if you want to be able to alter those elements using the [!UICONTROL  Visual Experience Composer]. 
+By default, the [!UICONTROL  Visual Experience Composer] does not allow changes to elements containing JavaScript, such as rotating banners. You can toggle off **[!UICONTROL  Render using JavaScript]** if you want to be able to alter those elements using the [!UICONTROL  Visual Experience Composer]. 
 
 
 >[!NOTE]

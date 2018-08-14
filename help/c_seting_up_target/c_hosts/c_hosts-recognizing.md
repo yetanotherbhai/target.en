@@ -6,7 +6,7 @@ seo-title: Recognizing Hosts
 solution: Target
 title: Recognizing Hosts
 topic: Standard
-uuid: a6e1a2ac-7170-4c71-b7f6-2c0f5fcf1ccf
+uuid: ceb771bf-1f12-4271-bbc5-5ec0ca11b979
 index: y
 internal: n
 snippet: y
@@ -38,7 +38,7 @@ After the page is viewed, the host is listed in the [!UICONTROL  Hosts] list, al
 After a host is added to the [!UICONTROL  Host] list, make sure that the host is recognized. 
 
 
-1. Click ** [!UICONTROL  Setup] ** > ** [!UICONTROL  Hosts] **. 
+1. Click **[!UICONTROL  Setup]** > **[!UICONTROL  Hosts]**. 
 
 1. If your host is not listed, refresh your browser. 
    By default, a newly recognized host is placed in the Production environment. This is the safest environment because it does not allow inactive activities to be viewed from these hosts.

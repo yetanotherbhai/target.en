@@ -6,7 +6,7 @@ seo-title: Rule-Based Targeting
 solution: Target
 title: Rule-Based Targeting
 topic: Standard
-uuid: 85fe74b9-48ee-4947-b078-f8621b250d58
+uuid: 718d16c1-71b8-4652-bb2c-71124b315991
 index: y
 internal: n
 snippet: y

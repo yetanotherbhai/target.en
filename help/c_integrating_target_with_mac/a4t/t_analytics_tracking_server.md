@@ -4,7 +4,7 @@ keywords: analytics tracking server;A4T;Adobe Experience Cloud debugger;reportin
 seo-description: If you are using an older version of at.js or mbox.js, you must specify an analytics tracking server for activities that use Analytics for Target (A4T).
 seo-title: Using an Analytics Tracking Server
 title: Using an Analytics Tracking Server
-uuid: d02e6d2a-e184-4989-8d12-71a3b4bdb9f1
+uuid: 5ceca8a0-ceae-4c8b-9e60-cc7b78369fb6
 index: y
 internal: n
 snippet: y
@@ -28,7 +28,7 @@ The debugger should be viewed on a page where the activity will be delivered to 
 
 >       If you have not installed the debugger, follow the [ Adobe Debugger installation instructions ](https://marketing.adobe.com/resources/help/en_US/sc/implement/debugger_install.html). 
 
->       ![](../../assets/Screen_DebuggerTrackServ.png) 
+>       ![](assets/Screen_DebuggerTrackServ.png) 
 
 >       The analytics tracking server is found in the SiteCatalyst Image section of the debugger. The field is called *First Party Cookies* or *Third Party Cookies* depending on the implementation, and the Analytics tracking server value will be in one of these formats: >    
 >    * (for CNAME implementations) 
@@ -41,7 +41,7 @@ The debugger should be viewed on a page where the activity will be delivered to 
 
 >       *Company* represents the Analytics company name, *metrics* is an example of a CNAME value, and *d1* is an example of an Analytics data center. 
 >1. Copy the entire contents of the field.
->1. In the [!UICONTROL  Reporting Settings] section of the [!UICONTROL  Goal &amp;amp; Settings] screen of your activity, paste the tracking server information in the ** [!UICONTROL  Tracking Server] ** field.
+>1. In the [!UICONTROL  Reporting Settings] section of the [!UICONTROL  Goal &amp;amp; Settings] screen of your activity, paste the tracking server information in the **[!UICONTROL  Tracking Server]** field.
 
 
 >       >[!NOTE]

@@ -6,7 +6,7 @@ seo-title: Initial Provisioning - A4T FAQ
 solution: Target
 title: Initial Provisioning - A4T FAQ
 topic: Standard
-uuid: 8cc30306-771d-4614-ad5c-2e555a473e91
+uuid: 97d9e590-e91c-4a8b-9371-7ebb4c150113
 index: y
 internal: n
 snippet: y
@@ -29,7 +29,7 @@ This section contains the following information:
 
 Before a report suite can be selected when defining an Analytics activity, you need both an Analytics user account and a Target user account. Your user accounts must be configured as described in the documentation. See [ User Permission Requirements](../../../c_integrating_target_with_mac/a4t/c_account_reqs.md#concept_4BC06CAB00BF46FF9362AFE98656B083) . 
 
-Once you are a member of one or more Experience Cloud groups that have access to Analytics and Target and you have access to all report suites, you should see the option to create an A/B test using Analytics under ** [!UICONTROL  Create Activity] **. 
+Once you are a member of one or more Experience Cloud groups that have access to Analytics and Target and you have access to all report suites, you should see the option to create an A/B test using Analytics under **[!UICONTROL  Create Activity]**. 
 
 If provisioning issues occur, check whether A4T is provisioned correctly. 
 

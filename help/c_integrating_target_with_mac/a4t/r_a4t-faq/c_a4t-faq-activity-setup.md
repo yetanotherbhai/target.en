@@ -6,7 +6,7 @@ seo-title: Activity Setup - A4T FAQ
 solution: Target
 title: Activity Setup - A4T FAQ
 topic: Standard
-uuid: 36a72b55-04dd-4e03-a86c-d93f18ec761e
+uuid: c171b5e1-0dbb-48d0-90f7-1a8a4b5006f0
 index: y
 internal: n
 snippet: y
@@ -36,12 +36,12 @@ When an activity is created, Target sends a classification file to Analytics. Al
 You can change your Reporting Settings options in Setup. 
 
 
-1. In Adobe Target, click ** [!UICONTROL  Setup] **.
-1. In the ** [!UICONTROL  Experience Cloud solution used for reporting] ** drop-down list, click ** [!UICONTROL  Select per Activity] **.
+1. In Adobe Target, click **[!UICONTROL  Setup]**.
+1. In the **[!UICONTROL  Experience Cloud solution used for reporting]** drop-down list, click **[!UICONTROL  Select per Activity]**.
 
 
-![](../../../assets/select-per-activity.png) 
+![](assets/select-per-activity.png) 
 
-The ** [!UICONTROL  Reporting Source] ** drop-down list is enabled in the ** [!UICONTROL  Goal &amp;amp; Settings] ** screen for creating and editing activities. 
+The **[!UICONTROL  Reporting Source]** drop-down list is enabled in the **[!UICONTROL  Goal &amp;amp; Settings]** screen for creating and editing activities. 
 
-To always use Analytics as the reporting source, select ** [!UICONTROL  Adobe Analytics] ** from the drop-down list in Setup. 
+To always use Analytics as the reporting source, select **[!UICONTROL  Adobe Analytics]** from the drop-down list in Setup. 

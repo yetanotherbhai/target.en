@@ -6,7 +6,7 @@ seo-title: Element Selectors Used in the Visual Experience Composer
 solution: Target
 title: Element Selectors Used in the Visual Experience Composer
 topic: Standard
-uuid: dc4ce878-527a-495b-bc17-fc91d0c93fd7
+uuid: c7f832e3-eb20-444c-ae0d-955a2b41607b
 index: y
 internal: n
 snippet: y
@@ -17,9 +17,9 @@ translate: y
 
 You can find basic information about CSS selectors in the [ Selectors ](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors) document on the Mozilla Developer Network (MDN). 
 
-You can set whether to use element classed or element IDs in your account preferences. Click ** [!UICONTROL  Setup &amp;gt; Preferences] **, then choose your preferred CSS selectors. 
+You can set whether to use element classed or element IDs in your account preferences. Click **[!UICONTROL  Setup &amp;gt; Preferences]**, then choose your preferred CSS selectors. 
 
-![](../assets/css_selectors.png) 
+![](assets/css_selectors.png) 
 
 
 >[!NOTE]

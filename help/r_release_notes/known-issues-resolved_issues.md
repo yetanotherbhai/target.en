@@ -6,7 +6,7 @@ seo-title: Known Issues and Resolved Issues
 solution: Target
 title: Known Issues and Resolved Issues
 topic: Premium
-uuid: f8ecfe85-5e43-4a80-83b7-4ee94c47067c
+uuid: fd1d1fc3-c4ab-458c-8c42-d9f7c9eb0b61
 index: y
 internal: n
 snippet: y

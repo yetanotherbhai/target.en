@@ -3,7 +3,7 @@ description: Use the Visual Experience Composer to create the offers you want to
 seo-description: Use the Visual Experience Composer to create the offers you want to include in your test.
 seo-title: Create Combinations
 title: Create Combinations
-uuid: 7da13272-1e0d-4e02-96dd-5f10837d02c9
+uuid: c6ad9b1b-fa4a-4875-8357-a609e49fc1b7
 index: y
 internal: n
 snippet: y
@@ -20,22 +20,22 @@ You can include any of the following offer types in your test:
 
 >[!NOTE]
 >
->You can click ** [!UICONTROL  Expand Selection] ** when selecting objects on the page to select the parent element in addition to the originally selected element. When you select any parent element, all children of that element are automatically selected. You can expand the selection multiple times. 
+>You can click **[!UICONTROL  Expand Selection]** when selecting objects on the page to select the parent element in addition to the originally selected element. When you select any parent element, all children of that element are automatically selected. You can expand the selection multiple times. 
 
 
 
 The Visual Experience Composer makes it possible to edit offers, offer names, and location names. An overlay appears to show you where you have made changes. 
 
-![](../../../assets/overlay.png) 
+![](assets/overlay.png) 
 
 ## Image Offers {#section_A48333211DB149ED926AE467D0032914}
 
 Test multiple image offers within a location to determine which image is most successful. 
 
 
-1. Click an image on your page, and then select ** [!UICONTROL  Change Image] **. ![](../../../assets/changeimage.png) 
+1. Click an image on your page, and then select **[!UICONTROL  Change Image]**. ![](assets/changeimage.png) 
 
-1. Select all images you want to include in the test, then click ** [!UICONTROL  Add] **. ![](../../../assets/addimage.png) 
+1. Select all images you want to include in the test, then click **[!UICONTROL  Add]**. ![](assets/addimage.png) 
 
 
 
@@ -46,9 +46,9 @@ Each image becomes a separate experience in that location.
 Test multiple HTML offers within a location to determine which offer is most successful. 
 
 
-1. Click an HTML offer on your page, then click ** [!UICONTROL  Change HTML] **. ![](../../../assets/changehtml.png) 
+1. Click an HTML offer on your page, then click **[!UICONTROL  Change HTML]**. ![](assets/changehtml.png) 
 
-1. Click ** [!UICONTROL  Add HTML Offer] **, name the offer, then type or paste the code for the HTML offer. ![](../../../assets/editoffers.png) 
+1. Click **[!UICONTROL  Add HTML Offer]**, name the offer, then type or paste the code for the HTML offer. ![](assets/editoffers.png) 
 
 
    >[!NOTE]
@@ -58,7 +58,7 @@ Test multiple HTML offers within a location to determine which offer is most suc
 
    Repeat for any additional HTML offers you want to include. 
 
-1. Click ** [!UICONTROL  Apply] **.
+1. Click **[!UICONTROL  Apply]**.
 
 
 Each HTML offer becomes a separate experience in that location. 
@@ -68,15 +68,15 @@ Each HTML offer becomes a separate experience in that location.
 You can test alternative text in text elements on your page. 
 
 
-1. Click a text offer on your page, then click ** [!UICONTROL  Change Text] ** ![](../../../assets/changetext.png) 
+1. Click a text offer on your page, then click **[!UICONTROL  Change Text]** ![](assets/changetext.png) 
 
-1. Click ** [!UICONTROL  Add Text Offer] **, name the offer, and enter the text for the new offer. ![](../../../assets/changetexttext.png) 
+1. Click **[!UICONTROL  Add Text Offer]**, name the offer, and enter the text for the new offer. ![](assets/changetexttext.png) 
 
    You can change the offer name for each offer. 
 
    Repeat for any additional text offers you want to include. 
 
-1. Click ** [!UICONTROL  Apply] **.
+1. Click **[!UICONTROL  Apply]**.
 
 
 Each text offer becomes a separate experience in that location. 

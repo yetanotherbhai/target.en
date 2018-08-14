@@ -5,7 +5,7 @@ seo-description: To use Target in your mobile app, create a location and success
 seo-title: iOS - Create a Target Location and Success Metric
 title: iOS - Create a Target Location and Success Metric
 topic: Target
-uuid: f4d212b6-316f-4647-a9af-4aa4f790cc56
+uuid: 06a84a86-0ae4-497e-a158-bcfcbe557f77
 index: y
 internal: n
 snippet: y

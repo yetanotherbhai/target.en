@@ -6,7 +6,7 @@ solution: Target
 subtopic: Multivariate Test
 title: Redirect to a URL
 topic: Standard
-uuid: 92f8a1c9-feeb-4bd9-8ecb-3f222abcd80b
+uuid: 07780533-3ebf-43fb-bc4f-80e1178b08f4
 index: y
 internal: n
 snippet: y
@@ -15,7 +15,7 @@ translate: y
 
 # Redirect to a URL
 
-You might have two completely different pages to test instead of just changing pieces of content within a page. In this case, your A/B test compares page A vs. page B. Set up an A/B test campaign with two experiences: one pointing to the default page A, and the other redirecting to page B. In the Experience Action menu, located by clicking the letter label for the experience, choose ** [!UICONTROL  Redirect to URL] ** and specify the URL of page B. The offer is configured to redirect the visitor to a different page. 
+You might have two completely different pages to test instead of just changing pieces of content within a page. In this case, your A/B test compares page A vs. page B. Set up an A/B test campaign with two experiences: one pointing to the default page A, and the other redirecting to page B. In the Experience Action menu, located by clicking the letter label for the experience, choose **[!UICONTROL  Redirect to URL]** and specify the URL of page B. The offer is configured to redirect the visitor to a different page. 
 
 The redirect offer executes JavaScript code to redirect the browser. It uses the ` window.location.replace();`method, so the page the visitor is redirected from does not get stored in the browser history. This allows the visitor to still use the back button in their browser. 
 
@@ -38,9 +38,9 @@ Redirect offers have a few limitations:
 To create a redirect offer: 
 
 >1. Create an experience.
->1. Hover over an experience with your mouse, then click the Redirect to URL icon (  ![](../assets/icon_redirect_url.png) ).
+>1. Hover over an experience with your mouse, then click the Redirect to URL icon (  ![](assets/icon_redirect_url.png) ).
 
->       ![](../assets/exp_actions.png) 
+>       ![](assets/exp_actions.png) 
 >1. Type the URL.
 >1. If desired, select the option to include current query parameters.
 

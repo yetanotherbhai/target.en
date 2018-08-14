@@ -7,7 +7,7 @@ solution: Target
 subtopic: Getting Started
 title: Basic Concepts
 topic: Standard
-uuid: b606d548-7cab-4ba5-80da-293119a8552e
+uuid: f5e944d1-303c-48be-b6b3-6ad9033fcf10
 index: y
 internal: n
 snippet: y

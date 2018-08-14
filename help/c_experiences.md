@@ -6,7 +6,7 @@ seo-title: Experiences
 solution: Target
 title: Experiences
 topic: Standard
-uuid: 18ad1307-11cf-405e-8bcb-cbb5ec05682b
+uuid: 8ebe4707-13d6-4dc2-bdaa-39f6877151e6
 index: y
 internal: n
 snippet: y
@@ -109,7 +109,7 @@ This video is a recording of "[ Office Hours](c_adobe-customer-care-office-hours
  </tbody> 
 </table>
 
-On the Target ** [!UICONTROL  Setup] ** > ** [!UICONTROL  Preferences] ** tab, you can enter the Default Visual Experience Composer URL. 
+On the Target **[!UICONTROL  Setup]** > **[!UICONTROL  Preferences]** tab, you can enter the Default Visual Experience Composer URL. 
 
 ![](assets/pref-default-url.png) 
 
@@ -118,7 +118,7 @@ This URL determines where you start when you open the Visual Experience Composer
 
 >[!NOTE]
 >
->Certain browsers, such as Firefox, might block a page from displaying in the Visual Experience Composer if the page contains mixed content (for example, a non-secure page in a secure site). If your page does not display, click the icon to the left of the URL in the browser address bar and click ** [!UICONTROL  Disable protection on this page] **. This issue does not affect the display of your pages to site visitors. 
+>Certain browsers, such as Firefox, might block a page from displaying in the Visual Experience Composer if the page contains mixed content (for example, a non-secure page in a secure site). If your page does not display, click the icon to the left of the URL in the browser address bar and click **[!UICONTROL  Disable protection on this page]**. This issue does not affect the display of your pages to site visitors. 
 
 
 
@@ -139,14 +139,14 @@ As you move your mouse around the page, a context-sensitive box follows the curs
 
 Click the Overlays icon to change the way the highlight displays. For example, you can choose to highlight only images or mboxes or links, and you can change the color of the highlight. You can also specify a highlight color and type of fill used to highlight different element types. 
 
-Click on a highlighted element for a menu of options available for that element type For example, you can click on an image and select ** [!UICONTROL  Edit Image] ** to change the image, or click on a button and change the HTML. You can use the buttons at the top left of the page to toggle the overlays on and off. 
+Click on a highlighted element for a menu of options available for that element type For example, you can click on an image and select **[!UICONTROL  Edit Image]** to change the image, or click on a button and change the HTML. You can use the buttons at the top left of the page to toggle the overlays on and off. 
 
-You can also click ** [!UICONTROL  Browse] **, then navigate to a page that is available from the primary page, such as a shipping page or shopping cart, and test changes on that page. You can also access page elements that are available when you hover, such as flyout menus and mini-carts. When you are finished browsing to the page, click ** [!UICONTROL  Compose] ** to edit the experience. For example, you might want to change the design of a shopping cart drop-down or a carousel of images. This functionality is currently available for A/B tests, A/B tests with Analytics, and experience targeting. 
+You can also click **[!UICONTROL  Browse]**, then navigate to a page that is available from the primary page, such as a shipping page or shopping cart, and test changes on that page. You can also access page elements that are available when you hover, such as flyout menus and mini-carts. When you are finished browsing to the page, click **[!UICONTROL  Compose]** to edit the experience. For example, you might want to change the design of a shopping cart drop-down or a carousel of images. This functionality is currently available for A/B tests, A/B tests with Analytics, and experience targeting. 
 
 
 >[!NOTE]
 >
->If a hover state depends on JavaScript, make sure ** [!UICONTROL  Disable JavaScript] ** is not selected. JavaScript must be enabled to edit JavaScript elements. 
+>If a hover state depends on JavaScript, make sure **[!UICONTROL  Disable JavaScript]** is not selected. JavaScript must be enabled to edit JavaScript elements. 
 
 
 

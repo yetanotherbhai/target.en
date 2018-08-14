@@ -7,7 +7,7 @@ solution: Target
 subtopic: Getting Started
 title: Invite Users to Target
 topic: Standard
-uuid: 55fa6679-f0b6-4721-bd63-bd41f4124ae8
+uuid: f0b3e1f6-458f-49b9-9429-abc7a15c027c
 index: y
 internal: n
 snippet: y
@@ -47,8 +47,8 @@ This video explains how to set up [!DNL  Target] users and administrators.
 >1. Add the new user in the role-specific groups in the Enterprise Dashboard.
 
 >       After you add a user, the user receives an invitation email. 
->1. After the user accepts the invitation and logs in to [!DNL  Target], configure the user's permission level on the [!UICONTROL  Users] page in [!DNL  Target Standard/Premium] ( ** [!UICONTROL  Setup] ** > ** [!UICONTROL  Users] **).
+>1. After the user accepts the invitation and logs in to [!DNL  Target], configure the user's permission level on the [!UICONTROL  Users] page in [!DNL  Target Standard/Premium] ( **[!UICONTROL  Setup]** > **[!UICONTROL  Users]**).
 
 >       You will not see the new user listed on the [!UICONTROL  Users] page until the user logs in using his or her Adobe Experience Cloud account and then logs in to [!DNL  Target Standard/Premium] by clicking the [!DNL  Target] card. 
 
->       ![](../../assets/target_card.png) 
+>       ![](assets/target_card.png) 

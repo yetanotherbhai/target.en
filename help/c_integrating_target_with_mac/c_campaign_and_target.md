@@ -6,7 +6,7 @@ seo-title: Integrating Target with Adobe Campaign
 solution: Target
 title: Integrating Target with Adobe Campaign
 topic: Standard
-uuid: a95cfd79-ee2e-4774-81ae-0f5e215b36e6
+uuid: b4b10a42-024c-4ecc-abae-6851b8215307
 index: y
 internal: n
 snippet: y
@@ -58,7 +58,7 @@ Start the activity in Target before setting up the Campaign portion of the integ
 
 
 1. Create an email in Adobe Campaign.
-1. In the email properties, click ** [!UICONTROL  Include] ** > ** [!UICONTROL  Dynamic image served by Adobe Target] **.
+1. In the email properties, click **[!UICONTROL  Include]** > **[!UICONTROL  Dynamic image served by Adobe Target]**.
 1. Select the default image from the shared assets.
 1. Specify the location (rawbox).
 1. Add any other decisioning parameters, such as the gender of the recipient.

@@ -6,7 +6,7 @@ seo-title: Single Page App (SPA) Visual Experience Composer
 solution: Target
 title: Single Page App (SPA) Visual Experience Composer
 topic: Standard
-uuid: 789e55a8-894b-408d-8c58-fec76ae74528
+uuid: f43b786d-2c8f-4e09-931f-21482e4adf1a
 index: y
 internal: n
 snippet: y
@@ -141,13 +141,13 @@ To download the required [!DNL  at.js] version needed to participate in the SPA 
 
 1. Log in to your Target account. 
 
-1. Click ** [!UICONTROL  Setup] ** > ** [!UICONTROL  Implementation] **. 
+1. Click **[!UICONTROL  Setup]** > **[!UICONTROL  Implementation]**. 
 
    If your account has been enabled for the Beta Program, you will see a [!UICONTROL  Download at.js for SPA Beta] button. 
 
    If you are part of the Beta program and don't see this download button, please reach out to your Beta Program contact or your Customer Success Manager. 
 
-   ![](../assets/spa_beta_atjs.png) 
+   ![](assets/spa_beta_atjs.png) 
 
 1. Download the [!DNL  at.js] file for the SPA Beta program and use this in your website instead of the default [!DNL  at.js] file. 
 
@@ -174,13 +174,13 @@ There are two major improvements in the VEC:
 
 The Modifications Panel, as shown below, captures the VEC actions created as part of an experience. Notice that the actions are grouped by Target Views. The view named "Page Load Event" is an abstract view whose actions are applied whenever the visitor first visits the website and the page load event is fired for the first time. Actions that need to be applied on shared components, such as header and footer, can be created under this abstract view. 
 
-![](../assets/spa_vec_modifications_panel.png) 
+![](assets/spa_vec_modifications_panel.png) 
 
 **Actions** 
 
 Clicking an action highlights the element on the page where this action will be applied. Each VEC action created under a view has four icons as shown below: Information, Edit, Move to "Page Load" and Delete. 
 
-![](../assets/spa_vec_action.png) 
+![](assets/spa_vec_action.png) 
 
 The following table describes each action: 
 

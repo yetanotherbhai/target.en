@@ -7,8 +7,8 @@ solution: Target
 title: Base Implementation
 title_outputclass: premium
 topic: Premium
-uuid: 61ed6781-e98d-44d6-964b-dbe051f96cb9
-badge: assets/premium.png
+uuid: 9bdbb290-67a0-44d7-aa54-f7729a61ca3c
+badge: premium
 index: y
 internal: n
 snippet: y

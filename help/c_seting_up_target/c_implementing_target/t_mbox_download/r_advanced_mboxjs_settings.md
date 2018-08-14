@@ -5,7 +5,7 @@ seo-description: Information to help you set several settings on the mbox.js Set
 seo-title: Configure mbox.js
 solution: Target
 title: Configure mbox.js
-uuid: d54d43ea-4f66-4da5-8516-a5f0d9c436cd
+uuid: 75556922-39a5-4fa1-bccd-fee0f78b3ef2
 index: y
 internal: n
 snippet: y

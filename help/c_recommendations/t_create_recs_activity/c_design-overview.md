@@ -6,7 +6,7 @@ seo-title: Design Overview
 solution: Target
 title: Design Overview
 topic: Premium
-uuid: 90fd9413-0194-466a-a48b-0a68d769b3cd
+uuid: 6187ed63-613f-4c6f-a041-cded97d3209d
 index: y
 internal: n
 snippet: y
@@ -17,7 +17,7 @@ translate: y
 
 Target can deliver the complete look and feel of your recommendations as shown in the following illustration. The design can include HTML, JavaScript, and CSS. 
 
-![](../../assets/velocity_example.png) 
+![](assets/velocity_example.png) 
 
 Target can also send your recommendations as JSON objects that can be used in email messages, IoT (Internet of Things) devices, console, or voice use cases (Amazon Alexa or Google Home). 
 
@@ -34,7 +34,7 @@ The following example shows how to JSON responses can be returned when configuri
 
 1. Ensure that the "HTML Design" option is turned off: 
 
-   ![](../../assets/html_design_toggle.png) 
+   ![](assets/html_design_toggle.png) 
 
 1. The following code is an example below of what you could paste into your design: 
 
@@ -72,23 +72,23 @@ The following example shows how to JSON responses can be returned when configuri
 
     1. Navigate to the Activities page. 
 
-    1. Click ** [!UICONTROL  Create Activity] **.
-    1. Select ** [!UICONTROL  Recommendations] **. 
+    1. Click **[!UICONTROL  Create Activity]**.
+    1. Select **[!UICONTROL  Recommendations]**. 
 
-    1. Under ** [!UICONTROL  Choose Experience Composer] **, select ** [!UICONTROL  Form] **.
+    1. Under **[!UICONTROL  Choose Experience Composer]**, select **[!UICONTROL  Form]**.
     1. Under location, enter the text: "Sample_Recs_Response" 
 
-    1. Under ** [!UICONTROL  Default Content] **, click the down-arrow, then click ** [!UICONTROL  Add Recommendation] **. 
+    1. Under **[!UICONTROL  Default Content]**, click the down-arrow, then click **[!UICONTROL  Add Recommendation]**. 
 
     1. Choose a Page Type. This determines the initial filtering of the next screen. 
 
-    1. Select a Criteria card, then click ** [!UICONTROL  Next] **. 
+    1. Select a Criteria card, then click **[!UICONTROL  Next]**. 
 
-    1. Select the design you created in the previous step, then click ** [!UICONTROL  Save] **. 
+    1. Select the design you created in the previous step, then click **[!UICONTROL  Save]**. 
 
     1. Complete the setup process. 
 
-    1. Click the right arrow next to ** [!UICONTROL  Inactive] **, then select ** [!UICONTROL  Activate] **. 
+    1. Click the right arrow next to **[!UICONTROL  Inactive]**, then select **[!UICONTROL  Activate]**. 
 
 
 1. After your activity is set up and activated, you can set up a sample request to get back the clean JSON response. 
@@ -136,7 +136,7 @@ The following example shows how to JSON responses can be returned when configuri
 
    After your algorithm has run, and you have results, your response should look something like this: 
 
-   ![](../../assets/json_recommendation.png) 
+   ![](assets/json_recommendation.png) 
 
 
 ## Additional JSON Object Tips and Tricks {#section_C305673C68944749969DB239E3221DC2}

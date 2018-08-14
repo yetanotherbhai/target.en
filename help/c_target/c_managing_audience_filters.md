@@ -5,7 +5,7 @@ seo-description: Audience filters (or audiences) are groups of visitors who shar
 seo-title: Audience Filters for Reporting
 solution: Target
 title: Audience Filters for Reporting
-uuid: 1625d739-f64b-40fe-bd9f-f76fbcf5a19c
+uuid: c75c27db-8779-4375-9350-5c75b659c43d
 index: y
 internal: n
 snippet: y

@@ -7,7 +7,7 @@ solution: Target
 subtopic: Multivariate Test
 title: Browser
 topic: Premium
-uuid: 912c483a-1667-4789-b7a7-72860573af3d
+uuid: ba4f13d8-3d1c-4285-a0ae-db91e53605a1
 index: y
 internal: n
 snippet: y
@@ -54,15 +54,15 @@ There are two ways to target browsers:
 * **Customized Browser Audience Rule: **A customized audience enables you to target multiple browsers, or to set up rules or exclusions for specific browsers, browser versions, or browser languages. This provides significant flexibility when targeting a campaign based on browser attributes. 
 
 
-    1. In the [!DNL  Target] interface, click ** [!UICONTROL  Audiences] ** > ** [!UICONTROL  Create Audience] **. 
+    1. In the [!DNL  Target] interface, click **[!UICONTROL  Audiences]** > **[!UICONTROL  Create Audience]**. 
 
     1. Name the audience. 
 
-    1. Click ** [!UICONTROL  Add Rule] ** > ** [!UICONTROL  Browser] **. 
+    1. Click **[!UICONTROL  Add Rule]** > **[!UICONTROL  Browser]**. 
 
-       ![](../../../assets/target_browser.png) 
+       ![](assets/target_browser.png) 
 
-    1. Click ** [!UICONTROL  Select] **, then select one of the following options: 
+    1. Click **[!UICONTROL  Select]**, then select one of the following options: 
 
     
         * **Type:** Target or exclude a certain browser. See [ Type](../../../c_target/c_audiences/c_target_rules/c_browser.md#section_6ADC758F23F145B3A310151546D83D56). 
@@ -73,15 +73,15 @@ There are two ways to target browsers:
 
 
 
-    1. (Optional) Click ** [!UICONTROL  Add Rule] ** and set up additional rules for the audience. 
+    1. (Optional) Click **[!UICONTROL  Add Rule]** and set up additional rules for the audience. 
 
-    1. Click ** [!UICONTROL  Save] **. 
+    1. Click **[!UICONTROL  Save]**. 
 
 
 
 The following example shows an audience that includes Internet Explorer users on versions 10 or 11: 
 
-![](../../../assets/target_exclude_ie.png) 
+![](assets/target_exclude_ie.png) 
 
 This video includes information about using audience categories. 
 
@@ -116,7 +116,7 @@ This video includes information about using audience categories.
 
 Target or exclude a certain browser. 
 
-Select ** [!UICONTROL  Type] **, then choose either equals or does not equal. 
+Select **[!UICONTROL  Type]**, then choose either equals or does not equal. 
 
 
 * Equals: Target the selected browsers.
@@ -135,7 +135,7 @@ For example, if an offer is only available in English, you might target browsers
 
 Including or excluding browser language can provide more accurate visitor targeting than targeting based on geography in cases where language is more important than location. For example, if you are offering an article written in English, you could either target English-speaking countries, or you could target browsers that are set to English. Targeting to the browser makes the article available to English speakers in countries where English is not the primary language. 
 
-Select ** [!UICONTROL  Language] **, then choose either equals or does not equal. 
+Select **[!UICONTROL  Language]**, then choose either equals or does not equal. 
 * Equals: Target the selected browser languages.
 * Does not equal: Exclude the selected browser languages.
 
@@ -164,7 +164,7 @@ Target or exclude certain browser versions.
 
 For example, if your page does not appear correctly in Internet Explorer version 11 or earlier, you can create an audience that excludes those versions. In that case, you would set up a rule where the browser type equals Internet Explorer and add a second rule where the version is less than or equal to 11. 
 
-Select ** [!UICONTROL  Version] **, then choose an operator: 
+Select **[!UICONTROL  Version]**, then choose an operator: 
 
 
 * Equals

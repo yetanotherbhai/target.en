@@ -7,7 +7,7 @@ solution: Target
 subtopic: Getting Started
 title: Prepare to Implement Target
 topic: Standard
-uuid: c5506a63-974d-479d-a771-e9405cc12881
+uuid: 24deda3e-98ea-4146-865c-8bb6db5ec503
 index: y
 internal: n
 snippet: y

@@ -6,7 +6,7 @@ seo-title: Troubleshooting User Management
 solution: Target
 title: Troubleshooting User Management
 topic: Advanced,Standard,Classic
-uuid: 93b91176-1414-4f7c-b6aa-7b2961651d0b
+uuid: 922c8a92-0d3b-4314-9052-f6df33272523
 index: y
 internal: n
 snippet: y
@@ -25,4 +25,4 @@ This section contains the following information:
 
 You will not see the new user listed on the [!UICONTROL  Users] page until the user logs in using his or her Adobe Experience Cloud account and then logs in to [!DNL  Target Standard/Premium] by clicking the [!DNL  Target] card. 
 
-![](../../assets/target_card.png) 
+![](assets/target_card.png) 

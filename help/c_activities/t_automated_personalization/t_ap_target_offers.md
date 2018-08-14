@@ -5,8 +5,8 @@ seo-title: Target Automated Personalization Offers
 solution: Target,Analytics
 title: Target Automated Personalization Offers
 title_outputclass: premium
-uuid: aa71dc37-348e-43be-a908-155e0da43ae2
-badge: assets/premium.png
+uuid: 0d879e43-3bd5-4b20-aa39-3ea31cc57f44
+badge: premium
 index: y
 internal: n
 snippet: y
@@ -17,11 +17,11 @@ translate: y
 
 
 >1. Create an Automated Personalization activity containing the offers you want to target.
->1. After setting up the offers for the activity in the Visual Experience Composer, click ** [!UICONTROL  Content] **.
+>1. After setting up the offers for the activity in the Visual Experience Composer, click **[!UICONTROL  Content]**.
 
 >       The Manage Content dialog box opens. 
 
->       ![](../../assets/ap_content.png) 
+>       ![](assets/ap_content.png) 
 
 
 >       >[!NOTE]
@@ -37,4 +37,4 @@ translate: y
 >       >
 >       >In addition to selecting an existing audience, you can combine multiple audiences to create ad hoc combined audiences rather than creating a new audience. For more information, see[ Combining Multiple Audiences](../../c_target/c_audiences/c_combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5). 
 
->1. Click ** [!UICONTROL  Done] **.
+>1. Click **[!UICONTROL  Done]**.

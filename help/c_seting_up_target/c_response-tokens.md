@@ -7,7 +7,7 @@ solution: Target
 subtopic: Getting Started
 title: Response Tokens
 topic: Standard
-uuid: 679f2a73-56a8-41ef-a469-6f9d993ec424
+uuid: 437b6b34-a1cc-4f3c-833c-3df639ccf332
 index: y
 internal: n
 snippet: y
@@ -64,9 +64,9 @@ This section contains the following information:
 
    For more information, see [ Download at.js ](../c_seting_up_target/c_implementing_target/c_target-atjs-implementation/c_target-configure-atjs.md#concept_1E1F958F9CCC4E35AD97581EFAF659E2). 
 
-1. In [!DNL  Target], click ** [!UICONTROL  Setup] ** > ** [!UICONTROL  Response Tokens] **. 
+1. In [!DNL  Target], click **[!UICONTROL  Setup]** > **[!UICONTROL  Response Tokens]**. 
 
-   ![](../assets/response_tokens.png) 
+   ![](assets/response_tokens.png) 
 
 1. Activate the desired response tokens, such as ` activity.id`, ` option.id`, and so forth. 
 
@@ -207,9 +207,9 @@ This section contains the following information:
 
 1. (Conditional) If you want to use a profile parameter as a response token, but the parameter has not been passed through an mbox call and, thus, has not loaded into the Target UI, you can use the Create button to add the profile to the UI. 
 
-   Click ** [!UICONTROL  Create] **, provide the token name, then click ** [!UICONTROL  Activate] **. 
+   Click **[!UICONTROL  Create]**, provide the token name, then click **[!UICONTROL  Activate]**. 
 
-   ![](../assets/response_token_create.png) 
+   ![](assets/response_token_create.png) 
 
 1. Create an activity. 
 

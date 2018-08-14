@@ -6,7 +6,7 @@ seo-title: Pass Dynamic Data into Offers
 solution: Target
 title: Pass Dynamic Data into Offers
 topic: Premium
-uuid: 3a4a7db6-fb4a-4da8-bf81-6550a89526f8
+uuid: 50e8eeff-a784-4746-9604-f8b6f05a8664
 index: y
 internal: n
 snippet: y

@@ -7,7 +7,7 @@ solution: Target
 subtopic: Getting Started
 title: Visitor Profile Lifetime
 topic: Standard
-uuid: f69a72f5-3b29-421a-9a05-182674e6857b
+uuid: f79ccd02-a9f6-44c2-958a-066c335595e1
 index: y
 internal: n
 snippet: y

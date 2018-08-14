@@ -7,8 +7,8 @@ solution: Target
 title: Custom Entity Attributes
 title_outputclass: premium
 topic: Premium
-uuid: 8c9be1d7-a3b6-48e2-ae67-ed2a28dbc0e6
-badge: assets/premium.png
+uuid: 3b2b55e4-4df6-4ef1-959e-909a253fec93
+badge: premium
 index: y
 internal: n
 snippet: y
@@ -32,7 +32,7 @@ This section contains the following information:
 
 Custom entity attributes can contain a single value or multiple values. Entity attribute values are displayed in the product view. 
 
-![](../../assets/multi-value_product.png) 
+![](assets/multi-value_product.png) 
 
 A custom entity attribute with a single value is formed the same way as a single-value predefined entity attribute: 
 
@@ -116,11 +116,11 @@ You can manage your CSV files in raw form using a text editor, or you can use sp
 
 The raw CSV will look like this: 
 
-![](../../assets/multi-value_example_raw.png) 
+![](assets/multi-value_example_raw.png) 
 
 The same catalog will look like this in a spreadsheet: 
 
-![](../../assets/multi-value_example_excel.png) 
+![](assets/multi-value_example_excel.png) 
 
 When converting to [!DNL  .csv] format, the spreadsheet software adds double quotation marks around cell contents to prevent commas within the cell from acting as column separators. It also adds double quotation marks around JSON string values you include in custom multi-value attributes. This can make working directly with the raw file unwieldy. For example: 
 

@@ -7,7 +7,7 @@ solution: Target
 subtopic: Getting Started
 title: Assign Yourself the Approver Role
 topic: Standard
-uuid: e652d06f-b005-4c53-9aa2-311430821d15
+uuid: b6ae1b0e-5e74-42db-9f24-114b6383abf3
 index: y
 internal: n
 snippet: y
@@ -43,10 +43,10 @@ This video explains how to set up [!DNL  Target] users and administrators.
 </table>
 
 
->1. After you log in to the [!DNL  Adobe Experience Cloud], click ** [!UICONTROL  Target] **.
+>1. After you log in to the [!DNL  Adobe Experience Cloud], click **[!UICONTROL  Target]**.
 
 >       The [!DNL  Target Standard] card displays. This confirms that you have added Standard to your [!DNL  Experience Cloud] account. At this time, you are not able to create an activity because you have not been given the [!UICONTROL  Approver] role. 
->1. Click the [!UICONTROL  Target Standard] card, then in Standard click ** [!UICONTROL  Setup] ** > ** [!UICONTROL  Users] **.
+>1. Click the [!UICONTROL  Target Standard] card, then in Standard click **[!UICONTROL  Setup]** > **[!UICONTROL  Users]**.
 
 >       Your name appears in the users list. 
 >1. Click the [!DNL  Approver] radio button.

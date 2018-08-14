@@ -7,7 +7,7 @@ solution: Target
 subtopic: Getting Started
 title: Working with Redirectors
 topic: Standard
-uuid: 9a59b9c0-1f5d-4c80-9510-0ee629630bf1
+uuid: 5c99f581-c07a-4427-9add-582a6dfa5554
 index: y
 internal: n
 snippet: y

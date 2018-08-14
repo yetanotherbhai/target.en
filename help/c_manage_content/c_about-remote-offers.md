@@ -6,7 +6,7 @@ seo-title: Create Remote Offers
 solution: Target
 title: Create Remote Offers
 topic: Standard
-uuid: 4d738771-3784-4e4f-989a-9c5af13f4018
+uuid: 7e5f7cd8-8434-4b87-aada-9f0a29877d86
 index: y
 internal: n
 snippet: y
@@ -42,11 +42,11 @@ Some examples of remote offers include:
 **To create a remote offer:** 
 
 
-1. Click ** [!UICONTROL  Offers] **, then select the ** [!UICONTROL  Code Offers] ** tab. 
+1. Click **[!UICONTROL  Offers]**, then select the **[!UICONTROL  Code Offers]** tab. 
 
-1. Click ** [!UICONTROL  Create] ** > ** [!UICONTROL  Remote Offer] **. 
+1. Click **[!UICONTROL  Create]** > **[!UICONTROL  Remote Offer]**. 
 
-   ![](../assets/remote_offer_ui.png) 
+   ![](assets/remote_offer_ui.png) 
 
 1. Provide a descriptive name for the offer. 
 
@@ -76,7 +76,7 @@ Some examples of remote offers include:
 </table>
 
 
-1. Click ** [!UICONTROL  Save] **.
+1. Click **[!UICONTROL  Save]**.
 
 
 ## Best Practices for Using Remote Offers {#section_7718512D08E14121B6F6B8C38134F4BC}

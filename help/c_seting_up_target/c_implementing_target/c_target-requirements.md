@@ -6,7 +6,7 @@ solution: Target
 subtopic: Getting Started
 title: Target Requirements
 topic: Standard
-uuid: 41554d21-3213-4576-847f-91f8d5aa3971
+uuid: 2ace9aac-afb2-4c93-bb02-3f5753851ff4
 index: y
 internal: n
 snippet: y

@@ -6,7 +6,7 @@ solution: Target
 subtopic: Multivariate Test
 title: Combined Rules-Based and Percentage Targeting
 topic: Standard
-uuid: 74b3af3e-4390-4caf-a70b-fe7ad2ddfa89
+uuid: 45effa43-df54-433a-b932-72d67fff6195
 index: y
 internal: n
 snippet: y
@@ -28,14 +28,14 @@ For example, you might create a campaign with four experiences that you want to 
 * Experience D: Targeted to 90% of female visitors
 
 
-In this example, the segments * ` Male` * or * ` Female` * are determined first, then the segments are divided according to the specified percentages. 
+In this example, the segments *` Male`* or *` Female`* are determined first, then the segments are divided according to the specified percentages. 
 
 
-* Segment * ` Male` *
+* Segment *` Male`*
     * 20% Experience A
     * 80% Experience B
 
-* Segment * ` Female` *
+* Segment *` Female`*
     * 10% Experience C
     * 90% Experience D
 

@@ -6,7 +6,7 @@ seo-title: Visual Experience Composer Options
 solution: Target
 title: Visual Experience Composer Options
 topic: Standard
-uuid: 2ccdf231-937b-40eb-be5c-4f5e4de418af
+uuid: 8ec65184-a4d4-4ed2-9e6f-023cc7babc66
 index: y
 internal: n
 snippet: y

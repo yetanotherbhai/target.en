@@ -7,7 +7,7 @@ solution: Target
 subtopic: Multivariate Test
 title: Reports
 topic: Standard
-uuid: 48c56898-ce3b-4dd0-9441-69c5ec96c237
+uuid: 57e26aa5-0606-4d89-864a-deb5454217bc
 index: y
 internal: n
 snippet: y
@@ -85,7 +85,7 @@ In addition to the general reporting information in this topic and its subtopics
 
 
 
-1. Click ** [!UICONTROL  Activities] **, then click the desired activity from the list. 
+1. Click **[!UICONTROL  Activities]**, then click the desired activity from the list. 
 
    If you have many activities, you can filter the list by selecting options from the [!UICONTROL  Type], [!UICONTROL  Status], [!UICONTROL  Reporting Source], [!UICONTROL  Experience Composer], [!UICONTROL  Metrics Type], and [!UICONTROL  Activity Source] drop-down lists. 
 
@@ -95,7 +95,7 @@ In addition to the general reporting information in this topic and its subtopics
 
    ![](assets/report_filters.png) 
 
-1. Click the ** [!UICONTROL  Reports] ** tab. 
+1. Click the **[!UICONTROL  Reports]** tab. 
 
    Each report includes a legend to help you understand the report. 
 
@@ -131,8 +131,8 @@ In addition to the general reporting information in this topic and its subtopics
 
 
 
-1. (Optional) Click the ** [!UICONTROL  Table View] ** (  ![](assets/icon_list_view.png) ) and ** [!UICONTROL  Graph View] ** (  ![](assets/icon_graph_report.png)) icons to switch between reporting formats. 
+1. (Optional) Click the **[!UICONTROL  Table View]** (  ![](assets/icon_list_view.png) ) and **[!UICONTROL  Graph View]** (  ![](assets/icon_graph_report.png)) icons to switch between reporting formats. 
 
-   For Multivariate tests only, click the ** [!UICONTROL  Location Contribution] ** (  ![](assets/icon_location_contribution.png) ) icon to switch the report to show contribution by location. 
+   For Multivariate tests only, click the **[!UICONTROL  Location Contribution]** (  ![](assets/icon_location_contribution.png) ) icon to switch the report to show contribution by location. 
 
 

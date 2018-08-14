@@ -8,8 +8,8 @@ subtopic: Getting Started
 title: Configure Enterprise Permissions
 title_outputclass: premium
 topic: Premium
-uuid: 286cf004-4d4a-481f-a83f-82f4aba177b8
-badge: assets/premium.png
+uuid: c5915272-ff64-4d6a-80a6-7219c79b6c15
+badge: premium
 index: y
 internal: n
 snippet: y
@@ -74,7 +74,7 @@ For those tasks performed in the Adobe Admin Console for Enterprise, access the 
 
    Or 
 
-   If you are already logged in to the Experience Cloud, go to [ http://www.marketing.adobe.com ](http://www.marketing.adobe.com/), then click the [!UICONTROL  App] icon (  ![](../../assets/icon_mc_apps.png) ) in the top navigation bar > click ** [!UICONTROL  Administration] ** on the right side > then click ** [!UICONTROL  Launch Admin Console] **. 
+   If you are already logged in to the Experience Cloud, go to [ http://www.marketing.adobe.com ](http://www.marketing.adobe.com/), then click the [!UICONTROL  App] icon (  ![](assets/icon_mc_apps.png) ) in the top navigation bar > click **[!UICONTROL  Administration]** on the right side > then click **[!UICONTROL  Launch Admin Console]**. 
 
 1. (Conditional) If you have access to the [!DNL  Admin Console for Enterprise] for more than one organization, click the user avatar in the right corner or the top navigation bar, then select the desired organization. 
 
@@ -85,7 +85,7 @@ For those tasks performed in the Adobe Admin Console for Enterprise, access the 
 When you start using the new [!UICONTROL  Properties] functionality, all user management must be performed in the [!DNL  Adobe Admin Console for Enterprise]. However, all of your existing users in [!DNL  Target] will be migrated from [!DNL  Target] to the [!DNL  Admin Console for Enterprise]. 
 
 
-1. [ In the Admin Console ](../../c_seting_up_target/property_channel/properties-overview.md#section_79796E0227D048F59BAE0AB02E544EBE), click the ** [!UICONTROL  Users] ** tab at the top of the page > ** [!UICONTROL  Users] ** to create new users or to edit existing users. 
+1. [ In the Admin Console ](../../c_seting_up_target/property_channel/properties-overview.md#section_79796E0227D048F59BAE0AB02E544EBE), click the **[!UICONTROL  Users]** tab at the top of the page > **[!UICONTROL  Users]** to create new users or to edit existing users. 
 
 1. Follow the instructions in [ Manage Users and Groups in the Experience Cloud ](https://helpx.adobe.com/enterprise/help/users.html) in the *Enterprise User Guide*. 
 
@@ -133,9 +133,9 @@ This video explains how to create workspaces:
 </table>
 
 
-1. In the Admin Console, click ** [!UICONTROL  Products] **, then select the name of the desired product. 
+1. In the Admin Console, click **[!UICONTROL  Products]**, then select the name of the desired product. 
 
-   ![](../../assets/workspace.png) 
+   ![](assets/workspace.png) 
 
 1. Create the desired workspace (Product Profile): 
 
@@ -164,7 +164,7 @@ This video explains how to create workspaces:
 You can create user groups, such as Developers, Analysts, Marketers, Executives, etc., and then assign privileges across multiple Adobe products and workspaces. Assigning a new team member all the appropriate privileges across different Adobe products can be as easy as adding them to a specific user group. 
 
 
-1. In the Admin Console, click the ** [!UICONTROL  Users] ** tab at the top of the page > ** [!UICONTROL  User Groups] ** to create new user groups or to edit existing groups. 
+1. In the Admin Console, click the **[!UICONTROL  Users]** tab at the top of the page > **[!UICONTROL  User Groups]** to create new user groups or to edit existing groups. 
 
 1. Follow the instructions in [ Manage Users and Groups of a Product Configuration ](https://helpx.adobe.com/enterprise/help/manage-products-and-configurations.html) in the *Enterprise User Guide*.
 
@@ -208,11 +208,11 @@ Properties are enabled by adding a specific name/value pair as a parameter with 
 Properties belong to specific channels (Web, Mobile, Email, and API/Other). 
 
 
-1. In [!DNL  Target], click ** [!UICONTROL  Setup] ** > ** [!UICONTROL  Properties] ** to display the [!UICONTROL  Properties] list. 
+1. In [!DNL  Target], click **[!UICONTROL  Setup]** > **[!UICONTROL  Properties]** to display the [!UICONTROL  Properties] list. 
 
 1. Click **Create Property**. 
 
-   ![](../../assets/new_property.png) 
+   ![](assets/new_property.png) 
 
    Fill in the fields: 
 
@@ -225,11 +225,11 @@ Properties belong to specific channels (Web, Mobile, Email, and API/Other).
 
 
 
-1. Click ** [!UICONTROL  Generate Code] ** to generate the code you'll use while performing the steps in [ 5: Update Your Implementation to Include the at_property Parameter ](../../c_seting_up_target/property_channel/properties-overview.md#section_9B17A59807A94712BE642942442EBBC8). 
+1. Click **[!UICONTROL  Generate Code]** to generate the code you'll use while performing the steps in [ 5: Update Your Implementation to Include the at_property Parameter ](../../c_seting_up_target/property_channel/properties-overview.md#section_9B17A59807A94712BE642942442EBBC8). 
 
 1. Copy the code to your clipboard. 
 
-1. Click ** [!UICONTROL  Save] ** when done. 
+1. Click **[!UICONTROL  Save]** when done. 
 
 
 
@@ -244,15 +244,15 @@ To use the [!DNL  Target] user-permissions functionality, you must add the ` at_
 
    Or 
 
-   In [!DNL  Target], click ** [!UICONTROL  Setup] ** > ** [!UICONTROL  Properties] ** to display the [!UICONTROL  Properties] list. 
+   In [!DNL  Target], click **[!UICONTROL  Setup]** > **[!UICONTROL  Properties]** to display the [!UICONTROL  Properties] list. 
 
-    1. Hover your mouse pointer over the [!UICONTROL  Last Updated] column for the desired property to display and click the [!UICONTROL  Code] icon (  ![](../../assets/icon_code.png)). 
+    1. Hover your mouse pointer over the [!UICONTROL  Last Updated] column for the desired property to display and click the [!UICONTROL  Code] icon (  ![](assets/icon_code.png)). 
 
-       ![](../../assets/code_property.png) 
+       ![](assets/code_property.png) 
 
     1. Right-click the highlighted implementation code to copy it to your clipboard. 
 
-       ![](../../assets/code_property_2.png) 
+       ![](assets/code_property_2.png) 
 
 
 1. Update your Target implementation with the implementation code obtained in the previous step. 
@@ -262,19 +262,19 @@ To use the [!DNL  Target] user-permissions functionality, you must add the ` at_
 
     * **Via a "Global Parameter" in [!DNL  Dynamic Tag Management] (Adobe Activation):** 
 
-      ![](../../assets/property_token_2.png) 
+      ![](assets/property_token_2.png) 
 
       For more information, see [ Global Parameters - Adobe Target ](https://marketing.adobe.com/resources/help/en_US/dtm/target_global_params.html) in the *Dynamic Tag Management Product Documentation*. 
 
     * **Via the targetPageParams() function: **Place the following code in the &lt;head&gt; tags, above the at.js or mbox.js reference. 
 
-      ![](../../assets/property_token_1.png) 
+      ![](assets/property_token_1.png) 
 
       For more information about how to do this with at.js, see [ targetPageParams() ](../../c_seting_up_target/c_implementing_target/c_target-atjs-implementation/cmp_at.js_Functions.md#reference_B235C9F6DA79449ABE3E23F914FEABAE). 
 
     * **Via the mboxCreate() function:** 
 
-      ![](../../assets/property_token_3.png) 
+      ![](assets/property_token_3.png) 
 
       For more information about how to do this with at.js, see [ targetPageParams() ](../../c_seting_up_target/c_implementing_target/c_target-atjs-implementation/cmp_at.js_Functions.md#reference_B235C9F6DA79449ABE3E23F914FEABAE). [ mboxCreate(mbox,params) ](../../c_seting_up_target/c_implementing_target/c_target-atjs-implementation/cmp_at.js_Functions.md#reference_E68805FE86C64792B2066DB17B253D74) 
 
@@ -285,9 +285,9 @@ To use the [!DNL  Target] user-permissions functionality, you must add the ` at_
 ## 6: Specify Roles and Permissions {#section_8C425E43E5DD4111BBFC734A2B7ABC80}
 
 
-1. In the Admin Console, click ** [!UICONTROL  Products] **, then select the name of the desired product. 
+1. In the Admin Console, click **[!UICONTROL  Products]**, then select the name of the desired product. 
 
-   ![](../../assets/workspace.png) 
+   ![](assets/workspace.png) 
 
 
    >[!NOTE]
@@ -297,11 +297,11 @@ To use the [!DNL  Target] user-permissions functionality, you must add the ` at_
 
 1. Click the name of the desired profile. 
 
-1. Click ** [!UICONTROL  Users] **. 
+1. Click **[!UICONTROL  Users]**. 
 
    The [!UICONTROL  Configuration Users] tab displays all of the users in that workspace. 
 
-   ![](../../assets/configuration_users.png) 
+   ![](assets/configuration_users.png) 
 
 1. Select the desired permissions role (Approver, Editor, or Observer) by using the drop-down list for each user in the [!UICONTROL  Product Role] column. 
 

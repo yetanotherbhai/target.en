@@ -7,7 +7,7 @@ solution: Target
 subtopic: Getting Started
 title: Create an Adbox for an Image
 topic: Standard
-uuid: 1a7c706d-7f37-444f-85d0-a7157d86b47a
+uuid: aed68181-1ffa-435f-a31a-db4d809acb02
 index: y
 internal: n
 snippet: y

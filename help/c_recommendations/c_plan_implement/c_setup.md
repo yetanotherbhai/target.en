@@ -7,8 +7,8 @@ solution: Target
 title: Settings
 title_outputclass: premium
 topic: Premium
-uuid: 44be4f64-5177-45a1-8836-d39ffa357634
-badge: assets/premium.png
+uuid: fddc6472-7562-4d8c-aa2f-c5107c4ace6a
+badge: premium
 index: y
 internal: n
 snippet: y
@@ -17,9 +17,9 @@ translate: y
 
 # Settings
 
-To access the [!UICONTROL  Recommendations Settings] options, open [!DNL  Target] in the [!DNL  Adobe Experience Cloud], then click ** [!UICONTROL  Recommendations] ** > ** [!UICONTROL  Settings] **. 
+To access the [!UICONTROL  Recommendations Settings] options, open [!DNL  Target] in the [!DNL  Adobe Experience Cloud], then click **[!UICONTROL  Recommendations]** > **[!UICONTROL  Settings]**. 
 
-![](../../assets/recs_settings.png) 
+![](assets/recs_settings.png) 
 
 The following options are available: 
 

@@ -5,7 +5,7 @@ seo-description: You can create audiences based on network details.
 seo-title: Network
 solution: Target
 title: Network
-uuid: 1d1ed946-15ef-445b-979d-c2c729152612
+uuid: de07fbb3-12a3-4f8e-af84-5e339abb2cc0
 index: y
 internal: n
 snippet: y
@@ -39,15 +39,15 @@ This video includes information about using audience categories.
 </table>
 
 
-1. In the [!DNL  Target] interface, click ** [!UICONTROL  Audiences] ** > ** [!UICONTROL  Create Audience] **. 
+1. In the [!DNL  Target] interface, click **[!UICONTROL  Audiences]** > **[!UICONTROL  Create Audience]**. 
 
 1. Name the audience. 
 
-1. Click ** [!UICONTROL  Add Rule] ** > ** [!UICONTROL  Network] **. 
+1. Click **[!UICONTROL  Add Rule]** > **[!UICONTROL  Network]**. 
 
-   ![](../../../assets/target_network.png) 
+   ![](assets/target_network.png) 
 
-1. Click ** [!UICONTROL  Select] **, then select one of the following options: 
+1. Click **[!UICONTROL  Select]**, then select one of the following options: 
 
 
     * **ISP: **An ISP is an organization that provides internet access to its subscribers, usually at a monthly or yearly fee. Many ISPs provide additional services, such as web hosting or email. The ISP field is either a commercial ISP (such as Comcast or TimeWarner) or another entity such as a business or educational institution. 
@@ -88,8 +88,8 @@ This video includes information about using audience categories.
 
 
 
-1. (Optional) Click ** [!UICONTROL  Add Rule] ** and set up additional rules for the audience. 
+1. (Optional) Click **[!UICONTROL  Add Rule]** and set up additional rules for the audience. 
 
-1. Click ** [!UICONTROL  Save] **. 
+1. Click **[!UICONTROL  Save]**. 
 
 

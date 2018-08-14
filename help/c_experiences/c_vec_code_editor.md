@@ -7,7 +7,7 @@ solution: Target
 subtopic: Code Editor
 title: Modifications
 topic: Standard
-uuid: bbc57cd5-778b-4e39-a1ca-ad30f970ba1a
+uuid: bf69694f-9be2-4377-9fe8-bf2f9aa62f4e
 index: y
 internal: n
 snippet: y
@@ -37,7 +37,7 @@ This section contains the following information:
 
 The [!UICONTROL  Modifications] page shows all changes that have been made to your page in the VEC. Each change you make appears as a separate action or element in the [!UICONTROL  Modifications] list. 
 
-![](../assets/codeeditor_page_mods.png) 
+![](assets/codeeditor_page_mods.png) 
 
 Use the Modifications page to make small changes to the selector that Target chooses when you use the VEC to configure how content is delivered. You can change either the content or an HTML attribute. You can also edit the code to create the equivalent of an HTML offer within an mbox. 
 
@@ -46,23 +46,23 @@ Use the Modifications page to:
 
 * View an action taken in the visual composer. 
 
-  ![](../assets/codeeditor_viewchange.png) 
+  ![](assets/codeeditor_viewchange.png) 
 
-* Edit an existing action. Hover over the desired modification, then click the ** [!UICONTROL  Edit] ** icon. 
+* Edit an existing action. Hover over the desired modification, then click the **[!UICONTROL  Edit]** icon. 
 
-  ![](../assets/codeeditor_edit.png) 
+  ![](assets/codeeditor_edit.png) 
 
   Make your changes. 
 
-  ![](../assets/codeeditor_changechange1.png) 
+  ![](assets/codeeditor_changechange1.png) 
 
-* Delete an existing action. Hover over the desired modification, then click the ** [!UICONTROL  Delete] ** icon. 
+* Delete an existing action. Hover over the desired modification, then click the **[!UICONTROL  Delete]** icon. 
 
-  ![](../assets/codeditor_delete.png) 
+  ![](assets/codeditor_delete.png) 
 
-* Add a new modification. Click ** [!UICONTROL  Add Modification] ** or the + icon, then specify your changes as described below. 
+* Add a new modification. Click **[!UICONTROL  Add Modification]** or the + icon, then specify your changes as described below. 
 
-  ![](../assets/codeeditor_new.png) 
+  ![](assets/codeeditor_new.png) 
 
   Note that after one modification is created, Target displays a + icon at the top of the Modifications panel instead of the Add Modification button at the bottom of the panel. 
 
@@ -71,9 +71,9 @@ Use the Modifications page to:
 ## Add Modifications {#section_C7ABCD5731A048CB8F90EDC31A32EDF9}
 
 
-1. To display the [!UICONTROL  Modifications] page for a selected experience, in the VEC, click the ** [!UICONTROL  Modifications] ** &lt;/&gt; icon. 
+1. To display the [!UICONTROL  Modifications] page for a selected experience, in the VEC, click the **[!UICONTROL  Modifications]** &lt;/&gt; icon. 
 
-   ![](../assets/codeeditor_icon_big.png) 
+   ![](assets/codeeditor_icon_big.png) 
 
 
    >[!NOTE]
@@ -83,16 +83,16 @@ Use the Modifications page to:
 
    The [!UICONTROL  Modifications] page opens, splitting the screen between the visual mode on the left and the Modifications panel on the right. Notice that Experience A in the following illustration has no previous modifications. 
 
-   ![](../assets/codeeditor_page.png) 
+   ![](assets/codeeditor_page.png) 
 
    Experience B shows the previous modifications in the [!UICONTROL  Modifications] panel on the right. 
 
-   ![](../assets/codeeditor_page_mods.png) 
+   ![](assets/codeeditor_page_mods.png) 
 
 1. To add a modification: 
 
 
-    * If no previous modifications for the experience have been made, click the ** [!UICONTROL  Add Modification] ** button at the bottom of the [!UICONTROL  Modifications] panel on the right side. 
+    * If no previous modifications for the experience have been made, click the **[!UICONTROL  Add Modification]** button at the bottom of the [!UICONTROL  Modifications] panel on the right side. 
 
     * If there are previous modifications for the experience, click the + icon at the top of the [!UICONTROL  Modifications] panel on the right side. 
 
@@ -100,9 +100,9 @@ Use the Modifications page to:
 
    The Modifications panel displays: 
 
-   ![](../assets/codeeditor_page_mods_add.png) 
+   ![](assets/codeeditor_page_mods_add.png) 
 
-1. From the ** [!UICONTROL  Modifications Type] ** drop-down list, choose the desired type: 
+1. From the **[!UICONTROL  Modifications Type]** drop-down list, choose the desired type: 
 
 
 
@@ -152,7 +152,7 @@ Use the Modifications page to:
 
 ## Custom Code Use Cases {#section_26CB3360097D400FB02E20AE5FDBA352}
 
-The ** [!UICONTROL  Custom Code] ** panel contains code that is executed at the beginning of the page load. 
+The **[!UICONTROL  Custom Code]** panel contains code that is executed at the beginning of the page load. 
 
 You can execute the JavaScript code in the ` &amp;lt;head&amp;gt;` tag. Execution of code does not wait for the ` &amp;lt;body&amp;gt;` tag to be present in the DOM. 
 
@@ -160,9 +160,9 @@ Selectors for subsequent visual actions depend on the HTML elements added in thi
 
 The Custom Code panel is commonly used to add JavaScript or CSS to the top of the page. 
 
-![](../assets/codeeditor_custom.png) 
+![](assets/codeeditor_custom.png) 
 
-Use the ** [!UICONTROL  Custom Code] ** tab to: 
+Use the **[!UICONTROL  Custom Code]** tab to: 
 
 
 * Use JavaScript inline or link to an external JavaScript file 
@@ -310,7 +310,7 @@ This message indicates that the structure of your page has changed since the act
 
 The missing selectors might be reached using Browse mode. We recommend that you delete and then re-create each experience to ensure that your content looks as you expect, as indicated in the warning message. 
 
-![](../assets/code_editor_2.png) 
+![](assets/code_editor_2.png) 
 
 * **When I delete an element, I see a warning tells me that says "Deleting this action may impact subsequent actions." What does this mean?** * 
 
