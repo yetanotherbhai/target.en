@@ -2,15 +2,19 @@
 cloud: experience-cloud
 product: adobe
 archtype: end-user
-user-guide: null
+user-guide: Adobe Target User Guide
+git-repo: https://git.corp.adobe.com/AdobeDocs/target.en
+git-issues: https://git.corp.adobe.com/AdobeDocs/target.en/issues
 ---
 
 # Table of Contents
 
-+ [Known Issues and Resolved Issues](r_release_notes/known-issues-resolved_issues.md)
-+ [System Status Updates](r_release_notes/system-status-updates.md)
-+ [Training Videos for Adobe Target Standard and Premium](c_intro/c_target_standard-premium-training-videos.md)
-+ [Access Target from the Adobe Experience Cloud](c_intro/t_target-access-from-mac.md)
++ Release Notes
+    + [Known Issues and Resolved Issues](r_release_notes/known-issues-resolved_issues.md)
+    + [System Status Updates](r_release_notes/system-status-updates.md)
++ Introduction
+    + [Training Videos for Adobe Target Standard and Premium](c_intro/c_target_standard-premium-training-videos.md)
+    + [Access Target from the Adobe Experience Cloud](c_intro/t_target-access-from-mac.md)
 + [Basic Concepts](c_intro/c_target_concepts.md)
     + [Activities and Tests](c_intro/c_target_concepts/c_activitiestests.md)
     + [Locations](c_intro/c_target_concepts/c_mboxes.md)
