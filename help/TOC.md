@@ -10,6 +10,7 @@ git-issues: https://git.corp.adobe.com/AdobeDocs/target.en/issues
 # Table of Contents
 
 + Release Notes
+    + [Target Release Notes - Latest Release](r_release_notes.md)
     + [Known Issues and Resolved Issues](r_release_notes/known-issues-resolved_issues.md)
     + [System Status Updates](r_release_notes/system-status-updates.md)
 + Introduction
@@ -149,7 +150,7 @@ git-issues: https://git.corp.adobe.com/AdobeDocs/target.en/issues
         + [Determine a Winner](c_activities/automated_traffic_allocation/c_determine-winner.md)
     + [Auto-Target](c_activities/c_auto-target-to-optimize.md)
 
-YOU ARE HERE
+BELOW
 
 + [Automated Personalization](c_activities/t_automated_personalization.md)
     + [Random Forest Algorithm](c_activities/t_automated_personalization/c_algo_random_forest.md)
