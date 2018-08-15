@@ -22,11 +22,13 @@ git-issues: https://git.corp.adobe.com/AdobeDocs/target.en/issues
         + [Experiences and Page Designs](c_intro/c_target_concepts/c_experience.md)
         + [Offers](c_intro/c_target_concepts/c_offers.md)
         + [Audiences](c_intro/c_target_concepts/c_about_segments.md)
-    + [How Adobe Target Works](c_intro/c_how_target_works.md)
+    + How Adobe Target Works
+        + [How Adobe Target Works](c_intro/c_how_target_works.md)
         + [The Edge Network](c_intro/c_how_target_works/c_edge_network.md)
         + [Protected User Experience](c_intro/c_how_target_works/c_protected_user_experience.md)
         + [Search Engine Optimization (SEO) Friendly Testing](c_intro/c_how_target_works/c_effect_on_seo.md)
-    + [Administrator First Steps](c_intro/start_target.md)
+    Administrator First Steps
+        + [Administrator First Steps](c_intro/start_target.md)
         + [Invite Users to Target](c_intro/start_target/t_invite-users.md)
         + [Accept the Invitation](c_intro/start_target/t_accept_invitation.md)
         + [Assign Yourself the Approver Role](c_intro/start_target/t_approver.md)
@@ -34,7 +36,8 @@ git-issues: https://git.corp.adobe.com/AdobeDocs/target.en/issues
     + [Glossary](c_intro/r_glossary.md)
 + Setting Up Target
     + [Preferences](c_seting_up_target/r_target-account-preferences.md)
-    + [Implementation](c_seting_up_target/c_implementing_target.md)
+    + Implementation
+        + [Implementation overview](c_seting_up_target/c_implementing_target.md)
         + [Prepare to Implement Target](c_seting_up_target/c_implementing_target/c_prepare-to-implement-target.md)
         + Target Requirements
             + [Target Requirements](c_seting_up_target/c_implementing_target/c_target-requirements.md)
@@ -126,25 +129,28 @@ git-issues: https://git.corp.adobe.com/AdobeDocs/target.en/issues
     + [Experience Cloud Audiences](c_integrating_target_with_mac/c_mmp.md)
     + [Integrating Target with Adobe Campaign](c_integrating_target_with_mac/c_campaign_and_target.md)
     + [Experience Cloud Device Co-op](c_integrating_target_with_mac/c_experience-cloud-device-co-op.md)
++ Activities
+    + [Target Activities Guide](c_activities/target-activities-guide.md)
+    + A/B Test
+        + [A/B Test](c_activities/t_test_ab.md)
+        + [Plan Your A/B Test](c_activities/t_test_ab/c_sample_size_determination.md)
+    + Create an A/B Test
+        + [Create an A/B Test](c_activities/t_test_ab/t_test_create_ab.md)
+            + [Activity URL](c_activities/t_test_ab/t_test_create_ab/c_ab_activity_url.md)
+            + [Add Experience](c_activities/t_test_ab/t_test_create_ab/t_ab_add_experience.md)
+            + [Select Audience](c_activities/t_test_ab/t_test_create_ab/c_ab_audience.md)
+            + [Goals and Settings](c_activities/t_test_ab/t_test_create_ab/r_ab_goals_and_settings.md)
+            + [Using Analytics Data](c_activities/t_test_ab/t_test_create_ab/t_create_a4t.md)
+            + [Set Metrics](c_activities/t_test_ab/t_test_create_ab/t_ab_set_metrics.md)
+        + [Multiple Experience Versions in an A/B Test](c_activities/t_test_ab/t_target-experience-to-multiple-audiences.md)
+        + [Nine Common A/B Testing Pitfalls and How to Avoid Them](c_activities/t_test_ab/c_common-ab-testing-pitfalls.md)
+    + Auto-Allocate
+        + [Auto-Allocate](c_activities/automated_traffic_allocation.md)
+        + [Determine a Winner](c_activities/automated_traffic_allocation/c_determine-winner.md)
+    + [Auto-Target](c_activities/c_auto-target-to-optimize.md)
 
 YOU ARE HERE
 
-+ Activities
-+ [Target Activities Guide](c_activities/target-activities-guide.md)
-+ [A/B Test](c_activities/t_test_ab.md)
-    + [Plan Your A/B Test](c_activities/t_test_ab/c_sample_size_determination.md)
-    + [Create an A/B Test](c_activities/t_test_ab/t_test_create_ab.md)
-        + [Activity URL](c_activities/t_test_ab/t_test_create_ab/c_ab_activity_url.md)
-        + [Add Experience](c_activities/t_test_ab/t_test_create_ab/t_ab_add_experience.md)
-        + [Select Audience](c_activities/t_test_ab/t_test_create_ab/c_ab_audience.md)
-        + [Goals and Settings](c_activities/t_test_ab/t_test_create_ab/r_ab_goals_and_settings.md)
-        + [Using Analytics Data](c_activities/t_test_ab/t_test_create_ab/t_create_a4t.md)
-        + [Set Metrics](c_activities/t_test_ab/t_test_create_ab/t_ab_set_metrics.md)
-    + [Multiple Experience Versions in an A/B Test](c_activities/t_test_ab/t_target-experience-to-multiple-audiences.md)
-    + [Nine Common A/B Testing Pitfalls and How to Avoid Them](c_activities/t_test_ab/c_common-ab-testing-pitfalls.md)
-+ [Auto-Allocate](c_activities/automated_traffic_allocation.md)
-    + [Determine a Winner](c_activities/automated_traffic_allocation/c_determine-winner.md)
-+ [Auto-Target](c_activities/c_auto-target-to-optimize.md)
 + [Automated Personalization](c_activities/t_automated_personalization.md)
     + [Random Forest Algorithm](c_activities/t_automated_personalization/c_algo_random_forest.md)
     + [Creating an Automated Personalization Activity](c_activities/t_automated_personalization/t_create_ap_activity.md)
