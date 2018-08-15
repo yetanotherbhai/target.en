@@ -26,29 +26,11 @@ When a visitor lands on a page where you have set up an activity, [!DNL  Target]
 
 If the visitor is identified as part of a target audience, [!DNL  Target] determines which experience to display, based on the criteria established when the activity was created. 
 
-This video includes information about setting up targeting and audiences. 
+This video includes information about setting up targeting and audiences.
 
-<table id="table_A3A70CC0C9F54131BB9F098B4DA8C9D6"> 
- <thead> 
-  <tr> 
-   <th class="entry" colspan="2"> Activity Workflow - Targeting </th> 
-   <th colname="col3" class="entry"> 2:14 </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colspan="2"> 
-    <div width="550" class="video-iframe"> 
-     <iframe src="https://www.youtube.com/embed/LOmBgKPeBtA/" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" oallowfullscreen="true" msallowfullscreen="true" allowfullscreen="allowfullscreen" scrolling="no" width="550" height="345">https://www.youtube.com/embed/LOmBgKPeBtA/</iframe>
-    </div> </td> 
-   <td colname="col3"> <p> 
-     <ul id="ul_FF4FEC7BC7A34461BAA54FBE18A8E63B"> 
-      <li id="li_7D6D4CB2E771430F84D2B658F8611532"> <p>Assign an audience to your activity </p> </li> 
-      <li id="li_61D9DDCD3AFB40E2BC55AFED5CD6C405"> <p>Throttle traffic up or down </p> </li> 
-      <li id="li_745F20CC95DF4BE48173991CB42EC50A"> <p>Select your traffic allocation method </p> </li> 
-      <li id="li_699D4D5D089A4FB7BA4C5E95337AC34A"> <p>Allocate traffic between different experiences </p> </li> 
-     </ul> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+>[!VIDEO](https://www.youtube.com/LOmBgKPeBtA/)
 
++ Assign an audience to your activity
++ Throttle traffic up or down
++ Select your traffic allocation method
++ Allocate traffic between different experiences
