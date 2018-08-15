@@ -15,42 +15,15 @@ translate: y
 
 # Multivariate Test
 
-This section contains the following information: 
-
-
-* [ MVT Overview ](../c_activities/c_multivariate_testing.md#section_C73A2D1409EC42C9B0EDD4B976651C5E)
-* [ MVT Terminology ](../c_activities/c_multivariate_testing.md#section_DF475CA7F34B4CFDB7BE7363761D64AE)
-* [ When to Use MVT vs A/B ](../c_activities/c_multivariate_testing.md#section_3D2B966B6671406C861A1843EA41D28C)
-* [ Considerations ](../c_activities/c_multivariate_testing.md#section_979FE3F398654C1EA1C86E7DBC9A8DAD)
-
+Multivariate Testing (MVT) compares combinations of offers in elements on a page to determine which combination performs the best for a specific audience, and identifies which element most impacts the activity's success.
 
 ## MVT Overview {#section_C73A2D1409EC42C9B0EDD4B976651C5E}
 
 This video explains how to understand, plan, and create a multivariate test using the Target three-step guided workflow. 
 
+>[!VIDEO](https://www.youtube.com/X8w5IQqEOow/)
 
-
-<table id="table_33BCDB2150924461AAC293736DBB5E1B"> 
- <thead> 
-  <tr> 
-   <th class="entry" colspan="2"> Creating Multivariate Tests </th> 
-   <th colname="col3" class="entry"> 9:25 </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colspan="2"> <p> 
-     <div width="550" class="video-iframe"> 
-      <iframe src="https://www.youtube.com/embed/X8w5IQqEOow/" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" oallowfullscreen="true" msallowfullscreen="true" allowfullscreen="allowfullscreen" scrolling="no" width="550" height="345">https://www.youtube.com/embed/X8w5IQqEOow/</iframe>
-     </div> </p> </td> 
-   <td colname="col3"> <p> 
-     <ul id="ul_E55300E2EFA5405F86A6707FA5E3798F"> 
-      <li id="li_E507A698929F4A4CAA9AF9ED08254B37">Define and design a multivariate test </li> 
-      <li id="li_ED282D46E29F41868EDC373B79C71F1D">Create a multivariate test </li> 
-     </ul> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+*This video shows how to define and design a multivariate test*
 
 Multivariate testing can help you discover the relative influence specific elements have on conversion, compared to other elements on the page. It can also help you refine a combination of elements that have been shown to be effective. 
 
@@ -67,8 +40,6 @@ In Target, each combination is one experience. The multivariate test compares ea
 Because of the number of combinations that can be generated, a multivariate test requires more time and traffic than an A/B test. The page must receive enough traffic to produce statistically significant results for each experience. To obtain useful results, you need to understand the amount of traffic your page receives and test the optimal number of combinations for the right amount of time to get the required results. Target's [ Traffic Estimator ](../c_activities/c_multivariate_testing/t_create_multivariate_test/t_traffic_estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714) can help you design a test that works with your traffic. Before you use the Traffic Estimator, you should have good statistics showing the number of impressions and conversions your site normally receives. Consider your traffic levels per day. The more experiences in an activity, the more traffic the activity will need to include or the longer your activity will need to run. If your traffic isn't very high, you should test a small number of combinations; otherwise, the amount of time required to produce meaningful test results might be too long to be useful. 
 
 This video explains the activity types available in Target Standard/Premium. Multivariate testing is discussed beginning at 4:20. 
-
-
 
 <table id="table_C56F4BE9B867463380013C584D97DAD2"> 
  <thead> 
@@ -100,13 +71,13 @@ When setting up a multivariate test, it is useful to understand some basic termi
 
 There are multiple terms used in different ways across the industry. This section defines the terms used by Target. 
 
-**Combination: ** The content variations created when you test multiple content options in multiple locations. For example, if you are testing three locations, each with three content options, then there are 27 possible combinations (3x3x3). A visitor to your site will see one combination, also referred to as an experience. 
+**Combination:** The content variations created when you test multiple content options in multiple locations. For example, if you are testing three locations, each with three content options, then there are 27 possible combinations (3x3x3). A visitor to your site will see one combination, also referred to as an experience. 
 
-**Content: ** The text or image comprising a test variation within a location. In a multivariate test, a number of content options within multiple locations are compared. In MVT methodology, the content is sometimes referred to as a *level*. 
+**Content:** The text or image comprising a test variation within a location. In a multivariate test, a number of content options within multiple locations are compared. In MVT methodology, the content is sometimes referred to as a *level*. 
 
-**Element: ** A DOM element containing content variations to be tested in the MVT test. See also *Location*. 
+**Element:** A DOM element containing content variations to be tested in the MVT test. See also *Location*. 
 
-**Location: ** A specific content area on a page, often contained by a single DOM element. In MVT methodology, a location is sometimes referred to as a *factor*. A full-factorial multivariate test compares all possible combinations of offers in your locations. 
+**Location:** A specific content area on a page, often contained by a single DOM element. In MVT methodology, a location is sometimes referred to as a *factor*. A full-factorial multivariate test compares all possible combinations of offers in your locations. 
 
 ## When to Use MVT vs A/B {#section_3D2B966B6671406C861A1843EA41D28C}
 
@@ -151,9 +122,5 @@ Multivariate tests can be used together with A/B tests to optimize your page. Ex
     * Build the experiences in the A/B workflow with the Form-based Experience Composer or the Visual Experience Composer (VEC). If you use the VEC, you can use custom code, edit HTML, WYSIWYG, or any combination. 
 
     * After the activity is over (based on the sample size calculator), run results through the spreadsheet to get the other details. 
-
-
-
-
 
 For more considerations and best practices, see [ Multivariate Test Best Practices ](../c_activities/c_multivariate_testing/r_best_practices.md#reference_53635817FFB741EF8C4E56CC70688EDD). 
