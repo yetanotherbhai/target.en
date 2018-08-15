@@ -18,16 +18,7 @@ translate: y
 
 <a id="section_CF715867CAC34DE397D8712C99AC86D8"></a>
 
-This section contains the following information: 
-
-
-* [ Overview ](../c_activities/c_activity-qa.md#section_11B761A522A14E61978275772210A4C2) 
-
-* [ Accessing and Sharing a QA URL ](../c_activities/c_activity-qa.md#section_1C59BAA247B247BDB125D1BE8EAD4547) 
-
-* [ Considerations ](../c_activities/c_activity-qa.md#section_B256EDD7BFEC4A6DA72A8A6ABD196D78) 
-
-
+BOB DELETED INTRO
 
 ## Overview {#section_11B761A522A14E61978275772210A4C2}
 
