@@ -13,6 +13,7 @@ git-issues: https://git.corp.adobe.com/AdobeDocs/target.en/issues
     + [Target Release Notes - Latest Release](r_release_notes.md)
     + [Known Issues and Resolved Issues](r_release_notes/known-issues-resolved_issues.md)
     + [System Status Updates](r_release_notes/system-status-updates.md)
+    + Placeholder for Prerelease Notes
 + Introduction
     + [Training Videos](c_intro/c_target_standard-premium-training-videos.md)
     + [Access Target from the Adobe Experience Cloud](c_intro/t_target-access-from-mac.md)
@@ -161,16 +162,15 @@ git-issues: https://git.corp.adobe.com/AdobeDocs/target.en/issues
         + [Automated Personalization FAQ](c_activities/t_automated_personalization/c_automated_personalization-faq.md)
         + [Share Experience URLs to Preview Automated Personalization Outside of Target](c_activities/t_automated_personalization/t_experience_preview.md)
         + [Troubleshooting Automated Personalization](c_activities/t_automated_personalization/r_ap-trouble.md)
-
-BELOW
-
-+ [Experience Targeting](c_activities/t_experience_target.md)
-    + [Create an Experience Targeting Activity](c_activities/t_experience_target/t_xt_create.md)
-        + [Activity URL](c_activities/t_experience_target/t_xt_create/c_xt_activity_url.md)
-        + [Create Experience](c_activities/t_experience_target/t_xt_create/t_xt_add_experience.md)
-        + [Switching Experiences in Experience Targeting](c_activities/t_experience_target/t_xt_create/c_xt-switching-experiences.md)
-        + [Goals and Settings](c_activities/t_experience_target/t_xt_create/r_xt_goals_and_settings.md)
-        + [Set Metrics](c_activities/t_experience_target/t_xt_create/t_xt_set_metrics.md)
+    + Experience Targeting
+        + [Experience Targeting](c_activities/t_experience_target.md)
+        + Create an Experience Target Activity
+            + [Create an Experience Targeting Activity](c_activities/t_experience_target/t_xt_create.md)
+            + [Activity URL](c_activities/t_experience_target/t_xt_create/c_xt_activity_url.md)
+            + [Create Experience](c_activities/t_experience_target/t_xt_create/t_xt_add_experience.md)
+            + [Switching Experiences in Experience Targeting](c_activities/t_experience_target/t_xt_create/c_xt-switching-experiences.md)
+            + [Goals and Settings](c_activities/t_experience_target/t_xt_create/r_xt_goals_and_settings.md)
+            + [Set Metrics](c_activities/t_experience_target/t_xt_create/t_xt_set_metrics.md)
 + [Multivariate Test](c_activities/c_multivariate_testing.md)
     + [Multivariate Test Best Practices](c_activities/c_multivariate_testing/r_best_practices.md)
     + [Plan a Multivariate Test](c_activities/c_multivariate_testing/c_plan_mvt.md)
