@@ -7,7 +7,7 @@ solution: Target
 title: Auto-Target
 title_outputclass: premium
 topic: Standard
-uuid: 2bf4e01d-7269-4ca3-ac71-51a267d45362
+uuid: eb04741b-3ab6-40f5-913b-2eb93f0e5d1d
 badge: premium
 index: y
 internal: n
@@ -24,36 +24,26 @@ translate: y
 
 
 
-While [ creating an A/B activity using the three-step guided workflow](../c_activities/t_test_ab/t_test_create_ab.md#task_68C8079BF9FF4625A3BD6680D554BB72), you can choose to allocate traffic using the [!UICONTROL  Auto-Target For Personalized Experiences] option: 
+While [ creating an A/B activity using the three-step guided workflow](../c_activities/t_test_ab/t_test_create_ab/t_test_create_ab.md#task_68C8079BF9FF4625A3BD6680D554BB72), you can choose to allocate traffic using the [!UICONTROL  Auto-Target For Personalized Experiences] option: 
 
 ![](assets/auto-target-ui.png) 
 
-This video explains how to set up an Auto-Target A/B activity: 
+**Understanding Auto-Target Activities** 
+
+This video explains how to set up an Auto-Target A/B activity. 
+
+After completing this training, you should be able to: 
+
+
+* Define Auto-Target testing 
+
+* Compare and contrast Auto-Target to Automated Personalization 
+
+* Create Auto-Target activities 
 
 
 
-<table id="table_C56F4BE9B867463380013C584D97DAD2"> 
- <thead> 
-  <tr> 
-   <th class="entry" colspan="2"> Understanding Auto-Target Activities </th> 
-   <th colname="col3" class="entry"> 22:07 </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colspan="2"> <p> 
-     <div width="550" class="video-iframe"> 
-      <iframe src="https://www.youtube.com/embed/9ki7XJfzcD4/" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" oallowfullscreen="true" msallowfullscreen="true" allowfullscreen="allowfullscreen" scrolling="no" width="550" height="345">https://www.youtube.com/embed/9ki7XJfzcD4/</iframe>
-     </div> </p> </td> 
-   <td colname="col3"> <p>After completing this training, you should be able to: </p> <p> 
-     <ul id="ul_B17C3EFA4B664415AE0159E418FF45C4"> 
-      <li id="li_916224D2105348BE93D60015B2F43D4F"> <p>Define Auto-Target testing </p> </li> 
-      <li id="li_0FED234A3A054DEAB62C4F58BAB47F7F"> <p>Compare and contrast Auto-Target to Automated Personalization </p> </li> 
-      <li id="li_6C4D1871E45D40118D7D9D4DF81547B5"> <p>Create Auto-Target activities </p> </li> 
-     </ul> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+>[!VIDEO](https://vimeo.com/9ki7XJfzcD4) 
 
 This section contains the following information: 
 
@@ -272,16 +262,16 @@ Although the amount of traffic *per experience* required for Auto-Target or Auto
 For Auto-Target, simple rules of thumb can be used to understand traffic requirements: 
 
 
-* ** When Conversion is your success metric: **1,000 visits and at least 50 conversions per day per experience, and in addition the activity must have at least 7,000 visits and 350 conversions. 
+* ** When Conversion is your success metric:** 1,000 visits and at least 50 conversions per day per experience, and in addition the activity must have at least 7,000 visits and 350 conversions. 
 
-* **When Revenue per Visit is your success metric: **1,000 visits and at least 50 conversions per day per experience, and in addition the activity must have at least 1,000 conversions per experience. RPV usually requires more data to build models due to the higher data variance that typically exists in visit revenue compared to conversion rate. 
+* **When Revenue per Visit is your success metric:** 1,000 visits and at least 50 conversions per day per experience, and in addition the activity must have at least 1,000 conversions per experience. RPV usually requires more data to build models due to the higher data variance that typically exists in visit revenue compared to conversion rate. 
 
 
 
 **Auto-Target has full-fledged setup functionality.** 
 
 
-* Because Auto-Target is embedded in the A/B activity workflow, Auto-Target benefits from the more mature and full-fledged Visual Experience Composer (VEC). You can also leverage [ QA links](../c_activities/c_activity-qa.md#concept_9329EF33DE7D41CA9815C8115DBC4E40) with Auto-Target. 
+* Because Auto-Target is embedded in the A/B activity workflow, Auto-Target benefits from the more mature and full-fledged Visual Experience Composer (VEC). You can also leverage [ QA links](../c_activities/c_activity-qa/c_activity-qa.md#concept_9329EF33DE7D41CA9815C8115DBC4E40) with Auto-Target. 
 
 
 
@@ -296,7 +286,7 @@ For Auto-Target, simple rules of thumb can be used to understand traffic require
 
 ## Reporting and Auto-Target {#section_42EE7F5E65E84F89A872FE9921917F76}
 
-For more information, see [ Auto-Target Summary Report](../c_reports/c_auto-target-summary-report.md#concept_E2171F7B57C1417DAAD7E7909A3FB073) in the [ Reports](../c_reports.md#concept_B5077F5503AA4C98901AA99EDCE6CDE6) section. 
+For more information, see [ Auto-Target Summary Report](../c_reports/c_auto-target-summary-report.md#concept_E2171F7B57C1417DAAD7E7909A3FB073) in the [ Reports](../c_reports/c_reports.md#concept_B5077F5503AA4C98901AA99EDCE6CDE6) section. 
 
 ## Auto-Target Frequently Asked Questions {#section_5C120A2B11D14D9BAF767BBAB50FED23}
 
@@ -353,8 +343,8 @@ For more information, see [ Auto-Target Summary Report](../c_reports/c_auto-targ
    <td colname="col1"> <p>How long should I wait for models to build? </p> </td> 
    <td colname="col2"> <p>The length of time it takes for models to build in your Auto-Target activity typically depends on the traffic to your selected activity location(s) and your activity success metric. </p> <p>For Auto-Target, simple rules of thumb can be used to understand traffic requirements: </p> <p> 
      <ul id="ul_5231F86C8A17445FBB690025F16E3BF7"> 
-      <li id="li_907F477BFBBF45C5A01D8CFD9F875DF4"> <p><b>When Conversion is your success metric: </b>1,000 visits and at least 50 conversions per day per experience, and in addition the activity must have at least 7,000 visits and 350 conversions. </p> </li> 
-      <li id="li_3DFB406BB92B4E69B697E75AB4023D09"> <p><b>When Revenue per Visit is your success metric: </b>1,000 visits and at least 50 conversions per day per experience, and in addition the activity must have at least 1,000 conversions per experience. RPV usually requires more data to build models due to the higher data variance that typically exists in visit revenue compared to conversion rate. </p> </li> 
+      <li id="li_907F477BFBBF45C5A01D8CFD9F875DF4"> <p><b>When Conversion is your success metric:</b> 1,000 visits and at least 50 conversions per day per experience, and in addition the activity must have at least 7,000 visits and 350 conversions. </p> </li> 
+      <li id="li_3DFB406BB92B4E69B697E75AB4023D09"> <p><b>When Revenue per Visit is your success metric:</b> 1,000 visits and at least 50 conversions per day per experience, and in addition the activity must have at least 1,000 conversions per experience. RPV usually requires more data to build models due to the higher data variance that typically exists in visit revenue compared to conversion rate. </p> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
@@ -401,7 +391,7 @@ Sometimes activities don't go as expected. Here are some potential challenges yo
       <li id="li_3B68565312C54F8E9DEE25D99F7F1C32"> <p>The offers need to be located somewhere that makes a difference to the optimization goal. </p> </li> 
       <li id="li_E46C0B2812CE48D0A8437021CB5C454A"> <p>There must be enough traffic and statistical “power” in the test to detect the lift. </p> </li> 
       <li id="li_B7BC241A7AD14A949D6F21E45279C9AB"> <p>The personalization algorithm must work well. </p> </li> 
-     </ul> </p> <p><b>Solution: </b>First, make sure that your activity is personalizing traffic. If models aren't built for all of the experiences, your Auto-Target activity is still randomly serving a significant portion of visits to attempt to build all models as quickly as possible. If models aren't built, Auto-Target is not personalizing traffic. </p> <p> Next, make sure the offers and the activity locations truly make a difference to the overall response rates using a simple, non-personalized A/B test. Be sure to compute the sample sizes ahead of time to ensure there is enough power to see a reasonable lift and run the A/B test for a fixed duration without stopping it or making any changes. If an A/B test results show statistically significant lift on one or more of the experiences, then it is likely that a personalized activity will work. Of course, personalization can work even if there are no differences in the overall response rates of the experiences. Typically, the issue stems from the offers/locations not having a large enough impact on the optimization goal to be detected with statistical significance. </p> </td> 
+     </ul> </p> <p><b>Solution:</b> First, make sure that your activity is personalizing traffic. If models aren't built for all of the experiences, your Auto-Target activity is still randomly serving a significant portion of visits to attempt to build all models as quickly as possible. If models aren't built, Auto-Target is not personalizing traffic. </p> <p> Next, make sure the offers and the activity locations truly make a difference to the overall response rates using a simple, non-personalized A/B test. Be sure to compute the sample sizes ahead of time to ensure there is enough power to see a reasonable lift and run the A/B test for a fixed duration without stopping it or making any changes. If an A/B test results show statistically significant lift on one or more of the experiences, then it is likely that a personalized activity will work. Of course, personalization can work even if there are no differences in the overall response rates of the experiences. Typically, the issue stems from the offers/locations not having a large enough impact on the optimization goal to be detected with statistical significance. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> Any metric dependent on conversion metric never converts. </p> </td> 

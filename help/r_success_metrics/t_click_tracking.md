@@ -7,7 +7,7 @@ solution: Target
 subtopic: Getting Started
 title: Click Tracking
 topic: Standard
-uuid: bcd4db0b-970c-460b-b6ec-b8a2a517dc38
+uuid: 922753a9-76c5-4c8d-85aa-6a80b175de03
 index: y
 internal: n
 snippet: y
@@ -41,29 +41,13 @@ This section contains the following information:
 
 This video includes information about creating click-tracking success metrics. 
 
-<table id="table_A3A70CC0C9F54131BB9F098B4DA8C9D6"> 
- <thead> 
-  <tr> 
-   <th class="entry" colspan="2"> Activity Metrics </th> 
-   <th colname="col3" class="entry"> 7:43 </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colspan="2"> 
-    <div width="550" class="video-iframe"> 
-     <iframe src="https://www.youtube.com/embed/oCMD2SymhoI/" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" oallowfullscreen="true" msallowfullscreen="true" allowfullscreen="allowfullscreen" scrolling="no" width="550" height="345">https://www.youtube.com/embed/oCMD2SymhoI/</iframe>
-    </div> </td> 
-   <td colname="col3"> <p> 
-     <ul id="ul_FF4FEC7BC7A34461BAA54FBE18A8E63B"> 
-      <li id="li_7D6D4CB2E771430F84D2B658F8611532">Understand "goal" metrics </li> 
-      <li id="li_61D9DDCD3AFB40E2BC55AFED5CD6C405">Understand and build Conversion, Revenue, and Engagement metrics </li> 
-      <li id="li_745F20CC95DF4BE48173991CB42EC50A">Build a click-tracking metric </li> 
-     </ul> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
 
+* Understand "goal" metrics
+* Understand and build Conversion, Revenue, and Engagement metrics
+* Build a click-tracking metric
+
+
+>[!VIDEO](https://vimeo.com/oCMD2SymhoI) 
 
 ## Setting Up Click Tracking {#section_5540C5A533114E57BAE022A600B02E72}
 

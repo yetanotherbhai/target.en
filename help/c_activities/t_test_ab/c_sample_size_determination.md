@@ -5,7 +5,7 @@ seo-description: A successful A/B test requires an adequate number of visitors. 
 seo-title: Plan an A/B Test
 solution: Target
 title: Plan an A/B Test
-uuid: 549667e8-8cea-4077-b2f6-844f65b16f28
+uuid: 5b77eef1-7c40-4f22-9486-9d7bc530d581
 index: y
 internal: n
 snippet: y

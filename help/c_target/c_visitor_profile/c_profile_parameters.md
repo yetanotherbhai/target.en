@@ -6,7 +6,7 @@ seo-title: Profile Attributes
 solution: Target
 title: Profile Attributes
 topic: Advanced,Standard,Classic
-uuid: b1728e5c-68a6-467b-b94a-6fe233baf0bb
+uuid: bbe8ce7e-1f07-4bac-b725-32bfce097e9c
 index: y
 internal: n
 snippet: y
@@ -80,32 +80,19 @@ To copy an existing profile script, from the [!UICONTROL  Profile Scripts] list,
 
 ![](assets/profile-script.png) 
 
+**Profile Scripts (8:19)** 
+
 This video includes information about using and creating profile scripts. 
 
-<table id="table_A3A70CC0C9F54131BB9F098B4DA8C9D6"> 
- <thead> 
-  <tr> 
-   <th class="entry" colspan="2"> Profile Scripts </th> 
-   <th colname="col3" class="entry"> 8:19 </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colspan="2"> 
-    <div width="550" class="video-iframe"> 
-     <iframe src="https://www.youtube.com/embed/m0jH2tIR1XQ/" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" oallowfullscreen="true" msallowfullscreen="true" allowfullscreen="allowfullscreen" scrolling="no" width="550" height="345">https://www.youtube.com/embed/m0jH2tIR1XQ/</iframe>
-    </div> </td> 
-   <td colname="col3"> <p> 
-     <ul id="ul_FF4FEC7BC7A34461BAA54FBE18A8E63B"> 
-      <li id="li_7D6D4CB2E771430F84D2B658F8611532">Explain what a profile script is </li> 
-      <li id="li_61D9DDCD3AFB40E2BC55AFED5CD6C405">Explain how a profile script is different from a profile parameter </li> 
-      <li id="li_745F20CC95DF4BE48173991CB42EC50A">Create a simple profile script </li> 
-      <li id="li_699D4D5D089A4FB7BA4C5E95337AC34A">Use the Available Token menu to access available options </li> 
-      <li id="li_87E7AFFEEC9C42ABB51C279221E17A14">Enable and disable profile scripts </li> 
-     </ul> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+
+* Explain what a profile script is
+* Explain how a profile script is different from a profile parameter
+* Create a simple profile script
+* Use the Available Token menu to access available options
+* Enable and disable profile scripts
+
+
+>[!VIDEO](https://vimeo.com/m0jH2tIR1XQ) 
 
 Profile scripts run profile attribute "catchers" on each location request. When a location request is received, Target determines which activity should run and displays content that is appropriate to that activity and that experience, tracks the success of the activity, and runs any relevant profile scripts. This enables you to track information about the visit, such as the visitor's location, time of day, number of times that visitor has been to the site, if they've purchased before and so on. This information is then added to the visitor's profile so you can better track that visitor's activity on your site. 
 
@@ -201,7 +188,7 @@ The following guidelines are meant to help write simplified profile scripts that
 
 * Do not exceed 2,000 JavaScript instructions. Target has limit of 2,000 JavaScript instructions per script, but this cannot simply be calculated by manually reading the JavaScript. For example, Rhino treats all function calls and "new" calls as 100 instructions. Also, the size of any entry data, such as URL values, can impact the instructions count. 
 
-* Be mindful of not only the script performance, but the combined performance of all scripts. As best practice, we recommend fewer than 5,000 executions in total. There is not a set limit to the number of scripts you can run, but each script is executed with every single mbox call. Run only as many scripts as needed. Scripts exceeding 2 KB are automatically disabled. 
+* Be mindful of not only the script performance, but the combined performance of all scripts. As best practice, we recommend fewer than 5,000 instructions in total. Counting the number of instructions is not obvious, but the important thing to note is that scripts exceeding 2 KB are automatically disabled. There is no set limit to the number of scripts you can run, but each script is executed with every single mbox call. Run only as many scripts as needed. 
 
 * If all fails, wrap script in a try/catch. 
 

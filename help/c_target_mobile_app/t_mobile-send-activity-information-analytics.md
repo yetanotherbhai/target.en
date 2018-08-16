@@ -3,7 +3,7 @@ description: This section describes how to send Target mobile app activity infor
 seo-description: This section describes how to send Target mobile app activity information to Adobe Analytics for postAhoc segmentation.
 seo-title: Send Activity Information to Adobe Analytics
 title: Send Activity Information to Adobe Analytics
-uuid: 9accaf1e-399b-423e-80cd-aa621a1af046
+uuid: a0398004-17a4-4c58-9a71-3c25756fff62
 index: y
 internal: n
 snippet: y

@@ -6,7 +6,7 @@ seo-title: User Permission Requirements
 solution: Target,Analytics
 title: User Permission Requirements
 topic: Reports and analytics
-uuid: bd576c9d-6046-4113-a34d-0b5bff8a11e7
+uuid: 0507a11a-d9b9-4b55-bf24-5ad89097823b
 index: y
 internal: n
 snippet: y
@@ -36,7 +36,7 @@ See [ Join the Experience Cloud ](https://marketing.adobe.com/resources/help/en_
 
 * **Analytics report suite access: **Before creating or viewing reports for an Analytics-powered activity, you must be a member of the **[!UICONTROL  All Report Access]** group, or member of a group that has access to at least one report in the report suite that you want to use. If you are unable to view reports, make sure you are a member of one of these groups. See [ Groups ](https://marketing.adobe.com/resources/help/en_US/reference/groups.html) for more information. 
 
-* **Web Services Access Group: ** You must belong to the Web Services Access group in Adobe Analytics to be able to use Analytics as the reporting source for Target. 
+* **Web Services Access Group:** You must belong to the Web Services Access group in Adobe Analytics to be able to use Analytics as the reporting source for Target. 
 
 
 ## Adobe Target {#section_26BA212D8D40443E9EE2AB327091425C}

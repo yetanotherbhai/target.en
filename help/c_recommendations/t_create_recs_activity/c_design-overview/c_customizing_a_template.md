@@ -7,7 +7,7 @@ solution: Target
 title: Customizing a Design Using Velocity
 title_outputclass: premium
 topic: Premium
-uuid: ad6b1425-5d9c-4166-84ba-63502ef4096a
+uuid: 378aee5b-d4a0-452e-b0cf-d2970a64ba46
 badge: premium
 index: y
 internal: n

@@ -5,7 +5,7 @@ seo-description: A/B testing forms the backbone of most digital marketing optimi
 seo-title: Nine Common A/B Testing Pitfalls and How to Avoid Them
 solution: Target
 title: Nine Common A/B Testing Pitfalls and How to Avoid Them
-uuid: 1a7737db-ef8e-4c3d-9505-c05094482f66
+uuid: cf71665f-1bfb-408e-8775-494ad7d9354c
 index: y
 internal: n
 snippet: y
@@ -57,7 +57,7 @@ In a marketing organization, 95% usually constitutes a reasonable trade-off betw
 However, two situations warrant paying close attention to the significance level and its implications for test results: post-test segmentation and testing multiple offers. 
 
 
-* **Post-Test Segmentation: **Marketers often slice and dice the results of a test based on visitor segments after the A/B test concludes. Common segments include browser type, device type, geographic areas, time of day, and new versus returning visitors. This practice, known as post-test segmentation, provides excellent insight into visitor segments. In turn, marketers can use these insights to create better-targeted and more-relevant and differentiated content. 
+* **Post-Test Segmentation:** Marketers often slice and dice the results of a test based on visitor segments after the A/B test concludes. Common segments include browser type, device type, geographic areas, time of day, and new versus returning visitors. This practice, known as post-test segmentation, provides excellent insight into visitor segments. In turn, marketers can use these insights to create better-targeted and more-relevant and differentiated content. 
 
   If there is no real difference in conversion rate, each time you test a segment, the probability of a false positive equals the significance level. And, as mentioned, the more tests you run, the greater the likelihood that you'll experience at least one false positive among those tests. In essence, each post-test segment represents a separate test. With a significance level of 5%, on average you'll fall prey to one false positive every time you look at 20 post-test segments. The chart above shows how that likelihood increases. 
 
@@ -65,7 +65,7 @@ However, two situations warrant paying close attention to the significance level
 
   Should you simply not do post-test segmentation? No, post-test segments are valuable. Instead, to avoid this cumulative false positive issue with post-test segmentation, after you've identified a post-test segment, consider testing it in a new test. Alternatively, you can apply the Bonferroni correction, discussed next. 
 
-* **Testing Multiple Offers: **Marketers frequently test more than two offers (or experiences) against each other. That's why you sometimes see A/B testing solutions called A/B/n testing, where n is the number of offers that you are testing simultaneously. 
+* **Testing Multiple Offers:** Marketers frequently test more than two offers (or experiences) against each other. That's why you sometimes see A/B testing solutions called A/B/n testing, where n is the number of offers that you are testing simultaneously. 
 
   It's important to note that *each* offer tested has a false positive rate equal to the significance level, as described above. Again, you are effectively running multiple tests when several offers are pitted against each other within a single test environment. For example, if you compare five offers in an A/B/C/D/E test, effectively you form four comparisons: control to B, control to C, control to D, control to E. With a confidence level of 95%, rather than the 5% probability of a false positive, you actually have 18.5%. 2 
 

@@ -6,7 +6,7 @@ seo-title: Viewing Reports - A4T FAQ
 solution: Target
 title: Viewing Reports - A4T FAQ
 topic: Standard
-uuid: 4ffe670f-bedb-40c1-aa4f-9974e7ff84b5
+uuid: 2d9a023b-60aa-4cac-b68a-514fa4af2b8c
 index: y
 internal: n
 snippet: y

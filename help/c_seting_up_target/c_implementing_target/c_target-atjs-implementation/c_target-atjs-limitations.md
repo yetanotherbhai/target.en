@@ -6,7 +6,7 @@ seo-title: at.js Limitations
 solution: Target
 title: at.js Limitations
 topic: Premium
-uuid: d211f3e7-3232-4be9-8057-73ca5635b6e7
+uuid: b34302fb-d7f5-4a30-a90e-ce8db1ebf61d
 index: y
 internal: n
 snippet: y
@@ -50,7 +50,7 @@ Some functions within [!DNL  mbox.js] are not available in [!DNL  at.js]. Intern
 Because all mboxes are now asynchronous, they won't block page rendering or return in the order in which they fired. 
 
 
-* If you are using a global mbox in the [ Form-Based Experience Composer ](../../../c_experiences.md#section_3643394BD424463C8768F2907DEBCC22), be aware that HTML offers should contain only ` &amp;lt;script&amp;gt;`, ` &amp;lt;style&amp;gt;`, and ` &amp;lt;link&amp;gt;` tags. 
+* If you are using a global mbox in the [ Form-Based Experience Composer ](../../../c_experiences/c_experiences.md#section_3643394BD424463C8768F2907DEBCC22), be aware that HTML offers should contain only ` &amp;lt;script&amp;gt;`, ` &amp;lt;style&amp;gt;`, and ` &amp;lt;link&amp;gt;` tags. 
 
   During delivery, [!DNL  at.js] filters out all the other HTML tags when applying global mbox offers. Global mbox offers are applied to HTML HEAD, which doesn't allow DIV, SPAN, and so forth. For example ` &amp;lt;div&amp;gt;test&amp;lt;/div&amp;gt;` cannot be applied because the ` &amp;lt;div&amp;gt;` tag can be used only inside HTML BODY. 
 

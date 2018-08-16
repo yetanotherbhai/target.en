@@ -5,7 +5,7 @@ seo-description: Audience filters (or audiences) are groups of visitors who shar
 seo-title: Audience Filters for Reporting
 solution: Target
 title: Audience Filters for Reporting
-uuid: c75c27db-8779-4375-9350-5c75b659c43d
+uuid: 92a9489a-bd07-4da3-82c5-5344c8104793
 index: y
 internal: n
 snippet: y
@@ -49,7 +49,7 @@ The following sections provide more information about setting up and reporting o
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Create the appropriate activity or test. </p> </td> 
-   <td colname="col2"> <p> <a href="../c_intro/c_target_concepts/c_activitiestests.md#concept_38D25CB81E8E4926A0ABC34042766DC3" format="dita" scope="local"> Activities and Tests </a> </p> </td> 
+   <td colname="col2"> <p> <a href="../c_intro/c_activitiestests.md#concept_38D25CB81E8E4926A0ABC34042766DC3" format="dita" scope="local"> Activities and Tests </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Create audiences, if necessary. </p> </td> 
@@ -64,7 +64,7 @@ The following sections provide more information about setting up and reporting o
    <td colname="col2"> <p> 
      <ul id="ul_1634445C235F4FB7B07108EC335709FC"> 
       <li id="li_1E3FD1C5E3574933AF8E3B603AF593FE">A/B Test: <a href="../c_activities/t_test_ab/t_test_create_ab/r_ab_goals_and_settings.md#reference_B25389FD6F3A4989801E740364B089CC" format="dita" scope="local"> Goals and Settings </a> </li> 
-      <li id="li_D568A47623054F198FA19C0DE89EBB7B">Automated Personalization: <a href="../c_activities/t_automated_personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9" format="dita" scope="local"> Automated Personalization </a> </li> 
+      <li id="li_D568A47623054F198FA19C0DE89EBB7B">Automated Personalization: <a href="../c_activities/t_automated_personalization/t_automated_personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9" format="dita" scope="local"> Automated Personalization </a> </li> 
       <li id="li_53AB587AAF024EDA9A63717F6D2236FE">Experience Targeting: <a href="../c_activities/t_experience_target/t_xt_create/r_xt_goals_and_settings.md#reference_B25389FD6F3A4989801E740364B089CC" format="dita" scope="local"> Goals and Settings </a> </li> 
       <li id="li_14EC76ACC56647BC8CC6A10065E25B78">Multivariate Test: <a href="../c_activities/c_multivariate_testing/t_create_multivariate_test/r_goals_and_settings.md#reference_B25389FD6F3A4989801E740364B089CC" format="dita" scope="local"> Goals and Settings </a> </li> 
       <li id="li_4F53678E97B449DDB6C9ED07C2D1CF47">Activity Settings: <a href="../c_activities/t_activity_settings.md#task_C6B2FF8374724933BE79A83549B9CD02" format="dita" scope="local"> Activity Settings </a> </li> 
@@ -72,7 +72,7 @@ The following sections provide more information about setting up and reporting o
   </tr> 
   <tr> 
    <td colname="col1"> <p>View reports with information about your audience filters. </p> </td> 
-   <td colname="col2"> <p> <a href="../c_reports/c_report-settings.md#concept_3A80D5A394EC4B639DC715E06085BDB0" format="dita" scope="local"> Report Settings </a> </p> </td> 
+   <td colname="col2"> <p> <a href="../c_reports/c_report-settings/c_report-settings.md#concept_3A80D5A394EC4B639DC715E06085BDB0" format="dita" scope="local"> Report Settings </a> </p> </td> 
   </tr> 
  </tbody> 
 </table>

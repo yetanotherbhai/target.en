@@ -7,7 +7,7 @@ solution: Target
 title: Adding Promotions
 title_outputclass: premium
 topic: Premium
-uuid: a1198b8a-946e-4975-89c1-22ee39986caf
+uuid: 632b4e0a-82cd-480f-b8d2-1a3db545bcc4
 badge: premium
 index: y
 internal: n

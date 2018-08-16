@@ -7,7 +7,7 @@ solution: Target
 subtopic: Multivariate Test
 title: Behavioral Targeting Examples and Tips
 topic: Standard
-uuid: 95e58819-059e-411e-96c6-b51c0b04d45a
+uuid: cf2a94a9-8b70-4a72-af92-3a23757c6d31
 index: y
 internal: n
 snippet: y

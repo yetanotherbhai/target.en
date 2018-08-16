@@ -6,7 +6,7 @@ seo-title: Creating an Audience
 solution: Target
 title: Creating an Audience
 topic: Advanced,Standard,Classic
-uuid: 7a6ed6dc-8615-4875-981e-1b2f079d4f81
+uuid: 7f46770c-d0ef-41bd-87e8-9e6ef2c94ae5
 index: y
 internal: n
 snippet: y
@@ -15,29 +15,18 @@ translate: y
 
 # Creating an Audience
 
+**Creating Audiences (9:58)** 
+
 This video includes information about creating audiences. 
 
-<table id="table_A3A70CC0C9F54131BB9F098B4DA8C9D6"> 
- <thead> 
-  <tr> 
-   <th class="entry" colspan="2"> Creating Audiences </th> 
-   <th colname="col3" class="entry"> 9:58 </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colspan="2"> 
-    <div width="550" class="video-iframe"> 
-     <iframe src="https://www.youtube.com/embed/wV9lVTSOxMk/" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" oallowfullscreen="true" msallowfullscreen="true" allowfullscreen="allowfullscreen" scrolling="no" width="550" height="345">https://www.youtube.com/embed/wV9lVTSOxMk/</iframe>
-    </div> </td> 
-   <td colname="col3"> <p> 
-     <ul id="ul_FF4FEC7BC7A34461BAA54FBE18A8E63B"> 
-      <li id="li_7D6D4CB2E771430F84D2B658F8611532"> <p>Create audiences </p> </li> 
-      <li id="li_8529CB01E80B4C89B74287882AE0DA9D"> <p>Define audience categories </p> </li> 
-     </ul> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+
+* Create audiences 
+
+* Define audience categories 
+
+
+
+>[!VIDEO](https://vimeo.com/wV9lVTSOxMk) 
 
 Audiences are defined by rules that determine who is included or excluded from a [!DNL  Target] activity. An audience definition can include multiple rules and each rule can include multiple parameters. Complex audience definitions use the boolean operators AND and OR to combine rules and parameters to give you detailed control over which site visitors are counted as activity entrants. 
 
@@ -74,7 +63,7 @@ For example, the following rule targets visitors who use either Chrome or Firefo
 >       Rules make it possible to limit your audience to a subset of you site visitors. 
 >1. Select a rule type.
 
->       Each rule type has its own parameters. See [ Categories for Audiences ](../../c_target/c_audiences/c_target_rules.md#concept_E3A77E42F1644503A829B5107B20880D) for more information on configuring each type of audience rule. 
+>       Each rule type has its own parameters. See [ Categories for Audiences ](../../c_target/c_audiences/c_target_rules/c_target_rules.md#concept_E3A77E42F1644503A829B5107B20880D) for more information on configuring each type of audience rule. 
 >1. Define the rule parameters.
 >1. Click **[!UICONTROL  Save]**.
 

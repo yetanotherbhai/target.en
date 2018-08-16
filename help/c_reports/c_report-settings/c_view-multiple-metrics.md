@@ -6,7 +6,7 @@ seo-title: View Multiple Metrics in a Report
 solution: Target
 title: View Multiple Metrics in a Report
 topic: Premium
-uuid: b0cd7291-a22a-48fd-9b3f-7492a650e884
+uuid: 7e7c5472-a6a1-4e3e-8f63-ccf59a0b1d78
 index: y
 internal: n
 snippet: y
@@ -28,7 +28,7 @@ Be aware of the following information as you work with multiple metrics in repor
 
 
 
-**To select multiple metrics to display in the report: ** 
+**To select multiple metrics to display in the report:** 
 
 
 1. To display a report, click **[!UICONTROL  Activities]**, click the desired activity from the list, then click the **[!UICONTROL  Reports]** tab. 

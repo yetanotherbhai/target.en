@@ -7,7 +7,7 @@ solution: Target
 title: Uploading Custom Criteria
 title_outputclass: premium
 topic: Premium
-uuid: 9410353c-1246-4f20-aca5-9d8760ecdcb1
+uuid: 8e5c4bdc-7f9d-4c0d-8f53-61eb9af8a7bd
 badge: premium
 index: y
 internal: n

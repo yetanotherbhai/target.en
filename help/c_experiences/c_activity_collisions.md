@@ -5,7 +5,7 @@ seo-description: The Collisions tab on the Activity Overview page lists activity
 seo-title: Activity Collisions
 solution: Target
 title: Activity Collisions
-uuid: 5d290b4f-1510-479f-bc70-57c4fb5bfbae
+uuid: 1e6291eb-5540-4779-a17d-2fde810bf359
 index: y
 internal: n
 snippet: y

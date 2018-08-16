@@ -6,7 +6,7 @@ seo-title: Mobile
 solution: Target
 title: Mobile
 topic: Standard
-uuid: 6adb0ec7-896e-483a-b3e3-26a4cf6143b0
+uuid: 45995d91-8bfc-4b1d-8828-bd1945533940
 index: y
 internal: n
 snippet: y
@@ -109,27 +109,13 @@ Customers who are using a custom integration (not using at.js or the Mobile SDK)
 
 
 
+**Creating Audiences** 
+
 This video includes information about using audience categories. 
 
-<table id="table_A3A70CC0C9F54131BB9F098B4DA8C9D6"> 
- <thead> 
-  <tr> 
-   <th class="entry" colspan="2"> Creating Audiences </th> 
-   <th colname="col3" class="entry"> 9:58 </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colspan="2"> 
-    <div width="550" class="video-iframe"> 
-     <iframe src="https://www.youtube.com/embed/wV9lVTSOxMk/" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" oallowfullscreen="true" msallowfullscreen="true" allowfullscreen="allowfullscreen" scrolling="no" width="550" height="345">https://www.youtube.com/embed/wV9lVTSOxMk/</iframe>
-    </div> </td> 
-   <td colname="col3"> <p> 
-     <ul id="ul_FF4FEC7BC7A34461BAA54FBE18A8E63B"> 
-      <li id="li_7D6D4CB2E771430F84D2B658F8611532">Create audiences </li> 
-      <li id="li_8529CB01E80B4C89B74287882AE0DA9D">Define audience categories </li> 
-     </ul> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
 
+* Create audiences
+* Define audience categories
+
+
+>[!VIDEO](https://vimeo.com/wV9lVTSOxMk) 

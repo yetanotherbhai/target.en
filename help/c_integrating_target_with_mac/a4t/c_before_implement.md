@@ -6,7 +6,7 @@ seo-title: Before You Implement
 solution: Target
 title: Before You Implement
 topic: Premium
-uuid: f6212157-1ca8-4ed4-ac93-1735097f0c15
+uuid: 313f61ee-d8d3-401f-abc5-ff2566e2979a
 index: y
 internal: n
 snippet: y
@@ -14,33 +14,6 @@ translate: y
 ---
 
 # Before You Implement
-
-This video explains how to use Adobe Analytics as a reporting source in Adobe Target to drive the analysis of your optimization program. 
-
-
-
-<table id="table_C56F4BE9B867463380013C584D97DAD2"> 
- <thead> 
-  <tr> 
-   <th class="entry" colspan="2"> Analytics for Target (A4T) </th> 
-   <th colname="col3" class="entry"> 4:32 </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colspan="2"> <p> 
-     <div width="550" class="video-iframe"> 
-      <iframe src="https://www.youtube.com/embed/eS_LeNmcJug/" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" oallowfullscreen="true" msallowfullscreen="true" allowfullscreen="allowfullscreen" scrolling="no" width="550" height="345">https://www.youtube.com/embed/eS_LeNmcJug/</iframe>
-     </div> </p> </td> 
-   <td colname="col3"> <p> 
-     <ul id="ul_B17C3EFA4B664415AE0159E418FF45C4"> 
-      <li id="li_536EBE8EF3D34C2BBB43043DA339F371"> <p>Explain what A4T is and why you would use it </p> </li> 
-      <li id="li_BCE359271A534D8D9F880C98A0D8811B"> <p>Explain how A4T works </p> </li> 
-      <li id="li_0CACB4D122324A659025639A3567DC6F"> <p>Understand the prerequisites needed before using A4T </p> </li> 
-     </ul> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
 
 Before you decide to use this integration, review the following sections and consider the impact to your reporting processes: 
 

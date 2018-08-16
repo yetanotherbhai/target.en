@@ -6,7 +6,7 @@ seo-title: at.js Version Details
 solution: Target
 subtopic: Getting Started
 title: at.js Version Details
-uuid: c86163dd-03ec-4bf8-b359-46ea4355360d
+uuid: 3b7b373e-99b9-4974-9412-13e6d769775f
 index: y
 internal: n
 snippet: y
@@ -30,6 +30,7 @@ translate: y
 This section contains information about the following [!DNL  at.js] versions: 
 
 
+* [ at.js Version 1.6.0 ](../../../c_seting_up_target/c_implementing_target/c_target-atjs-implementation/r_target-atjs-versions.md#section_4198E76F2DF6412F932674B463BA8B74)
 * [ at.js Version 1.5.0 ](../../../c_seting_up_target/c_implementing_target/c_target-atjs-implementation/r_target-atjs-versions.md#section_128C6761884C4DA8AE50D6A605FF6F55)
 * [ at.js Version 1.3.0 ](../../../c_seting_up_target/c_implementing_target/c_target-atjs-implementation/r_target-atjs-versions.md#section_24EAAE1CFA814EF8B19E61842F4D8321)
 * [ at.js Version 1.2.3 ](../../../c_seting_up_target/c_implementing_target/c_target-atjs-implementation/r_target-atjs-versions.md#section_CE4D14AF00D04F4C8A2F0513F5EA1A84)
@@ -46,6 +47,26 @@ This section contains information about the following [!DNL  at.js] versions:
 * [ at.js Version 0.9.1 ](../../../c_seting_up_target/c_implementing_target/c_target-atjs-implementation/r_target-atjs-versions.md#section_DAFB99114D604CFB8416C1BC7DEEAEEE)
 * [ at.js Version 0.9.0 ](../../../c_seting_up_target/c_implementing_target/c_target-atjs-implementation/r_target-atjs-versions.md#section_2981CC9792F245389B39BB5B69F84C4E)
 * [ at.js Version 0.8.0 ](../../../c_seting_up_target/c_implementing_target/c_target-atjs-implementation/r_target-atjs-versions.md#section_E1C7B08EC0494388A022C28A8B8FE807)
+
+
+## at.js Version 1.6.0 {#section_4198E76F2DF6412F932674B463BA8B74}
+
+This release is a maintenance release and includes the following enhancements: 
+
+
+* Redirect offers are now automatically supported in the Analytics for Target (A4T) integration. The client-side workaround has been removed. (TNT-30247) 
+
+* Client-side edge routing is now enabled by default. (TNT-30261) 
+
+* Fixed an issue with Visual Experience Composer (VEC) action rendering when there are dependencies between actions. (TNT-30248) 
+
+
+
+
+>[!NOTE]
+>
+>The issue numbers in parentheses are for internal Adobe use.
+
 
 
 ## at.js Version 1.5.0 {#section_128C6761884C4DA8AE50D6A605FF6F55}

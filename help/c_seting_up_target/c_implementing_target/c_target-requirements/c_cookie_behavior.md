@@ -7,7 +7,7 @@ solution: Target
 subtopic: Getting Started
 title: Target Cookie
 topic: Standard
-uuid: 7e4f6557-f521-40bc-ac99-d61c10c4f908
+uuid: da730ed0-b0ba-4f7c-8746-36e137aeb507
 index: y
 internal: n
 snippet: y
@@ -35,7 +35,7 @@ See also [ Delete the Target Cookie ](https://marketing.adobe.com/resources/help
 
 ## When to Use First- or Third-Party Cookies {#section_F71B29420C004A7FA3B1921E619B326E}
 
-Your site set up determines which cookies you want to use. It is helpful to understand how Target works when trying to understand first and third-party cookies. See [ How Adobe Target Works ](../../../c_intro/c_how_target_works.md#concept_459AB4DEE7364A9290C2FD405DC29584) for more information. 
+Your site set up determines which cookies you want to use. It is helpful to understand how Target works when trying to understand first and third-party cookies. See [ How Adobe Target Works ](../../../c_intro/c_how_target_works/c_how_target_works.md#concept_459AB4DEE7364A9290C2FD405DC29584) for more information. 
 
 There are three main use cases for cookies: 
 
@@ -285,7 +285,7 @@ From Apple:
          <li id="li_00B5B9E7B65F48A594CF60DD5BB9B3E2"> <p>Activity membership is erased when the first-party cookie expires. </p> </li> 
          <li id="li_65FADF68F4C7400A9B63B8F5136B3D95"> <p>Target does not function in Safari for accounts using a third-party cookie implementation or a first- and third-party cookie implementation. </p> <p>Note that this behavior is not new. Safari has not allowed third-party cookies for awhile. </p> </li> 
         </ul> </p> </li> 
-     </ul> </p> <p><b>Suggestions: </b>If there is a concern that the customer domain might be marked as one tracking visitors cross-session, it's safest to set the profile lifetime to 30 days or fewer in Target. This ensures that users will be tracked similarly in Safari and all other browsers. </p> </td> 
+     </ul> </p> <p><b>Suggestions:</b> If there is a concern that the customer domain might be marked as one tracking visitors cross-session, it's safest to set the profile lifetime to 30 days or fewer in Target. This ensures that users will be tracked similarly in Safari and all other browsers. </p> </td> 
   </tr> 
  </tbody> 
 </table>

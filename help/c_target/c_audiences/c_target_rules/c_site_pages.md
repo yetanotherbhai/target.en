@@ -6,7 +6,7 @@ seo-title: Site Pages
 solution: Target
 title: Site Pages
 topic: Standard
-uuid: f00cd75a-cae0-4493-8f6b-911753340845
+uuid: a4a37373-3428-4a05-95dc-08929da9372c
 index: y
 internal: n
 snippet: y
@@ -77,27 +77,13 @@ as illustrated below:
 
 ![](assets/site_pages.png) 
 
+**Creating Audiences (9:58)** 
+
 This video includes information about using audience categories. 
 
-<table id="table_A3A70CC0C9F54131BB9F098B4DA8C9D6"> 
- <thead> 
-  <tr> 
-   <th class="entry" colspan="2"> Creating Audiences </th> 
-   <th colname="col3" class="entry"> 9:58 </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colspan="2"> 
-    <div width="550" class="video-iframe"> 
-     <iframe src="https://www.youtube.com/embed/wV9lVTSOxMk/" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" oallowfullscreen="true" msallowfullscreen="true" allowfullscreen="allowfullscreen" scrolling="no" width="550" height="345">https://www.youtube.com/embed/wV9lVTSOxMk/</iframe>
-    </div> </td> 
-   <td colname="col3"> <p> 
-     <ul id="ul_FF4FEC7BC7A34461BAA54FBE18A8E63B"> 
-      <li id="li_7D6D4CB2E771430F84D2B658F8611532">Create audiences </li> 
-      <li id="li_8529CB01E80B4C89B74287882AE0DA9D">Define audience categories </li> 
-     </ul> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
 
+* Create audiences
+* Define audience categories
+
+
+>[!VIDEO](https://vimeo.com/wV9lVTSOxMk) 

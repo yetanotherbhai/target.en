@@ -5,7 +5,7 @@ seo-title: Activity Change Log
 solution: Target
 title: Activity Change Log
 topic: Advanced
-uuid: 97b1c902-7cd9-4c4a-bb85-8ce81f1daea7
+uuid: 368c6229-6071-4010-92da-c78997c7d0ce
 index: y
 internal: n
 snippet: y

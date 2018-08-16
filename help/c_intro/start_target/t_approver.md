@@ -7,7 +7,7 @@ solution: Target
 subtopic: Getting Started
 title: Assign Yourself the Approver Role
 topic: Standard
-uuid: b6ae1b0e-5e74-42db-9f24-114b6383abf3
+uuid: fdfb472f-c707-42ed-bd53-0a89665782f4
 index: y
 internal: n
 snippet: y
@@ -15,32 +15,6 @@ translate: y
 ---
 
 # Assign Yourself the Approver Role
-
-This video explains how to set up [!DNL  Target] users and administrators. 
-
-
-
-<table id="table_C56F4BE9B867463380013C584D97DAD2"> 
- <thead> 
-  <tr> 
-   <th class="entry" colspan="2"> User Management </th> 
-   <th colname="col3" class="entry"> 4:39 </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colspan="2"> <p> 
-     <div width="550" class="video-iframe"> 
-      <iframe src="https://www.youtube.com/embed/PIjZHxQpOlg/" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" oallowfullscreen="true" msallowfullscreen="true" allowfullscreen="allowfullscreen" scrolling="no" width="550" height="345">https://www.youtube.com/embed/PIjZHxQpOlg/</iframe>
-     </div> </p> </td> 
-   <td colname="col3"> <p> 
-     <ul id="ul_B17C3EFA4B664415AE0159E418FF45C4"> 
-      <li id="li_916224D2105348BE93D60015B2F43D4F">Create new <span class="keyword"> Target</span> users at the appropriate access level </li> 
-      <li id="li_0FED234A3A054DEAB62C4F58BAB47F7F">Create new target administrators </li> 
-     </ul> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
 
 
 >1. After you log in to the [!DNL  Adobe Experience Cloud], click **[!UICONTROL  Target]**.
@@ -52,4 +26,4 @@ This video explains how to set up [!DNL  Target] users and administrators.
 >1. Click the [!DNL  Approver] radio button.
 
 >       Now that you are an approver, you can create and edit activities, audiences, and content. You are also able to approve activities. 
->1. Continue to the next step, [ setting up users and roles](../../c_seting_up_target/c_user_management.md#concept_501166A5F8FB4964A3AAA15D6095C6BE).
+>1. Continue to the next step, [ setting up users and roles](../../c_seting_up_target/c_user_management/c_user_management.md#concept_501166A5F8FB4964A3AAA15D6095C6BE).

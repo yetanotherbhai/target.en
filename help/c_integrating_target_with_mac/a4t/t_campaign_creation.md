@@ -6,7 +6,7 @@ seo-title: Activity Creation
 solution: Target
 title: Activity Creation
 topic: Advanced,Standard,Classic
-uuid: b0fec323-6a17-41c1-a592-b518ee5f5dba
+uuid: 37ce29ae-d812-440c-b3ca-a4f59e249875
 index: y
 internal: n
 snippet: y
@@ -16,8 +16,6 @@ translate: y
 # Activity Creation
 
 Before you set up an activity that uses Analytics as the reporting source, establish the goal for the activity, such as improving revenue per visitor (RPV) or increasing clicks on your shopping cart. Choose a final success metric for the activity. Although you can select additional metrics at any time in Analytics, you must still specify a particular metric you expect this test to affect. 
-
-**Target Standard/Premium** 
 
 Creating a Target Standard activity that uses Analytics as the reporting source is similar to setting up a regular Target Standard activity, with a few important differences. For example, you cannot select a segment for reporting while creating the activity because all segments available in Analytics can be applied when viewing a report. 
 

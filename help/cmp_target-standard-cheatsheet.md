@@ -6,7 +6,7 @@ seo-title: Target Optimization and Personalization FAQ
 solution: Target
 title: Target Optimization and Personalization FAQ
 topic: Advanced
-uuid: b34cee0d-de63-4677-9222-6528e69b6b01
+uuid: 765064dc-6a24-4403-b3b4-987843f4a917
 index: y
 internal: n
 snippet: y
@@ -61,7 +61,7 @@ translate: y
   </tr> 
   <tr> 
    <td colname="col1"> <p>Where can I learn about the latest Target features? </p> </td> 
-   <td colname="col2"> <p>See our <a href="r_release_notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A" format="dita" scope="local"> Release Notes </a> to check out the details on the latest release. Information about all of our <a href="c_past-release-notes.md#concept_314253EBB7FF47AD8F7CF29B91964362" format="dita" scope="local"> past releases </a> is also available online. </p> </td> 
+   <td colname="col2"> <p>See our <a href="r_release_notes/r_release_notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A" format="dita" scope="local"> Release Notes </a> to check out the details on the latest release. Information about all of our <a href="c_past-release-notes/c_past-release-notes.md#concept_314253EBB7FF47AD8F7CF29B91964362" format="dita" scope="local"> past releases </a> is also available online. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Does Adobe have a Community/Forum where I can find answers and more information about Target? </p> </td> 
@@ -109,7 +109,7 @@ translate: y
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Can I perform a statistically rigorous activity to find a winning and losing experience while using a control experience? </p> </td> 
-   <td colname="col2"> <p>Use <a href="c_activities/t_test_ab.md#task_05E33EB15C4D4459B5EAFF90A94A7977" format="dita" scope="local"> A/B Testing </a> (Manual Targeting option) along with the <a href="c_activities/t_test_ab/c_sample_size_determination.md#section_286EB6E671184239BB1552F0387DAEB5" format="dita" scope="local"> Sample Size Calculator </a> for best results. </p> </td> 
+   <td colname="col2"> <p>Use <a href="c_activities/t_test_ab/t_test_ab.md#task_05E33EB15C4D4459B5EAFF90A94A7977" format="dita" scope="local"> A/B Testing </a> (Manual Targeting option) along with the <a href="c_activities/t_test_ab/c_sample_size_determination.md#section_286EB6E671184239BB1552F0387DAEB5" format="dita" scope="local"> Sample Size Calculator </a> for best results. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> How do I know when to stop an activity? </p> </td> 
@@ -125,11 +125,11 @@ translate: y
   </tr> 
   <tr> 
    <td colname="col1"> <p>How can I know which type of activity best fits my needs? </p> </td> 
-   <td colname="col2"> <p>Read the <a href="c_activities/target-activities-guide.md#concept_D974B0918EB74B3B8CB07ACD32BF37A1" format="dita" scope="local"> Target Activities Guide </a> to understand the scenarios where each of the options provided by Adobe Target makes sense. </p> <p>Be sure to also consider <a href="c_recommendations.md#concept_7556C8A4543942F2A77B13A29339C0C0" format="dita" scope="local"> Recommendations activities </a>. </p> </td> 
+   <td colname="col2"> <p>Read the <a href="c_activities/target-activities-guide.md#concept_D974B0918EB74B3B8CB07ACD32BF37A1" format="dita" scope="local"> Target Activities Guide </a> to understand the scenarios where each of the options provided by Adobe Target makes sense. </p> <p>Be sure to also consider <a href="c_recommendations/c_recommendations.md#concept_7556C8A4543942F2A77B13A29339C0C0" format="dita" scope="local"> Recommendations activities </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>How can I discover which combinations of elements on my page contribute to its success and to what degree each element helps? </p> </td> 
-   <td colname="col2"> <p>Check out our <a href="c_activities/c_multivariate_testing.md#concept_628695CDC71B449B8DCC2F5654C11499" format="dita" scope="local"> Full Factorial Multivariate (MVT) activities </a> with Element contribution analysis to see if it meets your needs. </p> <p>Note that the traffic requirement increases with MVT activities. </p> </td> 
+   <td colname="col2"> <p>Check out our <a href="c_activities/c_multivariate_testing/c_multivariate_testing.md#concept_628695CDC71B449B8DCC2F5654C11499" format="dita" scope="local"> Full Factorial Multivariate (MVT) activities </a> with Element contribution analysis to see if it meets your needs. </p> <p>Note that the traffic requirement increases with MVT activities. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Can I run an activity spanning multiple pages where the page structure is different? </p> <p>Can I apply offers at different locations (for example, the checkout funnel)? </p> </td> 
@@ -141,7 +141,7 @@ translate: y
   </tr> 
   <tr> 
    <td colname="col1"> <p>I have created multiple goals in my activity. Can I create a chain of goals as a funnel for reporting and analysis purposes? </p> <p>For example, I want to consider Goal B when the user has achieved Goal A so that I can track numbers for a particular funnel. </p> </td> 
-   <td colname="col2"> <p>Target has a robust way to achieve this with our Metrics Dependency feature. Simply <a href="r_success_metrics.md#section_7CE95A2FA8F5438E936C365A6D43BC5B" format="dita" scope="local"> add dependencies on other success metrics </a>. You have options like "Reached" and "Not Reached," along with ability to combine metrics in multiple ways to create any combination you want. </p> </td> 
+   <td colname="col2"> <p>Target has a robust way to achieve this with our Metrics Dependency feature. Simply <a href="r_success_metrics/r_success_metrics.md#section_7CE95A2FA8F5438E936C365A6D43BC5B" format="dita" scope="local"> add dependencies on other success metrics </a>. You have options like "Reached" and "Not Reached," along with ability to combine metrics in multiple ways to create any combination you want. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>How can I be clear as to how to set up an activity to achieve my objectives? </p> </td> 
@@ -161,7 +161,7 @@ translate: y
   </tr> 
   <tr> 
    <td colname="col1"> <p>How can I preview and QA an activity I just created? </p> </td> 
-   <td colname="col2"> <p>Use our <a href="c_activities/c_activity-qa.md#concept_9329EF33DE7D41CA9815C8115DBC4E40" format="dita" scope="local"> powerful QA Mode feature </a> to perform QA. You can share links with your QA team and also test the activity end-to-end, including reporting, to be fully sure that after the activity is live, it works as intended and as tested. </p> </td> 
+   <td colname="col2"> <p>Use our <a href="c_activities/c_activity-qa/c_activity-qa.md#concept_9329EF33DE7D41CA9815C8115DBC4E40" format="dita" scope="local"> powerful QA Mode feature </a> to perform QA. You can share links with your QA team and also test the activity end-to-end, including reporting, to be fully sure that after the activity is live, it works as intended and as tested. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>How can I use Target's decisioning power to receive an experience/offer that can be used in Single Page Applications (SPAs) or server-side integrations? </p> </td> 
@@ -224,7 +224,7 @@ translate: y
    <td colname="col1"> <p>I also have Adobe Analytics and want to leverage it with Target. What key capabilities do I get by integrating the two solutions? </p> </td> 
    <td colname="col2"> <p>Check out following aspects of the product: </p> <p> 
      <ul id="ul_B970DF9C1D7C46678CBE59610A5E6833"> 
-      <li id="li_25CD6FD9893C4472A4BD430CCE0AF959"> <p> <a href="c_integrating_target_with_mac/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE" format="dita" scope="local"> Analytics for Target (A4T) </a> </p> </li> 
+      <li id="li_25CD6FD9893C4472A4BD430CCE0AF959"> <p> <a href="c_integrating_target_with_mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE" format="dita" scope="local"> Analytics for Target (A4T) </a> </p> </li> 
       <li id="li_DF425C7C5C4F4C4B9650C90EB2D38982"> <p> <a href="c_target/c_visitor_profile/c_working-with-customer-attributes.md#concept_16C5C434D32D4EB1AD44A71821F3DEE8" format="dita" scope="local"> Customer Attributes </a> </p> </li> 
       <li id="li_33872F2ADC12441894791FA042D522DD"> <p> <a href="c_integrating_target_with_mac/c_mmp.md#concept_F4863DE4C92D4805AB690B4B3D487969" format="dita" scope="local"> Audiences </a> </p> </li> 
      </ul> </p> </td> 
@@ -255,19 +255,19 @@ translate: y
   </tr> 
   <tr> 
    <td colname="col1"> <p>Can I try the Visual Experience Composer (VEC) on my site even though the Target at.js library has yet not been deployed? </p> </td> 
-   <td colname="col2"> <p>Try loading the page with the <a href="c_experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D" format="dita" scope="local"> Enhanced Experience Composer </a>. </p> </td> 
+   <td colname="col2"> <p>Try loading the page with the <a href="c_experiences/c_experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D" format="dita" scope="local"> Enhanced Experience Composer </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Why is my site not loading within the Visual Experience Composer (VEC)? </p> </td> 
-   <td colname="col2"> <p>Try out the <a href="c_experiences/r_troubleshoot_composer.md#reference_77743144F10143A3A89D56E116D296E4" format="dita" scope="local"> troubleshooting information </a> outlined in our help page. Reach out to <a href="r_problem.md#reference_ACA3391A00EF467B87930A450050077C" format="dita" scope="local"> Adobe Support </a> if none of these approaches work. </p> <p>We also have <a href="c_experiences/t_form_experience_composer.md#task_FAC842A6535045B68B4C1AD3E657E56E" format="dita" scope="local"> form-based approach </a> which can unblock you. </p> <p>Also read when and why the <a href="c_experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D" format="dita" scope="local"> Enhanced Experience Composer </a> can be useful. You might have to reach out to your IT department to <a href="c_experiences/c_experience_composer_best_practices.md#concept_E284B3F704C04406B174D9050A2528A6" format="dita" scope="local"> whitelist Adobe's proxy servers </a> as well. </p> </td> 
+   <td colname="col2"> <p>Try out the <a href="c_experiences/r_troubleshoot_composer/r_troubleshoot_composer.md#reference_77743144F10143A3A89D56E116D296E4" format="dita" scope="local"> troubleshooting information </a> outlined in our help page. Reach out to <a href="r_problem.md#reference_ACA3391A00EF467B87930A450050077C" format="dita" scope="local"> Adobe Support </a> if none of these approaches work. </p> <p>We also have <a href="c_experiences/t_form_experience_composer.md#task_FAC842A6535045B68B4C1AD3E657E56E" format="dita" scope="local"> form-based approach </a> which can unblock you. </p> <p>Also read when and why the <a href="c_experiences/c_experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D" format="dita" scope="local"> Enhanced Experience Composer </a> can be useful. You might have to reach out to your IT department to <a href="c_experiences/c_experience_composer_best_practices.md#concept_E284B3F704C04406B174D9050A2528A6" format="dita" scope="local"> whitelist Adobe's proxy servers </a> as well. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>I have a responsive site. While creating an activity, how can I be sure that I am considering key devices? </p> </td> 
-   <td colname="col2"> <p>Try out the <a href="c_experiences/c_mobile_viewports.md#concept_8E45527C4ABC41D59AA3553BEDC76FA5" format="dita" scope="local"> Mobile Viewports </a> feature. Note that it works only when the Enhanced Experience Composer is enabled. </p> </td> 
+   <td colname="col2"> <p>Try out the <a href="c_experiences/c_mobile_viewports/c_mobile_viewports.md#concept_8E45527C4ABC41D59AA3553BEDC76FA5" format="dita" scope="local"> Mobile Viewports </a> feature. Note that it works only when the Enhanced Experience Composer is enabled. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>I have multiple domains. One of the domains needs the Enhanced Experience Composer enabled, while others need it to be disabled. How can I do this? </p> </td> 
-   <td colname="col2"> <p>You can always use <a href="c_experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D" format="dita" scope="local"> Enhanced Experience Composer option at the activity level </a> to override the default setting ( <span class="uicontrol"> Setup </span> &gt; <span class="uicontrol"> Preferences </span>). </p> </td> 
+   <td colname="col2"> <p>You can always use <a href="c_experiences/c_experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D" format="dita" scope="local"> Enhanced Experience Composer option at the activity level </a> to override the default setting ( <span class="uicontrol"> Setup </span> &gt; <span class="uicontrol"> Preferences </span>). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Why don't I see an option to swap images? </p> </td> 
@@ -369,7 +369,7 @@ translate: y
    <td colname="col1"> <p>I also have Adobe Analytics and want to leverage it with Target. What key capabilities do I get by integrating the two solutions? </p> </td> 
    <td colname="col2"> <p>Check out following aspects of the product: </p> <p> 
      <ul id="ul_47A0307BD482495680E73478E6CF2B83"> 
-      <li id="li_7077216476C847698F9156E0DB17EB2C"> <p> <a href="c_integrating_target_with_mac/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE" format="dita" scope="local"> Analytics for Target (A4T) </a> </p> </li> 
+      <li id="li_7077216476C847698F9156E0DB17EB2C"> <p> <a href="c_integrating_target_with_mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE" format="dita" scope="local"> Analytics for Target (A4T) </a> </p> </li> 
       <li id="li_23490B5AB2314488B9D0420C968C9529"> <p> <a href="c_target/c_visitor_profile/c_working-with-customer-attributes.md#concept_16C5C434D32D4EB1AD44A71821F3DEE8" format="dita" scope="local"> Customer Attributes </a> </p> </li> 
       <li id="li_0E1439B4B92A42C996103AFAAA97A63F"> <p> <a href="c_integrating_target_with_mac/c_mmp.md#concept_F4863DE4C92D4805AB690B4B3D487969" format="dita" scope="local"> Audiences </a> </p> </li> 
      </ul> </p> </td> 
@@ -380,11 +380,11 @@ translate: y
   </tr> 
   <tr> 
    <td colname="col1"> <p>I cannot define audiences prior to running the activity. I find this aspect of reporting audiences in Target activities restrictive. </p> <p>What can I do to make this process easier? </p> </td> 
-   <td colname="col2"> <p>This is where <a href="c_integrating_target_with_mac/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE" format="dita" scope="local"> Analytics for Target (A4T) </a> is handy. If you have Adobe Analytics, simply choose the source as Analytics, which eliminates this restriction. Now you can perform analysis on any audience at any point and you don't need to define the reporting audiences up front. </p> </td> 
+   <td colname="col2"> <p>This is where <a href="c_integrating_target_with_mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE" format="dita" scope="local"> Analytics for Target (A4T) </a> is handy. If you have Adobe Analytics, simply choose the source as Analytics, which eliminates this restriction. Now you can perform analysis on any audience at any point and you don't need to define the reporting audiences up front. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Can I clean up reports and start recording data going forward? For example, initial hits recorded were due to my own test hits on the activity. </p> </td> 
-   <td colname="col2"> <p>Use the <a href="c_reports/c_report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA" format="dita" scope="local"> Reset Report Data </a> feature. </p> </td> 
+   <td colname="col2"> <p>Use the <a href="c_reports/c_report-settings/c_report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA" format="dita" scope="local"> Reset Report Data </a> feature. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Can I perform offline reporting calculations? </p> </td> 
@@ -392,11 +392,11 @@ translate: y
   </tr> 
   <tr> 
    <td colname="col1"> <p>Can I change the control experience for evaluating reports or change the counting methodology from Visitors to Visits? </p> </td> 
-   <td colname="col2"> <p>Make these changes using the <a href="c_reports/c_report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA" format="dita" scope="local"> Settings gear on the reports page </a>. Read more about these settings to understand how the calculations vary. </p> </td> 
+   <td colname="col2"> <p>Make these changes using the <a href="c_reports/c_report-settings/c_report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA" format="dita" scope="local"> Settings gear on the reports page </a>. Read more about these settings to understand how the calculations vary. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>How should I interpret reports? </p> </td> 
-   <td colname="col2"> <p>We have tried to make reports as intuitive as possible with features like <a href="c_reports/c_report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA" format="dita" scope="local"> confidence Interval bars, lift bounds, significance/confidence and multiple metric selections, table and graph views, running averages, and more </a> to allow for powerful, yet easy, report analysis. Obviously, you can look into Analytics if you are using <a href="c_integrating_target_with_mac/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE" format="dita" scope="local"> Analytics for Target (A4T) </a> activities for further analysis on audiences. </p> </td> 
+   <td colname="col2"> <p>We have tried to make reports as intuitive as possible with features like <a href="c_reports/c_report-settings/c_report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA" format="dita" scope="local"> confidence Interval bars, lift bounds, significance/confidence and multiple metric selections, table and graph views, running averages, and more </a> to allow for powerful, yet easy, report analysis. Obviously, you can look into Analytics if you are using <a href="c_integrating_target_with_mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE" format="dita" scope="local"> Analytics for Target (A4T) </a> activities for further analysis on audiences. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -460,7 +460,7 @@ translate: y
  <tbody> 
   <tr> 
    <td colname="col1"> <p> We have a mobile SKU. Can I create mobile activities? </p> </td> 
-   <td colname="col2"> <p> For optimization and personalization on mobile, you need to use <a href="c_experiences/t_form_experience_composer.md#task_FAC842A6535045B68B4C1AD3E657E56E" format="dita" scope="local"> form-based activities </a> along with the <a href="c_target_mobile_app/t_mobile_enable_target_in_sdk.md#task_FCA99AD0785A44E995468776AE76FE91" format="dita" scope="local"> Adobe SDK </a>. Check out more details about <a href="c_target_mobile_app.md#concept_80126FF457724DE788CE37264A047559" format="dita" scope="local"> Target for mobile apps </a>. </p> </td> 
+   <td colname="col2"> <p> For optimization and personalization on mobile, you need to use <a href="c_experiences/t_form_experience_composer.md#task_FAC842A6535045B68B4C1AD3E657E56E" format="dita" scope="local"> form-based activities </a> along with the <a href="c_target_mobile_app/t_mobile_enable_target_in_sdk.md#task_FCA99AD0785A44E995468776AE76FE91" format="dita" scope="local"> Adobe SDK </a>. Check out more details about <a href="c_target_mobile_app/c_target_mobile_app.md#concept_80126FF457724DE788CE37264A047559" format="dita" scope="local"> Target for mobile apps </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

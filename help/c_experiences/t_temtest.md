@@ -6,7 +6,7 @@ seo-title: Include the Same Experience on Similar Pages
 solution: Target
 title: Include the Same Experience on Similar Pages
 topic: Premium
-uuid: b15592b6-32a8-4a25-aaa3-56e3171c43f1
+uuid: 553e021f-a022-474b-81d4-e6630900eb7c
 index: y
 internal: n
 snippet: y
@@ -62,7 +62,7 @@ The following demo video includes information about using a template:
 
 You can specify pages that include the change elements, or apply the change across your site. 
 
->1. Create an activity as described in [ Activities](../c_activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03).
+>1. Create an activity as described in [ Activities](../c_activities/c_activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03).
 >1. To specify the pages where the experience will appear, in the Visual Experience Composer click the gear icon, then select **[!UICONTROL  URL]**.
 
 >1. Click **[!UICONTROL  Add Rule]**, then specify the criteria for the pages you want to add the experience to.

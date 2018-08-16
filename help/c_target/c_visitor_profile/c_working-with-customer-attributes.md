@@ -7,7 +7,7 @@ solution: Target
 subtopic: Getting Started
 title: Customer Attributes
 topic: Standard
-uuid: fad60cd1-05c9-4713-a2be-42cfc09ef060
+uuid: b7e71c73-1dbc-43e1-b9a2-4b7e0341a584
 index: y
 internal: n
 snippet: y
@@ -209,27 +209,8 @@ You might encounter the following issues when working with customer attributes a
 
 Issues in rows 1 and 2 above cause approximately 60% of problems in this area. Issues in row 3 cause approximately 30% of problems. The issue in row 4 causes approximately 5% of problems. The remaining 5% are due to miscellaneous issues. 
 
-## Video: Upload Offline Data using Customer Attributes {#section_9A4E0FA0D0934D06BD8D5BFA673E9BD8}
+## Video: Upload Offline Data using Customer Attributes (6:52) {#section_9A4E0FA0D0934D06BD8D5BFA673E9BD8}
 
+This video shows yo how to import offline CRM, help desk, point-of-sale, and other marketing data into the Experience Cloud People service and associate it with visitors using their known IDs. 
 
-<table id="table_A3A70CC0C9F54131BB9F098B4DA8C9D6"> 
- <thead> 
-  <tr> 
-   <th class="entry" colspan="2"> Upload Offline Data using Customer Attributes </th> 
-   <th colname="col3" class="entry"> 6:52 </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colspan="2"> 
-    <div width="550" class="video-iframe"> 
-     <iframe src="https://video.tv.adobe.com/v/17802t1/" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" oallowfullscreen="true" msallowfullscreen="true" allowfullscreen="allowfullscreen" scrolling="no" width="550" height="345">https://video.tv.adobe.com/v/17802t1/</iframe>
-    </div> </td> 
-   <td colname="col3"> <p> 
-     <ul id="ul_FF4FEC7BC7A34461BAA54FBE18A8E63B"> 
-      <li id="li_242B238F71F7494E87CF60426BA6D6DB">Import offline CRM, help desk, point-of-sale, and other marketing data into the Experience Cloud People service and associate it with visitors using their known IDs. </li> 
-     </ul> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
+>[!VIDEO](https://video.tv.adobe.com/v/17802t1/) 

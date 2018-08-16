@@ -5,7 +5,7 @@ seo-description: You can configure an Activity in Target Standard to use Adobe A
 seo-title: Using Analytics Data
 solution: Target
 title: Using Analytics Data
-uuid: b511e14a-479f-400a-87d1-8aed702eb7fc
+uuid: d4577634-7802-4ae9-84e3-335bef0ce291
 index: y
 internal: n
 snippet: y

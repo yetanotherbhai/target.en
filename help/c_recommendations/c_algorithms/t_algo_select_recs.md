@@ -7,7 +7,7 @@ solution: Target
 title: Select Criteria
 title_outputclass: premium
 topic: Premium
-uuid: 5c9d6dfc-cfc3-46a9-9d16-80a346b90f1e
+uuid: 0e3d9c59-18e5-42c3-85cb-50e3a0553c07
 badge: premium
 index: y
 internal: n
@@ -28,7 +28,7 @@ If you select multiple criteria, traffic is split evenly between the selected cr
 * To create a new criteria, click **[!UICONTROL  Create New]**, then fill in the information for the new criteria. For information about creating new criteria, see [ Create a New Criteria](../../c_recommendations/c_algorithms/t_create_new_algorithm.md#task_8A9CB465F28D44899F69F38AD27352FE). 
 
 
->1. [ Create a new recommendation](../../c_recommendations/t_create_recs_activity.md#task_6874328773C64C44A73F0A130AD3F96F), or find the recommendation whose criteria you want to set and click ` Edit`.
+>1. [ Create a new recommendation](../../c_recommendations/t_create_recs_activity/t_create_recs_activity.md#task_6874328773C64C44A73F0A130AD3F96F), or find the recommendation whose criteria you want to set and click ` Edit`.
 >1. Select an industry type and a page type.
 
 >    

@@ -7,7 +7,7 @@ solution: Target
 subtopic: Getting Started
 title: Preferences
 topic: Standard
-uuid: f5c34bde-5d71-4228-a105-8a871b8058df
+uuid: ec4d8580-6661-43cd-b7c0-859a7a7ea489
 index: y
 internal: n
 snippet: y
@@ -17,28 +17,16 @@ translate: y
 # Preferences
 
 
+>**Account Preferences (7:33)** 
+
 >This video includes information about account preferences. 
 
-><table id="table_A3A70CC0C9F54131BB9F098B4DA8C9D6"> 
- <thead> 
-  <tr> 
-   <th class="entry" colspan="2"> Account Preferences </th> 
-   <th colname="col3" class="entry"> 7:33 </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colspan="2"> 
-    <div width="550" class="video-iframe"> 
-     <iframe src="https://www.youtube.com/embed/MJXhgxlP-KI/" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" oallowfullscreen="true" msallowfullscreen="true" allowfullscreen="allowfullscreen" scrolling="no" width="550" height="345">https://www.youtube.com/embed/MJXhgxlP-KI/</iframe>
-    </div> </td> 
-   <td colname="col3"> <p> 
-     <ul id="ul_FF4FEC7BC7A34461BAA54FBE18A8E63B"> 
-      <li id="li_7D6D4CB2E771430F84D2B658F8611532">Describe the account settings available in Target Standard </li> 
-     </ul> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+>
+>* Describe the account settings available in Target Standard 
+
+
+
+>>[!VIDEO](https://vimeo.com/MJXhgxlP-KI) 
 
 >To set your account preferences, click **[!UICONTROL  Setup]** > **[!UICONTROL  Preferences]**, configure your preferences as desired, then click **[!UICONTROL  Submit]**. 
 
@@ -141,7 +129,7 @@ You can choose one or both of the following options:
   </tr> 
   <tr> 
    <td colname="col1"> <p>Enable Enhanced Experience Composer </p> </td> 
-   <td colname="col2"> <p>Allows editing on iFrame-busting sites and sites with mixed content. Some sites may not be compatible with the enhanced version. Uncheck this option to revert to the original Experience Composer. Activity delivery on sites is not affected by this choice. </p> <p>For more information, see <a href="https://marketing.adobe.com/resources/help/en_US/target/target/r_troubleshoot_composer.html" format="https" scope="external"> Troubleshooting the Visual Experience Composer </a>. </p> <p> <p>Note:  You can also enable the <span class="wintitle"> Enhanced Experience Composer </span> at the activity level. For more information, see <a href="../c_experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D" format="dita" scope="local"> Experiences </a>. </p> </p> </td> 
+   <td colname="col2"> <p>Allows editing on iFrame-busting sites and sites with mixed content. Some sites may not be compatible with the enhanced version. Uncheck this option to revert to the original Experience Composer. Activity delivery on sites is not affected by this choice. </p> <p>For more information, see <a href="https://marketing.adobe.com/resources/help/en_US/target/target/r_troubleshoot_composer.html" format="https" scope="external"> Troubleshooting the Visual Experience Composer </a>. </p> <p> <p>Note:  You can also enable the <span class="wintitle"> Enhanced Experience Composer </span> at the activity level. For more information, see <a href="../c_experiences/c_experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D" format="dita" scope="local"> Experiences </a>. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Generate Experience Snapshots </p> </td> 

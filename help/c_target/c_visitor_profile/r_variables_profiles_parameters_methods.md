@@ -6,7 +6,7 @@ seo-title: Profile and Variable Glossary
 solution: Target
 title: Profile and Variable Glossary
 topic: Standard
-uuid: bed52810-e7e8-40cf-86ff-0a270d379c84
+uuid: cdbb3bf2-098b-4b01-bd71-20afb4fcf1c1
 index: y
 internal: n
 snippet: y
@@ -251,7 +251,7 @@ This section contains the following information:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> mboxOverride.browserIp </span> </p> </td> 
-   <td colname="col2"> <p>Sets a different geo than the actual location so you can test how something would look in another location. </p> <p> <p>Note:  Using mboxOverride parameters should be used only while testing the activity and not in production. The use of any <span class="codeph"> mboxOverride </span> parameters can cause reporting discrepancies when using <a href="../../c_integrating_target_with_mac/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE" format="dita" scope="local"> Analytics for Target </a> (A4T). You should use <a href="../../c_activities/c_activity-qa.md#concept_9329EF33DE7D41CA9815C8115DBC4E40" format="dita" scope="local"> Activity QA mode </a> while testing to ensure that your activity works as expected before pushing the activity into your live environment. </p> </p> </td> 
+   <td colname="col2"> <p>Sets a different geo than the actual location so you can test how something would look in another location. </p> <p> <p>Note:  Using mboxOverride parameters should be used only while testing the activity and not in production. The use of any <span class="codeph"> mboxOverride </span> parameters can cause reporting discrepancies when using <a href="../../c_integrating_target_with_mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE" format="dita" scope="local"> Analytics for Target </a> (A4T). You should use <a href="../../c_activities/c_activity-qa/c_activity-qa.md#concept_9329EF33DE7D41CA9815C8115DBC4E40" format="dita" scope="local"> Activity QA mode </a> while testing to ensure that your activity works as expected before pushing the activity into your live environment. </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>

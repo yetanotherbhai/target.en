@@ -7,7 +7,7 @@ solution: Target
 title: Recommendations Classic versus Recommendations Activities in Target Premium
 title_outputclass: premium
 topic: Premium
-uuid: 36a7ac33-dd49-438a-a686-05894d268fb1
+uuid: 6dd0d498-eb89-47e8-9ad4-2d09518ed0e0
 badge: premium
 index: y
 internal: n
@@ -48,7 +48,7 @@ The [!DNL  Recommendations] activity in [!DNL  Target] improves on [!DNL  Recomm
 
 Criteria are pre-configured and sorted by industry verticals, page types, and implementation. For example, you can look for the criteria that apply to the retail vertical, for use on a product page, showing products from within a particular category (as defined by the ` entity.categoryID` parameter). 
 
-For more information about using and creating criteria, see [ Criteria](../c_recommendations/c_algorithms.md#concept_4BD01DC437F543C0A13621C93A302750). 
+For more information about using and creating criteria, see [ Criteria](../c_recommendations/c_algorithms/c_algorithms.md#concept_4BD01DC437F543C0A13621C93A302750). 
 
 ## Workflow {#section_76B4A26297BF422382DE2C79A2713D3C}
 

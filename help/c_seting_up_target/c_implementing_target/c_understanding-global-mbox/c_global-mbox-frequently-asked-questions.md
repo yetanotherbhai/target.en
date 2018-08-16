@@ -6,7 +6,7 @@ seo-title: Global mbox Frequently Asked Questions
 solution: Target
 title: Global mbox Frequently Asked Questions
 topic: Standard
-uuid: 02bdee5c-5613-40f4-8170-3e7a055003c3
+uuid: 2603d6a1-c2b9-4170-8c5f-6db915dd7f83
 index: y
 internal: n
 snippet: y
@@ -51,9 +51,9 @@ The Site Pages section illustrated above contains the following selections: Curr
 The options in the above illustration include the following settings: 
 
 
-* **What do you want to measure with this activity: **Revenue 
+* **What do you want to measure with this activity:** Revenue 
 
-* **Default View for Reporting: **Revenue Per Visitor (RPV) 
+* **Default View for Reporting:** Revenue Per Visitor (RPV) 
 
 * **What action was taken by your audience to indicate your goal has been reached? **Viewed an mbox, target-global-mbox 
 

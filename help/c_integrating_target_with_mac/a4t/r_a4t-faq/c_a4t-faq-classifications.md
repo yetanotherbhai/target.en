@@ -6,7 +6,7 @@ seo-title: Classifications - A4T FAQ
 solution: Target
 title: Classifications - A4T FAQ
 topic: Standard
-uuid: 3e682ecf-92ca-4a67-a795-f8c9bc569a3c
+uuid: 978f9313-afe3-42c3-8bbe-a1f595cefa4b
 index: y
 internal: n
 snippet: y

@@ -7,7 +7,7 @@ solution: Target
 subtopic: Getting Started
 title: Passing Parameters to a Global mbox
 topic: Standard
-uuid: 0375afc0-d710-452b-89c3-1c7c42cf751e
+uuid: 77443c0e-cc58-49ce-b645-29cefd1c79e6
 index: y
 internal: n
 snippet: y
@@ -142,28 +142,15 @@ This example sends the following data to the mbox edge:
 
 This video explains how to add mbox parameters using DTM. 
 
+**Adding mbox Parameters via Activation (DTM) (4:25)** 
 
 
-<table id="table_C56F4BE9B867463380013C584D97DAD2"> 
- <thead> 
-  <tr> 
-   <th class="entry" colspan="2"> Adding mbox Parameters via Activation (DTM) </th> 
-   <th colname="col3" class="entry"> 4:25 </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colspan="2"> <p> 
-     <div width="550" class="video-iframe"> 
-      <iframe src="https://www.youtube.com/embed/hA0MctwZKlg/" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" oallowfullscreen="true" msallowfullscreen="true" allowfullscreen="allowfullscreen" scrolling="no" width="550" height="345">https://www.youtube.com/embed/hA0MctwZKlg/</iframe>
-     </div> </p> </td> 
-   <td colname="col3"> <p> 
-     <ul id="ul_B17C3EFA4B664415AE0159E418FF45C4"> 
-      <li id="li_916224D2105348BE93D60015B2F43D4F">Map a static name/value pair to a parameter or profile parameter in the target-global-mbox </li> 
-      <li id="li_0FED234A3A054DEAB62C4F58BAB47F7F">understand the basics of a data element </li> 
-      <li id="li_6C4D1871E45D40118D7D9D4DF81547B5">Map a dynamic data element value to a parameter or profile parameter in the target-global-mbox </li> 
-     </ul> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+* Map a static name/value pair to a parameter or profile parameter in the target-global-mbox 
 
+* Understand the basics of a data element 
+
+* Map a dynamic data element value to a parameter or profile parameter in the target-global-mbox 
+
+
+
+>[!VIDEO](https://vimeo.com/hA0MctwZKlg) 

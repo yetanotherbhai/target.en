@@ -7,7 +7,7 @@ solution: Target
 subtopic: Getting Started
 title: Methods to get Data into Target
 topic: Standard
-uuid: a8530340-9706-408c-8f92-49defa0ae1d6
+uuid: d3aab70f-c79f-4761-9c14-83af3a4c2a79
 index: y
 internal: n
 snippet: y

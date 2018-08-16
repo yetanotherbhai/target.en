@@ -5,7 +5,7 @@ seo-description: Information about issues customers face when using cloud-based 
 seo-title: Using Cloud-Based Instances with Target
 solution: Target
 title: Using Cloud-Based Instances with Target
-uuid: 0ff77398-07af-454f-a30e-0b7921e7ab5c
+uuid: 4b5c1d7e-d201-45f8-8e73-c02d8dbffd4c
 index: y
 internal: n
 snippet: y
@@ -31,8 +31,8 @@ Target customers sometimes use cloud-based instances with [!DNL  Target] for tes
 
 These domains, and many others, are part of the [ Public Suffix List](https://publicsuffix.org/list/public_suffix_list.dat). 
 
-**Issue: **Modern browsers won't save cookies if you are using these domains. 
+**Issue:** Modern browsers won't save cookies if you are using these domains. 
 
 The [!DNL  at.js] and [!DNL  mbox.js] JavaScript libraries use cookies to track users to ensure that [!DNL  Target] always presents a consistent experience. If the [!DNL  Target] JavaScript libraries can't save cookies, [!DNL  Target] requests are disabled. 
 
-**Solution: **As best practice, if you intend to use cloud-based instances with domains included on the Public Suffix List, make sure that you customize the ` cookieDomain` setting. For more information, see [ targetGlobalSettings()](../../c_seting_up_target/c_implementing_target/c_target-atjs-implementation/cmp_at.js_Functions.md#concept_8DACBC47ABDE4279BB102B42609FE506). 
+**Solution:** As best practice, if you intend to use cloud-based instances with domains included on the Public Suffix List, make sure that you customize the ` cookieDomain` setting. For more information, see [ targetGlobalSettings()](../../c_seting_up_target/c_implementing_target/c_target-atjs-implementation/cmp_at.js_Functions.md#concept_8DACBC47ABDE4279BB102B42609FE506). 

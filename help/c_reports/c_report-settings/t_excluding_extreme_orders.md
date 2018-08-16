@@ -6,7 +6,7 @@ seo-title: Exclude Extreme Values
 solution: Target
 title: Exclude Extreme Values
 topic: Premium
-uuid: bcdb49d7-c343-4d75-9746-0c00269847d9
+uuid: aeaea73d-bdb8-4f7d-8327-384d72a1ad50
 index: y
 internal: n
 snippet: y

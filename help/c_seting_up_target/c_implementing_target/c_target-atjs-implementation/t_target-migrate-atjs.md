@@ -6,7 +6,7 @@ seo-title: Migrate to at.js from mbox.js
 solution: Target
 title: Migrate to at.js from mbox.js
 topic: Standard
-uuid: 16a7dce5-980a-4e57-9ebe-008c88f0ab79
+uuid: 36373491-ffe9-491e-a9c7-ec0e77b680da
 index: y
 internal: n
 snippet: y

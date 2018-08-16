@@ -7,7 +7,7 @@ solution: Target
 subtopic: Multivariate Test
 title: Minimizing Inflated Visit and Visitor Counts in A4T
 topic: Standard
-uuid: 0b935121-6e00-458a-b68e-16f9e88694a1
+uuid: 4140f484-be03-4ca7-a858-e7659ce4b99b
 index: y
 internal: n
 snippet: y
@@ -53,13 +53,13 @@ We have seen some customers with very high rates of partial data in [!DNL  Analy
 The identified causes of partial data include the following: 
 
 
-* **Misaligned Report Suite IDs (Implementation): **The report suite specified during activity setup does not match the report suite on the page where the test is delivered. This looks like partial data because the data cannot be reconciled on [!DNL  Analytics] servers. 
+* **Misaligned Report Suite IDs (Implementation):** The report suite specified during activity setup does not match the report suite on the page where the test is delivered. This looks like partial data because the data cannot be reconciled on [!DNL  Analytics] servers. 
 
-* **Slow Pages: **Because [!DNL  Target] calls are at the top of the page and [!DNL  Analytics] calls are typically at the bottom of the page, if the page loads slowly, it increases the likelihood of a visitor leaving the page after the [!DNL  Target] call fires, but before the [!DNL  Analytics] call. This can be especially problematic on mobile web sites where connections are often slower. 
+* **Slow Pages:** Because [!DNL  Target] calls are at the top of the page and [!DNL  Analytics] calls are typically at the bottom of the page, if the page loads slowly, it increases the likelihood of a visitor leaving the page after the [!DNL  Target] call fires, but before the [!DNL  Analytics] call. This can be especially problematic on mobile web sites where connections are often slower. 
 
-* **Page Errors: **If there are JavaScript errors or other scenarios where each of the touchpoints do not fire (Experience Cloud ID service, Target, and Analytics), partial data will result. 
+* **Page Errors:** If there are JavaScript errors or other scenarios where each of the touchpoints do not fire (Experience Cloud ID service, Target, and Analytics), partial data will result. 
 
-* **Redirect Offer(s) in Target Activity: **Redirect offers immediately send a user to a different page, which means the [!DNL  Analytics] call does not fire on the first page. 
+* **Redirect Offer(s) in Target Activity:** Redirect offers immediately send a user to a different page, which means the [!DNL  Analytics] call does not fire on the first page. 
 
 
   >[!NOTE]
@@ -67,7 +67,7 @@ The identified causes of partial data include the following:
   >After November 14, 2016, customers will no longer be able to create A4T activities with redirect offers.
 
 
-* **Old Versions of the Libraries: **Over the past year Adobe has made several improvements to our JavaScript libraries ( [!DNL  appMeasurement.js], ` at.js/mbox.js`, and ` visitorAPI.js`) to make sure data is sent as efficiently as possible. To learn more about implementation requirements, see [ Before You Implement ](../../../c_integrating_target_with_mac/a4t/c_before_implement.md#concept_046BC89C03044417A30B63CE34C22543). 
+* **Old Versions of the Libraries:** Over the past year Adobe has made several improvements to our JavaScript libraries ( [!DNL  appMeasurement.js], ` at.js/mbox.js`, and ` visitorAPI.js`) to make sure data is sent as efficiently as possible. To learn more about implementation requirements, see [ Before You Implement ](../../../c_integrating_target_with_mac/a4t/c_before_implement.md#concept_046BC89C03044417A30B63CE34C22543). 
 
 
 

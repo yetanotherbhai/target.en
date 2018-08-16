@@ -7,7 +7,7 @@ solution: Target
 subtopic: Getting Started
 title: Response Tokens
 topic: Standard
-uuid: 437b6b34-a1cc-4f3c-833c-3df639ccf332
+uuid: 6543aeca-51eb-4d85-a67e-388e9f6c5803
 index: y
 internal: n
 snippet: y
@@ -43,7 +43,7 @@ A key difference between plug-ins and response tokens is that while plug-ins del
   </tr> 
   <tr> 
    <td colname="col1"> <p>mbox.js </p> </td> 
-   <td colname="col2"> <p>Plugins will continue to be supported and delivered when using <span class="filepath"> mbox.js </span>. </p> <p>However, customers using <span class="filepath"> mbox.js </span> and plugins are encouraged to move to <span class="filepath"> at.js </span> and response tokens. For information about the advantages of using <span class="filepath"> at.js </span> over <span class="filepath"> mbox.js </span>, see <a href="../c_seting_up_target/c_implementing_target/c_target-atjs-implementation/c_target-atjs-faq.md#concept_D6EFE8D84A06476DB5ABD494D7E8C769" format="dita" scope="local"> at.js Frequently Asked Questions </a>. For information about migrating, see <a href="../c_seting_up_target/c_implementing_target/c_target-atjs-implementation/t_target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA" format="dita" scope="local"> Migrate to at.js from mbox.js </a>. </p> <p>After the deprecation of <span class="keyword"> Target Classic </span> (November 2017), you might need to contact Client Care to edit or disable existing plugins. You should have audited your plugins before <span class="keyword"> Target Classic </span> was deprecated and disabled unwanted plugins. </p> <p>You cannot create new plugins in Target Standard/Premium. Instead, use response tokens. </p> <p>Old SiteCatalyst plugins should be disabled and replaced with <a href="../c_integrating_target_with_mac/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE" format="dita" scope="local"> Adobe Analytics as the Reporting Source for Adobe Target (A4T) </a>. The ttMeta plugin should be disabled and replaced with the <a href="https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj" format="https" scope="external"> Adobe Experience Cloud Debugger </a>. </p> </td> 
+   <td colname="col2"> <p>Plugins will continue to be supported and delivered when using <span class="filepath"> mbox.js </span>. </p> <p>However, customers using <span class="filepath"> mbox.js </span> and plugins are encouraged to move to <span class="filepath"> at.js </span> and response tokens. For information about the advantages of using <span class="filepath"> at.js </span> over <span class="filepath"> mbox.js </span>, see <a href="../c_seting_up_target/c_implementing_target/c_target-atjs-implementation/c_target-atjs-faq.md#concept_D6EFE8D84A06476DB5ABD494D7E8C769" format="dita" scope="local"> at.js Frequently Asked Questions </a>. For information about migrating, see <a href="../c_seting_up_target/c_implementing_target/c_target-atjs-implementation/t_target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA" format="dita" scope="local"> Migrate to at.js from mbox.js </a>. </p> <p>After the deprecation of <span class="keyword"> Target Classic </span> (November 2017), you might need to contact Client Care to edit or disable existing plugins. You should have audited your plugins before <span class="keyword"> Target Classic </span> was deprecated and disabled unwanted plugins. </p> <p>You cannot create new plugins in Target Standard/Premium. Instead, use response tokens. </p> <p>Old SiteCatalyst plugins should be disabled and replaced with <a href="../c_integrating_target_with_mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE" format="dita" scope="local"> Adobe Analytics as the Reporting Source for Adobe Target (A4T) </a>. The ttMeta plugin should be disabled and replaced with the <a href="https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj" format="https" scope="external"> Adobe Experience Cloud Debugger </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -52,6 +52,7 @@ This section contains the following information:
 
 
 * [ Using Response Tokens ](../c_seting_up_target/c_response-tokens.md#section_A9E141DDCBA84308926E68D05FD2AC62)
+* [ Training Video ](../c_seting_up_target/c_response-tokens.md#section_3AA0A6C8DBD94A528337A2525E3E05D5)
 * [ Response Token FAQs ](../c_seting_up_target/c_response-tokens.md#section_3DD5F32C668246289CDF9B4CDE1F536D)
 * [ Sending Data to Google Analytics via at.js ](../c_seting_up_target/c_response-tokens.md#section_04AA830826D94D4EBEC741B7C4F86156)
 * [ Debugging (similar to ttMeta plugin) ](../c_seting_up_target/c_response-tokens.md#section_DB3392B6E80749C1BFB520732EDF3BCE)
@@ -268,6 +269,12 @@ document.addEventListener(adobe.target.event.REQUEST_SUCCEEDED, function(e) {
 });
 ```
 
+
+## Training Video {#section_3AA0A6C8DBD94A528337A2525E3E05D5}
+
+Watch the following video to learn how to use Response Tokens and at.js Custom Events to share profile information from Target to third-party systems. 
+
+>[!VIDEO](https://video.tv.adobe.com/v/23253/) 
 
 ## Response Token FAQs {#section_3DD5F32C668246289CDF9B4CDE1F536D}
 

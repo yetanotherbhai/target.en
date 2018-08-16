@@ -7,7 +7,7 @@ solution: Target
 subtopic: Getting Started
 title: Customize a Global mbox
 topic: Standard
-uuid: 65300d1f-9573-4334-b5bd-24006617526a
+uuid: ed617f73-a6a9-4927-a641-bf76fa1d25dd
 index: y
 internal: n
 snippet: y
@@ -37,8 +37,8 @@ translate: y
 >1. Implement the [!DNL  mbox.js] or [!DNL  at.js] library on your site.
 
 >    
->    * For mbox.js, see [ Mbox.js Implementation](../../../c_seting_up_target/c_implementing_target/t_mbox_download.md#task_4EAE26BB84FD4E1D858F411AEDF4B420).
->    * For at.js, see [ at.js Implementation](../../../c_seting_up_target/c_implementing_target/c_target-atjs-implementation.md#concept_8AC8D169E02944B1A547A0CAD97EAC17).
+>    * For mbox.js, see [ Mbox.js Implementation](../../../c_seting_up_target/c_implementing_target/t_mbox_download/t_mbox_download.md#task_4EAE26BB84FD4E1D858F411AEDF4B420).
+>    * For at.js, see [ at.js Implementation](../../../c_seting_up_target/c_implementing_target/c_target-atjs-implementation/c_target-atjs-implementation.md#concept_8AC8D169E02944B1A547A0CAD97EAC17).
 
 >1. Time the transition with your release.
 

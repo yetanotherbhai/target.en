@@ -6,7 +6,7 @@ seo-title: Adobe Customer Care Office Hours
 solution: Target
 title: Adobe Customer Care Office Hours
 topic: Standard
-uuid: a44ff183-97b6-4d50-81d7-e9db83bc5390
+uuid: a5ffb810-5cb2-452e-8867-cacc82a41b90
 index: y
 internal: n
 snippet: y
@@ -36,7 +36,7 @@ Current recorded Target sessions include:
       <li id="li_0D6C087EA751405C91028871A46B72F8"> <p>How the VEC works </p> </li> 
       <li id="li_B5BF1A9E1897473B93A6B962D0743790"> <p>How to avoid common issues with the VEC </p> </li> 
       <li id="li_7E254C2E78EE4D658E9F01156B2FB16B"> <p>Work-around practices you can use with the VEC </p> </li> 
-     </ul> </p> <p>For more information in this guide, see <a href="c_experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D" format="dita" scope="local"> Experiences</a>. </p> </td> 
+     </ul> </p> <p>For more information in this guide, see <a href="c_experiences/c_experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D" format="dita" scope="local"> Experiences</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><a href="https://helpx.adobe.com/customer-care-office-hours/target/analytics-target-A4T-integration.html" format="html" scope="external"> Adobe Target: Analytics/Target Integration (A4T)</a> </p> <p>40:33 </p> <p>January 2018 </p> </td> 
@@ -46,7 +46,7 @@ Current recorded Target sessions include:
       <li id="li_D05C9EC225F0479BABACE412DECFEB89"> <p>How the integration works </p> </li> 
       <li id="li_FD7823494B07417CAC25B45151B2BA94"> <p>Learn about the ideal reports to use in Analytics </p> </li> 
       <li id="li_6ABCFBDD26C040B6941B95434D5FCBE3"> <p>Answers to common questions about A4T </p> </li> 
-     </ul> </p> <p>For more information in this guide, see <a href="c_integrating_target_with_mac/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE" format="dita" scope="local"> Adobe Analytics as the Reporting Source for Adobe Target (A4T)</a>. </p> </td> 
+     </ul> </p> <p>For more information in this guide, see <a href="c_integrating_target_with_mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE" format="dita" scope="local"> Adobe Analytics as the Reporting Source for Adobe Target (A4T)</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><a href="https://helpx.adobe.com/customer-care-office-hours/target/at-js-advantages-implementation-best-practices.html" format="html" scope="external"> at.js: Advantages and Implementation Best Practices</a> </p> <p>26:43 </p> <p>April 2018 </p> </td> 
@@ -58,7 +58,7 @@ Current recorded Target sessions include:
       <li id="li_94479C7A03C54343A81B8C99AA7C5506"> <p>Error handling in at.js </p> </li> 
       <li id="li_461233D829364C8187CB2CE891816364"> <p>Debugging methodologies </p> </li> 
       <li id="li_1F17C87CB70B4A55BB6286F31FD9A9E4"> <p>Known issues and future roadmap </p> </li> 
-     </ul> </p> <p>For more information in this guide, see <a href="c_seting_up_target/c_implementing_target/c_target-atjs-implementation.md#concept_8AC8D169E02944B1A547A0CAD97EAC17" format="dita" scope="local"> at.js Implementation</a>. </p> </td> 
+     </ul> </p> <p>For more information in this guide, see <a href="c_seting_up_target/c_implementing_target/c_target-atjs-implementation/c_target-atjs-implementation.md#concept_8AC8D169E02944B1A547A0CAD97EAC17" format="dita" scope="local"> at.js Implementation</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

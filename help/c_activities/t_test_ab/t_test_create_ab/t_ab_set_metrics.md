@@ -5,7 +5,7 @@ seo-description: Use metrics in an A/B activity to determine when a visit is suc
 seo-title: Set Metrics
 solution: Target,standard
 title: Set Metrics
-uuid: 6bfdf884-3916-4420-9778-3183ade4f2e7
+uuid: 74117f40-2b93-4caa-9ee5-7ef2c196dcd4
 index: y
 internal: n
 snippet: y
@@ -14,10 +14,10 @@ translate: y
 
 # Set Metrics
 
-For detailed information about success metrics, see [ Success Metrics ](../../../r_success_metrics.md#reference_D011575C85DA48E989A244593D9B9924). 
+For detailed information about success metrics, see [ Success Metrics ](../../../r_success_metrics/r_success_metrics.md#reference_D011575C85DA48E989A244593D9B9924). 
 
 >1. Specify the goal of the activity.
->1. Select a [ success metric ](../../../r_success_metrics.md#reference_D011575C85DA48E989A244593D9B9924)
+>1. Select a [ success metric ](../../../r_success_metrics/r_success_metrics.md#reference_D011575C85DA48E989A244593D9B9924)
 
 >       ![](assets/ab_metrics.png) 
 
@@ -38,6 +38,6 @@ For detailed information about success metrics, see [ Success Metrics ](../../..
 
 >       The correct configuration of success metrics is critical for making sure you get the data you expect. 
 
->       For more information, see [ Success Metrics ](../../../r_success_metrics.md#reference_D011575C85DA48E989A244593D9B9924). 
+>       For more information, see [ Success Metrics ](../../../r_success_metrics/r_success_metrics.md#reference_D011575C85DA48E989A244593D9B9924). 
 >1. (Optional) Add additional metrics.
 >1. Click **[!UICONTROL  Continue]** when you are finished setting your metrics.

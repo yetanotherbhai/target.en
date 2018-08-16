@@ -7,7 +7,7 @@ solution: Target
 title: Use Dynamic and Static Inclusion Rules
 title_outputclass: premium
 topic: Premium
-uuid: f9c97239-8a10-48c3-b84e-4cf08c373757
+uuid: e2e2bbfd-486f-4c7a-bda6-67ce56a69564
 badge: premium
 index: y
 internal: n
@@ -61,15 +61,15 @@ The following table lists the types of filtering options for both criteria and p
  <tbody> 
   <tr> 
    <td colname="col1" morerows="2"> <p><b>Dynamic Filtering</b> </p> </td> 
-   <td colname="col2"> <p><b>Entity Attribute Matching: </b>Filter dynamically by comparing a pool of potential recommendations items to a specific item that the users has interacted with. </p> <p>For example, only recommend items that match the current item’s brand. </p> </td> 
+   <td colname="col2"> <p><b>Entity Attribute Matching:</b> Filter dynamically by comparing a pool of potential recommendations items to a specific item that the users has interacted with. </p> <p>For example, only recommend items that match the current item’s brand. </p> </td> 
    <td colname="col3"> <p>equals </p> <p>does not equal </p> <p>is between </p> <p>contains </p> <p>does not contain </p> <p>starts with </p> <p>ends with </p> <p>value is present </p> <p>value is not present </p> <p>is greater than or equal to </p> <p>is less than or equal to </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p><b>Profile Attribute Matching: </b>Filter dynamically by comparing items (entities) against a value in the user's profile. </p> <p>For example, only recommend items that match the visitor’s favorite brand. </p> </td> 
+   <td colname="col2"> <p><b>Profile Attribute Matching:</b> Filter dynamically by comparing items (entities) against a value in the user's profile. </p> <p>For example, only recommend items that match the visitor’s favorite brand. </p> </td> 
    <td colname="col3"> <p>equals </p> <p>does not equal </p> <p>contains </p> <p>does not contain </p> <p>starts with </p> <p>ends with </p> <p>is greater than or equal to </p> <p>is less than or equal to </p> <p>is between </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p><b>Parameter Matching: </b>Filter dynamically by comparing items (entities) against a value in the request (API or mbox). </p> <p>For example, only recommend content that matches the "industry" page parameter. </p> <p> <p type="important">Note:  If the activity was created before October 31, 2016, its delivery will fail if it uses the "Parameter Matching" filter. To work around this problem: <p> 
+   <td colname="col2"> <p><b>Parameter Matching:</b> Filter dynamically by comparing items (entities) against a value in the request (API or mbox). </p> <p>For example, only recommend content that matches the "industry" page parameter. </p> <p> <p type="important">Note:  If the activity was created before October 31, 2016, its delivery will fail if it uses the "Parameter Matching" filter. To work around this problem: <p> 
        <ul id="ul_0F41B82D21A940CC94A1155D19E890E0"> 
         <li id="li_CBACB09973FB4A65949E34826B7FD72C">Create a new activity and add your criteria in it. </li> 
         <li id="li_9FEF18BCB138488DAC8460764F9A143C">Use a criteria that does not contain the "Parameter Matching" filter. </li> 
@@ -79,7 +79,7 @@ The following table lists the types of filtering options for both criteria and p
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Filter by Value</b> </p> </td> 
-   <td colname="col2"> <p><b>Static Filter: </b>Manually enter one or more static values to filter. </p> <p>For example, only recommend content with an MPAA rating of "G" or "PG." </p> </td> 
+   <td colname="col2"> <p><b>Static Filter:</b> Manually enter one or more static values to filter. </p> <p>For example, only recommend content with an MPAA rating of "G" or "PG." </p> </td> 
    <td colname="col3"> <p>equals </p> <p>does not equal </p> <p>contains </p> <p>does not contain </p> <p>starts with </p> <p>ends with </p> <p>value is present </p> <p>value is not present </p> <p>is greater than or equal to </p> <p>is less than or equal to </p> </td> 
   </tr> 
  </tbody> 

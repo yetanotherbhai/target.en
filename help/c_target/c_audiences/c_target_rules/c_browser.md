@@ -7,7 +7,7 @@ solution: Target
 subtopic: Multivariate Test
 title: Browser
 topic: Premium
-uuid: ba4f13d8-3d1c-4285-a0ae-db91e53605a1
+uuid: 5cbfecf8-6ec4-42f3-9189-d9aea29edcdd
 index: y
 internal: n
 snippet: y
@@ -44,14 +44,14 @@ translate: y
 
 There are two ways to target browsers: 
 
-* **Pre-built Audience: **Use the pre-built audience if you want to target only visitors who use a specific browser to visit your site. For example, if you are offering a Chrome extension, you would target only Chrome users. 
+* **Pre-built Audience:** Use the pre-built audience if you want to target only visitors who use a specific browser to visit your site. For example, if you are offering a Chrome extension, you would target only Chrome users. 
 
 
     1. When setting up your activity, select the browser from the audience drop-down list. This option targets the activity only to visitors who use the specified browser. 
 
 
 
-* **Customized Browser Audience Rule: **A customized audience enables you to target multiple browsers, or to set up rules or exclusions for specific browsers, browser versions, or browser languages. This provides significant flexibility when targeting a campaign based on browser attributes. 
+* **Customized Browser Audience Rule:** A customized audience enables you to target multiple browsers, or to set up rules or exclusions for specific browsers, browser versions, or browser languages. This provides significant flexibility when targeting a campaign based on browser attributes. 
 
 
     1. In the [!DNL  Target] interface, click **[!UICONTROL  Audiences]** > **[!UICONTROL  Create Audience]**. 
@@ -83,30 +83,16 @@ The following example shows an audience that includes Internet Explorer users on
 
 ![](assets/target_exclude_ie.png) 
 
+**Creating Audiences (9:58)** 
+
 This video includes information about using audience categories. 
 
-<table id="table_A3A70CC0C9F54131BB9F098B4DA8C9D6"> 
- <thead> 
-  <tr> 
-   <th class="entry" colspan="2"> Creating Audiences </th> 
-   <th colname="col3" class="entry"> 9:58 </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colspan="2"> 
-    <div width="550" class="video-iframe"> 
-     <iframe src="https://www.youtube.com/embed/wV9lVTSOxMk/" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" oallowfullscreen="true" msallowfullscreen="true" allowfullscreen="allowfullscreen" scrolling="no" width="550" height="345">https://www.youtube.com/embed/wV9lVTSOxMk/</iframe>
-    </div> </td> 
-   <td colname="col3"> <p> 
-     <ul id="ul_FF4FEC7BC7A34461BAA54FBE18A8E63B"> 
-      <li id="li_7D6D4CB2E771430F84D2B658F8611532">Create audiences </li> 
-      <li id="li_8529CB01E80B4C89B74287882AE0DA9D">Define audience categories </li> 
-     </ul> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
 
+* Create audiences
+* Define audience categories
+
+
+>[!VIDEO](https://vimeo.com/wV9lVTSOxMk) 
 >## Browser Options {#concept_221D8EEF53CC45AEACEB17CF336A3658}
 >Target or exclude activity entrants based on their browser type, language, or version. 
 <draft-comment otherprops="merge">

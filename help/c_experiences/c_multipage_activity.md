@@ -6,7 +6,7 @@ seo-title: Multipage Activity
 solution: Target
 title: Multipage Activity
 topic: Advanced
-uuid: e1d1054e-5b52-4cc5-b906-5f25ce6c06eb
+uuid: 1281c363-ec25-451e-8df3-904e8b8a1d9f
 index: y
 internal: n
 snippet: y
@@ -17,7 +17,7 @@ translate: y
 
 For example, you might want to test an offer for free shipping with purchases above a certain amount. You might want that offer to appear on your landing page, a category page, and certain product pages, but you want it to be a different size and in a different location on each page type. You could display a prominent offer on your home page, then reinforce that offer with smaller offers on other relevant pages. 
 
-You can also use a multipage activity to define different layouts for your desktop and non-responsive mobile sites. If the site has a separate mobile site like [!DNL  m.mysite.com] instead of [!DNL  www.mysite.com], you should instead create a [ multipage activity](../c_experiences/c_multipage_activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48), add [!DNL  m.mysite.com] as separate pages, and then apply mobile editing to make appropriate changes on the desktop version and mobile version in the same experience. For responsive mobile sites, use [ mobile experience editing](../c_experiences/c_mobile_viewports.md#concept_8E45527C4ABC41D59AA3553BEDC76FA5). 
+You can also use a multipage activity to define different layouts for your desktop and non-responsive mobile sites. If the site has a separate mobile site like [!DNL  m.mysite.com] instead of [!DNL  www.mysite.com], you should instead create a [ multipage activity](../c_experiences/c_multipage_activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48), add [!DNL  m.mysite.com] as separate pages, and then apply mobile editing to make appropriate changes on the desktop version and mobile version in the same experience. For responsive mobile sites, use [ mobile experience editing](../c_experiences/c_mobile_viewports/c_mobile_viewports.md#concept_8E45527C4ABC41D59AA3553BEDC76FA5). 
 
 
 >[!NOTE]

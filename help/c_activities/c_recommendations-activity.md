@@ -3,7 +3,7 @@ description: Recommendations activities automatically display products or conten
 seo-description: Recommendations activities automatically display products or content that might interest your customers based on previous user activity or other algorithms. Recommendations help direct customers to relevant items they might otherwise not know about.
 seo-title: Recommendations Activity
 title: Recommendations Activity
-uuid: 335f9d7a-b30f-4b1c-8443-2a84b969bb59
+uuid: 3e8d0160-6c5c-4fae-b91f-25a32428f5bd
 index: y
 internal: n
 snippet: y
@@ -15,6 +15,6 @@ translate: y
 
 >[!NOTE]
 >
->The Recommendations documentation as been relocated to its own section. See[ Recommendations](../c_recommendations.md#concept_7556C8A4543942F2A77B13A29339C0C0). 
+>The Recommendations documentation as been relocated to its own section. See[ Recommendations](../c_recommendations/c_recommendations.md#concept_7556C8A4543942F2A77B13A29339C0C0). 
 
 

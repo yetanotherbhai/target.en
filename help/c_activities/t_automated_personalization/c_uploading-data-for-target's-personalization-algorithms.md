@@ -5,7 +5,7 @@ seo-title: Uploading Data for Target's Personalization Algorithms
 solution: Target
 title: Uploading Data for Target's Personalization Algorithms
 topic: Premium
-uuid: 14cbc14c-b21b-498c-85a6-593e8662a65c
+uuid: 9d156b96-02ae-42f1-87f2-57e9fb64e97e
 index: y
 internal: n
 snippet: y

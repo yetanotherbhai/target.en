@@ -7,7 +7,7 @@ solution: Target
 title: Feeds
 title_outputclass: premium
 topic: Premium
-uuid: 8a68a581-a891-496a-b74c-fc47baeabbf5
+uuid: fd8aa94f-3fea-4742-9fed-a35aefe57df9
 badge: premium
 index: y
 internal: n
@@ -31,7 +31,7 @@ translate: y
 
 
 >## Feeds Overview {#concept_D1E9C7347C5D4583AA69B02E79607890}
->Use feeds to get entities imported into Recommendations. Entities can be sent using CSV files, the Google Product Search feed format, and/or Adobe Analytics product classifications.Feeds allow you to pass [ Entities ](../../c_recommendations/c_products.md#concept_FD935A24D98745FFB2447933FCEB8062) or augment your mbox data with information that is either unavailable on the page or is unsafe to send directly from the page, such as margin, COGS, and so on. 
+>Use feeds to get entities imported into Recommendations. Entities can be sent using CSV files, the Google Product Search feed format, and/or Adobe Analytics product classifications.Feeds allow you to pass [ Entities ](../../c_recommendations/c_products/c_products.md#concept_FD935A24D98745FFB2447933FCEB8062) or augment your mbox data with information that is either unavailable on the page or is unsafe to send directly from the page, such as margin, COGS, and so on. 
 
 You can select which columns from your Adobe Target product classifications file or Google Product Search file you want to send to the [!DNL  Recommendations] server. These pieces of data about each item can then be used in template display and for controlling recommendations. 
 
@@ -294,7 +294,7 @@ The Analytics Product classification is the only classification available for re
 
 >       >[!NOTE]
 >       >
->       >For more information, see[ Hosts ](../../c_seting_up_target/c_hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E). 
+>       >For more information, see[ Hosts ](../../c_seting_up_target/c_hosts/c_hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E). 
 
 >1. Click **[!UICONTROL  Save]**.
 >## Feed Statuses and Indicators {#concept_E475986720D1400999868B3DFD14A7A0}

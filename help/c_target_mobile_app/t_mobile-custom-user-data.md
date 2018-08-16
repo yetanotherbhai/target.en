@@ -5,7 +5,7 @@ seo-description: You can send additional information about the location or the u
 seo-title: iOS - Send Custom User Data
 title: iOS - Send Custom User Data
 topic: Target
-uuid: 5001ce90-66d3-49a7-ad26-95c4e9ac0dcf
+uuid: ca9f9d2a-539c-4c49-aaa9-a8315b8275b8
 index: y
 internal: n
 snippet: y

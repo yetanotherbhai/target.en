@@ -6,7 +6,7 @@ seo-title: Priority
 solution: Target
 title: Priority
 topic: Standard
-uuid: 36d15a64-170b-4743-b084-86868ae0b04d
+uuid: 2529541e-89a9-43c9-a431-18d7f73aa11f
 index: y
 internal: n
 snippet: y
@@ -34,33 +34,24 @@ This page is separated into sections based on the setup for your company.
 
 
 
+**Activity Settings (3:02)** 
+
 This video includes information about activity settings. 
 
-<table id="table_A3A70CC0C9F54131BB9F098B4DA8C9D6"> 
- <thead> 
-  <tr> 
-   <th class="entry" colspan="2"> Activity Settings </th> 
-   <th colname="col3" class="entry"> 3:02 </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colspan="2"> 
-    <div width="550" class="video-iframe"> 
-     <iframe src="https://www.youtube.com/embed/6XNEM8tUADo/" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" oallowfullscreen="true" msallowfullscreen="true" allowfullscreen="allowfullscreen" scrolling="no" width="550" height="345">https://www.youtube.com/embed/6XNEM8tUADo/</iframe>
-    </div> </td> 
-   <td colname="col3"> <p> 
-     <ul id="ul_FF4FEC7BC7A34461BAA54FBE18A8E63B"> 
-      <li id="li_7D6D4CB2E771430F84D2B658F8611532"> <p>Enter an objective for your activity </p> </li> 
-      <li id="li_61D9DDCD3AFB40E2BC55AFED5CD6C405"> <p>Set the priority level of your activities </p> </li> 
-      <li id="li_745F20CC95DF4BE48173991CB42EC50A"> <p>Schedule activity start and end times </p> </li> 
-      <li id="li_699D4D5D089A4FB7BA4C5E95337AC34A"> <p>Add audiences for reporting to create report filters </p> </li> 
-      <li id="li_0EDDBA5E70B54F22A76F1D6D722914BE"> <p>Enter notes for your activities </p> </li> 
-     </ul> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
 
+* Enter an objective for your activity 
+
+* Set the priority level of your activities 
+
+* Schedule activity start and end times 
+
+* Add audiences for reporting to create report filters 
+
+* Enter notes for your activities 
+
+
+
+>[!VIDEO](https://vimeo.com/6XNEM8tUADo) 
 
 ## Target Standard/Premium Visual Experience Composer Only or Form-Based Composer Using Global mbox Only {#section_4A0A317DFED345649B58B0CB5B410C8B}
 

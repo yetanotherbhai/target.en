@@ -6,7 +6,7 @@ seo-title: Visual Experience Composer Best Practices and Limitations
 solution: Target
 title: Visual Experience Composer Best Practices and Limitations
 topic: Classic
-uuid: f18cb17a-397f-48da-a98d-f43fc0146042
+uuid: 328d73bc-ebf8-41f5-a4d1-a8582d53007b
 index: y
 internal: n
 snippet: y

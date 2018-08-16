@@ -6,7 +6,7 @@ seo-title: Automated Personalization Summary Reports
 solution: Target
 title: Automated Personalization Summary Reports
 title_outputclass: premium
-uuid: 57a5b4f2-f6fd-44c9-9fb6-94695f3aa375
+uuid: 6afac0c5-cdee-4adf-9ea2-ec25b59aa646
 badge: premium
 index: y
 internal: n
@@ -52,7 +52,7 @@ The [!UICONTROL  Activity Level] report compares the aggregate performance of us
 
 ![](assets/box_plot_ap.jpg) 
 
-The standard rules of results interpretation for A/B testing still apply, including lift, confidence, trending, duration, and so on. For more information about interpreting results, see [ About the Conversion Rate](../c_reports/c_conversion_rate.md#concept_2D9FEDE8F94A485DAC86D611BFBDC844). 
+The standard rules of results interpretation for A/B testing still apply, including lift, confidence, trending, duration, and so on. For more information about interpreting results, see [ About the Conversion Rate](../c_reports/c_conversion_rate/c_conversion_rate.md#concept_2D9FEDE8F94A485DAC86D611BFBDC844). 
 
 ## Offer Level Report {#section_CAA6409879E349C6906E2BE8156D87A1}
 

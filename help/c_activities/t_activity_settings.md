@@ -7,7 +7,7 @@ solution: Target
 subtopic: Multivariate Test
 title: Activity Settings
 topic: Standard
-uuid: 57a3a6f5-fa09-46b0-be7a-174cff411f0d
+uuid: 8e6ef472-59f6-442d-a25d-e0ad9f08ec28
 index: y
 internal: n
 snippet: y
@@ -58,38 +58,27 @@ translate: y
 
 >    
 >    * [ A/B Test ](../c_activities/t_test_ab/t_test_create_ab/r_ab_goals_and_settings.md#reference_B25389FD6F3A4989801E740364B089CC)
->    * [ Automated Personalization ](../c_activities/t_automated_personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9)
+>    * [ Automated Personalization ](../c_activities/t_automated_personalization/t_automated_personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9)
 >    * [ Experience Targeting ](../c_activities/t_experience_target/t_xt_create/r_xt_goals_and_settings.md#reference_B25389FD6F3A4989801E740364B089CC)
 >    * [ Multivariate Test ](../c_activities/c_multivariate_testing/t_create_multivariate_test/r_goals_and_settings.md#reference_B25389FD6F3A4989801E740364B089CC)
 >    * [ Recommendations ](../c_recommendations/t_create_recs_activity/r_recs_activity_settings.md#reference_3FDA8388CEEC4159949151C1829E2FBB)
 
 
+>       **Activity Settings (3:02)** 
+
 >       This video includes information about activity settings. 
 
+>    
+>    * Enter an objective for your activity 
+
+>    * Set the priority level of your activities 
+
+>    * Schedule activity start and end times 
+
+>    * Add audiences for reporting to create report filters 
+
+>    * Enter notes for your activities 
 
 
->    <table id="table_A3A70CC0C9F54131BB9F098B4DA8C9D6"> 
- <thead> 
-  <tr> 
-   <th class="entry" colspan="2"> Activity Settings </th> 
-   <th colname="col3" class="entry"> 3:02 </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colspan="2"> 
-    <div width="550" class="video-iframe"> 
-     <iframe src="https://www.youtube.com/embed/6XNEM8tUADo/" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" oallowfullscreen="true" msallowfullscreen="true" allowfullscreen="allowfullscreen" scrolling="no" width="550" height="345">https://www.youtube.com/embed/6XNEM8tUADo/</iframe>
-    </div> </td> 
-   <td colname="col3"> <p> 
-     <ul id="ul_FF4FEC7BC7A34461BAA54FBE18A8E63B"> 
-      <li id="li_7D6D4CB2E771430F84D2B658F8611532"> <p>Enter an objective for your activity </p> </li> 
-      <li id="li_61D9DDCD3AFB40E2BC55AFED5CD6C405"> <p>Set the priority level of your activities </p> </li> 
-      <li id="li_745F20CC95DF4BE48173991CB42EC50A"> <p>Schedule activity start and end times </p> </li> 
-      <li id="li_699D4D5D089A4FB7BA4C5E95337AC34A"> <p>Add audiences for reporting to create report filters </p> </li> 
-      <li id="li_0EDDBA5E70B54F22A76F1D6D722914BE"> <p>Enter notes for your activities </p> </li> 
-     </ul> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
 
+>       >[!VIDEO](https://vimeo.com/6XNEM8tUADo) 

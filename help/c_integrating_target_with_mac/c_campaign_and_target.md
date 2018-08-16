@@ -6,7 +6,7 @@ seo-title: Integrating Target with Adobe Campaign
 solution: Target
 title: Integrating Target with Adobe Campaign
 topic: Standard
-uuid: b4b10a42-024c-4ecc-abae-6851b8215307
+uuid: bee44524-c0d2-41e1-98cb-c9b3c8ec21d5
 index: y
 internal: n
 snippet: y
@@ -57,14 +57,22 @@ Start the activity in Target before setting up the Campaign portion of the integ
 ## Include a Target Offer in an Adobe Campaign Email {#section_B201BBE27A704E18AF0D553F35695837}
 
 
-1. Create an email in Adobe Campaign.
-1. In the email properties, click **[!UICONTROL  Include]** > **[!UICONTROL  Dynamic image served by Adobe Target]**.
-1. Select the default image from the shared assets.
-1. Specify the location (rawbox).
-1. Add any other decisioning parameters, such as the gender of the recipient.
-1. Preview the email, selecting at least one recipient for each offer (in this case, a male and a female).
-1. In Campaign, define the Target Edge server you are using to control the activity and the name of the tenant.
-1. Specify the external account used for the Experience Cloud so you can access the resources in the Experience Cloud.
+1. Create an email in Adobe Campaign. 
+
+1. In the email properties, click **[!UICONTROL  Include]** > **[!UICONTROL  Dynamic image served by Adobe Target]**. 
+
+1. Select the default image from the shared assets. 
+
+1. Specify the location (rawbox). 
+
+1. Add any other decisioning parameters, such as the gender of the recipient. 
+
+1. Preview the email, selecting at least one recipient for each offer (in this case, a male and a female). 
+
+1. In Campaign, define the Target Edge server you are using to control the activity and the name of the tenant. 
+
+1. Specify the external account used for the Experience Cloud so you can access the resources in the Experience Cloud. 
+
 
 
 For more information, refer to the Adobe Campaign documentation. 

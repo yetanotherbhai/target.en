@@ -7,7 +7,7 @@ solution: Target
 title: Creating Criteria Sequences
 title_outputclass: premium
 topic: Premium
-uuid: 757912ef-1e86-4f8f-bae6-f7314fa107a5
+uuid: 1a0f9c79-6132-412d-967a-704335038ca3
 badge: premium
 index: y
 internal: n
@@ -109,4 +109,4 @@ There are multiple ways to reach the [!UICONTROL  Create Criteria Sequence] scre
 
 >       ![](assets/CriteriaSequenceCard.png) 
 
->       For more information about recommendation logic options, see [ Criteria](../../c_recommendations/c_algorithms.md#concept_4BD01DC437F543C0A13621C93A302750). 
+>       For more information about recommendation logic options, see [ Criteria](../../c_recommendations/c_algorithms/c_algorithms.md#concept_4BD01DC437F543C0A13621C93A302750). 

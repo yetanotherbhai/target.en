@@ -6,7 +6,7 @@ seo-title: Experience Cloud Device Co-op
 solution: Target
 title: Experience Cloud Device Co-op
 topic: Standard
-uuid: f848dacf-28af-41f7-86cc-179d999ded38
+uuid: b7f2ba4a-48cc-4511-bbba-5e00816d941c
 index: y
 internal: n
 snippet: y

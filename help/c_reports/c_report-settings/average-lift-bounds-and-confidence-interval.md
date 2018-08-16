@@ -6,7 +6,7 @@ seo-title: Average Lift, Lift Bounds, and Confidence Interval
 solution: Target
 title: Average Lift, Lift Bounds, and Confidence Interval
 topic: Premium
-uuid: ddc40f5a-8a4c-40e3-9798-cad17cd4bf29
+uuid: b0f6343e-e14f-4567-8a01-fad19998bef8
 index: y
 internal: n
 snippet: y
@@ -19,7 +19,7 @@ translate: y
 >Reports include several data points and visualization representations that help you understand the lift bounds and confidence level associated with your activity. This helps you more accurately determine a winner.
 >[!NOTE]
 >
->This feature is available only when viewing reports in Table View. This feature is not available for activities that use[ Analytics as the reporting source (A4T)](../../c_integrating_target_with_mac/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE). 
+>This feature is available only when viewing reports in Table View. This feature is not available for activities that use[ Analytics as the reporting source (A4T)](../../c_integrating_target_with_mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE). 
 
 
 

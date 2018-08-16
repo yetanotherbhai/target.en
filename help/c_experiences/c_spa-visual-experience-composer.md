@@ -6,7 +6,7 @@ seo-title: Single Page App (SPA) Visual Experience Composer
 solution: Target
 title: Single Page App (SPA) Visual Experience Composer
 topic: Standard
-uuid: f43b786d-2c8f-4e09-931f-21482e4adf1a
+uuid: a69ad3a5-a096-47dd-b88a-e6145114058f
 index: y
 internal: n
 snippet: y
@@ -39,7 +39,7 @@ This section contains the following information:
 
 ## Overview {#section_3E8FBB7381744320AE7F4BB5AEAF4D83}
 
-The existing [ Visual Experience Composer ](../c_experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) gives marketers a do-it-yourself capability to create activities and personalize experiences that can be dynamically delivered on their web properties via Target's Global Mbox without any developer intervention. With the adoption of popular SPA frameworks the construct of the web has changed and URLs are not longer a reliable method to represent page transitions. With this version of the VEC, Adobe is creating a reliable way to author and deliver Target activities for SPAs. The VEC can be used for creating [ A/B Test ](../c_activities/t_test_ab.md#task_05E33EB15C4D4459B5EAFF90A94A7977) and [ Experience Targeting ](../c_activities/t_experience_target.md#task_A53DF336CB9F4D7BB87EF2106099EFC4) (XT) activities for SPAs. Support for other activity types will be available in the future. 
+The existing [ Visual Experience Composer ](../c_experiences/c_experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) gives marketers a do-it-yourself capability to create activities and personalize experiences that can be dynamically delivered on their web properties via Target's Global Mbox without any developer intervention. With the adoption of popular SPA frameworks the construct of the web has changed and URLs are not longer a reliable method to represent page transitions. With this version of the VEC, Adobe is creating a reliable way to author and deliver Target activities for SPAs. The VEC can be used for creating [ A/B Test ](../c_activities/t_test_ab/t_test_ab.md#task_05E33EB15C4D4459B5EAFF90A94A7977) and [ Experience Targeting ](../c_activities/t_experience_target/t_experience_target.md#task_A53DF336CB9F4D7BB87EF2106099EFC4) (XT) activities for SPAs. Support for other activity types will be available in the future. 
 
 SPAs, unlike traditional websites, have the following atypical behavior: 
 
@@ -217,8 +217,8 @@ The following table describes each action:
 ## Known Limitations {#section_F5B6506B86B0488FBEC870FB5AA4A435}
 
 
-* The VEC for SPAs can be used for creating [ A/B Test ](../c_activities/t_test_ab.md#task_05E33EB15C4D4459B5EAFF90A94A7977) and [ Experience Targeting ](../c_activities/t_experience_target.md#task_A53DF336CB9F4D7BB87EF2106099EFC4) (XT) activities only. Support for other activity types will be available in the future. 
+* The VEC for SPAs can be used for creating [ A/B Test ](../c_activities/t_test_ab/t_test_ab.md#task_05E33EB15C4D4459B5EAFF90A94A7977) and [ Experience Targeting ](../c_activities/t_experience_target/t_experience_target.md#task_A53DF336CB9F4D7BB87EF2106099EFC4) (XT) activities only. Support for other activity types will be available in the future. 
 
-* [ Analytics for Target ](../c_integrating_target_with_mac/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) (A4T) reporting will be available in a future Target release. 
+* [ Analytics for Target ](../c_integrating_target_with_mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) (A4T) reporting will be available in a future Target release. 
 
 

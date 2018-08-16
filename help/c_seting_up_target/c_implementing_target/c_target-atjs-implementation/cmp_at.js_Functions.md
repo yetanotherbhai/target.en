@@ -7,7 +7,7 @@ solution: Target
 subtopic: Getting Started
 title: at.js Functions
 topic: Standard
-uuid: b0c3b802-488f-488e-b5a4-e5ac60a55402
+uuid: 96e2f20d-bc48-4110-a900-cfdfc89abd45
 index: y
 internal: n
 snippet: y
@@ -349,7 +349,7 @@ adobe.target.getOffer({
 <draft-comment otherprops="merge">
   ov2/r_target-atjs-trackevent.xml 
 </draft-comment>
->These event-tracking mbox calls can then be used to define metrics in activities. For more information, see [ Success Metrics ](../../../r_success_metrics.md#reference_D011575C85DA48E989A244593D9B9924) and [ Create an Order Confirmation mbox - at.js ](../../../c_seting_up_target/c_implementing_target/c_target-atjs-implementation/t_create_orderconfirm-page-mbox-atjs.md#task_E85D2F64FEB84201A594F2288FABF053). 
+>These event-tracking mbox calls can then be used to define metrics in activities. For more information, see [ Success Metrics ](../../../r_success_metrics/r_success_metrics.md#reference_D011575C85DA48E989A244593D9B9924) and [ Create an Order Confirmation mbox - at.js ](../../../c_seting_up_target/c_implementing_target/c_target-atjs-implementation/t_create_orderconfirm-page-mbox-atjs.md#task_E85D2F64FEB84201A594F2288FABF053). 
 
 >Here are the API details: 
 
@@ -1152,7 +1152,7 @@ Consider the following when working with the ` dataProviders` setting:
    <td colname="col3"> <p>There are several scenarios in which you would like to be notified to help in tracing, debugging, and customizing interaction with at.js. </p> <p> Each custom event listed below has two formats: a "constant" and a "string value." </p> <p> 
      <ul id="ul_E15A7766ACB341C69AADA9E605289BE9"> 
       <li id="li_77813A273E824AC58BF2A379E010675A"> <p><b>Constants: </b>Prepended with <span class="codeph"> adobe.target.event. </span>, presented in all caps, and contain underscore characters. To subscribe to custom events <i>after</i> at.js loads but <i>before</i> the mbox response has been received, use the constant. </p> </li> 
-      <li id="li_59A765E14BC4461D8DC3BB16D28C4D9A"><b>String Values: </b>Lowercase and contain dashes. To subscribe to custom events <i>before</i> at.js loads, use the string value. </li> 
+      <li id="li_59A765E14BC4461D8DC3BB16D28C4D9A"><b>String Values:</b> Lowercase and contain dashes. To subscribe to custom events <i>before</i> at.js loads, use the string value. </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
@@ -1209,4 +1209,11 @@ document.addEventListener(adobe.target.event.REQUEST_SUCCEEDED, function(event) 
   console.log('Event', event); 
 });
 ```
+
+## Training Video {#section_ED304A7137DC42A4BDCD6D57C989F1FA}
+
+Watch the following video to learn how to use Response Tokens and at.js Custom Events to share profile information from Target to third-party systems. 
+
+>[!VIDEO](https://video.tv.adobe.com/v/23253/) 
+
 [ [Back to Top] ](../../../c_seting_up_target/c_implementing_target/c_target-atjs-implementation/cmp_at.js_Functions.md#ul_589C696EC7D046B2BFD3013CA69AB878) 

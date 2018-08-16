@@ -6,7 +6,7 @@ seo-title: Page Modification Scenarios
 solution: Target
 title: Page Modification Scenarios
 topic: Premium
-uuid: d159a01a-4981-4e2e-81b4-cfa517d60a6a
+uuid: 13d77005-40b7-40cf-8051-9dd427419cf2
 index: y
 internal: n
 snippet: y

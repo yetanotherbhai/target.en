@@ -6,7 +6,7 @@ seo-title: Activity Setup - A4T FAQ
 solution: Target
 title: Activity Setup - A4T FAQ
 topic: Standard
-uuid: c171b5e1-0dbb-48d0-90f7-1a8a4b5006f0
+uuid: a72eb5ed-9f9d-4cb0-8988-99e57c628b01
 index: y
 internal: n
 snippet: y
@@ -25,7 +25,7 @@ This section contains the following information:
 
 ## Which activity types are support Analytics as the reporting source (A4T)? {#section_5E4F58CD25A5424E869E6FE0803968EF}
 
-For a full list, see "Supported Activity Types" in [ Adobe Analytics as the Reporting Source for Adobe Target (A4T) ](../../../c_integrating_target_with_mac/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE). 
+For a full list, see "Supported Activity Types" in [ Adobe Analytics as the Reporting Source for Adobe Target (A4T) ](../../../c_integrating_target_with_mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE). 
 
 ## I just created an activity. Why don't I see any data coming in? {#section_9F8092BE4225442896F926540292F221}
 

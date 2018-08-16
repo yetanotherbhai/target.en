@@ -6,7 +6,7 @@ seo-title: Creating a Profile Attribute Comparison Audience
 solution: Target
 title: Creating a Profile Attribute Comparison Audience
 topic: Advanced,Standard,Classic
-uuid: bfdbf989-96f1-470c-b28e-93626a56f302
+uuid: e0c397e2-9182-4841-ac27-5adea4b18e59
 index: y
 internal: n
 snippet: y
@@ -21,6 +21,19 @@ translate: y
 >This functionality is available for the[ Visitor Profile](../../c_target/c_audiences/c_target_rules/c_visitor_profile.md#concept_E972690B9A4C4372A34229FA37EDA38E) category only. 
 
 
+
+This section contains the following information: 
+
+
+* [ Overview](../../c_target/c_audiences/c_creating-a-profile-attribute-comparison-audience.md#section_303CBC78194D49A2A004945D425441E1) 
+
+* [ Training Video](../../c_target/c_audiences/c_creating-a-profile-attribute-comparison-audience.md#section_3BB8DBF3418F4520B3E274B6F40AF8F3) 
+
+* [ Create a Profile Attribute Comparison Audience](../../c_target/c_audiences/c_creating-a-profile-attribute-comparison-audience.md#section_7A62FD47D5C74C3EBC3417ACDBB85013) 
+
+
+
+## Overview {#section_303CBC78194D49A2A004945D425441E1}
 
 Audiences are defined by rules that determine who is included or excluded from a Target activity. An audience definition can include multiple rules, and each rule can include multiple parameters. If one of the rules you include uses the Visitor Profile category, you can define a rule based on a visitor profile attribute’s specific value or compare the value of that attribute to another visitor profile attribute. 
 
@@ -37,7 +50,13 @@ You could create an audience defined as the propensity to buy dining room furnit
 
 For more information, see [ Methods to get Data into Target](../../c_seting_up_target/c_implementing_target/c_methods-to-get-data-into-target.md#concept_0069C0EFB56C4700BB33F2F35C2B9B17). 
 
-**To create a profile attribute comparison audience:** 
+## Training Video {#section_3BB8DBF3418F4520B3E274B6F40AF8F3}
+
+Watch the following video for more information and a scenario in which you could use this feature: 
+
+>[!VIDEO](https://video.tv.adobe.com/v/23218/) 
+
+## Create a Profile Attribute Comparison Audience {#section_7A62FD47D5C74C3EBC3417ACDBB85013}
 
 
 1. Click **[!UICONTROL  Audiences]** > **[!UICONTROL  Create Audience]** > **[!UICONTROL  Add Rule]** > **[!UICONTROL  Visitor Profile]**. 

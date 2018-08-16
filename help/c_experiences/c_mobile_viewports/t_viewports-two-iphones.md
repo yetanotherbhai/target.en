@@ -6,7 +6,7 @@ seo-title: Use Case  Target Two iPhone Versions
 solution: Target
 title: Use Case  Target Two iPhone Versions
 topic: Premium
-uuid: cee1b054-e400-408c-a26b-6c9c610b0c0e
+uuid: 451fce62-6c6b-444f-8396-2f95e1afd171
 index: y
 internal: n
 snippet: y
@@ -41,6 +41,4 @@ translate: y
 
 >       Because the phone could be rotated to landscape, requiring both height and width to be greater than 320 simultaneously creates a condition that only the 6 and 6 Plus would be able to meet, when combined with the iPhone Device Model. 
 >1. Click **[!UICONTROL  Save]**.
-
 >1. Continue setting up your activity as you normally would.
-

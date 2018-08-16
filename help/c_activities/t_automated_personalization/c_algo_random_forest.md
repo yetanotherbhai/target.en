@@ -6,7 +6,7 @@ seo-title: Random Forest Algorithm
 solution: Target
 title: Random Forest Algorithm
 title_outputclass: premium
-uuid: 5e429f1c-f803-4820-9801-c5c372376577
+uuid: 724b45a7-4bd1-4b3b-8c89-24a2f3e6a1dc
 badge: premium
 index: y
 internal: n
@@ -95,9 +95,9 @@ Before the data goes through the personalization algorithm, it undergoes a featu
 The feature transformations depend on the type of attribute. Mainly, there are two types of attributes (or "features" as they are sometimes described by data scientists): 
 
 
-* ** Categorical: **Categorical features cannot be counted but can be sorted into different groups. They could be features like country, gender, or zip code. 
+* ** Categorical:** Categorical features cannot be counted but can be sorted into different groups. They could be features like country, gender, or zip code. 
 
-* ** Numeric: ** Numeric features can be measured or counted, such as age, income, and so on. 
+* ** Numeric:** Numeric features can be measured or counted, such as age, income, and so on. 
 
 
 

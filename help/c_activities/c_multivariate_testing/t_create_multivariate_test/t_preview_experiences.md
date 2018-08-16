@@ -5,7 +5,7 @@ seo-title: Preview Experiences for a Multivariate Test
 solution: Target
 title: Preview Experiences for a Multivariate Test
 topic: Standard
-uuid: 096fc8d5-8fe3-4442-b7ad-42e6966680ea
+uuid: 515de9ff-ba52-4e84-8629-177d284b7684
 index: y
 internal: n
 snippet: y

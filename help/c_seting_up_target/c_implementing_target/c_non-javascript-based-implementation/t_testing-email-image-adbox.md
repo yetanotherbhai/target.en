@@ -6,7 +6,7 @@ seo-title: Test an Email Image Adbox
 solution: Target
 title: Test an Email Image Adbox
 topic: Recommendations
-uuid: 5b01f82f-1b72-411b-84ef-685c428b2a29
+uuid: a3a7a436-43c4-4f35-b975-8bd27c9efb23
 index: y
 internal: n
 snippet: y

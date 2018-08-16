@@ -10,7 +10,7 @@ seo-description: Information about the status of traditional Target debugging te
 seo-title: Debugging at.js
 title: Debugging at.js
 topic: Target
-uuid: 9ad2e3f3-56ed-4145-9021-ce068999aeae
+uuid: f244e24c-9c0c-49b9-81e2-ecec7b213aa1
 index: y
 internal: n
 snippet: y
@@ -21,33 +21,20 @@ translate: y
 
 Debugging options are slightly different for mbox calls using [!DNL  at.js]. 
 
+**Tools for Troubleshooting Adobe Target (14:14)** 
+
 The following video demonstrates tools for troubleshooting at.js: 
 
 
+* Use native browser tools for inspecting mbox requests 
 
-<table id="table_A3A70CC0C9F54131BB9F098B4DA8C9D6"> 
- <thead> 
-  <tr> 
-   <th class="entry" colspan="2"> Tools for Troubleshooting Adobe Target </th> 
-   <th colname="col3" class="entry"> 14:14 </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colspan="2"> 
-    <div width="550" class="video-iframe"> 
-     <iframe src="https://www.youtube.com/embed/OXznmfKjxwU/" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" oallowfullscreen="true" msallowfullscreen="true" allowfullscreen="allowfullscreen" scrolling="no" width="550" height="345">https://www.youtube.com/embed/OXznmfKjxwU/</iframe>
-    </div> </td> 
-   <td colname="col3"> <p> 
-     <ul id="ul_FF4FEC7BC7A34461BAA54FBE18A8E63B"> 
-      <li id="li_7D6D4CB2E771430F84D2B658F8611532">Use native browser tools for inspecting mbox requests </li> 
-      <li id="li_4610283D0A4649469C0D88FCE8F6D47A">Use the Experience Cloud Debugger, mboxTrace, and ttMETA </li> 
-      <li id="li_297A797915ED4278BC17340951024427">Understand the Target timeout </li> 
-     </ul> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+* Use the Experience Cloud Debugger, mboxTrace, and ttMETA 
 
+* Understand the Target timeout 
+
+
+
+>[!VIDEO](https://vimeo.com/OXznmfKjxwU) 
 
 <table id="table_2A681D6FC38F4EF5882D981788804B8B"> 
  <thead> 

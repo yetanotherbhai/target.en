@@ -7,7 +7,7 @@ solution: Target
 subtopic: Getting Started
 title: Working with Redirectors
 topic: Standard
-uuid: 5c99f581-c07a-4427-9add-582a6dfa5554
+uuid: 982c6d53-8bd7-4af2-afa4-212c7016760d
 index: y
 internal: n
 snippet: y
@@ -34,7 +34,7 @@ Use the Redirector to do the following:
 
 
 
-For help deciding the right setup see [ Non-JavaScript-Based Implementations ](../../../c_seting_up_target/c_implementing_target/c_non-javascript-based-implementation.md#concept_4799C58B081A43F6B3B8CC25A8D5D7C4). 
+For help deciding the right setup see [ Non-JavaScript-Based Implementations ](../../../c_seting_up_target/c_implementing_target/c_non-javascript-based-implementation/c_non-javascript-based-implementation.md#concept_4799C58B081A43F6B3B8CC25A8D5D7C4). 
 >## Create a Redirector {#task_76608B0F73FC45C4A9F125B894DCF821}
 >Before you can use a redirector, you must create it. 
 <draft-comment>
@@ -81,7 +81,7 @@ For help deciding the right setup see [ Non-JavaScript-Based Implementations ](.
 >1. If you will test different destinations for one ad, create [ Redirect Offers ](../../../c_experiences/t_redirect_offer.md#task_9578678D42784F5EB9638F8AC8C911FA) for each version.
 >1. Create the campaign.
 
->       See [ Non-JavaScript-Based Implementations ](../../../c_seting_up_target/c_implementing_target/c_non-javascript-based-implementation.md#concept_4799C58B081A43F6B3B8CC25A8D5D7C4) for the right setup to meet your goals. 
+>       See [ Non-JavaScript-Based Implementations ](../../../c_seting_up_target/c_implementing_target/c_non-javascript-based-implementation/c_non-javascript-based-implementation.md#concept_4799C58B081A43F6B3B8CC25A8D5D7C4) for the right setup to meet your goals. 
 >1. Complete QA on the campaign.
 
 >       Create a dummy page with an ` &amp;lt;a href&amp;gt;` containing the Redirector URL. Example: 

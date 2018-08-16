@@ -7,7 +7,7 @@ solution: Target
 title: Settings
 title_outputclass: premium
 topic: Premium
-uuid: fddc6472-7562-4d8c-aa2f-c5107c4ace6a
+uuid: 56956117-13a9-4d96-aaa4-a9cccd90c2af
 badge: premium
 index: y
 internal: n
@@ -47,7 +47,7 @@ The following options are available:
   </tr> 
   <tr> 
    <td colname="col1"> <p>Default Host Group </p> </td> 
-   <td colname="col2"> <p>Select your default host group. None means that your<span class="wintitle"> Default Host Group for Reporting</span> setting in <span class="keyword"> Target Classic</span> is used for your default host group. </p> <p>The host group provides the environment where the products are hosted. You can only preview from one given host group at a time. The numbers and update information that show in the Collection list all come from that host group. Likewise, the delivery depends on your host group. </p> <p>If you don't see your products, make sure that you are using the correct host group. For example, if you set up your recommendation to use a staging environment and you set your host group to Staging, you might need to re-create your collections in the staging environment for the products to show. </p> <p>To see which products are available in each environment, use Catalog Search with each environment. </p> <p>For more information about host groups, see <a href="../../c_seting_up_target/c_hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E" format="dita" scope="local"> Hosts</a>. </p> </td> 
+   <td colname="col2"> <p>Select your default host group. None means that your<span class="wintitle"> Default Host Group for Reporting</span> setting in <span class="keyword"> Target Classic</span> is used for your default host group. </p> <p>The host group provides the environment where the products are hosted. You can only preview from one given host group at a time. The numbers and update information that show in the Collection list all come from that host group. Likewise, the delivery depends on your host group. </p> <p>If you don't see your products, make sure that you are using the correct host group. For example, if you set up your recommendation to use a staging environment and you set your host group to Staging, you might need to re-create your collections in the staging environment for the products to show. </p> <p>To see which products are available in each environment, use Catalog Search with each environment. </p> <p>For more information about host groups, see <a href="../../c_seting_up_target/c_hosts/c_hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E" format="dita" scope="local"> Hosts</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Thumbnail Base URL </p> </td> 

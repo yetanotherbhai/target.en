@@ -6,7 +6,7 @@ seo-title: Personalization Insights Reports
 solution: Target
 title: Personalization Insights Reports
 title_outputclass: premium
-uuid: d57e7350-37b9-44d6-ad75-374572040cdc
+uuid: f3eebc19-dead-4fed-8053-ffa0fe5fbd2a
 badge: premium
 index: y
 internal: n
@@ -24,7 +24,7 @@ translate: y
    <td colname="col1"> <p><b>Notes:</b> </p> <p> 
      <ul id="ul_D2221BB4EAD54260B69A2E282C789E98"> 
       <li id="li_26617F6F7DB1488CA404E9270596B84D"> <p>Personalization Insights is currently offered as a Beta feature available to select customers to obtain feedback to help us improve the feature before making it available to all customers. This documentation is subject to change. </p> </li> 
-      <li id="li_E1AC7D9CA0B9418F852B843E3418D898"> <p>Personalization Insights is available only for Automated Personalization and Auto-Target activities that use a conversion optimization goal. </p> </li> 
+      <li id="li_E1AC7D9CA0B9418F852B843E3418D898"> <p>Personalization Insights is available only for Automated Personalization and Auto-Target activities that use a conversion optimization goal. Activities where the optimization goal was changed to conversion from revenue after the activity was already live are also not supported. </p> </li> 
       <li id="li_19AD73402DB54C199EC506D434ABE96C"> <p>Automated Personalization and Auto-Target are available as part of the <span class="keyword"> Target Premium </span> solution. They are not included with <span class="keyword"> Target Standard </span> without a <span class="keyword"> Target Premium </span> license. </p> </li> 
      </ul> </p> </td> 
   </tr> 
@@ -164,7 +164,7 @@ There are two reports available in Personalization Insights:
 
    ![](assets/automated_segment_example_2.png) 
 
-1. (Optional) [ Download the report in CSV format ](../c_reports/c_report-settings.md#section_77E65C50BAAF4AB79242DB3A8778ADEF) for analysis in Excel and other tools. 
+1. (Optional) [ Download the report in CSV format ](../c_reports/c_report-settings/c_report-settings.md#section_77E65C50BAAF4AB79242DB3A8778ADEF) for analysis in Excel and other tools. 
 
 
    >[!NOTE]
@@ -208,7 +208,7 @@ There are two reports available in Personalization Insights:
 </table>
 
 
-1. (Optional) [ Download the report in CSV format ](../c_reports/c_report-settings.md#section_77E65C50BAAF4AB79242DB3A8778ADEF) for analysis in Excel and other tools. 
+1. (Optional) [ Download the report in CSV format ](../c_reports/c_report-settings/c_report-settings.md#section_77E65C50BAAF4AB79242DB3A8778ADEF) for analysis in Excel and other tools. 
 
 
    >[!NOTE]
@@ -223,9 +223,9 @@ There are two reports available in Personalization Insights:
 There are two types of attributes represented in Personalization Insights that are used in your AP or Auto Target models: 
 
 
-* **Attributes automatically collected by Target: **Target uses a base data set to build its personalization algorithms in AP and Auto Target activities that are reflected in Personalization Insights. See [ Data Collection for Target's Personalization Algorithms ](../c_activities/t_automated_personalization/r_ap_data.md#reference_255BD3DE7AD04DC9B766E0BC78961058) for data types, example attributes, and their Personalization Insights naming convention. Note that although these attributes are considered, an individual activity’s models might not use all of these attributes in the final model. 
+* **Attributes automatically collected by Target:** Target uses a base data set to build its personalization algorithms in AP and Auto Target activities that are reflected in Personalization Insights. See [ Data Collection for Target's Personalization Algorithms ](../c_activities/t_automated_personalization/r_ap_data.md#reference_255BD3DE7AD04DC9B766E0BC78961058) for data types, example attributes, and their Personalization Insights naming convention. Note that although these attributes are considered, an individual activity’s models might not use all of these attributes in the final model. 
 
-* **Attributes passed to Target: **See [ Uploading Data for Target's Personalization Algorithms ](../c_activities/t_automated_personalization/c_uploading-data-for-target's-personalization-algorithms.md#concept_85EA505B37E54514A1C8AB91553FEED6). 
+* **Attributes passed to Target:** See [ Uploading Data for Target's Personalization Algorithms ](../c_activities/t_automated_personalization/c_uploading-data-for-target's-personalization-algorithms.md#concept_85EA505B37E54514A1C8AB91553FEED6). 
 
 
 

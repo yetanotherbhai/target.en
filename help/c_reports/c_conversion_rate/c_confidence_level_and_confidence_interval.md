@@ -6,7 +6,7 @@ seo-title: Confidence Level and Confidence Interval
 solution: Target
 title: Confidence Level and Confidence Interval
 topic: Advanced,Standard,Classic
-uuid: 0397c1fb-6dae-4a07-ab1b-bfb5dee1f60c
+uuid: 5d5f9cdc-3af7-4178-bbb8-19fa5f48be20
 index: y
 internal: n
 snippet: y
@@ -83,6 +83,13 @@ The *confidence interval* is a range within which the true value can be found at
 The [ downloaded CSV report ](../../c_reports/c_downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75) includes only raw data and does not include calculated metrics, such as revenue per visitor, lift, or confidence used for A/B tests. 
 
 To calculate these calculated metrics, download the [ Target's Complete Confidence Calculator ](https://marketing.adobe.com/resources/help/en_US/target/target/complete_confidence_calculator.xlsx) Excel file to input the activity's value, or review the [ statistical calculations used by Target ](https://marketing.adobe.com/resources/help/en_US/target/target/Statistical Calculations.pdf). 
+
+
+>[!NOTE]
+>
+>This calculator is for Target-based reporting and not for A4T reporting.
+
+
 
 ## Performing Offline Calculations for Analytics for Target (A4T) {#section_B34BD016C8274C97AC9564F426B9607E}
 

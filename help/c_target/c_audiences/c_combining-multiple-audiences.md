@@ -6,7 +6,7 @@ seo-title: Combining Multiple Audiences
 solution: Target
 title: Combining Multiple Audiences
 topic: Advanced,Standard,Classic
-uuid: 70d47ee0-0bfc-46fc-b1ac-7517d4826272
+uuid: cb75dc81-8fbe-4185-b251-b8b391197d54
 index: y
 internal: n
 snippet: y
@@ -35,7 +35,7 @@ You can create and use combined audiences in various places throughout the [!DNL
 You can create an ad hoc combined audience on the activity's [!UICONTROL  Target] page during the three-step guided workflow. 
 
 
-1. While creating an [ activity ](../../c_activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03), on the **[!UICONTROL  Target]** page, click the **[!UICONTROL  Edit Audience]** icon (  ![](assets/icon_edit_audience.png)), then click **[!UICONTROL  Change Audience]**. 
+1. While creating an [ activity ](../../c_activities/c_activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03), on the **[!UICONTROL  Target]** page, click the **[!UICONTROL  Edit Audience]** icon (  ![](assets/icon_edit_audience.png)), then click **[!UICONTROL  Change Audience]**. 
 
    ![Step Result](assets/edit_audience.png) 
 
@@ -93,7 +93,7 @@ You can create an ad hoc combined audience on the activity's [!UICONTROL  Target
 You can create an ad hoc combined audience on the activity's [!UICONTROL  Goals &amp;amp; Settings] page to use in metric targeting. For example to create targeting based on conversion using a combined audience: 
 
 
-1. While editing or creating an [ activity ](../../c_activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03), on the **[!UICONTROL  Goals &amp;amp; Settings]** page, select **[!UICONTROL  Conversion]** for the success metric, then select **[!UICONTROL  Viewed an Mbox]** as the action. 
+1. While editing or creating an [ activity ](../../c_activities/c_activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03), on the **[!UICONTROL  Goals &amp;amp; Settings]** page, select **[!UICONTROL  Conversion]** for the success metric, then select **[!UICONTROL  Viewed an Mbox]** as the action. 
 
 1. Select the desired mbox in the **[!UICONTROL  Search mbox]** field. 
 
@@ -114,7 +114,7 @@ You can create an ad hoc combined audience on the activity's [!UICONTROL  Goals 
 You can create an ad hoc combined audience on the activity's [!UICONTROL  Goals &amp;amp; Settings] page to use in reporting. 
 
 
-1. While editing or creating an [ activity ](../../c_activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03), on the **[!UICONTROL  Goals &amp;amp; Settings]** page, click the **[!UICONTROL  Add Audience]** icon (  ![](assets/icon_plus_sign.png) ) under [!UICONTROL  Audiences for Reporting] to display the [!UICONTROL  Choose Audience] page. 
+1. While editing or creating an [ activity ](../../c_activities/c_activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03), on the **[!UICONTROL  Goals &amp;amp; Settings]** page, click the **[!UICONTROL  Add Audience]** icon (  ![](assets/icon_plus_sign.png) ) under [!UICONTROL  Audiences for Reporting] to display the [!UICONTROL  Choose Audience] page. 
 
    ![](assets/combine_multiple_audiences6.png) 
 

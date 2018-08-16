@@ -7,7 +7,7 @@ solution: Target
 subtopic: Getting Started
 title: Capture Score
 topic: Standard
-uuid: 5660d57d-b6e9-488d-95cb-22e44a18a60b
+uuid: 0b2d72fb-4654-45a6-a48b-e598b0d3b61f
 index: y
 internal: n
 snippet: y

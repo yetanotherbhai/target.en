@@ -5,7 +5,7 @@ seo-description: You can choose to view reports by different counting methodolog
 seo-title: Counting Methodology
 solution: Target
 title: Counting Methodology
-uuid: 397d4080-6ad1-4ed3-8ed6-58f303bad28c
+uuid: d99d7729-17e2-42aa-b5b7-ddc69148a85c
 index: y
 internal: n
 snippet: y

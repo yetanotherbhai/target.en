@@ -6,7 +6,7 @@ seo-title: at.js Integrations
 solution: Target
 title: at.js Integrations
 topic: Standard
-uuid: 1a874cb9-18b3-4b51-bcd8-54e016c151bc
+uuid: 2df3db02-34b3-4bb5-bdf3-3136d84a435b
 index: y
 internal: n
 snippet: y

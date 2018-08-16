@@ -6,7 +6,7 @@ seo-title: Creating an Activity-Only Audience
 solution: Target
 title: Creating an Activity-Only Audience
 topic: Advanced,Standard,Classic
-uuid: a5e964cd-74bd-4202-8565-6e517e20ac3b
+uuid: e2caa0fa-c082-4daa-af9a-c9b3791db649
 index: y
 internal: n
 snippet: y
@@ -45,7 +45,7 @@ Activity-only audiences provide the following benefits:
 
 1. Select a rule type. 
 
-   Each rule type has its own parameters. See [ Categories for Audiences](../../c_target/c_audiences/c_target_rules.md#concept_E3A77E42F1644503A829B5107B20880D) for more information on configuring each type of audience rule. 
+   Each rule type has its own parameters. See [ Categories for Audiences](../../c_target/c_audiences/c_target_rules/c_target_rules.md#concept_E3A77E42F1644503A829B5107B20880D) for more information on configuring each type of audience rule. 
 
 1. Define the rule parameters. 
 

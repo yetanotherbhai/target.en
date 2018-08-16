@@ -7,7 +7,7 @@ solution: Target
 subtopic: Multivariate Test
 title: Troubleshooting Content Delivery
 topic: Standard
-uuid: 3db79456-5c33-4ebc-bfae-a9546b97fd6c
+uuid: a2bb802a-d513-4275-8b2d-6285925d86e6
 index: y
 internal: n
 snippet: y
@@ -60,33 +60,15 @@ This section contains the following information:
 
 ## Troubleshooting Video {#section_9D3E12A8238E414B9C4241D1528FA1FB}
 
-The following video demonstrates tools to troubleshoot [!DNL  Target]: 
+The following video demonstrates tools to troubleshoot [!DNL  Target]. (14:14) 
 
 
+* Use native browser tools for inspecting mbox requests
+* Use the Experience Cloud Debugger, mboxTrace, and ttMETA
+* Understand the Target timeout
 
-<table id="table_A3A70CC0C9F54131BB9F098B4DA8C9D6"> 
- <thead> 
-  <tr> 
-   <th class="entry" colspan="2"> Tools for Troubleshooting Adobe Target </th> 
-   <th colname="col3" class="entry"> 14:14 </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colspan="2"> 
-    <div class="video-iframe"> 
-     <iframe src="https://www.youtube.com/embed/OXznmfKjxwU/" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" oallowfullscreen="true" msallowfullscreen="true" allowfullscreen="allowfullscreen" scrolling="no" width="550" height="345">https://www.youtube.com/embed/OXznmfKjxwU/</iframe>
-    </div> </td> 
-   <td colname="col3"> <p> 
-     <ul id="ul_FF4FEC7BC7A34461BAA54FBE18A8E63B"> 
-      <li id="li_7D6D4CB2E771430F84D2B658F8611532">Use native browser tools for inspecting mbox requests </li> 
-      <li id="li_4610283D0A4649469C0D88FCE8F6D47A">Use the Experience Cloud Debugger, mboxTrace, and ttMETA </li> 
-      <li id="li_297A797915ED4278BC17340951024427">Understand the Target timeout </li> 
-     </ul> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
 
+>[!VIDEO](https://vimeo.com/OXznmfKjxwU) 
 
 ## Retrieve the Authorization Token to Use With Debugging Tools {#section_BED130298E794D1FA229DB7C3358BA54}
 

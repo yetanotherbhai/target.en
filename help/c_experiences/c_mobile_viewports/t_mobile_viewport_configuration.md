@@ -6,7 +6,7 @@ seo-title: Mobile Viewport Configuration
 solution: Target
 title: Mobile Viewport Configuration
 topic: Standard
-uuid: d3ebb3c5-7f6f-41d6-8582-849ad4498bc2
+uuid: d0251114-7df6-4121-81d9-e4267f79a5d3
 index: y
 internal: n
 snippet: y
@@ -17,27 +17,7 @@ translate: y
 
 This video includes information about setting up mobile viewports in the account preferences, beginning at 4:40 in the video. 
 
-<table id="table_A3A70CC0C9F54131BB9F098B4DA8C9D6"> 
- <thead> 
-  <tr> 
-   <th class="entry" colspan="2"> Account Preferences </th> 
-   <th colname="col3" class="entry"> 7:33 </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colspan="2"> 
-    <div width="550" class="video-iframe"> 
-     <iframe src="https://www.youtube.com/embed/MJXhgxlP-KI/" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" oallowfullscreen="true" msallowfullscreen="true" allowfullscreen="allowfullscreen" scrolling="no" width="550" height="345">https://www.youtube.com/embed/MJXhgxlP-KI/</iframe>
-    </div> </td> 
-   <td colname="col3"> <p> 
-     <ul id="ul_FF4FEC7BC7A34461BAA54FBE18A8E63B"> 
-      <li id="li_7D6D4CB2E771430F84D2B658F8611532">Describe the account settings available in Target Standard </li> 
-     </ul> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
+>[!VIDEO](https://vimeo.com/MJXhgxlP-KI) 
 
 >1. Click **[!UICONTROL  Setup]** > **[!UICONTROL  Preferences]**.
 >1. In the Mobile Viewports Configuration section of the Account Preferences page, click **[!UICONTROL  Add new]** to add a mobile viewport.
@@ -69,5 +49,5 @@ This video includes information about setting up mobile viewports in the account
 >    * Blackberry
 
 
->       If you use the [ Enhanced Experience Composer](../../c_experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) and choose an operating system, Target emulates that device when you view the page. If, for example, there is a different look and feel for Android than iOS on your responsive site, Target mimics that behavior. 
+>       If you use the [ Enhanced Experience Composer](../../c_experiences/c_experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) and choose an operating system, Target emulates that device when you view the page. If, for example, there is a different look and feel for Android than iOS on your responsive site, Target mimics that behavior. 
 >1. Click **[!UICONTROL  Save]**.

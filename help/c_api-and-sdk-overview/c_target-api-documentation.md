@@ -6,7 +6,7 @@ seo-title: Transitioning from Target Legacy APIs to Adobe I/O
 solution: Target
 title: Transitioning from Target Legacy APIs to Adobe I/O
 topic: Standard
-uuid: 50722845-0451-47ba-b6c9-0914a19a48e3
+uuid: 8bb36911-c799-40a6-bb7a-4b6ad759dd6b
 index: y
 internal: n
 snippet: y
@@ -54,7 +54,7 @@ This section contains the following information:
   </tr> 
   <tr> 
    <td colname="col1"> <p>Adobe I/O </p> </td> 
-   <td colname="col2"> <p><b>Adobe I/O: </b>Adobe I/O is the new gateway for Target APIs. These APIs are connected to your Target Standard/Premium account. The Target APIs on Adobe I/O use a JWT-based authentication, which is the industry standard for secure enterprise APIs. </p> </td> 
+   <td colname="col2"> <p><b>Adobe I/O:</b> Adobe I/O is the new gateway for Target APIs. These APIs are connected to your Target Standard/Premium account. The Target APIs on Adobe I/O use a JWT-based authentication, which is the industry standard for secure enterprise APIs. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -6,7 +6,7 @@ seo-title: Create an Order Confirmation mbox - mbox.js
 solution: Target
 subtopic: Getting Started
 title: Create an Order Confirmation mbox - mbox.js
-uuid: e9bbbd6c-5c63-46ee-89bc-d225664b5793
+uuid: 1c4dd196-ae35-46cc-860d-4e012e6c402b
 index: y
 internal: n
 snippet: y
@@ -38,7 +38,7 @@ translate: y
 >       >Use comma delimiting to separate multiple product IDs.
 
 
->       **Tip: **You can also pass order information in any mbox (it does not need to be named ` orderConfirmPage`). You can also pass order information in multiple mboxes within the same campaign. 
+>       **Tip:** You can also pass order information in any mbox (it does not need to be named ` orderConfirmPage`). You can also pass order information in multiple mboxes within the same campaign. 
 
 >    
 >       ```

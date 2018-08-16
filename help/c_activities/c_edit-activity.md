@@ -6,7 +6,7 @@ seo-title: Edit an Activity or Save as Draft
 solution: Target
 title: Edit an Activity or Save as Draft
 topic: Standard
-uuid: 28b21093-5b69-4457-a39f-77e47a39d3d0
+uuid: ec6e9702-1936-4f00-9ee6-93146da215de
 index: y
 internal: n
 snippet: y
@@ -126,7 +126,7 @@ A workspace lets an organization assign a specific set of users to a specific se
 
 If you are part of a multi-national organization, you might have a workspace for your European web pages, properties, or sites and another workspace for your American web pages, properties, or sites. If you are part of a multi-brand organization, you might have a separate workspace for each of your brands. 
 
-For more information about workspaces and the Enterprise User Permissions functionality, see [ Enterprise User Permissions ](../c_seting_up_target/property_channel.md#concept_E396B16FA2024ADBA27BC056138F9838). 
+For more information about workspaces and the Enterprise User Permissions functionality, see [ Enterprise User Permissions ](../c_seting_up_target/property_channel/property_channel.md#concept_E396B16FA2024ADBA27BC056138F9838). 
 
 If you have Enterprise User Permissions enabled in your environment, you can copy activities to the same workspace or to another workspace. You cannot currently move an activity from one workspace to another. To copy an activity to another workspace, from the [!UICONTROL  Activities] page, hover over the activity you want to copy, click the [!UICONTROL  Copy] icon (  ![](assets/icon_copy.png) ), then select the desired workspace from the drop-down list. 
 

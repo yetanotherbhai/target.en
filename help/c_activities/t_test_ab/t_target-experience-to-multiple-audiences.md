@@ -6,7 +6,7 @@ seo-title: Multiple Experience Versions in an A/B Test
 solution: Target
 title: Multiple Experience Versions in an A/B Test
 topic: Standard
-uuid: 950073c1-904f-429d-a6b5-da47fd191731
+uuid: 051e138b-51d1-4312-b992-84b8840ffb46
 index: y
 internal: n
 snippet: y
@@ -29,7 +29,7 @@ You are testing two experiences, a geo-targeted banner vs. a generic banner. The
 
 In this case, what you need are geo-specific versions of the experience, so you can test the geotargeted experience against a non-geotargeted control. 
 
->1. [ Create an A/B activity](../../c_activities/t_test_ab/t_test_create_ab.md#task_68C8079BF9FF4625A3BD6680D554BB72) as you normally would.
+>1. [ Create an A/B activity](../../c_activities/t_test_ab/t_test_create_ab/t_test_create_ab.md#task_68C8079BF9FF4625A3BD6680D554BB72) as you normally would.
 
 >1. Select the experience, then click **[!UICONTROL  Configure]** > **[!UICONTROL  Audiences]** > **[!UICONTROL  Multiple Audiences]**.
 

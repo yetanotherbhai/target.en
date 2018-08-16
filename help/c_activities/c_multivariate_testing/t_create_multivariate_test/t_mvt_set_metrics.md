@@ -5,7 +5,7 @@ seo-description: Use metrics in a Multivariate Test to determine when a visit is
 seo-title: Set Metrics
 solution: Target,standard
 title: Set Metrics
-uuid: 1e239bd0-8de8-41bb-ab05-eb92ff6ce4ec
+uuid: c6703984-d2a0-4cca-a7d8-605097362672
 index: y
 internal: n
 snippet: y
@@ -14,10 +14,10 @@ translate: y
 
 # Set Metrics
 
-For detailed information about success metrics, see [ Success Metrics ](../../../r_success_metrics.md#reference_D011575C85DA48E989A244593D9B9924). 
+For detailed information about success metrics, see [ Success Metrics ](../../../r_success_metrics/r_success_metrics.md#reference_D011575C85DA48E989A244593D9B9924). 
 
 >1. Specify the goal of the activity.
->1. Select a [ success metric ](../../../r_success_metrics.md#reference_D011575C85DA48E989A244593D9B9924)
+>1. Select a [ success metric ](../../../r_success_metrics/r_success_metrics.md#reference_D011575C85DA48E989A244593D9B9924)
 
 >       ![](assets/mvt_metrics.png) 
 
@@ -38,7 +38,7 @@ For detailed information about success metrics, see [ Success Metrics ](../../..
 
 >       The correct configuration of success metrics is critical for making sure you get the data you expect. 
 
->       For more information, see [ Success Metrics ](../../../r_success_metrics.md#reference_D011575C85DA48E989A244593D9B9924) 
+>       For more information, see [ Success Metrics ](../../../r_success_metrics/r_success_metrics.md#reference_D011575C85DA48E989A244593D9B9924) 
 >1. (Optional) Add additional metrics.
 
 >1. Click **[!UICONTROL  Continue]** when you are finished setting your metrics.

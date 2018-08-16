@@ -7,7 +7,7 @@ solution: Target
 title: Implementation According to Page Type
 title_outputclass: premium
 topic: Premium
-uuid: da18e8d9-2486-4900-9da1-e07bfc0394b6
+uuid: da0ead98-e6e5-440a-ad09-c3b5fca45c33
 badge: premium
 index: y
 internal: n
@@ -59,9 +59,9 @@ This implementation requires:
 * [!DNL  mbox.js] must include the reference to [!DNL  target.js] ( [!DNL  at.js] does not require a reference to [!DNL  target.js])
 
 
-For more information about implementing [!DNL  at.js], see [ at.js Implementation ](../../c_seting_up_target/c_implementing_target/c_target-atjs-implementation.md#concept_8AC8D169E02944B1A547A0CAD97EAC17). 
+For more information about implementing [!DNL  at.js], see [ at.js Implementation ](../../c_seting_up_target/c_implementing_target/c_target-atjs-implementation/c_target-atjs-implementation.md#concept_8AC8D169E02944B1A547A0CAD97EAC17). 
 
-For more information about implementing [!DNL  mbox.js], see [ Mbox.js Implementation ](../../c_seting_up_target/c_implementing_target/t_mbox_download.md#task_4EAE26BB84FD4E1D858F411AEDF4B420). 
+For more information about implementing [!DNL  mbox.js], see [ Mbox.js Implementation ](../../c_seting_up_target/c_implementing_target/t_mbox_download/t_mbox_download.md#task_4EAE26BB84FD4E1D858F411AEDF4B420). 
 
 For more information about the differences between the two Target Javascript libraries, see [ Understanding the Target JavaScript Libraries ](../../c_seting_up_target/c_implementing_target/c_target-implement.md#concept_60B748DE4293488F917E8F1FA4C7E9EB). 
 

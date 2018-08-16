@@ -6,7 +6,7 @@ seo-title: Reporting Frequently Asked Questions
 solution: Target
 title: Reporting Frequently Asked Questions
 topic: Standard
-uuid: 006bb6a2-8bfe-4cca-bcf5-00e0f07af905
+uuid: 92669ae5-d9eb-492d-809b-fa1fb4a891c1
 index: y
 internal: n
 snippet: y
@@ -62,4 +62,4 @@ To change the environment for an activity's report:
 
 
 
-For more information about environments, see [ Hosts](../c_seting_up_target/c_hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E). 
+For more information about environments, see [ Hosts](../c_seting_up_target/c_hosts/c_hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E). 

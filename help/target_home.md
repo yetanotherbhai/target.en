@@ -4,7 +4,7 @@ seo-title: Adobe Target Product Documentation
 solution: Target
 title: Adobe Target Product Documentation
 topic: Premium
-uuid: fc0efe4a-a376-473c-afc7-acbdc641adb5
+uuid: 688bbcde-111c-4efc-94eb-6538014e37f7
 index: y
 internal: n
 snippet: y
@@ -15,7 +15,7 @@ translate: y
 
 [!DNL  Adobe Target] is the [!DNL  Adobe Experience Cloud] solution that provides everything you need to tailor and personalize your customers' experience so you can maximize revenue on your web and mobile sites, apps, social media, and other digital channels. 
 
-**Last Updated: August 7, 2018 ( [ See What Changed ](https://marketing.adobe.com/resources/help/en_US/target/target/r_doc_change.html) )** 
+**Last Updated: August 15, 2018 ( [ See What Changed ](https://marketing.adobe.com/resources/help/en_US/target/target/r_doc_change.html) )** 
 
 
 

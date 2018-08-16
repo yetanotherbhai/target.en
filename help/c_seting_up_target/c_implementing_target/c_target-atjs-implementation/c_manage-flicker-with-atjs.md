@@ -6,7 +6,7 @@ seo-title: How at.js Manages Flicker
 solution: Target
 title: How at.js Manages Flicker
 topic: Standard
-uuid: 5d01fece-cde6-433a-bf5f-831136204804
+uuid: d8fb015c-36b1-4791-8a8a-0d924df73d6a
 index: y
 internal: n
 snippet: y
@@ -27,7 +27,7 @@ Target provides several ways to prevent flicker:
 
 ## Using an Auto Created Global mbox {#section_C502170D551C4F52AAFD8E82C41BB63A}
 
-If you enable the [ Auto Create Global Mbox ](../../../c_seting_up_target/c_implementing_target/c_understanding-global-mbox.md#concept_76AC0EC995A048238F3220F53773DB13) setting when configuring at.js, at.js manages flicker by changing the opacity setting as the page loads. When at.js loads, it will change the opacity setting of the &lt;body&gt; element to "0", making the page initially invisible to visitors. After a response from Target is received—or if an error with the Target request is detected—at.js resets opacity to "1". This ensures that the visitor only sees the page after your activities' content has been applied. 
+If you enable the [ Auto Create Global Mbox ](../../../c_seting_up_target/c_implementing_target/c_understanding-global-mbox/c_understanding-global-mbox.md#concept_76AC0EC995A048238F3220F53773DB13) setting when configuring at.js, at.js manages flicker by changing the opacity setting as the page loads. When at.js loads, it will change the opacity setting of the &lt;body&gt; element to "0", making the page initially invisible to visitors. After a response from Target is received—or if an error with the Target request is detected—at.js resets opacity to "1". This ensures that the visitor only sees the page after your activities' content has been applied. 
 
 If you enable the setting when configuring ` at.js`, ` at.js` will set HTML BODY style opacity to 0. After a response from Target is received, ` at.js` resets HTML BODY opacity to 1. 
 

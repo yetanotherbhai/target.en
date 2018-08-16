@@ -7,7 +7,7 @@ solution: Target
 subtopic: Getting Started
 title: What mbox.js Does
 topic: Standard
-uuid: c3c3b999-98a0-4636-8c56-cacf488fcad4
+uuid: 8fbc062e-fe56-4310-892d-f2dbedb8d1dd
 index: y
 internal: n
 snippet: y
@@ -16,7 +16,7 @@ translate: y
 
 # What mbox.js Does
 
-Target Standard requires [!DNL  mbox.js] version 58 or later. For instructions on how to download and update [!DNL  mbox.js], see [ Mbox Implementation ](../../../c_seting_up_target/c_implementing_target/t_mbox_download.md#task_4EAE26BB84FD4E1D858F411AEDF4B420). 
+Target Standard requires [!DNL  mbox.js] version 58 or later. For instructions on how to download and update [!DNL  mbox.js], see [ Mbox Implementation ](../../../c_seting_up_target/c_implementing_target/t_mbox_download/t_mbox_download.md#task_4EAE26BB84FD4E1D858F411AEDF4B420). 
 
 For Target Standard, [!DNL  mbox.js] calls another JavaScript file, [!DNL  target.js]. [!DNL  Target.js] is hosted by Adobe and is automatically updated by Adobe. There is nothing you need to do to update [!DNL  target.js], and there are no client-specific customizations. 
 
@@ -58,4 +58,4 @@ When you use the [!UICONTROL  Visual Experience Composer] to set up an experienc
 
 If you are implementing Target in an Angular site or in any Single-Page Application (SPA), you should use the ` at.js` library instead of ` mbox.js`. 
 
-For more information, see [ at.js Implementation ](../../../c_seting_up_target/c_implementing_target/c_target-atjs-implementation.md#concept_8AC8D169E02944B1A547A0CAD97EAC17). 
+For more information, see [ at.js Implementation ](../../../c_seting_up_target/c_implementing_target/c_target-atjs-implementation/c_target-atjs-implementation.md#concept_8AC8D169E02944B1A547A0CAD97EAC17). 

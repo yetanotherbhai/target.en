@@ -7,7 +7,7 @@ solution: Target
 subtopic: Getting Started
 title: Profile API Settings
 topic: Standard
-uuid: 116877b5-5b5f-46b0-8981-ec21babe5c40
+uuid: b25169c7-ef97-461b-a689-41021fe9bbc5
 index: y
 internal: n
 snippet: y

@@ -5,7 +5,7 @@ seo-title: Estimate the Traffic Required for a Successful Test
 solution: Target
 title: Estimate the Traffic Required for a Successful Test
 topic: Standard
-uuid: bebea71d-605a-4fdd-b04b-7ef4e5a4e66a
+uuid: 3e8a0425-80db-410d-8181-7ecc83b837b8
 index: y
 internal: n
 snippet: y

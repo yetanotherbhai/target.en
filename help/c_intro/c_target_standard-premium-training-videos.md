@@ -6,7 +6,7 @@ seo-title: Training Videos for Adobe Target Standard and Premium
 solution: Target
 title: Training Videos for Adobe Target Standard and Premium
 topic: Advanced
-uuid: fa0a4ed4-1767-4945-be12-f99b4a254478
+uuid: 67623eee-3ec2-4556-9a07-b4709bc2a568
 index: y
 internal: n
 snippet: y

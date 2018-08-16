@@ -3,7 +3,7 @@ description: null
 seo-description: null
 seo-title: 2014 Releases
 title: 2014 Releases
-uuid: 496b5e30-6a20-4159-9811-4f94791f2064
+uuid: 7bb482c9-85a7-4028-8561-def8ca9c23d8
 index: y
 internal: n
 snippet: y
@@ -27,7 +27,7 @@ This release includes the following features and enhancements:
 |---|---|
 |  Redirect offers  | Redirect an experience to a different URL so you can test one page against another page. See [ Create a Redirect Offer ](../c_experiences/t_redirect_offer.md#task_9578678D42784F5EB9638F8AC8C911FA).  |
 |  Apply targeting on success metrics  | Choose a saved audience to apply on a success metric. With this feature you can limit what actions count for a particular success event. An example might be limiting conversions to when the order is more than $0, or only counting success when a user views a particular page in the same session as entering the activity.  |
-|  Automated Personalization: Select and report against RPV/AOV metrics  | You can now select the RPV and AOV metrics in the Automated Personalization experience creation flow. For more information about creating n Automated Personalization activity, see [ Automated Personalization ](../c_activities/t_automated_personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9).  |
+|  Automated Personalization: Select and report against RPV/AOV metrics  | You can now select the RPV and AOV metrics in the Automated Personalization experience creation flow. For more information about creating n Automated Personalization activity, see [ Automated Personalization ](../c_activities/t_automated_personalization/t_automated_personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9).  |
 |  Improved permission controls  | Only users with sufficient permissions can edit audiences.  |
 
 This release includes the following enhancements: 
@@ -108,7 +108,7 @@ This release includes the following new features:
      <li id="li_36E18493A95B4C96BFA3133CDFD8826A">Single line of code implementation with WYSIWYG content editing </li> 
      <li id="li_79B1878FA64A40E88A973C57C39FC5FF">Primary goal for the activity currently uses the Conversion metric. Revenue and engagement are available as additional metrics. </li> 
      <li id="li_FE94A79767EF4534BD02B2AFD7E27E1B">Connection to the <span class="keyword"> Master Marketing Profile </span> for seamless collection of advance visitor behavioral data <p>For information about using the <span class="keyword"> Master Marketing Profile </span> with <span class="keyword"> Target </span>, see <a href="https://marketing.adobe.com/resources/help/en_US/target/mmp/c_mmp.html" format="http" scope="external"> Master Marketing Profile and Real-Time Audiences </a> in the <span class="keyword"> Adobe Target </span> Integration guide. </p> </li> 
-    </ul> <p>See <a href="../c_activities/t_automated_personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9" format="dita" scope="local"> Automated Personalization </a>. </p> </td> 
+    </ul> <p>See <a href="../c_activities/t_automated_personalization/t_automated_personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9" format="dita" scope="local"> Automated Personalization </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Multiple activities on one page </td> 
@@ -157,7 +157,7 @@ This release includes the following new features
   </tr> 
   <tr> 
    <td colname="col1"> Experience targeting activity type </td> 
-   <td colname="col2"> <a href="../c_activities/t_experience_target.md#task_A53DF336CB9F4D7BB87EF2106099EFC4" format="dita" scope="local"> Target different experiences to different audiences in one activity </a>. <p> <p>Note:  This provides similar functionality to the Landing Page campaign in Target Advanced. </p> </p> </td> 
+   <td colname="col2"> <a href="../c_activities/t_experience_target/t_experience_target.md#task_A53DF336CB9F4D7BB87EF2106099EFC4" format="dita" scope="local"> Target different experiences to different audiences in one activity </a>. <p> <p>Note:  This provides similar functionality to the Landing Page campaign in Target Advanced. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Multi-page testing </td> 
@@ -238,7 +238,7 @@ This release includes the following new features
   </tr> 
   <tr> 
    <td colname="col1"> New targeting options: Profile, User </td> 
-   <td colname="col2"> You can now target profile and user parameters. See <a href="../c_target/c_audiences.md#concept_65BE870D290E412D8BBF557EEA67C271" format="dita" scope="local"> Audiences </a>. </td> 
+   <td colname="col2"> You can now target profile and user parameters. See <a href="../c_target/c_audiences/c_audiences.md#concept_65BE870D290E412D8BBF557EEA67C271" format="dita" scope="local"> Audiences </a>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Insert elements </td> 

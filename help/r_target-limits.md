@@ -6,7 +6,7 @@ seo-title: Limitations
 solution: Target
 title: Limitations
 topic: Standard
-uuid: abac2310-a7c5-4b6e-b1d2-1e4d61a49d62
+uuid: 1b18e3d5-6c26-4f08-abf5-ef24e76b737d
 index: y
 internal: n
 snippet: y
@@ -29,6 +29,11 @@ translate: y
   </tr> 
  </thead>
  <tbody> 
+  <tr> 
+   <td colname="col1"> <p>Audience Names </p> </td> 
+   <td colname="col02"> <p>256 characters </p> </td> 
+   <td colname="col3"> <p>Values longer than 256 characters are truncated. </p> </td> 
+  </tr> 
   <tr> 
    <td colname="col1"> <p>Customer Attribute Name </p> </td> 
    <td colname="col02"> <p>128 characters </p> </td> 
@@ -91,8 +96,8 @@ translate: y
   </tr> 
   <tr> 
    <td colname="col1"> <p>Script Profile Value </p> </td> 
-   <td colname="col02"> <p>255 characters </p> </td> 
-   <td colname="col3"> <p>255 characters is the maximum limit. </p> </td> 
+   <td colname="col02"> <p>256 characters (Recommended) </p> </td> 
+   <td colname="col3"> <p>The recommended size is 256 characters for the return value of script profiles. This value is stored in the user profile, along with other profile attributes and information about visited experiences. If the profile gets larger than 64K, it is truncated by removing the oldest attributes until the profile is below 64K again. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Script Profile input box in the Target UI </p> </td> 

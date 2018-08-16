@@ -6,7 +6,7 @@ seo-title: Metric Definitions - A4T FAQ
 solution: Target
 title: Metric Definitions - A4T FAQ
 topic: Standard
-uuid: 69ee308c-5955-4448-b9a4-5cd8f0fa42f4
+uuid: a6926d23-fc91-4ab3-97cb-a60f3a50aa77
 index: y
 internal: n
 snippet: y

@@ -7,7 +7,7 @@ solution: Target
 title: Creating Criteria
 title_outputclass: premium
 topic: Premium
-uuid: de457322-324c-4208-97bd-c36721a56919
+uuid: 278da555-3098-4ce7-93b4-f3c7ec9fe398
 badge: premium
 index: y
 internal: n
@@ -74,7 +74,7 @@ There are multiple ways to reach the [!UICONTROL  Create New Criteria] screen. S
 >       For more information about basing criteria on a key, see [ Base the Recommendation on a Recommendation Key ](../../c_recommendations/c_algorithms/t_create_new_algorithm.md#task_2B0ED54AFBF64C56916B6E1F4DC0DC3B). 
 >1. Select the **[!UICONTROL  Recommendation Logic]**.
 
->       For more information about recommendation logic options, see [ Criteria ](../../c_recommendations/c_algorithms.md#concept_4BD01DC437F543C0A13621C93A302750). 
+>       For more information about recommendation logic options, see [ Criteria ](../../c_recommendations/c_algorithms/c_algorithms.md#concept_4BD01DC437F543C0A13621C93A302750). 
 
 >       >[!NOTE]
 >       >
@@ -272,7 +272,7 @@ Each criteria is defined in its own tab. Traffic is split evenly across your dif
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="uicontrol"> Recently Viewed Items </span> </p> </td> 
-   <td colname="col2"> <p>Uses the visitor's history (spanning sessions) to present the last <i>x</i> items the visitor has viewed, based on the number of slots in the design. </p> <p>The Recently Viewed Items criteria now returns results specific to a given <a href="../../c_seting_up_target/c_hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E" format="dita" scope="local"> environment </a>. If two sites belong to different environments and a visitor switches between the two sites, each site shows only recently viewed items from the appropriate site. If two sites are in the same environment and a visitor switches between the two sites, the visitor will see the same recently viewed items for both sites. </p> </td> 
+   <td colname="col2"> <p>Uses the visitor's history (spanning sessions) to present the last <i>x</i> items the visitor has viewed, based on the number of slots in the design. </p> <p>The Recently Viewed Items criteria now returns results specific to a given <a href="../../c_seting_up_target/c_hosts/c_hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E" format="dita" scope="local"> environment </a>. If two sites belong to different environments and a visitor switches between the two sites, each site shows only recently viewed items from the appropriate site. If two sites are in the same environment and a visitor switches between the two sites, the visitor will see the same recently viewed items for both sites. </p> </td> 
    <td colname="col03"> <p>None </p> </td> 
    <td colname="col3"> <p>General pages, such as home or landing pages and offsite ads. </p> </td> 
   </tr> 

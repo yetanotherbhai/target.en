@@ -5,7 +5,7 @@ seo-description: Information to help you set several settings on the mbox.js Set
 seo-title: Configure mbox.js
 solution: Target
 title: Configure mbox.js
-uuid: 75556922-39a5-4fa1-bccd-fee0f78b3ef2
+uuid: e5af83fe-9eae-4263-a002-246908461d27
 index: y
 internal: n
 snippet: y
@@ -16,32 +16,6 @@ translate: y
 
 
 >The default settings of the [!DNL  mbox.js] function library serve the needs of most [!DNL  Target] customers. 
-
->This video explains how to implement [!DNL  mbox.js]. 
-
-
-
-><table id="table_C56F4BE9B867463380013C584D97DAD2"> 
- <thead> 
-  <tr> 
-   <th class="entry" colspan="2"> mbox.js Implementation Overview </th> 
-   <th colname="col3" class="entry"> 8:52 </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colspan="2"> <p> 
-     <div width="550" class="video-iframe"> 
-      <iframe src="https://www.youtube.com/embed/f-A1zET6AwE/" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" oallowfullscreen="true" msallowfullscreen="true" allowfullscreen="allowfullscreen" scrolling="no" width="550" height="345">https://www.youtube.com/embed/f-A1zET6AwE/</iframe>
-     </div> </p> </td> 
-   <td colname="col3"> <p> 
-     <ul id="ul_B17C3EFA4B664415AE0159E418FF45C4"> 
-      <li id="li_916224D2105348BE93D60015B2F43D4F">Select the correct settings for your <span class="filepath"> mbox.js </span> file </li> 
-      <li id="li_0FED234A3A054DEAB62C4F58BAB47F7F">Implement <span class="keyword"> Target </span> by adding the <span class="filepath"> mbox.js </span> file to the <span class="codeph"> &amp;lt;head&amp;gt; </span> of your site </li> 
-     </ul> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
 
 >If needed, consult your account representative to change the [!DNL  mbox.js] settings. 
 

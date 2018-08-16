@@ -6,7 +6,7 @@ seo-title: Switching Experiences in Experience Targeting
 solution: Target
 title: Switching Experiences in Experience Targeting
 topic: Advanced,Standard,Classic
-uuid: 884e2b55-a4fa-4fce-9c79-7e98a2979708
+uuid: 6f814af4-a068-4968-9f40-f785fadc3a4a
 index: y
 internal: n
 snippet: y

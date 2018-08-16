@@ -6,7 +6,7 @@ solution: Target
 subtopic: Getting Started
 title: Scene7 Settings
 topic: Standard
-uuid: 15ee6e25-ad39-4333-bb27-9622756a8823
+uuid: c6dc2bc6-5a0a-4ef8-94b3-d9423b1fca0f
 index: y
 internal: n
 snippet: y
@@ -24,7 +24,7 @@ translate: y
 
 If you have a Scene7 account, you can supply your Scene7 credentials. If you do not have a Scene7 account, reach out to your Adobe representative who can configure this functionality with a free Scene7 account dedicated for your Target account. This account can be used for purposes restricted for use in Target only. This service is made available to customers for workflows needing image-swap functionality. 
 
-If this setting is not configured, the Swap Image offer option within the activity creation workflow is not available. After this setting is configured, the option to swap/change image offers is available in both the [ Visual Experience Composer (VEC) and in the Form-Based Experience Composer](../c_experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D). You can then leverage image offers with images that have been uploaded from the Adobe Experience Cloud for use in Target activities. 
+If this setting is not configured, the Swap Image offer option within the activity creation workflow is not available. After this setting is configured, the option to swap/change image offers is available in both the [ Visual Experience Composer (VEC) and in the Form-Based Experience Composer](../c_experiences/c_experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D). You can then leverage image offers with images that have been uploaded from the Adobe Experience Cloud for use in Target activities. 
 
 If you want to reference a public image URL directly in an offer or custom code during activity creation, you should deploy the image to your own web servers and use your own URL in the code. There is no way to obtain the published URL of an image uploaded into the Experience Cloud to consume directly or outside of targeting workflows using Adobe Target. This functionality is not allowed, as per contract. 
 
@@ -35,7 +35,7 @@ To integrate with Scene7, you need to specify some of your Scene7 information.
 >1. Click **[!UICONTROL  Setup]** > **[!UICONTROL  Scene7 Settings]**.
 >1. Specify the following Scene7 account information:
 
->       **Scene7 region: **The region for your Scene7 account: North America, Europe, or Asia. 
+>       **Scene7 region:** The region for your Scene7 account: North America, Europe, or Asia. 
 
 >       **Scene7 adhoc folder:** The location for content that resides outside the target folder and are manually uploaded to Scene7. 
 

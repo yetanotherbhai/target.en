@@ -6,7 +6,7 @@ seo-title: Target Insider Newsletter
 solution: Target
 title: Target Insider Newsletter
 topic: Advanced
-uuid: 384d3281-1848-455d-aa63-ffb075a81706
+uuid: ac4b2ec4-0d1a-42fd-b541-dcf9990e36db
 index: y
 internal: n
 snippet: y
@@ -36,6 +36,10 @@ If you have missed previous newsletters, click the following links to ensure tha
   </tr>
  </thead>
  <tbody> 
+  <tr> 
+   <td colname="col1"> </td> 
+   <td colname="col2"> </td> 
+  </tr> 
   <tr> 
    <td colname="col1"> <p><a href="http://m.messages.adobe.com/rest/head/mirrorPage/@9hfJmMbdVctAma_Ylarpy1J8yxKovpv0Ir2mtII1o9LY9Vx-yD5ErE52GU0rvvvJU1C99FzQWFyqf2zHrBTcwlmSo7z4jMgjEH4-nVUdQS4XIfM3.html" format="html" scope="external"> June 2018 (Volume 1, Issue 6)</a> </p> </td> 
    <td colname="col2"> <p>We are honored to have been named the only leader in The Forrester Wave™: Experience Optimization Platforms, Q2 2018 report and are so grateful to you, our customers, for your support and valuable feedback that helped our solution to earn this honor. Read our blog post on the report, learn five tips for transforming your optimization program from a sideshow, enjoy a recap of our recent Adobe Insider tour stop in Atlanta, and much more. </p> </td> 

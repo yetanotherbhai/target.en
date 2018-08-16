@@ -6,7 +6,7 @@ seo-title: Form-Based Experience Composer
 solution: Target
 title: Form-Based Experience Composer
 topic: Standard
-uuid: dbd9b42b-75c7-4391-a2fe-a13f67d29f10
+uuid: c9b484f9-7d1a-4806-9f3a-18f03c47ce56
 index: y
 internal: n
 snippet: y
@@ -17,32 +17,15 @@ translate: y
 
 This feature enables Target Standard A/B tests, Experience Targeting, Automated Personalization, and Recommendations activities to be delivered in emails, mobile apps, kiosks, and other places that don't work with a Visual Experience Composer. 
 
-This video provides a demo of the form-based composer: 
+This video provides a demo of the form-based composer. 
 
 
+* Create an activity using the Form-Based Experience Composer
+* Understand when to use Form-Based Experience Composer vs. the Visual Experience Composer
+* Use refinements to target a location
 
-<table id="table_47FED9E4494B4ABB9BBD4D082534BC45"> 
- <thead> 
-  <tr> 
-   <th class="entry" colspan="2"> Form-Based Experience Composer </th> 
-   <th colname="col3" class="entry"> 4:35 </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colspan="2"> <p> 
-     <div width="550" class="video-iframe"> 
-      <iframe src="https://www.youtube.com/embed/R9hcD9D1VPY/" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" oallowfullscreen="true" msallowfullscreen="true" allowfullscreen="allowfullscreen" scrolling="no" width="550" height="345">https://www.youtube.com/embed/R9hcD9D1VPY/</iframe>
-     </div> </p> </td> 
-   <td colname="col3"> <p> 
-     <ul id="ul_3B9FF13D85254CBF84E539960B764CF0"> 
-      <li id="li_317BEB0C637349818D3C1784803C0FE9">Create an activity using the Form-Based Experience Composer </li> 
-      <li id="li_996E0C8D914E42DE90F6552B3C1161B9">Understand when to use Form-Based Experience Composer vs. the Visual Experience Composer </li> 
-      <li id="li_B5B119535AD3488CAAAD8EEF45AD3418">Use refinements to target a location </li> 
-     </ul> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+
+>[!VIDEO](https://vimeo.com/R9hcD9D1VPY) 
 
 If you are creating a Recommendations activity, there are no experiences. Choose your criteria and design. If you choose multiple criteria or designs, Target automatically generates the experiences. 
 
@@ -62,7 +45,7 @@ If you are creating a Recommendations activity, there are no experiences. Choose
 >       When you click in the Select Location box, a list of available locations appears. Select one of those locations. To choose the global location delivered via target.js, choose “target-global-mbox.” 
 
 >       You can also enter a location that is not listed here. This can be useful if the mbox has not yet been created or viewed on a page. Type the name of the location. Be careful when entering a location that does not yet exist. If the spelling or capitalization does not match the spelling and capitalization when the mbox call is made, the activity will not deliver. Manually entered locations are saved to the list. 
->1. Click **[!UICONTROL  Add Audience Refinements]**, then choose one or more [ audience](../c_target.md#concept_A782F8481A5041EBA75103CB26376522) for this activity.
+>1. Click **[!UICONTROL  Add Audience Refinements]**, then choose one or more [ audience](../c_target/c_target.md#concept_A782F8481A5041EBA75103CB26376522) for this activity.
 
 >       ![](assets/location_refinements_2.png) 
 
@@ -123,7 +106,7 @@ If you are creating a Recommendations activity, there are no experiences. Choose
 >1. Click **[!UICONTROL  Continue]**, then complete the activity creation steps as usual for your activity type.
 
 >    
->    * [ Create an A/B Test ](../c_activities/t_test_ab/t_test_create_ab.md#task_68C8079BF9FF4625A3BD6680D554BB72)
->    * [ Create an Experience Targeting Activity ](../c_activities/t_experience_target/t_xt_create.md#task_D6B3429AC31549E1A70EDF04B3DDC765)
->    * [ Create a Recommendations Activity](../c_recommendations/t_create_recs_activity.md#task_6874328773C64C44A73F0A130AD3F96F)
+>    * [ Create an A/B Test ](../c_activities/t_test_ab/t_test_create_ab/t_test_create_ab.md#task_68C8079BF9FF4625A3BD6680D554BB72)
+>    * [ Create an Experience Targeting Activity ](../c_activities/t_experience_target/t_xt_create/t_xt_create.md#task_D6B3429AC31549E1A70EDF04B3DDC765)
+>    * [ Create a Recommendations Activity](../c_recommendations/t_create_recs_activity/t_create_recs_activity.md#task_6874328773C64C44A73F0A130AD3F96F)
 

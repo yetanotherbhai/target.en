@@ -6,7 +6,7 @@ seo-title: Create Experience
 solution: Target
 title: Create Experience
 topic: Advanced,Standard,Classic
-uuid: 8abbf683-094d-495d-978d-f3636bf0b706
+uuid: eb57c73a-7934-4973-9e91-b71e3c91e001
 index: y
 internal: n
 snippet: y
@@ -15,7 +15,7 @@ translate: y
 
 # Create Experience
 
-For additional detail about experiences, see [ Experiences ](../../../c_experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D). 
+For additional detail about experiences, see [ Experiences ](../../../c_experiences/c_experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D). 
 
 >1. Click **[!UICONTROL  Add Experience]**.
 
@@ -26,7 +26,7 @@ For additional detail about experiences, see [ Experiences ](../../../c_experien
 
 >1. When prompted, enter the activity URL. Type the complete URL (including ` http://`), then click **[!UICONTROL  Continue]**.
 
->       The Experience Composer (see [ Experiences ](../../../c_experiences.md#concept_1D011219034B492BB03C08B3BB80E3F0)) opens the page that is specified in your [ Account Preferences ](https://marketing.adobe.com/resources/help/en_US/target/target/t_account_preferences.html). To display a different page, click the Globe icon and enter the URL in the Select URL box in the Experience Composer and click **[!UICONTROL  Continue]**. If you entered a URL for a site that does not include the Target Standard JavaScript code, you cannot select page elements. 
+>       The Experience Composer (see [ Experiences ](../../../c_experiences/c_experiences.md#concept_1D011219034B492BB03C08B3BB80E3F0)) opens the page that is specified in your [ Account Preferences ](https://marketing.adobe.com/resources/help/en_US/target/target/t_account_preferences.html). To display a different page, click the Globe icon and enter the URL in the Select URL box in the Experience Composer and click **[!UICONTROL  Continue]**. If you entered a URL for a site that does not include the Target Standard JavaScript code, you cannot select page elements. 
 
 >       By default, the Visual Experience Composer does not allow changes to elements containing JavaScript, such as rotating banners. You can select to disable JavaScript if you want to be able to alter those elements using the Visual Experience Composer. 
 
@@ -39,31 +39,16 @@ For additional detail about experiences, see [ Experiences ](../../../c_experien
 
 >       As you hover the elements on your page, the elements are highlighted. Any highlighted element can be altered using the Experience Composer. 
 
+>       **Visual Experience Composer (1 of 2) (7:17)** 
+
 >       The video below provides information about using the Visual Experience Composer options. 
 
+>    
+>    * Change the content of a page
+>    * Change the layout of a page
 
 
->    <table id="table_A3A70CC0C9F54131BB9F098B4DA8C9D6"> 
- <thead> 
-  <tr> 
-   <th class="entry" colspan="2"> Visual Experience Composer (1 of 2) </th> 
-   <th colname="col3" class="entry"> 7:17 </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colspan="2"> 
-    <div width="550" class="video-iframe"> 
-     <iframe src="https://www.youtube.com/embed/2KUDgu6Mscg/" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" oallowfullscreen="true" msallowfullscreen="true" allowfullscreen="allowfullscreen" scrolling="no" width="550" height="345">https://www.youtube.com/embed/2KUDgu6Mscg/</iframe>
-    </div> </td> 
-   <td colname="col3"> <p> 
-     <ul id="ul_FF4FEC7BC7A34461BAA54FBE18A8E63B"> 
-      <li id="li_7D6D4CB2E771430F84D2B658F8611532">Change the content of a page </li> 
-      <li id="li_745F20CC95DF4BE48173991CB42EC50A">Change the layout of a page </li> 
-     </ul> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+>       >[!VIDEO](https://vimeo.com/2KUDgu6Mscg) 
 
 >       If you created an mbox on the page using Target Classic (formerly Test&amp;amp;Target), that mbox appears as an element that shows the mbox name, and can be modified like any other element. 
 

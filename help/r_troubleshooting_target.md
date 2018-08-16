@@ -6,7 +6,7 @@ seo-title: Troubleshooting Target
 solution: Target
 title: Troubleshooting Target
 topic: Advanced,Standard,Classic
-uuid: 2d1d7402-3c15-4dcf-b84e-8f794c16141a
+uuid: bc4c64f0-0925-4888-9660-2db29d1775c0
 index: y
 internal: n
 snippet: y
@@ -18,33 +18,15 @@ translate: y
 
 <a id="section_5E67A1F944154A8CB043CE7662270103"></a>
 
-In addition to the topics listed below, the following video demonstrates tools for troubleshooting [!DNL  Target]: 
+In addition to the topics listed below, the following video demonstrates tools for troubleshooting [!DNL  Target]. 
 
 
+* Use native browser tools for inspecting mbox requests
+* Use the Experience Cloud Debugger, mboxTrace, and ttMETA
+* Understand the Target timeout
 
-<table id="table_A3A70CC0C9F54131BB9F098B4DA8C9D6"> 
- <thead> 
-  <tr> 
-   <th class="entry" colspan="2"> Tools for Troubleshooting Adobe Target </th> 
-   <th colname="col3" class="entry"> 14:14 </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colspan="2"> 
-    <div width="550" class="video-iframe"> 
-     <iframe src="https://www.youtube.com/embed/OXznmfKjxwU/" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" oallowfullscreen="true" msallowfullscreen="true" allowfullscreen="allowfullscreen" scrolling="no" width="550" height="345">https://www.youtube.com/embed/OXznmfKjxwU/</iframe>
-    </div> </td> 
-   <td colname="col3"> <p> 
-     <ul id="ul_FF4FEC7BC7A34461BAA54FBE18A8E63B"> 
-      <li id="li_7D6D4CB2E771430F84D2B658F8611532">Use native browser tools for inspecting mbox requests </li> 
-      <li id="li_4610283D0A4649469C0D88FCE8F6D47A">Use the Experience Cloud Debugger, mboxTrace, and ttMETA </li> 
-      <li id="li_297A797915ED4278BC17340951024427">Understand the Target timeout </li> 
-     </ul> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
 
+>[!VIDEO](https://vimeo.com/OXznmfKjxwU) 
 
 <table id="table_B1FE799CD8A541BA8F813D006C0D359B"> 
  <thead> 
@@ -64,7 +46,7 @@ In addition to the topics listed below, the following video demonstrates tools f
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Enterprise Permissions</b> </p> </td> 
-   <td colname="col2"> <p> <a href="c_seting_up_target/property_channel.md#concept_E396B16FA2024ADBA27BC056138F9838" format="dita" scope="local"> Enterprise User Permissions </a> </p> </td> 
+   <td colname="col2"> <p> <a href="c_seting_up_target/property_channel/property_channel.md#concept_E396B16FA2024ADBA27BC056138F9838" format="dita" scope="local"> Enterprise User Permissions </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Global mbox</b> </p> </td> 
@@ -78,7 +60,7 @@ In addition to the topics listed below, the following video demonstrates tools f
    <td colname="col2"> <p><b>A/B Tests</b> </p> <p> 
      <ul id="ul_F95050AF736343E5ABDB01035197CFF5"> 
       <li id="li_E133BB0BCB4A4BA4B1577AFDAEACA862"> <p> <a href="c_activities/t_test_ab/c_common-ab-testing-pitfalls.md#concept_578A7947C9554868B30F12DFF9E3F8E3" format="dita" scope="local"> Nine Common A/B Testing Pitfalls and How to Avoid Them </a> </p> </li> 
-      <li id="li_9CC97450C98044E8A4E68155753F69EB"> <p> <a href="c_activities/automated_traffic_allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4" format="dita" scope="local"> Auto-Allocate </a> </p> </li> 
+      <li id="li_9CC97450C98044E8A4E68155753F69EB"> <p> <a href="c_activities/automated_traffic_allocation/automated_traffic_allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4" format="dita" scope="local"> Auto-Allocate </a> </p> </li> 
       <li id="li_4C7CAD1552E74F8B89206AD8EE367222"> <p> <a href="c_activities/c_auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3" format="dita" scope="local"> Auto-Target For Personalized Experiences </a> </p> </li> 
      </ul> </p> </td> 
   </tr> 
@@ -93,15 +75,15 @@ In addition to the topics listed below, the following video demonstrates tools f
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Experiences</b> </p> </td> 
-   <td colname="col2"> <p> <a href="cmp_target-standard-cheatsheet.md#topic_68D10E3826D34BD6886A64BF56718B06" format="dita" scope="local"> Target Standard Optimization and Personalization FAQ </a> </p> <p> <a href="c_experiences/r_troubleshoot_composer.md#reference_77743144F10143A3A89D56E116D296E4" format="dita" scope="local"> Troubleshooting the Visual Experience Composer </a> </p> <p> <a href="c_experiences/c_activity_collisions.md#concept_0BC6B929592744DFA7DA01FF4F91052E" format="dita" scope="local"> Activity Collisions </a> </p> </td> 
+   <td colname="col2"> <p> <a href="cmp_target-standard-cheatsheet.md#topic_68D10E3826D34BD6886A64BF56718B06" format="dita" scope="local"> Target Standard Optimization and Personalization FAQ </a> </p> <p> <a href="c_experiences/r_troubleshoot_composer/r_troubleshoot_composer.md#reference_77743144F10143A3A89D56E116D296E4" format="dita" scope="local"> Troubleshooting the Visual Experience Composer </a> </p> <p> <a href="c_experiences/c_activity_collisions.md#concept_0BC6B929592744DFA7DA01FF4F91052E" format="dita" scope="local"> Activity Collisions </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Visual Experience Composer (VEC) </b> </p> </td> 
-   <td colname="col2"> <p> <a href="cmp_target-standard-cheatsheet.md#topic_68D10E3826D34BD6886A64BF56718B06" format="dita" scope="local"> Target Standard Optimization and Personalization FAQ </a> </p> <p> <a href="c_experiences/r_troubleshoot_composer.md#reference_77743144F10143A3A89D56E116D296E4" format="dita" scope="local"> Troubleshooting the Visual Experience Composer </a> </p> <p> <a href="c_experiences/c_experience_composer_best_practices.md#concept_E284B3F704C04406B174D9050A2528A6" format="dita" scope="local"> Visual Experience Composer Best Practices and Limitations </a> </p> <p> <a href="c_experiences/c_vec_code_editor.md#concept_B3A6E9EE3A60406DB640E205EA1745B5" format="dita" scope="local"> Modifications </a> </p> <p>"Office Hours" video, an initiative led by the Adobe Customer Care team. See <a href="c_experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D" format="dita" scope="local"> Experiences </a>. </p> </td> 
+   <td colname="col2"> <p> <a href="cmp_target-standard-cheatsheet.md#topic_68D10E3826D34BD6886A64BF56718B06" format="dita" scope="local"> Target Standard Optimization and Personalization FAQ </a> </p> <p> <a href="c_experiences/r_troubleshoot_composer/r_troubleshoot_composer.md#reference_77743144F10143A3A89D56E116D296E4" format="dita" scope="local"> Troubleshooting the Visual Experience Composer </a> </p> <p> <a href="c_experiences/c_experience_composer_best_practices.md#concept_E284B3F704C04406B174D9050A2528A6" format="dita" scope="local"> Visual Experience Composer Best Practices and Limitations </a> </p> <p> <a href="c_experiences/c_vec_code_editor.md#concept_B3A6E9EE3A60406DB640E205EA1745B5" format="dita" scope="local"> Modifications </a> </p> <p>"Office Hours" video, an initiative led by the Adobe Customer Care team. See <a href="c_experiences/c_experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D" format="dita" scope="local"> Experiences </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Audiences and Targeting</b> </p> </td> 
-   <td colname="col2"> <p> <a href="cmp_target-standard-cheatsheet.md#topic_68D10E3826D34BD6886A64BF56718B06" format="dita" scope="local"> Target Standard Optimization and Personalization FAQ </a> </p> <p> <a href="c_target/c_troubleshooting_targets_and_audiences.md#concept_C4EE4B8F4840430CBD798D579A8F208D" format="dita" scope="local"> Targets and Audiences Frequently Asked Questions </a> </p> <p> <a href="c_target/c_visitor_profile/c_profile_parameters.md#concept_8C07AEAB0A144FECA8B4FEB091AED4D2" format="dita" scope="local"> Profile Script Attributes </a> </p> <p> <a href="c_target/c_target_rulebased/c_target_validate_campaign.md#concept_804F9A67161447579091BF818BDF0A5E" format="dita" scope="local"> Validating a Targeted Campaign </a> </p> </td> 
+   <td colname="col2"> <p> <a href="cmp_target-standard-cheatsheet.md#topic_68D10E3826D34BD6886A64BF56718B06" format="dita" scope="local"> Target Standard Optimization and Personalization FAQ </a> </p> <p> <a href="c_target/c_troubleshooting_targets_and_audiences.md#concept_C4EE4B8F4840430CBD798D579A8F208D" format="dita" scope="local"> Targets and Audiences Frequently Asked Questions </a> </p> <p> <a href="c_target/c_visitor_profile/c_profile_parameters.md#concept_8C07AEAB0A144FECA8B4FEB091AED4D2" format="dita" scope="local"> Profile Script Attributes </a> </p> <p> <a href="c_target/c_target_rulebased/t_target_validate_profile.md#task_FEE3A70A4F944B35958CF4B5DA82EB0D" format="dita" scope="local"> Validate Targeting to Profile Parameters </a> </p> <p> <a href="c_target/c_target_rulebased/t_target_validate_url.md#task_378FB18E8C7244CDA8C1D029DBACBAEE" format="dita" scope="local"> Validate Targeting to URL or Referring URL Parameters </a> </p> <p> <a href="c_target/c_target_rulebased/t_target_validate_visitors.md#task_C9BF77B62B4943A7BF1DC37AA752001C" format="dita" scope="local"> Validate Targeting to New or Returning Visitors </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Content</b> </p> </td> 
@@ -117,20 +99,20 @@ In addition to the topics listed below, the following video demonstrates tools f
   </tr> 
   <tr> 
    <td colname="col1" morerows="3"> <p><b>Implementation</b> </p> </td> 
-   <td colname="col2"> <p><b>General Implementation</b> </p> <p> <a href="c_seting_up_target/c_implementing_target/c_target-requirements.md#concept_8B60C50C0CC24E279FAA4DB7E165F209" format="dita" scope="local"> Target Requirements </a> </p> <p> <a href="c_seting_up_target/c_implementing_target/c_target-requirements/r_supported_browsers.md#reference_01B4BF99E7D545A7998773202A2F6100" format="dita" scope="local"> Supported Browsers </a> </p> <p> <a href="c_seting_up_target/c_implementing_target/c_targeting-using-cloud-based-instances.md#concept_A2077766948F4EA081CE592D8998F566" format="dita" scope="local"> Using Cloud-Based Instances with Target </a> </p> </td> 
+   <td colname="col2"> <p><b>General Implementation</b> </p> <p> <a href="c_seting_up_target/c_implementing_target/c_target-requirements/c_target-requirements.md#concept_8B60C50C0CC24E279FAA4DB7E165F209" format="dita" scope="local"> Target Requirements </a> </p> <p> <a href="c_seting_up_target/c_implementing_target/c_target-requirements/r_supported_browsers.md#reference_01B4BF99E7D545A7998773202A2F6100" format="dita" scope="local"> Supported Browsers </a> </p> <p> <a href="c_seting_up_target/c_implementing_target/c_targeting-using-cloud-based-instances.md#concept_A2077766948F4EA081CE592D8998F566" format="dita" scope="local"> Using Cloud-Based Instances with Target </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p><b>Global mboxes</b> </p> <p> <a href="c_seting_up_target/c_implementing_target/c_understanding-global-mbox/c_global-mbox-frequently-asked-questions.md#concept_246B0FCF5A7542879DA6613C0C59267F" format="dita" scope="local"> Global mbox Frequently Asked Questions </a> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p><b>at.js</b> </p> <p> <a href="c_seting_up_target/c_implementing_target/c_target-atjs-implementation/c_target-atjs-faq.md#concept_D6EFE8D84A06476DB5ABD494D7E8C769" format="dita" scope="local"> at.js Frequently Asked Questions </a> </p> <p> <a href="c_seting_up_target/c_implementing_target/c_target-atjs-implementation/c_target-debugging-atjs.md#concept_CAE591DA8C404C22917584ECD4F7494F" format="dita" scope="local"> Debugging at.js </a> </p> <p> <a href="c_seting_up_target/c_implementing_target/c_target-atjs-implementation/c_target-atjs-limitations.md#concept_FA99E4D6EC274552BF45E01AFB76CCAE" format="dita" scope="local"> at.js Limitations </a> </p> <p> <a href="c_seting_up_target/c_implementing_target/c_target-atjs-implementation/r_target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A" format="dita" scope="local"> at.js Version Details </a> </p> <p>"Office Hours" video, an initiative led by the Adobe Customer Care team. See <a href="c_seting_up_target/c_implementing_target/c_target-atjs-implementation.md#concept_8AC8D169E02944B1A547A0CAD97EAC17" format="dita" scope="local"> at.js Implementation </a>. </p> </td> 
+   <td colname="col2"> <p><b>at.js</b> </p> <p> <a href="c_seting_up_target/c_implementing_target/c_target-atjs-implementation/c_target-atjs-faq.md#concept_D6EFE8D84A06476DB5ABD494D7E8C769" format="dita" scope="local"> at.js Frequently Asked Questions </a> </p> <p> <a href="c_seting_up_target/c_implementing_target/c_target-atjs-implementation/c_target-debugging-atjs.md#concept_CAE591DA8C404C22917584ECD4F7494F" format="dita" scope="local"> Debugging at.js </a> </p> <p> <a href="c_seting_up_target/c_implementing_target/c_target-atjs-implementation/c_target-atjs-limitations.md#concept_FA99E4D6EC274552BF45E01AFB76CCAE" format="dita" scope="local"> at.js Limitations </a> </p> <p> <a href="c_seting_up_target/c_implementing_target/c_target-atjs-implementation/r_target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A" format="dita" scope="local"> at.js Version Details </a> </p> <p>"Office Hours" video, an initiative led by the Adobe Customer Care team. See <a href="c_seting_up_target/c_implementing_target/c_target-atjs-implementation/c_target-atjs-implementation.md#concept_8AC8D169E02944B1A547A0CAD97EAC17" format="dita" scope="local"> at.js Implementation </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p><b>mbox.js</b> </p> <p> <a href="c_seting_up_target/c_implementing_target/t_mbox_download/c_mboxjs-frequently-asked-questions.md#concept_240B3B89071A4D35AD2EFF409EC86F1E" format="dita" scope="local"> mbox.js Frequently Asked Questions </a> </p> <p> <a href="c_seting_up_target/c_implementing_target/t_mbox_download/r_mboxjs_change_log.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A" format="dita" scope="local"> mbox.js Version Details </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Analytics and Target Integration (A4T)</b> </p> </td> 
-   <td colname="col2"> <p> <a href="c_integrating_target_with_mac/a4t/c_a4t_troubleshooting.md#concept_C380B9DF98AC4299A7A6A437230C4589" format="dita" scope="local"> Troubleshooting Analytics and Target Integration </a> </p> <p> <a href="c_integrating_target_with_mac/a4t/c_a4t_troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md#concept_A515C2DE126E44B6AD97754C2C6D5235" format="dita" scope="local"> Minimizing Inflated Visit and Visitor Counts in A4T </a> </p> <p> <a href="c_integrating_target_with_mac/a4t/r_a4t-faq.md#reference_8625DA119F1049B4A87CE967E790726B" format="dita" scope="local"> A4T Frequently Asked Questions </a> </p> <p> 
+   <td colname="col2"> <p> <a href="c_integrating_target_with_mac/a4t/c_a4t_troubleshooting/c_a4t_troubleshooting.md#concept_C380B9DF98AC4299A7A6A437230C4589" format="dita" scope="local"> Troubleshooting Analytics and Target Integration </a> </p> <p> <a href="c_integrating_target_with_mac/a4t/c_a4t_troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md#concept_A515C2DE126E44B6AD97754C2C6D5235" format="dita" scope="local"> Minimizing Inflated Visit and Visitor Counts in A4T </a> </p> <p> <a href="c_integrating_target_with_mac/a4t/r_a4t-faq/r_a4t-faq.md#reference_8625DA119F1049B4A87CE967E790726B" format="dita" scope="local"> A4T Frequently Asked Questions </a> </p> <p> 
      <ul id="ul_2082F2976CE84EF2A2F2E14EFB718A58"> 
       <li id="li_535A478CE5D940D8BE9F98EFBF7C470B"> <p> <a href="c_integrating_target_with_mac/a4t/r_a4t-faq/c_a4t-faq-initial-provisioning.md#concept_AD9B428CEEEE4106A7F6CE47F025AE97" format="dita" scope="local"> Initial Provisioning - A4T FAQ </a> </p> </li> 
       <li id="li_201F9B235BF4497BA1348BECFDC2A1E0"> <p> <a href="c_integrating_target_with_mac/a4t/r_a4t-faq/c_a4t-faq-activity-setup.md#concept_6DF34BC1AD3F4D47B7635B5E2D95F836" format="dita" scope="local"> Activity Setup - A4T FAQ </a> </p> </li> 
@@ -142,7 +124,7 @@ In addition to the topics listed below, the following video demonstrates tools f
       <li id="li_6159FF7452DD4B9B9C7A3CFF4BD074A0"> <p> <a href="c_integrating_target_with_mac/a4t/r_a4t-faq/c_a4t-faq-inflated-visit-and-visitor-counts.md#concept_E6B7974B98684C588EF282E8480EAB7A" format="dita" scope="local"> Inflated Visit and Visitor Counts - A4T FAQ </a> </p> </li> 
       <li id="li_76391F59F35E46D490A1F71AD39C5D85"> <p> <a href="c_integrating_target_with_mac/a4t/r_a4t-faq/c_a4t-faq-classifications.md#concept_E77AA0BD6F9844DB87DC49A054C9B184" format="dita" scope="local"> Classifications - A4T FAQ </a> </p> </li> 
       <li id="li_BB3A9D9675624E5998E1C867AF270006"> <p> <a href="c_integrating_target_with_mac/a4t/r_a4t-faq/c_a4t-faq-old-integration.md#concept_7B84D16249A449A78E03FAB9808AADB9" format="dita" scope="local"> Legacy SiteCatalyst to Test&amp;amp;Target Integration - A4T FAQ </a> </p> </li> 
-     </ul> </p> <p>"Office Hours" video, an initiative led by the Adobe Customer Care team. See <a href="c_integrating_target_with_mac/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE" format="dita" scope="local"> Adobe Analytics as the Reporting Source for Adobe Target (A4T) </a>. </p> </td> 
+     </ul> </p> <p>"Office Hours" video, an initiative led by the Adobe Customer Care team. See <a href="c_integrating_target_with_mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE" format="dita" scope="local"> Adobe Analytics as the Reporting Source for Adobe Target (A4T) </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Targeting</b> </p> </td> 

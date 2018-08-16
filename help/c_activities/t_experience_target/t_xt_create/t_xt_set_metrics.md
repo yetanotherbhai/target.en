@@ -5,7 +5,7 @@ seo-description: Use metrics in an Experience Targeting (XT) activity to determi
 seo-title: Set Metrics
 solution: Target,standard
 title: Set Metrics
-uuid: 737ca4ae-3326-4b0c-9029-73b156d4690e
+uuid: 43db684f-ec4f-4fb6-ae8f-3fa2805bf8f4
 index: y
 internal: n
 snippet: y
@@ -14,10 +14,10 @@ translate: y
 
 # Set Metrics
 
-For detailed information about success metrics, see [ Success Metrics ](../../../r_success_metrics.md#reference_D011575C85DA48E989A244593D9B9924). 
+For detailed information about success metrics, see [ Success Metrics ](../../../r_success_metrics/r_success_metrics.md#reference_D011575C85DA48E989A244593D9B9924). 
 
 >1. Specify the goal of the activity.
->1. Select a [ success metric ](../../../r_success_metrics.md#reference_D011575C85DA48E989A244593D9B9924)
+>1. Select a [ success metric ](../../../r_success_metrics/r_success_metrics.md#reference_D011575C85DA48E989A244593D9B9924)
 
 >       ![](assets/ab_metrics.png) 
 
@@ -38,7 +38,7 @@ For detailed information about success metrics, see [ Success Metrics ](../../..
 
 >       The correct configuration of success metrics is critical for making sure you get the data you expect. 
 
->       For more information, see [ Success Metrics ](../../../r_success_metrics.md#reference_D011575C85DA48E989A244593D9B9924). 
+>       For more information, see [ Success Metrics ](../../../r_success_metrics/r_success_metrics.md#reference_D011575C85DA48E989A244593D9B9924). 
 >1. (Optional) Add additional metrics.
 
 >1. Click **[!UICONTROL  Continue]** when you are finished setting your metrics.

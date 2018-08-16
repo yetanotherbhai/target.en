@@ -8,7 +8,7 @@ subtopic: Getting Started
 title: Configure Enterprise Permissions
 title_outputclass: premium
 topic: Premium
-uuid: c5915272-ff64-4d6a-80a6-7219c79b6c15
+uuid: df92a719-ec51-4ed1-9af9-8321bb67c754
 badge: premium
 index: y
 internal: n
@@ -27,7 +27,7 @@ translate: y
 
 The following table lists the tasks you should perform to create properties and assign user roles and permissions: 
 
-[ C:\Users\Public\Desktop\WinZip.lnk ](file:///C:/Users/Public/Desktop/WinZip.lnk) 
+
 
 <table id="table_D3FFB40000DC4CBAA18B1D0E52D40565"> 
  <thead> 
@@ -101,36 +101,25 @@ Customers can use these workspaces to separate access to different teams by regi
 
 Users can be part of multiple workspaces and can even have different roles within each workspace. 
 
-This video explains how to create workspaces: 
+**How to Configure Target Workspaces (6:55)** 
+
+This video explains how to create workspaces. 
+
+
+* Access the Adobe Admin Console from the Adobe Target interface (3 ways) 
+
+* Configure a workspace in Adobe Admin Console 
+
+    * Add users to workspaces 
+
+    * Add properties to workspaces 
+
+
+* Understand default workspaces 
 
 
 
-<table id="table_38936C8A1EAC4164B9BD5A646A71D181"> 
- <thead> 
-  <tr> 
-   <th class="entry" colspan="2"> How to Configure Target Workspaces </th> 
-   <th colname="col3" class="entry"> 6:55 </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colspan="2"> <p> 
-     <div width="550" class="video-iframe"> 
-      <iframe src="https://video.tv.adobe.com/v/19463/" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" oallowfullscreen="true" msallowfullscreen="true" allowfullscreen="allowfullscreen" scrolling="no" width="550" height="345">https://video.tv.adobe.com/v/19463/</iframe>
-     </div> </p> </td> 
-   <td colname="col3"> <p> 
-     <ul id="ul_AE48A4920BD643A0AB3CEBFCF28A5D7C"> 
-      <li id="li_5440ACDE887442F495FCC50DF72974C8"> <p>Access the Adobe Admin Console from the Adobe Target interface (3 ways) </p> </li> 
-      <li id="li_31F8EBF4B5A44CFB9BB15723C078ABA9"> <p>Configure a workspace in Adobe Admin Console </p> 
-       <ul id="ul_A50E942C80954C6AB57801F2CE953469"> 
-        <li id="li_5C713316FB5447C1A209AA2689F4B644"> <p>Add users to workspaces </p> </li> 
-        <li id="li_DD52CDD690EB4EB4A7D11BAEA6179D6F"> <p>Add properties to workspaces </p> </li> 
-       </ul> </li> 
-      <li id="li_80054E078EE84DD0A75119F28BA8351C"> <p>Understand default workspaces </p> </li> 
-     </ul> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+>[!VIDEO](https://video.tv.adobe.com/v/19463/) 
 
 
 1. In the Admin Console, click **[!UICONTROL  Products]**, then select the name of the desired product. 
@@ -171,37 +160,27 @@ You can create user groups, such as Developers, Analysts, Marketers, Executives,
 
 ## 4. Create Properties {#section_E8F2C92BE0F4466AB87604059C9CF3FD}
 
-This video explains how to create properties: 
+This video explains how to create properties (3:05). 
+
+
+* How to create a property within the [!DNL  Adobe Target] interface 
+
+* How to generate a property token to include in your property implementation 
+
+* Familiarize yourself with the three implementation methods: 
+
+
+    * Web 
+
+    * Mobile app 
+
+    * Email, set top box, or API calls 
 
 
 
-<table id="table_C56F4BE9B867463380013C584D97DAD2"> 
- <thead> 
-  <tr> 
-   <th class="entry" colspan="2"> How to Create Properties </th> 
-   <th colname="col3" class="entry"> 3:05 </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colspan="2"> <p> 
-     <div width="550" class="video-iframe"> 
-      <iframe src="https://video.tv.adobe.com/v/18990/" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" oallowfullscreen="true" msallowfullscreen="true" allowfullscreen="allowfullscreen" scrolling="no" width="550" height="345">https://video.tv.adobe.com/v/18990/</iframe>
-     </div> </p> </td> 
-   <td colname="col3"> <p> 
-     <ul id="ul_B17C3EFA4B664415AE0159E418FF45C4"> 
-      <li id="li_916224D2105348BE93D60015B2F43D4F"> <p>How to create a property within the <span class="keyword"> Adobe Target </span> interface </p> </li> 
-      <li id="li_0FED234A3A054DEAB62C4F58BAB47F7F"> <p>How to generate a property token to include in your property implementation </p> </li> 
-      <li id="li_6C4D1871E45D40118D7D9D4DF81547B5"> <p>Familiarize yourself with the three implementation methods: </p> <p> 
-        <ul id="ul_ACF4CEAD7B3948488C70606FF473BE77"> 
-         <li id="li_1EE1205D3F5A49F8801886E4668ACEA8"> <p>Web </p> </li> 
-         <li id="li_F3D894969C33480C8A3CD88FA955F129"> <p>Mobile app </p> </li> 
-         <li id="li_9801FEA2BF79453C99AEDEBD95549C36"> <p>Email, set top box, or API calls </p> </li> 
-        </ul> </p> </li> 
-     </ul> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+
+
+>[!VIDEO](https://video.tv.adobe.com/v/18990/) 
 
 Properties are enabled by adding a specific name/value pair as a parameter with any call (mbox, api, etc.) to Target. 
 

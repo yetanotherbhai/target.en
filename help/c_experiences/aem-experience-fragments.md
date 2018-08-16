@@ -6,7 +6,7 @@ seo-title: AEM Experience Fragments
 solution: Target
 title: AEM Experience Fragments
 topic: Standard
-uuid: 006a507d-4ff6-4f2b-9408-5f18626bd841
+uuid: 2aff3288-2506-42b5-9e89-2584f32f84db
 index: y
 internal: n
 snippet: y
@@ -40,7 +40,7 @@ This section contains the following information:
 
 ## Overview {#section_95A91830530F493B81C5C9CDB9B783EA}
 
-Using experience fragments created in AEM in Target activities lets you combine the ease-of-use and power of AEM with powerful Automated Intelligence (AI) and Machine Learning (ML) capabilities in Target to test and personalize experiences at scale.&amp;nbsp;&amp;nbsp; 
+Using experience fragments created in AEM in Target activities lets you combine the ease-of-use and power of AEM with powerful Automated Intelligence (AI) and Machine Learning (ML) capabilities in Target to test and personalize experiences at scale. 
 
 AEM brings together all of your content and assets in a central location to fuel your personalization strategy. AEM lets you easily create content for desktops, tablets, and mobile devices in one location without writing code. There’s no need to create pages for every device—AEM automatically adjusts each experience using your content. 
 
@@ -145,12 +145,12 @@ You can consume Experience Fragments in Target activities using the Visual Exper
 
 >[!NOTE]
 >
->To fully utilize Target's AI and ML functionality, you can select[ Auto-Allocate ](../c_activities/automated_traffic_allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4) or [ Automated Personalization ](../c_activities/t_automated_personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) while creating an A/B Test. 
+>To fully utilize Target's AI and ML functionality, you can select[ Auto-Allocate ](../c_activities/automated_traffic_allocation/automated_traffic_allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4) or [ Automated Personalization ](../c_activities/t_automated_personalization/t_automated_personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) while creating an A/B Test. 
 
 **To consume Experience Fragments using the VEC:** 
 
 
-1. In Target, while creating or editing an experience in the [ Visual Experience Composer ](../c_experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D), click the location on the page where you want to insert AEM content, then select **[!UICONTROL  Swap with Experience Fragment]** to display the [!UICONTROL  Choose an Experience Fragment] list. 
+1. In Target, while creating or editing an experience in the [ Visual Experience Composer ](../c_experiences/c_experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D), click the location on the page where you want to insert AEM content, then select **[!UICONTROL  Swap with Experience Fragment]** to display the [!UICONTROL  Choose an Experience Fragment] list. 
 
 
    >[!NOTE]
@@ -169,19 +169,19 @@ You can consume Experience Fragments in Target activities using the Visual Exper
    For more information about configuring the various activity types, see the following topics: 
 
 
-    * **A/B Test: ** [ Create an A/B Test ](../c_activities/t_test_ab/t_test_create_ab.md#task_68C8079BF9FF4625A3BD6680D554BB72) 
+    * **A/B Test:** [ Create an A/B Test ](../c_activities/t_test_ab/t_test_create_ab/t_test_create_ab.md#task_68C8079BF9FF4625A3BD6680D554BB72) 
 
-    * **Auto-Allocate: ** [ Auto-Allocate ](../c_activities/automated_traffic_allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4) 
+    * **Auto-Allocate:** [ Auto-Allocate ](../c_activities/automated_traffic_allocation/automated_traffic_allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4) 
 
-    * **Auto-Target: ** [ Auto-Target For Personalized Experiences ](../c_activities/c_auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3) 
+    * **Auto-Target:** [ Auto-Target For Personalized Experiences ](../c_activities/c_auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3) 
 
-    * **Automated Personalization (AP): ** [ Creating an Automated Personalization Activity ](../c_activities/t_automated_personalization/t_create_ap_activity.md#task_8AAF837796D74CF893CA2F88BA1491C9) 
+    * **Automated Personalization (AP):** [ Creating an Automated Personalization Activity ](../c_activities/t_automated_personalization/t_create_ap_activity.md#task_8AAF837796D74CF893CA2F88BA1491C9) 
 
-    * **Experience Targeting (XT): ** [ Create an Experience Targeting Activity ](../c_activities/t_experience_target/t_xt_create.md#task_D6B3429AC31549E1A70EDF04B3DDC765) 
+    * **Experience Targeting (XT):** [ Create an Experience Targeting Activity ](../c_activities/t_experience_target/t_xt_create/t_xt_create.md#task_D6B3429AC31549E1A70EDF04B3DDC765) 
 
-    * **Multivariate Test (MVT): ** [ Create a Multivariate Test ](../c_activities/c_multivariate_testing/t_create_multivariate_test.md#task_BF870FA60A8245AB8F0B775BE32EA710) 
+    * **Multivariate Test (MVT):** [ Create a Multivariate Test ](../c_activities/c_multivariate_testing/t_create_multivariate_test/t_create_multivariate_test.md#task_BF870FA60A8245AB8F0B775BE32EA710) 
 
-    * **Recommendations: ** [ Create a Recommendations Activity ](../c_recommendations/t_create_recs_activity.md#task_6874328773C64C44A73F0A130AD3F96F) 
+    * **Recommendations:** [ Create a Recommendations Activity ](../c_recommendations/t_create_recs_activity/t_create_recs_activity.md#task_6874328773C64C44A73F0A130AD3F96F) 
 
 
 

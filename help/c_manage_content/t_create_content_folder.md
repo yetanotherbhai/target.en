@@ -6,7 +6,7 @@ seo-title: Create Offer Folder
 solution: Target
 title: Create Offer Folder
 topic: Standard
-uuid: e20f4dbd-72b3-4689-97e6-2014119361e1
+uuid: 64476c96-f687-49bb-8bad-93b175ede999
 index: y
 internal: n
 snippet: y

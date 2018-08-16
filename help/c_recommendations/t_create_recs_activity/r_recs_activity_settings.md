@@ -8,7 +8,7 @@ subtopic: Recommendations
 title: Recommendations Activity Settings
 title_outputclass: premium
 topic: Premium
-uuid: 3de019bd-32e9-452e-bba4-95e7d56178ff
+uuid: 963fed19-5fb1-4844-8aab-12b4aace8e6d
 badge: premium
 index: y
 internal: n
@@ -19,32 +19,19 @@ translate: y
 # Recommendations Activity Settings
 
 
+>**Activity Settings (3:02)** 
+
 >This video includes information about activity settings. 
 
-><table id="table_A3A70CC0C9F54131BB9F098B4DA8C9D6"> 
- <thead> 
-  <tr> 
-   <th class="entry" colspan="2"> Activity Settings </th> 
-   <th colname="col3" class="entry"> 3:02 </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colspan="2"> 
-    <div class="video-iframe"> 
-     <iframe src="https://www.youtube.com/embed/6XNEM8tUADo/" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" oallowfullscreen="true" msallowfullscreen="true" allowfullscreen="allowfullscreen" scrolling="no" width="550" height="345">https://www.youtube.com/embed/6XNEM8tUADo/</iframe>
-    </div> </td> 
-   <td colname="col3"> <p> 
-     <ul id="ul_FF4FEC7BC7A34461BAA54FBE18A8E63B"> 
-      <li id="li_7D6D4CB2E771430F84D2B658F8611532">Enter an objective for your activity </li> 
-      <li id="li_61D9DDCD3AFB40E2BC55AFED5CD6C405">Set the priority level of your activities </li> 
-      <li id="li_745F20CC95DF4BE48173991CB42EC50A">Schedule activity start and end times </li> 
-      <li id="li_699D4D5D089A4FB7BA4C5E95337AC34A">Add audiences for reporting to create report filters </li> 
-      <li id="li_0EDDBA5E70B54F22A76F1D6D722914BE">Enter notes for your activities </li> 
-     </ul> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+>
+>* Enter an objective for your activity
+>* Set the priority level of your activities
+>* Schedule activity start and end times
+>* Add audiences for reporting to create report filters
+>* Enter notes for your activities
+
+
+>>[!VIDEO](https://vimeo.com/6XNEM8tUADo) 
 
 >The following table describes the available settings for a Recommendations activity. 
 
@@ -87,9 +74,9 @@ translate: y
    <td colname="col1"> Reporting Settings </td> 
    <td colname="col2"> 
     <ul id="ul_74509C88F0024849AC36AF6125780CF2"> 
-     <li id="li_15A4260BCE114E3683FED75CD11B7D6F"> <p><b>Goal: </b>Name the goal, and select the success metric that determines whether the activity is successful. </p> </li> 
-     <li id="li_62C0B5A4D5CE40BDB9FFF6D452B70A72"> <p><b>Additional Metrics: </b>Configure additional success metrics to be used in your reports. </p> </li> 
-     <li id="li_1AD0F3946E1348429F77A52CDD1FBB4D"> <p><b>Audiences for Reporting: </b>Define audiences that can be used when filtering your reports. </p> </li> 
+     <li id="li_15A4260BCE114E3683FED75CD11B7D6F"> <p><b>Goal:</b> Name the goal, and select the success metric that determines whether the activity is successful. </p> </li> 
+     <li id="li_62C0B5A4D5CE40BDB9FFF6D452B70A72"> <p><b>Additional Metrics:</b> Configure additional success metrics to be used in your reports. </p> </li> 
+     <li id="li_1AD0F3946E1348429F77A52CDD1FBB4D"> <p><b>Audiences for Reporting:</b> Define audiences that can be used when filtering your reports. </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 

@@ -7,7 +7,7 @@ solution: Target
 title: Share Experience URLs to Preview Automated Personalization Outside of Target
 title_outputclass: premium
 topic: Standard
-uuid: a90d109a-b34d-4713-945a-c1e9b4d45881
+uuid: ae3219b0-d941-4400-b2f3-4c95621e0b09
 badge: premium
 index: y
 internal: n
@@ -20,7 +20,7 @@ translate: y
 
 >[!NOTE]
 >
->The Activity QA mode lets you create Activity URLs for other types of activities. For more information, see[ Activity QA](../../c_activities/c_activity-qa.md#concept_9329EF33DE7D41CA9815C8115DBC4E40) 
+>The Activity QA mode lets you create Activity URLs for other types of activities. For more information, see[ Activity QA](../../c_activities/c_activity-qa/c_activity-qa.md#concept_9329EF33DE7D41CA9815C8115DBC4E40) 
 
 .
 

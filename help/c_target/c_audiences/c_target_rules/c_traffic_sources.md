@@ -5,7 +5,7 @@ seo-description: Target visitors based on the search engine or landing page that
 seo-title: Traffic Sources
 solution: Target
 title: Traffic Sources
-uuid: b569cb9d-cf7b-4d0e-b821-899fa80deb55
+uuid: cf39c897-5341-4f47-90b1-24f69b7bc6f3
 index: y
 internal: n
 snippet: y
@@ -47,27 +47,13 @@ You can combine multiple traffic sources to create a complex targeting rule.
 
 You can target users who are referred to your site by a specific search engine or from a specific landing page. 
 
+**Creating Audiences (9:58)** 
+
 This video includes information about using audience categories. 
 
-<table id="table_A3A70CC0C9F54131BB9F098B4DA8C9D6"> 
- <thead> 
-  <tr> 
-   <th class="entry" colspan="2"> Creating Audiences </th> 
-   <th colname="col3" class="entry"> 9:58 </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colspan="2"> 
-    <div width="550" class="video-iframe"> 
-     <iframe src="https://www.youtube.com/embed/wV9lVTSOxMk/" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" oallowfullscreen="true" msallowfullscreen="true" allowfullscreen="allowfullscreen" scrolling="no" width="550" height="345">https://www.youtube.com/embed/wV9lVTSOxMk/</iframe>
-    </div> </td> 
-   <td colname="col3"> <p> 
-     <ul id="ul_FF4FEC7BC7A34461BAA54FBE18A8E63B"> 
-      <li id="li_7D6D4CB2E771430F84D2B658F8611532">Create audiences </li> 
-      <li id="li_8529CB01E80B4C89B74287882AE0DA9D">Define audience categories </li> 
-     </ul> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
 
+* Create audiences
+* Define audience categories
+
+
+>[!VIDEO](https://vimeo.com/wV9lVTSOxMk) 

@@ -5,7 +5,7 @@ seo-description: You can create audiences based on network details.
 seo-title: Network
 solution: Target
 title: Network
-uuid: de07fbb3-12a3-4f8e-af84-5e339abb2cc0
+uuid: 58a227a0-d381-4619-937c-fa82727cb5e4
 index: y
 internal: n
 snippet: y
@@ -14,29 +14,16 @@ translate: y
 
 # Network
 
+**Creating Audiences (9:58)** 
+
 This video includes information about using audience categories. 
 
-<table id="table_A3A70CC0C9F54131BB9F098B4DA8C9D6"> 
- <thead> 
-  <tr> 
-   <th class="entry" colspan="2"> Creating Audiences </th> 
-   <th colname="col3" class="entry"> 9:58 </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colspan="2"> 
-    <div width="550" class="video-iframe"> 
-     <iframe src="https://www.youtube.com/embed/wV9lVTSOxMk/" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" oallowfullscreen="true" msallowfullscreen="true" allowfullscreen="allowfullscreen" scrolling="no" width="550" height="345">https://www.youtube.com/embed/wV9lVTSOxMk/</iframe>
-    </div> </td> 
-   <td colname="col3"> <p> 
-     <ul id="ul_FF4FEC7BC7A34461BAA54FBE18A8E63B"> 
-      <li id="li_7D6D4CB2E771430F84D2B658F8611532">Create audiences </li> 
-      <li id="li_8529CB01E80B4C89B74287882AE0DA9D">Define audience categories </li> 
-     </ul> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+
+* Create audiences
+* Define audience categories
+
+
+>[!VIDEO](https://vimeo.com/wV9lVTSOxMk) 
 
 
 1. In the [!DNL  Target] interface, click **[!UICONTROL  Audiences]** > **[!UICONTROL  Create Audience]**. 
@@ -84,7 +71,7 @@ This video includes information about using audience categories.
 
     * **Domain Name: **This is the domain name for the visitor's IP address. This is not the domain name of the website you are using with [!DNL  Target]. This domain name is related to the visitor's IP address and is sometimes called a hostname. It is usually very similar to the ISP name. Sometimes the hostname references older names of companies that have rebranded their ISP name but not the domain name. 
 
-    * **Connection Speed: **This is the speed of the visitor's connection to the internet. Options include: broadband, cable, dialup, mobile, oc3, oc12, satellite, t1, t2, and wireless, and xdsl. This field is based on the type of connection and not the actual speed itself. [!DNL  Target] cannot determine the exact connection speeds of connections. The Broadband connection type is used when there is no indication of other connection types so a specific type cannot be chosen. 
+    * **Connection Speed:** This is the speed of the visitor's connection to the internet. Options include: broadband, cable, dialup, mobile, oc3, oc12, satellite, t1, t2, and wireless, and xdsl. This field is based on the type of connection and not the actual speed itself. [!DNL  Target] cannot determine the exact connection speeds of connections. The Broadband connection type is used when there is no indication of other connection types so a specific type cannot be chosen. 
 
 
 

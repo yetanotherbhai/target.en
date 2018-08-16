@@ -7,7 +7,7 @@ solution: Target
 title: Base Implementation
 title_outputclass: premium
 topic: Premium
-uuid: 9bdbb290-67a0-44d7-aa54-f7729a61ca3c
+uuid: 14e898fb-ae91-4fdb-9a00-d786636cea6d
 badge: premium
 index: y
 internal: n

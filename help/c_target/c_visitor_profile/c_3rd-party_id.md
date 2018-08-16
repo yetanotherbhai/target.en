@@ -6,7 +6,7 @@ seo-title: Real-Time Profile Syncing for mbox3rdPartyID
 solution: Target
 title: Real-Time Profile Syncing for mbox3rdPartyID
 topic: Standard
-uuid: 4990ef17-b7df-44d7-bfef-702e18c15485
+uuid: e18dd363-6bdd-4f72-ae5f-854a8038fe9b
 index: y
 internal: n
 snippet: y

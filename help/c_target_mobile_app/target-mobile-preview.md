@@ -6,7 +6,7 @@ seo-title: Target Mobile Preview
 solution: Target
 title: Target Mobile Preview
 topic: Advanced,Standard,Classic
-uuid: c5da6e5a-5045-4048-87f1-cc61fb2c9632
+uuid: 75d901e0-af65-4fbf-91c6-a1c7bb587aa8
 index: y
 internal: n
 snippet: y
@@ -44,7 +44,7 @@ The mobile preview functionality lets you fully test your Mobile app activities 
 ## Prerequisites {#section_A763C564C9E84B0EB448237B5B1E4068}
 
 
-1. **Use a supported version of the SDK: **The mobile preview feature requires that you download and install the appropriate 4.14 (or later) version of Adobe Mobile SDK in your corresponding apps. 
+1. **Use a supported version of the SDK:** The mobile preview feature requires that you download and install the appropriate 4.14 (or later) version of Adobe Mobile SDK in your corresponding apps. 
 
    For instructions to download the appropriate SDK, see: 
 
@@ -55,7 +55,7 @@ The mobile preview functionality lets you fully test your Mobile app activities 
 
 
 
-1. **Set up a URL scheme: ** The preview link uses a URL scheme to open your app. You must specify a unique URL scheme for the preview. 
+1. **Set up a URL scheme:** The preview link uses a URL scheme to open your app. You must specify a unique URL scheme for the preview. 
 
    The following illustration is an example on iOS: 
 
@@ -67,7 +67,7 @@ The mobile preview functionality lets you fully test your Mobile app activities 
 
 1. **Track Adobe DeepLink** 
 
-   **iOS: **In the app delegate, call ` [ADBMobile trackAdobeDeepLink:url` when the delegate is asked to open the resource with the URL scheme that was specified in the previous step. 
+   **iOS:** In the app delegate, call ` [ADBMobile trackAdobeDeepLink:url` when the delegate is asked to open the resource with the URL scheme that was specified in the previous step. 
 
    The following code snippet is an example: 
 
@@ -86,7 +86,7 @@ The mobile preview functionality lets you fully test your Mobile app activities 
    ```
 
 
-   **Android: **In the app , call ` Config.trackAdobeDeepLink(URL);` when the caller is asked to open the resource with the URL scheme that was specified in the previous step. 
+   **Android:** In the app , call ` Config.trackAdobeDeepLink(URL);` when the caller is asked to open the resource with the URL scheme that was specified in the previous step. 
 
 
    ```

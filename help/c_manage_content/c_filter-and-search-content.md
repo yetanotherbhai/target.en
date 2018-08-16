@@ -6,7 +6,7 @@ seo-title: Search Content and Create Smart Collections
 solution: Target
 title: Search Content and Create Smart Collections
 topic: Premium
-uuid: 09b61251-27fd-4de4-8819-ad9c387094ff
+uuid: cb2ec349-9374-463c-a153-015932119af5
 index: y
 internal: n
 snippet: y

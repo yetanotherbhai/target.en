@@ -7,7 +7,7 @@ solution: Target
 subtopic: Getting Started
 title: Create an Adbox for an Image
 topic: Standard
-uuid: aed68181-1ffa-435f-a31a-db4d809acb02
+uuid: 4d4eb70a-0f63-4c44-8249-134a9e4ed98e
 index: y
 internal: n
 snippet: y
@@ -18,7 +18,7 @@ translate: y
 
 An AdBox is like an mbox, but it is controlled by a URL rather than JavaScript. AdBoxes are created with a special AdBox URL that loads an "ad" mbox (or AdBox) into your Adobe account. Use this AdBox in place of the mbox in your activities. Use the AdBox URL instead of a direct image reference in email or other non-JavaScript implementations. 
 
-For help selecting the right setup see [ Non-JavaScript-Based Implementations](../../../c_seting_up_target/c_implementing_target/c_non-javascript-based-implementation.md#concept_4799C58B081A43F6B3B8CC25A8D5D7C4). 
+For help selecting the right setup see [ Non-JavaScript-Based Implementations](../../../c_seting_up_target/c_implementing_target/c_non-javascript-based-implementation/c_non-javascript-based-implementation.md#concept_4799C58B081A43F6B3B8CC25A8D5D7C4). 
 
 >1. Create the AdBox URL:
 
@@ -36,7 +36,7 @@ For help selecting the right setup see [ Non-JavaScript-Based Implementations](.
  <tbody> 
   <tr> 
    <td colname="col1"> <p>myClientCode </p> </td> 
-   <td colname="col2"> <p>Your company's client code. </p> <p><b>at.js: </b>Your client code is available at the top of the Setup &gt; Implementation &gt; Edit at.js Settings page of the Target interface. </p> <p><b>mbox.js: </b>Your client code is available at the top of the Setup &gt; Implementation &gt; Edit Mbox.js Settings page. </p> <p>Your company's client code is all lower case and has no special characters. </p> </td> 
+   <td colname="col2"> <p>Your company's client code. </p> <p><b>at.js:</b> Your client code is available at the top of the Setup &gt; Implementation &gt; Edit at.js Settings page of the Target interface. </p> <p><b>mbox.js:</b> Your client code is available at the top of the Setup &gt; Implementation &gt; Edit Mbox.js Settings page. </p> <p>Your company's client code is all lower case and has no special characters. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>image </p> </td> 
@@ -62,7 +62,7 @@ For help selecting the right setup see [ Non-JavaScript-Based Implementations](.
 
 >1. Create the activity.
 
->       See [ Non-JavaScript-Based Implementations](../../../c_seting_up_target/c_implementing_target/c_non-javascript-based-implementation.md#concept_4799C58B081A43F6B3B8CC25A8D5D7C4) for the right set up to meet your goals. 
+>       See [ Non-JavaScript-Based Implementations](../../../c_seting_up_target/c_implementing_target/c_non-javascript-based-implementation/c_non-javascript-based-implementation.md#concept_4799C58B081A43F6B3B8CC25A8D5D7C4) for the right set up to meet your goals. 
 >1. Complete QA on the activity.
 
 >1. Launch the activity.

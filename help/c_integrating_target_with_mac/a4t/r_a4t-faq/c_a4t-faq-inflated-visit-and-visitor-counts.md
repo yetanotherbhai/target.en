@@ -6,7 +6,7 @@ seo-title: Inflated Visit and Visitor Counts - A4T FAQ
 solution: Target
 title: Inflated Visit and Visitor Counts - A4T FAQ
 topic: Standard
-uuid: 38f7fa86-a709-4d6d-acf8-dab03ad7b23f
+uuid: fb0a5f33-cb83-4f15-bcc9-4c8c63b4b78c
 index: y
 internal: n
 snippet: y

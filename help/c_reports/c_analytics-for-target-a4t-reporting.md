@@ -7,7 +7,7 @@ solution: Target
 subtopic: Multivariate Test
 title: Analytics for Target (A4T) Reporting
 topic: Standard
-uuid: cc64665d-12f4-4dc8-9f40-d87c86b6fe5f
+uuid: 5a03e524-4eea-4328-bc2f-263e96554f61
 index: y
 internal: n
 snippet: y
@@ -16,4 +16,4 @@ translate: y
 
 # Analytics for Target (A4T) Reporting
 
-For more information about A4T reports, see [ A4T Reporting](../c_integrating_target_with_mac/a4t/c_reporting.md#concept_716AF8D545AD404EAAEE99A6DB7B9483) in the [ Adobe Analytics as the Reporting Source for Adobe Target (A4T)](../c_integrating_target_with_mac/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) section. 
+For more information about A4T reports, see [ A4T Reporting](../c_integrating_target_with_mac/a4t/c_reporting.md#concept_716AF8D545AD404EAAEE99A6DB7B9483) in the [ Adobe Analytics as the Reporting Source for Adobe Target (A4T)](../c_integrating_target_with_mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) section. 

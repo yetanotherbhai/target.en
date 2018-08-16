@@ -7,7 +7,7 @@ solution: Target
 subtopic: Multivariate Test
 title: A4T Reporting
 topic: Standard
-uuid: 2936d40f-6f47-43dc-8e06-8c03e610fa11
+uuid: 7fe8f414-731a-490e-b4ff-1c83a6bf89c8
 index: y
 internal: n
 snippet: y
@@ -50,9 +50,9 @@ In Analytics, click **[!UICONTROL  Target]** > **[!UICONTROL  Target Activities]
 In Analytics, use the Target Activities report to view the results of your Target activity. Test&amp;Target (Legacy) Reports provides information about your old Test&amp;Target plug-in style page integrations and does not include Analytics for Target data. In the Activities report, view information about your Target experiences. Click **[!UICONTROL  Metrics]**, then select the **[!UICONTROL  Target]** metric type. Two metrics are available for your report: 
 
 
-* **Activity Entries: **Matches the Entrants number in the Target report. 
+* **Activity Entries:** Matches the Entrants number in the Target report. 
 
-* **Activity Conversions: **Matches the Custom Conversions number in the Target report. 
+* **Activity Conversions:** Matches the Custom Conversions number in the Target report. 
 
 
 

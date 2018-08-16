@@ -5,7 +5,7 @@ seo-description: Manage exclusion groups and duplicate offers in Automated Perso
 seo-title: Manage Exclusions
 solution: Target,Analytics
 title: Manage Exclusions
-uuid: fc182292-9965-41ad-8f70-ed49258f70ed
+uuid: f4ce52b2-eade-4209-b4b9-43280e95c79c
 index: y
 internal: n
 snippet: y

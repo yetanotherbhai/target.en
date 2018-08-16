@@ -3,7 +3,7 @@ description: The Adobe Mobile SDK contacts the Target server to get the content 
 seo-description: The Adobe Mobile SDK contacts the Target server to get the content along with other data points to show the right experience to the user.
 seo-title: How Target Works in Mobile Apps
 title: How Target Works in Mobile Apps
-uuid: 44f0081d-9397-4e27-a5eb-e562b4137107
+uuid: 047883ac-fd3c-405c-8f24-e64d40aa0ebc
 index: y
 internal: n
 snippet: y
@@ -15,9 +15,9 @@ translate: y
 
 ## Target Locations and Success Metrics {#section_A08AAB0ABA9C4568A5AFD4D27EF1CE74}
 
-A *target location* is also referred to as an [ mbox](../c_intro/c_target_concepts/c_mboxes.md#concept_85E01D9DD0B64BD3A138C2D3DB83BD57). An identified location in the app is enabled for testing or personalization (for example, the welcome message on the home screen). These locations are identified during the test creation process. 
+A *target location* is also referred to as an [ mbox](../c_intro/c_mboxes.md#concept_85E01D9DD0B64BD3A138C2D3DB83BD57). An identified location in the app is enabled for testing or personalization (for example, the welcome message on the home screen). These locations are identified during the test creation process. 
 
-A *[ success metric](../r_success_metrics.md#reference_D011575C85DA48E989A244593D9B9924)* is an action performed by the user that identifies if a specific activity was successful (such as signing up, making a purchase, booking a ticket, and so on). 
+A *[ success metric](../r_success_metrics/r_success_metrics.md#reference_D011575C85DA48E989A244593D9B9924)* is an action performed by the user that identifies if a specific activity was successful (such as signing up, making a purchase, booking a ticket, and so on). 
 
 ![](assets/mobile-target-location.png) 
 

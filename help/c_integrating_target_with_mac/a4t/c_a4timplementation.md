@@ -6,7 +6,7 @@ seo-title: Analytics for Target Implementation
 solution: Target
 title: Analytics for Target Implementation
 topic: Premium
-uuid: e3cd28c5-e3e8-4d7d-aee9-06ef7b656045
+uuid: 64439f99-e2a7-4830-b423-ac590dcbdba1
 index: y
 internal: n
 snippet: y

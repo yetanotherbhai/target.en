@@ -4,7 +4,7 @@ keywords: activity settings;A/B goals and settings;reporting settings;goal metri
 seo-description: The Goals and Settings page is where you enter information about the goals of the test.
 seo-title: Goals and Settings
 title: Goals and Settings
-uuid: 4b3beb13-f99f-4ea2-9e24-cbbe7490922a
+uuid: b17f8c6d-c9fb-45ef-89a5-80e3cc8210b9
 index: y
 internal: n
 snippet: y
@@ -25,58 +25,30 @@ This section contains the following information:
 * [ Other Metadata ](../../../c_activities/t_test_ab/t_test_create_ab/r_ab_goals_and_settings.md#section_2E8917BEFB954480A4206B9E9E917F80)
 
 
+**Activity Settings (3:02)** 
+
 This video includes information about activity settings. 
 
-<table id="table_A3A70CC0C9F54131BB9F098B4DA8C9D6"> 
- <thead> 
-  <tr> 
-   <th class="entry" colspan="2"> Activity Settings </th> 
-   <th colname="col3" class="entry"> 3:02 </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colspan="2"> 
-    <div width="550" class="video-iframe"> 
-     <iframe src="https://www.youtube.com/embed/6XNEM8tUADo/" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" oallowfullscreen="true" msallowfullscreen="true" allowfullscreen="allowfullscreen" scrolling="no" width="550" height="345">https://www.youtube.com/embed/6XNEM8tUADo/</iframe>
-    </div> </td> 
-   <td colname="col3"> <p> 
-     <ul id="ul_FF4FEC7BC7A34461BAA54FBE18A8E63B"> 
-      <li id="li_7D6D4CB2E771430F84D2B658F8611532">Enter an objective for your activity </li> 
-      <li id="li_61D9DDCD3AFB40E2BC55AFED5CD6C405">Set the priority level of your activities </li> 
-      <li id="li_745F20CC95DF4BE48173991CB42EC50A">Schedule activity start and end times </li> 
-      <li id="li_699D4D5D089A4FB7BA4C5E95337AC34A">Add audiences for reporting to create report filters </li> 
-      <li id="li_0EDDBA5E70B54F22A76F1D6D722914BE">Enter notes for your activities </li> 
-     </ul> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+
+* Enter an objective for your activity
+* Set the priority level of your activities
+* Schedule activity start and end times
+* Add audiences for reporting to create report filters
+* Enter notes for your activities
+
+
+>[!VIDEO](https://vimeo.com/6XNEM8tUADo) 
+
+**Creating A/B Tests (8:36)** 
 
 This video demonstrates how activity settings fit within the three-step guided workflow when creating an activity. Goals and settings are discussed beginning at 5:30. 
 
 
+* Create an A/B activity in Adobe Target
+* Allocate traffic using a manual split or automatic traffic allocation
 
-<table id="table_C56F4BE9B867463380013C584D97DAD2"> 
- <thead> 
-  <tr> 
-   <th class="entry" colspan="2"> Creating A/B Tests </th> 
-   <th colname="col3" class="entry"> 8:36 </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colspan="2"> <p> 
-     <div width="550" class="video-iframe"> 
-      <iframe src="https://www.youtube.com/embed/JG0dbWDAvtk/" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" oallowfullscreen="true" msallowfullscreen="true" allowfullscreen="allowfullscreen" scrolling="no" width="550" height="345">https://www.youtube.com/embed/JG0dbWDAvtk/</iframe>
-     </div> </p> </td> 
-   <td colname="col3"> <p> 
-     <ul id="ul_B17C3EFA4B664415AE0159E418FF45C4"> 
-      <li id="li_916224D2105348BE93D60015B2F43D4F">Create an A/B activity in Adobe Target </li> 
-      <li id="li_0FED234A3A054DEAB62C4F58BAB47F7F">Allocate traffic using a manual split or automatic traffic allocation </li> 
-     </ul> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+
+>[!VIDEO](https://vimeo.com/JG0dbWDAvtk) 
 
 The available settings depend on whether you use Target or Analytics as the data source. 
 
@@ -190,7 +162,7 @@ Advanced settings are available for A/B Test goal metrics.
  </tbody> 
 </table>
 
-See [ Success Metrics ](../../../r_success_metrics.md#reference_D011575C85DA48E989A244593D9B9924) for more information about advanced settings. 
+See [ Success Metrics ](../../../r_success_metrics/r_success_metrics.md#reference_D011575C85DA48E989A244593D9B9924) for more information about advanced settings. 
 
 ## Other Metadata {#section_2E8917BEFB954480A4206B9E9E917F80}
 

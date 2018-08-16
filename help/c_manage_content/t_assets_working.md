@@ -6,7 +6,7 @@ seo-title: Working with Content in the Library
 solution: Target
 title: Working with Content in the Library
 topic: Premium
-uuid: 834195fe-d757-4378-93a7-a093148d5605
+uuid: 02659ddd-71ef-4c24-aa8f-20495e0b8b1f
 index: y
 internal: n
 snippet: y
@@ -15,31 +15,15 @@ translate: y
 
 # Working with Content in the Library
 
-This video includes information about managing content. 
+This video includes information about managing content. (4:56) 
 
-<table id="table_A3A70CC0C9F54131BB9F098B4DA8C9D6"> 
- <thead> 
-  <tr> 
-   <th class="entry" colspan="2"> Content Library </th> 
-   <th colname="col3" class="entry"> 4:56 </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colspan="2"> 
-    <div width="550" class="video-iframe"> 
-     <iframe src="https://www.youtube.com/embed/ZNIGgXOATMY/" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" oallowfullscreen="true" msallowfullscreen="true" allowfullscreen="allowfullscreen" scrolling="no" width="550" height="345">https://www.youtube.com/embed/ZNIGgXOATMY/</iframe>
-    </div> </td> 
-   <td colname="col3"> <p> 
-     <ul id="ul_FF4FEC7BC7A34461BAA54FBE18A8E63B"> 
-      <li id="li_7D6D4CB2E771430F84D2B658F8611532">Connection between the <a href="https://marketing.adobe.com/resources/help/en_US/mcloud/creative_cloud.html" format="https" scope="external"> Experience Cloud Asset Library</a> and the Target Content Library </li> 
-      <li id="li_61D9DDCD3AFB40E2BC55AFED5CD6C405">Custom HTML Offers </li> 
-      <li id="li_745F20CC95DF4BE48173991CB42EC50A">Custom HTML Offer in the Visual Experience Composer </li> 
-     </ul> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
 
+* Connection between the [ Experience Cloud Asset Library](https://marketing.adobe.com/resources/help/en_US/mcloud/creative_cloud.html) and the Target Content Library
+* Custom HTML Offers
+* Custom HTML Offer in the Visual Experience Composer
+
+
+>[!VIDEO](https://vimeo.com/ZNIGgXOATMY) 
 
 >1. Click **[!UICONTROL  Offer]**, select the **[!UICONTROL  Code Offer]** or **[!UICONTROL  Image Offer]** tab, then locate the asset you want to work with.
 >   For more information about searching the Offer library and creating Smart Collections, see [ Filter and Search Content](../c_manage_content/c_filter-and-search-content.md#concept_3B59B8F025BF4CEA82ECC5199D365276). 
@@ -60,41 +44,40 @@ This video includes information about managing content.
   <tr> 
    <td colname="col1"> Annotate </td> 
    <td colname="col2"> <p>Image </p> </td> 
-   <td colname="col3"> Add a note to the asset. Click the asset, then select the area you want to annotate and type your note. </td> 
+   <td colname="col3"> <p>Add a note to the asset. Click the asset, then select the area you want to annotate and type your note. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Copy </td> 
    <td colname="col2"> <p>Experience </p> <p>Image </p> <p>Folder </p> <p>Text/HTML </p> </td> 
-   <td colname="col3"> Copy the asset to the clipboard. </td> 
+   <td colname="col3"> <p>Copy the asset to the clipboard. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Delete </td> 
    <td colname="col2"> <p>Experience </p> <p>Image </p> <p>Folder </p> <p>Text/HTML </p> </td> 
-   <td colname="col3"> Delete the asset. </td> 
+   <td colname="col3"> <p>Delete the asset. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Download </td> 
    <td colname="col2"> <p>Experience </p> <p>Image </p> <p>Text/HTML </p> </td> 
-   <td colname="col3"> Download the asset to your device or computer. </td> 
+   <td colname="col3"> <p>Download the asset to your device or computer. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Edit </td> 
    <td colname="col2"> <p>Image </p> <p>Text/HTML </p> </td> 
-   <td colname="col3"> Edit the asset. The Edit Asset screen opens, which contains some editing options, such as rotate and crop. </td> 
+   <td colname="col3"> <p>Edit the asset. The Edit Asset screen opens, which contains some editing options, such as rotate and crop. </p> </td> 
   </tr>
   <!-- <row> <entry colname="col1">Move </entry> <entry colname="col2"> <p>Experience </p> <p>Image </p> <p>Folder </p> <p>Text/HTML </p> </entry> <entry colname="col3">Move the asset to another location. To move the asset, specify a name for the asset, select a destination, adjust any references to the asset, and republish to the new location. </entry> </row> --> 
   <tr> 
    <td colname="col1"> Share Card </td> 
    <td colname="col2"> <p>Experience </p> <p>Image </p> <p>Text/HTML </p> </td> 
-   <td colname="col3"> Share the card on another board. You can draw an annotation, select the board to share with, and add a comment about the card. </td> 
+   <td colname="col3"> <p>Share the card on another board. You can draw an annotation, select the board to share with, and add a comment about the card. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> View Properties </td> 
    <td colname="col2"> <p>Experience </p> <p>Image </p> <p>Text/HTML </p> </td> 
-   <td colname="col3"> View the asset's properties. Click the Pencil icon on the properties page to edit the properties and add more info. You can add metadata information, publication status, and license data. </td> 
+   <td colname="col3"> <p>View the asset's properties. Click the Pencil icon on the properties page to edit the properties and add more info. You can add metadata information, publication status, and license data. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >1. To change the image that represents an item in the library, click the item, then click the **[!UICONTROL  Properties]** icon, click **[!UICONTROL  Edit]**, and then add an image.
-

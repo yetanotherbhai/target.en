@@ -5,7 +5,7 @@ seo-description: Multivariate Tests require some planning before you can create 
 seo-title: Plan a Multivariate Test
 solution: Target
 title: Plan a Multivariate Test
-uuid: 69daad3d-d3ac-49d8-be9c-b8a46f7ffbc5
+uuid: a97ee074-0047-4653-9c84-dccfa3d87957
 index: y
 internal: n
 snippet: y
@@ -14,31 +14,16 @@ translate: y
 
 # Plan a Multivariate Test
 
+**Creating Multivariate Tests (9:25)** 
+
 This video demonstrates how to plan and create a multivariate test using the Target three-step guided workflow. 
 
 
+* Define and design a multivariate test
+* Create a multivariate test
 
-<table id="table_C56F4BE9B867463380013C584D97DAD2"> 
- <thead> 
-  <tr> 
-   <th class="entry" colspan="2"> Creating Multivariate Tests </th> 
-   <th colname="col3" class="entry"> 9:25 </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colspan="2"> <p> 
-     <div width="550" class="video-iframe"> 
-      <iframe src="https://www.youtube.com/embed/X8w5IQqEOow/" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" oallowfullscreen="true" msallowfullscreen="true" allowfullscreen="allowfullscreen" scrolling="no" width="550" height="345">https://www.youtube.com/embed/X8w5IQqEOow/</iframe>
-     </div> </p> </td> 
-   <td colname="col3"> <p> 
-     <ul id="ul_B17C3EFA4B664415AE0159E418FF45C4"> 
-      <li id="li_916224D2105348BE93D60015B2F43D4F">Define and design a multivariate test </li> 
-      <li id="li_0FED234A3A054DEAB62C4F58BAB47F7F">Create a multivariate test </li> 
-     </ul> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+
+>[!VIDEO](https://vimeo.com/X8w5IQqEOow) 
 
 Multivariate tests require sufficient traffic to generate useful results. Before setting up your test, you should be aware of the amount of traffic you typically get, including the number of impressions and conversions. Having this information will reduce the likelihood of designing a test with requirements that exceed your site's traffic. 
 

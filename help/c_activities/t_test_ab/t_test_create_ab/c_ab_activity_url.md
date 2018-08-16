@@ -6,7 +6,7 @@ seo-title: Activity URL
 solution: Target
 title: Activity URL
 topic: Standard
-uuid: faa7c426-fb0a-41ca-bf6e-4f6b248463d2
+uuid: ab6d839c-9b71-4760-a73e-95ee0d608e03
 index: y
 internal: n
 snippet: y

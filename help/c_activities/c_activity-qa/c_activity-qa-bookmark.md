@@ -6,7 +6,7 @@ seo-title: Activity QA Bookmarklet
 solution: Target
 title: Activity QA Bookmarklet
 topic: Advanced,Standard,Classic
-uuid: 7c3175ee-1c13-4d01-8949-3a359820023d
+uuid: 48441269-9886-4345-aadb-c25e0cb79c7e
 index: y
 internal: n
 snippet: y
@@ -15,11 +15,11 @@ translate: y
 
 # Activity QA Bookmarklet
 
-Because [ QA mode](../../c_activities/c_activity-qa.md#concept_9329EF33DE7D41CA9815C8115DBC4E40) is sticky, after you browse a website in QA mode, your Target session must expire or you need to have Target release you from QA mode before you can view your site like a typical visitor. Use the QA Target bookmarklet to force yourself out of QA mode. 
+Because [ QA mode](../../c_activities/c_activity-qa/c_activity-qa.md#concept_9329EF33DE7D41CA9815C8115DBC4E40) is sticky, after you browse a website in QA mode, your Target session must expire or you need to have Target release you from QA mode before you can view your site like a typical visitor. Use the QA Target bookmarklet to force yourself out of QA mode. 
 
 To use the Target QA bookmarklet, drag the following bookmarklet to your browser's Bookmarks Toolbar: 
 
-**Bookmarklet: **[ Release Adobe Target Activity QA](javascript:(function () {var parts = window.location.href.split('at_preview_token',2); if (parts.length > 1) {window.location.href = parts[0].concat('at_preview_token=');} })();) 
+**Bookmarklet:** [ Release Adobe Target Activity QA](javascript:(function () {var parts = window.location.href.split('at_preview_token',2); if (parts.length > 1) {window.location.href = parts[0].concat('at_preview_token=');} })();) 
 
 The bookmarklet should then appear on the toolbar for re-use. 
 
