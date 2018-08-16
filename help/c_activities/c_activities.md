@@ -23,6 +23,8 @@ All activity types other than [!UICONTROL  Automated Personalization] give you t
 >Archived and ended activities do not appear in the [!UICONTROL  Activities] list. To view these activities, filter them using the advanced filter settings on left rail. 
 
 
+THIS IS A NOTE FROM BOB
+
 
 **Activity Types (9:03)** 
 

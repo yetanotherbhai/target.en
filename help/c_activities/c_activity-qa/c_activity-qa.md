@@ -18,6 +18,7 @@ translate: y
 
 <a id="section_CF715867CAC34DE397D8712C99AC86D8"></a>
 
+<<<<<<< HEAD:help/c_activities/c_activity-qa/c_activity-qa.md
 This section contains the following information: 
 
 
@@ -28,6 +29,9 @@ This section contains the following information:
 * [ Considerations ](../../c_activities/c_activity-qa/c_activity-qa.md#section_B256EDD7BFEC4A6DA72A8A6ABD196D78) 
 
 
+=======
+BOB DELETED INTRO
+>>>>>>> f0a4646e04e894ba195b1539be75d51482b39b61:help/c_activities/c_activity-qa.md
 
 ## Overview {#section_11B761A522A14E61978275772210A4C2}
 

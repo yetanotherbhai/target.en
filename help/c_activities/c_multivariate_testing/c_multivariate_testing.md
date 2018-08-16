@@ -15,6 +15,7 @@ translate: y
 
 # Multivariate Test
 
+<<<<<<< HEAD:help/c_activities/c_multivariate_testing/c_multivariate_testing.md
 This section contains the following information: 
 
 
@@ -23,6 +24,9 @@ This section contains the following information:
 * [ When to Use MVT vs A/B ](../../c_activities/c_multivariate_testing/c_multivariate_testing.md#section_3D2B966B6671406C861A1843EA41D28C)
 * [ Considerations ](../../c_activities/c_multivariate_testing/c_multivariate_testing.md#section_979FE3F398654C1EA1C86E7DBC9A8DAD)
 
+=======
+Multivariate Testing (MVT) compares combinations of offers in elements on a page to determine which combination performs the best for a specific audience, and identifies which element most impacts the activity's success.
+>>>>>>> f0a4646e04e894ba195b1539be75d51482b39b61:help/c_activities/c_multivariate_testing.md
 
 ## MVT Overview {#section_C73A2D1409EC42C9B0EDD4B976651C5E}
 
@@ -30,12 +34,17 @@ This section contains the following information:
 
 This video explains how to understand, plan, and create a multivariate test using the Target three-step guided workflow. 
 
+>[!VIDEO](https://www.youtube.com/X8w5IQqEOow/)
 
+<<<<<<< HEAD:help/c_activities/c_multivariate_testing/c_multivariate_testing.md
 * Define and design a multivariate test
 * Create a multivariate test
 
 
 >[!VIDEO](https://vimeo.com/X8w5IQqEOow) 
+=======
+*This video shows how to define and design a multivariate test*
+>>>>>>> f0a4646e04e894ba195b1539be75d51482b39b61:help/c_activities/c_multivariate_testing.md
 
 Multivariate testing can help you discover the relative influence specific elements have on conversion, compared to other elements on the page. It can also help you refine a combination of elements that have been shown to be effective. 
 
@@ -55,6 +64,7 @@ Because of the number of combinations that can be generated, a multivariate test
 
 This video explains the activity types available in Target Standard/Premium. Multivariate testing is discussed beginning at 4:20. 
 
+<<<<<<< HEAD:help/c_activities/c_multivariate_testing/c_multivariate_testing.md
 
 * Describe the types of activities included in [!DNL  Adobe Target] 
 
@@ -63,6 +73,30 @@ This video explains the activity types available in Target Standard/Premium. Mul
 * Describe the three-step guided workflow that applies to all activity types 
 
 
+=======
+<table id="table_C56F4BE9B867463380013C584D97DAD2"> 
+ <thead> 
+  <tr> 
+   <th class="entry" colspan="2"> Activity Types </th> 
+   <th colname="col3" class="entry"> 9:03 </th> 
+  </tr> 
+ </thead>
+ <tbody> 
+  <tr> 
+   <td colspan="2"> <p> 
+     <div width="550" class="video-iframe"> 
+      <iframe src="https://www.youtube.com/embed/vtHg1pPFJp8/" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" oallowfullscreen="true" msallowfullscreen="true" allowfullscreen="allowfullscreen" scrolling="no" width="550" height="345">https://www.youtube.com/embed/vtHg1pPFJp8/</iframe>
+     </div> </p> </td> 
+   <td colname="col3"> <p> 
+     <ul id="ul_B17C3EFA4B664415AE0159E418FF45C4"> 
+      <li id="li_916224D2105348BE93D60015B2F43D4F"> <p>Describe the types of activities included in Adobe Target </p> </li> 
+      <li id="li_0FED234A3A054DEAB62C4F58BAB47F7F"> <p>Select the appropriate activity type to achieve your goals </p> </li> 
+      <li id="li_6C4D1871E45D40118D7D9D4DF81547B5"> <p>Describe the three-step guided workflow that applies to all activity types </p> </li> 
+     </ul> </p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+>>>>>>> f0a4646e04e894ba195b1539be75d51482b39b61:help/c_activities/c_multivariate_testing.md
 
 >[!VIDEO](https://vimeo.com/vtHg1pPFJp8) 
 
@@ -72,13 +106,13 @@ When setting up a multivariate test, it is useful to understand some basic termi
 
 There are multiple terms used in different ways across the industry. This section defines the terms used by Target. 
 
-**Combination: ** The content variations created when you test multiple content options in multiple locations. For example, if you are testing three locations, each with three content options, then there are 27 possible combinations (3x3x3). A visitor to your site will see one combination, also referred to as an experience. 
+**Combination:** The content variations created when you test multiple content options in multiple locations. For example, if you are testing three locations, each with three content options, then there are 27 possible combinations (3x3x3). A visitor to your site will see one combination, also referred to as an experience. 
 
-**Content: ** The text or image comprising a test variation within a location. In a multivariate test, a number of content options within multiple locations are compared. In MVT methodology, the content is sometimes referred to as a *level*. 
+**Content:** The text or image comprising a test variation within a location. In a multivariate test, a number of content options within multiple locations are compared. In MVT methodology, the content is sometimes referred to as a *level*. 
 
-**Element: ** A DOM element containing content variations to be tested in the MVT test. See also *Location*. 
+**Element:** A DOM element containing content variations to be tested in the MVT test. See also *Location*. 
 
-**Location: ** A specific content area on a page, often contained by a single DOM element. In MVT methodology, a location is sometimes referred to as a *factor*. A full-factorial multivariate test compares all possible combinations of offers in your locations. 
+**Location:** A specific content area on a page, often contained by a single DOM element. In MVT methodology, a location is sometimes referred to as a *factor*. A full-factorial multivariate test compares all possible combinations of offers in your locations. 
 
 ## When to Use MVT vs A/B {#section_3D2B966B6671406C861A1843EA41D28C}
 
@@ -124,8 +158,12 @@ Multivariate tests can be used together with A/B tests to optimize your page. Ex
 
     * After the activity is over (based on the sample size calculator), run results through the spreadsheet to get the other details. 
 
+<<<<<<< HEAD:help/c_activities/c_multivariate_testing/c_multivariate_testing.md
 
 
 
 
 For more considerations and best practices, see [ Multivariate Test Best Practices ](../../c_activities/c_multivariate_testing/r_best_practices.md#reference_53635817FFB741EF8C4E56CC70688EDD). 
+=======
+For more considerations and best practices, see [ Multivariate Test Best Practices ](../c_activities/c_multivariate_testing/r_best_practices.md#reference_53635817FFB741EF8C4E56CC70688EDD). 
+>>>>>>> f0a4646e04e894ba195b1539be75d51482b39b61:help/c_activities/c_multivariate_testing.md
