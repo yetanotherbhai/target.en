@@ -14,67 +14,70 @@ translate: y
 
 **Prerequisites** 
 
-
 * This integration requires that Analytics and Target are implemented using the mobile SDK.
 * Ensure that your report suite is enabled to receive Activity information from Target. This is usually done by adding the Target client code to the Analytics report suite. This might be enabled already if you are using the SiteCatalyst-Test&amp;amp;Target integration for web activities. Contact Adobe Client Care if you have any questions about this step. 
 
+1. Obtain the activity information.
 
+   If you include a string like the following in your experience content, Target returns the campaign information that you can send to Analytics: 
 
->1. Obtain the activity information.
+   ```
+   ${campaign.id}:${campaign.recipe.id}:${campaign.recipe.trafficType}
+   ```
 
->       If you include a string like the following in your experience content, Target returns the campaign information that you can send to Analytics: 
+   Replace the text in your experience json code with something like the following example: 
 
->    
->       ```
->       ${campaign.id}:${campaign.recipe.id}:${campaign.recipe.trafficType}
->       ```
+   ```
+   { 
+      "tntVal": ${campaign.id}:${campaign.recipe.id}:${campaign.recipe.trafficType}", 
+      "title":"Welcome Message",
+      "message":"Get Free Shipping Today!" 
+   }
+   ```
 
+   In this example, a node with the variable ' ` tntVal`' is added to obtain the Activity information. Add similar code for the other experiences, with an appropriate title and message. 
 
->       Replace the text in your experience json code with something like the following example: 
+   This string delivers a number (such as 115110:0:0) in the response from Target. This indicates the Activity ID, experience ID, and traffic Type. The following is a smple response from Target: 
 
->    
->       ```
->       { 
->         "tntVal": ${campaign.id}:${campaign.recipe.id}:${campaign.recipe.trafficType}", 
->         "title":"Welcome Message", 
->         "message":"Get Free Shipping Today!" 
->       }
->       ```
+   ```
+      {
+         "tntVal": 115110:0:0",
+         "title":"Welcome Message",
+         "message":"Get Free Shipping Today!" 
+      }
+   ```
 
+1. Parse the JSON object.
 
->       In this example, a node with the variable ' ` tntVal`' is added to obtain the Activity information. Add similar code for the other experiences, with an appropriate title and message. 
+   Parse the response that came back from Target in the callback. You can use NSJSONSerialization to parse this response and store it in a dict or an array.
+   
+   Refer to the [ NSJSONSerialization documentation ](https://developer.apple.com/library/ios/documentation/Foundation/Reference/NSJSONSerialization_Class/#//apple_ref/occ/clm/NSJSONSerialization/JSONObjectWithData:options:error) for more information. 
 
->       This string delivers a number (such as 115110:0:0) in the response from Target. This indicates the Activity ID, experience ID, and traffic Type. The following is a smple response from Target: 
-
->    
->       ```
->       { 
->         "tntVal": 115110:0:0", 
->         "title":"Welcome Message", 
->         "message":"Get Free Shipping Today!" 
->       }
->       ```
-
->1. Parse the JSON object.
-
->       Parse the response that came back from Target in the callback. You can use NSJSONSerialization to parse this response and store it in a dict or an array. 
-
->       Refer to the [ NSJSONSerialization documentation ](https://developer.apple.com/library/ios/documentation/Foundation/Reference/NSJSONSerialization_Class/#//apple_ref/occ/clm/NSJSONSerialization/JSONObjectWithData:options:error) for more information. 
->1. Send the data to Analytics.
-
->       Add the parsed activity information (such as ` tntVal` in the above response) to your context data object in an analytics call. This Analytics call containing the context data can be fired immediately or it can wait until the next Analytics call is fired. 
-
->       For example, this call can be fired in the callback of the ` targetLoadRequest` call: 
-
+<<<<<<< HEAD
 >    
 >       ```
 >       [ADBMobile trackAction:@"Welcome Screen"  
 >             data:@{@"&&tnt" : tntVal from response}];
 >       ```
+=======
+1. Send the data to Analytics.
+>>>>>>> 266567237333d2432136070e5b0377db6bd425b3
 
+   Add the parsed activity information (such as ` tntVal` in the above response) to your context data object in an analytics call. This Analytics call containing the context data can be fired immediately or it can wait until the next Analytics call is fired. 
 
+   For example, this call can be fired in the callback of the ` targetLoadRequest` call: 
 
+<<<<<<< HEAD
 >       >[!NOTE]
 >       >
 >       >` &&tnt`is a reserved event key in the mobile SDK. The post-classification of the ` tntVal` variable in Analytics works in the same way in the mobile SDK as it does in on the web (JavaScript). Once the information is processed in Analytics, you should see activity and experience names in the Analytics interface. 
+=======
+   ```
+     [ADBMobile trackAction:@"Welcome Screen"  
+       data:@{@"&amp;&amp;tnt" : tntVal from response}];
+   ```
+>>>>>>> 266567237333d2432136070e5b0377db6bd425b3
 
+>[!NOTE]
+>
+>` &amp;amp;&amp;amp;tnt`is a reserved event key in the mobile SDK. The post-classification of the ` tntVal` variable in Analytics works in the same way in the mobile SDK as it does in on the web (JavaScript). Once the information is processed in Analytics, you should see activity and experience names in the Analytics interface. 

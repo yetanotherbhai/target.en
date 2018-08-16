@@ -1,10 +1,10 @@
 ---
+title: Limitations
 description: Information about the character limits and other limitations that affect activities and other elements in Adobe Target.
 keywords: character limit;mbox parameters;batch delivery api;profile parameters;limits;built in profiles;maximum;limit;constraint;character;best practice;orderid;orderTotal;mbox3rdPartyID;category;categoryID
 seo-description: Information about the character limits and other limitations that affect activities and other elements in Adobe Target.
 seo-title: Limitations
 solution: Target
-title: Limitations
 topic: Standard
 uuid: 65badcb3-acbf-4a87-b9cd-7f6ae03c1417
 index: y
@@ -15,12 +15,13 @@ translate: y
 
 # Limitations
 
+The limits listed below are recommended limits. When these limits are approached or exceeded, performance can slow. Slow interface load times can also be caused by a very complex activity, such as many audiences, targets, and experiences all in one activity. 
 
->The limits listed below are recommended limits. When these limits are approached or exceeded, performance can slow. Slow interface load times can also be caused by a very complex activity, such as many audiences, targets, and experiences all in one activity. Highly complex activities should be reviewed with Adobe Consulting and tested in a limited environment before being released to production. 
+Highly complex activities should be reviewed with Adobe Consulting and tested in a limited environment before being released to production. 
 
+## List of Parameter Limits
 
-
-><table id="table_6B409D2807E647019412FE296603032B"> 
+<table id="table_6B409D2807E647019412FE296603032B"> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> Feature </th> 

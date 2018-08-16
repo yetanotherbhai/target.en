@@ -1,10 +1,10 @@
 ---
-description: Target can exchange notifications with other Adobe Experience Cloud solutions using Adobe Pulse.
+title: Notifications
+description: Target can exchange notifications with other  Experience Cloud solutions using Pulse.
 keywords: notifications
 seo-description: Target can exchange notifications with other Adobe Experience Cloud solutions using Adobe Pulse.
 seo-title: Notifications
-solution: Target
-title: Notifications
+product: Target
 topic: Standard
 uuid: 58c0b7e9-73d0-42b0-973b-eb315474c6e8
 index: y
@@ -15,16 +15,18 @@ translate: y
 
 # Notifications
 
-Notifications from [!DNL  Target] can be seen in all solutions by users who have a [!DNL  Experience Cloud]product context of [!DNL  Target Standard/Premium]. 
+Notifications from [!DNL Target] can be seen in all solutions by users who have a [!DNL Experience Cloud] product context of [!DNL Target Standard/Premium]. 
 
-For information about setting up Notifications, see [ Notifications](https://marketing.adobe.com/resources/help/en_US/mcloud/notifications.html) in the [!DNL  Adobe Experience Cloud] documentation. 
+>[!NOTE[
+>For information about setting up Notifications, see [ Notifications](https://marketing.adobe.com/resources/help/en_US/mcloud/notifications.html) in the [!DNL Adobe Experience Cloud] documentation. 
 
-Access Notifications from anywhere in [!DNL  Target], except from within the activity creation workflow. Click the bell icon in the page header to display or hide the notifications widget. 
+## Accessing Notifications
+
+Access Notifications from anywhere in [!DNL Target], except from within the activity creation workflow. Click the bell icon in the page header to display or hide the notifications widget. 
 
 ![](assets/notifications-shell.png) 
 
 [!DNL  Target] sends two kinds of notifications for all activity types: 
-
 
 * When an activity becomes live and offer delivery begins: For example: 
 
@@ -50,9 +52,8 @@ For example, if you click the card shown above, the three notifications display:
 
 ![](assets/notif-multi-open.png) 
 
-## Limitations {#section_B466EB20B2554CE7B1915374B39F4322}
+## Limitations
 
 
 * Notifications do not tell you who approved, deactivated, or imported the activity.
 * MVT notifications appear as "A/B Test" because they are synchronized as A/B campaigns in [!DNL  Target Classic].
-
