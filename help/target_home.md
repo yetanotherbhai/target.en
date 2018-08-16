@@ -1,8 +1,9 @@
 ---
-keywords: Target;home;popular topics
-seo-title: Adobe Target Product Documentation
-solution: Target
 title: Adobe Target Product Documentation
+description: Technical documentation for Target
+seo-title: Adobe Target Product Documentation
+seo-description: Technical product documentation for Adobe Target Standard and Premium
+product: Target
 topic: Premium
 uuid: 688bbcde-111c-4efc-94eb-6538014e37f7
 index: y
@@ -11,13 +12,11 @@ snippet: y
 translate: y
 ---
 
-# Adobe Target Product Documentation
+# Adobe Target Documentation
 
-[!DNL  Adobe Target] is the [!DNL  Adobe Experience Cloud] solution that provides everything you need to tailor and personalize your customers' experience so you can maximize revenue on your web and mobile sites, apps, social media, and other digital channels. 
+[!DNL Adobe Target] is the [!DNL Adobe Experience Cloud] solution providing everything you need to tailor and personalize your customers' experience so you can maximize revenue on your web and mobile sites, apps, social media, and other digital channels. 
 
-**Last Updated: August 15, 2018 ( [ See What Changed ](https://marketing.adobe.com/resources/help/en_US/target/target/r_doc_change.html) )** 
-
-
+**Last Updated: August 15, 2018 [See What Changed ](https://marketing.adobe.com/resources/help/en_US/target/target/r_doc_change.html) )** 
 
 <table id="table_1887789FB95243F9AC71E6FC4A50650A"> 
  <tbody> 
@@ -26,7 +25,6 @@ translate: y
   </tr> 
  </tbody> 
 </table>
-
 
 
 <table id="table_882B0982144442F79328A4FA45BD5C7E" frame="none"> 
