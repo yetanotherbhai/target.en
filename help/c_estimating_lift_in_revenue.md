@@ -1,10 +1,9 @@
 ---
-description: Target can estimate the revenue lift you would attain if all users view the winning experience.
-keywords: revenue lift;revenue;estimating lift in revenue;calculate lift;estimated value
-seo-description: Target can estimate the revenue lift you would attain if all users view the winning experience.
-seo-title: Estimating Lift in Revenue
-solution: Target
 title: Estimating Lift in Revenue
+description: Target can estimate the revenue lift you would attain if all users view the winning experience.
+seo-description: Adobe Target can estimate the revenue lift you would attain if all users view the winning experience.
+seo-title: Estimating Lift in Revenue in Adobe Target
+product: Target
 topic: Advanced,Standard,Classic
 uuid: fbb5e4bd-3e65-4e16-90e4-0481f2885581
 index: y
@@ -14,7 +13,6 @@ translate: y
 ---
 
 # Estimating Lift in Revenue
-
 
 >[!NOTE]
 >
