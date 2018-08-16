@@ -7,7 +7,7 @@ solution: Target
 subtopic: Getting Started
 title: Supported Browsers
 topic: Standard
-uuid: d65da11c-802d-4ede-8b0a-a04c90c267d6
+uuid: 48d73726-ea76-40e4-90a9-7acec52fc272
 index: y
 internal: n
 snippet: y
@@ -114,7 +114,7 @@ Content delivery has been tested across the following browsers and devices:
 
 For [!DNL  at.js] implementations, Target displays default content in earlier versions of Internet Explorer and possibly in earlier versions of the above-listed browsers. For [!DNL  mbox.js] implementations, Target tries to render content but might not be successful. 
 
-Target displays default content in browsers not listed above and in browsers using [ quirks mode ](https://en.wikipedia.org/wiki/Quirks_mode). at.js requires a doctype that renders in standard mode, for example: ` &amp;lt;!DOCTYPE html&amp;gt;` . 
+Target displays default content in browsers not listed above and in browsers using [ quirks mode ](https://en.wikipedia.org/wiki/Quirks_mode). at.js requires a doctype that renders in standard mode, for example: ` <!DOCTYPE html>` . 
 
 
 >[!NOTE]

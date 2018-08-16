@@ -6,7 +6,7 @@ seo-title: Operating System
 solution: Target
 title: Operating System
 topic: Classic
-uuid: a4122d0f-6d10-4d38-9ab1-606450de51c3
+uuid: 9ec9be7e-ab4c-4d23-8154-aa21b6bacea3
 index: y
 internal: n
 snippet: y

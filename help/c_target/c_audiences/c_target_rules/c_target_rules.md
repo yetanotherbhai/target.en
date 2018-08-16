@@ -5,7 +5,7 @@ seo-description: You can target on any of several categories. Each category func
 seo-title: Categories for Audiences
 solution: Target
 title: Categories for Audiences
-uuid: 2c7bdfb9-294c-454e-a9ac-a8de427962e5
+uuid: f80a8d19-7c5d-4be4-bf61-5ce0965887b9
 index: y
 internal: n
 snippet: y

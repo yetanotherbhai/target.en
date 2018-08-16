@@ -7,7 +7,7 @@ solution: Target
 subtopic: Multivariate Test
 title: Troubleshooting Analytics and Target Integration (A4T)
 topic: Standard
-uuid: 9cb24b1a-a580-46c9-94c7-01a29f548e7c
+uuid: 2f122ef9-be6f-4b75-80de-e594627daa2e
 index: y
 internal: n
 snippet: y
@@ -72,7 +72,7 @@ A4T activities require an analytics tracking server to be specified. See [ Using
 
 >[!NOTE]
 >
->If you use Adobe Analytics as your activity's reporting source, you do not need to specify a tracking server during activity creation if you are using ` mbox.js` version 61 (or later) or ` at.js` version 0.9.1 (or later). The ` mbox.js` or ` at.js` library automatically sends tracking server values to [!DNL  Target]. During activity creation, you can leave the [!UICONTROL  Tracking Server] field empty on the [!UICONTROL  Goals &amp;amp; Settings] page. 
+>If you use Adobe Analytics as your activity's reporting source, you do not need to specify a tracking server during activity creation if you are using ` mbox.js` version 61 (or later) or ` at.js` version 0.9.1 (or later). The ` mbox.js` or ` at.js` library automatically sends tracking server values to [!DNL  Target]. During activity creation, you can leave the [!UICONTROL  Tracking Server] field empty on the [!UICONTROL  Goals &amp; Settings] page. 
 
 
 

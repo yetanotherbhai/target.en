@@ -6,7 +6,7 @@ seo-title: Page Modification Scenarios
 solution: Target
 title: Page Modification Scenarios
 topic: Premium
-uuid: 13d77005-40b7-40cf-8051-9dd427419cf2
+uuid: 87eb91d1-9dfe-45d4-b582-1e2220e7f1d7
 index: y
 internal: n
 snippet: y
@@ -36,15 +36,15 @@ There is a possibility that first class present on the element might be added by
 
 
 ```
-&amp;lt;li&amp;nbsp;class="kids-section"&amp;gt;Kids&amp;lt;/li&amp;gt;
+<li class="kids-section">Kids</li>
 ```
 
 
 **Selected:** 
 
-` &amp;lt;li class="women-section"&amp;gt;Women&amp;lt;/li&amp;gt;` 
+` <li class="women-section">Women</li>` 
 
-Selector: ` #wrap &amp;gt; ul.nav:eq(0) &amp;gt; li.women-section:eq(0)`
+Selector: ` #wrap > ul.nav:eq(0) > li.women-section:eq(0)`
 
 **Result:** 
 
@@ -103,9 +103,9 @@ In this scenario, an attempt is made to insert a list when an item in a list is 
 
 **Selected** 
 
-` &amp;lt;li class="women-section"&amp;gt;Women&amp;lt;/li&amp;gt;` 
+` <li class="women-section">Women</li>` 
 
-Selector: ` #wrap &amp;gt; ul.nav:eq(0) &amp;gt; li.women-section:eq(0)`
+Selector: ` #wrap > ul.nav:eq(0) > li.women-section:eq(0)`
 
 **Result:** 
 
@@ -158,9 +158,9 @@ In this scenario, a list item is inserted after the selected element.
 
 **Selected:** 
 
-` &amp;lt;li class="women-section"&amp;gt;Women Shoes&amp;lt;/li&amp;gt;` 
+` <li class="women-section">Women Shoes</li>` 
 
-Selector: ` #wrap &amp;gt; ul.nav:eq(0) &amp;gt; li.women-section:eq(0)`
+Selector: ` #wrap > ul.nav:eq(0) > li.women-section:eq(0)`
 
 **Result:** 
 
@@ -204,15 +204,15 @@ In this scenario, the list item before the selected element is deleted.
 
 
 ```
-&amp;lt;li&amp;nbsp;class="men-section"&amp;gt;&amp;nbsp;Men&amp;nbsp;&amp;lt;/li&amp;gt;
+<li class="men-section"> Men </li>
 ```
 
 
 **Selected:** 
 
-` &amp;lt;li class="women-section"&amp;gt;Women&amp;lt;/li&amp;gt;` 
+` <li class="women-section">Women</li>` 
 
-Selector: ` #wrap &amp;gt; ul.nav:eq(0) &amp;gt; li.women-section:eq(0)`
+Selector: ` #wrap > ul.nav:eq(0) > li.women-section:eq(0)`
 
 **Result:** 
 
@@ -227,7 +227,7 @@ The element is successfully removed because the class of the selected item is no
 <div id="wrap"> 
    <ul class="nav"> 
        
-<b>&amp;lt;li&amp;nbsp;class="men-section"&amp;gt;Men&amp;lt;/li&amp;gt;</b> 
+<b><li class="men-section">Men</li></b> 
       <li class="women-section">Women</li> 
    </ul> 
 </div>
@@ -251,15 +251,15 @@ In this scenario, the list item after the selected element is deleted.
 
 
 ```
-&amp;lt;li&amp;nbsp;class="kids-section"&amp;gt;Kids&amp;lt;/li&amp;gt;
+<li class="kids-section">Kids</li>
 ```
 
 
 **Selected:** 
 
-` &amp;lt;li class="women-section"&amp;gt;Women&amp;lt;/li&amp;gt;` 
+` <li class="women-section">Women</li>` 
 
-Selector: ` #wrap &amp;gt; ul.nav:eq(0) &amp;gt; li.women-section:eq(0)`
+Selector: ` #wrap > ul.nav:eq(0) > li.women-section:eq(0)`
 
 **Result:** 
 
@@ -276,7 +276,7 @@ The element is successfully removed because the class of the selected item is no
       <li class="men-section">Men</li> 
       <li class="women-section">Women</li> 
        
-<b>&amp;lt;li&amp;nbsp;class="kids-section"&amp;gt;Women&amp;lt;/li&amp;gt;</b> 
+<b><li class="kids-section">Women</li></b> 
    </ul> 
 </div>
 ```
@@ -300,15 +300,15 @@ In this scenario, the selected list item is deleted.
 
 
 ```
-&amp;lt;li&amp;nbsp;class="women-shoes"&amp;gt;Women&amp;lt;/li&amp;gt;
+<li class="women-shoes">Women</li>
 ```
 
 
 **Selected:** 
 
-` &amp;lt;li class="women-shoes"&amp;gt;Women&amp;lt;/li&amp;gt;` 
+` <li class="women-shoes">Women</li>` 
 
-Selector: ` #wrap &amp;gt; ul.nav:eq(0) &amp;gt; li.women-section:eq(0)`
+Selector: ` #wrap > ul.nav:eq(0) > li.women-section:eq(0)`
 
 **Result:** 
 
@@ -346,15 +346,15 @@ In this scenario, the class of the selected list item is changed.
 
 
 ```
-&amp;lt;li&amp;nbsp;class="women-section"&amp;gt;Women&amp;lt;/li&amp;gt;
+<li class="women-section">Women</li>
 ```
 
 
 **Selected:** 
 
-` &amp;lt;li class="women-section"&amp;gt;Women&amp;lt;/li&amp;gt;` 
+` <li class="women-section">Women</li>` 
 
-Selector: ` #wrap &amp;gt; ul.nav:eq(0) &amp;gt; li.women-section:eq(0)`
+Selector: ` #wrap > ul.nav:eq(0) > li.women-section:eq(0)`
 
 **Result:** 
 
@@ -370,7 +370,7 @@ The element class cannot be renamed because ` class` is not found.
    <ul class="nav"> 
       <li class="men-section">Men</li> 
        
-<b>&amp;lt;li&amp;nbsp;class="women-section"&amp;gt;Women&amp;lt;/li&amp;gt;</b> 
+<b><li class="women-section">Women</li></b> 
    </ul> 
 </div>
 ```
@@ -380,7 +380,7 @@ The element class cannot be renamed because ` class` is not found.
    <ul class="nav"> 
       <li class="men-section">Men</li> 
        
-<b>&amp;lt;li&amp;nbsp;class="women-shoes"&amp;gt;Women&amp;lt;/li&amp;gt;</b> 
+<b><li class="women-shoes">Women</li></b> 
    </ul> 
 </div>
 ```

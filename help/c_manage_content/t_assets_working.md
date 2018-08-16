@@ -6,7 +6,7 @@ seo-title: Working with Content in the Library
 solution: Target
 title: Working with Content in the Library
 topic: Premium
-uuid: 02659ddd-71ef-4c24-aa8f-20495e0b8b1f
+uuid: 4af1587f-a24e-4fdc-aca9-c58a25122922
 index: y
 internal: n
 snippet: y

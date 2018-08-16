@@ -7,7 +7,7 @@ solution: Target
 subtopic: Getting Started
 title: Customize a Global mbox
 topic: Standard
-uuid: ed617f73-a6a9-4927-a641-bf76fa1d25dd
+uuid: f5590faa-151c-4336-b971-ee8dd78699f1
 index: y
 internal: n
 snippet: y

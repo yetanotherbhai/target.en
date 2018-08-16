@@ -6,7 +6,7 @@ seo-title: User Permission Requirements
 solution: Target,Analytics
 title: User Permission Requirements
 topic: Reports and analytics
-uuid: 0507a11a-d9b9-4b55-bf24-5ad89097823b
+uuid: c339e8ba-30e8-4ca5-8de5-e2335c04ff5d
 index: y
 internal: n
 snippet: y
@@ -25,7 +25,7 @@ Before a report suite can be selected when defining an Analytics activity, you n
 
 See [ Join the Experience Cloud ](https://marketing.adobe.com/resources/help/en_US/mcloud/link_accounts.html) for more information. 
 
-* **Linked Accounts**. Your Analytics and Target user accounts must be linked to your Adobe ID. To verify, open **[!UICONTROL  Account Settings]** > **[!UICONTROL  Organization &amp;amp; Product Access]**. 
+* **Linked Accounts**. Your Analytics and Target user accounts must be linked to your Adobe ID. To verify, open **[!UICONTROL  Account Settings]** > **[!UICONTROL  Organization &amp; Product Access]**. 
   ![](assets/linking.png)
 * **Experience Cloud group membership**. You must be a member of one or more Experience Cloud groups that have access to Analytics and Target. Verify that **[!UICONTROL  Analytics]** and **[!UICONTROL  Target]** appear in the **[!UICONTROL  Marketing Apps]** section of the left navigation: 
   ![](assets/analytics-target-access.png) Also verify that when you click on Analytics you see your full Analytics account. If you only see a welcome page with no access to your data, relink your account. 

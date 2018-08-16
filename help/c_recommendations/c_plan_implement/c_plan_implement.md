@@ -7,7 +7,7 @@ solution: Target
 title: Planning and Implementation
 title_outputclass: premium
 topic: Standard
-uuid: e85c0ebe-bc48-42f9-8b2a-2ae7adfa7fc3
+uuid: aef7f97b-6057-4b03-9108-05572ed7a0db
 badge: premium
 index: y
 internal: n

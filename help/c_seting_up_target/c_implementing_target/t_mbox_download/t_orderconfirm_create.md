@@ -6,7 +6,7 @@ seo-title: Create an Order Confirmation mbox - mbox.js
 solution: Target
 subtopic: Getting Started
 title: Create an Order Confirmation mbox - mbox.js
-uuid: 1c4dd196-ae35-46cc-860d-4e012e6c402b
+uuid: 8caadbd9-c9ae-4ded-82d8-971882295ab2
 index: y
 internal: n
 snippet: y

@@ -7,7 +7,7 @@ solution: Target
 subtopic: Getting Started
 title: Configure at.js
 topic: Standard
-uuid: a8a6792a-cba7-4a88-857a-517fe842872e
+uuid: 66600c1c-39c3-4fd2-b650-12f00139a81e
 index: y
 internal: n
 snippet: y

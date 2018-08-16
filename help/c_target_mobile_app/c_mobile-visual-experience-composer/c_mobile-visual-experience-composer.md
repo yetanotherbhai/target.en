@@ -6,7 +6,7 @@ seo-title: Mobile App Visual Experience Composer
 solution: Target
 title: Mobile App Visual Experience Composer
 topic: Standard
-uuid: a0b91f61-55cb-46bc-89cb-fbb72a6c5245
+uuid: d5dbb87a-3d6f-4925-a922-0553ced5946b
 index: y
 internal: n
 snippet: y

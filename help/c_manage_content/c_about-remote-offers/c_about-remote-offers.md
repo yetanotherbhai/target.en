@@ -6,7 +6,7 @@ seo-title: Create Remote Offers
 solution: Target
 title: Create Remote Offers
 topic: Standard
-uuid: 57435576-35bc-4a8f-adf5-a4f5ae618723
+uuid: dc2df024-5e89-484b-9332-991cc7f888fd
 index: y
 internal: n
 snippet: y
@@ -25,7 +25,7 @@ translate: y
 
 >[!NOTE]
 >
->[!DNL  Target Classic] included similar features: [!UICONTROL  Offer on Your Site] and [!UICONTROL  Offer Outside Test&amp;amp;Target]. 
+>[!DNL  Target Classic] included similar features: [!UICONTROL  Offer on Your Site] and [!UICONTROL  Offer Outside Test&amp;Target]. 
 
 
 

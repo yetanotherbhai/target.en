@@ -6,7 +6,7 @@ seo-title: System Status Updates
 solution: Target
 title: System Status Updates
 topic: Recommendations
-uuid: dc771f4d-f9a1-4f8e-a1b5-003e69f9b388
+uuid: 586c9040-389e-413e-9857-d687e0336423
 index: y
 internal: n
 snippet: y
@@ -34,6 +34,6 @@ The available statuses include:
 
 
 
-[!DNL  Ad Hoc Analysis] and [!DNL  Marketing Reports &amp;amp; Analytics] were undergoing maintenance when this illustration was created. All other products and solutions were functioning normally. It is always good practice to check this page if you experience problems when using Target. 
+[!DNL  Ad Hoc Analysis] and [!DNL  Marketing Reports &amp; Analytics] were undergoing maintenance when this illustration was created. All other products and solutions were functioning normally. It is always good practice to check this page if you experience problems when using Target. 
 
 An in-product notification always displays during the monthly [!DNL  Target] release, but minor updates sometimes occur and will be listed on this page. 

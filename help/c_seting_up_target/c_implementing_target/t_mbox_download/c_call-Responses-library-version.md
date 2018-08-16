@@ -3,7 +3,7 @@ description: The way Target makes and responds to calls from your page depends o
 seo-description: The way Target makes and responds to calls from your page depends on the version of the Target library you are using, whether the Experience Cloud Visitor ID implementation is present, and whether the visitor ID exists.
 seo-title: Target Page Methods by mbox.js Library Version
 title: Target Page Methods by mbox.js Library Version
-uuid: a3008490-9a4d-4692-b5cc-550c77b56c90
+uuid: 03f792f7-0d9a-45b9-9e5c-f9051a713dd8
 index: y
 internal: n
 snippet: y
@@ -111,7 +111,7 @@ If no visitor ID has been set, there is no [!DNL  Experience Cloud] visitor cook
 
 
 
-If you are using [!DNL  mbox.js] version 57 in this scenario, everything works as it does if there is no visitor ID implementation, as described in the previous scenario. Beginning with [!DNL  mbox.js] version 58, the [!DNL  Experience Cloud Visitor ID] service returns with a visitor ID before [!DNL  Target] calls are made. This ensures that audience data shared through the Profiles and Audiences core service are available for the first [!DNL  Target] call in the visitor's session. To avoid flickering of default content before test content returns, [!DNL  Target] hides the ` &amp;lt;BODY&amp;gt;` until the visitor ID service returns. In version 58, ` display:none` is used to hide the page. This creates some problems with responsive sites, so beginning with version 59, ` opacity:0` is used to hide the content. 
+If you are using [!DNL  mbox.js] version 57 in this scenario, everything works as it does if there is no visitor ID implementation, as described in the previous scenario. Beginning with [!DNL  mbox.js] version 58, the [!DNL  Experience Cloud Visitor ID] service returns with a visitor ID before [!DNL  Target] calls are made. This ensures that audience data shared through the Profiles and Audiences core service are available for the first [!DNL  Target] call in the visitor's session. To avoid flickering of default content before test content returns, [!DNL  Target] hides the ` <BODY>` until the visitor ID service returns. In version 58, ` display:none` is used to hide the page. This creates some problems with responsive sites, so beginning with version 59, ` opacity:0` is used to hide the content. 
 
 
 

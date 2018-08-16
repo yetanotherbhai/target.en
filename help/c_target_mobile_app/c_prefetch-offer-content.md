@@ -6,7 +6,7 @@ seo-title: Prefetch Offer Content
 solution: Target
 title: Prefetch Offer Content
 topic: Advanced,Standard,Classic
-uuid: 1f691787-a38c-43d5-9f59-0306bcd5fb0c
+uuid: d61dd942-0ab0-4ac8-8092-d2a8bfe21807
 index: y
 internal: n
 snippet: y

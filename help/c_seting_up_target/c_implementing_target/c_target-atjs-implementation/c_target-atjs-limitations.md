@@ -6,7 +6,7 @@ seo-title: at.js Limitations
 solution: Target
 title: at.js Limitations
 topic: Premium
-uuid: b34302fb-d7f5-4a30-a90e-ce8db1ebf61d
+uuid: 343ffbb4-bfc2-4f98-a7de-e322be7aff90
 index: y
 internal: n
 snippet: y
@@ -50,9 +50,9 @@ Some functions within [!DNL  mbox.js] are not available in [!DNL  at.js]. Intern
 Because all mboxes are now asynchronous, they won't block page rendering or return in the order in which they fired. 
 
 
-* If you are using a global mbox in the [ Form-Based Experience Composer ](../../../c_experiences/c_experiences.md#section_3643394BD424463C8768F2907DEBCC22), be aware that HTML offers should contain only ` &amp;lt;script&amp;gt;`, ` &amp;lt;style&amp;gt;`, and ` &amp;lt;link&amp;gt;` tags. 
+* If you are using a global mbox in the [ Form-Based Experience Composer ](../../../c_experiences/c_experiences.md#section_3643394BD424463C8768F2907DEBCC22), be aware that HTML offers should contain only ` <script>`, ` <style>`, and ` <link>` tags. 
 
-  During delivery, [!DNL  at.js] filters out all the other HTML tags when applying global mbox offers. Global mbox offers are applied to HTML HEAD, which doesn't allow DIV, SPAN, and so forth. For example ` &amp;lt;div&amp;gt;test&amp;lt;/div&amp;gt;` cannot be applied because the ` &amp;lt;div&amp;gt;` tag can be used only inside HTML BODY. 
+  During delivery, [!DNL  at.js] filters out all the other HTML tags when applying global mbox offers. Global mbox offers are applied to HTML HEAD, which doesn't allow DIV, SPAN, and so forth. For example ` <div>test</div>` cannot be applied because the ` <div>` tag can be used only inside HTML BODY. 
 
 * Legacy page-based [!DNL  Target] to [!DNL  Analytics] integration will not work. 
 
@@ -66,8 +66,8 @@ Because all mboxes are now asynchronous, they won't block page rendering or retu
 
   You can no longer assume that the offer delivered by the first mbox is going to execute before the offer delivered by your second mbox. 
 
-* DOM Manipulation and Redirect offers should be delivered through the auto-created global mbox in [!DNL  at.js] and delivered in the ` &amp;lt;head&amp;gt;`. 
+* DOM Manipulation and Redirect offers should be delivered through the auto-created global mbox in [!DNL  at.js] and delivered in the ` <head>`. 
 
-  An ` mboxCreate()` function at the top of the ` &amp;lt;body&amp;gt;` will likely result in flicker of default content. 
+  An ` mboxCreate()` function at the top of the ` <body>` will likely result in flicker of default content. 
 
 

@@ -7,7 +7,7 @@ solution: Target
 subtopic: Multivariate Test
 title: A4T Reporting
 topic: Standard
-uuid: 7fe8f414-731a-490e-b4ff-1c83a6bf89c8
+uuid: c860d733-24cc-4e65-b0c3-cac6e56a774e
 index: y
 internal: n
 snippet: y
@@ -47,7 +47,7 @@ When the Select operation is used and you sort on *Entrants*, then only experien
 
 In Analytics, click **[!UICONTROL  Target]** > **[!UICONTROL  Target Activities]** in the left menu. In Target, the activity's reports automatically show Analytics data, metrics, and segments. Data appears in these reports approximately an hour after it is collected from the site. All metrics, audiences, and values in the reports come from the report suite you selected when you set up the activity. 
 
-In Analytics, use the Target Activities report to view the results of your Target activity. Test&amp;Target (Legacy) Reports provides information about your old Test&amp;Target plug-in style page integrations and does not include Analytics for Target data. In the Activities report, view information about your Target experiences. Click **[!UICONTROL  Metrics]**, then select the **[!UICONTROL  Target]** metric type. Two metrics are available for your report: 
+In Analytics, use the Target Activities report to view the results of your Target activity. Test&Target (Legacy) Reports provides information about your old Test&Target plug-in style page integrations and does not include Analytics for Target data. In the Activities report, view information about your Target experiences. Click **[!UICONTROL  Metrics]**, then select the **[!UICONTROL  Target]** metric type. Two metrics are available for your report: 
 
 
 * **Activity Entries:** Matches the Entrants number in the Target report. 

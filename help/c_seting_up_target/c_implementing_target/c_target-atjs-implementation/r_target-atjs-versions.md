@@ -6,7 +6,7 @@ seo-title: at.js Version Details
 solution: Target
 subtopic: Getting Started
 title: at.js Version Details
-uuid: 3b7b373e-99b9-4974-9412-13e6d769775f
+uuid: 0554fa56-fef0-4648-af1a-d0fc59584ac1
 index: y
 internal: n
 snippet: y
@@ -268,7 +268,7 @@ The following enhancements and fixes are included in [!DNL  at.js] version 0.9.6
 
 * The format of the response from ` getOffer()` has been changed. For more information, see [ adobe.target.getOffer(options) ](../../../c_seting_up_target/c_implementing_target/c_target-atjs-implementation/cmp_at.js_Functions.md#reference_C81525D1598A4A1199740DCAB81A7FDF). 
 
-* Console logging has been added for unsupported ` &amp;lt;!DOCTYPE&amp;gt;` declarations. 
+* Console logging has been added for unsupported ` <!DOCTYPE>` declarations. 
 
 * Fixed an issue where [!DNL  Target Classic] plugins weren’t being applied correctly when multiple default offers were delivered to a single mbox. (TGT-22664) For more information, see [ Plug-Ins ](https://marketing.adobe.com/resources/help/en_US/tnt/help/t_Using_Plug-Ins.html) in the Adobe Target Classic documentation. 
 
@@ -285,7 +285,7 @@ The following enhancements and fixes are included in [!DNL  at.js] version 0.9.6
 **Date: **January 19, 2017 
 
 
-* mbox names can now contain special characters, including ampersands ( &amp; ), to be consistent with naming requirements for mbox names using ` mbox.js`. 
+* mbox names can now contain special characters, including ampersands ( & ), to be consistent with naming requirements for mbox names using ` mbox.js`. 
 
   For a list of allowable special characters, see [ Configure at.js ](../../../c_seting_up_target/c_implementing_target/c_target-atjs-implementation/c_target-atjs-advanced-settings.md#concept_2FA0456607D04F82B0539C5BF5309812). 
 
@@ -330,7 +330,7 @@ The following enhancements and fixes are included in [!DNL  at.js] version 0.9.6
 
 * Corrects an issue in 0.9.0 that impacted implementations using ` at.js` on some pages and ` mbox.js` on other pages. 
 
-* If you use Adobe Analytics as your activity's reporting source, you do not need to specify a tracking server during activity creation if you are using ` mbox.js` version 61 (or later) or ` at.js` version 0.9.1 (or later). The ` mbox.js` or ` at.js` library automatically sends tracking server values to [!DNL  Target]. During activity creation, you can leave the [!UICONTROL  Tracking Server] field empty on the [!UICONTROL  Goals &amp;amp; Settings] page. 
+* If you use Adobe Analytics as your activity's reporting source, you do not need to specify a tracking server during activity creation if you are using ` mbox.js` version 61 (or later) or ` at.js` version 0.9.1 (or later). The ` mbox.js` or ` at.js` library automatically sends tracking server values to [!DNL  Target]. During activity creation, you can leave the [!UICONTROL  Tracking Server] field empty on the [!UICONTROL  Goals &amp; Settings] page. 
 
 
 
@@ -386,7 +386,7 @@ When implementing [!DNL  at.js], be aware of the following:
 
 
 * Internet Explorer versions earlier than 8 are not supported.
-* Asynchronous implementation means legacy integrations like the [!DNL  Test&amp;amp;Target] to [!DNL  SiteCatalyst] plugin may not work.
+* Asynchronous implementation means legacy integrations like the [!DNL  Test&Target] to [!DNL  SiteCatalyst] plugin may not work.
 * [!DNL  Target] plugins that reference [!DNL  mbox.js] objects and methods are not supported.
 * All calls to [!DNL  Target] are made via XMLHTTPRequest and content is returned via JSON.
 

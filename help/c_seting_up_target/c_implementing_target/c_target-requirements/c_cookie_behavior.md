@@ -7,7 +7,7 @@ solution: Target
 subtopic: Getting Started
 title: Target Cookie
 topic: Standard
-uuid: da730ed0-b0ba-4f7c-8746-36e137aeb507
+uuid: 031ce97c-5916-45db-8d91-9f652bc37cc3
 index: y
 internal: n
 snippet: y

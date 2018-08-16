@@ -6,7 +6,7 @@ seo-title: Introduction to Target
 solution: Target
 title: Introduction to Target
 topic: Advanced
-uuid: 9b670fca-16db-4ed3-beb2-d13ed58a0a67
+uuid: 58d7252b-984d-40f7-82fc-07de36fde67d
 index: y
 internal: n
 snippet: y

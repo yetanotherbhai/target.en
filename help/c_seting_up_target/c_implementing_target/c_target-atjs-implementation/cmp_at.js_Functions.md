@@ -7,7 +7,7 @@ solution: Target
 subtopic: Getting Started
 title: at.js Functions
 topic: Standard
-uuid: 96e2f20d-bc48-4110-a900-cfdfc89abd45
+uuid: 79459126-5b33-46d4-8106-4aa42e03f3a7
 index: y
 internal: n
 snippet: y
@@ -332,7 +332,7 @@ adobe.target.getOffer({
         } ); 
   },   
   "error": function(status, error) {           
-      if (console &amp;&amp; console.log) { 
+      if (console && console.log) { 
         console.log(status); 
         console.log(error); 
       } 
@@ -420,7 +420,7 @@ adobe.target.getOffer({
 
 >
 >```
->&amp;lt;a&amp;nbsp;href="http://asite.com"&amp;gt;click&amp;nbsp;me!&amp;lt;/a&amp;gt;&amp;nbsp;
+><a href="http://asite.com">click me!</a> 
 >```
 
 
@@ -485,8 +485,8 @@ adobe.target.getOffer({
 >* [ Debugging ](../../../c_seting_up_target/c_implementing_target/c_target-atjs-implementation/c_target-debugging-atjs.md#concept_CAE591DA8C404C22917584ECD4F7494F) is a little different.
 >* Avoid offer code requiring synchronous, blocking calls. For example, offers that set JavaScript variables that are used by site code or other mboxes that come later on the page. 
 
->* Be sure to have a ` &amp;lt;div class="mboxDefault"&amp;gt;&amp;lt;/div&amp;gt;`before invoking ` mboxCreate()`, because [!DNL  at.js] will not add one for you.
->* Empty, top-of-page ` mboxCreate()` functions are not recommended as a global mbox. The auto-created global mbox in [!DNL  at.js] is a better option because it fires from the ` &amp;lt;head&amp;gt;` and can return content earlier. 
+>* Be sure to have a ` <div class="mboxDefault"></div>`before invoking ` mboxCreate()`, because [!DNL  at.js] will not add one for you.
+>* Empty, top-of-page ` mboxCreate()` functions are not recommended as a global mbox. The auto-created global mbox in [!DNL  at.js] is a better option because it fires from the ` <head>` and can return content earlier. 
 
 
 
@@ -894,7 +894,7 @@ Consider the following when working with the ` dataProviders` setting:
 >
 >```
 >function targetPageParams() { 
->    return "param1=value1&amp;param2=value2&amp;p3=hello%20world"; 
+>    return "param1=value1&param2=value2&p3=hello%20world"; 
 >}
 >```
 
@@ -951,7 +951,7 @@ Consider the following when working with the ` dataProviders` setting:
 >
 >```
 >function targetPageParamsAll() { 
->    return "param1=value1&amp;param2=value2&amp;p3=hello%20world"; 
+>    return "param1=value1&param2=value2&p3=hello%20world"; 
 >}
 >```
 

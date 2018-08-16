@@ -5,7 +5,7 @@ seo-description: Target can be used for mobile app optimization and personalizat
 seo-title: Target for Mobile Apps
 title: Target for Mobile Apps
 topic: Target
-uuid: 306a6ff7-d68d-490a-afef-ae699931ede3
+uuid: 39b44f9d-b648-40c2-92e8-8f477be64c0e
 index: y
 internal: n
 snippet: y

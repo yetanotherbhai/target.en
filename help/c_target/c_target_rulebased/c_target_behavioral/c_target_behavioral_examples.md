@@ -7,7 +7,7 @@ solution: Target
 subtopic: Multivariate Test
 title: Behavioral Targeting Examples and Tips
 topic: Standard
-uuid: cf2a94a9-8b70-4a72-af92-3a23757c6d31
+uuid: 4399d8a1-6063-4b58-a4a1-02c4503d73a8
 index: y
 internal: n
 snippet: y
@@ -70,10 +70,10 @@ return typeof(user.get('numVisits')) == 'undefined';
 return user.get('numVisits') == 1; 
  
 2to9visits: 
-return user.get('numVisits') > 1 &amp;&amp; user.get('numVisits') < 10; 
+return user.get('numVisits') > 1 && user.get('numVisits') < 10; 
  
 10to19visits: 
-return user.get('numVisits') >= 10 &amp;&amp; user.get('numVisits') < 20; 
+return user.get('numVisits') >= 10 && user.get('numVisits') < 20; 
  
 over20visits: 
 return user.get('numVisits') >= 20;
@@ -124,10 +124,10 @@ within_1day:
 return user.get('recency') < 1; 
  
 within_1week: 
-return user.get('recency') >= 1 &amp;&amp; user.get('recency') < 7; 
+return user.get('recency') >= 1 && user.get('recency') < 7; 
  
 within_1month: 
-return user.get('recency') >= 7 &amp;&amp; user.get('recency') < 31; 
+return user.get('recency') >= 7 && user.get('recency') < 31; 
  
 over_1month: 
 return user.get('recency') >= 31
@@ -172,7 +172,7 @@ buys_never:
 return typeof(user.get('purchaseFrequency')) == 'undefined'; 
  
 buys_sometimes: 
-return user.get('purchaseFrequency') > 0 &amp;&amp; user.get('purchaseFrequency') < 3; 
+return user.get('purchaseFrequency') > 0 && user.get('purchaseFrequency') < 3; 
  
 buys_often: 
 return user.get('purchaseFrequency') >= 3 
@@ -201,7 +201,7 @@ uploads_never:
 return user.get('uploadFrequency') == 0; 
  
 uploads_sometimes: 
-return user.get('uploadFrequency') > 0 &amp;&amp; user.get('uploadFrequency') < 10; 
+return user.get('uploadFrequency') > 0 && user.get('uploadFrequency') < 10; 
  
 uploads_often: 
 return user.get('uploadFrequency') >= 10 
@@ -248,11 +248,11 @@ Create expression targets, which use a simple heuristic to determine a visitor's
 ```
 male: 
 var maleFrequency = user.get('maleFrequency'); 
-return maleFrequency &amp;&amp; maleFrequency > user.get('femaleFrequency') &amp;&amp; maleFrequency > 10; 
+return maleFrequency && maleFrequency > user.get('femaleFrequency') && maleFrequency > 10; 
  
 female: 
 var femaleFrequency = user.get('femaleFrequency'); 
-return femaleFrequency &amp;&amp; femaleFrequency > user.get('maleFrequency') &amp;&amp; femaleFrequency > 10;
+return femaleFrequency && femaleFrequency > user.get('maleFrequency') && femaleFrequency > 10;
 ```
 
 
@@ -378,10 +378,10 @@ zero_spender:
 return typeof(user.get('amountSpent')) == 'undefined'; 
  
 low_spender: 
-return user.get('amountSpent') > 0 &amp;&amp; user.get('amountSpent') < 100; 
+return user.get('amountSpent') > 0 && user.get('amountSpent') < 100; 
  
 medium_spender: 
-return user.get('amountSpent') >= 100 &amp;&amp; user.get('amountSpent') < 500; 
+return user.get('amountSpent') >= 100 && user.get('amountSpent') < 500; 
  
 high_spender: 
 return user.get('amountSpent') >= 500;
@@ -431,13 +431,13 @@ return typeof(user.get('mostSpent')) == 'undefined';
  
 low_spender: 
  
-return user.get('mostSpent') > 0 &amp;&amp; user.get('amountSpent') < 100; 
+return user.get('mostSpent') > 0 && user.get('amountSpent') < 100; 
  
   
  
 medium_spender: 
  
-return user.get('mostSpent') >= 100 &amp;&amp; user.get('mostSpent') < 500; 
+return user.get('mostSpent') >= 100 && user.get('mostSpent') < 500; 
  
   
  
@@ -467,7 +467,7 @@ var hour = today.getHours();
  
 var day = today.getDay(); 
  
-return (day >= 1) &amp;&amp; (day <= 5) &amp;&amp; (hour >= 9) &amp;&amp; (hour <= 17);
+return (day >= 1) && (day <= 5) && (hour >= 9) && (hour <= 17);
 ```
 
 
@@ -481,7 +481,7 @@ var hour = today.getHours();
  
 var day = today.getDay(); 
  
-return !((day >= 1) &amp;&amp; (day <= 5) &amp;&amp; (hour >= 9) &amp;&amp; (hour <= 17));
+return !((day >= 1) && (day <= 5) && (hour >= 9) && (hour <= 17));
 ```
 
 
@@ -497,7 +497,7 @@ var hour = today.getHours();
  
 var day = today.getDay(); 
  
-return (day >= 1) &amp;&amp; (day <= 5) &amp;&amp; (hour >= 9) &amp;&amp; (hour <= 17);
+return (day >= 1) && (day <= 5) && (hour >= 9) && (hour <= 17);
 ```
 
 
@@ -511,7 +511,7 @@ var hour = today.getHours();
  
 var day = today.getDay(); 
  
-return !((day >= 1) &amp;&amp; (day <= 5) &amp;&amp; (hour >= 9) &amp;&amp; (hour <= 17));
+return !((day >= 1) && (day <= 5) && (hour >= 9) && (hour <= 17));
 ```
 
 

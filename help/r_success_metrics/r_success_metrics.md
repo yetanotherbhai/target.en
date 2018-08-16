@@ -5,7 +5,7 @@ seo-description: In Target Standard, success metrics are pre-configured for both
 seo-title: Success Metrics
 solution: Target
 title: Success Metrics
-uuid: c9d3fe52-9c0f-4aa5-be76-e81fbc7ae625
+uuid: 47d226ff-3f51-460a-83e0-e659a66d136a
 index: y
 internal: n
 snippet: y

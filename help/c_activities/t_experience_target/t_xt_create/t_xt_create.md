@@ -6,7 +6,7 @@ solution: Target
 subtopic: Multivariate Test
 title: Create an Experience Targeting Activity
 topic: Standard
-uuid: b20611c3-a3cb-4f48-bc62-613d02cfefbb
+uuid: d2d017f4-c82f-413a-96ef-dc5e6fe6e6e2
 index: y
 internal: n
 snippet: y
@@ -115,4 +115,4 @@ translate: y
 >1. Specify the [ goals and settings ](../../../c_activities/t_experience_target/t_xt_create/r_xt_goals_and_settings.md#reference_B25389FD6F3A4989801E740364B089CC) for the activity.
 
 >       ![](assets/xt_settings.png) 
->1. Click **[!UICONTROL  Save &amp;amp; Close]**.
+>1. Click **[!UICONTROL  Save &amp; Close]**.

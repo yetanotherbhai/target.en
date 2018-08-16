@@ -5,7 +5,7 @@ seo-description: Implement Target by referencing the Target libraries (at.js or 
 seo-title: Understanding the Target JavaScript Libraries
 title: Understanding the Target JavaScript Libraries
 topic: Target
-uuid: 258fab8b-804a-40d6-a2d1-6410f5a19942
+uuid: db22287e-8c99-4661-833d-5b1e36b87a6d
 index: y
 internal: n
 snippet: y

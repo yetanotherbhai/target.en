@@ -5,7 +5,7 @@ seo-title: Delete the Target Cookie
 solution: Target
 title: Delete the Target Cookie
 topic: Standard
-uuid: 78627488-6a78-42d5-b170-18dbc2550a7d
+uuid: 76e007fe-6bfd-4b17-8a3c-03e62e6d9a78
 index: y
 internal: n
 snippet: y

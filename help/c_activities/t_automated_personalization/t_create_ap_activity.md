@@ -7,7 +7,7 @@ solution: Target
 title: Creating an Automated Personalization Activity
 title_outputclass: premium
 topic: Advanced
-uuid: fefbaaa6-26f5-42f6-850d-408ca19f481a
+uuid: 27cad843-cf00-4583-ba1f-648d00d262b7
 badge: premium
 index: y
 internal: n
@@ -125,8 +125,8 @@ translate: y
 >       >
 >       >In Automated Personalization activities, entry criteria (URL targeting, template rules, and audience target) are evaluated for each request. In previous versions, entry criteria were evaluated once per session.
 
->1. Click **[!UICONTROL  Continue]** to display the **[!UICONTROL  Goals &amp;amp; Settings]** page.
->1. Configure the activity with the following settings, then click **[!UICONTROL  Save &amp;amp; Close]**.
+>1. Click **[!UICONTROL  Continue]** to display the **[!UICONTROL  Goals &amp; Settings]** page.
+>1. Configure the activity with the following settings, then click **[!UICONTROL  Save &amp; Close]**.
 
 
 >    <table id="table_136C5D05E9A544C6977050EC50B9F49B"> 

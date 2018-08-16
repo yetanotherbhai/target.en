@@ -6,7 +6,7 @@ seo-title: About Audiences
 solution: Target
 title: About Audiences
 topic: Advanced,Standard,Classic
-uuid: 592c21c2-6ebf-4728-8210-dbf7930cd634
+uuid: 58a62280-9816-4820-a15a-85e436d4b85a
 index: y
 internal: n
 snippet: y

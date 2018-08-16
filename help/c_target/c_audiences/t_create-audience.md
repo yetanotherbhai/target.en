@@ -6,7 +6,7 @@ seo-title: Creating an Audience
 solution: Target
 title: Creating an Audience
 topic: Advanced,Standard,Classic
-uuid: 7f46770c-d0ef-41bd-87e8-9e6ef2c94ae5
+uuid: ecb613cf-17e3-4408-92c5-1817f18b8d81
 index: y
 internal: n
 snippet: y

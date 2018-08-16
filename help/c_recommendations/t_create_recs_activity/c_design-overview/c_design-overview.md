@@ -6,7 +6,7 @@ seo-title: Design Overview
 solution: Target
 title: Design Overview
 topic: Premium
-uuid: ec53891b-2186-4187-94cb-1527c60bc716
+uuid: a0297dee-2aad-419c-8a86-a73cf04800e2
 index: y
 internal: n
 snippet: y
@@ -99,7 +99,7 @@ The following example shows how to JSON responses can be returned when configuri
 
 
    ```
-   http://[YOUR_CLIENT_CODE].tt.omtrdc.net/m2/YOUR_CLIENT_CODE/ubox/raw?mbox=[YOUR_MBOX_NAME]&amp;amp;mboxContentType=text/html&amp;amp;mboxXDomain=disabled&amp;amp;entity.id=[ENTITY_ID]&amp;amp;mboxHost=rawbox_sample&amp;amp;at_property=[AT_PROPERTY_TOKEN]&amp;amp;mboxNoRedirect=true&amp;amp;mboxPC=1234-4321&amp;amp;mboxSession=9876-7000
+   http://[YOUR_CLIENT_CODE].tt.omtrdc.net/m2/YOUR_CLIENT_CODE/ubox/raw?mbox=[YOUR_MBOX_NAME]&amp;mboxContentType=text/html&amp;mboxXDomain=disabled&amp;entity.id=[ENTITY_ID]&amp;mboxHost=rawbox_sample&amp;at_property=[AT_PROPERTY_TOKEN]&amp;mboxNoRedirect=true&amp;mboxPC=1234-4321&amp;mboxSession=9876-7000
    ```
 
 
@@ -145,7 +145,7 @@ You can also just send back a simple comma delimited list of items by setting up
 
 
 ```
-entity1.id,&amp;nbsp;$entity2.id,&amp;nbsp;$entity3.id,&amp;nbsp;$entity4.id,&amp;nbsp;$entity5.id,&amp;nbsp;
+entity1.id, $entity2.id, $entity3.id, $entity4.id, $entity5.id, 
 ```
 
 

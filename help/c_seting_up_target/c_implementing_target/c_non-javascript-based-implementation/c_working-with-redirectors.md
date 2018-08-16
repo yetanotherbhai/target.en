@@ -7,7 +7,7 @@ solution: Target
 subtopic: Getting Started
 title: Working with Redirectors
 topic: Standard
-uuid: 982c6d53-8bd7-4af2-afa4-212c7016760d
+uuid: 9088d5c2-3ded-4900-bc48-af57de8f2f95
 index: y
 internal: n
 snippet: y
@@ -46,7 +46,7 @@ For help deciding the right setup see [ Non-JavaScript-Based Implementations ](.
 >    
 >       ```
 >       http://<your_testandtarget_clientcode>.tt.omtrdc.net/​m2/yourclientcode/ubox/​page?mbox=redirectorlink_456 
->       &amp;mboxDefault=http%3A%2F%2Fwww%2Eyourcompany%2Ecom%2Fusualdestination%2Ehtm
+>       &mboxDefault=http%3A%2F%2Fwww%2Eyourcompany%2Ecom%2Fusualdestination%2Ehtm
 >       ```
 
 
@@ -84,13 +84,13 @@ For help deciding the right setup see [ Non-JavaScript-Based Implementations ](.
 >       See [ Non-JavaScript-Based Implementations ](../../../c_seting_up_target/c_implementing_target/c_non-javascript-based-implementation/c_non-javascript-based-implementation.md#concept_4799C58B081A43F6B3B8CC25A8D5D7C4) for the right setup to meet your goals. 
 >1. Complete QA on the campaign.
 
->       Create a dummy page with an ` &amp;lt;a href&amp;gt;` containing the Redirector URL. Example: 
+>       Create a dummy page with an ` <a href>` containing the Redirector URL. Example: 
 
 >    
 >       ```
 >       <a href=http://<your_clientcode>.tt.omtrdc.net/​m2/yourclientcode/ubox/​page?mbox= 
 >        
->       redirectorlink_456&amp;mboxDefault=http%3A%2F%2Fwww%2Eyourcompany%2Ecom%2F​usualdestination%2Ehtm>
+>       redirectorlink_456&mboxDefault=http%3A%2F%2Fwww%2Eyourcompany%2Ecom%2F​usualdestination%2Ehtm>
 >       ```
 
 >1. Verify that all experiences, default content, and reports act as expected on all browser types, for all of your environments.
@@ -129,14 +129,14 @@ Use a redirector to pass the costs per click.
 
 
 
-Add ` &amp;amp;mboxPageValue=-value` to the URL. Note the negative value. 
+Add ` &amp;mboxPageValue=-value` to the URL. Note the negative value. 
 
 Example: For a .10 cents cost per click: 
 
 
 ```
 http://<your_clientcode>.tt.omtrdc.net/​m2/yourclientcode/ubox/​page?mbox=redirectorlink_456 
-&amp;mboxPageValue=-0.1&amp;mboxDefault=​http://www.yourcompany.com/usualdestination.htm
+&mboxPageValue=-0.1&mboxDefault=​http://www.yourcompany.com/usualdestination.htm
 ```
 
 
@@ -151,13 +151,13 @@ Use a redirector to pass the revenue per click.
 
 
 
-Add ` &amp;amp;mboxPageValue=value` to the URL. 
+Add ` &amp;mboxPageValue=value` to the URL. 
 
 Example: For a .10 cents revenue per click. 
 
 
 ```
 http://<​your_clientcode>​​​​.tt​​.omtrdc​.net/​​m2/​yourclientcode/​ubox/​​​page?mbox=redirectorlink_456 
-&amp;mboxPageValue=0.1​&amp;mbox​Default=​​http%3A%2F%2Fwww%2E​yourcompany%2Ecom​%2Fusualdestination%2Ehtm
+&mboxPageValue=0.1​&mbox​Default=​​http%3A%2F%2Fwww%2E​yourcompany%2Ecom​%2Fusualdestination%2Ehtm
 ```
 

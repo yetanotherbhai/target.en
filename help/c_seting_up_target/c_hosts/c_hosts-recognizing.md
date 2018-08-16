@@ -6,7 +6,7 @@ seo-title: Recognizing Hosts
 solution: Target
 title: Recognizing Hosts
 topic: Standard
-uuid: 57b42223-b50f-4b7f-9d9b-ffc4cb6d8e5e
+uuid: 88e179ca-20e7-4c60-8ef4-44076b38bc9b
 index: y
 internal: n
 snippet: y

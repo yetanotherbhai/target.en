@@ -7,7 +7,7 @@ solution: Target
 subtopic: Getting Started
 title: Privacy
 topic: Standard
-uuid: b064c997-a76d-4670-b4d0-830eb631a4f4
+uuid: 8267e692-66e8-4032-babb-6cb2afeef99b
 index: y
 internal: n
 snippet: y
@@ -41,7 +41,7 @@ If IP addresses are completely obfuscated, GeoSegmentation and geo targeting is 
 
 You can add an opt-out link to your sites to enable visitors to opt-out of all counting and content delivery. 
 
-1. Add the following link to your site: ` &amp;lt;a href="http://clientcode.tt.omtrdc.net/optout"&amp;gt; Your Opt Out Language Here&amp;lt;/a&amp;gt;` 
+1. Add the following link to your site: ` <a href="http://clientcode.tt.omtrdc.net/optout"> Your Opt Out Language Here</a>` 
 
 1. Replace the ` clientcode` text with your client code, and add the text or image to be linked to the opt-out URL.
 Any visitor who clicks this link is not included in any mbox requests called from their browsing sessions until they delete their cookies, or for two years, whichever comes first. This works by setting a cookie for the visitor called ` disableClient` in the ` clientcode.tt.omtrdc.net` domain. 

@@ -5,7 +5,7 @@ seo-title: Associate In-Mbox Profile Attributes with an Mbox
 solution: Target
 title: Associate In-Mbox Profile Attributes with an Mbox
 topic: Premium
-uuid: 35303412-07ad-4814-8438-784f90076074
+uuid: 7ac6c11a-cab2-460c-a26a-23cde54b490e
 index: y
 internal: n
 snippet: y

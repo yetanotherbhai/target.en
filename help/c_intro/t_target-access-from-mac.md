@@ -7,7 +7,7 @@ solution: Target
 subtopic: Getting Started
 title: Access Target from the Adobe Experience Cloud
 topic: Standard
-uuid: ff731e7c-d9e4-4ea0-90d1-b54cb89c0fd0
+uuid: 021723db-668c-49fc-90fb-906eef3eff80
 index: y
 internal: n
 snippet: y

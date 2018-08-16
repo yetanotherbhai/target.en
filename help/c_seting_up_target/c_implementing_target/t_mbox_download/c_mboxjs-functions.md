@@ -5,7 +5,7 @@ seo-description: List of mbox.js functions to use when implementing with mbox.js
 seo-title: mbox.js Functions
 solution: Target
 title: mbox.js Functions
-uuid: 97bd9c9a-5e50-4c5e-8bc0-5a929365d6fd
+uuid: a5d57512-4048-4855-afe7-251f14f43c27
 index: y
 internal: n
 snippet: y

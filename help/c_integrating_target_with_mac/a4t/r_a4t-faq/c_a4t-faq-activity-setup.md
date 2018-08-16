@@ -6,7 +6,7 @@ seo-title: Activity Setup - A4T FAQ
 solution: Target
 title: Activity Setup - A4T FAQ
 topic: Standard
-uuid: a72eb5ed-9f9d-4cb0-8988-99e57c628b01
+uuid: 1d118a5e-2bc1-4bb4-90b6-2f692917145b
 index: y
 internal: n
 snippet: y
@@ -42,6 +42,6 @@ You can change your Reporting Settings options in Setup.
 
 ![](assets/select-per-activity.png) 
 
-The **[!UICONTROL  Reporting Source]** drop-down list is enabled in the **[!UICONTROL  Goal &amp;amp; Settings]** screen for creating and editing activities. 
+The **[!UICONTROL  Reporting Source]** drop-down list is enabled in the **[!UICONTROL  Goal &amp; Settings]** screen for creating and editing activities. 
 
 To always use Analytics as the reporting source, select **[!UICONTROL  Adobe Analytics]** from the drop-down list in Setup. 

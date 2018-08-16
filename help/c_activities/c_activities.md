@@ -6,7 +6,7 @@ seo-title: Activities
 solution: Target
 title: Activities
 topic: Standard
-uuid: 94a3a890-9175-4111-bc6f-4be12d1e98e9
+uuid: 6a326027-060d-4380-90a6-87ca46805a43
 index: y
 internal: n
 snippet: y
@@ -22,8 +22,6 @@ All activity types other than [!UICONTROL  Automated Personalization] give you t
 >
 >Archived and ended activities do not appear in the [!UICONTROL  Activities] list. To view these activities, filter them using the advanced filter settings on left rail. 
 
-
-THIS IS A NOTE FROM BOB
 
 
 **Activity Types (9:03)** 

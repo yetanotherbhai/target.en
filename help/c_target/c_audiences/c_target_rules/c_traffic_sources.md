@@ -5,7 +5,7 @@ seo-description: Target visitors based on the search engine or landing page that
 seo-title: Traffic Sources
 solution: Target
 title: Traffic Sources
-uuid: cf39c897-5341-4f47-90b1-24f69b7bc6f3
+uuid: 2670b2c1-db6a-4564-aae8-6af4588ed021
 index: y
 internal: n
 snippet: y

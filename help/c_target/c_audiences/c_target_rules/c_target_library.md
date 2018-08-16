@@ -5,7 +5,7 @@ seo-description: Target users based on pre-built targeting rules.
 seo-title: Target Library
 solution: Target
 title: Target Library
-uuid: 1ab26f24-6083-4842-bbd0-fe1288e7e576
+uuid: 64bc4e9c-f2bf-46ba-a558-2881b401e2f3
 index: y
 internal: n
 snippet: y

@@ -6,7 +6,7 @@ seo-title: Auto-Allocate
 solution: Target
 title: Auto-Allocate
 topic: Standard
-uuid: 63b30f9a-5b83-4086-8ff5-08f896972fee
+uuid: 46136fd8-5f22-44c0-befe-709b5fbb8144
 index: y
 internal: n
 snippet: y

@@ -7,7 +7,7 @@ solution: Target
 subtopic: Getting Started
 title: Non-JavaScript-Based Implementations
 topic: Standard
-uuid: a4ca36b0-0d4d-4ea4-b332-b2f5cf0a6afc
+uuid: 49165a08-dfdb-4276-afd5-ed31a113df84
 index: y
 internal: n
 snippet: y

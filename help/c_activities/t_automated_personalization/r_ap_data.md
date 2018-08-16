@@ -6,7 +6,7 @@ solution: Target
 title: Data Collection for Target's Personalization Algorithms
 title_outputclass: premium
 topic: Premium
-uuid: 60da8006-80ea-4853-8238-1d4a6b1f4e70
+uuid: 935d7d43-9649-490e-9c05-c28b04686386
 badge: premium
 index: y
 internal: n

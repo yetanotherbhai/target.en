@@ -6,7 +6,7 @@ seo-title: Enabling Mixed Content in Your Browser
 solution: Target
 title: Enabling Mixed Content in Your Browser
 topic: Advanced,Standard,Classic
-uuid: 74655c92-31f3-4d95-b66e-9ffe0803f2f3
+uuid: c871ef96-5502-4cc8-bda8-021f0172e323
 index: y
 internal: n
 snippet: y

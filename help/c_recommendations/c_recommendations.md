@@ -7,7 +7,7 @@ solution: Target
 title: Recommendations
 title_outputclass: premium
 topic: Premium
-uuid: 8704ffce-6194-4372-8a2a-ad379654cfe1
+uuid: 6524f0cf-fe10-48be-a73b-92d0ff5c123c
 badge: premium
 index: y
 internal: n

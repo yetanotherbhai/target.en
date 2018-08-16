@@ -6,7 +6,7 @@ seo-title: Expected Data Variances When Not Using A4T
 solution: Target
 title: Expected Data Variances When Not Using A4T
 topic: Advanced
-uuid: 3fa4089b-ea4d-4c8b-84fb-16e1b7362836
+uuid: dde7aabc-ce86-446c-8708-24ef298517a0
 index: y
 internal: n
 snippet: y

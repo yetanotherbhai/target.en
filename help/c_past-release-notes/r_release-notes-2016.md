@@ -3,7 +3,7 @@ description: null
 seo-description: null
 seo-title: 2016 Releases
 title: 2016 Releases
-uuid: cdc038df-daed-4a2f-8b6b-53e3547740e2
+uuid: 182fa0da-7482-4973-a7c8-5036bea73fef
 index: y
 internal: n
 snippet: y
@@ -808,7 +808,7 @@ This release includes the following fixes:
 * Fixed an issue that caused all AEM-based activities as Experience Targeting (XT) activities. AEM now uses the correct activity types for A/B and XT activities.
 * Removed an option to use non-conversion metrics as a goal in new Auto Allocated activities. This restriction will be lifted in an upcoming release.
 *
-* Fixed an issue that wrapped a non-HTML Recommendations template in a ` &amp;lt;div&amp;gt;` element when used in a form-based workflow.
+* Fixed an issue that wrapped a non-HTML Recommendations template in a ` <div>` element when used in a form-based workflow.
 *
 *
 *

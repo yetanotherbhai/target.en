@@ -7,7 +7,7 @@ solution: Target
 subtopic: Getting Started
 title: Customer Attributes
 topic: Standard
-uuid: b7e71c73-1dbc-43e1-b9a2-4b7e0341a584
+uuid: 6fc0a8b9-c8c3-4655-8fc4-5ec35d5530bd
 index: y
 internal: n
 snippet: y

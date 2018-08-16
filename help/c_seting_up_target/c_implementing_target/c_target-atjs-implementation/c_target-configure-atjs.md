@@ -6,7 +6,7 @@ seo-title: Download at.js
 solution: Target
 title: Download at.js
 topic: Premium
-uuid: 9a6dbbec-4a07-4d3b-a165-ad58b7df554a
+uuid: 33451ef6-a65e-4252-8979-477bc9ee72b9
 index: y
 internal: n
 snippet: y
@@ -107,7 +107,7 @@ To download [!DNL  at.js] using the API.
 
    ```
    https://admin.testandtarget.omniture.com/rest/v1/endpoint/< 
-<span class="varname"> client&amp;nbsp;code </span>>
+<span class="varname"> client code </span>>
    ```
 
 
@@ -132,8 +132,8 @@ To download [!DNL  at.js] using the API.
 
    ```
    https://admin< 
-<span class="varname"> admin&amp;nbsp;number </span>>.testandtarget.omniture.com/admin/rest/v1/libraries/atjs/download?client=< 
-<span class="varname"> client&amp;nbsp;code </span>>&amp;version=<version number>
+<span class="varname"> admin number </span>>.testandtarget.omniture.com/admin/rest/v1/libraries/atjs/download?client=< 
+<span class="varname"> client code </span>>&version=<version number>
    ```
 
 

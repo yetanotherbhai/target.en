@@ -6,7 +6,7 @@ seo-title: Mobile Viewports for Responsive Experiences
 solution: Target
 title: Mobile Viewports for Responsive Experiences
 topic: Advanced,Standard,Classic
-uuid: 3ff3f9ec-0655-4509-a401-6a4a108c2353
+uuid: 409ed706-b5c3-4a13-977f-2f75ff676a4f
 index: y
 internal: n
 snippet: y

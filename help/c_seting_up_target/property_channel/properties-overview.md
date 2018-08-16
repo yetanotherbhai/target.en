@@ -8,7 +8,7 @@ subtopic: Getting Started
 title: Configure Enterprise Permissions
 title_outputclass: premium
 topic: Premium
-uuid: df92a719-ec51-4ed1-9af9-8321bb67c754
+uuid: c4f4f4aa-3203-4df1-9542-155ab908da69
 badge: premium
 index: y
 internal: n

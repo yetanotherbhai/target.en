@@ -7,7 +7,7 @@ solution: Target
 title: Auto-Target
 title_outputclass: premium
 topic: Standard
-uuid: eb04741b-3ab6-40f5-913b-2eb93f0e5d1d
+uuid: e1a5510c-89f8-4aa6-a3ea-f4330cdad015
 badge: premium
 index: y
 internal: n

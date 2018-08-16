@@ -7,7 +7,7 @@ solution: Target
 subtopic: Getting Started
 title: Download mbox.js
 topic: Standard
-uuid: 7700c271-cdf5-41b2-b02b-63bce18e6c15
+uuid: fdba290d-5e4f-42f1-a5d2-1edcc936abab
 index: y
 internal: n
 snippet: y
@@ -25,11 +25,11 @@ To use the [!DNL  Adobe Target] [!UICONTROL  Visual Experience Editor], you must
 >
 >1. Create the [!DNL  mbox.js] reference on the website.
 
->       Beginning with [!DNL  mbox.js] version 57, the [!DNL  mbox.js] reference can be placed anywhere within the ` &amp;lt;head&amp;gt;` section of the page. 
+>       Beginning with [!DNL  mbox.js] version 57, the [!DNL  mbox.js] reference can be placed anywhere within the ` <head>` section of the page. 
 
 
 >       >[!IMPORTANT]
 >       >
->       >If you use a version of [!DNL  mbox.js] prior to version 57, the reference must be the last item in the ` &amp;lt;head&amp;gt;` section of your pages. If the reference is not the last item, serious display or performance issues could result. See [ Technical Implementation Details ](https://marketing.adobe.com/resources/help/en_US/target/ov/c_mbox_technical.html) for more information. 
+>       >If you use a version of [!DNL  mbox.js] prior to version 57, the reference must be the last item in the ` <head>` section of your pages. If the reference is not the last item, serious display or performance issues could result. See [ Technical Implementation Details ](https://marketing.adobe.com/resources/help/en_US/target/ov/c_mbox_technical.html) for more information. 
 
 >1. Upload the saved [!DNL  mbox.js] file to the location in your hosting environment that you specified in the code.

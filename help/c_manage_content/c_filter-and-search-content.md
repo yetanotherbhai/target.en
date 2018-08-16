@@ -6,7 +6,7 @@ seo-title: Search Content and Create Smart Collections
 solution: Target
 title: Search Content and Create Smart Collections
 topic: Premium
-uuid: cb2ec349-9374-463c-a153-015932119af5
+uuid: fb901c16-0afb-4c58-8de5-2241454f5ce9
 index: y
 internal: n
 snippet: y
@@ -50,7 +50,7 @@ You can create saved searches, called smart collections, to save time when perfo
 
    ![](assets/content.png) 
 
-1. Click the **[!UICONTROL  Content Only]** icon (  ![](assets/icon_filter.png) ) in the top left corner to display the [!UICONTROL  Filter &amp;amp; Options] panel in the left rail. 
+1. Click the **[!UICONTROL  Content Only]** icon (  ![](assets/icon_filter.png) ) in the top left corner to display the [!UICONTROL  Filter &amp; Options] panel in the left rail. 
 
 1. Click the **[!UICONTROL  Browse]** icon (  ![](assets/icon_browse.png) ) to display the [!UICONTROL  Select Path] dialog box. 
 
@@ -62,7 +62,7 @@ You can create saved searches, called smart collections, to save time when perfo
 
 1. (Optional) Select from among the various options to narrow your filter, for example, file type and size. 
 
-1. Click **[!UICONTROL  Save Smart Collection]** at the bottom of the [!UICONTROL  Filter &amp;amp; Options] panel to display the Save options. 
+1. Click **[!UICONTROL  Save Smart Collection]** at the bottom of the [!UICONTROL  Filter &amp; Options] panel to display the Save options. 
 
    ![](assets/save_smart_collection_options.png) 
 

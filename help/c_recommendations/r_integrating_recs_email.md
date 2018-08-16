@@ -7,7 +7,7 @@ solution: Target
 title: Integrating Recommendations with Email
 title_outputclass: premium
 topic: Recommendations
-uuid: fb670836-fa81-4627-abc2-b5ddbd91a6db
+uuid: 0ac008d0-e32c-4a84-ba68-503632a7eb7d
 badge: premium
 index: y
 internal: n
@@ -121,7 +121,7 @@ The email system you use should be capable of handling these scenarios:
 **Sample request URL:** 
 
 ```
-http://client_code.tt.omtrdc.net/m2/client_code/ubox/raw?mbox=mbox_name&amp;amp;mboxSession=1396032094853-955654&amp;amp;mboxPC=1396032094853-955654&amp;amp;mboxXDomain=disabled&amp;amp;entity.event.detailsOnly=true&amp;amp;mboxDefault=nocontent&amp;amp;mboxNoRedirect=1&amp;amp;entity.id=2A229&amp;amp;entity.categoryId=5674
+http://client_code.tt.omtrdc.net/m2/client_code/ubox/raw?mbox=mbox_name&amp;mboxSession=1396032094853-955654&amp;mboxPC=1396032094853-955654&amp;mboxXDomain=disabled&amp;entity.event.detailsOnly=true&amp;mboxDefault=nocontent&amp;mboxNoRedirect=1&amp;entity.id=2A229&amp;entity.categoryId=5674
 ```
 **Required parameters:** 
 

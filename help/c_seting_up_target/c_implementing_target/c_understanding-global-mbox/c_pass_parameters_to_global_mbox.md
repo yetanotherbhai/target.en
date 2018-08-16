@@ -7,7 +7,7 @@ solution: Target
 subtopic: Getting Started
 title: Passing Parameters to a Global mbox
 topic: Standard
-uuid: 77443c0e-cc58-49ce-b645-29cefd1c79e6
+uuid: ea59dc90-b5ed-4459-b453-763e3da86fbd
 index: y
 internal: n
 snippet: y
@@ -43,7 +43,7 @@ You must define the JavaScript function before adding the global mbox to the pag
 
 
 ```
-p1=v1&amp;amp;p2=v2&amp;amp;p3=hello%20world
+p1=v1&amp;p2=v2&amp;p3=hello%20world
 ```
 
 
@@ -65,7 +65,7 @@ The following is an example of how the code for the page might look:
     <script type="text/javascript"> 
         function targetPageParams() { 
            
-<b>return&amp;nbsp;"p1=v1&amp;amp;p2=v2&amp;amp;p3=hello%20world"</b>; 
+<b>return "p1=v1&amp;p2=v2&amp;p3=hello%20world"</b>; 
         } 
     </script> 
     <script src="mbox.js" type="text/javascript"></script> 

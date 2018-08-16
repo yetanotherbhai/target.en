@@ -7,7 +7,7 @@ solution: Target
 subtopic: Getting Started
 title: Locations
 topic: Standard
-uuid: 3ac7ddaf-e7da-49b5-998d-a89015e7c0c4
+uuid: c9aa2194-d040-427b-96e2-6b01d6b6048b
 index: y
 internal: n
 snippet: y
@@ -25,7 +25,7 @@ Locations are essential to activities and experiences. You decide whether any lo
 * Log visitor behavior.
 
 
-In [!DNL  Target Standard], a location can be any element on a page, as long as the page contains a single line of code that enables [!DNL  Target] in the ` &amp;lt;head&amp;gt;` section of each page you want to track. This line of code calls the JavaScript libraries needed to collect information and deliver targeted experiences to your visitors. 
+In [!DNL  Target Standard], a location can be any element on a page, as long as the page contains a single line of code that enables [!DNL  Target] in the ` <head>` section of each page you want to track. This line of code calls the JavaScript libraries needed to collect information and deliver targeted experiences to your visitors. 
 
 See [ Implement Target ](../c_seting_up_target/c_implementing_target/c_target-implement.md#concept_60B748DE4293488F917E8F1FA4C7E9EB) for more information about the differences between location implementation in [!DNL  Target Standard] and the mbox implementation in [!DNL  Target Classic]. 
 

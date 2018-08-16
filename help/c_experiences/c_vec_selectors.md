@@ -6,7 +6,7 @@ seo-title: Element Selectors Used in the Visual Experience Composer
 solution: Target
 title: Element Selectors Used in the Visual Experience Composer
 topic: Standard
-uuid: 1b97e2d7-0bce-4f5d-96ec-55773e355d7e
+uuid: 91ccc516-d09a-44cc-96c0-3ff39c9e1993
 index: y
 internal: n
 snippet: y
@@ -17,7 +17,7 @@ translate: y
 
 You can find basic information about CSS selectors in the [ Selectors ](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors) document on the Mozilla Developer Network (MDN). 
 
-You can set whether to use element classed or element IDs in your account preferences. Click **[!UICONTROL  Setup &amp;gt; Preferences]**, then choose your preferred CSS selectors. 
+You can set whether to use element classed or element IDs in your account preferences. Click **[!UICONTROL  Setup > Preferences]**, then choose your preferred CSS selectors. 
 
 ![](assets/css_selectors.png) 
 
@@ -53,7 +53,7 @@ Target uses a simple algorithm to create a selector. Here is very brief explanat
    ```
 
 
-1. If an element contains a class attribute, Target attempts to leverage the first class of any classes present on the element. Target attempts to parse the parent element until it finds the ` &amp;lt;HTML&amp;gt;` element or an element with an id. Whenever an element contains an id and the selector is computed on its descendant child, this element's id contributes to the selector. 
+1. If an element contains a class attribute, Target attempts to leverage the first class of any classes present on the element. Target attempts to parse the parent element until it finds the ` <HTML>` element or an element with an id. Whenever an element contains an id and the selector is computed on its descendant child, this element's id contributes to the selector. 
 
    For example: 
 
@@ -78,7 +78,7 @@ Target uses a simple algorithm to create a selector. Here is very brief explanat
 
    ` eq` tells the index there's an element that has "tagName=UL" and the first class is ` navigation`. Therefore, ` index` is 0. See the [ Selectors ](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors) article in MDN for more information. 
 
-1. If an element does not contain a class, Target uses ` tagName` for the element and traverses up the parent element until either the ` &amp;lt;HTML&amp;gt;` element or an element with an id is found. For example: 
+1. If an element does not contain a class, Target uses ` tagName` for the element and traverses up the parent element until either the ` <HTML>` element or an element with an id is found. For example: 
 
 
    ```

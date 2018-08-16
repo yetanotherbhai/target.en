@@ -7,7 +7,7 @@ solution: Target
 title: Feeds
 title_outputclass: premium
 topic: Premium
-uuid: fd8aa94f-3fea-4742-9fed-a35aefe57df9
+uuid: 67ca7ffb-8845-4b1c-b82e-3ba5abf1fd11
 badge: premium
 index: y
 internal: n
@@ -111,8 +111,8 @@ The following is sample code for a .csv file:
 ## RECSThe last 100 columns (entity.custom1 - entity.custom100) are custom. The name 'customN' can be replaced with a custom name such as 'onSale' or 'brand'. 
 ## RECSIf the products already exist in Recommendations then changes uploaded here will override the data in Recommendations. Any new attributes entered here will be added to the product''s entry in Recommendations. 
 ## RECSentity.id,entity.name,entity.categoryId,entity.message,entity.thumbnailUrl,entity.value,entity.pageUrl,entity.inventory,entity.margin,entity.last_updated_by,entity.multi_english,entity.availability,entity.tax_country,entity.tax_region,entity.tax_rate,entity.product_type,entity.item_group_id,entity.color,entity.size,entity.brand,entity.gtin 
-na3456,RipCurl Watch with Titanium Dial,Watches &amp; Sport,Cutting edge titanium with round case,http://example.com/s7/na3456_Viewer,425,http://example.com/shop/en-us/na3456_RipCurl,24,0.25,csv,"[""New"",""Web"",""Sales"",""[1,2,34,5]""]",in stock,US,CA,9.25,Shop by Category > Watches,dz1,Titanium,44mm,RipCurl,"075380 01050 5" 
-na3457,RipCurl Watch with Black Dial,Watches &amp; Sport,Cutting edge matte black with round case,http://example.com/s7/na3457_Viewer,275,http://example.com/shop/en-us/na3457_RipCurl,24,0.27,csv,"[""New"",""Web"",""Sales"",""[1,2,34,5]""]",in stock,US,CA,9.25,Shop by Category > Watches,dz1,Black,44mm,RipCurl,"075340 01060 7"
+na3456,RipCurl Watch with Titanium Dial,Watches & Sport,Cutting edge titanium with round case,http://example.com/s7/na3456_Viewer,425,http://example.com/shop/en-us/na3456_RipCurl,24,0.25,csv,"[""New"",""Web"",""Sales"",""[1,2,34,5]""]",in stock,US,CA,9.25,Shop by Category > Watches,dz1,Titanium,44mm,RipCurl,"075380 01050 5" 
+na3457,RipCurl Watch with Black Dial,Watches & Sport,Cutting edge matte black with round case,http://example.com/s7/na3457_Viewer,275,http://example.com/shop/en-us/na3457_RipCurl,24,0.27,csv,"[""New"",""Web"",""Sales"",""[1,2,34,5]""]",in stock,US,CA,9.25,Shop by Category > Watches,dz1,Black,44mm,RipCurl,"075340 01060 7"
 ```
 
 
@@ -171,7 +171,7 @@ The following is sample code for a Google Product Search feed .xml file:
         <ns2:link>http://example.com/shop/en-us/na3452_RipCurl</ns2:link> 
         <ns2:availability>in stock</ns2:availability> 
         <ns2:condition>NEW</ns2:condition> 
-        <ns2:google_product_category>Watches &amp;amp; Sport</ns2:google_product_category> 
+        <ns2:google_product_category>Watches &amp; Sport</ns2:google_product_category> 
         <ns2:gtin>075380 01050 5</ns2:gtin> 
         <ns2:image_link>http://example.com/s7/na3452_Viewer</ns2:image_link> 
         <ns2:mobile_link>http://m.example.com/s7/na3452_Viewer</ns2:mobile_link> 
@@ -179,7 +179,7 @@ The following is sample code for a Google Product Search feed .xml file:
         <ns2:price>425</ns2:price> 
         <ns2:product_review_average>5.0</ns2:product_review_average> 
         <ns2:product_review_count>30</ns2:product_review_count> 
-        <ns2:product_type>Shop by Category &amp;gt; Watches </ns2:product_type> 
+        <ns2:product_type>Shop by Category > Watches </ns2:product_type> 
         <ns2:brand>RipCurl</ns2:brand> 
         <ns2:sale_price>375</ns2:sale_price> 
         <ns2:tax> 
@@ -197,7 +197,7 @@ The following is sample code for a Google Product Search feed .xml file:
         <ns2:link>http://example.com/shop/en-us/na3453_RipCurl</ns2:link> 
         <ns2:availability>in stock</ns2:availability> 
         <ns2:condition>NEW</ns2:condition> 
-        <ns2:google_product_category>Watches &amp;amp; Sport</ns2:google_product_category> 
+        <ns2:google_product_category>Watches &amp; Sport</ns2:google_product_category> 
         <ns2:gtin>075380 013450 5</ns2:gtin> 
         <ns2:image_link>http://example.com/s7/na3453_Viewer</ns2:image_link> 
         <ns2:mobile_link>http://m.example.com/s7/na3453_Viewer</ns2:mobile_link> 
@@ -205,7 +205,7 @@ The following is sample code for a Google Product Search feed .xml file:
         <ns2:price>275</ns2:price> 
         <ns2:product_review_average>4.8</ns2:product_review_average> 
         <ns2:product_review_count>23</ns2:product_review_count> 
-        <ns2:product_type>Shop by Category &amp;gt; Watches </ns2:product_type> 
+        <ns2:product_type>Shop by Category > Watches </ns2:product_type> 
         <ns2:brand>RipCurl</ns2:brand> 
         <ns2:sale_price>249</ns2:sale_price> 
         <ns2:tax> 
@@ -226,8 +226,8 @@ The following is sample code for a Google Product Search feed .tsv file:
 
 ```
 id    title    description    link    price    condition    availability    image_link    tax    shipping_weight    shipping    google_product_category    product_type    item_group_id    color    size    gender    age_group    pattern    brand    gtin    mpn 
-na3454    RipCurl Watch with Titanium Dial    Cutting edge titanium with round case    http://example.com/shop/en-us/na3454_RipCurl    425    new    in stock    http://example.com/s7/na3452_Viewer    US:CA:9.25:y    1.5 oz    US:::0.00 USD    Watches &amp; Sport    Shop by Category > Watches    dz1    Black    44mm    male    adult    Solid    RipCurl    075380 01050 5    DZ1437 
-na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round case    http://example.com/shop/en-us/na3455_RipCurl    275    new    in stock    http://example.com/s7/na3452_Viewer    US:CA:9.25:y    1.5 oz    US:::0.00 USD    Watches &amp; Sport    Shop by Category > Watches    dz1    Black    44mm    male    adult    Solid    RipCurl    075340 01060 7    DZ1446
+na3454    RipCurl Watch with Titanium Dial    Cutting edge titanium with round case    http://example.com/shop/en-us/na3454_RipCurl    425    new    in stock    http://example.com/s7/na3452_Viewer    US:CA:9.25:y    1.5 oz    US:::0.00 USD    Watches & Sport    Shop by Category > Watches    dz1    Black    44mm    male    adult    Solid    RipCurl    075380 01050 5    DZ1437 
+na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round case    http://example.com/shop/en-us/na3455_RipCurl    275    new    in stock    http://example.com/s7/na3452_Viewer    US:CA:9.25:y    1.5 oz    US:::0.00 USD    Watches & Sport    Shop by Category > Watches    dz1    Black    44mm    male    adult    Solid    RipCurl    075340 01060 7    DZ1446
 ```
 
 

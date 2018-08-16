@@ -8,7 +8,7 @@ subtopic: Recommendations
 title: Recommendations Activity Settings
 title_outputclass: premium
 topic: Premium
-uuid: 963fed19-5fb1-4844-8aab-12b4aace8e6d
+uuid: d5b06842-62b8-4549-aea2-3359eba832ab
 badge: premium
 index: y
 internal: n

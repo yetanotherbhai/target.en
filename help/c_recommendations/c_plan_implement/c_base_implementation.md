@@ -7,7 +7,7 @@ solution: Target
 title: Base Implementation
 title_outputclass: premium
 topic: Premium
-uuid: 14e898fb-ae91-4fdb-9a00-d786636cea6d
+uuid: 156210c3-233d-4b56-949e-e565229fd620
 badge: premium
 index: y
 internal: n
@@ -116,7 +116,7 @@ function targetPageParams() {
          "id": " 
 <i>32323</i>", 
          "categoryId": " 
-<i>My&amp;nbsp;Category</i>", 
+<i>My Category</i>", 
          "value": 105.56, 
          "inventory": 329 
       } 

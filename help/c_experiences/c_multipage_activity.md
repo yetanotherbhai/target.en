@@ -6,7 +6,7 @@ seo-title: Multipage Activity
 solution: Target
 title: Multipage Activity
 topic: Advanced
-uuid: 1281c363-ec25-451e-8df3-904e8b8a1d9f
+uuid: 74504bf1-096c-482f-8016-c1b7f0ca6e85
 index: y
 internal: n
 snippet: y

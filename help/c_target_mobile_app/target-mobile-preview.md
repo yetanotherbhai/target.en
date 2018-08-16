@@ -6,7 +6,7 @@ seo-title: Target Mobile Preview
 solution: Target
 title: Target Mobile Preview
 topic: Advanced,Standard,Classic
-uuid: 75d901e0-af65-4fbf-91c6-a1c7bb587aa8
+uuid: 684f46f7-03ef-4386-82de-7f311ed5db39
 index: y
 internal: n
 snippet: y
@@ -107,7 +107,7 @@ The mobile preview functionality lets you fully test your Mobile app activities 
 
 
    ```
-   &amp;lt;activity&amp;nbsp;android:name="com.adobe.mobile.MessageFullScreenActivity"&amp;nbsp;/&amp;gt;
+   <activity android:name="com.adobe.mobile.MessageFullScreenActivity" />
    ```
 
 

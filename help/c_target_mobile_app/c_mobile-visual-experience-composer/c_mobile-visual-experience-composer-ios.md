@@ -6,7 +6,7 @@ seo-title: iOS - Setting Up the Mobile App
 solution: Target
 title: iOS - Setting Up the Mobile App
 topic: Standard
-uuid: 4abe4a1a-9a2e-421b-82a7-ef3053a78ae7
+uuid: 9e795157-a2c2-46ac-97fe-08ee3cfc28ac
 index: y
 internal: n
 snippet: y

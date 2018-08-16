@@ -5,7 +5,7 @@ seo-description: A/B testing forms the backbone of most digital marketing optimi
 seo-title: Nine Common A/B Testing Pitfalls and How to Avoid Them
 solution: Target
 title: Nine Common A/B Testing Pitfalls and How to Avoid Them
-uuid: cf71665f-1bfb-408e-8775-494ad7d9354c
+uuid: 41132e77-ccab-4731-8775-071e251986b9
 index: y
 internal: n
 snippet: y

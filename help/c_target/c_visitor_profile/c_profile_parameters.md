@@ -6,7 +6,7 @@ seo-title: Profile Attributes
 solution: Target
 title: Profile Attributes
 topic: Advanced,Standard,Classic
-uuid: bbe8ce7e-1f07-4bac-b725-32bfce097e9c
+uuid: d3aae131-9c74-4932-a600-dbf2ef65f1fa
 index: y
 internal: n
 snippet: y
@@ -101,7 +101,7 @@ Profile script attributes have the ` user.` tag inserted before the attribute na
 
 ```
 if (mbox.name == 'Track_Interest') { 
-    if (profile.get('model') == "A5" &amp;&amp;; profile.get('subcat') == "KS6") { 
+    if (profile.get('model') == "A5" &&; profile.get('subcat') == "KS6") { 
         return (user.get('A5KS6') || 0) + 1; 
     } 
 }
@@ -234,7 +234,7 @@ if (!user.get('twogroups')) {
 
 ` var ran_number=Math.floor(Math.random() *99)` declares a new variable called ran_number, sets its value to a random decimal between 0 and 1, then multiplies it by 99 and rounds it down to create a range of 100 (0-99), useful for specifying a percentage of visitors who see the activity. 
 
-` if (ran_number &amp;lt;= 49)` begins a routine that determines which group the visitor belongs to. If the number returned is 0-49, the visitor is assigned to GroupA. If the number is 50-99, the visitor is assigned to GroupB. The group determines which activity the visitor sees. 
+` if (ran_number <= 49)` begins a routine that determines which group the visitor belongs to. If the number returned is 0-49, the visitor is assigned to GroupA. If the number is 50-99, the visitor is assigned to GroupB. The group determines which activity the visitor sees. 
 
 After you create the profile attribute, set up the first activity to target the desired population by requiring that the user profile parameter user.twogroups match the value specified for GroupA. 
 
@@ -321,7 +321,7 @@ The following methods can be used to debug profile scripts:
 
   This method requires an authorization token that you can generate by clicking **[!UICONTROL  Target]** > **[!UICONTROL  Setup]** > **[!UICONTROL  Implementation]** > **[!UICONTROL  Generate Authorization Token]**. 
 
-  You then you add these two parameters to your page URL after the "?": ` mboxTrace=window&amp;amp;authorization=YOURTOKEN`. 
+  You then you add these two parameters to your page URL after the "?": ` mboxTrace=window&amp;authorization=YOURTOKEN`. 
 
   This is a little more informative than the response token because you get a before-executed snapshot and an after-snapshot of your profile. It will also show all your available profiles. 
 

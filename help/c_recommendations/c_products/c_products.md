@@ -7,7 +7,7 @@ solution: Target
 title: Entities
 title_outputclass: premium
 topic: Premium
-uuid: cb1a001c-b775-4a3f-89a8-297052dfceba
+uuid: 77a76f0a-c56e-4fe4-8a0c-92dd73f70fc1
 badge: premium
 index: y
 internal: n

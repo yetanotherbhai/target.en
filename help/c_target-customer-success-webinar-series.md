@@ -6,7 +6,7 @@ seo-title: Target Basics Webinar Series
 solution: Target
 title: Target Basics Webinar Series
 topic: Premium
-uuid: 69fa2222-c1a7-4cab-bdfe-7c025c8868ca
+uuid: d41e3ffa-e05e-40dd-b25a-cac24f9a5822
 index: y
 internal: n
 snippet: y

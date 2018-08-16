@@ -7,7 +7,7 @@ solution: Target
 subtopic: Getting Started
 title: Activities and Tests
 topic: Standard
-uuid: bcb58be7-9c48-41c3-8a5e-503767f64793
+uuid: 08705b8b-3cb9-4e6e-b8d5-371ee35e7e0b
 index: y
 internal: n
 snippet: y

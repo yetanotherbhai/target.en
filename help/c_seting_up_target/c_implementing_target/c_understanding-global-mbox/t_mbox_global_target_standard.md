@@ -7,7 +7,7 @@ solution: Target
 subtopic: Getting Started
 title: Using a Global mbox from a Legacy Implementation
 topic: Standard
-uuid: f08874f9-a3b6-434e-a25f-0eaf45921c62
+uuid: 5907f247-bd30-4568-904b-2e3d391a4bd4
 index: y
 internal: n
 snippet: y

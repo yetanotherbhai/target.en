@@ -5,7 +5,7 @@ seo-description: Use metrics in a Multivariate Test to determine when a visit is
 seo-title: Set Metrics
 solution: Target,standard
 title: Set Metrics
-uuid: c6703984-d2a0-4cca-a7d8-605097362672
+uuid: dd26d493-05cf-4623-9f4d-ca6aae1a9bc3
 index: y
 internal: n
 snippet: y

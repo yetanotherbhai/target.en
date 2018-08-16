@@ -5,7 +5,7 @@ seo-description: Follow these steps to validate targeting to a URL or referring 
 seo-title: Validate Targeting to URL or Referring URL Parameters
 solution: Target
 title: Validate Targeting to URL or Referring URL Parameters
-uuid: 6672f177-5c8d-42a5-9ff2-af739a272bf2
+uuid: c67e5351-6a7f-4d99-90e2-5c1c4d5cbc78
 index: y
 internal: n
 snippet: y
@@ -19,7 +19,7 @@ translate: y
 
 >       The example below shows an appended target condition where your targeting condition is met when the keyword equals "chairs": 
 
->    [!DNL  http://www.yourcompany.com/asp/feature_item.asp?​keyword=chair&amp;amp;categoryId=45] 
+>    [!DNL  http://www.yourcompany.com/asp/feature_item.asp?​keyword=chair&amp;categoryId=45] 
 >1. Confirm that you see the correct content for the targeting condition.
 >1. Delete cookies and confirm you do not see the content when you do not meet the targeting condition.
 >1. If segments filters are set, confirm reports correctly capture the URL parameter values.

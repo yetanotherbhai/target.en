@@ -7,7 +7,7 @@ solution: Target
 subtopic: Getting Started
 title: Administrator First Steps
 topic: Standard
-uuid: ed97ac4a-0e22-4c45-861e-c2b8d8a043c3
+uuid: 9309ec66-446e-4bed-8fc3-fdaefa4bd55b
 index: y
 internal: n
 snippet: y

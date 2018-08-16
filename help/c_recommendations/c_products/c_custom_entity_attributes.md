@@ -7,7 +7,7 @@ solution: Target
 title: Custom Entity Attributes
 title_outputclass: premium
 topic: Premium
-uuid: 4c095797-aafd-406e-ace7-4b78401e2679
+uuid: 221da3b6-badb-4d83-b456-498119cab352
 badge: premium
 index: y
 internal: n
@@ -46,7 +46,7 @@ A multi-value custom entity attribute must be sent as a valid JSON array:
 
 
 ```
-entity.genre=[“genre1”,&amp;nbsp;“genre2”]
+entity.genre=[“genre1”, “genre2”]
 ```
 
 
@@ -399,5 +399,5 @@ Multi-value attributes will appear as a comma-separated list when referenced in 
 
 Example: 
 
-When ` entity.genre=["genre1","genre2"]` is referenced in a design as ` $entity&amp;lt;N&amp;gt;.genre`, the result is ` genre1, genre2`. 
+When ` entity.genre=["genre1","genre2"]` is referenced in a design as ` $entity<N>.genre`, the result is ` genre1, genre2`. 
 >[!MORE_LIKE_THIS]* [ Entity Attributes ](r_entity_attributes.md#reference_3BCC1383FB3F44F4A2120BB36270387F)

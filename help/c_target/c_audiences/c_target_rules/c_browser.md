@@ -7,7 +7,7 @@ solution: Target
 subtopic: Multivariate Test
 title: Browser
 topic: Premium
-uuid: 5cbfecf8-6ec4-42f3-9189-d9aea29edcdd
+uuid: ebc13a33-1161-42d6-9b87-a5ba07799145
 index: y
 internal: n
 snippet: y

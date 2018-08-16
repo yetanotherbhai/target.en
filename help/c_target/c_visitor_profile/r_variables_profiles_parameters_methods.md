@@ -6,7 +6,7 @@ seo-title: Profile and Variable Glossary
 solution: Target
 title: Profile and Variable Glossary
 topic: Standard
-uuid: cdbb3bf2-098b-4b01-bd71-20afb4fcf1c1
+uuid: be627faa-1966-4a29-b110-e27dc439ff03
 index: y
 internal: n
 snippet: y

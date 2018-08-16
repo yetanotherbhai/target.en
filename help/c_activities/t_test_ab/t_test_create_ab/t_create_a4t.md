@@ -5,7 +5,7 @@ seo-description: You can configure an Activity in Target Standard to use Adobe A
 seo-title: Using Analytics Data
 solution: Target
 title: Using Analytics Data
-uuid: d4577634-7802-4ae9-84e3-335bef0ce291
+uuid: 6e15ccb5-95d3-48ad-9957-cfd9cc057377
 index: y
 internal: n
 snippet: y
@@ -32,7 +32,7 @@ Analytics for Target requires a tracking server to report results correctly. A d
 
 >[!NOTE]
 >
->If you use Adobe Analytics as your activity's reporting source, you do not need to specify a tracking server during activity creation if you are using ` mbox.js` version 61 (or later) or ` at.js` version 0.9.1 (or later). The ` mbox.js` or ` at.js` library automatically sends tracking server values to [!DNL  Target]. During activity creation, you can leave the [!UICONTROL  Tracking Server] field empty on the [!UICONTROL  Goals &amp;amp; Settings] page. 
+>If you use Adobe Analytics as your activity's reporting source, you do not need to specify a tracking server during activity creation if you are using ` mbox.js` version 61 (or later) or ` at.js` version 0.9.1 (or later). The ` mbox.js` or ` at.js` library automatically sends tracking server values to [!DNL  Target]. During activity creation, you can leave the [!UICONTROL  Tracking Server] field empty on the [!UICONTROL  Goals &amp; Settings] page. 
 
 
 

@@ -7,7 +7,7 @@ solution: Target
 subtopic: Getting Started
 title: Create an Adbox for an Image
 topic: Standard
-uuid: 4d4eb70a-0f63-4c44-8249-134a9e4ed98e
+uuid: 43a338fb-7e7f-4f53-83b9-e9a3e3936d58
 index: y
 internal: n
 snippet: y
@@ -22,7 +22,7 @@ For help selecting the right setup see [ Non-JavaScript-Based Implementations](.
 
 >1. Create the AdBox URL:
 
->       `http://myClientCode​.tt.omtrdc.net​/m2/​​myClientCode/​ubox/image​?mbox=emailHeroImage123_320x200​&amp;mboxDefault=​​http%3A%2F%2Fwww%2Eyourcompany%2Ecom%2F​img%2F​logo%2Egif` 
+>       `http://myClientCode​.tt.omtrdc.net​/m2/​​myClientCode/​ubox/image​?mbox=emailHeroImage123_320x200​&mboxDefault=​​http%3A%2F%2Fwww%2Eyourcompany%2Ecom%2F​img%2F​logo%2Egif` 
 
 
 

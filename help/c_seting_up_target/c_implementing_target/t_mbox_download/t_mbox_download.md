@@ -7,7 +7,7 @@ solution: Target
 subtopic: Getting Started
 title: mbox.js Implementation
 topic: Standard
-uuid: ad9fbf24-df4c-45ff-93f5-2b588089b772
+uuid: 64c43710-c9d3-4a04-b44b-ea1977a88899
 index: y
 internal: n
 snippet: y
@@ -55,7 +55,7 @@ This video explains how to implement [!DNL  mbox.js].
 
 You do not need to maintain different activity-specific versions of the file. 
 
->1. Reference [!DNL  mbox.js] in the ` &amp;lt;head&amp;gt;` section of each page on your site.
+>1. Reference [!DNL  mbox.js] in the ` <head>` section of each page on your site.
 
 >       ` <script src="/ *` directory`*/ *` scripts`*/mbox.js"></script>` 
 

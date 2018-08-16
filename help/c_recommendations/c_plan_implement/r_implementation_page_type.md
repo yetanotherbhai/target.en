@@ -7,7 +7,7 @@ solution: Target
 title: Implementation According to Page Type
 title_outputclass: premium
 topic: Premium
-uuid: da0ead98-e6e5-440a-ad09-c3b5fca45c33
+uuid: 7d8a7270-8c26-4dfd-aca3-58db0fe241dc
 badge: premium
 index: y
 internal: n
@@ -42,13 +42,13 @@ All pages that contain recommendations require either an [!DNL  at.js] or [!DNL 
 
 
 ```
-&amp;lt;script&amp;nbsp;src="../at.js&amp;nbsp;/&amp;gt;&amp;lt;/script&amp;gt;
+<script src="../at.js /></script>
 ```
 
 
 
 ```
-&amp;lt;script&amp;nbsp;src="../mbox.js&amp;nbsp;/&amp;gt;&amp;lt;/script&amp;gt;
+<script src="../mbox.js /></script>
 ```
 
 
@@ -75,7 +75,7 @@ function targetPageParams() {
    return { 
       "entity": { 
          "categoryId": " 
-<i>My&amp;nbsp;Category</i>" 
+<i>My Category</i>" 
       } 
    } 
 }
@@ -94,7 +94,7 @@ function targetPageParams() {
          "id": " 
 <i>32323</i>", 
          "categoryId": " 
-<i>My&amp;nbsp;Category</i>", 
+<i>My Category</i>", 
          "value": 105.56, 
          "inventory": 329 
       } 

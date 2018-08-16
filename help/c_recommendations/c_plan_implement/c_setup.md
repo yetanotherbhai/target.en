@@ -7,7 +7,7 @@ solution: Target
 title: Settings
 title_outputclass: premium
 topic: Premium
-uuid: 56956117-13a9-4d96-aaa4-a9cccd90c2af
+uuid: 9b9887c1-d0ae-432a-9438-7a848666e15e
 badge: premium
 index: y
 internal: n

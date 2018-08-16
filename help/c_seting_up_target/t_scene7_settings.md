@@ -6,7 +6,7 @@ solution: Target
 subtopic: Getting Started
 title: Scene7 Settings
 topic: Standard
-uuid: c6dc2bc6-5a0a-4ef8-94b3-d9423b1fca0f
+uuid: 7d428ceb-c262-4bb8-9ef4-c8ec81229e21
 index: y
 internal: n
 snippet: y

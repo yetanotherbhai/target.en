@@ -7,7 +7,7 @@ solution: Target
 subtopic: Multivariate Test
 title: Creating Carousels that Work in the Visual Experience Composer
 topic: Standard
-uuid: b115e6da-3525-4bfd-98da-bc37df2cfc13
+uuid: d21eb492-6c96-4a7c-a419-459134a2af0d
 index: y
 internal: n
 snippet: y

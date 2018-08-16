@@ -7,7 +7,7 @@ solution: Target
 subtopic: Multivariate Test
 title: Activity Settings
 topic: Standard
-uuid: 8e6ef472-59f6-442d-a25d-e0ad9f08ec28
+uuid: ddafafef-a501-4039-be7e-ce9755f42dc0
 index: y
 internal: n
 snippet: y
@@ -54,7 +54,7 @@ translate: y
 >       >Scheduling an activity controls the delivery time frame of the activity; however, the activity must be explicitly activated before it can be delivered according to the specified schedule.
 
 
->       The [!UICONTROL  Goal &amp;amp; Settings] page includes additional settings that vary based on the type of activity you are creating. For more information on these settings, refer to your activity type: 
+>       The [!UICONTROL  Goal &amp; Settings] page includes additional settings that vary based on the type of activity you are creating. For more information on these settings, refer to your activity type: 
 
 >    
 >    * [ A/B Test ](../c_activities/t_test_ab/t_test_create_ab/r_ab_goals_and_settings.md#reference_B25389FD6F3A4989801E740364B089CC)

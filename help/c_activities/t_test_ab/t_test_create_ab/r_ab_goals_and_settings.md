@@ -4,7 +4,7 @@ keywords: activity settings;A/B goals and settings;reporting settings;goal metri
 seo-description: The Goals and Settings page is where you enter information about the goals of the test.
 seo-title: Goals and Settings
 title: Goals and Settings
-uuid: b17f8c6d-c9fb-45ef-89a5-80e3cc8210b9
+uuid: 6a22ad78-0f12-4ee9-8573-7692c1782df7
 index: y
 internal: n
 snippet: y

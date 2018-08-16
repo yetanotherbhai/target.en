@@ -6,7 +6,7 @@ seo-title: Include the Same Experience on Similar Pages
 solution: Target
 title: Include the Same Experience on Similar Pages
 topic: Premium
-uuid: 553e021f-a022-474b-81d4-e6630900eb7c
+uuid: eea01665-6e7c-4faa-8a25-ffe994fe293d
 index: y
 internal: n
 snippet: y

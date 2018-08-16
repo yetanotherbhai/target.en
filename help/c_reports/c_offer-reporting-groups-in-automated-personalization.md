@@ -7,7 +7,7 @@ solution: Target
 title: Offer Reporting Groups in Automated Personalization
 title_outputclass: premium
 topic: Advanced
-uuid: 198e72c9-e8ef-4257-9845-67ff14e24089
+uuid: 8a717a1f-276f-4c0a-96f0-16b461093099
 badge: premium
 index: y
 internal: n

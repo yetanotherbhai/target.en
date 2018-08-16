@@ -6,7 +6,7 @@ seo-title: TLS (Transport Layer Security) Encryption Changes
 solution: Target
 title: TLS (Transport Layer Security) Encryption Changes
 topic: Standard
-uuid: 296794c4-b99a-465d-8cb9-28ec32253d32
+uuid: 6a9ca25c-c851-484c-85f9-65b85fcc8f62
 index: y
 internal: n
 snippet: y

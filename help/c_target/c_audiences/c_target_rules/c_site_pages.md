@@ -6,7 +6,7 @@ seo-title: Site Pages
 solution: Target
 title: Site Pages
 topic: Standard
-uuid: a4a37373-3428-4a05-95dc-08929da9372c
+uuid: eef7ddc7-11a7-496d-ab86-77768a45ab4a
 index: y
 internal: n
 snippet: y

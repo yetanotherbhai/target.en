@@ -6,7 +6,7 @@ seo-title: Transitioning from Target Legacy APIs to Adobe I/O
 solution: Target
 title: Transitioning from Target Legacy APIs to Adobe I/O
 topic: Standard
-uuid: 8bb36911-c799-40a6-bb7a-4b6ad759dd6b
+uuid: 05cd8f29-be26-4ea9-b763-9781efc317f9
 index: y
 internal: n
 snippet: y

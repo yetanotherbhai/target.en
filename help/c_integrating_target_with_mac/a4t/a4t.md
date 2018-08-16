@@ -7,7 +7,7 @@ solution: Target
 subtopic: Multivariate Test
 title: Adobe Analytics as the Reporting Source for Adobe Target (A4T)
 topic: Standard
-uuid: 1784a47b-6352-4e5b-8c6f-370240c8c896
+uuid: 532cfb2e-46c5-419f-9e0a-ce2825fab442
 index: y
 internal: n
 snippet: y

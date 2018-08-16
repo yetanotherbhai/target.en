@@ -7,7 +7,7 @@ solution: Target
 title: Share Experience URLs to Preview Automated Personalization Outside of Target
 title_outputclass: premium
 topic: Standard
-uuid: ae3219b0-d941-4400-b2f3-4c95621e0b09
+uuid: 8fbd43ae-693f-4ad2-98eb-635c7ba50512
 badge: premium
 index: y
 internal: n

@@ -5,7 +5,7 @@ seo-description: Use metrics in an A/B activity to determine when a visit is suc
 seo-title: Set Metrics
 solution: Target,standard
 title: Set Metrics
-uuid: 74117f40-2b93-4caa-9ee5-7ef2c196dcd4
+uuid: ac13f7f9-fde6-4252-a756-3d369eafe843
 index: y
 internal: n
 snippet: y

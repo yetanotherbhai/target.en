@@ -7,7 +7,7 @@ solution: Target
 subtopic: Getting Started
 title: Search Engine Optimization (SEO) Friendly Testing
 topic: Standard
-uuid: bb6a3f3b-819b-4038-8c12-77cffe3d8e03
+uuid: 23374315-cc91-4723-937c-f39f03fe29f0
 index: y
 internal: n
 snippet: y
@@ -31,9 +31,9 @@ Guidelines were presented in a [ Google Webmaster Central Blog ](https://webmast
 
   Target, as a platform, has been configured to treat search engine bots the same as any user. This means that the bots might get included in tests you are running, if they are randomly selected, and "see" the test variations. 
 
-* ** Use rel="canonical"** - Sometimes an A/B test needs to be set up using different URLs for the variations. In these instances, all variations should contain a ` rel="canonical"` tag that references the original (control) URL. For instance, if Adobe were testing its home page using different URLs for each variation, the following canonical tag for the home page would go in the ` &amp;lt;head&amp;gt;` tag for each of the variations: 
+* ** Use rel="canonical"** - Sometimes an A/B test needs to be set up using different URLs for the variations. In these instances, all variations should contain a ` rel="canonical"` tag that references the original (control) URL. For instance, if Adobe were testing its home page using different URLs for each variation, the following canonical tag for the home page would go in the ` <head>` tag for each of the variations: 
 
-  ` &amp;lt;link rel="canonical" href="http://www.adobe.com" /&amp;gt;` 
+  ` <link rel="canonical" href="http://www.adobe.com" />` 
 
 * ** Use 302 (temporary) redirects** - In the instances where separate URLs are used for the variation pages in a test, Google recommends using a 302 redirect to direct traffic into the test variations. This tells the search engines that the redirect is temporary and will only be active as long as the test is running. 
 

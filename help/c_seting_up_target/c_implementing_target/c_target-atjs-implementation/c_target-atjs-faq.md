@@ -6,7 +6,7 @@ seo-title: at.js Frequently Asked Questions
 solution: Target
 subtopic: Getting Started
 title: at.js Frequently Asked Questions
-uuid: 6613fbb4-6f51-42b8-9c48-f72d058ade42
+uuid: 42cdbbdb-fc42-475a-bc9a-887a56159c0b
 index: y
 internal: n
 snippet: y
@@ -87,7 +87,7 @@ To load ` at.js` asynchronously:
 
 
   ```
-  &amp;lt;script&amp;nbsp;src="&amp;lt;URL&amp;nbsp;to&amp;nbsp;at.js&amp;gt;"&amp;nbsp;async&amp;gt;&amp;lt;/script&amp;gt;
+  <script src="<URL to at.js>" async></script>
   ```
 
 
@@ -158,7 +158,7 @@ For example, you have two regions identified by IDs container-1 and container-2,
 
 
 ```
-#container-1,&amp;nbsp;#container-2&amp;nbsp;{opacity:&amp;nbsp;0&amp;nbsp;!important}
+#container-1, #container-2 {opacity: 0 !important}
 ```
 
 

@@ -3,7 +3,7 @@ description: null
 seo-description: null
 seo-title: 2017 Releases
 title: 2017 Releases
-uuid: 75de1a52-ce37-48fd-90b9-2b7d1a197315
+uuid: 0595d36c-e096-416d-b721-4c474bf22616
 index: y
 internal: n
 snippet: y
@@ -770,11 +770,11 @@ This [!DNL  Target] release focuses on usability and performance improvements an
 
 * Made enhancements to the Enhanced Experience Composer (EEC) to improve loading time for websites running HTTPS accessed via proxy. Target no longer fetches static resources via proxy. (TGT-21793) 
 
-* Made performance improvements on the [!UICONTROL  Goals &amp;amp; Settings] page, especially load time when many metrics are defined for an activity. (TGT-21654) 
+* Made performance improvements on the [!UICONTROL  Goals &amp; Settings] page, especially load time when many metrics are defined for an activity. (TGT-21654) 
 
-* Added a tool tip on the [!UICONTROL  Goals &amp;amp; Settings] page of all activities using [!UICONTROL  Analytics for Target] (A4T) reporting informing users that a tracking server is not required if the activity's pages have ` at.js` (version 0.9.1 or later) or ` mbox.js` (version 61 or later) loaded. (TGT-22607) 
+* Added a tool tip on the [!UICONTROL  Goals & Settings] page of all activities using [!UICONTROL  Analytics for Target] (A4T) reporting informing users that a tracking server is not required if the activity's pages have ` at.js` (version 0.9.1 or later) or ` mbox.js` (version 61 or later) loaded. (TGT-22607) 
 
-* Metric names now display on the [!UICONTROL  Goals &amp;amp; Settings] page without users needing to expand each metric to view the entire metric name. This improvement lets users edit metrics quicker and more efficiently. (TGT-21276) 
+* Metric names now display on the [!UICONTROL  Goals &amp; Settings] page without users needing to expand each metric to view the entire metric name. This improvement lets users edit metrics quicker and more efficiently. (TGT-21276) 
 
 * You can now apply [!DNL  Recommendations] inclusion rules to custom criteria (uploaded via CSV), just like any other criteria. (TGT-21896) 
 

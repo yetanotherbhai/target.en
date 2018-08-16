@@ -7,7 +7,7 @@ solution: Target
 title: Customizing a Design Using Velocity
 title_outputclass: premium
 topic: Premium
-uuid: 378aee5b-d4a0-452e-b0cf-d2970a64ba46
+uuid: 287a341e-2e87-45d1-9d4c-5a54e672e68b
 badge: premium
 index: y
 internal: n
@@ -224,7 +224,7 @@ The following code shows a single line in a conditional sale pricing example:
 
 
 ```
-&amp;lt;span&amp;nbsp;class="price"&amp;gt;$entity1.value.replace(".",&amp;nbsp;",")&amp;nbsp;€&amp;lt;/span&amp;gt;&amp;lt;br&amp;gt;
+<span class="price">$entity1.value.replace(".", ",") €</span><br>
 ```
 
 

@@ -6,7 +6,7 @@ seo-title: Percentage Targeting
 solution: Target
 title: Percentage Targeting
 topic: Standard
-uuid: 5aa073e4-9198-49d6-b64a-5efe4169bace
+uuid: 82c6666f-8406-4c89-bc2a-eafa9df04f58
 index: y
 internal: n
 snippet: y

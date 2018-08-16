@@ -8,7 +8,7 @@ subtopic: Getting Started
 title: Enterprise User Permissions
 title_outputclass: premium
 topic: Premium
-uuid: 00eb7230-dfda-4fee-91ce-cb860578e4ca
+uuid: 4fa1cb0c-5a5d-4054-bd50-dfcb309ceddc
 badge: premium
 index: y
 internal: n
@@ -225,7 +225,7 @@ The new Permissions functionality can be seen in various places in the [!DNL  Ta
 
 * **Offer Creation:** When you create a new offer, it is created in the currently selected workspace. 
 
-* **Properties page (Setup &amp;gt; Properties):** You can use the [!UICONTROL  Search] box, the [!UICONTROL  Channel], and [!UICONTROL  Product Profile] options to filter the [!UICONTROL  Property] List. 
+* **Properties page (Setup > Properties):** You can use the [!UICONTROL  Search] box, the [!UICONTROL  Channel], and [!UICONTROL  Product Profile] options to filter the [!UICONTROL  Property] List. 
 
   ![](assets/properties_list.png) 
 

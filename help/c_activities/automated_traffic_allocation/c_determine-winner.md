@@ -6,7 +6,7 @@ seo-title: Determine a Winner
 solution: Target
 title: Determine a Winner
 topic: Standard
-uuid: 9efa5344-bf05-4eef-ab4b-af17c16c7d0c
+uuid: 8290d260-9d05-4497-8506-edd7046c2c49
 index: y
 internal: n
 snippet: y

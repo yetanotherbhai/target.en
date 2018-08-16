@@ -6,7 +6,7 @@ seo-title: How Dynamic Remote Offers Work
 solution: Target
 title: How Dynamic Remote Offers Work
 topic: Standard
-uuid: f25a4bca-7364-40a7-8134-d6e9657c324c
+uuid: 75f8131a-a68a-464b-9da7-fb31a74c9538
 index: y
 internal: n
 snippet: y

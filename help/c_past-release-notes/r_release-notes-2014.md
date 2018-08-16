@@ -3,7 +3,7 @@ description: null
 seo-description: null
 seo-title: 2014 Releases
 title: 2014 Releases
-uuid: 7bb482c9-85a7-4028-8561-def8ca9c23d8
+uuid: 39281525-0e8b-4934-a4a5-e9f5f58d2d7c
 index: y
 internal: n
 snippet: y
@@ -351,7 +351,7 @@ This release includes the following fixes and enhancements:
 
 
 *
-* Fixed an issue where [!DNL  target.js] moves other scripts out of the ` &amp;lt;head&amp;gt;` section of a page.
+* Fixed an issue where [!DNL  target.js] moves other scripts out of the ` <head>` section of a page.
 *
 *
 *

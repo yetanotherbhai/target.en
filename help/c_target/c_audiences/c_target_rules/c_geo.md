@@ -6,7 +6,7 @@ seo-title: Geo
 solution: Target,Analytics
 title: Geo
 topic: Reports and analytics
-uuid: 22803501-cbc8-4316-a038-875021e8189c
+uuid: 74f0ddac-8938-4558-b75c-4e8391d5f42e
 index: y
 internal: n
 snippet: y
@@ -238,12 +238,6 @@ You can override your IP address with an IP address from a different location an
 
 You'll need to clear your cookies before doing this. 
 
-<<<<<<< HEAD
 **How are territories, such as Puerto Rico and Hong Kong, mapped into the geo-targeting structure?** 
 
 Puerto Rico, Hong Kong, and other territories are treated as separate "Country" values. 
-=======
-**How are territories, such as Puerto Rico and Hong Kong, mapped into the geo-targeting structure?**
-
-Puerto Rico, Hong Kong, and other territories are treated as separate "Country" values.
->>>>>>> f0a4646e04e894ba195b1539be75d51482b39b61

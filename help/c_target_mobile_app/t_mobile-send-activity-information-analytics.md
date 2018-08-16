@@ -3,7 +3,7 @@ description: This section describes how to send Target mobile app activity infor
 seo-description: This section describes how to send Target mobile app activity information to Adobe Analytics for postAhoc segmentation.
 seo-title: Send Activity Information to Adobe Analytics
 title: Send Activity Information to Adobe Analytics
-uuid: a0398004-17a4-4c58-9a71-3c25756fff62
+uuid: e35088d3-7491-4765-a03d-69ea47915b7f
 index: y
 internal: n
 snippet: y
@@ -69,12 +69,12 @@ translate: y
 >    
 >       ```
 >       [ADBMobile trackAction:@"Welcome Screen"  
->             data:@{@"&amp;&amp;tnt" : tntVal from response}];
+>             data:@{@"&&tnt" : tntVal from response}];
 >       ```
 
 
 
 >       >[!NOTE]
 >       >
->       >` &amp;amp;&amp;amp;tnt`is a reserved event key in the mobile SDK. The post-classification of the ` tntVal` variable in Analytics works in the same way in the mobile SDK as it does in on the web (JavaScript). Once the information is processed in Analytics, you should see activity and experience names in the Analytics interface. 
+>       >` &&tnt`is a reserved event key in the mobile SDK. The post-classification of the ` tntVal` variable in Analytics works in the same way in the mobile SDK as it does in on the web (JavaScript). Once the information is processed in Analytics, you should see activity and experience names in the Analytics interface. 
 

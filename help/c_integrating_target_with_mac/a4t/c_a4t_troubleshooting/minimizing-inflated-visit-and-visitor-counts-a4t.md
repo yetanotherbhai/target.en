@@ -7,7 +7,7 @@ solution: Target
 subtopic: Multivariate Test
 title: Minimizing Inflated Visit and Visitor Counts in A4T
 topic: Standard
-uuid: 4140f484-be03-4ca7-a858-e7659ce4b99b
+uuid: 083679fe-563c-4a9c-9f87-49887518a687
 index: y
 internal: n
 snippet: y
@@ -115,7 +115,7 @@ Because this processing change affects data only after the release date (Novembe
 
 The following information relating to this change includes instructions to help you define the segment and apply it to a virtual report suite so that this segment is always applied to your [!DNL  Analytics] views. 
 
-In most situations, a [!DNL  Target]&nbsp;hit is stitched with an&nbsp; [!DNL  Analytics]&nbsp;hit on each webpage. This stitching happens if there is a consistent SDID in both the&nbsp; [!DNL  Target]&nbsp;and [!DNL  Analytics]&nbsp;call and a [!DNL  Experience Cloud ID] (MCID) in the&nbsp; [!DNL  Analytics]&nbsp;call on the same page. [!DNL  Target] typically has the MCID as well, but if the call to [!DNL  Target] happens before the visitor ID returns, the hit will still be stitched because of the SDID. Also, the user must remain on the page long enough to fire an&nbsp; [!DNL  Analytics]&nbsp;call after a&nbsp; [!DNL  Target]&nbsp;call was fired. This is the ideal scenario. 
+In most situations, a [!DNL  Target] hit is stitched with an  [!DNL  Analytics] hit on each webpage. This stitching happens if there is a consistent SDID in both the  [!DNL  Target] and [!DNL  Analytics] call and a [!DNL  Experience Cloud ID] (MCID) in the  [!DNL  Analytics] call on the same page. [!DNL  Target] typically has the MCID as well, but if the call to [!DNL  Target] happens before the visitor ID returns, the hit will still be stitched because of the SDID. Also, the user must remain on the page long enough to fire an  [!DNL  Analytics] call after a  [!DNL  Target]&nbsp;call was fired. This is the ideal scenario. 
 
 **Partial-Data Hits: **Users sometimes don't remain on a page long enough to send an [!DNL  Analytics] call, but [!DNL  Target] has a proper MCID. This results in partial-data hits (hits with no [!DNL  Analytics] page view). If these users come back to your site and view a page containing [!DNL  Analytics] code, they'll be properly counted as returning visitors. These are hits that would have been lost if you had only [!DNL  Analytics] code on the page. Some clients don't want data for these hits because they inflate certain metrics (visits) and deflate other metrics (page views per visit, time per visit, and so forth). You will also see visits without any page views. However, there are still valid reasons for keeping this data. 
 

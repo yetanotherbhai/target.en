@@ -6,7 +6,7 @@ seo-title: Random Forest Algorithm
 solution: Target
 title: Random Forest Algorithm
 title_outputclass: premium
-uuid: 724b45a7-4bd1-4b3b-8c89-24a2f3e6a1dc
+uuid: bb23b901-5f76-49eb-bece-960ad6d87688
 badge: premium
 index: y
 internal: n

@@ -6,7 +6,7 @@ seo-title: Creating an Activity-Only Audience
 solution: Target
 title: Creating an Activity-Only Audience
 topic: Advanced,Standard,Classic
-uuid: e2caa0fa-c082-4daa-af9a-c9b3791db649
+uuid: 07902829-2a88-4d71-90ff-4d54b28d2f8c
 index: y
 internal: n
 snippet: y

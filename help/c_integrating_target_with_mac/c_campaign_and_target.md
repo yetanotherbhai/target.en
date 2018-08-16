@@ -6,7 +6,7 @@ seo-title: Integrating Target with Adobe Campaign
 solution: Target
 title: Integrating Target with Adobe Campaign
 topic: Standard
-uuid: bee44524-c0d2-41e1-98cb-c9b3c8ec21d5
+uuid: f96c5aa8-c4cf-4d92-9623-ae8f744e7661
 index: y
 internal: n
 snippet: y

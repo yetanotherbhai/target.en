@@ -6,7 +6,7 @@ seo-title: AEM Experience Fragments
 solution: Target
 title: AEM Experience Fragments
 topic: Standard
-uuid: 2aff3288-2506-42b5-9e89-2584f32f84db
+uuid: 45f44d51-29a5-48fb-993a-7824287b2467
 index: y
 internal: n
 snippet: y

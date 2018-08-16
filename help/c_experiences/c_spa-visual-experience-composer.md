@@ -6,7 +6,7 @@ seo-title: Single Page App (SPA) Visual Experience Composer
 solution: Target
 title: Single Page App (SPA) Visual Experience Composer
 topic: Standard
-uuid: a69ad3a5-a096-47dd-b88a-e6145114058f
+uuid: f1b20eb1-5baa-461a-9513-d291b0cb34bf
 index: y
 internal: n
 snippet: y
@@ -107,7 +107,7 @@ class Routes extends Component {
     render() { 
         function targetView(){ 
           // Validate if the Target Libraries are available on your website 
-          if (typeof adobe != 'undefined' &amp;&amp; adobe.target &amp;&amp; typeof adobe.target.triggerView === 'function') { 
+          if (typeof adobe != 'undefined' && adobe.target && typeof adobe.target.triggerView === 'function') { 
             // A really simple example where we are assigning the location as the view name 
             adobe.target.triggerView(window.location.hash); 
           } 

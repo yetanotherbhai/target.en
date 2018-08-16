@@ -5,7 +5,7 @@ seo-description: Adobe Target integrates with your web pages by means of the at.
 seo-title: How Targeting Works
 solution: Target
 title: How Targeting Works
-uuid: 81dbc038-4f11-431c-929e-3a8f9fd9c0da
+uuid: a412a71f-f9f3-4ae8-b6a0-ad7cd6b9b420
 index: y
 internal: n
 snippet: y

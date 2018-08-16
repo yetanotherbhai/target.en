@@ -6,7 +6,7 @@ seo-title: Average Lift, Lift Bounds, and Confidence Interval
 solution: Target
 title: Average Lift, Lift Bounds, and Confidence Interval
 topic: Premium
-uuid: b0f6343e-e14f-4567-8a01-fad19998bef8
+uuid: 87693e84-c467-41ee-a0b6-729184f507de
 index: y
 internal: n
 snippet: y

@@ -6,7 +6,7 @@ seo-title: Target Activities Guide
 solution: Target
 title: Target Activities Guide
 topic: Standard
-uuid: 9d3f3885-1f78-4bb0-9cdb-888e37a5c962
+uuid: f73126fe-4920-41d9-9122-b5b89c078fec
 index: y
 internal: n
 snippet: y

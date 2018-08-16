@@ -6,7 +6,7 @@ seo-title: Reporting Frequently Asked Questions
 solution: Target
 title: Reporting Frequently Asked Questions
 topic: Standard
-uuid: 92669ae5-d9eb-492d-809b-fa1fb4a891c1
+uuid: 4f856b4c-19fa-4b27-a02a-8f48dfb73040
 index: y
 internal: n
 snippet: y

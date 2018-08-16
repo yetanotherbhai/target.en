@@ -6,7 +6,7 @@ seo-title: About the Conversion Rate
 solution: Target
 title: About the Conversion Rate
 topic: Standard
-uuid: 5e188c2a-2d33-45e4-b98a-3035d41b0e66
+uuid: 146b9667-8294-4374-aed4-65f7e5ec62eb
 index: y
 internal: n
 snippet: y

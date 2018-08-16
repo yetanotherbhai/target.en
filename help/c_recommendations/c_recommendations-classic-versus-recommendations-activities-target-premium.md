@@ -7,7 +7,7 @@ solution: Target
 title: Recommendations Classic versus Recommendations Activities in Target Premium
 title_outputclass: premium
 topic: Premium
-uuid: 6dd0d498-eb89-47e8-9ad4-2d09518ed0e0
+uuid: 14656736-cf3b-4c1b-9a31-196529f3d9f8
 badge: premium
 index: y
 internal: n

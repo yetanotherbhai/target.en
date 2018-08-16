@@ -6,7 +6,7 @@ seo-title: Report Settings
 solution: Target
 title: Report Settings
 topic: Premium
-uuid: 398aa77a-a22f-48b1-b558-4d8428776b20
+uuid: de39f676-c6ac-4427-8588-43d5a7e5339c
 index: y
 internal: n
 snippet: y

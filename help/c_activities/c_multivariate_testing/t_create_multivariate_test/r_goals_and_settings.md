@@ -6,7 +6,7 @@ seo-title: Goals and Settings
 solution: Target
 title: Goals and Settings
 topic: Standard
-uuid: 21ff0eb0-4b8b-40cd-bb39-5ddc2ef90f7e
+uuid: 7667b840-1903-4a45-b4ef-5b9d55b05863
 index: y
 internal: n
 snippet: y

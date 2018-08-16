@@ -6,7 +6,7 @@ seo-title: mbox.js Version Details
 solution: Target
 subtopic: Getting Started
 title: mbox.js Version Details
-uuid: df6531dc-0b85-4520-8f4d-07f45ff21ad9
+uuid: 54e8777c-3265-487c-a2b7-a4dab425a7ff
 index: y
 internal: n
 snippet: y
@@ -88,7 +88,7 @@ mbox.js version 61 contains the following enhancements:
 
     * If there are no Experience Cloud Visitor ID cookies, all requests execute asynchronously against [!DNL  /ajax] on the first page load. On the second page load, Target uses the normal flow because Visitor ID values are already present. 
 
-    * If you use Adobe Analytics as your activity's reporting source, you do not need to specify a tracking server during activity creation if you are using ` mbox.js` version 61 (or later) or ` at.js` version 0.9.1 (or later). The ` mbox.js` or ` at.js` library automatically sends tracking server values to [!DNL  Target]. During activity creation, you can leave the [!UICONTROL  Tracking Server] field empty on the [!UICONTROL  Goals &amp;amp; Settings] page. 
+    * If you use Adobe Analytics as your activity's reporting source, you do not need to specify a tracking server during activity creation if you are using ` mbox.js` version 61 (or later) or ` at.js` version 0.9.1 (or later). The ` mbox.js` or ` at.js` library automatically sends tracking server values to [!DNL  Target]. During activity creation, you can leave the [!UICONTROL  Tracking Server] field empty on the [!UICONTROL  Goals &amp; Settings] page. 
 
 
 
@@ -159,11 +159,11 @@ mbox.js version 59 contains the following enhancements:
 
 This version of mbox.js is required if you use Analytics as the reporting source for Target and is highly recommended for Profiles and Audiences. 
 
-Version 58 of mbox.js ensures the Experience Cloud Visitor ID service returns with a visitor ID before Target calls are made. This ensures that audience data shared through the Profiles and Audiences core service are available for the first Target call in the visitor's session. To avoid flickering of default content before test content returns, Target hides the ` &amp;lt;BODY&amp;gt;` until the visitor ID service returns. ` display:none` is used to hide the page. 
+Version 58 of mbox.js ensures the Experience Cloud Visitor ID service returns with a visitor ID before Target calls are made. This ensures that audience data shared through the Profiles and Audiences core service are available for the first Target call in the visitor's session. To avoid flickering of default content before test content returns, Target hides the ` <BODY>` until the visitor ID service returns. ` display:none` is used to hide the page. 
 
 This update also fixes an issue when using Analytics as the reporting source for Target that caused an inflated number of visitors to be reported in Analytics for visits that only included one page. 
 
-Mbox.js sets timeout values in case the visitor ID service does not return. Default timeout for the visitor ID service is 500ms (0.5 seconds). An additional timeout sets the upper limit for how long the ` &amp;lt;BODY&amp;gt;` tag will be hidden. That default is 500ms (0.5 seconds). These timeouts can be changed by inserting the following code before the mbox.js reference on each page: 
+Mbox.js sets timeout values in case the visitor ID service does not return. Default timeout for the visitor ID service is 500ms (0.5 seconds). An additional timeout sets the upper limit for how long the ` <BODY>` tag will be hidden. That default is 500ms (0.5 seconds). These timeouts can be changed by inserting the following code before the mbox.js reference on each page: 
 
 
 ```
@@ -177,7 +177,7 @@ window.targetGlobalSettings = {
 ```
 
 
-Mbox.js version 58 and later executes non-JavaScript content for the global mbox immediately after the HTML ` BODY` tag is present. JavaScript content inside ` &amp;lt;script&amp;gt;` tags for the global mbox executes after the ` DOMContentLoaded` event is fired. This order of content delivery ensures that JavaScript content for the global mbox is delivered and rendered properly. 
+Mbox.js version 58 and later executes non-JavaScript content for the global mbox immediately after the HTML ` BODY` tag is present. JavaScript content inside ` <script>` tags for the global mbox executes after the ` DOMContentLoaded` event is fired. This order of content delivery ensures that JavaScript content for the global mbox is delivered and rendered properly. 
 
 ## mbox.js version 57 {#section_6BA1CDBF75B14A94B59E8624ACF583D4}
 
@@ -194,9 +194,9 @@ The following changes have been made in this version:
 
 
     * HTML content returned as part of a "plug in offer" does not render correctly, but JavaScript within the offers executes as expected.
-    * JavaScript offers that are being returned to the global mbox can have the JavaScript code embedded in the ` &amp;lt;script&amp;gt;` tag, or referenced by a ` src` attribute. To do this, add the ` async` attribute to the script call, as follows: 
+    * JavaScript offers that are being returned to the global mbox can have the JavaScript code embedded in the ` <script>` tag, or referenced by a ` src` attribute. To do this, add the ` async` attribute to the script call, as follows: 
 
-      ` &amp;lt;script src='external-url' async='true'&amp;gt;&amp;lt;/script&amp;gt;` 
+      ` <script src='external-url' async='true'></script>` 
 
       Note that the ` async` attribute has limited support in Internet Explorer (details here: [ https://developer.mozilla.org/en/docs/Web/HTML/Element/script#Browser_compatibility ](https://developer.mozilla.org/en/docs/Web/HTML/Element/script#Browser_compatibility)) so you should exclude visitors who use older IE versions from tests that include these 3rd party scripts. 
 

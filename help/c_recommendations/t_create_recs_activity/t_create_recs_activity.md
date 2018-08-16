@@ -7,7 +7,7 @@ solution: Target
 title: Create a Recommendations Activity
 title_outputclass: premium
 topic: Premium
-uuid: 7f79dc29-f4c7-4f5d-86bc-91ed94f93830
+uuid: a76898f5-8e88-4369-8a1c-2582fe3c1806
 badge: premium
 index: y
 internal: n

@@ -4,7 +4,7 @@ keywords: analytics tracking server;A4T;Adobe Experience Cloud debugger;reportin
 seo-description: If you are using an older version of at.js or mbox.js, you must specify an analytics tracking server for activities that use Analytics for Target (A4T).
 seo-title: Using an Analytics Tracking Server
 title: Using an Analytics Tracking Server
-uuid: e2c55d6a-2e0f-453e-990d-4042606541d5
+uuid: fe8dee18-8511-4f55-97e1-6daa5b1eee8a
 index: y
 internal: n
 snippet: y
@@ -16,7 +16,7 @@ translate: y
 
 >[!NOTE]
 >
->If you use Adobe Analytics as your activity's reporting source, you do not need to specify a tracking server during activity creation if you are using ` mbox.js` version 61 (or later) or ` at.js` version 0.9.1 (or later). The ` mbox.js` or ` at.js` library automatically sends tracking server values to [!DNL  Target]. During activity creation, you can leave the [!UICONTROL  Tracking Server] field empty on the [!UICONTROL  Goals &amp;amp; Settings] page. 
+>If you use Adobe Analytics as your activity's reporting source, you do not need to specify a tracking server during activity creation if you are using ` mbox.js` version 61 (or later) or ` at.js` version 0.9.1 (or later). The ` mbox.js` or ` at.js` library automatically sends tracking server values to [!DNL  Target]. During activity creation, you can leave the [!UICONTROL  Tracking Server] field empty on the [!UICONTROL  Goals &amp; Settings] page. 
 
 
 
@@ -41,7 +41,7 @@ The debugger should be viewed on a page where the activity will be delivered to 
 
 >       *Company* represents the Analytics company name, *metrics* is an example of a CNAME value, and *d1* is an example of an Analytics data center. 
 >1. Copy the entire contents of the field.
->1. In the [!UICONTROL  Reporting Settings] section of the [!UICONTROL  Goal &amp;amp; Settings] screen of your activity, paste the tracking server information in the **[!UICONTROL  Tracking Server]** field.
+>1. In the [!UICONTROL  Reporting Settings] section of the [!UICONTROL  Goal & Settings] screen of your activity, paste the tracking server information in the **[!UICONTROL  Tracking Server]** field.
 
 
 >       >[!NOTE]

@@ -6,7 +6,7 @@ seo-title: Activity QA
 solution: Target
 title: Activity QA
 topic: Advanced,Standard,Classic
-uuid: 70951bcd-067b-4876-81ed-903f0594c2df
+uuid: c2b0d4f5-0e89-47e6-9cc8-fa6463e57b2c
 index: y
 internal: n
 snippet: y
@@ -18,7 +18,6 @@ translate: y
 
 <a id="section_CF715867CAC34DE397D8712C99AC86D8"></a>
 
-<<<<<<< HEAD:help/c_activities/c_activity-qa/c_activity-qa.md
 This section contains the following information: 
 
 
@@ -29,9 +28,6 @@ This section contains the following information:
 * [ Considerations ](../../c_activities/c_activity-qa/c_activity-qa.md#section_B256EDD7BFEC4A6DA72A8A6ABD196D78) 
 
 
-=======
-BOB DELETED INTRO
->>>>>>> f0a4646e04e894ba195b1539be75d51482b39b61:help/c_activities/c_activity-qa.md
 
 ## Overview {#section_11B761A522A14E61978275772210A4C2}
 

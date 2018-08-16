@@ -5,7 +5,7 @@ seo-description: Information about the in-depth approach and security procedures
 seo-title: Target Security Overview
 solution: Target
 title: Target Security Overview
-uuid: 109c31d9-8816-4116-a888-db81907c2c1f
+uuid: 0ce93054-215b-4881-8d86-106f8b63ffd8
 index: y
 internal: n
 snippet: y

@@ -6,7 +6,7 @@ seo-title: Location Contribution Report (MVT)
 solution: Target
 title: Location Contribution Report (MVT)
 topic: Standard
-uuid: 78d4d732-f0a5-497e-baf6-2f3a167dbfa5
+uuid: 83d53ab1-ac85-44e4-b3f1-0f3ba7d52054
 index: y
 internal: n
 snippet: y

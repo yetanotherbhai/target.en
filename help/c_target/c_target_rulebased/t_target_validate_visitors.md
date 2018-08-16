@@ -5,7 +5,7 @@ seo-title: Validate Targeting to New or Returning Visitors
 solution: Target
 title: Validate Targeting to New or Returning Visitors
 topic: Standard
-uuid: 90c3911a-b67e-48a8-8c36-687e5c525de9
+uuid: f0509246-1fe9-4822-afb5-98f5b5127f4a
 index: y
 internal: n
 snippet: y

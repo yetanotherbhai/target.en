@@ -7,7 +7,7 @@ solution: Target
 title: Create a Design
 title_outputclass: premium
 topic: Premium
-uuid: 12283ccd-bf44-4911-b201-7ecf75b305ce
+uuid: b2cfcc5d-cf55-41bf-a841-92c35cbf49b7
 badge: premium
 index: y
 internal: n
@@ -17,16 +17,16 @@ translate: y
 
 # Create a Design
 
-You can create a [!UICONTROL  Recommendations] design using a default design or by creating a custom design. The **[!UICONTROL  Recommendations &amp;gt; Designs]** screen displays both default design cards and any designs you have created. The default designs cannot be edited or deleted. 
+You can create a [!UICONTROL  Recommendations] design using a default design or by creating a custom design. The **[!UICONTROL  Recommendations > Designs]** screen displays both default design cards and any designs you have created. The default designs cannot be edited or deleted. 
 
->1. On the **[!UICONTROL  Recommendations &amp;gt; Designs]** screen, mouse over the card for the design you want to create.
+>1. On the **[!UICONTROL  Recommendations > Designs]** screen, mouse over the card for the design you want to create.
 
 >       ![](assets/Card_CopyDesign.png) 
 >1. To copy and edit an existing design, click the **[!UICONTROL  Copy]** icon.
 
 >       Or 
 
->       To create a custom design click **[!UICONTROL  Create Design]** on the **[!UICONTROL  Recommendations &amp;gt; Designs]** screen. 
+>       To create a custom design click **[!UICONTROL  Create Design]** on the **[!UICONTROL  Recommendations > Designs]** screen. 
 
 >       ![](assets/createDesign.png) 
 >1. Add a **[!UICONTROL  Content Name]**.

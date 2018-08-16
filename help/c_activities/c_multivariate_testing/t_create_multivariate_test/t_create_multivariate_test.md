@@ -5,7 +5,7 @@ seo-description: The Visual Experience Composer in Target makes it easy to creat
 seo-title: Create a Multivariate Test
 solution: Target
 title: Create a Multivariate Test
-uuid: 7dd78433-a0c9-48d0-82ce-2ece87ac0de5
+uuid: 331599ea-46f3-4dc0-b042-cd685def825c
 index: y
 internal: n
 snippet: y

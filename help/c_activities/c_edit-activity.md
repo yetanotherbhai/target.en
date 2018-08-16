@@ -6,7 +6,7 @@ seo-title: Edit an Activity or Save as Draft
 solution: Target
 title: Edit an Activity or Save as Draft
 topic: Standard
-uuid: ec6e9702-1936-4f00-9ee6-93146da215de
+uuid: 8041d24a-5179-4e20-8972-5961d6467f17
 index: y
 internal: n
 snippet: y
@@ -48,7 +48,7 @@ This section contains the following information:
 
     * **Next: **To edit another page in the three-step workflow, click **[!UICONTROL  Next]** to advance to the desired step. For example, in the illustration above, clicking [!UICONTROL  Next] displays the Targeting step. 
 
-    * **Save &amp;amp; Close: **Make the desired changes on the current step, click the drop-down on the split button, then select **[!UICONTROL  Save and Close]** to save your changes and display the activity's [!UICONTROL  Overview] page. 
+    * **Save & Close: **Make the desired changes on the current step, click the drop-down on the split button, then select **[!UICONTROL  Save and Close]** to save your changes and display the activity's [!UICONTROL  Overview] page. 
 
     * **Save: **Make the desired changes on a step, click the drop-down on the split button, then select **[!UICONTROL  Save]** to save your changes and remain on that step where you can continue to make changes. Wait for the save to complete before making additional changes. The VEC reloads with the refreshed changes after the save is complete. 
 
@@ -67,21 +67,21 @@ This section contains the following information:
 
     * **Edit Experiences: **Takes you directly to the [!UICONTROL  Experiences] page (the first step in the guided workflow). Make your desired changes, then use the split button (explained above) to save the activity. 
     
-        * Click **[!UICONTROL  Save &amp;amp; Close]** to save your changes and display the activity's Overview page. 
+        * Click **[!UICONTROL  Save &amp; Close]** to save your changes and display the activity's Overview page. 
 
         * Click **[!UICONTROL  Save]** to save your changes and remain on that step where you can continue to make changes. Wait for the save to complete before making additional changes. The VEC reloads with the refreshed changes after the save is complete. 
 
 
     * **Edit Targeting: **Takes you directly to the [!UICONTROL  Targeting] page (the second step in the guided workflow). Make your desired changes, then use the split button (explained above) to save the activity. 
     
-        * Click **[!UICONTROL  Save &amp;amp; Close]** to save your changes and display the activity's Overview page. 
+        * Click **[!UICONTROL  Save &amp; Close]** to save your changes and display the activity's Overview page. 
 
         * Click **[!UICONTROL  Save]** to save your changes and remain on that step where you can continue to make changes. Wait for the save to complete before making additional changes. The VEC reloads with the refreshed changes after the save is complete. 
 
 
-    * **Edit Goals &amp;amp; Settings: **Takes you directly to the [!UICONTROL  Goals &amp;amp; Settings] page (the final step in the guided workflow). Make your desired changes, then use the split button (explained above) to save the activity. 
+    * **Edit Goals &amp; Settings: **Takes you directly to the [!UICONTROL  Goals &amp; Settings] page (the final step in the guided workflow). Make your desired changes, then use the split button (explained above) to save the activity. 
     
-        * Click **[!UICONTROL  Save &amp;amp; Close]** to save your changes and display the activity's Overview page. 
+        * Click **[!UICONTROL  Save &amp; Close]** to save your changes and display the activity's Overview page. 
 
         * Click **[!UICONTROL  Save]** to save your changes and remain on that step where you can continue to make changes. Wait for the save to complete before making additional changes. The VEC reloads with the refreshed changes after the save is complete. 
 
@@ -105,7 +105,7 @@ You can save an activity in draft mode if the activity setup has been started bu
 
     * **Next: **To edit another page in the three-step workflow, click **[!UICONTROL  Next]** to advance to the desired step. 
 
-    * **Save Draft &amp;amp; Close: **Make the desired changes on the current step, click the drop-down on the split button, then select **[!UICONTROL  Save Draft and Close]** to save your changes and display the activity's [!UICONTROL  Overview] page. 
+    * **Save Draft & Close: **Make the desired changes on the current step, click the drop-down on the split button, then select **[!UICONTROL  Save Draft and Close]** to save your changes and display the activity's [!UICONTROL  Overview] page. 
 
     * **Save Draft: **Make the desired changes on a step, click the drop-down on the split button, then select **[!UICONTROL  Save Draft]** to save your changes and remain on that step. 
 

@@ -6,7 +6,7 @@ seo-title: Create Responsive Experience
 solution: Target
 title: Create Responsive Experience
 topic: Premium
-uuid: 333dfe17-ff27-4565-b292-3718d1847dd3
+uuid: f91cc088-4390-4b9b-a054-284901848a13
 index: y
 internal: n
 snippet: y

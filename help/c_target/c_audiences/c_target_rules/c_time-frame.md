@@ -5,7 +5,7 @@ seo-description: You can add start/end dates and times to target users who visit
 seo-title: Time Frame
 solution: Target
 title: Time Frame
-uuid: 32152ade-174e-4e3a-9db1-9e254de33cc7
+uuid: 751a5326-40ea-44a2-b3a1-cef6acee463b
 index: y
 internal: n
 snippet: y

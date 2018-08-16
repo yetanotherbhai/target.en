@@ -6,7 +6,7 @@ seo-title: How at.js Works
 solution: Target
 title: How at.js Works
 topic: Standard
-uuid: 49196a55-b92f-4c41-a1cb-7ae61190d621
+uuid: 870bbaa6-992c-48a4-b28f-267d63780795
 index: y
 internal: n
 snippet: y

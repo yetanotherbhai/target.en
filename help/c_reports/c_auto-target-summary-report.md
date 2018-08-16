@@ -7,7 +7,7 @@ solution: Target
 subtopic: Multivariate Test
 title: Auto-Target Summary Report
 topic: Standard
-uuid: 18c15850-2b6a-4205-924c-0b06a4972e90
+uuid: 7470476e-40b6-497f-84dd-b032a19123b9
 index: y
 internal: n
 snippet: y

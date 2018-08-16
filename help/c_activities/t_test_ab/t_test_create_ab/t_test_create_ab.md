@@ -6,7 +6,7 @@ seo-title: Create an A/B Test
 solution: Target
 title: Create an A/B Test
 topic: Advanced,Standard,Classic
-uuid: 2a7e96d1-5a64-426b-9d19-9ae88f21e52f
+uuid: ad924176-516c-46fd-a198-7165f95a26ed
 index: y
 internal: n
 snippet: y

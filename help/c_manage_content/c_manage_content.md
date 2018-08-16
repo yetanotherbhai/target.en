@@ -5,7 +5,7 @@ seo-description: Use the Offers library to manage your code offer and image offe
 seo-title: Offers
 solution: Target
 title: Offers
-uuid: 68b7b1a2-2c7f-4c20-97a6-13fbab84f610
+uuid: 89c76887-545c-493a-822c-20173b697d35
 index: y
 internal: n
 snippet: y

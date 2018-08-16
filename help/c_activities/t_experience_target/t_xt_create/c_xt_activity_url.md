@@ -5,7 +5,7 @@ seo-description: The Activity URL determines the page that is used in the test, 
 seo-title: Activity URL
 solution: Target
 title: Activity URL
-uuid: 38093318-6cc0-49fb-9d3f-5234b80d0885
+uuid: 228d2100-c1ff-4e0e-8475-3d6a12c57b9a
 index: y
 internal: n
 snippet: y

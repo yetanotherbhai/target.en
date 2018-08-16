@@ -6,7 +6,7 @@ seo-title: Adobe Customer Care Office Hours
 solution: Target
 title: Adobe Customer Care Office Hours
 topic: Standard
-uuid: a5ffb810-5cb2-452e-8867-cacc82a41b90
+uuid: 95935c75-ca14-4d73-8651-5277883273d7
 index: y
 internal: n
 snippet: y

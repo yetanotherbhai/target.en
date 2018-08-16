@@ -7,7 +7,7 @@ solution: Target
 title: Use Dynamic and Static Inclusion Rules
 title_outputclass: premium
 topic: Premium
-uuid: e2e2bbfd-486f-4c7a-bda6-67ce56a69564
+uuid: 8f7fa59a-7198-461d-8dcf-0a3b80ee0f7c
 badge: premium
 index: y
 internal: n
@@ -195,12 +195,12 @@ Using a dynamic filter with profile attribute matching, you can create the filte
 The criteria for these filters are as follows: 
 
 ```
-entity.jobCity&amp;nbsp;-&amp;nbsp;equals&amp;nbsp;-&amp;nbsp;the&amp;nbsp;value/text&amp;nbsp;stored&amp;nbsp;in&amp;nbsp;-&amp;nbsp;profile.usersCity
+entity.jobCity - equals - the value/text stored in - profile.usersCity
 ```
 and 
 
 ```
-entity.requiredDegree&amp;nbsp;-&amp;nbsp;equals&amp;nbsp;-&amp;nbsp;the&amp;nbsp;value/text&amp;nbsp;stored&amp;nbsp;in&amp;nbsp;-&amp;nbsp;profile.degree
+entity.requiredDegree - equals - the value/text stored in - profile.degree
 ```
 Dynamic filters using profile attribute matching allows you to do more with fewer activities, as shown below: 
 
@@ -310,7 +310,7 @@ Notice that this example uses two dynamic rules and one static rule.
 The following rule is used in this example: 
 
 ```
-series&amp;nbsp;-&amp;nbsp;does&amp;nbsp;not&amp;nbsp;equal&amp;nbsp;-&amp;nbsp;current&amp;nbsp;item's&amp;nbsp;-&amp;nbsp;series
+series - does not equal - current item's - series
 ```
 **Scenario 7: **The fourth illustration demonstrates how to promote compatible accessory items for the visitor's last-purchased item. For example, if someone purchased a new TV, you could dynamically promote an HDMI cable. 
 
@@ -319,7 +319,7 @@ series&amp;nbsp;-&amp;nbsp;does&amp;nbsp;not&amp;nbsp;equal&amp;nbsp;-&amp;nbsp;
 The following rules are used in this example: 
 
 ```
-id&amp;nbsp;-&amp;nbsp;equals&amp;nbsp;-&amp;nbsp;last&amp;nbsp;purchased&amp;nbsp;item's&amp;nbsp;-&amp;nbsp;compatibleAccessoryids
+id - equals - last purchased item's - compatibleAccessoryids
 ```
 **Scenario 8: **The next illustration demonstrates how to promote items that are on sale for between 90 and 110 percent of the item the visitor is currently viewing. For example, if someone is looking at a TV, you could dynamically promote similar TVs that are on sale in approximately the same price range. 
 
@@ -328,7 +328,7 @@ id&amp;nbsp;-&amp;nbsp;equals&amp;nbsp;-&amp;nbsp;last&amp;nbsp;purchased&amp;nb
 The following rules are used in this example: 
 
 ```
-salesPrice&amp;nbsp;-&amp;nbsp;is&amp;nbsp;between&amp;nbsp;-&amp;nbsp;90%&amp;nbsp;and&amp;nbsp;110%&amp;nbsp;of&amp;nbsp;-&amp;nbsp;current&amp;nbsp;item's&amp;nbsp;-&amp;nbsp;price
+salesPrice - is between - 90% and 110% of - current item's - price
 ```
 **Scenario 9: **Consider the following scenario for a sport's media site about how to handle empty values, as explained in [ Handling Empty Values when Filtering by Entity Attribute Matching, Profile Attribute Matching, and Parameter Matching ](../../c_recommendations/t_create_recs_activity/c_use-dynamic-and-static-inclusion-rules.md#section_7D30E04116DB47BEA6FF840A3424A4C8) above: 
 

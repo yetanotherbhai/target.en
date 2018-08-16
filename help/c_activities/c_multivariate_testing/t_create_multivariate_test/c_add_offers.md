@@ -3,7 +3,7 @@ description: Use the Visual Experience Composer to create the offers you want to
 seo-description: Use the Visual Experience Composer to create the offers you want to include in your test.
 seo-title: Create Combinations
 title: Create Combinations
-uuid: bffa17d6-3e05-40b4-9bbf-822186bb3970
+uuid: 767a98b5-983f-45fc-9b7e-57d151d98348
 index: y
 internal: n
 snippet: y

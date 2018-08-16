@@ -6,7 +6,7 @@ solution: Target
 subtopic: Multivariate Test
 title: Redirect to a URL
 topic: Standard
-uuid: c86ca254-7773-44e9-a422-2d47cd262485
+uuid: 115838b5-bb35-4cdc-ba95-ef482e9c4c4b
 index: y
 internal: n
 snippet: y
@@ -24,7 +24,7 @@ Redirect offers have a few limitations:
 
 * For redirect offers in activities using A4T, your implementation must meet certain minimum requirements. In addition, there is important information that you need to know. For more information, see [ Redirect Offers - A4T FAQ ](../c_integrating_target_with_mac/a4t/r_a4t-faq/c_a4t-faq-redirect-offers.md#concept_21BF213F10E1414A9DCD4A98AF207905). 
 
-* When using the form-based Experience Composer, redirect offers should not be used in mboxes that are part of the page. A redirect offer should only be used from a script tag that is part of the HTML ` &amp;lt;head&amp;gt;`. You should always use auto-create and set the redirect offer for the global mbox. 
+* When using the form-based Experience Composer, redirect offers should not be used in mboxes that are part of the page. A redirect offer should only be used from a script tag that is part of the HTML ` <head>`. You should always use auto-create and set the redirect offer for the global mbox. 
 
 
 

@@ -6,7 +6,7 @@ seo-title: Test an Email Image Adbox
 solution: Target
 title: Test an Email Image Adbox
 topic: Recommendations
-uuid: a3a7a436-43c4-4f35-b975-8bd27c9efb23
+uuid: c9551152-af97-498b-96e8-8e24fc64e7e2
 index: y
 internal: n
 snippet: y
@@ -38,14 +38,14 @@ Email image testing is achieved through using modified versions of adboxes. Beca
   <b class="+ topic ph hi-d="" b "="">
    image?mbox=​
    <b class="+ topic ph hi-d="" b "="">
-    email_Header&amp;mboxDefault=​
+    email_Header&mboxDefault=​
     <b class="+ topic ph hi-d="" b "="">
-     http%3A%2F%2Fwww.domain.com%2Fheader.jpg&amp;​ 
+     http%3A%2F%2Fwww.domain.com%2Fheader.jpg&​ 
          
      <b class="+ topic ph hi-d="" b "="">
-      mboxXDomain=disabled&amp;​
+      mboxXDomain=disabled&​
       <b class="+ topic ph hi-d="" b "="">
-       mboxSession=123456&amp;​
+       mboxSession=123456&​
        <b class="+ topic ph hi-d="" b "="">
         mboxPC=123456" border="0" > 
              

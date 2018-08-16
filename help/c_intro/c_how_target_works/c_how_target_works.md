@@ -7,7 +7,7 @@ solution: Target
 subtopic: Getting Started
 title: How Adobe Target Works
 topic: Standard
-uuid: ddff0c6e-367f-4ef2-b515-e9a1dde767d2
+uuid: 905632ff-6cea-4112-a090-096c01cc4058
 index: y
 internal: n
 snippet: y
@@ -31,6 +31,6 @@ You can specify percentage targets for each experience. In this case, a random n
 1. Content displays based on the rules of your campaign.
 
 
-In Target Standard, each element on the page is part of a single experience for the entire page. Each experience includes multiple elements on the page. A page is optimized with a single line of code in the ` &amp;lt;head&amp;gt;` of each page you want to track. 
+In Target Standard, each element on the page is part of a single experience for the entire page. Each experience includes multiple elements on the page. A page is optimized with a single line of code in the ` <head>` of each page you want to track. 
 
 In Target Classic, a single page might contain multiple optimized content areas, called *mboxes*. An mbox is a ` div` tag that wraps around existing content on a Web page. The ` div` tag is followed by a single line of JavaScript to create the mbox instance. An mbox can encompass a single element, multiple elements, or an entire page. A single campaign (A/B, multivariate, or targeting) can use multiple mboxes to control multiple elements across multiple pages. Each mbox is uniquely named, and is immediately available for testing or targeting. In addition, an mbox that is used to serve content for one campaign can also be used to track conversions or log visitor behavior for another. You could use a multi-page campaigns to create a funnel analysis and track a number of different conversions based on their KPIs or specific business criteria. 

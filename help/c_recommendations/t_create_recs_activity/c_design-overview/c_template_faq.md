@@ -7,7 +7,7 @@ solution: Target
 title: Design FAQ
 title_outputclass: premium
 topic: Premium
-uuid: 2f8dd24e-5212-4a38-9807-eb6442c2a35d
+uuid: c3b0b4be-221f-4cfb-8f32-65879e78681e
 badge: premium
 index: y
 internal: n

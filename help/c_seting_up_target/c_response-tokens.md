@@ -7,7 +7,7 @@ solution: Target
 subtopic: Getting Started
 title: Response Tokens
 topic: Standard
-uuid: 6543aeca-51eb-4d85-a67e-388e9f6c5803
+uuid: e390d2f3-9afc-416e-b20e-b76041b022b1
 index: y
 internal: n
 snippet: y

@@ -6,7 +6,7 @@ seo-title: Global mbox Frequently Asked Questions
 solution: Target
 title: Global mbox Frequently Asked Questions
 topic: Standard
-uuid: 2603d6a1-c2b9-4170-8c5f-6db915dd7f83
+uuid: e1f88ef5-067f-4d41-b726-055b570d680b
 index: y
 internal: n
 snippet: y

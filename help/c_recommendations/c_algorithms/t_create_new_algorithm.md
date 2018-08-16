@@ -7,7 +7,7 @@ solution: Target
 title: Creating Criteria
 title_outputclass: premium
 topic: Premium
-uuid: 278da555-3098-4ce7-93b4-f3c7ec9fe398
+uuid: 2fc20a6e-7437-42d0-a8db-25e67aab7e87
 badge: premium
 index: y
 internal: n

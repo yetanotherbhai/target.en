@@ -4,7 +4,7 @@ keywords: implement;implementing;implementation;adobe launch;launch;race;redirec
 seo-description: Launch is the next-generation of tag management capabilities from Adobe. Launch gives customers a simple way to deploy and manage all of the analytics, marketing, and advertising tags necessary to power relevant customer experiences.
 seo-title: Implementing Target using Adobe Launch
 title: Implementing Target using Adobe Launch
-uuid: bb5d9ed1-7cdb-4564-8cf9-884156d09a1a
+uuid: 5542b08f-9e8f-4967-b9be-4f226656b66f
 index: y
 internal: n
 snippet: y

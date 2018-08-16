@@ -6,7 +6,7 @@ seo-title: Confidence Level and Confidence Interval
 solution: Target
 title: Confidence Level and Confidence Interval
 topic: Advanced,Standard,Classic
-uuid: 5d5f9cdc-3af7-4178-bbb8-19fa5f48be20
+uuid: 32a8b68c-64ed-4a71-96b9-244573592793
 index: y
 internal: n
 snippet: y

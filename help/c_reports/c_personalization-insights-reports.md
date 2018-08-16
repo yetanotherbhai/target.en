@@ -6,7 +6,7 @@ seo-title: Personalization Insights Reports
 solution: Target
 title: Personalization Insights Reports
 title_outputclass: premium
-uuid: f3eebc19-dead-4fed-8053-ffa0fe5fbd2a
+uuid: 89cfc639-56d8-45be-b446-87f2947ec80e
 badge: premium
 index: y
 internal: n

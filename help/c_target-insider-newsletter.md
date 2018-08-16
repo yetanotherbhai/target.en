@@ -6,7 +6,7 @@ seo-title: Target Insider Newsletter
 solution: Target
 title: Target Insider Newsletter
 topic: Advanced
-uuid: ac4b2ec4-0d1a-42fd-b541-dcf9990e36db
+uuid: 5a563a8c-18db-4cd8-952f-0288a7a84b68
 index: y
 internal: n
 snippet: y

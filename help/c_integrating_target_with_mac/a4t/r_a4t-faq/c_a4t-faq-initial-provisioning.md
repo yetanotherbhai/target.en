@@ -6,7 +6,7 @@ seo-title: Initial Provisioning - A4T FAQ
 solution: Target
 title: Initial Provisioning - A4T FAQ
 topic: Standard
-uuid: 59ba049f-7a3f-4424-8d79-14ddefae6cee
+uuid: 06ae81dd-29c0-4487-85aa-97ade39e6f04
 index: y
 internal: n
 snippet: y

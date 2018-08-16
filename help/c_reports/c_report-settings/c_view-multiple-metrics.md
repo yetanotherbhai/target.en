@@ -6,7 +6,7 @@ seo-title: View Multiple Metrics in a Report
 solution: Target
 title: View Multiple Metrics in a Report
 topic: Premium
-uuid: 7e7c5472-a6a1-4e3e-8f63-ccf59a0b1d78
+uuid: caa1ee3f-e44d-4d41-bb9d-a6baab825bea
 index: y
 internal: n
 snippet: y

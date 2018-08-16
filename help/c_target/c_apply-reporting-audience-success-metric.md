@@ -5,7 +5,7 @@ seo-description: Choose a success metric that qualifies the user for the reporti
 seo-title: Apply a Reporting Audience to a Success Metric
 solution: Target
 title: Apply a Reporting Audience to a Success Metric
-uuid: af9f38f8-5762-4531-84e6-d57db243bd95
+uuid: 5f8a43e7-2e01-4b3e-bd8e-0afe25d82be2
 index: y
 internal: n
 snippet: y

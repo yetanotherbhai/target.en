@@ -7,7 +7,7 @@ solution: Target
 title: Entity Attributes
 title_outputclass: premium
 topic: Premium
-uuid: 2010b589-c861-49a6-9758-d87225459447
+uuid: 497ddb9d-f676-4d1b-87a6-cfb6b70850b9
 badge: premium
 index: y
 internal: n
@@ -182,16 +182,16 @@ translate: y
 <b>67833</b>', 
 > 
 >'entity.name= 
-<b>GIANTS&amp;nbsp;VS&amp;nbsp;ROCKIES&amp;nbsp;5/12</b>', 
+<b>GIANTS VS ROCKIES 5/12</b>', 
 > 
 >'entity.categoryId= 
-<b>BASEBALL,&amp;nbsp;GIANTS,&amp;nbsp;SF&amp;nbsp;BAY&amp;nbsp;AREA</b>', 
+<b>BASEBALL, GIANTS, SF BAY AREA</b>', 
 > 
 >'entity.pageURL= 
 <b>../baseball/giants-tix/giantsvrockies5.12.2000-67833</b>', 
 > 
 >'entity.venue= 
-<b>AT&amp;amp;T&amp;nbsp;PARK</b>', 
+<b>AT&amp;T PARK</b>', 
 > 
 >'entity.secondary= 
 <b>ROCKIES</b>', 
@@ -200,7 +200,7 @@ translate: y
 <b>../baseball/giants-tix/giants-136px.gif</b>', 
 > 
 >'entity.message= 
-<b>FAMILY&amp;nbsp;SPECIAL</b>', 
+<b>FAMILY SPECIAL</b>', 
 > 
 >'entity.value= 
 <b>15.99</b>', 

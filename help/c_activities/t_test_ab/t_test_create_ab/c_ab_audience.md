@@ -6,7 +6,7 @@ seo-title: Select Audience
 solution: Target
 title: Select Audience
 topic: Standard
-uuid: 41ab8cd2-578e-47a0-b60b-33be6fa49541
+uuid: defd6356-2506-4f6e-b81b-4617ee7ab59f
 index: y
 internal: n
 snippet: y

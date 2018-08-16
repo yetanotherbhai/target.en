@@ -6,7 +6,7 @@ solution: Target
 subtopic: Multivariate Test
 title: Combined Rules-Based and Percentage Targeting
 topic: Standard
-uuid: 2272a670-2cf0-4acc-b56e-d1963ca18bb8
+uuid: 4c41a72d-1b3b-41c2-ac49-34da03e1f789
 index: y
 internal: n
 snippet: y

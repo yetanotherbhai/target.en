@@ -7,7 +7,7 @@ solution: Target
 subtopic: Getting Started
 title: Preferences
 topic: Standard
-uuid: ec4d8580-6661-43cd-b7c0-859a7a7ea489
+uuid: 9dd9555f-1cd4-40d8-9563-70d363213d1c
 index: y
 internal: n
 snippet: y

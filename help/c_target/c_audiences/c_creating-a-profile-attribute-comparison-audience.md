@@ -6,7 +6,7 @@ seo-title: Creating a Profile Attribute Comparison Audience
 solution: Target
 title: Creating a Profile Attribute Comparison Audience
 topic: Advanced,Standard,Classic
-uuid: e0c397e2-9182-4841-ac27-5adea4b18e59
+uuid: 8477619a-df8a-4b61-b4f9-4fcefb6cd906
 index: y
 internal: n
 snippet: y

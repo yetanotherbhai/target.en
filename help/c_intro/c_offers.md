@@ -7,7 +7,7 @@ solution: Target
 subtopic: Getting Started
 title: Offers
 topic: Standard
-uuid: ca62bcb8-8087-469b-9b56-27feb86a591d
+uuid: 70d9cb73-f548-4453-9149-c9419e7da23a
 index: y
 internal: n
 snippet: y

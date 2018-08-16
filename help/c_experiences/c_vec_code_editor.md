@@ -7,7 +7,7 @@ solution: Target
 subtopic: Code Editor
 title: Modifications
 topic: Standard
-uuid: fd02513d-89a5-4611-8499-b7d5cf467136
+uuid: 6cb622ab-6c71-49ac-a1e8-c8c4a4264b31
 index: y
 internal: n
 snippet: y
@@ -154,7 +154,7 @@ Use the Modifications page to:
 
 The **[!UICONTROL  Custom Code]** panel contains code that is executed at the beginning of the page load. 
 
-You can execute the JavaScript code in the ` &amp;lt;head&amp;gt;` tag. Execution of code does not wait for the ` &amp;lt;body&amp;gt;` tag to be present in the DOM. 
+You can execute the JavaScript code in the ` <head>` tag. Execution of code does not wait for the ` <body>` tag to be present in the DOM. 
 
 Selectors for subsequent visual actions depend on the HTML elements added in this tab. 
 
@@ -194,11 +194,11 @@ Use the **[!UICONTROL  Custom Code]** tab to:
 
 * Add HTML snippets to define new elements 
 
-  For example, use the following HTML snippet to create an overlay ` &amp;lt;div&amp;gt;` using the CSS class defined above: 
+  For example, use the following HTML snippet to create an overlay ` <div>` using the CSS class defined above: 
 
 
   ```
-  &amp;lt;div&amp;nbsp;class="overlay"&amp;gt;&amp;lt;/div&amp;gt;
+  <div class="overlay"></div>
   ```
 
 
@@ -255,8 +255,8 @@ Use the **[!UICONTROL  Custom Code]** tab to:
   ```
   <style type="text/css">body{display:none!important;}</style> 
   <script type="text/javascript"> 
-   var qs='';window.location.search?qs=window.location.search+'&amp;':qs='?'; 
-   window.location.replace('//www.mywebsite.com/'+qs+'s_tnt=${campaign.id}:${campaign.recipe.id}:${campaign.recipe.trafficType}&amp;s_tntref='+encodeURIComponent(document.referrer)+'&amp;mboxSession='+mboxFactoryDefault.getSessionId().getId()+''+window.location.hash+''); 
+   var qs='';window.location.search?qs=window.location.search+'&':qs='?'; 
+   window.location.replace('//www.mywebsite.com/'+qs+'s_tnt=${campaign.id}:${campaign.recipe.id}:${campaign.recipe.trafficType}&s_tntref='+encodeURIComponent(document.referrer)+'&mboxSession='+mboxFactoryDefault.getSessionId().getId()+''+window.location.hash+''); 
   </script> 
   
   ```

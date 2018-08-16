@@ -6,7 +6,7 @@ seo-title: Activity Creation
 solution: Target
 title: Activity Creation
 topic: Advanced,Standard,Classic
-uuid: 37ce29ae-d812-440c-b3ca-a4f59e249875
+uuid: cffba826-0c85-40ac-b6f4-9e69629fd4e1
 index: y
 internal: n
 snippet: y
@@ -53,7 +53,7 @@ Creating a Target Standard activity that uses Analytics as the reporting source 
 
 >       >[!NOTE]
 >       >
->       >If you use Adobe Analytics as your activity's reporting source, you do not need to specify a tracking server during activity creation if you are using ` mbox.js` version 61 (or later) or ` at.js` version 0.9.1 (or later). The ` mbox.js` or ` at.js` library automatically sends tracking server values to [!DNL  Target]. During activity creation, you can leave the [!UICONTROL  Tracking Server] field empty on the [!UICONTROL  Goals &amp;amp; Settings] page. 
+>       >If you use Adobe Analytics as your activity's reporting source, you do not need to specify a tracking server during activity creation if you are using ` mbox.js` version 61 (or later) or ` at.js` version 0.9.1 (or later). The ` mbox.js` or ` at.js` library automatically sends tracking server values to [!DNL  Target]. During activity creation, you can leave the [!UICONTROL  Tracking Server] field empty on the [!UICONTROL  Goals &amp; Settings] page. 
 
 >1. Define the experience.
 >1. Specify the activity goal.

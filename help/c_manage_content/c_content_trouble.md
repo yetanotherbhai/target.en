@@ -7,7 +7,7 @@ solution: Target
 subtopic: Multivariate Test
 title: Troubleshooting Content Delivery
 topic: Standard
-uuid: a2bb802a-d513-4275-8b2d-6285925d86e6
+uuid: 9cf7be22-0751-40d1-8463-8139d7374435
 index: y
 internal: n
 snippet: y
@@ -126,7 +126,7 @@ The following parameters are available:
 
 **Example mboxTrace Call** 
 
-` http://www.mysite.com/page.html?mboxTrace=window&amp;amp;authorization=f543abf-0111-4061-9619-d41d665c59a6` 
+` http://www.mysite.com/page.html?mboxTrace=window&amp;authorization=f543abf-0111-4061-9619-d41d665c59a6` 
 
 The output displays very detailed information about your content. mboxTrace shows details about your campaign or activity and profile It also provides a snapshot of the profile before execution, and a snapshot of what changed after execution. It also shows which campaigns or activities were evaluated for each location. 
 
@@ -253,7 +253,7 @@ Target no longer supports IE 8.
 
 Upgrade to [!DNL  mbox.js] version 58 or later. 
 
-Mbox.js version 58 and later executes non-JavaScript content for the global mbox immediately after the HTML ` BODY` tag is present. JavaScript content inside ` &amp;lt;script&amp;gt;` tags for the global mbox executes after the ` DOMContentLoaded` event is fired. This order of content delivery ensures that JavaScript content for the global mbox is delivered and rendered properly. 
+Mbox.js version 58 and later executes non-JavaScript content for the global mbox immediately after the HTML ` BODY` tag is present. JavaScript content inside ` <script>` tags for the global mbox executes after the ` DOMContentLoaded` event is fired. This order of content delivery ensures that JavaScript content for the global mbox is delivered and rendered properly. 
 
 ## Target Cookie Does Not Get Set {#section_77AFEB541C0B495EB67E29A4475DF960}
 

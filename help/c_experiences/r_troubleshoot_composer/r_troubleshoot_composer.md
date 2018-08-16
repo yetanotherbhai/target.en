@@ -5,7 +5,7 @@ seo-description: Display problems sometimes occur in the Visual Experience Compo
 seo-title: Troubleshooting the Visual Experience Composer and Enhanced Experience Composer
 solution: Target
 title: Troubleshooting the Visual Experience Composer and Enhanced Experience Composer
-uuid: 27327992-b9ed-49b7-b4aa-9db6308ef358
+uuid: e6767e30-ce00-4198-a279-cf17812cd7f9
 index: y
 internal: n
 snippet: y
@@ -141,8 +141,8 @@ If you see this issue:
 
 1. Click the **[!UICONTROL  HTML]** button in the rich-text editor to enter source editing mode.
 1. Find the styles text elements. 
-    * For bold text, change ` &amp;lt;strong&amp;gt;` elements to ` &amp;lt;b&amp;gt;`.
-    * For italic text, change ` &amp;lt;em&amp;gt;` elements to ` &amp;lt;i&amp;gt;`.
+    * For bold text, change ` <strong>` elements to ` <b>`.
+    * For italic text, change ` <em>` elements to ` <i>`.
 
 
 

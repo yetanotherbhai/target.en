@@ -7,7 +7,7 @@ solution: Target
 subtopic: Getting Started
 title: The Edge Network
 topic: Standard
-uuid: 3b142b8f-31c9-4fc0-983d-10b78deb88c6
+uuid: eaf5b44b-4c4c-47f1-a210-e4bc1c1142b7
 index: y
 internal: n
 snippet: y

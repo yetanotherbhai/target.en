@@ -6,7 +6,7 @@ seo-title: Mobile
 solution: Target
 title: Mobile
 topic: Standard
-uuid: 45995d91-8bfc-4b1d-8828-bd1945533940
+uuid: bd3f0244-e6f9-446a-8873-faa721385f7b
 index: y
 internal: n
 snippet: y

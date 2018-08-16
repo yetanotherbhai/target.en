@@ -7,7 +7,7 @@ solution: Target
 subtopic: Getting Started
 title: Invite Users to Target
 topic: Standard
-uuid: 3f719b5e-3754-480e-95a4-2a171d0424a0
+uuid: 975d5f7e-a1b0-4a76-a84c-87346049d301
 index: y
 internal: n
 snippet: y

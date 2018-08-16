@@ -7,7 +7,7 @@ solution: Target
 subtopic: Getting Started
 title: What mbox.js Does
 topic: Standard
-uuid: 8fbc062e-fe56-4310-892d-f2dbedb8d1dd
+uuid: d4d6e950-c5ca-4ed7-adf8-74a99f604de1
 index: y
 internal: n
 snippet: y
@@ -20,7 +20,7 @@ Target Standard requires [!DNL  mbox.js] version 58 or later. For instructions o
 
 For Target Standard, [!DNL  mbox.js] calls another JavaScript file, [!DNL  target.js]. [!DNL  Target.js] is hosted by Adobe and is automatically updated by Adobe. There is nothing you need to do to update [!DNL  target.js], and there are no client-specific customizations. 
 
-[!DNL  Target.js] creates an mbox called ` target-global-mbox` in the ` &amp;lt;head&amp;gt;` section of your page. 
+[!DNL  Target.js] creates an mbox called ` target-global-mbox` in the ` <head>` section of your page. 
 
 [!DNL  Target.js] is called from [!DNL  mbox.js] by a line of JavaScript code added to the [!UICONTROL  Extra JavaScript] field in [!DNL  mbox.js]. The only way to disable [!DNL  target.js] is not to include this line of code, thus also disabling [!DNL  Target]. 
 

@@ -6,7 +6,7 @@ seo-title: at.js Implementation
 solution: Target
 title: at.js Implementation
 topic: Standard
-uuid: 739ae139-e6ac-4d19-84ff-a6b4ebcbd09e
+uuid: 5dfa2b59-b029-4d8e-8bba-ce6242c5246c
 index: y
 internal: n
 snippet: y
@@ -38,7 +38,7 @@ The [!DNL  at.js] library offers several improvements over the [!DNL  mbox.js] l
 * Completely asynchronous communication via cross domain AJAX 
   >[!IMPORTANT]
   >
-  >Although [!DNL  at.js] communicates with the [!DNL  Target] servers asynchronously, the [!DNL  at.js] file itself must load synchronously in the ` &amp;lt;head&amp;gt;` section of your page. Ideally, it should be one of the first scripts loaded. Once loaded, [!DNL  at.js] executes mbox calls asynchronously through ` XMLHttpRequest`, and does not block page rendering. 
+  >Although [!DNL  at.js] communicates with the [!DNL  Target] servers asynchronously, the [!DNL  at.js] file itself must load synchronously in the ` <head>` section of your page. Ideally, it should be one of the first scripts loaded. Once loaded, [!DNL  at.js] executes mbox calls asynchronously through ` XMLHttpRequest`, and does not block page rendering. 
 
 
 * No more blocking calls

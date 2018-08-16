@@ -7,7 +7,7 @@ solution: Target
 subtopic: Getting Started
 title: Accept the Invitation
 topic: Standard
-uuid: 3fa6727b-2e4c-46d7-b96e-6a6adc15e605
+uuid: 49562f65-ba65-4b39-b32e-b5335cc9e8e7
 index: y
 internal: n
 snippet: y
@@ -31,7 +31,7 @@ translate: y
 >       >If you do not link your account, you will not be able to access [!DNL  Adobe Target Standard]. 
 
 
->       All Experience Cloud products appear on the linking page. Click ` Link Test&amp;amp;Target` and enter your Test&amp;Target username and password to access Standard and Classic. 
+>       All Experience Cloud products appear on the linking page. Click ` Link Test&amp;Target` and enter your Test&amp;Target username and password to access Standard and Classic. 
 >1. Click **[!UICONTROL  Continue to Experience Cloud]**.
 
 >       At this point, you do not yet have any groups set up with entitlements for you to link. 
