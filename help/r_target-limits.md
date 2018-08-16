@@ -19,7 +19,7 @@ The limits listed below are recommended limits. When these limits are approached
 
 Highly complex activities should be reviewed with Adobe Consulting and tested in a limited environment before being released to production. 
 
-## List of Limitations
+## List of Parameter Limits
 
 <table id="table_6B409D2807E647019412FE296603032B"> 
  <thead> 
