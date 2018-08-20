@@ -5,7 +5,7 @@ seo-title: Previewing a Recommendation
 solution: Target
 title: Previewing a Recommendation
 topic: Recommendations
-uuid: 27b0cdb4-c53a-46b7-8d2c-f9d698de47b6
+uuid: 9cde7fb1-3a0e-4d36-b574-d58be56e9bb3
 index: y
 internal: n
 snippet: y
@@ -27,4 +27,9 @@ translate: y
 >       A new browser window opens, displaying a preview of your recommendation. 
 
 >       ![](assets/preview.png) 
->[!MORE_LIKE_THIS]* [ Creating or Editing a Recommendation ](t_create_edit_recs.md#task_07791608B4DB4B3EB0EF981116F4B4E2)* [ Using a Backup Recommendation ](c_backup_recs.md#concept_5D02FA607144416BB3514364E11E9395)* [ Using Preview Options to Change the Page View ](r_previewoptions_recs.md#reference_8EBD7A9F6CF247B79A9FDCB85AB55C82)* [ Deleting a Recommendation ](t_deleting_recs.md#task_0364B109FE5D4D0C81204F69DA001AD1)
+>[!MORE_LIKE_THIS]
+>
+>* [ Creating or Editing a Recommendation ](t_create_edit_recs.md#task_07791608B4DB4B3EB0EF981116F4B4E2)
+>* [ Using a Backup Recommendation ](c_backup_recs.md#concept_5D02FA607144416BB3514364E11E9395)
+>* [ Using Preview Options to Change the Page View ](r_previewoptions_recs.md#reference_8EBD7A9F6CF247B79A9FDCB85AB55C82)
+>* [ Deleting a Recommendation ](t_deleting_recs.md#task_0364B109FE5D4D0C81204F69DA001AD1)

@@ -5,7 +5,7 @@ seo-title: Downloading the Entity Upload Template
 solution: Target
 title: Downloading the Entity Upload Template
 topic: Recommendations
-uuid: 15294719-f6b1-4c0f-8b38-8927f3fe9684
+uuid: 66a4fb5c-9be6-4370-aedd-a79e833f248c
 index: y
 internal: n
 snippet: y
@@ -24,4 +24,7 @@ translate: y
 
 >1. Save the file.
 
->[!MORE_LIKE_THIS]* [ Editing the Entity Upload Template ](t_Editing_the_Entity_Upload_Template.md#task_5E51E7200824409AA7AF18372B404110)* [ Uploading the Entity Information to Recommendations ](t_Uploading_the_Entity_Information_to_Recommendations.md#task_F2A90148A36F4D0B99B7FAC612061925)
+>[!MORE_LIKE_THIS]
+>
+>* [ Editing the Entity Upload Template ](t_Editing_the_Entity_Upload_Template.md#task_5E51E7200824409AA7AF18372B404110)
+>* [ Uploading the Entity Information to Recommendations ](t_Uploading_the_Entity_Information_to_Recommendations.md#task_F2A90148A36F4D0B99B7FAC612061925)

@@ -5,7 +5,7 @@ seo-title: Knowing When to Launch a Recommendation
 solution: Target
 title: Knowing When to Launch a Recommendation
 topic: Recommendations
-uuid: 15aebfa2-62ee-4d1c-8121-208dc480cfd3
+uuid: 7a34d610-a8e4-44e0-bdd6-456a16cf6432
 index: y
 internal: n
 snippet: y
@@ -23,4 +23,7 @@ The algorithm schedule is determined by the data range specified for the algorit
 Algorithm filters and weighting are applied during these algorithm updates. Other controls like inventory and price rules are applied at display time. When the recommendations server is updated with item information about price and inventory (either via an mbox or csv upload), those changes are immediately reflected in the recommendation displaying on the site, even if the algorithm has not updated yet. 
 
 To confirm that recommendations are prepared and ready to go, download the recommendation output from the edit page by clicking the orange x icon next to the name. The downloaded file includes all recommendation data that is ready. The recommendation is ready to be activated there is one row per key for an algorithm based on a particular product or category view. For a popularity algorithm, only one row of data displays. 
->[!MORE_LIKE_THIS]* [ Activating a Recommendation ](t_activate_recs.md#task_B0A6D22AA72E405DBEC81D22B12477DF)* [ Deactivating a Recommendation ](t_deactivate_recs.md#task_EE1A8BDC4C3E4FBE8D694DF31CFC2DDC)
+>[!MORE_LIKE_THIS]
+>
+>* [ Activating a Recommendation ](t_activate_recs.md#task_B0A6D22AA72E405DBEC81D22B12477DF)
+>* [ Deactivating a Recommendation ](t_deactivate_recs.md#task_EE1A8BDC4C3E4FBE8D694DF31CFC2DDC)

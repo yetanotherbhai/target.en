@@ -5,7 +5,7 @@ seo-title: Activating a Recommendation
 solution: Target
 title: Activating a Recommendation
 topic: Recommendations
-uuid: c02bc4c5-f32e-454a-b0db-2e2d77b203f6
+uuid: ae862b70-1bf0-4a03-aa64-41a0c018baa2
 index: y
 internal: n
 snippet: y
@@ -40,4 +40,7 @@ The icons on the toolbar change depending on the status of the recommendation.
 >1. On the [!UICONTROL  Manage Recommendations] page, find the inactive recommendation you want to activate.
 >1. Click **[!UICONTROL  Activate.]**
 
->[!MORE_LIKE_THIS]* [ Knowing When to Launch a Recommendation ](c_know_when_to_launch_recs.md#concept_9CB532778F6E4F4CA463F420F16C4A74)* [ Deactivating a Recommendation ](t_deactivate_recs.md#task_EE1A8BDC4C3E4FBE8D694DF31CFC2DDC)
+>[!MORE_LIKE_THIS]
+>
+>* [ Knowing When to Launch a Recommendation ](c_know_when_to_launch_recs.md#concept_9CB532778F6E4F4CA463F420F16C4A74)
+>* [ Deactivating a Recommendation ](t_deactivate_recs.md#task_EE1A8BDC4C3E4FBE8D694DF31CFC2DDC)

@@ -5,7 +5,7 @@ seo-title: Creating Global Exclusions
 solution: Target
 title: Creating Global Exclusions
 topic: Recommendations
-uuid: 16a0e8b4-4107-4da1-a4f8-2a4de34c805d
+uuid: 4be9a980-b7ed-46ed-926a-bf981b48e2c4
 index: y
 internal: n
 snippet: y
@@ -76,4 +76,7 @@ translate: y
 
 >1. Specify the string that must be matched for the exclusion to be used.
 >1. Click **[!UICONTROL  Save]**.
->[!MORE_LIKE_THIS]* [ Uploading Entities to Recommendations ](c_Uploading_Entities_to_Recommendations.md#concept_23D55B1FAEBE425A8A0F9796A0E21AE1)* [ Using Entity Feeds ](t_Using_Entity_Feeds.md#task_4034B221DC754633B1280893AE6B5F86)
+>[!MORE_LIKE_THIS]
+>
+>* [ Uploading Entities to Recommendations ](c_Uploading_Entities_to_Recommendations.md#concept_23D55B1FAEBE425A8A0F9796A0E21AE1)
+>* [ Using Entity Feeds ](t_Using_Entity_Feeds.md#task_4034B221DC754633B1280893AE6B5F86)

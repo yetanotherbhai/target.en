@@ -6,7 +6,7 @@ seo-title: Content Serve Settings
 solution: Target
 title: Content Serve Settings
 topic: Recommendations
-uuid: 1539a31a-f19d-4b2b-9dd8-f632af59ce14
+uuid: a43bcea2-eb50-4b59-8fa4-ccd57a18ed8c
 index: y
 internal: n
 snippet: y

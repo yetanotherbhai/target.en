@@ -5,7 +5,7 @@ seo-title: Creating a Dynamic Mbox
 solution: Target
 title: Creating a Dynamic Mbox
 topic: Recommendations
-uuid: 6d79d26e-81b8-4eb0-8467-ca1b1154c1d2
+uuid: df951a1a-cfe0-48c8-87d9-e3cbf461fa25
 index: y
 internal: n
 snippet: y
@@ -53,4 +53,10 @@ translate: y
 
 
 >This allows the page to update content dynamically after the initial page load. 
->[!MORE_LIKE_THIS] {class="- topic/related-links "}* [ Placing an Mbox Around a Table ](r_Placing_an_Mbox_Around_a_Table.md#reference_361F35DEA8CC4E2B87B470F72C9E344F)* [ Placing an Mbox Around a Table Cell ](r_Placing_an_Mbox_Around_a_Table_Cell.md#reference_CBE33BC9DE884F14B39478818C164F43)* [ Creating Multiple Mboxes on a Page ](c_Creating_Multiple_Mboxes_on_a_Page.md#concept_4AC9A22530C44C7580877B5DD4C5F863)* [ Creating a Whole Page as an Mbox ](r_Creating_a_Whole_Page_as_an_Mbox.md#reference_F3E59E7326D946E4897AE41C3A6B40CE)* [ About Dynamic Mboxes ](c_about_dynamic_mboxes.md#concept_062FE49B25A64AA49F3918340E4A587D)
+>[!MORE_LIKE_THIS] {class="- topic/related-links "}
+>
+>* [ Placing an Mbox Around a Table ](r_Placing_an_Mbox_Around_a_Table.md#reference_361F35DEA8CC4E2B87B470F72C9E344F)
+>* [ Placing an Mbox Around a Table Cell ](r_Placing_an_Mbox_Around_a_Table_Cell.md#reference_CBE33BC9DE884F14B39478818C164F43)
+>* [ Creating Multiple Mboxes on a Page ](c_Creating_Multiple_Mboxes_on_a_Page.md#concept_4AC9A22530C44C7580877B5DD4C5F863)
+>* [ Creating a Whole Page as an Mbox ](r_Creating_a_Whole_Page_as_an_Mbox.md#reference_F3E59E7326D946E4897AE41C3A6B40CE)
+>* [ About Dynamic Mboxes ](c_about_dynamic_mboxes.md#concept_062FE49B25A64AA49F3918340E4A587D)

@@ -5,7 +5,7 @@ seo-title: Troubleshooting the Debug Window
 solution: Target
 title: Troubleshooting the Debug Window
 topic: Recommendations
-uuid: 95da560b-135e-4499-b503-070273f54642
+uuid: 51727d18-0944-476e-ad33-71dc8b4a9f5f
 index: y
 internal: n
 snippet: y
@@ -46,4 +46,7 @@ translate: y
 
 
 >Mboxes insert new nodes into the DOM tree as the browser creates it. Each brand of browser has its own implementation of the W3C DOM specification, so mboxes can affect page rendering differently based on the browser type. Specify absolute sizes of table cells and images to help the browser more accurately display a page's HTML layout. 
->[!MORE_LIKE_THIS] {class="- topic/related-links "}* [ Mbox Troubleshooting Guide ](r_Mbox_Troubleshooting_Guide.md#reference_45B74286990B4B9883A3B46B0FDFE1C8)* [ Troubleshooting Resources ](r_Troubleshooting_Resources.md#reference_1DCDDAC4BAA348148BBD628587A3F669)
+>[!MORE_LIKE_THIS] {class="- topic/related-links "}
+>
+>* [ Mbox Troubleshooting Guide ](r_Mbox_Troubleshooting_Guide.md#reference_45B74286990B4B9883A3B46B0FDFE1C8)
+>* [ Troubleshooting Resources ](r_Troubleshooting_Resources.md#reference_1DCDDAC4BAA348148BBD628587A3F669)

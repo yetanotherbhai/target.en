@@ -5,7 +5,7 @@ seo-title: Dynamically Excluding an Entity
 solution: Target
 title: Dynamically Excluding an Entity
 topic: Recommendations
-uuid: 9ae14f69-3d33-41df-ad73-07d94553f390
+uuid: 72479996-e074-45f6-b74d-9a46de25bf96
 index: y
 internal: n
 snippet: y

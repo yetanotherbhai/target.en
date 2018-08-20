@@ -5,7 +5,7 @@ seo-title: Recommendations Cards
 solution: Target
 title: Recommendations Cards
 topic: Recommendations
-uuid: 3e9c2e49-55c2-4ffb-9cdf-6be1a8ffbb08
+uuid: ffafa543-bb52-4445-8dfa-3613a27066e9
 index: y
 internal: n
 snippet: y
@@ -82,4 +82,8 @@ translate: y
  </tbody> 
 </table>
 
->[!MORE_LIKE_THIS]* [ Searching and Filtering the Recommendations List ](t_finding_recs.md#task_5B8C9C6FFC5F4191804AA07203CC22E9)* [ Reporting Recommendation Results ](c_Testing_Recommendation_Results.md#concept_E5B86C2093404403A6900BD0A4CFCCBB)* [ Viewing the Change Log ](t_Viewing_the_Change_Log.md#task_0B5CF07FDC30484F89A58E402ADFE493)
+>[!MORE_LIKE_THIS]
+>
+>* [ Searching and Filtering the Recommendations List ](t_finding_recs.md#task_5B8C9C6FFC5F4191804AA07203CC22E9)
+>* [ Reporting Recommendation Results ](c_Testing_Recommendation_Results.md#concept_E5B86C2093404403A6900BD0A4CFCCBB)
+>* [ Viewing the Change Log ](t_Viewing_the_Change_Log.md#task_0B5CF07FDC30484F89A58E402ADFE493)

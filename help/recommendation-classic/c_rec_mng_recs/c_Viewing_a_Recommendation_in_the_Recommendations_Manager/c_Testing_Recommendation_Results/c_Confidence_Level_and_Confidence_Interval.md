@@ -5,7 +5,7 @@ seo-title: Confidence Level and Confidence Interval
 solution: Target
 title: Confidence Level and Confidence Interval
 topic: Recommendations
-uuid: c21dceff-8ee3-481f-bbc0-6d99884115fc
+uuid: 16bcde32-5c53-41e7-b41e-bb3a3a6ca74b
 index: y
 internal: n
 snippet: y
@@ -49,4 +49,9 @@ The *confidence interval* is a range within which the true value can be found at
 * **Sample size:** As sample grows the interval will shrink or narrow. This is preferred as it means your reports are getting closer to the true value of the success metric.
 * **Standard deviation smaller:** More similar results, such as similar AOVs or similar numbers or visitors converting each day, reduces the standard deviation.
 
->[!MORE_LIKE_THIS] {class="- topic/related-links "}* [ Viewing Test Results on a Recommendations Card ](c_Viewing_Test_Results_on_a_Recommendations_Card.md#concept_C035768E243F4382A5FF953E1BB870B1)* [ Viewing Complete Recommendation Results ](t_Viewing_Complete_Recommendation_Results.md#task_19A3022F3E2044CCA535F3CEC594300E)* [ Viewing the Optimizing Recommendation Report ](t_Viewing_the_Optimization_Recommendation_Report.md#task_55777B3740594D8489EF04E62D2327D8)* [ Viewing the Trended Graph Report ](t_Viewing_the_Trended_Graph_Report.md#task_1D399DB0E0A14BF5A672E99C6695BAE7)
+>[!MORE_LIKE_THIS] {class="- topic/related-links "}
+>
+>* [ Viewing Test Results on a Recommendations Card ](c_Viewing_Test_Results_on_a_Recommendations_Card.md#concept_C035768E243F4382A5FF953E1BB870B1)
+>* [ Viewing Complete Recommendation Results ](t_Viewing_Complete_Recommendation_Results.md#task_19A3022F3E2044CCA535F3CEC594300E)
+>* [ Viewing the Optimizing Recommendation Report ](t_Viewing_the_Optimization_Recommendation_Report.md#task_55777B3740594D8489EF04E62D2327D8)
+>* [ Viewing the Trended Graph Report ](t_Viewing_the_Trended_Graph_Report.md#task_1D399DB0E0A14BF5A672E99C6695BAE7)

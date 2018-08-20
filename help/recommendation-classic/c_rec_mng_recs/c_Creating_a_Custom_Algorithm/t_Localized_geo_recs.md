@@ -3,7 +3,7 @@ description: You can provide recommendations such as top sellers, top viewed and
 seo-description: You can provide recommendations such as top sellers, top viewed and so on based on the location of the browser, search, and transactions.
 seo-title: Localized Recommendations Based on Geography
 title: Localized Recommendations Based on Geography
-uuid: 91fcb922-0a28-4305-b4be-6a693c981c87
+uuid: dca5903d-e264-4447-a7bc-5f6696533577
 index: y
 internal: n
 snippet: y

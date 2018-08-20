@@ -5,7 +5,7 @@ seo-title: Using a Backup Recommendation
 solution: Target
 title: Using a Backup Recommendation
 topic: Recommendations
-uuid: c1f3593b-b3f6-4373-9b4d-e38a7b27bcb6
+uuid: 11d746ed-095c-4022-800d-a92927d8d444
 index: y
 internal: n
 snippet: y
@@ -38,4 +38,9 @@ Duplicates are removed from batches of recommendations.
 Using backup recommendations is usually part of the discussion with the implementation team during your initial setup. If you want to change the backup recommendation setting after implementation, contact your account manager. 
 
 If partial rendering (see [ Content Serve Settings](../../c_rec_mng_recs/c_Setting_Up_and_Deleting_a_Recommendation/t_create_edit_recs/c_content_serve_settings.md#concept_828721CF007E430DAC6E9ABFCDFA5CA4)) is not enabled and the template doesn't show, then either the backup recommendation or default content is shown instead. 
->[!MORE_LIKE_THIS] {class="- topic/related-links "}* [ Creating or Editing a Recommendation ](t_create_edit_recs.md#task_07791608B4DB4B3EB0EF981116F4B4E2)* [ Previewing a Recommendation ](t_previewing_recs.md#task_0841AD9A5CF640719A486C24F7D4D14F)* [ Using Preview Options to Change the Page View ](r_previewoptions_recs.md#reference_8EBD7A9F6CF247B79A9FDCB85AB55C82)* [ Deleting a Recommendation ](t_deleting_recs.md#task_0364B109FE5D4D0C81204F69DA001AD1)
+>[!MORE_LIKE_THIS] {class="- topic/related-links "}
+>
+>* [ Creating or Editing a Recommendation ](t_create_edit_recs.md#task_07791608B4DB4B3EB0EF981116F4B4E2)
+>* [ Previewing a Recommendation ](t_previewing_recs.md#task_0841AD9A5CF640719A486C24F7D4D14F)
+>* [ Using Preview Options to Change the Page View ](r_previewoptions_recs.md#reference_8EBD7A9F6CF247B79A9FDCB85AB55C82)
+>* [ Deleting a Recommendation ](t_deleting_recs.md#task_0364B109FE5D4D0C81204F69DA001AD1)

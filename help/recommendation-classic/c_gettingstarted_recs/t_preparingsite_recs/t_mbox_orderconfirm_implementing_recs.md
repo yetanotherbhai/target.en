@@ -5,7 +5,7 @@ seo-title: Implementing an Order-Confirmation Details Mbox
 solution: Target
 title: Implementing an Order-Confirmation Details Mbox
 topic: Recommendations
-uuid: 14b69212-13a3-4234-ae26-686f47fdd170
+uuid: 3e9ce314-778c-4523-ba26-c0791379113d
 index: y
 internal: n
 snippet: y
@@ -53,4 +53,11 @@ mboxCreate('orderConfirmPage',
 
 
 ` orderConfirmPage` is the default mbox and is recommended. 
-Although it is recommended that you use the ` orderConfirmPage` mbox name, the name can be changed. If you change the name, you must contact consulting or Client Care. [!MORE_LIKE_THIS] {class="- topic/related-links "}* [ Preparing Your Website for Recommendations ](t_preparingsite_recs.md#task_30B8C075A14B426F9042119553F750B8)* [ Downloading the mbox.js Library File ](t_mboxjs_dl_recs.md#task_6B577DD43FD346F7BC01962DAA822816)* [ Validating the mbox.js Download ](t_Validating_the_mboxjs_Download.md#task_FA78EB3B991C43F9ADE507A16522B770)* [ Referencing the mbox.js File on Your Web Pages ](t_mboxjs_referencing_recs.md#task_69315D69881442209EB5CC8A5644CF37)* [ Implementing Display Data Mboxes ](t_data_mboxes_implementings_recs.md#task_83C1EA8433C249E1AC4BBEF591AC4FC3)* [ Placing Mboxes to Display Recommendations ](t_mbox_placing_recs.md#task_F3638B849C9B45F197DBE49791AE13A1)
+Although it is recommended that you use the ` orderConfirmPage` mbox name, the name can be changed. If you change the name, you must contact consulting or Client Care. [!MORE_LIKE_THIS] {class="- topic/related-links "}
+>
+>* [ Preparing Your Website for Recommendations ](t_preparingsite_recs.md#task_30B8C075A14B426F9042119553F750B8)
+>* [ Downloading the mbox.js Library File ](t_mboxjs_dl_recs.md#task_6B577DD43FD346F7BC01962DAA822816)
+>* [ Validating the mbox.js Download ](t_Validating_the_mboxjs_Download.md#task_FA78EB3B991C43F9ADE507A16522B770)
+>* [ Referencing the mbox.js File on Your Web Pages ](t_mboxjs_referencing_recs.md#task_69315D69881442209EB5CC8A5644CF37)
+>* [ Implementing Display Data Mboxes ](t_data_mboxes_implementings_recs.md#task_83C1EA8433C249E1AC4BBEF591AC4FC3)
+>* [ Placing Mboxes to Display Recommendations ](t_mbox_placing_recs.md#task_F3638B849C9B45F197DBE49791AE13A1)

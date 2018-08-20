@@ -5,7 +5,7 @@ seo-title: Uploading Entities to Recommendations
 solution: Target
 title: Uploading Entities to Recommendations
 topic: Recommendations
-uuid: 75bd22d0-6c17-42d4-933c-398b68c885ec
+uuid: eca333ee-2158-452e-949c-daa55c8ef64b
 index: y
 internal: n
 snippet: y
@@ -26,4 +26,7 @@ Any data uploaded using the upload template file overwrites that value in our da
 
 
 The product is available in the admin interface approximately two hours after successfully uploading its entity. 
->[!MORE_LIKE_THIS] {class="- topic/related-links "}* [ Creating Global Exclusions ](t_Creating_Global_Exclusions.md#task_ABDA6F68D8BD47988A67A06396121318)* [ Using Entity Feeds ](t_Using_Entity_Feeds.md#task_4034B221DC754633B1280893AE6B5F86)
+>[!MORE_LIKE_THIS] {class="- topic/related-links "}
+>
+>* [ Creating Global Exclusions ](t_Creating_Global_Exclusions.md#task_ABDA6F68D8BD47988A67A06396121318)
+>* [ Using Entity Feeds ](t_Using_Entity_Feeds.md#task_4034B221DC754633B1280893AE6B5F86)

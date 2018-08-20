@@ -5,7 +5,7 @@ seo-title: Uploading the Entity Information to Recommendations
 solution: Target
 title: Uploading the Entity Information to Recommendations
 topic: Recommendations
-uuid: 1a2086d2-b573-453b-813d-be9f81ae1646
+uuid: 91867d0a-6298-4017-826b-cfc941790e11
 index: y
 internal: n
 snippet: y
@@ -26,4 +26,7 @@ Any data uploaded using the upload template file overwrites that value in our da
 >       It takes a moment for the upload to be processed. When the upload is complete, a message tells you how many data lines were processed and that the upload was successful. 
 
 >       The product is available in the Admin interface approximately two hours after successfully uploading its entity. 
->[!MORE_LIKE_THIS] {class="- topic/related-links "}* [ Downloading the Entity Upload Template ](t_Downloading_the_Entity_Upload_Template.md#task_9889EEB9FCA64C8683255DD040939DCA)* [ Editing the Entity Upload Template ](t_Editing_the_Entity_Upload_Template.md#task_5E51E7200824409AA7AF18372B404110)
+>[!MORE_LIKE_THIS] {class="- topic/related-links "}
+>
+>* [ Downloading the Entity Upload Template ](t_Downloading_the_Entity_Upload_Template.md#task_9889EEB9FCA64C8683255DD040939DCA)
+>* [ Editing the Entity Upload Template ](t_Editing_the_Entity_Upload_Template.md#task_5E51E7200824409AA7AF18372B404110)

@@ -5,7 +5,7 @@ seo-title: Selecting an Algorithm
 solution: Target
 title: Selecting an Algorithm
 topic: Recommendations
-uuid: d1af442a-ff12-4dbf-9fae-e7361c680363
+uuid: 8d1ec815-ab7e-4f1b-b477-74719c8a7226
 index: y
 internal: n
 snippet: y
@@ -175,4 +175,15 @@ Considering each key and the algorithms that map to it, different recommendation
 
 >       **[!UICONTROL  Recently Viewed Items:]** Items that have been viewed recently by the visitor. When using this algorithm, you should update the Target template to handle cases where blank recommendations would show when there are not enough previously viewed items to display. 
 >1. Click ` Save`.
->[!MORE_LIKE_THIS] {class="- topic/related-links "}* [ Adding a New Recommendation ](c_Creating_a_New_Recommendation.md#concept_9F20B4F0F53D4399B10BCBBC979E0B4C)* [ Targeting a Recommendation ](t_targeting_recs.md#task_3D93B8962F6341CB9A3ADE8E29BFECA5)* [ Choosing a Test Type ](t_choosetype_recs.md#task_301A771BFE7F45A3AA1E77024E574D1C)* [ Choosing a Catalog ](t_Choose_a_Catalog.md#task_047A4BA38078464782024764CA38EF0A)* [ Basing the Recommendation on a Recommendation Key ](t_rec_key_recs.md#task_2B0ED54AFBF64C56916B6E1F4DC0DC3B)* [ Choosing the Data Source ](t_data_source_recs.md#task_4EC990FBF374465EA6B7FCA8A5A12786)* [ Setting Data Details ](t_Setting_Data_Details.md#task_28DB20F968B1451481D8E51BAF947079)* [ Selecting a Template and Recommendation Area ](t_template_and_recommendation_area_recs.md#task_45CA0403F24944EF9FE6C4FC5D1A7836)* [ Defining Segments ](t_definesegments_recs.md#task_338EDF86E0A2412896C2854257E91D62)* [ Specifying How Many Users See Default Content ](t_how_many_users_see_default_conten_recst.md#task_5059665F6EE64FA39D2851671898F996)
+>[!MORE_LIKE_THIS] {class="- topic/related-links "}
+>
+>* [ Adding a New Recommendation ](c_Creating_a_New_Recommendation.md#concept_9F20B4F0F53D4399B10BCBBC979E0B4C)
+>* [ Targeting a Recommendation ](t_targeting_recs.md#task_3D93B8962F6341CB9A3ADE8E29BFECA5)
+>* [ Choosing a Test Type ](t_choosetype_recs.md#task_301A771BFE7F45A3AA1E77024E574D1C)
+>* [ Choosing a Catalog ](t_Choose_a_Catalog.md#task_047A4BA38078464782024764CA38EF0A)
+>* [ Basing the Recommendation on a Recommendation Key ](t_rec_key_recs.md#task_2B0ED54AFBF64C56916B6E1F4DC0DC3B)
+>* [ Choosing the Data Source ](t_data_source_recs.md#task_4EC990FBF374465EA6B7FCA8A5A12786)
+>* [ Setting Data Details ](t_Setting_Data_Details.md#task_28DB20F968B1451481D8E51BAF947079)
+>* [ Selecting a Template and Recommendation Area ](t_template_and_recommendation_area_recs.md#task_45CA0403F24944EF9FE6C4FC5D1A7836)
+>* [ Defining Segments ](t_definesegments_recs.md#task_338EDF86E0A2412896C2854257E91D62)
+>* [ Specifying How Many Users See Default Content ](t_how_many_users_see_default_conten_recst.md#task_5059665F6EE64FA39D2851671898F996)

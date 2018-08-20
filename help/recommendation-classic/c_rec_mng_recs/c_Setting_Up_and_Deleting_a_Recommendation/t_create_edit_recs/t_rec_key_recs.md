@@ -5,7 +5,7 @@ seo-title: Basing the Recommendation on a Recommendation Key
 solution: Target
 title: Basing the Recommendation on a Recommendation Key
 topic: Recommendations
-uuid: 4594651d-4ed7-4115-97ea-36aa604142d7
+uuid: 6fa0b69c-5e30-457e-9a7a-c95320ac83b3
 index: y
 internal: n
 snippet: y
@@ -136,4 +136,15 @@ Each algorithm is defined in its own tab. Traffic is split evenly across your di
 </table>
 
 >1. Click **[!UICONTROL  Save]**.
->[!MORE_LIKE_THIS]* [ Adding a New Recommendation ](c_Creating_a_New_Recommendation.md#concept_9F20B4F0F53D4399B10BCBBC979E0B4C)* [ Targeting a Recommendation ](t_targeting_recs.md#task_3D93B8962F6341CB9A3ADE8E29BFECA5)* [ Choosing a Test Type ](t_choosetype_recs.md#task_301A771BFE7F45A3AA1E77024E574D1C)* [ Choosing a Catalog ](t_Choose_a_Catalog.md#task_047A4BA38078464782024764CA38EF0A)* [ Selecting an Algorithm ](t_algo_select_recs.md#task_2203616ABBE342B6ADAB08F278D794FA)* [ Choosing the Data Source ](t_data_source_recs.md#task_4EC990FBF374465EA6B7FCA8A5A12786)* [ Setting Data Details ](t_Setting_Data_Details.md#task_28DB20F968B1451481D8E51BAF947079)* [ Selecting a Template and Recommendation Area ](t_template_and_recommendation_area_recs.md#task_45CA0403F24944EF9FE6C4FC5D1A7836)* [ Defining Segments ](t_definesegments_recs.md#task_338EDF86E0A2412896C2854257E91D62)* [ Specifying How Many Users See Default Content ](t_how_many_users_see_default_conten_recst.md#task_5059665F6EE64FA39D2851671898F996)
+>[!MORE_LIKE_THIS]
+>
+>* [ Adding a New Recommendation ](c_Creating_a_New_Recommendation.md#concept_9F20B4F0F53D4399B10BCBBC979E0B4C)
+>* [ Targeting a Recommendation ](t_targeting_recs.md#task_3D93B8962F6341CB9A3ADE8E29BFECA5)
+>* [ Choosing a Test Type ](t_choosetype_recs.md#task_301A771BFE7F45A3AA1E77024E574D1C)
+>* [ Choosing a Catalog ](t_Choose_a_Catalog.md#task_047A4BA38078464782024764CA38EF0A)
+>* [ Selecting an Algorithm ](t_algo_select_recs.md#task_2203616ABBE342B6ADAB08F278D794FA)
+>* [ Choosing the Data Source ](t_data_source_recs.md#task_4EC990FBF374465EA6B7FCA8A5A12786)
+>* [ Setting Data Details ](t_Setting_Data_Details.md#task_28DB20F968B1451481D8E51BAF947079)
+>* [ Selecting a Template and Recommendation Area ](t_template_and_recommendation_area_recs.md#task_45CA0403F24944EF9FE6C4FC5D1A7836)
+>* [ Defining Segments ](t_definesegments_recs.md#task_338EDF86E0A2412896C2854257E91D62)
+>* [ Specifying How Many Users See Default Content ](t_how_many_users_see_default_conten_recst.md#task_5059665F6EE64FA39D2851671898F996)

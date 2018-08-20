@@ -5,7 +5,7 @@ seo-title: Creating or Editing an HTML Template
 solution: Target
 title: Creating or Editing an HTML Template
 topic: Recommendations
-uuid: d63218ed-a4a0-47f8-a05a-3cd655ae5314
+uuid: 457cf8c1-50cd-4e3f-9e17-407bc5a87184
 index: y
 internal: n
 snippet: y
@@ -48,4 +48,9 @@ translate: y
 
 >       You can see how many recommendations are using the template. Select **[!UICONTROL  All]**, **[!UICONTROL  Active]**, or **[!UICONTROL  Inactive]** to see the recommendations that use the template. Links to the recommendations that use the template appear to the right of the template usage statistics. 
 >1. Click **[!UICONTROL  Save]**.
->[!MORE_LIKE_THIS]* [ Using the Template Manager ](t_Using_the_Template_Manager.md#task_B26F18BBA6634EEEA46D094D94E1B75C)* [ Customizing a Template ](c_Customizing_a_Template.md#concept_94F1554C3F2E4CDB9A2C3D78F10EDA59)* [ Copying a Template ](t_Copying_a_Template.md#task_607C9FB356094942866C443246C25DEF)* [ Deleting a Template ](t_Deleting_a_Template.md#task_E31200EA7D844C039B169CB26162C292)
+>[!MORE_LIKE_THIS]
+>
+>* [ Using the Template Manager ](t_Using_the_Template_Manager.md#task_B26F18BBA6634EEEA46D094D94E1B75C)
+>* [ Customizing a Template ](c_Customizing_a_Template.md#concept_94F1554C3F2E4CDB9A2C3D78F10EDA59)
+>* [ Copying a Template ](t_Copying_a_Template.md#task_607C9FB356094942866C443246C25DEF)
+>* [ Deleting a Template ](t_Deleting_a_Template.md#task_E31200EA7D844C039B169CB26162C292)

@@ -6,7 +6,7 @@ seo-title: Customizing a Template
 solution: Target
 title: Customizing a Template
 topic: Recommendations
-uuid: 0f4b50a1-594c-4ea9-9b9a-4ad17f81794e
+uuid: 4ef0da54-8b38-4cbb-9e25-6d2fe2a954f7
 index: y
 internal: n
 snippet: y
@@ -175,4 +175,9 @@ You can also use ` algorithm.name` and ` algorithm.dayCount` as variables in tem
 >When referencing tokens in templates (tokens are listed in[ Dynamic Values in Targets and Profiles ](https://marketing.adobe.com/resources/help/en_US/tnt/help/r_Dynamic_Values_in_Targets_and_Profiles.html) in the Target Classic help), use a backslash to escape the token. For example: ` \${campaign.recipe.id}` 
 
 
->[!MORE_LIKE_THIS] {class="- topic/related-links "}* [ Using the Template Manager ](t_Using_the_Template_Manager.md#task_B26F18BBA6634EEEA46D094D94E1B75C)* [ Creating or Editing an HTML Template ](t_Creating_an_HTML_Template.md#task_98162FAC61F5407F927F53C9B839EE74)* [ Copying a Template ](t_Copying_a_Template.md#task_607C9FB356094942866C443246C25DEF)* [ Deleting a Template ](t_Deleting_a_Template.md#task_E31200EA7D844C039B169CB26162C292)
+>[!MORE_LIKE_THIS] {class="- topic/related-links "}
+>
+>* [ Using the Template Manager ](t_Using_the_Template_Manager.md#task_B26F18BBA6634EEEA46D094D94E1B75C)
+>* [ Creating or Editing an HTML Template ](t_Creating_an_HTML_Template.md#task_98162FAC61F5407F927F53C9B839EE74)
+>* [ Copying a Template ](t_Copying_a_Template.md#task_607C9FB356094942866C443246C25DEF)
+>* [ Deleting a Template ](t_Deleting_a_Template.md#task_E31200EA7D844C039B169CB26162C292)

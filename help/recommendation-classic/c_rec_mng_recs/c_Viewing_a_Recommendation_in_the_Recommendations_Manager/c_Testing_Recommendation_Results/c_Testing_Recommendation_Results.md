@@ -5,7 +5,7 @@ seo-title: Reporting Recommendation Results
 solution: Target
 title: Reporting Recommendation Results
 topic: Recommendations
-uuid: 75c4bb58-7d34-44f8-b7dd-c2a3cc618724
+uuid: be197c8a-9626-46fd-a47c-4058748ba25c
 index: y
 internal: n
 snippet: y
@@ -22,4 +22,8 @@ When you create a recommendation (see [ Creating or Editing a Recommendation](..
 >Report data remains in Recommendations for five quarters (including the current quarter).
 
 
->[!MORE_LIKE_THIS] {class="- topic/related-links "}* [ Recommendations Cards ](r_card_understanding_recs.md#reference_5F99F1159DD741CCB92963C9B32C28B0)* [ Searching and Filtering the Recommendations List ](t_finding_recs.md#task_5B8C9C6FFC5F4191804AA07203CC22E9)* [ Viewing the Change Log ](t_Viewing_the_Change_Log.md#task_0B5CF07FDC30484F89A58E402ADFE493)
+>[!MORE_LIKE_THIS] {class="- topic/related-links "}
+>
+>* [ Recommendations Cards ](r_card_understanding_recs.md#reference_5F99F1159DD741CCB92963C9B32C28B0)
+>* [ Searching and Filtering the Recommendations List ](t_finding_recs.md#task_5B8C9C6FFC5F4191804AA07203CC22E9)
+>* [ Viewing the Change Log ](t_Viewing_the_Change_Log.md#task_0B5CF07FDC30484F89A58E402ADFE493)

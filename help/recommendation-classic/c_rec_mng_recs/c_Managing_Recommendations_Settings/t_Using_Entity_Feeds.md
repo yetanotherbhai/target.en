@@ -5,7 +5,7 @@ seo-title: Using Entity Feeds
 solution: Target
 title: Using Entity Feeds
 topic: Recommendations
-uuid: 8ca1f5f8-ce76-4f8d-9d05-44095baa080e
+uuid: ac892605-c4b1-4cc7-a6eb-2f53b7dd2288
 index: y
 internal: n
 snippet: y
@@ -89,4 +89,7 @@ To add entity feeds to recommendations, follow these steps:
 >1. Click ` Save`.
 
 >       After you click ` Save`, the status displays under the [!UICONTROL  Schedule] tab. Open an entity feed by clicking ` Edit` to see your status updates. 
->[!MORE_LIKE_THIS] {class="- topic/related-links "}* [ Creating Global Exclusions ](t_Creating_Global_Exclusions.md#task_ABDA6F68D8BD47988A67A06396121318)* [ Uploading Entities to Recommendations ](c_Uploading_Entities_to_Recommendations.md#concept_23D55B1FAEBE425A8A0F9796A0E21AE1)
+>[!MORE_LIKE_THIS] {class="- topic/related-links "}
+>
+>* [ Creating Global Exclusions ](t_Creating_Global_Exclusions.md#task_ABDA6F68D8BD47988A67A06396121318)
+>* [ Uploading Entities to Recommendations ](c_Uploading_Entities_to_Recommendations.md#concept_23D55B1FAEBE425A8A0F9796A0E21AE1)

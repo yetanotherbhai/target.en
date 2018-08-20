@@ -5,7 +5,7 @@ seo-title: Adding an Algorithm/Template Test Recommendation
 solution: Target
 title: Adding an Algorithm/Template Test Recommendation
 topic: Recommendations
-uuid: 75b6f675-f997-4a3d-a586-3d5fd061a740
+uuid: 9c355528-61f3-4d50-a573-0e56b2754150
 index: y
 internal: n
 snippet: y
@@ -57,4 +57,7 @@ Use this type of recommendation to display items based on criteria such as Purch
 >1. Click ` Save`.
 
 >       After you save your new recommendation, it appears on the [!UICONTROL  Manage Recommendations] page as inactive. (See [ Activating a Recommendation ](../../../../c_rec_mng_recs/c_Starting_a_Recommendation/t_activate_recs.md#task_B0A6D22AA72E405DBEC81D22B12477DF) for information about activating the new recommendation.) The algorithm runs as soon as data is available, usually within 30 minutes. 
->[!MORE_LIKE_THIS] {class="- topic/related-links "}* [ Adding a Location Test Recommendation ](t_Adding_a_Location_Test_Recommendation.md#task_3CB225C3A7EA44D2BB5D02631AF74EB5)* [ Adding a Download Only Recommendation ](t_Adding_a_Download_Only_Recommendation.md#task_EECE85A42EE940A589F3A897D6DB12BF)
+>[!MORE_LIKE_THIS] {class="- topic/related-links "}
+>
+>* [ Adding a Location Test Recommendation ](t_Adding_a_Location_Test_Recommendation.md#task_3CB225C3A7EA44D2BB5D02631AF74EB5)
+>* [ Adding a Download Only Recommendation ](t_Adding_a_Download_Only_Recommendation.md#task_EECE85A42EE940A589F3A897D6DB12BF)

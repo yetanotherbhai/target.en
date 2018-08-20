@@ -5,7 +5,7 @@ seo-title: Deactivating a Recommendation
 solution: Target
 title: Deactivating a Recommendation
 topic: Recommendations
-uuid: 57c025ee-eb85-4d56-8037-fa6425c4e0f0
+uuid: c334b64d-efee-4ae2-9c6e-5f1409366e23
 index: y
 internal: n
 snippet: y
@@ -39,4 +39,7 @@ The icons on the toolbar change depending on the status of the recommendation.
 >1. On the [!UICONTROL  Manage Recommendations] page, find the active recommendation you want to deactivate.
 >1. Click **[!UICONTROL  Deactivate]**.
 
->[!MORE_LIKE_THIS]* [ Knowing When to Launch a Recommendation ](c_know_when_to_launch_recs.md#concept_9CB532778F6E4F4CA463F420F16C4A74)* [ Activating a Recommendation ](t_activate_recs.md#task_B0A6D22AA72E405DBEC81D22B12477DF)
+>[!MORE_LIKE_THIS]
+>
+>* [ Knowing When to Launch a Recommendation ](c_know_when_to_launch_recs.md#concept_9CB532778F6E4F4CA463F420F16C4A74)
+>* [ Activating a Recommendation ](t_activate_recs.md#task_B0A6D22AA72E405DBEC81D22B12477DF)

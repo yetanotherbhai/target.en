@@ -5,7 +5,7 @@ seo-title: About Dynamic Mboxes
 solution: Target
 title: About Dynamic Mboxes
 topic: Advanced
-uuid: 947cc794-5dc8-4439-948b-3b4d1b02a866
+uuid: fde04f70-95a0-450f-9c46-e1fa836b2dee
 index: y
 internal: n
 snippet: y
@@ -49,4 +49,6 @@ Of note:
 
 * ` mboxUpdate()` applies the offer only when the DOM-ready event has been fired.
 When using dynamic mboxes, delivering offers that include ` document.write` cause the page where the dynamic mbox is located to appear blank because the ` document.write` function is invoked after the DOM has loaded. Note also that plug-ins using offers with ` document.write` should never be used on sites employing dynamic mboxes. 
->[!MORE_LIKE_THIS] {class="- topic/related-links "}* [ Creating a Dynamic Mbox ](r_Creating_a_Dynamic_Mbox.md#reference_60A14E7EB8754383B2DC6A7E4D531AB4)
+>[!MORE_LIKE_THIS] {class="- topic/related-links "}
+>
+>* [ Creating a Dynamic Mbox ](r_Creating_a_Dynamic_Mbox.md#reference_60A14E7EB8754383B2DC6A7E4D531AB4)

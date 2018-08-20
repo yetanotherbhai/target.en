@@ -5,7 +5,7 @@ seo-title: Viewing the History
 solution: Target
 title: Viewing the History
 topic: Recommendations
-uuid: 34db49fc-3d59-4d53-bfbb-c63608815780
+uuid: 53fa80f6-0ac2-4b7c-83ac-76cc0b4c11cf
 index: y
 internal: n
 snippet: y
@@ -20,4 +20,8 @@ The History also shows the number of recommendations uploaded per algorithm so y
 >1. Open the ` History` tab.
 
 >       Step Result 
->[!MORE_LIKE_THIS] {class="- topic/related-links "}* [ Recommendations Cards ](r_card_understanding_recs.md#reference_5F99F1159DD741CCB92963C9B32C28B0)* [ Searching and Filtering the Recommendations List ](t_finding_recs.md#task_5B8C9C6FFC5F4191804AA07203CC22E9)* [ Reporting Recommendation Results ](c_Testing_Recommendation_Results.md#concept_E5B86C2093404403A6900BD0A4CFCCBB)
+>[!MORE_LIKE_THIS] {class="- topic/related-links "}
+>
+>* [ Recommendations Cards ](r_card_understanding_recs.md#reference_5F99F1159DD741CCB92963C9B32C28B0)
+>* [ Searching and Filtering the Recommendations List ](t_finding_recs.md#task_5B8C9C6FFC5F4191804AA07203CC22E9)
+>* [ Reporting Recommendation Results ](c_Testing_Recommendation_Results.md#concept_E5B86C2093404403A6900BD0A4CFCCBB)

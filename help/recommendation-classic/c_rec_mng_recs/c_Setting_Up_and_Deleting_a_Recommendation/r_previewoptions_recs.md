@@ -5,7 +5,7 @@ seo-title: Using Preview Options to Change the Page View
 solution: Target
 title: Using Preview Options to Change the Page View
 topic: Recommendations
-uuid: 38aa7f63-f32e-49ef-9304-6b4592f43b05
+uuid: 44b8ed1a-16c1-461b-a3cd-33ffbe5e24a3
 index: y
 internal: n
 snippet: y
@@ -42,4 +42,9 @@ translate: y
  </tbody> 
 </table>
 
->[!MORE_LIKE_THIS]* [ Creating or Editing a Recommendation ](t_create_edit_recs.md#task_07791608B4DB4B3EB0EF981116F4B4E2)* [ Using a Backup Recommendation ](c_backup_recs.md#concept_5D02FA607144416BB3514364E11E9395)* [ Previewing a Recommendation ](t_previewing_recs.md#task_0841AD9A5CF640719A486C24F7D4D14F)* [ Deleting a Recommendation ](t_deleting_recs.md#task_0364B109FE5D4D0C81204F69DA001AD1)
+>[!MORE_LIKE_THIS]
+>
+>* [ Creating or Editing a Recommendation ](t_create_edit_recs.md#task_07791608B4DB4B3EB0EF981116F4B4E2)
+>* [ Using a Backup Recommendation ](c_backup_recs.md#concept_5D02FA607144416BB3514364E11E9395)
+>* [ Previewing a Recommendation ](t_previewing_recs.md#task_0841AD9A5CF640719A486C24F7D4D14F)
+>* [ Deleting a Recommendation ](t_deleting_recs.md#task_0364B109FE5D4D0C81204F69DA001AD1)

@@ -5,7 +5,7 @@ seo-title: Troubleshooting Recommendations
 solution: Target
 title: Troubleshooting Recommendations
 topic: Recommendations
-uuid: f353f467-1888-42a5-a9e1-eaec47b02fa5
+uuid: c096290f-9812-408b-b2e2-aba872a5ba42
 index: y
 internal: n
 snippet: y
@@ -26,4 +26,12 @@ translate: y
 >**Problem: The currently visited item is not excluded when the algorithm key is ` userProfileAttribute` and the type is ` customAlgorithm`.** 
 
 >This behavior is expected. 
->[!MORE_LIKE_THIS]* [ Viewing a Recommendation in the Recommendations Manager ](c_Viewing_a_Recommendation_in_the_Recommendations_Manager.md#concept_20461D0A428B42F99270AF30293038AE)* [ Setting Up and Deleting a Recommendation ](c_Setting_Up_and_Deleting_a_Recommendation.md#concept_46FC867861EC477ABF287D49B84F0961)* [ Starting a Recommendation ](c_Starting_a_Recommendation.md#concept_FD5D757B0C174CE2B0D8C132303EE674)* [ Creating a Custom Algorithm ](c_Creating_a_Custom_Algorithm.md#concept_9D76531BEE5A4AC8BA2DD30B99CED51A)* [ Advanced Recommendations Options ](r_Recommendation_Parameters.md#reference_93CA52A6B7D64CDFABAE37E27D1F0A9F)* [ Creating Catalogs ](t_Creating_Catalogs.md#task_CF595BC2426140E08F7948E43E3C8F81)* [ Searching Catalogs ](t_Searching_Catalogs.md#task_B5E7B5638BF0406E93AE18B2C6893AE2)
+>[!MORE_LIKE_THIS]
+>
+>* [ Viewing a Recommendation in the Recommendations Manager ](c_Viewing_a_Recommendation_in_the_Recommendations_Manager.md#concept_20461D0A428B42F99270AF30293038AE)
+>* [ Setting Up and Deleting a Recommendation ](c_Setting_Up_and_Deleting_a_Recommendation.md#concept_46FC867861EC477ABF287D49B84F0961)
+>* [ Starting a Recommendation ](c_Starting_a_Recommendation.md#concept_FD5D757B0C174CE2B0D8C132303EE674)
+>* [ Creating a Custom Algorithm ](c_Creating_a_Custom_Algorithm.md#concept_9D76531BEE5A4AC8BA2DD30B99CED51A)
+>* [ Advanced Recommendations Options ](r_Recommendation_Parameters.md#reference_93CA52A6B7D64CDFABAE37E27D1F0A9F)
+>* [ Creating Catalogs ](t_Creating_Catalogs.md#task_CF595BC2426140E08F7948E43E3C8F81)
+>* [ Searching Catalogs ](t_Searching_Catalogs.md#task_B5E7B5638BF0406E93AE18B2C6893AE2)

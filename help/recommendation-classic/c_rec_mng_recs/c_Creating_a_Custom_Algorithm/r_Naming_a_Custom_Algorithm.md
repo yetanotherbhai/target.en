@@ -5,7 +5,7 @@ seo-title: Naming a Custom Algorithm
 solution: Target
 title: Naming a Custom Algorithm
 topic: Recommendations
-uuid: 082a5e7f-aed4-4b0c-80d0-d4218646b7ff
+uuid: 424f3e5c-5112-4d09-a1d2-84c10e9cac78
 index: y
 internal: n
 snippet: y
@@ -56,4 +56,7 @@ translate: y
 >For example, if the profile script was named ` abandonedCartItem`, the parameter for this API would be ` keyType=user.abandonedCartItem`. 
 
 >After you use this API, the new name appears immediately as an algorithm type. 
->[!MORE_LIKE_THIS]* [ Uploading Custom Algorithm Data ](r_Uploading_Custom_Algorithm_Data.md#reference_F905A439D6034D15AAE171CD69909742)* [ Deleting a Custom Algorithm ](r_Deleting_a_Custom_Algorithm.md#reference_B54C085BEAFB47B383DF127C06777D1F)
+>[!MORE_LIKE_THIS]
+>
+>* [ Uploading Custom Algorithm Data ](r_Uploading_Custom_Algorithm_Data.md#reference_F905A439D6034D15AAE171CD69909742)
+>* [ Deleting a Custom Algorithm ](r_Deleting_a_Custom_Algorithm.md#reference_B54C085BEAFB47B383DF127C06777D1F)

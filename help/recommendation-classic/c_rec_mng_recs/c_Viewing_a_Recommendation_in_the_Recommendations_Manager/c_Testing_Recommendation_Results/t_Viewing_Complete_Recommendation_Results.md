@@ -5,7 +5,7 @@ seo-title: Viewing Complete Recommendation Results
 solution: Target
 title: Viewing Complete Recommendation Results
 topic: Recommendations
-uuid: 99995884-3e40-428a-88f7-f263d85b2619
+uuid: c7d4fc73-7ed3-4d01-a285-fbae9a360b27
 index: y
 internal: n
 snippet: y
@@ -41,4 +41,9 @@ translate: y
 >       >
 >       >You can view the total numbers for an A/B campaign in Target. Click **[!UICONTROL  Locations]** > **[!UICONTROL  List]**, select the ` orderConformPage` mbox, and click on one of the campaigns. 
 
->[!MORE_LIKE_THIS] {class="- topic/related-links "}* [ Viewing Test Results on a Recommendations Card ](c_Viewing_Test_Results_on_a_Recommendations_Card.md#concept_C035768E243F4382A5FF953E1BB870B1)* [ Viewing the Optimizing Recommendation Report ](t_Viewing_the_Optimization_Recommendation_Report.md#task_55777B3740594D8489EF04E62D2327D8)* [ Viewing the Trended Graph Report ](t_Viewing_the_Trended_Graph_Report.md#task_1D399DB0E0A14BF5A672E99C6695BAE7)* [ Confidence Level and Confidence Interval ](c_Confidence_Level_and_Confidence_Interval.md#concept_0D0002A1EBDF420E9C50E2A46F36629B)
+>[!MORE_LIKE_THIS] {class="- topic/related-links "}
+>
+>* [ Viewing Test Results on a Recommendations Card ](c_Viewing_Test_Results_on_a_Recommendations_Card.md#concept_C035768E243F4382A5FF953E1BB870B1)
+>* [ Viewing the Optimizing Recommendation Report ](t_Viewing_the_Optimization_Recommendation_Report.md#task_55777B3740594D8489EF04E62D2327D8)
+>* [ Viewing the Trended Graph Report ](t_Viewing_the_Trended_Graph_Report.md#task_1D399DB0E0A14BF5A672E99C6695BAE7)
+>* [ Confidence Level and Confidence Interval ](c_Confidence_Level_and_Confidence_Interval.md#concept_0D0002A1EBDF420E9C50E2A46F36629B)

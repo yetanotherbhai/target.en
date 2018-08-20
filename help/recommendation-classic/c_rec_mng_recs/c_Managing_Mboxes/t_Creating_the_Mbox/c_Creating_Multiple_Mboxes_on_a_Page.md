@@ -5,7 +5,7 @@ seo-title: Creating Multiple Mboxes on a Page
 solution: Target
 title: Creating Multiple Mboxes on a Page
 topic: Recommendations
-uuid: 8b36cbbf-1007-4251-b887-351b400c23b8
+uuid: 9fe737ac-bc36-4c08-8c46-0b099ead7942
 index: y
 internal: n
 snippet: y
@@ -22,4 +22,9 @@ Follow the instructions for inserting a single mbox, as explained in [ Creating 
 >Multiple test elements on a page can be combined into a single larger-sized mbox.
 
 
->[!MORE_LIKE_THIS]* [ Placing an Mbox Around a Table ](r_Placing_an_Mbox_Around_a_Table.md#reference_361F35DEA8CC4E2B87B470F72C9E344F)* [ Placing an Mbox Around a Table Cell ](r_Placing_an_Mbox_Around_a_Table_Cell.md#reference_CBE33BC9DE884F14B39478818C164F43)* [ Creating a Whole Page as an Mbox ](r_Creating_a_Whole_Page_as_an_Mbox.md#reference_F3E59E7326D946E4897AE41C3A6B40CE)* [ Creating a Dynamic Mbox ](r_Creating_a_Dynamic_Mbox.md#reference_60A14E7EB8754383B2DC6A7E4D531AB4)
+>[!MORE_LIKE_THIS]
+>
+>* [ Placing an Mbox Around a Table ](r_Placing_an_Mbox_Around_a_Table.md#reference_361F35DEA8CC4E2B87B470F72C9E344F)
+>* [ Placing an Mbox Around a Table Cell ](r_Placing_an_Mbox_Around_a_Table_Cell.md#reference_CBE33BC9DE884F14B39478818C164F43)
+>* [ Creating a Whole Page as an Mbox ](r_Creating_a_Whole_Page_as_an_Mbox.md#reference_F3E59E7326D946E4897AE41C3A6B40CE)
+>* [ Creating a Dynamic Mbox ](r_Creating_a_Dynamic_Mbox.md#reference_60A14E7EB8754383B2DC6A7E4D531AB4)

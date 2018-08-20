@@ -5,7 +5,7 @@ seo-title: Implementing Display Data Mboxes
 solution: Target
 title: Implementing Display Data Mboxes
 topic: Recommendations
-uuid: b27b5dbc-cf27-4603-9c57-4a0590fe13d7
+uuid: 0b1dee0c-bf2b-487f-97ad-472b50d836ec
 index: y
 internal: n
 snippet: y
@@ -198,4 +198,11 @@ If the mbox is on a product page, you can include both the product ID and catego
 
 
 
->[!MORE_LIKE_THIS]* [ Preparing Your Website for Recommendations ](t_preparingsite_recs.md#task_30B8C075A14B426F9042119553F750B8)* [ Downloading the mbox.js Library File ](t_mboxjs_dl_recs.md#task_6B577DD43FD346F7BC01962DAA822816)* [ Validating the mbox.js Download ](t_Validating_the_mboxjs_Download.md#task_FA78EB3B991C43F9ADE507A16522B770)* [ Referencing the mbox.js File on Your Web Pages ](t_mboxjs_referencing_recs.md#task_69315D69881442209EB5CC8A5644CF37)* [ Implementing an Order-Confirmation Details Mbox ](t_mbox_orderconfirm_implementing_recs.md#task_AC372C1B9DFC4F5FB9DB4BDC759343EA)* [ Placing Mboxes to Display Recommendations ](t_mbox_placing_recs.md#task_F3638B849C9B45F197DBE49791AE13A1)
+>[!MORE_LIKE_THIS]
+>
+>* [ Preparing Your Website for Recommendations ](t_preparingsite_recs.md#task_30B8C075A14B426F9042119553F750B8)
+>* [ Downloading the mbox.js Library File ](t_mboxjs_dl_recs.md#task_6B577DD43FD346F7BC01962DAA822816)
+>* [ Validating the mbox.js Download ](t_Validating_the_mboxjs_Download.md#task_FA78EB3B991C43F9ADE507A16522B770)
+>* [ Referencing the mbox.js File on Your Web Pages ](t_mboxjs_referencing_recs.md#task_69315D69881442209EB5CC8A5644CF37)
+>* [ Implementing an Order-Confirmation Details Mbox ](t_mbox_orderconfirm_implementing_recs.md#task_AC372C1B9DFC4F5FB9DB4BDC759343EA)
+>* [ Placing Mboxes to Display Recommendations ](t_mbox_placing_recs.md#task_F3638B849C9B45F197DBE49791AE13A1)

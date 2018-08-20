@@ -5,7 +5,7 @@ seo-title: Advanced Recommendations Options
 solution: Target
 title: Advanced Recommendations Options
 topic: Recommendations
-uuid: a86a7136-c47f-4211-84ac-66f57444a20b
+uuid: 88f1e2bf-3c82-4704-854f-1e92710a57bd
 index: y
 internal: n
 snippet: y
@@ -85,4 +85,12 @@ translate: y
  </tbody> 
 </table>
 
->[!MORE_LIKE_THIS]* [ Viewing a Recommendation in the Recommendations Manager ](c_Viewing_a_Recommendation_in_the_Recommendations_Manager.md#concept_20461D0A428B42F99270AF30293038AE)* [ Setting Up and Deleting a Recommendation ](c_Setting_Up_and_Deleting_a_Recommendation.md#concept_46FC867861EC477ABF287D49B84F0961)* [ Starting a Recommendation ](c_Starting_a_Recommendation.md#concept_FD5D757B0C174CE2B0D8C132303EE674)* [ Creating a Custom Algorithm ](c_Creating_a_Custom_Algorithm.md#concept_9D76531BEE5A4AC8BA2DD30B99CED51A)* [ Creating Catalogs ](t_Creating_Catalogs.md#task_CF595BC2426140E08F7948E43E3C8F81)* [ Searching Catalogs ](t_Searching_Catalogs.md#task_B5E7B5638BF0406E93AE18B2C6893AE2)* [ Troubleshooting Recommendations ](r_Troubleshooting_Recommendations.md#reference_14CE05395C164BE1AC5E5FA2F7E940E2)
+>[!MORE_LIKE_THIS]
+>
+>* [ Viewing a Recommendation in the Recommendations Manager ](c_Viewing_a_Recommendation_in_the_Recommendations_Manager.md#concept_20461D0A428B42F99270AF30293038AE)
+>* [ Setting Up and Deleting a Recommendation ](c_Setting_Up_and_Deleting_a_Recommendation.md#concept_46FC867861EC477ABF287D49B84F0961)
+>* [ Starting a Recommendation ](c_Starting_a_Recommendation.md#concept_FD5D757B0C174CE2B0D8C132303EE674)
+>* [ Creating a Custom Algorithm ](c_Creating_a_Custom_Algorithm.md#concept_9D76531BEE5A4AC8BA2DD30B99CED51A)
+>* [ Creating Catalogs ](t_Creating_Catalogs.md#task_CF595BC2426140E08F7948E43E3C8F81)
+>* [ Searching Catalogs ](t_Searching_Catalogs.md#task_B5E7B5638BF0406E93AE18B2C6893AE2)
+>* [ Troubleshooting Recommendations ](r_Troubleshooting_Recommendations.md#reference_14CE05395C164BE1AC5E5FA2F7E940E2)

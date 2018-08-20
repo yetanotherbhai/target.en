@@ -5,7 +5,7 @@ seo-title: Starting Recommendations
 solution: Target
 title: Starting Recommendations
 topic: Recommendations
-uuid: 0e92babd-ded4-4cb2-8c7e-e77a88da4225
+uuid: 8a326899-604b-470f-8227-52965ec9b67f
 index: y
 internal: n
 snippet: y
@@ -29,4 +29,9 @@ When you purchase the product, you receive the user name, password, and other in
 >    * To create a new template to use for your recommendations, see [ Managing Templates](../c_rec_mng_recs/c_Managing_Templates/c_Managing_Templates.md#concept_C3A712A99D47406C855955161DB699A1).
 >    * To use other features, see [ Recommendations Functions](../c_gettingstarted_recs/r_recommendations_Settings_recs.md#reference_903C30236F0240ACBA453402B119D565).
 >       You can also access your other Adobe Marketing Cloud products from the product buttons along the top of the screen. 
->[!MORE_LIKE_THIS] {class="- topic/related-links "}* [ Release Notes ](r_whatsnew-recs.md#reference_673C03B5B8AA478F8CA9F88D9D760361)* [ Prerequisites and Integrations ](r_prereqs_recs.md#reference_D6E669D2EA0742279A3840D252079E1A)* [ Recommendations Functions ](r_recommendations_Settings_recs.md#reference_903C30236F0240ACBA453402B119D565)* [ Preparing Your Website for Recommendations ](t_preparingsite_recs.md#task_30B8C075A14B426F9042119553F750B8)
+>[!MORE_LIKE_THIS] {class="- topic/related-links "}
+>
+>* [ Release Notes ](r_whatsnew-recs.md#reference_673C03B5B8AA478F8CA9F88D9D760361)
+>* [ Prerequisites and Integrations ](r_prereqs_recs.md#reference_D6E669D2EA0742279A3840D252079E1A)
+>* [ Recommendations Functions ](r_recommendations_Settings_recs.md#reference_903C30236F0240ACBA453402B119D565)
+>* [ Preparing Your Website for Recommendations ](t_preparingsite_recs.md#task_30B8C075A14B426F9042119553F750B8)

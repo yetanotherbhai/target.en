@@ -5,7 +5,7 @@ seo-title: Recommendations Functions
 solution: Target
 title: Recommendations Functions
 topic: Recommendations
-uuid: 3786fe46-922e-4194-99c2-c90b9862d03b
+uuid: a2be39b3-d379-469b-a874-98d5caa94428
 index: y
 internal: n
 snippet: y
@@ -67,4 +67,8 @@ translate: y
  </tbody> 
 </table>
 
->[!MORE_LIKE_THIS]* [ Release Notes ](r_whatsnew-recs.md#reference_673C03B5B8AA478F8CA9F88D9D760361)* [ Prerequisites and Integrations ](r_prereqs_recs.md#reference_D6E669D2EA0742279A3840D252079E1A)* [ Starting Recommendations ](t_recs_start_recs.md#task_BCD9A79509224A0DBD89C1B50E97B4D5)
+>[!MORE_LIKE_THIS]
+>
+>* [ Release Notes ](r_whatsnew-recs.md#reference_673C03B5B8AA478F8CA9F88D9D760361)
+>* [ Prerequisites and Integrations ](r_prereqs_recs.md#reference_D6E669D2EA0742279A3840D252079E1A)
+>* [ Starting Recommendations ](t_recs_start_recs.md#task_BCD9A79509224A0DBD89C1B50E97B4D5)

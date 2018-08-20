@@ -6,7 +6,7 @@ seo-title: Release Notes
 solution: Target
 title: Release Notes
 topic: Recommendations
-uuid: 74309ed1-4f4e-472b-addc-3e2f6f408e67
+uuid: dad7b052-9afa-4a32-816e-1a7df7571e80
 index: y
 internal: n
 snippet: y
@@ -602,4 +602,8 @@ After you create a product catalog, you can view and search it within Recommenda
 * Optimizing Recommendations The Optimizing recommendation type ensures the most effective recommendations are shown more often by automatically displaying the best performing recommendations. Optimizing recommendations allow marketers to use an automated approach to improving site performance. With an Optimizing recommendation, fewer visitors see underperforming experiences. Automatically and over time, more traffic is shown the best performing recommendations. When you create an Optimizing recommendation, you specify the optimizing metric used to determine performance, which can be the conversion rate, average order value, or revenue per visit. You also choose whether to include default content in the calculations. See [ Choosing a Test Type ](c_rec_mng_recs/c_Setting_Up_and_Deleting_a_Recommendation/t_create_edit_recs/t_choosetype_recs.md#task_301A771BFE7F45A3AA1E77024E574D1C). 
 
 
->[!MORE_LIKE_THIS] {class="- topic/related-links "}* [ Prerequisites and Integrations ](r_prereqs_recs.md#reference_D6E669D2EA0742279A3840D252079E1A)* [ Starting Recommendations ](t_recs_start_recs.md#task_BCD9A79509224A0DBD89C1B50E97B4D5)* [ Recommendations Functions ](r_recommendations_Settings_recs.md#reference_903C30236F0240ACBA453402B119D565)
+>[!MORE_LIKE_THIS] {class="- topic/related-links "}
+>
+>* [ Prerequisites and Integrations ](r_prereqs_recs.md#reference_D6E669D2EA0742279A3840D252079E1A)
+>* [ Starting Recommendations ](t_recs_start_recs.md#task_BCD9A79509224A0DBD89C1B50E97B4D5)
+>* [ Recommendations Functions ](r_recommendations_Settings_recs.md#reference_903C30236F0240ACBA453402B119D565)

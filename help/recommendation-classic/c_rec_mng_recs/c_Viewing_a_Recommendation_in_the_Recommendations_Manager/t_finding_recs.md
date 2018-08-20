@@ -5,7 +5,7 @@ seo-title: Searching and Filtering the Recommendations List
 solution: Target
 title: Searching and Filtering the Recommendations List
 topic: Recommendations
-uuid: 096dd132-942c-4c83-8146-e30ca6955624
+uuid: b993102d-82f8-4b6b-be7d-6085ea1480b3
 index: y
 internal: n
 snippet: y
@@ -24,4 +24,9 @@ The displayed recommendations can be filtered to show only active or inactive re
 >       By default, ` All` is selected, showing both active and inactive recommendations. 
 
 >       You can also filter the list to show all active recommendations or all inactive recommendations by selecting either ` Active` or ` Inactive`from the dropdown without typing anything in the ` Search` box. 
->[!MORE_LIKE_THIS] {class="- topic/related-links "}* [ Recommendations Cards ](r_card_understanding_recs.md#reference_5F99F1159DD741CCB92963C9B32C28B0)* [ Reporting Recommendation Results ](c_Testing_Recommendation_Results.md#concept_E5B86C2093404403A6900BD0A4CFCCBB)* [ Viewing the Change Log ](t_Viewing_the_Change_Log.md#task_0B5CF07FDC30484F89A58E402ADFE493)* [ Using Preview Options to Change the Page View ](r_previewoptions_recs.md#reference_8EBD7A9F6CF247B79A9FDCB85AB55C82)
+>[!MORE_LIKE_THIS] {class="- topic/related-links "}
+>
+>* [ Recommendations Cards ](r_card_understanding_recs.md#reference_5F99F1159DD741CCB92963C9B32C28B0)
+>* [ Reporting Recommendation Results ](c_Testing_Recommendation_Results.md#concept_E5B86C2093404403A6900BD0A4CFCCBB)
+>* [ Viewing the Change Log ](t_Viewing_the_Change_Log.md#task_0B5CF07FDC30484F89A58E402ADFE493)
+>* [ Using Preview Options to Change the Page View ](r_previewoptions_recs.md#reference_8EBD7A9F6CF247B79A9FDCB85AB55C82)

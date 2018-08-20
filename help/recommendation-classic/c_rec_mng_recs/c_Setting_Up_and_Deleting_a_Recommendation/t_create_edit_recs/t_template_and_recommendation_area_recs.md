@@ -5,7 +5,7 @@ seo-title: Selecting a Template, Recommendation Area and Targeting Conditions
 solution: Target
 title: Selecting a Template, Recommendation Area and Targeting Conditions
 topic: Recommendations
-uuid: 372bf6f1-6841-4177-abda-ee95ada9add0
+uuid: 94119928-30bd-43e3-b048-c28d15cb1626
 index: y
 internal: n
 snippet: y
@@ -35,4 +35,15 @@ translate: y
 >1. If desired, target the selected mbox.
 
 >       **[!UICONTROL  Target This Mbox]****[!UICONTROL  Current Page]****[!UICONTROL  URL]****[!UICONTROL  Contains]**` /women/`` /mens/`1. Click ` Save`.
->[!MORE_LIKE_THIS] {class="- topic/related-links "}* [ Adding a New Recommendation ](c_Creating_a_New_Recommendation.md#concept_9F20B4F0F53D4399B10BCBBC979E0B4C)* [ Targeting a Recommendation ](t_targeting_recs.md#task_3D93B8962F6341CB9A3ADE8E29BFECA5)* [ Choosing a Recommendation Type ](t_choosetype_recs.md#task_301A771BFE7F45A3AA1E77024E574D1C)* [ Choose a Catalog ](t_Choose_a_Catalog.md#task_047A4BA38078464782024764CA38EF0A)* [ Basing the Recommendation on a Recommendation Key ](t_rec_key_recs.md#task_2B0ED54AFBF64C56916B6E1F4DC0DC3B)* [ Selecting an Algorithm ](t_algo_select_recs.md#task_2203616ABBE342B6ADAB08F278D794FA)* [ Choosing the Data Source ](t_data_source_recs.md#task_4EC990FBF374465EA6B7FCA8A5A12786)* [ Setting Data Details ](t_Setting_Data_Details.md#task_28DB20F968B1451481D8E51BAF947079)* [ Defining Segments ](t_definesegments_recs.md#task_338EDF86E0A2412896C2854257E91D62)* [ Specifying How Many Users See Default Content ](t_how_many_users_see_default_conten_recst.md#task_5059665F6EE64FA39D2851671898F996)
+>[!MORE_LIKE_THIS] {class="- topic/related-links "}
+>
+>* [ Adding a New Recommendation ](c_Creating_a_New_Recommendation.md#concept_9F20B4F0F53D4399B10BCBBC979E0B4C)
+>* [ Targeting a Recommendation ](t_targeting_recs.md#task_3D93B8962F6341CB9A3ADE8E29BFECA5)
+>* [ Choosing a Recommendation Type ](t_choosetype_recs.md#task_301A771BFE7F45A3AA1E77024E574D1C)
+>* [ Choose a Catalog ](t_Choose_a_Catalog.md#task_047A4BA38078464782024764CA38EF0A)
+>* [ Basing the Recommendation on a Recommendation Key ](t_rec_key_recs.md#task_2B0ED54AFBF64C56916B6E1F4DC0DC3B)
+>* [ Selecting an Algorithm ](t_algo_select_recs.md#task_2203616ABBE342B6ADAB08F278D794FA)
+>* [ Choosing the Data Source ](t_data_source_recs.md#task_4EC990FBF374465EA6B7FCA8A5A12786)
+>* [ Setting Data Details ](t_Setting_Data_Details.md#task_28DB20F968B1451481D8E51BAF947079)
+>* [ Defining Segments ](t_definesegments_recs.md#task_338EDF86E0A2412896C2854257E91D62)
+>* [ Specifying How Many Users See Default Content ](t_how_many_users_see_default_conten_recst.md#task_5059665F6EE64FA39D2851671898F996)

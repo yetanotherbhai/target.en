@@ -5,7 +5,7 @@ seo-title: Uploading Custom Algorithm Data
 solution: Target
 title: Uploading Custom Algorithm Data
 topic: Recommendations
-uuid: dc10246a-d702-4af0-86f9-9c609e0a057f
+uuid: 2d16e96e-3f48-48ce-ad7f-afcbfb0b0087
 index: y
 internal: n
 snippet: y
@@ -92,4 +92,7 @@ translate: y
 ></recommendations> 
 >```
 
->[!MORE_LIKE_THIS]* [ Naming a Custom Algorithm ](r_Naming_a_Custom_Algorithm.md#reference_EFEF6E3495F746948AEF178875B87CCB)* [ Deleting a Custom Algorithm ](r_Deleting_a_Custom_Algorithm.md#reference_B54C085BEAFB47B383DF127C06777D1F)
+>[!MORE_LIKE_THIS]
+>
+>* [ Naming a Custom Algorithm ](r_Naming_a_Custom_Algorithm.md#reference_EFEF6E3495F746948AEF178875B87CCB)
+>* [ Deleting a Custom Algorithm ](r_Deleting_a_Custom_Algorithm.md#reference_B54C085BEAFB47B383DF127C06777D1F)

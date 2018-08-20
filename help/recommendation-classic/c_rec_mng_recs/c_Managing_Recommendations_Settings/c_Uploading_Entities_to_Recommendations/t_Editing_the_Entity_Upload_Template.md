@@ -5,7 +5,7 @@ seo-title: Editing the Entity Upload Template
 solution: Target
 title: Editing the Entity Upload Template
 topic: Recommendations
-uuid: d653920e-ba94-41bb-8b01-b52b5d6af206
+uuid: d9251a33-46c7-4370-8d65-5b830b7b8b9d
 index: y
 internal: n
 snippet: y
@@ -80,4 +80,7 @@ translate: y
 </table>
 
 >1. Save the file.
->[!MORE_LIKE_THIS]* [ Downloading the Entity Upload Template ](t_Downloading_the_Entity_Upload_Template.md#task_9889EEB9FCA64C8683255DD040939DCA)* [ Uploading the Entity Information to Recommendations ](t_Uploading_the_Entity_Information_to_Recommendations.md#task_F2A90148A36F4D0B99B7FAC612061925)
+>[!MORE_LIKE_THIS]
+>
+>* [ Downloading the Entity Upload Template ](t_Downloading_the_Entity_Upload_Template.md#task_9889EEB9FCA64C8683255DD040939DCA)
+>* [ Uploading the Entity Information to Recommendations ](t_Uploading_the_Entity_Information_to_Recommendations.md#task_F2A90148A36F4D0B99B7FAC612061925)

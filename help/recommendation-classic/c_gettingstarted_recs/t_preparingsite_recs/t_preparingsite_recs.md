@@ -5,7 +5,7 @@ seo-title: Preparing Your Website for Recommendations
 solution: Target
 title: Preparing Your Website for Recommendations
 topic: Recommendations
-uuid: 9735cad0-179a-496e-9fdd-52a5fb74cb31
+uuid: cdaf85e9-55dc-4274-971e-d240b7d1728c
 index: y
 internal: n
 snippet: y
@@ -28,4 +28,9 @@ Implementing mboxes requires the following steps:
 >1. Create an mbox to capture order information.
 
 >1. Create mboxes to display the recommendations.
->[!MORE_LIKE_THIS]* [ Preparing for the Mbox ](c_Preparing_for_the_Mbox.md#concept_459B7584184A4C1C9AF183EF9203C52B)* [ Starting a Recommendation ](c_Starting_a_Recommendation.md#concept_FD5D757B0C174CE2B0D8C132303EE674)* [ What's New In This Release ](r_whatsnew-recs.md#reference_673C03B5B8AA478F8CA9F88D9D760361)* [ Prerequisites and Integrations ](r_prereqs_recs.md#reference_D6E669D2EA0742279A3840D252079E1A)
+>[!MORE_LIKE_THIS]
+>
+>* [ Preparing for the Mbox ](c_Preparing_for_the_Mbox.md#concept_459B7584184A4C1C9AF183EF9203C52B)
+>* [ Starting a Recommendation ](c_Starting_a_Recommendation.md#concept_FD5D757B0C174CE2B0D8C132303EE674)
+>* [ What's New In This Release ](r_whatsnew-recs.md#reference_673C03B5B8AA478F8CA9F88D9D760361)
+>* [ Prerequisites and Integrations ](r_prereqs_recs.md#reference_D6E669D2EA0742279A3840D252079E1A)

@@ -5,7 +5,7 @@ seo-title: Adding a Location Test Recommendation
 solution: Target
 title: Adding a Location Test Recommendation
 topic: Recommendations
-uuid: 121a26b5-7cd5-43a9-bde0-4731356d189e
+uuid: 8fa09cb8-46a5-48c9-a99e-cb19deede7fa
 index: y
 internal: n
 snippet: y
@@ -57,4 +57,7 @@ You can set up a recommendation with the same algorithm in two locations with th
 >1. Click ` Save`.
 
 >       After you save your new recommendation, it appears on the [!UICONTROL  Manage Recommendations] page as inactive. (See [ Activating a Recommendation ](../../../../c_rec_mng_recs/c_Starting_a_Recommendation/t_activate_recs.md#task_B0A6D22AA72E405DBEC81D22B12477DF) for information about activating the new recommendation.) The algorithm runs as soon as data is available, usually within 30 minutes. 
->[!MORE_LIKE_THIS] {class="- topic/related-links "}* [ Adding an Algorithm/Template Test Recommendation ](t_Adding_a_Algorithm_Template_Test_Recommendation.md#task_CAEFB750020C4A618ED2C059DBAF07C0)* [ Adding a Download Only Recommendation ](t_Adding_a_Download_Only_Recommendation.md#task_EECE85A42EE940A589F3A897D6DB12BF)
+>[!MORE_LIKE_THIS] {class="- topic/related-links "}
+>
+>* [ Adding an Algorithm/Template Test Recommendation ](t_Adding_a_Algorithm_Template_Test_Recommendation.md#task_CAEFB750020C4A618ED2C059DBAF07C0)
+>* [ Adding a Download Only Recommendation ](t_Adding_a_Download_Only_Recommendation.md#task_EECE85A42EE940A589F3A897D6DB12BF)

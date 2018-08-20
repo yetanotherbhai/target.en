@@ -5,7 +5,7 @@ seo-title: Downloading the mbox.js Library File
 solution: Target
 title: Downloading the mbox.js Library File
 topic: Recommendations
-uuid: b7890ae4-387a-4caa-8da3-dc2cb4f9115c
+uuid: bda99cd8-6a4a-476d-93a1-9b18818a2575
 index: y
 internal: n
 snippet: y
@@ -30,4 +30,10 @@ You need only one copy on each host. All pages with mboxes must reference this f
 >    * Your browser attempts to download the file, prompting you for where to save it.
 >    * Your browser warns you about JavaScript.
 
->[!MORE_LIKE_THIS] {class="- topic/related-links "}* [ Validating the mbox.js Download ](t_Validating_the_mboxjs_Download.md#task_FA78EB3B991C43F9ADE507A16522B770)* [ Referencing the mbox.js File on Your Web Pages ](t_mboxjs_referencing_recs.md#task_69315D69881442209EB5CC8A5644CF37)* [ Implementing Display Data Mboxes ](t_data_mboxes_implementings_recs.md#task_83C1EA8433C249E1AC4BBEF591AC4FC3)* [ Implementing an Order-Confirmation Details Mbox ](t_mbox_orderconfirm_implementing_recs.md#task_AC372C1B9DFC4F5FB9DB4BDC759343EA)* [ Placing Mboxes to Display Recommendations ](t_mbox_placing_recs.md#task_F3638B849C9B45F197DBE49791AE13A1)
+>[!MORE_LIKE_THIS] {class="- topic/related-links "}
+>
+>* [ Validating the mbox.js Download ](t_Validating_the_mboxjs_Download.md#task_FA78EB3B991C43F9ADE507A16522B770)
+>* [ Referencing the mbox.js File on Your Web Pages ](t_mboxjs_referencing_recs.md#task_69315D69881442209EB5CC8A5644CF37)
+>* [ Implementing Display Data Mboxes ](t_data_mboxes_implementings_recs.md#task_83C1EA8433C249E1AC4BBEF591AC4FC3)
+>* [ Implementing an Order-Confirmation Details Mbox ](t_mbox_orderconfirm_implementing_recs.md#task_AC372C1B9DFC4F5FB9DB4BDC759343EA)
+>* [ Placing Mboxes to Display Recommendations ](t_mbox_placing_recs.md#task_F3638B849C9B45F197DBE49791AE13A1)
