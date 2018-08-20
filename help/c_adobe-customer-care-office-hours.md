@@ -1,7 +1,7 @@
 ---
-description: "Office Hours" is an initiative led by the Adobe Customer Care team. These sessions are designed to inform as well as help participants troubleshoot problems, and provide tips and tricks to be successful with the Adobe Experience Cloud solutions, including Target.
+description: \"Office Hours\" is an initiative led by the Adobe Customer Care team. These sessions are designed to inform as well as help participants troubleshoot problems, and provide tips and tricks to be successful with the Adobe Experience Cloud solutions, including Target.
 keywords: client care;customer care;clientcare;customer support;support;visual experience composer;vec;a4t;analytics for target;at.js
-seo-description: "Office Hours" is an initiative led by the Adobe Customer Care team. These sessions are designed to inform as well as help participants troubleshoot problems, and provide tips and tricks to be successful with the Adobe Experience Cloud solutions, including Target.
+seo-description: \"Office Hours\" is an initiative led by the Adobe Customer Care team. These sessions are designed to inform as well as help participants troubleshoot problems, and provide tips and tricks to be successful with the Adobe Experience Cloud solutions, including Target.
 seo-title: Adobe Customer Care Office Hours
 solution: Target
 title: Adobe Customer Care Office Hours
