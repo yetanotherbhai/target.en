@@ -23,7 +23,7 @@ For added security, you can require that the Bulk Update API call require a vali
 **To require authentication and to generate an access token using the Target UI:** 
 
 
-1. Click **[!UICONTROL  Setup]** > **[!UICONTROL  Implementation]**. 
+1. Click **[!UICONTROL  Setup > Implementation]**. 
 
 1. Under **[!UICONTROL  Profile API Settings]**, use the **[!UICONTROL  Require Authentication]** drop-down list to enable or disable authentication requirements. 
 
