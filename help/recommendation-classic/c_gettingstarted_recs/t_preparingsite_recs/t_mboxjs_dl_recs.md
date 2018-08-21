@@ -5,7 +5,7 @@ seo-title: Downloading the mbox.js Library File
 solution: Target
 title: Downloading the mbox.js Library File
 topic: Recommendations
-uuid: bda99cd8-6a4a-476d-93a1-9b18818a2575
+uuid: 0fa74852-cfc2-4de9-bc61-2b467350e501
 index: y
 internal: n
 snippet: y

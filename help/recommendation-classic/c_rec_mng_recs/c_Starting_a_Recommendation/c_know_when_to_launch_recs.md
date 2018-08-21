@@ -5,7 +5,7 @@ seo-title: Knowing When to Launch a Recommendation
 solution: Target
 title: Knowing When to Launch a Recommendation
 topic: Recommendations
-uuid: 7a34d610-a8e4-44e0-bdd6-456a16cf6432
+uuid: c3b45a3e-8e4e-4aa6-bc30-de6359ad6c8a
 index: y
 internal: n
 snippet: y

@@ -5,7 +5,7 @@ seo-title: Mbox Troubleshooting Guide
 solution: Target
 title: Mbox Troubleshooting Guide
 topic: Recommendations
-uuid: 87766c6e-1f28-4877-8fc8-3d9e5dd5bb52
+uuid: 42160528-be7a-47c0-bd02-c7af42c69c26
 index: y
 internal: n
 snippet: y

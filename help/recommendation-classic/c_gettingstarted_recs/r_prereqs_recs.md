@@ -5,7 +5,7 @@ seo-title: Prerequisites and Integrations
 solution: Target
 title: Prerequisites and Integrations
 topic: Recommendations
-uuid: e749ffc3-3422-4d2c-aabf-9becb0691c1c
+uuid: 972b5d08-cd52-420b-81bd-1d1fb8bacbf2
 index: y
 internal: n
 snippet: y

@@ -5,7 +5,7 @@ seo-title: Viewing a Recommendation in the Recommendations Manager
 solution: Target
 title: Viewing a Recommendation in the Recommendations Manager
 topic: Recommendations
-uuid: 527d850b-144c-4707-be27-61cdab9e17b7
+uuid: 822d9f3c-f34d-42e8-8ca3-9eb1fa764cbb
 index: y
 internal: n
 snippet: y

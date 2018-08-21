@@ -5,7 +5,7 @@ seo-title: Adding a New Recommendation
 solution: Target
 title: Adding a New Recommendation
 topic: Recommendations
-uuid: 70bdd4f5-01e0-4cc2-8699-3433d04ed8ac
+uuid: fc8ed962-a440-4611-9901-3230d7a6cc60
 index: y
 internal: n
 snippet: y

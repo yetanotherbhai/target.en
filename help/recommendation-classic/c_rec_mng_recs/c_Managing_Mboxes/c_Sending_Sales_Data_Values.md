@@ -5,7 +5,7 @@ seo-title: Sending Sales Data Values
 solution: Target
 title: Sending Sales Data Values
 topic: Recommendations
-uuid: d9f214cb-2703-4626-9081-837fdba78032
+uuid: edf0b113-e9a6-4caa-8705-764d770fa15a
 index: y
 internal: n
 snippet: y

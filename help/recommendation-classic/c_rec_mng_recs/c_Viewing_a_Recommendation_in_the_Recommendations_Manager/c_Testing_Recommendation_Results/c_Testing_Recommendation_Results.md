@@ -5,7 +5,7 @@ seo-title: Reporting Recommendation Results
 solution: Target
 title: Reporting Recommendation Results
 topic: Recommendations
-uuid: be197c8a-9626-46fd-a47c-4058748ba25c
+uuid: bf57baad-91ba-4d40-b1fa-4a495502ca20
 index: y
 internal: n
 snippet: y

@@ -5,7 +5,7 @@ seo-title: Configuring Entry Conditions
 solution: Target
 title: Configuring Entry Conditions
 topic: Recommendations
-uuid: c3cb9c75-cb57-44bd-a7a4-ebd09dbf0ec0
+uuid: ae1d2c45-6db2-43c5-9b39-9983e260b196
 index: y
 internal: n
 snippet: y

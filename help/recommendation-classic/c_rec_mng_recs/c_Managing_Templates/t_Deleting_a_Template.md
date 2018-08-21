@@ -5,7 +5,7 @@ seo-title: Deleting a Template
 solution: Target
 title: Deleting a Template
 topic: Recommendations
-uuid: 19fcde96-f2f9-4c4a-9dcb-72c610fcb138
+uuid: f84b1952-b95b-42aa-a4ca-d029c8fc0020
 index: y
 internal: n
 snippet: y

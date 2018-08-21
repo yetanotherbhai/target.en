@@ -5,7 +5,7 @@ seo-title: Deleting a Recommendation
 solution: Target
 title: Deleting a Recommendation
 topic: Recommendations
-uuid: 4c1d55b8-6c22-424e-a162-c270c07eec4e
+uuid: 35e05e27-a513-4c66-960c-d06a138ec152
 index: y
 internal: n
 snippet: y

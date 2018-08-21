@@ -5,7 +5,7 @@ seo-title: Implementing an Order-Confirmation Details Mbox
 solution: Target
 title: Implementing an Order-Confirmation Details Mbox
 topic: Recommendations
-uuid: 3e9ce314-778c-4523-ba26-c0791379113d
+uuid: e19dc139-7292-48ce-8730-52a1bd3a740f
 index: y
 internal: n
 snippet: y

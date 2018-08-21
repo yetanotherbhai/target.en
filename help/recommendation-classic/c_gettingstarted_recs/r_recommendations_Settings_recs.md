@@ -5,7 +5,7 @@ seo-title: Recommendations Functions
 solution: Target
 title: Recommendations Functions
 topic: Recommendations
-uuid: a2be39b3-d379-469b-a874-98d5caa94428
+uuid: 337418cb-779d-4ca3-90e6-ad5e34371bf8
 index: y
 internal: n
 snippet: y

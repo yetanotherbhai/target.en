@@ -5,7 +5,7 @@ seo-title: Deleting a Custom Algorithm
 solution: Target
 title: Deleting a Custom Algorithm
 topic: Recommendations
-uuid: f49ac3ab-8f00-4901-b5c3-c9e80ed18df7
+uuid: 9a8258d1-23d9-4996-9269-197dcdc8f355
 index: y
 internal: n
 snippet: y

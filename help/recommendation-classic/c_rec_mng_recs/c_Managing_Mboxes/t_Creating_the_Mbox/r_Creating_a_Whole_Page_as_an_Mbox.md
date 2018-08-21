@@ -5,7 +5,7 @@ seo-title: Creating a Whole Page as an Mbox
 solution: Target
 title: Creating a Whole Page as an Mbox
 topic: Recommendations
-uuid: 03d0d700-66a8-4657-8137-db51c3d90b8d
+uuid: 3abd0817-db0e-473c-a4cb-13958a623f5a
 index: y
 internal: n
 snippet: y

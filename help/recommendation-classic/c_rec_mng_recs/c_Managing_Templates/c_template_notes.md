@@ -5,7 +5,7 @@ seo-title: Template FAQ
 solution: Target
 title: Template FAQ
 topic: Recommendations
-uuid: e7bfea49-1c38-4d39-8cf6-70b6dc04c35d
+uuid: c883e2fe-bba5-44b8-8b25-f0fc0d202bc9
 index: y
 internal: n
 snippet: y

@@ -5,7 +5,7 @@ seo-title: Deleting an Item From the System
 solution: Target
 title: Deleting an Item From the System
 topic: Recommendations
-uuid: b88c4ceb-6417-442a-aa8f-71190e69c71d
+uuid: b782f643-6314-491f-8555-8c022ac96264
 index: y
 internal: n
 snippet: y

@@ -5,7 +5,7 @@ seo-title: Choosing a Catalog
 solution: Target
 title: Choosing a Catalog
 topic: Recommendations
-uuid: 76205083-bbba-4ed6-9bad-1e6af5211750
+uuid: 24682928-8549-44ea-a868-8822d7038345
 index: y
 internal: n
 snippet: y

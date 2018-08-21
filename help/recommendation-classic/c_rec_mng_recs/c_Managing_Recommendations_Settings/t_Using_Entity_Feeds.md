@@ -5,7 +5,7 @@ seo-title: Using Entity Feeds
 solution: Target
 title: Using Entity Feeds
 topic: Recommendations
-uuid: ac892605-c4b1-4cc7-a6eb-2f53b7dd2288
+uuid: 2809d09b-9c6e-4f0a-9c29-65a7065c2688
 index: y
 internal: n
 snippet: y

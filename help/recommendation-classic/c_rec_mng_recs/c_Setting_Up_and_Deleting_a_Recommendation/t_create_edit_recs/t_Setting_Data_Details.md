@@ -5,7 +5,7 @@ seo-title: Setting Data Details
 solution: Target
 title: Setting Data Details
 topic: Recommendations
-uuid: 5ec4293f-fc88-4ebc-995b-1df58db0cbb9
+uuid: 9ffe561d-1852-4e9e-88c0-67ae8e738530
 index: y
 internal: n
 snippet: y

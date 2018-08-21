@@ -5,7 +5,7 @@ seo-title: Creating Global Exclusions
 solution: Target
 title: Creating Global Exclusions
 topic: Recommendations
-uuid: 4be9a980-b7ed-46ed-926a-bf981b48e2c4
+uuid: 5cb58d25-d556-49ab-b657-ebf817fd7c7b
 index: y
 internal: n
 snippet: y

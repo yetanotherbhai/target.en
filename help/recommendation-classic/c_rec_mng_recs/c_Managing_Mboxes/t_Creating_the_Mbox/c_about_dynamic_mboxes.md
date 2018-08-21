@@ -5,7 +5,7 @@ seo-title: About Dynamic Mboxes
 solution: Target
 title: About Dynamic Mboxes
 topic: Advanced
-uuid: fde04f70-95a0-450f-9c46-e1fa836b2dee
+uuid: 639812ee-6b5a-43df-b7d9-619198206885
 index: y
 internal: n
 snippet: y

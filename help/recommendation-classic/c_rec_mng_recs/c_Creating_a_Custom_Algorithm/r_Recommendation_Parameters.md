@@ -5,7 +5,7 @@ seo-title: Advanced Recommendations Options
 solution: Target
 title: Advanced Recommendations Options
 topic: Recommendations
-uuid: 88f1e2bf-3c82-4704-854f-1e92710a57bd
+uuid: 05ecbb87-0e70-4152-a630-30559d37490c
 index: y
 internal: n
 snippet: y

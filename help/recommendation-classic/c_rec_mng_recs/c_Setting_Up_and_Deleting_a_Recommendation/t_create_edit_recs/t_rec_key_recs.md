@@ -5,7 +5,7 @@ seo-title: Basing the Recommendation on a Recommendation Key
 solution: Target
 title: Basing the Recommendation on a Recommendation Key
 topic: Recommendations
-uuid: 6fa0b69c-5e30-457e-9a7a-c95320ac83b3
+uuid: b06d91ae-ecc0-4453-9462-315eb698955a
 index: y
 internal: n
 snippet: y

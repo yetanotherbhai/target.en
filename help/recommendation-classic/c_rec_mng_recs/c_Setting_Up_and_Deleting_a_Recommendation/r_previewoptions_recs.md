@@ -5,7 +5,7 @@ seo-title: Using Preview Options to Change the Page View
 solution: Target
 title: Using Preview Options to Change the Page View
 topic: Recommendations
-uuid: 44b8ed1a-16c1-461b-a3cd-33ffbe5e24a3
+uuid: 418f5323-eeab-4870-98b6-acec7082bb92
 index: y
 internal: n
 snippet: y

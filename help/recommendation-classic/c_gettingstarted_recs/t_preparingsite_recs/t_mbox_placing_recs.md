@@ -5,7 +5,7 @@ seo-title: Placing Mboxes to Display Recommendations
 solution: Target
 title: Placing Mboxes to Display Recommendations
 topic: Recommendations
-uuid: 3d26906d-30d6-45b3-8935-8bc9528c12e0
+uuid: 36f3c1c1-1e4d-4116-9005-1f4fdd7941d6
 index: y
 internal: n
 snippet: y

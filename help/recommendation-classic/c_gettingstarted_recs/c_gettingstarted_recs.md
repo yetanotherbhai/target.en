@@ -3,7 +3,7 @@ seo-title: Getting Started
 solution: Target
 title: Getting Started
 topic: Recommendations
-uuid: b3fcc8c9-9263-4682-8d38-84186938d9a4
+uuid: 586c0e89-2a89-4e80-a21c-4af95f44717c
 index: y
 internal: n
 snippet: y

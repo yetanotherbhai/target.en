@@ -5,7 +5,7 @@ seo-title: Implementing Display Data Mboxes
 solution: Target
 title: Implementing Display Data Mboxes
 topic: Recommendations
-uuid: 0b1dee0c-bf2b-487f-97ad-472b50d836ec
+uuid: 94aab892-1448-472e-b1ef-a8c224537b80
 index: y
 internal: n
 snippet: y

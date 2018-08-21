@@ -5,7 +5,7 @@ seo-title: Using an Mbox on Your Web Site
 solution: Target
 title: Using an Mbox on Your Web Site
 topic: Recommendations
-uuid: 78489be9-4468-4c64-8cbf-b857d6ff1342
+uuid: c4471f36-2365-4dad-9d52-b97f80e4cdf5
 index: y
 internal: n
 snippet: y

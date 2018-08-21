@@ -5,7 +5,7 @@ seo-title: Deactivating a Recommendation
 solution: Target
 title: Deactivating a Recommendation
 topic: Recommendations
-uuid: c334b64d-efee-4ae2-9c6e-5f1409366e23
+uuid: 0e75e120-9a1d-464a-aba5-c4052ad1bee0
 index: y
 internal: n
 snippet: y

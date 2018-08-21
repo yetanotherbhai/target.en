@@ -5,7 +5,7 @@ seo-title: Selecting a Template, Recommendation Area and Targeting Conditions
 solution: Target
 title: Selecting a Template, Recommendation Area and Targeting Conditions
 topic: Recommendations
-uuid: 94119928-30bd-43e3-b048-c28d15cb1626
+uuid: 0396f2c9-44f9-447a-b234-18124eb852d5
 index: y
 internal: n
 snippet: y

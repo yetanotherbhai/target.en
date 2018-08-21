@@ -5,7 +5,7 @@ seo-title: Using the Recommendations Download API
 solution: Target
 title: Using the Recommendations Download API
 topic: Recommendations
-uuid: fa9a8771-b6e8-415e-bf7c-2256df0f6780
+uuid: f6564465-1ae4-4d76-87ea-756354340b3e
 index: y
 internal: n
 snippet: y

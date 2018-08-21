@@ -5,7 +5,7 @@ seo-title: Managing Recommendations Settings
 solution: Target
 title: Managing Recommendations Settings
 topic: Recommendations
-uuid: a6b82be8-728a-42ef-996b-59d5567edac5
+uuid: e31bc8f2-ebc5-4373-b849-dfbbf3ec7af2
 index: y
 internal: n
 snippet: y

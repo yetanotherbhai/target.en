@@ -5,7 +5,7 @@ seo-title: Recommendations Cards
 solution: Target
 title: Recommendations Cards
 topic: Recommendations
-uuid: ffafa543-bb52-4445-8dfa-3613a27066e9
+uuid: afdfd495-3df1-4c7c-b6e3-e55d13cf1d1c
 index: y
 internal: n
 snippet: y

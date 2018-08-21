@@ -5,7 +5,7 @@ seo-title: Uploading the Entity Information to Recommendations
 solution: Target
 title: Uploading the Entity Information to Recommendations
 topic: Recommendations
-uuid: 91867d0a-6298-4017-826b-cfc941790e11
+uuid: d17fc11c-463b-460b-88ae-847cb51e0e0f
 index: y
 internal: n
 snippet: y

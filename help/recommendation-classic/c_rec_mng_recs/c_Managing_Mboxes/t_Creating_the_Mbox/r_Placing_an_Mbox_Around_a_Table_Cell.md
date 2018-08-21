@@ -5,7 +5,7 @@ seo-title: Placing an Mbox Around a Table Cell
 solution: Target
 title: Placing an Mbox Around a Table Cell
 topic: Recommendations
-uuid: 872bb66b-dab7-4712-b678-8cb545375f43
+uuid: 1274cf83-956d-42f8-89c1-c86ace97a9bc
 index: y
 internal: n
 snippet: y

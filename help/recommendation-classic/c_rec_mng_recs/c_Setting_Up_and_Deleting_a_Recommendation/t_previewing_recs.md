@@ -5,7 +5,7 @@ seo-title: Previewing a Recommendation
 solution: Target
 title: Previewing a Recommendation
 topic: Recommendations
-uuid: 9cde7fb1-3a0e-4d36-b574-d58be56e9bb3
+uuid: 84e13286-8439-41fa-8eda-881fa4b0f1f9
 index: y
 internal: n
 snippet: y

@@ -5,7 +5,7 @@ seo-title: Setting Up and Deleting a Recommendation
 solution: Target
 title: Setting Up and Deleting a Recommendation
 topic: Recommendations
-uuid: 32948c00-6122-48ee-9083-506ef940938c
+uuid: 91203f6e-ef0f-46e7-9d1f-24f191d9c368
 index: y
 internal: n
 snippet: y

@@ -5,7 +5,7 @@ seo-title: Searching Catalogs
 solution: Target
 title: Searching Catalogs
 topic: Recommendations
-uuid: f0e8ef59-450c-49c3-83ed-3f440763f057
+uuid: be7b4fc7-001f-4464-b536-3c03920bbaf6
 index: y
 internal: n
 snippet: y

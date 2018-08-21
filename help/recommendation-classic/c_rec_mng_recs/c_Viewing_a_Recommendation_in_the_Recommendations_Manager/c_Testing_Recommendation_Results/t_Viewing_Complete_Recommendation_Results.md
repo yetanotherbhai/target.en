@@ -5,7 +5,7 @@ seo-title: Viewing Complete Recommendation Results
 solution: Target
 title: Viewing Complete Recommendation Results
 topic: Recommendations
-uuid: c7d4fc73-7ed3-4d01-a285-fbae9a360b27
+uuid: 228a0274-bbb5-4cb2-8ca3-69697f673eef
 index: y
 internal: n
 snippet: y

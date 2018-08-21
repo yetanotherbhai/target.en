@@ -5,7 +5,7 @@ seo-title: Searching and Filtering the Recommendations List
 solution: Target
 title: Searching and Filtering the Recommendations List
 topic: Recommendations
-uuid: b993102d-82f8-4b6b-be7d-6085ea1480b3
+uuid: d3eecaae-f07f-4338-a28d-1e216b45fc26
 index: y
 internal: n
 snippet: y

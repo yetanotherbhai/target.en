@@ -5,7 +5,7 @@ seo-title: Integrating Recommendations with Email
 solution: Target
 title: Integrating Recommendations with Email
 topic: Recommendations
-uuid: 016d3dec-8a89-43a0-acef-4cbe18d0146d
+uuid: 7ed2652e-83a4-4352-a276-971c61458a39
 index: y
 internal: n
 snippet: y

@@ -5,7 +5,7 @@ seo-title: Managing Templates
 solution: Target
 title: Managing Templates
 topic: Recommendations
-uuid: aa83c635-04b2-4cf8-bb3e-c1ab986caa91
+uuid: 9f448b63-d01a-4a4d-aece-1fafe14f1042
 index: y
 internal: n
 snippet: y

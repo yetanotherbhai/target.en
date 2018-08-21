@@ -5,7 +5,7 @@ seo-title: Creating a Dynamic Mbox
 solution: Target
 title: Creating a Dynamic Mbox
 topic: Recommendations
-uuid: df951a1a-cfe0-48c8-87d9-e3cbf461fa25
+uuid: 3f895c6c-fa4e-4820-8898-90dc776e1377
 index: y
 internal: n
 snippet: y

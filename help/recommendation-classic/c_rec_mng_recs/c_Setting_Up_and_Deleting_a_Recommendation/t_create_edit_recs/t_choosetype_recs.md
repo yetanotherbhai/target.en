@@ -5,7 +5,7 @@ seo-title: Choosing a Test Type
 solution: Target
 title: Choosing a Test Type
 topic: Recommendations
-uuid: da2a7666-6f2e-4143-8248-b62b9c8c6d48
+uuid: 5e0ae7d1-b017-4dae-b1f9-2705a9da4ff7
 index: y
 internal: n
 snippet: y

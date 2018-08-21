@@ -5,7 +5,7 @@ seo-title: Managing Your Recommendations
 solution: Target
 title: Managing Your Recommendations
 topic: Recommendations
-uuid: 25f93685-d4cd-4eec-9abe-7836f50b9c09
+uuid: 16aa9e5f-7ef4-4c34-b4aa-48912ab3deee
 index: y
 internal: n
 snippet: y

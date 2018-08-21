@@ -5,7 +5,7 @@ seo-title: Deleting All Items From the System
 solution: Target
 title: Deleting All Items From the System
 topic: Recommendations
-uuid: d3e1ecdf-f9bc-48ef-ae4a-9fef68638bb8
+uuid: 3d6eea5f-34b9-4306-8d87-a29eb63d7c43
 index: y
 internal: n
 snippet: y

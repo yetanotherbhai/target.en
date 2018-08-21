@@ -5,7 +5,7 @@ seo-title: Downloading the Entity Upload Template
 solution: Target
 title: Downloading the Entity Upload Template
 topic: Recommendations
-uuid: 66a4fb5c-9be6-4370-aedd-a79e833f248c
+uuid: c1000269-340e-4fba-963a-b4fd25ceebb5
 index: y
 internal: n
 snippet: y

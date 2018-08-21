@@ -5,7 +5,7 @@ seo-title: Adding a Download Only Recommendation
 solution: Target
 title: Adding a Download Only Recommendation
 topic: Recommendations
-uuid: 10fd66c0-ca4e-45d9-8fc0-5ffa59752512
+uuid: 01af4721-3dd0-4381-b5cc-5975a95faa56
 index: y
 internal: n
 snippet: y

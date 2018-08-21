@@ -5,7 +5,7 @@ seo-title: Selecting an Algorithm
 solution: Target
 title: Selecting an Algorithm
 topic: Recommendations
-uuid: 8d1ec815-ab7e-4f1b-b477-74719c8a7226
+uuid: dd51a5fa-245a-4e4b-87a8-a207e262218f
 index: y
 internal: n
 snippet: y

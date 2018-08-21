@@ -5,7 +5,7 @@ seo-title: Adding an Algorithm/Template Test Recommendation
 solution: Target
 title: Adding an Algorithm/Template Test Recommendation
 topic: Recommendations
-uuid: 9c355528-61f3-4d50-a573-0e56b2754150
+uuid: befcf555-32a8-4b57-91b2-27a51acd502e
 index: y
 internal: n
 snippet: y

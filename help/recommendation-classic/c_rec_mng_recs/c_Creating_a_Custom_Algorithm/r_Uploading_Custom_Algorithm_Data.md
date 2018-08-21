@@ -5,7 +5,7 @@ seo-title: Uploading Custom Algorithm Data
 solution: Target
 title: Uploading Custom Algorithm Data
 topic: Recommendations
-uuid: 2d16e96e-3f48-48ce-ad7f-afcbfb0b0087
+uuid: 0c74a117-56e7-4524-a6d6-6b6107ec3d94
 index: y
 internal: n
 snippet: y

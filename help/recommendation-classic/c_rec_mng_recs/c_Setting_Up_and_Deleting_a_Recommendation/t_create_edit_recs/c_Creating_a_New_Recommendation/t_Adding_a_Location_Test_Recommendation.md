@@ -5,7 +5,7 @@ seo-title: Adding a Location Test Recommendation
 solution: Target
 title: Adding a Location Test Recommendation
 topic: Recommendations
-uuid: 8fa09cb8-46a5-48c9-a99e-cb19deede7fa
+uuid: fb897c35-a97e-4c05-a3e5-a9133f830336
 index: y
 internal: n
 snippet: y

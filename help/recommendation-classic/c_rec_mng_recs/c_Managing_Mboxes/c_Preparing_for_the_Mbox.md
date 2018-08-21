@@ -5,7 +5,7 @@ seo-title: Preparing for the Mbox
 solution: Target
 title: Preparing for the Mbox
 topic: Recommendations
-uuid: ab554253-994e-4f7d-8fd9-5d76ba8e7917
+uuid: baf29bcc-23c6-4fbe-a210-b48b9f8a6695
 index: y
 internal: n
 snippet: y

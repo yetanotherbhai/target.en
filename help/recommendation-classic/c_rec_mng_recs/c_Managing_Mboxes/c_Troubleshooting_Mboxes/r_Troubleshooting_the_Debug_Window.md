@@ -5,7 +5,7 @@ seo-title: Troubleshooting the Debug Window
 solution: Target
 title: Troubleshooting the Debug Window
 topic: Recommendations
-uuid: 51727d18-0944-476e-ad33-71dc8b4a9f5f
+uuid: 8b6f082c-befc-43d1-90ed-fab6fde57efa
 index: y
 internal: n
 snippet: y

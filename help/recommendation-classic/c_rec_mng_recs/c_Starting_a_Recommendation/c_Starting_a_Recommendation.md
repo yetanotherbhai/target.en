@@ -5,7 +5,7 @@ seo-title: Starting a Recommendation
 solution: Target
 title: Starting a Recommendation
 topic: Recommendations
-uuid: 65349643-ae98-4652-8681-ca16aa25de76
+uuid: b07ae66a-c840-4bbd-b40e-8797afc2c1da
 index: y
 internal: n
 snippet: y

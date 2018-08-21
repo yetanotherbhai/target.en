@@ -5,7 +5,7 @@ seo-title: Viewing the Trended Graph Report
 solution: Target
 title: Viewing the Trended Graph Report
 topic: Recommendations
-uuid: 3c8cb84a-12aa-4980-bcb1-ca12c39b50d9
+uuid: 5d6ccdfd-2468-4ae4-a1ae-ed14de51cf7c
 index: y
 internal: n
 snippet: y

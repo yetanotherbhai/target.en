@@ -5,7 +5,7 @@ seo-title: Creating or Editing a Recommendation
 solution: Target
 title: Creating or Editing a Recommendation
 topic: Recommendations
-uuid: ce0f25fc-5d1d-4f4f-ad1d-1a7d62e36cbb
+uuid: a90c505e-1f70-46be-bdfc-ecab641d50d9
 index: y
 internal: n
 snippet: y

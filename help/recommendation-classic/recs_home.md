@@ -3,7 +3,7 @@ seo-title: Adobe Recommendations Classic
 solution: Target
 title: Adobe Recommendations Classic
 topic: Recommendations
-uuid: 923cde63-8e24-4fec-add3-23e61c619548
+uuid: c222ae69-1f2e-4d16-9eac-d17db4bb229b
 index: y
 internal: n
 snippet: y

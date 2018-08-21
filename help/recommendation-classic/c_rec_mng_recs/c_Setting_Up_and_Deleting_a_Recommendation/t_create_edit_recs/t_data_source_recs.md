@@ -3,7 +3,7 @@ seo-title: Choosing the Data Source
 solution: Target
 title: Choosing the Data Source
 topic: Recommendations
-uuid: ebb705b6-4cf5-422b-a2f7-0559ade9c90d
+uuid: 6eea5790-c1b8-41ec-9f54-dd6bb191e530
 index: y
 internal: n
 snippet: y

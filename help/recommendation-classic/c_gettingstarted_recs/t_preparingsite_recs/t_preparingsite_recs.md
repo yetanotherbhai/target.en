@@ -5,7 +5,7 @@ seo-title: Preparing Your Website for Recommendations
 solution: Target
 title: Preparing Your Website for Recommendations
 topic: Recommendations
-uuid: cdaf85e9-55dc-4274-971e-d240b7d1728c
+uuid: e3cc9d41-c3d3-4854-9627-fff8ee1dd0bc
 index: y
 internal: n
 snippet: y

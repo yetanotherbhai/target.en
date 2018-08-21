@@ -5,7 +5,7 @@ seo-title: Referencing the mbox.js File on Your Web Pages
 solution: Target
 title: Referencing the mbox.js File on Your Web Pages
 topic: Recommendations
-uuid: 29afa6f7-0060-4f47-af10-e39d0cfdcff0
+uuid: 1aa4d2b2-2b27-406b-97a1-e5e33b700351
 index: y
 internal: n
 snippet: y

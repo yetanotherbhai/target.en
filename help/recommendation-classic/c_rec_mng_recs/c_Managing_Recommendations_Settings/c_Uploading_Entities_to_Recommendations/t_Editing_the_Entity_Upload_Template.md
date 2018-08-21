@@ -5,7 +5,7 @@ seo-title: Editing the Entity Upload Template
 solution: Target
 title: Editing the Entity Upload Template
 topic: Recommendations
-uuid: d9251a33-46c7-4370-8d65-5b830b7b8b9d
+uuid: 7e2c6003-8221-40ed-9bf1-6fed1ca823b9
 index: y
 internal: n
 snippet: y

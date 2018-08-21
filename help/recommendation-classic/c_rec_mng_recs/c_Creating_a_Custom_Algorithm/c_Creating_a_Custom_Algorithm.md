@@ -5,7 +5,7 @@ seo-title: Creating a Custom Algorithm
 solution: Target
 title: Creating a Custom Algorithm
 topic: Recommendations
-uuid: 34cb2ea3-6a64-4028-9abb-38ff2f206c0c
+uuid: f890f35a-bab6-43fe-b1e3-b9b6a2b59b2d
 index: y
 internal: n
 snippet: y

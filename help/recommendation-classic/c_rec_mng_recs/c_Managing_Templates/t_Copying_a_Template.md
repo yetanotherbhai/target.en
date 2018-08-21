@@ -5,7 +5,7 @@ seo-title: Copying a Template
 solution: Target
 title: Copying a Template
 topic: Recommendations
-uuid: d9af6dbe-a0b9-477b-9240-c9b46c4a7e69
+uuid: 18bd6fc6-4168-424b-8ec3-53b598fa4745
 index: y
 internal: n
 snippet: y

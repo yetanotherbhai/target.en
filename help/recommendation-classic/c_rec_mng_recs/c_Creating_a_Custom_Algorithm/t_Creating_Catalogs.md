@@ -5,7 +5,7 @@ seo-title: Creating Catalogs
 solution: Target
 title: Creating Catalogs
 topic: Recommendations
-uuid: 2be92d32-9fc6-42b7-ad8b-d3cdac6dca6d
+uuid: 4dbbe3e3-4e26-4268-8b1c-077a04731c7e
 index: y
 internal: n
 snippet: y

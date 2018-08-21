@@ -5,7 +5,7 @@ seo-title: Contact and Legal Information
 solution: Target
 title: Contact and Legal Information
 topic: Recommendations
-uuid: 32a8a5f5-6444-433e-927b-4fb2f325f74e
+uuid: d5efbea3-dcee-49ed-b76a-9e607acf7eb6
 index: y
 internal: n
 snippet: y

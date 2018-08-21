@@ -5,7 +5,7 @@ seo-title: Troubleshooting Mboxes
 solution: Target
 title: Troubleshooting Mboxes
 topic: Recommendations
-uuid: 260bbff3-479c-44f1-a97e-e5290126f6f4
+uuid: 090f69c1-841f-467d-8710-c8da582dea9e
 index: y
 internal: n
 snippet: y

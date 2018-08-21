@@ -5,7 +5,7 @@ seo-title: Naming a Custom Algorithm
 solution: Target
 title: Naming a Custom Algorithm
 topic: Recommendations
-uuid: 424f3e5c-5112-4d09-a1d2-84c10e9cac78
+uuid: 1f4747c0-41a1-4df7-a45e-fe034dc2ccde
 index: y
 internal: n
 snippet: y

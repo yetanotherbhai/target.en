@@ -5,7 +5,7 @@ seo-title: Creating Multiple Mboxes on a Page
 solution: Target
 title: Creating Multiple Mboxes on a Page
 topic: Recommendations
-uuid: 9fe737ac-bc36-4c08-8c46-0b099ead7942
+uuid: 9dd9a8c3-4d4e-42b4-859e-5b7553469977
 index: y
 internal: n
 snippet: y

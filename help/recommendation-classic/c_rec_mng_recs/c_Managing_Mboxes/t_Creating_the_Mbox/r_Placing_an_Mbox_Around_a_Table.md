@@ -5,7 +5,7 @@ seo-title: Placing an Mbox Around a Table
 solution: Target
 title: Placing an Mbox Around a Table
 topic: Recommendations
-uuid: bf954d1d-7e07-41ca-9866-1d180cd8e04f
+uuid: 3f2e0a10-efd3-4bb9-a978-99231e915366
 index: y
 internal: n
 snippet: y

@@ -5,7 +5,7 @@ seo-title: Viewing Test Results on a Recommendations Card
 solution: Target
 title: Viewing Test Results on a Recommendations Card
 topic: Recommendations
-uuid: e7fd6777-31aa-4226-af5b-22d96149337f
+uuid: 51c75b7f-cd35-40e9-b0e9-8b777ee2a148
 index: y
 internal: n
 snippet: y

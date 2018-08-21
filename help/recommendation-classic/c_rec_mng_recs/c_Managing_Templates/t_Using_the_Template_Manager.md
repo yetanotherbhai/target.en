@@ -5,7 +5,7 @@ seo-title: Using the Template Manager
 solution: Target
 title: Using the Template Manager
 topic: Recommendations
-uuid: 8330acd0-994c-42db-99cb-ab8cd3b9c73b
+uuid: 58fa3faf-9abe-4053-a306-18c33c6d73b4
 index: y
 internal: n
 snippet: y

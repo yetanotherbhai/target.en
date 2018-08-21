@@ -5,7 +5,7 @@ seo-title: Viewing the History
 solution: Target
 title: Viewing the History
 topic: Recommendations
-uuid: 53fa80f6-0ac2-4b7c-83ac-76cc0b4c11cf
+uuid: 1a33879d-a804-4c4a-be7a-8319ffbc7c94
 index: y
 internal: n
 snippet: y

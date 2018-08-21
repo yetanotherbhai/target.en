@@ -5,7 +5,7 @@ seo-title: Activating a Recommendation
 solution: Target
 title: Activating a Recommendation
 topic: Recommendations
-uuid: ae862b70-1bf0-4a03-aa64-41a0c018baa2
+uuid: 71798546-1d28-4704-bc3f-fb588baef675
 index: y
 internal: n
 snippet: y

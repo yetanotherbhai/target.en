@@ -5,7 +5,7 @@ seo-title: Managing Mboxes
 solution: Target
 title: Managing Mboxes
 topic: Recommendations
-uuid: 7ae71235-4536-4c19-9b81-05d543cf6b40
+uuid: 0c3c3b78-1585-42ea-8f8b-054d7c27b75d
 index: y
 internal: n
 snippet: y

@@ -5,7 +5,7 @@ seo-title: Uploading Entities to Recommendations
 solution: Target
 title: Uploading Entities to Recommendations
 topic: Recommendations
-uuid: eca333ee-2158-452e-949c-daa55c8ef64b
+uuid: 45c44b0e-ed13-4460-aed3-cc977dabf18e
 index: y
 internal: n
 snippet: y

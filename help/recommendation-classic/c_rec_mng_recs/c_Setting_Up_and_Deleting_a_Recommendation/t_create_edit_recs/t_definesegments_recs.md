@@ -5,7 +5,7 @@ seo-title: Defining Segments
 solution: Target
 title: Defining Segments
 topic: Recommendations
-uuid: c5e4928c-8a1b-4d09-91a9-a90c98277928
+uuid: 07bdfea5-2e23-455a-9838-e7f235cbe4dc
 index: y
 internal: n
 snippet: y

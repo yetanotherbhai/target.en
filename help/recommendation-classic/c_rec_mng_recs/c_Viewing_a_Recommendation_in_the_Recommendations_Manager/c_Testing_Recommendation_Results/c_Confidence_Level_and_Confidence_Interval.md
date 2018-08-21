@@ -5,7 +5,7 @@ seo-title: Confidence Level and Confidence Interval
 solution: Target
 title: Confidence Level and Confidence Interval
 topic: Recommendations
-uuid: 16bcde32-5c53-41e7-b41e-bb3a3a6ca74b
+uuid: c9e951ba-f205-4ecf-8986-235f41c9e0e3
 index: y
 internal: n
 snippet: y

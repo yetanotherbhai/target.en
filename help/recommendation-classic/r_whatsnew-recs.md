@@ -6,7 +6,7 @@ seo-title: Release Notes
 solution: Target
 title: Release Notes
 topic: Recommendations
-uuid: dad7b052-9afa-4a32-816e-1a7df7571e80
+uuid: f848d833-3a72-45ac-a975-4309dc333931
 index: y
 internal: n
 snippet: y

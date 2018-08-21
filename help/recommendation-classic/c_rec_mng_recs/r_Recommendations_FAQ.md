@@ -5,7 +5,7 @@ seo-title: Recommendations FAQ
 solution: Target
 title: Recommendations FAQ
 topic: Recommendations
-uuid: 1878703f-4393-44f6-8b66-c877f9eb7e2f
+uuid: a0376d60-415d-4b26-900b-d3cea02e330c
 index: y
 internal: n
 snippet: y

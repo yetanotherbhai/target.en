@@ -6,7 +6,7 @@ seo-title: Customizing a Template
 solution: Target
 title: Customizing a Template
 topic: Recommendations
-uuid: 4ef0da54-8b38-4cbb-9e25-6d2fe2a954f7
+uuid: 62ffde95-aedb-4629-883c-b1d31a8c4faf
 index: y
 internal: n
 snippet: y

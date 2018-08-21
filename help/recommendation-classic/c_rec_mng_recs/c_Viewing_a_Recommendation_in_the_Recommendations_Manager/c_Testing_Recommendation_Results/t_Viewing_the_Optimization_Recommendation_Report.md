@@ -5,7 +5,7 @@ seo-title: Viewing the Optimizing Recommendation Report
 solution: Target
 title: Viewing the Optimizing Recommendation Report
 topic: Recommendations
-uuid: 351af32e-4c5e-443b-8f57-741acc92ebf2
+uuid: 42701e53-f5e4-46e8-9fa4-74c46e3c3734
 index: y
 internal: n
 snippet: y

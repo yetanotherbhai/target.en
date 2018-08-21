@@ -5,7 +5,7 @@ seo-title: Creating the Mbox
 solution: Target
 title: Creating the Mbox
 topic: Recommendations
-uuid: 76fabc42-5ce7-4388-9c18-12145e58a5dc
+uuid: 7a0163e3-3cfb-4aad-8b04-19135cf13e73
 index: y
 internal: n
 snippet: y
