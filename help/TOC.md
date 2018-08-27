@@ -11,7 +11,7 @@ user-guide: null
 + [Target Release Notes - Latest Release](r_release_notes/r_release_notes.md)
     + [Known Issues and Resolved Issues](r_release_notes/known-issues-resolved_issues.md)
     + [System Status Updates](r_release_notes/system-status-updates.md)
-    + [Target Releases: Current](r_release_notes/target_release_notes.md)
+    + [Target Release Notes - Prerelease](r_release_notes/target_release_notes.md)
 + [Introduction to Target](c_intro/c_intro.md)
     + [Training Videos for Adobe Target Standard and Premium](c_intro/c_target_standard-premium-training-videos.md)
     + [Access Target from the Adobe Experience Cloud](c_intro/t_target-access-from-mac.md)
