@@ -34,6 +34,8 @@ translate: y
 
 * [ Content Settings ](../../c_recommendations/c_algorithms/t_create_new_algorithm.md#concept_BC16005C7A1E4F1A87E33D16221F4A96) 
 
+* [ Content Options }
+
 
 There are multiple ways to reach the [!UICONTROL  Create New Criteria] screen. Some screen options vary depending on how you reach the screen. 
 
