@@ -20,7 +20,7 @@ Adobe Target creates and maintains a profile for every individual user. This pro
 
 For added security, you can require that the Bulk Update API call require a valid access token to be passed in the header of the request. Users with Approver permissions can generate and enable profile API authentication tokens. 
 
-**To require authentication and to generate an access token using the Target UI:** 
+** To require authentication and to generate an access token using the Target UI:** 
 
 
 1. Click **[!UICONTROL  Setup > Implementation]**. 
