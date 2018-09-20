@@ -17,13 +17,14 @@ translate: y
 # Assign Yourself the Approver Role
 
 
->1. After you log in to the [!DNL  Adobe Experience Cloud], click **[!UICONTROL  Target]**.
+1. After you log in to the [!DNL  Adobe Experience Cloud], click **[!UICONTROL  Target]**.
 
->       The [!DNL  Target Standard] card displays. This confirms that you have added Standard to your [!DNL  Experience Cloud] account. At this time, you are not able to create an activity because you have not been given the [!UICONTROL  Approver] role. 
->1. Click the [!UICONTROL  Target Standard] card, then in Standard click **[!UICONTROL  Setup]** > **[!UICONTROL  Users]**.
+       The [!DNL  Target Standard] card displays. This confirms that you have added Standard to your [!DNL  Experience Cloud] account. At this time, you are not able to create an activity because you have not been given the [!UICONTROL  Approver] role. 
 
->       Your name appears in the users list. 
->1. Click the [!DNL  Approver] radio button.
+1. Click the [!UICONTROL  Target Standard] card, then in Standard click **[!UICONTROL  Setup]** > **[!UICONTROL  Users]**.
 
->       Now that you are an approver, you can create and edit activities, audiences, and content. You are also able to approve activities. 
->1. Continue to the next step, [ setting up users and roles](../../c_seting_up_target/c_user_management/c_user_management.md#concept_501166A5F8FB4964A3AAA15D6095C6BE).
+       Your name appears in the users list. 
+1. Click the [!DNL  Approver] radio button.
+
+       Now that you are an approver, you can create and edit activities, audiences, and content. You are also able to approve activities. 
+1. Continue to the next step, [setting up users and roles](../../c_seting_up_target/c_user_management/c_user_management.md#concept_501166A5F8FB4964A3AAA15D6095C6BE).
