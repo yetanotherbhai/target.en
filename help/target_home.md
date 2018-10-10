@@ -16,6 +16,11 @@ translate: y
 
 [!DNL Adobe Target] is the [!DNL Adobe Experience Cloud] solution providing everything you need to tailor and personalize your customers' experience so you can maximize revenue on your web and mobile sites, apps, social media, and other digital channels. 
 
+| Analyst | Developer | Marketer |
+|--- |---|---|
+| Link<br>Link<br>Link | [Adobe](https://www.adobe.com) | Links |
+
+
 **Last Updated: August 15, 2018 [See What Changed ](https://marketing.adobe.com/resources/help/en_US/target/target/r_doc_change.html) )** 
 
 <table id="table_1887789FB95243F9AC71E6FC4A50650A"> 
