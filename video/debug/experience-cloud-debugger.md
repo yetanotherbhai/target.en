@@ -10,15 +10,19 @@ topic: Standard
 # Debug Target with the Experience Cloud Debugger
 
 ## Add the Extension
+
 >[!VIDEO](https://video.tv.adobe.com/v/23114/?quality=12)
 
 ## Basic Target Debugging
+
 >[!VIDEO](https://video.tv.adobe.com/v/23115/?quality=12)
 
 ## Mbox Trace
+
 >{!VIDEO](https://video.tv.adobe.com/v/23113/?quality=12)
 
 ## Additional Resources
+
 + [Adobe Experience Cloud Debugger in the Chrome Store](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj)
 + [Troubleshooting Target Help Documentation](https://marketing.adobe.com/resources/help/en_US/target/target/r_troubleshooting_target.html)
 + [How to use the Experience Cloud Debugger video](https://helpx.adobe.com/marketing-cloud-core/kt/using/experience-cloud-debugger-feature-video-use.html)
