@@ -269,7 +269,7 @@ user-guide: null
         + [Visual Experience Composer Best Practices and Limitations](c-experiences/c-visual-experience-composer/c-experience-composer-best-practices.md)
         + Troubleshooting{#troubleshooting-vec}
             + [Troubleshooting the Visual Experience Composer](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/r-troubleshoot-composer.md)
-            + [Troubleshooting Issues Related to the Visual Experience Composer (VEC) and Enhanced Experience Composer (EEC)](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/c-issues-related--to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md)
+            + [Troubleshooting Issues Related to the Visual Experience Composer (VEC) and Enhanced Experience Composer (EEC)](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/c-issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md)
             + [Troubleshooting Issues Related to the Visual Experience Composer (VEC)](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/c-troubleshooting-issues-related-to-the-visual-experience-composer-vec.md)
             + [Troubleshooting Issues Related to the Enhanced Experience Composer (EEC)](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/c-troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md)
             + [Enabling Mixed Content in Your Browser](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/c-mixed-content.md)
