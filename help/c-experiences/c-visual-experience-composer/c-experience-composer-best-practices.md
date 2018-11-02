@@ -118,11 +118,9 @@ By following these best practices, you are less likely to encounter unexpected p
 + When an action (Edit HTML) is performed on page components (such Sliders, Carousels and so on), delivery might appear broken. The Visual Experience Composer performs the action after the page component has been instantiated by JavaScript.
 + However, when the content of the page is delivered to visitors, the action is applied before instantiation of the component. Because of this, this component's functionality may or may not break at the time of delivery. Functionality depends on the nature of the script used on his page to define the component.
 + If you test for delivery and it works the first time, it is not guaranteed that it will continue working. There may (or may not) be a race condition.
-
   + If there is a race condition, delivery will work intermittently.
   + If there is no race condition, it will always work.
-
-  Test your page multiple times to make sure delivery works as expected.
++ Test your page multiple times to make sure delivery works as expected.
 
 **Details**
 *Don't use a base tag in your website to resolve URLs and links.*
@@ -143,6 +141,7 @@ By following these best practices, you are less likely to encounter unexpected p
     <span id="HeaderCartPriceTotal"></span>
   </a>
   ```
+
 In this example, the entire anchor element is selected in the VEC, which adversely affect other elements if targeting is performed. 
 
 **Details**
@@ -173,7 +172,7 @@ In this example, the entire anchor element is selected in the VEC, which adverse
   </body>
   </html>
   ```
-  
+
 ## Caveats {#section_A0436B7B85BA467FA9DE13A9A40E6A6E}
 
 Consider the following caveats when using the Visual Experience Composer to design your activity.
@@ -286,6 +285,7 @@ Incorrect:
     }
   </script>
   ```
+
 Correct:
 
   ```
@@ -301,6 +301,7 @@ Correct:
 *Inserting an image from the Content library (Scene7) and editing the HTML breaks the image url.*
 **Detail**
 + Add an anchor element inside the 'customHeaderMessage' div with some dummy text:
+
   ```
   <a href="#">
     <span> Dummy text </span>
@@ -326,5 +327,4 @@ Correct:
 **Limitations**
 *Click tracking is supported only on the page on which experiences are created or on the redirected page.*
 **Detail**
-+ Although Browse mode is available in Click Track VEC, it can't be used to add click tracking on a page. 
-
++ Although Browse mode is available in Click Track VEC, it can't be used to add click tracking on a page.
