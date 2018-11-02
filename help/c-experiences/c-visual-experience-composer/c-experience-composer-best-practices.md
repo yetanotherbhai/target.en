@@ -202,7 +202,7 @@ Consider the following caveats when using the Visual Experience Composer to desi
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> Caveat </th> 
-   <th colname="col2" class="entry"> Details </th> 
+   <th colname="col2" class="entry"> Details </th>
   </tr> 
  </thead>
  <tbody> 

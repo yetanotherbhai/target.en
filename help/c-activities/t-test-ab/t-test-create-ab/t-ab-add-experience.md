@@ -153,59 +153,29 @@ The Visual Experience Composer provides a visual interface for editing the exper
    You can show multiple experiences to the same audience. A diagram displays showing your selected audience and the experiences you've added to the activity. Specify the percentage of times you want each experience to be shown. You can split the percentages evenly between all experiences, or specify higher or lower percentages for each experience. The total for all experiences must equal 100%. You can also click **[!UICONTROL Add Experience]** to add another experience to the activity.
 
    Click **[!UICONTROL Continue]** when you are finished with this step. 
->Note that you can click the More (three vertical ellipses) icon on an experience in an A/B Test or Experience Targeting (XT) activity and choose from the following options, as necessary: 
->
->* Rename 
->* Edit 
->* Delete 
->
->![](assets/experience_edit.png)>
->Note that when you name or rename an experience, the following characters are not allowed: 
->
-><table id="table_F5E365667FDC48AD8B4461E40CD669B8"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Character </th> 
-   <th colname="col2" class="entry"> Description </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>/ </p> </td> 
-   <td colname="col2"> <p>Forward slash </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>? </p> </td> 
-   <td colname="col2"> <p>Question mark </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p># </p> </td> 
-   <td colname="col2"> <p>Number sign </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>: </p> </td> 
-   <td colname="col2"> <p>Colon </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>= </p> </td> 
-   <td colname="col2"> <p>Equals to </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>+ </p> </td> 
-   <td colname="col2"> <p>Plus </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>- </p> </td> 
-   <td colname="col2"> <p>Minus </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>@ </p> </td> 
-   <td colname="col2"> <p>At sign </p> </td> 
-  </tr> 
- </tbody> 
-</table>
->**Duplicate an Experience:** You can copy an experience in an A/B Test so you can make minor changes to it without having to re-create the experience from scratch. 
->
->On the **[!UICONTROL Experiences]** page (the first step in the three-step guided workflow), click the three vertical ellipses > **[!UICONTROL Duplicate]**. 
->
->![](assets/duplicate_experience_ab.png)>
+
+Note that you can click the More (three vertical ellipses) icon on an experience in an A/B Test or Experience Targeting (XT) activity and choose from the following options, as necessary:
+* Rename
+* Edit
+* Delete
+
+ ![](assets/experience_edit.png)>
+
+Note that when you name or rename an experience, the following characters are not allowed: 
+
+|Character|Description|
+|--- |--- |
+|/|Forward slash|
+|?|Question mark|
+|#|Number sign|
+|:|Colon|
+|=|Equals to|
+|+|Plus|
+|-|Minus|
+|@|At sign|
+
+**Duplicate an Experience:** You can copy an experience in an A/B Test so you can make minor changes to it without having to re-create the experience from scratch.
+
+On the **[!UICONTROL Experiences]** page (the first step in the three-step guided workflow), click the three vertical ellipses > **[!UICONTROL Duplicate]**.
+
+ ![](assets/duplicate_experience_ab.png)>
