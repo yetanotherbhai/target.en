@@ -26,7 +26,7 @@ To find more information about how Automated Personalization differs from Auto T
 >
 >Automated Personalization is available as part of the Target Premium solution. It is not included with Target Standard without a Target Premium license. If you have a Target Premium license, the Target Premium card replaces the Target Standard card in the Adobe Experience Cloud.
 
-**Activity Types (9:03)**
+## Activity Types
 
 This video explains the activity types available in Target Standard/Premium. Automated Personalization is discussed beginning at 5:55.
 
@@ -80,7 +80,6 @@ Random Forest is a leading machine learning approach. In data-science speak, it 
 
 Offline data, such as CRM information or customer churn propensity scores, can be incredibly valuable when building personalization models. There are several ways to input data in Automated Personalization (AP) and Auto-Target personalization algorithms.
 
-* 
 * [mbox parameters](../../c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/c-methods-to-get-data-into-target.md#concept_0069C0EFB56C4700BB33F2F35C2B9B17) 
 * [Profile parameters](../../c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/c-methods-to-get-data-into-target.md#concept_0069C0EFB56C4700BB33F2F35C2B9B17) 
 * [Server-side APIs for profile update](../../c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/c-methods-to-get-data-into-target.md#concept_0069C0EFB56C4700BB33F2F35C2B9B17)
