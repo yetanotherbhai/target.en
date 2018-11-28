@@ -8,13 +8,15 @@ user-guide: null
 # Table of Contents {#table-of-contents}
 
 + [Adobe Target product documentation](target-home.md)
-+ [Target release notes (current)](r-release-notes/r-release-notes.md)
++ Target release notes {#release-notes}
+   + [Current release notes](r-release-notes/r-release-notes.md)
    + [Target release notes (prerelease)](r-release-notes/target-release-notes.md)
    + [Known issues and resolved issues](r-release-notes/known-issues-resolved-issues.md)
    + [System status updates](r-release-notes/system-status-updates.md)
    + [Documentation changes](r-release-notes/r-doc-change.md)
    + [Release notes for previous releases](r-release-notes/release-notes-for-previous-releases.md)
-+ [Introduction to Target](c-intro/c-intro.md)
++ Introduction {#introduction}
+   + [Introduction to Target](c-intro/c-intro.md)
    + [Access Target from the Adobe Experience Cloud](c-intro/t-target-access-from-mac.md)
    + [Target key concepts](c-intro/target-key-concepts.md)
    + [Glossary](c-intro/r-glossary.md)
@@ -34,7 +36,8 @@ user-guide: null
    + [Scene7 settings](administrating-target/t-scene7-settings.md)
    + [Hosts](administrating-target/c-hosts.md)
    + [Response tokens](administrating-target/c-response-tokens.md)
-+ [Implement Target](c-implementing-target/c-implementing-target.md)
+Implement Target {#implement-target}
+   + [Implement Target overview](c-implementing-target/c-implementing-target.md)
    + [Before you implement](c-implementing-target/c-considerations-before-you-implement-target/c-considerations-before-you-implement-target.md)
       + [Understand the Target JavaScript libraries](c-implementing-target/c-considerations-before-you-implement-target/c-target-implement.md)
       + [Prepare to implement Target](c-implementing-target/c-considerations-before-you-implement-target/c-prepare-to-implement-target.md)
