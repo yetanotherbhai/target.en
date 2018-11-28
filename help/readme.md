@@ -1,40 +1,53 @@
----
-title: Target README
-seo-title: Adobe Target README
-short-title: Target
-description: Internal document for learning how to use Markdown for documenting Target
-seo-description: Internal document for learning how to use Markdown for documenting Adobe Target
----
+# Contribute article
 
-# Target README File
+We welcome contributions from our community as well as from Adobe employees from outside the documentation teams. 
 
-This is documentation for Adobe Target. 
+## Adobe Open Source Code of Conduct
 
->[!NOTE]
->Please note that we're using one hash (#) to indicate the title, which is also specified in the metadata header above. The second level of headings (##) indicate the main headings that appear in the TOC.
+This project has adopted the [Adobe Open Source Code of Conduct](code-of-conduct.md) or the [.NET Foundation Code of Conduct](https://dotnetfoundation.org/code-of-conduct). For more information, see the [Contributing](contributing.md) article.
 
-## Markdown Resources
+## About your contributions to Adobe content
 
-Key resources for using Markdown and GitHub:
+See the [Adobe Docs Contributor Guide](https://docs.adobe.com/content/help/en/contributor/contributor-guide/introduction.html).
 
-* [Markdown Syntax Guide](https://wiki.corp.adobe.com/display/SSE/Markdown+Syntax+Guidance)
-* [Markdown Information Architecture](https://wiki.corp.adobe.com/display/SSE/Markdown+Information+Architecture)
-* [Writer Tools](https://wiki.corp.adobe.com/display/SSE/Writer+Tools)
+How you contribute depends on who you are and the sort of changes you'd like to contribute:
 
->[!NOTE]
->This NOTE block is an extension of common Markdown. 
+### Minor changes
 
-## Using Markdown
+If you are contributing minor updates out of the goodness of your heart, visit the article and click the **Edit** link in the article that goes to the GitHub source for the article. Then, just use the GitHub UI to make your updates. See the general [Adobe Docs Contributor Guide](https://docs.adobe.com/content/help/en/contributor/contributor-guide/introduction.html) for more information.
 
-1. Create your structure in GitHub.
-   You can either migrate content or create it from scratch.
-1. Create a fork to work on files locally.
-1. Use Markdown to edit .md files.
-   If you're note using the browser directly, Visual Studio, Brackets and Oxygen are excellent editors.
-1. Create a Pull Request to submit the files to the authors
+Minor corrections or clarifications you submit for documentation and code examples in this repo are covered by the Adobe terms of use.
 
-## Celebration Dance
+### Major changes or new articles from community members
 
-> [!VIDEO]{title="Happy Dance" description="This is a happy dance." url="https://www.youtube.com/watch?v=FVq0gVS96w0"}
+If you're part of the Adobe community and you want to create a new article or submit major changes, please use the Issues tab in the Git repository to submit an issue to start a conversation with the documentation team. Once you've agreed to a plan, you'll need to work with an employee to help bring that new content in through a combination of work in the public and private repositories.
 
-That's all for now.
+<!--
+If you submit a pull request with significant changes to documentation and code examples, you'll see a message in the pull request asking you to submit an online contribution license agreement (CLA). We need you to complete the online form before we can review your pull request.
+-->
+
+### Major changes from Adobe Employees
+
+If you are a technical writer, program manager, or developer from the product team for an Adobe Experience Cloud solution and it's your job to contribute to or author technical articles, you should use the private repository [https://git.corp.adobe.com/AdobeDocs](https://git.corp.adobe.com/AdobeDocs). <!--Employees from other parts of the Adobe world should use the public repo for minor updates.-->
+
+## Tools and setup
+
+Community contributors can use the GitHub UI for basic editing or fork the repo to make major contributions.
+
+See the [Adobe Docs Contributor Guide](https://docs.adobe.com/content/help/en/contributor/contributor-guide/introduction.html) for details.
+
+## How to use markdown to format your topic
+
+All the articles in this repository use GitHub flavored markdown. If you are not familiar with markdown, see:
+
+* [Markdown basics](https://help.github.com/articles/markdown-basics/)
+* [Printable markdown cheatsheet](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
+
+## Labels
+
+In the public repository, automated labels are assigned to pull requests to help us manage the pull request workflow and to help let you know what's going on with your pull request:
+
+* **Change sent to author**: The author has been notified of the pending pull request.
+* **ready-to-merge**: Ready for review by our pull request review team.
+
+
