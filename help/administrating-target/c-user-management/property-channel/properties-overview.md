@@ -72,14 +72,14 @@ For those tasks performed in the Adobe Admin Console for Enterprise, access the 
 
 1. (Conditional) If you have access to the [!DNL Admin Console for Enterprise] for more than one organization, click the user avatar in the right corner or the top navigation bar, then select the desired organization.
 
-## 1. Add Users (Optional) {#section_A92AF0F921B743FEB9E9033433BD816A}
+## Step 1. Add Users (Optional) {#section_A92AF0F921B743FEB9E9033433BD816A}
 
 When you start using the new [!UICONTROL Properties] functionality, all user management must be performed in the [!DNL Adobe Admin Console for Enterprise]. However, all of your existing users in [!DNL Target] will be migrated from [!DNL Target] to the [!DNL Admin Console for Enterprise].
 
 1. [In the Admin Console](../../../administrating-target/c-user-management/property-channel/properties-overview.md#section_79796E0227D048F59BAE0AB02E544EBE), click the **[!UICONTROL Users]** tab at the top of the page > **[!UICONTROL Users]** to create new users or to edit existing users. 
 1. Follow the instructions in [Manage Users and Groups in the Experience Cloud](https://helpx.adobe.com/enterprise/help/users.html) in the *Enterprise User Guide*.
 
-## 2. Create a Workspace (Product Profile) {#section_B82EB409B67C4D9D9D20CE30E48DB1DC}
+## Step 2. Create a Workspace (Product Profile) {#section_B82EB409B67C4D9D9D20CE30E48DB1DC}
 
 A workspace (Product Profile) lets an organization assign a specific set of users to a specific set of properties. In many ways, a workspace is similar to a report suite in [!DNL Analytics].
 
@@ -122,14 +122,14 @@ This video explains how to create workspaces.
 
 1. Follow the instructions in [Create and Manage Product Configurations](https://helpx.adobe.com/enterprise/help/manage-products-and-configurations.html) in the *Enterprise User Guide*.
 
-## 3. Create User Groups (Optional) {#section_5F5CB9AA7A9F4D26953E22016DA59605}
+## Step 3. Create User Groups (Optional) {#section_5F5CB9AA7A9F4D26953E22016DA59605}
 
 You can create user groups, such as Developers, Analysts, Marketers, Executives, etc., and then assign privileges across multiple Adobe products and workspaces. Assigning a new team member all the appropriate privileges across different Adobe products can be as easy as adding them to a specific user group.
 
 1. In the Admin Console, click the **[!UICONTROL Users]** tab at the top of the page > **[!UICONTROL User Groups]** to create new user groups or to edit existing groups. 
 1. Follow the instructions in [Manage Users and Groups of a Product Configuration](https://helpx.adobe.com/enterprise/help/manage-products-and-configurations.html) in the *Enterprise User Guide*.
 
-## 4. Create Properties {#section_E8F2C92BE0F4466AB87604059C9CF3FD}
+## Step 4. Create Properties {#section_E8F2C92BE0F4466AB87604059C9CF3FD}
 
 This video explains how to create properties (3:05).
 
@@ -162,7 +162,7 @@ Properties belong to specific channels (Web, Mobile, Email, and API/Other).
 1. Copy the code to your clipboard. 
 1. Click **[!UICONTROL Save]** when done.
 
-## 5: Update Your Implementation to Include the at_property Parameter {#section_9B17A59807A94712BE642942442EBBC8}
+## Step 5: Update Your Implementation to Include the at_property Parameter {#section_9B17A59807A94712BE642942442EBBC8}
 
 To use the [!DNL Target] user-permissions functionality, you must add the `at_property` parameter to any call that is hitting Target (mbox, api, etc.).
 
@@ -204,7 +204,7 @@ To use the [!DNL Target] user-permissions functionality, you must add the `at_pr
 
       For more information about how to do this with at.js, see [targetPageParams()](../../../c-implementing-target/c-implementing-target-for-client-side-web/cmp-at.js-functions.md#reference_B235C9F6DA79449ABE3E23F914FEABAE). [mboxCreate(mbox,params)](../../../c-implementing-target/c-implementing-target-for-client-side-web/cmp-at.js-functions.md#reference_E68805FE86C64792B2066DB17B253D74)
 
-## 6: Specify Roles and Permissions {#section_8C425E43E5DD4111BBFC734A2B7ABC80}
+## Step 6: Specify Roles and Permissions {#section_8C425E43E5DD4111BBFC734A2B7ABC80}
 
 1. In the Admin Console, click **[!UICONTROL Products]**, then select the name of the desired product.
 
@@ -251,4 +251,3 @@ To use the [!DNL Target] user-permissions functionality, you must add the `at_pr
 </table>
 
    For more information, see [Manage Product Permissions and Roles in the Admin Console](https://helpx.adobe.com/enterprise/help/manage-permissions-and-roles.html) in the *Enterprise User Guide*.
-
