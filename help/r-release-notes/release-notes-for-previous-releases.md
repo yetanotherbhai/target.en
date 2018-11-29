@@ -2000,7 +2000,7 @@ This release includes the following features and enhancements:
   <!-- <row> <entry colname="col1">Content similarity weighting (First Look) </entry> <entry colname="col2"> <p> Select specific attributes to consider/prioritize in calculating content similarity </p> <p><xref href="https://jira.corp.adobe.com/browse/TGT-15269">https://jira.corp.adobe.com/browse/TGT-15269</xref></p> <p><xref href="https://jira.corp.adobe.com/browse/TGT-15649">https://jira.corp.adobe.com/browse/TGT-15649</xref></p> </entry> </row> --> 
   <tr> 
    <td colname="col1" class="premium"> Inclusion rules can be disabled for backup recommendations </td> 
-   <td colname="col2"> <p>When backup recommendations are enabled, you can choose not to apply inclusion rules to your backup recommendations. . </p> <p>For more information, see <a href="../c-recommendations/c-algorithms/t-create-new-algorithm.md#concept_BC16005C7A1E4F1A87E33D16221F4A96" format="dita" scope="local"> Content Settings </a>. </p> </td> 
+   <td colname="col2"> <p>When backup recommendations are enabled, you can choose not to apply inclusion rules to your backup recommendations. . </p>  </td> 
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> Recommendations: New debugging capabilities in text area via <span class="codeph"> mboxTrace </span> </td> 
@@ -2241,7 +2241,7 @@ This release includes the following features and enhancements:
   </tr> 
   <tr> 
    <td colname="col1"> <p>Multiple companies are available when selecting Analytics as the reporting source for Target. </p> </td> 
-   <td colname="col2"> <p>When selecting Analytics as the reporting source for Target, you select an Analytics report suite to receive Target activity data. To do this, first choose from any of the Analytics companies your account is tied to, and then select the appropriate report suite for the activity. Only report suites that are provisioned to connect to Adobe Target will be available for selection. If you don't see the report suite(s) you expect, first try logging out and logging back in to the Adobe Experience Cloud to try again. If the report suite is still missing from the list, please contact Customer Care. </p> <p>See <a href="https://marketing.adobe.com/resources/help/en_US/target/a4t/c_integrating_target_with_analytics.html" format="https" scope="external"> Integrating Target with Analytics </a>. </p> </td> 
+   <td colname="col2"> <p>When selecting Analytics as the reporting source for Target, you select an Analytics report suite to receive Target activity data. To do this, first choose from any of the Analytics companies your account is tied to, and then select the appropriate report suite for the activity. Only report suites that are provisioned to connect to Adobe Target will be available for selection. If you don't see the report suite(s) you expect, first try logging out and logging back in to the Adobe Experience Cloud to try again. If the report suite is still missing from the list, please contact Customer Care. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>New Built-in Options for Audience Creation </p> </td> 
@@ -2553,7 +2553,7 @@ This release includes the following features and enhancements:
   <!-- <row> <entry colname="col1"> <p>Configurable success metrics </p> </entry> <entry colname="col2"> <p>Includes advanced options for success metrics, such as <varname>count once</varname>, <varname>restart new experience</varname>, and so on. The default for new activities is now <varname>count once</varname>, replacing the former default of <varname>always convert</varname>. </p> </entry> </row> --> 
   <tr> 
    <td colname="col1"> <p>Visual Experience Composer compatibility improvements </p> </td> 
-   <td colname="col2"> <p> A new account-wide setting to make it easier for Target to generate the right CSS selectors. For example, it can be specified if Target should use classes or IDs. This improves compatibility with AEM. This setting can be overridden per activity </p> <p>See <a href="https://marketing.adobe.com/resources/help/en_US/target/ov/t_account_preferences.html" format="https" scope="external"> Account Preferences </a>. </p> </td> 
+   <td colname="col2"> <p> A new account-wide setting to make it easier for Target to generate the right CSS selectors. For example, it can be specified if Target should use classes or IDs. This improves compatibility with AEM. This setting can be overridden per activity </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Experience Targeting support for Analytics as a reporting source </p> </td> 
@@ -2919,7 +2919,7 @@ This release includes the following new features:
       </ul> </li> 
      <li id="li_36E18493A95B4C96BFA3133CDFD8826A">Single line of code implementation with WYSIWYG content editing </li> 
      <li id="li_79B1878FA64A40E88A973C57C39FC5FF">Primary goal for the activity currently uses the Conversion metric. Revenue and engagement are available as additional metrics. </li> 
-     <li id="li_FE94A79767EF4534BD02B2AFD7E27E1B">Connection to the <span class="keyword"> Master Marketing Profile </span> for seamless collection of advance visitor behavioral data <p>For information about using the <span class="keyword"> Master Marketing Profile </span> with <span class="keyword"> Target </span>, see <a href="https://marketing.adobe.com/resources/help/en_US/target/mmp/c_mmp.html" format="http" scope="external"> Master Marketing Profile and Real-Time Audiences </a> in the <span class="keyword"> Adobe Target </span> Integration guide. </p> </li> 
+     <li id="li_FE94A79767EF4534BD02B2AFD7E27E1B">Connection to the <span class="keyword"> Master Marketing Profile </span> for seamless collection of advance visitor behavioral data </li> 
     </ul> <p>See <a href="../c-activities/t-automated-personalization/t-automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9" format="dita" scope="local"> Automated Personalization </a>. </p> </td> 
   </tr> 
   <tr> 
@@ -2963,7 +2963,7 @@ This release includes the following new features:
  <tbody> 
   <tr> 
    <td colname="col1"> Adobe Analytics-enhanced reporting for Adobe Target </td> 
-   <td colname="col2"> Adobe Analytics customers can select <a href="https://marketing.adobe.com/resources/help/en_US/target/a4t/" format="http" scope="external"> Analytics as the default reporting source </a> during the <a href="../c-activities/t-test-ab/t-test-create-ab/t-create-a4t.md#task_FE48F7B077C44A5BA015B087428412EF" format="dita" scope="local"> test set-up process </a>. Selecting all success metrics or audiences you want to use to filter your results is no longer required. Within reporting, you can select any success metric or audience segment defined in Analytics and retroactively apply it to your reporting for extensive filtering and drill-down analysis of your optimization results. <p> <p>Note:  To request access to this feature, visit <a href="http://www.adobe.com/go/audiences" format="http" scope="external"> http://www.adobe.com/go/audiences </a>. </p> </p> </td> 
+   <td colname="col2"> Adobe Analytics customers can select <a href="https://marketing.adobe.com/resources/help/en_US/target/a4t/" format="http" scope="external"> Analytics as the default reporting source </a> during the <a href="../c-activities/t-test-ab/t-test-create-ab/t-create-a4t.md#task_FE48F7B077C44A5BA015B087428412EF" format="dita" scope="local"> test set-up process </a>. Selecting all success metrics or audiences you want to use to filter your results is no longer required. Within reporting, you can select any success metric or audience segment defined in Analytics and retroactively apply it to your reporting for extensive filtering and drill-down analysis of your optimization results. <p> <p>Note:  To request access to this feature, visit <a href="https://www.adobe.com/go/audiences" format="http" scope="external"> http://www.adobe.com/go/audiences </a>. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Master marketing profile real-time audiences </td> 
