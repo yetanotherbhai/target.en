@@ -24,7 +24,7 @@ user-guide: null
    + [Training and certification](c-intro/r-training-and-certification.md)
    + [Training videos for Adobe Target Standard and Premium](c-intro/c-target-standard-premium-training-videos.md)
    + [Target optimization and personalization FAQ](c-intro/cmp-target-standard-cheatsheet.md)
-+ Administer Target{#administer}
++ Administer Target {#administer}
    + [Administer Target Overview](administrating-target/administrating-target.md)
    + [Administrator first steps](administrating-target/start-target.md)
    + Set preferences {#preferences}
@@ -41,35 +41,44 @@ user-guide: null
       + [Response tokens](administrating-target/c-response-tokens.md)
    + Implement Target {#implement-target}
       + [Implement Target overview](c-implementing-target/c-implementing-target.md)
-      + [Before you implement](c-implementing-target/c-considerations-before-you-implement-target/c-considerations-before-you-implement-target.md)
+      + Before you implement {#before-implement}
+         + [Before you implement](c-implementing-target/c-considerations-before-you-implement-target/c-considerations-before-you-implement-target.md)
          + [Understand the Target JavaScript libraries](c-implementing-target/c-considerations-before-you-implement-target/c-target-implement.md)
          + [Prepare to implement Target](c-implementing-target/c-considerations-before-you-implement-target/c-prepare-to-implement-target.md)
-         + [Privacy](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/c-privacy.md)
+         + Privacy {#privacy}
+            + [Privacy overview](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/c-privacy.md)
             + [Privacy and General Data Protection Regulation (GDPR)](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md)
             + [Delete the Target cookie](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/t-cookie-deleting.md)
-         + [Methods to get data into Target](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/c-methods-to-get-data-into-target.md)
+         + Methods to get data into Target {#methods}
+            + [Methods](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/c-methods-to-get-data-into-target.md)
             + [Profile API settings](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/c-profile-api-settings.md)
          + [Target security overview](c-implementing-target/c-considerations-before-you-implement-target/c-target-security-overview.md)
          + [Supported browsers](c-implementing-target/c-considerations-before-you-implement-target/r-supported-browsers.md)
          + [TLS (Transport Layer Security) encryption changes](c-implementing-target/c-considerations-before-you-implement-target/c-tls-transport-layer-security-encryption.md)
          + [CNAME and Adobe Target](c-implementing-target/c-considerations-before-you-implement-target/c-implement-cname-support-in-target.md)
-      + [Client-side web: implement Target](c-implementing-target/c-implementing-target-for-client-side-web/c-implementing-target-for-client-side-web.md)
-         + [How at.js works](c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/c-how-atjs-works.md)
+      + Client-side web: implement Target {#client-side}
+         + How at.js works {#at-js}
+            + [How at.js works overview](c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/c-how-atjs-works.md)
             + [How at.js manages flicker](c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/c-manage-flicker-with-atjs.md)
             + [at.js integrations](c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/c-target-atjs-integrations.md)
-         + [How to deploy at.js](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/how-to-deployatjs.md)
+         + How to deploy at.js {#deploy-at-js}
+            + [How to deploy at.js](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/how-to-deployatjs.md)
             + [Implement Target using Adobe Launch](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
             + [Implement Target without a tag manager](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md)
             + [Implement Target using Dynamic Tag Management (DTM)](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-using-dynamic-tag-management.md)
             + [Single Page Application implementation](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/r-target-atjs-single-page-application.md)
-         + [at.js functions](c-implementing-target/c-implementing-target-for-client-side-web/cmp-at.js-functions.md)
-         + [Debug at.js using the Adobe Experience Cloud Debugger](c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/c-target-debugging-atjs.md)
+         + at.js functions {#functions-overview}
+            + [at.js functions overview](c-implementing-target/c-implementing-target-for-client-side-web/cmp-at.js-functions.md)
+            + [Debug at.js using the Adobe Experience Cloud Debugger](c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/c-target-debugging-atjs.md)
             + [Use cloud-based instances with Target](c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/c-targeting-using-cloud-based-instances.md)
-         + [at.js Frequently Asked Questions](c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/c-target-atjs-faq.md)
+         + at.js frequently asked questions {#faq-at-js}
+            + [at.js FAQs](c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/c-target-atjs-faq.md)
             + [Global mbox Frequently Asked Questions](c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/c-global-mbox-frequently-asked-questions.md)
          + [at.js version details](c-implementing-target/c-implementing-target-for-client-side-web/r-target-atjs-versions.md)
-         + [mbox.js implementation](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/t-mbox-download.md)
-            + [Migrate from mbox.js to at.js](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/c-target-atjs-implementation.md)
+         + mbox.js implementation {#mbox-implement}
+            + [mbox.js implementation overview](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/t-mbox-download.md)
+            + Migrate from mbox.js to at.js {#migrate-mbox}
+               + [Migrate from mbox.js to at.js overview](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/c-target-atjs-implementation.md)
                + [How to Migrate to at.js from mbox.js](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/t-target-migrate-atjs.md)
                + [at.js Limitations](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/c-target-atjs-limitations.md)
                + [at.js Plug-ins](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/c-target-atjs-plugins.md)
@@ -83,28 +92,35 @@ user-guide: null
             + [mbox.js functions](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-mboxjs-functions.md)
             + [mbox.js cookies](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-cookie-behavior.md)
             + [mbox.js version details](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/r-mboxjs-change-log.md)
-            + [Understand the Global mbox](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/c-understanding-global-mbox.md)
+            + Understand the Global mbox {#global-mbox}
+               + [Understand the Global mbox ovreview](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/c-understanding-global-mbox.md)
                + [Customize a Global mbox](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/t-customize-global-mbox.md)
-               + [Use a Global mbox from a Legacy Implementation](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/t-mbox-global-target-standard.md)
+               + [Use a Global mbox from a Legacy implementation](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/t-mbox-global-target-standard.md)
                + [Pass Parameters to a global mbox](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/c-pass-parameters-to-global-mbox.md)
       + [Mobile apps: implement Target](c-implementing-target/c-implementing-taget-for-moblile-apps.md)
-      + [Server Side: implement Target](c-implementing-target/c-api-and-sdk-overview/c-api-and-sdk-overview.md)
+      + Server Side: implement Target
+         + [Server Side: implement Target overview](c-implementing-target/c-api-and-sdk-overview/c-api-and-sdk-overview.md)
          + [Transition from Target legacy APIs to Adobe I/O](c-implementing-target/c-api-and-sdk-overview/c-target-api-documentation.md)
-      + [Email: implement Target](c-implementing-target/c-non-javascript-based-implementation/c-non-javascript-based-implementation.md)
+      + Email: implement Target {#implement-email}
+         + [Email: implement Target overview](c-implementing-target/c-non-javascript-based-implementation/c-non-javascript-based-implementation.md)
          + [Create an Adbox for an image](c-implementing-target/c-non-javascript-based-implementation/t-testing-content-with-the-adbox.md)
          + [Test an email image Adbox](c-implementing-target/c-non-javascript-based-implementation/t-testing-email-image-adbox.md)
          + [Work with redirectors](c-implementing-target/c-non-javascript-based-implementation/c-working-with-redirectors.md)
-+ [Integrate Adobe Target with the Experience Cloud](c-integrating-target-with-mac/c-integrating-target-with-mac.md)
-   + [Adobe Analytics as the reporting source for Adobe Target (A4T)](c-integrating-target-with-mac/a4t/a4t.md)
++ Integrate Adobe Target with the Experience Cloud {#integrate}
+   + [Integrate Adobe Target with the Experience Cloud overview](c-integrating-target-with-mac/c-integrating-target-with-mac.md)
+   + Adobe Analytics as the reporting source for Adobe Target (A4T) {#a4t}
+      + [A4T overview)](c-integrating-target-with-mac/a4t/a4t.md)
       + [Before you implement](c-integrating-target-with-mac/a4t/c-before-implement.md)
       + [Analytics for Target implementation](c-integrating-target-with-mac/a4t/c-a4timplementation.md)
       + [User permission requirements](c-integrating-target-with-mac/a4t/c-account-reqs.md)
       + [Activity creation](c-integrating-target-with-mac/a4t/t-campaign-creation.md)
       + [Use an Analytics tracking server](c-integrating-target-with-mac/a4t/t-analytics-tracking-server.md)
       + [A4T reporting](c-integrating-target-with-mac/a4t/c-reporting.md)
-      + [Troubleshoot the Analytics and Target integration (A4T)](c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/c-a4t-troubleshooting.md)
+      + Troubleshooting the Analytics and Target integration (A4T) {#troubleshoot-a4t}
+         + [Troubleshoot A4T](c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/c-a4t-troubleshooting.md)
          + [Minimizing inflated visit and visitor counts in A4T](c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md)
-      + [A4T Frequently Asked Questions](c-integrating-target-with-mac/a4t/r-a4t-faq/r-a4t-faq.md)
+      + A4T Frequently Asked Questions
+         + [A4T Frequently Asked Questions overview](c-integrating-target-with-mac/a4t/r-a4t-faq/r-a4t-faq.md)
          + [Initial provisioning - A4T FAQ](c-integrating-target-with-mac/a4t/r-a4t-faq/c-a4t-faq-initial-provisioning.md)
          + [Activity settings - A4T FAQ](c-integrating-target-with-mac/a4t/r-a4t-faq/c-a4t-faq-activity-setup.md)
          + [View reports - A4T FAQ](c-integrating-target-with-mac/a4t/r-a4t-faq/c-a4t-faq-viewing-reports.md)
@@ -125,8 +141,8 @@ user-guide: null
       + [A/B test overview](c-activities/t-test-ab/t-test-ab.md)
       + [How long should you run an A/B test?](c-activities/t-test-ab/c-sample-size-determination.md)
       + [Nine common A/B testing pitfalls and how to avoid them](c-activities/t-test-ab/c-common-ab-testing-pitfalls.md)
-      + Create {#create}
-         + [Create an A/B test](c-activities/t-test-ab/t-test-create-ab/t-test-create-ab.md)
+      + Create an A/B test {#create}
+         + [Create a test](c-activities/t-test-ab/t-test-create-ab/t-test-create-ab.md)
          + [Activity URL](c-activities/t-test-ab/t-test-create-ab/c-ab-activity-url.md)
          + [Add experience](c-activities/t-test-ab/t-test-create-ab/t-ab-add-experience.md)
          + [Select audience](c-activities/t-test-ab/t-test-create-ab/c-ab-audience.md)
@@ -183,17 +199,22 @@ user-guide: null
       + [Click tracking](c-activities/r-success-metrics/t-click-tracking.md)
       + [Capture Score](c-activities/r-success-metrics/c-capture-score.md)
    + [Activity Change Log](c-activities/t-change-log.md)
-   + [Troubleshoot activities](c-activities/c-troubleshooting-activities/c-troubleshooting-activities.md)
+   + Troubleshoot activities {#troubleshoot-activities}
+      + [Troubleshoot activities overview](c-activities/c-troubleshooting-activities/c-troubleshooting-activities.md)
       + [Troubleshoot content delivery](c-activities/c-troubleshooting-activities/c-content-trouble.md)
-   + [Activity QA](c-activities/c-activity-qa/c-activity-qa.md)
+   + Activity QA {#activity-qa}
+      + [Activity QA overview](c-activities/c-activity-qa/c-activity-qa.md)
       + [Activity QA bookmarklet](c-activities/c-activity-qa/c-activity-qa-bookmark.md)
       + [Use Activity QA with server-side delivery](c-activities/c-activity-qa/c-use-qa-mode-with-server-side-delivery.md)
    + [Activity notifications](c-activities/c-notifications.md)
-+ [Audiences](c-target/c-target.md)
++ Audiences {#audiences}
+   + [Audiences overview](c-target/c-target.md)
    + [How targeting works](c-target/c-target-how-target-works.md)
-   + [Create audiences](c-target/c-audiences/c-audiences.md)
+   + Create audiences {#create-audiences}
+      + [Create](c-target/c-audiences/c-audiences.md)
       + [Build audiences in Target](c-target/c-audiences/t-create-audience.md)
-      + [Categories for audiences](c-target/c-audiences/c-target-rules/c-target-rules.md)
+      + Categories for audiences {#categories-audiences}
+         + [Categories for audiences overview](c-target/c-audiences/c-target-rules/c-target-rules.md)
          + [Browser](c-target/c-audiences/c-target-rules/c-browser.md)
          + [Custom parameters](c-target/c-audiences/c-target-rules/c-custom-parameters.md)
          + [Geo](c-target/c-audiences/c-target-rules/c-geo.md)
@@ -210,7 +231,8 @@ user-guide: null
    + [Create an activity-only audience](c-target/creating-activity-only-audience.md)
    + [Audience filters for reporting](c-target/c-managing-audience-filters.md)
    + [Apply a reporting audience to a success metric](c-target/c-apply-reporting-audience-success-metric.md)
-   + [Visitor profiles](c-target/c-visitor-profile/c-visitor-profile.md)
+   + Visitor profiles {#visitor-profiles}
+      + [Visitor profiles overview](c-target/c-visitor-profile/c-visitor-profile.md)
       + [Visitor profile lifetime](c-target/c-visitor-profile/c-visitor-profile-lifetime.md)
       + [Profile attributes](c-target/c-visitor-profile/c-profile-parameters.md)
       + [Category affinity](c-target/c-visitor-profile/c-category-affinity.md)
