@@ -36,7 +36,7 @@ There are many options for implementing Target in single-page applications with 
    <!-- <entry colname="col3"> <p> <ul id="ul_FB3B7021365B4536876A9ACC8495EA29"> <li id="li_21EE6E9161184724BBED3FD10411EF43"> Earliest possible firing of an mbox on the route change </li> <li id="li_2A456D69B54241C99F2AA2513046215A">Excellent flicker handling. Enforces sequencing of the mbox response and DOM updates, offering excellent capabilities for flicker-control when used with DOM-manipulation type offers. </li> </ul> </p> </entry> <entry colname="col4"> Might fire before you have updated your data layer </entry> --> 
    <td colname="col5"> <p>Yes </p> </td> 
    <td colname="col6"> <p>target-global-mbox </p> </td> 
-   <td colname="col7"> <p><a href="http://adobe-marketing-cloud.github.io/target-atjs-extensions/examples/angular/route_change_demo.html" scope="external" format="html"> Demo</a> </p> <p> <a href="https://github.com/Adobe-Marketing-Cloud/target-spa-extensions/wiki/Angular-ngRoute" scope="external" format="http"> Documentation</a> </p> </td> 
+   <td colname="col7"> <p><a href="https://adobe-marketing-cloud.github.io/target-atjs-extensions/examples/angular/route_change_demo.html" scope="external" format="html"> Demo</a> </p> <p> <a href="https://github.com/Adobe-Marketing-Cloud/target-spa-extensions/wiki/Angular-ngRoute" scope="external" format="http"> Documentation</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Ui-router </p> </td> 
@@ -44,7 +44,7 @@ There are many options for implementing Target in single-page applications with 
    <!-- <entry colname="col3"> <p> <ul id="ul_09E8114B138748ED9AC7971A87FFBF6C"> <li id="li_6DC9942B0E16473E88CC62F80ADFE236"> Earliest possible firing of an mbox on the route change </li> <li id="li_CAB6CCFE15104687800325F6C13C0685"> Excellent flicker handling. Enforces sequencing of the mbox response and DOM updates, offering excellent capabilities for flicker-control when used with DOM-manipulation type offers. </li> </ul> </p> </entry> <entry colname="col4">Might fire before you have updated your data layer </entry> --> 
    <td colname="col5"> <p>Yes </p> </td> 
    <td colname="col6"> <p>target-global-mbox </p> </td> 
-   <td colname="col7"> <p><a href="http://adobe-marketing-cloud.github.io/target-atjs-extensions/examples/angular/state_change_demo.html" scope="external" format="html"> Demo</a> </p> <p><a href="https://github.com/Adobe-Marketing-Cloud/target-spa-extensions/wiki/Angular-UIRouter" scope="external" format="http"> Documentation</a> </p> </td> 
+   <td colname="col7"> <p><a href="https://adobe-marketing-cloud.github.io/target-atjs-extensions/examples/angular/state_change_demo.html" scope="external" format="html"> Demo</a> </p> <p><a href="https://github.com/Adobe-Marketing-Cloud/target-spa-extensions/wiki/Angular-UIRouter" scope="external" format="http"> Documentation</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Directive </p> </td> 
@@ -52,14 +52,14 @@ There are many options for implementing Target in single-page applications with 
    <!-- <entry colname="col3"> Excellent flicker handling </entry> <entry colname="col4"> Requires use of the form-based composer </entry> --> 
    <td colname="col5"> <p>Yes </p> </td> 
    <td colname="col6"> <p>Custom per content </p> </td> 
-   <td colname="col7"> <p><a href="http://adobe-marketing-cloud.github.io/target-atjs-extensions/examples/angular/directive_example.html#/view1" scope="external" format="html"> Demo</a> </p> <p><a href="https://github.com/Adobe-Marketing-Cloud/target-spa-extensions/wiki/Angular-Directive" scope="external" format="http"> Documentation</a> </p> </td> 
+   <td colname="col7"> <p><a href="https://adobe-marketing-cloud.github.io/target-atjs-extensions/examples/angular/directive_example.html#/view1" scope="external" format="html"> Demo</a> </p> <p><a href="https://github.com/Adobe-Marketing-Cloud/target-spa-extensions/wiki/Angular-Directive" scope="external" format="http"> Documentation</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Component </p> </td> 
    <td colname="col2"> <p>React </p> </td> 
    <td colname="col5"> <p>No </p> </td> 
    <td colname="col6"> <p>Custom per content </p> </td> 
-   <td colname="col7"> <p><a href="http://adobe-marketing-cloud.github.io/target-atjs-extensions/examples/react/react_component_demo.html" scope="external" format="html"> Demo</a> </p> <p><a href="https://github.com/Adobe-Marketing-Cloud/target-atjs-extensions/wiki/React-Component" scope="external" format="https"> Documentation</a> </p> </td> 
+   <td colname="col7"> <p><a href="https://adobe-marketing-cloud.github.io/target-atjs-extensions/examples/react/react_component_demo.html" scope="external" format="html"> Demo</a> </p> <p><a href="https://github.com/Adobe-Marketing-Cloud/target-atjs-extensions/wiki/React-Component" scope="external" format="https"> Documentation</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Custom event </p> </td> 
@@ -76,7 +76,7 @@ There are many options for implementing Target in single-page applications with 
    <!-- <entry colname="col3"> <p> <ul id="ul_D27476145B8841FEB4B020FDE87CE1D1"> <li id="li_A721ECBEA3E9435386C5CC240D47F249"> Easiest to implement </li> <li id="li_FAD0033B8F134252B34C173CC005A299">Works great with adding new content </li> </ul> </p> </entry> <entry colname="col4"> No guarantee of flicker-handling. No sequencing of DOM updates with mbox calls, which might result in flicker of default content. </entry> --> 
    <td colname="col5"> <p>Yes </p> </td> 
    <td colname="col6"> <p>target-global-mbox </p> </td> 
-   <td colname="col7"> <p><a href="http://adobe-marketing-cloud.github.io/target-atjs-extensions/examples/angular/hash_change_event.html" scope="external" format="html"> Demo</a> </p> <p><a href="https://github.com/Adobe-Marketing-Cloud/target-spa-extensions/wiki/Hash-Change" scope="external" format="http"> Documentation</a> </p> </td> 
+   <td colname="col7"> <p><a href="https://adobe-marketing-cloud.github.io/target-atjs-extensions/examples/angular/hash_change_event.html" scope="external" format="html"> Demo</a> </p> <p><a href="https://github.com/Adobe-Marketing-Cloud/target-spa-extensions/wiki/Hash-Change" scope="external" format="http"> Documentation</a> </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -209,7 +209,7 @@ The response parameter passed to the success callback will be an array of action
                 "passMboxSession": false, 
                 "selector": "body", 
                 "action": "redirect", 
-                "url": "http://example.com/04.html", 
+                "url": "https://example.com/04.html", 
                 "includeAllUrlParameters": true 
             }] 
         } 
@@ -401,7 +401,7 @@ Here are the API details:
 **Example**
 
 ```
-<a href="http://asite.com">click me!</a> 
+<a href="https://asite.com">click me!</a> 
 ```
 
 plus javaScript code to assign `trackEvent`:
@@ -662,7 +662,7 @@ The Library Header field allows you to enter free-form JavaScript. The customiza
 window.targetGlobalSettings = {  
    timeout: 200, // using custom timeout  
    visitorApiTimeout: 500, // using custom API timeout  
-   enabled: document.location.href.indexOf('http://www.adobe.com') >= 0 // enabled ONLY on adobe.com  
+   enabled: document.location.href.indexOf('https://www.adobe.com') >= 0 // enabled ONLY on adobe.com  
 };
 ```
 

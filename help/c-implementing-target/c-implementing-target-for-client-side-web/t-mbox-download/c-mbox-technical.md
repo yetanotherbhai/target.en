@@ -41,7 +41,7 @@ In addition, the following snippet is used for polling the DOM:
 
 When you use the [!UICONTROL Visual Experience Composer] to set up an experience for an activity, your web page is opened in an iFrame. When the iFrame is loaded, Standard sends an HTML5 `postMessage` API call. [!DNL Target.js] detects any `postMessage` calls and includes the following JavaScript libraries on the website:
 
-* For thumbnail generation: [!DNL http://html2canvas.hertzen.com/] 
+* For thumbnail generation: [!DNL https://html2canvas.hertzen.com/] 
 * For cross-domain query: [!DNL Admin.js], [!DNL CDQ.base.js], [!DNL CDQ.host.js], [!DNL admin.css], used to send messages across the iFrames. These scripts allow Adobe to send data between the pages.
 
 ## Considerations for Angular Sites and Single-Page Applications {#section_16D76F16077A434FAE8CEC6FD43BE6D7}

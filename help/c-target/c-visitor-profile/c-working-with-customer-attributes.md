@@ -60,7 +60,7 @@ Detailed instructions for completing each of the following tasks can be found in
 
    Data files up to 100 MB can be uploaded using the HTTP method. Files larger than 100 MB, up to 4 GB can be uploaded through FTP.
 
-    * **HTTP: **You can drag-and-drop the [!DNL .csv] data file or click [!UICONTROL Browse] to upload from your file system. 
+    * **HTTPS: **You can drag-and-drop the [!DNL .csv] data file or click [!UICONTROL Browse] to upload from your file system. 
     * **FTP: **Click on FTP link to [upload file through FTP](https://marketing.adobe.com/resources/help/en_US/mcloud/t_upload_attributes_ftp.html). First step is to provide a password for the Adobe-provided FTP server. Enter the password, then click [!UICONTROL Done].
 
       Now transfer your CSV/ZIP/GZIP file to the FTP server. Once this file transfer is successful, create a new file with same name and [!DNL .fin] extension. Transfer this empty file to the server. This indicates a End Of Transfer and the Experience Cloud starts to process data file.

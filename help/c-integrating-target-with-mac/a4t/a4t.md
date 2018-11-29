@@ -29,7 +29,7 @@ The three primary benefits of using Analytics data in Target are:
 
 >[!IMPORTANT]
 >
->Before you can begin using A4T, you need to request that your account be provisioned for the integration. Use [this form](http://www.adobe.com/go/audiences) to request to be provisioned.
+>Before you can begin using A4T, you need to request that your account be provisioned for the integration. Use [this form](https://www.adobe.com/go/audiences) to request to be provisioned.
 
 >[!NOTE]
 >

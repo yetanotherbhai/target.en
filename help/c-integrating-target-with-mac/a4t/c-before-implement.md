@@ -22,7 +22,7 @@ Before you decide to use this integration, review the following sections and con
 
 >[!IMPORTANT]
 >
->Before you can begin using A4T, you need to request that your account be provisioned for the integration. Use [this form](http://www.adobe.com/go/audiences) to request to be provisioned.
+>Before you can begin using A4T, you need to request that your account be provisioned for the integration. Use [this form](https://www.adobe.com/go/audiences) to request to be provisioned.
 
 This A4T integration requires that you implement the following library versions, depending on whether you want to use redirect offers with A4T or not:
 

@@ -20,7 +20,7 @@ Use the open-source Velocity design language to customize recommendation designs
 
 ## Velocity Overview {#section_C431ACA940BC4210954C7AEFF6D03EA5}
 
-Information about Velocity can be found at [http://velocity.apache.org](http://velocity.apache.org).
+Information about Velocity can be found at [https://velocity.apache.org](https://velocity.apache.org).
 
 All Velocity logic, syntax, and so on can be used for a recommendation design. This means that you can create *for* loops, *if* statements, and other code using Velocity rather than JavaScript.
 

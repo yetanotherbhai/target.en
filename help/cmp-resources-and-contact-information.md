@@ -188,7 +188,7 @@ If you have missed previous newsletters, click the following links to ensure tha
    <td colname="col2"> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><a href="http://m.messages.adobe.com/rest/head/mirrorPage/@9hfJmMbdVctAma_Ylarpy1J8yxKovpv0Ir2mtII1o9LY9Vx-yD5ErE52GU0rvvvJU1C99FzQWFyqf2zHrBTcwlmSo7z4jMgjEH4-nVUdQS4XIfM3.html" format="html" scope="external"> June 2018 (Volume 1, Issue 6)</a> </p> </td> 
+   <td colname="col1"> <p><a href="https://m.messages.adobe.com/rest/head/mirrorPage/@9hfJmMbdVctAma_Ylarpy1J8yxKovpv0Ir2mtII1o9LY9Vx-yD5ErE52GU0rvvvJU1C99FzQWFyqf2zHrBTcwlmSo7z4jMgjEH4-nVUdQS4XIfM3.html" format="html" scope="external"> June 2018 (Volume 1, Issue 6)</a> </p> </td> 
    <td colname="col2"> <p>We are honored to have been named the only leader in The Forrester Wave™: Experience Optimization Platforms, Q2 2018 report and are so grateful to you, our customers, for your support and valuable feedback that helped our solution to earn this honor. Read our blog post on the report, learn five tips for transforming your optimization program from a sideshow, enjoy a recap of our recent Adobe Insider tour stop in Atlanta, and much more. </p> </td> 
   </tr> 
   <tr> 
@@ -228,7 +228,7 @@ target/r_problem.xml
 
 If you encounter issues or have questions when using Target, you have a number of options
 
-For questions, you can ask the Adobe Target experts in the [Experience Cloud community](https://forums.adobe.com/community/experience-cloud/marketing-cloud/target) ( [!DNL https://forums.adobe.com/community/experience-cloud/marketing-cloud/target]) or ask us on Twitter at [@AdobeExpCare](http://twitter.com/adobeexpcare) ( [!DNL http://twitter.com/adobeexpcare]).
+For questions, you can ask the Adobe Target experts in the [Experience Cloud community](https://forums.adobe.com/community/experience-cloud/marketing-cloud/target) ( [!DNL https://forums.adobe.com/community/experience-cloud/marketing-cloud/target]) or ask us on Twitter at [@AdobeExpCare](https://twitter.com/adobeexpcare) ( [!DNL https://twitter.com/adobeexpcare]).
 
 For technical issues or to log a bug you can contact Customer Care. To contact Customer Care by telephone, call 1-800-497-0335. Toll free numbers outside the United States can be found on the [Adobe Digital Marketing Customer Care Regional Phone Numbers](https://helpx.adobe.com/contact/dma-external/DMACustomeCareRegionalPhoneNumbers.html) page ( [!DNL https://helpx.adobe.com/contact/dma-external/DMACustomeCareRegionalPhoneNumbers.html]). When asked to select an option for your product, press 3 to contact the Target team.
 
@@ -287,7 +287,7 @@ Also prepare information related to the specific issue. For example, one of the 
 
 ## In Case of an Outage {#section_2CB3BC53E4C641F38D50949E2E7A2886}
 
-If you suspect there is an outage, first check the [Experience Cloud System Status page](http://status.adobe.com) ( [!DNL http://status.adobe.com]) This has a record of all outages, incidents and maintenance for Experience Cloud Solutions, including Target, and includes latest updates from our Tech Ops team. If you still require assistance, please ensure you know the following in addition to the information listed above when you contact Customer Care:
+If you suspect there is an outage, first check the [Experience Cloud System Status page](https://status.adobe.com) ( [!DNL https://status.adobe.com]) This has a record of all outages, incidents and maintenance for Experience Cloud Solutions, including Target, and includes latest updates from our Tech Ops team. If you still require assistance, please ensure you know the following in addition to the information listed above when you contact Customer Care:
 
 * Time outage started 
 * Explanation of what is occurring 
@@ -308,15 +308,15 @@ target/c_contact_and_legal.xml
 
 The Adobe Experience Cloud Customer Care team is here to assist you and provides a number of mechanisms by which they can be engaged:
 
-* [Check the Experience Cloud help pages for advice, tips, and FAQs](http://helpx.adobe.com/marketing-cloud.html) 
+* [Check the Experience Cloud help pages for advice, tips, and FAQs](https://helpx.adobe.com/marketing-cloud.html) 
 * [Ask us a quick question on Twitter @AdobeExpCare](https://twitter.com/adobeexpcare) 
 * [Log an incident in our customer portal](https://customers.omniture.com/login.php) 
-* [Contact the Customer Care team directly](http://helpx.adobe.com/marketing-cloud/contact-support.html) 
-* [Check availability and status of Experience Cloud Solutions](http://status.adobe.com/)
+* [Contact the Customer Care team directly](https://helpx.adobe.com/marketing-cloud/contact-support.html) 
+* [Check availability and status of Experience Cloud Solutions](https://status.adobe.com/)
 
 To receive advance notifications about upcoming product enhancements, sign up for the Adobe Priority Product Update:
 
-[http://response.adobesystemsinc.com/content/customer-success-subscription](http://response.adobesystemsinc.com/content/customer-success-subscription)
+[https://response.adobesystemsinc.com/content/customer-success-subscription](https://response.adobesystemsinc.com/content/customer-success-subscription)
 
 ## Service, Capability & Billing {#section_FA4F5274FDFE4DF7BB079E575877DFC2}
 
@@ -333,8 +333,8 @@ We welcome any suggestions or feedback regarding this solution. Enhancement idea
  <li> Published by Adobe Systems Incorporated. </li> 
 </ul>
 
-[Terms of Use](http://www.adobe.com/go/marketingcloud_terms_of_use) | [Privacy Center](http://www.adobe.com/privacy.html)
+[Terms of Use](https://www.adobe.com/go/marketingcloud_terms_of_use) | [Privacy Center](https://www.adobe.com/privacy.html)
 
 Adobe and the Adobe logo are either registered trademarks or trademarks of Adobe Systems Incorporated in the United States and/or other countries. A trademark symbol (®, ™, etc.) denotes an Adobe trademark.
 
-All third-party trademarks are the property of their respective owners. Updated Information/Additional Third Party Code Information available at [http://www.adobe.com/go/thirdparty](http://www.adobe.com/products/eula/third_party/). 
+All third-party trademarks are the property of their respective owners. Updated Information/Additional Third Party Code Information available at [https://www.adobe.com/go/thirdparty](https://www.adobe.com/products/eula/third_party/). 

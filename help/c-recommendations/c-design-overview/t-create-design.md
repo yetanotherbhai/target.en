@@ -37,7 +37,7 @@ You can create a [!UICONTROL Recommendations] design using a default design or b
    When you use a default design, the design name and "Copy" will appear in the **[!UICONTROL Content Name]** field. You can edit the name. 1. (Optional) Click  to select an image to display on the design card.
 1. Edit the design **[!UICONTROL Code]**.
 
-   Recommendation designs use the open-source Velocity design language. Information about Velocity can be found at [http://velocity.apache.org](http://velocity.apache.org).
+   Recommendation designs use the open-source Velocity design language. Information about Velocity can be found at [https://velocity.apache.org](https://velocity.apache.org).
 
    A design can be HTML or non-HTML. By default, HTML designs are wrapped with a <div> tag to allow for click-tracking in a Web environment. Non-HTML designs are for non-Web environments where click-tracking is not possible.
 

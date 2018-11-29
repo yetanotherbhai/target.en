@@ -425,7 +425,7 @@ A list of frequently asked questions about using the features in Adobe Target, a
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Where can I learn more about Target APIs? </p> </td> 
-   <td colname="col2"> <p> We have exhaustive <a href="http://developers.adobetarget.com" format="http" scope="external"> documentation around APIs</a> and also have a postman collection to help you get started quickly. </p> </td> 
+   <td colname="col2"> <p> We have exhaustive <a href="https://developers.adobetarget.com" format="http" scope="external"> documentation around APIs</a> and also have a postman collection to help you get started quickly. </p> </td> 
   </tr> 
  </tbody> 
 </table>

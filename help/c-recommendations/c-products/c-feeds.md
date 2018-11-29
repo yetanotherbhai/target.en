@@ -76,8 +76,8 @@ The following is sample code for a .csv file:
 ## RECSThe last 100 columns (entity.custom1 - entity.custom100) are custom. The name 'customN' can be replaced with a custom name such as 'onSale' or 'brand'. 
 ## RECSIf the products already exist in Recommendations then changes uploaded here will override the data in Recommendations. Any new attributes entered here will be added to the product''s entry in Recommendations. 
 ## RECSentity.id,entity.name,entity.categoryId,entity.message,entity.thumbnailUrl,entity.value,entity.pageUrl,entity.inventory,entity.margin,entity.last_updated_by,entity.multi_english,entity.availability,entity.tax_country,entity.tax_region,entity.tax_rate,entity.product_type,entity.item_group_id,entity.color,entity.size,entity.brand,entity.gtin 
-na3456,RipCurl Watch with Titanium Dial,Watches & Sport,Cutting edge titanium with round case,http://example.com/s7/na3456_Viewer,425,http://example.com/shop/en-us/na3456_RipCurl,24,0.25,csv,"[""New"",""Web"",""Sales"",""[1,2,34,5]""]",in stock,US,CA,9.25,Shop by Category > Watches,dz1,Titanium,44mm,RipCurl,"075380 01050 5" 
-na3457,RipCurl Watch with Black Dial,Watches & Sport,Cutting edge matte black with round case,http://example.com/s7/na3457_Viewer,275,http://example.com/shop/en-us/na3457_RipCurl,24,0.27,csv,"[""New"",""Web"",""Sales"",""[1,2,34,5]""]",in stock,US,CA,9.25,Shop by Category > Watches,dz1,Black,44mm,RipCurl,"075340 01060 7"
+na3456,RipCurl Watch with Titanium Dial,Watches & Sport,Cutting edge titanium with round case,https://example.com/s7/na3456_Viewer,425,https://example.com/shop/en-us/na3456_RipCurl,24,0.25,csv,"[""New"",""Web"",""Sales"",""[1,2,34,5]""]",in stock,US,CA,9.25,Shop by Category > Watches,dz1,Titanium,44mm,RipCurl,"075380 01050 5" 
+na3457,RipCurl Watch with Black Dial,Watches & Sport,Cutting edge matte black with round case,https://example.com/s7/na3457_Viewer,275,https://example.com/shop/en-us/na3457_RipCurl,24,0.27,csv,"[""New"",""Web"",""Sales"",""[1,2,34,5]""]",in stock,US,CA,9.25,Shop by Category > Watches,dz1,Black,44mm,RipCurl,"075340 01060 7"
 ```
 
 ## Google {#section_8EFA98B5BC064140B3F74534AA93AFFF}
@@ -92,7 +92,7 @@ If you have an existing Google product feed, then you can use that as your impor
 >
 >It is not required to use Google data. [!DNL Recommendations] just uses the same format as Google. You can use this method to upload any data you have, and use the available scheduling features. However, you must retain Google's predefined attribute names when you set up the file.
 
-Most retailers upload products to Google, so when a visitor uses Google product search, their products will show up. [!DNL Recommendations] follows Google's specification exactly for entity feeds. Entity feeds can be sent to [!DNL Recommendations] via [!DNL .xml], [!DNL .txt], or [!DNL .tsv], and can use the [attributes defined by Google](https://support.google.com/merchants/answer/188494?hl=en&topic=2473824&ctx=topic#US). The results are searchable on the [Google shopping pages](http://www.google.com/prdhp).
+Most retailers upload products to Google, so when a visitor uses Google product search, their products will show up. [!DNL Recommendations] follows Google's specification exactly for entity feeds. Entity feeds can be sent to [!DNL Recommendations] via [!DNL .xml], [!DNL .txt], or [!DNL .tsv], and can use the [attributes defined by Google](https://support.google.com/merchants/answer/188494?hl=en&topic=2473824&ctx=topic#US). The results are searchable on the [Google shopping pages](https://www.google.com/prdhp).
 
 >[!NOTE]
 >
@@ -110,25 +110,25 @@ The following is sample code for a Google Product Search feed .xml file:
 
 ```
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?> 
-<feed xmlns="http://www.w3.org/2005/Atom" xmlns:ns2="http://base.google.com/ns/1.0" xmlns:ns3="http://base.google.com/cns/1.0"> 
+<feed xmlns="https://www.w3.org/2005/Atom" xmlns:ns2="https://base.google.com/ns/1.0" xmlns:ns3="https://base.google.com/cns/1.0"> 
     <title>Product Feed</title> 
-    <link href="http://example.com"/> 
+    <link href="https://example.com"/> 
     <updated>2017-12-13T08:45:04.918-08:00</updated> 
     <author> 
         <name>Product Feed Author</name> 
     </author> 
-    <id>http://example.com</id> 
+    <id>https://example.com</id> 
     <entry> 
         <title>RipCurl Watch with Titanium Dial</title> 
         <description>Cutting edge Titanium with Round case</description> 
         <ns2:id>na3452</ns2:id> 
-        <ns2:link>http://example.com/shop/en-us/na3452_RipCurl</ns2:link> 
+        <ns2:link>https://example.com/shop/en-us/na3452_RipCurl</ns2:link> 
         <ns2:availability>in stock</ns2:availability> 
         <ns2:condition>NEW</ns2:condition> 
         <ns2:google_product_category>Watches &amp; Sport</ns2:google_product_category> 
         <ns2:gtin>075380 01050 5</ns2:gtin> 
-        <ns2:image_link>http://example.com/s7/na3452_Viewer</ns2:image_link> 
-        <ns2:mobile_link>http://m.example.com/s7/na3452_Viewer</ns2:mobile_link> 
+        <ns2:image_link>https://example.com/s7/na3452_Viewer</ns2:image_link> 
+        <ns2:mobile_link>https://m.example.com/s7/na3452_Viewer</ns2:mobile_link> 
         <ns2:mpn>71050</ns2:mpn> 
         <ns2:price>425</ns2:price> 
         <ns2:product_review_average>5.0</ns2:product_review_average> 
@@ -148,13 +148,13 @@ The following is sample code for a Google Product Search feed .xml file:
         <title>RipCurl Watch with Black Dial</title> 
         <description>Cutting edge matte black with Round case</description> 
         <ns2:id>na3453</ns2:id> 
-        <ns2:link>http://example.com/shop/en-us/na3453_RipCurl</ns2:link> 
+        <ns2:link>https://example.com/shop/en-us/na3453_RipCurl</ns2:link> 
         <ns2:availability>in stock</ns2:availability> 
         <ns2:condition>NEW</ns2:condition> 
         <ns2:google_product_category>Watches &amp; Sport</ns2:google_product_category> 
         <ns2:gtin>075380 013450 5</ns2:gtin> 
-        <ns2:image_link>http://example.com/s7/na3453_Viewer</ns2:image_link> 
-        <ns2:mobile_link>http://m.example.com/s7/na3453_Viewer</ns2:mobile_link> 
+        <ns2:image_link>https://example.com/s7/na3453_Viewer</ns2:image_link> 
+        <ns2:mobile_link>https://m.example.com/s7/na3453_Viewer</ns2:mobile_link> 
         <ns2:mpn>71050</ns2:mpn> 
         <ns2:price>275</ns2:price> 
         <ns2:product_review_average>4.8</ns2:product_review_average> 
@@ -178,8 +178,8 @@ The following is sample code for a Google Product Search feed .tsv file:
 
 ```
 id    title    description    link    price    condition    availability    image_link    tax    shipping_weight    shipping    google_product_category    product_type    item_group_id    color    size    gender    age_group    pattern    brand    gtin    mpn 
-na3454    RipCurl Watch with Titanium Dial    Cutting edge titanium with round case    http://example.com/shop/en-us/na3454_RipCurl    425    new    in stock    http://example.com/s7/na3452_Viewer    US:CA:9.25:y    1.5 oz    US:::0.00 USD    Watches & Sport    Shop by Category > Watches    dz1    Black    44mm    male    adult    Solid    RipCurl    075380 01050 5    DZ1437 
-na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round case    http://example.com/shop/en-us/na3455_RipCurl    275    new    in stock    http://example.com/s7/na3452_Viewer    US:CA:9.25:y    1.5 oz    US:::0.00 USD    Watches & Sport    Shop by Category > Watches    dz1    Black    44mm    male    adult    Solid    RipCurl    075340 01060 7    DZ1446
+na3454    RipCurl Watch with Titanium Dial    Cutting edge titanium with round case    https://example.com/shop/en-us/na3454_RipCurl    425    new    in stock    https://example.com/s7/na3452_Viewer    US:CA:9.25:y    1.5 oz    US:::0.00 USD    Watches & Sport    Shop by Category > Watches    dz1    Black    44mm    male    adult    Solid    RipCurl    075380 01050 5    DZ1437 
+na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round case    https://example.com/shop/en-us/na3455_RipCurl    275    new    in stock    https://example.com/s7/na3452_Viewer    US:CA:9.25:y    1.5 oz    US:::0.00 USD    Watches & Sport    Shop by Category > Watches    dz1    Black    44mm    male    adult    Solid    RipCurl    075340 01060 7    DZ1446
 ```
 
 ## Analytics Product Classifications {#section_79E430D2C75443BEBC9AA0916A337E0A}

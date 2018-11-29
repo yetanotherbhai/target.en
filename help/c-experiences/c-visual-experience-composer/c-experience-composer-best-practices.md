@@ -136,7 +136,7 @@ By following these best practices, you are less likely to encounter unexpected p
    <td colname="col1"> <p>Important text on the site that might be used for targeting should be kept in HTML code within an element. </p> </td> 
    <td colname="col2"> <p>For example, you cannot target Shopping Cart text in the VEC if your code is like the following: </p> 
     <codeblock>
-      &lt;a&nbsp;href="http://www.botanicchoice.com/shop.axd/Cart"&gt; 
+      &lt;a&nbsp;href="https://www.botanicchoice.com/shop.axd/Cart"&gt; 
      
 &nbsp;&nbsp;&nbsp;&lt;img&nbsp;alt="Shopping&nbsp;Cart"&nbsp;src="/images/ico-cart.gif"&gt;&lt;/img&gt; 
      
@@ -184,7 +184,7 @@ By following these best practices, you are less likely to encounter unexpected p
       
 &lt;body&gt; 
       
-&nbsp;&nbsp;&lt;iframe&nbsp;src="http://www.homedepot.com"&lt;/iframe&gt; 
+&nbsp;&nbsp;&lt;iframe&nbsp;src="https://www.homedepot.com"&lt;/iframe&gt; 
       
 &lt;/body&gt; 
       

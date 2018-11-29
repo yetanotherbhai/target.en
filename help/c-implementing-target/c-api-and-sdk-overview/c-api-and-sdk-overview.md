@@ -29,11 +29,11 @@ The following table lists the various APIs and the NodeJS SDK and provides addit
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><a href="http://developers.adobetarget.com/api/#server-side-delivery" format="http" scope="external"> Server Side Delivery APIs</a> </p> <p>/res/v1/mbox </p> </td> 
+   <td colname="col1"> <p><a href="https://developers.adobetarget.com/api/#server-side-delivery" format="http" scope="external"> Server Side Delivery APIs</a> </p> <p>/res/v1/mbox </p> </td> 
    <td colname="col2"> <p>Adobe Target lets your application make mbox calls from any browser, mobile device, or even another server. The Server Side delivery API is specifically designed to integrate Adobe Target with any server-side platform that makes HTTP/HTTPS calls. </p> <p>You can use the API to integrate your custom application with Target. This is especially valuable for organizations that want to deliver targeting to a non-browser based IoT device, such as a connected TV, kiosk, or in-store digital screen. </p> <p>This endpoint can return offers for ordinary mboxes only. You can also fetch content for a single mbox only. </p> <p>This API implements existing mbox features in a RESTful manner. </p> <p>This API does not process cookies or redirect calls. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><a href="http://developers.adobetarget.com/api/#server-side-batch-delivery" format="http" scope="external"> Server Side Batch Delivery APIs</a> </p> <p>/rest/v2/batchmbox </p> </td> 
+   <td colname="col1"> <p><a href="https://developers.adobetarget.com/api/#server-side-batch-delivery" format="http" scope="external"> Server Side Batch Delivery APIs</a> </p> <p>/rest/v2/batchmbox </p> </td> 
    <td colname="col2"> <p>The Batch Delivery API lets your application request content for multiple mboxes in a single call. It also has a prefetch mode that enables clients like mobile apps, servers, and so forth to fetch content for multiple mboxes in one request, cache it locally, and later notify Target when the user visits those mboxes. </p> <p>This endpoint can return offers for ordinary mboxes only. Because you can fetch content for multiple mboxes, for performance, it makes more sense to use batch the mbox API. It lets you avoid executing multiple HTTP requests, which can be expensive. </p> </td> 
   </tr> 
   <tr> 

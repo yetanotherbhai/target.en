@@ -44,7 +44,7 @@ Video introductions to [!DNL Target] concepts and tools are available on the [Ad
 
 ## Adobe Video Training Resource {#section_72038F5E77BE48C183DEB4DDE709B0DC}
 
-Video introductions to [!DNL Target] concepts and tools are available on Adobe's [video learning resource](http://www.adobe.com/training/video.html).
+Video introductions to [!DNL Target] concepts and tools are available on Adobe's [video learning resource](https://www.adobe.com/training/video.html).
 
 ![](assets/menu-training-vids.png)
 

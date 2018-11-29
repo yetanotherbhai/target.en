@@ -32,7 +32,7 @@ The following table describes the steps required to deploy this integration to y
   <tr> 
    <td colname="col01"><img href="assets/step1_icon.png" id="image_21F30BBFC0A249F8B0E1A50EBBEED77D" /> </td> 
    <td colname="col1"> <p>Request provisioning for Analytics and Target. </p> </td> 
-   <td colname="col2"> <p>After you implement <span class="keyword"> Analytics</span> as the reporting source for <span class="keyword"> Target</span>, you must be provisioned for <span class="keyword"> Analytics</span> and <span class="keyword"> Target</span>. Use <a href="http://www.adobe.com/go/audiences" format="http" scope="external"> this form</a> to request to be provisioned. </p> </td> 
+   <td colname="col2"> <p>After you implement <span class="keyword"> Analytics</span> as the reporting source for <span class="keyword"> Target</span>, you must be provisioned for <span class="keyword"> Analytics</span> and <span class="keyword"> Target</span>. Use <a href="https://www.adobe.com/go/audiences" format="http" scope="external"> this form</a> to request to be provisioned. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"><img href="assets/step2_icon.png" id="image_76B61DEABE3849CCB39135FDD7399EAA" /> </td> 
@@ -67,12 +67,12 @@ The following table describes the steps required to deploy this integration to y
     <codeblock class="syntax html">
      &lt;script&nbsp;language="JavaScript"&nbsp;type="text/javascript"&nbsp;
      
-src="http://INSERT-DOMAIN-AND-PATH-TO-CODE-HERE/at.js"&gt;&lt;/script&gt;
+src="https://INSERT-DOMAIN-AND-PATH-TO-CODE-HERE/at.js"&gt;&lt;/script&gt;
     </codeblock> <p>For <span class="codeph"> mbox.js</span>: </p> 
     <codeblock class="syntax html">
      &lt;script&nbsp;language="JavaScript"&nbsp;type="text/javascript"&nbsp;
      
-src="http://INSERT-DOMAIN-AND-PATH-TO-CODE-HERE/mbox.js"&gt;&lt;/script&gt;
+src="https://INSERT-DOMAIN-AND-PATH-TO-CODE-HERE/mbox.js"&gt;&lt;/script&gt;
     </codeblock> <p>It is essential that <span class="codeph"> VisitorAPI.js</span> is loaded before <span class="codeph"> at.js</span> or <span class="codeph"> mbox.js</span>, so if you are updating an existing <span class="codeph"> at.js</span> or <span class="codeph"> mbox.js</span> file, make sure that you verify the load order. </p> </td> 
   </tr> 
   <tr> 

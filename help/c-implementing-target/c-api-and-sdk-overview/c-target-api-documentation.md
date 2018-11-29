@@ -85,13 +85,13 @@ The new API methods are linked to the corresponding section in the API documenta
   <tr> 
    <td colname="col1"> <p>Campaign/Activity </p> </td> 
    <td colname="col2"> <p>Campaign Create </p> </td> 
-   <td colname="col3"> <p><a href="http://developers.adobetarget.com/api/#create-ab-activity" format="http" scope="external"> Create AB Activity</a> </p> <p><a href="http://developers.adobetarget.com/api/#create-xt-activity" format="http" scope="external"> Create XT Activity</a> </p> </td> 
+   <td colname="col3"> <p><a href="https://developers.adobetarget.com/api/#create-ab-activity" format="http" scope="external"> Create AB Activity</a> </p> <p><a href="https://developers.adobetarget.com/api/#create-xt-activity" format="http" scope="external"> Create XT Activity</a> </p> </td> 
    <td colname="col4"> <p>The new APIs provide separate create methods for AB and XT </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
    <td colname="col2"> <p>Campaign Update </p> </td> 
-   <td colname="col3"> <p><a href="http://developers.adobetarget.com/api/#update-ab-activity" format="http" scope="external"> Update AB Activity</a> </p> <p><a href="http://developers.adobetarget.com/api/#update-xt-activity" format="http" scope="external"> Update XT Activity</a> </p> </td> 
+   <td colname="col3"> <p><a href="https://developers.adobetarget.com/api/#update-ab-activity" format="http" scope="external"> Update AB Activity</a> </p> <p><a href="https://developers.adobetarget.com/api/#update-xt-activity" format="http" scope="external"> Update XT Activity</a> </p> </td> 
    <td colname="col4"> </td> 
   </tr> 
   <tr> 
@@ -103,19 +103,19 @@ The new API methods are linked to the corresponding section in the API documenta
   <tr> 
    <td colname="col1"> </td> 
    <td colname="col2"> <p>Campaign List </p> </td> 
-   <td colname="col3"> <p><a href="http://developers.adobetarget.com/api/#list-activities" format="http" scope="external"> List Activities</a> </p> </td> 
+   <td colname="col3"> <p><a href="https://developers.adobetarget.com/api/#list-activities" format="http" scope="external"> List Activities</a> </p> </td> 
    <td colname="col4"> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
    <td colname="col2"> <p>Campaign State </p> </td> 
-   <td colname="col3"> <p><a href="http://developers.adobetarget.com/api/#update-activity-state" format="http" scope="external"> Update Activity State</a> </p> </td> 
+   <td colname="col3"> <p><a href="https://developers.adobetarget.com/api/#update-activity-state" format="http" scope="external"> Update Activity State</a> </p> </td> 
    <td colname="col4"> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
    <td colname="col2"> <p>Campaign View </p> </td> 
-   <td colname="col3"> <p><a href="http://developers.adobetarget.com/api/#get-ab-activity-by-id" format="http" scope="external"> Get AB Activity by ID</a> </p> <p><a href="http://developers.adobetarget.com/api/#get-xt-activity-by-id" format="http" scope="external"> Get XT Activity by ID</a> </p> </td> 
+   <td colname="col3"> <p><a href="https://developers.adobetarget.com/api/#get-ab-activity-by-id" format="http" scope="external"> Get AB Activity by ID</a> </p> <p><a href="https://developers.adobetarget.com/api/#get-xt-activity-by-id" format="http" scope="external"> Get XT Activity by ID</a> </p> </td> 
    <td colname="col4"> </td> 
   </tr> 
   <tr> 
@@ -127,19 +127,19 @@ The new API methods are linked to the corresponding section in the API documenta
   <tr> 
    <td colname="col1"> <p>Offers </p> </td> 
    <td colname="col2"> <p>Offer Create </p> </td> 
-   <td colname="col3"> <p><a href="http://developers.adobetarget.com/api/#create-offer" format="http" scope="external"> Create Offer</a> </p> </td> 
+   <td colname="col3"> <p><a href="https://developers.adobetarget.com/api/#create-offer" format="http" scope="external"> Create Offer</a> </p> </td> 
    <td colname="col4"> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
    <td colname="col2"> <p>Offer Get </p> </td> 
-   <td colname="col3"> <p><a href="http://developers.adobetarget.com/api/#get-offer-by-id" format="http" scope="external"> Get Offer by ID</a> </p> </td> 
+   <td colname="col3"> <p><a href="https://developers.adobetarget.com/api/#get-offer-by-id" format="http" scope="external"> Get Offer by ID</a> </p> </td> 
    <td colname="col4"> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
    <td colname="col2"> <p>Offer List </p> </td> 
-   <td colname="col3"> <p><a href="http://developers.adobetarget.com/api/#list-offers" format="http" scope="external"> List Offers</a> </p> </td> 
+   <td colname="col3"> <p><a href="https://developers.adobetarget.com/api/#list-offers" format="http" scope="external"> List Offers</a> </p> </td> 
    <td colname="col4"> </td> 
   </tr> 
   <tr> 
@@ -151,25 +151,25 @@ The new API methods are linked to the corresponding section in the API documenta
   <tr> 
    <td colname="col1"> <p>Reporting </p> </td> 
    <td colname="col2"> <p>Campaign Performance Report </p> </td> 
-   <td colname="col3"> <p><a href="http://developers.adobetarget.com/api/#get-ab-performance-report" format="http" scope="external"> Get AB Performance Report</a> </p> <p><a href="http://developers.adobetarget.com/api/#get-xt-performance-report" format="http" scope="external"> Get XT Performance Report</a> </p> </td> 
+   <td colname="col3"> <p><a href="https://developers.adobetarget.com/api/#get-ab-performance-report" format="http" scope="external"> Get AB Performance Report</a> </p> <p><a href="https://developers.adobetarget.com/api/#get-xt-performance-report" format="http" scope="external"> Get XT Performance Report</a> </p> </td> 
    <td colname="col4"> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
    <td colname="col2"> <p>Audit Report </p> </td> 
-   <td colname="col3"><a href="http://developers.adobetarget.com/api/#get-audit-report" format="http" scope="external"> Get Audit Report </a> </td> 
+   <td colname="col3"><a href="https://developers.adobetarget.com/api/#get-audit-report" format="http" scope="external"> Get Audit Report </a> </td> 
    <td colname="col4"> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
    <td colname="col2"> <p>1-1 Content Report </p> </td> 
-   <td colname="col3"> <p><a href="http://developers.adobetarget.com/api/#get-ap-activity-performance-report" format="http" scope="external"> Get AP Performance Report</a> </p> </td> 
+   <td colname="col3"> <p><a href="https://developers.adobetarget.com/api/#get-ap-activity-performance-report" format="http" scope="external"> Get AP Performance Report</a> </p> </td> 
    <td colname="col4"> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Account Settings </p> </td> 
    <td colname="col2"> <p>Get Host Groups </p> </td> 
-   <td colname="col3"> <p><a href="http://developers.adobetarget.com/api/#list-environments" format="http" scope="external"> List Environments</a> </p> </td> 
+   <td colname="col3"> <p><a href="https://developers.adobetarget.com/api/#list-environments" format="http" scope="external"> List Environments</a> </p> </td> 
    <td colname="col4"> </td> 
   </tr> 
  </tbody> 

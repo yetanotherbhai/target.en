@@ -32,7 +32,7 @@ The following code is a sample API delivery request:
 
 ```
 curl -X POST \ 
-  'http://clientcode.tt.omtrdc.net/rest/v1/mbox/?client=clientcode' \ 
+  'https://clientcode.tt.omtrdc.net/rest/v1/mbox/?client=clientcode' \ 
   -H 'authorization: Bearer 3423614b-4843-4664-83c4-c6c3f6c8869b' \ 
   -H 'cache-control: no-cache' \ 
   -H 'content-type: application/json' \ 
@@ -59,7 +59,7 @@ Where `clientcode` is your Target client code.
 >
 >Be sure to provide a unique value for both `sessionId` and one of `tntId` or `thirdPartyId` for each email recipient (for example, for each API call). If you do not provide unique values for these fields, API response might slow or fail due to the large number of events generated within a single profile.
 
-See [Delivery API documentation](http://developers.adobetarget.com/api/#server-side-delivery) for more information.
+See [Delivery API documentation](https://developers.adobetarget.com/api/#server-side-delivery) for more information.
 
 ## Option 2: Use a Rawbox Email Template {#section_C0D48A42BCCE45D6A68852F722C7C352}
 
@@ -106,7 +106,7 @@ The email system you use should be capable of handling these scenarios:
 **Sample request URL:**
 
 ```
-http://client_code.tt.omtrdc.net/m2/client_code/ubox/raw?mbox=mbox_name&mboxSession=1396032094853-955654&mboxPC=1396032094853-955654&mboxXDomain=disabled&entity.event.detailsOnly=true&mboxDefault=nocontent&mboxNoRedirect=1&entity.id=2A229&entity.categoryId=5674
+https://client_code.tt.omtrdc.net/m2/client_code/ubox/raw?mbox=mbox_name&mboxSession=1396032094853-955654&mboxPC=1396032094853-955654&mboxXDomain=disabled&entity.event.detailsOnly=true&mboxDefault=nocontent&mboxNoRedirect=1&entity.id=2A229&entity.categoryId=5674
 ```
 
 **Required parameters:**
@@ -163,7 +163,7 @@ http://client_code.tt.omtrdc.net/m2/client_code/ubox/raw?mbox=mbox_name&mboxSess
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> mboxDefault </span> </p> </td> 
-   <td colname="col02"> <p><i>http://www.default.com</i> </p> </td> 
+   <td colname="col02"> <p><i>https://www.default.com</i> </p> </td> 
    <td colname="col2"> If the <span class="codeph"> mboxNoRedirect </span> parameter is not present, <span class="codeph"> mboxDefault </span> should be an absolute URL that will return default content if no recommendation is available. This can be an image or other static content. <p>If the <span class="codeph"> mboxNoRedirect </span> parameter is present, <span class="codeph"> mboxDefault </span> can be any text indicating there are no recommendations, for example <span class="codeph"> no_content </span>. </p> <p>The email provider will need to handle the case where this value is returned and insert default HTML into the email. </p> </td> 
    <td colname="col4"> </td> 
   </tr> 

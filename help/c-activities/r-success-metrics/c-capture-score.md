@@ -43,7 +43,7 @@ There are two methods to assign a score to a page:
 
 * Pass the `?mboxPageValue=n` parameter in the URL for the page.
 
-  Example: `http://www.mydomain.com?mboxPageValue=5`
+  Example: `https://www.mydomain.com?mboxPageValue=5`
 
   Using this method, the specified value is added to the score for each mbox on the page. For example, if you pass the parameter `?mboxPageValue=10`and there are three mboxes on the page, the score for the page is 30.
 

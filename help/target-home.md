@@ -175,15 +175,15 @@ Marketers, developers, administrators, analysts, and quality assurance engineers
       <li id="li_1E242B90A6D34CBEB5A62F64C7008FE3"> <a href="https://marketing.adobe.com/resources/help/en_US/target/recs/c_recommendations.html" format="https" scope="external"> Premium Recommendations</a> </li> 
       <li id="li_6093F1A07AA34D9A9952FD18547627D3"> <a href="https://marketing.adobe.com/resources/help/en_US/rec/" format="http" scope="external"> Recommendations Classic</a> </li> 
       <li id="li_C82E65DE81184F45BA4F10F6D32D7DE7"> <a href="https://marketing.adobe.com/resources/help/en_US/snp/" format="http" scope="external"> Search&amp;Promote</a> </li> 
-      <li id="li_C760B1A583A246009327EFA52B065BBE"> <a href="http://developers.adobetarget.com/" format="http" scope="external"> Target API Documentation</a> </li> 
+      <li id="li_C760B1A583A246009327EFA52B065BBE"> <a href="https://developers.adobetarget.com/" format="http" scope="external"> Target API Documentation</a> </li> 
      </ul> </p> </td> 
    <td colname="col2"> <p> 
      <ul id="ul_8E15489539FA46868A4A203E1452C331"> 
       <li id="li_C7DD673FFF3045F780A50622118EB96B"> <a href="https://forums.adobe.com/community/experience-cloud/marketing-cloud/target" format="https" scope="external"> Target Community Forum</a> </li> 
       <li id="li_1C766D0967974FA19C12A06196E1039B"> <a href="https://marketing.adobe.com/resources/help/en_US/whatsnew/" scope="external" format="https"> Experience Cloud Release Notes</a> </li> 
       <li id="li_877931933EC141558EAFB9E32834BA15"> <a href="https://marketing.adobe.com/resources/help/en_US/home/" scope="external" format="https"> Experience Cloud Help Home</a> </li> 
-      <li id="li_32F34F0C1A1147F1A2B474617CEBAE1A"> <a href="http://helpx.adobe.com/learning.html?promoid=KAUDK" scope="external" format="http"> Adobe Training and Tutorials</a> </li> 
-      <li id="li_63A175DA1A7A48C298F43B791D5C78CC"> <a href="http://www.omniture.com/en/products/online_business_optimization" scope="external" format="html"> Featured Solutions Center</a> </li> 
+      <li id="li_32F34F0C1A1147F1A2B474617CEBAE1A"> <a href="https://helpx.adobe.com/learning.html?promoid=KAUDK" scope="external" format="http"> Adobe Training and Tutorials</a> </li> 
+      <li id="li_63A175DA1A7A48C298F43B791D5C78CC"> <a href="https://www.omniture.com/en/products/online_business_optimization" scope="external" format="html"> Featured Solutions Center</a> </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 

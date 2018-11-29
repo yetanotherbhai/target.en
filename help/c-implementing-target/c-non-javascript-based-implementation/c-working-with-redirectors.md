@@ -49,7 +49,7 @@ ov2/t_creating-a-redirector.xml
 1. Create the Redirector URL.
 
    ```
-   http://<your_testandtarget_clientcode>.tt.omtrdc.net/​m2/yourclientcode/ubox/​page?mbox=redirectorlink_456
+   https://<your_testandtarget_clientcode>.tt.omtrdc.net/​m2/yourclientcode/ubox/​page?mbox=redirectorlink_456
    &mboxDefault=http%3A%2F%2Fwww%2Eyourcompany%2Ecom%2Fusualdestination%2Ehtm
    ```
 
@@ -71,7 +71,7 @@ ov2/t_creating-a-redirector.xml
   </tr> 
   <tr> 
    <td colname="col1"> <p>http%3A%2F%2Fwww%2Eyourcompany%2Ecom%2Fusualdestination%2Ehtm </p> </td> 
-   <td colname="col2"> <p>The default destination. </p> <p class="- topic/p ">This must be URL encoded and must be an absolute reference. </p> <p class="- topic/p ">Tip:<span class="+ topic/ph sw-d/filepath filepath"> http://www.w3schools.com/tags/ref_urlencode.asp</span> quickly encodes your URLs. </p> </td> 
+   <td colname="col2"> <p>The default destination. </p> <p class="- topic/p ">This must be URL encoded and must be an absolute reference. </p> <p class="- topic/p ">Tip:<span class="+ topic/ph sw-d/filepath filepath"> https://www.w3schools.com/tags/ref_urlencode.asp</span> quickly encodes your URLs. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -88,7 +88,7 @@ ov2/t_creating-a-redirector.xml
    Create a dummy page with an `<a href>` containing the Redirector URL. Example:
 
    ```
-   <a href=http://<your_clientcode>.tt.omtrdc.net/​m2/yourclientcode/ubox/​page?mbox=
+   <a href=https://<your_clientcode>.tt.omtrdc.net/​m2/yourclientcode/ubox/​page?mbox=
    
    redirectorlink_456&mboxDefault=http%3A%2F%2Fwww%2Eyourcompany%2Ecom%2F​usualdestination%2Ehtm>
    ```
@@ -135,8 +135,8 @@ Add `&mboxPageValue=-value` to the URL. Note the negative value.
 Example: For a .10 cents cost per click:
 
 ```
-http://<your_clientcode>.tt.omtrdc.net/​m2/yourclientcode/ubox/​page?mbox=redirectorlink_456
-&mboxPageValue=-0.1&mboxDefault=​http://www.yourcompany.com/usualdestination.htm
+https://<your_clientcode>.tt.omtrdc.net/​m2/yourclientcode/ubox/​page?mbox=redirectorlink_456
+&mboxPageValue=-0.1&mboxDefault=​https://www.yourcompany.com/usualdestination.htm
 ```
 
 ## Passing Revenue per Click {#section_3E48AC465E7D42DAAC51B4BFF83F64B1}
@@ -152,7 +152,7 @@ Add `&mboxPageValue=value` to the URL.
 Example: For a .10 cents revenue per click.
 
 ```
-http://<​your_clientcode>​​​​.tt​​.omtrdc​.net/​​m2/​yourclientcode/​ubox/​​​page?mbox=redirectorlink_456
+https://<​your_clientcode>​​​​.tt​​.omtrdc​.net/​​m2/​yourclientcode/​ubox/​​​page?mbox=redirectorlink_456
 &mboxPageValue=0.1​&mbox​Default=​​http%3A%2F%2Fwww%2E​yourcompany%2Ecom​%2Fusualdestination%2Ehtm
 ```
 

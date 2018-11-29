@@ -23,7 +23,7 @@ The Visual Experience Composer provides a visual interface for editing the exper
    >
    >If you are targeting an experience to an audience, you must select the audience before you can add an experience. A message appears to remind you to choose your audience.
 
-1. When prompted, enter the activity URL. Type the complete URL (including `http://`), then click **[!UICONTROL Continue]**.
+1. When prompted, enter the activity URL. Type the complete URL (including `https://`), then click **[!UICONTROL Continue]**.
 
    The Experience Composer (see [Experiences](../../../c-experiences/c-experiences.md#concept_1D011219034B492BB03C08B3BB80E3F0)) opens the page that is specified in your [Account Preferences](https://marketing.adobe.com/resources/help/en_US/target/target/t_account_preferences.html). To display a different page, click the Globe icon and enter the URL in the Select URL box in the Experience Composer and click **[!UICONTROL Continue]**. If you entered a URL for a site that does not include the Target Standard JavaScript code, you cannot select page elements.
 
@@ -90,7 +90,7 @@ The Visual Experience Composer provides a visual interface for editing the exper
        https://test.marketing.adobe.com/content/dam/mac/scholasticinc/Aug_MBM.jpeg?ch_ck=1470774943867
      </codeblock> </p> <p>After activity syncing, the delivery URL might look like the following example: </p> <p> 
      <codeblock>
-       http://s7d2.scene7.com/is/image/TargetTest/Aug_MBM?tm=1470768352933&amp;fit=constrain&amp;hei=173&amp;wid=300
+       https://s7d2.scene7.com/is/image/TargetTest/Aug_MBM?tm=1470768352933&amp;fit=constrain&amp;hei=173&amp;wid=300
      </codeblock> </p> <p> <p>Note:  Swapping images requires an Adobe Scene7 Publishing System account. </p> </p> </td> 
   </tr> 
   <tr class="- topic/row "> 

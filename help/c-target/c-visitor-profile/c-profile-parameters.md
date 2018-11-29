@@ -36,7 +36,7 @@ The following types of profile attributes are available:
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Mbox </p> </td> 
-   <td colname="col2"> <p>Passed in directly through page code when creating the mbox. See <a href="../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/c-pass-parameters-to-global-mbox.md#concept_33362A04146C4E3C8E7089B65F38B5E5" format="dita" scope="local"> Passing Parameters to a Global Mbox </a>. </p> <p> <p>Note:  <span class="keyword"> Target </span> has a limit of 50 unique profile attributes per mbox call. If you need to pass more than 50 profile attributes to <span class="keyword"> Target </span>, you can pass them using the <span class="wintitle"> Profile Update </span> API method. For more information, see <a href="http://developers.adobetarget.com/api/#updating-profiles" format="http" scope="external"> Profile Update </a> in the Adobe Target API documentation. </p> </p> </td> 
+   <td colname="col2"> <p>Passed in directly through page code when creating the mbox. See <a href="../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/c-pass-parameters-to-global-mbox.md#concept_33362A04146C4E3C8E7089B65F38B5E5" format="dita" scope="local"> Passing Parameters to a Global Mbox </a>. </p> <p> <p>Note:  <span class="keyword"> Target </span> has a limit of 50 unique profile attributes per mbox call. If you need to pass more than 50 profile attributes to <span class="keyword"> Target </span>, you can pass them using the <span class="wintitle"> Profile Update </span> API method. For more information, see <a href="https://developers.adobetarget.com/api/#updating-profiles" format="http" scope="external"> Profile Update </a> in the Adobe Target API documentation. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Script </p> </td> 
@@ -109,7 +109,7 @@ if (mbox.name == 'Track_Interest') {
 * Parameters and values are case sensitive.
 
   Match the case of the parameters and values you will receive during the campaign or test. 
-* Reference the [JavaScript Expressions for Targeters and Profile Scripts Cheat Sheet](http://marketing.adobe.com/resources/help/en_US/tnt/pdf/js_expression_cheat_sheet.pdf) for more JavaScript syntax.
+* Reference the [JavaScript Expressions for Targeters and Profile Scripts Cheat Sheet](https://marketing.adobe.com/resources/help/en_US/tnt/pdf/js_expression_cheat_sheet.pdf) for more JavaScript syntax.
 
 ## Viewing Profile Script Information Cards {#section_18EA3B919A8E49BBB09AA9215E1E3F17}
 
@@ -168,7 +168,7 @@ The following guidelines are meant to help write simplified profile scripts that
 * Do not exceed 2,000 JavaScript instructions. Target has limit of 2,000 JavaScript instructions per script, but this cannot simply be calculated by manually reading the JavaScript. For example, Rhino treats all function calls and "new" calls as 100 instructions. Also, the size of any entry data, such as URL values, can impact the instructions count. 
 * Be mindful of not only the script performance, but the combined performance of all scripts. As best practice, we recommend fewer than 5,000 instructions in total. Counting the number of instructions is not obvious, but the important thing to note is that scripts exceeding 2 KB are automatically disabled. There is no set limit to the number of scripts you can run, but each script is executed with every single mbox call. Run only as many scripts as needed. 
 * If all fails, wrap script in a try/catch. 
-* See the JS Rhino engine documentation for more information: [http://www.mozilla.org/rhino/doc.html](http://www.mozilla.org/rhino/doc.html).
+* See the JS Rhino engine documentation for more information: [https://www.mozilla.org/rhino/doc.html](https://www.mozilla.org/rhino/doc.html).
 
 ## Profile Scripts to Test Mutually Exclusive Activities {#section_FEFE50ACA6694DE7BF1893F2EFA96C01}
 

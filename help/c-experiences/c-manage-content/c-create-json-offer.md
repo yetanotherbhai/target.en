@@ -91,7 +91,7 @@ Let's say the following JSON offer gets delivered to your web page:
     "guid": "7c006504-c6f7-468d-a46f-f72531ea454c", 
     "isActive": true, 
     "balance": "$2,075.06", 
-    "picture": "http://placehold.it/32x32", 
+    "picture": "https://placehold.it/32x32", 
     "tags": [ 
       "esse", 
       "commodo", 

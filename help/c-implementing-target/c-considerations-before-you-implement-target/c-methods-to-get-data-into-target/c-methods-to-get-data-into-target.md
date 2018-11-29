@@ -43,7 +43,7 @@ Information about the various methods you can use to get data into Target, inclu
      <ul id="ul_48E6B180B9984B1C937524C671DFB8B6"> 
       <li id="li_13DA7ECE7D744815BE6B5CF581B8525A"> <p>Requires page code update (directly or via a tag management system). </p> </li> 
       <li id="li_D419E3CA1FFB4AB3BD1CFCBE94142763"> <p>If the data needs to be used for targeting on a subsequent page/server call, it needs to be translated to a profile script. </p> </li> 
-      <li id="li_74DF8228F033420DB5CABA1F6C358309"> <p>Query strings can contain only characters as per the <a href="http://www.ietf.org/rfc/rfc3986.txt" format="txt" scope="external"> Internet Engineering Task Force (IETF) standard </a>. </p> <p>In addition to those mentioned on the IETF site, Target allows the following characters in query stings: </p> <p>&lt; &gt; # % " { } | \ ^ [] ` </p> <p>Everything else must be url-encoded. The standard specifies the following format ( <a href="http://www.ietf.org/rfc/rfc1738.txt" format="txt" scope="external"> http://www.ietf.org/rfc/rfc1738.txt </a>), as illustrated below: </p> <p style="text-align: center;"> <img href="assets/ietf1.png" id="image_6EFD6F1CE7D44F67B60DEF72FE92C909" /> </p> <p>Or, the full list for simplicity: </p> <p style="text-align: center;"> <img href="assets/ietf2.png" id="image_C0FD032BC10D4C7B9B5F8C2829D4D446" /> </p> </li> 
+      <li id="li_74DF8228F033420DB5CABA1F6C358309"> <p>Query strings can contain only characters as per the <a href="https://www.ietf.org/rfc/rfc3986.txt" format="txt" scope="external"> Internet Engineering Task Force (IETF) standard </a>. </p> <p>In addition to those mentioned on the IETF site, Target allows the following characters in query stings: </p> <p>&lt; &gt; # % " { } | \ ^ [] ` </p> <p>Everything else must be url-encoded. The standard specifies the following format ( <a href="https://www.ietf.org/rfc/rfc1738.txt" format="txt" scope="external"> https://www.ietf.org/rfc/rfc1738.txt </a>), as illustrated below: </p> <p style="text-align: center;"> <img href="assets/ietf1.png" id="image_6EFD6F1CE7D44F67B60DEF72FE92C909" /> </p> <p>Or, the full list for simplicity: </p> <p style="text-align: center;"> <img href="assets/ietf2.png" id="image_C0FD032BC10D4C7B9B5F8C2829D4D446" /> </p> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
@@ -267,15 +267,15 @@ if&nbsp;(lastPurchaseTime)&nbsp;{
   </tr> 
   <tr> 
    <td colname="col1"> <p>Caveats </p> </td> 
-   <td colname="col2"> <p>The size of the batch file must be less than 50 MB. In addition, the total number of rows should not exceed 500,000 rows per upload. </p> <p>There is no limit on the number or rows you can upload over a period of 24 hours in subsequent batches. However, the ingestion process might be throttled during business hours to ensure that other processes run efficiently. </p> <p>Consecutive <a href="http://developers.adobetarget.com/api/#updating-profiles" format="http" scope="external"> V2 batch update calls </a> without mbox calls in between for the same thirdPartyIds override the properties updated in the first batch update call. </p> </td> 
+   <td colname="col2"> <p>The size of the batch file must be less than 50 MB. In addition, the total number of rows should not exceed 500,000 rows per upload. </p> <p>There is no limit on the number or rows you can upload over a period of 24 hours in subsequent batches. However, the ingestion process might be throttled during business hours to ensure that other processes run efficiently. </p> <p>Consecutive <a href="https://developers.adobetarget.com/api/#updating-profiles" format="http" scope="external"> V2 batch update calls </a> without mbox calls in between for the same thirdPartyIds override the properties updated in the first batch update call. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Code Examples </p> </td> 
-   <td colname="col2"> <p>See <a href="http://developers.adobetarget.com/api/#updating-profiles" format="http" scope="external"> Updating Profiles </a>. </p> </td> 
+   <td colname="col2"> <p>See <a href="https://developers.adobetarget.com/api/#updating-profiles" format="http" scope="external"> Updating Profiles </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Links to Relevant Information </p> </td> 
-   <td colname="col2"> <p> <a href="http://developers.adobetarget.com/api/#updating-profiles" format="http" scope="external"> Updating Profiles </a> </p> </td> 
+   <td colname="col2"> <p> <a href="https://developers.adobetarget.com/api/#updating-profiles" format="http" scope="external"> Updating Profiles </a> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -313,7 +313,7 @@ if&nbsp;(lastPurchaseTime)&nbsp;{
   </tr> 
   <tr> 
    <td colname="col1"> <p>Links to Relevant Information </p> </td> 
-   <td colname="col2"> <p> <a href="http://developers.adobetarget.com/api/#updating-profiles" format="http" scope="external"> Updating Profiles </a> </p> </td> 
+   <td colname="col2"> <p> <a href="https://developers.adobetarget.com/api/#updating-profiles" format="http" scope="external"> Updating Profiles </a> </p> </td> 
   </tr> 
  </tbody> 
 </table>
