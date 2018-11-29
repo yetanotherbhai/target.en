@@ -49,7 +49,7 @@ The redirect offer executes JavaScript code to redirect the browser. It uses the
 
 * ** Include all URL parameters: ** Check this box if you want all the URL parameters present on the previous page to be propagated to the redirected page.
 
-  For example, you want to redirect people directly from a men's page to a men's shirts category page. You also want the dynamic parameters in the URL to be passed because this is how you track if people reached your site via email, banner ad, search ad, or organically. By checking this box, your redirect offer on page [!DNL http://www.mycompany.com/mens.html?emailId=123] will automatically become [!DNL http://www.mycompany.com/mensShirts.html?emailId=123] when all you entered in the URL box was [!DNL http://www.mycompany.com/mensShirts.html]. 
+  For example, you want to redirect people directly from a men's page to a men's shirts category page. You also want the dynamic parameters in the URL to be passed because this is how you track if people reached your site via email, banner ad, search ad, or organically. By checking this box, your redirect offer on page [!DNL https://www.mycompany.com/mens.html?emailId=123] will automatically become [!DNL https://www.mycompany.com/mensShirts.html?emailId=123] when all you entered in the URL box was [!DNL https://www.mycompany.com/mensShirts.html]. 
 
 * ** Pass mbox session ID (required to redirect to a different domain): **Check this box if you want the `sessionId` to automatically be included in the redirect. This is only required when you are testing clicks from an email or clicks from one domain to another. The `sessionId` matches the visitor's cookie so the visitor can continue to be tracked and the proper content is shown.
 

@@ -27,7 +27,7 @@ Email image testing is achieved through using modified versions of adboxes. Beca
 **Sample code for an email image adbox:**
 
 ```
-<img src="http://<
+<img src="https://<
 <b class="+ topic ph hi-d="" b "="">
  clientcode>.tt.omtrdc.net/m2/​
  <b class="+ topic ph hi-d="" b "="">

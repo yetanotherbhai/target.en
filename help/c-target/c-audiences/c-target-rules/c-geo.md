@@ -48,16 +48,16 @@ Geo location parameters allow you to target activities and experiences based on 
 
    A visitor's IP address is passed with an mbox request, once per visit (session), to resolve geo targeting parameters for that visitor.
 
-   For Mobile Carrier, [!DNL Target] uses the IP address registration data (who owns the block of IP addresses) to determine the appropriate mobile carrier using [Mobile Country Codes (MCC) and Mobile Network Codes MNC)](http://www.mcc-mnc.com). 
+   For Mobile Carrier, [!DNL Target] uses the IP address registration data (who owns the block of IP addresses) to determine the appropriate mobile carrier using [Mobile Country Codes (MCC) and Mobile Network Codes MNC)](https://www.mcc-mnc.com). 
 
 1. (Optional) Click **[!UICONTROL Add Rule]** and set up additional rules for the audience. 
 1. Click **[!UICONTROL Save]**.
 
 ## Accuracy {#section_D63D5FFCB49C42F9933AFD0BD7C79DF1}
 
-The accuracy of geo targeting depends on several factors. WiFi connections are more accurate than cellular networks. When the visitor is using a cellular data connection, the accuracy of the geo-lookup can be affected by location, the provider's data relationship with deviceatlas, and other factors. Cell tower-based network connections might be less accurate than wired or WiFi connections. Also, a visitor's IP address might be mapped to his or her ISP location, which might not be the same as the visitor's actual location. Some mobile geo-location issues can be solved using the [HTML 5 Geo location API](http://diveintohtml5.info/geolocation.html).
+The accuracy of geo targeting depends on several factors. WiFi connections are more accurate than cellular networks. When the visitor is using a cellular data connection, the accuracy of the geo-lookup can be affected by location, the provider's data relationship with deviceatlas, and other factors. Cell tower-based network connections might be less accurate than wired or WiFi connections. Also, a visitor's IP address might be mapped to his or her ISP location, which might not be the same as the visitor's actual location. Some mobile geo-location issues can be solved using the [HTML 5 Geo location API](https://diveintohtml5.info/geolocation.html).
 
-The following table shows the accuracy of IP-based geographical information from [DigitalEnvoy](http://www.digitalelement.com/solutions/) for wired or WiFi Internet connections. DigitalEnvoy provides the most accurate data in the industry. Global accuracy is more than 99.9 percent at the country level and is up to 97 percent accurate at a city level. Accuracy information does not apply to cell tower-based networks.
+The following table shows the accuracy of IP-based geographical information from [DigitalEnvoy](https://www.digitalelement.com/solutions/) for wired or WiFi Internet connections. DigitalEnvoy provides the most accurate data in the industry. Global accuracy is more than 99.9 percent at the country level and is up to 97 percent accurate at a city level. Accuracy information does not apply to cell tower-based networks.
 
 <table id="table_9F4BD43BF51A400E81D43876D4310820"> 
  <thead> 
@@ -181,7 +181,7 @@ For example, use:
 
 ** How does geo targeting work for mobile devices? **
 
-The vast majority of mobile device users access content via WiFi, which means Target's IP-based geo targeting is as accurate as on a desktop. Cell tower-based connections might be less accurate because the visitor's IP address is based on the tower where the signal is being picked up. Some mobile geo-location issues can be solved using the [HTML 5 Geo location API](http://diveintohtml5.info/geolocation.html).
+The vast majority of mobile device users access content via WiFi, which means Target's IP-based geo targeting is as accurate as on a desktop. Cell tower-based connections might be less accurate because the visitor's IP address is based on the tower where the signal is being picked up. Some mobile geo-location issues can be solved using the [HTML 5 Geo location API](https://diveintohtml5.info/geolocation.html).
 
 ** How does geo feature handle visitors from AOL? **
 
@@ -200,7 +200,7 @@ Due to the way AOL proxies its traffic, we can only target them at a country lev
 
 You can override your IP address with an IP address from a different location and use the `mboxOverride.browserIp url` parameter. So if your company is in the UK, but your global campaign targets visitors in Aukland, New Zealand, use this style of URL assuming that `60.234.0.39` is an IP address in Auckland:
 
-`http://www.mycompany.com?mboxOverride.browserIp=60.234.0.39`
+`https://www.mycompany.com?mboxOverride.browserIp=60.234.0.39`
 
 You'll need to clear your cookies before doing this.
 

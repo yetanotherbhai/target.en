@@ -76,7 +76,7 @@ The various VEC actions are grouped under the following Menu options to make you
        https://test.marketing.adobe.com/content/dam/mac/scholasticinc/Aug_MBM.jpeg?ch_ck=1470774943867
      </codeblock> </p> <p>After activity syncing, the delivery URL might look like the following example: </p> <p> 
      <codeblock>
-       http://s7d2.scene7.com/is/image/TargetTest/Aug_MBM?tm=1470768352933&amp;fit=constrain&amp;hei=173&amp;wid=300
+       https://s7d2.scene7.com/is/image/TargetTest/Aug_MBM?tm=1470768352933&amp;fit=constrain&amp;hei=173&amp;wid=300
      </codeblock> </p> <p> <p>Note:  Swapping images requires an Adobe Scene7 Publishing System account. </p> </p> </td> 
   </tr> 
   <tr class="- topic/row "> 

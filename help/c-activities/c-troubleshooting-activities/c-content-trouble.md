@@ -82,7 +82,7 @@ The following parameters are available:
 
 **Example mboxTrace Call**
 
-`http://www.mysite.com/page.html?mboxTrace=window&authorization=f543abf-0111-4061-9619-d41d665c59a6`
+`https://www.mysite.com/page.html?mboxTrace=window&authorization=f543abf-0111-4061-9619-d41d665c59a6`
 
 The output displays very detailed information about your content. mboxTrace shows details about your campaign or activity and profile It also provides a snapshot of the profile before execution, and a snapshot of what changed after execution. It also shows which campaigns or activities were evaluated for each location.
 

@@ -15,7 +15,7 @@ snippet: y
 
 The Activity URL determines the page that is used in the test, and that opens when the test is designed.
 
-When prompted during activity creation, enter the activity URL. Type the complete URL (including http://), then click **[!UICONTROL Create Activity]**.
+When prompted during activity creation, enter the activity URL. Type the complete URL (including https://), then click **[!UICONTROL Create Activity]**.
 
 >[!NOTE]
 >

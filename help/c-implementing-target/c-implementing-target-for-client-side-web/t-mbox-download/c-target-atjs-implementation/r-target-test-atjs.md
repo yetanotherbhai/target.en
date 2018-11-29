@@ -35,7 +35,7 @@ Information about how to safely deploy at.js to a non-production environment.
   </tr> 
   <tr> 
    <td colname="col1"> Use Charles or Fiddler to map to a local file </td> 
-   <td colname="col2"> <p> <a href="http://www.charlesproxy.com/" scope="external" format="http"> Charles Web Debugging Proxy</a> is an application available for Mac and Windows whose Map Local feature can be used to map the loading of your production <span class="filepath"> mbox.js</span> file to a local copy of <span class="filepath"> at.js</span>. A free trial version is available for download for Mac and Windows. </p> <p><a href="http://www.telerik.com/fiddler" scope="external" format="http"> Fiddler</a> is a similar tool available as a free download for Windows. </p> </td> 
+   <td colname="col2"> <p> <a href="https://www.charlesproxy.com/" scope="external" format="http"> Charles Web Debugging Proxy</a> is an application available for Mac and Windows whose Map Local feature can be used to map the loading of your production <span class="filepath"> mbox.js</span> file to a local copy of <span class="filepath"> at.js</span>. A free trial version is available for download for Mac and Windows. </p> <p><a href="https://www.telerik.com/fiddler" scope="external" format="http"> Fiddler</a> is a similar tool available as a free download for Windows. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Deploy to another tag manager environment </td> 

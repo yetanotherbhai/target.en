@@ -17,7 +17,7 @@ snippet: y
 
 Adobe Training Services provides classes and certifications.
 
-For a list of available instructor-led and online courses, visit the [Adobe Customer Training website](http://training.adobe.com/training/courses.html#solution=adobeTarget).
+For a list of available instructor-led and online courses, visit the [Adobe Customer Training website](https://training.adobe.com/training/courses.html#solution=adobeTarget).
 
 For more information, contact the Adobe Training Services center for your geographical area.
 

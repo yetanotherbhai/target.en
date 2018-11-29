@@ -98,7 +98,7 @@ Please consult with Client Care before changing these settings. These settings a
   </tr> 
   <tr> 
    <td colname="col1"> Profile Lifetime </td> 
-   <td colname="col2"> <p>This setting determines how long visitor profiles are stored. By default, profiles are stored for two weeks. This can be increased up to 90 days. </p> <p>To change the <span class="wintitle"> Profile Lifetime </span> setting, contact <a href="http://helpx.adobe.com/marketing-cloud/contact-support.html" format="http" scope="external"> Client Care </a>. </p> </td> 
+   <td colname="col2"> <p>This setting determines how long visitor profiles are stored. By default, profiles are stored for two weeks. This can be increased up to 90 days. </p> <p>To change the <span class="wintitle"> Profile Lifetime </span> setting, contact <a href="https://helpx.adobe.com/marketing-cloud/contact-support.html" format="http" scope="external"> Client Care </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> X-Domain </td> 

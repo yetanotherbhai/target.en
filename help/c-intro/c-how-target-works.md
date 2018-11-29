@@ -151,7 +151,7 @@ Guidelines were presented in a [Google Webmaster Central Blog](https://webmaster
 
 * ** Use rel="canonical"** - Sometimes an A/B test needs to be set up using different URLs for the variations. In these instances, all variations should contain a `rel="canonical"` tag that references the original (control) URL. For instance, if Adobe were testing its home page using different URLs for each variation, the following canonical tag for the home page would go in the `<head>` tag for each of the variations:
 
-  `<link rel="canonical" href="http://www.adobe.com" />` 
+  `<link rel="canonical" href="https://www.adobe.com" />` 
 
 * ** Use 302 (temporary) redirects** - In the instances where separate URLs are used for the variation pages in a test, Google recommends using a 302 redirect to direct traffic into the test variations. This tells the search engines that the redirect is temporary and will only be active as long as the test is running.
 

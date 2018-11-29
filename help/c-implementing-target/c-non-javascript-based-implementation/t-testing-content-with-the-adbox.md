@@ -23,7 +23,7 @@ For help selecting the right setup see [Non-JavaScript-Based Implementations](..
 
 1. Create the AdBox URL:
 
-   `http://myClientCode.tt.omtrdc.net/m2/myClientCode/ubox/image?mbox=emailHeroImage123_320x200&mboxDefault=http%3A%2F%2Fwww%2Eyourcompany%2Ecom%2Fimg%2Flogo%2Egif`
+   `https://myClientCode.tt.omtrdc.net/m2/myClientCode/ubox/image?mbox=emailHeroImage123_320x200&mboxDefault=http%3A%2F%2Fwww%2Eyourcompany%2Ecom%2Fimg%2Flogo%2Egif`
 
 <table id="table_DD29523C6FB54061B40AD2B07AE8EDAB"> 
  <thead> 
@@ -47,7 +47,7 @@ For help selecting the right setup see [Non-JavaScript-Based Implementations](..
   </tr> 
   <tr> 
    <td colname="col1"> <p>http%3A%2F%2Fwww%2Eyourcompany%2Ecom%2Fimg%2Flogo%2Egif </p> </td> 
-   <td colname="col2"> <p>The mbox's default content. This must be an image. </p> <p class="- topic/p ">This must be URL encoded and must be an absolute reference. </p> <p class="- topic/p ">Tip:<span class="+ topic/ph sw-d/filepath filepath"> http://www.w3schools.com/tags/ref_urlencode.asp</span> quickly encodes your URLs. </p> </td> 
+   <td colname="col2"> <p>The mbox's default content. This must be an image. </p> <p class="- topic/p ">This must be URL encoded and must be an absolute reference. </p> <p class="- topic/p ">Tip:<span class="+ topic/ph sw-d/filepath filepath"> https://www.w3schools.com/tags/ref_urlencode.asp</span> quickly encodes your URLs. </p> </td> 
   </tr> 
  </tbody> 
 </table>

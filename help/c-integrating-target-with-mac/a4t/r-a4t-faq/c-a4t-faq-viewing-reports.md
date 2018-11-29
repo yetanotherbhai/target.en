@@ -206,7 +206,7 @@ For more information, see [Conversion Variables (eVar)](https://marketing.adobe.
 
 When you run an A/B test, which uses the Students t-test (the confidence metric) to choose a winner of a test, one of the assumptions is that there is a fixed time horizon. The test isn’t statistically valid unless you are looking at that fixed sample size.
 
-The Unique Visitors metric is different in Analytics and Target only when you are looking at a period of time that is shorter than the actual test. If you haven’t reached your sample size, the test isn’t as reliable. See [How Not to Run an A/B Test](http://www.evanmiller.org/how-not-to-run-an-ab-test.html) on [Evan Miller's website](http://www.evanmiller.org/index.html) for more information.
+The Unique Visitors metric is different in Analytics and Target only when you are looking at a period of time that is shorter than the actual test. If you haven’t reached your sample size, the test isn’t as reliable. See [How Not to Run an A/B Test](https://www.evanmiller.org/how-not-to-run-an-ab-test.html) on [Evan Miller's website](https://www.evanmiller.org/index.html) for more information.
 
 The Unique Visitors metric displays the number of people who have been exposed to the test who have visited the site during the specified time period. Those people are still part of the test and should be counted. If you want to see only the number of people who were exposed during a single week, you can create a segment of visitors who had an activity impression and apply it to the report.
 

@@ -108,7 +108,7 @@ In addition to the notes for each release, the following resources provide addit
    <td colname="col2"> <p>View information about new features and enhancements in previous releases of <span class="keyword"> Target Standard</span> and <span class="keyword"> Target Premium</span>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><a href="http://wwwimages.adobe.com/content/dam/acom/en/marketing-cloud/testing-targeting/54658.en.target.capabilities.whats-new-fall-2016.pdf" format="pdf" scope="external"> What’s New in Adobe Target 2016</a> (PDF) </p> </td> 
+   <td colname="col1"> <p><a href="https://wwwimages.adobe.com/content/dam/acom/en/marketing-cloud/testing-targeting/54658.en.target.capabilities.whats-new-fall-2016.pdf" format="pdf" scope="external"> What’s New in Adobe Target 2016</a> (PDF) </p> </td> 
    <td colname="col2"> <p>Display a graphical review of features released in 2016. </p> </td> 
   </tr> 
   <tr> 

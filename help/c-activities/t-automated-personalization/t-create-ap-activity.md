@@ -35,7 +35,7 @@ The Automated Personalization activity workflow varies from the workflow of the 
 
    >[!NOTE]
    >
-   >[!DNL Target] does not differentiate between URL protocols ( [!DNL https] and [!DNL http]). As a result, [!DNL https://adobe.com] and [!DNL http://adobe.com] both match.
+   >[!DNL Target] does not differentiate between URL protocols ( [!DNL https] and [!DNL http]). As a result, [!DNL https://adobe.com] and [!DNL https://adobe.com] both match.
 
    The page with the specified URL opens in the Visual Experience Composer.
 

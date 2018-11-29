@@ -18,7 +18,7 @@ Use the Adobe System Status page to view the status of Adobe products and Experi
 
 Access the [!UICONTROL System Status] page by going to the following URL:
 
-[ [!DNL http://status.adobe.com]](http://status.adobe.com)
+[ [!DNL https://status.adobe.com]](https://status.adobe.com)
 
 To see the status of Experience Cloud solutions, including Target, click the Experience Cloud tab.
 

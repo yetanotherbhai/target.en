@@ -64,7 +64,7 @@ Below are the viewports and resolutions for some popular devices. Remember to us
 |  Samsung Galaxy Tab 10  | 800w x 1280h  | 800w x 1280h  |
 |  Chromebook Pixel  | 1280w x 850h  | 2560w x 1700h  |
 
-Various websites list viewport sizes for popular devices. For example, see [http://mediag.com/news/popular-screen-resolutions-designing-for-all/](http://mediag.com/news/popular-screen-resolutions-designing-for-all/) or consult the device maker's website.
+Various websites list viewport sizes for popular devices. For example, see [https://mediag.com/news/popular-screen-resolutions-designing-for-all/](https://mediag.com/news/popular-screen-resolutions-designing-for-all/) or consult the device maker's website.
 
 **Visual Experience Composer (2 of 2) (7:29)**
 
@@ -119,7 +119,7 @@ This video includes information about setting up mobile viewports in the account
 
    >[!NOTE]
    >
-   >For more information about viewports, see [http://viewportsizes.com/](http://viewportsizes.com/).
+   >For more information about viewports, see [https://viewportsizes.com/](https://viewportsizes.com/).
 
 1. (Optional) Select the operating system of the device.
 
