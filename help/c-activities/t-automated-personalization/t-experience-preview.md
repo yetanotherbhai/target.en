@@ -51,7 +51,7 @@ Use experience URLs to share experiences with team members and to QA experiences
    The page opens, displaying the activity. 
 1. Click **[!UICONTROL Done]** to return to the activity summary.
 
-### Considerations {#example_9F2B333BC63143FF99AE331F57E8BA4C}
+## Considerations {#example_9F2B333BC63143FF99AE331F57E8BA4C}
 
 **Generating Experience URLs**
 
