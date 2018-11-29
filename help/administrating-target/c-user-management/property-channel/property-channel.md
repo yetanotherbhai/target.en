@@ -276,7 +276,7 @@ Consider the following when using or configuring properties and permissions in T
  </tbody> 
 </table>
 
-* The Enterprise User Permissions functionality is not supported in [Adobe I/O API calls](http://developers.adobetarget.com).
+* The Enterprise User Permissions functionality is not supported in [Adobe I/O API calls](https://developers.adobetarget.com).
 
 ## Frequently Asked Questions {#section_31D3450ADEAE4A29963A34F8E8C19FE0}
 

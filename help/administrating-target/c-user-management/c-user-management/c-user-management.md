@@ -47,7 +47,7 @@ For tasks performed in the Adobe Admin Console, access the console by following 
 
    Or
 
-   If you are already logged in to the Experience Cloud, go to [http://www.marketing.adobe.com](http://www.marketing.adobe.com/), then click the [!UICONTROL App] icon in the top navigation bar > click **[!UICONTROL Administration]** on the right side > then click **[!UICONTROL Launch Admin Console]**. 
+   If you are already logged in to the Experience Cloud, go to [https://www.marketing.adobe.com](https://www.marketing.adobe.com/), then click the [!UICONTROL App] icon in the top navigation bar > click **[!UICONTROL Administration]** on the right side > then click **[!UICONTROL Launch Admin Console]**. 
 
 1. (Conditional) If you have access to the [!DNL Admin Console for Enterprise] for more than one organization, click the user avatar in the right corner or the top navigation bar, then select the desired organization.
 

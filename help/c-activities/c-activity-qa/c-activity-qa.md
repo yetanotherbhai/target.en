@@ -65,7 +65,7 @@ Activity QA lets you fully test your Target activities prior to launching them l
 * In Auto-Allocate, Auto-Target, and Recommendations activities, the model will not be affected by the visits captured in Activity QA. 
 * Because Activity QA is sticky, after you browse a website in Activity QA, your Target session must expire or you need to have Target release you from Activity QA before you can view your site like a typical visitor. Use the [Target QA bookmarklet](../../c-activities/c-activity-qa/c-activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879) to force yourself out of Activity QA.
 
-  You can also manually force yourself out by loading a page on your site with the `at_preview_token` parameter with an empty value (for example, `http://www.mysite.com/?at_preview_token=`). 
+  You can also manually force yourself out by loading a page on your site with the `at_preview_token` parameter with an empty value (for example, `https://www.mysite.com/?at_preview_token=`). 
 
 * If you specified "URL is" while creating the activity ( [refinements in the Form-based Composer](../../c-experiences/t-form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) or [page delivery options in the Visual Experience Composer)](../../c-experiences/c-visual-experience-composer/r-viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81), the QA URL will not work because Activity QA appends URL parameters. To solve this issue, click the QA URL to go to your site, remove the appended parameters from the URL, then load the new URL. 
 * 3rd-party cookies must be enabled in Safari browsers for Activity QA to work properly. 

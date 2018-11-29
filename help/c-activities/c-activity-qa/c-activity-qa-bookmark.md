@@ -24,4 +24,4 @@ To use the Target QA bookmarklet, drag the following bookmarklet to your browser
 
 The bookmarklet should then appear on the toolbar for re-use.
 
-You can also manually force yourself out of QA mode by loading a page on your site with the `at_preview_token` parameter with an empty value (for example, `http://www.mysite.com/?at_preview_token=`). 
+You can also manually force yourself out of QA mode by loading a page on your site with the `at_preview_token` parameter with an empty value (for example, `https://www.mysite.com/?at_preview_token=`). 
