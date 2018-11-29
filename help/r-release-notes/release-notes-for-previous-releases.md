@@ -683,7 +683,7 @@ This [!DNL Target] release includes the following customer-facing enhancements, 
 * URL validation now allows the use of double hyphens in the URL. Previously, a URL with double hyphens could not be loaded into the Visual Experience Composer (VEC). (TGT-28176) 
 * Multiple UI localization fixes for supported languages.
 
-## 2017 releases {#reference_59C7622A111C4147804A8AAC6D27BB8D}
+## Releases 2017 {#reference_59C7622A111C4147804A8AAC6D27BB8D}
 
 ## Target Platform (November 8, 2017) {#section_536B3C0F32ED441C8D82704B94F6AF7E}
 
@@ -1468,7 +1468,7 @@ This release includes the following features and enhancements:
  </tbody> 
 </table>
 
-## 2016 releases {#reference_607661929B504CCFAB3791B13C0DCDBE}
+## Releases 2016 {#reference_607661929B504CCFAB3791B13C0DCDBE}
 
 ## Target Standard/Premium 16.10.2 (November 8, 2016) {#section_2FDEFB3D56CC4BD7BC04DBEECFF6E942}
 
@@ -2204,7 +2204,7 @@ The following known issues have been reported:
     * Use Firefox or Internet Explorer. 
     * Enable the Enhanced Experience Composer, which can be configured from within the **[!UICONTROL Setup]** > **[!UICONTROL Preferences]** tab.
 
-## 2015 releases {#reference_8E940F500A374F9FBCD68CDE9E7E1A00}
+## Releases 2015 {#reference_8E940F500A374F9FBCD68CDE9E7E1A00}
 
 ## Adobe Target Standard/Premium 15.10.1 (November 2, 2015) {#section_B5135D75FA0D42A1A3C2711CA3A1B812}
 
@@ -2824,7 +2824,7 @@ This release includes the following fixes:
 
 * Fixed an issue where scrolling did not work properly in IE10.
 
-## 2014 releases {#reference_A841709C803C4ECEB236F62E6513EB0F}
+## Releases 2014 {#reference_A841709C803C4ECEB236F62E6513EB0F}
 
 ## Adobe Target 14.10.2 (November 6, 2014) {#section_E7036B45DF974FB7B81E67261357A01B}
 
