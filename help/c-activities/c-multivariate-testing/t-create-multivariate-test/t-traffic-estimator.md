@@ -31,9 +31,9 @@ The test uses the Bonferroni correction to correct for multiple comparisons. Thi
 
 The Traffic Estimator also provides feedback that lets you know whether you have sufficient traffic for the test you designed to succeed. 
 
-1. From the Experience Composer, click **[!UICONTROL Traffic]**.
+1. From the Experience Composer, click  the **[!UICONTROL Traffic]** icon.
 
-   The Traffic Estimator opens. You can click **[!UICONTROL Traffic]** again to hide the Traffic Estimator.
+   The Traffic Estimator opens. You can click the **[!UICONTROL Traffic]** icon again to hide the Traffic Estimator.
 
    ![](assets/estimatorempty.png)
 
