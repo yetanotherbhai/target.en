@@ -97,7 +97,7 @@ user-guide: null
                + [Customize a Global mbox](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/t-customize-global-mbox.md)
                + [Use a Global mbox from a Legacy implementation](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/t-mbox-global-target-standard.md)
                + [Pass Parameters to a global mbox](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/c-pass-parameters-to-global-mbox.md)
-      + [Mobile apps: implement Target](c-implementing-target/c-implementing-taget-for-moblile-apps.md)
+      + [Mobile apps: implement Target](c-implementing-target/c-implementing-target-for-moblile-apps.md)
       + Server Side: implement Target
          + [Server Side: implement Target overview](c-implementing-target/c-api-and-sdk-overview/c-api-and-sdk-overview.md)
          + [Transition from Target legacy APIs to Adobe I/O](c-implementing-target/c-api-and-sdk-overview/c-target-api-documentation.md)
