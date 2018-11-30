@@ -95,11 +95,11 @@ We recommend that you talk to their IT team to ensure that `adobe_mc_ref` and `a
 
 ## Why does the referring URL need to be passed to the new page? {#section_91AB8B0891F6416CBF7E973DCAF54EB5}
 
-Suppose a visitor clicks a link on [!DNL www.google.com] to your homepage ( [!DNL www.mysite.com/index.html]) on which a redirect activity is live and is then redirected to a new page ( [!DNL www.mysite.com/index2.html]).
+Suppose a visitor clicks a link on [!DNL `www.google.com`] to your homepage ( [!DNL `www.mysite.com/index.html]`) on which a redirect activity is live and is then redirected to a new page ( [!DNL `www.mysite.com/index2.html`]).
 
-Previously, the [!DNL Analytics] request on the new page would report a referring URL of [!DNL www.mysite.com/index.html] instead of [!DNL www.google.com]. This caused inaccurate reporting in [!DNL Analytics] associated with the referring URLs (Marketing Channel reports, for example). The reports had lost the fact that you came to the site from [!DNL www.google.com].
+Previously, the [!DNL Analytics] request on the new page would report a referring URL of [!DNL `www.mysite.com/index.html`] instead of [!DNL `www.google.com`]. This caused inaccurate reporting in [!DNL Analytics] associated with the referring URLs (Marketing Channel reports, for example). The reports had lost the fact that you came to the site from [!DNL `www.google.com`].
 
-With [!DNL at.js] version 0.9.6 (or later) and [!DNL AppMeasurement.js] 2.1 (or later), the [!DNL Analytics] request on the new page will report a referring URL of [!DNL www.google.com].
+With [!DNL at.js] version 0.9.6 (or later) and [!DNL AppMeasurement.js] 2.1 (or later), the [!DNL Analytics] request on the new page will report a referring URL of [!DNL `www.google.com`].
 
 ## Can I use custom/HTML redirect offers? {#section_E49F9A83A286488C8F1098A040203D7E}
 
