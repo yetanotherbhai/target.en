@@ -22,7 +22,7 @@ This video demonstrates how to plan and create a multivariate test using the Tar
 * Define and design a multivariate test 
 * Create a multivariate test
 
->[!VIDEO](https://vimeo.com/X8w5IQqEOow)
+>[!VIDEO](https://www.youtube.com/watch?v=X8w5IQqEOow)
 
 The Target point-and-click editor enables you to pick any location and add multiple offers.
 

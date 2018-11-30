@@ -87,7 +87,7 @@ This video includes information about using and creating profile scripts.
 * Use the Available Token menu to access available options 
 * Enable and disable profile scripts
 
->[!VIDEO](https://vimeo.com/m0jH2tIR1XQ)
+>[!VIDEO](https://www.youtube.com/watch?v=m0jH2tIR1XQ)
 
 Profile scripts run profile attribute "catchers" on each location request. When a location request is received, Target determines which activity should run and displays content that is appropriate to that activity and that experience, tracks the success of the activity, and runs any relevant profile scripts. This enables you to track information about the visit, such as the visitor's location, time of day, number of times that visitor has been to the site, if they've purchased before and so on. This information is then added to the visitor's profile so you can better track that visitor's activity on your site.
 

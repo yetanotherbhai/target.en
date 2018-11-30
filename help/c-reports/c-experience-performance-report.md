@@ -18,7 +18,7 @@ The Experience Performance report shows how each experience in the activity perf
 
 This video demonstrates how to create a multivariate test using the Target three-step guided workflow. The Experience Performance report is described beginning at 8:20.
 
->[!VIDEO](https://vimeo.com/X8w5IQqEOow)
+>[!VIDEO](https://www.youtube.com/watch?v=X8w5IQqEOow)
 
 You can select one or more experiences to compare them. Click on an experience and select **[!UICONTROL Preview]** to open the experience in a browser tab.
 

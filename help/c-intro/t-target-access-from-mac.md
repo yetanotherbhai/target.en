@@ -27,7 +27,7 @@ This video includes information about [!DNL Adobe Target] in the [!DNL Experienc
 * Link your Target account to the Adobe Experience Cloud 
 * Set Adobe Target as your default landing page
 
->[!VIDEO](https://vimeo.com/7lwYrYC7vdM) 
+>[!VIDEO](https://www.youtube.com/watch?v=7lwYrYC7vdM) 
 
 1. After signing into the [!DNL Experience Cloud], click the App icon in the navigation bar.
 

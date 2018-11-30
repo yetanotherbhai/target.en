@@ -40,7 +40,7 @@ The following demo video includes information about using a template:
 * Preview and build experience for responsive websites 
 * Use overlays to highlight types of elements
 
->[!VIDEO](https://vimeo.com/qwUKEp8en_k)
+>[!VIDEO](https://www.youtube.com/watch?v=qwUKEp8en_k)
 
 You can specify pages that include the change elements, or apply the change across your site. 
 

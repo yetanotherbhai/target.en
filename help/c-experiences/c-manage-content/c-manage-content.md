@@ -27,7 +27,7 @@ This video includes information about managing offers.
 * Custom HTML Offers 
 * Custom HTML Offer in the Visual Experience Composer
 
->[!VIDEO](https://vimeo.com/ZNIGgXOATMY)
+>[!VIDEO](https://www.youtube.com/watch?v=ZNIGgXOATMY)
 
 Click **[!UICONTROL Offers]** to open the library. The library contains the offers that have been set up via [!DNL Target Standard/Premium], [!DNL Target Classic], [!DNL Adobe Experience Manager] (AEM), [!DNL Adobe Mobile Services] (AMS), and APIs. Offers created in [!DNL Target Classic] or other solutions are editable in [!DNL Target Standard/Premium].
 

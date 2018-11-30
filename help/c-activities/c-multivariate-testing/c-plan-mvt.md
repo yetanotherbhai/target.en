@@ -22,7 +22,7 @@ This video demonstrates how to plan and create a multivariate test using the Tar
 * Define and design a multivariate test 
 * Create a multivariate test
 
->[!VIDEO](https://vimeo.com/X8w5IQqEOow)
+>[!VIDEO](https://www.youtube.com/watch?v=X8w5IQqEOow)
 
 Multivariate tests require sufficient traffic to generate useful results. Before setting up your test, you should be aware of the amount of traffic you typically get, including the number of impressions and conversions. Having this information will reduce the likelihood of designing a test with requirements that exceed your site's traffic.
 

@@ -30,7 +30,7 @@ This video explains how to use audiences in [!DNL Target Standard/Premium].
 * Target an activity to an audience 
 * Use audiences for passive reporting in an activity
 
->[!VIDEO](https://vimeo.com/TAMBpW9vpOI)
+>[!VIDEO](https://www.youtube.com/watch?v=TAMBpW9vpOI)
 
 In the [!UICONTROL Audience] box, click the Edit icon (three vertical ellipses), then click **[!UICONTROL Replace Audience]**.
 
@@ -63,6 +63,6 @@ This video includes information about setting up audiences.
 * Select your traffic allocation method 
 * Allocate traffic between different experiences
 
->[!VIDEO](https://vimeo.com/LOmBgKPeBtA)
+>[!VIDEO](https://www.youtube.com/watch?v=LOmBgKPeBtA)
 
 For detailed information, see [Audiences](../../../c-target/c-audiences/c-audiences.md#concept_65BE870D290E412D8BBF557EEA67C271). 

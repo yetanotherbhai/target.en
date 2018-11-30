@@ -28,5 +28,5 @@ You can add items to the Image Offers list.
 >* Custom HTML Offers 
 >* Custom HTML Offer in the Visual Experience Composer 
 >
->>[!VIDEO](https://vimeo.com/ZNIGgXOATMY) 
+>>[!VIDEO](https://www.youtube.com/watch?v=ZNIGgXOATMY) 
 

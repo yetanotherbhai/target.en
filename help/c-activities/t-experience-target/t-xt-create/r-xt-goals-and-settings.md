@@ -32,7 +32,7 @@ This video includes information about activity settings.
 * Add audiences for reporting to create report filters 
 * Enter notes for your activities
 
->[!VIDEO](https://vimeo.com/6XNEM8tUADo)
+>[!VIDEO](https://www.youtube.com/watch?v=6XNEM8tUADo)
 
 The available settings depend on whether you use Target or Analytics as the data source.
 

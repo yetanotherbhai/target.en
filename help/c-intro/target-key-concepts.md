@@ -37,7 +37,7 @@ This video explains the activity types available in [!DNL Target Standard/Premiu
 * Select the appropriate activity type to achieve your goals 
 * Describe the three-step guided workflow that applies to all activity types
 
->[!VIDEO](https://vimeo.com/vtHg1pPFJp8)
+>[!VIDEO](https://www.youtube.com/watch?v=vtHg1pPFJp8)
 
 There are several types of activities:
 
@@ -143,7 +143,7 @@ This video explains how to use audiences in [!DNL Target Standard/Premium].
 * Target an activity to an audience 
 * Use audiences for passive reporting in an activity
 
->[!VIDEO](https://vimeo.com/TAMBpW9vpOI)
+>[!VIDEO](https://www.youtube.com/watch?v=TAMBpW9vpOI)
 
 [!DNL Target] audiences are a defined set of visitor criteria. Offers can be targeted to specific audiences (or segments). Only visitors who belong to that audience see the experience that is targeted to them.
 

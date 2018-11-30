@@ -37,4 +37,4 @@ This video explains the activity types available in [!DNL Target Standard/Premiu
 * Select the appropriate activity type to achieve your goals 
 * Describe the three-step guided workflow that applies to all activity types
 
->[!VIDEO](https://vimeo.com/vtHg1pPFJp8) 
+>[!VIDEO](https://www.youtube.com/watch?v=vtHg1pPFJp8) 

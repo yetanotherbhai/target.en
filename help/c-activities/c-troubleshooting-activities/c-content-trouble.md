@@ -31,7 +31,7 @@ The following video demonstrates tools to troubleshoot [!DNL Target]. (14:14)
 * Use the Experience Cloud Debugger, mboxTrace, and ttMETA 
 * Understand the Target timeout
 
->[!VIDEO](https://vimeo.com/OXznmfKjxwU)
+>[!VIDEO](https://www.youtube.com/watch?v=OXznmfKjxwU)
 
 ## Retrieve the Authorization Token to Use With Debugging Tools {#section_BED130298E794D1FA229DB7C3358BA54}
 

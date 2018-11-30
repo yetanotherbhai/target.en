@@ -40,7 +40,7 @@ This video explains how to implement [!DNL mbox.js].
 * Select the correct settings for your [!DNL mbox.js] file 
 * Implement [!DNL Target] by adding the [!DNL mbox.js] file to the <head> of your site
 
->[!VIDEO](https://vimeo.com/f-A1zET6AwE)
+>[!VIDEO](https://www.youtube.com/watch?v=f-A1zET6AwE)
 
 You do not need to maintain different activity-specific versions of the file. 
 

@@ -129,4 +129,4 @@ This video explains how to add mbox parameters using DTM.
 * Understand the basics of a data element 
 * Map a dynamic data element value to a parameter or profile parameter in the target-global-mbox
 
->[!VIDEO](https://vimeo.com/hA0MctwZKlg) 
+>[!VIDEO](https://www.youtube.com/watch?v=hA0MctwZKlg) 

@@ -22,7 +22,7 @@ This video includes information about using audience categories.
 * Create audiences 
 * Define audience categories
 
->[!VIDEO](https://vimeo.com/wV9lVTSOxMk)
+>[!VIDEO](https://www.youtube.com/watch?v=wV9lVTSOxMk)
 
 When a particular category is selected, you can apply one or more targeting conditions. For example, in the Geo category, define a rule like City=San Francisco. Adding multiple values creates an OR condition. The visitor has to match only one of the values to meet the targeting condition. For AND conditions on the same parameter, create a custom expression target.
 

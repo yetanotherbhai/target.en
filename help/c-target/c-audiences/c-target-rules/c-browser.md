@@ -80,7 +80,7 @@ This video includes information about using audience categories.
 * Create audiences 
 * Define audience categories
 
->[!VIDEO](https://vimeo.com/wV9lVTSOxMk) 
+>[!VIDEO](https://www.youtube.com/watch?v=wV9lVTSOxMk) 
 
 ## Browser Options {#concept_221D8EEF53CC45AEACEB17CF336A3658}
 

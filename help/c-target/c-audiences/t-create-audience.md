@@ -23,7 +23,7 @@ This video includes information about creating audiences.
 * Create audiences 
 * Define audience categories
 
->[!VIDEO](https://vimeo.com/wV9lVTSOxMk)
+>[!VIDEO](https://www.youtube.com/watch?v=wV9lVTSOxMk)
 
 Audiences are defined by rules that determine who is included or excluded from a [!DNL Target] activity. An audience definition can include multiple rules and each rule can include multiple parameters. Complex audience definitions use the boolean operators AND and OR to combine rules and parameters to give you detailed control over which site visitors are counted as activity entrants.
 

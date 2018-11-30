@@ -22,7 +22,7 @@ This video includes information about managing content. (4:56)
 * Custom HTML Offers 
 * Custom HTML Offer in the Visual Experience Composer
 
->[!VIDEO](https://vimeo.com/ZNIGgXOATMY) 
+>[!VIDEO](https://www.youtube.com/watch?v=ZNIGgXOATMY) 
 
 1. Click **[!UICONTROL Offer]**, select the **[!UICONTROL Code Offer]** or **[!UICONTROL Image Offer]** tab, then locate the asset you want to work with.
 

@@ -37,16 +37,7 @@ This video includes information about [!DNL Adobe Target] in the [!DNL Experienc
 * Link your Target account to the Adobe Experience Cloud 
 * Set Adobe Target as your default landing page
 
->[!VIDEO](https://vimeo.com/7lwYrYC7vdM)
-
-**User Management (4:39)**
-
-This video explains how to set up [!DNL Target] users and administrators.
-
-* Create new Target users at the appropriate access level 
-* Create new target administrators
-
->[!VIDEO](https://vimeo.com/PIjZHxQpOlg)
+>[!VIDEO](https://www.youtube.com/watch?v=7lwYrYC7vdM)
 
 ## Invite users to Target {#task_3E0817630774431983FAA3D2CB2E75BD}
 

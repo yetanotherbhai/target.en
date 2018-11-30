@@ -33,7 +33,7 @@ This video includes information about setting up traffic allocation.
 * Select your traffic allocation method 
 * allocate traffic between different experiences
 
->[!VIDEO](https://vimeo.com/LOmBgKPeBtA)
+>[!VIDEO](https://www.youtube.com/watch?v=LOmBgKPeBtA)
 
 **Creating A/B Tests (8:36)**
 
@@ -42,7 +42,7 @@ This video demonstrates how to create an A/B test using the Target three-step gu
 * Create an A/B activity in Adobe Target 
 * Allocate traffic using a manual split or automatic traffic allocation
 
->[!VIDEO](https://vimeo.com/JG0dbWDAvtk)
+>[!VIDEO](https://www.youtube.com/watch?v=JG0dbWDAvtk)
 
 ## The Challenge {#section_85D5A03637204BACA75E19646162ACFF}
 
