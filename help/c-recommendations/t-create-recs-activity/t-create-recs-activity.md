@@ -26,7 +26,7 @@ Use the Target Visual Experience Composer (VEC) to create a Recommendations acti
 
    >[!NOTE]
    >
-   >[!DNL Target] does not differentiate between URL protocols ( [!DNL https] and [!DNL http]). As a result, [!DNL https://adobe.com] and [!DNL https://adobe.com] both match.
+   >[!DNL Target] does not differentiate between URL protocols ( [!DNL https] and [!DNL http]). As a result, [!DNL `http://www.adobe.com`] and [!DNL `https://wwww.adobe.com`] both match.
 
    The activity URL is the page where the recommendations will be displayed.
 

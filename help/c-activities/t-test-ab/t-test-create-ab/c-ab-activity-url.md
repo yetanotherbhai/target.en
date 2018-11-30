@@ -20,7 +20,7 @@ When prompted during activity creation, specify the activity URL. Type the compl
 
 >[!NOTE]
 >
->[!DNL Target] does not differentiate between URL protocols ( [!DNL https] and [!DNL http]). As a result, [!DNL https://adobe.com] and [!DNL https://adobe.com] both match.
+>[!DNL Target] does not differentiate between URL protocols ( [!DNL https] and [!DNL http]). As a result, [!DNL `http://www.adobe.com`] and [!DNL `https://www.adobe.com`] both match.
 
 By default, the [!UICONTROL Visual Experience Composer] opens the page that is specified in your [Account Preferences](https://marketing.adobe.com/resources/help/en_US/target/target/t_account_preferences.html). You can specify a different page during activity creation.
 

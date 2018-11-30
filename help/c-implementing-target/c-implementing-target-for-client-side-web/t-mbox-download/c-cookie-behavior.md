@@ -31,7 +31,7 @@ There are three main use cases for cookies:
 
 1. One domain.
 
-   All of your testing will take place within one top-level domain ( [!DNL www.domain.com], [!DNL store.domain.com], [!DNL anysub.domain.com], etc.).
+   All of your testing will take place within one top-level domain ( [!DNL `www.domain.com`], [!DNL store.domain.com], [!DNL anysub.domain.com], etc.).
 
    Approach: Use only first-party cookies. This is the default. 
 

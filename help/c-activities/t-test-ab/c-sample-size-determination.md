@@ -39,7 +39,7 @@ Target provides tools to help ensure that your activity has a large enough sampl
 
 ## Adobe Target Sample Size Calculator {#section_6B8725BD704C4AFE939EF2A6B6E834E6}
 
-Before setting up your A/B test, access the Adobe Target [sample size calculator](https://docs.adobe.com/content/target-microsite/testcalculator.html) (https://docs.adobe.com/content/target-microsite/testcalculator.html).
+Before setting up your A/B test, access the Adobe Target [sample size calculator](https://docs.adobe.com/content/target-microsite/testcalculator.html).
 
 ![](assets/sample_size_calculator.png)
 
