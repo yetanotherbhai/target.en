@@ -18,7 +18,7 @@ The Location Contribution report shows the performance of each element and each 
 
 This video demonstrates how to create a multivariate test using the Target three-step guided workflow. The Location Contribution report is described beginning at 8:45.
 
->[!VIDEO](https://vimeo.com/X8w5IQqEOow)
+>[!VIDEO](https://www.youtube.com/watch?v=X8w5IQqEOow)
 
 The top of the report shows the metric, start and end dates, and audience used in the report. You can change any of these factors.
 

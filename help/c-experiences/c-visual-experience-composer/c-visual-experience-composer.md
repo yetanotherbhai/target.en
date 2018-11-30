@@ -18,7 +18,7 @@ The Visual Experience Composer video (7:17) below provides information about usi
 * Change the content of a page 
 * Change the layout of a page
 
->[!VIDEO](https://vimeo.com/2KUDgu6Mscg)
+>[!VIDEO](https://www.youtube.com/watch?v=2KUDgu6Mscg)
 
 The following experience composers are available:
 
@@ -33,7 +33,7 @@ The videos below provide information about using the Visual Experience Composer.
 * Change the content of a page 
 * Change the layout of a page
 
->[!VIDEO](https://vimeo.com/2KUDgu6Mscg)
+>[!VIDEO](https://www.youtube.com/watch?v=2KUDgu6Mscg)
 
 **Visual Experience Composer (2 of 2) (7:29)**
 
@@ -44,7 +44,7 @@ The videos below provide information about using the Visual Experience Composer.
 * Preview and build experience for responsive websites 
 * Use overlays to highlight types of elements
 
->[!VIDEO](https://vimeo.com/qwUKEp8en_k)
+>[!VIDEO](https://www.youtube.com/watch?v=qwUKEp8en_k)
 
 This video is a recording of " [Office Hours](../../cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7)," an initiative led by the Adobe Customer Care team.
 

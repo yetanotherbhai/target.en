@@ -65,4 +65,4 @@ This video includes information about managing content. (4:56)
 * Custom HTML Offers 
 * Custom HTML Offer in the Visual Experience Composer
 
->[!VIDEO](https://vimeo.com/ZNIGgXOATMY) 
+>[!VIDEO](https://www.youtube.com/watch?v=ZNIGgXOATMY) 

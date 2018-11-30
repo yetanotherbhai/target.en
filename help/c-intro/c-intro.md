@@ -18,9 +18,9 @@ Adobe Target is the Adobe Experience Cloud solution that provides everything you
 
 The following videos provide a basic understanding of how Target, along with other Adobe Experience Cloud solutions, can help your organization's achieve its goals:
 
->[!VIDEO](https://vimeo.com/O7fFTcV7toI)
+>[!VIDEO](https://www.youtube.com/watch?v=O7fFTcV7toI)
 
->[!VIDEO](https://vimeo.com/qsgXjHdtgYE)
+>[!VIDEO](https://www.youtube.com/watch?v=qsgXjHdtgYE)
 
 The [!DNL Adobe Target] solution contains several components: 
 
@@ -63,7 +63,7 @@ The following video explains the activity types available in [!DNL Target Standa
 * Select the appropriate activity type to achieve your goals 
 * Describe the three-step guided workflow that applies to all activity types
 
->[!VIDEO](https://vimeo.com/vtHg1pPFJp8)
+>[!VIDEO](https://www.youtube.com/watch?v=vtHg1pPFJp8)
 
 ## Target Premium {#section_7728D488C2824105A1D5C6675352CE23}
 

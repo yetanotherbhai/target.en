@@ -36,7 +36,7 @@ After completing this training, you should be able to:
 * Compare and contrast Auto-Target to Automated Personalization 
 * Create Auto-Target activities
 
->[!VIDEO](https://vimeo.com/9ki7XJfzcD4)
+>[!VIDEO](https://www.youtube.com/watch?v=9ki7XJfzcD4)
 
 ## Overview {#section_972257739A2648AFA7E7556B693079C9}
 

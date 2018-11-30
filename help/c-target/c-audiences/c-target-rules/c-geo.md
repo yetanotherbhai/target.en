@@ -23,7 +23,7 @@ This video includes information about using audience categories.
 * Create audiences 
 * Define audience categories
 
->[!VIDEO](https://vimeo.com/wV9lVTSOxMk)
+>[!VIDEO](https://www.youtube.com/watch?v=wV9lVTSOxMk)
 
 Geo location parameters allow you to target activities and experiences based on your visitors' geography. You can include or exclude visitors based on their country, state/province, city, zip/postal code, DMA, or mobile carrier. This data is sent with each mbox request and is based on the visitor's IP address. Select these parameters just like any targeting values.
 

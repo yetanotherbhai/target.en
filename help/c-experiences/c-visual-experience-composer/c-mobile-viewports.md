@@ -77,7 +77,7 @@ The following demo video includes information about using the Visual Experience 
 * Preview and build experience for responsive websites 
 * Use overlays to highlight types of elements
 
->[!VIDEO](https://vimeo.com/qwUKEp8en_k)
+>[!VIDEO](https://www.youtube.com/watch?v=qwUKEp8en_k)
 
 If you want to deliver an activity to people on a particular device, choose the appropriate audience for that device in the activity diagram. Use the Mobile Web Composer to edit the page in the activity for that device. If you want to run an activity across your entire digital experience and make sure it looks good across all devices, don't apply targeting, and use mobile viewports to preview the activity on each screen size.
 
@@ -101,7 +101,7 @@ target/t_mobile_viewport_configuration.xml
 
 This video includes information about setting up mobile viewports in the account preferences, beginning at 4:40 in the video.
 
->[!VIDEO](https://vimeo.com/MJXhgxlP-KI) 
+>[!VIDEO](https://www.youtube.com/watch?v=MJXhgxlP-KI) 
 
 1. Click **[!UICONTROL Setup]** > **[!UICONTROL Preferences]**.
 1. In the Mobile Viewports Configuration section of the Account Preferences page, click **[!UICONTROL Add new]** to add a mobile viewport.

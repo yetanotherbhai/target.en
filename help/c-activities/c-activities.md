@@ -24,7 +24,7 @@ The Activity Types video (9:03) explains the activity types available in [!DNL T
 * Select the appropriate activity type to achieve your goals 
 * Describe the three-step guided workflow that applies to all activity types
 
->[!VIDEO](https://vimeo.com/vtHg1pPFJp8)
+>[!VIDEO](https://www.youtube.com/watch?v=vtHg1pPFJp8)
 
 The Managing Activities video (5:55) explains how to use the Activities list to manage activities.
 
@@ -32,7 +32,7 @@ The Managing Activities video (5:55) explains how to use the Activities list to 
 * Find activities in the Activities list 
 * Edit, deactivate, copy, and delete activities
 
->[!VIDEO](https://vimeo.com/tBSHwZaFhag)
+>[!VIDEO](https://www.youtube.com/watch?v=tBSHwZaFhag)
 
 ## Activities List {#section_DE8E2DB30D534962A931EF8BB48240F5}
 

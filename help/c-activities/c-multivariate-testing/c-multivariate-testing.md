@@ -25,7 +25,7 @@ This video explains how to understand, plan, and create a multivariate test usin
 * Define and design a multivariate test 
 * Create a multivariate test
 
->[!VIDEO](https://vimeo.com/X8w5IQqEOow)
+>[!VIDEO](https://www.youtube.com/watch?v=X8w5IQqEOow)
 
 Multivariate testing can help you discover the relative influence specific elements have on conversion, compared to other elements on the page. It can also help you refine a combination of elements that have been shown to be effective.
 
@@ -49,7 +49,7 @@ This video explains the activity types available in Target Standard/Premium. Mul
 * Select the appropriate activity type to achieve your goals 
 * Describe the three-step guided workflow that applies to all activity types
 
->[!VIDEO](https://vimeo.com/vtHg1pPFJp8)
+>[!VIDEO](https://www.youtube.com/watch?v=vtHg1pPFJp8)
 
 ## MVT Terminology {#section_DF475CA7F34B4CFDB7BE7363761D64AE}
 

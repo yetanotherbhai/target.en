@@ -45,7 +45,7 @@ The Experience Composer provides a visual interface for editing the experiences 
 * Change the content of a page 
 * Change the layout of a page
 
-   >[!VIDEO](https://vimeo.com/2KUDgu6Mscg)
+   >[!VIDEO](https://www.youtube.com/watch?v=2KUDgu6Mscg)
 
    If you created an mbox on the page using Target Classic (formerly Test&Target), that mbox appears as an element that shows the mbox name, and can be modified like any other element.
 

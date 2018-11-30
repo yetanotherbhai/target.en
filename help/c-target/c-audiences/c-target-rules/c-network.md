@@ -22,7 +22,7 @@ This video includes information about using audience categories.
 * Create audiences 
 * Define audience categories
 
->[!VIDEO](https://vimeo.com/wV9lVTSOxMk)
+>[!VIDEO](https://www.youtube.com/watch?v=wV9lVTSOxMk)
 
 1. In the [!DNL Target] interface, click **[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]**. 
 1. Name the audience. 

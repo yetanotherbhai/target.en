@@ -30,7 +30,7 @@ This video includes information about using audiences.
 * Target an activity to an audience 
 * Use audiences for passive reporting in an activity
 
->[!VIDEO](https://vimeo.com/TAMBpW9vpOI)
+>[!VIDEO](https://www.youtube.com/watch?v=TAMBpW9vpOI)
 
 [!DNL Target] defines two types of audiences:
 

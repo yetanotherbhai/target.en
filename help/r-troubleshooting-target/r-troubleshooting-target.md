@@ -24,7 +24,7 @@ In addition to the topics listed below, the following video demonstrates tools f
 * Use the Experience Cloud Debugger, mboxTrace, and ttMETA 
 * Understand the Target timeout
 
->[!VIDEO](https://vimeo.com/OXznmfKjxwU) 
+>[!VIDEO](https://www.youtube.com/watch?v=OXznmfKjxwU) 
 
 <table id="table_B1FE799CD8A541BA8F813D006C0D359B"> 
  <thead> 

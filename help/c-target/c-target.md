@@ -34,4 +34,4 @@ This video includes information about setting up targeting and audiences.
 * Select your traffic allocation method 
 * Allocate traffic between different experiences
 
->[!VIDEO](https://vimeo.com/LOmBgKPeBtA) 
+>[!VIDEO](https://www.youtube.com/watch?v=LOmBgKPeBtA) 

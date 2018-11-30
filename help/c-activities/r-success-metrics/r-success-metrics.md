@@ -23,7 +23,7 @@ This videos shows you how to use activity metrics.
 * Understand and build Conversion, Revenue, and Engagement metrics 
 * Build a click-tracking metric
 
->[!VIDEO](https://vimeo.com/oCMD2SymhoI)
+>[!VIDEO](https://www.youtube.com/watch?v=oCMD2SymhoI)
 
 In keeping with the [!DNL Target Standard] goal of simplifying test creation, the application takes care of some of the configuration that was done manually in [!DNL Target Classic]. For example, success metrics are pre-configured with the optimal options.
 

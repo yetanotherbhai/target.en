@@ -26,7 +26,7 @@ This video includes information about activity settings.
 * Add audiences for reporting to create report filters 
 * Enter notes for your activities
 
->[!VIDEO](https://vimeo.com/6XNEM8tUADo)
+>[!VIDEO](https://www.youtube.com/watch?v=6XNEM8tUADo)
 
 ## Target Standard/Premium Visual Experience Composer Only or Form-Based Composer Using Global mbox Only {#section_4A0A317DFED345649B58B0CB5B410C8B}
 

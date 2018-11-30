@@ -67,4 +67,4 @@ Use Activity Settings to manage the objective, priority, and duration of your ac
 * Add audiences for reporting to create report filters 
 * Enter notes for your activities
 
-   >[!VIDEO](https://vimeo.com/6XNEM8tUADo) 
+   >[!VIDEO](https://www.youtube.com/watch?v=6XNEM8tUADo) 

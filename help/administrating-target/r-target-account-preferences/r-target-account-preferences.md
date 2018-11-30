@@ -23,7 +23,7 @@ This video includes information about account preferences.
 
 * Describe the account settings available in Target Standard
 
->[!VIDEO](https://vimeo.com/MJXhgxlP-KI)
+>[!VIDEO](https://www.youtube.com/watch?v=MJXhgxlP-KI)
 
 To set your account preferences, click **[!UICONTROL Setup]** > **[!UICONTROL Preferences]**, configure your preferences as desired, then click **[!UICONTROL Submit]**.
 

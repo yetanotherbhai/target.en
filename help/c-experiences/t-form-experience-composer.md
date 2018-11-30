@@ -24,7 +24,7 @@ This video provides a demo of the form-based composer.
 * Understand when to use Form-Based Experience Composer vs. the Visual Experience Composer 
 * Use refinements to target a location
 
->[!VIDEO](https://vimeo.com/R9hcD9D1VPY)
+>[!VIDEO](https://www.youtube.com/watch?v=R9hcD9D1VPY)
 
 If you are creating a Recommendations activity, there are no experiences. Choose your criteria and design. If you choose multiple criteria or designs, Target automatically generates the experiences. 
 
