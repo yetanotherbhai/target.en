@@ -46,6 +46,9 @@
             "pattern": "^.*google.com"
         },
         {
+            "pattern": "^.*your_clientcode"
+        },
+        {
             "pattern": "^.*flywithus.com"
         },
         {
