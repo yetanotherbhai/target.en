@@ -33,7 +33,7 @@ To set up the Target VEC extension from Launch, see [Use Adobe Launch to set up 
    implementation 'com.adobe.marketing.mobile:target-vec:0.+'
    ```
 
-1. Add an intent filter in your [!DNL AndroidManifest.XML] file, choosing a unique deep-link scheme for Mobile VEC authoring (for example, [sdkbetabus://com.adobe.sdkbetabus](sdkbetabus://com.adobe.sdkbetabus)):
+1. Add an intent filter in your [!DNL AndroidManifest.XML] file, choosing a unique deep-link scheme for Mobile VEC authoring (for example, `[sdkbetabus://com.adobe.sdkbetabus](sdkbetabus://com.adobe.sdkbetabus)`):
 
    ```
    <activity 
