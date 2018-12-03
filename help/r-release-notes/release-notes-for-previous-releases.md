@@ -2008,11 +2008,11 @@ This release includes the following features and enhancements:
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> Recommendations API: Upload a CSV for the Custom Criteria </td> 
-   <td colname="col2"> <p>You can upload a CSV for the Custom Criteria via API. </p> <p>This ability will be added to the Target Premium user interface in an upcoming release. </p> <p> <a href="https://www.adobe.io/products/target/docs/reference/recommendations" format="https" scope="external"> API documentation </a> </p> </td> 
+   <td colname="col2"> <p>You can upload a CSV for the Custom Criteria via API. </p> <p>This ability will be added to the Target Premium user interface in an upcoming release. </p>  </td> 
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> Recommendations API: New Design APIs </td> 
-   <td colname="col2"> <p>New Design APIs make it possible to manage your Recommendations designs via API. </p> <p> <a href="https://www.adobe.io/products/target/docs/reference/recommendations" format="https" scope="external"> API documentation </a> </p> </td> 
+   <td colname="col2"> <p>New Design APIs make it possible to manage your Recommendations designs via API. </p>  </td> 
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> AP: Dependent Success Metrics </td> 
