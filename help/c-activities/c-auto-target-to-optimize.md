@@ -80,7 +80,7 @@ Learn more about the data and algorithms underlying Auto-Target and Automated Pe
    <td colname="col2"> <p>Target's main personalization algorithm used in both Auto-Target and Automated Personalization is Random Forest. Ensemble methods like Random Forest use multiple learning algorithms to obtain better predictive performance than could be obtained from any of the constituent learning algorithms. The Random Forest algorithm in the automated personalization system is a classification, or regression method, that operates by constructing a multitude of decision trees at training time. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><a href="../c-activities/t-automated-personalization/c-uploading-data-for-target's-personalization-algorithms.md#concept_85EA505B37E54514A1C8AB91553FEED6" format="dita" scope="local"> Uploading Data For Target's Personalization Algorithms</a> </p> </td> 
+   <td colname="col1"> <p><a href="../c-activities/t-automated-personalization/c-uploading-data-for-the-target-personalization-algorithms.md#concept_85EA505B37E54514A1C8AB91553FEED6" format="dita" scope="local"> Uploading Data For Target's Personalization Algorithms</a> </p> </td> 
    <td colname="col2"> There are several ways to input data for Auto-Target and Automated Personalization models. </td> 
   </tr> 
   <tr> 
@@ -183,7 +183,7 @@ There are several scenarios where you might prefer to use Auto-Target over Autom
 
 ** Marketers can upload offline data, propensity scores, or other custom data to build personalization models.**
 
-* Learn more about [uploading data for Auto-Target and Automated Personalization](../c-activities/t-automated-personalization/c-uploading-data-for-target's-personalization-algorithms.md#concept_85EA505B37E54514A1C8AB91553FEED6).
+* Learn more about [uploading data for Auto-Target and Automated Personalization](../c-activities/t-automated-personalization/c-uploading-data-for-the-target-personalization-algorithms.md#concept_85EA505B37E54514A1C8AB91553FEED6).
 
 ## How Does Auto-Target differ from Automated Personalization? {#section_BA4D83BE40F14A96BE7CBC7C7CF2A8FB}
 

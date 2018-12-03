@@ -11,7 +11,7 @@ internal: n
 snippet: y
 ---
 
-# Upload data for Target's personalization algorithms{#upload-data-for-target-s-personalization-algorithms}
+# Upload data for the Target personalization algorithms{#upload-data-for-target-s-personalization-algorithms}
 
 Offline data, such as CRM information or customer churn propensity scores, can be incredibly valuable when building personalization models.
 

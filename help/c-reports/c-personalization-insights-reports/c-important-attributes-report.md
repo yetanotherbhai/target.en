@@ -77,7 +77,7 @@ In different activities, different attributes are more, or less, important to ho
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Bar graph </p> </td> 
-   <td colname="col2"> <p>The multi-colored bar graph at the top of the screen allows you to visualize these relative importance scores and maps to the dot's color beside each respective attribute in the table. You can also hover over a specific color in the bar chart to see the attribute it represents. </p> <p>The importance scores across the top 100 attributes add to 100%. For more information about how to add more attributes that Target's personalization models can use, see <a href="../../c-activities/t-automated-personalization/c-uploading-data-for-target's-personalization-algorithms.md#concept_85EA505B37E54514A1C8AB91553FEED6" format="dita" scope="local"> Uploading Data for Target's Personalization Algorithms</a>. </p> </td> 
+   <td colname="col2"> <p>The multi-colored bar graph at the top of the screen allows you to visualize these relative importance scores and maps to the dot's color beside each respective attribute in the table. You can also hover over a specific color in the bar chart to see the attribute it represents. </p> <p>The importance scores across the top 100 attributes add to 100%. For more information about how to add more attributes that Target's personalization models can use, see <a href="../../c-activities/t-automated-personalization/c-uploading-data-for-the-target-personalization-algorithms.md#concept_85EA505B37E54514A1C8AB91553FEED6" format="dita" scope="local"> Uploading Data for Target's Personalization Algorithms</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Model Attribute Ranking chart </p> </td> 
