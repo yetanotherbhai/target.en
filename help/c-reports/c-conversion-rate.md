@@ -116,7 +116,7 @@ The *confidence interval* is a range within which the true value can be found at
 
 The [downloaded CSV report](../c-reports/c-downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75) includes only raw data and does not include calculated metrics, such as revenue per visitor, lift, or confidence used for A/B tests.
 
-To calculate these calculated metrics, download the [Target's Complete Confidence Calculator](https://marketing.adobe.com/resources/help/en_US/target/target/complete_confidence_calculator.xlsx) Excel file to input the activity's value, or review the [statistical calculations used by Target](https://marketing.adobe.com/resources/help/en_US/target/target/Statistical Calculations.pdf).
+To calculate these calculated metrics, download the [Target's Complete Confidence Calculator](https://marketing.adobe.com/resources/help/en_US/target/target/complete_confidence_calculator.xlsx) Excel file to input the activity's value, or review the [statistical calculations used by Target](https://marketing.adobe.com/resources/help/en_US/target/target/statistical-calculations.pdf).
 
 >[!NOTE]
 >
