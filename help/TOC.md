@@ -158,7 +158,7 @@ user-guide: null
       + [Automated Personalization overview](c-activities/t-automated-personalization/t-automated-personalization.md)
       + [Random Forest Algorithm](c-activities/t-automated-personalization/c-algo-random-forest.md)
       + [Create an Automated Personalization activity](c-activities/t-automated-personalization/t-create-ap-activity.md)
-      + [Upload data for Target's personalization algorithms](c-activities/t-automated-personalization/c-uploading-data-for-target's-personalization-algorithms.md)
+      + [Upload data for the Target personalization algorithms](c-activities/t-automated-personalization/c-uploading-data-for-the-target-personalization-algorithms.md)
       + [Data collection for Target's personalization algorithms](c-activities/t-automated-personalization/r-ap-data.md)
       + [Estimate the Traffic Required for Success](c-activities/t-automated-personalization/t-ap-traffic-estimator.md)
       + [Preview Experiences for an Automated Personalization Test](c-activities/t-automated-personalization/t-ap-preview-experiences.md)
