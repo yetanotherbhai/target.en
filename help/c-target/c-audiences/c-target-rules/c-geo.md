@@ -55,7 +55,7 @@ Geo location parameters allow you to target activities and experiences based on 
 
 ## Accuracy {#section_D63D5FFCB49C42F9933AFD0BD7C79DF1}
 
-The accuracy of geo targeting depends on several factors. WiFi connections are more accurate than cellular networks. When the visitor is using a cellular data connection, the accuracy of the geo-lookup can be affected by location, the provider's data relationship with deviceatlas, and other factors. Cell tower-based network connections might be less accurate than wired or WiFi connections. Also, a visitor's IP address might be mapped to his or her ISP location, which might not be the same as the visitor's actual location. Some mobile geo-location issues can be solved using the [HTML 5 Geo location API](https://diveintohtml5.info/geolocation.html).
+The accuracy of geo targeting depends on several factors. WiFi connections are more accurate than cellular networks. When the visitor is using a cellular data connection, the accuracy of the geo-lookup can be affected by location, the provider's data relationship with deviceatlas, and other factors. Cell tower-based network connections might be less accurate than wired or WiFi connections. Also, a visitor's IP address might be mapped to his or her ISP location, which might not be the same as the visitor's actual location. Some mobile geo-location issues can be solved using the [Geolocation API](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API).
 
 The following table shows the accuracy of IP-based geographical information from [DigitalEnvoy](https://www.digitalelement.com/solutions/) for wired or WiFi Internet connections. DigitalEnvoy provides the most accurate data in the industry. Global accuracy is more than 99.9 percent at the country level and is up to 97 percent accurate at a city level. Accuracy information does not apply to cell tower-based networks.
 
@@ -181,7 +181,7 @@ For example, use:
 
 ** How does geo targeting work for mobile devices? **
 
-The vast majority of mobile device users access content via WiFi, which means Target's IP-based geo targeting is as accurate as on a desktop. Cell tower-based connections might be less accurate because the visitor's IP address is based on the tower where the signal is being picked up. Some mobile geo-location issues can be solved using the [HTML 5 Geo location API](https://diveintohtml5.info/geolocation.html).
+The vast majority of mobile device users access content via WiFi, which means Target's IP-based geo targeting is as accurate as on a desktop. Cell tower-based connections might be less accurate because the visitor's IP address is based on the tower where the signal is being picked up. Some mobile geo-location issues can be solved using the [Geolocation API](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API).
 
 ** How does geo feature handle visitors from AOL? **
 

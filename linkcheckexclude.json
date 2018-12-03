@@ -58,6 +58,9 @@
             "pattern": "^.*flytohawaiiforfree.com"
         },
         {
+            "pattern": "^.*homedepot.com"
+        },
+        {
             "pattern": "^.*europa.eu"
         }
     ]
