@@ -49,6 +49,9 @@
             "pattern": "^.*your_clientcode"
         },
         {
+            "pattern": "^.*INSERT-DOMAIN-AND-PATH-TO-CODE-HERE"
+        },
+        {
             "pattern": "^.*flywithus.com"
         },
         {
