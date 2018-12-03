@@ -119,8 +119,7 @@ This video includes information about setting up mobile viewports in the account
 
    >[!NOTE]
    >
-   >For more information about viewports, see [https://viewportsizes.com/](https://viewportsizes.com/).
-
+   
 1. (Optional) Select the operating system of the device.
 
    Options:
