@@ -24,7 +24,7 @@ This section contains the following information:
 
 * [Target Community Forum](cmp-resources-and-contact-information.md#concept_9C203A8AED054DFFA9A504811DB6BA42) 
 * [Target Basics Webinar Series](cmp-resources-and-contact-information.md#concept_11902FAC95C64479AABE020557A7EEE4) 
-* [Adobe Customer Care Office Hours](cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7) 
+* [Adobe Customer Care Office Hours](cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7)
 * [Target Insider Newsletter](cmp-resources-and-contact-information.md#concept_7600A06142034A3FA325EF7FA898DDE8) 
 * [Contact Adobe Client Care](cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) 
 * [Contact and Legal Information](cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB)
@@ -228,9 +228,9 @@ target/r_problem.xml
 
 If you encounter issues or have questions when using Target, you have a number of options
 
-For questions, you can ask the Adobe Target experts in the [Experience Cloud community](https://forums.adobe.com/community/experience-cloud/marketing-cloud/target) ( [!DNL https://forums.adobe.com/community/experience-cloud/marketing-cloud/target]) or ask us on Twitter at [@AdobeExpCare](https://twitter.com/adobeexpcare) ( [!DNL https://twitter.com/adobeexpcare]).
+For questions, you can ask the Adobe Target experts in the [Experience Cloud community](https://forums.adobe.com/community/experience-cloud/marketing-cloud/target] or ask us on Twitter at [@AdobeExpCare](https://twitter.com/adobeexpcare).
 
-For technical issues or to log a bug you can contact Customer Care. To contact Customer Care by telephone, call 1-800-497-0335. Toll free numbers outside the United States can be found on the [Adobe Digital Marketing Customer Care Regional Phone Numbers](https://helpx.adobe.com/contact/dma-external/DMACustomeCareRegionalPhoneNumbers.html) page ( [!DNL https://helpx.adobe.com/contact/dma-external/DMACustomeCareRegionalPhoneNumbers.html]). When asked to select an option for your product, press 3 to contact the Target team.
+For technical issues or to log a bug you can contact Customer Care. To contact Customer Care by telephone, call 1-800-497-0335. Toll free numbers outside the United States can be found on the [Adobe Digital Marketing Customer Care Regional Phone Numbers](https://helpx.adobe.com/contact/dma-external/DMACustomeCareRegionalPhoneNumbers.html) page. When asked to select an option for your product, press 3 to contact the Target team.
 
 E-mail Customer Care at [!DNL tt-support@adobe.com].
 
