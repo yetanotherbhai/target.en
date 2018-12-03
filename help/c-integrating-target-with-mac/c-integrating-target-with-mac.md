@@ -28,5 +28,3 @@ This integration requires both the Adobe Target and Adobe Analytics solutions of
 [Experience Cloud Audiences](https://marketing.adobe.com/resources/help/en_US/mcloud/audience_library.html)
 
 [Target and Dynamic Tag Management](https://marketing.adobe.com/resources/help/en_US/dtm/target.html)
-
-[Target Data Integration with Adobe Audience Management](https://marketing.adobe.com/resources/help/en_US/aam/c_am_tt_int_intro.html) 

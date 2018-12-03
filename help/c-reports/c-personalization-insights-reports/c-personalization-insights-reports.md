@@ -61,7 +61,7 @@ There are two reports available in :
 There are two types of attributes represented in [!UICONTROL Personalization Insights] reports that are used in your AP or Auto Target models:
 
 * **Attributes automatically collected by Target:** Target uses a base data set to build its personalization algorithms in AP and AT activities that are reflected in Personalization Insights. See [Data Collection for Target's Personalization Algorithms](../../c-activities/t-automated-personalization/r-ap-data.md#reference_255BD3DE7AD04DC9B766E0BC78961058) for data types, example attributes, and their [!UICONTROL Personalization Insights] naming convention. Note that although these attributes are considered, an individual activity’s models might not use all of these attributes in the final model. 
-* **Attributes passed to Target:** See [Uploading Data for Target's Personalization Algorithms](../../c-activities/t-automated-personalization/c-uploading-data-for-target's-personalization-algorithms.md#concept_85EA505B37E54514A1C8AB91553FEED6).
+* **Attributes passed to Target:** See [Uploading Data for the Target Personalization Algorithms](../../c-activities/t-automated-personalization/c-uploading-data-for-the-target-personalization-algorithms.md#concept_85EA505B37E54514A1C8AB91553FEED6).
 
 Target provides many ways for you to pass in additional data to Target to enrich the base data set used to build its personalization algorithms in AP and AT activities:
 

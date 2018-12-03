@@ -20,7 +20,7 @@ Frequently asked questions are divided into the following sections:
 
 - [Initial provisioning - A4T FAQ](c-a4t-faq-initial-provisioning.md)
 - [Activity settings - A4T FAQ](c-a4t-faq-activity-setup.md)
-- [View reports - A4T FAQ](ca4t/r-a4t-faq/c-a4t-faq-viewing-reports.md)
+- [View reports - A4T FAQ](c-a4t/r-a4t-faq/c-a4t-faq-viewing-reports.md)
 - [Redirect offers - A4T FAQ](c-a4t-faq-redirect-offers.md)
 - [Lift and confidence - A4T FAQ](c-a4t-faq-lift-and-confidence.md)
 - [Metric definitions - A4T FAQ](c-a4t-faq-metric-definition.md)
