@@ -188,7 +188,7 @@ If you have missed previous newsletters, click the following links to ensure tha
    <td colname="col2"> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><a href="https://m.messages.adobe.com/rest/head/mirrorPage/@9hfJmMbdVctAma_Ylarpy1J8yxKovpv0Ir2mtII1o9LY9Vx-yD5ErE52GU0rvvvJU1C99FzQWFyqf2zHrBTcwlmSo7z4jMgjEH4-nVUdQS4XIfM3.html" format="html" scope="external"> June 2018 (Volume 1, Issue 6)</a> </p> </td> 
+   <td colname="col1"> <p><a href="https://marketing.adobe.com/resources/help/en_US/target/newsletters/newsletter-2018-may.html" format="html" scope="external"> June 2018 (Volume 1, Issue 6)</a> </p> </td> 
    <td colname="col2"> <p>We are honored to have been named the only leader in The Forrester Wave™: Experience Optimization Platforms, Q2 2018 report and are so grateful to you, our customers, for your support and valuable feedback that helped our solution to earn this honor. Read our blog post on the report, learn five tips for transforming your optimization program from a sideshow, enjoy a recap of our recent Adobe Insider tour stop in Atlanta, and much more. </p> </td> 
   </tr> 
   <tr> 
@@ -316,7 +316,7 @@ The Adobe Experience Cloud Customer Care team is here to assist you and provides
 
 To receive advance notifications about upcoming product enhancements, sign up for the Adobe Priority Product Update:
 
-[Adobe Priority Product Update](https://response.adobesystemsinc.com/content/customer-success-subscription)
+[Adobe Priority Product Update](https://www.adobe.com/subscription/priority-product-update.html)
 
 ## Service, Capability & Billing {#section_FA4F5274FDFE4DF7BB079E575877DFC2}
 
