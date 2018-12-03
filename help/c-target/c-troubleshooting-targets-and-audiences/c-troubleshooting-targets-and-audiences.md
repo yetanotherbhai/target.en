@@ -46,7 +46,7 @@ Some Target audiences are predefined, such as "New Visitors" and "Returning Visi
 
 ## Why are all profile parameters not showing in the Target user interface? {#section_3CD947D15C984EE9AD19550220E0E8BD}
 
-[!DNL Target] has a limit of 50 unique profile attributes per mbox call. If you need to pass more than 50 profile attributes to [!DNL Target], you can pass them using the [!UICONTROL Profile Update] API method. For more information, see [Profile Update](http://developers.adobetarget.com/api/#authentication-tokens) in the Adobe Target API documentation.
+[!DNL Target] has a limit of 50 unique profile attributes per mbox call. If you need to pass more than 50 profile attributes to [!DNL Target], you can pass them using the [!UICONTROL Profile Update] API method. For more information, see [Profile Update](https://developers.adobetarget.com/api/#authentication-tokens) in the Adobe Target API documentation.
 
 ## Why are visitors seeing experiences for an AP activity that they shouldn't see? {#section_41CECEAE0881446A8D9F3B016857914B}
 
