@@ -43,8 +43,9 @@ By following these best practices, you are less likely to encounter unexpected p
   <tr> 
    <td colname="col1"> <p> You can whitelist certain IP addresses if the Enhanced Visual Experience Composer won't load on secure pages on your site. </p> </td> 
    <td colname="col2"> Problems loading the Enhanced Visual Experience Composer can be resolved by whitelisting the following IP addresses. These IP addresses are for Adobe's server used for the Enhanced Experience Composer proxy. They are only required for activity editing. Visitors to your site do not need these IP addresses whitelisted. <p> 
-     <table id="table_E8DFD24B9B684CF182CEAFCA13ADD9C4">  
-     </table> </p> </td> 
+     <p>United States: 52.55.99.45, 54.80.158.92, and 54.204.197.253</p>
+     <p>Europe, Middle East, and Africa (EMEA): 52.51.238.221, 52.210.199.44, and 54.72.56.50</p>
+     <p>Asia-Pacific (APAC): 52.193.67.35, 54.199.198.109, and 54.199.241.57</p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Use unique IDs for top-level elements and any other elements that could be good testing/targeting candidates. </p> </td> 
