@@ -72,11 +72,11 @@ There are multiple ways to reach the [!UICONTROL Create New Criteria] screen. So
 
    The available data ranges are:
 
-  * Two days 
-  * One week 
-  * Two weeks 
-  * One month 
-  * Two months
+   * Two days 
+   * One week 
+   * Two weeks 
+   * One month 
+   * Two months
 
 1. Select the desired **[!UICONTROL Behavioral Data Source]**: [!UICONTROL mboxes] or [!UICONTROL Analytics].
 
@@ -87,9 +87,9 @@ There are multiple ways to reach the [!UICONTROL Create New Criteria] screen. So
 
    Select the appropriate toggles:
 
-  * [!UICONTROL Enable Partial Design Rendering] 
-  * [!UICONTROL Show Backup Recommendations] 
-  * [!UICONTROL Recommend Previously Purchased Items]
+   * [!UICONTROL Enable Partial Design Rendering] 
+   * [!UICONTROL Show Backup Recommendations] 
+   * [!UICONTROL Recommend Previously Purchased Items]
 
   This setting is based on the `productPurchasedId`. It is useful if you sell items that people typically purchase only once, such as kayaks. If you sell items that people come back to purchase again, such as shampoo or other personal items, you should disable this option.
 
