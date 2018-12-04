@@ -45,14 +45,6 @@ Visit the [Target Community Forum](https://forums.adobe.com/community/experience
 
 Registration information and links to previous sessions of the Target Basics Webinar Series, a Customer Success Webinar Series brought to you by the Community.
 
-## Upcoming Sessions and Registration Information {#section_27744DF0F5E54DC9B37791F4ABEF70AF}
-
-<!-- 
-
-target/c_target-customer-success-webinar-series.xml
-
- -->
-
 [Click here for more information about upcoming sessions and registration information](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html).
 
 ## Recordings of Past Sessions {#section_4241271367F44504AC1BFD32943564C6}
