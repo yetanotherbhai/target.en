@@ -326,7 +326,7 @@ user-guide: null
       + [Select criteria](c-recommendations/t-create-recs-activity/t-algo-select-recs.md)
       + [Add promotions](c-recommendations/t-create-recs-activity/t-adding-promotions.md)
       + [Recommendations Activity settings](c-recommendations/t-create-recs-activity/r-recs-activity-settings.md)
-   + Frequently asked questions {#recommendations-faq]}
+   + Frequently asked questions {#recommendations-faq}
       + [Recommendations FAQ](c-recommendations/c-recommendations-faq/c-recommendations-faq.md)
       + [Integrate Recommendations with email](c-recommendations/c-recommendations-faq/r-integrating-recs-email.md)
       + [IP addresses used by Recommendations feed-processing servers](c-recommendations/c-recommendations-faq/c-ip-addresses-marketing-cloud.md)

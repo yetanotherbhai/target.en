@@ -156,7 +156,7 @@ By following these best practices, you are less likely to encounter unexpected p
     </codeblock> <p> In this example, the entire anchor element is selected in the VEC, which adversely affect other elements if targeting is performed. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Don't use <span class="codeph"> <span class="varname"> top </span> </span> or <span class="codeph"> <span class="varname"> self </span> </span> variables in JavaScript code. </p> </td> 
+   <td colname="col1"> <p>Don't use <code>top</code> or <code>self</code> variables in JavaScript code. </p> </td> 
    <td colname="col2"> <p>When the Enhanced Experience Composer is enabled, the value of the <span class="codeph"> <span class="varname"> top </span> </span> and <span class="varname"> self </span> variables are updated to disable iframe busting. Use an X-frame-options header to add iframe busting instead of custom JavaScript codes. </p> </td> 
   </tr> 
   <tr> 
@@ -166,13 +166,8 @@ By following these best practices, you are less likely to encounter unexpected p
   <tr> 
    <td colname="col1"> <p>Make sure your page opens as expected in an iframe. </p> </td> 
    <td colname="col2"> <p>Turn OFF iframe busting techniques on your website and check whether it opens as expected within an iframe on a dummy page. For example: </p> <p> 
-     <codeblock>
-       &lt;!DOCTYPE&nbsp;html&gt; 
-      
-&lt;html&gt; 
-      
-&lt;head&gt; 
-      
+     <pre>
+       &lt;!DOCTYPE&nbsp;html&gt; &lt;html&gt; &lt;head&gt; 
 &nbsp;&nbsp;&lt;meta&nbsp;charset="utf-8"&gt; 
       
 &nbsp;&nbsp;&lt;meta&nbsp;name="viewport"&nbsp;content="width=device-width"&gt; 
@@ -188,7 +183,7 @@ By following these best practices, you are less likely to encounter unexpected p
 &lt;/body&gt; 
       
 &lt;/html&gt; 
-     </codeblock> </p> </td> 
+     </pre> </p> </td> 
   </tr> 
  </tbody> 
 </table>
