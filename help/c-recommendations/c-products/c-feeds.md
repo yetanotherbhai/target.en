@@ -54,11 +54,15 @@ Any data uploaded using the [!DNL .csv] file, Google product feed, or Analytics 
 
 For example, the following syntax is incorrect:
 
-`"Apples "Bananas" Grapes"",`
+```
+"Apples "Bananas" Grapes"",
+```
 
 The following syntax is correct:
 
+```
 "Apples ""Bananas"" Grapes""",
+```
 
 >[!NOTE]
 >
@@ -171,7 +175,6 @@ The following is sample code for a Google Product Search feed .xml file:
         <ns2:is_bundle>N</ns2:is_bundle> 
     </entry> 
 </feed> 
-  
 ```
 
 The following is sample code for a Google Product Search feed .tsv file:
@@ -186,17 +189,14 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 
 The Analytics Product classification is the only classification available for recommendations. For more information about this classification file, see [Classifications](https://marketing.adobe.com/resources/help/en_US/reference/classifications.html) in the *Analytics Help and Reference* guide. It's possible that not all the information you need for recommendations will be available in your current implementation, so follow this user guide if you want to add to your classifications file.
 
-<table id="table_89809DC66C794DB69B9DB232C7E03B1D"> 
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p> <p>Important:  Before importing entity data into Recommendations using Analytics product classifications, be aware that this is not the preferred method. </p> </p> <p>Be aware of the following caveats: </p> <p> 
-     <ul id="ul_9B6553CAD5DF4CBD83AC8F833441B1C7"> 
-      <li id="li_8FD09B9E450947AEA5079C1DFE43BA9D"> <p> Updates to entity attributes incur an additional delay of up to 24 hours. </p> </li> 
-      <li id="li_3024EA7D93AA4D3BA6354CE60DED69ED"> <p> Target supports Product Classifications only. The Analytics product SKU must map to the same level as the Recommendations <span class="codeph"> entity.id </span>. Custom Analytics Classifications can be engineered using Adobe Consulting Services. Please contact your Account Manager with questions. </p> </li> 
-     </ul> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+>[!IMPORTANT]
+>
+>Before importing entity data into Recommendations using Analytics product classifications, be aware that this is not the preferred method.
+
+Be aware of the following caveats:
+
+* Updates to entity attributes incur an additional delay of up to 24 hours.  
+* Target supports Product Classifications only. The Analytics product SKU must map to the same level as the Recommendations entity.id . Custom Analytics Classifications can be engineered using Adobe Consulting Services. Please contact your Account Manager with questions.
 
 ## Create Feed {#task_C6CD9EA905744C2CA0BB8259BB74C867}
 
@@ -227,10 +227,10 @@ recs/t_feeds_create.xml
 
 1. Select an update option:
 
-* Daily 
-* Weekly 
-* Every 2 Weeks 
-* Never
+    * Daily 
+    * Weekly 
+    * Every 2 Weeks 
+    * Never
 
   Do not schedule an update. Choose this if you do not want this feed to run.
 
@@ -250,135 +250,74 @@ recs/t_feeds_create.xml
    >For more information, see [Hosts](../../administrating-target/c-hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E).
 
 1. Click **[!UICONTROL Save]**.
->After you create or edit a feed, the feed runs immediately, then will update according to the parameters you set. It takes some time for all the information to be available. First, the feed must sync, then it must be processed and indexed before it can be published and made available. The current status appears under [Feed Status](../../c-recommendations/c-products/c-feeds.md#concept_E475986720D1400999868B3DFD14A7A0) in the Feeds list. You can close [!DNL Target] before the process is complete and the process continues. 
->
->While indexing is in progress, products and feed headers appear before individual values have been indexed. This enables you to search and see products so you can create collections, exclusions, designs, and activities before indexing has been completed. 
->
->When the Status says "Success," it means that the file was found and it parsed correctly. The information is not available to use within [!DNL Recommendations] until the file is indexed, which can take some time, depending on the size of your file. If the process fails, it means that the file was not found (for example, you used an incorrect URL or your FTP information was incorrect), or that there was a parsing error. 
 
->## Feed Statuses and Indicators {#concept_E475986720D1400999868B3DFD14A7A0}
+After you create or edit a feed, the feed runs immediately, then will update according to the parameters you set. It takes some time for all the information to be available. First, the feed must sync, then it must be processed and indexed before it can be published and made available. The current status appears under [Feed Status](../../c-recommendations/c-products/c-feeds.md#concept_E475986720D1400999868B3DFD14A7A0) in the Feeds list. You can close [!DNL Target] before the process is complete and the process continues. 
 
->Information about the possible feed statuses and their indicators. 
+While indexing is in progress, products and feed headers appear before individual values have been indexed. This enables you to search and see products so you can create collections, exclusions, designs, and activities before indexing has been completed. 
 
->
-><!-- 
+When the Status says "Success," it means that the file was found and it parsed correctly. The information is not available to use within [!DNL Recommendations] until the file is indexed, which can take some time, depending on the size of your file. If the process fails, it means that the file was not found (for example, you used an incorrect URL or your FTP information was incorrect), or that there was a parsing error. 
+
+## Feed Statuses and Indicators {#concept_E475986720D1400999868B3DFD14A7A0}
+
+Information about the possible feed statuses and their indicators. 
+
+<!-- 
 
 recs/c_feed-statuses-and-indicators.xml
 
  -->
->This section contains the following information: 
->
->* [Feed Statuses](../../c-recommendations/c-products/c-feeds.md#section_5DDC2DECF70A42FDAFF2235E91371537) 
->* [Feed Status Indicators](../../c-recommendations/c-products/c-feeds.md#section_3C8A236C5CB84C769A9E9E36B8BFABA4) 
->
 
->## Feed Statuses {#section_5DDC2DECF70A42FDAFF2235E91371537}
+This section contains the following information: 
 
->The following are possible statuses for a feed: 
->
-><table id="table_0C54CB3B06DA419AB4A83789B09E531F"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Status </th> 
-   <th colname="col2" class="entry"> Description </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Syncing </p> </td> 
-   <td colname="col2"> <p>Feed setup details are being saved to <span class="keyword"> Target </span>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>No Feed Run </p> </td> 
-   <td colname="col2"> <p>You have created a feed but it has not been scheduled (frequency is set to Never). </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Scheduled at <i>date and time</i> </p> </td> 
-   <td colname="col2"> <p>The feed has not been run, but is scheduled to run at the specified date and time. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Server Not Found </p> </td> 
-   <td colname="col2"> <p>FTP or URL locations are invalid or otherwise unreachable. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Waiting to Download </p> </td> 
-   <td colname="col2"> <p>The feed is waiting to downloaded to <span class="keyword"> Target </span>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Preparing to Import </p> </td> 
-   <td colname="col2"> <p>The feed is being prepared to import to <span class="keyword"> Target </span>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Flushing Results </p> </td> 
-   <td colname="col2"> <p>The results are being flushed. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Waiting for Index Queue </p> </td> 
-   <td colname="col2"> <p>The feed is in the index queue. </p> <p> <p>Note:  Once the feed status is "Waiting for Index Queue," the newly updated values are available in delivery and criteria processing. </p> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Indexing since <i>date and time</i> </p> </td> 
-   <td colname="col2"> <p>The feed is being indexed since the date and time indicated. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Indexed at <i>date and time</i> </p> </td> 
-   <td colname="col2"> <p>The feed was successfully indexed at the date and time indicated. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Success </p> </td> 
-   <td colname="col2"> <p>The feed was successfully saved to <span class="keyword"> Target </span> at the date and time indicated. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
->To update a feed (for example, to make changes to your feed configuration or feed file), open the feed, make any desired changes, and click **[!UICONTROL Save]**. 
->
->>[!IMPORTANT]
->>
->>Uploaded feeds expire after 61 days. This means that recommendations will no longer be returned if a feed file has not been processed in the last 60 days. 
->
+* [Feed Statuses](../../c-recommendations/c-products/c-feeds.md#section_5DDC2DECF70A42FDAFF2235E91371537) 
+* [Feed Status Indicators](../../c-recommendations/c-products/c-feeds.md#section_3C8A236C5CB84C769A9E9E36B8BFABA4) 
 
->## Feed Status Indicators {#section_3C8A236C5CB84C769A9E9E36B8BFABA4}
+## Feed Statuses {#section_5DDC2DECF70A42FDAFF2235E91371537}
 
->The following feed status indicators display in the [!UICONTROL Status] column: 
+The following are possible statuses for a feed: 
+
+| Status | Description |
+|--- |--- |
+|Syncing|Feed setup details are being saved to  Target .|
+|No Feed Run|You have created a feed but it has not been scheduled (frequency is set to Never).|
+|Scheduled at date and time|The feed has not been run, but is scheduled to run at the specified date and time.|
+|Server Not Found|FTP or URL locations are invalid or otherwise unreachable.|
+|Waiting to Download|The feed is waiting to downloaded to  Target .|
+|Preparing to Import|The feed is being prepared to import to  Target .|
+|Flushing Results|The results are being flushed.|
+|Waiting for Index Queue|The feed is in the index queue.   Note:  Once the feed status is "Waiting for Index Queue," the newly updated values are available in delivery and criteria processing.|
+|Indexing since date and time|The feed is being indexed since the date and time indicated.|
+|Indexed at date and time|The feed was successfully indexed at the date and time indicated.|
+|Success|The feed was successfully saved to  Target  at the date and time indicated.|
+
+To update a feed (for example, to make changes to your feed configuration or feed file), open the feed, make any desired changes, and click **[!UICONTROL Save]**. 
+
+>[!IMPORTANT]
 >
-><table id="table_396F6009016843E19F8F423A06B5B1E6"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Status Indicator </th> 
-   <th colname="col2" class="entry"> Description </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Green status indicator </p> </td> 
-   <td colname="col2"> <p>When a feed successfully finishes indexing, a green status dot indicates that the feed is in a successful state. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Yellow status indicator </p> </td> 
-   <td colname="col2"> <p>When a feed or feed index is delayed by 25% of the feed frequency, a yellow status dot displays. For example, a yellow dot displays for a feed set to run daily if the index hasn't completed six hours after the scheduled time. </p> <p> <p>Note:  Once the feed status is "Waiting for Index Queue," the newly updated values are available in delivery and criteria processing. </p> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>White status indicator </p> </td> 
-   <td colname="col2"> <p>When a feed is not scheduled, a white status dot indicates that the feed has not run yet. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Red status indicator </p> </td> 
-   <td colname="col2"> <p>If the feed fails to upload data to server, a red status indicator is shown. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
->Consider the following examples: 
->
->**Example 1:** 
->
->* Day one: daily feed processes at 9:00 a.m. PST 
->* Day two: it is 3:30 p.m. and the feed hasn't run since yesterday at 9:00 a.m. 
->
->The status should be yellow because the index should have run roughly 6.5 hours ago. 6.5 hours +24 is 127% of the feed window. 
->
->**Example 2:** 
->
->* January 1: monthly feed processes at 9:00 a.m. PST 
->* February 3: it is 10:00 a.m. and the feed hasn't run for one month, one day, and one hour ago 
->
->The status should be yellow because the index should have run roughly one day and one hour ago. Although this is only (31+(1/25))/30 = 1.03% of frequency setting, it surpassed the maximum of one-day delay. 
+>Uploaded feeds expire after 61 days. This means that recommendations will no longer be returned if a feed file has not been processed in the last 60 days. 
+
+## Feed Status Indicators {#section_3C8A236C5CB84C769A9E9E36B8BFABA4}
+
+The following feed status indicators display in the [!UICONTROL Status] column: 
+
+| Status Indicator | Description |
+|--- |--- |
+|Green status indicator|When a feed successfully finishes indexing, a green status dot indicates that the feed is in a successful state.|
+|Yellow status indicator|When a feed or feed index is delayed by 25% of the feed frequency, a yellow status dot displays. For example, a yellow dot displays for a feed set to run daily if the index hasn't completed six hours after the scheduled time.   Note:  Once the feed status is "Waiting for Index Queue," the newly updated values are available in delivery and criteria processing.|
+|White status indicator|When a feed is not scheduled, a white status dot indicates that the feed has not run yet.|
+|Red status indicator|If the feed fails to upload data to server, a red status indicator is shown.|
+Consider the following examples: 
+
+**Example 1:** 
+
+* Day one: daily feed processes at 9:00 a.m. PST 
+* Day two: it is 3:30 p.m. and the feed hasn't run since yesterday at 9:00 a.m. 
+
+The status should be yellow because the index should have run roughly 6.5 hours ago. 6.5 hours +24 is 127% of the feed window. 
+
+**Example 2:** 
+
+* January 1: monthly feed processes at 9:00 a.m. PST 
+* February 3: it is 10:00 a.m. and the feed hasn't run for one month, one day, and one hour ago 
+
+The status should be yellow because the index should have run roughly one day and one hour ago. Although this is only (31+(1/25))/30 = 1.03% of frequency setting, it surpassed the maximum of one-day delay. 

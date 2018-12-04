@@ -41,8 +41,7 @@ By following these best practices, you are less likely to encounter unexpected p
    <td colname="col2"> <p>To enable the <span class="wintitle"> Enhanced Experience Composer </span> at the account level, click <span class="uicontrol"> Setup </span> &gt; <span class="uicontrol"> Preferences </span>, then toggle the switch to the On position. </p> <p>To enable the <span class="wintitle"> Enhanced Experience Composer </span> at the activity level while creating an activity in the <span class="wintitle"> Visual Experience Composer </span>, click <span class="uicontrol"> Configure </span> &gt; <span class="uicontrol"> URL </span>, then toggle the switch to the On position. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> You can whitelist certain IP addresses if the Enhanced Visual Experience Composer won't load on secure pages on your site. </p> 
-    <!--<p>This list is also included in Troubleshooting the VEC below. Keep them consistent if new IPs are added.</p>--> </td> 
+   <td colname="col1"> <p> You can whitelist certain IP addresses if the Enhanced Visual Experience Composer won't load on secure pages on your site. </p> </td> 
    <td colname="col2"> Problems loading the Enhanced Visual Experience Composer can be resolved by whitelisting the following IP addresses. These IP addresses are for Adobe's server used for the Enhanced Experience Composer proxy. They are only required for activity editing. Visitors to your site do not need these IP addresses whitelisted. <p> 
      <table id="table_E8DFD24B9B684CF182CEAFCA13ADD9C4">  
      </table> </p> </td> 
