@@ -54,8 +54,7 @@ The following table lists the known issues for this release:
       <li id="li_76600BEA49E24BB6A0BC619A0B16495F"> <p>Recommended products might not display values up to two decimal points. For example, if you try to display the value in the design as 35.00, Recommendations displays 35 (no decimal points rather than two decimal points). (RECS-5972) </p> <p>Workaround: Pass the value of the entity into two <span class="codeph"> entity.attributes </span>. The first, `entity.value`, is a reserved parameter that expects a double. The second, can be a custom <span class="codeph"> entity.attribute </span> that will store the value of the entity as a string to allow for proper rending. </p> <p>For example: </p> <p> 
         <codeblock>
           "entity.value"&nbsp;:&nbsp;35.00, 
-         
-"entity.displayValue"&nbsp;:&nbsp;"35.00", 
+          "entity.displayValue"&nbsp;:&nbsp;"35.00", 
         </codeblock> </p> </li> 
      </ul> </p> </td> 
   </tr> 
@@ -250,4 +249,3 @@ As known issues above are resolved, they will be moved to the following table an
   </tr> 
  </tbody> 
 </table>
-

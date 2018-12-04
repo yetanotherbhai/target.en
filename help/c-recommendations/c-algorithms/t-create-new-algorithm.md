@@ -72,11 +72,11 @@ There are multiple ways to reach the [!UICONTROL Create New Criteria] screen. So
 
    The available data ranges are:
 
-* Two days 
-* One week 
-* Two weeks 
-* One month 
-* Two months
+   * Two days 
+   * One week 
+   * Two weeks 
+   * One month 
+   * Two months
 
 1. Select the desired **[!UICONTROL Behavioral Data Source]**: [!UICONTROL mboxes] or [!UICONTROL Analytics].
 
@@ -87,9 +87,9 @@ There are multiple ways to reach the [!UICONTROL Create New Criteria] screen. So
 
    Select the appropriate toggles:
 
-* [!UICONTROL Enable Partial Design Rendering] 
-* [!UICONTROL Show Backup Recommendations] 
-* [!UICONTROL Recommend Previously Purchased Items]
+   * [!UICONTROL Enable Partial Design Rendering] 
+   * [!UICONTROL Show Backup Recommendations] 
+   * [!UICONTROL Recommend Previously Purchased Items]
 
   This setting is based on the `productPurchasedId`. It is useful if you sell items that people typically purchase only once, such as kayaks. If you sell items that people come back to purchase again, such as shampoo or other personal items, you should disable this option.
 
@@ -105,34 +105,36 @@ There are multiple ways to reach the [!UICONTROL Create New Criteria] screen. So
    See [Attribute Weighting](../../c-recommendations/c-algorithms/t-create-new-algorithm.md#task_2AEDA0DB15B74770B76F6982B24C2E42). 
 1. When finished, click **[!UICONTROL Save]**.
 
-   If you are creating a new [!UICONTROL Recommendations] activity or editing an existing one, the **[!UICONTROL Save criteria for later]** check box is selected by default. If you do not want to use the criteria in other activities, clear the check box before saving. 
->**Expected Criteria Processing Time:** If the criteria uses mboxes as the Behavioral Data Source, once created, the criteria will immediately run. Depending on the amount of behavioral data used and the size of the catalog, the algorithm can take up to 12 hours to run. Making changes to the criteria configuration results in the criteria re-running. 
->
->If the criteria uses [!DNL Adobe Analytics] as the Behavioral Data Source, once created, the time for criteria availability depends on whether the selected report suite and lookback window has been used for any other criteria. If the report suite has been previously used with a lookback window at least as long as the selected lookback window, then behavioral data is already available in Target and Recommendations runs the criteria immediately. The algorithm can take up to 12 hours to run depending on the amount of behavioral data used and the size of the catalog. If the report suite has not been previously used, or is used with a longer lookback window, Recommendations must request and receive data from Adobe Analytics, then subsequently run the algorithm. The sync process with Analytics generally takes at least 2 days and might take up to 7 days to complete depending on Analytics system load. 
+   If you are creating a new [!UICONTROL Recommendations] activity or editing an existing one, the **[!UICONTROL Save criteria for later]** check box is selected by default. If you do not want to use the criteria in other activities, clear the check box before saving.
 
->## Base the Recommendation on a Recommendation Key {#task_2B0ED54AFBF64C56916B6E1F4DC0DC3B}
+**Expected Criteria Processing Time:** If the criteria uses mboxes as the Behavioral Data Source, once created, the criteria will immediately run. Depending on the amount of behavioral data used and the size of the catalog, the algorithm can take up to 12 hours to run. Making changes to the criteria configuration results in the criteria re-running. 
 
->Recommendations based on keys utilize visitor behavior context to show relevant results. 
+If the criteria uses [!DNL Adobe Analytics] as the Behavioral Data Source, once created, the time for criteria availability depends on whether the selected report suite and lookback window has been used for any other criteria. If the report suite has been previously used with a lookback window at least as long as the selected lookback window, then behavioral data is already available in Target and Recommendations runs the criteria immediately. The algorithm can take up to 12 hours to run depending on the amount of behavioral data used and the size of the catalog. If the report suite has not been previously used, or is used with a longer lookback window, Recommendations must request and receive data from Adobe Analytics, then subsequently run the algorithm. The sync process with Analytics generally takes at least 2 days and might take up to 7 days to complete depending on Analytics system load. 
 
->
-><!-- 
+## Base the Recommendation on a Recommendation Key {#task_2B0ED54AFBF64C56916B6E1F4DC0DC3B}
+
+Recommendations based on keys utilize visitor behavior context to show relevant results. 
+
+
+<!-- 
 
 recs/t_rec_key_recs.xml
 
  -->
->There are two types of Recommendations: 
->
->* **Popularity: **Lists items according to Most Viewed, Top Sold, and Top Metric. The key is empty for popularity criteria. 
->* **Key-based: **Comprises the rest of the criteria. Recommendations offers a diverse set of choices with regard to the key type. The options range from "current item" to "profile parameters," which allow you to programmatically set the key of the values to recommend. You can test multiple criteria against each other by basing each criteria on a different key. 
->
->Each criteria is defined in its own tab. Traffic is split evenly across your different criteria tests. In other words, if you have two criteria, traffic is divided equally between them. If you have two criteria and two designs, traffic is split evenly between the four combinations. You can also specify a percentage of site visitors who see the default content, for comparison. In that case, the specified percentage of visitors see the default content, and the rest are split between your criteria and design combinations. 
->
->1. Create a new recommendation, or select an existing recommendation and click **[!UICONTROL Edit]**.
->1. To change the recommendation key, select the new key from the [!UICONTROL Recommendation Key] drop-down list.
+
+There are two types of Recommendations: 
+
+* **Popularity:** Lists items according to Most Viewed, Top Sold, and Top Metric. The key is empty for popularity criteria. 
+* **Key-based:** Comprises the rest of the criteria. Recommendations offers a diverse set of choices with regard to the key type. The options range from "current item" to "profile parameters," which allow you to programmatically set the key of the values to recommend. You can test multiple criteria against each other by basing each criteria on a different key. 
+
+Each criteria is defined in its own tab. Traffic is split evenly across your different criteria tests. In other words, if you have two criteria, traffic is divided equally between them. If you have two criteria and two designs, traffic is split evenly between the four combinations. You can also specify a percentage of site visitors who see the default content, for comparison. In that case, the specified percentage of visitors see the default content, and the rest are split between your criteria and design combinations. 
+
+1. Create a new recommendation, or select an existing recommendation and click **[!UICONTROL Edit]**.
+1. To change the recommendation key, select the new key from the [!UICONTROL Recommendation Key] drop-down list.
 >
 >   Because different logic maps to different recommendations keys, different recommendations lend themselves to placement on different types of pages: 
->
-><table id="table_D2F606E0723A4A47992CFCF5B5A110E2"> 
+
+<table id="table_D2F606E0723A4A47992CFCF5B5A110E2"> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> Key </th> 
@@ -260,102 +262,106 @@ recs/t_rec_key_recs.xml
   </tr> 
  </tbody> 
 </table>
->1. Click **[!UICONTROL Save]**.
 
->## Inclusion Rules {#task_28DB20F968B1451481D8E51BAF947079}
+1. Click **[!UICONTROL Save]**.
 
->Several options help you narrow the items that display in your recommendations. You can use inclusion rules while creating criteria or promotions. 
+## Inclusion Rules {#task_28DB20F968B1451481D8E51BAF947079}
 
->
-><!-- 
+Several options help you narrow the items that display in your recommendations. You can use inclusion rules while creating criteria or promotions. 
+
+
+<!-- 
 
 recs/t_data_details.xml
 
  -->
->Inclusion rules are optional; however, setting these details gives you more control over the items that appear in your recommendations. Each detail you configure further narrows the display criteria. 
->
->For example, you can choose to display only women's shoes that have an inventory of more than 50 and a price between $25 and $45. You can also weight each attribute so those items that are more important to your business are most likely to appear. 
->
->As another example, you can choose to display job openings to visitors who visit your site only from certain cities and who have the required college degrees. 
->
->Inclusion rule options vary by industry vertical. By default, inclusion rules are applied to backup recommendations. 
->
->>[!NOTE]
->>
->>You should use inclusion rules cautiously. They are useful if, for example, your organization has rules that demand that one brand is not recommended while another brand is being shown. However, there is an opportunity cost to this feature. You could possibly lose a percentage of lift by restricting some items from not showing when they would normally be shown by the activity criteria. 
->
->The inclusion rules are joined with an AND. All rules must be met to include an item in a recommendation. 
->
->To create a simple inclusion rule, as mentioned previously, to display only women's shoes that have an inventory of more than 50 and a price between $25 and $45, perform the following steps: 
->
->1. Set a price range for the products you want to recommend.
->1. Set the minimum inventory amount for the products you want to recommend.
->1. Configure the recommendation to display items only when they meet certain criteria.
->
->   ![](assets/Recs_InclusionRules.png)>
->   You can specify that items are included only when one of the attributes in the list meets or does not match one or more specified conditions. 
->
->   The available evaluators depend on the value you choose in the first drop-down. You can list multiple items. These items are evaluated with OR. 
->
->   Multiple rules are combined with an AND. 
->
->   >[!NOTE]
->   >
->   >This option limits the items that are displayed in the recommendation. It does not affect which pages the recommendation is displayed on. To limit where the recommendation displays, select the pages in the experience composer. 
->
->## Attribute Weighting {#task_2AEDA0DB15B74770B76F6982B24C2E42}
 
->Use attribute weighting to "nudge" the algorithm so certain items are more likely to be shown. Marketers can influence the algorithm based on important description or metadata about the content catalog. 
+Inclusion rules are optional; however, setting these details gives you more control over the items that appear in your recommendations. Each detail you configure further narrows the display criteria. 
 
+For example, you can choose to display only women's shoes that have an inventory of more than 50 and a price between $25 and $45. You can also weight each attribute so those items that are more important to your business are most likely to appear. 
+
+As another example, you can choose to display job openings to visitors who visit your site only from certain cities and who have the required college degrees. 
+
+Inclusion rule options vary by industry vertical. By default, inclusion rules are applied to backup recommendations. 
+
+>[!NOTE]
 >
-><!-- 
+>You should use inclusion rules cautiously. They are useful if, for example, your organization has rules that demand that one brand is not recommended while another brand is being shown. However, there is an opportunity cost to this feature. You could possibly lose a percentage of lift by restricting some items from not showing when they would normally be shown by the activity criteria. 
+
+The inclusion rules are joined with an AND. All rules must be met to include an item in a recommendation. 
+
+To create a simple inclusion rule, as mentioned previously, to display only women's shoes that have an inventory of more than 50 and a price between $25 and $45, perform the following steps: 
+
+1. Set a price range for the products you want to recommend.
+1. Set the minimum inventory amount for the products you want to recommend.
+1. Configure the recommendation to display items only when they meet certain criteria.
+
+   ![](assets/Recs_InclusionRules.png)
+
+   You can specify that items are included only when one of the attributes in the list meets or does not match one or more specified conditions. 
+
+   The available evaluators depend on the value you choose in the first drop-down. You can list multiple items. These items are evaluated with OR. 
+
+   Multiple rules are combined with an AND. 
+
+   >[!NOTE]
+   >
+   >This option limits the items that are displayed in the recommendation. It does not affect which pages the recommendation is displayed on. To limit where the recommendation displays, select the pages in the experience composer. 
+
+## Attribute Weighting {#task_2AEDA0DB15B74770B76F6982B24C2E42}
+
+Use attribute weighting to "nudge" the algorithm so certain items are more likely to be shown. Marketers can influence the algorithm based on important description or metadata about the content catalog. 
+
+<!-- 
 
 recs/t_attribute_weighting.xml
 
  -->
->Apply a higher weighting to these on-sale items so they show more often in the recommendation. Non-sale items are not completely excluded, but they appear less often. Multiple weighted attributes can be applied to the same algorithm, and the weighted attributes can be tested on split traffic in the recommendation. 
->
->1. Choose a value.
->
->   The value determines the type of item that is more likely to display, based on one of several available criteria. 
->1. Choose an evaluator.
->1. Type the keyword to complete the rule attributes.
->
->   For example, the complete rule might be "Category contains shoes." 
->
->   ![](assets/Recs_AttributeWeighting.png)>
->1. Select the weight to assign to the rule.
->
->   Options range from 0 to 100 in increments of 25. 
->1. Add additional rules if desired.
 
->## Content Settings {#concept_BC16005C7A1E4F1A87E33D16221F4A96}
+Apply a higher weighting to these on-sale items so they show more often in the recommendation. Non-sale items are not completely excluded, but they appear less often. Multiple weighted attributes can be applied to the same algorithm, and the weighted attributes can be tested on split traffic in the recommendation. 
 
->The [!UICONTROL Content] settings determine how recommendations display in your design. 
+1. Choose a value.
 
->
-><!-- 
+   The value determines the type of item that is more likely to display, based on one of several available criteria. 
+1. Choose an evaluator.
+1. Type the keyword to complete the rule attributes.
+
+   For example, the complete rule might be "Category contains shoes." 
+
+   ![](assets/Recs_AttributeWeighting.png)>
+1. Select the weight to assign to the rule.
+
+   Options range from 0 to 100 in increments of 25. 
+1. Add additional rules if desired.
+
+## Content Settings {#concept_BC16005C7A1E4F1A87E33D16221F4A96}
+
+The [!UICONTROL Content] settings determine how recommendations display in your design. 
+
+<!-- 
 
 recs/c_content_settings.xml
 
  -->
->It is possible for [!UICONTROL Recommendations] criteria to return fewer recommendations than your design calls for. For example, your design may have five available "slots," but the criteria returns only three recommended items. The [!UICONTROL Content] settings control how recommendations are presented when this happens. 
->
->Content rules determine what happens if the number of recommended items does not fill your design. For example, if your design has space for five items, but your criteria causes only three items to be recommended, you can leave the remaining space empty, or you can use backup recommendations to fill the extra space. 
->
->Select the appropriate toggles: 
->
->* [!UICONTROL Enable Partial Design Rendering] 
->* [!UICONTROL Show Backup Recommendations] 
->* [!UICONTROL Apply Inclusion Rules to Backup Recommendations] 
->* [!UICONTROL Recommend Previously Purchased Items] 
->
->  This setting is based on the `productPurchasedId` profile value. The default behavior is to not recommend previously purchased items. In most cases you do not want to promote items a customer has recently purchased. If customers typically buy certain items on a repeated basis, enabling this feature allows previously purchased items to continue to be recommended. 
->
->If you enable **[!UICONTROL Show Backup Recommendations]**, the option to apply your [inclusion rules](../../c-recommendations/c-algorithms/t-create-new-algorithm.md#task_28DB20F968B1451481D8E51BAF947079) to backup recommendations is enabled by default. 
->
->![](assets/Recs_ContentControls.png)>
-><table id="table_C0B893ECCEB4472B848808750C7ADDED"> 
+
+It is possible for [!UICONTROL Recommendations] criteria to return fewer recommendations than your design calls for. For example, your design may have five available "slots," but the criteria returns only three recommended items. The [!UICONTROL Content] settings control how recommendations are presented when this happens. 
+
+Content rules determine what happens if the number of recommended items does not fill your design. For example, if your design has space for five items, but your criteria causes only three items to be recommended, you can leave the remaining space empty, or you can use backup recommendations to fill the extra space. 
+
+Select the appropriate toggles: 
+
+* [!UICONTROL Enable Partial Design Rendering] 
+* [!UICONTROL Show Backup Recommendations] 
+* [!UICONTROL Apply Inclusion Rules to Backup Recommendations] 
+* [!UICONTROL Recommend Previously Purchased Items] 
+
+  This setting is based on the `productPurchasedId` profile value. The default behavior is to not recommend previously purchased items. In most cases you do not want to promote items a customer has recently purchased. If customers typically buy certain items on a repeated basis, enabling this feature allows previously purchased items to continue to be recommended. 
+
+If you enable **[!UICONTROL Show Backup Recommendations]**, the option to apply your [inclusion rules](../../c-recommendations/c-algorithms/t-create-new-algorithm.md#task_28DB20F968B1451481D8E51BAF947079) to backup recommendations is enabled by default. 
+
+![](assets/Recs_ContentControls.png)
+
+<table id="table_C0B893ECCEB4472B848808750C7ADDED"> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> Partial Design Rendering </th> 
@@ -386,23 +392,25 @@ recs/c_content_settings.xml
   </tr> 
  </tbody> 
 </table>
->## Content Similarity {#concept_5402DAFA279C4E46A9A449526889A0CB}
 
->Use [!UICONTROL Content Similarity] rules to make recommendations based on item or media attributes. 
+## Content Similarity {#concept_5402DAFA279C4E46A9A449526889A0CB}
 
->
-><!-- 
+Use [!UICONTROL Content Similarity] rules to make recommendations based on item or media attributes. 
+
+<!-- 
 
 recs/c_content_similarity.xml
 
  -->
->Content similarity compares item attribute keywords and makes recommendations based on how many keywords different items have in common. Recommendations based on content similarity do not require past data to deliver strong results. 
->
->Using content similarity to generate recommendations is especially effective for new items, which are not likely to show up in recommendations using *People Who Viewed This, Viewed That* and other logic based on past behavior. You can also use content similarity to generate useful recommendations for new visitors, who have no past purchases or other historical data. 
->
->When you select **[!UICONTROL Items]**/ **[!UICONTROL Media with Similar Attributes]**, you have the option to create rules to increase or decrease the importance of specific item attributes in determining recommendations. For items such as books, you might want to boost the importance of attributes like *genre*, *author*, *series*, and so on, to recommend similar books. 
->
->![](assets/ContentSimilarity.png)>
->Because content similarity uses keywords to compare items, some attributes, such as *message* or *description*, can introduce "noise" into the comparison. You can create rules to ignore these attributes. 
->
->By default, all attributes are set to *Baseline*. You do not need to create a rule unless you want to change this setting. 
+
+Content similarity compares item attribute keywords and makes recommendations based on how many keywords different items have in common. Recommendations based on content similarity do not require past data to deliver strong results. 
+
+Using content similarity to generate recommendations is especially effective for new items, which are not likely to show up in recommendations using *People Who Viewed This, Viewed That* and other logic based on past behavior. You can also use content similarity to generate useful recommendations for new visitors, who have no past purchases or other historical data. 
+
+When you select **[!UICONTROL Items]**/ **[!UICONTROL Media with Similar Attributes]**, you have the option to create rules to increase or decrease the importance of specific item attributes in determining recommendations. For items such as books, you might want to boost the importance of attributes like *genre*, *author*, *series*, and so on, to recommend similar books. 
+
+![](assets/ContentSimilarity.png)
+
+Because content similarity uses keywords to compare items, some attributes, such as *message* or *description*, can introduce "noise" into the comparison. You can create rules to ignore these attributes. 
+
+By default, all attributes are set to *Baseline*. You do not need to create a rule unless you want to change this setting. 
