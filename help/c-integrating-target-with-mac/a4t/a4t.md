@@ -141,8 +141,8 @@ The following table shows you which activity types support Analytics as the repo
   </tr> 
   <tr> 
    <td colname="col1"> <p>Server Side Delivery API </p> </td> 
-   <td colname="col3"> <p>No </p> </td> 
-   <td colname="col5"> </td> 
+   <td colname="col3"> <p>Yes </p> </td> 
+   <td colname="col5"> For more information, see <a href="../../c-implementing-target/c-api-and-sdk-overview/c-api-and-sdk-overview.md#concept_5718EC1FF2ED4436935D0BCCD7AA29A6" format="dita" scope="local"> Server Side: implement Target</a>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>NodeJS SDK </p> </td> 
