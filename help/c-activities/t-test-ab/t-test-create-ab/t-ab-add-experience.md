@@ -141,4 +141,4 @@ Note that when you name or rename an experience, the following characters are no
 
 On the **[!UICONTROL Experiences]** page (the first step in the three-step guided workflow), click the three vertical ellipses > **[!UICONTROL Duplicate]**. 
 
-![](assets/duplicate_experience_ab.png)>
+![](assets/duplicate_experience_ab.png)

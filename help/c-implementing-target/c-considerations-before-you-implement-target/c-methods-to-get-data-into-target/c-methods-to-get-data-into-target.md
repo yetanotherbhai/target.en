@@ -43,39 +43,21 @@ Information about the various methods you can use to get data into Target, inclu
      <ul id="ul_48E6B180B9984B1C937524C671DFB8B6"> 
       <li id="li_13DA7ECE7D744815BE6B5CF581B8525A"> <p>Requires page code update (directly or via a tag management system). </p> </li> 
       <li id="li_D419E3CA1FFB4AB3BD1CFCBE94142763"> <p>If the data needs to be used for targeting on a subsequent page/server call, it needs to be translated to a profile script. </p> </li> 
-      <li id="li_74DF8228F033420DB5CABA1F6C358309"> <p>Query strings can contain only characters as per the <a href="https://www.ietf.org/rfc/rfc3986.txt" format="txt" scope="external"> Internet Engineering Task Force (IETF) standard </a>. </p> <p>In addition to those mentioned on the IETF site, Target allows the following characters in query stings: </p> <p>&lt; &gt; # % " { } | \ ^ [] ` </p> <p>Everything else must be url-encoded. The standard specifies the following format ( <a href="https://www.ietf.org/rfc/rfc1738.txt" format="txt" scope="external"> https://www.ietf.org/rfc/rfc1738.txt </a>), as illustrated below: </p> <p style="text-align: center;"> <img href="assets/ietf1.png" id="image_6EFD6F1CE7D44F67B60DEF72FE92C909" /> </p> <p>Or, the full list for simplicity: </p> <p style="text-align: center;"> <img href="assets/ietf2.png" id="image_C0FD032BC10D4C7B9B5F8C2829D4D446" /> </p> </li> 
+      <li id="li_74DF8228F033420DB5CABA1F6C358309"> <p>Query strings can contain only characters as per the <a href="https://www.ietf.org/rfc/rfc3986.txt" format="txt" scope="external"> Internet Engineering Task Force (IETF) standard </a>. </p> <p>In addition to those mentioned on the IETF site, Target allows the following characters in query stings: </p> <p>&lt; &gt; # % " { } | \ ^ [] ` </p> <p>Everything else must be url-encoded. The standard specifies the following format ( <a href="https://www.ietf.org/rfc/rfc1738.txt" format="txt" scope="external"> https://www.ietf.org/rfc/rfc1738.txt </a>), as illustrated below: </p> <p> <img href="assets/ietf1.png" id="image_6EFD6F1CE7D44F67B60DEF72FE92C909" /> </p> <p>Or, the full list for simplicity: </p> <p> <img href="assets/ietf2.png" id="image_C0FD032BC10D4C7B9B5F8C2829D4D446" /> </p> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Code Examples </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> targetPageParamsAll </span> (appends the parameters to all mbox calls on the page): </p> 
-    <codeblock>
-      function&nbsp;targetPageParamsAll()&nbsp;{ 
-     
-&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;"param1=value1&amp;param2=value2&amp;p3=hello%20world"; 
-     
-} 
-    </codeblock> <p> <span class="codeph"> targetPageParams </span> (appends the parameters to the global mbox on the page): </p> 
-    <codeblock>
-      function&nbsp;targetPageParams()&nbsp;{ 
-     
-&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;"param1=value1&amp;param2=value2&amp;p3=hello%20world"; 
-     
-} 
-    </codeblock> <p>Parameters in mboxCreate code: </p> 
-    <codeblock>
-      &lt;div&nbsp;class="mboxDefault"&gt; 
-     
-&nbsp;&nbsp;default&nbsp;content&nbsp;to&nbsp;replace&nbsp;by&nbsp;offer 
-     
-&lt;/div&gt; 
-     
-&lt;script&gt; 
-     
-&nbsp;&nbsp;mboxCreate('mboxName','param1=value1','param2=value2'); 
-     
-&lt;/script&gt; 
-    </codeblock> </td> 
+    <code>
+      function&nbsp;targetPageParamsAll()&nbsp;{ return&nbsp;"param1=value1&amp;param2=value2&amp;p3=hello%20world"; 
+    </code> <p> <span class="codeph"> targetPageParams </span> (appends the parameters to the global mbox on the page): </p> 
+    <code>
+      function&nbsp;targetPageParams()&nbsp;{  return&nbsp;"param1=value1&amp;param2=value2&amp;p3=hello%20world"; 
+    </code> <p>Parameters in mboxCreate code: </p> 
+    <code>
+      &lt;div&nbsp;class="mboxDefault"&gt;  default&nbsp;content&nbsp;to&nbsp;replace&nbsp;by&nbsp;offer &lt;/div&gt; &lt;script&gt;  mboxCreate('mboxName','param1=value1','param2=value2'); &lt;/script&gt; 
+    </code> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Links to Relevant Information </p> </td> 
@@ -111,33 +93,15 @@ Information about the various methods you can use to get data into Target, inclu
   <tr> 
    <td colname="col1"> <p>Code Examples </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> targetPageParamsAll </span> (appends the attributes to all mbox calls on the page): </p> 
-    <codeblock>
-      function&nbsp;targetPageParamsAll()&nbsp;{ 
-     
-&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;"profile.param1=value1&amp;profile.param2=value2&amp;profile.p3=hello%20world"; 
-     
-} 
-    </codeblock> <p> <span class="codeph"> targetPageParams </span> (appends the attributes to the global mbox on the page): </p> 
-    <codeblock>
-      function&nbsp;targetPageParams()&nbsp;{ 
-     
-&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;profile.param1=value1&amp;profile.param2=value2&amp;profile.p3=hello%20world"; 
-     
-} 
-    </codeblock> <p>Attributes in mboxCreate code: </p> 
-    <codeblock>
-      &lt;div&nbsp;class="mboxDefault"&gt; 
-     
-&nbsp;&nbsp;default&nbsp;content&nbsp;to&nbsp;replace&nbsp;by&nbsp;offer 
-     
-&lt;/div&gt; 
-     
-&lt;script&gt; 
-     
-&nbsp;&nbsp;mboxCreate('mboxName','profile.param1=value1','profile.param2=value2'); 
-     
-&lt;/script&gt; 
-    </codeblock> </td> 
+    <code>
+      function&nbsp;targetPageParamsAll()&nbsp;{  return&nbsp;"profile.param1=value1&amp;profile.param2=value2&amp;profile.p3=hello%20world"; } 
+    </code> <p> <span class="codeph"> targetPageParams </span> (appends the attributes to the global mbox on the page): </p> 
+    <code>
+      function&nbsp;targetPageParams()&nbsp;{  return&nbsp;profile.param1=value1&amp;profile.param2=value2&amp;profile.p3=hello%20world"; }
+    </code> <p>Attributes in mboxCreate code: </p> 
+    <code>
+      &lt;div&nbsp;class="mboxDefault"&gt; default&nbsp;content&nbsp;to&nbsp;replace&nbsp;by&nbsp;offer &lt;/div&gt; &lt;script&gt; mboxCreate('mboxName','profile.param1=value1','profile.param2=value2'); &lt;/script&gt; 
+    </code> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Links to Relevant Information </p> </td> 
@@ -173,25 +137,9 @@ Information about the various methods you can use to get data into Target, inclu
   <tr> 
    <td colname="col1"> <p>Code Examples </p> </td> 
    <td colname="col2"> <p><b>Code Examples</b> </p> <p>Profile scripts are quite flexible: </p> 
-    <codeblock>
-      user.purchase_recency: 
-     
-var&nbsp;dayInMillis&nbsp;=&nbsp;3600&nbsp;*&nbsp;24&nbsp;*&nbsp;1000; 
-     
-if&nbsp;(mbox.name&nbsp;==&nbsp;'orderThankyouPage')&nbsp;{ 
-     
-&nbsp;user.setLocal('lastPurchaseTime',&nbsp;new&nbsp;Date().getTime()); 
-     
-} 
-     
-var&nbsp;lastPurchaseTime&nbsp;=&nbsp;user.getLocal('lastPurchaseTime'); 
-     
-if&nbsp;(lastPurchaseTime)&nbsp;{ 
-     
-&nbsp;return&nbsp;((new&nbsp;Date()).getTime()-lastPurchaseTime)/dayInMillis; 
-     
-} 
-    </codeblock> </td> 
+    <code>
+      user.purchase_recency: var&nbsp;dayInMillis&nbsp;=&nbsp;3600&nbsp;*&nbsp;24&nbsp;*&nbsp;1000; if&nbsp;(mbox.name&nbsp;==&nbsp;'orderThankyouPage')&nbsp;{ &nbsp;user.setLocal('lastPurchaseTime',&nbsp;new&nbsp;Date().getTime()); } var&nbsp;lastPurchaseTime&nbsp;=&nbsp;user.getLocal('lastPurchaseTime'); if&nbsp;(lastPurchaseTime)&nbsp;{ &nbsp;return&nbsp;((new&nbsp;Date()).getTime()-lastPurchaseTime)/dayInMillis; } 
+    </code> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Links to Relevant Information </p> </td> 
@@ -307,9 +255,9 @@ if&nbsp;(lastPurchaseTime)&nbsp;{
   <tr> 
    <td colname="col1"> <p>Code Examples </p> </td> 
    <td colname="col2"> <p>GET and POST supported. 
-     <codeblock>
+     <code>
        https://CLIENT.tt.omtrdc.net/m2/client/profile/update?mboxPC=1368007744041-575948.01_00&amp;profile.attr1=0&amp;profile.attr2=1... 
-     </codeblock> </p> </td> 
+     </code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Links to Relevant Information </p> </td> 

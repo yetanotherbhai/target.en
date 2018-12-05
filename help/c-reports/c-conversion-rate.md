@@ -152,7 +152,7 @@ For example, if you’re optimizing to page views per visitor, you’d export a 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Reporting Date </p> </td> 
-   <td colname="col2"> <p>Specify a time period and granularity. </p> <p>As best practice, choose no more than an hour or one day of data for your first request. </p> <p>Data Warehouse files take longer to process the longer the time period requested, so it is always a best practice to request a small time period data first to make sure your file returns the expected result. Then, go to the Request Manager, duplicate your request, and ask for more data the second time. Also, if you toggle granularity to anything other than “None,” the file size will increase drastically. </p> <p style="text-align: center;"> <img href="assets/datawarehouse.png" id="image_D58215BCAF2B4DA3B22437C199A59418" /> </p> </td> 
+   <td colname="col2"> <p>Specify a time period and granularity. </p> <p>As best practice, choose no more than an hour or one day of data for your first request. </p> <p>Data Warehouse files take longer to process the longer the time period requested, so it is always a best practice to request a small time period data first to make sure your file returns the expected result. Then, go to the Request Manager, duplicate your request, and ask for more data the second time. Also, if you toggle granularity to anything other than “None,” the file size will increase drastically. </p> <p> <img href="assets/datawarehouse.png" id="image_D58215BCAF2B4DA3B22437C199A59418" /> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Available Segments </p> </td> 
@@ -172,11 +172,11 @@ For example, if you’re optimizing to page views per visitor, you’d export a 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Report Preview </p> </td> 
-   <td colname="col2"> <p>Review your settings before scheduling the report. </p> <p style="text-align: center;"> <img href="assets/datawarehouse2.png" id="image_D209CF4053204BE591CEF42BEB0C065C" /> </p> </td> 
+   <td colname="col2"> <p>Review your settings before scheduling the report. </p> <p> <img href="assets/datawarehouse2.png" id="image_D209CF4053204BE591CEF42BEB0C065C" /> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Schedule Delivery </p> </td> 
-   <td colname="col2"> <p>Enter an email address to deliver the file to, name the file, then select <span class="uicontrol"> Send Immediately </span>. </p> <p> <p>Note:  The file can be delivered via FTP under <span class="wintitle"> Advanced Delivery Options </span>. </p> </p> <p style="text-align: center;"> <img href="assets/datawarehouse3.png" id="image_DD2DA7CA0FAB4EC78D9BC80476301576" /> </p> </td> 
+   <td colname="col2"> <p>Enter an email address to deliver the file to, name the file, then select <span class="uicontrol"> Send Immediately </span>. </p> <p> <p>Note:  The file can be delivered via FTP under <span class="wintitle"> Advanced Delivery Options </span>. </p> </p> <p> <img href="assets/datawarehouse3.png" id="image_DD2DA7CA0FAB4EC78D9BC80476301576" /> </p> </td> 
   </tr> 
  </tbody> 
 </table>

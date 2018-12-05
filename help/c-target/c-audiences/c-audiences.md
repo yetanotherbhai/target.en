@@ -90,15 +90,15 @@ The following details are available for these imported audience types:
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Mobile audience </p> </td> 
-   <td colname="col2"> <p>Marketing Name, Vendor, and Model. </p> <p>The <span class="codeph"> matches|does not match</span> operator displays instead of <span class="codeph"> equals|does not equal</span>. </p> <p style="text-align: center;"><img href="assets/imported_mobile_audience.png" id="image_D858836141D34047ABEBCE9FBE302826" /> </p> </td> 
+   <td colname="col2"> <p>Marketing Name, Vendor, and Model. </p> <p>The <span class="codeph"> matches|does not match</span> operator displays instead of <span class="codeph"> equals|does not equal</span>. </p> <p><img href="assets/imported_mobile_audience.png" id="image_D858836141D34047ABEBCE9FBE302826" /> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Visitor-behavior audience </p> </td> 
-   <td colname="col2"> <p>user.categoryAffinity: <span class="codeph"> categoryAffinity</span> with <span class="codeph"> FAVORITE</span> parameter. </p> <p style="text-align: center;"><img href="assets/imported_category_affinity.png" id="image_117DA80E582F45ACB03B244798A24264" /> </p> <p>Monitoring: <span class="codeph"> Monitoring service equals true</span>. </p> <p>No Monitoring Service: <span class="codeph"> Monitoring service equals false</span>. </p> <p style="text-align: center;"><img href="assets/imported_monitoring.png" id="image_D63245B224C14837B5DDA33247394CB5" /> </p> </td> 
+   <td colname="col2"> <p>user.categoryAffinity: <span class="codeph"> categoryAffinity</span> with <span class="codeph"> FAVORITE</span> parameter. </p> <p><img href="assets/imported_category_affinity.png" id="image_117DA80E582F45ACB03B244798A24264" /> </p> <p>Monitoring: <span class="codeph"> Monitoring service equals true</span>. </p> <p>No Monitoring Service: <span class="codeph"> Monitoring service equals false</span>. </p> <p><img href="assets/imported_monitoring.png" id="image_D63245B224C14837B5DDA33247394CB5" /> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Audiences using the NOT operator </p> </td> 
-   <td colname="col2"> <p>Single Rule: Target displays the audience in the format <span class="codeph"> [All Visitor AND [NOT [rule]</span>. Single NOT rule displays with AND with AllVisitor audience. </p> <p style="text-align: center;"><img href="assets/imported_not_audience.png" id="image_E1D8B2BF23C64213984A58CFEF7951F4" /> </p> </td> 
+   <td colname="col2"> <p>Single Rule: Target displays the audience in the format <span class="codeph"> [All Visitor AND [NOT [rule]</span>. Single NOT rule displays with AND with AllVisitor audience. </p> <p><img href="assets/imported_not_audience.png" id="image_E1D8B2BF23C64213984A58CFEF7951F4" /> </p> </td> 
   </tr> 
  </tbody> 
 </table>

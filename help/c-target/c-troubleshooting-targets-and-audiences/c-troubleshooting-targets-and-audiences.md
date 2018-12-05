@@ -36,7 +36,7 @@ For example, in the following illustration, a user from California using a Windo
 
 ## Why do names for the same audience in Target , Adobe Audience Manager (AAM), and the Audience Library in core services differ? {#section_F67E61A607B6444C8DAA4F99C3E95AED}
 
-Audience names in [!DNL Target] are unique; however, in [!DNL AAM] and the [!DNL Audience Library], you can have the same name for multiple audiences (if they are in different folders).When [!DNL Target] encounters an audience name that corresponds to an [!DNL AAM] or [!DNL Audience Library] audience, [!DNL Target] appends "#<number>" to the name.
+Audience names in [!DNL Target] are unique; however, in [!DNL AAM] and the [!DNL Audience Library], you can have the same name for multiple audiences (if they are in different folders).When [!DNL Target] encounters an audience name that corresponds to an [!DNL AAM] or [!DNL Audience Library] audience, [!DNL Target] appends "#&lt;number&gt;" to the name.
 
 For example, you might see the following audiences: "PC Users" (in [!DNL AAM]) and "PC Users #1" (in [!DNL Target]).
 

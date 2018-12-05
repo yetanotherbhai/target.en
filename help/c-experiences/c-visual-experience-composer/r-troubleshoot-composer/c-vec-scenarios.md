@@ -7,12 +7,9 @@ solution: Target
 title: Page Modification Scenarios
 topic: Premium
 uuid: bb868f55-7e77-49c4-81b5-3aff5b63b827
-index: y
-internal: n
-snippet: y
 ---
 
-# Page Modification Scenarios{#page-modification-scenarios}
+# Page Modification Scenarios {#page-modification-scenarios}
 
 The scenarios in this topic show how changes made to your page affect Target's ability to display an experience.
 
@@ -46,49 +43,26 @@ Selector: `#wrap > ul.nav:eq(0) > li.women-section:eq(0)`
 
 The selector works as expected because `li.women-section:eq(0)` is not affected.
 
-<table id="table_F37367FB9CB343D497B5C58E8AA1B015"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Before </th> 
-   <th colname="col2" class="entry"> After </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> 
-    <codeblock>
-      &lt;div&nbsp;id="wrap"&gt; 
-     
-&nbsp;&nbsp;&nbsp;&lt;ul&nbsp;class="nav"&gt; 
-     
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&nbsp;class="men-section"&gt;&nbsp;Men&lt;/li&gt; 
-     
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&nbsp;class="women-section"&gt;Women&lt;/li&gt; 
-     
-&nbsp;&nbsp;&nbsp;&lt;/ul&gt; 
-     
-&lt;/div&gt; 
-    </codeblock> </td> 
-   <td colname="col2"> <p> 
-     <codeblock>
-       &lt;div&nbsp;id="wrap"&gt; 
-      
-&nbsp;&nbsp;&nbsp;&lt;ul&nbsp;class="nav"&gt; 
-      
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-      <b>&lt;li&amp;nbsp;class="kids-section"&gt;Kids&lt;/li&gt;</b> 
-      
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&nbsp;class="men-section"&gt;&nbsp;Men&lt;/li&gt; 
-      
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&nbsp;class="women-section"&gt;Women&lt;/li&gt; 
-      
-&nbsp;&nbsp;&nbsp;&lt;/ul&gt; 
-      
-&lt;/div&gt; 
-     </codeblock> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+Before:
+
+```
+<div id="wrap">
+     <ul class="nav">
+        <li class="men-section"> Men</li> <li class="women-section">Women</li>
+     </ul> 
+</div>
+```
+
+After:
+
+```
+<div id="wrap">
+    <ul class="nav">
+        <li class="kids-section">Kids</li>
+        <li class="men-section"> Men</li>       <li class="women-section">Women</li>
+    </ul> 
+</div>
+```
 
 ## Scenario: Insert an element with the same class name as the selected element {#section_0969B88C2F154E648D9969C8C85EF55A}
 
@@ -113,55 +87,30 @@ Selector: `#wrap > ul.nav:eq(0) > li.women-section:eq(0)`
 
 The selector does not work, because `ul.nav:eq(0)` provides a dynamically added element. The element won't be available and the action is not applied. When a similar list item with same class is added dynamically or manually after an activity has been created, a new element at the first position is created. This breaks the selector.
 
-<table id="table_EF89AE71A0C4434CAAF1D5BE2DB61257"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Before </th> 
-   <th colname="col2" class="entry"> After (Attempted) </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> 
-    <codeblock>
-      &lt;div&nbsp;id="wrap"&gt; 
-     
-&nbsp;&nbsp;&nbsp;&lt;ul&nbsp;class="nav"&gt; 
-     
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&nbsp;class="men-section"&gt;&nbsp;Men&lt;/li&gt; 
-     
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&nbsp;class="women-section"&gt;Women&lt;/li&gt; 
-     
-&nbsp;&nbsp;&nbsp;&lt;/ul&gt; 
-     
-&lt;/div&gt; 
-    </codeblock> </td> 
-   <td colname="col2"> 
-    <codeblock>
-      &lt;div&nbsp;id="wrap"&gt; 
-     
-&nbsp;&nbsp;&nbsp; 
-     <b>&lt;ul&nbsp;class="nav"&gt; 
-      
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&nbsp;class="item"&gt;&nbsp;Sale&lt;/li&gt; 
-      
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;&nbsp;class="item"&gt;&nbsp;Offers&lt;/li&gt; 
-      
-&nbsp;&nbsp;&nbsp;&lt;/ul&gt;</b> 
-     
-&nbsp;&nbsp;&nbsp;&lt;ul&nbsp;class="nav"&gt; 
-     
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&nbsp;class="men-section"&gt;&nbsp;Men&lt;/li&gt; 
-     
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&nbsp;class="women-section"&gt;Women&lt;/li&gt; 
-     
-&nbsp;&nbsp;&nbsp;&lt;/ul&gt; 
-     
-&lt;/div&gt; 
-    </codeblock> </td> 
-  </tr> 
- </tbody> 
-</table>
+Before:
+
+```
+<div id="wrap">
+    <ul class="nav">
+        <li class="men-section"> Men</li>       <li class="women-section">Women</li>
+    </ul> 
+</div>
+```
+
+After (Attempted):
+
+```
+<div id="wrap">
+     <ul class="nav">
+        <li class="item"> Sale</li>
+        <li> class="item"> Offers</li>
+     </ul>
+     <ul class="nav">
+       <li class="men-section"> Men</li>
+       <li class="women-section">Women</li>
+    </ul>
+</div>
+```
 
 ## Scenario: Insert an element after the selected element {#section_15B07B84BEE94ED39D85BBBE0733E170}
 
@@ -186,55 +135,30 @@ Selector: `#wrap > ul.nav:eq(0) > li.women-section:eq(0)`
 
 In this case, inserting a list after the list ending with the selected list item works as expected. The new element is added to the same position as the selected element relative to the parent element.
 
-<table id="table_EFDD681BAF4346E39BBD874D2013E109"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Before </th> 
-   <th colname="col2" class="entry"> After </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> 
-    <codeblock>
-      &lt;div&nbsp;id="wrap"&gt; 
-     
-&nbsp;&nbsp;&nbsp;&lt;ul&nbsp;class="nav"&gt; 
-     
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&nbsp;class="men"&gt;Men&nbsp;Shoes&nbsp;&lt;/li&gt; 
-     
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&nbsp;class="women"&gt;Women&nbsp;Shoes&lt;/li&gt; 
-     
-&nbsp;&nbsp;&nbsp;&lt;/ul&gt; 
-     
-&lt;/div&gt; 
-    </codeblock> </td> 
-   <td colname="col2"> 
-    <codeblock>
-      &lt;div&nbsp;id="wrap"&gt; 
-     
-&nbsp;&nbsp;&nbsp;&lt;ul&nbsp;class="nav"&gt; 
-     
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&nbsp;class="men"&gt;Men&nbsp;Shoes&nbsp;&lt;/li&gt; 
-     
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&nbsp;class="women"&gt;Women&nbsp;Shoes&lt;/li&gt; 
-     
-&nbsp;&nbsp;&nbsp;&lt;/ul&gt; 
-     
-&nbsp;&nbsp;&nbsp; 
-     <b>&lt;ul&nbsp;class="nav"&gt; 
-      
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&nbsp;class="men-section"&gt;Men&nbsp;Clothes&lt;/li&gt; 
-      
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&nbsp;class="women-section"&gt;&nbsp;Women&nbsp;Clothes&lt;/li&gt; 
-      
-&nbsp;&nbsp;&nbsp;&lt;/ul&gt;</b> 
-     
-&lt;/div&gt; 
-    </codeblock> </td> 
-  </tr> 
- </tbody> 
-</table>
+Before:
+
+```
+<div id="wrap">
+    <ul class="nav">
+        <li class="men">Men Shoes </li>       <li class="women">Women Shoes</li>
+    </ul>
+</div>
+```
+
+After:
+
+```
+<div id="wrap">
+    <ul class="nav">
+        <li class="men">Men Shoes </li>
+        <li class="women">Women Shoes</li>
+    </ul>
+      <ul class="nav">
+        <li class="men-section">Men Clothes</li>
+        <li class="women-section"> Women Clothes</li>
+    </ul>
+</div>
+```
 
 ## Scenario: Remove the element immediately preceding another element {#section_F193674F04F84AA593EAA1137C880EBA}
 
@@ -256,45 +180,26 @@ Selector: `#wrap > ul.nav:eq(0) > li.women-section:eq(0)`
 
 The element is successfully removed because the class of the selected item is not altered.
 
-<table id="table_BBB8D82C848749DEBC3DC9728F58A4FD"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Before </th> 
-   <th colname="col2" class="entry"> After </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> 
-    <codeblock>
-      &lt;div&nbsp;id="wrap"&gt; 
-     
-&nbsp;&nbsp;&nbsp;&lt;ul&nbsp;class="nav"&gt; 
-     
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-     <b>&lt;li&amp;nbsp;class="men-section"&gt;Men&lt;/li&gt;</b> 
-     
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&nbsp;class="women-section"&gt;Women&lt;/li&gt; 
-     
-&nbsp;&nbsp;&nbsp;&lt;/ul&gt; 
-     
-&lt;/div&gt; 
-    </codeblock> </td> 
-   <td colname="col2"> 
-    <codeblock>
-      &lt;div&nbsp;id="wrap"&gt; 
-     
-&nbsp;&nbsp;&nbsp;&lt;ul&nbsp;class="nav"&gt; 
-     
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&nbsp;class="women-section"&gt;Women&lt;/li&gt; 
-     
-&nbsp;&nbsp;&nbsp;&lt;/ul&gt; 
-     
-&lt;/div&gt; 
-    </codeblock> </td> 
-  </tr> 
- </tbody> 
-</table>
+Before:
+
+```
+<div id="wrap">
+    <ul class="nav">
+        <li class="men-section">Men</li>
+        <li class="women-section">Women</li>
+    </ul>
+</div>
+```
+
+After:
+
+```
+<div id="wrap">
+    <ul class="nav">
+        <li class="women-section">Women</li>
+    </ul>
+</div>
+```
 
 ## Scenario: Remove the element immediately following another element {#section_F83B51BE54924FB58679D512DAF1EBB2}
 
@@ -316,49 +221,28 @@ Selector: `#wrap > ul.nav:eq(0) > li.women-section:eq(0)`
 
 The element is successfully removed because the class of the selected item is not altered. The removed element includes a unique class within its parent subtree.
 
-<table id="table_BB1FEF7AF7AD4EE6B7C345AEA45F6EBF"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Before </th> 
-   <th colname="col2" class="entry"> After </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> 
-    <codeblock>
-      &lt;div&nbsp;id="wrap"&gt; 
-     
-&nbsp;&nbsp;&nbsp;&lt;ul&nbsp;class="nav"&gt; 
-     
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&nbsp;class="men-section"&gt;Men&lt;/li&gt; 
-     
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&nbsp;class="women-section"&gt;Women&lt;/li&gt; 
-     
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-     <b>&lt;li&amp;nbsp;class="kids-section"&gt;Women&lt;/li&gt;</b> 
-     
-&nbsp;&nbsp;&nbsp;&lt;/ul&gt; 
-     
-&lt;/div&gt; 
-    </codeblock> </td> 
-   <td colname="col2"> 
-    <codeblock>
-      &lt;div&nbsp;id="wrap"&gt; 
-     
-&nbsp;&nbsp;&nbsp;&lt;ul&nbsp;class="nav"&gt; 
-     
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&nbsp;class="men-section"&gt;Men&lt;/li&gt; 
-     
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&nbsp;class="women-section"&gt;Women&lt;/li&gt; 
-     
-&nbsp;&nbsp;&nbsp;&lt;/ul&gt; 
-     
-&lt;/div&gt; 
-    </codeblock> </td> 
-  </tr> 
- </tbody> 
-</table>
+Before:
+
+```
+<div id="wrap">
+    <ul class="nav">
+        <li class="men-section">Men</li>
+        <li class="women-section">Women</li>
+        <li class="kids-section">Women</li>
+    </ul>
+</div>
+```
+
+After:
+
+```
+<div id="wrap">
+    <ul class="nav">
+        <li class="men-section">Men</li>
+        <li class="women-section">Women</li>
+    </ul>
+</div>
+```
 
 ## Scenario: Remove the selected element {#section_1989CF1E2C344CC5963084ED83C18F9C}
 
@@ -380,44 +264,26 @@ Selector: `#wrap > ul.nav:eq(0) > li.women-section:eq(0)`
 
 The element is successfully removed.
 
-<table id="table_47C83AD94DF245299329439651718C0C"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Before </th> 
-   <th colname="col2" class="entry"> After </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> 
-    <codeblock>
-      &lt;div&nbsp;id="wrap"&gt; 
-     
-&nbsp;&nbsp;&nbsp;&lt;ul&nbsp;class="nav"&gt; 
-     
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&nbsp;class="men-section"&gt;Men&lt;/li&gt; 
-     
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&nbsp;class="women-shoes"&gt;Women&lt;/li&gt; 
-     
-&nbsp;&nbsp;&nbsp;&lt;/ul&gt; 
-     
-&lt;/div&gt; 
-    </codeblock> </td> 
-   <td colname="col2"> 
-    <codeblock>
-      &lt;div&nbsp;id="wrap"&gt; 
-     
-&nbsp;&nbsp;&nbsp;&lt;ul&nbsp;class="nav"&gt; 
-     
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&nbsp;class="men-section"&gt;Men&lt;/li&gt; 
-     
-&nbsp;&nbsp;&nbsp;&lt;/ul&gt; 
-     
-&lt;/div&gt; 
-    </codeblock> </td> 
-  </tr> 
- </tbody> 
-</table>
+Before:
+
+```
+<div id="wrap">
+    <ul class="nav">
+        <li class="men-section">Men</li>
+        <li class="women-shoes">Women</li>
+    </ul>
+</div>
+```
+
+After
+
+```
+<div id="wrap">
+    <ul class="nav">
+       <li class="men-section">Men</li>
+    </ul>
+</div>
+```
 
 ## Scenario: Rename the class of the selected element {#section_79D244C588BA452DB8E433D82B7F63EA}
 
@@ -439,46 +305,24 @@ Selector: `#wrap > ul.nav:eq(0) > li.women-section:eq(0)`
 
 The element class cannot be renamed because `class` is not found.
 
-<table id="table_C1264628F4824DBE8210FE6DD3C4CA8F"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Before </th> 
-   <th colname="col2" class="entry"> After (Attempted) </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> 
-    <codeblock>
-      &lt;div&nbsp;id="wrap"&gt; 
-     
-&nbsp;&nbsp;&nbsp;&lt;ul&nbsp;class="nav"&gt; 
-     
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&nbsp;class="men-section"&gt;Men&lt;/li&gt; 
-     
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-     <b>&lt;li&amp;nbsp;class="women-section"&gt;Women&lt;/li&gt;</b> 
-     
-&nbsp;&nbsp;&nbsp;&lt;/ul&gt; 
-     
-&lt;/div&gt; 
-    </codeblock> </td> 
-   <td colname="col2"> 
-    <codeblock>
-      &lt;div&nbsp;id="wrap"&gt; 
-     
-&nbsp;&nbsp;&nbsp;&lt;ul&nbsp;class="nav"&gt; 
-     
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&nbsp;class="men-section"&gt;Men&lt;/li&gt; 
-     
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-     <b>&lt;li&amp;nbsp;class="women-shoes"&gt;Women&lt;/li&gt;</b> 
-     
-&nbsp;&nbsp;&nbsp;&lt;/ul&gt; 
-     
-&lt;/div&gt; 
-    </codeblock> </td> 
-  </tr> 
- </tbody> 
-</table>
+Before:
 
+```
+<div id="wrap">
+    <ul class="nav">
+        <li class="men-section">Men</li>
+        <li class="women-section">Women</li>
+    </ul>
+</div>
+```
+
+After (Attempted):
+
+```
+<div id="wrap">
+    <ul class="nav">
+        <li class="men-section">Men</li>
+        <li class="women-shoes">Women</li>
+    </ul>
+</div>
+```
