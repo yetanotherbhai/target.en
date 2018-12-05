@@ -1,10 +1,11 @@
 ---
-product: Adobe Target
-audience: end-user
-user-guide-title: Adobe Target Help
+cloud: experience-cloud
+product: adobe
+archtype: end-user
+user-guide: null
 ---
 
-# Adobe Target Help {#using}
+# Table of Contents {#table-of-contents}
 
 + [Adobe Target product documentation](target-home.md)
 + Target release notes {#release-notes}
