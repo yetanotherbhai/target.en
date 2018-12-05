@@ -42,7 +42,6 @@ This release includes the following features and enhancements:
   </tr> 
  </thead>
  <tbody> 
-  <!-- <row> <entry colname="col1"> <p>Form-Based Activities </p> </entry> <entry colname="col2"> <p>This release includes a new priority model for activities that use the Form-Based Experience Composer with only a global mbox. Before this release, content from multiple activities was returned to the page and overwrote content from other returned activities. Now, only the top priority activity's content is returned. </p> </entry> </row> --> 
   <tr> 
    <td colname="col1"> <p>Experiences </p> </td> 
    <td colname="col2"> <p>You can now copy an experience in an Experience Targeting (XT) activity so you can make minor changes to it without having to re-create the experience from scratch. This capability was already available for A/B Tests. (TGT-31504) </p> <p>See <a href="https://marketing.adobe.com/resources/help/en_US/target/target/t_xt_add_experience.html" format="html" scope="external"> Create experience </a>. </p> </td> 
@@ -81,7 +80,6 @@ This [!DNL Target] release includes the following enhancements, fixes, and chang
   </tr> 
  </thead>
  <tbody> 
-  <!-- <row> <entry colname="col1"> <p>Form-Based Activities </p> </entry> <entry colname="col2"> <p>This release includes a new priority model for activities that use the Form-Based Experience Composer with only a global mbox. Before this release, content from multiple activities was returned to the page and overwrote content from other returned activities. Now, only the top priority activity's content is returned. </p> </entry> </row> --> 
   <tr> 
    <td colname="col1"> <p>at.js 1.6.2 </p> </td> 
    <td colname="col2"> <p>This is a maintenance release and addresses the following issue: </p> <p> 
@@ -114,14 +112,12 @@ This release includes the following features and enhancements:
   </tr> 
  </thead>
  <tbody> 
-  <!-- <row> <entry colname="col1"> <p>Form-Based Activities </p> </entry> <entry colname="col2"> <p>This release includes a new priority model for activities that use the Form-Based Experience Composer with only a global mbox. Before this release, content from multiple activities was returned to the page and overwrote content from other returned activities. Now, only the top priority activity's content is returned. </p> </entry> </row> --> 
   <tr> 
    <td colname="col1" class="premium"> <p>Offers in Automated Personalization (AP) activities </p> </td> 
    <td colname="col2"> <p> 
      <ul id="ul_9C39ACD865CE4167BDBAA093EDFD3B68"> 
       <li id="li_19710BA5965E4F858B128E1E9FF89471"> <p>You can now use multiple offers from the same location in an exclusion group. For a large number of exclusions (order of 1,000s), you will also observe faster loading of the Manage Content dialog box and preview page while authoring an Automated Personalization (AP) activity. (TGT-31329) See <a href="../c-activities/t-automated-personalization/c-managing-exclusions.md#topic_30B4E4F89C914EB2B20B038C0299ED2E" format="dita" scope="local"> Manage Exclusions </a>. </p> </li> 
       <li id="li_542C66E2998541BC87D0A96F4672C665"> <p>You can now filter offers by reporting groups. (TGT-31643) See <a href="../c-activities/t-automated-personalization/t-create-ap-activity.md#task_8AAF837796D74CF893CA2F88BA1491C9" format="dita" scope="local"> Creating an Automated Personalization Activity </a>. </p> </li> 
-      <!--<li id="li_1FFFC6727709499797589745F16199DE"> <p>You can now import offers via API into all workspaces for which you have Editor or Approver permissions. (TGT-30125) </p> </li>--> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
@@ -154,7 +150,6 @@ This release includes the following features and enhancements:
   </tr> 
  </thead>
  <tbody> 
-  <!-- <row> <entry colname="col1"> <p>Form-Based Activities </p> </entry> <entry colname="col2"> <p>This release includes a new priority model for activities that use the Form-Based Experience Composer with only a global mbox. Before this release, content from multiple activities was returned to the page and overwrote content from other returned activities. Now, only the top priority activity's content is returned. </p> </entry> </row> --> 
   <tr> 
    <td colname="col1" class="premium"> <p>Personalization Insights reports </p> </td> 
    <td colname="col2"> <p>Access specialized reports for your Automated Personalization (AP) and Auto-Target (AT) activities: </p> <p> 
@@ -205,7 +200,6 @@ This release includes the following features and enhancements:
   </tr> 
  </thead>
  <tbody> 
-  <!-- <row> <entry colname="col1"> <p>Form-Based Activities </p> </entry> <entry colname="col2"> <p>This release includes a new priority model for activities that use the Form-Based Experience Composer with only a global mbox. Before this release, content from multiple activities was returned to the page and overwrote content from other returned activities. Now, only the top priority activity's content is returned. </p> </entry> </row> --> 
   <tr> 
    <td colname="col1"> <p>A/B and Experience Targeting (XT) activities </p> </td> 
    <td colname="col2"> <p>Edit and delete experiences right from the activity diagram. Now you can jump into the Visual Experience Composer (VEC) for a specific experience or delete an experience right from the diagram. </p> <p style="text-align: center;"> <img href="assets/experience_edit.png" id="image_FA6E5F07B04A4B4BA02EA71EDB6908A7" /> </p> <p>See: </p> <p> 
@@ -259,7 +253,6 @@ This [!DNL Target] release includes the following enhancements, fixes, and chang
   </tr> 
  </thead>
  <tbody> 
-  <!-- <row> <entry colname="col1"> <p>Form-Based Activities </p> </entry> <entry colname="col2"> <p>This release includes a new priority model for activities that use the Form-Based Experience Composer with only a global mbox. Before this release, content from multiple activities was returned to the page and overwrote content from other returned activities. Now, only the top priority activity's content is returned. </p> </entry> </row> --> 
   <tr> 
    <td colname="col1"> <p>at.js </p> </td> 
    <td colname="col2"> <p>at.js version 1.5.0 is now available. </p> <p> <p>Note:  The issue numbers in parentheses are for internal Adobe use. </p> </p> <p> 
@@ -294,7 +287,6 @@ This release includes the following features and enhancements:
   </tr> 
  </thead>
  <tbody> 
-  <!-- <row> <entry colname="col1"> <p>Form-Based Activities </p> </entry> <entry colname="col2"> <p>This release includes a new priority model for activities that use the Form-Based Experience Composer with only a global mbox. Before this release, content from multiple activities was returned to the page and overwrote content from other returned activities. Now, only the top priority activity's content is returned. </p> </entry> </row> --> 
   <tr> 
    <td colname="col1"> <p>Visual Experience Composer (VEC) </p> </td> 
    <td colname="col2"> <p>When you click an action in the Modifications panel, the VEC automatically scrolls the web page and the corresponding element is highlighted. You no longer need to manually scroll down to find the HTML element that was affected by the modification. </p> <p style="text-align: center;"> <img href="assets/modifications_panel.png" id="image_6E01280636E34ADDA9527AD18A34310B" /> </p> <p>(TGT-30441) </p> </td> 
@@ -351,7 +343,6 @@ This release includes the following features and enhancements:
   </tr> 
  </thead>
  <tbody> 
-  <!-- <row> <entry colname="col1"> <p>Form-Based Activities </p> </entry> <entry colname="col2"> <p>This release includes a new priority model for activities that use the Form-Based Experience Composer with only a global mbox. Before this release, content from multiple activities was returned to the page and overwrote content from other returned activities. Now, only the top priority activity's content is returned. </p> </entry> </row> --> 
   <tr> 
    <td colname="col1"> <p>Reports </p> </td> 
    <td colname="col2"> <p> 
@@ -379,7 +370,6 @@ This release includes the following features and enhancements:
    <td colname="col1" class="premium"> <p>Recommendations </p> </td> 
    <td colname="col2"> <p> 
      <ul id="ul_7765B69E679D4C94B1E863E340DFDE15"> 
-      <!--<li id="li_6B29B32C84DB4F30A79859DC3AA7E2E1"> <p>You can view a list of activities that reference a selected criteria on its Criteria card. The card lists active and inactive activities. (TGT-27672) </p> </li>--> 
       <li id="li_F2AF7E1AFBD6461990EF1D83D1989582"> <p>While selecting Recommendations criteria in the Form-Based Experience Composer, there is now a direct link to the selected Criteria card so you can quickly and easily edit the criteria. (TGT-28483) </p> <p>For more information, see <a href="../c-experiences/t-form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E" format="dita" scope="local"> Form-Based Experience Composer </a>. </p> </li> 
       <li id="li_517F0A174587416B8621D6F710C1AC48"> <p>Recommendations Criteria, Recommendations Promotions, and Template Testing rules creation now allow using the mbox parameter directly without having to mandatorily specify the mbox name. The mbox name is now optional. This change lets you use parameters from multiple mboxes or reference a parameter that has not yet been recorded on the edge. Alternately, you can also filter on mbox parameter with the mbox name filter. </p> <p>This same improvement has also been extended to Custom Audience creation. </p> <p>For more information, see <a href="../c-recommendations/c-recommendations-faq/c-recommendations-faq.md#concept_EF272DE4AC6C47B19026BFBE816F5DB8" format="dita" scope="local"> Recommendations FAQ </a>. </p> </li> 
       <li id="li_AAB242830D1E47B78E58A980B717C736"> <p>Updated the UI for Recommendations Design cards. </p> </li> 
@@ -411,7 +401,6 @@ This release includes the following features and enhancements:
   </tr> 
  </thead>
  <tbody> 
-  <!-- <row> <entry colname="col1"> <p>Form-Based Activities </p> </entry> <entry colname="col2"> <p>This release includes a new priority model for activities that use the Form-Based Experience Composer with only a global mbox. Before this release, content from multiple activities was returned to the page and overwrote content from other returned activities. Now, only the top priority activity's content is returned. </p> </entry> </row> --> 
   <tr> 
    <td colname="col1"> <p>Adobe Experience Manager (AEM) Experience Fragments </p> </td> 
    <td colname="col2"> <p>Using experience fragments created in AEM in Target activities lets you combine the ease-of-use and power of AEM with powerful Automated Intelligence (AI) and Machine Learning (ML) capabilities in Target to test and personalize experiences at scale.&amp;nbsp;&amp;nbsp; </p> <p>AEM brings together all of your content and assets in a central location to fuel your personalization strategy. AEM lets you easily create content for desktops, tablets, and mobile devices in one location without writing code. There’s no need to create pages for every device—AEM automatically adjusts each experience using your content. </p> <p> Target lets you deliver personalized experiences at scale based on a combination of rules-based and AI-driven machine learning approaches that incorporate behavioral, contextual, and offline variables.&amp;nbsp; With Target you can easily set up and run A/B and Multivariate activities to determine the best offers, content, and experiences. </p> <p>Experience fragments represent a huge step forward to link the content/experience creators and managers to the optimization and personalization professionals who are driving business outcomes using Target. </p> <p>For more information, see <a href="../c-experiences/c-manage-content/aem-experience-fragments.md#topic_1E1E4EA01F074349B2CF8785387B5FE8" format="dita" scope="local"> AEM Experience Fragments </a>. </p> </td> 
@@ -420,7 +409,6 @@ This release includes the following features and enhancements:
    <td colname="col1"> <p>Reports </p> </td> 
    <td colname="col2"> 
     <ul id="ul_EAB90C510EA04D6A8AEFF23A77DB2337"> 
-     <!--<li id="li_B8929C19276D42168A28A3775CDEDFB3"> <p>You can now save up to ten different presets of an individual activity's report after configuring it as desired (metrics, audiences, Advanced settings, and so forth). All Target users can display the various presets, but only the creator of the preset or a Target admin can edit or delete them. (TGT-21268) </p> </li>--> 
      <li id="li_47DA6EB92CC84FFDBFDC9CC9386AF654"> <p>You can now refresh a report to update the report's table and graph view without refreshing the entire page, its configuration, or its date range. (TGT-28125) </p> <p>For more information, see <a href="../c-reports/c-report-settings/c-report-settings.md#concept_3A80D5A394EC4B639DC715E06085BDB0" format="dita" scope="local"> Report Settings </a>. </p> </li> 
      <li id="li_AB2DE7A45D914FD7AEB0832187AF3844"> <p>The calendar in reports now contains pre-defined date ranges, such as Last 7 Days, Last 15 Days, and so forth. (TGT-29171) </p> <p>For more information, see <a href="../c-reports/c-report-settings/c-report-settings.md#concept_3A80D5A394EC4B639DC715E06085BDB0" format="dita" scope="local"> Report Settings </a>. </p> </li> 
      <li id="li_46DF9037E0ED4935B3BCDB35E8BED065"> <p>The table view column width was modified to reduce horizontal scrolling when multiple metrics are applied. (TGT-26575) </p> </li> 
@@ -440,7 +428,7 @@ This release includes the following features and enhancements:
   <tr> 
    <td colname="col1"> <p>Audiences </p> </td> 
    <td colname="col2"> <p>When creating a custom audience based on an mbox parameter, <span class="codeph"> mboxParameter </span> no longer prompts you for <span class="codeph"> mboxName </span>. mbox name is now optional. This change lets you use parameters from multiple mboxes or reference a parameter that has not yet been recorded on the edge. (TGT-25807) </p> <p> <p>Note:  This feature is visible in the Target UI but is currently disabled. This feature will be enabled soon (date to be communicated). </p> </p> 
-    <!--<p>For more information, see <xref href="c_custom_parameters.xml#concept_C4C6E00D7C5A4BE9B72D471DB2E3027B" format="dita" scope="local">Custom Parameters</xref>. </p>--> </td> 
+  </td> 
   </tr> 
  </tbody> 
 </table>
@@ -464,7 +452,6 @@ This release includes the following features and enhancements:
   </tr> 
  </thead>
  <tbody> 
-  <!-- <row> <entry colname="col1"> <p>Form-Based Activities </p> </entry> <entry colname="col2"> <p>This release includes a new priority model for activities that use the Form-Based Experience Composer with only a global mbox. Before this release, content from multiple activities was returned to the page and overwrote content from other returned activities. Now, only the top priority activity's content is returned. </p> </entry> </row> --> 
   <tr> 
    <td colname="col1"> <p>at.js </p> </td> 
    <td colname="col2"> <p>at.js version 1.3.0 is now available. For more information, see <a href="../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_1E1F958F9CCC4E35AD97581EFAF659E2" format="dita" scope="local"> Download at.js </a> and <a href="../c-implementing-target/c-implementing-target-for-client-side-web/r-target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A" format="dita" scope="local"> at.js Version Details </a>. </p> <p> 
@@ -505,7 +492,6 @@ This release includes the following features and enhancements:
   </tr> 
  </thead>
  <tbody> 
-  <!-- <row> <entry colname="col1"> <p>Form-Based Activities </p> </entry> <entry colname="col2"> <p>This release includes a new priority model for activities that use the Form-Based Experience Composer with only a global mbox. Before this release, content from multiple activities was returned to the page and overwrote content from other returned activities. Now, only the top priority activity's content is returned. </p> </entry> </row> --> 
   <tr> 
    <td colname="col1" class="premium"> <p>Popularity by Entity Attribute </p> </td> 
    <td colname="col2"> <p><b>New: March 22, 2018</b> </p> <p>You can now choose the Popularity by Entity attribute in the existing flow when a Custom attribute is selected as the key. </p> <p>After selecting the desired key (in this case, a custom profile attribute), for "Recommendation Logic," you can choose two new options: </p> <p> 
@@ -568,7 +554,6 @@ This release includes the following features and enhancements:
   </tr> 
  </thead>
  <tbody> 
-  <!-- <row> <entry colname="col1"> <p>Form-Based Activities </p> </entry> <entry colname="col2"> <p>This release includes a new priority model for activities that use the Form-Based Experience Composer with only a global mbox. Before this release, content from multiple activities was returned to the page and overwrote content from other returned activities. Now, only the top priority activity's content is returned. </p> </entry> </row> --> 
   <tr> 
    <td colname="col1"> <p>The Adobe Marketing Cloud has been re-branded and is now called the Adobe Experience Cloud. </p> </td> 
    <td colname="col2"> <p>The Experience Cloud is Adobe's integrated family of digital marketing solutions and services. It's also an intuitive interface that lets you quickly access your cloud solutions and core services. </p> <p>Re-branding and UI Changes: Adobe Marketing Cloud has been re-branded and is now called the Adobe Experience Cloud. In addition, you will see UI changes in the Target interface and in the Solution Switcher. </p> <p>For more information about this change, see <a href="https://marketing.adobe.com/resources/help/en_US/mcloud/solutions-core-services.html" format="html" scope="external"> About the new cloud names in Experience Cloud </a>. </p> </td> 
@@ -592,7 +577,6 @@ This release includes the following features and enhancements:
   </tr> 
  </thead>
  <tbody> 
-  <!-- <row> <entry colname="col1"> <p>Form-Based Activities </p> </entry> <entry colname="col2"> <p>This release includes a new priority model for activities that use the Form-Based Experience Composer with only a global mbox. Before this release, content from multiple activities was returned to the page and overwrote content from other returned activities. Now, only the top priority activity's content is returned. </p> </entry> </row> --> 
   <tr> 
    <td colname="col1"> <p>at.js </p> </td> 
    <td colname="col2"> <p>at.js 1.2.3 adds support for JSON offers. JSON offers are supported only in activities created using the Form-based Experience Composer. Currently the only way to use JSON offers is via direct API calls. See <a href="../c-experiences/c-manage-content/c-create-json-offer.md#concept_63C7BEE1F0DB4A7596D997219B7C136D" format="dita" scope="local"> Create JSON Offer </a>. </p> </td> 
@@ -620,13 +604,11 @@ This release includes the following features and enhancements:
   </tr> 
  </thead>
  <tbody> 
-  <!-- <row> <entry colname="col1"> <p>Form-Based Activities </p> </entry> <entry colname="col2"> <p>This release includes a new priority model for activities that use the Form-Based Experience Composer with only a global mbox. Before this release, content from multiple activities was returned to the page and overwrote content from other returned activities. Now, only the top priority activity's content is returned. </p> </entry> </row> --> 
   <tr> 
    <td colname="col1"> <p>Audiences </p> </td> 
    <td colname="col2"> <p> 
      <ul id="ul_42D7C86043C94A7BBA5ED405B2902E3A"> 
       <li id="li_50F2A7D05AB244E18D263A476BD906B3"> <p>You can now create Time Frame audiences without start or end dates. This lets you use the same audience in multiple activities (without making a copy of the audience) while controlling the start and end dates at the activity level. See <a href="../c-target/c-audiences/c-target-rules/c-time-frame.md#concept_0FE1E8DACD104F8B870B0BADE3197F0A" format="dita" scope="local"> Time Frame </a>. (TGT-25975) </p> </li> 
-      <!--<li id="li_0A4BF407694F4B0C99A6F020916A193A"> <p>While viewing an audience’s definitions pop-up card from the Audience Library, you can now see other activities that reference that audience, if applicable. This way you can avoid accidental impact to other activities while editing audiences. Previously, when you tried to delete an audience that was referenced by other activities, a warning displayed informing you that the audience cannot be deleted with at max 10 activities referencing the audience. See <xref href="c_audiences.xml#concept_65BE870D290E412D8BBF557EEA67C271" format="dita" scope="local">About Audiences</xref>. (TGT- 26275) </p> </li>--> 
       <li id="li_6F08D63BC4F040859D51C47C3521C5E1"> <p>Copy and Edit functionality is available for activity-only audiences when you hover over an audience on the Choose Audience &gt; Activity Only Audience page. Previously, this functionality existed only for Library audiences. See <a href="../c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483" format="dita" scope="local"> Creating an Activity-Only Audience </a>. (TGT-27410) </p> </li> 
       <li id="li_A8CF45E6DC37401AA273F7D6CF617524"> <p>Activity-only audiences across activities can have the same name. Previously, duplicate names would result in the addition of time stamps—a duplicate audience named “Target on Weekday” would get saved as “Target on Weekday-1456732099201.” </p> <p>Library audiences continue to require unique names. (TGT-17967) </p> </li> 
      </ul> </p> </td> 
@@ -693,7 +675,6 @@ This release includes the following features and enhancements:
   </tr> 
  </thead>
  <tbody> 
-  <!-- <row> <entry colname="col1"> <p>Form-Based Activities </p> </entry> <entry colname="col2"> <p>This release includes a new priority model for activities that use the Form-Based Experience Composer with only a global mbox. Before this release, content from multiple activities was returned to the page and overwrote content from other returned activities. Now, only the top priority activity's content is returned. </p> </entry> </row> --> 
   <tr> 
    <td colname="col1"> <p>at.js </p> </td> 
    <td colname="col2"> <p>at.js version 1.2.2 is now available. For more information, see <a href="../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_1E1F958F9CCC4E35AD97581EFAF659E2" format="dita" scope="local"> Download at.js </a>. </p> <p> 
@@ -723,7 +704,6 @@ This release includes the following features and enhancements (issue numbers in 
   </tr> 
  </thead>
  <tbody> 
-  <!-- <row> <entry colname="col1"> <p>Form-Based Activities </p> </entry> <entry colname="col2"> <p>This release includes a new priority model for activities that use the Form-Based Experience Composer with only a global mbox. Before this release, content from multiple activities was returned to the page and overwrote content from other returned activities. Now, only the top priority activity's content is returned. </p> </entry> </row> --> 
   <tr> 
    <td colname="col1"> <p>Offers </p> </td> 
    <td colname="col2"> <p> If a user has the "Editor" permission, that user cannot edit an offer referenced to a live or scheduled activity. </p> <p> <p>Note:  For Target Premium customers using <a href="https://marketing.adobe.com/resources/help/en_US/target/target/property_channel.html" format="html" scope="external"> Enterprise User Permissions </a>, if a user selects the All Workspaces option, Target uses the highest permission of the user across workspaces. If the highest permission is "Editor," Target restricts editing as mentioned above </p>. </p> <p>These restrictions apply to all offers, not just offers created in Target. (TGT-27276) </p> </td> 
@@ -754,7 +734,6 @@ This release includes the following features and enhancements (issue numbers in 
   </tr> 
  </thead>
  <tbody> 
-  <!-- <row> <entry colname="col1"> <p>Form-Based Activities </p> </entry> <entry colname="col2"> <p>This release includes a new priority model for activities that use the Form-Based Experience Composer with only a global mbox. Before this release, content from multiple activities was returned to the page and overwrote content from other returned activities. Now, only the top priority activity's content is returned. </p> </entry> </row> --> 
   <tr> 
    <td colname="col1"> <p>Audiences </p> </td> 
    <td colname="col2"> <p> 
@@ -832,7 +811,6 @@ This release includes the following features and enhancements (issue numbers in 
   </tr> 
  </thead>
  <tbody> 
-  <!-- <row> <entry colname="col1"> <p>Form-Based Activities </p> </entry> <entry colname="col2"> <p>This release includes a new priority model for activities that use the Form-Based Experience Composer with only a global mbox. Before this release, content from multiple activities was returned to the page and overwrote content from other returned activities. Now, only the top priority activity's content is returned. </p> </entry> </row> --> 
   <tr> 
    <td colname="col1"> <p> Mobile Experience Preview </p> </td> 
    <td colname="col2"> <p><b>Updated: October 12, 2017</b> </p> <p> You can now select multiple mobile app activities from the UI and preview them on your device. This feature will allow you to enroll yourself into multiple experiences for previewing and QA without relying on special test builds and simulators. </p> <p>This feature requires that you download and install the appropriate 4.14 (or later) version of the Adobe Mobile SDK. </p> <p>For more information, see <a href="../c-target-mobile-app/target-mobile-preview.md#concept_5FBF12C2FDFC42429FE4F5CFBD78E19D" format="dita" scope="local"> Target Mobile Preview </a>. </p> </td> 
@@ -940,7 +918,6 @@ This [!DNL Target] release includes the following customer-facing enhancements, 
   </tr> 
  </thead>
  <tbody> 
-  <!-- <row> <entry colname="col1"> <p>Form-Based Activities </p> </entry> <entry colname="col2"> <p>This release includes a new priority model for activities that use the Form-Based Experience Composer with only a global mbox. Before this release, content from multiple activities was returned to the page and overwrote content from other returned activities. Now, only the top priority activity's content is returned. </p> </entry> </row> --> 
   <tr> 
    <td colname="col1" class="premium"> <p>Enterprise User Permissions for Target Premium </p> </td> 
    <td colname="col2"> <p>Create separate workspaces in Target and then assign users different roles and permissions for individual digital properties. </p> <p>For more information, see <a href="../administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838" format="dita" scope="local"> Enterprise User Permissions </a>. </p> <p>See <a href="../r-release-notes/known-issues-resolved-issues.md#concept_625C3A16B7F24D4B82EFF130F0945541" format="dita" scope="local"> Known Issues and Resolved Issues </a> for more information about the rollout. </p> </td> 
@@ -999,7 +976,6 @@ This [!DNL Target] release includes the following customer-facing enhancements, 
   </tr> 
  </thead>
  <tbody> 
-  <!-- <row> <entry colname="col1"> <p>Form-Based Activities </p> </entry> <entry colname="col2"> <p>This release includes a new priority model for activities that use the Form-Based Experience Composer with only a global mbox. Before this release, content from multiple activities was returned to the page and overwrote content from other returned activities. Now, only the top priority activity's content is returned. </p> </entry> </row> --> 
   <tr> 
    <td colname="col1"> <p>Response Tokens </p> </td> 
    <td colname="col2"> <p>Response tokens let you automatically output eligible variables (e.g., profile attributes) in the Target responses that deliver activities (i.e. display mboxes). Response tokens can be used for debugging purposes or for integration with 3rd-party providers (such as Clicktale). </p> <p>Response tokens are similar to <span class="keyword"> Adobe Target Classic </span> server plug-ins and provide feature parity between the two solutions. </p> <p> <p>Note:  Response tokens are available with <span class="filepath"> at.js </span> 1.1 or later. Response tokens are not supported with <span class="codeph"> mbox.js </span>. </p> </p> <p>For more information, see <a href="../administrating-target/c-response-tokens.md#concept_2B21B222F6A344D68CA5929817E836C4" format="dita" scope="local"> Response Tokens </a>. </p> </td> 
@@ -1017,7 +993,6 @@ This [!DNL Target] release includes the following customer-facing enhancements, 
   </tr> 
  </thead>
  <tbody> 
-  <!-- <row> <entry colname="col1"> <p>Form-Based Activities </p> </entry> <entry colname="col2"> <p>This release includes a new priority model for activities that use the Form-Based Experience Composer with only a global mbox. Before this release, content from multiple activities was returned to the page and overwrote content from other returned activities. Now, only the top priority activity's content is returned. </p> </entry> </row> --> 
   <tr> 
    <td colname="col1" class="premium"> <p>Auto-Target </p> </td> 
    <td colname="col2"> <p>Auto-Target in now available to all Target Premium customers. </p> <p>Auto-Target uses advanced machine learning to identify multiple high performing marketer-defined experiences, and serves the most tailored experience to each visitor based on their individual customer profile and the behavior of previous visitors with similar profiles, in order to personalize content and drive conversions. </p> <p>While creating an A/B activity using the three-step guided workflow, you can choose to allocate traffic using the <span class="wintitle"> Auto-Target For Personalized Experiences </span> option: </p> <p style="text-align: center;"> <img href="assets/auto-target-ui-small.png" id="image_DB7899CAD51D411EAB858CE132BECAA5" /> </p> <p>For more information, see <a href="../c-activities/c-auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3" format="dita" scope="local"> Auto-Target For Personalized Experiences </a>. </p> </td> 
@@ -1035,7 +1010,6 @@ This [!DNL Target] release includes the following customer-facing enhancements, 
   </tr> 
  </thead>
  <tbody> 
-  <!-- <row> <entry colname="col1"> <p>Form-Based Activities </p> </entry> <entry colname="col2"> <p>This release includes a new priority model for activities that use the Form-Based Experience Composer with only a global mbox. Before this release, content from multiple activities was returned to the page and overwrote content from other returned activities. Now, only the top priority activity's content is returned. </p> </entry> </row> --> 
   <tr> 
    <td colname="col1"> <p>Audiences </p> </td> 
    <td colname="col2"> <p>You can now view audience definition details on a pop-up card in various places in the Target UI without opening the audience. Note that this functionality applies only to audiences created in <span class="keyword"> Target Standard/Premium. </span> </p> <p style="text-align: center;"> <img href="assets/audience_details.png" id="image_AD0F411715DA43ACB4A913B1E54C13DC" /> </p> </td> 
@@ -1152,7 +1126,6 @@ This [!DNL Target] release includes the following customer-facing enhancements a
   </tr> 
  </thead>
  <tbody> 
-  <!-- <row> <entry colname="col1"> <p>Form-Based Activities </p> </entry> <entry colname="col2"> <p>This release includes a new priority model for activities that use the Form-Based Experience Composer with only a global mbox. Before this release, content from multiple activities was returned to the page and overwrote content from other returned activities. Now, only the top priority activity's content is returned. </p> </entry> </row> --> 
   <tr> 
    <td colname="col1" class="premium"> <p>Automated Personalization (AP) activities </p> </td> 
    <td colname="col2"> <p> 
@@ -1197,7 +1170,6 @@ This [!DNL Target] release includes the following customer-facing enhancements a
    <td colname="col1"> <p>Reporting: A/B, XT, and Recommendations </p> </td> 
    <td colname="col2"> <p>Reports for A/B, XT, and Recommendations activities include visual representations that let you visually see the confidence interval and lift so that you can more accurately determine a winner. You can mouse over the representations to see the actual numbers. This feature is not available for activities that use Analytics as the reporting source (A4T). </p> <p style="text-align: center;"> <img href="assets/whisker.JPG" id="image_DFD8EED61D52497280066D55AD473479" /> </p> <p>For more information, see <a href="../c-reports/c-report-settings/c-report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA" format="dita" scope="local"> Report Settings </a>. </p> </td> 
   </tr> 
-  <!-- <row> <entry colname="col1"> <p>Form-Based Activities </p> </entry> <entry colname="col2"> <p>This release includes a new priority model for activities that use the Form-Based Experience Composer with only a global mbox. Before this release, content from multiple activities was returned to the page and overwrote content from other returned activities. Now, only the top-priority activity's content is returned. </p> <p>For more information, see <xref href="c_priority.xml#concept_1780C11FEA57440499F0047DD6900E0F" format="dita" scope="local">Priority</xref>. </p> </entry> </row> --> 
   <tr> 
    <td colname="col1" class="premium"> <p>Automated Personalization (AP) activities </p> </td> 
    <td colname="col2"> <p>You can create Exclusion Groups in AP activities to ensure that experiences with the designated offers are automatically excluded. </p> </td> 
@@ -1848,7 +1820,6 @@ The Adobe Target Standard/Premium 16.5.1 (May 19, 2016) release includes the fol
   </tr> 
  </thead>
  <tbody> 
-  <!-- <row> <entry colname="col1">Export/Download Summary reports for Automated Personalization and Recommendations Premium </entry> <entry colname="col2"> <p>The ability to download data in a .csv format for quick import into Excel or other data analysis programs has been added to Automated Personalization and Recommendations Premium. </p> <p>This feature was previously only available for A/B, Experience Targeting, and Multivariate activities. </p> </entry> </row> --> 
   <tr> 
    <td colname="col1"> Experience Versions </td> 
    <td colname="col2"> <p>Versions targeted to different audiences can now be set up within experiences in A/B activities. </p> <p>See <a href="../c-activities/t-test-ab/t-test-create-ab/t-target-experience-to-multiple-audiences.md#task_0138112E283A4A5B9F8AB9AAF2FBC2FF" format="dita" scope="local"> Target an Experience to Multiple Audiences </a>. </p> </td> 
@@ -1857,8 +1828,6 @@ The Adobe Target Standard/Premium 16.5.1 (May 19, 2016) release includes the fol
    <td colname="col1"> QA/Preview URLs </td> 
    <td colname="col2"> <p>Preview URLs are now available for the form-based experience composer. </p> <p>See <a href="../c-activities/t-automated-personalization/t-experience-preview.md#task_586C6655A6FD4AF08F5678FC3F481EFC" format="dita" scope="local"> View Experience URLs </a>. </p> </td> 
   </tr> 
-  <!-- <row> <entry colname="col1" outputclass="premium">Personalized Recommendations </entry> <entry colname="col2"> <p>Visitor profile attributes can be added to collaborative filtering to return recommendations that are more highly personalized to each visitor. </p> <p>See <xref href="../recs/t_create_new_algorithm.xml#task_8A9CB465F28D44899F69F38AD27352FE" format="dita" scope="local">Creating Criteria</xref>. </p> </entry> </row> --> 
-  <!-- <row> <entry colname="col1" outputclass="premium">Content similarity weighting </entry> <entry colname="col2"> <p> Select specific attributes to consider/prioritize in calculating content similarity </p> <p>See <xref href="../recs/c_content_similarity.xml#concept_5402DAFA279C4E46A9A449526889A0CB" format="dita" scope="local">Content Similarity</xref>. </p> </entry> </row> --> 
   <tr> 
    <td colname="col1" class="premium"> Recommendations custom algorithms </td> 
    <td colname="col2"> <p>Custom algorithm mappings can be uploaded in a CSV file. It is no longer required to use the XML-based API. </p> <p>See <a href="../c-recommendations/c-algorithms/t-recommendations-csv.md#task_1BBA49883E794670A09F0ABE1B3F4288" format="dita" scope="local"> Uploading Custom Criteria </a>. </p> </td> 
@@ -1900,7 +1869,6 @@ The Adobe Target Standard/Premium 16.5.1 (May 19, 2016) release includes the fol
        # environment: 1724 
      </code>). </p> </td> 
   </tr> 
-  <!-- <row> <entry colname="col1">Enhanced click tracking configuration </entry> <entry colname="col2"> You can now browse to a different page to set up click tracking for A/B and Experience Targeting activities. </entry> </row> --> 
  </tbody> 
 </table>
 
@@ -1973,7 +1941,6 @@ This release includes the following features and enhancements:
   </tr> 
  </thead>
  <tbody> 
-  <!-- <row> <entry colname="col1">Export/Download Summary reports for Automated Personalization and Recommendations Premium </entry> <entry colname="col2"> <p>The ability to download data in a .csv format for quick import into Excel or other data analysis programs has been added to Automated Personalization and Recommendations Premium. </p> <p>This feature was previously only available for A/B, Experience Targeting, and Multivariate activities. </p> </entry> </row> --> 
   <tr> 
    <td colname="col1"> Experience Cloud Notifications </td> 
    <td colname="col2"> <p>Notifications from Target are visible in all Adobe Experience Cloud solutions. Notifications are automatically sent when an activity is activated or deactivated. These notifications are available to all users with access to Target Standard/Premium. </p> <p>Notifications are also visible in Target Standard/Premium. </p> <p>See <a href="../c-activities/c-notifications.md#concept_557351F8BB7D40F39A65951A77B79D62" format="dita" scope="local"> Notifications </a> </p> </td> 
@@ -1987,7 +1954,6 @@ This release includes the following features and enhancements:
       <li id="li_AE71506DF1E748A788C40E1F09951732">Improved activity creation flow </li> 
      </ul> </p> <p>The way Experience Cloud solutions, including Target, are selected has also changed. To access Experience Cloud solutions and services, click the menu icon: </p> <p style="text-align: center;"> <img href="assets/menu-shell-400.png" id="image_6E9323E0EBEA41B1A7319D6BCC43E769" width="400" height="140" /> </p> <p>For more information about accessing Target and making Target your default page after logging in to the Experience Cloud, see <a href="../c-intro/t-target-access-from-mac.md#task_5467C72DAFCB4BB583762CAAFC00A5CF" format="dita" scope="local"> Access Target from the Adobe Experience Cloud </a>. </p> <p>For more information about the user interface improvements, see <a href="https://marketing.adobe.com/resources/help/en_US/mcloud/marketing-cloud-interface.html" format="https" scope="external"> What's New in the Adobe Experience Cloud - Spring 2016 </a>. </p> </td> 
   </tr> 
-  <!-- <row> <entry colname="col1">Content similarity weighting (First Look) </entry> <entry colname="col2"> <p> Select specific attributes to consider/prioritize in calculating content similarity </p> <p><xref href="https://jira.corp.adobe.com/browse/TGT-15269">https://jira.corp.adobe.com/browse/TGT-15269</xref></p> <p><xref href="https://jira.corp.adobe.com/browse/TGT-15649">https://jira.corp.adobe.com/browse/TGT-15649</xref></p> </entry> </row> --> 
   <tr> 
    <td colname="col1" class="premium"> Inclusion rules can be disabled for backup recommendations </td> 
    <td colname="col2"> <p>When backup recommendations are enabled, you can choose not to apply inclusion rules to your backup recommendations. . </p>  </td> 
@@ -2024,7 +1990,6 @@ This release includes the following features and enhancements:
    <td colname="col1"> New Instructional Videos </td> 
    <td colname="col2"> Instructional videos have been added to help. Currently, you can view videos about the <a href="../c-experiences/c-experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D" format="dita" scope="local"> Visual Experience Composer and Form-Based Experience Composer </a>. More videos will be added in the coming weeks. </td> 
   </tr> 
-  <!-- <row> <entry colname="col1">Enhanced click tracking configuration </entry> <entry colname="col2"> You can now browse to a different page to set up click tracking for A/B and Experience Targeting activities. </entry> </row> --> 
  </tbody> 
 </table>
 
@@ -2052,7 +2017,6 @@ This release includes the following features and enhancements:
   </tr> 
  </thead>
  <tbody> 
-  <!-- <row> <entry colname="col1">Export/Download Summary reports for Automated Personalization and Recommendations Premium </entry> <entry colname="col2"> <p>The ability to download data in a .csv format for quick import into Excel or other data analysis programs has been added to Automated Personalization and Recommendations Premium. </p> <p>This feature was previously only available for A/B, Experience Targeting, and Multivariate activities. </p> </entry> </row> --> 
   <tr> 
    <td colname="col1"> <p>First Look: </p> <p>New Target implementation library, at.js </p> </td> 
    <td colname="col2"> <p> <p>Note:  This "First Look" offering is available via API download. It will be available via the Target interface in an upcoming release. In the meantime, you can download the at.js library, test it in your environment, and deploy it in your production Target implementation. </p> </p> <p> at.js is a new implementation library for Target designed for both typical Web implementations and single-page applications. </p> <p> at.js replaces mbox.js for Adobe Target implementations. </p> <p> <p>Note:  Although at.js replaces mbox.js, mbox.js will continue to be supported, although, for most people, at.js provides advantages over mbox.js. This gives you time to test at.js and to change the implementation on your pages. </p> </p> <p>Among other benefits, at.js improves page load times for Web implementations, improves security, and provides better implementation options for single-page applications. </p> <p>at.js contains the components that were included in target.js, so there is no longer a call to target.js. </p> <p>When implementing at.js, be aware of the following: </p> <p> 
@@ -2077,7 +2041,6 @@ This release includes the following features and enhancements:
       <li id="li_619F4765CEEC48E0A45E1821C282A082">Changing options in the "Advanced Settings" panel </li> 
      </ul> </p> <p>Refer to <a href="../c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4" format="dita" scope="local"> Automated Traffic Allocation </a> for documentation about Auto-Allocate. </p> </td> 
   </tr> 
-  <!-- <row> <entry colname="col1">Enhanced click tracking configuration </entry> <entry colname="col2"> You can now browse to a different page to set up click tracking for A/B and Experience Targeting activities. </entry> </row> --> 
  </tbody> 
 </table>
 
@@ -2126,7 +2089,6 @@ This release includes the following features and enhancements:
   </tr> 
  </thead>
  <tbody> 
-  <!-- <row> <entry colname="col1">Export/Download Summary reports for Automated Personalization and Recommendations Premium </entry> <entry colname="col2"> <p>The ability to download data in a .csv format for quick import into Excel or other data analysis programs has been added to Automated Personalization and Recommendations Premium. </p> <p>This feature was previously only available for A/B, Experience Targeting, and Multivariate activities. </p> </entry> </row> --> 
   <tr> 
    <td colname="col1"> User interface improvements. </td> 
    <td colname="col2"> <p>The Activities list and Audience list design have been improved, as has the search/sort functionality. Additional user interface changes will be included in upcoming releases. </p> <p>See <a href="../c-activities/c-activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03" format="dita" scope="local"> Activities </a>. </p> </td> 
@@ -2167,7 +2129,6 @@ This release includes the following features and enhancements:
    <td colname="col1"> <p> Download success metrics report </p> </td> 
    <td colname="col2"> <p> Download a single csv file with all success metric listed, instead of a report that only had the final activity goal. </p> <p>See <a href="../c-reports/c-reports.md#concept_B5077F5503AA4C98901AA99EDCE6CDE6" format="dita" scope="local"> Reports </a>. </p> </td> 
   </tr> 
-  <!-- <row> <entry colname="col1">Enhanced click tracking configuration </entry> <entry colname="col2"> You can now browse to a different page to set up click tracking for A/B and Experience Targeting activities. </entry> </row> --> 
  </tbody> 
 </table>
 
@@ -2214,7 +2175,6 @@ This release includes the following features and enhancements:
   </tr> 
  </thead>
  <tbody> 
-  <!-- <row> <entry colname="col1">Export/Download Summary reports for Automated Personalization and Recommendations Premium </entry> <entry colname="col2"> <p>The ability to download data in a .csv format for quick import into Excel or other data analysis programs has been added to Automated Personalization and Recommendations Premium. </p> <p>This feature was previously only available for A/B, Experience Targeting, and Multivariate activities. </p> </entry> </row> --> 
   <tr> 
    <td colname="col1"> <p>Auto-Allocate in A/B Tests </p> </td> 
    <td colname="col2"> <p> You now have the option to automatically allocate traffic to increase overall campaign lift and discover winning experiences faster. This algorithm increases the overall campaign performance while maintaining the integrity of an A/B test. </p> <p>The algorithm relies on measured performance (e.g. conversion rate) and confidence intervals to produce a traffic distribution that is changed up to twice per hour. </p> <p>Key Benefits </p> <p> 
@@ -2292,7 +2252,6 @@ This release includes the following features and enhancements:
    <td colname="col1"> Enhancement: Improved reporting details shown when using Analytics as your reporting source. </td> 
    <td colname="col2"> <p>The details shown by default in an Analytics report when using A4T now match the details shown in the Target report. </p> </td> 
   </tr> 
-  <!-- <row> <entry colname="col1">Enhanced click tracking configuration </entry> <entry colname="col2"> You can now browse to a different page to set up click tracking for A/B and Experience Targeting activities. </entry> </row> --> 
  </tbody> 
 </table>
 
@@ -2328,7 +2287,6 @@ This release includes the following features and enhancements:
    <td colname="col1"> Location targeting on form-based activity creation </td> 
    <td colname="col2"> <p> Apply targeting to your mbox locations to limit where your activity displays. </p> <p>See <a href="../c-experiences/t-form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E" format="dita" scope="local"> Form-Based Experience Composer </a>. </p> </td> 
   </tr> 
-  <!-- <row> <entry colname="col1">Export/Download Summary reports for Automated Personalization and Recommendations Premium </entry> <entry colname="col2"> <p>The ability to download data in a .csv format for quick import into Excel or other data analysis programs has been added to Automated Personalization and Recommendations Premium. </p> <p>This feature was previously only available for A/B, Experience Targeting, and Multivariate activities. </p> </entry> </row> --> 
   <tr> 
    <td colname="col1"> Background color selection in Visual Experience Composer for MVT and Automated Personalization activities </td> 
    <td colname="col2"> <p>A color picker enables you to set background colors when editing Automated Personalization and Multivariate Test activities. </p> <p>This feature was previously only available for A/B and Experience Targeting activities. </p> <p>See <a href="../c-experiences/c-visual-experience-composer/r-viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81" format="dita" scope="local"> Visual Experience Composer Options </a>. </p> </td> 
@@ -2369,7 +2327,6 @@ This release includes the following features and enhancements:
    <td colname="col1"> Activity List performance improvements </td> 
    <td colname="col2"> <p>Greatly improved the load time for activities in the list. Searching and filtering are much faster, particularly when there are a lot of activities in the list. </p> </td> 
   </tr> 
-  <!-- <row> <entry colname="col1">Enhanced click tracking configuration </entry> <entry colname="col2"> You can now browse to a different page to set up click tracking for A/B and Experience Targeting activities. </entry> </row> --> 
  </tbody> 
 </table>
 
@@ -2425,12 +2382,10 @@ This release includes the following features and enhancements:
    <td colname="col1"> Archive activity </td> 
    <td colname="col2"> <p>Send an activity to the archive. You can approve an archived activity to make it active again. Activities in the archive do not display by default in the Activities list. </p> <p>See <a href="../c-activities/c-activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03" format="dita" scope="local"> Activities </a>. </p> </td> 
   </tr> 
-  <!-- <row> <entry colname="col1">Enhanced click tracking configuration </entry> <entry colname="col2"> You can now browse to a different page to set up click tracking for A/B and Experience Targeting activities. </entry> </row> --> 
   <tr> 
    <td colname="col1" class="premium"> <p>Automated Personalization </p> <p>Offer-level targeting </p> </td> 
    <td colname="col2"> <p>Allows marketers to apply targeting rules to offers in Automated Personalization. Makes it possible to exclude specific offers from being shown to a specified group of people. </p> <p>See <a href="../c-activities/t-automated-personalization/t-ap-target-offers.md#task_F207ED7A41B84FD39BB6FCBFABF4B23E" format="dita" scope="local"> Target AP Offers </a>. </p> </td> 
   </tr> 
-  <!-- <row> <entry colname="col1"> <p>Automated Personalization </p> <p>Conversion-based Offer Detail report </p> </entry> <entry colname="col2">Reporting improvement. This new functionality allows the Offer Detail report to report using lift and incremental conversions, metrics that are aligned with the optimization goal. Previously, the Offer Detail report in Automated Personalization always reported on revenue even though the optimization goal was a click-based conversion rate, whether or not the activity had revenue being passed in. This required marketers to specify "estimated revenue per conversion" in the Goals and Metrics page for the report to be meaningful. </entry> </row> --> 
   <tr> 
    <td colname="col1" class="premium"> <p>Recommendations Premium </p> <p>Show number of activities using design </p> </td> 
    <td colname="col2"> <p>The design library shows how many live and inactive activities are using each design. </p> <p>See <a href="https://marketing.adobe.com/resources/help/en_US/target/recs/t_create_recs_activity.html" format="https" scope="external"> Creating a Recommendations Activity </a>. </p> </td> 
@@ -2443,15 +2398,13 @@ This release includes the following features and enhancements:
    <td colname="col1" class="premium"> <p>Recommendations Premium </p> <p>API Token </p> </td> 
    <td colname="col2"> <p>You can set your Client API token from Recommendations Premium. </p> <p>See <a href="https://marketing.adobe.com/resources/help/en_US/target/recs/c_setup.html" format="https" scope="external"> Settings </a>. </p> </td> 
   </tr> 
-  <!-- <row> <entry colname="col1" outputclass="premium"> <p>Recommendations Premium </p> <p>Key item's attributes can show in design </p> </entry> <entry colname="col2">The key item, the item your recommendations are based on, such as the item the visitor is currently viewing or the item in the cart, is dynamically shown in the recommendations. In cases where there is no key, a random displays in that template location. </entry> </row> --> 
   <tr> 
    <td colname="col1"> Enhancement: Frequently used URLs </td> 
    <td colname="col2"> When entering a URL for an activity or a new page within an activity, a menu shows the most recent and most frequently used URLs. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> New mobile device targeting options </td> 
-   <td colname="col2"> <p>You can now target multiple mobile devices without requiring a profile script. </p> <p>See <a href="../c-target/c-audiences/c-target-rules/c-mobile.md#concept_2A794199DC1A4D349FFFBC7DCF1FEB89" format="dita" scope="local"> Mobile </a>. 
-     <!--<p> <ul id="ul_1F4F703828A845FF82D9797A2B36D801"> <li id="li_E69E5AEAD1914EB29AB0A4234057A481">Browser language </li> <li id="li_81D2E07A84A34E7BBCB2F8DF5C7AEE22">Browser version </li><li id="li_ADB0B297EF0941FC86441C2D5932C13A">Multiple mobile devices </li> </ul> </p>--> </p> </td> 
+   <td colname="col2"> <p>You can now target multiple mobile devices without requiring a profile script. </p> <p>See <a href="../c-target/c-audiences/c-target-rules/c-mobile.md#concept_2A794199DC1A4D349FFFBC7DCF1FEB89" format="dita" scope="local"> Mobile </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -2492,11 +2445,9 @@ This release includes the following features and enhancements:
    <td colname="col1"> Enhancement: Experience Targeting experience limit removed. </td> 
    <td colname="col2"> The previous limit of ten experiences in Experience Targeting has been removed. </td> 
   </tr> 
-  <!-- <row> <entry colname="col1">Enhanced click tracking configuration <TGT-9897> </entry> <entry colname="col2"> You can now browse to a different page to set up click tracking for A/B and Experience Targeting activities. </entry> </row> --> 
   <tr> 
    <td colname="col1"> Mbox.js management and editing options </td> 
-   <td colname="col2"> <p>All mbox.js configuration and editing is now available within Target Standard. You no longer need to make modifications in Target Classic. </p> <p>See <a href="https://marketing-beta.adobe.com/resources/help/target/ov/r_advanced_mboxjs_settings.html" format="https" scope="external"> Advanced mbox.js Settings </a>. 
-     <!--Beta link--> </p> </td> 
+   <td colname="col2"> <p>All mbox.js configuration and editing is now available within Target Standard. You no longer need to make modifications in Target Classic. </p> <p>See <a href="https://marketing-beta.adobe.com/resources/help/target/ov/r_advanced_mboxjs_settings.html" format="https" scope="external"> Advanced mbox.js Settings </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Real-time profile syncing for 3rdPartyId data </td> 
@@ -2540,7 +2491,6 @@ This release includes the following features and enhancements:
   </tr> 
  </thead>
  <tbody> 
-  <!-- <row> <entry colname="col1"> <p>Configurable success metrics </p> </entry> <entry colname="col2"> <p>Includes advanced options for success metrics, such as <varname>count once</varname>, <varname>restart new experience</varname>, and so on. The default for new activities is now <varname>count once</varname>, replacing the former default of <varname>always convert</varname>. </p> </entry> </row> --> 
   <tr> 
    <td colname="col1"> <p>Visual Experience Composer compatibility improvements </p> </td> 
    <td colname="col2"> <p> A new account-wide setting to make it easier for Target to generate the right CSS selectors. For example, it can be specified if Target should use classes or IDs. This improves compatibility with AEM. This setting can be overridden per activity </p> </td> 
@@ -2549,7 +2499,6 @@ This release includes the following features and enhancements:
    <td colname="col1"> <p>Experience Targeting support for Analytics as a reporting source </p> </td> 
    <td colname="col2"> <p>You can now use Analytics as a reporting source for Experience Targeting activities. </p> <p>See <a href="https://marketing.adobe.com/resources/help/en_US/target/target/r_xt_goals_and_settings.html" format="https" scope="external"> Goals and Settings </a>. </p> </td> 
   </tr> 
-  <!-- <row> <entry colname="col1"> <p>New mbox.js </p> </entry> <entry colname="col2"> <p>Version 58 of mbox.js adds asynchronous loading. This enables the Visitor ID service to load before the first call is made to Target. This ensures that audience sharing is available on the first hit, which is important if you use the profiles and audiences core service. </p> </entry> </row> --> 
   <tr> 
    <td colname="col1" class="premium"> <p>Automated Personalization: Visual indication of model status </p> </td> 
    <td colname="col2"> <p> Once a predictive model passes the required quality criteria and is deemed valid, it is considered ready and is used to calculate a personalized score for offer decisioning. A clock icon changes to a check mark when the model is ready and Target is able to begin delivering personalized content. Since lift is expected only after the models are ready, the visual indication allows you to set the right expectation. Use the traffic estimator in the Visual Experience Composer to get a guideline of when the models will be ready. </p> <p>See <a href="https://marketing.adobe.com/resources/help/en_US/target/target/t_ap_traffic_estimator.html" format="https" scope="external"> Estimate the Traffic Required for Success </a>. </p> </td> 
@@ -3171,4 +3120,3 @@ This release includes the following fixes and enhancements:
 * Fixed a defect that caused an incorrect experience name to display on a shared card when editing an activity. 
 * Fixed a defect where an updated image offer did not correctly update the content in both Scene7 and Target Advanced. 
 * Fixed an issue where copying an image asset also copied Scene7-related properties that should not have been copied.
-
