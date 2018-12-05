@@ -270,19 +270,9 @@ This [!DNL Target] release includes the following enhancements, fixes, and chang
       <li id="li_818AA4EDDAC04D8B9BB4BA708D6BEF99"> <p>Added support for <span class="codeph"> screenOrientation </span>, <span class="codeph"> devicePixelRatio </span>, and <span class="codeph"> webGLRenderer </span>. These new Target request parameters are used for iPhone X and other modern device detection. For more information, see <a href="../c-target/c-audiences/c-target-rules/c-mobile.md#concept_2A794199DC1A4D349FFFBC7DCF1FEB89" format="dita" scope="local"> Mobile </a>. (TNT-29781) </p> </li> 
       <li id="li_87E3FB8B423C472AB1EE0DF2D7C64885"> <p>Fixed an issue where the Adobe Audience Manager (AAM) location hint wasn't always sent. (TNT-29695) </p> </li> 
       <li id="li_E9E5A5035AC24F54ADEF5447E3F15D3B"> <p>For browsers that support it, at.js 1.5.0 switches to MutationObserver for selector polling. Versions prior to at.js 1.0.0 used a MutationObserver polyfill, which proved to be problematic. To avoid the polyfill issues, version1.5.0 uses the following pseudo code to decide which scheduling mechanism to use: </p> <p> 
-        <codeblock>
-          if&nbsp;MutationObserver&nbsp;is&nbsp;supported 
-         
-&nbsp;&nbsp;scheduler&nbsp;=&nbsp;MutationObserver 
-         
-else&nbsp;if&nbsp;document&nbsp;is&nbsp;visible 
-         
-&nbsp;&nbsp;scheduler&nbsp;=&nbsp;requestAnimationFrame 
-         
-else 
-         
-&nbsp;&nbsp;scheduler&nbsp;=&nbsp;setTimeout 
-        </codeblock> </p> </li> 
+        <code>
+          if MutationObserver is supported scheduler = MutationObserver else if document is visible scheduler = requestAnimationFrame else scheduler = setTimeout 
+        </code> </p> </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 
@@ -1906,9 +1896,9 @@ The Adobe Target Standard/Premium 16.5.1 (May 19, 2016) release includes the fol
   <tr> 
    <td colname="col1" class="premium"> Recommendations CSV download </td> 
    <td colname="col2"> <p>CSV downloads now have a line for all environments, including those that do not have entity recommendations (for example: 
-     <systemoutput>
+     <code>
        # environment: 1724 
-     </systemoutput>). </p> </td> 
+     </code>). </p> </td> 
   </tr> 
   <!-- <row> <entry colname="col1">Enhanced click tracking configuration </entry> <entry colname="col2"> You can now browse to a different page to set up click tracking for A/B and Experience Targeting activities. </entry> </row> --> 
  </tbody> 

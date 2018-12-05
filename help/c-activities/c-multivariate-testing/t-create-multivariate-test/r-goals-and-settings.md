@@ -16,8 +16,6 @@ snippet: y
 
 The Goals and Settings page is where you enter information about the goals of the test.
 
-<a id="section_9B98C5E38DC244D0829B9B06CA627EA9"></a>
-
 * Activity Settings 
 * Reporting Settings 
 * Other Metadata
@@ -151,4 +149,3 @@ See [Success Metrics](../../../c-activities/r-success-metrics/r-success-metrics.
 |  Settings  | Description  |
 |---|---|
 |  Notes  | Type any information about your activity that is useful to keep on hand for yourself or other team members. The Notes pane is resizable.  |
-

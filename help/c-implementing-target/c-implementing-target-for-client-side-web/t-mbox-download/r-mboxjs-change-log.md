@@ -16,8 +16,6 @@ snippet: y
 
 This page shows changes to each version of mbox.js.
 
-<a id="section_C915897051644B40BFF4DC6B914944C2"></a>
-
 >[!NOTE]
 >
 >We recommend that all `mbox.js` users upgrade to version 57 or later. Some users have experienced timeout issues when `target.js` couldn't be loaded. Version 57 fixed that issue. However, if you are using the [!DNL Experience Cloud Visitor ID] service, version 58 or later is required.
@@ -391,4 +389,3 @@ The following changes have been made in this version:
   </tr> 
  </tbody> 
 </table>
-

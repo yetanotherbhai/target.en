@@ -16,8 +16,6 @@ snippet: y
 
 List of topics to help you resolve issues in Adobe Target, including troubleshooting topics, frequently asked questions (FAQs), and other helpful topics.
 
-<a id="section_5E67A1F944154A8CB043CE7662270103"></a>
-
 In addition to the topics listed below, the following video demonstrates tools for troubleshooting [!DNL Target].
 
 * Use native browser tools for inspecting mbox requests 
@@ -113,4 +111,3 @@ In addition to the topics listed below, the following video demonstrates tools f
   </tr> 
  </tbody> 
 </table>
-

@@ -16,8 +16,6 @@ snippet: y
 
 These release notes provide information about features, enhancements, fixes, and known issues for each Target Standard and Target Premium release.
 
-<a id="section_209FD0D5FA5B4EC2AEABB2CC7901612F"></a>
-
 <table id="table_1DAD8293D4A447D9932083FB9488EAA2"> 
  <tbody> 
   <tr> 
@@ -42,7 +40,6 @@ These release notes provide information about features, enhancements, fixes, and
   </tr>
  </thead>
  <tbody> 
-  <!-- <row> <entry colname="col1"> <p>Form-Based Activities </p> </entry> <entry colname="col2"> <p>This release includes a new priority model for activities that use the Form-Based Experience Composer with only a global mbox. Before this release, content from multiple activities was returned to the page and overwrote content from other returned activities. Now, only the top priority activity's content is returned. </p> </entry> </row> --> 
   <tr> 
    <td colname="col1"> <p>at.js 1.6.3 </p> </td> 
    <td colname="col2"> <p>at.js version 1.6.3 is now available. </p> <p> 
@@ -68,7 +65,6 @@ The [!DNL Target] Standard/Premium release on November 12 includes back-end enha
   </tr>
  </thead>
  <tbody> 
-  <!-- <row> <entry colname="col1"> <p>Form-Based Activities </p> </entry> <entry colname="col2"> <p>This release includes a new priority model for activities that use the Form-Based Experience Composer with only a global mbox. Before this release, content from multiple activities was returned to the page and overwrote content from other returned activities. Now, only the top priority activity's content is returned. </p> </entry> </row> --> 
   <tr> 
    <td colname="col1" class="premium"> <p>Personalization Insights reports </p> <p> <p>Note:  Available November 14, 2018. </p> </p> </td> 
    <td colname="col2"> <p>Two specialized reports are available to users of <span class="wintitle"> Automated Personalization (AP)</span> and <span class="wintitle"> Auto-Target (AT)</span> activities: </p> <p> 
@@ -138,4 +134,3 @@ In addition to the notes for each release, the following resources provide addit
   </tr> 
  </tbody> 
 </table>
-

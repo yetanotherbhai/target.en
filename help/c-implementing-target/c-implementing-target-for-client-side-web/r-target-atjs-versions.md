@@ -12,17 +12,13 @@ internal: n
 snippet: y
 ---
 
-# at.js version details{#at-js-version-details}
+# at.js version details {#at-js-version-details}
 
 Details about changes in each version of at.js.
-
-<a id="section_CEA633C86E7040669785F63F79468B1A"></a>
 
 >[!IMPORTANT]
 >
 >The Target team maintains only two versions of [!DNL at.js]—the current version and the second-latest version. Please upgrade [!DNL at.js] as necessary to ensure that you are running a supported version.
-
-<a id="section_61864A88D38B46C1825958FC4CD89EEA"></a>
 
 This section contains information about the following [!DNL at.js] versions:
 
@@ -179,7 +175,7 @@ at.js version 1.3.0 is now available.
 
 ## at.js Version 1.1.0 {#section_8F494E1EA94E48A9B169F5CF9FE6DC56}
 
-**Date: **August 2, 2017
+**Date:** August 2, 2017
 
 The following enhancements and fixes are included in [!DNL at.js] version 1.1:
 
@@ -189,7 +185,7 @@ The following enhancements and fixes are included in [!DNL at.js] version 1.1:
 
 ## at.js Version 1.0.0 {#section_37A3D23FC4AD42A68AA831B89E03E725}
 
-**Date: **July 7, 2017
+**Date:** July 7, 2017
 
 The following enhancements and fixes are included at.js version 1.0:
 
@@ -205,7 +201,7 @@ The following enhancements and fixes are included at.js version 1.0:
 
 ## at.js Version 0.9.7 {#section_6C7B698BE21E40E495FD2850EFBF3E80}
 
-**Date: **May 22, 2017
+**Date:** May 22, 2017
 
 The following enhancements and fixes are included in [!DNL at.js] version 0.9.7:
 
@@ -213,7 +209,7 @@ The following enhancements and fixes are included in [!DNL at.js] version 0.9.7:
 
 ## at.js Version 0.9.6 {#section_EEFA6413F2F947AD8C4A88128B90245D}
 
-**Date: **April 13, 2017
+**Date:** April 13, 2017
 
 The following enhancements and fixes are included in [!DNL at.js] version 0.9.6:
 
@@ -232,7 +228,7 @@ The following enhancements and fixes are included in [!DNL at.js] version 0.9.6:
 
 ## at.js Version 0.9.4 {#section_A15B12F12CD94F07B3F56613A79A815F}
 
-**Date: **January 19, 2017
+**Date:** January 19, 2017
 
 * mbox names can now contain special characters, including ampersands ( & ), to be consistent with naming requirements for mbox names using `mbox.js`.
 
@@ -243,7 +239,7 @@ The following enhancements and fixes are included in [!DNL at.js] version 0.9.6:
 
 ## at.js Version 0.9.3 {#section_DF13BC1D7C994AE7A36B81937A699DF4}
 
-**Date: **October 10, 2016
+**Date:** October 10, 2016
 
 * Ensures mbox calls fire in Microsoft Internet Explorer 11 when legacy browsers are disabled in the `at.js` settings. 
 * Ensures that default content is rendered if a dynamic remote offer fails (for example, if the URL is incorrect and returns a 404 error). 
@@ -251,7 +247,7 @@ The following enhancements and fixes are included in [!DNL at.js] version 0.9.6:
 
 ## at.js Version 0.9.2 {#section_148549CBB4F046BAA8F79C79B64EC889}
 
-**Date: **September 21, 2016
+**Date:** September 21, 2016
 
 * Added an `optoutEnabled` setting to enable or disable the Device Graph opt-out. If this setting is set to `true` and the visitor has opted out of tracking, the visitor's browser will not make any mbox calls. Device Graph is currently in Beta. This setting is set to `false` by default, but must be set to `true` if you are using Device Graph. A similar option is part of `mbox.js` v61. 
 * Added `CustomEvent` support for the notification mechanism. Previously, the `at.js` event notification mechanism could not be used via standard DOM APIs, such as `document.addEventListener()`. Now you can use `document.addEventListener()` to subscribe to `at.js` events, such as request events and content rendering events. 
@@ -259,7 +255,7 @@ The following enhancements and fixes are included in [!DNL at.js] version 0.9.6:
 
 ## at.js Version 0.9.1 {#section_DAFB99114D604CFB8416C1BC7DEEAEEE}
 
-**Date: **July 14, 2016
+**Date:** July 14, 2016
 
 * Provides `at.js` a timeout for the Visitor Id Service, which is independent of the service’s own timeout. 
 * Corrects an issue in 0.9.0 that impacted implementations using `at.js` on some pages and `mbox.js` on other pages. 
@@ -291,7 +287,7 @@ The following enhancements and fixes are included in [!DNL at.js] version 0.9.6:
 
 ## at.js Version 0.8.0 {#section_E1C7B08EC0494388A022C28A8B8FE807}
 
-**Date: **May 5, 2016.
+**Date:** May 5, 2016.
 
 This is the first official release of the [!DNL at.js] library.
 
@@ -311,8 +307,5 @@ When implementing [!DNL at.js], be aware of the following:
 
 * Internet Explorer versions earlier than 8 are not supported. 
 * Asynchronous implementation means legacy integrations like the [!DNL Test&Target] to [!DNL SiteCatalyst] plugin may not work. 
-
 * [!DNL Target] plugins that reference [!DNL mbox.js] objects and methods are not supported. 
-
 * All calls to [!DNL Target] are made via XMLHTTPRequest and content is returned via JSON.
-

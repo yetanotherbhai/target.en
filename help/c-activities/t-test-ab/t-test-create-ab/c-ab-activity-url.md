@@ -43,8 +43,6 @@ Additional rules can be joined to the Activity URL with AND or OR. All rules you
 
 Click **[!UICONTROL Save]** when you have finished.
 
-<a id="section_373CAB401E6A43EFA4D82E000581A4D3"></a>
-
 >[!NOTE]
 >
 >If you entered a URL for a site that does not include the [!DNL Target] Standard JavaScript code, you cannot select page elements.
@@ -54,4 +52,3 @@ By default, the [!UICONTROL Visual Experience Composer] does not allow changes t
 >[!NOTE]
 >
 >If you change the URL after making changes to a page for one or more experiences, the experience is reset using the new page and the changes you made are lost.
-
