@@ -31,93 +31,73 @@ The following table describes the available variables.
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> entity.id </span> </p> <p>Single-value only. </p> </td> 
    <td colname="col2"> <p>This required parameter identifies the product. This alphanumeric ID must be the same across all Adobe Experience Cloud products that are used, including Analytics, for the various products to recognize the item and share data about it. </p> <p> <span class="codeph"> entity.id </span> values must not contain slashes, ampersands, question marks, percentage symbols, or punctuation characters that requiring URL encoding. Hyphens and underscores are permitted. Including invalid punctuation in an <span class="codeph"> entity.id </span> value causes some Recommendations functionality to fail. </p> <p>Example: </p> <p> 
-     <codeblock>
+     <code>
        'entity.id=67833' 
-     </codeblock> </p> </td> 
+     </code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> entity.name </span> </p> <p>Single-value only. </p> </td> 
    <td colname="col2"> <p>The product name that is displayed on the Web site when the product is recommended. </p> <p>Example: </p> <p> 
-     <codeblock>
-       'entity.name=Giants&amp;nbsp;vs&amp;nbsp;Rockies&amp;nbsp;5/12' 
-     </codeblock> </p> </td> 
+     <code>
+       'entity.name=Giants&amp; vs&amp; Rockies&amp; 5/12' 
+     </code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> entity.categoryId </span> </p> <p>Supports multi-value (comma-delimited list). </p> </td> 
    <td colname="col2"> <p>Category of the current page. This can include multiple categories, such as a cardigans sub-subsection (i.e. <span class="codeph"> womens </span>, <span class="codeph"> womens:sweaters </span>, <span class="codeph"> womens:sweaters:cardigans </span>). Multiple categories should be separated by commas. </p> <p> <span class="codeph"> categoryId </span>is limited to 250 characters. </p> <p> <p>Note:  To show a recommendation based on a category in a Category page, only one <span class="codeph"> categoryId </span> can be passed into the mbox used to display that particular recommendation. The value of the <span class="codeph"> categoryId </span> must match exactly the value of <span class="codeph"> entity.cateogryId </span> passed on the Product Detail page. </p> </p> <p>Example Product Detail Page: <span class="codeph"> womens, womens:sweaters, womens:sweaters:cardigans </span> </p> <p>Example Category Page Sweaters: <span class="codeph"> womens:sweaters </span> </p> <p>Example Category Page Cardigans: <span class="codeph"> womens:sweaters:cardigans </span> </p> <p>For category-based Recommendations, a comma is used to separate category value. Any values separated by commas become categories. You can also define subcategories by using a different separator, such as a colon (:), to separate subcategories within the category value. </p> <p>For example, in the following code the Womens category is divided into several subcategories: </p> <p> 
-     <codeblock>
-       mboxCreate('mboxName', 
-      
-&nbsp;&nbsp;'entity.id=343942-32', 
-      
-&nbsp;&nbsp;'entity.categoryId= 
-      
-&nbsp;&nbsp;&nbsp;&nbsp;Womens, 
-      
-&nbsp;&nbsp;&nbsp;&nbsp;Womens:Outerwear, 
-      
-&nbsp;&nbsp;&nbsp;&nbsp;Womens:Outerwear:Jackets, 
-      
-&nbsp;&nbsp;&nbsp;&nbsp;Womens:Outerwear:Jackets:Parka, 
-      
-&nbsp;&nbsp;&nbsp;&nbsp;Womens:Outerwear:Jackets:Caban’, 
-      
-&nbsp;&nbsp;'entity.thumbnailUrl=...', 
-      
-&nbsp;&nbsp;'entity.message=...', 
-      
-); 
-     </codeblock> </p> <p>For the mbox delivery, the longest attribute name is used for the key. If there is a tie, the last attribute is used. In the example above, the category key is <span class="codeph"> Womens:Outerwear:Jackets:Caban </span>. </p> </td> 
+     <code>
+       mboxCreate('mboxName', 'entity.id=343942-32', 'entity.categoryId= Womens, Womens:Outerwear, Womens:Outerwear:Jackets, Womens:Outerwear:Jackets:Parka, Womens:Outerwear:Jackets:Caban’, 'entity.thumbnailUrl=...', 'entity.message=...', ); 
+     </code> </p> <p>For the mbox delivery, the longest attribute name is used for the key. If there is a tie, the last attribute is used. In the example above, the category key is <span class="codeph"> Womens:Outerwear:Jackets:Caban </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> entity.brand </span> </p> <p>Single-value only. </p> </td> 
    <td colname="col2"> <p>Displays an item's brand name. </p> <p>Example: </p> <p> 
-     <codeblock>
+     <code>
        'entity.brand=brandxyz' 
-     </codeblock> </p> </td> 
+     </code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> entity.pageURL </span> </p> <p>Single-value only. </p> </td> 
    <td colname="col2"> <p>Defines the relative URL of the page where the item can be purchased. </p> <p>Example: </p> <p> 
-     <codeblock> 
+     <code> 
       
 'entity.pageURL=baseball/giants-tix/giantsvrockies5.12.2000-67833' 
-     </codeblock> </p> </td> 
+     </code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> entity.thumbnailURL </span> </p> <p>Single-value only. </p> </td> 
    <td colname="col2"> <p>Defines the relative URL to the thumbnail image that displays with the item. </p> <p>Example: </p> <p> 
-     <codeblock>
+     <code>
        'entity.thumbnailURL=baseball/giants-tix/giants-136px.gif' 
-     </codeblock> </p> </td> 
+     </code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> entity.message </span> </p> <p>Single-value only. </p> </td> 
    <td colname="col2"> <p> A message about the product that is displayed in the recommendation, such as "on sale" or "clearance." The message is typically more verbose than the product name. Use to define additional information to display with the product in the template </p> <p>Example: </p> <p> 
-     <codeblock>
+     <code>
        'entity.message=Family&amp;nbsp;special' 
-     </codeblock> </p> </td> 
+     </code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> entity.inventory </span> </p> <p>Single-value only. Requires an integer or long value. </p> </td> 
    <td colname="col2"> <p>Displays the inventory level of the item. </p> <p>Example: </p> <p> 
-     <codeblock>
+     <code>
        'entity.inventory=1' 
-     </codeblock> </p> <p><b>Empty Inventory Attribute Handling</b> </p> <p>For delivery, if you have an inclusion rule, collection rule, or criteria setting with <span class="codeph"> entity.inventory &gt; 0 </span> or <span class="codeph"> entity.inventory = 0 </span> and the product has inventory not set, Target evaluates this to TRUE and includes products where the inventory is not set. This was done by default so that products with inventory that is not set show up in recommendation results. </p> <p>Similarly, if you have a global exclusion rule with <span class="codeph"> entity.inventory = 0 </span> and <span class="codeph"> entity.inventory </span> is not set, Target evaluates this rule to be TRUE and excludes the product. </p> <p>Known issue: Product Search is inconsistent with delivery for not set inventory value attributes. For example for a rule with <span class="codeph"> entity.inventory = 0 </span>, Product Search will not display products where the inventory value is not set. </p> </td> 
+     </code> </p> <p><b>Empty Inventory Attribute Handling</b> </p> <p>For delivery, if you have an inclusion rule, collection rule, or criteria setting with <span class="codeph"> entity.inventory &gt; 0 </span> or <span class="codeph"> entity.inventory = 0 </span> and the product has inventory not set, Target evaluates this to TRUE and includes products where the inventory is not set. This was done by default so that products with inventory that is not set show up in recommendation results. </p> <p>Similarly, if you have a global exclusion rule with <span class="codeph"> entity.inventory = 0 </span> and <span class="codeph"> entity.inventory </span> is not set, Target evaluates this rule to be TRUE and excludes the product. </p> <p>Known issue: Product Search is inconsistent with delivery for not set inventory value attributes. For example for a rule with <span class="codeph"> entity.inventory = 0 </span>, Product Search will not display products where the inventory value is not set. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> entity.value </span> </p> <p>Single-value only. </p> </td> 
    <td colname="col2"> <p>Defines the price or value of the item. </p> <p>Example: </p> <p> 
-     <codeblock>
+     <code>
        'entity.value=15.99' 
-     </codeblock> </p> </td> 
+     </code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> entity.margin </span> </p> <p>Single-value only. </p> </td> 
    <td colname="col2"> <p>The profit margin or other value of the item. </p> <p>Example: </p> <p> 
-     <codeblock>
+     <code>
        'entity.margin=1.00' 
-     </codeblock> </p> </td> 
+     </code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> entity. </span> <span class="varname"> &lt;custom&gt; </span> </p> <p>Supports multi-value (JSON array). </p> </td> 
@@ -126,50 +106,28 @@ The following table describes the available variables.
      <li id="li_9271366EC1C34315B01D5BD919F5432A">You cannot use predefined entity attribute names for custom entity attributes. </li> 
      <li id="li_C765DE30512C4E99927E9810EAA822CF">The attribute <span class="codeph"> entity.environment </span> is reserved by the system and cannot be used for custom entity attributes. Attempts to pass <span class="codeph"> entity.environment </span> using <span class="codeph"> targetPageParams </span>, feed, or API will be ignored. </li> 
     </ul> <p>Examples: </p> <p> 
-     <codeblock>
+     <code>
        'entity.venue=AT&amp;T&amp;nbsp;Park' 
-     </codeblock> </p> <p> 
-     <codeblock>
+     </code> </p> <p> 
+     <code>
        'entity.secondary=Rockies' 
-     </codeblock> </p> <p>Custom entity attributes support multiple values. A multi-value entity attribute can include up to 100 values. Each value can be up to 100 characters. Values that exceed 100 characters are ignored. </p> <p>Example: </p> <p> 
-     <codeblock>
+     </code> </p> <p>Custom entity attributes support multiple values. A multi-value entity attribute can include up to 100 values. Each value can be up to 100 characters. Values that exceed 100 characters are ignored. </p> <p>Example: </p> <p> 
+     <code>
        'entity.secondary=["band1",&amp;nbsp;"band2"]' 
-     </codeblock> </p> <p> <p>Note:  Multi-value custom entity attributes require valid JSON arrays. For correct syntax information, see <a href="../../c-recommendations/c-products/c-custom-entity-attributes.md#concept_E5CF39BCAC8140309A73828706288322" format="dita" scope="local"> Custom Entity Attributes </a>. </p> </p> </td> 
+     </code> </p> <p> <p>Note:  Multi-value custom entity attributes require valid JSON arrays. For correct syntax information, see <a href="../../c-recommendations/c-products/c-custom-entity-attributes.md#concept_E5CF39BCAC8140309A73828706288322" format="dita" scope="local"> Custom Entity Attributes </a>. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> entity.event.detailsOnly </span> </p> <p>Single-value only. </p> </td> 
    <td colname="col2"> <p>Used to prevent an mbox call from incrementing behavioral data counters for an algorithm. </p> <p>Example: </p> <p> 
-     <codeblock>
+     <code>
        'entity.event.detailsOnly=true' 
-     </codeblock> </p> <p>In the examples below, the first mbox call will update the catalog and behavioral data. The second mbox call will update only the catalog. </p> <p> 
-     <codeblock>
-       mboxCreate('myMbox',&nbsp; 
-      
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'profile.geo.city&nbsp;=&nbsp;new&nbsp;york', 
-      
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'profile.geo.state&nbsp;=&nbsp;new&nbsp;york',&nbsp; 
-      
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'entity.id&nbsp;=&nbsp;123', 
-      
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'entity.inventory&nbsp;=&nbsp;4' 
-      
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;) 
-     </codeblock> </p> <p> 
-     <codeblock>
-       mboxCreate('myMbox',&nbsp; 
-      
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'profile.geo.city&nbsp;=&nbsp;new&nbsp;york', 
-      
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'profile.geo.state&nbsp;=&nbsp;new&nbsp;york',&nbsp; 
-      
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'entity.id&nbsp;=&nbsp;123', 
-      
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'entity.inventory&nbsp;=&nbsp;4' 
-      
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'entity.event.detailsOnly=true' 
-      
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;) 
-     </codeblock> </p> </td> 
+     </code> </p> <p>In the examples below, the first mbox call will update the catalog and behavioral data. The second mbox call will update only the catalog. </p> <p> 
+     <code>
+       mboxCreate('myMbox', 'profile.geo.city&nbsp;=&nbsp;new&nbsp;york', 'profile.geo.state&nbsp;=&nbsp;new&nbsp;york',&nbsp; 'entity.id&nbsp;=&nbsp;'entity.inventory&nbsp;=&nbsp;4' ) 
+     </code> </p> <p> 
+     <code>
+       mboxCreate('myMbox',&nbsp; 'profile.geo.city&nbsp;=&nbsp;new&nbsp;york', 'profile.geo.state&nbsp;=&nbsp;new&nbsp;york',&nbsp; 'entity.id&nbsp;=&nbsp;123', 'entity.inventory&nbsp;=&nbsp;4' 'entity.event.detailsOnly=true' ) 
+     </code> </p> </td> 
   </tr> 
  </tbody> 
 </table>

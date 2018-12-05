@@ -64,16 +64,12 @@ The following table describes the steps required to deploy this integration to y
    <td colname="col01"><img href="assets/step7_icon.png" id="image_CA8C5C4F0B7C40CEBFD7725663EE7BFD" /> </td> 
    <td colname="col1"> <p>Reference <span class="codeph"> at.js</span> or <span class="codeph"> mbox.js</span> on all site pages. </p> </td> 
    <td colname="col2"> <p> Include <span class="codeph"> at.js</span> or <span class="codeph"> mbox.js</span> below <span class="codeph"> VisitorAPI.js</span> by adding the following line of code in the <span class="codeph"> &lt;head&gt;</span> tag on each page: </p> <p>For<span class="codeph"> at.js</span>: </p> 
-    <codeblock class="syntax html">
-     &lt;script&nbsp;language="JavaScript"&nbsp;type="text/javascript"&nbsp;
-     
-src="https://INSERT-DOMAIN-AND-PATH-TO-CODE-HERE/at.js"&gt;&lt;/script&gt;
-    </codeblock> <p>For <span class="codeph"> mbox.js</span>: </p> 
-    <codeblock class="syntax html">
-     &lt;script&nbsp;language="JavaScript"&nbsp;type="text/javascript"&nbsp;
-     
-src="https://INSERT-DOMAIN-AND-PATH-TO-CODE-HERE/mbox.js"&gt;&lt;/script&gt;
-    </codeblock> <p>It is essential that <span class="codeph"> VisitorAPI.js</span> is loaded before <span class="codeph"> at.js</span> or <span class="codeph"> mbox.js</span>, so if you are updating an existing <span class="codeph"> at.js</span> or <span class="codeph"> mbox.js</span> file, make sure that you verify the load order. </p> </td> 
+    <code class="syntax html">
+     &lt;script&nbsp;language="JavaScript"&nbsp;type="text/javascript"&nbsp;src="https://INSERT-DOMAIN-AND-PATH-TO-CODE-HERE/at.js"&gt;&lt;/script&gt;
+    </code> <p>For <span class="codeph"> mbox.js</span>: </p> 
+    <code class="syntax html">
+     &lt;script&nbsp;language="JavaScript"&nbsp;type="text/javascript"&nbsp;src="https://INSERT-DOMAIN-AND-PATH-TO-CODE-HERE/mbox.js"&gt;&lt;/script&gt;
+    </code> <p>It is essential that <span class="codeph"> VisitorAPI.js</span> is loaded before <span class="codeph"> at.js</span> or <span class="codeph"> mbox.js</span>, so if you are updating an existing <span class="codeph"> at.js</span> or <span class="codeph"> mbox.js</span> file, make sure that you verify the load order. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"><img href="assets/step8_icon.png" id="image_D44ABBFE1308454B955F733D2E6C88EA" /> </td> 
@@ -96,4 +92,3 @@ src="https://INSERT-DOMAIN-AND-PATH-TO-CODE-HERE/mbox.js"&gt;&lt;/script&gt;
   </tr> 
  </tbody> 
 </table>
-

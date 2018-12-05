@@ -36,11 +36,9 @@ To set up the Target VEC extension from Launch, see [Use Adobe Launch to set up 
     1. Under **[!UICONTROL URL Types]**, click the triangle to open it, then click on the Plus Sign to add a new field. 
     1. Add the following information:
 
-<ul class="simplelist"> 
- <li> Identifier: <span class="codeph"> com.adobe.sdktest </span> </li> 
- <li> URL Schemes: <span class="codeph"> vectester </span> </li> 
- <li> Role: <span class="codeph"> Editor </span> </li> 
-</ul>
+       * Identifier: <span class="codeph"> com.adobe.sdktest 
+       * URL Schemes: <span class="codeph"> vectester 
+       * Role: <span class="codeph"> Editor
 
     1. Click away from your application project settings > **[!UICONTROL General]**. 
     1. Click back on your application project settings > **[!UICONTROL Info]** to ensure your settings were saved.
@@ -224,7 +222,7 @@ ACPTargetVEC.setGlobalRequest(targetParams)
 
 **Passing parameters for next view trigger:**
 
-We have provided some automatic views that are created by default, such as "AUTO_<viewControllerName>" for each view controller present in your app. If you want to pass these parameters, you can call the following API:
+We have provided some automatic views that are created by default, such as "AUTO_&lt;viewControllerName&gt;" for each view controller present in your app. If you want to pass these parameters, you can call the following API:
 
 ```
 //For Objective-c 

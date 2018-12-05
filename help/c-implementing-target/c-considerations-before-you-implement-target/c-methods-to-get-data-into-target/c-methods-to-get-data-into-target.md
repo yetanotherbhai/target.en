@@ -49,33 +49,15 @@ Information about the various methods you can use to get data into Target, inclu
   <tr> 
    <td colname="col1"> <p>Code Examples </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> targetPageParamsAll </span> (appends the parameters to all mbox calls on the page): </p> 
-    <codeblock>
-      function&nbsp;targetPageParamsAll()&nbsp;{ 
-     
-&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;"param1=value1&amp;param2=value2&amp;p3=hello%20world"; 
-     
-} 
-    </codeblock> <p> <span class="codeph"> targetPageParams </span> (appends the parameters to the global mbox on the page): </p> 
-    <codeblock>
-      function&nbsp;targetPageParams()&nbsp;{ 
-     
-&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;"param1=value1&amp;param2=value2&amp;p3=hello%20world"; 
-     
-} 
-    </codeblock> <p>Parameters in mboxCreate code: </p> 
-    <codeblock>
-      &lt;div&nbsp;class="mboxDefault"&gt; 
-     
-&nbsp;&nbsp;default&nbsp;content&nbsp;to&nbsp;replace&nbsp;by&nbsp;offer 
-     
-&lt;/div&gt; 
-     
-&lt;script&gt; 
-     
-&nbsp;&nbsp;mboxCreate('mboxName','param1=value1','param2=value2'); 
-     
-&lt;/script&gt; 
-    </codeblock> </td> 
+    <code>
+      function&nbsp;targetPageParamsAll()&nbsp;{ return&nbsp;"param1=value1&amp;param2=value2&amp;p3=hello%20world"; 
+    </code> <p> <span class="codeph"> targetPageParams </span> (appends the parameters to the global mbox on the page): </p> 
+    <code>
+      function&nbsp;targetPageParams()&nbsp;{  return&nbsp;"param1=value1&amp;param2=value2&amp;p3=hello%20world"; 
+    </code> <p>Parameters in mboxCreate code: </p> 
+    <code>
+      &lt;div&nbsp;class="mboxDefault"&gt;  default&nbsp;content&nbsp;to&nbsp;replace&nbsp;by&nbsp;offer &lt;/div&gt; &lt;script&gt;  mboxCreate('mboxName','param1=value1','param2=value2'); &lt;/script&gt; 
+    </code> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Links to Relevant Information </p> </td> 
@@ -111,33 +93,15 @@ Information about the various methods you can use to get data into Target, inclu
   <tr> 
    <td colname="col1"> <p>Code Examples </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> targetPageParamsAll </span> (appends the attributes to all mbox calls on the page): </p> 
-    <codeblock>
-      function&nbsp;targetPageParamsAll()&nbsp;{ 
-     
-&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;"profile.param1=value1&amp;profile.param2=value2&amp;profile.p3=hello%20world"; 
-     
-} 
-    </codeblock> <p> <span class="codeph"> targetPageParams </span> (appends the attributes to the global mbox on the page): </p> 
-    <codeblock>
-      function&nbsp;targetPageParams()&nbsp;{ 
-     
-&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;profile.param1=value1&amp;profile.param2=value2&amp;profile.p3=hello%20world"; 
-     
-} 
-    </codeblock> <p>Attributes in mboxCreate code: </p> 
-    <codeblock>
-      &lt;div&nbsp;class="mboxDefault"&gt; 
-     
-&nbsp;&nbsp;default&nbsp;content&nbsp;to&nbsp;replace&nbsp;by&nbsp;offer 
-     
-&lt;/div&gt; 
-     
-&lt;script&gt; 
-     
-&nbsp;&nbsp;mboxCreate('mboxName','profile.param1=value1','profile.param2=value2'); 
-     
-&lt;/script&gt; 
-    </codeblock> </td> 
+    <code>
+      function&nbsp;targetPageParamsAll()&nbsp;{  return&nbsp;"profile.param1=value1&amp;profile.param2=value2&amp;profile.p3=hello%20world"; } 
+    </code> <p> <span class="codeph"> targetPageParams </span> (appends the attributes to the global mbox on the page): </p> 
+    <code>
+      function&nbsp;targetPageParams()&nbsp;{  return&nbsp;profile.param1=value1&amp;profile.param2=value2&amp;profile.p3=hello%20world"; }
+    </code> <p>Attributes in mboxCreate code: </p> 
+    <code>
+      &lt;div&nbsp;class="mboxDefault"&gt; default&nbsp;content&nbsp;to&nbsp;replace&nbsp;by&nbsp;offer &lt;/div&gt; &lt;script&gt; mboxCreate('mboxName','profile.param1=value1','profile.param2=value2'); &lt;/script&gt; 
+    </code> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Links to Relevant Information </p> </td> 
@@ -173,25 +137,9 @@ Information about the various methods you can use to get data into Target, inclu
   <tr> 
    <td colname="col1"> <p>Code Examples </p> </td> 
    <td colname="col2"> <p><b>Code Examples</b> </p> <p>Profile scripts are quite flexible: </p> 
-    <codeblock>
-      user.purchase_recency: 
-     
-var&nbsp;dayInMillis&nbsp;=&nbsp;3600&nbsp;*&nbsp;24&nbsp;*&nbsp;1000; 
-     
-if&nbsp;(mbox.name&nbsp;==&nbsp;'orderThankyouPage')&nbsp;{ 
-     
-&nbsp;user.setLocal('lastPurchaseTime',&nbsp;new&nbsp;Date().getTime()); 
-     
-} 
-     
-var&nbsp;lastPurchaseTime&nbsp;=&nbsp;user.getLocal('lastPurchaseTime'); 
-     
-if&nbsp;(lastPurchaseTime)&nbsp;{ 
-     
-&nbsp;return&nbsp;((new&nbsp;Date()).getTime()-lastPurchaseTime)/dayInMillis; 
-     
-} 
-    </codeblock> </td> 
+    <code>
+      user.purchase_recency: var&nbsp;dayInMillis&nbsp;=&nbsp;3600&nbsp;*&nbsp;24&nbsp;*&nbsp;1000; if&nbsp;(mbox.name&nbsp;==&nbsp;'orderThankyouPage')&nbsp;{ &nbsp;user.setLocal('lastPurchaseTime',&nbsp;new&nbsp;Date().getTime()); } var&nbsp;lastPurchaseTime&nbsp;=&nbsp;user.getLocal('lastPurchaseTime'); if&nbsp;(lastPurchaseTime)&nbsp;{ &nbsp;return&nbsp;((new&nbsp;Date()).getTime()-lastPurchaseTime)/dayInMillis; } 
+    </code> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Links to Relevant Information </p> </td> 
@@ -307,9 +255,9 @@ if&nbsp;(lastPurchaseTime)&nbsp;{
   <tr> 
    <td colname="col1"> <p>Code Examples </p> </td> 
    <td colname="col2"> <p>GET and POST supported. 
-     <codeblock>
+     <code>
        https://CLIENT.tt.omtrdc.net/m2/client/profile/update?mboxPC=1368007744041-575948.01_00&amp;profile.attr1=0&amp;profile.attr2=1... 
-     </codeblock> </p> </td> 
+     </code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Links to Relevant Information </p> </td> 

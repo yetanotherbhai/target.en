@@ -53,32 +53,33 @@ target/t_mixed_content_firefox.xml
 
    The value changes from "True" to "False." When the value shows "False," you are finished.  It is recommended that you restart your computer after changing this setting. 
 
->## Enabling Mixed Content in Internet Explorer {#task_59E7D13C04DF486C92CD78D0C63DDDE8}
+## Enabling Mixed Content in Internet Explorer {#task_59E7D13C04DF486C92CD78D0C63DDDE8}
 
->By default, Internet Explorer blocks pages that mix secure and insecure content. It is recommended that you permanently change this setting to use Target Standard. 
+By default, Internet Explorer blocks pages that mix secure and insecure content. It is recommended that you permanently change this setting to use Target Standard. 
 
->
-><!-- 
+<!-- 
 
 target/t_mixed_content_ie.xml
 
  -->
->1. In Internet Explorer, click the settings icon > **[!UICONTROL Internet Options]**.
->1. Open the [!UICONTROL Security] tab.
->1. Select **[!UICONTROL Internet]**, then click **[!UICONTROL Custom Level]**.
->1. Select **[!UICONTROL Miscellaneous]**.
->1. Under [!UICONTROL Miscellaneous], enable **[!UICONTROL Display Mixed Content]**.
->1. Click **[!UICONTROL OK]** > **[!UICONTROL Yes]** > **[!UICONTROL Apply]**.
->>It is recommended that you restart your computer after changing this setting. 
 
->>## Enabling Mixed Content in Chrome {#task_FF297A08F66E47A588C14FD67C037B3A}
+1. In Internet Explorer, click the settings icon > **[!UICONTROL Internet Options]**.
+1. Open the [!UICONTROL Security] tab.
+1. Select **[!UICONTROL Internet]**, then click **[!UICONTROL Custom Level]**.
+1. Select **[!UICONTROL Miscellaneous]**.
+1. Under [!UICONTROL Miscellaneous], enable **[!UICONTROL Display Mixed Content]**.
+1. Click **[!UICONTROL OK]** > **[!UICONTROL Yes]** > **[!UICONTROL Apply]**.
 
->>If you're visiting a site via a secure connection, Google Chrome will verify that the content on the web page has been transmitted safely. 
+It is recommended that you restart your computer after changing this setting. 
 
->
->><!-- 
+## Enabling Mixed Content in Chrome {#task_FF297A08F66E47A588C14FD67C037B3A}
+
+If you're visiting a site via a secure connection, Google Chrome will verify that the content on the web page has been transmitted safely. 
+
+<!-- 
 
 target/t_mixed_content_chrome.xml
 
  -->
->>See [This page has insecure content](https://support.google.com/chrome/answer/1342714?hl=en) in Google Chrome Help. 
+
+See [This page has insecure content](https://support.google.com/chrome/answer/1342714?hl=en) in Google Chrome Help. 

@@ -30,7 +30,7 @@ This estimate calculates the amount of lift achieved by the winning experience a
 
 The estimated lift in revenue is calculated based on the Revenue Per Visit (RPV) obtained from the Primary Goal metric.
 
-The estimated lift is calculated using the following formula: (<winning experience RPV> - <control experience RPV>)&#42;<total number of visitors in the activity>
+The estimated lift is calculated using the following formula: (&lt;winning experience RPV&gt; - &lt;control experience RPV&lt;)&#42;&lt;total number of visitors in the activity&gt;
 
 The resulting number is rounded to one decimal place, maximum, if the condensed form has only a single digit before the decimal. For example: $1.6M, $60K, $900, $8.5K, $205K
 
