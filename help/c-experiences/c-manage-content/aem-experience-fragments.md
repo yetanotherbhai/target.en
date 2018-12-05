@@ -85,10 +85,10 @@ In order to use AEM experience fragments in Target, you must perform the followi
    <td colname="col2"> <p> <b>AEM 6.3:</b> </p> <p> 
      <ol id="ol_7700A6562F514538BBDB24EA542B3D2A"> 
       <li id="li_22D1CC5CDFD24EE29929DC4BDF87EEC9"> <p>From within AEM, select the desired experience fragment, click the <span class="uicontrol"> Publish </span> tab, then click the <span class="uicontrol"> Publish </span> button. </p> </li> 
-      <li id="li_F2F2BF28564C422D824DF1E972E7C696"> <p>From within AEM, select the desired experience fragment, click <span class="uicontrol"> Export to Adobe Target </span>, then click <span class="uicontrol"> OK </span>. </p> <p id=“removed-center”> <img href="assets/experience_fragment_export_to_target.png" id="image_5A03C93F0A7D40B786D77DE24E24C16B" /> </p> </li> 
+      <li id="li_F2F2BF28564C422D824DF1E972E7C696"> <p>From within AEM, select the desired experience fragment, click <span class="uicontrol"> Export to Adobe Target </span>, then click <span class="uicontrol"> OK </span>. </p> <p> <img href="assets/experience_fragment_export_to_target.png" id="image_5A03C93F0A7D40B786D77DE24E24C16B" /> </p> </li> 
      </ol> </p> <p><b>AEM 6.4:</b> </p> <p> 
      <ol id="ol_027758DB9ED443EABB85F60519019922"> 
-      <li id="li_1E664C716E394516AEC38CC9002426CA"> <p>From within AEM, select the desired experience fragment, click <span class="uicontrol"> Export to Adobe Target </span>. </p> <p id=“removed-center”> <img href="assets/experience_fragment_export_to_target.png" id="image_FD1DE3B3569E4090B3B37FE3EE190DEE" /> </p> </li> 
+      <li id="li_1E664C716E394516AEC38CC9002426CA"> <p>From within AEM, select the desired experience fragment, click <span class="uicontrol"> Export to Adobe Target </span>. </p> <p> <img href="assets/experience_fragment_export_to_target.png" id="image_FD1DE3B3569E4090B3B37FE3EE190DEE" /> </p> </li> 
       <li id="li_8BC8835395BC44A2965F491C1268E7BA"> <p>In the dialog box that displays, select <span class="uicontrol"> Publish </span> to publish all of the assets within the experience fragment to Target. </p> </li> 
      </ol> </p> </td> 
   </tr> 
