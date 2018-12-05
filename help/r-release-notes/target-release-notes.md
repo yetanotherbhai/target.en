@@ -16,8 +16,6 @@ snippet: y
 
 These release notes provide information about features, enhancements, fixes, and known issues for the latest or upcoming Target releases.
 
-<a id="section_209FD0D5FA5B4EC2AEABB2CC7901612F"></a>
-
 **Last Updated: November 15, 2018**
 
 >[!NOTE]

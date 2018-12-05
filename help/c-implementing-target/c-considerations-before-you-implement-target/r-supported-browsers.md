@@ -17,8 +17,6 @@ snippet: y
 
 The Adobe Target application and content delivery has been tested across a wide range of browsers and devices.
 
-<a id="section_FF3BE14238EB4A439AEA9AFB5454A8EE"></a>
-
 For additional important information about TLS, see [TLS (Transport Layer Security) Encryption Changes](../../c-implementing-target/c-considerations-before-you-implement-target/c-tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451).
 
 ## Target Standard/Premium Interface {#section_1B73CA4B7BBC460BB7009DF00A2AFC4D}
@@ -105,4 +103,3 @@ Target displays default content in browsers not listed above and in browsers usi
 >[!NOTE]
 >
 >Adobe Delivery infrastructure is being secured to NOT support TLS 1.0 devices and browsers after September 12, 2018. See [TLS (Transport Layer Security) Encryption Changes](../../c-implementing-target/c-considerations-before-you-implement-target/c-tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451) to understand the overall impact of this change.
-

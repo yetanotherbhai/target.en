@@ -15,8 +15,6 @@ snippet: y
 
 A successful A/B test requires an adequate number of visitors (sample size) to improve your conversion rate, but how do you know how long to run an A/B test? This article contains information about Auto-Allocate activities and the Target Sample Size Calculator to help you ensure that your activity has a sufficient number of visitors to achieve your goals.
 
-<a id="section_2D337F044EF54DE3ADF3EDDFA394836A"></a>
-
 It is tempting to stop an activity if one of the offers performs much better or worse than the others in the first few days of the activity. However, when the number of observations is low, there is a high likelihood that a positive or negative lift is observed by chance because the conversion rate is averaged over a low number of visitors. As the activity collects more data points, the conversion rates converge toward their true long-term values.
 
 Stopping an activity prematurely is one of the nine significant pitfalls that you might fall prey to when performing A/B testing. For more information, see [Nine common A/B testing pitfalls and how to avoid them](../../c-activities/t-test-ab/c-common-ab-testing-pitfalls.md#concept_578A7947C9554868B30F12DFF9E3F8E3).
@@ -77,36 +75,13 @@ A commonly used significance level in A/B testing is 5%, which corresponds to a 
 
 Typical interpretations of the confidence level are summarized in the table below:
 
-<table id="table_DC424DC8BF4A406E88E6D8FE493772E0"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Confidence Level </th> 
-   <th colname="col2" class="entry"> Interpretation </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> &lt; 90% </td> 
-   <td colname="col2"> <p>No evidence that there is a difference between the conversion rates </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 90-95% </td> 
-   <td colname="col2"> <p>Weak evidence that there is a difference between the conversion rates </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 95-99% </td> 
-   <td colname="col2"> <p>Moderate evidence that there is a difference between the conversion rates </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 99-99.9% </td> 
-   <td colname="col2"> <p>Strong evidence that there is a difference between the conversion rates </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> +99.9% </td> 
-   <td colname="col2"> <p>Very strong evidence that there is a difference between the conversion rates </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Confidence Level | Interpretation |
+|--- |--- |
+|< 90%|No evidence that there is a difference between the conversion rates|
+|90-95%|Weak evidence that there is a difference between the conversion rates|
+|95-99%|Moderate evidence that there is a difference between the conversion rates|
+|99-99.9%|Strong evidence that there is a difference between the conversion rates|
+|+99.9%|Very strong evidence that there is a difference between the conversion rates|
 
 It is recommended to always using a confidence level of 95% or above.
 

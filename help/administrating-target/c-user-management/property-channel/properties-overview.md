@@ -60,8 +60,6 @@ The following table lists the tasks you should perform to create properties and 
  </tbody> 
 </table>
 
-<a id="section_79796E0227D048F59BAE0AB02E544EBE"></a>
-
 For those tasks performed in the Adobe Admin Console for Enterprise, access the console by following these steps:
 
 1. Go to [https://adminconsole.adobe.com/enterprise/](https://adminconsole.adobe.com/enterprise/) > sign in using your Adobe ID, if you have not already logged in.
@@ -113,7 +111,7 @@ This video explains how to create workspaces.
 
       All activities created via [!DNL Adobe Experience Manager] (AEM), [!DNL Adobe Mobile Services], and [!DNL Target Classic] will also be part of the "Default Access" workspace. You cannot currently move projects from "Default Access" to another project. 
     
-    * **New workspaces (Product Profiles): **You can begin taking advantage of the new permissions functionality by doing the following:
+    * **New workspaces (Product Profiles):** You can begin taking advantage of the new permissions functionality by doing the following:
 
         * Creating new workspaces within the [!DNL Admin Console for Enterprise]. 
         * Assigning Target properties to the workspaces.
@@ -154,9 +152,9 @@ Properties belong to specific channels (Web, Mobile, Email, and API/Other).
 
    Fill in the fields:
 
-    * **Channel: **Specify the desired channel for the property: Web, Mobile App, Email, or Other/API (for example a set-top box or PlayStation console). 
-    * **Name (Required): **Specify a descriptive name for the property. 
-    * **Description: **Specify an optional description for the property.
+    * **Channel:** Specify the desired channel for the property: Web, Mobile App, Email, or Other/API (for example a set-top box or PlayStation console). 
+    * **Name (Required):** Specify a descriptive name for the property. 
+    * **Description:** Specify an optional description for the property.
 
 1. Click **[!UICONTROL Generate Code]** to generate the code you'll use while performing the steps in [5: Update Your Implementation to Include the at_property Parameter](../../../administrating-target/c-user-management/property-channel/properties-overview.md#section_9B17A59807A94712BE642942442EBBC8). 
 1. Copy the code to your clipboard. 
@@ -192,7 +190,7 @@ To use the [!DNL Target] user-permissions functionality, you must add the `at_pr
 
       For more information, see [Global Parameters - Adobe Target](https://marketing.adobe.com/resources/help/en_US/dtm/target_global_params.html) in the *Dynamic Tag Management Product Documentation*. 
     
-    * **Via the targetPageParams() function: **Place the following code in the <head> tags, above the at.js or mbox.js reference.
+    * **Via the targetPageParams() function:** Place the following code in the <head> tags, above the at.js or mbox.js reference.
 
       ![](assets/property_token_1.png)
 
@@ -223,31 +221,10 @@ To use the [!DNL Target] user-permissions functionality, you must add the `at_pr
 
 1. Select the desired permissions role (Approver, Editor, or Observer) by using the drop-down list for each user in the [!UICONTROL Product Role] column.
 
-<table id="table_92B2935FEB0A4DFEAC24C074EDEBD409"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Role </th> 
-   <th colname="col2" class="entry"> Description </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> </td> 
-   <td colname="col2"> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Observer </p> </td> 
-   <td colname="col2"> <p>Can view activities, but cannot create or edit them. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Editor </p> </td> 
-   <td colname="col2"> <p>Can create and edit activities before they are live, but cannot approve the launch of an activity. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Approver </p> </td> 
-   <td colname="col2"> <p> Can create, edit, and activate or stop activities. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+   | Role | Description |
+   |--- |--- |
+   |Observer|Can view activities, but cannot create or edit them.|
+   |Editor|Can create and edit activities before they are live, but cannot approve the launch of an activity.|
+   |Approver|Can create, edit, and activate or stop activities.|
 
    For more information, see [Manage Product Permissions and Roles in the Admin Console](https://helpx.adobe.com/enterprise/help/manage-permissions-and-roles.html) in the *Enterprise User Guide*.

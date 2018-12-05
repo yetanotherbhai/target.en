@@ -17,8 +17,6 @@ snippet: y
 
 Target enables you to track clicks on any element as a success metric.
 
-<a id="section_AC7098C369144B2080697986FA6BAD7B"></a>
-
 >[!NOTE]
 >
 >Tracking clicks is not supported on the target global mbox when it is used as a location in a form-based activity.
@@ -83,4 +81,3 @@ There are several things to consider when selecting elements:
     * `FORM` tag: The default behavior is to submit the form.
 
   This default behavior might interfere with Analytics click tracking. If you are using Analytics, you should rely on Analytics for click tracking rather than Target.
-
