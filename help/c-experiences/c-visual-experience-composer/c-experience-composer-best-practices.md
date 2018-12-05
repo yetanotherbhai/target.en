@@ -82,15 +82,9 @@ By following these best practices, you are less likely to encounter unexpected p
   <tr> 
    <td colname="col1"> <p>When updating offers for classic mboxes, make sure that mbox is created as described at <a href="https://marketing.adobe.com/resources/help/en_US/tnt/help/t_Creating_a_Single_Mbox.html" format="https" scope="external"> Create a Single Mbox </a> in the Target Classic help. </p> </td> 
    <td colname="col2"> <p>If you are considering placing an element or group of elements in an mbox, wrap them in a new div with class <span class="codeph"> mboxDefault </span>: </p> <p> 
-     <codeblock>
-       &lt;div&nbsp;class="mboxDefault"&gt; 
-      
-&nbsp;&nbsp;&nbsp;&nbsp;//Content&nbsp;goes&nbsp;here 
-      
-&lt;/div&gt; 
-      
-&lt;script&gt;&nbsp;mboxCreate('mboxName');&nbsp;&lt;/script&gt; 
-     </codeblock> </p> </td> 
+     <code>
+       &lt;div&nbsp;class="mboxDefault"&gt; //Content goes here &lt;/div&gt; &lt;script&gt; mboxCreate('mboxName');&nbsp;&lt;/script&gt; 
+     </code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Don't use the base tag in your website to resolve URLs and links. </p> </td> 
@@ -135,26 +129,9 @@ By following these best practices, you are less likely to encounter unexpected p
   <tr> 
    <td colname="col1"> <p>Important text on the site that might be used for targeting should be kept in HTML code within an element. </p> </td> 
    <td colname="col2"> <p>For example, you cannot target Shopping Cart text in the VEC if your code is like the following: </p> 
-    <codeblock>
-      &lt;a&nbsp;href="https://www.botanicchoice.com/shop.axd/Cart"&gt; 
-     
-&nbsp;&nbsp;&nbsp;&lt;img&nbsp;alt="Shopping&nbsp;Cart"&nbsp;src="/images/ico-cart.gif"&gt;&lt;/img&gt; 
-     
-&nbsp;&nbsp;&nbsp;Shopping&nbsp;Cart: 
-     
-&nbsp;&nbsp;&nbsp;&lt;span&nbsp;id="HeaderCartQtyTotal"&gt; 
-     
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0 
-     
-&nbsp;&nbsp;&nbsp;&lt;/span&gt; 
-     
-&nbsp;&nbsp;&nbsp;Items&nbsp;| 
-     
-&nbsp;&nbsp;&nbsp;&lt;span&nbsp;id="HeaderCartPriceTotal"&gt;&lt;/span&gt; 
-     
-&lt;/a&gt;
-
-    </codeblock> <p> In this example, the entire anchor element is selected in the VEC, which adversely affect other elements if targeting is performed. </p> </td> 
+    <code>
+      &lt;a href="https://www.botanicchoice.com/shop.axd/Cart"&gt; &lt;img alt="Shopping Cart"src="/images/ico-cart.gif"&gt;&lt;/img&gt;  Shopping&nbsp;Cart:  &lt;span id="HeaderCartQtyTotal"&gt; 0  &lt;/span&gt;  Items &lt;span&nbsp;id="HeaderCartPriceTotal"&gt;&lt;/span&gt; &lt;/a&gt;
+    </code> <p> In this example, the entire anchor element is selected in the VEC, which adversely affect other elements if targeting is performed. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Don't use <code>top</code> or <code>self</code> variables in JavaScript code. </p> </td> 
@@ -220,17 +197,9 @@ Consider the following caveats when using the Visual Experience Composer to desi
   <tr> 
    <td colname="col1"> <p>Cannot select page element that includes an mbox as a child element. </p> </td> 
    <td colname="col2"> <p>For example, if your page contains: </p> <p> 
-     <codeblock>
-       &lt;div&gt; 
-      
-&nbsp;&nbsp;&nbsp;&lt;div&nbsp;class="mboxDefault"&nbsp;&gt; 
-      
-&nbsp;&nbsp;&nbsp;&lt;/div&gt; 
-      
-&nbsp;&nbsp;&nbsp;&lt;script&gt;mboxCreate('myMbox'); 
-      
-&lt;/div&gt; 
-     </codeblock> </p> <p> The outer div should not be selected in an experience because the mbox hardcoded in the page still makes a call to Target and receives a response. This response interferes with the response intended for the larger page element. </p> </td> 
+     <code>
+       &lt;div&gt; &lt;div&nbsp;class="mboxDefault"&nbsp;&gt; ;&lt;/div&gt; ;&lt;script&gt;mboxCreate('myMbox'); &lt;/div&gt; 
+     </code> </p> <p> The outer div should not be selected in an experience because the mbox hardcoded in the page still makes a call to Target and receives a response. This response interferes with the response intended for the larger page element. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Proxy IPs may be blocked in customers environment. </p> </td> 
@@ -292,55 +261,25 @@ Consider the following caveats when using the Visual Experience Composer to desi
   <tr> 
    <td colname="col1"> <p>While using a script as part of html, any variables and functions that are accessed from outside should be declared under window namespace. </p> </td> 
    <td colname="col2"> <p>The script is executed within the scope of target.js after the page loads. Therefore, any variable or function that is declared locally is not accessible from outside the script block. </p> <p><b>Incorrect:</b> </p> <p> 
-     <codeblock>
-       &lt;script&gt; 
-      
-&nbsp;&nbsp;var&nbsp;myVar&nbsp;=&nbsp;123; 
-      
-&nbsp;&nbsp;function&nbsp;myFunc()&nbsp;{ 
-      
-&nbsp;&nbsp;&nbsp;&nbsp;// 
-      
-&nbsp;&nbsp;} 
-      
-&lt;/script&gt; 
-     </codeblock> </p> <p><b>Correct:</b> </p> <p> 
-     <codeblock>
-       &lt;script&gt; 
-      
-&nbsp;&nbsp;window.myVar&nbsp;=&nbsp;123; 
-      
-&nbsp;&nbsp;window.myFunc&nbsp;=&nbsp;function()&nbsp;{ 
-      
-&nbsp;&nbsp;&nbsp;&nbsp;// 
-      
-&nbsp;&nbsp;}; 
-      
-&lt;/script&gt; 
-     </codeblock> </p> </td> 
+     <code>
+       &lt;script&gt; var myVar = 123; function myFunc() { //  } &lt;/script&gt; 
+     </code> </p> <p><b>Correct:</b> </p> <p> 
+     <code>
+       &lt;script&gt; window.myVar&nbsp;=&nbsp;123; window.myFunc&nbsp;=&nbsp;function()&nbsp;{  // }; &lt;/script&gt; 
+     </code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Inserting an image from the Content library (Scene7) and editing the HTML breaks the image url. </p> </td> 
    <td colname="col2"> <p> 
      <ol id="ol_7578ED0C7C7D4173BFC25D0FEFF0F8C7"> 
       <li id="li_969E12184B144BB8BDC310829B19D7B6">Add an anchor element inside the 'customHeaderMessage' div with some dummy text: <p> 
-        <codeblock>
-          &lt;a&nbsp;href="#"&gt; 
-         
-&lt;span&gt;&nbsp;Dummy&nbsp;text&nbsp;&lt;/span&gt; 
-         
-&lt;/a&gt; 
-        </codeblock> </p> </li> 
+        <code>
+          &lt;a&nbsp;href="#"&gt; &lt;span&gt;&nbsp;Dummy&nbsp;text&nbsp;&lt;/span&gt; &lt;/a&gt; 
+        </code> </p> </li> 
       <li id="li_958BF70672364D6AAC5B5624E87C14FF">Select this div using the Insert Element action to insert a image as a sibling of this dummy text div. <p> After image insertion, it looks like : </p> <p> 
-        <codeblock>
-          &lt;a&nbsp;href="#"&gt;&nbsp; 
-         
-&lt;span&gt;&nbsp;Dummy&nbsp;text&nbsp;&lt;/span&gt; 
-         
-&lt;img&nbsp;src=""&gt;&nbsp;This&nbsp;is&nbsp;inserted&nbsp;Image.&nbsp;&lt;/img&gt; 
-         
-&lt;/a&gt; 
-        </codeblock> </p> </li> 
+        <code>
+          &lt;a&nbsp;href="#"&gt;&nbsp; &lt;span&gt;&nbsp;Dummy&nbsp;text&nbsp;&lt;/span&gt; &lt;img&nbsp;src=""&gt;&nbsp;This&nbsp;is&nbsp;inserted&nbsp;Image.&nbsp;&lt;/img&gt; &lt;/a&gt; 
+        </code> </p> </li> 
       <li id="li_D4CC0C23497049288B1803BD13593213">Remove the dummy text span. </li> 
      </ol> </p> </td> 
   </tr> 
