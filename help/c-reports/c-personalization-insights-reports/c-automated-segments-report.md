@@ -85,7 +85,7 @@ Different visitors respond differently to the offers/experiences in your AP/AT a
   </tr> 
   <tr> 
    <td colname="col1"> <p>Pie charts </p> </td> 
-   <td colname="col2"> <p>The pie charts at the top of the center panel show the size of the automated segment, as well as the total number of personalized visits in the activity (for example, traffic to this activity that was served by the personalization model. It does not include control traffic or traffic served by the overall winner model). Note that the size of the segment is based only on personalized visits. </p> <p style="text-align: center;"><img href="assets/pie.png" id="image_2F8733BB8AC94E9B8748BB8D3DB35D05" /> </p> </td> 
+   <td colname="col2"> <p>The pie charts at the top of the center panel show the size of the automated segment, as well as the total number of personalized visits in the activity (for example, traffic to this activity that was served by the personalization model. It does not include control traffic or traffic served by the overall winner model). Note that the size of the segment is based only on personalized visits. </p> <p id=“removed-center”><img href="assets/pie.png" id="image_2F8733BB8AC94E9B8748BB8D3DB35D05" /> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Dual-axis bar chart </p> </td> 

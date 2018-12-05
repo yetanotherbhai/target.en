@@ -103,7 +103,7 @@ You can use customer attributes in [!DNL Target] in the following ways:
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Creating targeting audiences </p> </td> 
-   <td colname="col2"> <p>In <span class="keyword"> Target </span>, you can select a customer attribute from the <span class="wintitle"> Visitor Profile </span> section when creating an audience. All customer attributes have the prefix &lt; <span class="varname"> data_source_name </span>&gt; in the list. Combine these attributes as required with other data attributes to build audiences. </p> <p style="text-align: center;"> <img href="assets/TargetAudience.png" id="image_00473D9BBCE843DAB2C1736FE52CB3DE" /> </p> </td> 
+   <td colname="col2"> <p>In <span class="keyword"> Target </span>, you can select a customer attribute from the <span class="wintitle"> Visitor Profile </span> section when creating an audience. All customer attributes have the prefix &lt; <span class="varname"> data_source_name </span>&gt; in the list. Combine these attributes as required with other data attributes to build audiences. </p> <p id=“removed-center”> <img href="assets/TargetAudience.png" id="image_00473D9BBCE843DAB2C1736FE52CB3DE" /> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Creating profile scripts using tokens </p> </td> 

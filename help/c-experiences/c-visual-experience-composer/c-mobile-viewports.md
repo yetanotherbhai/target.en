@@ -167,11 +167,11 @@ target/t_responsive_experience.xml
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Portrait </p> </td> 
-   <td colname="col2"> <p style="text-align: center;"><img href="assets/viewport_portrait.png" id="image_2BECFE10C51547759A3B4D95801F7155" /> </p> </td> 
+   <td colname="col2"> <p id=“removed-center”><img href="assets/viewport_portrait.png" id="image_2BECFE10C51547759A3B4D95801F7155" /> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Landscape </p> </td> 
-   <td colname="col2"> <p style="text-align: center;"><img href="assets/viewport_landscape.png" id="image_6E00C2EEA45B478484D9FD22776BE0BF" /> </p> </td> 
+   <td colname="col2"> <p id=“removed-center”><img href="assets/viewport_landscape.png" id="image_6E00C2EEA45B478484D9FD22776BE0BF" /> </p> </td> 
   </tr> 
  </tbody> 
 </table>

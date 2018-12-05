@@ -118,8 +118,8 @@ Open the link in a mobile browser on a device where you have your app installed.
 <table id="table_F853E79832954A87850BDDAF36D88A7F"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p style="text-align: center;"> <img id="image_D6C60AC753FA4296B440B8C5F6BB5603" href="assets/mobile-preview-open-deeplink.png" /> </p> </td> 
-   <td colname="col2"> <p style="text-align: center;"> <img id="image_F1459ADE032F4B12880385F0CF6218FA" href="assets/mobile-preview-open-app.png" /> </p> </td> 
+   <td colname="col1"> <p id=“removed-center”> <img id="image_D6C60AC753FA4296B440B8C5F6BB5603" href="assets/mobile-preview-open-deeplink.png" /> </p> </td> 
+   <td colname="col2"> <p id=“removed-center”> <img id="image_F1459ADE032F4B12880385F0CF6218FA" href="assets/mobile-preview-open-app.png" /> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -131,14 +131,14 @@ Open the link in a mobile browser on a device where you have your app installed.
 <table id="table_6123AAE2EE9D426CA477BD71B4361489"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p style="text-align: center;"> <img href="assets/mobile-preview-experience-selection-1.png" id="image_C9AA4C0525A449AA91A253BDD177A1DC" /> </p> </td> 
-   <td colname="col2"> <p style="text-align: center;"> <img id="image_CE9638C68F184AE1AA66A0CDE9AA3770" href="assets/mobile-preview-experience-result-1-france.png" /> </p> </td> 
-   <td colname="col3"> <p style="text-align: center;"> <img id="image_92CB96E9A4274216B7A328F2B49FAEF3" href="assets/mobile-preview-experience-result-1-shipfree.png" /> </p> </td> 
+   <td colname="col1"> <p id=“removed-center”> <img href="assets/mobile-preview-experience-selection-1.png" id="image_C9AA4C0525A449AA91A253BDD177A1DC" /> </p> </td> 
+   <td colname="col2"> <p id=“removed-center”> <img id="image_CE9638C68F184AE1AA66A0CDE9AA3770" href="assets/mobile-preview-experience-result-1-france.png" /> </p> </td> 
+   <td colname="col3"> <p id=“removed-center”> <img id="image_92CB96E9A4274216B7A328F2B49FAEF3" href="assets/mobile-preview-experience-result-1-shipfree.png" /> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p style="text-align: center;"> <img id="image_E7117C66BA534B2B87F1BDBA20E9EC5A" href="assets/mobile-preview-experience-selection-2.png" /> </p> </td> 
-   <td colname="col2"> <p style="text-align: center;"> <img id="image_3E880BB6C6D34F1EAC64C21CE07A9267" href="assets/mobile-preview-experience-result-2-aus.png" /> </p> </td> 
-   <td colname="col3"> <p style="text-align: center;"> <img id="image_2B419DDBD58B4C0CB4E5A967FCA50922" href="assets/mobile-preview-experience-result-2-10off.png" /> </p> </td> 
+   <td colname="col1"> <p id=“removed-center”> <img id="image_E7117C66BA534B2B87F1BDBA20E9EC5A" href="assets/mobile-preview-experience-selection-2.png" /> </p> </td> 
+   <td colname="col2"> <p id=“removed-center”> <img id="image_3E880BB6C6D34F1EAC64C21CE07A9267" href="assets/mobile-preview-experience-result-2-aus.png" /> </p> </td> 
+   <td colname="col3"> <p id=“removed-center”> <img id="image_2B419DDBD58B4C0CB4E5A967FCA50922" href="assets/mobile-preview-experience-result-2-10off.png" /> </p> </td> 
   </tr> 
  </tbody> 
 </table>
