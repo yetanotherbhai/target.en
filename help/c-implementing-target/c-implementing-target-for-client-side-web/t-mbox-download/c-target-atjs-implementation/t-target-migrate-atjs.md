@@ -123,20 +123,20 @@ Use the following steps to migrate from [!DNL mbox.js] to [!DNL at.js] and to ch
   ![](assets/mboxdebug.png)
   In these instances, element selectors might start with something like 
 
-  ```>
+  ```
   HTML > BODY > DIV:nth-of-type(2)
-  ```>
+  ```
+
   and were built with the expectation that [!DNL mbox.js] added an extra `<div>` element to the top of the page. Because [!DNL at.js] doesn't add a `<div>` element to the top of the page, this selector would no longer work with [!DNL at.js]. 
 
   This issue can be addressed by recreating the activity in the VEC on the URL using [!DNL at.js] or by manually updating the selector using the **[!UICONTROL </> Code]** > **[!UICONTROL Modifications]** option in the VEC. 
 
   To remedy this problem, you should subtract 1 from the nth-of-type number in the first DIV element after BODY. In the above example the edited code would be: 
 
-  ```>
+  ```
   HTML > BODY > DIV:nth-of-type(1)
-  ```>
+  ```
+
   For more information about how to use the code editor to do this, see [Code Editor](../../../../c-experiences/c-visual-experience-composer/c-vec-code-editor/c-vec-code-editor.md#concept_B3A6E9EE3A60406DB640E205EA1745B5). 
 
 * Because all mboxes are now asynchronous, they won't block page rendering or return in the order in which they fired. For more information, see "Asynchronous Considerations" in [at.js Limitations](../../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/c-target-atjs-limitations.md#concept_FA99E4D6EC274552BF45E01AFB76CCAE). 
-
-
