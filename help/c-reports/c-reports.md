@@ -42,7 +42,7 @@ In addition to the general reporting information in this topic and its subtopics
    <td colname="col2"> <p> 
      <ul id="ul_81F3B2F17153401DBE4180F8CDA02CFB"> 
       <li id="li_6649B81BDA274685871478C1B6EC60DB"> <p>Information about the Summary report for AT activities. For more information, see <a href="../c-reports/c-auto-target-summary-report.md#concept_E2171F7B57C1417DAAD7E7909A3FB073" format="dita" scope="local"> Auto-Target Summary Report</a>. </p> </li> 
-      <li id="li_5BE42826325744BCA8F449CC282853AD"> <p>Information about the two Personalization Insights reports for AT and AP activities: Automated Segments report and Model Attribute Ranking report. For more information, see <a href="../c-reports/c-personalization-insights-reports/c-personalization-insights-reports.md#concept_A897070E1EDC403EB84CFB7A6ECAD767" format="dita" scope="local"> Personalization Insights Reports</a>. </p> </li> 
+      <li id="li_5BE42826325744BCA8F449CC282853AD"> <p>Information about the two Personalization Insights reports for AT and AP activities: Automated Segments report and Important Attributes report. For more information, see <a href="../c-reports/c-personalization-insights-reports/c-personalization-insights-reports.md#concept_A897070E1EDC403EB84CFB7A6ECAD767" format="dita" scope="local"> Personalization Insights Reports</a>. </p> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
@@ -50,7 +50,7 @@ In addition to the general reporting information in this topic and its subtopics
    <td colname="col2"> <p> 
      <ul id="ul_A1BA81DA5EC948E2A4384083907BA7B2"> 
       <li id="li_C370889D33244710BDDD34FE68A44F28"> <p>Information about the two AP Summary reports for AP activities: Activity Level report and Offer Level report.. For more information, see <a href="../c-reports/c-reports-ap.md#concept_C02BAFC922114A44846998FD956E345A" format="dita" scope="local"> Automated Personalization Summary Reports</a>. </p> </li> 
-      <li id="li_5720539F6D4645608E9593E8F4368C51"> <p>Information about the two Personalization Insights reports for AP and AT activities: Automated Segments report and Model Attribute Ranking report. For more information, see <a href="../c-reports/c-personalization-insights-reports/c-personalization-insights-reports.md#concept_A897070E1EDC403EB84CFB7A6ECAD767" format="dita" scope="local"> Personalization Insights Reports</a>. </p> </li> 
+      <li id="li_5720539F6D4645608E9593E8F4368C51"> <p>Information about the two Personalization Insights reports for AP and AT activities: Automated Segments report and Important Attributes report. For more information, see <a href="../c-reports/c-personalization-insights-reports/c-personalization-insights-reports.md#concept_A897070E1EDC403EB84CFB7A6ECAD767" format="dita" scope="local"> Personalization Insights Reports</a>. </p> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
@@ -108,7 +108,5 @@ In addition to the general reporting information in this topic and its subtopics
 
 1. (Optional) Click the **[!UICONTROL Table View]** and **[!UICONTROL Graph View]** icons to switch between reporting formats.
 
-   For Multivariate tests only, click the **[!UICONTROL Location Contribution]** (  ![](assets/icon_location_contribution.png)
-
-   ) icon to switch the report to show contribution by location.
+   For Multivariate tests only, click the **[!UICONTROL Location Contribution]** ( ![Location Contribution icon](assets/icon_location_contribution.png) ) icon to switch the report to show contribution by location.
 
