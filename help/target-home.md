@@ -14,7 +14,7 @@ snippet: y
 
  [!DNL Adobe Target] is the [!DNL Adobe Experience Cloud] solution that provides everything you need to tailor and personalize your customers' experience so you can maximize revenue on your web and mobile sites, apps, social media, and other digital channels.
 
-**Last Updated: November 27, 2018 ( [See What Changed](help/r-release-notes/r-doc-change.md) )**
+**Last Updated: November 27, 2018 ( [See What Changed](r-release-notes/r-doc-change.md) )**
 
 The following sections point you to useful links in this guide, arraigned by intended audience based job function:
 
@@ -22,153 +22,45 @@ The following sections point you to useful links in this guide, arraigned by int
 
 Marketers, developers, administrators, analysts, and quality assurance engineers.
 
-- [Target release notes](help/r-release-notes/r-release-notes.md): Contains information about the current release, information about known issues that affect Target, a list important changes to this documentation, and an archive of past release notes.
+- [Target release notes](r-release-notes/r-release-notes.md): Contains information about the current release, information about known issues that affect Target, a list important changes to this documentation, and an archive of past release notes.
 
-- [Introduction to Target](help/c-intro/c-intro.md): Explains the core concepts of the Target solution.
+- [Introduction to Target](c-intro/c-intro.md): Explains the core concepts of the Target solution.
 
-- [Integrate Target with the Adobe Experience Cloud](help/c-integrating-target-with-mac): Explains how to integrate Target with other Experience Cloud solutions, including Analytics for Target (A4T), Experience Cloud Audiences, Adobe Campaign, and the Experience Cloud Device Co-op.
+- [Integrate Target with the Adobe Experience Cloud](c-integrating-target-with-mac/c-integrating-target-with-mac.md): Explains how to integrate Target with other Experience Cloud solutions, including Analytics for Target (A4T), Experience Cloud Audiences, Adobe Campaign, and the Experience Cloud Device Co-op.
 
-- [Troubleshooting Target](help/r-troubleshooting-target): Provides links to troubleshooting information contained in this guide, including information about the character limits and other limits (offer size, audiences, profiles, values, parameters, etc.) that affect activities and other elements in Target.
+- [Troubleshooting Target](r-troubleshooting-target/r-troubleshooting-target.md): Provides links to troubleshooting information contained in this guide, including information about the character limits and other limits (offer size, audiences, profiles, values, parameters, etc.) that affect activities and other elements in Target.
 
-- [Target for mobile apps](help/c-target-mobile-app): Explains how Target can be used for mobile app optimization and personalization.
+- [Target for mobile apps](c-target-mobile-app/c-target-mobile-app.md): Explains how Target can be used for mobile app optimization and personalization.
 
-- [Resources and contact information](help/cmp-resources-and-contact-information.md): Provides information about additional resources to help you learn about Target features and how to contact Adobe should you need help.
+- [Resources and contact information](cmp-resources-and-contact-information.md): Provides information about additional resources to help you learn about Target features and how to contact Adobe should you need help.
 
-<table id="table_1A269F25C42146F2816295AC733AC329"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Link </th> 
-   <th colname="col2" class="entry"> Details </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>[Target release notes](help/r-release-notes/r-release-notes.md) </p> </td> 
-   <td colname="col2"> <p>Contains information about the current release, information about known issues that affect Target, a list important changes to this documentation, and an archive of past release notes. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><a href="https://marketing.adobe.com/resources/help/en_US/target/target/c_intro.html" format="html" scope="external"> Introduction to Target</a> </p> </td> 
-   <td colname="col2"> <p>Explains the core concepts of the Target solution. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><a href="https://marketing.adobe.com/resources/help/en_US/target/a4t/c_integrating_target_with_mac.html" format="html" scope="external"> Integrate Adobe Target with the Experience Cloud</a> </p> </td> 
-   <td colname="col2"> <p>Explains how to integrate Target with other Experience Cloud solutions, including Analytics for Target (A4T), Experience Cloud Audiences, Adobe Campaign, and the Experience Cloud Device Co-op. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><a href="https://marketing.adobe.com/resources/help/en_US/target/target/r_troubleshooting_target.html" format="html" scope="external"> Troubleshooting Target</a> </p> </td> 
-   <td colname="col2"> <p>Provides links to troubleshooting information contained in this guide, including information about the character limits and other limits (offer size, audiences, profiles, values, parameters, etc.) that affect activities and other elements in Adobe Target. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><a href="https://marketing.adobe.com/resources/help/en_US/target/target/c_target_mobile_app.html" format="html" scope="external"> Target for mobile apps</a> </p> </td> 
-   <td colname="col2"> <p>Explains how Target can be used for mobile app optimization and personalization. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><a href="https://marketing.adobe.com/resources/help/en_US/target/target/cmp_resources-and-contact-information.html" format="html" scope="external"> Resources and contact information</a> </p> </td> 
-   <td colname="col2"> <p>Provides information about additional resources to help you learn about Target features and how to contact Adobe should you need help. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+## Marketers
 
-## Marketers {#section_108CF56147C44D469043323959C9DFDA}
+- [Activities](c-activities/c-activities.md): Explains how to set up, manage, and QA Target activities.
 
-<table id="table_4718AF71A03A43D390B2177AD45ABE8C"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Link </th> 
-   <th colname="col2" class="entry"> Details </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p><a href="https://marketing.adobe.com/resources/help/en_US/target/target/c_activities.html" format="html" scope="external"> Activities</a> </p> </td> 
-   <td colname="col2"> <p>Explains how to set up, manage, and QA Target activities. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><a href="https://marketing.adobe.com/resources/help/en_US/target/target/c_target.html" format="html" scope="external"> Audiences</a> </p> </td> 
-   <td colname="col2"> <p>Explains how to determine who will see content and experiences in targeted activities. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><a href="https://marketing.adobe.com/resources/help/en_US/target/target/c_experiences.html" format="html" scope="external"> Experiences and offers</a> </p> </td> 
-   <td colname="col2"> <p>Explains how to specify which content displays when a visitor meets the audience criteria for an activity. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><a href="https://marketing.adobe.com/resources/help/en_US/target/recs/c_recommendations.html" format="html" scope="external"> Recommendations</a> </p> </td> 
-   <td colname="col2"> <p>Explains how Recommendations activities automatically display products or content that might interest your customers based on previous user activity or other algorithms. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+- [Audiences](c-target/c-target.md): Explains how to determine who will see content and experiences in targeted activities.
 
-## Developers {#section_0E67F28506C34784AC5D7DF68EB1FC25}
+- [Experiences and offers](c-experiences/c-experiences.md): Explains how to specify which content displays when a visitor meets the audience criteria for an activity.
 
-<table id="table_A73F6C04AF4E497A931CCA0D64E708C8"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Link </th> 
-   <th colname="col2" class="entry"> Details </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p><a href="https://marketing.adobe.com/resources/help/en_US/target/ov/c_implementing_target.html" format="html" scope="external"> Implement Target</a> </p> </td> 
-   <td colname="col2"> <p>Explains how to implement Target on web sites, mobile apps, Single-Page Apps (SPAs), and iOT/OTT platforms. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+- [Recommendations](c-recommendations/c-recommendations.md):Explains how Recommendations activities automatically display products or content that might interest your customers based on previous user activity or other algorithms.
 
-## Target and Adobe Experience Cloud administrators {#section_ED56A4EF6D1541C9AC750B9184D3FF6C}
+## Developers
 
-<table id="table_5AE9FDFE77204756A1D2ED2B4B488B26"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Link </th> 
-   <th colname="col2" class="entry"> Details </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p><a href="https://marketing.adobe.com/resources/help/en_US/target/ov/administrating-target.html" format="html" scope="external"> Administer Target</a> </p> </td> 
-   <td colname="col2"> <p>Explains how to add users and configure your Target account. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+- [Implement Target](c-implementing-target/c-implementing-target.md): Explains how to implement Target on web sites, mobile apps, Single-Page Apps (SPAs), and iOT/OTT platforms.
 
-## Analysts {#section_08CB59556DA5498EBD0B3F000F9721E4}
+## Target and Adobe Experience Cloud admins
 
-<table id="table_CC8AE8BF079E4A57BAE8EB5A5CE214ED"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Link </th> 
-   <th colname="col2" class="entry"> Details </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p><a href="https://marketing.adobe.com/resources/help/en_US/target/target/c_target.html" format="html" scope="external"> Audiences</a> </p> </td> 
-   <td colname="col2"> <p>Explains how to determine who will see content and experiences in targeted activities. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><a href="https://marketing.adobe.com/resources/help/en_US/target/target/c_reports.html" format="html" scope="external"> Reports</a> </p> </td> 
-   <td colname="col2"> <p>Explains how to interpret the performance of your activities. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+- [Administer Target](administrating-target/administrating-target.md): Explains how to add users and configure your Target account.
 
-## QA engineers {#section_4901406192CA438DB22F285C5BF68759}
+## Analysts
 
-<table id="table_547C88B7E82C4D489A76158942FD0BA0"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Link </th> 
-   <th colname="col2" class="entry"> Details </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p><a href="c-activities/c-activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03" format="dita" scope="local"> Activities</a> </p> </td> 
-   <td colname="col2"> <p>Explains how to set up, manage, and QA Target activities. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+- [Audiences](c-target/c-target.md): Explains how to determine who will see content and experiences in targeted activities.
+
+- [Reports](c-reports/c-reports.md): Explains how to interpret the performance of your activities.
+
+## QA engineers
+
+- [Activities](c-activities/c-activities.md): Explains how to set up, manage, and QA Target activities.
 
 ## Additional Resources {#section_BF207244CECD479F98900F0E11151E31}
 
@@ -183,8 +75,8 @@ Marketers, developers, administrators, analysts, and quality assurance engineers
   <tr> 
    <td colname="col1"> <p> 
      <ul id="ul_5A5701EA7407415EBD954C10C9586EAE"> 
-      <li id="li_A29E30154DCC40C099E8F3637013524A"> <a href="https://marketing.adobe.com/resources/help/en_US/target/target/c_intro.html" format="https" scope="external"> Target Standard and Premium</a> </li> 
-      <li id="li_1E242B90A6D34CBEB5A62F64C7008FE3"> <a href="https://marketing.adobe.com/resources/help/en_US/target/recs/c_recommendations.html" format="https" scope="external"> Premium Recommendations</a> </li> 
+      <li id="li_A29E30154DCC40C099E8F3637013524A"> <a href="https://helpx.adobe.com/support/target.html" format="https" scope="external"> Adobe Target Learn &amp; Support</a> </li> 
+      <li id="li_1E242B90A6D34CBEB5A62F64C7008FE3"> <a href="/help/c-recommendations/c-recommendations.md" format="https" scope="external"> Premium Recommendations</a> </li> 
       <li id="li_6093F1A07AA34D9A9952FD18547627D3"> <a href="https://marketing.adobe.com/resources/help/en_US/rec/" format="http" scope="external"> Recommendations Classic</a> </li> 
       <li id="li_C82E65DE81184F45BA4F10F6D32D7DE7"> <a href="https://marketing.adobe.com/resources/help/en_US/snp/" format="http" scope="external"> Search&amp;Promote</a> </li> 
       <li id="li_C760B1A583A246009327EFA52B065BBE"> <a href="https://developers.adobetarget.com/" format="http" scope="external"> Target API Documentation</a> </li> 
