@@ -16,7 +16,7 @@ snippet: y
 
 These release notes provide information about features, enhancements, fixes, and known issues for the latest or upcoming Target releases.
 
-**Last Updated: November 15, 2018**
+**Last Updated: December 6, 2018**
 
 >[!NOTE]
 >
@@ -52,7 +52,7 @@ These release notes provide information about features, enhancements, fixes, and
       <li id="li_6504E90D7C534A1BB9A2DE8510CE3B90"> <p>Fixed an issue introduced with at.js 1.6.2 where Visual Experience Composer (VEC) offers from different activities that apply to the same CSS selector did not respect activity priority. (TNT-31052) </p> </li> 
       <li id="li_D347CA513F1240E4BF79D757287AB30C"> <p>Fixed an issue with timing out a promise in environments where there was no native support for promises. (TNT-30974) </p> </li> 
       <li id="li_17F41A84CCFF41D7993E35DE10F87066"> <p>Issues are now correctly captured and reported via the content-rendering failed event. Previously, JavaScript might have been reported to have run successfully, even if that wasn't the case. (TNT-30599) </p> </li> 
-     </ul> </p> <p>For more information, see <a href="../c-implementing-target/c-implementing-target-for-client-side-web/r-target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A" format="dita" scope="local"> at.js Version Details</a>. </p> </td> 
+     </ul> </p> <p>For more information, see <a href="c-implementing-target/c-implementing-target-for-client-side-web/r-target-atjs-versions.md" format="dita" scope="local"> at.js Version Details</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -76,7 +76,7 @@ The [!DNL Target] Standard/Premium release on November 12 includes back-end enha
      <ul id="ul_C338AC34C57C49E1A8DFA471167EC40A"> 
       <li id="li_2329BFC8CC524EBBA99C2F8EDC745B90"> <p><b><span class="wintitle"> Automated Segments</span>:</b> Different visitors respond differently to the offers/experiences in your AP/AT activity. This report shows how different automated segments defined by Target's personalization models responded to the offers/experiences in the activity. </p> </li> 
       <li id="li_48556C9BAD48476DA00DD666F5265E2B"> <p><b><span class="wintitle"> Important Attributes</span>:</b> In different activities, different attributes are more, or less, important to how the model decides to personalize. This report shows the top attributes that influenced the model and their relative importance. </p> </li> 
-     </ul> </p> <p>See <a href="../c-reports/c-personalization-insights-reports/c-personalization-insights-reports.md#concept_A897070E1EDC403EB84CFB7A6ECAD767" format="dita" scope="local"> Personalization Insights reports</a>. </p> </td> 
+     </ul> </p> <p>See <a href="c-reports/c-personalization-insights-reports/c-personalization-insights-reports.md" format="dita" scope="local"> Personalization Insights reports</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -85,7 +85,7 @@ The [!DNL Target] Standard/Premium release on November 12 includes back-end enha
 
 Use the following links to view product documentation for Target capabilities:
 
-* [Target Standard/Premium help](https://marketing.adobe.com/resources/help/en_US/target/) 
+* [Adobe Target Learn &amp; Support](https://helpx.adobe.com/support/target.html) 
 * [Recommendations Classic help](https://marketing.adobe.com/resources/help/en_US/rec/) 
 * [Search&Promote help](https://marketing.adobe.com/resources/help/en_US/snp/)
 
