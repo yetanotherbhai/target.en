@@ -20,14 +20,14 @@ These release notes provide information about features, enhancements, fixes, and
 
 >[!NOTE]
 >
->These release notes contain prerelease information. Release dates, features, and other information are subject to change. To view information about the current release, see [Target Release Notes](https://marketing.adobe.com/resources/help/en_US/target/target/r_release_notes.html) in the Target documentation. Depending on the timing of releases, the information on these pages might differ.
+>These release notes contain prerelease information. Release dates, features, and other information are subject to change. To view information about the current release, see [Target Release Notes](r-release-notes) in the Target documentation. Depending on the timing of releases, the information on these pages might differ.
 
 <table id="table_1DAD8293D4A447D9932083FB9488EAA2"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>Announcements:</b> </p> <p> 
      <ul id="ul_A0205508929340CB89A766AA047E8363"> 
-      <li id="li_248ACD8F14F74ECEB34E18DB16CFD1C5"> <p> Starting with the Target 18.4.1 release (April 25, 2018), Adobe Target will take steps to move towards TLS 1.2 encryption and phase out support for TLS 1.0 encryption. Migrating to TLS 1.2 will provide improved security. It is important that you go through the specifics and plan out the changes for a smooth transition. For more information, see <a href="https://marketing.adobe.com/resources/help/en_US/target/target/c_tls-transport-layer-security-encryption.html" format="html" scope="external"> TLS (Transport Layer Security) Encryption Changes</a>. </p> </li> 
+      <li id="li_248ACD8F14F74ECEB34E18DB16CFD1C5"> <p> Starting with the Target 18.4.1 release (April 25, 2018), Adobe Target will take steps to move towards TLS 1.2 encryption and phase out support for TLS 1.0 encryption. Migrating to TLS 1.2 will provide improved security. It is important that you go through the specifics and plan out the changes for a smooth transition. For more information, see [TLS (Transport Layer Security) Encryption Changes](c-implementing-target/c-considerations-before-you-implement-target/c-tls-transport-layer-security-encryption.md)(</a>. </p> </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 

@@ -14,13 +14,25 @@ snippet: y
 
  [!DNL Adobe Target] is the [!DNL Adobe Experience Cloud] solution that provides everything you need to tailor and personalize your customers' experience so you can maximize revenue on your web and mobile sites, apps, social media, and other digital channels.
 
-**Last Updated: November 27, 2018 ( [See What Changed](https://marketing.adobe.com/resources/help/en_US/target/target/r_doc_change.html) )**
+**Last Updated: November 27, 2018 ( [See What Changed](help/r-release-notes/r-doc-change.md) )**
 
 The following sections point you to useful links in this guide, arraigned by intended audience based job function:
 
 ## All Target users {#section_65FA20BA5BC6461E9E21A1B2FAB6393C}
 
 Marketers, developers, administrators, analysts, and quality assurance engineers.
+
+- [Target release notes](help/r-release-notes/r-release-notes.md): Contains information about the current release, information about known issues that affect Target, a list important changes to this documentation, and an archive of past release notes.
+
+- [Introduction to Target](help/c-intro/c-intro.md): Explains the core concepts of the Target solution.
+
+- [Integrate Target with the Adobe Experience Cloud](help/c-integrating-target-with-mac): Explains how to integrate Target with other Experience Cloud solutions, including Analytics for Target (A4T), Experience Cloud Audiences, Adobe Campaign, and the Experience Cloud Device Co-op.
+
+- [Troubleshooting Target](help/r-troubleshooting-target): Provides links to troubleshooting information contained in this guide, including information about the character limits and other limits (offer size, audiences, profiles, values, parameters, etc.) that affect activities and other elements in Target.
+
+- [Target for mobile apps](help/c-target-mobile-app): Explains how Target can be used for mobile app optimization and personalization.
+
+- [Resources and contact information](help/cmp-resources-and-contact-information.md): Provides information about additional resources to help you learn about Target features and how to contact Adobe should you need help.
 
 <table id="table_1A269F25C42146F2816295AC733AC329"> 
  <thead> 
@@ -31,7 +43,7 @@ Marketers, developers, administrators, analysts, and quality assurance engineers
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><a href="https://marketing.adobe.com/resources/help/en_US/target/target/r_release_notes.html" format="html" scope="external"> Target release notes</a> </p> </td> 
+   <td colname="col1"> <p>[Target release notes](help/r-release-notes/r-release-notes.md) </p> </td> 
    <td colname="col2"> <p>Contains information about the current release, information about known issues that affect Target, a list important changes to this documentation, and an archive of past release notes. </p> </td> 
   </tr> 
   <tr> 
