@@ -20,7 +20,7 @@ These release notes provide information about features, enhancements, fixes, and
 
 >[!NOTE]
 >
->These release notes contain prerelease information. Release dates, features, and other information are subject to change. To view information about the current release, see [Target Release Notes](r-release-notes) in the Target documentation. Depending on the timing of releases, the information on these pages might differ.
+>These release notes contain prerelease information. Release dates, features, and other information are subject to change. To view information about the current release, see [Target Release Notes](r-release-notes.md) in the Target documentation. Depending on the timing of releases, the information on these pages might differ.
 
 <table id="table_1DAD8293D4A447D9932083FB9488EAA2"> 
  <tbody> 
