@@ -27,6 +27,32 @@ This page lists important changes made to the Target documentation.
   </tr> 
  </thead>
  <tbody> 
+ <tr> 
+   <td colname="col1"> December 7, 2018 </td> 
+   <td colname="col2"> <p> <a href="known-issues-resolved-issues.md" format="dita" scope="local"> Known Issues and Resolved Issues </a> </p> </td> 
+   <td colname="col3"> <p>Moved the following from the Known Issues table to the Resolved Issues table: </p>
+   <p>
+<ul>
+   <li>
+      <p>at.js: Mboxes not firing on Microsoft Explorer 11 browsers after upgrading to at.js version 1.0 due to the interaction between at.js and Visitor API 2.2.0.</p>
+   </li>
+   <li>
+      <p>Geo targeting: Searching for a string that contains special characters (such as a space or a comma) is currently not working when creating geo-targeting audiences.</p>
+   </li>
+</ul>
+</p>
+   </td> 
+  </tr> 
+<tr> 
+   <td colname="col1"> December 5, 2018 </td> 
+   <td colname="col2"> <p> <a href="c-reports/c-personalization-insights-reports/c-personalization-insights-reports.md" format="dita" scope="local"> Personalization Insights reports </a> </p> </td> 
+   <td colname="col3"> <p>Added note that the Personalization Insights reports are available in the default environment only.</p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> </td> 
+   <td colname="col2"> <p> <a href="help/c-integrating-target-with-mac/a4t/a4t.md" format="dita" scope="local"> Adobe Analytics as the reporting source for Adobe Targer (AT) </a> </p> </td> 
+   <td colname="col3"> <p>Updated table to indicate that A4T supports server-side deployments.</p> </td> 
+  </tr> 
   <tr> 
    <td colname="col1"> November 27, 2018 </td> 
    <td colname="col2"> <p> <a href="../c-activities/c-activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03" format="dita" scope="local"> Activities </a> </p> </td> 
