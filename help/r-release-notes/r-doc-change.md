@@ -53,6 +53,13 @@ This page lists important changes made to the Target documentation.
    <td colname="col2"> <p> <a href="../c-integrating-target-with-mac/a4t/a4t.md" format="dita" scope="local"> Adobe Analytics as the reporting source for Adobe Target (AT) </a> </p> </td> 
    <td colname="col3"> <p>Updated table to indicate that A4T supports server-side deployments.</p> </td> 
   </tr> 
+
+<tr> 
+   <td colname="col1"> November 29, 2018 </td> 
+   <td colname="col2"> <p> <a href="../c-activities/c-multivariate-testing/t-create-multivariate-test/t-traffic-estimator.md" format="dita" scope="local"> Estimate the traffic required for a successful test</a> </p> </td> 
+   <td colname="col3"> <p>Minor text updates and updated images.</p> </td> 
+  </tr>
+
   <tr> 
    <td colname="col1"> November 27, 2018 </td> 
    <td colname="col2"> <p> <a href="../c-activities/c-activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03" format="dita" scope="local"> Activities </a> </p> </td> 
