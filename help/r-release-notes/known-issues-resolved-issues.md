@@ -88,10 +88,6 @@ The following table lists the known issues for this release:
    <td colname="col3"> <p>On the <span class="wintitle"> Implementation </span> tab ( <span class="wintitle"> Setup </span> &gt; <span class="wintitle"> Implementation </span>) the <span class="wintitle"> Global Mbox Auto Create </span> field will be "false" by default for a newly provisioned tenant. </p> <p>When <span class="filepath"> mbox.js </span> is downloaded for the first time after provisioning, the <span class="wintitle"> Global Mbox Auto Create </span> field is set to "true" in the downloaded <span class="filepath"> mbox.js </span> file and in the <span class="keyword"> Target </span> backend, but it will continue to display as "false" on the <span class="wintitle"> Implementation </span> page in the UI until the page is refreshed (after the page is refreshed, the status will be "true.") </p> <p> <span class="filepath"> at.js </span> will be downloaded with <span class="codeph"> global_mbox_autocreate = false </span> for a newly provisioned tenant. If <span class="filepath"> mbox.js </span> is downloaded first, <span class="codeph"> global_mbox_autocreate </span> is set to "true" and <span class="filepath"> at.js </span> will also be downloaded with <span class="codeph"> global_mbox_autocreate = true </span>. (TGT-15929) </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Form-based Experience Composer </p> </td> 
-   <td colname="col3"> <p>Using the Form-based Experience Composer, you can associate an audience with a location. However, if you select the same audience at the location level and in the Targeting step, you receive a sync error message. This is an invalid setup. In an upcoming release, Target will mark audiences as invalid if the same audience is selected twice. (TGT-27754) </p> </td> 
-  </tr> 
-  <tr> 
    <td colname="col1"> <p>Success metrics </p> </td> 
    <td colname="col3"> <p>Success metrics with the advanced option "How will the count be incremented" set to "every impression" or "every impression (excluding refreshes)" cannot be used as a success metric that another metric is dependent on. </p> <p>When a success metric is set to be incremented on every impression, Target counts the visitor again every time the visitor visits this success metric. Target then resets the success metric "membership" to 0 so it can count again on the next impression. Thus, if another metric requires this metric to have been seen first, Target will never recognize that the user has seen the first metric. </p> </td> 
   </tr> 
@@ -115,6 +111,15 @@ As known issues above are resolved, they will be moved to the following table an
   </tr> 
  </thead>
  <tbody> 
+ <tr> 
+   <td colname="col1"> <p>at.js </p> </td> 
+   <td colname="col3"> <p>Mboxes not firing on Microsoft Explorer 11 browsers after upgrading to at.js version 1.0 due to the interaction between at.js and Visitor API 2.2.0. This issue affects at.js version 0.9.6 and later. (TNT-27600)</p> </td> 
+   <td colname="col4"> <p>Fixed with the release of API 2.3.0 or later. </p> </td> 
+  </tr> <tr> 
+   <td colname="col1"> <p>Geo targeting</p> </td> 
+   <td colname="col3"> <p>Searching for a string that contains special characters (such as a space or a comma) is currently not working when creating geo-targeting audiences. This issue surfaces, for example, when creating audiences based on cities, states, countries, etc. For example, when searching for "new york", the search does not return valid results.</p> </td> 
+   <td colname="col4"> <p>Fixed in November, 2018. </p> </td> 
+  </tr> 
   <tr> 
    <td colname="col1"> <p>at.js </p> </td> 
    <td colname="col3"> <p>When using <span class="codeph"> at.js </span> version 1.6.0, Analytics for Target (A4T) redirects occur, but without activity qualification. </p> </td> 
