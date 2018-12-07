@@ -108,7 +108,7 @@ user-guide-title: Adobe Target Help
 + Integrate Adobe Target with the Experience Cloud {#integrate}
    + [Integrate Adobe Target with the Experience Cloud overview](c-integrating-target-with-mac/c-integrating-target-with-mac.md)
    + Adobe Analytics as the reporting source for Adobe Target (A4T) {#a4t}
-      + [A4T overview)](c-integrating-target-with-mac/a4t/a4t.md)
+      + [A4T overview](c-integrating-target-with-mac/a4t/a4t.md)
       + [Before you implement](c-integrating-target-with-mac/a4t/c-before-implement.md)
       + [Analytics for Target implementation](c-integrating-target-with-mac/a4t/c-a4timplementation.md)
       + [User permission requirements](c-integrating-target-with-mac/a4t/c-account-reqs.md)
