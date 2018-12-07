@@ -33,7 +33,7 @@ Enables you to test page designs and target content to specific audiences.
 
 An activity collision occurs when multiple activities are set up to deliver content to the same page. If an activity collision occurs, you may not see the expected content on your page.
 
-**Activity URL**
+**activity URL**
 
 The default URL used for an activity.
 
@@ -77,10 +77,6 @@ Tests different experiences to determine which will be most successful.
 
 A record of who changed your campaigns and when the changes occurred.
 
-**Campaign list**
-
-Dashboard that displays a quick overview of campaign activity.
-
 **capture score **
 
 An engagement metric that calculates an aggregated score based on the value assigned to pages visited on the site, from the point the visitor first sees the campaign's first display mbox.
@@ -119,7 +115,7 @@ Rules that determine which products or content to recommend. Criteria can be bas
 
 Digital Asset Manager. The library containing items to be used as content in Target.
 
-** default content**
+**default content**
 
 Displays if the visitor does not meet the requirements of the test, or if default content is used as a control in the test.
 
@@ -127,7 +123,7 @@ Displays if the visitor does not meet the requirements of the test, or if defaul
 
 Template-enabled HTML that displays your recommended items to the web page. A design defines the appearance of the recommendations in a Recommendations activity.
 
-** display ad campaign**
+**display ad campaign**
 
 Used for offsite Flash ad testing.
 
@@ -169,7 +165,7 @@ An entrant is a visitor who meets the criteria to enter an activity.
 
 Hosts are bundled into environments for ease of management. The preset host groups are Production, Staging, and Development. However, you may add new host groups and rename your existing host groups. Environments were called "host groups" in [!DNL Target Classic].
 
-** experience**
+**experience**
 
 Defines the content (or offer) that displays in an mbox. Sometimes called a recipe.
 
@@ -183,7 +179,7 @@ Experience Targeting (XT) delivers content to a specific audience based on a set
 
 Provides methods to get product or content information into your recommendations.
 
-** flash campaign**
+**flash campaign**
 
 Used for onsite Flash testing.
 
@@ -207,7 +203,7 @@ The conversion or result that signals a successful activity. It is best practice
 
 ## H {#section_B3FB79217FAF4FE3917AC14DE6F68E08}
 
-** host**
+**host**
 
 Any Web server (or Web domain) from where you serve content during any stage of your project.
 
@@ -217,13 +213,13 @@ See *Environment*. Host groups are called "environments" in [!DNL Target Standar
 
 ## I {#section_8ABE89A86AF54BD4B6B2CC909F651B5C}
 
-** In-mbox profile parameter**
+**In-mbox profile parameter**
 
 Visitor-specific parameter passed to the visitor's cookie from the mbox. Returning visitor is an example of an in-mbox profile parameter.
 
 ## L {#section_9F81FB4EED15412BB51B286512E1C5FC}
 
-** landing page campaign**
+**landing page campaign**
 
 A landing page campaign allows you to use targeting to display different landing page content for different visits. Otherwise, the landing page shows the same content for each visit. A landing page campaign compares different versions of the page to help you see which version of the landing page produces more successful results. In Target Standard, replaced by *experience targeting*.
 
@@ -249,7 +245,7 @@ Passed in the page, not the URL. Rendered uniquely for each visitor, they are us
 
 Tracks the performance of a conversion, success metric, or segment over time, independently of tests or campaigns run to affect it.
 
-** multivariate test **
+**multivariate test **
 
 Multivariate Testing (MVT) compares combinations of offers in elements on a page to determine which combination performs the best for a specific audience, and identifies which element most impacts the activity's success
 
@@ -259,7 +255,7 @@ Multivariate Testing (MVT) compares combinations of offers in elements on a page
 
 An activity field where you enter a description of what you'd like to learn from an activity.
 
-** offer**
+**offer**
 
 An offer is the content displayed within an mbox during campaigns and tests. An experience determines which offer displays when particular conditions are met.
 
@@ -287,15 +283,15 @@ Priority is used if multiple activities are assigned to the same location with t
 
 Deprecated term defining the content that displays in a location. See *experience*.
 
-** redirector**
+**redirector**
 
 Redirects a visitor to a different web page. Use this Redirector similarly to how you use an mbox in your tests to track clicks from display ads to your site, vary display ad destinations, and similar tasks.
 
-** referring URL parameter**
+**referring URL parameter**
 
 Passes values to the destination page's mbox as referring URL parameters and values. Use these to target on the visitor's source, for example.
 
-** role**
+**role**
 
 A group of users with a specific set of privileges.
 
@@ -305,7 +301,7 @@ Use remote offers to host content outside of [!DNL Target] that [!DNL Target] re
 
 ## S {#section_9482B06EBB09486784492F838289E54D}
 
-** script profile parameter**
+**script profile parameter**
 
 Similar to in-mbox profile parameter, but defined with JavaScript in Target itself rather than in the page code.
 
@@ -313,7 +309,7 @@ Similar to in-mbox profile parameter, but defined with JavaScript in Target itse
 
 A specified set of criteria used for targeting a campaign. Only visitors who meet the criteria see the content of a campaign targeted to that segment. Some segments are reusable across multiple campaigns and other are specific to a campaign.
 
-** segment filter**
+**segment filter**
 
 A report filter used to display reports related to a specific segment.
 
@@ -321,11 +317,11 @@ A report filter used to display reports related to a specific segment.
 
 A single-page application (SPA) is a web application or web site that fits on a single web page to provide a more fluid user experience similar to a desktop application.
 
-** smart targeter profile parameter**
+**smart targeter profile parameter**
 
 Similar to script profile parameter, but predefined to provide useful targeting functionality.
 
-** success metrics**
+**success metrics**
 
 The parameters used to measure the success of an activity.
 
@@ -341,7 +337,7 @@ An engagement type that represents the time spent in the visit (in seconds) from
 
 ## U {#section_6407B81326FF43049D92265746E6C402}
 
-** URL parameters**
+**URL parameters**
 
 All referring page and page URL variables are automatically passed to an mbox whenever the page with the mbox is viewed by any visitor. These URL variables are then available to use through the for display targeting or segment filters in reports.
 

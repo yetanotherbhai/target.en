@@ -1316,7 +1316,7 @@ This [!DNL Target] release focuses on usability and performance improvements and
 * Improved the user experience in the [!UICONTROL Visual Experience Composer] (VEC) when selecting items to hide. 
   (TGT-22224) 
 * Improved the user experience when creating activities using the [!UICONTROL Form-Based Experience Composer]. When choosing an mbox location, the validation border remains highlighted after clicking [!UICONTROL Next]. (TGT-22221) 
-* Enhanced the downloaded reports to differentiate between active and deleted offers. The following text is appended to deleted offers: [Deleted]. (TGT-22449) 
+* Enhanced the downloaded reports to differentiate between active and deleted offers. (TGT-22449) 
 * Fixed an issue that prevented older assets from displaying in the infinitely scrollable asset list in the Experience Cloud Assets core service user interface. (TGT-19733) 
 * Fixed an issue where the extreme order setting was not honored in downloaded CSV reports. (TGT-21871) 
 * Fixed an issue where extreme orders were not marked correctly in the downloaded [!UICONTROL Order Details]CSV report. (TGT-22500) 
