@@ -45,12 +45,12 @@ This page lists important changes made to the Target documentation.
   </tr> 
 <tr> 
    <td colname="col1"> December 5, 2018 </td> 
-   <td colname="col2"> <p> <a href="c-reports/c-personalization-insights-reports/c-personalization-insights-reports.md" format="dita" scope="local"> Personalization Insights reports </a> </p> </td> 
+   <td colname="col2"> <p> <a href="../c-reports/c-personalization-insights-reports/c-personalization-insights-reports.md" format="dita" scope="local"> Personalization Insights reports </a> </p> </td> 
    <td colname="col3"> <p>Added note that the Personalization Insights reports are available in the default environment only.</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
-   <td colname="col2"> <p> <a href="help/c-integrating-target-with-mac/a4t/a4t.md" format="dita" scope="local"> Adobe Analytics as the reporting source for Adobe Targer (AT) </a> </p> </td> 
+   <td colname="col2"> <p> <a href="../c-integrating-target-with-mac/a4t/a4t.md" format="dita" scope="local"> Adobe Analytics as the reporting source for Adobe Target (AT) </a> </p> </td> 
    <td colname="col3"> <p>Updated table to indicate that A4T supports server-side deployments.</p> </td> 
   </tr> 
   <tr> 
