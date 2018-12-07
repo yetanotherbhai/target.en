@@ -65,6 +65,9 @@
         },
         {
             "pattern": "^.*europa.eu"
+        },
+        {
+            "pattern": "^.*html2canvas.hertzen.com"
         }
     ]
 }
