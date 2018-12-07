@@ -162,7 +162,7 @@ As known issues above are resolved, they will be moved to the following table an
   </tr> 
   <tr> 
    <td colname="col1"> <p>at.js </p> </td> 
-   <td colname="col3"> <p>The algorithm for extracting the top-level domain that should be used when saving cookies has changed in <span class="codeph"> at.js </span> version 0.9.6. Because of this change, cookies cannot be saved to addresses that use IP. Most of the time, IP addresses are used for testing purposes, but as workarounds you can use DNS entries, adjust the hosts file on a local box, or <a href="../c-implementing-target/c-implementing-target-for-client-side-web/cmp-at.js-functions.md#concept_8DACBC47ABDE4279BB102B42609FE506" format="dita" scope="local"> use the <span class="codeph"> targetGlobalSettings() </span> at.js function insert a code snippet to support IP addresses </a>. </p> </td> 
+   <td colname="col3"> <p>The algorithm for extracting the top-level domain that should be used when saving cookies has changed in <span class="codeph"> at.js </span> version 0.9.6. Because of this change, cookies cannot be saved to addresses that use IP. Most of the time, IP addresses are used for testing purposes, but as workarounds you can use DNS entries, adjust the hosts file on a local box, or use the  targetGlobalSettings() at.js function to insert a code snippet to support IP addresses. </p> </td> 
    <td colname="col4"> <p>This issue was remedied in at.js version 1.2. </p> </td> 
   </tr> 
   <tr> 

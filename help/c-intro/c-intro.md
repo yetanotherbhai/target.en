@@ -33,15 +33,15 @@ The [!DNL Adobe Target] solution contains several components:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"><a href="../c-intro/c-intro.md#section_ACD5EFF17AAB4E979CBEFA0145CCD905" format="dita" scope="local"> Target Standard</a> </td> 
+   <td colname="col1">Target Standard </td> 
    <td colname="col2"> <p>Provides a visual interface for creating and managing A/B tests and rules-based targeting activities. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><a href="../c-intro/c-intro.md#section_7728D488C2824105A1D5C6675352CE23" format="dita" scope="local"> Target Premium</a> </td> 
+   <td colname="col1">Target Premium</td> 
    <td colname="col2"> <p> Adds premium features to the Target Standard interface. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><a href="../c-intro/c-intro.md#section_9554068100054D2DBDB298CBE5A0E413" format="dita" scope="local"> Recommendations Classic</a> </td> 
+   <td colname="col1">Recommendations Classic</td> 
    <td colname="col2"> <p>Automatically displays products or content that might interest your customers based on previous user activity on your Web site. </p> </td> 
   </tr> 
  </tbody> 
