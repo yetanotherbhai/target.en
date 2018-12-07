@@ -52,7 +52,7 @@ These release notes provide information about features, enhancements, fixes, and
       <li id="li_6504E90D7C534A1BB9A2DE8510CE3B90"> <p>Fixed an issue introduced with at.js 1.6.2 where Visual Experience Composer (VEC) offers from different activities that apply to the same CSS selector did not respect activity priority. (TNT-31052) </p> </li> 
       <li id="li_D347CA513F1240E4BF79D757287AB30C"> <p>Fixed an issue with timing out a promise in environments where there was no native support for promises. (TNT-30974) </p> </li> 
       <li id="li_17F41A84CCFF41D7993E35DE10F87066"> <p>Issues are now correctly captured and reported via the content-rendering failed event. Previously, JavaScript might have been reported to have run successfully, even if that wasn't the case. (TNT-30599) </p> </li> 
-     </ul> </p> <p>For more information, see <a href="/help/c-implementing-target/c-implementing-target-for-client-side-web/r-target-atjs-versions.md" format="dita" scope="local"> at.js Version Details</a>. </p> </td> 
+     </ul> </p> <p>For more information, see <a href="../c-implementing-target/c-implementing-target-for-client-side-web/r-target-atjs-versions.md" format="dita" scope="local"> at.js Version Details</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

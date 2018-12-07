@@ -67,7 +67,7 @@ Marketers, developers, administrators, analysts, and quality assurance engineers
    <td colname="col1"> <p> 
      <ul id="ul_5A5701EA7407415EBD954C10C9586EAE"> 
       <li id="li_A29E30154DCC40C099E8F3637013524A"> <a href="https://helpx.adobe.com/support/target.html" format="https" scope="external"> Adobe Target Learn &amp; Support</a> </li> 
-      <li id="li_1E242B90A6D34CBEB5A62F64C7008FE3"> <a href="/help/c-recommendations/c-recommendations.md" format="https" scope="local"> Premium Recommendations</a> </li> 
+      <li id="li_1E242B90A6D34CBEB5A62F64C7008FE3"> <a href="c-recommendations/c-recommendations.md" format="https" scope="local"> Premium Recommendations</a> </li> 
       <li id="li_6093F1A07AA34D9A9952FD18547627D3"> <a href="https://marketing.adobe.com/resources/help/en_US/rec/" format="http" scope="external"> Recommendations Classic</a> </li> 
       <li id="li_C82E65DE81184F45BA4F10F6D32D7DE7"> <a href="https://marketing.adobe.com/resources/help/en_US/snp/" format="http" scope="external"> Search&amp;Promote</a> </li> 
       <li id="li_C760B1A583A246009327EFA52B065BBE"> <a href="https://developers.adobetarget.com/" format="http" scope="external"> Target API Documentation</a> </li> 
