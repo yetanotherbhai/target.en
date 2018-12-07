@@ -118,11 +118,11 @@ at.js version 1.3.0 is now available.
 
 * The following new events are available to help in tracing, debugging, and customizing interaction with at.js:
 
-    * LIBRARY_LOADED 
-    * REQUEST_START 
-    * CONTENT_RENDERING_START 
-    * CONTENT_RENDERING_NO_OFFERS 
-    * CONTENT_RENDERING_REDIRECT
+  * LIBRARY_LOADED 
+  * REQUEST_START 
+  * CONTENT_RENDERING_START 
+  * CONTENT_RENDERING_NO_OFFERS 
+  * CONTENT_RENDERING_REDIRECT
 
   For more information, see [at.js custom events](../../c-implementing-target/c-implementing-target-for-client-side-web/cmp-at.js-functions.md#reference_A828E4BA535F4E7692A075F3D70CF6CD). 
 

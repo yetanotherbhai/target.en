@@ -24,9 +24,9 @@ Marketers, developers, administrators, analysts, and quality assurance engineers
 
 - [Target release notes](r-release-notes/r-release-notes.md): Contains information about the current release, information about known issues that affect Target, a list important changes to this documentation, and an archive of past release notes.
 - [Introduction to Target](c-intro/c-intro.md): Explains the core concepts of the Target solution.
-- [Integrate Target with the Adobe Experience Cloud](c-integrating-target-with-mac): Explains how to integrate Target with other Experience Cloud solutions, including Analytics for Target (A4T), Experience Cloud Audiences, Adobe Campaign, and the Experience Cloud Device Co-op.
-- [Troubleshooting Target](r-troubleshooting-target): Provides links to troubleshooting information contained in this guide, including information about the character limits and other limits (offer size, audiences, profiles, values, parameters, etc.) that affect activities and other elements in Target.
-- [Target for mobile apps](c-target-mobile-app): Explains how Target can be used for mobile app optimization and personalization.
+- [Integrate Target with the Adobe Experience Cloud](c-integrating-target-with-mac/c-integrating-target-with-mac.md): Explains how to integrate Target with other Experience Cloud solutions, including Analytics for Target (A4T), Experience Cloud Audiences, Adobe Campaign, and the Experience Cloud Device Co-op.
+- [Troubleshooting Target](r-troubleshooting-target/r-troubleshooting-target.md): Provides links to troubleshooting information contained in this guide, including information about the character limits and other limits (offer size, audiences, profiles, values, parameters, etc.) that affect activities and other elements in Target.
+- [Target for mobile apps](c-target-mobile-app/c-target-mobile-app.md): Explains how Target can be used for mobile app optimization and personalization.
 - [Resources and contact information](cmp-resources-and-contact-information.md): Provides information about additional resources to help you learn about Target features and how to contact Adobe should you need help.
 
 ## Marketers
@@ -67,7 +67,7 @@ Marketers, developers, administrators, analysts, and quality assurance engineers
    <td colname="col1"> <p> 
      <ul id="ul_5A5701EA7407415EBD954C10C9586EAE"> 
       <li id="li_A29E30154DCC40C099E8F3637013524A"> <a href="https://helpx.adobe.com/support/target.html" format="https" scope="external"> Adobe Target Learn &amp; Support</a> </li> 
-      <li id="li_1E242B90A6D34CBEB5A62F64C7008FE3"> <a href="/help/c-recommendations/c-recommendations.md" format="https" scope="external"> Premium Recommendations</a> </li> 
+      <li id="li_1E242B90A6D34CBEB5A62F64C7008FE3"> <a href="c-recommendations/c-recommendations.md" format="https" scope="local"> Premium Recommendations</a> </li> 
       <li id="li_6093F1A07AA34D9A9952FD18547627D3"> <a href="https://marketing.adobe.com/resources/help/en_US/rec/" format="http" scope="external"> Recommendations Classic</a> </li> 
       <li id="li_C82E65DE81184F45BA4F10F6D32D7DE7"> <a href="https://marketing.adobe.com/resources/help/en_US/snp/" format="http" scope="external"> Search&amp;Promote</a> </li> 
       <li id="li_C760B1A583A246009327EFA52B065BBE"> <a href="https://developers.adobetarget.com/" format="http" scope="external"> Target API Documentation</a> </li> 
@@ -83,4 +83,3 @@ Marketers, developers, administrators, analysts, and quality assurance engineers
   </tr> 
  </tbody> 
 </table>
-
