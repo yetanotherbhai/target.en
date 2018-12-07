@@ -76,7 +76,7 @@ To start implementing the SDK, you'll need to first create a mobile property in 
 
 In this section, you'll create library of changes and then deploy the library to a development environment.
 
-1. on the **[!UICONTROL Publishing]** tab, click **[!UICONTROL Add New Library]** under the **[!UICONTROL Development]** section of the publishing workflow. 
+1. On the **[!UICONTROL Publishing]** tab, click **[!UICONTROL Add New Library]** under the **[!UICONTROL Development]** section of the publishing workflow. 
 1. Specify a name for the library and select a development environment from the **[!UICONTROL Environment]** drop-down list. 
 1. Add the configuration changes to be deployed. 
 1. Click **[!UICONTROL Add All Changed Resources]**.

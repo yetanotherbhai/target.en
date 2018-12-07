@@ -216,7 +216,7 @@ Actions performed in the VEC are visible in real-time in the app, thereby allowi
 
 Your internet connection might have dropped. Relaunch the application after the internet is available and a fresh connection will be established. We recommend authoring a Mobile VEC activity on a Wifi connection.
 
-**The Mobile VEC is not in sync with my mobile app. **
+**The Mobile VEC is not in sync with my mobile app.**
 
 Click the [!UICONTROL Refresh] button in the VEC to sync the display.
 

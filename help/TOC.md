@@ -29,12 +29,14 @@ user-guide-title: Adobe Target Help
    + Set preferences {#preferences}
       + [Preferences](administrating-target/r-target-account-preferences/r-target-account-preferences.md)
       + [Estimate lift in revenue](administrating-target/r-target-account-preferences/c-estimating-lift-in-revenue.md)
-   + Manage users {#users}
+   + Manage users {#manage-users}
       + [User management](administrating-target/c-user-management/c-user-management.md)
-      + [Users](administrating-target/c-user-management/c-user-management/c-user-management.md)
-      + [Troubleshoot user management](administrating-target/c-user-management/c-user-management/c-troubleshooting-user-management.md)
-      + [Enterprise user permissions](administrating-target/c-user-management/property-channel/property-channel.md)
-      + [Configure enterprise permissions](administrating-target/c-user-management/property-channel/properties-overview.md)
+      + Users {#users}
+         + [Users overview](administrating-target/c-user-management/c-user-management/c-user-management.md)
+         + [Troubleshoot user management](administrating-target/c-user-management/c-user-management/c-troubleshooting-user-management.md)
+      + Enterprise user permissions {#enterprise}
+         + [Enterprise user permissions](administrating-target/c-user-management/property-channel/property-channel.md)
+         + [Configure enterprise permissions](administrating-target/c-user-management/property-channel/properties-overview.md)
       + [Scene7 settings](administrating-target/t-scene7-settings.md)
       + [Hosts](administrating-target/c-hosts.md)
       + [Response tokens](administrating-target/c-response-tokens.md)
