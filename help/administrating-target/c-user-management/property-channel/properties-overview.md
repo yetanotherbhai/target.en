@@ -107,7 +107,7 @@ This video explains how to create workspaces.
 
 1. Create the desired workspace (Product Profile):
 
-    * **Default Access: **All existing activities will be merged into a single project called "Default Access." This will have no impact on customers. All user roles and functionality will remain exactly the same as they are prior to this change.
+    * **Default Access:** All existing activities will be merged into a single project called "Default Access." This will have no impact on customers. All user roles and functionality will remain exactly the same as they are prior to this change.
 
       All activities created via [!DNL Adobe Experience Manager] (AEM), [!DNL Adobe Mobile Services], and [!DNL Target Classic] will also be part of the "Default Access" workspace. You cannot currently move projects from "Default Access" to another project. 
     
