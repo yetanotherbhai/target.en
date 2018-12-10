@@ -71,7 +71,7 @@ The simplest way to understand Target Views is to consider each of these pages a
 
 With this version of the VEC, Adobe has upgraded Target's client-side library, [!DNL at.js]. The [!DNL at.js] library has a new function, `adobe.target.triggerView(View_Name)`, that allows developers to communicate with Target when a view is rendered and passes a unique name for the view. If you are using an SPA Router, all you need to do is to add this function in your Route Change listener.
 
-** Example of a React.js Implementation**
+**Example of a React.js Implementation**
 
 In the banking app we discussed above, our [!DNL Routes.js] file, with a hash change listener, will look like this:
 
