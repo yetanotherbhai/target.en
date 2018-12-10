@@ -26,18 +26,6 @@ The way Target responds to calls from your page depends on the version of the Ta
 >
 >The `mbox.js` library is no longer being developed. All customers should migrate from `mbox.js` to `at.js`. For more information, see [Migrate to at.js from mbox.js](../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/t-target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA).
 
-This section contains information about the following [!DNL mbox.js] versions:
-
-* [mbox.js version 63](../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/r-mboxjs-change-log.md#section_ED8EFCF653A845ED8927F759578C4A33) 
-* [mbox.js version 62](../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/r-mboxjs-change-log.md#section_723A9119FE204183847D3B0929A99B41) 
-* [mbox.js version 61](../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/r-mboxjs-change-log.md#section_F3B59C5578B64883AE013B9342151193) 
-* [mbox.js version 60](../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/r-mboxjs-change-log.md#section_3BDAB885FA13444A8D35940A4BFF5825) 
-* [mbox.js version 59](../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/r-mboxjs-change-log.md#section_FF0E70C4C17E402D8374DE428C5D996E) 
-* [mbox.js version 58](../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/r-mboxjs-change-log.md#section_5070B0D1C87F4937BB97727923DD36C7) 
-* [mbox.js version 57](../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/r-mboxjs-change-log.md#section_6BA1CDBF75B14A94B59E8624ACF583D4) 
-* [mbox.js version 56](../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/r-mboxjs-change-log.md#section_C4F4A53584B741FF9FD907D81CB7E164) 
-* [Previous Releases](../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/r-mboxjs-change-log.md#section_FAB0A088308A42BEA855936F4E7D89C6)
-
 ## mbox.js version 63 {#section_ED8EFCF653A845ED8927F759578C4A33}
 
 **Target Release: **17.7.1

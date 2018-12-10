@@ -20,27 +20,6 @@ Details about changes in each version of at.js.
 >
 >The Target team maintains only two versions of [!DNL at.js]—the current version and the second-latest version. Please upgrade [!DNL at.js] as necessary to ensure that you are running a supported version.
 
-This section contains information about the following [!DNL at.js] versions:
-
-* [at.js Version 1.6.3](../../c-implementing-target/c-implementing-target-for-client-side-web/r-target-atjs-versions.md#section_484A56774E004282B98FFFF851E4E670) 
-* [at.js Version 1.6.2](../../c-implementing-target/c-implementing-target-for-client-side-web/r-target-atjs-versions.md#section_88BE2F69943D4280B8170F377886B58E) 
-* [at.js Version 1.5.0](../../c-implementing-target/c-implementing-target-for-client-side-web/r-target-atjs-versions.md#section_128C6761884C4DA8AE50D6A605FF6F55) 
-* [at.js Version 1.3.0](../../c-implementing-target/c-implementing-target-for-client-side-web/r-target-atjs-versions.md#section_24EAAE1CFA814EF8B19E61842F4D8321) 
-* [at.js Version 1.2.3](../../c-implementing-target/c-implementing-target-for-client-side-web/r-target-atjs-versions.md#section_CE4D14AF00D04F4C8A2F0513F5EA1A84) 
-* [at.js Version 1.2.2](../../c-implementing-target/c-implementing-target-for-client-side-web/r-target-atjs-versions.md#section_4E96D13F2DFE4F1F81A1089877D53649) 
-* [at.js Version 1.2.1](../../c-implementing-target/c-implementing-target-for-client-side-web/r-target-atjs-versions.md#section_F757C8174BBA4F68AC5524ADC3D9C5E3) 
-* [at.js Version 1.2.0](../../c-implementing-target/c-implementing-target-for-client-side-web/r-target-atjs-versions.md#section_1C3A18C595C34B25A14A440D213F3B9C) 
-* [at.js Version 1.1.0](../../c-implementing-target/c-implementing-target-for-client-side-web/r-target-atjs-versions.md#section_8F494E1EA94E48A9B169F5CF9FE6DC56) 
-* [at.js Version 1.0.0](../../c-implementing-target/c-implementing-target-for-client-side-web/r-target-atjs-versions.md#section_37A3D23FC4AD42A68AA831B89E03E725) 
-* [at.js Version 0.9.7](../../c-implementing-target/c-implementing-target-for-client-side-web/r-target-atjs-versions.md#section_6C7B698BE21E40E495FD2850EFBF3E80) 
-* [at.js Version 0.9.6](../../c-implementing-target/c-implementing-target-for-client-side-web/r-target-atjs-versions.md#section_EEFA6413F2F947AD8C4A88128B90245D) 
-* [at.js Version 0.9.4](../../c-implementing-target/c-implementing-target-for-client-side-web/r-target-atjs-versions.md#section_A15B12F12CD94F07B3F56613A79A815F) 
-* [at.js Version 0.9.3](../../c-implementing-target/c-implementing-target-for-client-side-web/r-target-atjs-versions.md#section_DF13BC1D7C994AE7A36B81937A699DF4) 
-* [at.js Version 0.9.2](../../c-implementing-target/c-implementing-target-for-client-side-web/r-target-atjs-versions.md#section_148549CBB4F046BAA8F79C79B64EC889) 
-* [at.js Version 0.9.1](../../c-implementing-target/c-implementing-target-for-client-side-web/r-target-atjs-versions.md#section_DAFB99114D604CFB8416C1BC7DEEAEEE) 
-* [at.js Version 0.9.0](../../c-implementing-target/c-implementing-target-for-client-side-web/r-target-atjs-versions.md#section_2981CC9792F245389B39BB5B69F84C4E) 
-* [at.js Version 0.8.0](../../c-implementing-target/c-implementing-target-for-client-side-web/r-target-atjs-versions.md#section_E1C7B08EC0494388A022C28A8B8FE807)
-
 ## at.js Version 1.6.3 {#section_484A56774E004282B98FFFF851E4E670}
 
 <table id="table_7320E43397D2471FA313A9D6FC21E55F"> 
@@ -268,7 +247,7 @@ The following enhancements and fixes are included in [!DNL at.js] version 0.9.6:
 **Date:** June 23, 2016
 
 * Fixes a whitescreen issue when using VEC offers. Anyone using [!DNL at.js] should upgrade to this new version. 
-* New ` [registerExtension](../../c-implementing-target/c-implementing-target-for-client-side-web/cmp-at.js-functions.md#reference_B3ACC004D45E460C8DD94C1476D2625C)` API.
+* New `registerExtension` API.
 
   This new API gives developers access to certain jQuery modules used in [!DNL at.js] to develop extensions (aka plugins) for the library. There are a few implications for this change. This impact only those users who are using these features:
 
@@ -277,11 +256,11 @@ The following enhancements and fixes are included in [!DNL at.js] version 0.9.6:
     
     * Existing extensions (e.g. AngularJS extensions) must be updated to use the `registerExtension()` approach.
 
-* New ` [at.js notification](../../c-implementing-target/c-implementing-target-for-client-side-web/cmp-at.js-functions.md#reference_A828E4BA535F4E7692A075F3D70CF6CD)` API.
+* New at.js notification] API.
 
   The goal of this notification system is to provide more insight into what [!DNL at.js] is doing on the page and when there are issues. A common issue seen with the VEC is that an IT release changes the page, a VEC selector breaks, and the test stops delivering content correctly. A goal of this notification system is to make this delivery issue known to the page, so developers can access this information, pass it to a system like [!DNL Adobe Analytics], and alerts can be sent to the business owners that their test broke. 
 
-* New ` [targetGlobalSettings()](../../c-implementing-target/c-implementing-target-for-client-side-web/cmp-at.js-functions.md#concept_8DACBC47ABDE4279BB102B42609FE506) API method.`
+* New `targetGlobalSettings()` API method.
 
   You can override settings in the `at.js` library, rather than configuring the settings in the [!DNL Target Standard/Premium UI]or by using REST APIs.
 

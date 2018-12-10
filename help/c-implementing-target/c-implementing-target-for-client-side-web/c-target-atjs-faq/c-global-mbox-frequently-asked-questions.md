@@ -16,11 +16,6 @@ snippet: y
 
 List of frequently asked questions (FAQs) about global mboxes.
 
-The following sections contain more information:
-
-* [Can I have more than one global mbox if my...](../../../c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/c-global-mbox-frequently-asked-questions.md#section_B7252BA6C3BB4EF4AE9E53F47FD58ABD) 
-* [How do I pass revenue data on a Target global...](../../../c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/c-global-mbox-frequently-asked-questions.md#section_17AEA933BADA4D169CCEDF5833C41306)
-
 ## Can I have more than one global mbox if my Target account is set across multiple domains? {#section_B7252BA6C3BB4EF4AE9E53F47FD58ABD}
 
 Only one global mbox is supported across your account.
@@ -49,5 +44,5 @@ The options in the above illustration include the following settings:
 
 * **What do you want to measure with this activity:** Revenue 
 * **Default View for Reporting:** Revenue Per Visitor (RPV) 
-* **What action was taken by your audience to indicate your goal has been reached? **Viewed an mbox, target-global-mbox
+* **What action was taken by your audience to indicate your goal has been reached?** Viewed an mbox, target-global-mbox
 

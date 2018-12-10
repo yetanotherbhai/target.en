@@ -117,11 +117,6 @@ ov2/c_using-a-redirector-to-pass-costs-per-click-and-revenue-per-click.xml
 
  -->
 
-This section contains the following information:
-
-* [Passing Costs per Click](../../c-implementing-target/c-non-javascript-based-implementation/c-working-with-redirectors.md#section_DEB889470F7D4360B5CEA85FD05DEDFA) 
-* [Passing Revenue per Click](../../c-implementing-target/c-non-javascript-based-implementation/c-working-with-redirectors.md#section_3E48AC465E7D42DAAC51B4BFF83F64B1)
-
 ## Passing Costs per Click {#section_DEB889470F7D4360B5CEA85FD05DEDFA}
 
 Use a redirector to pass the costs per click.

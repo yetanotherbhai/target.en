@@ -272,7 +272,7 @@ The `at.js` request is an async `XMLHttpRequest`, so we execute the following st
 
 ## How often is the page's content fully loaded and visible when at.js finally un-hides the element the activity is changing? {#section_01AFF476EFD046298A2E17FE3ED85075}
 
-**Considering the above scenario, how often is the page's content fully loaded and visible when `at.js` finally un-hides the element the activity is changing? In other words, the page is fully visible except for the activity's content, which is then revealed slightly after the rest of the content.**
+Considering the above scenario, how often is the page's content fully loaded and visible when `at.js` finally un-hides the element the activity is changing? In other words, the page is fully visible except for the activity's content, which is then revealed slightly after the rest of the content.
 
 `at.js` doesn't block the page from rendering. A user might notice some blank regions on the page that represent elements that will be customized by Target. If the content to be applied doesn't contain many remote assets, such as SCRIPTs or IMGs, everything should render quickly.
 
@@ -282,10 +282,10 @@ If a page is cached on a CDN that is close to user's location, but not near the 
 
 ## Is it possible for a hero image to be displayed and then swapped out after a short delay? {#section_C25B07B25B854AAE8DEE1623D0FA62A3}
 
-**Considering the following scenario:**
+Considering the following scenario:
 
-**The Target timeout is five seconds. A user loads a page that has an activity to customize a hero image. `at.js` sends the request to determine if there is an activity to apply, but there is no initial response. Assume the user sees the regular content of the hero image, because no response was received from Target regarding whether there is an associated activity. After four seconds, Target does return a response with the activity contents. **
+The Target timeout is five seconds. A user loads a page that has an activity to customize a hero image. `at.js` sends the request to determine if there is an activity to apply, but there is no initial response. Assume the user sees the regular content of the hero image, because no response was received from Target regarding whether there is an associated activity. After four seconds, Target does return a response with the activity contents.
 
-**At this stage, would it be possible for the alternative version to be shown? So after four seconds, the hero image could be swapped out and the user could notice this image swap?**
+At this stage, would it be possible for the alternative version to be shown? So after four seconds, the hero image could be swapped out and the user could notice this image swap?
 
 Initially, the image hero DOM element is hidden. After a response from Target is received, `at.js` applies the DOM changes, such as replacing the IMG and displaying the customized hero image. 
