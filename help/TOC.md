@@ -37,76 +37,76 @@ user-guide-title: Adobe Target Help
       + Enterprise user permissions {#enterprise}
          + [Enterprise user permissions](administrating-target/c-user-management/property-channel/property-channel.md)
          + [Configure enterprise permissions](administrating-target/c-user-management/property-channel/properties-overview.md)
-      + [Scene7 settings](administrating-target/t-scene7-settings.md)
-      + [Hosts](administrating-target/c-hosts.md)
-      + [Response tokens](administrating-target/c-response-tokens.md)
-   + Implement Target {#implement-target}
-      + [Implement Target overview](c-implementing-target/c-implementing-target.md)
-      + Before you implement {#before-implement}
-         + [Before you implement](c-implementing-target/c-considerations-before-you-implement-target/c-considerations-before-you-implement-target.md)
-         + [Understand the Target JavaScript libraries](c-implementing-target/c-considerations-before-you-implement-target/c-target-implement.md)
-         + [Prepare to implement Target](c-implementing-target/c-considerations-before-you-implement-target/c-prepare-to-implement-target.md)
-         + Privacy {#privacy}
-            + [Privacy overview](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/c-privacy.md)
-            + [Privacy and General Data Protection Regulation (GDPR)](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md)
-            + [Delete the Target cookie](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/t-cookie-deleting.md)
-         + Methods to get data into Target {#methods}
-            + [Methods](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/c-methods-to-get-data-into-target.md)
-            + [Profile API settings](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/c-profile-api-settings.md)
-         + [Target security overview](c-implementing-target/c-considerations-before-you-implement-target/c-target-security-overview.md)
-         + [Supported browsers](c-implementing-target/c-considerations-before-you-implement-target/r-supported-browsers.md)
-         + [TLS (Transport Layer Security) encryption changes](c-implementing-target/c-considerations-before-you-implement-target/c-tls-transport-layer-security-encryption.md)
-         + [CNAME and Adobe Target](c-implementing-target/c-considerations-before-you-implement-target/c-implement-cname-support-in-target.md)
-      + Client-side web: implement Target {#client-side}
-         + How at.js works {#at-js}
-            + [How at.js works overview](c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/c-how-atjs-works.md)
-            + [How at.js manages flicker](c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/c-manage-flicker-with-atjs.md)
-            + [at.js integrations](c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/c-target-atjs-integrations.md)
-         + How to deploy at.js {#deploy-at-js}
-            + [How to deploy at.js](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/how-to-deployatjs.md)
-            + [Implement Target using Adobe Launch](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
-            + [Implement Target without a tag manager](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md)
-            + [Implement Target using Dynamic Tag Management (DTM)](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-using-dynamic-tag-management.md)
-            + [Single Page Application implementation](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/r-target-atjs-single-page-application.md)
-         + at.js functions {#functions-overview}
-            + [at.js functions overview](c-implementing-target/c-implementing-target-for-client-side-web/cmp-at.js-functions.md)
-            + [Debug at.js using the Adobe Experience Cloud Debugger](c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/c-target-debugging-atjs.md)
-            + [Use cloud-based instances with Target](c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/c-targeting-using-cloud-based-instances.md)
-         + at.js frequently asked questions {#faq-at-js}
-            + [at.js FAQs](c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/c-target-atjs-faq.md)
-            + [Global mbox Frequently Asked Questions](c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/c-global-mbox-frequently-asked-questions.md)
-         + [at.js version details](c-implementing-target/c-implementing-target-for-client-side-web/r-target-atjs-versions.md)
-         + mbox.js implementation {#mbox-implement}
-            + [mbox.js implementation overview](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/t-mbox-download.md)
-            + Migrate from mbox.js to at.js {#migrate-mbox}
-               + [Migrate from mbox.js to at.js overview](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/c-target-atjs-implementation.md)
-               + [How to Migrate to at.js from mbox.js](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/t-target-migrate-atjs.md)
-               + [at.js Limitations](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/c-target-atjs-limitations.md)
-               + [at.js Plug-ins](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/c-target-atjs-plugins.md)
-               + [Deploy at.js to a Non-Production Environment](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/r-target-test-atjs.md)
-            + [What mbox.js does](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-mbox-technical.md)
-            + [Configure mbox.js](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/r-advanced-mboxjs-settings.md)
-            + [Download mbox.js](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/t-target-download-config-mbox.md)
-            + [Target page methods by mbox.js library version](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-call-responses-library-version.md)
-            + [Create an Order Confirmation mbox - mbox.js](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/t-orderconfirm-create.md)
-            + [mbox.js Frequently Asked Questions](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-mboxjs-frequently-asked-questions.md)
-            + [mbox.js functions](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-mboxjs-functions.md)
-            + [mbox.js cookies](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-cookie-behavior.md)
-            + [mbox.js version details](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/r-mboxjs-change-log.md)
-            + Understand the Global mbox {#global-mbox}
-               + [Understand the Global mbox ovreview](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/c-understanding-global-mbox.md)
-               + [Customize a Global mbox](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/t-customize-global-mbox.md)
-               + [Use a Global mbox from a Legacy implementation](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/t-mbox-global-target-standard.md)
-               + [Pass Parameters to a global mbox](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/c-pass-parameters-to-global-mbox.md)
-      + [Mobile apps: implement Target](c-implementing-target/c-implementing-target-for-moblile-apps.md)
-      + Server Side: implement Target
-         + [Server Side: implement Target overview](c-implementing-target/c-api-and-sdk-overview/c-api-and-sdk-overview.md)
-         + [Transition from Target legacy APIs to Adobe I/O](c-implementing-target/c-api-and-sdk-overview/c-target-api-documentation.md)
-      + Email: implement Target {#implement-email}
-         + [Email: implement Target overview](c-implementing-target/c-non-javascript-based-implementation/c-non-javascript-based-implementation.md)
-         + [Create an Adbox for an image](c-implementing-target/c-non-javascript-based-implementation/t-testing-content-with-the-adbox.md)
-         + [Test an email image Adbox](c-implementing-target/c-non-javascript-based-implementation/t-testing-email-image-adbox.md)
-         + [Work with redirectors](c-implementing-target/c-non-javascript-based-implementation/c-working-with-redirectors.md)
+   + [Scene7 settings](administrating-target/t-scene7-settings.md)
+   + [Hosts](administrating-target/c-hosts.md)
+   + [Response tokens](administrating-target/c-response-tokens.md)
++ Implement Target {#implement-target}
+   + [Implement Target overview](c-implementing-target/c-implementing-target.md)
+   + Before you implement {#before-implement}
+      + [Before you implement](c-implementing-target/c-considerations-before-you-implement-target/c-considerations-before-you-implement-target.md)
+      + [Understand the Target JavaScript libraries](c-implementing-target/c-considerations-before-you-implement-target/c-target-implement.md)
+      + [Prepare to implement Target](c-implementing-target/c-considerations-before-you-implement-target/c-prepare-to-implement-target.md)
+      + Privacy {#privacy}
+         + [Privacy overview](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/c-privacy.md)
+         + [Privacy and General Data Protection Regulation (GDPR)](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md)
+         + [Delete the Target cookie](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/t-cookie-deleting.md)
+      + Methods to get data into Target {#methods}
+         + [Methods](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/c-methods-to-get-data-into-target.md)
+         + [Profile API settings](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/c-profile-api-settings.md)
+      + [Target security overview](c-implementing-target/c-considerations-before-you-implement-target/c-target-security-overview.md)
+      + [Supported browsers](c-implementing-target/c-considerations-before-you-implement-target/r-supported-browsers.md)
+      + [TLS (Transport Layer Security) encryption changes](c-implementing-target/c-considerations-before-you-implement-target/c-tls-transport-layer-security-encryption.md)
+      + [CNAME and Adobe Target](c-implementing-target/c-considerations-before-you-implement-target/c-implement-cname-support-in-target.md)
+   + Client-side web: implement Target {#client-side}
+      + How at.js works {#at-js}
+         + [How at.js works overview](c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/c-how-atjs-works.md)
+         + [How at.js manages flicker](c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/c-manage-flicker-with-atjs.md)
+         + [at.js integrations](c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/c-target-atjs-integrations.md)
+      + How to deploy at.js {#deploy-at-js}
+         + [How to deploy at.js](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/how-to-deployatjs.md)
+         + [Implement Target using Adobe Launch](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
+         + [Implement Target without a tag manager](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md)
+         + [Implement Target using Dynamic Tag Management (DTM)](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-using-dynamic-tag-management.md)
+         + [Single Page Application implementation](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/r-target-atjs-single-page-application.md)
+      + at.js functions {#functions-overview}
+         + [at.js functions overview](c-implementing-target/c-implementing-target-for-client-side-web/cmp-at.js-functions.md)
+         + [Debug at.js using the Adobe Experience Cloud Debugger](c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/c-target-debugging-atjs.md)
+         + [Use cloud-based instances with Target](c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/c-targeting-using-cloud-based-instances.md)
+      + at.js frequently asked questions {#faq-at-js}
+         + [at.js FAQs](c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/c-target-atjs-faq.md)
+         + [Global mbox Frequently Asked Questions](c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/c-global-mbox-frequently-asked-questions.md)
+      + [at.js version details](c-implementing-target/c-implementing-target-for-client-side-web/r-target-atjs-versions.md)
+      + mbox.js implementation {#mbox-implement}
+         + [mbox.js implementation overview](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/t-mbox-download.md)
+         + Migrate from mbox.js to at.js {#migrate-mbox}
+            + [Migrate from mbox.js to at.js overview](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/c-target-atjs-implementation.md)
+            + [How to Migrate to at.js from mbox.js](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/t-target-migrate-atjs.md)
+            + [at.js Limitations](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/c-target-atjs-limitations.md)
+            + [at.js Plug-ins](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/c-target-atjs-plugins.md)
+            + [Deploy at.js to a Non-Production Environment](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/r-target-test-atjs.md)
+         + [What mbox.js does](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-mbox-technical.md)
+         + [Configure mbox.js](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/r-advanced-mboxjs-settings.md)
+         + [Download mbox.js](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/t-target-download-config-mbox.md)
+         + [Target page methods by mbox.js library version](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-call-responses-library-version.md)
+         + [Create an Order Confirmation mbox - mbox.js](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/t-orderconfirm-create.md)
+         + [mbox.js Frequently Asked Questions](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-mboxjs-frequently-asked-questions.md)
+         + [mbox.js functions](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-mboxjs-functions.md)
+         + [mbox.js cookies](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-cookie-behavior.md)
+         + [mbox.js version details](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/r-mboxjs-change-log.md)
+         + Understand the Global mbox {#global-mbox}
+            + [Understand the Global mbox ovreview](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/c-understanding-global-mbox.md)
+            + [Customize a Global mbox](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/t-customize-global-mbox.md)
+            + [Use a Global mbox from a Legacy implementation](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/t-mbox-global-target-standard.md)
+            + [Pass Parameters to a global mbox](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/c-pass-parameters-to-global-mbox.md)
+   + [Mobile apps: implement Target](c-implementing-target/c-implementing-target-for-moblile-apps.md)
+   + Server Side: implement Target
+      + [Server Side: implement Target overview](c-implementing-target/c-api-and-sdk-overview/c-api-and-sdk-overview.md)
+      + [Transition from Target legacy APIs to Adobe I/O](c-implementing-target/c-api-and-sdk-overview/c-target-api-documentation.md)
+   + Email: implement Target {#implement-email}
+      + [Email: implement Target overview](c-implementing-target/c-non-javascript-based-implementation/c-non-javascript-based-implementation.md)
+      + [Create an Adbox for an image](c-implementing-target/c-non-javascript-based-implementation/t-testing-content-with-the-adbox.md)
+      + [Test an email image Adbox](c-implementing-target/c-non-javascript-based-implementation/t-testing-email-image-adbox.md)
+      + [Work with redirectors](c-implementing-target/c-non-javascript-based-implementation/c-working-with-redirectors.md)
 + Integrate Adobe Target with the Experience Cloud {#integrate}
    + [Integrate Adobe Target with the Experience Cloud overview](c-integrating-target-with-mac/c-integrating-target-with-mac.md)
    + Adobe Analytics as the reporting source for Adobe Target (A4T) {#a4t}
