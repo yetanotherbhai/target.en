@@ -34,5 +34,5 @@ Add the Adobe Mobile Services SDK to your app.
 
 >[!IMPORTANT]
 >
->If you don't have access to the mobile marketing interface, you can make changes directly in the config file in your app code; however, it won't be in sync with the settings page in the user interface.
+> If you don't have access to the mobile marketing interface, you can make changes directly in the config file in your app code; however, it won't be in sync with the settings page in the user interface.
 

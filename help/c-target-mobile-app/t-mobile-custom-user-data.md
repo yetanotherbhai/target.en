@@ -46,15 +46,15 @@ Although there are some reserved keys, both profile and mbox parameters can cont
                                  nil];
    ```
 
-* Keys with the prefix profile (for example, `profile.persona`) are stored on the user's profile.
+   * Keys with the prefix profile (for example, `profile.persona`) are stored on the user's profile.
 
-  These profile attributes can be used across different activities and channels. 
+      These profile attributes can be used across different activities and channels. 
 
-* Keys that don't have any prefix (for example, `userMiles`) are mbox parameters.
+   * Keys that don't have any prefix (for example, `userMiles`) are mbox parameters.
 
-  These parameters are available only during the session. 
+      These parameters are available only during the session. 
 
-* Keys with the prefix entity (for example, `entity.category.id`) are used for product recommendations.
+   * Keys with the prefix entity (for example, `entity.category.id`) are used for product recommendations.
 
 1. Verify the data.
    1. In application `didFinishLaunchingWithOptions`, uncomment or add `[ADBMobile setDebugLogging:YES];`.

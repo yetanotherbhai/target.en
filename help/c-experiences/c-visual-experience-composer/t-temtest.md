@@ -76,12 +76,10 @@ You can specify pages that include the change elements, or apply the change acro
    >
    >Multiple items use `OR` logic, meaning that any single item in the list makes the condition true.
 
-1. If desired, enter additional criteria by clicking **[!UICONTROL Add Criteria]**and repeating the procedure in the previous step.
+1. If desired, enter additional criteria by clicking **[!UICONTROL Add Criteria]** and repeating the procedure in the previous step.
 
    Multiple criteria are joined with AND logic. Adobe Target adds the experience to all pages that match the specified criteria. 
->
->>[!IMPORTANT]
->>
->>Target cannot check the pages to make sure they appear as expected, so it is always an important practice when using this feature to test affected pages before making them public. 
->
 
+>[!IMPORTANT]
+>
+> Target cannot check the pages to make sure they appear as expected, so it is always an important practice when using this feature to test affected pages before making them public.

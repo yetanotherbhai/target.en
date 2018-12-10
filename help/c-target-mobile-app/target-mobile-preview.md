@@ -30,8 +30,8 @@ The mobile preview functionality lets you fully test your Mobile app activities 
 
    For instructions to download the appropriate SDK, see:
 
-    * **iOS: ** [Before You Start](https://marketing.adobe.com/resources/help/en_US/mobile/ios/requirements.html) in the *iOS SDK 4.x for Experience Cloud Solutions* guide. 
-    * **Android: ** [Before You Start](https://marketing.adobe.com/resources/help/en_US/mobile/android/requirements.html) in the Android SDK 4.x for Experience Cloud Solutions guide.
+    * **iOS:** [Before You Start](https://marketing.adobe.com/resources/help/en_US/mobile/ios/requirements.html) in the *iOS SDK 4.x for Experience Cloud Solutions* guide. 
+    * **Android:** [Before You Start](https://marketing.adobe.com/resources/help/en_US/mobile/android/requirements.html) in the *Android SDK 4.x for Experience Cloud Solutions* guide.
 
 1. **Set up a URL scheme:** The preview link uses a URL scheme to open your app. You must specify a unique URL scheme for the preview.
 
@@ -113,38 +113,37 @@ Open the link in a mobile browser on a device where you have your app installed.
 
 1. Open the link in your mobile browser.
 
-   Share the link that you copied in the previous step from the Target UI to your mobile device in a convenient way, for example using text, email, or Slack.
+    Share the link that you copied in the previous step from the Target UI to your mobile device in a convenient way, for example using text, email, or Slack.
 
-<table id="table_F853E79832954A87850BDDAF36D88A7F"> 
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p> <img id="image_D6C60AC753FA4296B440B8C5F6BB5603" href="assets/mobile-preview-open-deeplink.png" /> </p> </td> 
-   <td colname="col2"> <p> <img id="image_F1459ADE032F4B12880385F0CF6218FA" href="assets/mobile-preview-open-app.png" /> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+    <table id="table_F853E79832954A87850BDDAF36D88A7F"> 
+    <tbody> 
+    <tr> 
+    <td colname="col1"> <p> <img id="image_D6C60AC753FA4296B440B8C5F6BB5603" href="assets/mobile-preview-open-deeplink.png" /> </p> </td> 
+    <td colname="col2"> <p> <img id="image_F1459ADE032F4B12880385F0CF6218FA" href="assets/mobile-preview-open-app.png" /> </p> </td> 
+    </tr> 
+    </tbody> 
+    </table>
 
-   Your app opens and starts the Target Mobile Preview Mode. 
+    Your app opens and starts the Target Mobile Preview Mode. 
 
 1. Select the combination of experiences that you want to see, then click **[!UICONTROL Launch Experiences]**.
 
-<table id="table_6123AAE2EE9D426CA477BD71B4361489"> 
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p> <img href="assets/mobile-preview-experience-selection-1.png" id="image_C9AA4C0525A449AA91A253BDD177A1DC" /> </p> </td> 
-   <td colname="col2"> <p> <img id="image_CE9638C68F184AE1AA66A0CDE9AA3770" href="assets/mobile-preview-experience-result-1-france.png" /> </p> </td> 
-   <td colname="col3"> <p> <img id="image_92CB96E9A4274216B7A328F2B49FAEF3" href="assets/mobile-preview-experience-result-1-shipfree.png" /> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <img id="image_E7117C66BA534B2B87F1BDBA20E9EC5A" href="assets/mobile-preview-experience-selection-2.png" /> </p> </td> 
-   <td colname="col2"> <p> <img id="image_3E880BB6C6D34F1EAC64C21CE07A9267" href="assets/mobile-preview-experience-result-2-aus.png" /> </p> </td> 
-   <td colname="col3"> <p> <img id="image_2B419DDBD58B4C0CB4E5A967FCA50922" href="assets/mobile-preview-experience-result-2-10off.png" /> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+    <table id="table_6123AAE2EE9D426CA477BD71B4361489"> 
+    <tbody> 
+    <tr> 
+    <td colname="col1"> <p> <img href="assets/mobile-preview-experience-selection-1.png" id="image_C9AA4C0525A449AA91A253BDD177A1DC" /> </p> </td> 
+    <td colname="col2"> <p> <img id="image_CE9638C68F184AE1AA66A0CDE9AA3770" href="assets/mobile-preview-experience-result-1-france.png" /> </p> </td> 
+    <td colname="col3"> <p> <img id="image_92CB96E9A4274216B7A328F2B49FAEF3" href="assets/mobile-preview-experience-result-1-shipfree.png" /> </p> </td> 
+    </tr> 
+    <tr> 
+    <td colname="col1"> <p> <img id="image_E7117C66BA534B2B87F1BDBA20E9EC5A" href="assets/mobile-preview-experience-selection-2.png" /> </p> </td> 
+    <td colname="col2"> <p> <img id="image_3E880BB6C6D34F1EAC64C21CE07A9267" href="assets/mobile-preview-experience-result-2-aus.png" /> </p> </td> 
+    <td colname="col3"> <p> <img id="image_2B419DDBD58B4C0CB4E5A967FCA50922" href="assets/mobile-preview-experience-result-2-10off.png" /> </p> </td> 
+    </tr> 
+    </tbody> 
+    </table>
 
 ## Limitations {#section_4E9BDED0F718485292527EFB508305BD}
 
 * The view must load again for the new content to display after the [!UICONTROL Launch Experiences] button is clicked. The easiest way is to switch to a different screen and then come back to the screen where you are expecting the change to happen. 
 * Mobile preview is not supported for Android versions earlier than API-19 (KitKat).
-

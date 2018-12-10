@@ -22,6 +22,6 @@ Prefetch content does not persist across launches. The prefetch content is cache
 
 For more information, including prefetch methods, public classes, and code samples, see:
 
-* **iOS: ** [Prefetch Offer Content in iOS](https://marketing.adobe.com/resources/help/en_US/mobile/ios/c_mob_target-prefetch_ios.html) in the* iOS SDK 4.x for Experience Cloud Solutions* guide. 
-* **Android: ** [Prefetch Offer Content in Android](https://marketing.adobe.com/resources/help/en_US/mobile/android/c_mob_target-prefetch_android.html) in the *Android SDK 4.x for Experience Cloud Solutions* guide.
+* **iOS:** [Prefetch Offer Content in iOS](https://marketing.adobe.com/resources/help/en_US/mobile/ios/c_mob_target-prefetch_ios.html) in the* iOS SDK 4.x for Experience Cloud Solutions* guide. 
+* **Android:** [Prefetch Offer Content in Android](https://marketing.adobe.com/resources/help/en_US/mobile/android/c_mob_target-prefetch_android.html) in the *Android SDK 4.x for Experience Cloud Solutions* guide.
 
