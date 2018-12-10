@@ -193,7 +193,7 @@ Although the amount of traffic *per experience* required for Auto-Target or Auto
 
 For Auto-Target, simple rules of thumb can be used to understand traffic requirements:
 
-* ** When Conversion is your success metric:** 1,000 visits and at least 50 conversions per day per experience, and in addition the activity must have at least 7,000 visits and 350 conversions. 
+* **When Conversion is your success metric:** 1,000 visits and at least 50 conversions per day per experience, and in addition the activity must have at least 7,000 visits and 350 conversions. 
 * **When Revenue per Visit is your success metric:** 1,000 visits and at least 50 conversions per day per experience, and in addition the activity must have at least 1,000 conversions per experience. RPV usually requires more data to build models due to the higher data variance that typically exists in visit revenue compared to conversion rate.
 
 **Auto-Target has full-fledged setup functionality.**

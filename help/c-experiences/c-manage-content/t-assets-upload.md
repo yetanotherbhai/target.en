@@ -22,11 +22,11 @@ You can add items to the Image Offers list.
 1. Edit the item's filename, in necessary, then click **[!UICONTROL Upload]**.
 
    The item is added to the library. 
->This video includes information about managing content. 
->
->* Connection between the [Experience Cloud Asset Library](https://marketing.adobe.com/resources/help/en_US/mcloud/creative_cloud.html) and the Target Content Library 
->* Custom HTML Offers 
->* Custom HTML Offer in the Visual Experience Composer 
->
->>[!VIDEO](https://www.youtube.com/watch?v=ZNIGgXOATMY) 
 
+This video includes information about managing content. 
+
+* Connection between the [Experience Cloud Asset Library](https://marketing.adobe.com/resources/help/en_US/mcloud/creative_cloud.html) and the Target Content Library 
+* Custom HTML Offers 
+* Custom HTML Offer in the Visual Experience Composer 
+
+>[!VIDEO](https://www.youtube.com/watch?v=ZNIGgXOATMY)

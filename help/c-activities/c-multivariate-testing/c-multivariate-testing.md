@@ -59,11 +59,11 @@ There are multiple terms used in different ways across the industry. This sectio
 
 **Combination: ** The content variations created when you test multiple content options in multiple locations. For example, if you are testing three locations, each with three content options, then there are 27 possible combinations (3x3x3). A visitor to your site will see one combination, also referred to as an experience.
 
-**Content: ** The text or image comprising a test variation within a location. In a multivariate test, a number of content options within multiple locations are compared. In MVT methodology, the content is sometimes referred to as a *level*.
+**Content:** The text or image comprising a test variation within a location. In a multivariate test, a number of content options within multiple locations are compared. In MVT methodology, the content is sometimes referred to as a *level*.
 
-**Element: ** A DOM element containing content variations to be tested in the MVT test. See also *Location*.
+**Element:** A DOM element containing content variations to be tested in the MVT test. See also *Location*.
 
-**Location: ** A specific content area on a page, often contained by a single DOM element. In MVT methodology, a location is sometimes referred to as a *factor*. A full-factorial multivariate test compares all possible combinations of offers in your locations.
+**Location:** A specific content area on a page, often contained by a single DOM element. In MVT methodology, a location is sometimes referred to as a *factor*. A full-factorial multivariate test compares all possible combinations of offers in your locations.
 
 ## When to Use MVT vs A/B {#section_3D2B966B6671406C861A1843EA41D28C}
 
