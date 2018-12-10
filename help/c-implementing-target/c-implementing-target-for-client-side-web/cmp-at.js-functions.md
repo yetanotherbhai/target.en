@@ -17,26 +17,6 @@ snippet: y
 
 List of functions that can be used with at.js.
 
-## at.js functions {#topic_8E33F5CDAB774AB891304DE2090AF80E}
-
-List of functions that can be used with . 
-
-This section contains the following information:
-
-* [adobe.target.getOffer(options)](../../c-implementing-target/c-implementing-target-for-client-side-web/cmp-at.js-functions.md#reference_C81525D1598A4A1199740DCAB81A7FDF) 
-* [adobe.target.applyOffer(options)](../../c-implementing-target/c-implementing-target-for-client-side-web/cmp-at.js-functions.md#reference_BBE83F513B5B4E03BBC3F50D90864245) 
-* [adobe.target.trackEvent(options)](../../c-implementing-target/c-implementing-target-for-client-side-web/cmp-at.js-functions.md#reference_7E0F19368F9C4BC38F1E5DC5E717E487) 
-* [mboxCreate(mbox,params)](../../c-implementing-target/c-implementing-target-for-client-side-web/cmp-at.js-functions.md#reference_E68805FE86C64792B2066DB17B253D74) 
-* [mboxDefine() and mboxUpdate()](../../c-implementing-target/c-implementing-target-for-client-side-web/cmp-at.js-functions.md#reference_61B2B9F351344CF5B0915D5AFD21C5FE) 
-* [targetGlobalSettings()](../../c-implementing-target/c-implementing-target-for-client-side-web/cmp-at.js-functions.md#concept_8DACBC47ABDE4279BB102B42609FE506)
-
-    * [Data Providers](../../c-implementing-target/c-implementing-target-for-client-side-web/cmp-at.js-functions.md#section_42725F3C837247D58AE1831EA330E44D)
-
-* [targetPageParams()](../../c-implementing-target/c-implementing-target-for-client-side-web/cmp-at.js-functions.md#reference_B235C9F6DA79449ABE3E23F914FEABAE) 
-* [targetPageParamsAll()](../../c-implementing-target/c-implementing-target-for-client-side-web/cmp-at.js-functions.md#reference_97E77FCDD793403685ECCA5A44305F93) 
-* [registerExtension()](../../c-implementing-target/c-implementing-target-for-client-side-web/cmp-at.js-functions.md#reference_B3ACC004D45E460C8DD94C1476D2625C) 
-* [at.js custom events](../../c-implementing-target/c-implementing-target-for-client-side-web/cmp-at.js-functions.md#reference_A828E4BA535F4E7692A075F3D70CF6CD)
-
 ## adobe.target.getOffer(options) {#reference_C81525D1598A4A1199740DCAB81A7FDF}
 
 This function fires a request to get a Target offer.
@@ -248,8 +228,6 @@ The "status" and "error" parameters passed to the error callback will have the f
  </tbody> 
 </table>
 
-[[Back to Top]](../../c-implementing-target/c-implementing-target-for-client-side-web/cmp-at.js-functions.md#ul_589C696EC7D046B2BFD3013CA69AB878) 
-
 ## adobe.target.applyOffer(options) {#reference_BBE83F513B5B4E03BBC3F50D90864245}
 
 This function is for applying the response content.
@@ -320,8 +298,6 @@ adobe.target.getOffer({
 }); 
 
 ```
-
-[[Back to Top]](../../c-implementing-target/c-implementing-target-for-client-side-web/cmp-at.js-functions.md#ul_589C696EC7D046B2BFD3013CA69AB878) 
 
 ## adobe.target.trackEvent(options) {#reference_7E0F19368F9C4BC38F1E5DC5E717E487}
 
@@ -429,8 +405,6 @@ adobe.target.trackEvent({
 >
 >In case the mandatory fields are not set, no request is executed, and an error is thrown.
 
-[[Back to Top]](../../c-implementing-target/c-implementing-target-for-client-side-web/cmp-at.js-functions.md#ul_589C696EC7D046B2BFD3013CA69AB878) 
-
 ## mboxCreate(mbox,params) {#reference_E68805FE86C64792B2066DB17B253D74}
 
 Executes a request and applies the offer to the closest DIV with mboxDefault class name.
@@ -468,8 +442,6 @@ This function is built into [!DNL at.js] mostly to ease the transition from [!DN
 
   The auto-created global mbox in [!DNL at.js] is a better option because it fires from the `<head>` and can return content earlier.
 
-[[Back to Top]](../../c-implementing-target/c-implementing-target-for-client-side-web/cmp-at.js-functions.md#ul_589C696EC7D046B2BFD3013CA69AB878) 
-
 ## mboxDefine() and mboxUpdate() {#reference_61B2B9F351344CF5B0915D5AFD21C5FE}
 
 Define and update an mbox.
@@ -501,8 +473,6 @@ Executes the request and applies the offer to the element identified by the `nod
  mboxUpdate('mboxName','param3=value3','param4=value4'); 
 </script>
 ```
-
-[[Back to Top]](../../c-implementing-target/c-implementing-target-for-client-side-web/cmp-at.js-functions.md#ul_589C696EC7D046B2BFD3013CA69AB878) 
 
 ## targetGlobalSettings() {#concept_8DACBC47ABDE4279BB102B42609FE506}
 
@@ -826,8 +796,6 @@ Consider the following when working with the `dataProviders` setting:
 * If the data providers added to `window.targetGlobalSettings.dataProviders` are async, they will be executed in parallel. The Visitor API request will be executed in parallel with functions added to `window.targetGlobalSettings.dataProviders` to allow a minimum wait time. 
 * `at.js` won't try to cache the data. If the data provider fetches data only once, the data provider should make sure that data is cached and, when the provider function is invoked, serve the cache data for the second invocation.
 
-[[Back to Top]](../../c-implementing-target/c-implementing-target-for-client-side-web/cmp-at.js-functions.md#ul_589C696EC7D046B2BFD3013CA69AB878) 
-
 ## targetPageParams() {#reference_B235C9F6DA79449ABE3E23F914FEABAE}
 
 This method allows you to attach parameters to the global mbox from outside of the request code.
@@ -879,9 +847,7 @@ targetPageParams = function() {
       } 
   }; 
 };
-```
-
-[[Back to Top]](../../c-implementing-target/c-implementing-target-for-client-side-web/cmp-at.js-functions.md#ul_589C696EC7D046B2BFD3013CA69AB878) 
+``` 
 
 ## targetPageParamsAll() {#reference_97E77FCDD793403685ECCA5A44305F93}
 
@@ -934,9 +900,7 @@ targetPageParamsAll = function() {
       } 
   }; 
 };
-```
-
-[[Back to Top]](../../c-implementing-target/c-implementing-target-for-client-side-web/cmp-at.js-functions.md#ul_589C696EC7D046B2BFD3013CA69AB878) 
+``` 
 
 ## registerExtension() {#reference_B3ACC004D45E460C8DD94C1476D2625C}
 
@@ -1049,9 +1013,7 @@ For more information and examples of how to use `registerExtension`, see the [Ad
    <td colname="col3"> <p>Logs the variable list of arguments to the browser console. It is activated only when there are serious errors, such as network timeout, HTML node not found, etc. </p> </td> 
   </tr> 
  </tbody> 
-</table>
-
-[[Back to Top]](../../c-implementing-target/c-implementing-target-for-client-side-web/cmp-at.js-functions.md#ul_589C696EC7D046B2BFD3013CA69AB878) 
+</table> 
 
 ## at.js custom events {#reference_A828E4BA535F4E7692A075F3D70CF6CD}
 
@@ -1128,4 +1090,3 @@ Watch the following video to learn how to use Response Tokens and at.js Custom E
 
 >[!VIDEO](https://video.tv.adobe.com/v/23253/)
 
-[[Back to Top]](../../c-implementing-target/c-implementing-target-for-client-side-web/cmp-at.js-functions.md#ul_589C696EC7D046B2BFD3013CA69AB878) 

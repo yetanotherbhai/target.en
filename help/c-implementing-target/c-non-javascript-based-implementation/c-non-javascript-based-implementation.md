@@ -54,10 +54,6 @@ AdBox ads and Redirector can be used with any kind of activity. The following ta
  </tbody> 
 </table>
 
-The following sections contain more information:
-
-* [Constraints](../../c-implementing-target/c-non-javascript-based-implementation/c-non-javascript-based-implementation.md#section_38F559DCF1324271926608BCD4AB1227)
-
 ## Constraints {#section_38F559DCF1324271926608BCD4AB1227}
 
 * There is no client-side timeout as with standard mboxes. If Target is completely down, visitors to the ad will not see content, not even default. 
