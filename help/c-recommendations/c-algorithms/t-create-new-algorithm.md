@@ -276,7 +276,7 @@ recs/t_data_details.xml
 
 Inclusion rules are optional; however, setting these details gives you more control over the items that appear in your recommendations. Each detail you configure further narrows the display criteria. 
 
-For example, you can choose to display only women's shoes that have an inventory of more than 50 and a price between $25 and $45. You can also weight each attribute so those items that are more important to your business are most likely to appear. 
+For example, you can choose to display only women's shoes that have an inventory of more than 50 and a price between \$25 and \$45. You can also weight each attribute so those items that are more important to your business are most likely to appear. 
 
 As another example, you can choose to display job openings to visitors who visit your site only from certain cities and who have the required college degrees. 
 
