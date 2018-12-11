@@ -34,7 +34,7 @@ See [Join the Experience Cloud](https://marketing.adobe.com/resources/help/en_US
 
 ## Adobe Analytics {#section_8F404FDE9A634534AB0AA4CB3075582B}
 
-* **Analytics report suite access: **Before creating or viewing reports for an Analytics-powered activity, you must be a member of the **[!UICONTROL All Report Access]** group, or member of a group that has access to at least one report in the report suite that you want to use. If you are unable to view reports, make sure you are a member of one of these groups.
+* **Analytics report suite access:** Before creating or viewing reports for an Analytics-powered activity, you must be a member of the **[!UICONTROL All Report Access]** group, or member of a group that has access to at least one report in the report suite that you want to use. If you are unable to view reports, make sure you are a member of one of these groups.
 
   See [Groups](https://marketing.adobe.com/resources/help/en_US/reference/groups.html) for more information. 
 
