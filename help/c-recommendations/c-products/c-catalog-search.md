@@ -30,11 +30,10 @@ The number that displays next to "Products" is the number of products that match
 
 Click the refresh icon to re-index your catalog. Be aware that indexing can take some time, depending on the size of your feed.
 
-The catalog is automatically refreshed every hour. Click **[!UICONTROL Refresh]** to reindex the catalog between automatic refreshes.
+The catalog is automatically refreshed every hour. Click **[!UICONTROL Refresh]** to re-index the catalog between automatic refreshes.
 
-You can create collections or exclusions using Advanced Search on the Catalog Search page (Recommendations > Catalog Search > Advanced Search). After creating a search using "id > contains," for example, you can then click Save As > Collection or Exclusion.
+You can create collections or exclusions using Advanced Search on the Catalog Search page ([!UICONTROL Recommendations] > [!UICONTROL Catalog Search] > [!UICONTROL Advanced Search]). After creating a search using "id > contains," for example, you can then click [!UICONTROL Save As] > [!UICONTROL Collection or Exclusion].
 
 >[!IMPORTANT]
 >
 >The Advanced Search functionality is case-insensitive; however, products returned at the time of delivery are based on case-sensitive search. This mismatch might lead to confusion. Ensure that you consider case-sensitivity when you create collections or exclusions based on results using the Advanced Search functionality. For example, if you perform a search for "Holiday," that initial search lists results containing "Holiday" and "holiday." If you then create a catalog with the intent to return products containing "holiday," only products containing "holiday" are returned. Products containing "Holiday" are not returned. Exclusions are handled in a similar fashion.
-

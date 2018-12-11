@@ -192,11 +192,9 @@ The Analytics Product classification is the only classification available for re
 >[!IMPORTANT]
 >
 >Before importing entity data into Recommendations using Analytics product classifications, be aware that this is not the preferred method.
-
-Be aware of the following caveats:
-
-* Updates to entity attributes incur an additional delay of up to 24 hours.  
-* Target supports Product Classifications only. The Analytics product SKU must map to the same level as the Recommendations entity.id . Custom Analytics Classifications can be engineered using Adobe Consulting Services. Please contact your Account Manager with questions.
+> Be aware of the following caveats:
+>* Updates to entity attributes incur an additional delay of up to 24 hours.  
+>* Target supports Product Classifications only. The Analytics product SKU must map to the same level as the Recommendations entity.id . Custom Analytics Classifications can be engineered using Adobe Consulting Services. Please contact your Account Manager with questions.
 
 ## Create Feed {#task_C6CD9EA905744C2CA0BB8259BB74C867}
 
@@ -232,7 +230,7 @@ recs/t_feeds_create.xml
     * Every 2 Weeks 
     * Never
 
-  Do not schedule an update. Choose this if you do not want this feed to run.
+    Do not schedule an update. Choose this if you do not want this feed to run.
 
 1. Specify the time you want your feed to run.
 
@@ -280,7 +278,7 @@ The following are possible statuses for a feed:
 |--- |--- |
 |Syncing|Feed setup details are being saved to  Target .|
 |No Feed Run|You have created a feed but it has not been scheduled (frequency is set to Never).|
-|Scheduled at date and time|The feed has not been run, but is scheduled to run at the specified date and time.|
+|Scheduled at *date and time*|The feed has not been run, but is scheduled to run at the specified date and time.|
 |Server Not Found|FTP or URL locations are invalid or otherwise unreachable.|
 |Waiting to Download|The feed is waiting to downloaded to  Target .|
 |Preparing to Import|The feed is being prepared to import to  Target .|

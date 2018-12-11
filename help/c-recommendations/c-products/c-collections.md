@@ -71,10 +71,8 @@ recs/t_create_collection.xml
 
    You can add rules to use multiple parameters to define a collection. Multiple rules are joined with an AND. All specified rules must be matched for the collection to apply. 
 1. Click **[!UICONTROL Save]**.
->You can also create collections using Advanced Search on the Catalog Search page (Recommendations > Catalog Search > Advanced Search). After creating a search using "id > contains," for example, you can then click Save As > Collection. 
->
->>[!IMPORTANT]
->>
->>The Advanced Search functionality is case-insensitive; however, products returned at the time of delivery are based on case-sensitive search. This mismatch might lead to confusion. Ensure that you consider case-sensitivity when you create collections based on results using the Advanced Search functionality. For example, if you perform a search for "Holiday," that initial search lists results containing "Holiday" and "holiday." If you then create a catalog with the intent to return products containing "holiday," only products containing "holiday" are returned. Products containing "Holiday" are not returned. 
->
+You can also create collections using Advanced Search on the Catalog Search page (Recommendations > Catalog Search > Advanced Search). After creating a search using "id > contains," for example, you can then click Save As > Collection. 
 
+>[!IMPORTANT]
+>
+>The Advanced Search functionality is case-insensitive; however, products returned at the time of delivery are based on case-sensitive search. This mismatch might lead to confusion. Ensure that you consider case-sensitivity when you create collections based on results using the Advanced Search functionality. For example, if you perform a search for "Holiday," that initial search lists results containing "Holiday" and "holiday." If you then create a catalog with the intent to return products containing "holiday," only products containing "holiday" are returned. Products containing "Holiday" are not returned. 
