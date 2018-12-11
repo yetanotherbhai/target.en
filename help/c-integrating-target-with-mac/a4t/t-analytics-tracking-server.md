@@ -30,9 +30,9 @@ The debugger should be viewed on a page where the activity will be delivered to 
 
    The analytics tracking server is found in the SiteCatalyst Image section of the debugger. The field is called *First Party Cookies* or *Third Party Cookies* depending on the implementation, and the Analytics tracking server value will be in one of these formats:
 
-* (for CNAME implementations) 
-* (for non-RDC implementations) 
-* (for RDC implementation)
+   * (for CNAME implementations) 
+   * (for non-RDC implementations) 
+   * (for RDC implementation)
 
    *Company* represents the Analytics company name, *metrics* is an example of a CNAME value, and *d1* is an example of an Analytics data center. 
 1. Copy the entire contents of the field.
