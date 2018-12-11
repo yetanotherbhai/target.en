@@ -592,7 +592,7 @@ You can override the following settings:
   <tr> 
    <td colname="col1"> <p>overrideMboxEdgeServer </p> </td> 
    <td colname="col2"> <p>Boolean </p> </td> 
-   <td colname="col3"> <p>false </p> </td> 
+   <td colname="col3"> <p>true (true beginning with at.js version 1.6.2)</p> </td> 
    <td colname="col4"> <p>Indicates if we should use <span class="codeph"> &lt;clientCode&gt;.tt.omtrdc.net </span> domain or <span class="codeph"> mboxedge&lt;clusterNumber&gt;.tt.omtrdc.net </span> domain. If this value is true, <span class="codeph"> mboxedge&lt;clusterNumber&gt;.tt.omtrdc.net </span> domain will be saved to a cookie </p> </td> 
   </tr> 
   <tr> 
