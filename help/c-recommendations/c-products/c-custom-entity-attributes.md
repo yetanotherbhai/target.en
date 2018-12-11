@@ -101,7 +101,7 @@ The same catalog will look like this in a spreadsheet:
 
 When converting to [!DNL .csv] format, the spreadsheet software adds double quotation marks around cell contents to prevent commas within the cell from acting as column separators. It also adds double quotation marks around JSON string values you include in custom multi-value attributes. This can make working directly with the raw file unwieldy. For example:
 
-* Spreadsheet: ["1","2","3"] 
+* Spreadsheet: `["1","2","3"]` 
 * Raw: `"[""1"",""2"",""3""]"`
 
 Use caution when editing a raw catalog CSV file directly.

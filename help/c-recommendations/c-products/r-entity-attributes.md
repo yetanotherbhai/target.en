@@ -60,7 +60,6 @@ The following table describes the available variables.
    <td colname="col1"> <p> <span class="codeph"> entity.pageURL </span> </p> <p>Single-value only. </p> </td> 
    <td colname="col2"> <p>Defines the relative URL of the page where the item can be purchased. </p> <p>Example: </p> <p> 
      <code> 
-      
 'entity.pageURL=baseball/giants-tix/giantsvrockies5.12.2000-67833' 
      </code> </p> </td> 
   </tr> 
