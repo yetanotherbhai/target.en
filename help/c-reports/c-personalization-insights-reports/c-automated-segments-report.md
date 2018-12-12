@@ -67,56 +67,56 @@ Different visitors respond differently to the offers/experiences in your AP/AT a
 
    The following table explains how to interpret the report and describes its elements:
 
-<table id="table_682258CE61FF476F81656324620FF914"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Element </th> 
-   <th colname="col2" class="entry"> Details </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Left-hand side panel </p> </td> 
-   <td colname="col2"> <p>The left-hand side panel lists the 20 largest "automated segments" identified by Target's personalization models for this activity. An "automated segment" is like an audience, but it is defined by Target's personalization models instead of by the marketer. Each automated segment is made up of specific values (or value ranges) of specific attributes. </p> <p>Note that automated segments can overlap. Automated segments can be defined by one, two, three, or four attributes. See the examples below for more details. </p> <p>To learn more about Target's personalization models, see <a href="../../c-activities/t-automated-personalization/c-algo-random-forest.md#concept_48F3CDAA16A848D2A84CDCD19DAAE3AA" format="dita" scope="local"> Random Forest Algorithm</a>. To learn more about the attributes Target's personalization models use to create the automated segments, see <a href="../../c-activities/t-automated-personalization/r-ap-data.md#reference_255BD3DE7AD04DC9B766E0BC78961058" format="dita" scope="local"> Data Collection for Target's Personalization Algorithms</a>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Center graph </p> </td> 
-   <td colname="col2"> <p>The center graphs displays how your activity's content performed for the highlighted automated segment. As you click different segments on the left-hand panel, the center graphs update. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Pie charts </p> </td> 
-   <td colname="col2"> <p>The pie charts at the top of the center panel show the size of the automated segment, as well as the total number of personalized visits in the activity (for example, traffic to this activity that was served by the personalization model. It does not include control traffic or traffic served by the overall winner model). Note that the size of the segment is based only on personalized visits. </p> <p><img href="assets/pie.png" id="image_2F8733BB8AC94E9B8748BB8D3DB35D05" /> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Dual-axis bar chart </p> </td> 
-   <td colname="col2"> <p>The dual-axis bar chart includes visit and conversion information by the offer or experience for that specific automated segment. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Pink bar </p> </td> 
-   <td colname="col2"> <p>The pink bar represents the conversion rate, and uses the bottom axis of the graph. You can hover over the bar for more information </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Blue bar </p> </td> 
-   <td colname="col2"> <p>The blue bar represents the number of visits, and uses the top axis of the graph. You can hover over the bar for more information. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Grey dotted line </p> </td> 
-   <td colname="col2"> <p> The grey dotted line represents the conversion rate for all personalized visits in the activity, across all offers/ experiences and automated segments. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+   <table id="table_682258CE61FF476F81656324620FF914"> 
+   <thead> 
+   <tr> 
+      <th colname="col1" class="entry"> Element </th> 
+      <th colname="col2" class="entry"> Details </th> 
+   </tr>
+   </thead>
+   <tbody> 
+   <tr> 
+      <td colname="col1"> <p>Left-hand side panel </p> </td> 
+      <td colname="col2"> <p>The left-hand side panel lists the 20 largest "automated segments" identified by Target's personalization models for this activity. An "automated segment" is like an audience, but it is defined by Target's personalization models instead of by the marketer. Each automated segment is made up of specific values (or value ranges) of specific attributes. </p> <p>Note that automated segments can overlap. Automated segments can be defined by one, two, three, or four attributes. See the examples below for more details. </p> <p>To learn more about Target's personalization models, see <a href="../../c-activities/t-automated-personalization/c-algo-random-forest.md#concept_48F3CDAA16A848D2A84CDCD19DAAE3AA" format="dita" scope="local"> Random Forest Algorithm</a>. To learn more about the attributes Target's personalization models use to create the automated segments, see <a href="../../c-activities/t-automated-personalization/r-ap-data.md#reference_255BD3DE7AD04DC9B766E0BC78961058" format="dita" scope="local"> Data Collection for Target's Personalization Algorithms</a>. </p> </td> 
+   </tr> 
+   <tr> 
+      <td colname="col1"> <p>Center graph </p> </td> 
+      <td colname="col2"> <p>The center graphs displays how your activity's content performed for the highlighted automated segment. As you click different segments on the left-hand panel, the center graphs update. </p> </td> 
+   </tr> 
+   <tr> 
+      <td colname="col1"> <p>Pie charts </p> </td> 
+      <td colname="col2"> <p>The pie charts at the top of the center panel show the size of the automated segment, as well as the total number of personalized visits in the activity (for example, traffic to this activity that was served by the personalization model. It does not include control traffic or traffic served by the overall winner model). Note that the size of the segment is based only on personalized visits. </p> <p><img href="assets/pie.png" id="image_2F8733BB8AC94E9B8748BB8D3DB35D05" /> </p> </td> 
+   </tr> 
+   <tr> 
+      <td colname="col1"> <p>Dual-axis bar chart </p> </td> 
+      <td colname="col2"> <p>The dual-axis bar chart includes visit and conversion information by the offer or experience for that specific automated segment. </p> </td> 
+   </tr> 
+   <tr> 
+      <td colname="col1"> <p>Pink bar </p> </td> 
+      <td colname="col2"> <p>The pink bar represents the conversion rate, and uses the bottom axis of the graph. You can hover over the bar for more information </p> </td> 
+   </tr> 
+   <tr> 
+      <td colname="col1"> <p>Blue bar </p> </td> 
+      <td colname="col2"> <p>The blue bar represents the number of visits, and uses the top axis of the graph. You can hover over the bar for more information. </p> </td> 
+   </tr> 
+   <tr> 
+      <td colname="col1"> <p>Grey dotted line </p> </td> 
+      <td colname="col2"> <p> The grey dotted line represents the conversion rate for all personalized visits in the activity, across all offers/ experiences and automated segments. </p> </td> 
+   </tr> 
+   </tbody> 
+   </table>
 
-   **Automated Segment Example 1**
+      **Automated Segment Example 1**
 
-   This automated segment is defined based on only one attribute. Visitors included in this automated segment saw this AP activity on a weekday outside of typical working hours or on a weekend.
+      This automated segment is defined based on only one attribute. Visitors included in this automated segment saw this AP activity on a weekday outside of typical working hours or on a weekend.
 
-   ![](assets/automated_segment_example_1.png)
+      ![](assets/automated_segment_example_1.png)
 
-   **Automated Segment Example 2**
+      **Automated Segment Example 2**
 
-   This automated segment is defined based on two attributes. Visitors included in this automated segment who saw this AP activity had fewer than three page views in their current visit and were geographically based within the Latitude 42.57 and 47.29 (approximately between New Hampshire/Oregon and Washington/Maine for a US-based company).
+      This automated segment is defined based on two attributes. Visitors included in this automated segment who saw this AP activity had fewer than three page views in their current visit and were geographically based within the Latitude 42.57 and 47.29 (approximately between New Hampshire/Oregon and Washington/Maine for a US-based company).
 
-   ![](assets/automated_segment_example_2.png)
+      ![](assets/automated_segment_example_2.png)
 
 1. (Optional) [Download the report in CSV format](../../c-reports/c-report-settings/c-report-settings.md#section_77E65C50BAAF4AB79242DB3A8778ADEF) for analysis in Excel and other tools.
 
@@ -126,7 +126,7 @@ Different visitors respond differently to the offers/experiences in your AP/AT a
 
 ## Automated Segments FAQ {#section_740910A52FA646B4AC9452F98C2F5719}
 
-** Personalization Insights reports are not available yet for my activity. Why is that?**
+**Personalization Insights reports are not available yet for my activity. Why is that?**
 
 There are several reasons why the [!UICONTROL Personalization Insights] reports are not yet available for your activity:
 
@@ -134,7 +134,7 @@ There are several reasons why the [!UICONTROL Personalization Insights] reports 
 * Your activity has not had sufficient traffic during the specified time frame. After 15 days have passed, assuming there is sufficient personalized traffic in your activity to build the personalization models, Automated Segments and Important Attributes reports will be available. 
 * Your activity has a revenue optimization goal. At this time, [!UICONTROL Personalization Insights] is available only for conversion optimization goal activities. We will be adding support for revenue optimization goal activities in a future release.
 
-**What is an attribute? **
+**What is an attribute?**
 
 An attribute is information about a visitor or his or her specific visit used by the personalization algorithms to learn how to personalize traffic. For example, an attribute might be browser type, location, time of day of visit, and so forth.
 
@@ -164,27 +164,27 @@ There are several potential reasons why you might see more visits to a lower-con
 * Lower-volume activities where certain offers / experiences do not have models built, or where models built sooner for some offers / experiences than others. 
 * Targeting rules on a specific offer that limits which visitors can see which offers / experiences.
 
-**Is the information in the [!UICONTROL Automated Segments] and [!UICONTROL Important Attributes] reports the same as in the CSV download? **
+**Is the information in the [!UICONTROL Automated Segments] and [!UICONTROL Important Attributes] reports the same as in the CSV download?**
 
 No, the UI report contains select information. The CSV download contains additional details. The Automated Segment Insights report download includes additional Automated Segments beyond the top segments included in the UI, along with how those segments performed against your offers or experiences. The Important Attributes report includes the top 100 visitor attributes and their relative importance, while the UI only includes the top 10 visitor attributes.
 
-**Can I see [!UICONTROL Personalization Insights] for a custom date range? **
+**Can I see [!UICONTROL Personalization Insights] for a custom date range?**
 
 Personalization Insights reporting (both [!UICONTROL Automated Segments] and [!UICONTROL Important Attributes]) is available only for fixed date ranges: 15 days, 30 days, 45 days, 60 days, and 90 days. These fixed date ranges allow [!UICONTROL Personalization Insights] to use a large enough range of data to reduce the likelihood that you derive insights from a short-lived pattern in your activity. You can select these durations for any end-date (where these is enough data in the activity to satisfy the duration).
 
-**How is [!UICONTROL Personalization Insights] created? **
+**How is [!UICONTROL Personalization Insights] created?**
 
 [!UICONTROL Personalization Insights] is created using an Adobe patent-pending technique called MAGIX (Model Agnostic Globally Interpretable Explanations). You can learn more about MAGIX in the Adobe research team’s published paper on the [arXiv.org website](https://arxiv.org/abs/1706.07160).
 
-**Why does the total visitor traffic data in the [!UICONTROL Automated Segments] report not match my AP or AT Summary/Performance report? **
+**Why does the total visitor traffic data in the [!UICONTROL Automated Segments] report not match my AP or AT Summary/Performance report?**
 
 The [!UICONTROL Personalization Insights] reports include only visitors who saw a piece of content selected by Target’s personalization models (i.e. it does not consider control traffic or traffic that is served by the overall winner model). This traffic type is called “personalized” traffic. The summary performance report in AP/AT includes control versus “targeted” traffic. Targeted traffic includes personalized traffic, as well as traffic that was served using the overall winner model and some randomly served traffic used to continue to learn.
 
-**Are the automated segments mutually exclusive? **
+**Are the automated segments mutually exclusive?**
 
 No, there is overlap between the automated segments.
 
-**Is [!UICONTROL Personalization Insights] available for revenue-based modeling goals/primary goal? **
+**Is [!UICONTROL Personalization Insights] available for revenue-based modeling goals/primary goal?**
 
 At this time, [!UICONTROL Personalization Insights] is available only for conversion optimization goal activities. We will be adding support for revenue optimization goal activities in a future release.
 

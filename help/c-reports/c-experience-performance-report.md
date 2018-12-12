@@ -14,7 +14,7 @@ snippet: y
 
 # Experience Performance report (MVT){#experience-performance-report-mvt}
 
-The Experience Performance report shows how each experience in the activity performs.This report includes information about the number of entrants, the conversion rate, the lift, and the confidence.
+The Experience Performance report shows how each experience in the activity performs. This report includes information about the number of entrants, the conversion rate, the lift, and the confidence.
 
 This video demonstrates how to create a multivariate test using the Target three-step guided workflow. The Experience Performance report is described beginning at 8:20.
 

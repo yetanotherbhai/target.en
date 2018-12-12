@@ -26,7 +26,7 @@ You can save up to ten different presets of an individual activity's report afte
 
 You can also configure an individual activity's report as desired and then save that configuration as your default/favorite preset. This is the view that displays whenever you view that activity's report going forward.
 
-**Create a Preset or Default Preset **
+**Create a Preset or Default Preset**
 
 1. Configure the activity's report as desired (metrics, date ranges, audiences, advanced settings, and so forth). 
 1. Next to **[!UICONTROL Target Preset]**, click the three vertical ellipses icon > **[!UICONTROL Save as New]**.

@@ -16,26 +16,20 @@ snippet: y
 # Personalization Insights reports{#personalization-insights-reports}
 
 Two specialized reports are available to users of Automated Personalization (AP) and Auto-Target (AT) activities: the Automated Segments and Important Attributes reports.
-<table id="table_94482816FCA2417A9B0EA7BBCC414715"> 
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p><b>Notes:</b> </p> <p> 
-     <ul id="ul_D2221BB4EAD54260B69A2E282C789E98"> 
-      <li id="li_19AD73402DB54C199EC506D434ABE96C"> <p>AP and AT activities are available as part of the <span class="keyword"> Target Premium </span> solution. They are not included with <span class="keyword"> Target Standard </span> without a <span class="keyword"> Target Premium </span> license. </p> </li> 
-      <li id="li_E1AC7D9CA0B9418F852B843E3418D898"> <p>Personalization Insights reports are available only for AP and AT activities that use a conversion optimization goal. Activities where the optimization goal was changed to conversion from revenue after the activity was already live are also not supported. </p> </li> 
-      <li>
-      <p>Personalization Insights reports are supported in the [default environment](administrating-target/c-hosts.md) only.</p> </li>
-     </ul> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+
+>[!NOTE]
+>
+>* P and AT activities are available as part of the [!DNL Target Premium] solution. They are not included with [!DNL Target Standard] without a [!DNL Target Premium] license.
+>* Personalization Insights reports are available only for AP and AT activities that use a conversion optimization goal. Activities where the optimization goal was changed to conversion from revenue after the activity was already live are also not supported.
+>* Personalization Insights reports are supported in the [default environment](../../administrating-target/c-hosts.md) only.
+
 ## Personalization Insights Reporting Overview {#section_B47CD4A50FEB43D587F9FACD9FFD6D9D}
 
 The goal of the [!UICONTROL Personalization Insights] reports is to provide more information on how the Target personalization models behind your AP and AT activities personalize visitor traffic. The [Random Forest algorithm](../../c-activities/t-automated-personalization/c-algo-random-forest.md#concept_48F3CDAA16A848D2A84CDCD19DAAE3AA) is the basis for Target's personalization models.
 
 Because the goal of the [!UICONTROL Personalization Insights] reports is to understand how Target's personalization models decided to send which visitor to what piece(s) of content, the [!UICONTROL Personalization Insights] reports reflect only a sub-segment of all the traffic served by your AP or AT activity. Specifically, the two reports are reflective of all traffic that used the personalization model. In other words, [!UICONTROL Personalization Insights] reports do not consider control traffic or traffic that is served by the overall winner model.
 
-There are two reports available in :
+There are two reports available in:
 
 <table id="table_713AAD1ED0A5460580ACA7EBB7986C2A"> 
  <thead> 

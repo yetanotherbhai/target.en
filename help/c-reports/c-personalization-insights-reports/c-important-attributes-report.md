@@ -67,24 +67,24 @@ In different activities, different attributes are more, or less, important to ho
 
    The following table explains how to interpret the report and describes its elements:
 
-<table id="table_2EE03EE607164B939276BD00A6B3FA2C"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Element </th> 
-   <th colname="col2" class="entry"> Details </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Bar graph </p> </td> 
-   <td colname="col2"> <p>The multi-colored bar graph at the top of the screen allows you to visualize these relative importance scores and maps to the dot's color beside each respective attribute in the table. You can also hover over a specific color in the bar chart to see the attribute it represents. </p> <p>The importance scores across the top 100 attributes add to 100%. For more information about how to add more attributes that Target's personalization models can use, see <a href="../../c-activities/t-automated-personalization/c-uploading-data-for-the-target-personalization-algorithms.md#concept_85EA505B37E54514A1C8AB91553FEED6" format="dita" scope="local"> Uploading Data for Target's Personalization Algorithms</a>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Model Attribute Ranking chart </p> </td> 
-   <td colname="col2"> <p>The Model Attribute Ranking includes the top 10 attributes that were most important to how Target's personalization model decided what content to show each visitor. The importance score shows, relative to the top 100 attributes, how important a specific attribute was to Target's personalization models in this activity. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+    <table id="table_2EE03EE607164B939276BD00A6B3FA2C"> 
+    <thead> 
+      <tr> 
+      <th colname="col1" class="entry"> Element </th> 
+      <th colname="col2" class="entry"> Details </th> 
+      </tr>
+    </thead>
+    <tbody> 
+      <tr> 
+      <td colname="col1"> <p>Bar graph </p> </td> 
+      <td colname="col2"> <p>The multi-colored bar graph at the top of the screen allows you to visualize these relative importance scores and maps to the dot's color beside each respective attribute in the table. You can also hover over a specific color in the bar chart to see the attribute it represents. </p> <p>The importance scores across the top 100 attributes add to 100%. For more information about how to add more attributes that Target's personalization models can use, see <a href="../../c-activities/t-automated-personalization/c-uploading-data-for-the-target-personalization-algorithms.md#concept_85EA505B37E54514A1C8AB91553FEED6" format="dita" scope="local"> Uploading Data for Target's Personalization Algorithms</a>. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Model Attribute Ranking chart </p> </td> 
+      <td colname="col2"> <p>The Model Attribute Ranking includes the top 10 attributes that were most important to how Target's personalization model decided what content to show each visitor. The importance score shows, relative to the top 100 attributes, how important a specific attribute was to Target's personalization models in this activity. </p> </td> 
+      </tr> 
+    </tbody> 
+    </table>
 
 1. (Optional) [Download the report in CSV format](../../c-reports/c-report-settings/c-report-settings.md#section_77E65C50BAAF4AB79242DB3A8778ADEF) for analysis in Excel and other tools.
 
@@ -94,7 +94,7 @@ In different activities, different attributes are more, or less, important to ho
 
 ## Important Attributes FAQ {#section_740910A52FA646B4AC9452F98C2F5719}
 
-** Personalization Insights reports are not available yet for my activity. Why is that?**
+**Personalization Insights reports are not available yet for my activity. Why is that?**
 
 There are several reasons why the [!UICONTROL Personalization Insights] reports are not yet available for your activity:
 
@@ -102,29 +102,29 @@ There are several reasons why the [!UICONTROL Personalization Insights] reports 
 * Your activity has not had sufficient traffic during the specified time frame. After 15 days have passed, assuming there is sufficient personalized traffic in your activity to build the personalization models, Automated Segments and Important Attributes reports will be available. 
 * Your activity has a revenue optimization goal. At this time, [!UICONTROL Personalization Insights] is available only for conversion optimization goal activities. We will be adding support for revenue optimization goal activities in a future release.
 
-**What is an attribute? **
+**What is an attribute?**
 
 An attribute is information about a visitor or his or her specific visit used by the personalization algorithms to learn how to personalize traffic. For example, an attribute might be browser type, location, time of day of visit, and so forth.
 
 For more information about what attributes [!DNL Target] uses in its personalization models, see [Data Collection for Target's Personalization Algorithms](../../c-activities/t-automated-personalization/r-ap-data.md#reference_255BD3DE7AD04DC9B766E0BC78961058). For more information about how to upload new attributes into Target to use in Target's personalization models, see [Methods to get Data into Target](../../c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/c-methods-to-get-data-into-target.md#concept_0069C0EFB56C4700BB33F2F35C2B9B17).
 
-**Is the information in the [!UICONTROL Automated Segments] and [!UICONTROL Important Attributes] reports the same as in the CSV download? **
+**Is the information in the [!UICONTROL Automated Segments] and [!UICONTROL Important Attributes] reports the same as in the CSV download?**
 
 No, the UI report contains select information. The CSV download contains additional details. The Automated Segment Insights report download includes additional Automated Segments beyond the top segments included in the UI, along with how those segments performed against your offers or experiences. The Important Attributes report includes the top 100 visitor attributes and their relative importance, while the UI only includes the top 10 visitor attributes.
 
-**Can I see Personalization Insights for a custom date range? **
+**Can I see Personalization Insights for a custom date range?**
 
 Personalization Insights reporting (both [!UICONTROL Automated Segments] and [!UICONTROL Important Attributes]) is available only for fixed date ranges: 15 days, 30 days, 45 days, 60 days, and 90 days. These fixed date ranges allow [!UICONTROL Personalization Insights] to use a large enough range of data to reduce the likelihood that you derive insights from a short-lived pattern in your activity. You can select these durations for any end-date (where these is enough data in the activity to satisfy the duration).
 
-**How is [!UICONTROL Personalization Insights] created? **
+**How is [!UICONTROL Personalization Insights] created?**
 
 [!UICONTROL Personalization Insights] is created using an Adobe patent-pending technique called MAGIX (Model Agnostic Globally Interpretable Explanations). You can learn more about MAGIX in the Adobe research team’s published paper on the [arXiv.org website](https://arxiv.org/abs/1706.07160).
 
-**Is [!UICONTROL Personalization Insights] available for revenue-based modeling goals/primary goal? **
+**Is [!UICONTROL Personalization Insights] available for revenue-based modeling goals/primary goal?**
 
 At this time, [!UICONTROL Personalization Insights] is available only for conversion optimization goal activities. We will be adding support for revenue optimization goal activities in a future release.
 
-**What is the attribute importance score in the Important Attributes report? **
+**What is the attribute importance score in the Important Attributes report?**
 
 The importance score in the "Attribute Importance Ranking" part of the report provides input into what variables the algorithm used to learn were most important when it determined how to split all the visitors into the segments it identified. It assigned a percentage score to the top 100 attributes used by the model.
 
@@ -137,4 +137,3 @@ The importance score in the "Attribute Importance Ranking" part of the report pr
 * Understand what attributes were most critical to how the model learned. 
 * See which attributes are used in the personalization models and how important they are. 
 * Identify opportunities for additional data points you can pass into Target to further inform your personalization.
-

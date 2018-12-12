@@ -179,15 +179,15 @@ For example, use:
 * The value for latitude should be between -90 and 90. 
 * The value for longitude should be between -180 and 180.
 
-** How does geo targeting work for mobile devices? **
+**How does geo targeting work for mobile devices?**
 
 The vast majority of mobile device users access content via WiFi, which means Target's IP-based geo targeting is as accurate as on a desktop. Cell tower-based connections might be less accurate because the visitor's IP address is based on the tower where the signal is being picked up. Some mobile geo-location issues can be solved using the [Geolocation API](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API).
 
-** How does geo feature handle visitors from AOL? **
+**How does geo feature handle visitors from AOL?**
 
 Due to the way AOL proxies its traffic, we can only target them at a country level. For example, a campaign targeted to France will successfully target AOL users in France. But a campaign targeted to Paris will not successfully target AOL users in Paris. If your intent is to specifically target AOL users, you can set the region field to "aol." In fact, you can target US AOL users by specifying two targeting conditions: country exactly matches "united states" and region exactly matches "aol."
 
-** What location granularity does geo targeting provide? **
+**What location granularity does geo targeting provide?**
 
 * Country - global 
 * State/province/region - global 
@@ -196,7 +196,7 @@ Due to the way AOL proxies its traffic, we can only target them at a country lev
 * DMA/ITV (UK) - US, UK 
 * Mobile carrier - global
 
-** How can I test my campaigns as if I'm a user coming from a different location?**
+**How can I test my campaigns as if I'm a user coming from a different location?**
 
 You can override your IP address with an IP address from a different location and use the `mboxOverride.browserIp url` parameter. So if your company is in the UK, but your global campaign targets visitors in Aukland, New Zealand, use this style of URL assuming that `60.234.0.39` is an IP address in Auckland:
 
