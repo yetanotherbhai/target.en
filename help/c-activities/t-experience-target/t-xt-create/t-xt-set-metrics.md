@@ -24,9 +24,9 @@ For detailed information about success metrics, see [Success Metrics](../../../c
 
    The [!UICONTROL Select Metrics] page lists the success metrics you can choose for your activity. The success metrics are divided into the following categories:
 
-* Conversion 
-* Revenue 
-* Engagement
+   * Conversion 
+   * Revenue 
+   * Engagement
 
    You can use any of the pre-built success metrics, or create a custom success metric. You can also mark a success metric as a primary metric. Reports and Experience Cloud cards default to show the primary metric, if one is set. 
 1. Specify the settings for your metrics.

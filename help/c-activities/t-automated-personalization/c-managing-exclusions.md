@@ -108,7 +108,7 @@ Excluding default content is a great way to change the look and feel of the rest
 
    ![](assets/exclude_content_vec_3.png)
    
-   1. Click **[!UICONTROL Save]**.
+1. Click **[!UICONTROL Save]**.
 
    You can see the experiences created from the offers you specified under [!UICONTROL Manage Content]. You'll notice no experiences are created in [!UICONTROL Manage Content] using the default offer you excluded. 
 

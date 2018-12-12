@@ -44,17 +44,17 @@ Target provides various places in the UI where you can edit existing activities.
 
 1. Select the desired option::
 
-    * **Edit Experiences: **Takes you directly to the [!UICONTROL Experiences] page (the first step in the guided workflow). Make your desired changes, then use the split button (explained above) to save the activity.
+    * **Edit Experiences:** Takes you directly to the [!UICONTROL Experiences] page (the first step in the guided workflow). Make your desired changes, then use the split button (explained above) to save the activity.
 
         * Click **[!UICONTROL Save & Close]** to save your changes and display the activity's Overview page. 
         * Click **[!UICONTROL Save]** to save your changes and remain on that step where you can continue to make changes. Wait for the save to complete before making additional changes. The VEC reloads with the refreshed changes after the save is complete.
 
-    * **Edit Targeting: **Takes you directly to the [!UICONTROL Targeting] page (the second step in the guided workflow). Make your desired changes, then use the split button (explained above) to save the activity.
+    * **Edit Targeting:** Takes you directly to the [!UICONTROL Targeting] page (the second step in the guided workflow). Make your desired changes, then use the split button (explained above) to save the activity.
 
         * Click **[!UICONTROL Save & Close]** to save your changes and display the activity's Overview page. 
         * Click **[!UICONTROL Save]** to save your changes and remain on that step where you can continue to make changes. Wait for the save to complete before making additional changes. The VEC reloads with the refreshed changes after the save is complete.
 
-    * **Edit Goals & Settings: **Takes you directly to the [!UICONTROL Goals & Settings] page (the final step in the guided workflow). Make your desired changes, then use the split button (explained above) to save the activity.
+    * **Edit Goals & Settings:** Takes you directly to the [!UICONTROL Goals & Settings] page (the final step in the guided workflow). Make your desired changes, then use the split button (explained above) to save the activity.
 
         * Click **[!UICONTROL Save & Close]** to save your changes and display the activity's Overview page. 
         * Click **[!UICONTROL Save]** to save your changes and remain on that step where you can continue to make changes. Wait for the save to complete before making additional changes. The VEC reloads with the refreshed changes after the save is complete.

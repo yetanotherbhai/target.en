@@ -15,7 +15,7 @@ snippet: y
 
 A/B testing forms the backbone of most digital marketing optimization programs, helping marketers offer optimized and targeted experiences to their visitors and customers. This section outlines nine of the most significant pitfalls that companies fall prey to when performing A/B testing. It also includes ways to avoid them, so your company can achieve greater ROI through its testing efforts and have greater confidence in its reported A/B test results.
 
-## Step 1. Ignoring the Effects of the Significance Level {#section_55F5577A13C6470BA1417C2B735C6B1D}
+## Pitfall 1. Ignoring the Effects of the Significance Level {#section_55F5577A13C6470BA1417C2B735C6B1D}
 
 How likely is it that your test reports a significant difference in conversion rate between two offers when in fact there is none? That's what the *significance level* of a test helps determine. Such misleading findings are often called a false positive, and in the world of statistics, are called a Type I error (if you incorrectly reject the null hypothesis that is actually true).
 
@@ -55,7 +55,7 @@ However, two situations warrant paying close attention to the significance level
 
   Applying the Bonferroni correction to the example above, you would use a 5%/4 = 1.25% significance level, which is the same as a 98.75% confidence level for an individual test (100% - 1.25% = 98.75%). This adjustment maintains the effective confidence level at 95% when you have four tests, as in the described example.
 
-## Step 2. Declaring Winners of Multiple Offer Tests with No Statistically Significant Difference {#section_FA83977C71DB4F69B3D438AF850EF3B6}
+## Pitfall 2. Declaring Winners of Multiple Offer Tests with No Statistically Significant Difference {#section_FA83977C71DB4F69B3D438AF850EF3B6}
 
 With multiple offer testing, marketers often declare the offer with the highest lift as the test winner, even though there is no statistically significant difference between the winner and the runner-up. This situation occurs when the difference between the alternatives is smaller than the difference between the alternatives and the control. The figure below illustrates this concept, with the black error bars representing 95% lift confidence intervals. The true lift for each offer relative to the control offer is 95% likely to be included within the confidence interval-the range shown by the error bars.
 
@@ -69,7 +69,7 @@ It's typically not feasible to run the test long enough to identify the true rel
 
 Note that if you do want to identify the offer with the highest conversion rate, you are comparing all offers to every other offer. In the example above, you have n = 5 offers—you have to make n(n-1)/2 comparisons, or 5&#42;(5-1)/2 = 10 comparisons. In this case, the Bonferroni correction requires that the significance level of the test be 5%/10 = 0.5%, which corresponds to a confidence level of 99.5%. However, such a high confidence level might require you to run the test for an unreasonably long period of time.
 
-## Step 3. Ignoring the Effects of Statistical Power {#section_0D517079B7D547CCAA75F80981CBE12A}
+## Pitfall 3. Ignoring the Effects of Statistical Power {#section_0D517079B7D547CCAA75F80981CBE12A}
 
 Statistical power is the probability that a test will detect a real difference in conversion rate between offers. Because of the random, or as statisticians like to call it, "stochastic," nature of conversion events, a test might not show a statistically significant difference, even when a real difference exists in conversion rate between two offers in the long run. Call it bad luck or by chance. Failing to detect a true difference in conversion rate is called a false negative or a Type II error.
 
@@ -89,7 +89,7 @@ In a one-tailed test, you test whether offer B is better than offer A. The direc
 
 You might view a one-tailed test as putting an offer on trial with a judge who has already made up his or her mind. In a one-tailed test, you've already decided what the winning offer will be and are out to prove it, rather than giving each experience an equal chance to prove itself as the winner. One-tailed tests should only be used in the rare situations in which you are only interested in whether one offer is better than the other and not the other way around. To avoid the issue of the one-tailed test, use an A/B testing solution that always uses two-tailed tests, such as [!DNL Adobe Target].
 
-## Step 5. Monitoring Tests {#section_EA42F8D5967B439284D863C46706A1BA}
+## Pitfall 5. Monitoring Tests {#section_EA42F8D5967B439284D863C46706A1BA}
 
 Marketers frequently monitor A/B tests until the test determines a significant result. After all, why test after you've achieved statistical significance?
 
@@ -103,7 +103,7 @@ To understand why this occurs, you have to consider the different actions taken 
 
 To avoid this problem, you should determine an adequate length of time the test will run before initiating the test. While it's fine to look at the test results during the test to make sure that you implemented the test correctly, do not draw conclusions or stop the test before the required number of visitors is reached. In other words, no peeking!
 
-## Step 6. Stopping Tests Prematurely {#section_DF01A97275E44CA5859D825E0DE2F49F}
+## Pitfall 6. Stopping Tests Prematurely {#section_DF01A97275E44CA5859D825E0DE2F49F}
 
 It is tempting to stop a test if one of the offers performs much better or worse than the others in the first few days of the test. However, when the number of observations is low, there is a high likelihood that a positive or negative lift will be observed just by chance because the conversion rate is averaged over a low number of visitors. As the test collects more data points, the conversion rates converge toward their true long-term values.
 
@@ -115,7 +115,7 @@ This phenomenon is known as "regression to the mean," and can lead to disappoint
 
 Much like the pitfall of monitoring your test, the best way to avoid these issues is to determine an adequate number of visitors before running the test and then let the test run until this number of visitors has been exposed to the offers.
 
-## Step 7. Not Considering Novelty Effects {#section_90F0D24C40294A8F801B1A6D6DEF9003}
+## Pitfall 7. Not Considering Novelty Effects {#section_90F0D24C40294A8F801B1A6D6DEF9003}
 
 Other unexpected things can happen if we don't allow enough time for running a test. This time the problem is not a statistics problem; it's simply a reaction to change by the visitors. If you change a well-established part of your website, returning visitors might at first engage less fully with the new offer because of changes to their usual workflow. This can temporarily cause a superior new offer to perform less optimally until returning visitors become accustomed to it—a small price to pay given the long-term gains that the superior offer will deliver.
 
@@ -123,7 +123,7 @@ To determine if the new offer underperforms because of a novelty effect or becau
 
 The novelty effect can also work in reverse. Visitors often react positively to a change just because it introduces something new. After a while, as the new content becomes stale or less exciting to the visitor, the conversion rate drops. This effect is harder to identify, but carefully monitoring changes in the conversion rate is key to detecting this.
 
-## Step 8. Not Considering Differences in the Consideration Period {#section_B166731B5BEE4E578816E351ECDEA992}
+## Pitfall 8. Not Considering Differences in the Consideration Period {#section_B166731B5BEE4E578816E351ECDEA992}
 
 The consideration period is the time period from when the A/B testing solution presents an offer to a visitor to when the visitor converts. This can be important with offers that affect the consideration period substantially—for example, an offer that implies a deadline, such as "Time-limited offer—Purchase by this Sunday."
 
@@ -135,7 +135,7 @@ The figure below shows two offers that two different visitors see at the same ti
 
 To avoid this pitfall, allow some time for visitors who were exposed to the test offers to convert after a new entry to the test has been stopped. This step gives you a fair comparison of the offers.
 
-## Step 9. Using Metrics that Do Not Reflect Business Objectives {#section_F0CD6DC7993B4A6F9BEEBB31CD1D9BEE}
+## Pitfall 9. Using Metrics that Do Not Reflect Business Objectives {#section_F0CD6DC7993B4A6F9BEEBB31CD1D9BEE}
 
 Marketers might be tempted to use high-traffic and low-variance conversion metrics in the upper funnel, such as click-through rate (CTR), to reach an adequate number of test conversions faster. However, carefully consider whether CTR is an adequate proxy for the business goal that you want to attain. Offers with higher CTRs can easily lead to lower revenue. This can happen when offers attract visitors with a lower propensity to buy, or when the offer itself-for example, a discount offer-simply leads to lower revenue.
 

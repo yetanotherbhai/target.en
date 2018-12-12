@@ -39,18 +39,10 @@ The Traffic Estimator also provides feedback that lets you know whether you have
 
 1. Provide the typical conversion rate, estimated activity impressions per day, and test duration.
 
-* Number of Content Combinations
-
-  Calculated automatically based on the number of experiences being created as a part of your activity after any exclusions. 
-* Typical Conversion Rate
-
-  The conversion rate is expressed as a percentage, based on your estimation or past data from your analytics system 
-* Estimated Activity Impressions Per Day
-
-  This is the number of visitors who are likely to view this page based on the targeting criteria. This could be based on your analytics data. 
-* Test Duration
-
-  The number of days you want the activity to run.
+   * Number of Content Combinations: Calculated automatically based on the number of experiences being created as a part of your activity after any exclusions. 
+   * Typical Conversion Rate: The conversion rate is expressed as a percentage, based on your estimation or past data from your analytics system 
+   * Estimated Activity Impressions Per Day: This is the number of visitors who are likely to view this page based on the targeting criteria. This could be based on your analytics data. 
+   * Test Duration: The number of days you want the activity to run.
 
    The Traffic Estimator uses these statistics to determine what adjustments are needed to run a successful test.
 
@@ -62,8 +54,8 @@ The Traffic Estimator also provides feedback that lets you know whether you have
 
    If you do not have sufficient traffic, you can do one or both of the following:
 
-* Reduce the number of combinations of offers and the number of locations. 
-* Increase the duration of the test.
+   * Reduce the number of combinations of offers and the number of locations. 
+   * Increase the duration of the test.
 
    Adjust the numbers until the Traffic Estimator says you have sufficient traffic, then design your test accordingly.
 
