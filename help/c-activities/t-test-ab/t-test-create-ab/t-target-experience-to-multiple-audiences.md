@@ -45,7 +45,7 @@ In this case, what you need are geo-specific versions of the experience, so you 
    If a visitor qualifies for more than one audience, the content for all audiences is returned, with the last one in the list actually rendering on the page. 
 1. Continue setting up the activity.
 
-   Step Result **Best Practices**
+**Best Practices**
 
 * Choose mutually-exclusive audiences. If the activity was created in the VEC, If a visitor matches more than one audience, the content for each audience is returned, with the content for the audience listed last displaying on the page. 
 * Activity-entry audiences defined in the diagram are combined with the experience audiences using an AND condition. To enter the activity, a visitor must qualify for the activity audience, and one of the experience audiences. 

@@ -34,8 +34,8 @@ Use experience URLs to share experiences with team members and to QA experiences
 1. On the activity summary page, click on the three vertical dots, then click **[!UICONTROL View Experience URLs]**.
 1. Review and/or specify your URLs.
 
-* If you are using the Visual Experience Composer, the default URL you specified for the activity is entered automatically and a link is generated for each experience in your activity. You can change this URL and add others, if desired. 
-* If you are using the Form-Based Experience Composer, no default URL is entered automatically. If you haven't previously created Experience URLs, click **Add New URL**. You must specify all URLs you want to preview as well as a name for each URL.
+   * If you are using the Visual Experience Composer, the default URL you specified for the activity is entered automatically and a link is generated for each experience in your activity. You can change this URL and add others, if desired. 
+   * If you are using the Form-Based Experience Composer, no default URL is entered automatically. If you haven't previously created Experience URLs, click **Add New URL**. You must specify all URLs you want to preview as well as a name for each URL.
 
    You can add multiple URLs, which is useful when running a multi-page test or a template test and you want to preview the activity on more than one page.
 

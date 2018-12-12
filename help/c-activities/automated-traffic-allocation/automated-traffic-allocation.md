@@ -201,40 +201,40 @@ After the model for an Auto-Allocate activity is ready (each experience has a mi
 
 ## Frequently Asked Questions {#section_0E72C1D72DE74F589F965D4B1763E5C3}
 
-***Are returning visitors automatically reallocated to high-performing experiences?***
+**Are returning visitors automatically reallocated to high-performing experiences?**
 
 No. Only new visitors are automatically allocated. Returning visitors continue to see their original experience. This protects the validity of the A/B test.
 
-***How does the algorithm treat false positives?***
+**How does the algorithm treat false positives?**
 
 The algorithm guarantees a 95% confidence or 5% false-positive rate if you wait until the winner-badge appears.
 
-***When does Auto-Allocate start allocating traffic?***
+**When does Auto-Allocate start allocating traffic?**
 
 The algorithm starts working after all experiences in the activity have a minimum of 1,000 visitors and 50 conversions.
 
-***How aggressively does the algorithm exploit?***
+**How aggressively does the algorithm exploit?**
 
 80% of traffic is served using Auto-Allocate and 20% of traffic is served randomly. When a winner as been identified, all of the 80% of traffic goes to it, while all experiences continue to get some traffic as part of the 20%, including the winning experience.
 
-***Are losing experiences shown at all?***
+**Are losing experiences shown at all?**
 
 Yes. The multi-armed bandit ensures that at least 20% of traffic is reserved to explore changing patterns or conversion rates across all experiences.
 
-***What happens to activities with long conversion delays?***
+**What happens to activities with long conversion delays?**
 
 As long as all experiences being optimized face similar delays, the behavior is the same as an activity with a faster conversion cycle, although it will take longer to reach the 50 conversion threshold before the traffic allocation process begins.
 
-***How is Auto-Allocate different from Automated Personalization?***
+**How is Auto-Allocate different from Automated Personalization?**
 
 Automated Personalization uses each visitor's profile attributes to determine the best experience. In doing so, it not only optimizes, but also personalizes the activity for that user.
 
 Auto-Allocate, on the other hand, is an A/B test that produces an aggregate winner (the most popular experience, but not necessarily the most effective experience for each visitor).
 
-***Do returning visitors inflate conversion rate on my success metric?***
+**Do returning visitors inflate conversion rate on my success metric?**
 
 Currently, the logic favors visitors that convert quickly or visit more often. This is because such visitors temporarily inflate the overall conversion rate of the experience they belong to. The algorithm adjusts itself frequently, so the increase in conversion rate is amplified at each snapshot. If the site gets a lot of return visitors, their conversions can potentially inflate the overall conversion rate for the experience they belong to. There is a good chance that return visitors are randomly distributed, in which case the aggregate effect (increased lift) is evened out. To mitigate this effect, consider changing the counting method of the success metric to count only once per entrant.
 
-***Can I use the sample size calculator when using Auto Allocate to estimate how long the activity will take to identify the winner?***
+**Can I use the sample size calculator when using Auto Allocate to estimate how long the activity will take to identify the winner?**
 
 You can use the existing [sample size calculator](https://docs.adobe.com/content/target-microsite/testcalculator.html) with Bonferroni correction appropriately applied to get an estimate of how long the test will run. In our experiments, we’ve seen the Auto-Allocate activity end much sooner than this sample size. 

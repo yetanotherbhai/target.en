@@ -33,5 +33,5 @@ Because an automated personalization test compares multiple offers on a page, it
    You might choose to exclude an experience that shows conflicting variations or an experience that is not aesthetically balanced.
 
    By default, all experiences are included in the Automated Personalization activity. To include an experience that has been excluded, select the excluded experience and click **[!UICONTROL Include]**. 
->Click **[!UICONTROL Exit Preview Mode]** to return to the Experience Composer so you can make changes, or click **[!UICONTROL Continue]** to go to the Targeting step. 
 
+Click **[!UICONTROL Exit Preview Mode]** to return to the Experience Composer so you can make changes, or click **[!UICONTROL Continue]** to go to the Targeting step. 
