@@ -14,7 +14,7 @@ internal: n
 snippet: y
 ---
 
-# [PREMIUM](/help/assets/premium.png) Criteria{#criteria}
+# ![PREMIUM](/help/assets/premium.png) Criteria{#criteria}
 
 Criteria are rules that determine which products to recommend based on a predetermined set of visitor behaviors.
 
