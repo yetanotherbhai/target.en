@@ -30,7 +30,7 @@ This page lists important changes made to the Target documentation.
   <tr> 
    <td colname="col1"> December 11, 2018 </td> 
    <td colname="col2"> <p> <a href="../c-implementing-target/c-implementing-target-for-client-side-web/cmp-at.js-functions.md" format="dita" scope="local"> targetGlobalSettings</a> </p> </td> 
-   <td colname="col3"> <p>The default value for overrideMboxEdgeServer is "true" beginning with at.js version 1.6.2.</p> </td> 
+   <td colname="col3"> <p>Added that the default value for overrideMboxEdgeServer is "true" beginning with at.js version 1.6.2.</p> </td> 
   </tr> 
  <tr> 
    <td colname="col1"> December 7, 2018 </td> 
