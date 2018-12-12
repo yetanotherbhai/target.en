@@ -272,7 +272,7 @@ The missing selectors might be reached using Browse mode. We recommend that you 
 
 ![](assets/code_editor_2.png)
 
-**When I delete an element, I see a warning tells me that says "Deleting this action may impact subsequent actions." What does this mean?**
+***When I delete an element, I see a warning tells me that says "Deleting this action may impact subsequent actions." What does this mean?***
 
 For example, if you have taken two actions:
 
@@ -283,15 +283,15 @@ Each change creates a new element in the Modifications panel. Because the second
 
 In other words, if you add an element with text, then in a separate action you edit that element with different text, the Modifications panel shows both actions as separate elements. When you edited the element, you created a new element that modifies the original one you created, containing the edited text. If you then delete the original element, the edited text won't be able to find the element that was edited, and will not display. The second element remains in the list of elements, but it does not affect the page because the element it changes no longer exists.
 
-**An element I created using `document.write` in a script does not appear where I expect it to.**
+***An element I created using `document.write` in a script does not appear where I expect it to.***
 
 Scripts are executed asynchronously. This often causes `document.write` actions to appear in the wrong place on your page. Adobe does not recommend using `document.write` in scripts created in the custom code.
 
-**My JavaScript displays errors in the custom code.**
+***My JavaScript displays errors in the custom code.***
 
 Any inline JavaScript which is not a valid JavaScript shows errors in the custom code.
 
-**I cannot undo a change in my custom code.**
+***I cannot undo a change in my custom code.***
 
 Currently, undo is not supported for edit and delete actions from the Modifications panel and in custom code. Undoing one of these operations could cause the experience in the VEC to appear inconsistent with the actual actions visible in the custom code. However, the actions in the custom code are in the correct state and there is no impact on delivery. This is a UI issue. To refresh the experience, save it and open it again, or go to the next step and come back. Either of these actions reloads the experience and so it appears as expected and is consistent with the actions in the Modifications panel.
 
