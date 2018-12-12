@@ -20,66 +20,66 @@ Create a folder to hold items in the Offers library.
 1. Click **[!UICONTROL Create]** > **[!UICONTROL Folder]**.
 1. Fill in the fields:
 
-<table id="table_363A1AC11C4143749C2E265A93F3B146"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Field </th> 
-   <th colname="col2" class="entry"> Description </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Title (Applies to image offers only) </p> </td> 
-   <td colname="col2"> <p>Specify a descriptive name for the folder. For example, you could include the type of content it will hold. </p> <p> The name cannot contain the following characters: </p> <p>Percent sign % </p> <p>Forward slash / </p> <p>Backslash \ </p> <p>Colon : </p> <p>Asterisk * </p> <p>Question mark ? </p> <p>Double quotes ") </p> <p>Square bracket [ </p> <p>Square bracket ] </p> <p>Plus sign: + </p> <p>Pipe: | </p> <p>Period: . </p> <p>Number sign: # </p> <p>Curly bracket: { </p> <p>Curly bracket } </p> <p>Caret ^ </p> <p>Semicolon ; </p> <p>You can use a hyphen (-) instead of these characters. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Name (Applies to both code and image offers) </p> </td> 
-   <td colname="col2"> <p>Edit the name, if desired. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Private (Applies to image offers only) </p> </td> 
-   <td colname="col2"> <p>Specifies that the folder private so only you can see it and its contents. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Reorder-able in List View (Applies to image offers only) </p> </td> 
-   <td colname="col2"> <p>Specifies that you and others can reorder the folder's position in the List View. </p> <p>To toggle between the Card View and List View, click the Card View icon or the List View icon in the upper right corner of the content library. You can also select <span class="wintitle"> View Settings </span> to include or exclude columns in the List View. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+    <table id="table_363A1AC11C4143749C2E265A93F3B146"> 
+    <thead> 
+      <tr> 
+      <th colname="col1" class="entry"> Field </th> 
+      <th colname="col2" class="entry"> Description </th> 
+      </tr> 
+    </thead>
+    <tbody> 
+      <tr> 
+      <td colname="col1"> <p>Title (Applies to image offers only) </p> </td> 
+      <td colname="col2"> <p>Specify a descriptive name for the folder. For example, you could include the type of content it will hold. </p> <p> The name cannot contain the following characters: </p> <p>Percent sign % </p> <p>Forward slash / </p> <p>Backslash \ </p> <p>Colon : </p> <p>Asterisk * </p> <p>Question mark ? </p> <p>Double quotes ") </p> <p>Square bracket [ </p> <p>Square bracket ] </p> <p>Plus sign: + </p> <p>Pipe: | </p> <p>Period: . </p> <p>Number sign: # </p> <p>Curly bracket: { </p> <p>Curly bracket } </p> <p>Caret ^ </p> <p>Semicolon ; </p> <p>You can use a hyphen (-) instead of these characters. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Name (Applies to both code and image offers) </p> </td> 
+      <td colname="col2"> <p>Edit the name, if desired. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Private (Applies to image offers only) </p> </td> 
+      <td colname="col2"> <p>Specifies that the folder private so only you can see it and its contents. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Reorder-able in List View (Applies to image offers only) </p> </td> 
+      <td colname="col2"> <p>Specifies that you and others can reorder the folder's position in the List View. </p> <p>To toggle between the Card View and List View, click the Card View icon or the List View icon in the upper right corner of the content library. You can also select <span class="wintitle"> View Settings </span> to include or exclude columns in the List View. </p> </td> 
+      </tr> 
+    </tbody> 
+    </table>
 
 1. Click **[!UICONTROL Create]**.
 When viewing the [!UICONTROL Code Offers] page, you can perform the following actions on the folder by hovering over the folder, then selecting the appropriate icon: 
 
-<table id="table_F8FF77180329436582CA82816B81ECEE"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Action </th> 
-   <th colname="col2" class="entry"> Description </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p> <img href="assets/icon_info.png" id="image_C52EE8B9351F4603B3E9917CE7788522" /> </p> <p>Information </p> </td> 
-   <td colname="col2"> <p>View the folder information. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <img href="assets/icon_edit.png" id="image_FB91E4CEFC4A43519CDE88E0C4293FA9" /> </p> <p>Edit </p> </td> 
-   <td colname="col2"> <p>Edit the folder. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <img href="assets/icon_copy.png" id="image_4927CCEAEE76433CAF13B4975E5D43A6" /> </p> <p>Copy </p> </td> 
-   <td colname="col2"> <p>Copy the folder. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <img href="assets/icon_move_folder.png" id="image_F7D4F4FA5F1043F5A476922D8C904FE3" /> </p> <p>Move </p> </td> 
-   <td colname="col2"> <p>Click the icon, navigate to the location to which you want to move the folder, then, click the <span class="uicontrol"> Drop </span> icon. </p> <p>For example, you can move one or more folders into another folder to create subfolders. </p> <p>Click <span class="wintitle"> Clear Selection </span> to deselect folders you have selected. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <img href="assets/icon_delete.png" id="image_22AC4CDA522C43A7BC9A61F8E02CED80" /> </p> <p>Delete </p> </td> 
-   <td colname="col2"> <p>Delete the folder. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+    <table id="table_F8FF77180329436582CA82816B81ECEE"> 
+    <thead> 
+      <tr> 
+      <th colname="col1" class="entry"> Action </th> 
+      <th colname="col2" class="entry"> Description </th> 
+      </tr> 
+    </thead>
+    <tbody> 
+      <tr> 
+      <td colname="col1"> <p> <img href="assets/icon_info.png" id="image_C52EE8B9351F4603B3E9917CE7788522" /> </p> <p>Information </p> </td> 
+      <td colname="col2"> <p>View the folder information. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p> <img href="assets/icon_edit.png" id="image_FB91E4CEFC4A43519CDE88E0C4293FA9" /> </p> <p>Edit </p> </td> 
+      <td colname="col2"> <p>Edit the folder. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p> <img href="assets/icon_copy.png" id="image_4927CCEAEE76433CAF13B4975E5D43A6" /> </p> <p>Copy </p> </td> 
+      <td colname="col2"> <p>Copy the folder. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p> <img href="assets/icon_move_folder.png" id="image_F7D4F4FA5F1043F5A476922D8C904FE3" /> </p> <p>Move </p> </td> 
+      <td colname="col2"> <p>Click the icon, navigate to the location to which you want to move the folder, then, click the <span class="uicontrol"> Drop </span> icon. </p> <p>For example, you can move one or more folders into another folder to create subfolders. </p> <p>Click <span class="wintitle"> Clear Selection </span> to deselect folders you have selected. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p> <img href="assets/icon_delete.png" id="image_22AC4CDA522C43A7BC9A61F8E02CED80" /> </p> <p>Delete </p> </td> 
+      <td colname="col2"> <p>Delete the folder. </p> </td> 
+      </tr> 
+    </tbody> 
+    </table>
 
 When viewing the [!UICONTROL Image Offers] page, you can perform the following actions on the folder by hovering over the folder, then selecting the appropriate icon: 
 

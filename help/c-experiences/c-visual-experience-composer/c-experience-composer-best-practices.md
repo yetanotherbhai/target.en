@@ -145,21 +145,17 @@ By following these best practices, you are less likely to encounter unexpected p
    <td colname="col1"> <p>Make sure your page opens as expected in an iframe. </p> </td> 
    <td colname="col2"> <p>Turn OFF iframe busting techniques on your website and check whether it opens as expected within an iframe on a dummy page. For example: </p> <p> 
      <pre>
-       &lt;!DOCTYPE&nbsp;html&gt; &lt;html&gt; &lt;head&gt; 
+&lt;!DOCTYPE&nbsp;
+&lt;html&gt; 
+&lt;html&gt; 
+&lt;head&gt; 
 &nbsp;&nbsp;&lt;meta&nbsp;charset="utf-8"&gt; 
-      
 &nbsp;&nbsp;&lt;meta&nbsp;name="viewport"&nbsp;content="width=device-width"&gt; 
-      
 &nbsp;&nbsp;&lt;title&gt;JS&nbsp;Bin&lt;/title&gt; 
-      
 &lt;/head&gt; 
-      
 &lt;body&gt; 
-      
 &nbsp;&nbsp;&lt;iframe&nbsp;src="https://www.homedepot.com"&lt;/iframe&gt; 
-      
 &lt;/body&gt; 
-      
 &lt;/html&gt; 
      </pre> </p> </td> 
   </tr> 

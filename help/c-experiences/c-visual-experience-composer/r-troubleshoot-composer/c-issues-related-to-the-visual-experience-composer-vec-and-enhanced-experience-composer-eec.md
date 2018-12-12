@@ -48,7 +48,7 @@ By default, the Visual Experience Composer blocks JavaScript elements. You can w
 
 This issue happens when customers have an `mbox.js` version earlier than 57 (i.e. version 56 or earlier).
 
-We recommend that all VEC users upgrade to the [ latest version of `mbox.js`](../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/r-mboxjs-change-log.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A), or at least upgrade to version 57. You might also consider [making the transition to `at.js`](../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/c-target-atjs-implementation.md#concept_8AC8D169E02944B1A547A0CAD97EAC17).
+We recommend that all VEC users upgrade to the [latest version of mbox.js](../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/r-mboxjs-change-log.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A), or at least upgrade to version 57. You should also consider [making the transition to at.js](../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/c-target-atjs-implementation.md#concept_8AC8D169E02944B1A547A0CAD97EAC17).
 
 ## When I change one element on the page, multiple elements change. (VEC and EEC) {#section_309188ACF34942989BE473F63C5710AF}
 

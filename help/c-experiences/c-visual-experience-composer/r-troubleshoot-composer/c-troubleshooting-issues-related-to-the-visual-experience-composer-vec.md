@@ -55,7 +55,7 @@ If neither the Visual Experience Composer nor the Enhanced Experience Composer w
  </tbody> 
 </table>
 
-**To use the Requestly extension on Chrome or Firefox: **
+**To use the Requestly extension on Chrome or Firefox:**
 
 1. Turn off the Enhanced Experienced Composer. 
 1. Install the Requestly browser extension on Chrome or Firefox. 
@@ -85,7 +85,7 @@ If neither the Visual Experience Composer nor the Enhanced Experience Composer w
 
    You should now be able to load the page quickly with the Visual Experience Composer.
 
-**To use the Modify Response Headers extension on Firefox: **
+**To use the Modify Response Headers extension on Firefox:**
 
 1. Install the Modify Response Headers on Firefox and restart the browser. 
 1. From your Firefox extensions, select the Modify Response Headers extension. 
