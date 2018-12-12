@@ -22,11 +22,11 @@ For example, visitors who arrive at your page from a certain search engine might
 When planning to use audience filters for an activity, consider the following guidelines:
 
 * **Visitors can be in multiple audiences.** If there are two audiences set up (for example, "new visitors" and "visitors from Google"), and a person meets both criteria, then he or she is counted and tracked in both audiences. As a result, the sum of the visitors in the audiences does not match the number of visitors in an activity. 
-* **Set up audiences before launching the campaign. **Audience data cannot be retrieved retroactively. If you do not configure audience filters before you start the activity, then decide to use them after the activity has run for a while, you will not collect the data for the time that has already passed. 
-* ** Begin with two to four audiences. **Focus on basic information, such as the traffic source. 
-* ** Rename audiences as needed. **You can rename an audience without affecting the data to make the audience name more meaningful for the results being collected, even if the activity is active. 
-* **Enter precise values. **Audience filter values are case-sensitive. For example, if you are using an audience that filters on cities, you should use an "OR" condition to include possible spelling and capitalization variations, such as "Vienna," "vienna," "wien," and "Wien." 
-* **Audiences created from the Audiences list are reusable. **Audiences created as part of an activity cannot be reused.
+* **Set up audiences before launching the campaign.** Audience data cannot be retrieved retroactively. If you do not configure audience filters before you start the activity, then decide to use them after the activity has run for a while, you will not collect the data for the time that has already passed. 
+* **Begin with two to four audiences.** Focus on basic information, such as the traffic source. 
+* **Rename audiences as needed.** You can rename an audience without affecting the data to make the audience name more meaningful for the results being collected, even if the activity is active. 
+* **Enter precise values.** Audience filter values are case-sensitive. For example, if you are using an audience that filters on cities, you should use an "OR" condition to include possible spelling and capitalization variations, such as "Vienna," "vienna," "wien," and "Wien." 
+* **Audiences created from the Audiences list are reusable.** Audiences created as part of an activity cannot be reused.
 
 The following sections provide more information about setting up and reporting on audiences:
 

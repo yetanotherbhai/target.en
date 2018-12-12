@@ -62,8 +62,8 @@ There are multiple ways to reach the [!UICONTROL Create New Criteria] screen. So
 
    You have two location options:
 
-* **FTP: **To upload your CSV file from an FTP server, select **[!UICONTROL FTP]**, then enter the required information. You have the option to use SSL, which uses the FTPS protocol to transfer your CSV file securely. 
-* **URL: **To upload your CSV file from a URL, select **[!UICONTROL URL]**, then and enter a feed URL.
+    * **FTP:** To upload your CSV file from an FTP server, select **[!UICONTROL FTP]**, then enter the required information. You have the option to use SSL, which uses the FTPS protocol to transfer your CSV file securely. 
+    * **URL:** To upload your CSV file from a URL, select **[!UICONTROL URL]**, then and enter a feed URL.
 
 1. Click **[!UICONTROL Save]**.
 

@@ -57,7 +57,7 @@ When setting up a multivariate test, it is useful to understand some basic termi
 
 There are multiple terms used in different ways across the industry. This section defines the terms used by Target.
 
-**Combination: ** The content variations created when you test multiple content options in multiple locations. For example, if you are testing three locations, each with three content options, then there are 27 possible combinations (3x3x3). A visitor to your site will see one combination, also referred to as an experience.
+**Combination:** The content variations created when you test multiple content options in multiple locations. For example, if you are testing three locations, each with three content options, then there are 27 possible combinations (3x3x3). A visitor to your site will see one combination, also referred to as an experience.
 
 **Content:** The text or image comprising a test variation within a location. In a multivariate test, a number of content options within multiple locations are compared. In MVT methodology, the content is sometimes referred to as a *level*.
 

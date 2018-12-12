@@ -173,21 +173,21 @@ There are several scenarios where you might prefer to use Auto-Target over Autom
 
 **The algorithm does not support using [!DNL Analytics] as a data-source or a reporting endpoint.**
 
-** Target automatically collects information about visitors to build the personalization models.**
+**Target automatically collects information about visitors to build the personalization models.**
 
 * For more information about the parameters used in Auto-Target and Automated Personalization, see [Automated Personalization Data Collection](../c-activities/t-automated-personalization/r-ap-data.md#reference_255BD3DE7AD04DC9B766E0BC78961058).
 
-** Target automatically uses all Experience Cloud shared audiences to build the personalization models.**
+**Target automatically uses all Experience Cloud shared audiences to build the personalization models.**
 
 * You don't have to do anything specific to add audiences to the model. For information about using Experience Cloud Audiences with Target, see [Experience Cloud Audiences](../c-integrating-target-with-mac/c-mmp.md#concept_F4863DE4C92D4805AB690B4B3D487969)
 
-** Marketers can upload offline data, propensity scores, or other custom data to build personalization models.**
+**Marketers can upload offline data, propensity scores, or other custom data to build personalization models.**
 
 * Learn more about [uploading data for Auto-Target and Automated Personalization](../c-activities/t-automated-personalization/c-uploading-data-for-the-target-personalization-algorithms.md#concept_85EA505B37E54514A1C8AB91553FEED6).
 
 ## How Does Auto-Target differ from Automated Personalization? {#section_BA4D83BE40F14A96BE7CBC7C7CF2A8FB}
 
-** Auto-Target frequently requires less traffic than Automated Personalization for a personalized model to build.**
+**Auto-Target frequently requires less traffic than Automated Personalization for a personalized model to build.**
 
 Although the amount of traffic *per experience* required for Auto-Target or Auto Personalization models to build are the same, there are usually more experiences in an Automated Personalization activity than an Auto-Target activity. For example, if you had an Auto Personalization activity where you've created two offers per location with two locations, there would be four (2 = 4) total experiences included in the activity (with no exclusions). Using Auto-Target, you could set experience 1 to include offer 1 in location 1 and offer 2 in location 2, and experience 2 to include offer 1 in location 1 and offer 2 in location 2. Because Auto-Target allows you could choose to have multiple changes within one experience, you can reduce the number of total experiences in your activity.
 
