@@ -31,18 +31,10 @@ Remember that Target randomly serves experiences until the personalization algor
 
 1. Provide the typical conversion rate (or the conversion rate you expect from this activity), estimated activity impressions per day, and test duration.
 
-* Number of Content Combinations
-
-  Calculated automatically based on the number of experiences being created as a part of your activity after any exclusions. 
-* Typical Conversion Rate
-
-  The conversion rate is expressed as a percentage, based on your estimation or past data from your analytics system. 
-* Estimated Visits Per Day
-
-  This is the number of visits per day from visitors who are able to view the activity, based on the targeting criteria. This could be based on your analytics data. Note this number should be visits, not unique visitors. 
-* Test Duration
-
-  The number of days you want the activity to run.
+   * Number of Content Combinations: Calculated automatically based on the number of experiences being created as a part of your activity after any exclusions. 
+   * Typical Conversion Rate: The conversion rate is expressed as a percentage, based on your estimation or past data from your analytics system. 
+   * Estimated Visits Per Day: This is the number of visits per day from visitors who are able to view the activity, based on the targeting criteria. This could be based on your analytics data. Note this number should be visits, not unique visitors. 
+   * Test Duration: The number of days you want the activity to run.
 
    The Traffic Estimator uses these statistics to determine what adjustments are needed to run a successful test.
 
@@ -54,9 +46,9 @@ Remember that Target randomly serves experiences until the personalization algor
 
    If you do not have sufficient traffic, you can do one or all of the following:
 
-* Consider using Auto-Target instead of Automated Personalization to create experiences with several offer changes in one experience variation. 
-* Reduce the number of offer combinations within your Automated Personalization activity. 
-* Increase the duration of the activity.
+   * Consider using Auto-Target instead of Automated Personalization to create experiences with several offer changes in one experience variation. 
+   * Reduce the number of offer combinations within your Automated Personalization activity. 
+   * Increase the duration of the activity.
 
    Adjust the numbers until the Traffic Estimator says you have sufficient traffic, then design your test accordingly.
 

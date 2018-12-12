@@ -57,7 +57,7 @@ With Experience Targeting, you can control which experience visitors see as thei
 To leverage these capabilities in [!DNL Target], it is important to understand the following information as you work with XT activities:
 
 * **Priority is controlled by the order of experiences, top to bottom.** If a visitor qualifies for more than two audiences, he or she receives content from the higher priority experience. 
-* **Visitors will switch between experiences in an XT activity if they start qualifying for the audience of a higher-priority experience. **
+* **Visitors will switch between experiences in an XT activity if they start qualifying for the audience of a higher-priority experience.**
 
   For example, in the following activity setup, a visitor accessed your website from the United States and then traveled to Germany and visited your website a second time. During the first visit, this visitor qualified for Experience A (United States). After viewing your website from Germany, this visitor switched to Experience B (Germany).
 

@@ -58,48 +58,48 @@ This video demonstrates how to create an A/B test using the [!DNL Target] three-
 
    The following characters are not allowed in an activity name:
 
-<table id="table_F5E365667FDC48AD8B4461E40CD669B8"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Character </th> 
-   <th colname="col2" class="entry"> Description </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>/ </p> </td> 
-   <td colname="col2"> <p>Forward slash </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>? </p> </td> 
-   <td colname="col2"> <p>Question mark </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p># </p> </td> 
-   <td colname="col2"> <p>Number sign </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>: </p> </td> 
-   <td colname="col2"> <p>Colon </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>= </p> </td> 
-   <td colname="col2"> <p>Equals to </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>+ </p> </td> 
-   <td colname="col2"> <p>Plus </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>- </p> </td> 
-   <td colname="col2"> <p>Minus </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>@ </p> </td> 
-   <td colname="col2"> <p>At sign </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+    <table id="table_F5E365667FDC48AD8B4461E40CD669B8"> 
+    <thead> 
+    <tr> 
+    <th colname="col1" class="entry"> Character </th> 
+    <th colname="col2" class="entry"> Description </th> 
+    </tr>
+    </thead>
+    <tbody> 
+    <tr> 
+    <td colname="col1"> <p>/ </p> </td> 
+    <td colname="col2"> <p>Forward slash </p> </td> 
+    </tr> 
+    <tr> 
+    <td colname="col1"> <p>? </p> </td> 
+    <td colname="col2"> <p>Question mark </p> </td> 
+    </tr> 
+    <tr> 
+    <td colname="col1"> <p># </p> </td> 
+    <td colname="col2"> <p>Number sign </p> </td> 
+    </tr> 
+    <tr> 
+    <td colname="col1"> <p>: </p> </td> 
+    <td colname="col2"> <p>Colon </p> </td> 
+    </tr> 
+    <tr> 
+    <td colname="col1"> <p>= </p> </td> 
+    <td colname="col2"> <p>Equals to </p> </td> 
+    </tr> 
+    <tr> 
+    <td colname="col1"> <p>+ </p> </td> 
+    <td colname="col2"> <p>Plus </p> </td> 
+    </tr> 
+    <tr> 
+    <td colname="col1"> <p>- </p> </td> 
+    <td colname="col2"> <p>Minus </p> </td> 
+    </tr> 
+    <tr> 
+    <td colname="col1"> <p>@ </p> </td> 
+    <td colname="col2"> <p>At sign </p> </td> 
+    </tr> 
+    </tbody> 
+    </table>
 
 1. Create any new experiences by changing the elements on the page.
 
@@ -144,4 +144,5 @@ This video demonstrates how to create an A/B test using the [!DNL Target] three-
    ![](assets/ab_settings.png)
 
 1. Click **[!UICONTROL Save]**.
+
 >After you create the activity, the Overview tab shows information about the activity, including a diagram of your activity. 

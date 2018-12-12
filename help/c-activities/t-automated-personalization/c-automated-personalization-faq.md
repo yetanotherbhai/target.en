@@ -45,7 +45,7 @@ There is no turn-key option of comparing AP to a default experience. However, as
 
 ## What are some limits in Automated Personalization? {#section_08BA09ED51B547299963C94FE6417CFA}
 
-* Target has a hard limit of 30,000 experiences, but it functions at its best when fewer than 10,000 experiences are created.
+Target has a hard limit of 30,000 experiences, but it functions at its best when fewer than 10,000 experiences are created.
 
 ## How is offer-level targeting implemented? {#section_9D7A86EA93D74E9B8C81072A681263A4}
 
