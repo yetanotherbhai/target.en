@@ -86,7 +86,7 @@ To leverage these capabilities in [!DNL Target], it is important to understand t
 
   ![](assets/xt_priority_one_experience.png)
 
-* **The priority of experiences is defined by their order (top down) as they display in the Target UI. **
+* **The priority of experiences is defined by their order (top down) as they display in the Target UI.**
 
   This is important to keep in mind in scenarios where a visitor might qualify for more than one of your audiences. For example, if you have two experiences: one targeted to "United States" and one targeted to "New York," a visitor located in New York would qualify for both audiences. Therefore, you must ensure that the "New York" experience is defined before the "United States" experience in the Target UI. This ensures that the more targeted "New York" experience has the higher priority, as shown in the following example:
 

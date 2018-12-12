@@ -71,7 +71,7 @@ recs/t_create_collection.xml
 
    You can add rules to use multiple parameters to define a collection. Multiple rules are joined with an AND. All specified rules must be matched for the collection to apply. 
 1. Click **[!UICONTROL Save]**.
-You can also create collections using Advanced Search on the Catalog Search page (Recommendations > Catalog Search > Advanced Search). After creating a search using "id > contains," for example, you can then click Save As > Collection. 
+You can also create collections using Advanced Search on the Catalog Search page ([!UICONTROL Recommendations] > [!UICONTROL Catalog Search] > [!UICONTROL Advanced Search]). After creating a search using "id > contains," for example, you can then click [!UICONTROL Save As] > [!UICONTROL Collection].
 
 >[!IMPORTANT]
 >

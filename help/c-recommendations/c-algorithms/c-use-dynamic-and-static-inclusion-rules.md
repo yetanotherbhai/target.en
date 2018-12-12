@@ -83,7 +83,7 @@ You can create as many inclusion rules as necessary. The inclusion rules are joi
 
 Dynamic criteria and promotions are much more powerful than static criteria and promotions, and yield better results and engagement. The following examples will give you ideas about how you can use dynamic promotions in your marketing efforts:
 
-**Equals: **Using the "equals" operator in dynamic promotions, when a visitor is viewing an item on your website (such as a product, article, or movie), you can promote other items from:
+**Equals:** Using the "equals" operator in dynamic promotions, when a visitor is viewing an item on your website (such as a product, article, or movie), you can promote other items from:
 
 <ul class="simplelist"> 
  <li> the same brand </li> 
@@ -92,7 +92,7 @@ Dynamic criteria and promotions are much more powerful than static criteria and 
  <li> the same store </li> 
 </ul>
 
-**Does Not Equal: **Using the "does not equal" operator in dynamic promotions, when a visitor is viewing an item on your website (such as a product, article, or movie), you can promote other items from:
+**Does Not Equal:** Using the "does not equal" operator in dynamic promotions, when a visitor is viewing an item on your website (such as a product, article, or movie), you can promote other items from:
 
 <ul class="simplelist"> 
  <li> a different TV series </li> 
@@ -101,7 +101,7 @@ Dynamic criteria and promotions are much more powerful than static criteria and 
  <li> a different style ID </li> 
 </ul>
 
-**Is Between: **Using the "is between" operator in dynamic promotions, when a visitor is viewing an item on your website (such as a product, article, or movie), you can promote other items that are:
+**Is Between:** Using the "is between" operator in dynamic promotions, when a visitor is viewing an item on your website (such as a product, article, or movie), you can promote other items that are:
 
 <ul class="simplelist"> 
  <li> more expensive </li> 
@@ -119,9 +119,7 @@ Previously, no results were returned if a value was empty. The "If *x* is Empty"
 
 ![](assets/empty_value.png)
 
-To select the desired action, hover over the gear icon (  ![](assets/icon_gear.png)
-
-), then choose the desired action:
+To select the desired action, hover over the gear icon (![](assets/icon_gear.png)), then choose the desired action:
 
 <table id="table_DB442803C2654F18A62517E19B4E3974"> 
  <thead> 
@@ -154,11 +152,11 @@ As an example of handling empty values, consider [Scenario 9](../../c-recommenda
 
 ## Dynamic Filter Scenarios {#section_9873E2F22E094E479569D05AD5BB1D40}
 
-**Scenario 1: **Instead of matching an item in a catalog to other items in a catalog using a static filter, you can use a dynamic filter to match an item in a catalog to an attribute from the visitor's profile.
+**Scenario 1:** Instead of matching an item in a catalog to other items in a catalog using a static filter, you can use a dynamic filter to match an item in a catalog to an attribute from the visitor's profile.
 
 For example, you could use the [!UICONTROL Profile Attribute Matching] option to create a rule that recommends items only where the brand equals the value or text stored in `profile.favoritebrand`. With such a rule, if a visitor is looking at running shorts from a particular brand, only recommendations will display that match that user's favorite brand (the value stored in `profile.favoritebrand` in the visitor's profile).
 
-**Scenario 2: **Before Target added the ability to use attribute information from a visitor's profile, if you were setting up job listings that would display only to job seekers from a specific location and with a specific college degree, you would have had to set up many activities with different audiences (one for each city and degree). If you have job listings in many cities, this task became burdensome.
+**Scenario 2:** Before Target added the ability to use attribute information from a visitor's profile, if you were setting up job listings that would display only to job seekers from a specific location and with a specific college degree, you would have had to set up many activities with different audiences (one for each city and degree). If you have job listings in many cities, this task became burdensome.
 
 You can now use inclusion rules to match a job seeker's location and degree from his or her visitor's profile to a job listing, as shown in the following example:
 
@@ -198,7 +196,7 @@ Dynamic filters using profile attributes that match entity attributes to user at
 
 As long as you have the required information embedded into each job listing and you are capturing the required information within the user profiles, creating and managing audiences and experiences is greatly simplified.
 
-**Scenario 3: ** A sports company wants to show articles on its website for teams that a person cares about. Every article could have a field with `entity.featuredTeams` that includes all teams discussed in the article. Every profile attribute could have a list of favorite teams the user is "subscribing" to.
+**Scenario 3:** A sports company wants to show articles on its website for teams that a person cares about. Every article could have a field with `entity.featuredTeams` that includes all teams discussed in the article. Every profile attribute could have a list of favorite teams the user is "subscribing" to.
 
 A sample inclusion rule would could look like the following:
 
@@ -246,7 +244,7 @@ When considering the following examples, remember that at least one entire strin
  </tbody> 
 </table>
 
-**Scenario 4: **The following illustration demonstrates how to use the "equals" and "is between" operators to promote more expensive items that are from the same category and the same brand. For example, a sporting apparel company can promote more expensive running shoes in an effort to up-sell a visitor looking at running shorts.
+**Scenario 4:** The following illustration demonstrates how to use the "equals" and "is between" operators to promote more expensive items that are from the same category and the same brand. For example, a sporting apparel company can promote more expensive running shoes in an effort to up-sell a visitor looking at running shorts.
 
 ![](assets/dynamic3.png)
 
@@ -264,7 +262,7 @@ value - is between - 100% and 1000% of - current item's - value
 >
 >You cannot change the key in a dynamic promotion with multiple rules (the third drop-down list in the first two rules labeled "Current Item's" in the illustration).
 
-**Scenario 5: **The second illustration demonstrates how to use the "equals" and "is between" operators to promote more expensive items that are from the same category, the same brand, and the house brand. For example, an office supply company can promote more expensive toner cartridges, of both the same brand and the company's house brand, in an effort to up-sell a visitor looking at printers.
+**Scenario 5:** The second illustration demonstrates how to use the "equals" and "is between" operators to promote more expensive items that are from the same category, the same brand, and the house brand. For example, an office supply company can promote more expensive toner cartridges, of both the same brand and the company's house brand, in an effort to up-sell a visitor looking at printers.
 
 ![](assets/dynamic4.png)
 
@@ -280,7 +278,7 @@ value - is between - 100% and 1000% of - current item's - value
 
 Notice that this example uses two dynamic rules and one static rule.
 
-**Scenario 6: **The third illustration demonstrates how to use the"does not equal" operator to promote a series that does not equal the series that the visitor is currently viewing. For example, a media website could promote a television series that is different than the series the visitor is currently viewing.
+**Scenario 6:** The third illustration demonstrates how to use the"does not equal" operator to promote a series that does not equal the series that the visitor is currently viewing. For example, a media website could promote a television series that is different than the series the visitor is currently viewing.
 
 ![](assets/dynamic5.png)
 
@@ -290,7 +288,7 @@ The following rule is used in this example:
 series - does not equal - current item's - series
 ```
 
-**Scenario 7: **The fourth illustration demonstrates how to promote compatible accessory items for the visitor's last-purchased item. For example, if someone purchased a new TV, you could dynamically promote an HDMI cable.
+**Scenario 7:** The fourth illustration demonstrates how to promote compatible accessory items for the visitor's last-purchased item. For example, if someone purchased a new TV, you could dynamically promote an HDMI cable.
 
 ![](assets/dynamic1.png)
 
@@ -300,7 +298,7 @@ The following rules are used in this example:
 id - equals - last purchased item's - compatibleAccessoryids
 ```
 
-**Scenario 8: **The next illustration demonstrates how to promote items that are on sale for between 90 and 110 percent of the item the visitor is currently viewing. For example, if someone is looking at a TV, you could dynamically promote similar TVs that are on sale in approximately the same price range.
+**Scenario 8:** The next illustration demonstrates how to promote items that are on sale for between 90 and 110 percent of the item the visitor is currently viewing. For example, if someone is looking at a TV, you could dynamically promote similar TVs that are on sale in approximately the same price range.
 
 ![](assets/dynamic2.png)
 
@@ -310,7 +308,7 @@ The following rules are used in this example:
 salesPrice - is between - 90% and 110% of - current item's - price
 ```
 
-**Scenario 9: **Consider the following scenario for a sport's media site about how to handle empty values, as explained in [Handling Empty Values when Filtering by Entity Attribute Matching, Profile Attribute Matching, and Parameter Matching](../../c-recommendations/c-algorithms/c-use-dynamic-and-static-inclusion-rules.md#section_7D30E04116DB47BEA6FF840A3424A4C8) above:
+**Scenario 9:** Consider the following scenario for a sport's media site about how to handle empty values, as explained in [Handling Empty Values when Filtering by Entity Attribute Matching, Profile Attribute Matching, and Parameter Matching](../../c-recommendations/c-algorithms/c-use-dynamic-and-static-inclusion-rules.md#section_7D30E04116DB47BEA6FF840A3424A4C8) above:
 
 The content team for a sport's media site wants to show content to users for their favorite teams. If a user has specified a favorite team, the team wants to show media for that team. If a user has not specified a favorite team, the team can use the "If *x* is Empty" drop-down list to do one of the following:
 

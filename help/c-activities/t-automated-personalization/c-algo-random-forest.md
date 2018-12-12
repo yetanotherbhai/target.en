@@ -50,7 +50,7 @@ Decision trees can be a powerful statistical tool. However, they have some disad
 
 ## How do Target's Personalization Algorithms use Random Forest? {#section_32FB53CAD8DF40FB9C0F1217FBDBB691}
 
-** How Models are Built**
+**How Models are Built**
 
 The following diagram summarizes how models are built for Auto-Target or Automated Personalization activities:
 
@@ -68,18 +68,18 @@ Each model must be validated to ensure it is good at predicting the behavior of 
 
 When a model becomes valid for an experience or offer, the clock icon to the left of experience/offer name changes to a green checkbox. When there are valid models for at least two experiences/offers, some visits start to become personalized.
 
-** Feature Transformation **
+**Feature Transformation **
 
 Before the data goes through the personalization algorithm, it undergoes a feature transformation, which can be thought of as prepping the data collected in the training records for use by the personalization models.
 
 The feature transformations depend on the type of attribute. Mainly, there are two types of attributes (or "features" as they are sometimes described by data scientists):
 
-* ** Categorical:** Categorical features cannot be counted but can be sorted into different groups. They could be features like country, gender, or zip code. 
-* ** Numeric:** Numeric features can be measured or counted, such as age, income, and so on.
+* **Categorical:** Categorical features cannot be counted but can be sorted into different groups. They could be features like country, gender, or zip code. 
+* **Numeric:** Numeric features can be measured or counted, such as age, income, and so on.
 
 For categorical features, a set of all possible features is maintained and the likelihood transformation is used to reduce the data size. For numeric features, re-scaling ensures that the features are comparable across the board.
 
-** Balancing Learning vs. Personalizing with the Multi-Armed Bandit**
+**Balancing Learning vs. Personalizing with the Multi-Armed Bandit**
 
 After Target has personalization models built to personalize your traffic, there is a clear tradeoff you face for future visitors to your activity: should you personalize all the traffic based on the current model or should you continue to learn from new visitors by randomly serving them random offers? You want to make sure the personalization algorithm is always learning about new trends in your visitors, while personalizing most of the traffic.
 

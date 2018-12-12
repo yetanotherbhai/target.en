@@ -32,9 +32,9 @@ Target provides various places in the UI where you can edit existing activities.
 
    ![](assets/edit_split_button_2.png)
 
-    * **Next: **To edit another page in the three-step workflow, click **[!UICONTROL Next]** to advance to the desired step. For example, in the illustration above, clicking [!UICONTROL Next] displays the Targeting step. 
-    * **Save & Close: **Make the desired changes on the current step, click the drop-down on the split button, then select **[!UICONTROL Save and Close]** to save your changes and display the activity's [!UICONTROL Overview] page. 
-    * **Save: **Make the desired changes on a step, click the drop-down on the split button, then select **[!UICONTROL Save]** to save your changes and remain on that step where you can continue to make changes. Wait for the save to complete before making additional changes. The VEC reloads with the refreshed changes after the save is complete.
+    * **Next:** To edit another page in the three-step workflow, click **[!UICONTROL Next]** to advance to the desired step. For example, in the illustration above, clicking [!UICONTROL Next] displays the Targeting step. 
+    * **Save & Close:** Make the desired changes on the current step, click the drop-down on the split button, then select **[!UICONTROL Save and Close]** to save your changes and display the activity's [!UICONTROL Overview] page. 
+    * **Save:** Make the desired changes on a step, click the drop-down on the split button, then select **[!UICONTROL Save]** to save your changes and remain on that step where you can continue to make changes. Wait for the save to complete before making additional changes. The VEC reloads with the refreshed changes after the save is complete.
 
 ## Edit an Activity by Opening the Activity by Clicking Its Name on the Activities Page {#section_176180DAD17E40CEA441903F39E0AA1C}
 
@@ -70,9 +70,9 @@ You can save an activity in draft mode if the activity setup has been started bu
 
    ![](assets/save_draft.png)
 
-    * **Next: **To edit another page in the three-step workflow, click **[!UICONTROL Next]** to advance to the desired step. 
-    * **Save Draft & Close: **Make the desired changes on the current step, click the drop-down on the split button, then select **[!UICONTROL Save Draft and Close]** to save your changes and display the activity's [!UICONTROL Overview] page. 
-    * **Save Draft: **Make the desired changes on a step, click the drop-down on the split button, then select **[!UICONTROL Save Draft]** to save your changes and remain on that step.
+    * **Next:** To edit another page in the three-step workflow, click **[!UICONTROL Next]** to advance to the desired step. 
+    * **Save Draft & Close:** Make the desired changes on the current step, click the drop-down on the split button, then select **[!UICONTROL Save Draft and Close]** to save your changes and display the activity's [!UICONTROL Overview] page. 
+    * **Save Draft:** Make the desired changes on a step, click the drop-down on the split button, then select **[!UICONTROL Save Draft]** to save your changes and remain on that step.
 
 ## Copying/Editing an Activity When Using Workspaces {#section_45A92E1DD3934523B07E71EF90C4F8B6}
 
