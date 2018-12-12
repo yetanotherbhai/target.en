@@ -20,7 +20,7 @@ You can display profile values and campaign information directly in an HTML or F
 
 A visitor arrives on your landing page with `keyword=world` `cup`. You display the term *World cup* in the offer.
 
-** Technical Advantages**
+**Technical Advantages**
 
 Because it is stored in the user profile, you can repeat this message on his next visits. Just one offer or campaign can manage these custom messages for all your visitors. As the visitor's intent changes your website content automatically reflects those changes.
 
@@ -74,7 +74,7 @@ The following values can be "token replaced":
 
 **Tip:** This information can be useful for debugging.
 
-** Implementation**
+**Implementation**
 
 For profile parameters passed into an mbox, use the syntax: `${profile.parameter}` For profile parameters created in a script, use the syntax:
 

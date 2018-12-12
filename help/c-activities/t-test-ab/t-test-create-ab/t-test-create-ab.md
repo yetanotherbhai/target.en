@@ -144,4 +144,4 @@ This video demonstrates how to create an A/B test using the [!DNL Target] three-
    ![](assets/ab_settings.png)
 
 1. Click **[!UICONTROL Save]**.
->After you create the activity, the Overview tab shows information about the activity, including a diagram of your activity. 
+After you create the activity, the Overview tab shows information about the activity, including a diagram of your activity. 

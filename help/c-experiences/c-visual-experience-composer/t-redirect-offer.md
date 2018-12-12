@@ -32,9 +32,7 @@ Redirect offers have a few limitations:
 To create a redirect offer: 
 
 1. Create an experience.
-1. Hover over an experience with your mouse, then click the Redirect to URL icon (  ![](assets/icon_redirect_url.png)
-
-   ).
+1. Hover over an experience with your mouse, then click the Redirect to URL icon (![](assets/icon_redirect_url.png)).
 
    ![](assets/exp_actions.png)
 
