@@ -124,11 +124,11 @@ This video includes information about setting up mobile viewports in the account
 
    Options:
 
-* Android 
-* iOS 
-* Windows 
-* Symbian 
-* Blackberry
+   * Android 
+   * iOS 
+   * Windows 
+   * Symbian 
+   * Blackberry
 
    If you use the [Enhanced Experience Composer](../../c-experiences/c-experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) and choose an operating system, Target emulates that device when you view the page. If, for example, there is a different look and feel for Android than iOS on your responsive site, Target mimics that behavior. 
 1. Click **[!UICONTROL Save]**.

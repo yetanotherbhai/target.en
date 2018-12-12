@@ -55,41 +55,41 @@ If you are creating a Recommendations activity, there are no experiences. Choose
 
 1. For the content type you selected, specify the content.
 
-<table id="table_38B1D459A99F4CA695B5D94078402A08"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Content Type Options </th> 
-   <th colname="col2" class="entry"> Instructions </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Change Offer </p> </td> 
-   <td colname="col2"> <p>Choose an offer saved in the content library in Target. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Change Redirect Offer </p> </td> 
-   <td colname="col2"> <p>Choose a redirect offer. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Change Image Offer </p> </td> 
-   <td colname="col2"> <p>Choose an image saved in the content library in Target. </p> <p>You can also add a link to an image (click-through, destination, landing, and so forth). </p> <p> 
-     <ol id="ol_9DB0607503124884ACB3823E9BF7DB19"> 
-      <li id="li_69308FBB39F2479682D3E768555A8F8D">Click <span class="uicontrol"> Change Image Offer</span>. </li> 
-      <li id="li_B79C509BF3B6402C835B84C6D30F29CE">Select the desired image, then click <span class="uicontrol"> Edit Links</span>. </li> 
-      <li id="li_BEBB94C9F3C94678B196E26CDDBF2425">Specify the desired URL or page on your site, then click <span class="uicontrol"> Update</span>. </li> 
-     </ol> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Use Default Content </p> </td> 
-   <td colname="col2"> <p>Use the default content. There is no option to select other content. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Create HTML Offer </p> </td> 
-   <td colname="col2"> <p>Type or paste the HTML offer source code in the Enter HTML field. </p> <p>For information about using the code editor to create or edit HTML offers, see <a href="../c-experiences/c-visual-experience-composer/c-vec-code-editor/c-vec-code-editor.md#concept_B3A6E9EE3A60406DB640E205EA1745B5" format="dita" scope="local"> Code Editor</a>. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+   <table id="table_38B1D459A99F4CA695B5D94078402A08"> 
+   <thead> 
+   <tr> 
+      <th colname="col1" class="entry"> Content Type Options </th> 
+      <th colname="col2" class="entry"> Instructions </th> 
+   </tr> 
+   </thead>
+   <tbody> 
+   <tr> 
+      <td colname="col1"> <p>Change Offer </p> </td> 
+      <td colname="col2"> <p>Choose an offer saved in the content library in Target. </p> </td> 
+   </tr> 
+   <tr> 
+      <td colname="col1"> <p>Change Redirect Offer </p> </td> 
+      <td colname="col2"> <p>Choose a redirect offer. </p> </td> 
+   </tr> 
+   <tr> 
+      <td colname="col1"> <p>Change Image Offer </p> </td> 
+      <td colname="col2"> <p>Choose an image saved in the content library in Target. </p> <p>You can also add a link to an image (click-through, destination, landing, and so forth). </p> <p> 
+      <ol id="ol_9DB0607503124884ACB3823E9BF7DB19"> 
+         <li id="li_69308FBB39F2479682D3E768555A8F8D">Click <span class="uicontrol"> Change Image Offer</span>. </li> 
+         <li id="li_B79C509BF3B6402C835B84C6D30F29CE">Select the desired image, then click <span class="uicontrol"> Edit Links</span>. </li> 
+         <li id="li_BEBB94C9F3C94678B196E26CDDBF2425">Specify the desired URL or page on your site, then click <span class="uicontrol"> Update</span>. </li> 
+      </ol> </p> </td> 
+   </tr> 
+   <tr> 
+      <td colname="col1"> <p>Use Default Content </p> </td> 
+      <td colname="col2"> <p>Use the default content. There is no option to select other content. </p> </td> 
+   </tr> 
+   <tr> 
+      <td colname="col1"> <p>Create HTML Offer </p> </td> 
+      <td colname="col2"> <p>Type or paste the HTML offer source code in the Enter HTML field. </p> <p>For information about using the code editor to create or edit HTML offers, see <a href="../c-experiences/c-visual-experience-composer/c-vec-code-editor/c-vec-code-editor.md#concept_B3A6E9EE3A60406DB640E205EA1745B5" format="dita" scope="local"> Code Editor</a>. </p> </td> 
+   </tr> 
+   </tbody> 
+   </table>
 
    For a Recommendations activity, the Content drop-down gives you the Add Recommendation option. Click **[!UICONTROL Add Recommendation]**, then select the page type. Then follow the usual steps as defined in the interface to [create a Recommendations activity](https://marketing.adobe.com/resources/help/en_US/target/recs/t_create_recs_activity.html).
 

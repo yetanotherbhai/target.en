@@ -34,7 +34,7 @@ The redirect offer executes JavaScript code to redirect the browser. It uses the
 >
 >If you want to pass the referrer value of the landing page, it is recommended that you use an HTML offer rather than a redirect offer.
 
-**To create a Redirect Offer: ** 
+**To create a Redirect Offer:** 
 
 1. Click **[!UICONTROL Offers]**, then select the **[!UICONTROL Code Offers]** tab.
 1. Click **[!UICONTROL Create]** > **[!UICONTROL Redirect Offer]**.
@@ -47,11 +47,13 @@ The redirect offer executes JavaScript code to redirect the browser. It uses the
 
 1. Select the desired options to customize your redirect offer:
 
-* ** Include all URL parameters: ** Check this box if you want all the URL parameters present on the previous page to be propagated to the redirected page.
+* **Include all URL parameters:** Check this box if you want all the URL parameters present on the previous page to be propagated to the redirected page.
 
   For example, you want to redirect people directly from a men's page to a men's shirts category page. You also want the dynamic parameters in the URL to be passed because this is how you track if people reached your site via email, banner ad, search ad, or organically. By checking this box, your redirect offer on page [!DNL `https://www.mycompany.com/mens.html?emailId=123`] will automatically become [!DNL `https://www.mycompany.com/mensShirts.html?emailId=123`] when all you entered in the URL box was [!DNL `https://www.mycompany.com/mensShirts.html`]. 
 
-* ** Pass mbox session ID (required to redirect to a different domain): **Check this box if you want the `sessionId` to automatically be included in the redirect. This is only required when you are testing clicks from an email or clicks from one domain to another. The `sessionId` matches the visitor's cookie so the visitor can continue to be tracked and the proper content is shown.
+* **Pass mbox session ID (required to redirect to a different domain):** 
+
+  Check this box if you want the `sessionId` to automatically be included in the redirect. This is only required when you are testing clicks from an email or clicks from one domain to another. The `sessionId` matches the visitor's cookie so the visitor can continue to be tracked and the proper content is shown.
 
   If you use the 1st & 3rd party cookie setup, you do not need to pass the mbox session ID when crossing domains. It is persistent on the 3rd-party cookie, so it is not necessary in the URL.
 
