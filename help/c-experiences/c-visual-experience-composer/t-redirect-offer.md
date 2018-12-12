@@ -48,11 +48,11 @@ To create a redirect offer:
 
    Additional rules can be based on any of the following:
 
-* URL 
-* Domain 
-* Path 
-* Hash (#) Fragment 
-* Query 
-* mbox Parameter
+   * URL 
+   * Domain 
+   * Path 
+   * Hash (#) Fragment 
+   * Query 
+   * mbox Parameter
 
    Additional rules can be joined to the Activity URL with AND or OR. All rules you add are evaluated against each other with AND. 

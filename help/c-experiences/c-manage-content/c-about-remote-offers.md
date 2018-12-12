@@ -49,24 +49,24 @@ Some examples of remote offers include:
 
 1. Specify the remote URL for the remote offer:
 
-<table id="table_E030736D80514A53B65D26DFF62ED67C"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Option </th> 
-   <th colname="col2" class="entry"> Description </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Cached </p> </td> 
-   <td colname="col2"> <p>The content for a cached remote offer is served from <span class="keyword"> Target</span>. </p> <p>Every two hours, <span class="keyword"> Target</span> fetches the content at the remote URL and then stores the content inside <span class="keyword"> Target</span>. When visitors load a site with an experience that includes a remote offer, the offer is delivered by <span class="keyword"> Target</span>. </p> <p>Cached remote offers provide enhanced security because somebody logged in to Target cannot change the content. To change the content, someone would need to log in to the content management or other system and change the content there. </p> <p>You can specify an absolute or relative URL for a cached remote offer. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Dynamic </p> </td> 
-   <td colname="col2"> <p>A dynamic remote offer is served from the content management or other system rather than from <span class="keyword"> Target</span>. </p> <p>You might not want the content periodically cached and then delivered by <span class="keyword"> Target</span> whenever visitors load a site with an experience that includes a remote offer. Instead, you want to call the system that is hosting the content, possibly pass in specific information so that the returned offer can be dynamic, or different, for each user. </p> <p>For example, if a user logs in to a website for a credit card that includes an experience with a dynamic remote offer, you could pass parameters into the URL for the user's account information. Then the website could provide user-specific information, such as account balance. </p> <p>Click <span class="wintitle"> Add Parameter</span> to add one or more mbox or request parameters. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+    <table id="table_E030736D80514A53B65D26DFF62ED67C"> 
+    <thead> 
+    <tr> 
+    <th colname="col1" class="entry"> Option </th> 
+    <th colname="col2" class="entry"> Description </th> 
+    </tr>
+    </thead>
+    <tbody> 
+    <tr> 
+    <td colname="col1"> <p>Cached </p> </td> 
+    <td colname="col2"> <p>The content for a cached remote offer is served from <span class="keyword"> Target</span>. </p> <p>Every two hours, <span class="keyword"> Target</span> fetches the content at the remote URL and then stores the content inside <span class="keyword"> Target</span>. When visitors load a site with an experience that includes a remote offer, the offer is delivered by <span class="keyword"> Target</span>. </p> <p>Cached remote offers provide enhanced security because somebody logged in to Target cannot change the content. To change the content, someone would need to log in to the content management or other system and change the content there. </p> <p>You can specify an absolute or relative URL for a cached remote offer. </p> </td> 
+    </tr> 
+    <tr> 
+    <td colname="col1"> <p>Dynamic </p> </td> 
+    <td colname="col2"> <p>A dynamic remote offer is served from the content management or other system rather than from <span class="keyword"> Target</span>. </p> <p>You might not want the content periodically cached and then delivered by <span class="keyword"> Target</span> whenever visitors load a site with an experience that includes a remote offer. Instead, you want to call the system that is hosting the content, possibly pass in specific information so that the returned offer can be dynamic, or different, for each user. </p> <p>For example, if a user logs in to a website for a credit card that includes an experience with a dynamic remote offer, you could pass parameters into the URL for the user's account information. Then the website could provide user-specific information, such as account balance. </p> <p>Click <span class="wintitle"> Add Parameter</span> to add one or more mbox or request parameters. </p> </td> 
+    </tr> 
+    </tbody> 
+    </table>
 
 1. Click **[!UICONTROL Save]**.
 
