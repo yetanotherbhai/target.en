@@ -123,7 +123,7 @@ The multivariate test takes a page-first report. In other words, the test runs o
    >
    >In addition to selecting an existing audience, you can combine multiple audiences to create ad hoc combined audiences rather than creating a new audience. For more information, see [Combining Multiple Audiences](../../../c-target/c-combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5).
 
-1. [Review the test summary](../../../c-activities/c-multivariate-testing/t-create-multivariate-test/r-test-summary.md#reference_971AB225963A4DC18EEB5B0E20F0A4A7) and make any desired changes, then click **[!UICONTROL Continue]**..
+1. [Review the test summary](../../../c-activities/c-multivariate-testing/t-create-multivariate-test/r-test-summary.md#reference_971AB225963A4DC18EEB5B0E20F0A4A7) and make any desired changes, then click **[!UICONTROL Next]**..
 
    ![](assets/mvtflow.png)
 

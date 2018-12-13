@@ -29,7 +29,7 @@ Test multiple image offers within a location to determine which image is most su
 
    ![](assets/changeimage.png)
 
-1. Select all images you want to include in the test, then click **[!UICONTROL Add]**.
+1. Select all images you want to include in the test, then click **[!UICONTROL Save]**.
 
    ![](assets/addimage.png)
 
@@ -37,13 +37,13 @@ Each image becomes a separate experience in that location.
 
 ## HTML Offers {#section_DF016101AFA9412C9B99862C23DE77B1}
 
-Test multiple HTML offers within a location to determine which offer is most successful.
+Test multiple Text/HTML offers within a location to determine which offer is most successful.
 
-1. Click an HTML offer on your page, then click **[!UICONTROL Change HTML]**.
+1. Click an Text/HTML offer on your page, then click **[!UICONTROL Change Text/HTML]**.
 
    ![](assets/changehtml.png)
 
-1. Click **[!UICONTROL Add HTML Offer]**, name the offer, then type or paste the code for the HTML offer.
+1. Click **[!UICONTROL Add Text/HTML Offer]**, name the offer, then type or paste the code for the Text/HTML offer.
 
    ![](assets/editoffers.png)
 
@@ -51,29 +51,11 @@ Test multiple HTML offers within a location to determine which offer is most suc
    >
    >Internet Explorer 10 does not support HTML5 input placeholders. As a result, if you use IE10, the "Add content" placeholder text remains in the Text field when you enter content.
 
-   Repeat for any additional HTML offers you want to include. 
+   Repeat for any additional Text/HTML offers you want to include. 
 
-1. Click **[!UICONTROL Apply]**.
+1. Click **[!UICONTROL Save]**.
 
-Each HTML offer becomes a separate experience in that location.
-
-## Text Offers {#section_6CAD265D53534350BAC2780F10B140A8}
-
-You can test alternative text in text elements on your page.
-
-1. Click a text offer on your page, then click **[!UICONTROL Change Text]** ![](assets/changetext.png)
-
-1. Click **[!UICONTROL Add Text Offer]**, name the offer, and enter the text for the new offer.
-
-   ![](assets/changetexttext.png)
-
-   You can change the offer name for each offer.
-
-   Repeat for any additional text offers you want to include. 
-
-1. Click **[!UICONTROL Apply]**.
-
-Each text offer becomes a separate experience in that location.
+Each Text/HTML offer becomes a separate experience in that location.
 
 ## Best Practices {#section_2E98C23D2F1A460FA732A31799CE6291}
 
