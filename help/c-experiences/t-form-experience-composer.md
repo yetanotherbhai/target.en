@@ -64,12 +64,8 @@ If you are creating a Recommendations activity, there are no experiences. Choose
    </thead>
    <tbody> 
    <tr> 
-      <td colname="col1"> <p>Change Offer </p> </td> 
-      <td colname="col2"> <p>Choose an offer saved in the content library in Target. </p> </td> 
-   </tr> 
-   <tr> 
-      <td colname="col1"> <p>Change Redirect Offer </p> </td> 
-      <td colname="col2"> <p>Choose a redirect offer. </p> </td> 
+      <td colname="col1"> <p>Change HTML Offer </p> </td> 
+      <td colname="col2"> <p>Choose an HTML offer. </p> </td> 
    </tr> 
    <tr> 
       <td colname="col1"> <p>Change Image Offer </p> </td> 
@@ -79,14 +75,46 @@ If you are creating a Recommendations activity, there are no experiences. Choose
          <li id="li_B79C509BF3B6402C835B84C6D30F29CE">Select the desired image, then click <span class="uicontrol"> Edit Links</span>. </li> 
          <li id="li_BEBB94C9F3C94678B196E26CDDBF2425">Specify the desired URL or page on your site, then click <span class="uicontrol"> Update</span>. </li> 
       </ol> </p> </td> 
+      </tr>
+<tr> 
+      <td colname="col1"> <p>Change JSON Offer </p> </td> 
+      <td colname="col2"> <p>Choose a JSON offer.</p> </td> 
+   </tr> <tr> 
+      <td colname="col1"> <p>Change Experience Fragment</p> </td> 
+      <td colname="col2"> <p>Choose an <a href="../c-experiences/c-manage-content/aem-experience-fragments.md" format="dita" scope="local"> Experience Fragment.</a></p> </td> 
    </tr> 
+<tr> 
+      <td colname="col1"> <p>Change Redirect Offer</p> </td> 
+      <td colname="col2"> <p>Choose a redirect offer. </p> </td> 
+   </tr> 
+<tr> 
+      <td colname="col1"> <p>Change Remote Offer</p> </td> 
+      <td colname="col2"> <p>Choose a remote offer. </p> </td> 
+   </tr> 
+<tr> 
+      <td colname="col1"> <p>Create HTML Offer </p> </td> 
+      <td colname="col2"> 
+      <ol id="ol_9DB0607503124884ACB3823E9BF7DB19"> 
+         <li id="li_69308FBB39F2479682D3E768555A8F8D">Click <span class="uicontrol"> Offers</span>, then select the <span class="uicontrol">Code Offers</span> tab. </li> 
+         <li id="li_B79C509BF3B6402C835B84C6D30F29CE">Select <span class="uicontrol"> Create</span> > <span class="uicontrol">HTML Offer. </li> 
+         <li id="li_BEBB94C9F3C94678B196E26CDDBF2425">Type an offer name. </li> 
+         <li>Type or paste your HTML code in the Code box.</li>
+         <li>Click <span class="uicontrol">Save</span>.</li>
+      </ol> </p> </td> 
+      </tr><tr> 
+      <td colname="col1"> <p>Create JSON Offer </p> </td> 
+      <td colname="col2"> 
+      <ol id="ol_9DB0607503124884ACB3823E9BF7DB19"> 
+         <li id="li_69308FBB39F2479682D3E768555A8F8D">Click <span class="uicontrol"> Offers</span>, then select the <span class="uicontrol">Code Offers</span> tab. </li> 
+         <li id="li_B79C509BF3B6402C835B84C6D30F29CE">Select <span class="uicontrol"> Create</span> > <span class="uicontrol">JSON Offer. </li> 
+         <li id="li_BEBB94C9F3C94678B196E26CDDBF2425">Type an offer name. </li> 
+         <li>Type or paste your JSON code in the Code box.</li>
+         <li>Click <span class="uicontrol">Save</span>.</li>
+      </ol> </p> </td> 
+      </tr>
    <tr> 
       <td colname="col1"> <p>Use Default Content </p> </td> 
       <td colname="col2"> <p>Use the default content. There is no option to select other content. </p> </td> 
-   </tr> 
-   <tr> 
-      <td colname="col1"> <p>Create HTML Offer </p> </td> 
-      <td colname="col2"> <p>Type or paste the HTML offer source code in the Enter HTML field. </p> <p>For information about using the code editor to create or edit HTML offers, see <a href="../c-experiences/c-visual-experience-composer/c-vec-code-editor/c-vec-code-editor.md#concept_B3A6E9EE3A60406DB640E205EA1745B5" format="dita" scope="local"> Code Editor</a>. </p> </td> 
    </tr> 
    </tbody> 
    </table>
