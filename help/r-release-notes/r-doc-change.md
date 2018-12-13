@@ -72,7 +72,7 @@ This page lists important changes made to the Target documentation.
    <td colname="col2"> <p> <a href="../c-activities/c-multivariate-testing/t-create-multivariate-test/t-create-multivariate-test.md" format="dita" scope="local">Create a Multivariate Test</a> </p> </td> 
    <td colname="col3"> <p>Updated text and images.</p> </td> 
   </tr> 
-  <tr> 
+<tr> 
    <td colname="col1"> December 11, 2018 </td> 
    <td colname="col2"> <p> <a href="../c-implementing-target/c-implementing-target-for-client-side-web/cmp-at.js-functions.md" format="dita" scope="local"> targetGlobalSettings</a> </p> </td> 
    <td colname="col3"> <p>Added that the default value for overrideMboxEdgeServer is "true" beginning with at.js version 1.6.2.</p> </td> 
