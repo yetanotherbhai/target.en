@@ -34,5 +34,6 @@ Because a multivariate test compares multiple experiences on a page, it is helpf
    >When creating multivariate tests, you can now exclude more than 10 percent of experiences from the test, provided you acknowledge the warning that you must then use offline reporting for analysis.
 
    By default, all experiences are included in the multivariate test. To include an experience that has been excluded, select the excluded experience and click **[!UICONTROL Include]**. 
->Click **[!UICONTROL Exit Preview Mode]** to return to the Experience Composer so you can make changes, or click **[!UICONTROL Continue]** to go to the test summary. 
+
+Click **[!UICONTROL Exit Preview Mode]** to return to the Experience Composer so you can make changes, or click **[!UICONTROL Continue]** to go to the test summary. 
 
