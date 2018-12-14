@@ -28,6 +28,16 @@ This page lists important changes made to the Target documentation.
  </thead>
  <tbody>
 <tr> 
+   <td colname="col1"> December 14, 2018 </td> 
+   <td colname="col2"> <p> <a href="../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md" format="dita" scope="local">Implement Target using Adobe Launch</a> </p> </td> 
+   <td colname="col3"> <p>Added link to a new training video: Implementing Target with the Adobe Launch Tutorial.</p> </td> 
+  </tr> 
+<tr> 
+   <td colname="col1"></td> 
+   <td colname="col2"> <p> <a href="../c-reports/c-personalization-insights-reports/c-personalization-insights-reports.md" format="dita" scope="local">Personalization Insights reports</a> </p> </td> 
+   <td colname="col3"> <p>Added link to training video.</p> </td> 
+  </tr> 
+<tr> 
    <td colname="col1"> December 13, 2018 </td> 
    <td colname="col2"> <p> <a href="../c-experiences/t-form-experience-composer.md" format="dita" scope="local">Form-based Experience Composer</a> </p> </td> 
    <td colname="col3"> <p>Updated text and image.</p> </td> 
