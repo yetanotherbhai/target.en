@@ -14,7 +14,7 @@ internal: n
 snippet: y
 ---
 
-# Integrate Recommendations with email{#integrate-recommendations-with-email}
+# ![PREMIUM](/help/assets/premium.png) Integrate Recommendations with email{#integrate-recommendations-with-email}
 
 Information about the ways to integrate email with Recommendations.
 

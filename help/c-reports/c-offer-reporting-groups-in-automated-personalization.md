@@ -14,7 +14,7 @@ internal: n
 snippet: y
 ---
 
-# Offer reporting groups in Automated Personalization{#offer-reporting-groups-in-automated-personalization}
+# ![PREMIUM](/help/assets/premium.png) Offer reporting groups in Automated Personalization{#offer-reporting-groups-in-automated-personalization}
 
 Information about using reporting groups in Automated Personalization (AP) activities.
 

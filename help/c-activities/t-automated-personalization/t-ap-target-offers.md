@@ -12,7 +12,7 @@ internal: n
 snippet: y
 ---
 
-# Target Automated Personalization offers{#target-automated-personalization-offers}
+# ![PREMIUM](/help/assets/premium.png) Target Automated Personalization offers{#target-automated-personalization-offers}
 
 In an Automated Personalization activity, you can target offers to specific audiences.
 

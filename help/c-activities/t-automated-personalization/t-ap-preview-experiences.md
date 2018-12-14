@@ -14,7 +14,7 @@ internal: n
 snippet: y
 ---
 
-# Preview experiences for Automated Personalization in the Visual Experience Composer{#preview-experiences-for-automated-personalization-in-the-visual-experience-composer}
+# ![PREMIUM](/help/assets/premium.png) Preview experiences for Automated Personalization in the Visual Experience Composer{#preview-experiences-for-automated-personalization-in-the-visual-experience-composer}
 
 Because an automated personalization test compares multiple offers on a page, it is helpful to preview the page with each experience.
 

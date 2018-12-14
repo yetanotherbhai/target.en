@@ -14,7 +14,7 @@ internal: n
 snippet: y
 ---
 
-# Recommendations Classic versus Recommendations activities in Target Premium{#recommendations-classic-versus-recommendations-activities-in-target-premium}
+# ![PREMIUM](/help/assets/premium.png) Recommendations Classic versus Recommendations activities in Target Premium{#recommendations-classic-versus-recommendations-activities-in-target-premium}
 
 Information to help you choose between Recommendations Classic and Recommendations activities in Target Premium.
 

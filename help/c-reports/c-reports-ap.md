@@ -13,7 +13,7 @@ internal: n
 snippet: y
 ---
 
-# Automated Personalization Summary reports{#automated-personalization-summary-reports}
+# ![PREMIUM](/help/assets/premium.png) Automated Personalization Summary reports{#automated-personalization-summary-reports}
 
 Specialized reports are available to users of Automated Personalization.
 

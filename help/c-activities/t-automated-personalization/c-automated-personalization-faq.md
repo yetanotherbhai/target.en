@@ -14,7 +14,7 @@ internal: n
 snippet: y
 ---
 
-# Automated Personalization FAQ{#automated-personalization-faq}
+# ![PREMIUM](/help/assets/premium.png) Automated Personalization FAQ{#automated-personalization-faq}
 
 List of frequently asked questions (FAQs) about Automated Personalization (AP).
 

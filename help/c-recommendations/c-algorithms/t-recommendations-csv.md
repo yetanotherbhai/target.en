@@ -14,7 +14,7 @@ internal: n
 snippet: y
 ---
 
-# Upload custom criteria{#upload-custom-criteria}
+# ![PREMIUM](/help/assets/premium.png) Upload custom criteria{#upload-custom-criteria}
 
 Upload a CSV file to customize your recommendations.
 

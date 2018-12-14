@@ -14,7 +14,7 @@ internal: n
 snippet: y
 ---
 
-# Feeds{#feeds}
+# ![PREMIUM](/help/assets/premium.png) Feeds{#feeds}
 
 Use feeds to get entities imported into Recommendations. Entities can be sent using CSV files, the Google Product Search feed format, and/or Adobe Analytics product classifications.
 

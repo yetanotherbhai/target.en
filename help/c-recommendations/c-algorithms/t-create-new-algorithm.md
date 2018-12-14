@@ -14,7 +14,7 @@ internal: n
 snippet: y
 ---
 
-# Create criteria{#create-criteria}
+# ![PREMIUM](/help/assets/premium.png) Create criteria{#create-criteria}
 
 Criteria control the content of your Recommendations activities. Create criteria to show the recommendations that are most appropriate for your activity.
 

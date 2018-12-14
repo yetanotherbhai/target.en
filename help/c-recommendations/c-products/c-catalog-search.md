@@ -14,7 +14,7 @@ internal: n
 snippet: y
 ---
 
-# Catalog search{#catalog-search}
+# ![PREMIUM](/help/assets/premium.png) Catalog search {#catalog-search}
 
 The catalog search helps you locate the products or content in your catalog.
 

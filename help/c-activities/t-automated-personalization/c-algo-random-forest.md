@@ -13,7 +13,7 @@ internal: n
 snippet: y
 ---
 
-# Random Forest algorithm{#random-forest-algorithm}
+# ![PREMIUM](/help/assets/premium.png) Random Forest algorithm{#random-forest-algorithm}
 
 Target's main personalization algorithm used in both Automated Personalization and Auto-Target is Random Forest. Ensemble methods like Random Forest use multiple learning algorithms to obtain better predictive performance than could be obtained from any of the constituent learning algorithms. The Random Forest algorithm in Automated Personalization is a classification or regression method that operates by constructing a multitude of decision trees when it is being trained.
 

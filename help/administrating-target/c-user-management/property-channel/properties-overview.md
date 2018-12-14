@@ -15,7 +15,7 @@ internal: n
 snippet: y
 ---
 
-# Configure enterprise permissions{#configure-enterprise-permissions}
+# ![PREMIUM](/help/assets/premium.png) Configure enterprise permissions{#configure-enterprise-permissions}
 
 Information about the tasks required to add users to your Target implementation;create workspaces, user groups, and properties;update your Target implementation to include the at_property parameter;and specify roles and permissions.
 

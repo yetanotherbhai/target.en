@@ -14,7 +14,7 @@ internal: n
 snippet: y
 ---
 
-# Customize a design using Velocity{#customize-a-design-using-velocity}
+# ![PREMIUM](/help/assets/premium.png) Customize a design using Velocity{#customize-a-design-using-velocity}
 
 Use the open-source Velocity design language to customize recommendation designs.
 

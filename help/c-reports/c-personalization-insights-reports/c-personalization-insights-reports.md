@@ -13,7 +13,7 @@ internal: n
 snippet: y
 ---
 
-# Personalization Insights reports{#personalization-insights-reports}
+# ![PREMIUM](/help/assets/premium.png) Personalization Insights reports{#personalization-insights-reports}
 
 Two specialized reports are available to users of Automated Personalization (AP) and Auto-Target (AT) activities: the Automated Segments and Important Attributes reports.
 

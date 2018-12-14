@@ -15,7 +15,7 @@ internal: n
 snippet: y
 ---
 
-# Recommendations Activity settings{#recommendations-activity-settings}
+# ![PREMIUM](/help/assets/premium.png) Recommendations Activity settings{#recommendations-activity-settings}
 
 Several settings can be used to describe and control a Recommendations activity.
 

@@ -14,7 +14,7 @@ internal: n
 snippet: y
 ---
 
-# Use dynamic and static inclusion rules{#use-dynamic-and-static-inclusion-rules}
+# ![PREMIUM](/help/assets/premium.png) Use dynamic and static inclusion rules{#use-dynamic-and-static-inclusion-rules}
 
 Information about creating inclusion rules for criteria and promotions, and adding additional dynamic or static filtering rules to achieve better results.
 

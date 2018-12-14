@@ -13,7 +13,7 @@ internal: n
 snippet: y
 ---
 
-# Data collection for the Target personalization algorithms{#data-collection-for-the-target-personalization-algorithms}
+# ![PREMIUM](/help/assets/premium.png) Data collection for the Target personalization algorithms{#data-collection-for-the-target-personalization-algorithms}
 
 Target automatically collects and uses a variety of data to build its personalization algorithms in Automated Personalization (AP) and Auto-Target (AT) activities. When a visitor enters the AP or AT activity, a snapshot of information is passed to a set of "training records" (the visitor data that the personalization algorithms will learn on).
 

@@ -14,7 +14,7 @@ internal: n
 snippet: y
 ---
 
-# Add promotions{#add-promotions}
+# ![PREMIUM](/help/assets/premium.png) Add promotions{#add-promotions}
 
 Add promoted items and control their placement in your Recommendations designs. You can add static and dynamic promotions.
 

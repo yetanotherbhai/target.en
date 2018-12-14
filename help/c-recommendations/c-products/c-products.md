@@ -14,7 +14,7 @@ internal: n
 snippet: y
 ---
 
-# Entities{#entities}
+# ![PREMIUM](/help/assets/premium.png) Entities{#entities}
 
 Entities refer to the items you want to recommend. Entities can be anything such as products, content (such as articles, slide shows, images, movies, and tv shows), job listings, restaurants, and so forth.
 
