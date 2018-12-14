@@ -54,7 +54,7 @@ There are several types of activities:
    <td colname="col2"> <p class="- topic/p ">A/B Testing compares two or more versions of your Web site content to see which version best improves your conversions during a pre-specified test period. </p> <p>The following are two types of A/B tests you can use: </p> 
     <ul id="ul_1A94061695D74ABEADE7C579B1349F09"> 
      <li id="li_97B7AB009C86403AA6ABEECE03B15659"> <p><a href="../c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4" format="dita" scope="local"> Auto-Allocate</a> </p> <p>Auto Allocate identifies a winner among two or more experiences and automatically reallocates more traffic to the winner to increase conversions while the test continues to run and learn. </p> </li> 
-     <li id="li_69D72AECB5524DC0B2C80AE332B5A178"> <p><a href="../c-activities/c-auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3" format="dita" scope="local"> Auto-Target</a> </p> <p>Auto Target uses advanced machine learning to identify multiple high performing marketer-defined experiences, and serves the most tailored experience to each visitor based on their individual customer profile and the behavior of previous visitors with similar profiles, in order to personalize content and drive conversions. </p> </li> 
+     <li id="li_69D72AECB5524DC0B2C80AE332B5A178"> <p>https://marketing.adobe.com/resources/help/en_US/target/<a href="../c-activities/c-auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3" format="dita" scope="local"> Auto-Target</a> </p> <p>Auto Target uses advanced machine learning to identify multiple high performing marketer-defined experiences, and serves the most tailored experience to each visitor based on their individual customer profile and the behavior of previous visitors with similar profiles, in order to personalize content and drive conversions. </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -70,11 +70,11 @@ There are several types of activities:
    <td colname="col2"> <p class="- topic/p ">Experience Targeting (XT) delivers content to a specific audience based on a set of marketer-defined rules and criteria. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1" class="premium"> <p> <a href="../c-activities/t-automated-personalization/t-automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9" format="dita" scope="local"> Automated Personalization</a> </p> </td> 
+   <td colname="col1" class="premium"> <p>  <img href="help/assets/premium.png"><a href="../c-activities/t-automated-personalization/t-automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9" format="dita" scope="local"> Automated Personalization</a> </p> </td> 
    <td colname="col2"> <p>Automated Personalization (AP) combines offers or messages, and uses advanced machine learning to match different variations to each visitor based on their individual customer profile, in order to personalize content and drive conversions. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1" class="premium"> <p> <a href="../c-recommendations/c-recommendations.md#concept_7556C8A4543942F2A77B13A29339C0C0" format="dita" scope="local"> Recommendations</a> </p> </td> 
+   <td colname="col1" class="premium"> <p> <img href="help/assets/premium.png"><a href="../c-recommendations/c-recommendations.md#concept_7556C8A4543942F2A77B13A29339C0C0" format="dita" scope="local"> Recommendations</a> </p> </td> 
    <td colname="col2"> <p>A recommendation determines how a product is suggested to a website user, depending on that user's activities on the site. </p> <p>For example, you might want to encourage people who purchase a backpack to consider buying hiking shoes and trekking poles. You could create a recommendation that shows items that are often purchased together, using the "People who bought this also bought that" algorithm. Or, you might want to encourage visitors to spend more time on your media site by recommending similar video to the one they are watching, using the "People who viewed this viewed that" algorithm. </p> </td> 
   </tr> 
  </tbody> 
