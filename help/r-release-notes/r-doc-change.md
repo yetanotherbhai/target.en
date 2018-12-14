@@ -27,35 +27,52 @@ This page lists important changes made to the Target documentation.
   </tr> 
  </thead>
  <tbody>
- <tr> 
+<tr> 
    <td colname="col1"> December 13, 2018 </td> 
+   <td colname="col2"> <p> <a href="../c-experiences/t-form-experience-composer.md" format="dita" scope="local">Form-based Experience Composer</a> </p> </td> 
+   <td colname="col3"> <p>Updated text and image.</p> </td> 
+  </tr> 
+<tr> 
+   <td colname="col1"></td> 
+   <td colname="col2"> <p> <a href="known-issues-resolved-issues.md" format="dita" scope="local">Known issues and resolved issues</a> </p> </td> 
+   <td colname="col3"> <p>Added known issue that the Recommendations feed index can show "Waiting for index" if the items in the feed are the same as in the previous run.</p> </td> 
+  </tr> 
+<tr> 
+   <td colname="col1"> </td> 
    <td colname="col2"> <p> <a href="../c-activities/t-test-ab/t-test-create-ab/c-ab-audience.md" format="dita" scope="local">Select audience</a> </p> </td> 
    <td colname="col3"> <p>Updated images.</p> </td> 
   </tr> 
 <tr> 
-   <td colname="col1"> </td> 
-   <td colname="col2"> <p> <a href="../c-experiences/t-form-experience-composer.md" format="dita" scope="local">Form-based Experience Composer</a> </p> </td> 
-   <td colname="col3"> <p>Updated image and table.</p> </td> <tr> 
-   <td colname="col1"> </td> 
-   <td colname="col2"> <p> <a href="../c-activities/t-test-ab/t-test-create-ab/c-ab-audience.md" format="dita" scope="local">Select audience</a> </p> </td> 
-   <td colname="col3"> <p>Updated images.</p> </td> 
-  </tr> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> </td> 
-   <td colname="col2"> <p> <a href="../c-activities/t-test-ab/t-test-create-ab/t-ab-add-experience.md" 
-   format="dita" scope="local">Add experience</a> </p> </td> 
+   <td colname="col1"></td> 
+   <td colname="col2"> <p> <a href="../c-activities/t-test-ab/t-test-create-ab/t-ab-add-experience.md" format="dita" scope="local">Add experience</a> </p> </td> 
    <td colname="col3"> <p>Updated image.</p> </td> 
   </tr> 
-
 <tr> 
-   <td colname="col1"> </td> 
-   <td colname="col2"> <p> <a href="../c-activities/t-test-ab/t-test-create-ab/t-test-create-ab.md" 
-   format="dita" scope="local">Create an A/B test</a> </p> </td> 
+   <td colname="col1"></td> 
+   <td colname="col2"> <p> <a href="../c-activities/t-test-ab/t-test-create-ab/t-test-create-ab.md" format="dita" scope="local">Create an A/B Test</a> </p> </td> 
    <td colname="col3"> <p>Updated images.</p> </td> 
   </tr> 
-
-  <tr> 
+<tr> 
+   <td colname="col1"></td> 
+   <td colname="col2"> <p> <a href="../c-activities/c-multivariate-testing/t-create-multivariate-test/r-test-summary.md" format="dita" scope="local">Test summary</a> </p> </td> 
+   <td colname="col3"> <p>Updated image.</p> </td> 
+  </tr> 
+<tr> 
+   <td colname="col1"></td> 
+   <td colname="col2"> <p> <a href="../c-activities/c-multivariate-testing/t-create-multivariate-test/t-preview-experiences.md" format="dita" scope="local">Preview experiences for a Multivariate Test</a> </p> </td> 
+   <td colname="col3"> <p>Updated image.</p> </td> 
+  </tr> 
+<tr> 
+   <td colname="col1"></td> 
+   <td colname="col2"> <p> <a href="../c-activities/c-multivariate-testing/t-create-multivariate-test/c-add-offers.md" format="dita" scope="local">Create combinations</a> </p> </td> 
+   <td colname="col3"> <p>Updated text and images.</p> </td> 
+  </tr> 
+<tr> 
+   <td colname="col1"></td> 
+   <td colname="col2"> <p> <a href="../c-activities/c-multivariate-testing/t-create-multivariate-test/t-create-multivariate-test.md" format="dita" scope="local">Create a Multivariate Test</a> </p> </td> 
+   <td colname="col3"> <p>Updated text and images.</p> </td> 
+  </tr> 
+<tr> 
    <td colname="col1"> December 11, 2018 </td> 
    <td colname="col2"> <p> <a href="../c-implementing-target/c-implementing-target-for-client-side-web/cmp-at.js-functions.md" format="dita" scope="local"> targetGlobalSettings</a> </p> </td> 
    <td colname="col3"> <p>Added that the default value for overrideMboxEdgeServer is "true" beginning with at.js version 1.6.2.</p> </td> 

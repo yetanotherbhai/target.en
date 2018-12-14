@@ -55,69 +55,39 @@ If you are creating a Recommendations activity, there are no experiences. Choose
 
 1. For the content type you selected, specify the content.
 
-   <table id="table_38B1D459A99F4CA695B5D94078402A08"> 
-   <thead> 
-   <tr> 
-      <th colname="col1" class="entry"> Content Type Options </th> 
-      <th colname="col2" class="entry"> Instructions </th> 
-   </tr> 
-   </thead>
-   <tbody> 
-   <tr> 
-      <td colname="col1"> <p>Change HTML Offer </p> </td> 
-      <td colname="col2"> <p>Choose an HTML offer. </p> </td> 
-   </tr> 
-   <tr> 
-      <td colname="col1"> <p>Change Image Offer </p> </td> 
-      <td colname="col2"> <p>Choose an image saved in the content library in Target. </p> <p>You can also add a link to an image (click-through, destination, landing, and so forth). </p> <p> 
-      <ol id="ol_9DB0607503124884ACB3823E9BF7DB19"> 
-         <li id="li_69308FBB39F2479682D3E768555A8F8D">Click <span class="uicontrol"> Change Image Offer</span>. </li> 
-         <li id="li_B79C509BF3B6402C835B84C6D30F29CE">Select the desired image, then click <span class="uicontrol"> Edit Links</span>. </li> 
-         <li id="li_BEBB94C9F3C94678B196E26CDDBF2425">Specify the desired URL or page on your site, then click <span class="uicontrol"> Update</span>. </li> 
-      </ol> </p> </td> 
-      </tr>
-<tr> 
-      <td colname="col1"> <p>Change JSON Offer </p> </td> 
-      <td colname="col2"> <p>Choose a JSON offer.</p> </td> 
-   </tr> <tr> 
-      <td colname="col1"> <p>Change Experience Fragment</p> </td> 
-      <td colname="col2"> <p>Choose an <a href="../c-experiences/c-manage-content/aem-experience-fragments.md" format="dita" scope="local"> Experience Fragment.</a></p> </td> 
-   </tr> 
-<tr> 
-      <td colname="col1"> <p>Change Redirect Offer</p> </td> 
-      <td colname="col2"> <p>Choose a redirect offer. </p> </td> 
-   </tr> 
-<tr> 
-      <td colname="col1"> <p>Change Remote Offer</p> </td> 
-      <td colname="col2"> <p>Choose a remote offer. </p> </td> 
-   </tr> 
-<tr> 
-      <td colname="col1"> <p>Create HTML Offer </p> </td> 
-      <td colname="col2"> 
-      <ol id="ol_9DB0607503124884ACB3823E9BF7DB19"> 
-         <li id="li_69308FBB39F2479682D3E768555A8F8D">Click <span class="uicontrol"> Offers</span>, then select the <span class="uicontrol">Code Offers</span> tab. </li> 
-         <li id="li_B79C509BF3B6402C835B84C6D30F29CE">Select <span class="uicontrol"> Create</span> > <span class="uicontrol">HTML Offer. </li> 
-         <li id="li_BEBB94C9F3C94678B196E26CDDBF2425">Type an offer name. </li> 
-         <li>Type or paste your HTML code in the Code box.</li>
-         <li>Click <span class="uicontrol">Save</span>.</li>
-      </ol> </p> </td> 
-      </tr><tr> 
-      <td colname="col1"> <p>Create JSON Offer </p> </td> 
-      <td colname="col2"> 
-      <ol id="ol_9DB0607503124884ACB3823E9BF7DB19"> 
-         <li id="li_69308FBB39F2479682D3E768555A8F8D">Click <span class="uicontrol"> Offers</span>, then select the <span class="uicontrol">Code Offers</span> tab. </li> 
-         <li id="li_B79C509BF3B6402C835B84C6D30F29CE">Select <span class="uicontrol"> Create</span> > <span class="uicontrol">JSON Offer. </li> 
-         <li id="li_BEBB94C9F3C94678B196E26CDDBF2425">Type an offer name. </li> 
-         <li>Type or paste your JSON code in the Code box.</li>
-         <li>Click <span class="uicontrol">Save</span>.</li>
-      </ol> </p> </td> 
-      </tr>
-   <tr> 
-      <td colname="col1"> <p>Use Default Content </p> </td> 
-      <td colname="col2"> <p>Use the default content. There is no option to select other content. </p> </td> 
-   </tr> 
-   </tbody> 
-   </table>
+   **Change HTML Offer:** Choose an HTML offer.
+
+   **Change Image Offer:** Choose an image saved in the content library in Target.
+
+   You can also add a link to an image (click-through, destination, landing, and so forth.)
+
+      1. Click [!UICONTROL Change Image Offer].
+      1. Select the desired image, then click [!UICONTROL Edit Links].
+      1. Specify the desired URL or page on your site, then click [!UICONTROL Update].
+
+   **Change JSON offer:** Choose a json offer.
+
+   **Change Experience Fragment:** Choose an Experience Fragment.
+
+   **Change Redirect Offer:** Choose a redirect offer.
+
+   **Change Remote Offer:** Choose a remote offer.
+
+   **Create HTML Offer:**
+
+      1. Click [!UICONTROL Offers], then select the [!UICONTROL Code Offers] tab.
+      1. Click [!UICONTROL Create] > [!UICONTROL HTML Offer].
+      1. Type an offer name.
+      1. Type or paste your HTML code in the Code box.
+      1. Click [!UICONTROL Save].
+
+   **Create JSON Offer:**
+
+      1. Click [!UICONTROL Offers], then select the [!UICONTROL Code Offers] tab.
+      1. Click [!UICONTROL Create] > [!UICONTROL JSON Offer].
+      1. Type an offer name.
+      1. Type or paste your JSON code in the Code box.
+      1. Click [!UICONTROL Save].
 
    For a Recommendations activity, the Content drop-down gives you the Add Recommendation option. Click **[!UICONTROL Add Recommendation]**, then select the page type. Then follow the usual steps as defined in the interface to [create a Recommendations activity](https://marketing.adobe.com/resources/help/en_US/target/recs/t_create_recs_activity.html).
 
