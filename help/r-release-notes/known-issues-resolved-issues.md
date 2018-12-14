@@ -48,6 +48,7 @@ The following table lists the known issues for this release:
    <td colname="col1"> <p>Recommendations </p> </td> 
    <td colname="col3"> <p>The following are known issues with Recommendations activities: </p> <p> 
      <ul id="ul_CEFE1D0E9CCE4A0AB641DF6E667CAF63"> 
+      <li><p>Recommendations feed index can show "Waiting for index" if the items in the feed are the same as in the previous run.  The product ingestion for delivery is not impacted.  (RECS-6663)</p></li>
       <li id="li_51505434C8134075BDD0D270A165174F"> <p>Recommendations "error.restapi.algorithmProfileAttributeInvalid" error occurs when specific profile attributes are used as the criteria key. </p> </li> 
       <li id="li_57221CEAABBB4CE3BE4BDC0D542013A6"> <p>When Back Promotion is used in a Recommendations activity, Criteria inclusion filters don't apply on backup ERs. </p> </li> 
       <li id="li_A7C21AFDAEEA4A66A82D7F06968530EE"> <p>The Recommendation Feeds UI does not show the correct status of indexing. The backend jobs are functioning correctly, but the UI is not able to fetch and display the current state. </p> <p>Workaround: An Alternative way to determine if a Recommendation Feed for a given Host Group has indexed properly is to check the Product Search UI (logged in as Admin) and view the last indexing time. This timestamp represents the last time the feed for a given host group was indexed. (TGT-27116) </p> </li> 
