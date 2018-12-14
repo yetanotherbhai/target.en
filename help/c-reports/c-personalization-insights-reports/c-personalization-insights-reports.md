@@ -100,3 +100,8 @@ Target provides many ways for you to pass in additional data to Target to enrich
  </tbody> 
 </table>
 
+## Training Video
+
+>[!VIDEO](https://video.tv.adobe.com/v/25601/)
+
+For more information, see [Using the Personalization Insights Reports in Adobe Target](https://helpx.adobe.com/target/kt/using/personalization-insights-report-feature-video-use.html).

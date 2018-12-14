@@ -28,17 +28,17 @@ The following table lists the various sources where you can get more information
   </tr>
  </thead>
  <tbody> 
-  <tr> 
-   <td colname="col1"> <p><a href="https://docs.adobelaunch.com/extension-reference/web/adobe-target-extension" format="https" scope="external"> Adobe Target Extension</a> </p> </td> 
-   <td colname="col2"> <p>Information about implementing Target using Launch. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><a href="https://helpx.adobe.com/experience-manager/kt/integration/using/launch-reference-architecture-guides.html" format="html" scope="external"> Launch by Adobe Reference Architectures</a> </p> </td> 
-   <td colname="col2"> <p>Guides that provide best practices and instructions on how to implement Adobe Analytics, Adobe Target, Adobe Audience Manager, and the Experience Cloud ID Service using Launch in a variety of web architectures. </p> </td> 
+<tr> 
+   <td colname="col1"> <p><a href="https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html" format="https" scope="external"> Implementing Target using the Adobe Target Extension Tutorial</a> </p> </td> 
+   <td colname="col2"> <p>This tutorial provides step-by-step instructions to implement Adobe Target in a website with Launch covering topics such as adding the at.js JavaScript library, firing the global mbox, adding parameters, and integrating with other solutions. It is part of a larger tutorial that shows you how to implement Adobe Launch, as well as the other Experience Cloud solutions.</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><a href="https://docs.adobelaunch.com/getting-started" format="https" scope="external"> Adobe Launch Documentation</a> </td> 
    <td colname="col2"> <p>Information about deploying and managing all of the analytics, marketing, and advertising tags necessary to power relevant customer experiences. </p> </td> 
+  </tr> 
+ <tr> 
+   <td colname="col1"> <p><a href="https://docs.adobelaunch.com/extension-reference/web/adobe-target-extension" format="https" scope="external"> Adobe Target Extension Documentation</a> </p> </td> 
+   <td colname="col2"> <p>Information about implementing Target using Launch. </p> </td> 
   </tr> 
  </tbody> 
 </table>
