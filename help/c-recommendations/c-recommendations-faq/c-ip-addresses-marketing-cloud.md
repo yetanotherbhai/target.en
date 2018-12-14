@@ -13,7 +13,7 @@ internal: n
 snippet: y
 ---
 
-# IP addresses used by Recommendations feed-processing servers{#ip-addresses-used-by-recommendations-feed-processing-servers}
+# ![PREMIUM](/help/assets/premium.png) IP addresses used by Recommendations feed-processing servers{#ip-addresses-used-by-recommendations-feed-processing-servers}
 
 List of IP addresses used in Recommendations feed-processing servers located in the Oregon data center to help you configure your firewall to allow IP addresses originating from Adobe servers.
 

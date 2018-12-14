@@ -14,7 +14,7 @@ internal: n
 snippet: y
 ---
 
-# Entity attributes{#entity-attributes}
+# ![PREMIUM](/help/assets/premium.png) Entity attributes{#entity-attributes}
 
 Use entity attributes to pass product or content information to Recommendations.
 

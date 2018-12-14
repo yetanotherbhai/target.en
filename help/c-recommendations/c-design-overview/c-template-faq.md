@@ -14,7 +14,7 @@ internal: n
 snippet: y
 ---
 
-# Design FAQ{#design-faq}
+# ![PREMIUM](/help/assets/premium.png) Design FAQ {#design-faq}
 
 List of frequently asked questions (FAQs) about recommendations designs.
 

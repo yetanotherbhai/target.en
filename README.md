@@ -43,6 +43,20 @@ All the articles in this repository use GitHub flavored markdown. If you are not
 * [Markdown basics](https://help.github.com/articles/markdown-basics/)
 * [Printable markdown cheatsheet](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
 
+## How to add the premium label
+
+You can add the Premium icon ![PREMIUM](/help/assets/premium.png) to content, as needed.
+
+To do so, copy this link to the file where you want to add the premium badge. If it applies to the entire page, copy and paste the following link to the first heading:
+
+`![PREMIUM](/help/assets/premium.png)`
+
+for example
+
+`# ![PREMIUM](/help/assets/premium.png) My first heading`
+
+Alternatively, if the premium label only applies to a certain section, add the link to the heading for that section only.
+
 <!--
 ## Labels
 

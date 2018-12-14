@@ -14,7 +14,7 @@ internal: n
 snippet: y
 ---
 
-# Share experience URLs to preview Automated Personalization outside of Target{#share-experience-urls-to-preview-automated-personalization-outside-of-target}
+# ![PREMIUM](/help/assets/premium.png) Share experience URLs to preview Automated Personalization outside of Target{#share-experience-urls-to-preview-automated-personalization-outside-of-target}
 
 Experience URLs can be generated for Target Automated Personalization activities to see experience content directly on your site before the activity is live for preview and QA purposes. Experience URLs bypass targeting to force viewing of a particular experience.
 

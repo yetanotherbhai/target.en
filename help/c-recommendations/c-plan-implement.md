@@ -14,7 +14,7 @@ internal: n
 snippet: y
 ---
 
-# Plan and Implement Recommendations{#plan-and-implement-recommendations}
+# ![PREMIUM](/help/assets/premium.png) Plan and Implement Recommendations {#plan-and-implement-recommendations}
 
 What you need to know before creating a Recommendations activity.
 

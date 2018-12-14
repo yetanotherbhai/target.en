@@ -14,7 +14,7 @@ internal: n
 snippet: y
 ---
 
-# Automated Personalization{#automated-personalization}
+# ![PREMIUM](/help/assets/premium.png) Automated Personalization{#automated-personalization}
 
 Automated Personalization (AP) combines offers or messages, and uses advanced machine learning to match different offer variations to each visitor based on their individual customer profile, in order to personalize content and drive lift.
 

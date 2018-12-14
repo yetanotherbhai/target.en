@@ -14,7 +14,7 @@ internal: n
 snippet: y
 ---
 
-# Collections{#collections}
+# ![PREMIUM](/help/assets/premium.png) Collections {#collections}
 
 A collection is a set of products or items that are eligible for a recommendation.
 

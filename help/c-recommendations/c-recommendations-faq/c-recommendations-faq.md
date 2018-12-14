@@ -14,7 +14,7 @@ internal: n
 snippet: y
 ---
 
-# Recommendations FAQ{#recommendations-faq}
+# ![PREMIUM](/help/assets/premium.png) Recommendations FAQ{#recommendations-faq}
 
 List of frequently asked questions (FAQs) about Recommendations activities.
 

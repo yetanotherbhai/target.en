@@ -14,7 +14,7 @@ internal: n
 snippet: y
 ---
 
-# Use a backup recommendation{#use-a-backup-recommendation}
+# ![PREMIUM](/help/assets/premium.png) Use a backup recommendation{#use-a-backup-recommendation}
 
 If you use the backup recommendation feature, any recommendation that does not have enough recommended items will not display default content. Instead, recommendations display the results of the backup algorithm.
 

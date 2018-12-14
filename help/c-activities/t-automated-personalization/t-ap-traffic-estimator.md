@@ -13,7 +13,7 @@ internal: n
 snippet: y
 ---
 
-# Estimate the traffic required for success{#estimate-the-traffic-required-for-success}
+# ![PREMIUM](/help/assets/premium.png) Estimate the traffic required for success{#estimate-the-traffic-required-for-success}
 
 The Traffic Estimator provides feedback that lets you know whether you have sufficient traffic for your activity to succeed.
 

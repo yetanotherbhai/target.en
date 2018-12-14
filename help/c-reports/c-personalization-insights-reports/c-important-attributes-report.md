@@ -13,7 +13,7 @@ internal: n
 snippet: y
 ---
 
-# Important Attributes report{#important-attributes-report}
+# ![PREMIUM](/help/assets/premium.png) Important Attributes report{#important-attributes-report}
 
 Information about the Important Attributes report, one of the two specialized reports available to users of Automated Personalization (AP) and Auto-Target (AT) activities.
 

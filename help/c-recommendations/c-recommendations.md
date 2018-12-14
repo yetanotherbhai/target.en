@@ -14,7 +14,7 @@ internal: n
 snippet: y
 ---
 
-# Recommendations{#recommendations}
+# ![PREMIUM](/help/assets/premium.png) Recommendations{#recommendations}
 
 Recommendations activities automatically display products or content that might interest your customers based on previous user activity or other algorithms. Recommendations help direct customers to relevant items they might otherwise not know about.
 

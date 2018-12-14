@@ -14,7 +14,7 @@ internal: n
 snippet: y
 ---
 
-# Custom entity attributes{#custom-entity-attributes}
+# ![PREMIUM](/help/assets/premium.png) Custom entity attributes{#custom-entity-attributes}
 
 Use single- and multi-value custom entity attributes to define additional information about items in your catalog.
 

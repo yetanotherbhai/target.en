@@ -14,7 +14,7 @@ internal: n
 snippet: y
 ---
 
-# Create a design{#create-a-design}
+# ![PREMIUM](/help/assets/premium.png) Create a design {#create-a-design}
 
 A design defines how recommendations appear on a page.
 

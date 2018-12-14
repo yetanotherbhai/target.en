@@ -14,7 +14,7 @@ internal: n
 snippet: y
 ---
 
-# Create an Automated Personalization activity{#create-an-automated-personalization-activity}
+# ![PREMIUM](/help/assets/premium.png) Create an Automated Personalization activity{#create-an-automated-personalization-activity}
 
 The Automated Personalization activity workflow varies from the workflow of the other activity types.
 

@@ -14,7 +14,7 @@ internal: n
 snippet: y
 ---
 
-# Select criteria{#select-criteria}
+# ![PREMIUM](/help/assets/premium.png) Select criteria{#select-criteria}
 
 Select the criteria to use in your Recommendations activity.
 

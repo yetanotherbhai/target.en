@@ -15,7 +15,7 @@ internal: n
 snippet: y
 ---
 
-# Enterprise user permissions{#enterprise-user-permissions}
+# ![PREMIUM](/help/assets/premium.png) Enterprise user permissions{#enterprise-user-permissions}
 
 Information about creating properties and using the Properties and Permissions functionality that lets Target administrators create separate workspaces (product profiles) in Target and then assign users different roles and permissions for individual pages, properties, or web sites based on these workspaces.
 

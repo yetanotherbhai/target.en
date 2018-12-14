@@ -14,7 +14,7 @@ internal: n
 snippet: y
 ---
 
-# Create a Recommendations activity{#create-a-recommendations-activity}
+# ![PREMIUM](/help/assets/premium.png) Create a Recommendations activity{#create-a-recommendations-activity}
 
 Use the Target Visual Experience Composer (VEC) to create a Recommendations activity directly on a Target-enabled page and to modify portions of the page within Target.
 

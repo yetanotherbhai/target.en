@@ -14,7 +14,7 @@ internal: n
 snippet: y
 ---
 
-# Create criteria sequences{#create-criteria-sequences}
+# ![PREMIUM](/help/assets/premium.png) Create criteria sequences{#create-criteria-sequences}
 
 Use sequences of up to five criteria to exercise greater control of the items that appear in your Recommendations activities.
 

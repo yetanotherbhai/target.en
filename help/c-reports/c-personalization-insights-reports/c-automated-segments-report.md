@@ -13,7 +13,7 @@ internal: n
 snippet: y
 ---
 
-# Automated Segments report{#automated-segments-report}
+# ![PREMIUM](/help/assets/premium.png) Automated Segments report{#automated-segments-report}
 
 Information about the Automated Segments report, one of the two specialized reports available to users of Automated Personalization (AP) and Auto-Target (AT) activities.
 
