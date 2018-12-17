@@ -25,7 +25,7 @@ Two specialized reports are available to users of Automated Personalization (AP)
 
 ## Personalization Insights Reporting Overview {#section_B47CD4A50FEB43D587F9FACD9FFD6D9D}
 
-The goal of the [!UICONTROL Personalization Insights] reports is to provide more information on how the Target personalization models behind your AP and AT activities personalize visitor traffic. The [Random Forest algorithm](help/c-activities/t-automated-personalization/c-algo-random-forest.md) is the basis for Target's personalization models.
+The goal of the [!UICONTROL Personalization Insights] reports is to provide more information on how the Target personalization models behind your AP and AT activities personalize visitor traffic. The [Random Forest algorithm](/help/c-activities/t-automated-personalization/c-algo-random-forest.md) is the basis for Target's personalization models.
 
 Because the goal of the Personalization Insights reports is to understand how Target's personalization models decided to send which visitor to what piece(s) of content, the Personalization Insights reports reflect only a sub-segment of all the traffic served by your AP or AT activity. Specifically, the two reports are reflective of all traffic that used the personalization model. In other words, Personalization Insights reports do not consider control traffic or traffic that is served by the overall winner model.
 
