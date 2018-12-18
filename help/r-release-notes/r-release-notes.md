@@ -80,7 +80,7 @@ The [!DNL Target] Standard/Premium release on November 12 includes back-end enha
 
 Use the following links to view release notes for Target capabilities other than Target Standard and Target Premium:
 
-* [Recommendations Classic release notes](https://marketing.adobe.com/resources/help/en_US/rec/r_whatsnew-recs.html) 
+* [Recommendations Classic release notes](/assets/recommedations-classic.pdf) 
 * [Search&Promote release notes](https://marketing.adobe.com/resources/help/en_US/snp/c_searchpromote_release_notes.html)
 
 ## Documentation Changes, Past Release Notes, and Experience Cloud Release Notes {#section_1BC5F5208DA548E9B4344A0836E4B943}

@@ -19,7 +19,7 @@ Two specialized reports are available to users of Automated Personalization (AP)
 
 >[!NOTE]
 >
->* P and AT activities are available as part of the [!DNL Target Premium] solution. They are not included with [!DNL Target Standard] without a [!DNL Target Premium] license.
+>* AP and AT activities are available as part of the [!DNL Target Premium] solution. They are not included with [!DNL Target Standard] without a [!DNL Target Premium] license.
 >* Personalization Insights reports are available only for AP and AT activities that use a conversion optimization goal. Activities where the optimization goal was changed to conversion from revenue after the activity was already live are also not supported.
 >* Personalization Insights reports are supported in the [default environment](../../administrating-target/c-hosts.md) only.
 
