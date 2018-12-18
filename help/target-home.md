@@ -16,7 +16,7 @@ snippet: y
 
 **Last Updated: December 18, 2018 ( [See What Changed](r-release-notes/r-doc-change.md) )**
 
-The following sections point you to useful links in this guide, arraigned by intended audience based job function:
+The following sections point you to useful links in this guide, arraigned by intended audience based on typical job functions:
 
 ## All Target users {#section_65FA20BA5BC6461E9E21A1B2FAB6393C}
 
@@ -57,4 +57,4 @@ Marketers, developers, administrators, analysts, and quality assurance engineers
 
 | Adobe Target solutions help | Adobe Experience Cloud resources |
 |--- |--- |
-|<ul><li>[Adobe Target Learn & Support](https://helpx.adobe.com/support/target.html)</li><li>[Premium Recommendations](c-recommendations/c-recommendations.md)</li><li>[Recommendations Classic](assets/recommendations-classic.pdf)</li><li>![Recommendations Classic (PDF)](assets/recommendations-classic.pdf)</li><li>[Search&Promote](https://marketing.adobe.com/resources/help/en_US/snp/)</li><li>[Target API Documentation](c-implementing-target/c-api-and-sdk-overview/c-api-and-sdk-overview.md)</li></ul>|<ul><li>[Target Community Forum](https://forums.adobe.com/community/experience-cloud/marketing-cloud/target)</li><li>[Experience Cloud Release Notes](https://marketing.adobe.com/resources/help/en_US/whatsnew/)</li><li>[Experience Cloud Help Home](https://marketing.adobe.com/resources/help/en_US/home/)</li><li>[Adobe Training and Tutorials](https://helpx.adobe.com/learning.html?promoid=KAUDK)</li><li>[Featured Solutions Center](https://www.omniture.com/en/products/online_business_optimization)</li></ul>||
+|<ul><li>[Adobe Target Learn & Support](https://helpx.adobe.com/support/target.html)</li><li>[Premium Recommendations](c-recommendations/c-recommendations.md)</li><li>[Recommendations Classic](assets/recommendations-classic.pdf)</li><li>[Search&Promote](https://marketing.adobe.com/resources/help/en_US/snp/)</li><li>[Target API Documentation](c-implementing-target/c-api-and-sdk-overview/c-api-and-sdk-overview.md)</li></ul>|<ul><li>[Target Community Forum](https://forums.adobe.com/community/experience-cloud/marketing-cloud/target)</li><li>[Experience Cloud Release Notes](https://marketing.adobe.com/resources/help/en_US/whatsnew/)</li><li>[Experience Cloud Help Home](https://marketing.adobe.com/resources/help/en_US/home/)</li><li>[Adobe Training and Tutorials](https://helpx.adobe.com/learning.html?promoid=KAUDK)</li><li>[Featured Solutions Center](https://www.omniture.com/en/products/online_business_optimization)</li></ul>||
