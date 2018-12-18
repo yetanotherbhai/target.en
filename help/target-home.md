@@ -14,7 +14,7 @@ snippet: y
 
  [!DNL Adobe Target] is the [!DNL Adobe Experience Cloud] solution that provides everything you need to tailor and personalize your customers' experience so you can maximize revenue on your web and mobile sites, apps, social media, and other digital channels.
 
-**Last Updated: December 14, 2018 ( [See What Changed](r-release-notes/r-doc-change.md) )**
+**Last Updated: December 18, 2018 ( [See What Changed](r-release-notes/r-doc-change.md) )**
 
 The following sections point you to useful links in this guide, arraigned by intended audience based job function:
 
@@ -55,31 +55,6 @@ Marketers, developers, administrators, analysts, and quality assurance engineers
 
 ## Additional Resources {#section_BF207244CECD479F98900F0E11151E31}
 
-<table id="table_5139DFF8A84C49DC8D603B20E93A1973"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Adobe Target solutions help </th> 
-   <th colname="col2" class="entry"> Adobe Experience Cloud resources </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p> 
-     <ul id="ul_5A5701EA7407415EBD954C10C9586EAE"> 
-      <li id="li_A29E30154DCC40C099E8F3637013524A"> <a href="https://helpx.adobe.com/support/target.html" format="https" scope="external"> Adobe Target Learn &amp; Support</a> </li> 
-      <li id="li_1E242B90A6D34CBEB5A62F64C7008FE3"> <a href="c-recommendations/c-recommendations.md" format="https" scope="local"> Premium Recommendations</a> </li> 
-      <li id="li_6093F1A07AA34D9A9952FD18547627D3"> <a href="https://marketing.adobe.com/resources/help/en_US/rec/" format="http" scope="external"> Recommendations Classic</a> </li> 
-      <li id="li_C82E65DE81184F45BA4F10F6D32D7DE7"> <a href="https://marketing.adobe.com/resources/help/en_US/snp/" format="http" scope="external"> Search&amp;Promote</a> </li> 
-      <li id="li_C760B1A583A246009327EFA52B065BBE"> <a href="https://developers.adobetarget.com/" format="http" scope="external"> Target API Documentation</a> </li> 
-     </ul> </p> </td> 
-   <td colname="col2"> <p> 
-     <ul id="ul_8E15489539FA46868A4A203E1452C331"> 
-      <li id="li_C7DD673FFF3045F780A50622118EB96B"> <a href="https://forums.adobe.com/community/experience-cloud/marketing-cloud/target" format="https" scope="external"> Target Community Forum</a> </li> 
-      <li id="li_1C766D0967974FA19C12A06196E1039B"> <a href="https://marketing.adobe.com/resources/help/en_US/whatsnew/" scope="external" format="https"> Experience Cloud Release Notes</a> </li> 
-      <li id="li_877931933EC141558EAFB9E32834BA15"> <a href="https://marketing.adobe.com/resources/help/en_US/home/" scope="external" format="https"> Experience Cloud Help Home</a> </li> 
-      <li id="li_32F34F0C1A1147F1A2B474617CEBAE1A"> <a href="https://helpx.adobe.com/learning.html?promoid=KAUDK" scope="external" format="http"> Adobe Training and Tutorials</a> </li> 
-      <li id="li_63A175DA1A7A48C298F43B791D5C78CC"> <a href="https://www.omniture.com/en/products/online_business_optimization" scope="external" format="html"> Featured Solutions Center</a> </li> 
-     </ul> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Adobe Target solutions help | Adobe Experience Cloud resources |
+|--- |--- |
+|<ul><li>[Adobe Target Learn & Support](https://helpx.adobe.com/support/target.html)</li><li>[Premium Recommendations](c-recommendations/c-recommendations.md)</li><li>[Recommendations Classic](assets/recommendations-classic.pdf)</li><li>[Search&Promote](https://marketing.adobe.com/resources/help/en_US/snp/)</li><li>[Target API Documentation](c-implementing-target/c-api-and-sdk-overview/c-api-and-sdk-overview.md)</li></ul>|<ul><li>[Target Community Forum](https://forums.adobe.com/community/experience-cloud/marketing-cloud/target)</li><li>[Experience Cloud Release Notes](https://marketing.adobe.com/resources/help/en_US/whatsnew/)</li><li>[Experience Cloud Help Home](https://marketing.adobe.com/resources/help/en_US/home/)</li><li>[Adobe Training and Tutorials](https://helpx.adobe.com/learning.html?promoid=KAUDK)</li><li>[Featured Solutions Center](https://www.omniture.com/en/products/online_business_optimization)</li></ul>||
