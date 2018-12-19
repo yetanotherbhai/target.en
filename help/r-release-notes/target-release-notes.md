@@ -27,7 +27,7 @@ These release notes provide information about features, enhancements, fixes, and
   <tr> 
    <td colname="col1"> <p><b>Announcements:</b> </p> <p> 
      <ul id="ul_A0205508929340CB89A766AA047E8363"> 
-      <li id="li_248ACD8F14F74ECEB34E18DB16CFD1C5"> <p> Starting with the Target 18.4.1 release (April 25, 2018), Adobe Target will take steps to move towards TLS 1.2 encryption and phase out support for TLS 1.0 encryption. Migrating to TLS 1.2 will provide improved security. It is important that you go through the specifics and plan out the changes for a smooth transition. For more information, see [TLS (Transport Layer Security) Encryption Changes](c-implementing-target/c-considerations-before-you-implement-target/c-tls-transport-layer-security-encryption.md)(</a>. </p> </li> 
+      <li id="li_248ACD8F14F74ECEB34E18DB16CFD1C5"> <p> Starting with the Target 18.4.1 release (April 25, 2018), Adobe Target will take steps to move towards TLS 1.2 encryption and phase out support for TLS 1.0 encryption. Migrating to TLS 1.2 will provide improved security. It is important that you go through the specifics and plan out the changes for a smooth transition. For more information, see <a href="../c-implementing-target/c-considerations-before-you-implement-target/c-tls-transport-layer-security-encryption.md" format="dita" scope="local"> TLS encryption changes</a>.</p></li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 
