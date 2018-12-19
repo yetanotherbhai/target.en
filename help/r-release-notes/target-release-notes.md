@@ -86,7 +86,7 @@ The [!DNL Target] Standard/Premium release on November 12 includes back-end enha
 Use the following links to view product documentation for Target capabilities:
 
 * [Adobe Target Learn &amp; Support](https://helpx.adobe.com/support/target.html) 
-* [Recommendations Classic release notes](../assets/adobe-recommendations-classic.pdf) 
+* [Recommendations Classic release notes](assets/adobe-recommendations-classic.pdf) 
 * [Search&Promote help](https://marketing.adobe.com/resources/help/en_US/snp/)
 
 ## Prerelease Information {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
