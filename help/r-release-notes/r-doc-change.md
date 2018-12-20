@@ -29,7 +29,7 @@ This page lists important changes made to the Target documentation.
  <tbody>
 <tr> 
    <td colname="col1"> December 20, 2018 </td> 
-   <td colname="col2"> <p> <a href="../c-implementing-target/c-considerations-before-you-implement-target" format="dita" scope="local">Server Side implement Target</a> </p> </td> 
+   <td colname="col2"> <p> <a href="../c-implementing-target/c-api-and-sdk-overview/c-api-and-sdk-overview.md" format="dita" scope="local">Server Side implement Target</a> </p> </td> 
    <td colname="col3"> <p>Added note about CORS.</p> </td> 
   </tr> 
 <tr> 
