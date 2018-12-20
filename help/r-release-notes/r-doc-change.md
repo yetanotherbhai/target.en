@@ -28,6 +28,11 @@ This page lists important changes made to the Target documentation.
  </thead>
  <tbody>
 <tr> 
+   <td colname="col1"> December 20, 2018 </td> 
+   <td colname="col2"> <p> <a href="../c-implementing-target/c-api-and-sdk-overview/c-api-and-sdk-overview.md" format="dita" scope="local">Server Side implement Target</a> </p> </td> 
+   <td colname="col3"> <p>Added note about CORS.</p> </td> 
+  </tr> 
+<tr> 
    <td colname="col1"> December 14, 2018 </td> 
    <td colname="col2"> <p> <a href="../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md" format="dita" scope="local">Implement Target using Adobe Launch</a> </p> </td> 
    <td colname="col3"> <p>Added link to a new training video: Implementing Target with the Adobe Launch Tutorial.</p> </td> 

@@ -14,7 +14,7 @@ snippet: y
 
  [!DNL Adobe Target] is the [!DNL Adobe Experience Cloud] solution that provides everything you need to tailor and personalize your customers' experience so you can maximize revenue on your web and mobile sites, apps, social media, and other digital channels.
 
-**Last Updated: December 18, 2018 ( [See What Changed](r-release-notes/r-doc-change.md) )**
+**Last Updated: December 20, 2018 ( [See What Changed](r-release-notes/r-doc-change.md) )**
 
 The following sections point you to useful links in this guide, arraigned by intended audience based on typical job functions:
 
