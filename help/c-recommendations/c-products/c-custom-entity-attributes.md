@@ -108,7 +108,7 @@ Use caution when editing a raw catalog CSV file directly.
 
 **Using APIs**
 
-See the [Adobe Recommendation API documentation](https://www.adobe.io/apis/experiencecloud/target/docs/getting-started.html) for information about using the Delivery and Save entities APIs.
+See the [Adobe Recommendation API documentation](http://developers.adobetarget.com/api/recommendations/) for information about using the Delivery and Save entities APIs.
 
 ## Using Operators with Multi-Value Attributes {#section_83C2288A805242D9A02EBC4F07DEE945}
 

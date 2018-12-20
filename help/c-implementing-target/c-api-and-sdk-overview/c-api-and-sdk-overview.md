@@ -29,7 +29,7 @@ The following table lists the various APIs and the NodeJS SDK and provides addit
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><a href="https://developers.adobetarget.com/api/#server-side-delivery" format="http" scope="external"> Server Side Delivery APIs</a> </p> <p>/res/v1/mbox </p> </td> 
+   <td colname="col1"> <p><a href="https://developers.adobetarget.com/api/#server-side-delivery" format="http" scope="external"> Server Side Delivery APIs</a> </p> <p>/rest/v1/mbox </p> </td> 
    <td colname="col2"> <p>Adobe Target lets your application make mbox calls from any browser, mobile device, or even another server. The Server Side delivery API is specifically designed to integrate Adobe Target with any server-side platform that makes HTTP/HTTPS calls. </p> <p>You can use the API to integrate your custom application with Target. This is especially valuable for organizations that want to deliver targeting to a non-browser based IoT device, such as a connected TV, kiosk, or in-store digital screen. </p> <p>This endpoint can return offers for ordinary mboxes only. You can also fetch content for a single mbox only. </p> <p>This API implements existing mbox features in a RESTful manner. </p> <p>This API does not process cookies or redirect calls. </p> </td> 
   </tr> 
   <tr> 
@@ -54,6 +54,9 @@ The following table lists the various APIs and the NodeJS SDK and provides addit
   </tr> 
  </tbody> 
 </table>
+
+>[!NOTE]
+>Authoring APIs (in which you create activities, offers, audiences, and so forth) do not support Cross Origin Resource Sharing (CORS).
 
 ## Differences Between Server Side Delivery APIs and the NodeJS SDK {#section_10336B7934F54CE98E35907A4748A4A4}
 
