@@ -1,20 +1,20 @@
-# Target Documentation Contribute article
+# Contribute article
 
 We welcome contributions from our community as well as from Adobe employees from outside the documentation teams. 
 
 ## Adobe Open Source Code of Conduct
 
-This project has adopted the [Adobe Open Source Code of Conduct](help/code-of-conduct.md) or the [.NET Foundation Code of Conduct](https://dotnetfoundation.org/code-of-conduct). For more information, see the [Contributing](help/contributing.md) article.
+This project has adopted the [Adobe Open Source Code of Conduct](code-of-conduct.md) or the [.NET Foundation Code of Conduct](https://dotnetfoundation.org/code-of-conduct). For more information, see the [Contributing](contributing.md) article.
 
 ## About your contributions to Adobe content
 
-See the [Adobe Docs Contributor Guide](https://docs.adobe.com/content/help/en/contributor/contributor-guide/introduction.html).
+See the [Adobe Docs Contributor Guide](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html).
 
 How you contribute depends on who you are and the sort of changes you'd like to contribute:
 
 ### Minor changes
 
-If you are contributing minor updates out of the goodness of your heart, visit the article and click the **Edit** link in the article that goes to the GitHub source for the article. Then, just use the GitHub UI to make your updates. See the general [Adobe Docs contributor guide](https://docs.adobe.com/content/help/en/contributor/contributor-guide/introduction.html) for more information.
+If you are contributing minor updates out of the goodness of your heart, visit the article and click the **Edit** link in the article that goes to the GitHub source for the article. Then, just use the GitHub UI to make your updates. See the general [Adobe Docs contributor guide](help/introduction.md) for more information.
 
 Minor corrections or clarifications you submit for documentation and code examples in this repo are covered by the Adobe terms of use.
 
@@ -28,40 +28,26 @@ If you submit a pull request with significant changes to documentation and code 
 
 ### Major changes from Adobe Employees
 
-If you are a technical writer, program manager, or developer from the product team for an Adobe Experience Cloud solution and it's your job to contribute to or author technical articles, you should use the private repository [https://git.corp.adobe.com/AdobeDocs](https://git.corp.adobe.com/AdobeDocs). <!--Employees from other parts of the Adobe world should use the public repo for minor updates.-->
+If you are a technical writer, program manager, or developer from the product team for an [!UICONTROL Adobe Experience Cloud] solution and it's your job to contribute to or author technical articles, you should use the private repository at `https://git.corp.adobe.com/AdobeDocs`. 
+
+<!--Employees from other parts of the Adobe world should use the public repo for minor updates.-->
 
 ## Tools and setup
 
 Community contributors can use the GitHub UI for basic editing or fork the repo to make major contributions.
 
-See the [Adobe Docs Contributor Guide](https://docs.adobe.com/content/help/en/contributor/contributor-guide/introduction.html) for details.
+See the [Adobe Docs Contributor Guide](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html) for details.
 
 ## How to use markdown to format your topic
 
 All the articles in this repository use GitHub flavored markdown. If you are not familiar with markdown, see:
 
-* [Markdown basics](https://help.github.com/articles/markdown-basics/)
+* [Markdown basics](https://help.github.com/articles/getting-started-with-writing-and-formatting-on-github/)
 * [Printable markdown cheatsheet](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
 
-## How to add the premium label
-
-You can add the Premium icon ![PREMIUM](/help/assets/premium.png) to content, as needed.
-
-To do so, copy this link to the file where you want to add the premium badge. If it applies to the entire page, copy and paste the following link to the first heading:
-
-`![PREMIUM](/help/assets/premium.png)`
-
-for example
-
-`# ![PREMIUM](/help/assets/premium.png) My first heading`
-
-Alternatively, if the premium label only applies to a certain section, add the link to the heading for that section only.
-
-<!--
 ## Labels
 
 In the public repository, automated labels are assigned to pull requests to help us manage the pull request workflow and to help let you know what's going on with your pull request:
 
 * **Change sent to author**: The author has been notified of the pending pull request.
 * **ready-to-merge**: Ready for review by our pull request review team.
--->
