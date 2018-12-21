@@ -8,9 +8,6 @@ title: Personalization Insights reports
 title-outputclass: premium
 uuid: 2507a7a6-d229-412a-a992-5777b45c80e7
 badge: premium
-index: y
-internal: n
-snippet: y
 ---
 
 # ![PREMIUM](/help/assets/premium.png) Personalization Insights reports{#personalization-insights-reports}

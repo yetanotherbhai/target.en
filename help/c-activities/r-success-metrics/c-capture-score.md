@@ -8,9 +8,6 @@ subtopic: Getting Started
 title: Capture Score
 topic: Standard
 uuid: 977454ad-da32-449a-a8c9-1f3c75220be6
-index: y
-internal: n
-snippet: y
 ---
 
 # Capture Score{#capture-score}

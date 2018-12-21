@@ -7,9 +7,6 @@ solution: Target
 title: Profile and variable glossary
 topic: Standard
 uuid: 9286467c-cbb5-42be-99c0-6687ffab0969
-index: y
-internal: n
-snippet: y
 ---
 
 # Profile and variable glossary{#profile-and-variable-glossary}

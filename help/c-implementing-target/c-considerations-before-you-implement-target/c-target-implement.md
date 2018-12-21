@@ -6,9 +6,6 @@ seo-title: Understand the Target JavaScript libraries
 title: Understand the Target JavaScript libraries
 topic: Target
 uuid: c8a254c9-afc9-4a55-be01-788c11bef7cc
-index: y
-internal: n
-snippet: y
 ---
 
 # Understand the Target JavaScript libraries{#understand-the-target-javascript-libraries}

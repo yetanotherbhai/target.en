@@ -7,9 +7,6 @@ solution: Target
 title: Activities
 topic: Standard
 uuid: 89dca5b4-c23d-4dfa-8f13-f1b05c7ab22c
-index: y
-internal: n
-snippet: y
 ---
 
 # Activities{#activities}

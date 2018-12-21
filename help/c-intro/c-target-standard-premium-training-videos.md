@@ -7,9 +7,6 @@ solution: Target
 title: Training videos for Adobe Target Standard and Premium
 topic: Advanced
 uuid: 8c6bfedb-3972-4fd3-98c4-c3781a556e62
-index: y
-internal: n
-snippet: y
 ---
 
 # Training videos for Adobe Target Standard and Premium{#training-videos-for-adobe-target-standard-and-premium}

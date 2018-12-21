@@ -7,9 +7,6 @@ solution: Target
 title: Multiple experience versions in an A/B Test
 topic: Standard
 uuid: c6571632-942d-48c7-99ec-5c17f9ff983d
-index: y
-internal: n
-snippet: y
 ---
 
 # Multiple experience versions in an A/B Test{#multiple-experience-versions-in-an-a-b-test}

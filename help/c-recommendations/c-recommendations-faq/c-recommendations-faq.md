@@ -9,9 +9,6 @@ title-outputclass: premium
 topic: Premium
 uuid: 27752811-0ffe-4d60-83d1-39e18b1953d5
 badge: premium
-index: y
-internal: n
-snippet: y
 ---
 
 # ![PREMIUM](/help/assets/premium.png) Recommendations FAQ{#recommendations-faq}

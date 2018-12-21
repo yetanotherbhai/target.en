@@ -6,9 +6,6 @@ seo-title: iOS - create a Target location and success metric
 title: iOS - create a Target location and success metric
 topic: Target
 uuid: dc39260c-8222-42b3-9f6b-f83be30e3210
-index: y
-internal: n
-snippet: y
 ---
 
 # iOS - create a Target location and success metric{#ios-create-a-target-location-and-success-metric}

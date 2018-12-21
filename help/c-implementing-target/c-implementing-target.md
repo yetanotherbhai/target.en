@@ -8,9 +8,6 @@ subtopic: Getting Started
 title: Implement Target
 topic: Standard
 uuid: 08482171-73c0-4816-bf4d-4571d92f04ab
-index: y
-internal: n
-snippet: y
 ---
 
 # Implement Target{#implement-target}

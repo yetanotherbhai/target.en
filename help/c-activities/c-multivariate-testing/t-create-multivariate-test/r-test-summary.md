@@ -7,9 +7,6 @@ solution: Target
 title: Test summary
 topic: Standard
 uuid: 22ac394d-70fe-4c4f-8b40-d478148d7e82
-index: y
-internal: n
-snippet: y
 ---
 
 # Test summary{#test-summary}

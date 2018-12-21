@@ -8,6 +8,7 @@ getting-started-url: https://helpx.adobe.com/target/get-started.html
 tutorials-title: Tutorials
 tutorials-url: https://helpx.adobe.com/target/kt/index/target-videos.html
 git-repo: https://git.corp.adobe.com/AdobeDocs/target.en
+index: no
 ---
 
 # Metadata for internal use

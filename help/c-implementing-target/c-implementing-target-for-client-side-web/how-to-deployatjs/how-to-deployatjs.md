@@ -7,9 +7,6 @@ solution: Target
 title: How to deploy at.js
 topic: Standard
 uuid: 3601bc84-24da-4495-b1aa-7ca463edef4c
-index: y
-internal: n
-snippet: y
 ---
 
 # How to deploy at.js{#how-to-deploy-at-js}

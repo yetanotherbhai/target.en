@@ -7,9 +7,6 @@ solution: Target
 title: Determine a winner
 topic: Standard
 uuid: 0bcc11b2-44bd-450c-a504-a8ff7a4d72e6
-index: y
-internal: n
-snippet: y
 ---
 
 # Determine a winner{#determine-a-winner}

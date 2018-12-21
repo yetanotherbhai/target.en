@@ -6,9 +6,6 @@ seo-title: Create a Multivariate Test
 solution: Target
 title: Create a Multivariate Test
 uuid: 876441bd-d841-4974-b1ec-3ad7cb6ef3ee
-index: y
-internal: n
-snippet: y
 ---
 
 # Create a Multivariate Test{#create-a-multivariate-test}

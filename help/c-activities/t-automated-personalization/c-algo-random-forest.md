@@ -8,9 +8,6 @@ title: Random Forest algorithm
 title-outputclass: premium
 uuid: 35e4ca00-5c53-4fea-b0ef-0fb51c0f8184
 badge: premium
-index: y
-internal: n
-snippet: y
 ---
 
 # ![PREMIUM](/help/assets/premium.png) Random Forest algorithm{#random-forest-algorithm}

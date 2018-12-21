@@ -7,9 +7,6 @@ solution: Target
 title: View multiple metrics in a report
 topic: Premium
 uuid: f3ea7313-0f98-4b58-88aa-e2438c06e739
-index: y
-internal: n
-snippet: y
 ---
 
 # View multiple metrics in a report{#view-multiple-metrics-in-a-report}

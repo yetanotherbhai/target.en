@@ -7,9 +7,6 @@ solution: Target
 title: Activity creation
 topic: Advanced,Standard,Classic
 uuid: b04ad535-62fb-4dd3-ab3f-23da60fbffbd
-index: y
-internal: n
-snippet: y
 ---
 
 # Activity creation{#activity-creation}

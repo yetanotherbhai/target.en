@@ -7,9 +7,6 @@ solution: Target
 title: Test an email image Adbox
 topic: Recommendations
 uuid: d0710adb-4649-4b57-9b70-4b49d43fa591
-index: y
-internal: n
-snippet: y
 ---
 
 # Test an email image Adbox{#test-an-email-image-adbox}

@@ -9,9 +9,6 @@ title-outputclass: premium
 topic: Premium
 uuid: 4c8aadd3-75c3-4388-b838-e62576dfb955
 badge: premium
-index: y
-internal: n
-snippet: y
 ---
 
 # ![PREMIUM](/help/assets/premium.png) Automated Personalization FAQ{#automated-personalization-faq}

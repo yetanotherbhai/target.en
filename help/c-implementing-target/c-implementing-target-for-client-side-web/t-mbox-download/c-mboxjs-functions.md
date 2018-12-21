@@ -6,9 +6,6 @@ seo-title: mbox.js functions
 solution: Target
 title: mbox.js functions
 uuid: f503bc44-a664-4d09-82dc-80a1198ad9d0
-index: y
-internal: n
-snippet: y
 ---
 
 # mbox.js functions{#mbox-js-functions}

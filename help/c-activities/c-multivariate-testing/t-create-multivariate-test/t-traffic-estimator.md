@@ -6,9 +6,6 @@ solution: Target
 title: Estimate the traffic required for a successful test
 topic: Standard
 uuid: ccc7232e-20f9-43db-8b68-d4fb1d586a4d
-index: y
-internal: n
-snippet: y
 ---
 
 # Estimate the traffic required for a successful test{#estimate-the-traffic-required-for-a-successful-test}

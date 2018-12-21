@@ -7,9 +7,6 @@ solution: Target
 title: Target activity types
 topic: Standard
 uuid: ce2accb4-8330-4431-8d47-8863c54274b5
-index: y
-internal: n
-snippet: y
 ---
 
 # Target activity types{#target-activity-types}

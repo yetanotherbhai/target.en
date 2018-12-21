@@ -6,9 +6,6 @@ solution: Target
 title: Upload data for Target's personalization algorithms
 topic: Premium
 uuid: eb0938b9-7f35-4bb5-ac4b-260b2144db5b
-index: y
-internal: n
-snippet: y
 ---
 
 # Upload data for the Target personalization algorithms{#upload-data-for-target-s-personalization-algorithms}

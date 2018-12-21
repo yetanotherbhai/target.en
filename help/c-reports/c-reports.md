@@ -8,9 +8,6 @@ subtopic: Multivariate Test
 title: Reports
 topic: Standard
 uuid: 8d20f4e7-72fd-4872-a21f-54ce16a2d2ab
-index: y
-internal: n
-snippet: y
 ---
 
 # Reports{#reports}

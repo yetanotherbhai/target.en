@@ -6,9 +6,6 @@ seo-title: Integrate Adobe Target with the Experience Cloud
 solution: Target
 title: Integrate Adobe Target with the Experience Cloud
 uuid: e0ec23d0-cb27-4331-829f-83e50a21542e
-index: y
-internal: n
-snippet: y
 ---
 
 # Integrate Adobe Target with the Experience Cloud{#integrate-adobe-target-with-the-experience-cloud}

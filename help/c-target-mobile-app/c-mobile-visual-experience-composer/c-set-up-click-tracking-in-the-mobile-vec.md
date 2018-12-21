@@ -7,9 +7,6 @@ solution: Target
 title: Set up click tracking in the Mobile VEC
 topic: Standard
 uuid: 7e4ce7c0-0027-417c-8dae-45b6f5045e65
-index: y
-internal: n
-snippet: y
 ---
 
 # Set up click tracking in the Mobile VEC{#set-up-click-tracking-in-the-mobile-vec}

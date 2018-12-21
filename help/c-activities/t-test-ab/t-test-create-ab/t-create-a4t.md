@@ -6,9 +6,6 @@ seo-title: Using Analytics data
 solution: Target
 title: Using Analytics data
 uuid: 4ac0c181-030b-4cf5-b138-acf02c7af4f6
-index: y
-internal: n
-snippet: y
 ---
 
 # Using Analytics data{#using-analytics-data}

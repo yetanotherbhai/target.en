@@ -8,9 +8,6 @@ subtopic: Getting Started
 title: Administrator first steps
 topic: Standard
 uuid: 1a7ea739-4fa6-444a-8f39-17cf346c73c2
-index: y
-internal: n
-snippet: y
 ---
 
 # Administrator first steps{#administrator-first-steps}

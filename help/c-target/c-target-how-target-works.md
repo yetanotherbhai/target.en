@@ -6,9 +6,6 @@ seo-title: How targeting works
 solution: Target
 title: How targeting works
 uuid: 8b5a36c0-555d-42c5-8b24-c08d07440a53
-index: y
-internal: n
-snippet: y
 ---
 
 # How targeting works{#how-targeting-works}

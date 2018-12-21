@@ -8,9 +8,6 @@ subtopic: Getting Started
 title: Customize a Global mbox
 topic: Standard
 uuid: 0f784d6e-8f36-4c26-adbf-0d56b7d6d390
-index: y
-internal: n
-snippet: y
 ---
 
 # Customize a Global mbox{#customize-a-global-mbox}

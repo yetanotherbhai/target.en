@@ -8,9 +8,6 @@ subtopic: Getting Started
 title: Visitor profiles
 topic: Standard
 uuid: 09ffd9ca-5544-4ea1-bb0c-b20e42e6bcf6
-index: y
-internal: n
-snippet: y
 ---
 
 # Visitor profiles{#visitor-profiles}

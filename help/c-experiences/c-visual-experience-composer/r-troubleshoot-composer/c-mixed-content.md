@@ -7,9 +7,6 @@ solution: Target
 title: Enabling Mixed Content in Your Browser
 topic: Advanced,Standard,Classic
 uuid: 6944ce97-ff73-4b61-b006-35862ff83ef1
-index: y
-internal: n
-snippet: y
 ---
 
 # Enabling Mixed Content in Your Browser{#enabling-mixed-content-in-your-browser}

@@ -7,9 +7,6 @@ solution: Target
 title: Category affinity
 topic: Standard
 uuid: b81d9c91-a222-4768-9ac8-359f9ab9ca2d
-index: y
-internal: n
-snippet: y
 ---
 
 # Category affinity{#category-affinity}

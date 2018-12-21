@@ -5,9 +5,6 @@ seo-description: Launch is the next-generation tag management platform from Adob
 seo-title: Implement Target using Adobe Launch
 title: Implement Target using Adobe Launch
 uuid: c8cd855b-bed1-4fc2-a0e3-f1ea6ab620e6
-index: y
-internal: n
-snippet: y
 ---
 
 # Implement Target using Adobe Launch{#implement-target-using-adobe-launch}

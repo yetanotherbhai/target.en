@@ -8,9 +8,6 @@ subtopic: Getting Started
 title: Before you implement
 topic: Standard
 uuid: c513b653-bf0e-4a94-afcb-0f1295401b6b
-index: y
-internal: n
-snippet: y
 ---
 
 # Before you implement{#before-you-implement}

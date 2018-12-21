@@ -7,9 +7,6 @@ solution: Target
 title: Known issues and resolved issues
 topic: Premium
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
-index: y
-internal: n
-snippet: y
 ---
 
 # Known issues and resolved issues{#known-issues-and-resolved-issues}

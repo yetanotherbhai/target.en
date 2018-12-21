@@ -7,9 +7,6 @@ solution: Target
 title: Experience Cloud Device Co-op
 topic: Standard
 uuid: b689a964-613f-4a64-9f15-e9111e6bf945
-index: y
-internal: n
-snippet: y
 ---
 
 # [!DNL Experience Cloud Device Co-op]{#experience-cloud-device-co-op}

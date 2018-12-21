@@ -9,9 +9,6 @@ title-outputclass: premium
 topic: Premium
 uuid: e0876963-5905-4850-a615-953e435f26e9
 badge: premium
-index: y
-internal: n
-snippet: y
 ---
 
 # ![PREMIUM](/help/assets/premium.png) Catalog search {#catalog-search}

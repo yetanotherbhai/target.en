@@ -7,9 +7,6 @@ solution: Target
 title: Auto-Allocate
 topic: Standard
 uuid: e8aee4d7-2b99-4e1f-8004-2efc820658b5
-index: y
-internal: n
-snippet: y
 ---
 
 # Auto-Allocate{#auto-allocate}

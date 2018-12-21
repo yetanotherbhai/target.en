@@ -8,9 +8,6 @@ subtopic: Getting Started
 title: Training and certification
 topic: Standard
 uuid: a1be34dd-9790-4c8f-be61-07f46966d56f
-index: y
-internal: n
-snippet: y
 ---
 
 # Training and certification{#training-and-certification}

@@ -7,9 +7,6 @@ solution: Target,Analytics
 title: Geo
 topic: Reports and analytics
 uuid: d30cda0e-016e-4391-95b7-ff3b55e06bf0
-index: y
-internal: n
-snippet: y
 ---
 
 # Geo{#geo}

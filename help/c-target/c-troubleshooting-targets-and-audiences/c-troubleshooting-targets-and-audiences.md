@@ -7,9 +7,6 @@ solution: Target
 title: Targets and audiences FAQ
 topic: Standard
 uuid: 4a8d977a-aa98-4aff-843e-ace32b8eed53
-index: y
-internal: n
-snippet: y
 ---
 
 # Targets and audiences FAQ{#targets-and-audiences-faq}

@@ -7,9 +7,6 @@ solution: Target
 title: Experience Performance report (MVT)
 topic: Premium
 uuid: ca72e933-2ad3-44e1-893f-7b65c474704b
-index: y
-internal: n
-snippet: y
 ---
 
 # Experience Performance report (MVT){#experience-performance-report-mvt}

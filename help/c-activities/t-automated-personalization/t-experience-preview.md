@@ -9,9 +9,6 @@ title-outputclass: premium
 topic: Standard
 uuid: 2ef07b6c-086d-43ac-bf02-efe217652a3a
 badge: premium
-index: y
-internal: n
-snippet: y
 ---
 
 # ![PREMIUM](/help/assets/premium.png) Share experience URLs to preview Automated Personalization outside of Target{#share-experience-urls-to-preview-automated-personalization-outside-of-target}

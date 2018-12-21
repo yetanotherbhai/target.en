@@ -7,9 +7,6 @@ solution: Target,Analytics
 title: User permission requirements
 topic: Reports and analytics
 uuid: cf359bcd-547e-4f8f-bcf6-e646245bb9ce
-index: y
-internal: n
-snippet: y
 ---
 
 # User permission requirements{#user-permission-requirements}

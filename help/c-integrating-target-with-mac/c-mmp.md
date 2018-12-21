@@ -7,9 +7,6 @@ solution: Target
 title: Experience Cloud Audiences
 topic: Standard
 uuid: b3ec2cc8-f07b-4f09-85f2-bbf5495d0490
-index: y
-internal: n
-snippet: y
 ---
 
 # Experience Cloud Audiences{#experience-cloud-audiences}

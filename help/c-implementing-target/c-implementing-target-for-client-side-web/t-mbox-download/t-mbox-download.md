@@ -8,9 +8,6 @@ subtopic: Getting Started
 title: mbox.js implementation
 topic: Standard
 uuid: aa53dfd4-db42-4a33-b561-7e84ca7e4497
-index: y
-internal: n
-snippet: y
 ---
 
 # mbox.js implementation{#mbox-js-implementation}

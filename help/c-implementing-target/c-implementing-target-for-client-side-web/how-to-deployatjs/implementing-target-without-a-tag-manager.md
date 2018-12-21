@@ -8,9 +8,6 @@ subtopic: Getting Started
 title: Implement Target without a tag manager
 topic: Standard
 uuid: 3ecc041a-42d8-40f8-90be-7856e1d3d080
-index: y
-internal: n
-snippet: y
 ---
 
 # Implement Target without a tag manager{#implement-target-without-a-tag-manager}

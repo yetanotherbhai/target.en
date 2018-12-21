@@ -9,9 +9,6 @@ title-outputclass: premium
 topic: Premium
 uuid: 37be7fb3-3686-4dec-9cca-478d28191985
 badge: premium
-index: y
-internal: n
-snippet: y
 ---
 
 # ![PREMIUM](/help/assets/premium.png) Plan and Implement Recommendations {#plan-and-implement-recommendations}

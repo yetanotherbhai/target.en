@@ -4,9 +4,6 @@ seo-description: The way Target makes and responds to calls from your page depen
 seo-title: Target page methods by mbox.js library version
 title: Target page methods by mbox.js library version
 uuid: 66f7753e-d9c1-4efa-8b10-fd637c8f53f6
-index: y
-internal: n
-snippet: y
 ---
 
 # Target page methods by mbox.js library version{#target-page-methods-by-mbox-js-library-version}

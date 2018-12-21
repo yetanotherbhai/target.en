@@ -6,9 +6,6 @@ seo-title: Plan a Multivariate Test
 solution: Target
 title: Plan a Multivariate Test
 uuid: f286d08a-e11d-4a39-8c62-3eba99885299
-index: y
-internal: n
-snippet: y
 ---
 
 # Plan a Multivariate Test{#plan-a-multivariate-test}

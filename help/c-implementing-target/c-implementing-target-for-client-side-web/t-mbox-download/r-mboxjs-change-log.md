@@ -7,9 +7,6 @@ solution: Target
 subtopic: Getting Started
 title: mbox.js version details
 uuid: 5f8e0511-637b-4c17-bb19-aa7f4d7c98ea
-index: y
-internal: n
-snippet: y
 ---
 
 # mbox.js version details{#mbox-js-version-details}

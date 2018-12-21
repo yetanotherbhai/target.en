@@ -6,9 +6,6 @@ seo-title: Audiences
 solution: Target
 title: Audiences
 uuid: 12317898-e9c9-4605-b659-25bdf200849b
-index: y
-internal: n
-snippet: y
 ---
 
 # Audiences{#audiences}

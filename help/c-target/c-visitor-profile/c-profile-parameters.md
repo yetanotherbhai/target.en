@@ -7,9 +7,6 @@ solution: Target
 title: Profile attributes
 topic: Advanced,Standard,Classic
 uuid: a76ed523-32cb-46a2-a2a3-aba7f880248b
-index: y
-internal: n
-snippet: y
 ---
 
 # Profile attributes{#profile-attributes}

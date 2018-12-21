@@ -7,9 +7,6 @@ solution: Target
 title: Location Contribution report (MVT)
 topic: Standard
 uuid: f487d1a2-05dc-40b7-af40-8da1616452b3
-index: y
-internal: n
-snippet: y
 ---
 
 # Location Contribution report (MVT){#location-contribution-report-mvt}

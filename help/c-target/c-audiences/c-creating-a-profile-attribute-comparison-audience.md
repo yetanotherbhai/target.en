@@ -7,9 +7,6 @@ solution: Target
 title: Create a profile attribute comparison audience
 topic: Advanced,Standard,Classic
 uuid: 17c1f2e0-4c1e-4b7a-8398-9ec147253a5f
-index: y
-internal: n
-snippet: y
 ---
 
 # Create a profile attribute comparison audience{#create-a-profile-attribute-comparison-audience}

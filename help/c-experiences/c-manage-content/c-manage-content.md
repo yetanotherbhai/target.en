@@ -6,9 +6,6 @@ seo-title: Offers
 solution: Target
 title: Offers
 uuid: 925b930a-1fa9-41a3-a11b-f5241dab7725
-index: y
-internal: n
-snippet: y
 ---
 
 # Offers{#offers}

@@ -8,9 +8,6 @@ subtopic: Getting Started
 title: User management
 topic: Standard
 uuid: 798a6273-2a6e-4fe6-b1a0-b5c28932969f
-index: y
-internal: n
-snippet: y
 ---
 
 # User management{#user-management}

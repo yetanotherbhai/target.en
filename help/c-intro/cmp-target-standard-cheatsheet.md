@@ -7,9 +7,6 @@ solution: Target
 title: Target optimization and personalization FAQ
 topic: Advanced
 uuid: b6052939-6ed4-4c90-b118-77b6fe42b0af
-index: y
-internal: n
-snippet: y
 ---
 
 # Target optimization and personalization FAQ{#target-optimization-and-personalization-faq}

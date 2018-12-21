@@ -8,9 +8,6 @@ subtopic: Getting Started
 title: Understand the Global mbox
 topic: Standard
 uuid: d8f48c94-6487-437b-828f-f9be7da58f48
-index: y
-internal: n
-snippet: y
 ---
 
 # Understand the Global mbox{#understand-the-global-mbox}

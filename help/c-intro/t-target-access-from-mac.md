@@ -8,9 +8,6 @@ subtopic: Getting Started
 title: Access Target from the Adobe Experience Cloud
 topic: Standard
 uuid: df5aaded-cb8c-4929-801f-deb0a190febd
-index: y
-internal: n
-snippet: y
 ---
 
 # Access Target from the Adobe Experience Cloud{#access-target-from-the-adobe-experience-cloud}

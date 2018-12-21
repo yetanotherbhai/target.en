@@ -8,9 +8,6 @@ subtopic: Getting Started
 title: Email  implement Target
 topic: Standard
 uuid: 07abc419-0253-47c6-80b8-0bd0734d2c9d
-index: y
-internal: n
-snippet: y
 ---
 
 # Email: implement Target{#email-implement-target}

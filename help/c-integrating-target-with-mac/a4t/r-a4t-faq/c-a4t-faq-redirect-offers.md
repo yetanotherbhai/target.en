@@ -7,9 +7,6 @@ solution: Target
 title: Redirect offers - A4T FAQ
 topic: Standard
 uuid: a45cef89-3003-4177-bf84-3d5a486b950d
-index: y
-internal: n
-snippet: y
 ---
 
 # Redirect offers - A4T FAQ{#redirect-offers-a-t-faq}

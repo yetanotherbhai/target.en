@@ -8,9 +8,6 @@ subtopic: Getting Started
 title: Use a Global mbox from a Legacy Implementation
 topic: Standard
 uuid: 31b03dab-99da-4040-bab6-4f5cb452ffdc
-index: y
-internal: n
-snippet: y
 ---
 
 # Use a Global mbox from a Legacy Implementation{#use-a-global-mbox-from-a-legacy-implementation}

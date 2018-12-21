@@ -6,9 +6,6 @@ seo-title: Mobile apps  implement Target
 title: Mobile apps  implement Target
 topic: Target
 uuid: f48a8167-b67d-4011-aa96-476216fa2394
-index: y
-internal: n
-snippet: y
 ---
 
 # Mobile apps: implement Target{#mobile-apps-implement-target}

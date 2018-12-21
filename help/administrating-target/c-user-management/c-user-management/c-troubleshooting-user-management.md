@@ -7,9 +7,6 @@ solution: Target
 title: Troubleshoot user management
 topic: Advanced,Standard,Classic
 uuid: e73fead8-0f7e-4f44-8ddb-6611b17c2e8b
-index: y
-internal: n
-snippet: y
 ---
 
 # Troubleshoot user management{#troubleshoot-user-management}

@@ -7,9 +7,6 @@ solution: Target
 title: Mobile Viewports for Responsive Experiences
 topic: Premium
 uuid: 86a74584-4a4d-428b-9d29-f7ebdf0cef2a
-index: y
-internal: n
-snippet: y
 ---
 
 # Mobile Viewports for Responsive Experiences{#mobile-viewports-for-responsive-experiences}

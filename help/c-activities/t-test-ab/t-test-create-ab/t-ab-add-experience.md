@@ -6,9 +6,6 @@ seo-title: Add experience
 solution: Target
 title: Add experience
 uuid: 9cb4c897-8701-4737-aec8-b0d4f5d62b94
-index: y
-internal: n
-snippet: y
 ---
 
 # Add experience{#add-experience}

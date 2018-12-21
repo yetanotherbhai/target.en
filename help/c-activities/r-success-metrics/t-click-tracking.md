@@ -8,9 +8,6 @@ subtopic: Getting Started
 title: Click tracking
 topic: Standard
 uuid: 4a8fbb23-93d8-49f3-aca3-dbbdd6da0178
-index: y
-internal: n
-snippet: y
 ---
 
 # Click tracking{#click-tracking}

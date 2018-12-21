@@ -7,9 +7,6 @@ solution: Target
 title: Lift and confidence - A4T FAQ
 topic: Standard
 uuid: 7d0402f3-d6f2-422e-b69c-86e10120ac83
-index: y
-internal: n
-snippet: y
 ---
 
 # Lift and confidence - A4T FAQ{#lift-and-confidence-a-t-faq}

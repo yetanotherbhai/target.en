@@ -7,9 +7,6 @@ solution: Target
 title: Create offer folder
 topic: Standard
 uuid: f7611fbb-76fe-44d7-a78f-ab22e9a2a2bc
-index: y
-internal: n
-snippet: y
 ---
 
 # Create offer folder{#create-offer-folder}

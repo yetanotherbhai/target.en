@@ -7,9 +7,6 @@ solution: Target
 title: Exclusions
 topic: Premium
 uuid: 1970846e-37d8-4b69-a0d9-ff45bb840bef
-index: y
-internal: n
-snippet: y
 ---
 
 # Exclusions{#exclusions}

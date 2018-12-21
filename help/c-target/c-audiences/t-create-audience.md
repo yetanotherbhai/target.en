@@ -7,9 +7,6 @@ solution: Target
 title: Build audiences in Target
 topic: Advanced,Standard,Classic
 uuid: 496dbb9d-cb13-47ee-88bd-ba5920b2ca1c
-index: y
-internal: n
-snippet: y
 ---
 
 # Build audiences in Target{#build-audiences-in-target}

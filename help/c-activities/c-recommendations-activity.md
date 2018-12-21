@@ -4,9 +4,6 @@ seo-description: Recommendations activities automatically display products or co
 seo-title: Recommendations activity
 title: Recommendations activity
 uuid: 63bd6640-e8fd-472e-bd42-0fa540a54f11
-index: y
-internal: n
-snippet: y
 ---
 
 # Recommendations activity{#recommendations-activity}

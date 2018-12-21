@@ -7,9 +7,6 @@ solution: Target
 title: Site Pages
 topic: Standard
 uuid: 1cf9fa94-dbec-4719-9a0a-79c1eb91a233
-index: y
-internal: n
-snippet: y
 ---
 
 # Site Pages{#site-pages}

@@ -7,9 +7,6 @@ solution: Target
 title: Single Page App (SPA) Visual Experience Composer
 topic: Standard
 uuid: 4dcd6d9c-b2e3-4759-a2e0-3696c572faba
-index: y
-internal: n
-snippet: y
 ---
 
 # Single Page App (SPA) Visual Experience Composer{#single-page-app-spa-visual-experience-composer}

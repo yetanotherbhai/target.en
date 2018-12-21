@@ -7,9 +7,6 @@ solution: Target
 title: View reports - A4T FAQ
 topic: Standard
 uuid: d51991f7-cdda-4a59-b64c-7ef1c3f8380d
-index: y
-internal: n
-snippet: y
 ---
 
 # View reports - A4T FAQ{#view-reports-a-t-faq}

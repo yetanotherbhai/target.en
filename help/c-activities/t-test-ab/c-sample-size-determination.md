@@ -6,9 +6,6 @@ seo-title: How long should you run an A/B Test?
 solution: Target
 title: How long should you run an A/B Test?
 uuid: 4f5693c8-5372-425b-8e61-efb595b144cc
-index: y
-internal: n
-snippet: y
 ---
 
 # How long should you run an A/B Test?{#how-long-should-you-run-an-a-b-test}

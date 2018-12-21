@@ -7,9 +7,6 @@ solution: Target
 title: Search content and create smart collections
 topic: Premium
 uuid: 14af2833-5602-4926-a25f-546c6dcb006c
-index: y
-internal: n
-snippet: y
 ---
 
 # Search content and create smart collections{#search-content-and-create-smart-collections}

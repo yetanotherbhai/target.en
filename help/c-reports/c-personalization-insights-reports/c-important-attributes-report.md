@@ -8,9 +8,6 @@ title: Important Attributes report
 title-outputclass: premium
 uuid: c03bf806-0b03-4315-a176-4eaa9250a271
 badge: premium
-index: y
-internal: n
-snippet: y
 ---
 
 # ![PREMIUM](/help/assets/premium.png) Important Attributes report{#important-attributes-report}

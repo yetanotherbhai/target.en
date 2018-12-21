@@ -7,9 +7,6 @@ solution: Target
 title: TLS (Transport Layer Security) encryption changes
 topic: Standard
 uuid: d222b966-ee73-4254-87b7-68099583e0dd
-index: y
-internal: n
-snippet: y
 ---
 
 # TLS (Transport Layer Security) encryption changes{#tls-transport-layer-security-encryption-changes}

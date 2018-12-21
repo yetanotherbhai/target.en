@@ -7,9 +7,6 @@ solution: Target
 title: Transition from Target legacy APIs to Adobe I/O
 topic: Standard
 uuid: f8a0ab54-5840-4430-b9be-19e689b1c09a
-index: y
-internal: n
-snippet: y
 ---
 
 # Transition from Target legacy APIs to Adobe I/O{#transition-from-target-legacy-apis-to-adobe-i-o}

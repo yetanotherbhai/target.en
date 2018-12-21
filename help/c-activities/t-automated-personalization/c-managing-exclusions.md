@@ -6,9 +6,6 @@ seo-title: Manage exclusions
 solution: Target,Analytics
 title: Manage exclusions
 uuid: c67901d2-19cd-47d3-b8c4-abdcb046f404
-index: y
-internal: n
-snippet: y
 ---
 
 # Manage exclusions{#manage-exclusions}

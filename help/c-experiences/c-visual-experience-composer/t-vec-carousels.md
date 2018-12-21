@@ -8,9 +8,6 @@ subtopic: Multivariate Test
 title: Creating Carousels that Work in the Visual Experience Composer
 topic: Standard
 uuid: 19538f6e-445c-49ca-9f0d-b49fc330b721
-index: y
-internal: n
-snippet: y
 ---
 
 # Creating Carousels that Work in the Visual Experience Composer{#creating-carousels-that-work-in-the-visual-experience-composer}

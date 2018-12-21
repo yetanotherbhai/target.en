@@ -6,9 +6,6 @@ seo-title: Experience Targeting
 solution: Target
 title: Experience Targeting
 uuid: b3af3b62-4a08-4dfd-b529-5012871cc972
-index: y
-internal: n
-snippet: y
 ---
 
 # Experience Targeting{#experience-targeting}

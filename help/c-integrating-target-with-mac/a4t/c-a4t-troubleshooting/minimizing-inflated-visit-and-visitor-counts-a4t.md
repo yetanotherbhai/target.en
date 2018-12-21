@@ -8,9 +8,6 @@ subtopic: Multivariate Test
 title: Minimizing inflated visit and visitor counts in A4T
 topic: Standard
 uuid: 1d5f242a-634f-47f7-ad23-b62019359734
-index: y
-internal: n
-snippet: y
 ---
 
 # Minimizing inflated visit and visitor counts in A4T{#minimizing-inflated-visit-and-visitor-counts-in-a-t}

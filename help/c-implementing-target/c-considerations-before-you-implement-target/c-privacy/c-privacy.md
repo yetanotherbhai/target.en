@@ -8,9 +8,6 @@ subtopic: Getting Started
 title: Privacy
 topic: Standard
 uuid: aaeda1e6-7b2c-4a00-b65d-bfc95ea796b5
-index: y
-internal: n
-snippet: y
 ---
 
 # Privacy{#privacy}

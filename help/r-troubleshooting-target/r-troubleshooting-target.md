@@ -7,9 +7,6 @@ solution: Target
 title: Troubleshoot Target
 topic: Advanced,Standard,Classic
 uuid: 8ed11372-f2cd-4bc4-a1da-ad626131e196
-index: y
-internal: n
-snippet: y
 ---
 
 # Troubleshoot Target{#troubleshoot-target}

@@ -7,9 +7,6 @@ solution: Target
 subtopic: Getting Started
 title: at.js version details
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
-index: y
-internal: n
-snippet: y
 ---
 
 # at.js version details {#at-js-version-details}

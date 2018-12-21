@@ -8,9 +8,6 @@ subtopic: Multivariate Test
 title: Troubleshoot content delivery
 topic: Standard
 uuid: 8837d07a-f793-495e-a6c1-b9c35fbe18b1
-index: y
-internal: n
-snippet: y
 ---
 
 # Troubleshoot content delivery{#troubleshoot-content-delivery}

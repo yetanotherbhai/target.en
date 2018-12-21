@@ -7,9 +7,6 @@ solution: Target
 title: Activity QA bookmarklet
 topic: Advanced,Standard,Classic
 uuid: 2890e215-16c9-4b22-a8eb-732cd6efede3
-index: y
-internal: n
-snippet: y
 ---
 
 # Activity QA bookmarklet{#activity-qa-bookmarklet}

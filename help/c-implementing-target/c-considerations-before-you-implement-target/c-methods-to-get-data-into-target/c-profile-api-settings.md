@@ -8,9 +8,6 @@ subtopic: Getting Started
 title: Profile API settings
 topic: Standard
 uuid: 481b4a14-f10f-47cd-988d-9e6b8c4d5c00
-index: y
-internal: n
-snippet: y
 ---
 
 # Profile API settings{#profile-api-settings}

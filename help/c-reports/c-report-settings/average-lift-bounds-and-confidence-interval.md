@@ -7,9 +7,6 @@ solution: Target
 title: Average Lift, Lift Bounds, and Confidence Interval
 topic: Premium
 uuid: 2899503a-d81e-4dc3-b258-a5ecafd1d1a4
-index: y
-internal: n
-snippet: y
 ---
 
 # Average Lift, Lift Bounds, and Confidence Interval{#average-lift-lift-bounds-and-confidence-interval}

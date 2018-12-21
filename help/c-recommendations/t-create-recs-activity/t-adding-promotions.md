@@ -9,9 +9,6 @@ title-outputclass: premium
 topic: Premium
 uuid: 732bf2c2-0cc7-4d5d-9919-9fe668344d39
 badge: premium
-index: y
-internal: n
-snippet: y
 ---
 
 # ![PREMIUM](/help/assets/premium.png) Add promotions{#add-promotions}

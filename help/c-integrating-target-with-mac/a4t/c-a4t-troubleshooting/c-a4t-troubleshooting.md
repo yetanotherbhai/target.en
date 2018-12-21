@@ -8,9 +8,6 @@ subtopic: Multivariate Test
 title: Troubleshoot the Analytics and Target integration (A4T)
 topic: Standard
 uuid: a5aa3be5-68a2-4f12-8226-f32a76136bbd
-index: y
-internal: n
-snippet: y
 ---
 
 # Troubleshoot the Analytics and Target integration (A4T){#troubleshoot-the-analytics-and-target-integration-a-t}

@@ -8,9 +8,6 @@ subtopic: Getting Started
 title: Prepare to implement Target
 topic: Standard
 uuid: b8d6f9f4-a995-4f6a-9eea-f75ef36b7f31
-index: y
-internal: n
-snippet: y
 ---
 
 # Prepare to implement Target{#prepare-to-implement-target}

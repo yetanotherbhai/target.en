@@ -6,9 +6,6 @@ seo-title: A/B Test
 solution: Target
 title: A/B Test
 uuid: 154559cf-58bb-425d-bb2e-4eaf34c89451
-index: y
-internal: n
-snippet: y
 ---
 
 # A/B Test{#a-b-test}

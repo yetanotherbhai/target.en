@@ -8,9 +8,6 @@ subtopic: Code Editor
 title: Modifications
 topic: Standard
 uuid: 4555290b-8d51-4882-9251-c80c868e1a73
-index: y
-internal: n
-snippet: y
 ---
 
 # Modifications{#modifications}

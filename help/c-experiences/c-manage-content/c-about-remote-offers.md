@@ -7,9 +7,6 @@ solution: Target
 title: Create remote offers
 topic: Standard
 uuid: 5aaff281-e96c-41a6-849e-2c3b0e35f161
-index: y
-internal: n
-snippet: y
 ---
 
 # Create remote offers{#create-remote-offers}

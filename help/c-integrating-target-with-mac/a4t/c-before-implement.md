@@ -7,9 +7,6 @@ solution: Target
 title: Before you implement
 topic: Premium
 uuid: fe603a4b-bd61-49f4-b1b7-a0329aa905f5
-index: y
-internal: n
-snippet: y
 ---
 
 # Before you implement{#before-you-implement}

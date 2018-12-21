@@ -6,9 +6,6 @@ seo-title: iOS - send custom user data
 title: iOS - send custom user data
 topic: Target
 uuid: 00baa1e2-4d1c-4835-ac55-47c9ac8985ac
-index: y
-internal: n
-snippet: y
 ---
 
 # iOS - send custom user data{#ios-send-custom-user-data}

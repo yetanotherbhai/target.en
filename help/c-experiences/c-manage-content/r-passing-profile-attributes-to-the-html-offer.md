@@ -7,9 +7,6 @@ solution: Target
 title: Pass dynamic data into offers
 topic: Premium
 uuid: 1910a7f5-e4bd-413a-9875-e0b005407f50
-index: y
-internal: n
-snippet: y
 ---
 
 # Pass dynamic data into offers{#pass-dynamic-data-into-offers}

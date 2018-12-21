@@ -9,9 +9,6 @@ title-outputclass: premium
 topic: Premium
 uuid: 2910a844-9dd6-4e69-8652-b2215fed1545
 badge: premium
-index: y
-internal: n
-snippet: y
 ---
 
 # ![PREMIUM](/help/assets/premium.png) Use a backup recommendation{#use-a-backup-recommendation}

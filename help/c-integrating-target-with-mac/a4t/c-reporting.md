@@ -8,9 +8,6 @@ subtopic: Multivariate Test
 title: A4T reporting
 topic: Standard
 uuid: bd3a7fa4-ba45-4ea3-81b6-fc2584831ce4
-index: y
-internal: n
-snippet: y
 ---
 
 # A4T reporting{#a-t-reporting}

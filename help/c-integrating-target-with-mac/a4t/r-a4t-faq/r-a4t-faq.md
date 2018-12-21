@@ -7,9 +7,6 @@ solution: Target
 title: A4T Frequently Asked Questions
 topic: Standard
 uuid: 44873864-5c3d-4bcd-a725-0fd914e483bf
-index: y
-internal: n
-snippet: y
 ---
 
 # A4T Frequently Asked Questions{#a-t-frequently-asked-questions}

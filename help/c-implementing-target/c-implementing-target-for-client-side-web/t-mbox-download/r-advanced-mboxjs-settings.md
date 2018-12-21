@@ -6,9 +6,6 @@ seo-title: Configure mbox.js
 solution: Target
 title: Configure mbox.js
 uuid: e79c7af7-f8bd-4e2b-8e67-b04eddf0c65d
-index: y
-internal: n
-snippet: y
 ---
 
 # Configure mbox.js{#configure-mbox-js}

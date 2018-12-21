@@ -4,9 +4,6 @@ seo-description: Information about using the Visual Experience Composer (VEC) an
 seo-title: Visual Experience Composer (VEC)
 title: Visual Experience Composer (VEC)
 uuid: f1e6f67e-1d7e-4806-8389-2ce165b534b4
-index: y
-internal: n
-snippet: y
 ---
 
 # Visual Experience Composer (VEC){#visual-experience-composer-vec}

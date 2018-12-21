@@ -7,9 +7,6 @@ solution: Target
 title: Activity URL
 topic: Standard
 uuid: 65489969-d548-4286-858f-8420120317c0
-index: y
-internal: n
-snippet: y
 ---
 
 # Activity URL{#activity-url}

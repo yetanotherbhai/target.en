@@ -7,9 +7,6 @@ solution: Target
 title: Custom parameters
 topic: Standard
 uuid: a9eb62a6-e86a-4e7b-922c-ad87570435ba
-index: y
-internal: n
-snippet: y
 ---
 
 # Custom parameters{#custom-parameters}

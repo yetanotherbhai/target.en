@@ -10,9 +10,6 @@ title-outputclass: premium
 topic: Premium
 uuid: 1961730d-2357-406f-acac-a36b7a63bd35
 badge: premium
-index: y
-internal: n
-snippet: y
 ---
 
 # ![PREMIUM](/help/assets/premium.png) Enterprise user permissions{#enterprise-user-permissions}

@@ -6,9 +6,6 @@ seo-title: Troubleshooting Issues Related to the Enhanced Experience Composer
 solution: Target
 title: Troubleshooting Issues Related to the Enhanced Experience Composer
 uuid: 2ea9a91f-08ca-4a06-ad5d-35ced140db14
-index: y
-internal: n
-snippet: y
 ---
 
 # Troubleshooting Issues Related to the Enhanced Experience Composer{#troubleshooting-issues-related-to-the-enhanced-experience-composer}

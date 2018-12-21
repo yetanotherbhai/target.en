@@ -8,9 +8,6 @@ subtopic: Getting Started
 title: What mbox.js does
 topic: Standard
 uuid: 5529d620-4a33-479c-871f-18dcd59abb07
-index: y
-internal: n
-snippet: y
 ---
 
 # What mbox.js does{#what-mbox-js-does}

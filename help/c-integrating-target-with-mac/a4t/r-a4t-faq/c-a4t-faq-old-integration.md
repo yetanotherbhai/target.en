@@ -7,9 +7,6 @@ solution: Target
 title: Legacy SiteCatalyst to Test&Target integration - A4T FAQ
 topic: Standard
 uuid: ba7180ba-3919-4427-9bb9-44348b5cda61
-index: y
-internal: n
-snippet: y
 ---
 
 # Legacy SiteCatalyst to Test&Target integration - A4T FAQ{#legacy-sitecatalyst-to-test-target-integration-a-t-faq}

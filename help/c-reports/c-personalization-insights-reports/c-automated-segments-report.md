@@ -8,9 +8,6 @@ title: Automated Segments report
 title-outputclass: premium
 uuid: 3f736d7d-b305-438b-8320-2a54e4a9234f
 badge: premium
-index: y
-internal: n
-snippet: y
 ---
 
 # ![PREMIUM](/help/assets/premium.png) Automated Segments report{#automated-segments-report}
