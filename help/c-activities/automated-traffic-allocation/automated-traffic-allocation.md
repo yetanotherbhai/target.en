@@ -121,7 +121,7 @@ The illustration shows how the traffic allocated to each experience progresses o
      </ul> </p> <p>Experiences D and A move forward. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><img id="image_D7C4C37610304A5A87DC0CB01D78C282" href="assets/aa-phase-2.png" /> </p> </td> 
+   <td colname="col1"> <p><img id="image_D7C4C37610304A5A87DC0CB01D78C282" src="assets/aa-phase-2.png" /> </p> </td> 
    <td colname="col2"> <p><b>Round 2:</b> During this round, 80% of traffic is allocated to experiences A and D (40% each). 20% of traffic is allocated randomly, so that means A, B, C, and D each get 5% of traffic. During this round, experience B performs well. </p> <p> 
      <ul id="ul_145A2C322D5C4822AA5CA0510E391F87"> 
       <li id="li_477844A87D174A09869E09192405D4F3"> <p>The algorithm picks experience D to move forward into the next round because it has the highest conversion rate (as indicated by <img src="assets/aa-tick.png" id="image_EE1FA84DAC694E89BA31DC0163E32997" /> on each activity's vertical scale). </p> </li> 
@@ -129,7 +129,7 @@ The illustration shows how the traffic allocated to each experience progresses o
      </ul> </p> <p>Experiences D and B move forward. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><img id="image_1B8316E72E834FBFB3106217682460DB" href="assets/aa-phase-3.png" /> </p> </td> 
+   <td colname="col1"> <p><img id="image_1B8316E72E834FBFB3106217682460DB" src="assets/aa-phase-3.png" /> </p> </td> 
    <td colname="col2"> <p><b>Round 3:</b> During this round, 80% of traffic is allocated to experiences B and D (40% each). 20% of traffic is allocated randomly, so that means A, B, C, and D each get 5% of traffic. During this round, experience D continues to perform well and experience C performs well. </p> <p> 
      <ul id="ul_DC884A8893724C889C22B2D7AE822D71"> 
       <li id="li_C8BA7BAC5363488E85956D2378BAAA45"> <p>The algorithm picks experience D to move forward into the next round because it has the highest conversion rate (as indicated by <img src="assets/aa-tick.png" id="image_3485B0250A3645A8A9A2AC7E21A6959F" /> on each activity's vertical scale). </p> </li> 
@@ -137,7 +137,7 @@ The illustration shows how the traffic allocated to each experience progresses o
      </ul> </p> <p>Experiences D and C move forward. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><img id="image_FD156B5CFF084B7B9CB3B87D43AA37B1" href="assets/aa-phase-4.png" /> </p> </td> 
+   <td colname="col1"> <p><img id="image_FD156B5CFF084B7B9CB3B87D43AA37B1" src="assets/aa-phase-4.png" /> </p> </td> 
    <td colname="col2"> <p><b>Round 4:</b> During this round, 80% of traffic is allocated to experiences C and D (40% each). 20% of traffic is allocated randomly, so that means A, B, C, and D each get 5% of traffic. During this round, experience C performs well. </p> <p> 
      <ul id="ul_55EE78DAA5CB4E48903B322E56095DDC"> 
       <li id="li_53781D3F2FCE42F3A9BF5F4E96905CCC"> <p>The algorithm picks experience C to move forward into the next round because it has the highest conversion rate (as indicated by <img src="assets/aa-tick.png" id="image_7E4B2BBD79CA4BC990EE507118702995" /> on each activity's vertical scale). </p> </li> 
@@ -145,7 +145,7 @@ The illustration shows how the traffic allocated to each experience progresses o
      </ul> </p> <p>Experiences C and D move forward. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><img id="image_E34C5278F17945379811E8B9568A4BA7" href="assets/aa-phase-n.png" /> </p> </td> 
+   <td colname="col1"> <p><img id="image_E34C5278F17945379811E8B9568A4BA7" src="assets/aa-phase-n.png" /> </p> </td> 
    <td colname="col2"> <p><b>Round <i>n</i>:</b> As the activity progresses, a high-performing experience starts to emerge and the process continues until there is a winning experience. When the confidence interval of the experience with the highest conversion rate doesn't overlap with any other experience's confidence interval, it is labeled the winner and a <a href="../../c-activities/automated-traffic-allocation/c-determine-winner.md#concept_5741A89ED7224E1285A3BC34B2CCD0F9" format="dita" scope="local"> badge displays on the activity's page</a> and in the Activity list. </p> <p> 
      <ul id="ul_6F0D50E969E4450595E964C22CDE9635"> 
       <li id="li_96093AC2B40547D7A28483DEF142B195"> <p>The algorithm picks experience C as the clear winner. </p> </li> 
