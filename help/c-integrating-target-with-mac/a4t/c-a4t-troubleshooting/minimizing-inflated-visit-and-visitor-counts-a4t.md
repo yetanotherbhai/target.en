@@ -65,19 +65,19 @@ We recommend reviewing the following steps, in order, to reduce partial data col
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <img href="assets/step1_icon.png" id="image_21F30BBFC0A249F8B0E1A50EBBEED77D" /> </td> 
+   <td colname="col1"> <img src="assets/step1_icon.png" id="image_21F30BBFC0A249F8B0E1A50EBBEED77D" /> </td> 
    <td colname="col2"> <p>Make sure the report suite selected in <span class="keyword"> Target </span> is the same as the one on the page(s) where the activity will be presented. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <img href="assets/step2_icon.png" id="image_76B61DEABE3849CCB39135FDD7399EAA" /> </td> 
+   <td colname="col1"> <img src="assets/step2_icon.png" id="image_76B61DEABE3849CCB39135FDD7399EAA" /> </td> 
    <td colname="col2"> <p>Ensure the <span class="codeph"> visitorAPI.js </span>, <span class="codeph"> appMeasurement.js </span>, <span class="codeph"> mbox.js </span>/ <span class="codeph"> at.js </span> libraries are on A4T compatible versions. To learn more about implementation requirements, see <a href="../../../c-integrating-target-with-mac/a4t/c-before-implement.md#concept_046BC89C03044417A30B63CE34C22543" format="dita" scope="local"> Before You Implement </a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <img href="assets/step3_icon.png" id="image_9933AC9D3A884BD9814A6B697610CAE9" /> </td> 
+   <td colname="col1"> <img src="assets/step3_icon.png" id="image_9933AC9D3A884BD9814A6B697610CAE9" /> </td> 
    <td colname="col2"> <p>Check to make sure the SDID is getting set on all <span class="keyword"> Target </span> and <span class="keyword"> Analytics </span> calls leaving the page and that they match. </p> <p>Do this by using a network analyzer or debugging tool to ensure that the <span class="codeph"> mboxMCSDID </span> parameter on <span class="keyword"> Target </span> call(s) matches the SDID parameter in the <span class="keyword"> Analytics </span> call. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <img href="assets/step4_icon.png" id="image_844E896941E2489A943BE10AD710ED36" /> </td> 
+   <td colname="col1"> <img src="assets/step4_icon.png" id="image_844E896941E2489A943BE10AD710ED36" /> </td> 
    <td colname="col2"> <p>Confirm that the implementation libraries load in the correct order on your sites. For more information, see <a href="../../../c-integrating-target-with-mac/a4t/c-a4timplementation.md#concept_CE78750AC2A4487D8ACD9369B3EAC85A" format="dita" scope="local"> Analytics for Target Implementation </a>. </p> </td> 
   </tr> 
  </tbody> 

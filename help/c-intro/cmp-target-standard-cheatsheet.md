@@ -247,11 +247,11 @@ A list of frequently asked questions about using the features in Adobe Target, a
   </tr> 
   <tr> 
    <td colname="col1"> <p>Why can't I go past the log-in page within the Visual Experience Composer (VEC) or to a page buried deep within for which I don't have a specific URL? </p> </td> 
-   <td colname="col2"> <p> Use the <span class="uicontrol"> Compose</span> and <span class="uicontrol"> Browse</span> features to navigate to the page of choice and start creating your experience. </p> <p><img href="assets/vec2.png" id="image_8C261C65FEE24854A996759ED40F5168" /> </p> </td> 
+   <td colname="col2"> <p> Use the <span class="uicontrol"> Compose</span> and <span class="uicontrol"> Browse</span> features to navigate to the page of choice and start creating your experience. </p> <p><img src="assets/vec2.png" id="image_8C261C65FEE24854A996759ED40F5168" /> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>How can I go to the experience of my choice from Step 2 of the Target three-part guided workflow (Targeting page)? </p> </td> 
-   <td colname="col2"> <p>Click the thumbnail in front of the experience name on Step 2 and you will land on the experience of your choice. </p> <p><img href="assets/thumbnail_experiences.png" id="image_A88E8E84293F4DA8BD29097B8A198C66" /> </p> </td> 
+   <td colname="col2"> <p>Click the thumbnail in front of the experience name on Step 2 and you will land on the experience of your choice. </p> <p><img src="assets/thumbnail_experiences.png" id="image_A88E8E84293F4DA8BD29097B8A198C66" /> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>I am a former Target Classic user. Can I leverage my mboxes for certain use cases? </p> </td> 

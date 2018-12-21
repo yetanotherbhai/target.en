@@ -68,7 +68,7 @@ There are several types of activities:
    <td colname="col2"> <p class="- topic/p ">Experience Targeting (XT) delivers content to a specific audience based on a set of marketer-defined rules and criteria. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1" class="premium"> <p><img href="help/assets/premium.png"></p>
+   <td colname="col1" class="premium"> <p><img src="help/assets/premium.png"></p>
    <p><a href="../c-activities/t-automated-personalization/t-automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9" format="dita" scope="local"> Automated Personalization (Target Premium)</a> </p> </td> 
    <td colname="col2"> <p>Automated Personalization (AP) combines offers or messages, and uses advanced machine learning to match different variations to each visitor based on their individual customer profile, in order to personalize content and drive conversions. </p> </td> 
   </tr> 

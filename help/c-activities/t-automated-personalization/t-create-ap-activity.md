@@ -202,7 +202,7 @@ The Automated Personalization activity workflow varies from the workflow of the 
       <ol id="ol_7CE86C31CD5541039A3265E14D0C3630"> 
          <li id="li_3E374D8B28B443FA9FE8AF2B02814A82"> <p>After adding additional metrics, click <span class="uicontrol"> Advanced Settings</span> under the three-dot menu to the right of Additional Goal. </p> </li> 
          <li id="li_F65C369C8F354A6CBD447ED26D9F79E4"> <p>Click the <span class="uicontrol"> Add Dependency</span> option. </p> <p><img id="image_F941ADB2FDC441C2B72FCDBD393FD8A0" href="assets/add_dependency.png" /> </p> </li> 
-         <li id="li_9A6F187B4C294A9C8B5C834C76B32767"> <p>Drag and drop the desired metrics from the left pane into the right pane, then click <span class="uicontrol"> Reached</span> to toggle the setting between <span class="uicontrol"> Reached</span> and <span class="uicontrol"> Not Reached</span>. </p> <p><img href="assets/add_dependency_reached.png" id="image_CA136FD10D754BD1B26C621DF2A4858D" /> </p> </li> 
+         <li id="li_9A6F187B4C294A9C8B5C834C76B32767"> <p>Drag and drop the desired metrics from the left pane into the right pane, then click <span class="uicontrol"> Reached</span> to toggle the setting between <span class="uicontrol"> Reached</span> and <span class="uicontrol"> Not Reached</span>. </p> <p><img src="assets/add_dependency_reached.png" id="image_CA136FD10D754BD1B26C621DF2A4858D" /> </p> </li> 
       </ol> </p> <p>You can edit or remove dependencies after adding them. </p> </td> 
    </tr> 
    <tr> 

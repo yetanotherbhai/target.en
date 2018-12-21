@@ -128,7 +128,7 @@ Open the link in a mobile browser on a device where you have your app installed.
     <table id="table_6123AAE2EE9D426CA477BD71B4361489"> 
     <tbody> 
     <tr> 
-    <td colname="col1"> <p> <img href="assets/mobile-preview-experience-selection-1.png" id="image_C9AA4C0525A449AA91A253BDD177A1DC" /> </p> </td> 
+    <td colname="col1"> <p> <img src="assets/mobile-preview-experience-selection-1.png" id="image_C9AA4C0525A449AA91A253BDD177A1DC" /> </p> </td> 
     <td colname="col2"> <p> <img id="image_CE9638C68F184AE1AA66A0CDE9AA3770" href="assets/mobile-preview-experience-result-1-france.png" /> </p> </td> 
     <td colname="col3"> <p> <img id="image_92CB96E9A4274216B7A328F2B49FAEF3" href="assets/mobile-preview-experience-result-1-shipfree.png" /> </p> </td> 
     </tr> 

@@ -56,23 +56,23 @@ When viewing the [!UICONTROL Code Offers] page, you can perform the following ac
     </thead>
     <tbody> 
       <tr> 
-      <td colname="col1"> <p> <img href="assets/icon_info.png" id="image_C52EE8B9351F4603B3E9917CE7788522" /> </p> <p>Information </p> </td> 
+      <td colname="col1"> <p> <img src="assets/icon_info.png" id="image_C52EE8B9351F4603B3E9917CE7788522" /> </p> <p>Information </p> </td> 
       <td colname="col2"> <p>View the folder information. </p> </td> 
       </tr> 
       <tr> 
-      <td colname="col1"> <p> <img href="assets/icon_edit.png" id="image_FB91E4CEFC4A43519CDE88E0C4293FA9" /> </p> <p>Edit </p> </td> 
+      <td colname="col1"> <p> <img src="assets/icon_edit.png" id="image_FB91E4CEFC4A43519CDE88E0C4293FA9" /> </p> <p>Edit </p> </td> 
       <td colname="col2"> <p>Edit the folder. </p> </td> 
       </tr> 
       <tr> 
-      <td colname="col1"> <p> <img href="assets/icon_copy.png" id="image_4927CCEAEE76433CAF13B4975E5D43A6" /> </p> <p>Copy </p> </td> 
+      <td colname="col1"> <p> <img src="assets/icon_copy.png" id="image_4927CCEAEE76433CAF13B4975E5D43A6" /> </p> <p>Copy </p> </td> 
       <td colname="col2"> <p>Copy the folder. </p> </td> 
       </tr> 
       <tr> 
-      <td colname="col1"> <p> <img href="assets/icon_move_folder.png" id="image_F7D4F4FA5F1043F5A476922D8C904FE3" /> </p> <p>Move </p> </td> 
+      <td colname="col1"> <p> <img src="assets/icon_move_folder.png" id="image_F7D4F4FA5F1043F5A476922D8C904FE3" /> </p> <p>Move </p> </td> 
       <td colname="col2"> <p>Click the icon, navigate to the location to which you want to move the folder, then, click the <span class="uicontrol"> Drop </span> icon. </p> <p>For example, you can move one or more folders into another folder to create subfolders. </p> <p>Click <span class="wintitle"> Clear Selection </span> to deselect folders you have selected. </p> </td> 
       </tr> 
       <tr> 
-      <td colname="col1"> <p> <img href="assets/icon_delete.png" id="image_22AC4CDA522C43A7BC9A61F8E02CED80" /> </p> <p>Delete </p> </td> 
+      <td colname="col1"> <p> <img src="assets/icon_delete.png" id="image_22AC4CDA522C43A7BC9A61F8E02CED80" /> </p> <p>Delete </p> </td> 
       <td colname="col2"> <p>Delete the folder. </p> </td> 
       </tr> 
     </tbody> 
@@ -89,7 +89,7 @@ When viewing the [!UICONTROL Image Offers] page, you can perform the following a
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <img href="assets/icon_check.png" id="image_CD3AF904B893455EA129EBA92AB0357C" /> </p> <p>Select </p> </td> 
+   <td colname="col1"> <p> <img src="assets/icon_check.png" id="image_CD3AF904B893455EA129EBA92AB0357C" /> </p> <p>Select </p> </td> 
    <td colname="col2"> <p>Select one or more folders on which to perform the following actions: </p> <p> 
      <ul id="ul_E921F8C0D38F468EB619CF9670C99A6F"> 
       <li id="li_F16C98C5970C4657967D7DB2FD1F7334">Download </li> 
@@ -99,15 +99,15 @@ When viewing the [!UICONTROL Image Offers] page, you can perform the following a
      </ul> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <img href="assets/icon_download.png" id="image_DE03C212BA6F4B12A1F6D50AE6969792" /> </p> <p>Download </p> </td> 
+   <td colname="col1"> <p> <img src="assets/icon_download.png" id="image_DE03C212BA6F4B12A1F6D50AE6969792" /> </p> <p>Download </p> </td> 
    <td colname="col2"> <p>Download the folder and its contents. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <img href="assets/icon_creative_cloud.png" id="image_1D8BDDDC6F55470FA4C5B23DC5105AC4" /> </p> <p>Share to Creative Cloud </p> </td> 
+   <td colname="col1"> <p> <img src="assets/icon_creative_cloud.png" id="image_1D8BDDDC6F55470FA4C5B23DC5105AC4" /> </p> <p>Share to Creative Cloud </p> </td> 
    <td colname="col2"> <p>Share the folder and its contents with the Adobe Creative Cloud. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <img href="assets/icon_copy_content.png" id="image_092C1D6B5F014232958AD8E2726DE0A1" /> </p> <p>Copy </p> </td> 
+   <td colname="col1"> <p> <img src="assets/icon_copy_content.png" id="image_092C1D6B5F014232958AD8E2726DE0A1" /> </p> <p>Copy </p> </td> 
    <td colname="col2"> <p>Copy the folder and its contents. </p> </td> 
   </tr> 
  </tbody> 
