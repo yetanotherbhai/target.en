@@ -7,9 +7,6 @@ solution: Target
 title: Expected Data Variances When Not Using A4T
 topic: Advanced
 uuid: 61bef460-8613-4251-b1b2-b6226ec86d9b
-index: y
-internal: n
-snippet: y
 ---
 
 # Expected Data Variances When Not Using A4T{#expected-data-variances-when-not-using-a-t}

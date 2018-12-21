@@ -7,9 +7,6 @@ solution: Target
 title: Upload content
 topic: Standard
 uuid: f6ab926b-163a-4873-80a5-48d2d225ac88
-index: y
-internal: n
-snippet: y
 ---
 
 # Upload content{#upload-content}

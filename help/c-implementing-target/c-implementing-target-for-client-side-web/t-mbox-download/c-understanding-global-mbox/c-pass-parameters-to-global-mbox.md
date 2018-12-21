@@ -8,9 +8,6 @@ subtopic: Getting Started
 title: Pass Parameters to a global mbox
 topic: Standard
 uuid: 058f0ef5-037a-4daf-8a1e-a9c7ecc7f0bd
-index: y
-internal: n
-snippet: y
 ---
 
 # Pass Parameters to a global mbox{#pass-parameters-to-a-global-mbox}

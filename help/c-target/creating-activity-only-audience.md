@@ -7,9 +7,6 @@ solution: Target
 title: Create an activity-only audience
 topic: Advanced,Standard,Classic
 uuid: 3d0898d0-96e8-4bc9-86bd-3ae39db0e74d
-index: y
-internal: n
-snippet: y
 ---
 
 # Create an activity-only audience{#create-an-activity-only-audience}

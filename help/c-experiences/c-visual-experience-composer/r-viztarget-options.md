@@ -7,9 +7,6 @@ solution: Target
 title: Visual Experience Composer Options
 topic: Standard
 uuid: efd672ae-c684-455f-8ec1-0efcfe1e9534
-index: y
-internal: n
-snippet: y
 ---
 
 # Visual Experience Composer Options{#visual-experience-composer-options}

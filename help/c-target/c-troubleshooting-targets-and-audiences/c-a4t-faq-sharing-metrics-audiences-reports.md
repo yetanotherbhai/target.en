@@ -7,9 +7,6 @@ solution: Target
 title: Share metrics, audiences, and reports - A4T FAQ
 topic: Standard
 uuid: 53f3c341-280e-4271-8d53-f1ad74036dd9
-index: y
-internal: n
-snippet: y
 ---
 
 # Share metrics, audiences, and reports - A4T FAQ{#share-metrics-audiences-and-reports-a-t-faq}

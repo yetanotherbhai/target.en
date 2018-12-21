@@ -6,9 +6,6 @@ solution: Target
 title: Delete the Target cookie
 topic: Standard
 uuid: 6e95ee4d-dbf2-4432-8abe-cfd9bc928f0c
-index: y
-internal: n
-snippet: y
 ---
 
 # Delete the Target cookie{#delete-the-target-cookie}

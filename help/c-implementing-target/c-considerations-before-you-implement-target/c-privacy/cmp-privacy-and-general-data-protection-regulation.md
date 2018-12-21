@@ -7,9 +7,6 @@ solution: Target
 title: Privacy and General Data Protection Regulation (GDPR)
 topic: Standard
 uuid: 5e67adcf-464c-495f-9ba5-15152d9a6a41
-index: y
-internal: n
-snippet: y
 ---
 
 # Privacy and General Data Protection Regulation (GDPR){#privacy-and-general-data-protection-regulation-gdpr}

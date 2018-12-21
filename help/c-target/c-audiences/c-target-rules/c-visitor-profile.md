@@ -7,9 +7,6 @@ solution: Target
 title: Visitor Profile
 topic: Premium
 uuid: 462c80f4-bd5f-4dce-b02b-21b2c33c5bf6
-index: y
-internal: n
-snippet: y
 ---
 
 # Visitor Profile{#visitor-profile}

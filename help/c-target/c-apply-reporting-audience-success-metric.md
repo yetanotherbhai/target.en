@@ -6,9 +6,6 @@ seo-title: Apply a reporting audience to a success metric
 solution: Target
 title: Apply a reporting audience to a success metric
 uuid: cc485785-84cc-4a60-acf8-788b842b243f
-index: y
-internal: n
-snippet: y
 ---
 
 # Apply a reporting audience to a success metric{#apply-a-reporting-audience-to-a-success-metric}

@@ -8,9 +8,6 @@ subtopic: Getting Started
 title: Target key concepts
 topic: Standard
 uuid: c62ac156-b4cf-494c-979f-33f889abd118
-index: y
-internal: n
-snippet: y
 ---
 
 # Target key concepts{#target-key-concepts}

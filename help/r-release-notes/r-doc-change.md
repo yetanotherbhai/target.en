@@ -7,9 +7,6 @@ solution: Target
 title: Documentation changes
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
-index: y
-internal: n
-snippet: y
 ---
 
 # Documentation changes{#documentation-changes}

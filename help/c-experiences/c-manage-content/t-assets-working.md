@@ -7,9 +7,6 @@ solution: Target
 title: Work with content in the library
 topic: Premium
 uuid: 7518e298-a824-4766-b2bf-49770b293b9a
-index: y
-internal: n
-snippet: y
 ---
 
 # Work with content in the library{#work-with-content-in-the-library}

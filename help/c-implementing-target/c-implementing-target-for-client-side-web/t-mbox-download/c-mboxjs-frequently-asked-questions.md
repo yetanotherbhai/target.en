@@ -7,9 +7,6 @@ solution: Target
 subtopic: Getting Started
 title: mbox.js Frequently Asked Questions
 uuid: af3105ab-87d9-4dbf-a380-b72788928958
-index: y
-internal: n
-snippet: y
 ---
 
 # mbox.js Frequently Asked Questions{#mbox-js-frequently-asked-questions}

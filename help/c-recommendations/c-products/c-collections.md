@@ -9,9 +9,6 @@ title-outputclass: premium
 topic: Premium
 uuid: aa1afdcf-e51c-4e44-a229-3c21fc9d0514
 badge: premium
-index: y
-internal: n
-snippet: y
 ---
 
 # ![PREMIUM](/help/assets/premium.png) Collections {#collections}

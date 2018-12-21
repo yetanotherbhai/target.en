@@ -9,9 +9,6 @@ title-outputclass: premium
 topic: Premium
 uuid: c3f22cce-204a-4509-92c4-8fec43fbaebe
 badge: premium
-index: y
-internal: n
-snippet: y
 ---
 
 # ![PREMIUM](/help/assets/premium.png) Create a Recommendations activity{#create-a-recommendations-activity}

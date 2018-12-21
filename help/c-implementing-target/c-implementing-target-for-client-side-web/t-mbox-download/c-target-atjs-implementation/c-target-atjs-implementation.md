@@ -7,9 +7,6 @@ solution: Target
 title: Migrate from mbox.js to at.js
 topic: Standard
 uuid: 10da01d7-d308-44e3-9c6e-ff4f713bd312
-index: y
-internal: n
-snippet: y
 ---
 
 # Migrate from mbox.js to at.js{#migrate-from-mbox-js-to-at-js}

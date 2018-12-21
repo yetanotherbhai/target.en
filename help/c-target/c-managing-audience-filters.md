@@ -6,9 +6,6 @@ seo-title: Audience filters for reporting
 solution: Target
 title: Audience filters for reporting
 uuid: ca2632c0-87e4-4a85-95e6-e63cf800ab2f
-index: y
-internal: n
-snippet: y
 ---
 
 # Audience filters for reporting{#audience-filters-for-reporting}

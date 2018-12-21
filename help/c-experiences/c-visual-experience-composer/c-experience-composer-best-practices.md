@@ -7,9 +7,6 @@ solution: Target
 title: Visual Experience Composer Best Practices and Limitations
 topic: Classic
 uuid: 8d1d199b-b3d7-4edb-ba05-bd97372a0b9e
-index: y
-internal: n
-snippet: y
 ---
 
 # Visual Experience Composer Best Practices and Limitations{#visual-experience-composer-best-practices-and-limitations}

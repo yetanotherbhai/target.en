@@ -7,9 +7,6 @@ solution: Target
 title: Create redirect offers
 topic: Standard
 uuid: 54336965-a26e-47c3-b3bc-079d3573502a
-index: y
-internal: n
-snippet: y
 ---
 
 # Create redirect offers{#create-redirect-offers}

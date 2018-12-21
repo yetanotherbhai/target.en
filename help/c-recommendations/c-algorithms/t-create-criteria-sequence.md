@@ -9,9 +9,6 @@ title-outputclass: premium
 topic: Premium
 uuid: 9a5ca86b-fc79-4c24-b86f-e333b0c63088
 badge: premium
-index: y
-internal: n
-snippet: y
 ---
 
 # ![PREMIUM](/help/assets/premium.png) Create criteria sequences{#create-criteria-sequences}

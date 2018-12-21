@@ -7,9 +7,6 @@ solution: Target
 title: Resources and Contact Information
 topic: Standard
 uuid: 3a7fb747-f7b9-4956-9a0e-4c5679110783
-index: y
-internal: n
-snippet: y
 ---
 
 # Resources and Contact Information{#resources-and-contact-information}

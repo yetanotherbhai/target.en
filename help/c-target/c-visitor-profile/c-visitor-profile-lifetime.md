@@ -8,9 +8,6 @@ subtopic: Getting Started
 title: Visitor profile lifetime
 topic: Standard
 uuid: 01ccda60-7e28-4d26-8d5d-1c0a022bbef0
-index: y
-internal: n
-snippet: y
 ---
 
 # Visitor profile lifetime{#visitor-profile-lifetime}

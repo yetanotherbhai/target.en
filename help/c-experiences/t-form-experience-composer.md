@@ -7,9 +7,6 @@ solution: Target
 title: Form-Based Experience Composer
 topic: Standard
 uuid: 6791ed6f-69d0-4ec4-9ea4-47aa92b2a4c9
-index: y
-internal: n
-snippet: y
 ---
 
 # Form-Based Experience Composer{#form-based-experience-composer}

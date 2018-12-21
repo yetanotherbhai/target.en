@@ -7,9 +7,6 @@ solution: Target
 title: Activity QA
 topic: Advanced,Standard,Classic
 uuid: 58d99940-7c3d-41ab-a2f5-a87c880dbc17
-index: y
-internal: n
-snippet: y
 ---
 
 # Activity QA{#activity-qa}

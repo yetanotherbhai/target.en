@@ -7,9 +7,6 @@ solution: Target
 subtopic: Getting Started
 title: at.js Frequently Asked Questions
 uuid: 1fcd3984-7c6d-4619-953e-3e28eb0d015a
-index: y
-internal: n
-snippet: y
 ---
 
 # at.js Frequently Asked Questions{#at-js-frequently-asked-questions}

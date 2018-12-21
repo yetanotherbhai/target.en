@@ -5,9 +5,6 @@ seo-description: Adobe Dynamic Tag Management (DTM) is Adobe's legacy tag manage
 seo-title: Implement Target using Dynamic Tag Management (DTM)
 title: Implement Target using Dynamic Tag Management (DTM)
 uuid: 27374cb5-a700-4c50-a36e-e575f35b74e6
-index: y
-internal: n
-snippet: y
 ---
 
 # Implement Target using Dynamic Tag Management (DTM){#implement-target-using-dynamic-tag-management-dtm}

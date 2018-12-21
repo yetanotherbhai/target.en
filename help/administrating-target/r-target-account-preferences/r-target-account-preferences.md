@@ -8,9 +8,6 @@ subtopic: Getting Started
 title: Preferences
 topic: Standard
 uuid: ed3904c8-533b-4b9c-a3a1-079c61b1bf2a
-index: y
-internal: n
-snippet: y
 ---
 
 # Preferences{#preferences}

@@ -8,9 +8,6 @@ title: Automated Personalization Summary reports
 title-outputclass: premium
 uuid: 959b6814-9686-4741-8a79-5957e64f6209
 badge: premium
-index: y
-internal: n
-snippet: y
 ---
 
 # ![PREMIUM](/help/assets/premium.png) Automated Personalization Summary reports{#automated-personalization-summary-reports}

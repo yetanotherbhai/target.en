@@ -6,9 +6,6 @@ solution: Target
 title: Preview experiences for a Multivariate Test
 topic: Standard
 uuid: a5099438-e125-4d24-a7e6-ec270ffeba24
-index: y
-internal: n
-snippet: y
 ---
 
 # Preview experiences for a Multivariate Test{#preview-experiences-for-a-multivariate-test}

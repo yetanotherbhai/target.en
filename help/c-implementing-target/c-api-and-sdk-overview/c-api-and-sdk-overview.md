@@ -7,9 +7,6 @@ solution: Target
 title: Server Side  implement Target
 topic: Recommendations
 uuid: 21d321c7-3da4-44a2-a04f-1807cc2a893b
-index: y
-internal: n
-snippet: y
 ---
 
 # Server Side: implement Target{#server-side-implement-target}

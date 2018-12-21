@@ -8,9 +8,6 @@ subtopic: Getting Started
 title: How Adobe Target works
 topic: Standard
 uuid: 01c0072d-f77d-4f14-935b-8633f220db7b
-index: y
-internal: n
-snippet: y
 ---
 
 # How Adobe Target works{#how-adobe-target-works}

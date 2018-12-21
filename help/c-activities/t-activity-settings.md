@@ -8,9 +8,6 @@ subtopic: Multivariate Test
 title: Activity settings
 topic: Standard
 uuid: d317e63a-ba1f-4c0e-ab90-c6181b8b45fd
-index: y
-internal: n
-snippet: y
 ---
 
 # Activity settings{#activity-settings}

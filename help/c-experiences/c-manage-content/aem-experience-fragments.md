@@ -7,9 +7,6 @@ solution: Target
 title: AEM experience fragments
 topic: Standard
 uuid: 4dc2b5da-524f-4d6a-8ffc-8c3ac78cb39e
-index: y
-internal: n
-snippet: y
 ---
 
 # AEM experience fragments{#aem-experience-fragments}

@@ -7,9 +7,6 @@ solution: Target
 title: Integrate Target with Adobe Campaign
 topic: Standard
 uuid: 1a5b70e6-d501-4b52-bec8-4ae2c419d331
-index: y
-internal: n
-snippet: y
 ---
 
 # Integrate Target with Adobe Campaign{#integrate-target-with-adobe-campaign}

@@ -7,9 +7,6 @@ solution: Target
 title: Estimate lift in revenue
 topic: Advanced,Standard,Classic
 uuid: e3ccb440-ce54-4a5a-be93-69a6162a160f
-index: y
-internal: n
-snippet: y
 ---
 
 # Estimate lift in revenue{#estimate-lift-in-revenue}

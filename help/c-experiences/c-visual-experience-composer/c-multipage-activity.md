@@ -7,9 +7,6 @@ solution: Target
 title: Multipage Activity
 topic: Advanced
 uuid: a89f5334-540e-417d-ac51-a90f8b4687a4
-index: y
-internal: n
-snippet: y
 ---
 
 # Multipage Activity{#multipage-activity}

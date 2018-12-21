@@ -7,9 +7,6 @@ solution: Target
 title: Target mobile preview
 topic: Advanced,Standard,Classic
 uuid: 313150fa-a7ec-46fe-9166-742a5c246a72
-index: y
-internal: n
-snippet: y
 ---
 
 # Target mobile preview{#target-mobile-preview}

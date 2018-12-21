@@ -9,9 +9,6 @@ title-outputclass: premium
 topic: Premium
 uuid: e0b4d320-db00-43ad-b49e-ce36c8532320
 badge: premium
-index: y
-internal: n
-snippet: y
 ---
 
 # ![PREMIUM](/help/assets/premium.png) Upload custom criteria{#upload-custom-criteria}

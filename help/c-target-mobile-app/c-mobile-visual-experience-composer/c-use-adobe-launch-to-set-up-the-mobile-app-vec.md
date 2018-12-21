@@ -7,9 +7,6 @@ solution: Target
 title: Use Adobe Launch to set up the Mobile App VEC
 topic: Standard
 uuid: cc76453d-8ba7-471f-9b96-7a2d8f040f0a
-index: y
-internal: n
-snippet: y
 ---
 
 # Use Adobe Launch to set up the Mobile App VEC{#use-adobe-launch-to-set-up-the-mobile-app-vec}

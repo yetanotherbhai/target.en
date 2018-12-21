@@ -7,9 +7,6 @@ solution: Target
 title: Mobile App Visual Experience Composer
 topic: Standard
 uuid: 83702f9c-40ff-441b-b773-46b01155a6f2
-index: y
-internal: n
-snippet: y
 ---
 
 # Mobile App Visual Experience Composer{#mobile-app-visual-experience-composer}

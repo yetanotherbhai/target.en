@@ -8,9 +8,6 @@ subtopic: Code Editor
 title: Experience Templates
 topic: Standard
 uuid: 4344996f-6729-41c0-98dd-be5fcef1df85
-index: y
-internal: n
-snippet: y
 ---
 
 # Experience Templates{#experience-templates}

@@ -6,9 +6,6 @@ seo-title: Troubleshooting the Visual Experience Composer and Enhanced Experienc
 solution: Target
 title: Troubleshooting the Visual Experience Composer and Enhanced Experience Composer
 uuid: de9f9392-8a15-4422-81b3-263ace1cb330
-index: y
-internal: n
-snippet: y
 ---
 
 # Troubleshooting the Visual Experience Composer and Enhanced Experience Composer{#troubleshooting-the-visual-experience-composer-and-enhanced-experience-composer}

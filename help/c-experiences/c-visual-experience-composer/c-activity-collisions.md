@@ -6,9 +6,6 @@ seo-title: Activity Collisions
 solution: Target
 title: Activity Collisions
 uuid: 0e53ef60-2f71-4b34-9383-1de5cf5d3ab5
-index: y
-internal: n
-snippet: y
 ---
 
 # Activity Collisions{#activity-collisions}

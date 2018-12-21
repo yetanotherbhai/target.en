@@ -6,9 +6,6 @@ seo-title: Target Library
 solution: Target
 title: Target Library
 uuid: 62e894a8-e3ca-4c1d-883a-976daf041506
-index: y
-internal: n
-snippet: y
 ---
 
 # Target Library{#target-library}

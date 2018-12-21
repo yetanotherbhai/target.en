@@ -7,9 +7,6 @@ title: Target Automated Personalization offers
 title-outputclass: premium
 uuid: 4ee30e1a-bfda-4b20-9313-99e32dcf60ac
 badge: premium
-index: y
-internal: n
-snippet: y
 ---
 
 # ![PREMIUM](/help/assets/premium.png) Target Automated Personalization offers{#target-automated-personalization-offers}

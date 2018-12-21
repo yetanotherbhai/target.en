@@ -7,9 +7,6 @@ solution: Target
 title: Global mbox Frequently Asked Questions
 topic: Standard
 uuid: f8eb0331-bc2b-4be9-9b35-c764ac091ef4
-index: y
-internal: n
-snippet: y
 ---
 
 # Global mbox Frequently Asked Questions{#global-mbox-frequently-asked-questions}

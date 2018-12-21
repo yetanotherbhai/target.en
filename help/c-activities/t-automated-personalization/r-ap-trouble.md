@@ -6,9 +6,6 @@ title: Troubleshoot Automated Personalization
 title-outputclass: premium
 uuid: 50c5380f-bc7f-41ae-8a85-cdce2dcc0ccd
 badge: premium
-index: y
-internal: n
-snippet: y
 ---
 
 # ![PREMIUM](/help/assets/premium.png) Troubleshoot Automated Personalization{#troubleshoot-automated-personalization}

@@ -6,9 +6,6 @@ seo-title: Time Frame
 solution: Target
 title: Time Frame
 uuid: 6c75014b-f0fd-4f76-a84f-b841bf87f1d7
-index: y
-internal: n
-snippet: y
 ---
 
 # Time Frame{#time-frame}

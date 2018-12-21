@@ -7,9 +7,6 @@ solution: Target
 title: System status updates
 topic: Recommendations
 uuid: 5a627580-8e06-4e14-9fe0-1a442acc6fd8
-index: y
-internal: n
-snippet: y
 ---
 
 # System status updates{#system-status-updates}

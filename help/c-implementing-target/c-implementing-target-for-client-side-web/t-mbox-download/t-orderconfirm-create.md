@@ -7,9 +7,6 @@ solution: Target
 subtopic: Getting Started
 title: Create an Order Confirmation mbox - mbox.js
 uuid: 001da2bd-2ccf-490b-ba84-ac9b9a2a5451
-index: y
-internal: n
-snippet: y
 ---
 
 # Create an Order Confirmation mbox - mbox.js{#create-an-order-confirmation-mbox-mbox-js}

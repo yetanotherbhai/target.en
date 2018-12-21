@@ -6,9 +6,6 @@ solution: Target
 title: Glossary
 topic: Standard
 uuid: df0e5612-bfe8-48a5-be2c-1d50ce9fd3f5
-index: y
-internal: n
-snippet: y
 ---
 
 # Glossary{#glossary}

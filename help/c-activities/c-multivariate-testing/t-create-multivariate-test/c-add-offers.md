@@ -4,9 +4,6 @@ seo-description: Use the Visual Experience Composer to create the offers you wan
 seo-title: Create combinations
 title: Create combinations
 uuid: 2ee47bf5-f8b3-41e2-b9a5-0ff4ab175373
-index: y
-internal: n
-snippet: y
 ---
 
 # Create combinations{#create-combinations}

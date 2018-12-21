@@ -9,9 +9,6 @@ title-outputclass: premium
 topic: Advanced
 uuid: 5b111a68-bd05-4ef1-8156-d064f2c7e257
 badge: premium
-index: y
-internal: n
-snippet: y
 ---
 
 # ![PREMIUM](/help/assets/premium.png) Offer reporting groups in Automated Personalization{#offer-reporting-groups-in-automated-personalization}

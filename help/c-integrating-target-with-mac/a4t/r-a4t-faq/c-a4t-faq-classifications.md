@@ -7,9 +7,6 @@ solution: Target
 title: Classifications - A4T FAQ
 topic: Standard
 uuid: 4b42adbc-4fa8-4b62-86c8-bb8f8bec7e54
-index: y
-internal: n
-snippet: y
 ---
 
 # Classifications - A4T FAQ{#classifications-a-t-faq}

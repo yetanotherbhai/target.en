@@ -9,9 +9,6 @@ title-outputclass: premium
 topic: Premium
 uuid: 5917bd3b-f321-4348-b9b0-4fba6a1f3d1a
 badge: premium
-index: y
-internal: n
-snippet: y
 ---
 
 # ![PREMIUM](/help/assets/premium.png) Recommendations Classic versus Recommendations activities in Target Premium{#recommendations-classic-versus-recommendations-activities-in-target-premium}

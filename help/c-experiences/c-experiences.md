@@ -7,9 +7,6 @@ solution: Target
 title: Experiences and offers
 topic: Standard
 uuid: cff5ac56-2f63-48e9-ba06-eb66de9e769f
-index: y
-internal: n
-snippet: y
 ---
 
 # Experiences and offers{#experiences-and-offers}

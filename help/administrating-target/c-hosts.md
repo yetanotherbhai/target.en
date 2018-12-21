@@ -7,9 +7,6 @@ solution: Target
 title: Hosts
 topic: Standard
 uuid: c7682269-4ec2-4a0f-b053-7e0ec77f4604
-index: y
-internal: n
-snippet: y
 ---
 
 # Hosts{#hosts}

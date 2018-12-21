@@ -8,9 +8,6 @@ subtopic: Getting Started
 title: Methods to get data into Target
 topic: Standard
 uuid: a6d64e39-6cdc-49fe-afe5-ecf7dcacf97d
-index: y
-internal: n
-snippet: y
 ---
 
 # Methods to get data into Target{#methods-to-get-data-into-target}

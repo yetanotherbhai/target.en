@@ -8,9 +8,6 @@ subtopic: Mobile Viewports
 title: Troubleshoot Multivariate Tests
 topic: Standard
 uuid: 4de03e03-cbbd-4e8f-a1b9-19ba8b2e6951
-index: y
-internal: n
-snippet: y
 ---
 
 # Troubleshoot Multivariate Tests{#troubleshoot-multivariate-tests}

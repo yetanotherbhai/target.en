@@ -7,9 +7,6 @@ solution: Target
 title: Metric definitions - A4T FAQ
 topic: Standard
 uuid: 41d41665-9057-479d-b0a8-7cffb90ca843
-index: y
-internal: n
-snippet: y
 ---
 
 # Metric definitions - A4T FAQ{#metric-definitions-a-t-faq}

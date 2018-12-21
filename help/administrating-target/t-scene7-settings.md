@@ -7,9 +7,6 @@ subtopic: Getting Started
 title: Scene7 settings
 topic: Standard
 uuid: 4b06a3ed-0e87-4e49-874f-2e479324f81c
-index: y
-internal: n
-snippet: y
 ---
 
 # Scene7 settings{#scene-settings}

@@ -7,9 +7,6 @@ solution: Target
 title: Activity notifications
 topic: Standard
 uuid: eb9b8657-1c8e-4eba-8f6d-612944f917f3
-index: y
-internal: n
-snippet: y
 ---
 
 # Activity notifications{#activity-notifications}

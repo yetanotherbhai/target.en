@@ -5,9 +5,6 @@ seo-description: If you are using an older version of at.js or mbox.js, you must
 seo-title: Use an Analytics tracking server
 title: Use an Analytics tracking server
 uuid: ad700b90-f409-496a-bc26-0f0367410a85
-index: y
-internal: n
-snippet: y
 ---
 
 # Use an Analytics tracking server{#use-an-analytics-tracking-server}

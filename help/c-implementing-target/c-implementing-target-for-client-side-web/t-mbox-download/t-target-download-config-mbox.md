@@ -8,9 +8,6 @@ subtopic: Getting Started
 title: Download mbox.js
 topic: Standard
 uuid: b2a46321-cac7-4924-92dd-a80b50e27cee
-index: y
-internal: n
-snippet: y
 ---
 
 # Download mbox.js{#download-mbox-js}

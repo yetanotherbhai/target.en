@@ -8,9 +8,6 @@ subtopic: Getting Started
 title: Customer attributes
 topic: Standard
 uuid: fc3c9a02-30d7-43df-838d-10ce1aa17f16
-index: y
-internal: n
-snippet: y
 ---
 
 # Customer attributes{#customer-attributes}

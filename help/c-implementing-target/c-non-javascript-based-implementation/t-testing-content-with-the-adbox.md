@@ -8,9 +8,6 @@ subtopic: Getting Started
 title: Create an Adbox for an image
 topic: Standard
 uuid: 6b1763f7-08de-4bde-9e20-e79b92b02f20
-index: y
-internal: n
-snippet: y
 ---
 
 # Create an Adbox for an image{#create-an-adbox-for-an-image}

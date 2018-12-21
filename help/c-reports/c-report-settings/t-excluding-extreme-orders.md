@@ -7,9 +7,6 @@ solution: Target
 title: Exclude extreme values
 topic: Premium
 uuid: bb151b54-09ef-40b5-bc04-95c61b761f5a
-index: y
-internal: n
-snippet: y
 ---
 
 # Exclude extreme values{#exclude-extreme-values}

@@ -6,9 +6,6 @@ seo-title: Success metrics
 solution: Target
 title: Success metrics
 uuid: 24e9ae0f-099b-430b-b2bb-03b405f88929
-index: y
-internal: n
-snippet: y
 ---
 
 # Success metrics{#success-metrics}

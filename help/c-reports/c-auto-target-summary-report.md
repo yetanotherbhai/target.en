@@ -8,9 +8,6 @@ subtopic: Multivariate Test
 title: Auto-Target Summary report
 topic: Standard
 uuid: a30fa886-e8df-408f-bbc9-11a917a592d8
-index: y
-internal: n
-snippet: y
 ---
 
 # Auto-Target Summary report{#auto-target-summary-report}

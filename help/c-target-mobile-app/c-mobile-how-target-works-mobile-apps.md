@@ -4,9 +4,6 @@ seo-description: The Adobe Mobile SDK contacts the Target server to get the cont
 seo-title: How Target works in mobile apps
 title: How Target works in mobile apps
 uuid: 8b302292-2cc0-46b9-b29c-088006721c7f
-index: y
-internal: n
-snippet: y
 ---
 
 # How Target works in mobile apps{#how-target-works-in-mobile-apps}

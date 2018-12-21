@@ -8,9 +8,6 @@ title-outputclass: premium
 topic: Premium
 uuid: 8e1943b6-274c-4347-8f4b-7ac108845926
 badge: premium
-index: y
-internal: n
-snippet: y
 ---
 
 # ![PREMIUM](/help/assets/premium.png) IP addresses used by Recommendations feed-processing servers{#ip-addresses-used-by-recommendations-feed-processing-servers}

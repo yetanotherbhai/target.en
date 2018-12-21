@@ -7,9 +7,6 @@ solution: Target
 title: Edit an activity or save as draft
 topic: Standard
 uuid: bfc7a045-ebdb-40b3-badc-668fbbe2fcf3
-index: y
-internal: n
-snippet: y
 ---
 
 # Edit an activity or save as draft{#edit-an-activity-or-save-as-draft}

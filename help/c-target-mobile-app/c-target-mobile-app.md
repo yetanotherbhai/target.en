@@ -6,9 +6,6 @@ seo-title: Target for mobile apps
 title: Target for mobile apps
 topic: Target
 uuid: 3d6422ac-7cff-4e0d-9cea-64a64cd1a098
-index: y
-internal: n
-snippet: y
 ---
 
 # Target for mobile apps{#target-for-mobile-apps}

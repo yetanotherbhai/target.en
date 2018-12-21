@@ -6,9 +6,6 @@ seo-title: Set metrics
 solution: Target,standard
 title: Set metrics
 uuid: 0fb297ba-f1c3-4139-ac37-7fa0bf2ac308
-index: y
-internal: n
-snippet: y
 ---
 
 # Set metrics{#set-metrics}

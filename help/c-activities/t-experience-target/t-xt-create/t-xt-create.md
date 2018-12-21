@@ -7,9 +7,6 @@ subtopic: Multivariate Test
 title: Create an Experience Targeting activity
 topic: Standard
 uuid: 6299982b-b1ba-4dd0-9c69-36a76680a3e1
-index: y
-internal: n
-snippet: y
 ---
 
 # Create an Experience Targeting activity{#create-an-experience-targeting-activity}

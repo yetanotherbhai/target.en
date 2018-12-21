@@ -7,9 +7,6 @@ solution: Target
 title: Create Experience
 topic: Advanced,Standard,Classic
 uuid: ce559c3c-5a16-46b8-b2a7-df696626c7c0
-index: y
-internal: n
-snippet: y
 ---
 
 # Create Experience{#create-experience}

@@ -7,9 +7,6 @@ solution: Target
 title: Limits
 topic: Standard
 uuid: 603fb800-a26c-43ec-b2d9-ef7a8ed8721e
-index: y
-internal: n
-snippet: y
 ---
 
 # Limits{#limits}

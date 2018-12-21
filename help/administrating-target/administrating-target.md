@@ -8,9 +8,6 @@ subtopic: Getting Started
 title: Administer Target
 topic: Standard
 uuid: 496f2dbe-96e2-4cd5-ba2e-d980d80eceb9
-index: y
-internal: n
-snippet: y
 ---
 
 # Administer Target{#administer-target}

@@ -6,9 +6,6 @@ seo-title: Activity URL
 solution: Target
 title: Activity URL
 uuid: ddc7330c-199a-4e38-b3d4-6786e3997783
-index: y
-internal: n
-snippet: y
 ---
 
 # Activity URL{#activity-url}

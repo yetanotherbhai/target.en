@@ -8,9 +8,6 @@ subtopic: Getting Started
 title: mbox.js cookies
 topic: Standard
 uuid: e0089c2a-57e9-4014-9fbf-589faea97c09
-index: y
-internal: n
-snippet: y
 ---
 
 # mbox.js cookies{#mbox-js-cookies}

@@ -7,9 +7,6 @@ solution: Target
 title: Introduction to Target
 topic: Advanced
 uuid: 70ccfbe9-c240-4380-9f43-522af51c1d5f
-index: y
-internal: n
-snippet: y
 ---
 
 # Introduction to Target{#introduction-to-target}

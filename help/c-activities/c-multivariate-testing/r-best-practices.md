@@ -7,9 +7,6 @@ solution: Target
 title: Multivariate Test best practices
 topic: Standard
 uuid: 4468a2eb-3fc1-4bc5-85ac-90cc02db4fbb
-index: y
-internal: n
-snippet: y
 ---
 
 # Multivariate Test best practices{#multivariate-test-best-practices}

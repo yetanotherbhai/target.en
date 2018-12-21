@@ -7,9 +7,6 @@ solution: Target
 title: CNAME and Adobe Target
 topic: Standard
 uuid: 3fb0ea31-e91d-4359-a8cc-64c547e6314e
-index: y
-internal: n
-snippet: y
 ---
 
 # CNAME and Adobe Target{#cname-and-adobe-target}

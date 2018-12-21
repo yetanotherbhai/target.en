@@ -7,9 +7,6 @@ solution: Target
 title: Reporting FAQ
 topic: Standard
 uuid: 0be40d3f-3274-493d-899b-cb7bb3612baf
-index: y
-internal: n
-snippet: y
 ---
 
 # Reporting FAQ{#reporting-faq}

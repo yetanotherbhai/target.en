@@ -8,9 +8,6 @@ title-outputclass: premium
 topic: Premium
 uuid: f5ca2d84-0016-4af5-a139-bca567a3d0e8
 badge: premium
-index: y
-internal: n
-snippet: y
 ---
 
 # ![PREMIUM](/help/assets/premium.png) Data collection for the Target personalization algorithms{#data-collection-for-the-target-personalization-algorithms}

@@ -6,9 +6,6 @@ seo-title: Use cloud-based instances with Target
 solution: Target
 title: Use cloud-based instances with Target
 uuid: dcaba49e-7567-4970-bb9a-19377aff7d38
-index: y
-internal: n
-snippet: y
 ---
 
 # Use cloud-based instances with Target{#use-cloud-based-instances-with-target}

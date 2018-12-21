@@ -7,9 +7,6 @@ solution: Target
 title: How at.js works
 topic: Standard
 uuid: 8ed04881-3dd9-496f-9c9c-feb9c740ed80
-index: y
-internal: n
-snippet: y
 ---
 
 # How at.js works{#how-at-js-works}

@@ -6,9 +6,6 @@ seo-title: Troubleshooting Issues Related to the Visual Experience Composer
 solution: Target
 title: Troubleshooting Issues Related to the Visual Experience Composer
 uuid: 95126e92-75ce-4052-b061-7ca4ebb3136b
-index: y
-internal: n
-snippet: y
 ---
 
 # Troubleshooting Issues Related to the Visual Experience Composer{#troubleshooting-issues-related-to-the-visual-experience-composer}

@@ -9,9 +9,6 @@ title-outputclass: premium
 topic: Premium
 uuid: 80701a15-c5eb-4089-a92e-117eda11faa2
 badge: premium
-index: y
-internal: n
-snippet: y
 ---
 
 # ![PREMIUM](/help/assets/premium.png) Customize a design using Velocity{#customize-a-design-using-velocity}

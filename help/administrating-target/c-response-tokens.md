@@ -8,9 +8,6 @@ subtopic: Getting Started
 title: Response tokens
 topic: Standard
 uuid: 20561673-d762-4c3d-bedc-94aeab5053d7
-index: y
-internal: n
-snippet: y
 ---
 
 # Response tokens{#response-tokens}

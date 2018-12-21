@@ -5,7 +5,6 @@ seo-description: The Goals and Settings page is where you enter information abou
 seo-title: Goals and settings
 title: Goals and settings
 uuid: 46d02e39-0c19-4da8-bdd8-48acb708831b
-index: y
 snippet: y
 ---
 

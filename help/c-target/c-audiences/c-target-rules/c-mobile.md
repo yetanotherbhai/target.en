@@ -7,9 +7,6 @@ solution: Target
 title: Mobile
 topic: Standard
 uuid: a731e8c0-e9c1-4971-95b7-882cefcabfc7
-index: y
-internal: n
-snippet: y
 ---
 
 # Mobile{#mobile}

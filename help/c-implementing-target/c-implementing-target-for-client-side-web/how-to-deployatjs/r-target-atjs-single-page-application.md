@@ -7,9 +7,6 @@ solution: Target
 title: Single Page Application implementation
 topic: standard
 uuid: 5887ec53-e5b1-40f9-b469-33685f5c6cd6
-index: y
-internal: n
-snippet: y
 ---
 
 # Single Page Application implementation{#single-page-application-implementation}

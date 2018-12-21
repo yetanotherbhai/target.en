@@ -4,9 +4,6 @@ seo-description: This section describes how to send Target mobile app activity i
 seo-title: Send activity information to Adobe Analytics
 title: Send activity information to Adobe Analytics
 uuid: 2ca1ebfe-5008-4a73-a032-1ad81f062925
-index: y
-internal: n
-snippet: y
 ---
 
 # Send activity information to Adobe Analytics{#send-activity-information-to-adobe-analytics}

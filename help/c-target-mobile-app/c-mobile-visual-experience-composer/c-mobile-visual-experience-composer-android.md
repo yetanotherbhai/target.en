@@ -7,9 +7,6 @@ solution: Target
 title: Android - set up the mobile app
 topic: Standard
 uuid: 39938ec2-b12e-44cf-9218-69195fba0ff7
-index: y
-internal: n
-snippet: y
 ---
 
 # Android - set up the mobile app{#android-set-up-the-mobile-app}

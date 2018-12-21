@@ -7,9 +7,6 @@ solution: Target
 title: Goals and Settings
 topic: Standard
 uuid: e8cd1881-9b08-4c90-b2fc-ec60fee17697
-index: y
-internal: n
-snippet: y
 ---
 
 # Goals and Settings{#goals-and-settings}

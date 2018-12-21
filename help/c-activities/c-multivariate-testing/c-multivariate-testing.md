@@ -7,9 +7,6 @@ solution: Target
 title: Multivariate Test
 topic: Premium
 uuid: a6f0cf9f-bd5e-4ae2-8dbe-0c94ec6a02ba
-index: y
-internal: n
-snippet: y
 ---
 
 # Multivariate Test{#multivariate-test}

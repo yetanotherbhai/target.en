@@ -7,9 +7,6 @@ solution: Target
 title: Release notes for previous releases
 topic: Recommendations
 uuid: a1f0ddae-39f1-4e28-bf86-03e82e3cb91e
-index: y
-internal: n
-snippet: y
 ---
 
 # Release notes for previous releases{#release-notes-for-previous-releases}

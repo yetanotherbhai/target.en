@@ -7,9 +7,6 @@ solution: Target
 title: at.js Limitations
 topic: Premium
 uuid: 6c2dfd85-4c4d-4204-a9e9-e358f0b70ded
-index: y
-internal: n
-snippet: y
 ---
 
 # at.js Limitations{#at-js-limitations}

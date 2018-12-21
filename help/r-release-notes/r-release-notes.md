@@ -7,9 +7,6 @@ solution: Target
 title: Target release notes (current)
 topic: Recommendations
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
-index: y
-internal: n
-snippet: y
 ---
 
 # Target release notes (current){#target-release-notes-current}

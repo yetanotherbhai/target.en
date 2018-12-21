@@ -7,9 +7,6 @@ solution: Target
 title: Operating System
 topic: Classic
 uuid: 79cebc00-80c7-4e32-8b26-ece7007751a4
-index: y
-internal: n
-snippet: y
 ---
 
 # Operating System{#operating-system}

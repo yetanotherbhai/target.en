@@ -6,9 +6,6 @@ seo-title: Traffic Sources
 solution: Target
 title: Traffic Sources
 uuid: 725cb4f4-6530-403a-a9c8-305219765615
-index: y
-internal: n
-snippet: y
 ---
 
 # Traffic Sources{#traffic-sources}

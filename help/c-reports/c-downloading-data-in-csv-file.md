@@ -8,9 +8,6 @@ subtopic: Multivariate Test
 title: Downloading data in a CSV file
 topic: Standard
 uuid: 9ac151e1-45a9-4d46-b23b-e7c9ae518253
-index: y
-internal: n
-snippet: y
 ---
 
 # Downloading data in a CSV file{#downloading-data-in-a-csv-file}

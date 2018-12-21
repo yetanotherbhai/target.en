@@ -7,9 +7,6 @@ solution: Target
 title: Inflated visit and visitor counts - A4T FAQ
 topic: Standard
 uuid: 5d1b77bb-9053-4533-bd01-d6f53f0751e9
-index: y
-internal: n
-snippet: y
 ---
 
 # Inflated visit and visitor counts - A4T FAQ{#inflated-visit-and-visitor-counts-a-t-faq}

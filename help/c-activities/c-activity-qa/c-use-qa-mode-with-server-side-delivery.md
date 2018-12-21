@@ -7,9 +7,6 @@ solution: Target
 title: Use Activity QA with server-side delivery
 topic: Advanced,Standard,Classic
 uuid: c1875243-e37f-4205-9e6b-6e96cadf4a7f
-index: y
-internal: n
-snippet: y
 ---
 
 # Use Activity QA with server-side delivery{#use-activity-qa-with-server-side-delivery}

@@ -9,9 +9,6 @@ title-outputclass: premium
 topic: Advanced
 uuid: 7d301dc3-6076-4e05-8abc-4978075a881e
 badge: premium
-index: y
-internal: n
-snippet: y
 ---
 
 # ![PREMIUM](/help/assets/premium.png) Create an Automated Personalization activity{#create-an-automated-personalization-activity}

@@ -6,9 +6,6 @@ seo-title: Network
 solution: Target
 title: Network
 uuid: 06b9c92a-e9bd-4444-abbc-7b6dffcefea7
-index: y
-internal: n
-snippet: y
 ---
 
 # Network{#network}

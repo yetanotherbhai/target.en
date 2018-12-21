@@ -7,9 +7,6 @@ solution: Target
 title: Prefetch offer content
 topic: Advanced,Standard,Classic
 uuid: 715e0e77-bfd9-437b-b42c-899d66f2890c
-index: y
-internal: n
-snippet: y
 ---
 
 # Prefetch offer content{#prefetch-offer-content}

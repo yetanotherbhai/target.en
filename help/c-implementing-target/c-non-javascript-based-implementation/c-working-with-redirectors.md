@@ -8,9 +8,6 @@ subtopic: Getting Started
 title: Work with redirectors
 topic: Standard
 uuid: 79d7caf6-5693-4bb3-9131-8d1ae420fa5e
-index: y
-internal: n
-snippet: y
 ---
 
 # Work with redirectors{#work-with-redirectors}

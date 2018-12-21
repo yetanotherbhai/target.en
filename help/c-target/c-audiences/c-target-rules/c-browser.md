@@ -8,9 +8,6 @@ subtopic: Multivariate Test
 title: Browser
 topic: Premium
 uuid: 9059aae2-477f-4e8d-99ce-ef2dad2d17bb
-index: y
-internal: n
-snippet: y
 ---
 
 # Browser{#browser}

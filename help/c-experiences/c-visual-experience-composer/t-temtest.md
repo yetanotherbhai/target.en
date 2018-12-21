@@ -7,9 +7,6 @@ solution: Target
 title: Include the Same Experience on Similar Pages
 topic: Premium
 uuid: 055b276e-2492-40d8-b48e-849dffa93f35
-index: y
-internal: n
-snippet: y
 ---
 
 # Include the Same Experience on Similar Pages{#include-the-same-experience-on-similar-pages}

@@ -7,9 +7,6 @@ solution: Target
 title: Create audiences
 topic: Advanced,Standard,Classic
 uuid: 994eed40-11ca-460e-827c-75a4db8a942d
-index: y
-internal: n
-snippet: y
 ---
 
 # Create audiences{#create-audiences}

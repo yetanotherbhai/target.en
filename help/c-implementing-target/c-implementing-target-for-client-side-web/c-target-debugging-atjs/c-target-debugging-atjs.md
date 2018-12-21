@@ -6,9 +6,6 @@ seo-title: Debug at.js using the Adobe Experience Cloud Debugger
 title: Debug at.js using the Adobe Experience Cloud Debugger
 topic: Target
 uuid: 04cfb0fe-1f45-4824-bd06-d54c43baaffe
-index: y
-internal: n
-snippet: y
 ---
 
 # Debug at.js using the Adobe Experience Cloud Debugger{#debug-at-js-using-the-adobe-experience-cloud-debugger}

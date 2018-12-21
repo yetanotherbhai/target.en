@@ -8,9 +8,6 @@ subtopic: Getting Started
 title: at.js functions
 topic: Standard
 uuid: ec5f27a7-b22a-48c9-968c-9eb02830a2a6
-index: y
-internal: n
-snippet: y
 ---
 
 # at.js functions{#at-js-functions}

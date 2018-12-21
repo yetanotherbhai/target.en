@@ -7,9 +7,6 @@ solution: Target
 title: Activity settings - A4T FAQ
 topic: Standard
 uuid: 3472ab3c-908b-40f8-81a6-512dccde64a6
-index: y
-internal: n
-snippet: y
 ---
 
 # Activity settings - A4T FAQ{#activity-settings-a-t-faq}

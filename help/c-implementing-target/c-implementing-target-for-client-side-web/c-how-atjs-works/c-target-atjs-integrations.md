@@ -7,9 +7,6 @@ solution: Target
 title: at.js integrations
 topic: Standard
 uuid: 19036a1d-941c-4d31-8c7b-f50c86996b1c
-index: y
-internal: n
-snippet: y
 ---
 
 # at.js integrations{#at-js-integrations}

@@ -7,9 +7,6 @@ solution: Target
 title: Analytics for Target implementation
 topic: Premium
 uuid: da6498c8-1549-4c36-ae42-38c731a28f08
-index: y
-internal: n
-snippet: y
 ---
 
 # Analytics for Target implementation{#analytics-for-target-implementation}

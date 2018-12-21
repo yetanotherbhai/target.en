@@ -6,9 +6,6 @@ seo-title: Target security overview
 solution: Target
 title: Target security overview
 uuid: 24296109-dcf3-4e86-96f6-8d0b7101a903
-index: y
-internal: n
-snippet: y
 ---
 
 # Target security overview{#target-security-overview}

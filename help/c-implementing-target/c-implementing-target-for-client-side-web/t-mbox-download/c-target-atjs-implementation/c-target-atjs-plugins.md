@@ -7,9 +7,6 @@ solution: Target
 title: at.js Plug-ins
 topic: Standard
 uuid: ef36b2b2-bf6d-497e-b3f5-2b572a1b8a8d
-index: y
-internal: n
-snippet: y
 ---
 
 # at.js Plug-ins{#at-js-plug-ins}

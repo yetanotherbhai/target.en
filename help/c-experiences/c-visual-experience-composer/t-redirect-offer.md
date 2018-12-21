@@ -7,9 +7,6 @@ subtopic: Multivariate Test
 title: Redirect to a URL
 topic: Standard
 uuid: e6515279-8a6e-4265-aa2d-700ee81eb143
-index: y
-internal: n
-snippet: y
 ---
 
 # Redirect to a URL{#redirect-to-a-url}

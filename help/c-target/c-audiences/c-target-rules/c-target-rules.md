@@ -6,9 +6,6 @@ seo-title: Categories for audiences
 solution: Target
 title: Categories for audiences
 uuid: 4b0f6e32-24bc-4e87-aa8e-70728889f891
-index: y
-internal: n
-snippet: y
 ---
 
 # Categories for audiences{#categories-for-audiences}

@@ -7,9 +7,6 @@ solution: Target
 title: Report settings
 topic: Premium
 uuid: c3463f0d-8f09-4be2-9c85-f933578cce50
-index: y
-internal: n
-snippet: y
 ---
 
 # Report settings{#report-settings}

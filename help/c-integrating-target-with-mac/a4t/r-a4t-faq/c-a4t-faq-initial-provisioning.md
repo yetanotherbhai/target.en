@@ -7,9 +7,6 @@ solution: Target
 title: Initial provisioning - A4T FAQ
 topic: Standard
 uuid: cc80f879-ad2a-46d6-adc2-df616e8ab0b5
-index: y
-internal: n
-snippet: y
 ---
 
 # Initial provisioning - A4T FAQ{#initial-provisioning-a-t-faq}

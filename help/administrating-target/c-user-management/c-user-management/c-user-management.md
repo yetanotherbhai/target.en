@@ -8,9 +8,6 @@ subtopic: Getting Started
 title: Users
 topic: Standard
 uuid: 9b311dd3-b8fa-483d-aedd-96761cfcd67e
-index: y
-internal: n
-snippet: y
 ---
 
 # Users{#users}

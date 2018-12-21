@@ -6,9 +6,6 @@ seo-title: Nine common A/B testing pitfalls and how to avoid them
 solution: Target
 title: Nine common A/B testing pitfalls and how to avoid them
 uuid: 63c47a7c-3378-4a0b-bfd5-c15865dad403
-index: y
-internal: n
-snippet: y
 ---
 
 # Nine common A/B testing pitfalls and how to avoid them{#nine-common-a-b-testing-pitfalls-and-how-to-avoid-them}

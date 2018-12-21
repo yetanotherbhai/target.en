@@ -7,9 +7,6 @@ solution: Target
 title: Switching Experiences in Experience Targeting
 topic: Advanced,Standard,Classic
 uuid: a4fa4cf0-509c-4c31-a778-09c5edacc9b0
-index: y
-internal: n
-snippet: y
 ---
 
 # Switching Experiences in Experience Targeting{#switching-experiences-in-experience-targeting}

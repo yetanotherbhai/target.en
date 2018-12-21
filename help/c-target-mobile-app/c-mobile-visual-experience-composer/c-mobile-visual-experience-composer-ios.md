@@ -7,9 +7,6 @@ solution: Target
 title: iOS - set up the mobile app
 topic: Standard
 uuid: 6db4f06a-d8f4-4192-af6f-917594e721e6
-index: y
-internal: n
-snippet: y
 ---
 
 # iOS - set up the mobile app{#ios-set-up-the-mobile-app}

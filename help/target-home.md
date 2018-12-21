@@ -5,9 +5,6 @@ solution: Target
 title: Adobe Target product documentation
 topic: Premium
 uuid: 8755e622-8a31-4106-ba90-b1128a0cf89c
-index: y
-internal: n
-snippet: y
 ---
 
 # [!DNL Adobe Target] product documentation{#adobe-target-product-documentation}

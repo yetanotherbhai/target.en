@@ -7,9 +7,6 @@ solution: Target
 title: Create JSON offers
 topic: Standard
 uuid: 4ae3ca34-7661-4c1d-a132-fc446e653b90
-index: y
-internal: n
-snippet: y
 ---
 
 # Create JSON offers{#create-json-offers}

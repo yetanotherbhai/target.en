@@ -7,9 +7,6 @@ solution: Target
 title: Conversion rate
 topic: Advanced,Standard,Classic
 uuid: c42d7683-2eec-4443-9545-5695a122c9de
-index: y
-internal: n
-snippet: y
 ---
 
 # Conversion rate{#conversion-rate}

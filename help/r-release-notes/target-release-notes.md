@@ -7,9 +7,6 @@ solution: Target
 title: Target release notes (prerelease)
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
-index: y
-internal: n
-snippet: y
 ---
 
 # Target release notes (prerelease){#target-release-notes-prerelease}

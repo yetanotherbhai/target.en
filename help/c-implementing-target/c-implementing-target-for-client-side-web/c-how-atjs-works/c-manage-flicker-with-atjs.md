@@ -7,9 +7,6 @@ solution: Target
 title: How at.js manages flicker
 topic: Standard
 uuid: 65f67c4a-a931-4e0d-80d9-29ab67b62573
-index: y
-internal: n
-snippet: y
 ---
 
 # How at.js manages flicker{#how-at-js-manages-flicker}

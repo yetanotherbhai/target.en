@@ -9,9 +9,6 @@ title-outputclass: premium
 topic: Premium
 uuid: ca98bfce-f571-4ac2-a94b-1127ecd7e3e6
 badge: premium
-index: y
-internal: n
-snippet: y
 ---
 
 # ![PREMIUM](/help/assets/premium.png) Preview experiences for Automated Personalization in the Visual Experience Composer{#preview-experiences-for-automated-personalization-in-the-visual-experience-composer}

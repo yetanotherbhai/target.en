@@ -7,9 +7,6 @@ solution: Target
 title: Combine multiple audiences
 topic: Advanced,Standard,Classic
 uuid: aec09341-9b54-400c-a438-60058c52ac2a
-index: y
-internal: n
-snippet: y
 ---
 
 # Combine multiple audiences{#combine-multiple-audiences}

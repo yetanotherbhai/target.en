@@ -7,9 +7,6 @@ solution: Target
 title: Create an A/B Test
 topic: Advanced,Standard,Classic
 uuid: 2a255cf9-91c7-4710-bfd7-a4d8797ef24c
-index: y
-internal: n
-snippet: y
 ---
 
 # Create an A/B Test{#create-an-a-b-test}

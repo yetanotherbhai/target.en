@@ -8,9 +8,6 @@ subtopic: Getting Started
 title: Supported browsers
 topic: Standard
 uuid: 614088da-412c-45e3-9f2d-6985391973be
-index: y
-internal: n
-snippet: y
 ---
 
 # Supported browsers{#supported-browsers}
