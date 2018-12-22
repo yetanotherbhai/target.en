@@ -5,7 +5,7 @@ seo-description: Use the Adobe System Status page to view the status of Adobe pr
 seo-title: System status updates
 solution: Target
 title: System status updates
-topic: Recommendations
+topic: Standard
 uuid: 5a627580-8e06-4e14-9fe0-1a442acc6fd8
 ---
 
