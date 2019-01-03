@@ -260,4 +260,4 @@ Set up a recommendation as usual, but choose **download only** in the presentati
 
 With this option, the recommendations server cannot directly track the performance of a recommendation or split traffic across multiple algorithm/template combinations. Also, the recommendations are not tied to a visitor profile.
 
-For more information about the download API, see [Legacy APIs > Download](https://marketing.adobe.com/resources/help/en_US/rec/r_Using_the_Recommendations_Download_API.html). 
+For more information about the download API, see [Legacy APIs > Download](assets/adobe-recommendations-classic.pdf). 
