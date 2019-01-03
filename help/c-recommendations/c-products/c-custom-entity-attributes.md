@@ -48,7 +48,7 @@ After a custom attribute is sent as a valid JSON array, the attribute is treated
 
 >[!NOTE]
 >
->To change an attribute from multi-value to single-value, you must delete your catalog and upload corrected product data. Deleting your catalog does not delete the historical data associated with your product IDs. See [Deleting All Items From the System](assets/adobe-recommendations-classic.pdf) in the *Adobe Recommendations Classic* documentation for more information.
+>To change an attribute from multi-value to single-value, you must delete your catalog and upload corrected product data. Deleting your catalog does not delete the historical data associated with your product IDs. See [Deleting All Items From the System](../../assets/adobe-recommendations-classic.pdf) in the *Adobe Recommendations Classic* documentation for more information.
 
 **Restrictions**:
 

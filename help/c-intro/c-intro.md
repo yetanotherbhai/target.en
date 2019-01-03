@@ -106,4 +106,4 @@ Target Premium includes the following premium features:
 
 [!DNL Recommendations Classic] automatically displays products or content that might interest your customers based on previous user activity on your website. Recommendations help direct customers to items they might otherwise not know about, improving sales generated on your website.
 
-For more information, see the [Recommendations Classic documentation](assets/adobe-recommendations-classic.pdf). 
+For more information, see the [Recommendations Classic documentation](../assets/adobe-recommendations-classic.pdf). 
