@@ -1022,7 +1022,7 @@ ov2/r_target-atjs-notification.xml
 
  -->
 
-Historically, `mbox.js` didn't let other JavaScript code that runs on the page know what happens behind the scenes. With the advancement of at.js, we had a unique opportunity to fix this issue.
+Historically, mbox.js didn't let other JavaScript code that runs on the page know what happens behind the scenes. With the advancement of at.js, we had a unique opportunity to fix this issue.
 
 According to our customers there are several scenarios that they would like to be notified of, including:
 

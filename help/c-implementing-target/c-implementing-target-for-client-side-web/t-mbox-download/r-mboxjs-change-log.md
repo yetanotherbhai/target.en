@@ -15,13 +15,13 @@ This page shows changes to each version of mbox.js.
 
 >[!NOTE]
 >
->We recommend that all `mbox.js` users upgrade to version 57 or later. Some users have experienced timeout issues when `target.js` couldn't be loaded. Version 57 fixed that issue. However, if you are using the [!DNL Experience Cloud Visitor ID] service, version 58 or later is required.
+>We recommend that all mbox.js users upgrade to version 57 or later. Some users have experienced timeout issues when `target.js` couldn't be loaded. Version 57 fixed that issue. However, if you are using the [!DNL Experience Cloud Visitor ID] service, version 58 or later is required.
 
 The way Target responds to calls from your page depends on the version of the Target library you are using, whether the visitor ID implementation is present, and whether the visitor ID exists. For information, see [Target Call Responses by Library Version](../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-call-responses-library-version.md#concept_A95A4758A1E7405D947E9B4BCB5D62F0).
 
 >[!NOTE]
 >
->The `mbox.js` library is no longer being developed. All customers should migrate from `mbox.js` to at.js. For more information, see [Migrate to at.js from mbox.js](../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/t-target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA).
+>The mbox.js library is no longer being developed. All customers should migrate from mbox.js to at.js. For more information, see [Migrate to at.js from mbox.js](../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/t-target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA).
 
 ## mbox.js version 63 {#section_ED8EFCF653A845ED8927F759578C4A33}
 
@@ -36,7 +36,7 @@ The following enhancements and fixes are included in [!DNL mbox.js] version 63:
 ## mbox.js version 62 {#section_723A9119FE204183847D3B0929A99B41}
 
 * Fixed flicker issues in redirect activities when viewed in Google Chrome browsers. 
-* Added `secureOnly` setting that indicates whether `mbox.js` should use HTTPS only or be allowed to switch between HTTP and HTTPS based on the page protocol. This is an advanced setting that defaults to False.
+* Added `secureOnly` setting that indicates whether mbox.js should use HTTPS only or be allowed to switch between HTTP and HTTPS based on the page protocol. This is an advanced setting that defaults to False.
 
 ## mbox.js version 61 {#section_F3B59C5578B64883AE013B9342151193}
 
@@ -53,7 +53,7 @@ mbox.js version 61 contains the following enhancements:
     * Added an `optoutEnabled` setting to support future Adobe Experience Cloud opt-out functionality. The default value is false. If this property is enabled, all requests execute asynchronously against the [!DNL /ajax] endpoint, just like version 60. 
     * Body hiding is disabled by default. Target uses body hiding only when global mbox auto-create is enabled and body hiding is enabled. 
     * If there are no Experience Cloud Visitor ID cookies, all requests execute asynchronously against [!DNL /ajax] on the first page load. On the second page load, Target uses the normal flow because Visitor ID values are already present. 
-    * If you use Adobe Analytics as your activity's reporting source, you do not need to specify a tracking server during activity creation if you are using `mbox.js` version 61 (or later) or at.js version 0.9.1 (or later). The `mbox.js` or at.js library automatically sends tracking server values to [!DNL Target]. During activity creation, you can leave the [!UICONTROL Tracking Server] field empty on the [!UICONTROL Goals & Settings] page.
+    * If you use Adobe Analytics as your activity's reporting source, you do not need to specify a tracking server during activity creation if you are using mbox.js version 61 (or later) or at.js version 0.9.1 (or later). The mbox.js or at.js library automatically sends tracking server values to [!DNL Target]. During activity creation, you can leave the [!UICONTROL Tracking Server] field empty on the [!UICONTROL Goals & Settings] page.
 
 ## mbox.js version 60 {#section_3BDAB885FA13444A8D35940A4BFF5825}
 

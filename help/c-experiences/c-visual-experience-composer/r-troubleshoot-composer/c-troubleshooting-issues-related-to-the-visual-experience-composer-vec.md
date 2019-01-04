@@ -108,9 +108,9 @@ After setting up an extension, open Target. Your pages should now load in the Vi
 
 ## When launching a URL for a VEC activity, the console displays the following error message: "Uncaught ReferenceError:_AT is not defined." (VEC only) {#section_BB5B9B629AC4452496A82943EFF72B85}
 
-This error occurs if you try to deliver Visual Experience Composer (VEC) campaigns and you have not updated `mbox.js` downloaded from the Target user interface with the [!UICONTROL Support Visual Experience Composer Activities] option enabled ( [!UICONTROL Setup] > [!UICONTROL Implementation] > [!UICONTROL mbox.js] > [!UICONTROL Edit mbox.js Settings]).
+This error occurs if you try to deliver Visual Experience Composer (VEC) campaigns and you have not updated mbox.js downloaded from the Target user interface with the [!UICONTROL Support Visual Experience Composer Activities] option enabled ( [!UICONTROL Setup] > [!UICONTROL Implementation] > [!UICONTROL mbox.js] > [!UICONTROL Edit mbox.js Settings]).
 
-Ensure that this setting is enabled, then download and update `mbox.js` on your website.
+Ensure that this setting is enabled, then download and update mbox.js on your website.
 
 ## The VEC appears broken when I use browse mode. (VEC only) {#section_FA2A18E8FD6A4274B2E395DBAA2FB407}
 

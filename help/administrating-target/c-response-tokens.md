@@ -20,7 +20,7 @@ A key difference between plug-ins and response tokens is that while plug-ins del
 
 >[!NOTE]
 >
->Response tokens are available with [!DNL at.js] 1.1 or later. Response tokens are not supported with `mbox.js`.
+>Response tokens are available with [!DNL at.js] 1.1 or later. Response tokens are not supported with mbox.js.
 
 <table id="table_320ECAEC1777428092BAE18ADF760FA1"> 
  <thead> 

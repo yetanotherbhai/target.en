@@ -43,7 +43,7 @@ By default, the Visual Experience Composer blocks JavaScript elements. You can w
 
 ## My hosted target.js file fails to load on subsequent page reloads. (VEC and EEC) {#section_87F6418C2CD142A7B4D1E7037935F81F}
 
-This issue happens when customers have an `mbox.js` version earlier than 57 (i.e. version 56 or earlier).
+This issue happens when customers have an mbox.js version earlier than 57 (i.e. version 56 or earlier).
 
 We recommend that all VEC users upgrade to the [latest version of mbox.js](../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/r-mboxjs-change-log.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A), or at least upgrade to version 57. You should also consider [making the transition to at.js](../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/c-target-atjs-implementation.md#concept_8AC8D169E02944B1A547A0CAD97EAC17).
 

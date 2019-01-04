@@ -29,9 +29,9 @@ To use your existing global mbox for both [!DNL Target Standard] and your legacy
 1. Click **[!UICONTROL Save]**.
 
    The mbox.js settings for your account are updated. 
-1. Download the new `mbox.js` file and reference it on your site.
+1. Download the new mbox.js file and reference it on your site.
 
-   After you've updated your production site with the new `mbox.js` file, you are ready to set your preferences. 
+   After you've updated your production site with the new mbox.js file, you are ready to set your preferences. 
 1. Click **[!UICONTROL Setup]** > **[!UICONTROL Preferences]**.
 1. In the [!UICONTROL Custom Global Mbox] field, specify the name of the global mbox you selected on the Implementation page.
 1. Click **[!UICONTROL Submit]**.
