@@ -19,11 +19,11 @@ Although [!DNL at.js] replaces [!DNL mbox.js], [!DNL mbox.js] will continue to b
 
 Among other benefits, [!DNL at.js] improves page-load times for web implementations, improves security, and provides better implementation options for single-page applications.
 
-The following diagram illustrates page-load performance using `mbox.js` versus at.js.
+The following diagram illustrates page-load performance using mbox.js versus at.js.
 
 ![](assets/atjs_vesus_mboxjs.png)
 
-As illustrated above, using `mbox.js`, page content does not begin to load until after the [!DNL Target] call is complete. Using at.js, page content begins loading when the [!DNL Target] call is initiated and does not wait until the call is complete.
+As illustrated above, using mbox.js, page content does not begin to load until after the [!DNL Target] call is complete. Using at.js, page content begins loading when the [!DNL Target] call is initiated and does not wait until the call is complete.
 
 ## Why does it seem like I see slower response times after upgrading from a previous version of at.js to version 1.0.0? {#section_DFBA5854FFD142B49AD87BFAA09896B0}
 
@@ -143,11 +143,11 @@ The at.js file is approximately 109 KB when downloaded. However, because most se
 
 ## Why is at.js bigger than mbox.js ? {#section_AA1C43897E46448FA3E26EEC10ED7E51}
 
-at.js implementations use a single library ( [!DNL at.js]), while `mbox.js` implementations actually use two libraries ( [!DNL mbox.js] and [!DNL target.js]). So a fairer comparison is at.js versus `mbox.js` *and* `target.js`. Comparing the gzipped sizes of the two versions, at.js version 1.2 is 34 KB and `mbox.js` version 63 is 26.2 KB. ``
+at.js implementations use a single library ( [!DNL at.js]), while mbox.js implementations actually use two libraries ( [!DNL mbox.js] and [!DNL target.js]). So a fairer comparison is at.js versus mbox.js *and* `target.js`. Comparing the gzipped sizes of the two versions, at.js version 1.2 is 34 KB and mbox.js version 63 is 26.2 KB. ``
 
-at.js is larger because it does a lot more DOM parsing compared to `mbox.js`. This is required because at.js gets "raw" data in the JSON response and has to make sense of it. `mbox.js` uses `document.write()` and all the parsing is done by the browser.
+at.js is larger because it does a lot more DOM parsing compared to mbox.js. This is required because at.js gets "raw" data in the JSON response and has to make sense of it. mbox.js uses `document.write()` and all the parsing is done by the browser.
 
-Despite the larger file size, our testing indicates that pages load faster with at.js versus `mbox.js`. Additionally, at.js is superior from a security perspective because it doesn't load additional files dynamically or use `document.write`.
+Despite the larger file size, our testing indicates that pages load faster with at.js versus mbox.js. Additionally, at.js is superior from a security perspective because it doesn't load additional files dynamically or use `document.write`.
 
 ## Does at.js have jQuery in it? Can I remove this part of at.js because I already have jQuery on my website? {#section_E4604E46E7B34460B8DD6A78D9B476F9}
 

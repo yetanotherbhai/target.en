@@ -140,7 +140,7 @@ If an mbox call is made on an unauthorized host, the call will respond with `/* 
 
 The whitelist takes precedence over environments. You should clear out all hosts before using the whitelist feature, then only the hosts allowed by the whitelist appear in your hosts list. You can then move the hosts into the desired environment.
 
-Sometimes domains from other sites appear in your environments. A domain appears in the list if the domain makes a call to your `mbox.js`. For example, if somebody copies one of your web pages to their server, that domain appears in your environment. You might also see domains from spider engines, language translator sites, or local disk drives.
+Sometimes domains from other sites appear in your environments. A domain appears in the list if the domain makes a call to your mbox.js. For example, if somebody copies one of your web pages to their server, that domain appears in your environment. You might also see domains from spider engines, language translator sites, or local disk drives.
 
 In cases where `mboxHost` is passed in an API call, conversion is recorded for the environment that is passed in. If no environment is passed, the host in the call defaults to Production.
 
