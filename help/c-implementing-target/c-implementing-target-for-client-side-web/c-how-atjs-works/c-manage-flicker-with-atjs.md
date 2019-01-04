@@ -19,7 +19,7 @@ Flicker happens when default content momentarily displays to visitors before it 
 
 If you enable the [Auto Create Global Mbox](../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/c-understanding-global-mbox.md#concept_76AC0EC995A048238F3220F53773DB13) setting when configuring at.js, at.js manages flicker by changing the opacity setting as the page loads. When at.js loads, it will change the opacity setting of the <body> element to "0", making the page initially invisible to visitors. After a response from Target is received—or if an error with the Target request is detected—at.js resets opacity to "1". This ensures that the visitor only sees the page after your activities' content has been applied.
 
-If you enable the setting when configuring `at.js`, `at.js` will set HTML BODY style opacity to 0. After a response from Target is received, `at.js` resets HTML BODY opacity to 1.
+If you enable the setting when configuring at.js, at.js will set HTML BODY style opacity to 0. After a response from Target is received, at.js resets HTML BODY opacity to 1.
 
 Opacity set to 0 keeps the page content hidden to prevent flicker, but the browser still renders the page and loads all the necessary assets like CSS, images, etc.
 
@@ -70,4 +70,4 @@ mboxCreate('some-mbox');
 
 ```
 
-If your pages are properly provisioned, `at.js` will manage flicker by appropriately switching the CSS "visibility" property of the element with the mboxDefault class. 
+If your pages are properly provisioned, at.js will manage flicker by appropriately switching the CSS "visibility" property of the element with the mboxDefault class. 

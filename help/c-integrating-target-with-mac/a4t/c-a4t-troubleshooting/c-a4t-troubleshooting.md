@@ -50,7 +50,7 @@ A4T activities require an analytics tracking server to be specified. See [Using 
 
 >[!NOTE]
 >
->If you use Adobe Analytics as your activity's reporting source, you do not need to specify a tracking server during activity creation if you are using `mbox.js` version 61 (or later) or `at.js` version 0.9.1 (or later). The `mbox.js` or `at.js` library automatically sends tracking server values to [!DNL Target]. During activity creation, you can leave the [!UICONTROL Tracking Server] field empty on the [!UICONTROL Goals & Settings] page.
+>If you use Adobe Analytics as your activity's reporting source, you do not need to specify a tracking server during activity creation if you are using `mbox.js` version 61 (or later) or at.js version 0.9.1 (or later). The `mbox.js` or at.js library automatically sends tracking server values to [!DNL Target]. During activity creation, you can leave the [!UICONTROL Tracking Server] field empty on the [!UICONTROL Goals & Settings] page.
 
 ## My Analytics segments don't appear in Target. {#section_DEE87F1557834F448E99381D3D02EEEF}
 

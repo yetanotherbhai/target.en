@@ -43,6 +43,6 @@ When you use the [!UICONTROL Visual Experience Composer] to set up an experience
 
 ## Considerations for Angular Sites and Single-Page Applications {#section_16D76F16077A434FAE8CEC6FD43BE6D7}
 
-If you are implementing Target in an Angular site or in any Single-Page Application (SPA), you should use the `at.js` library instead of `mbox.js`.
+If you are implementing Target in an Angular site or in any Single-Page Application (SPA), you should use the at.js library instead of `mbox.js`.
 
 For more information, see [at.js Implementation](../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/c-target-atjs-implementation.md#concept_8AC8D169E02944B1A547A0CAD97EAC17). 

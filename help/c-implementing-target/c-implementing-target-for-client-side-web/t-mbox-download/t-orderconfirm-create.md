@@ -19,7 +19,7 @@ The Order Confirmation mbox records details about orders on your site and allows
 
 >[!NOTE]
 >
->You can also create an Order Confirmation mbox for `at.js` using the same method; however, the [!DNL at.js] method is preferred. For more information, see [Track Conversions](../../../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#task_E85D2F64FEB84201A594F2288FABF053).
+>You can also create an Order Confirmation mbox for at.js using the same method; however, the [!DNL at.js] method is preferred. For more information, see [Track Conversions](../../../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#task_E85D2F64FEB84201A594F2288FABF053).
 
 1. In your order details page, insert the mbox script following the model below.
 1. Replace the WORDS IN CAPITAL LETTERS with either dynamic or static values from your catalog.

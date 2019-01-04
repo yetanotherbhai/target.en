@@ -19,11 +19,11 @@ Although [!DNL at.js] replaces [!DNL mbox.js], [!DNL mbox.js] will continue to b
 
 Among other benefits, [!DNL at.js] improves page-load times for web implementations, improves security, and provides better implementation options for single-page applications.
 
-The following diagram illustrates page-load performance using `mbox.js` versus `at.js`.
+The following diagram illustrates page-load performance using `mbox.js` versus at.js.
 
 ![](assets/atjs_vesus_mboxjs.png)
 
-As illustrated above, using `mbox.js`, page content does not begin to load until after the [!DNL Target] call is complete. Using `at.js`, page content begins loading when the [!DNL Target] call is initiated and does not wait until the call is complete.
+As illustrated above, using `mbox.js`, page content does not begin to load until after the [!DNL Target] call is complete. Using at.js, page content begins loading when the [!DNL Target] call is initiated and does not wait until the call is complete.
 
 ## Why does it seem like I see slower response times after upgrading from a previous version of at.js to version 1.0.0? {#section_DFBA5854FFD142B49AD87BFAA09896B0}
 
@@ -48,18 +48,18 @@ For more information, see [Understanding the Target JavaScript Libraries](../../
 
 ## Can I load the Target library asynchronously? {#section_AB9A0CA30C5440C693413F1455841470}
 
-The `at.js` 1.0.0 release makes it possible to load the Target library asynchronously.
+The at.js 1.0.0 release makes it possible to load the Target library asynchronously.
 
-To load `at.js` asynchronously:
+To load at.js asynchronously:
 
 * The recommended approach is via a tag manager such as Adobe Dynamic Tag Manager (DTM) or the new Adobe Launch. See the [Adobe Dynamic Tag Manager documentation](https://marketing.adobe.com/resources/help/en_US/dtm/) for more information. 
-* You can also load `at.js` asynchronously by adding the async attribute to the script tag that loads `at.js`. You should use something like this:
+* You can also load at.js asynchronously by adding the async attribute to the script tag that loads at.js. You should use something like this:
 
   ```
   <script src="<URL to at.js>" async></script>
   ```
 
-* You can also load `at.js` asynchronously using this code:
+* You can also load at.js asynchronously using this code:
 
   ```
   var script = document.createElement('script'); 
@@ -68,9 +68,9 @@ To load `at.js` asynchronously:
   document.head.appendChild(script);
   ```
 
-Loading `at.js` asynchronously is a great way to avoid blocking the browser from rendering; however, this technique can lead to flicker on the web page.
+Loading at.js asynchronously is a great way to avoid blocking the browser from rendering; however, this technique can lead to flicker on the web page.
 
-You can avoid flicker by using a pre-hiding snippet that will be visible after the relevant HTML elements are personalized by Target. We recommend using a tag manager such as Adobe DTM or the new Adobe Launch to add the pre-hiding snippet. The snippet must be added before loading `at.js`.
+You can avoid flicker by using a pre-hiding snippet that will be visible after the relevant HTML elements are personalized by Target. We recommend using a tag manager such as Adobe DTM or the new Adobe Launch to add the pre-hiding snippet. The snippet must be added before loading at.js.
 
 The pre-hiding code snippet is as follows:
 
@@ -139,23 +139,23 @@ Target provides several ways to prevent page-load flicker. For more information,
 
 ## What is the file size of at.js ? {#section_6A25C9A14C66441785A7635FEF5C4475}
 
-The `at.js` file is approximately 109 KB when downloaded. However, because most servers automatically compress files to make file sizes smaller, `at.js` is approximately 34 KB when compressed (using GZIP or another method) on your server and loaded as users visit your website. The compression settings on the server where you installed `at.js` determine its actual compressed size.
+The at.js file is approximately 109 KB when downloaded. However, because most servers automatically compress files to make file sizes smaller, at.js is approximately 34 KB when compressed (using GZIP or another method) on your server and loaded as users visit your website. The compression settings on the server where you installed at.js determine its actual compressed size.
 
 ## Why is at.js bigger than mbox.js ? {#section_AA1C43897E46448FA3E26EEC10ED7E51}
 
-`at.js` implementations use a single library ( [!DNL at.js]), while `mbox.js` implementations actually use two libraries ( [!DNL mbox.js] and [!DNL target.js]). So a fairer comparison is `at.js` versus `mbox.js` *and* `target.js`. Comparing the gzipped sizes of the two versions, `at.js` version 1.2 is 34 KB and `mbox.js` version 63 is 26.2 KB. ``
+at.js implementations use a single library ( [!DNL at.js]), while `mbox.js` implementations actually use two libraries ( [!DNL mbox.js] and [!DNL target.js]). So a fairer comparison is at.js versus `mbox.js` *and* `target.js`. Comparing the gzipped sizes of the two versions, at.js version 1.2 is 34 KB and `mbox.js` version 63 is 26.2 KB. ``
 
-`at.js` is larger because it does a lot more DOM parsing compared to `mbox.js`. This is required because `at.js` gets "raw" data in the JSON response and has to make sense of it. `mbox.js` uses `document.write()` and all the parsing is done by the browser.
+at.js is larger because it does a lot more DOM parsing compared to `mbox.js`. This is required because at.js gets "raw" data in the JSON response and has to make sense of it. `mbox.js` uses `document.write()` and all the parsing is done by the browser.
 
-Despite the larger file size, our testing indicates that pages load faster with `at.js` versus `mbox.js`. Additionally, `at.js` is superior from a security perspective because it doesn't load additional files dynamically or use `document.write`.
+Despite the larger file size, our testing indicates that pages load faster with at.js versus `mbox.js`. Additionally, at.js is superior from a security perspective because it doesn't load additional files dynamically or use `document.write`.
 
 ## Does at.js have jQuery in it? Can I remove this part of at.js because I already have jQuery on my website? {#section_E4604E46E7B34460B8DD6A78D9B476F9}
 
-`at.js` currently uses parts of jQuery and thus you will see the MIT license notification at the top of `at.js`. jQuery is not exposed and it doesn't interfere with the jQuery library you already have on your page, which might be a different version. Removal of the jQuery code within `at.js` is not supported.
+at.js currently uses parts of jQuery and thus you will see the MIT license notification at the top of at.js. jQuery is not exposed and it doesn't interfere with the jQuery library you already have on your page, which might be a different version. Removal of the jQuery code within at.js is not supported.
 
 ## Does at.js support Safari and cross domain set to x-only? {#section_114EC271A6E045E1B2183B66F1B71285}
 
-No, if cross domain is set to x-only and Safari has third-party cookies disabled, then both [!DNL mbox.js] and `at.js` will set a disabled cookie and no mbox requests will be executed for that particular client's domain.
+No, if cross domain is set to x-only and Safari has third-party cookies disabled, then both [!DNL mbox.js] and at.js will set a disabled cookie and no mbox requests will be executed for that particular client's domain.
 
 To support Safari visitors, a better X-Domain would be “disabled” (sets only a first-party cookie) or “enabled” (sets only a first-party cookie on Safari, while setting first- and third-party cookies on other browsers).
 
@@ -199,7 +199,7 @@ Yes, if you are using [at.js version 1.2 or later](../../../c-implementing-targe
 >
 >The following examples are not necessary if you are using at.js version 1.2 or later.
 
-Depending on how you use ` [targetGlobalSettings](../../../c-implementing-target/c-implementing-target-for-client-side-web/cmp-at.js-functions.md#concept_8DACBC47ABDE4279BB102B42609FE506)`, you might need to make additional modifications to the code after downloading `at.js`. For example, if you needed slightly different settings for your [!DNL Target] implementations on various websites and were unable to define these settings dynamically using custom JavaScript, make these customizations manually after downloading the file and before uploading to the respective website.
+Depending on how you use ` [targetGlobalSettings](../../../c-implementing-target/c-implementing-target-for-client-side-web/cmp-at.js-functions.md#concept_8DACBC47ABDE4279BB102B42609FE506)`, you might need to make additional modifications to the code after downloading at.js. For example, if you needed slightly different settings for your [!DNL Target] implementations on various websites and were unable to define these settings dynamically using custom JavaScript, make these customizations manually after downloading the file and before uploading to the respective website.
 
 The following examples let you use the `targetGlobalSettings()` at.js function to insert a code snippet to support IP addresses:
 
@@ -247,19 +247,19 @@ To ensure that Target can properly track users, and because the cookies are gene
 
 ## How often does at.js fire a network request? {#section_57C5235DF7694AF093A845D73EABADFD}
 
-Adobe Target executes all of its decisioning on the server side. This means that `at.js` fires a network request every time the page reloads or an `at.js` public API is invoked.
+Adobe Target executes all of its decisioning on the server side. This means that at.js fires a network request every time the page reloads or an at.js public API is invoked.
 
 ## In the best case scenario, can we expect that the user doesn't experience any visible effects on page load relating to hiding, replacing, and showing content? {#section_CB3C566AD61F417FAC0EC5AC706723EB}
 
-`at.js` tries to avoid pre-hiding HTML BODY or other DOM elements for an extended period of time, but this depends on network conditions and activity setup. `at.js` provides [settings](../../../c-implementing-target/c-implementing-target-for-client-side-web/cmp-at.js-functions.md#concept_8DACBC47ABDE4279BB102B42609FE506) you can use to customize the BODY hiding CSS style, such that instead of blanking the entire HTML BODY, you can pre-hide only some parts of the page. The expectation is that those parts contain DOM elements that have to be "personalized."
+at.js tries to avoid pre-hiding HTML BODY or other DOM elements for an extended period of time, but this depends on network conditions and activity setup. at.js provides [settings](../../../c-implementing-target/c-implementing-target-for-client-side-web/cmp-at.js-functions.md#concept_8DACBC47ABDE4279BB102B42609FE506) you can use to customize the BODY hiding CSS style, such that instead of blanking the entire HTML BODY, you can pre-hide only some parts of the page. The expectation is that those parts contain DOM elements that have to be "personalized."
 
 ## What is the sequence of events in an average scenario where a user qualifies for an activity? {#section_56E6F448E901403FB77DF02F44C44452}
 
-The `at.js` request is an async `XMLHttpRequest`, so we execute the following steps:
+The at.js request is an async `XMLHttpRequest`, so we execute the following steps:
 
 1. The page loads. 
-1. `at.js` pre-hides the HTML BODY. There is a setting to pre-hide a particular container instead of the HTML BODY. 
-1. The `at.js` request fires. 
+1. at.js pre-hides the HTML BODY. There is a setting to pre-hide a particular container instead of the HTML BODY. 
+1. The at.js request fires. 
 1. After the Target response is received, Target extracts the CSS selectors. 
 1. Using CSS selectors, Target creates STYLE tags to pre-hide the DOM elements that will be customized. 
 1. The HTML BODY pre-hiding STYLE is removed. 
@@ -269,9 +269,9 @@ The `at.js` request is an async `XMLHttpRequest`, so we execute the following st
 
 ## How often is the page's content fully loaded and visible when at.js finally un-hides the element the activity is changing? {#section_01AFF476EFD046298A2E17FE3ED85075}
 
-Considering the above scenario, how often is the page's content fully loaded and visible when `at.js` finally un-hides the element the activity is changing? In other words, the page is fully visible except for the activity's content, which is then revealed slightly after the rest of the content.
+Considering the above scenario, how often is the page's content fully loaded and visible when at.js finally un-hides the element the activity is changing? In other words, the page is fully visible except for the activity's content, which is then revealed slightly after the rest of the content.
 
-`at.js` doesn't block the page from rendering. A user might notice some blank regions on the page that represent elements that will be customized by Target. If the content to be applied doesn't contain many remote assets, such as SCRIPTs or IMGs, everything should render quickly.
+at.js doesn't block the page from rendering. A user might notice some blank regions on the page that represent elements that will be customized by Target. If the content to be applied doesn't contain many remote assets, such as SCRIPTs or IMGs, everything should render quickly.
 
 ## How would a fully cached page affect the above scenario? Would it be more likely for the activity's content to become visible noticeably after the rest of the page's content loads? {#section_CE76335A3E0B41CB8253DEE5E060FCDA}
 
@@ -281,8 +281,8 @@ If a page is cached on a CDN that is close to user's location, but not near the 
 
 Considering the following scenario:
 
-The Target timeout is five seconds. A user loads a page that has an activity to customize a hero image. `at.js` sends the request to determine if there is an activity to apply, but there is no initial response. Assume the user sees the regular content of the hero image, because no response was received from Target regarding whether there is an associated activity. After four seconds, Target does return a response with the activity contents.
+The Target timeout is five seconds. A user loads a page that has an activity to customize a hero image. at.js sends the request to determine if there is an activity to apply, but there is no initial response. Assume the user sees the regular content of the hero image, because no response was received from Target regarding whether there is an associated activity. After four seconds, Target does return a response with the activity contents.
 
 At this stage, would it be possible for the alternative version to be shown? So after four seconds, the hero image could be swapped out and the user could notice this image swap?
 
-Initially, the image hero DOM element is hidden. After a response from Target is received, `at.js` applies the DOM changes, such as replacing the IMG and displaying the customized hero image. 
+Initially, the image hero DOM element is hidden. After a response from Target is received, at.js applies the DOM changes, such as replacing the IMG and displaying the customized hero image. 
