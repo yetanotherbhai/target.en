@@ -52,7 +52,7 @@ To solve this, Target collects additional data to accurately detect iPhones and 
 
 >[!NOTE]
 >
->Customers using the Mobile SDK do not need to do anything to leverage this functionality. Customers using `at.js` must [upgrade to `at.js` version 1.5.0](../../../c-implementing-target/c-implementing-target-for-client-side-web/r-target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A) (or later).
+>Customers using the Mobile SDK do not need to do anything to leverage this functionality. Customers using at.js must [upgrade to at.js version 1.5.0](../../../c-implementing-target/c-implementing-target-for-client-side-web/r-target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A) (or later).
 
 You can choose more than one mobile device property. Multiple selections are joined with an OR.
 

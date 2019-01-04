@@ -199,7 +199,7 @@ The following enhancements and fixes are included in [!DNL at.js] version 0.9.6:
 * Console logging has been added for unsupported `<!DOCTYPE>` declarations. 
 * Fixed an issue where [!DNL Target Classic] plugins weren’t being applied correctly when multiple default offers were delivered to a single mbox. (TGT-22664) For more information, see [Plug-Ins](https://marketing.adobe.com/resources/help/en_US/tnt/help/t_Using_Plug-Ins.html) in the Adobe Target Classic documentation. 
 * Improved cookie-setting for two letter top-level-domains (TLDs) to ensure that the mbox cookie is set correctly for these domains (for example, [!DNL test.no], [!DNL autodrives.ca], and so forth). 
-* The algorithm for extracting the top-level domain that should be used when saving cookies has changed in `at.js` version 0.9.6. Because of this change, cookies cannot be saved to addresses that use IP. Most of the time, IP addresses are used for testing purposes, but as workarounds you can use DNS entries or adjust the hosts file on a local box. 
+* The algorithm for extracting the top-level domain that should be used when saving cookies has changed in at.js version 0.9.6. Because of this change, cookies cannot be saved to addresses that use IP. Most of the time, IP addresses are used for testing purposes, but as workarounds you can use DNS entries or adjust the hosts file on a local box. 
 * Fixed move and rearrange actions handling when properties are string values instead of integers.
 
 ## at.js Version 0.9.4 {#section_A15B12F12CD94F07B3F56613A79A815F}
@@ -210,14 +210,14 @@ The following enhancements and fixes are included in [!DNL at.js] version 0.9.6:
 
   For a list of allowable special characters, see [at.js Configurations](../../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_2FA0456607D04F82B0539C5BF5309812). 
 
-* Added `secureOnly` setting that indicates whether `at.js` should use HTTPS only or be allowed to switch between HTTP and HTTPS based on the page protocol. This is an advanced setting that defaults to False and can be overridden via `targetGlobalSettings`. 
-* The [!UICONTROL Legacy Browser Support] option is available in `at.js` version 0.9.3 and earlier. This option was removed in `at.js` version 0.9.4.
+* Added `secureOnly` setting that indicates whether at.js should use HTTPS only or be allowed to switch between HTTP and HTTPS based on the page protocol. This is an advanced setting that defaults to False and can be overridden via `targetGlobalSettings`. 
+* The [!UICONTROL Legacy Browser Support] option is available in at.js version 0.9.3 and earlier. This option was removed in at.js version 0.9.4.
 
 ## at.js Version 0.9.3 {#section_DF13BC1D7C994AE7A36B81937A699DF4}
 
 **Date:** October 10, 2016
 
-* Ensures mbox calls fire in Microsoft Internet Explorer 11 when legacy browsers are disabled in the `at.js` settings. 
+* Ensures mbox calls fire in Microsoft Internet Explorer 11 when legacy browsers are disabled in the at.js settings. 
 * Ensures that default content is rendered if a dynamic remote offer fails (for example, if the URL is incorrect and returns a 404 error). 
 * Ensures that elements are revealed quickly when VEC click-tracking selectors can't be found in the DOM.
 
@@ -226,16 +226,16 @@ The following enhancements and fixes are included in [!DNL at.js] version 0.9.6:
 **Date:** September 21, 2016
 
 * Added an `optoutEnabled` setting to enable or disable the Device Graph opt-out. If this setting is set to `true` and the visitor has opted out of tracking, the visitor's browser will not make any mbox calls. Device Graph is currently in Beta. This setting is set to `false` by default, but must be set to `true` if you are using Device Graph. A similar option is part of `mbox.js` v61. 
-* Added `CustomEvent` support for the notification mechanism. Previously, the `at.js` event notification mechanism could not be used via standard DOM APIs, such as `document.addEventListener()`. Now you can use `document.addEventListener()` to subscribe to `at.js` events, such as request events and content rendering events. 
-* Fixed an issue related to offers created in the Visual Experience Composer (VEC). Prior to this release, Target hid the selectors and un-hid them only when all selectors matched. In `at.js` 0.9.2 Target un-hides the selectors as soon as they are matched.
+* Added `CustomEvent` support for the notification mechanism. Previously, the at.js event notification mechanism could not be used via standard DOM APIs, such as `document.addEventListener()`. Now you can use `document.addEventListener()` to subscribe to at.js events, such as request events and content rendering events. 
+* Fixed an issue related to offers created in the Visual Experience Composer (VEC). Prior to this release, Target hid the selectors and un-hid them only when all selectors matched. In at.js 0.9.2 Target un-hides the selectors as soon as they are matched.
 
 ## at.js Version 0.9.1 {#section_DAFB99114D604CFB8416C1BC7DEEAEEE}
 
 **Date:** July 14, 2016
 
-* Provides `at.js` a timeout for the Visitor Id Service, which is independent of the service’s own timeout. 
-* Corrects an issue in 0.9.0 that impacted implementations using `at.js` on some pages and `mbox.js` on other pages. 
-* If you use Adobe Analytics as your activity's reporting source, you do not need to specify a tracking server during activity creation if you are using `mbox.js` version 61 (or later) or `at.js` version 0.9.1 (or later). The `mbox.js` or `at.js` library automatically sends tracking server values to [!DNL Target]. During activity creation, you can leave the [!UICONTROL Tracking Server] field empty on the [!UICONTROL Goals & Settings] page.
+* Provides at.js a timeout for the Visitor Id Service, which is independent of the service’s own timeout. 
+* Corrects an issue in 0.9.0 that impacted implementations using at.js on some pages and `mbox.js` on other pages. 
+* If you use Adobe Analytics as your activity's reporting source, you do not need to specify a tracking server during activity creation if you are using `mbox.js` version 61 (or later) or at.js version 0.9.1 (or later). The `mbox.js` or at.js library automatically sends tracking server values to [!DNL Target]. During activity creation, you can leave the [!UICONTROL Tracking Server] field empty on the [!UICONTROL Goals & Settings] page.
 
 ## at.js Version 0.9.0 {#section_2981CC9792F245389B39BB5B69F84C4E}
 
@@ -259,7 +259,7 @@ The following enhancements and fixes are included in [!DNL at.js] version 0.9.6:
 
 * New `targetGlobalSettings()` API method.
 
-  You can override settings in the `at.js` library, rather than configuring the settings in the [!DNL Target Standard/Premium UI]or by using REST APIs.
+  You can override settings in the at.js library, rather than configuring the settings in the [!DNL Target Standard/Premium UI]or by using REST APIs.
 
 ## at.js Version 0.8.0 {#section_E1C7B08EC0494388A022C28A8B8FE807}
 

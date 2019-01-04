@@ -24,7 +24,7 @@ Information about implementing Adobe Target without using a tag manager (Adobe L
 
 ## at.js Configurations {#concept_2FA0456607D04F82B0539C5BF5309812}
 
-Information to help you set several settings on the `at.js` Settings page.
+Information to help you set several settings on the at.js Settings page.
 
 <!-- 
 
@@ -38,7 +38,7 @@ ov2/c_target-atjs-advanced-settings.xml
 
 >[!NOTE]
 >
->You can override settings in the `at.js` library, rather than configuring the settings in the Target Standard/Premium UI or by using REST APIs. For more information, see [targetGlobalSettings()](../../../c-implementing-target/c-implementing-target-for-client-side-web/cmp-at.js-functions.md#concept_8DACBC47ABDE4279BB102B42609FE506).
+>You can override settings in the at.js library, rather than configuring the settings in the Target Standard/Premium UI or by using REST APIs. For more information, see [targetGlobalSettings()](../../../c-implementing-target/c-implementing-target-for-client-side-web/cmp-at.js-functions.md#concept_8DACBC47ABDE4279BB102B42609FE506).
 
 To open the [!UICONTROL Settings] page:
 

@@ -14,7 +14,7 @@ Implement Target by referencing the Target libraries (at.js or mbox.js) on your 
 
 >[!NOTE]
 >
->The `mbox.js` library is no longer being developed. All customers should migrate from `mbox.js` to `at.js`. For more information, see [Migrate to at.js from mbox.js](../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/t-target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA).
+>The `mbox.js` library is no longer being developed. All customers should migrate from `mbox.js` to at.js. For more information, see [Migrate to at.js from mbox.js](../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/t-target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA).
 
 ## Differences Between the Two Libraries {#section_40117C78C2F84FECAC4F1BA40CC4F171}
 

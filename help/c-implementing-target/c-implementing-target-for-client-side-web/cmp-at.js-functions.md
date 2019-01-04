@@ -473,7 +473,7 @@ Executes the request and applies the offer to the element identified by the `nod
 
 ## targetGlobalSettings() {#concept_8DACBC47ABDE4279BB102B42609FE506}
 
-You can override settings in the `at.js` library using `targetGlobalSettings()`, rather than configuring the settings in the [!DNL Target] Standard/Premium UI or by using REST APIs.
+You can override settings in the at.js library using `targetGlobalSettings()`, rather than configuring the settings in the [!DNL Target] Standard/Premium UI or by using REST APIs.
 
 <!-- 
 
@@ -481,7 +481,7 @@ ov2/c_atjs-settings-override.xml
 
  -->
 
-There are use cases, especially when `at.js` is delivered via [!DNL Dynamic Tag Management] (DTM) when you would like to override some of the settings.
+There are use cases, especially when at.js is delivered via [!DNL Dynamic Tag Management] (DTM) when you would like to override some of the settings.
 
 ## Settings {#section_42C759AE9B524A43B8659018677224B8}
 
@@ -621,7 +621,7 @@ You can override the following settings:
 
 ## Usage {#section_9AD6FA3690364F7480C872CB55567FB0}
 
-This function can be defined before `at.js` is loaded or in **[!UICONTROL Setup]** > **[!UICONTROL Implementation]** > **[!UICONTROL Edit at.js Settings]** > **[!UICONTROL Code Settings]** > **[!UICONTROL Library Header]**.
+This function can be defined before at.js is loaded or in **[!UICONTROL Setup]** > **[!UICONTROL Implementation]** > **[!UICONTROL Edit at.js Settings]** > **[!UICONTROL Code Settings]** > **[!UICONTROL Library Header]**.
 
 The Library Header field allows you to enter free-form JavaScript. The customization code should look something similar to the following example:
 
@@ -720,7 +720,7 @@ window.targetGlobalSettings = {
 };
 ```
 
-After `at.js` processes `window.targetGlobalSettings.dataProviders`, the Target request will contain a new parameter: `t1=1`.
+After at.js processes `window.targetGlobalSettings.dataProviders`, the Target request will contain a new parameter: `t1=1`.
 
 The following is an example if the parameters that you want to add to the Target request are fetched from a third-party service, such as Bluekai, Demandbase, and so forth:
 
@@ -743,7 +743,7 @@ window.targetGlobalSettings = {
 };
 ```
 
-After `at.js` processes `window.targetGlobalSettings.dataProviders`, the Target request will contain additional parameters: `t1=1`, `t2=2` and `t3=3`.
+After at.js processes `window.targetGlobalSettings.dataProviders`, the Target request will contain additional parameters: `t1=1`, `t2=2` and `t3=3`.
 
 The following example uses data providers to collect weather API data and send it as parameters in a Target request. The Target request will have additional params, such as `country` and `weatherCondition`.
 
@@ -791,7 +791,7 @@ var weatherProvider = {
 Consider the following when working with the `dataProviders` setting:
 
 * If the data providers added to `window.targetGlobalSettings.dataProviders` are async, they will be executed in parallel. The Visitor API request will be executed in parallel with functions added to `window.targetGlobalSettings.dataProviders` to allow a minimum wait time. 
-* `at.js` won't try to cache the data. If the data provider fetches data only once, the data provider should make sure that data is cached and, when the provider function is invoked, serve the cache data for the second invocation.
+* at.js won't try to cache the data. If the data provider fetches data only once, the data provider should make sure that data is cached and, when the provider function is invoked, serve the cache data for the second invocation.
 
 ## targetPageParams() {#reference_B235C9F6DA79449ABE3E23F914FEABAE}
 
@@ -803,7 +803,7 @@ ov2/r_target-atjs-targetpageparams.xml
 
  -->
 
-This function is very useful for including the same set of parameters on multiple mbox calls. The function needs to be defined by the customer. It should return an array of parameters that will be passed only to the global mbox request. This function can be defined before `at.js` is loaded or in **[!UICONTROL Setup]** > **[!UICONTROL Implementation]** > **[!UICONTROL Edit at.js Settings]** > **[!UICONTROL Code Settings]** > **[!UICONTROL Library Header]**.
+This function is very useful for including the same set of parameters on multiple mbox calls. The function needs to be defined by the customer. It should return an array of parameters that will be passed only to the global mbox request. This function can be defined before at.js is loaded or in **[!UICONTROL Setup]** > **[!UICONTROL Implementation]** > **[!UICONTROL Edit at.js Settings]** > **[!UICONTROL Code Settings]** > **[!UICONTROL Library Header]**.
 
 You can pass in parameters to target-global-mbox using the `targetPageParams()` function in any of the following ways:
 
@@ -856,7 +856,7 @@ ov2/r_target-atjs-targetpageparamsall.xml
 
  -->
 
-This is very useful for including the same set of parameters on multiple mbox calls. The function needs to be defined by the customer. It should return an array of parameters that will be passed to all mbox requests on the page. This function can be defined before `at.js` is loaded or in **[!UICONTROL Setup]** > **[!UICONTROL Implementation]** > **[!UICONTROL Edit at.js Settings]** > **[!UICONTROL Code Settings]** > **[!UICONTROL Library Header]**.
+This is very useful for including the same set of parameters on multiple mbox calls. The function needs to be defined by the customer. It should return an array of parameters that will be passed to all mbox requests on the page. This function can be defined before at.js is loaded or in **[!UICONTROL Setup]** > **[!UICONTROL Implementation]** > **[!UICONTROL Edit at.js Settings]** > **[!UICONTROL Code Settings]** > **[!UICONTROL Library Header]**.
 
 You can pass in parameters to target-global-mbox using the targetPageParamsAll() function in any of the following ways:
 
@@ -1022,7 +1022,7 @@ ov2/r_target-atjs-notification.xml
 
  -->
 
-Historically, `mbox.js` didn't let other JavaScript code that runs on the page know what happens behind the scenes. With the advancement of `at.js`, we had a unique opportunity to fix this issue.
+Historically, `mbox.js` didn't let other JavaScript code that runs on the page know what happens behind the scenes. With the advancement of at.js, we had a unique opportunity to fix this issue.
 
 According to our customers there are several scenarios that they would like to be notified of, including:
 

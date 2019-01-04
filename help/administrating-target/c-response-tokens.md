@@ -195,7 +195,7 @@ Response tokens can be activated or deactivated only by users with the Target Ad
 
 **What will happen if I am running at.js 1.0 or below?**
 
-You will see the response tokens, but `at.js` won't be able to use them.
+You will see the response tokens, but at.js won't be able to use them.
 
 **What will happen if I'm using at.js 1.1 (or later) on some pages on my site but mbox.js on other pages?**
 
