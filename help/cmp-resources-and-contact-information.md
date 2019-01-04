@@ -307,7 +307,7 @@ We welcome any suggestions or feedback regarding this solution. Enhancement idea
 
 ## Legal {#section_A6E1844D4AC2485CADBF6D05116E3D59}
 
-* © 2018 Adobe Systems Incorporated. All Rights Reserved.
+* © 2019 Adobe Systems Incorporated. All Rights Reserved.
 * Published by Adobe Systems Incorporated.
 
 [Terms of Use](https://www.adobe.com/go/marketingcloud_terms_of_use) | [Privacy Center](https://www.adobe.com/privacy.html)
