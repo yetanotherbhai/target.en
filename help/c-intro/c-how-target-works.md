@@ -72,7 +72,7 @@ The content that displays to visitors depends on the type of activity you create
    <td colname="col2"> <p>Multivariate Testing (MVT) compares combinations of offers in elements on a page to determine which combination performs the best for a specific audience, and identifies which element most impacts the activity's success. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><a href="../c-recommendations/c-recommendations.md#concept_7556C8A4543942F2A77B13A29339C0C0" format="dita" scope="local"> Recommendations</a> </p> </td> 
+   <td colname="col1"> <p><a href="../c-recommendations/recommendations.md#concept_7556C8A4543942F2A77B13A29339C0C0" format="dita" scope="local"> Recommendations</a> </p> </td> 
    <td colname="col2"> <p>Recommendations activities automatically display products or content that might interest your customers based on previous user activity or other algorithms. Recommendations help direct customers to relevant items they might otherwise not know about. </p> </td> 
   </tr> 
  </tbody> 

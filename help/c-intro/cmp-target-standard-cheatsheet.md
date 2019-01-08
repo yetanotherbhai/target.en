@@ -91,7 +91,7 @@ A list of frequently asked questions about using the features in Adobe Target, a
   </tr> 
   <tr> 
    <td colname="col1"> <p>How can I know which type of activity best fits my needs? </p> </td> 
-   <td colname="col2"> <p>Read the <a href="../c-activities/target-activities-guide.md#concept_D974B0918EB74B3B8CB07ACD32BF37A1" format="dita" scope="local"> Target Activities Guide</a> to understand the scenarios where each of the options provided by Adobe Target makes sense. </p> <p>Be sure to also consider <a href="../c-recommendations/c-recommendations.md#concept_7556C8A4543942F2A77B13A29339C0C0" format="dita" scope="local"> Recommendations activities</a>. </p> </td> 
+   <td colname="col2"> <p>Read the <a href="../c-activities/target-activities-guide.md#concept_D974B0918EB74B3B8CB07ACD32BF37A1" format="dita" scope="local"> Target Activities Guide</a> to understand the scenarios where each of the options provided by Adobe Target makes sense. </p> <p>Be sure to also consider <a href="../c-recommendations/recommendations.md#concept_7556C8A4543942F2A77B13A29339C0C0" format="dita" scope="local"> Recommendations activities</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>How can I discover which combinations of elements on my page contribute to its success and to what degree each element helps? </p> </td> 
@@ -275,7 +275,7 @@ A list of frequently asked questions about using the features in Adobe Target, a
   </tr> 
   <tr> 
    <td colname="col1"> <p>Why am I not seeing the desired offer/experience and am instead seeing some other activity? </p> </td> 
-   <td colname="col2"> <p> Use our <a href="../c-activities/c-troubleshooting-activities/c-content-trouble.md#concept_D2548B486C984B1E97ED7A72075B8EEA" format="dita" scope="local"> debugger</a> and check for<a href="../c-experiences/c-visual-experience-composer/c-activity-collisions.md#concept_0BC6B929592744DFA7DA01FF4F91052E" format="dita" scope="local"> activity collisions</a>. </p> </td> 
+   <td colname="col2"> <p> Use our <a href="../c-activities/c-troubleshooting-activities/content-trouble.md#concept_D2548B486C984B1E97ED7A72075B8EEA" format="dita" scope="local"> debugger</a> and check for<a href="../c-experiences/c-visual-experience-composer/c-activity-collisions.md#concept_0BC6B929592744DFA7DA01FF4F91052E" format="dita" scope="local"> activity collisions</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -300,7 +300,7 @@ A list of frequently asked questions about using the features in Adobe Target, a
   </tr> 
   <tr> 
    <td colname="col1"> <p>Why am I not seeing the desired offer/experience and am instead seeing some other activity? </p> </td> 
-   <td colname="col2"> <p> Use our <a href="../c-activities/c-troubleshooting-activities/c-content-trouble.md#concept_D2548B486C984B1E97ED7A72075B8EEA" format="dita" scope="local"> debugger</a> and check for<a href="../c-experiences/c-visual-experience-composer/c-activity-collisions.md#concept_0BC6B929592744DFA7DA01FF4F91052E" format="dita" scope="local"> activity collisions</a>. </p> </td> 
+   <td colname="col2"> <p> Use our <a href="../c-activities/c-troubleshooting-activities/content-trouble.md#concept_D2548B486C984B1E97ED7A72075B8EEA" format="dita" scope="local"> debugger</a> and check for<a href="../c-experiences/c-visual-experience-composer/c-activity-collisions.md#concept_0BC6B929592744DFA7DA01FF4F91052E" format="dita" scope="local"> activity collisions</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Can I use Target's decisioning power to receive an experience/offer that can be used in Single Page Applications (SPAs) or server-side integrations? </p> </td> 

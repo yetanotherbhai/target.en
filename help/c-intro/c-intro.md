@@ -87,7 +87,7 @@ Target Premium includes the following premium features:
    <td colname="col2"> <p>Auto-Target uses advanced machine learning to identify multiple high-performing marketer-defined experiences, and serves the most tailored experience to each visitor based on their individual customer profile and the behavior of previous visitors with similar profiles, in order to personalize content and drive conversions. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><a href="../c-recommendations/c-recommendations.md#concept_7556C8A4543942F2A77B13A29339C0C0" format="dita" scope="local"> Recommendations</a> </p> </td> 
+   <td colname="col1"> <p><a href="../c-recommendations/recommendations.md#concept_7556C8A4543942F2A77B13A29339C0C0" format="dita" scope="local"> Recommendations</a> </p> </td> 
    <td colname="col2"> <p>Recommendations activities automatically display products or content that might interest your customers based on previous user activity. Recommendations help direct customers to relevant items they might otherwise not know about. </p> <p>A recommendation determines how a product is suggested to a customer, depending on that customer's activities on the site. For example: </p> <p> 
      <ul id="ul_FC58B6F3654141B6B5354C204A0FF74D"> 
       <li id="li_6CDECE730A8F4C70AA5401170C8BD7BA"> <p>Encourage people who purchase a backpack to consider buying hiking shoes and trekking poles. </p> <p>Create a recommendation that shows items that are often purchased together, using the "People who bought this also bought that" criteria. </p> </li> 

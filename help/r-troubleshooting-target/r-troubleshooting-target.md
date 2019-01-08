@@ -68,7 +68,7 @@ In addition to the topics listed below, the following video demonstrates tools f
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Content</b> </p> </td> 
-   <td colname="col2"> <p><a href="../c-intro/cmp-target-standard-cheatsheet.md#topic_68D10E3826D34BD6886A64BF56718B06" format="dita" scope="local"> Target Standard Optimization and Personalization FAQ</a> </p> <p><a href="../c-activities/c-troubleshooting-activities/c-content-trouble.md#concept_D2548B486C984B1E97ED7A72075B8EEA" format="dita" scope="local"> Troubleshooting Content Delivery</a> </p> </td> 
+   <td colname="col2"> <p><a href="../c-intro/cmp-target-standard-cheatsheet.md#topic_68D10E3826D34BD6886A64BF56718B06" format="dita" scope="local"> Target Standard Optimization and Personalization FAQ</a> </p> <p><a href="../c-activities/c-troubleshooting-activities/content-trouble.md#concept_D2548B486C984B1E97ED7A72075B8EEA" format="dita" scope="local"> Troubleshooting Content Delivery</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Reports </b> </p> </td> 
