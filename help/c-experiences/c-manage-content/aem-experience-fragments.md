@@ -116,7 +116,7 @@ You can consume Experience Fragments in Target activities using the Visual Exper
 
 **To consume Experience Fragments using the VEC:**
 
-1. In Target, while creating or editing an experience in the [Visual Experience Composer](../../c-experiences/c-experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D), click the location on the page where you want to insert AEM content, then select **[!UICONTROL Swap with Experience Fragment]** to display the [!UICONTROL Choose an Experience Fragment] list.
+1. In Target, while creating or editing an experience in the [Visual Experience Composer](../../c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D), click the location on the page where you want to insert AEM content, then select **[!UICONTROL Swap with Experience Fragment]** to display the [!UICONTROL Choose an Experience Fragment] list.
 
    >[!NOTE]
    >

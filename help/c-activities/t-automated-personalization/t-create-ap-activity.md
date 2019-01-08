@@ -27,7 +27,7 @@ The Automated Personalization activity workflow varies from the workflow of the 
 
    If you prefer to use the Form-Based Experience Composer, select **[!UICONTROL Form]**.
 
-   For more information about both composers, see [Experiences](../../c-experiences/c-experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D). 
+   For more information about both composers, see [Experiences](../../c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D). 
 1. Verify or enter the activity URL, then click **[!UICONTROL Next]**.
 
    >[!NOTE]
@@ -88,7 +88,7 @@ The Automated Personalization activity workflow varies from the workflow of the 
    </tbody> 
    </table>
 
-1. Modify page elements as explained in [Experiences](../../c-experiences/c-experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D), then click **[!UICONTROL Next]**.
+1. Modify page elements as explained in [Experiences](../../c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D), then click **[!UICONTROL Next]**.
 
    You can select multiple images at once from the asset manager. This enables you to quickly view the page with each of the images configured for the activity. You can also easily edit text elements in your offers. When you edit an element, bars appear on that element to indicate you have changed it.
 

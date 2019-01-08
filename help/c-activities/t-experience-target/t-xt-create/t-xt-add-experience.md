@@ -13,7 +13,7 @@ uuid: ce559c3c-5a16-46b8-b2a7-df696626c7c0
 
 The Experience Composer provides a visual interface for editing the experiences on your page.
 
- For additional detail about experiences, see [Experiences](../../../c-experiences/c-experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D). 
+ For additional detail about experiences, see [Experiences](../../../c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D). 
 
 1. Click **[!UICONTROL Add Experience]**.
 
@@ -23,7 +23,7 @@ The Experience Composer provides a visual interface for editing the experiences 
 
 1. When prompted, enter the activity URL. Type the complete URL (including `https://`), then click **[!UICONTROL Continue]**.
 
-   The Experience Composer (see [Experiences](../../../c-experiences/c-experiences.md#concept_1D011219034B492BB03C08B3BB80E3F0)) opens the page that is specified in your Account Preferences. To display a different page, click the Globe icon and enter the URL in the Select URL box in the Experience Composer and click **[!UICONTROL Continue]**. If you entered a URL for a site that does not include the Target Standard JavaScript code, you cannot select page elements.
+   The Experience Composer (see [Experiences](../../../c-experiences/experiences.md#concept_1D011219034B492BB03C08B3BB80E3F0)) opens the page that is specified in your Account Preferences. To display a different page, click the Globe icon and enter the URL in the Select URL box in the Experience Composer and click **[!UICONTROL Continue]**. If you entered a URL for a site that does not include the Target Standard JavaScript code, you cannot select page elements.
 
    By default, the Visual Experience Composer does not allow changes to elements containing JavaScript, such as rotating banners. You can select to disable JavaScript if you want to be able to alter those elements using the Visual Experience Composer.
 
