@@ -70,11 +70,11 @@ Tests and tracks visits to ads and other offsite content. You can also use behav
 
 Tests different experiences to determine which will be most successful.
 
-** campaign change log**
+**campaign change log**
 
 A record of who changed your campaigns and when the changes occurred.
 
-**capture score **
+**capture score**
 
 An engagement metric that calculates an aggregated score based on the value assigned to pages visited on the site, from the point the visitor first sees the campaign's first display mbox.
 
@@ -82,7 +82,7 @@ An engagement metric that calculates an aggregated score based on the value assi
 
 The entire set of products or content that are eligible to be recommended.
 
-** category affinity**
+**category affinity**
 
 Automatically captures the categories a user visits and calculates the user's affinity for the category so it can be targeted and segmented on. This helps to ensure that content is targeted to visitors who are most likely to act on that information.
 
@@ -242,7 +242,7 @@ Passed in the page, not the URL. Rendered uniquely for each visitor, they are us
 
 Tracks the performance of a conversion, success metric, or segment over time, independently of tests or campaigns run to affect it.
 
-**multivariate test **
+**multivariate test**
 
 Multivariate Testing (MVT) compares combinations of offers in elements on a page to determine which combination performs the best for a specific audience, and identifies which element most impacts the activity's success
 
