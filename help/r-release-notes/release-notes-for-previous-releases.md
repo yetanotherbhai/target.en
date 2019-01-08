@@ -19,7 +19,7 @@ Release notes for previous Target releases, including release notes for Target S
 
 >[!NOTE]
 >
->See [Target release notes (current)](../r-release-notes/r-release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) for information about the current month's Target releases (platform and Target Standard/Premium).
+>See [Target release notes (current)](../r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) for information about the current month's Target releases (platform and Target Standard/Premium).
 
 ## Release notes - 2018 {#reference_36ACC83E135A41F28104C44755C26D5B}
 

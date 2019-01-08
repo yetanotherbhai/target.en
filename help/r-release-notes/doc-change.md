@@ -132,7 +132,7 @@ This page lists important changes made to the Target documentation.
   </tr> 
   <tr> 
    <td colname="col1"> November 15, 2018 </td> 
-   <td colname="col2"> <p> <a href="../r-release-notes/r-release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A" format="dita" scope="local"> Target release notes (current) </a> </p> <p> <a href="../r-release-notes/target-release-notes.md#reference_4A966062C61048D1A81412E2DDB16E34" format="dita" scope="local"> Target release notes (prerelease) </a> </p> <p> <a href="../c-implementing-target/c-implementing-target-for-client-side-web/r-target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A" format="dita" scope="local"> at.js version details </a> </p> </td> 
+   <td colname="col2"> <p> <a href="../r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A" format="dita" scope="local"> Target release notes (current) </a> </p> <p> <a href="../r-release-notes/target-release-notes.md#reference_4A966062C61048D1A81412E2DDB16E34" format="dita" scope="local"> Target release notes (prerelease) </a> </p> <p> <a href="../c-implementing-target/c-implementing-target-for-client-side-web/r-target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A" format="dita" scope="local"> at.js version details </a> </p> </td> 
    <td colname="col3"> <p>Added information about at.js version 1.6.3. </p> </td> 
   </tr> 
   <tr> 
@@ -143,7 +143,7 @@ This page lists important changes made to the Target documentation.
   <!-- <row> <entry colname="col2"> <p><xref href="c_priority.xml#concept_1780C11FEA57440499F0047DD6900E0F" format="dita" scope="local">Priority</xref> </p> </entry> <entry colname="col3"> <p>Edited topic to reflect the new priority model for activities that use the Form-Based Experience Composer with only a global mbox. </p> </entry> </row> --> 
   <tr> 
    <td colname="col1"> November 14, 2018 </td> 
-   <td colname="col2"> <p>Release 18.11.1 <a href="../r-release-notes/r-release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A" format="dita" scope="local"> Target release notes (current) </a> </p> </td> 
+   <td colname="col2"> <p>Release 18.11.1 <a href="../r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A" format="dita" scope="local"> Target release notes (current) </a> </p> </td> 
    <td colname="col3"> <p>This release includes enhancements and fixes. You can read about them and link to the documentation from the Release Notes. This release also includes many documentation updates throughout the help. </p> </td> 
   </tr> 
  </tbody> 
@@ -247,7 +247,7 @@ This page lists important changes made to the Target documentation.
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
-   <td colname="col2"> <p>Release 18.10.1 <a href="../r-release-notes/r-release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A" format="dita" scope="local"> Release Notes </a> </p> </td> 
+   <td colname="col2"> <p>Release 18.10.1 <a href="../r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A" format="dita" scope="local"> Release Notes </a> </p> </td> 
    <td colname="col3"> <p>This release includes enhancements and fixes. You can read about them and link to the documentation from the Release Notes. This release also includes many documentation updates throughout the help. </p> </td> 
   </tr> 
  </tbody> 
@@ -421,7 +421,7 @@ This page lists important changes made to the Target documentation.
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
-   <td colname="col2"> <p>Release 18.9.1 <a href="../r-release-notes/r-release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A" format="dita" scope="local"> Release Notes </a> </p> </td> 
+   <td colname="col2"> <p>Release 18.9.1 <a href="../r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A" format="dita" scope="local"> Release Notes </a> </p> </td> 
    <td colname="col3"> <p>This release includes enhancements and fixes. You can read about them and link to the documentation from the Release Notes. This release also includes many documentation updates throughout the help. </p> </td> 
   </tr> 
  </tbody> 
@@ -445,7 +445,7 @@ This page lists important changes made to the Target documentation.
   </tr> 
   <tr> 
    <td colname="col1"> September 20, 2018 </td> 
-   <td colname="col2"> <p> <a href="../r-release-notes/r-release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A" format="dita" scope="local"> Target Release Notes </a> </p> <p> <a href="../c-implementing-target/c-implementing-target-for-client-side-web/r-target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A" format="dita" scope="local"> at.js Version Details </a> </p> </td> 
+   <td colname="col2"> <p> <a href="../r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A" format="dita" scope="local"> Target Release Notes </a> </p> <p> <a href="../c-implementing-target/c-implementing-target-for-client-side-web/r-target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A" format="dita" scope="local"> at.js Version Details </a> </p> </td> 
    <td colname="col3"> <p>Added information about the at.js 1.6.1 release. </p> </td> 
   </tr> 
   <tr> 
@@ -490,7 +490,7 @@ This page lists important changes made to the Target documentation.
   </tr> 
   <tr> 
    <td colname="col1"> September 10, 2018 </td> 
-   <td colname="col2"> <p> <a href="../r-release-notes/r-release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A" format="dita" scope="local"> Target Release Notes </a> </p> <p> <a href="../c-implementing-target/c-considerations-before-you-implement-target/c-tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451" format="dita" scope="local"> TLS (Transport Layer Security) Encryption Changes </a> </p> </td> 
+   <td colname="col2"> <p> <a href="../r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A" format="dita" scope="local"> Target Release Notes </a> </p> <p> <a href="../c-implementing-target/c-considerations-before-you-implement-target/c-tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451" format="dita" scope="local"> TLS (Transport Layer Security) Encryption Changes </a> </p> </td> 
    <td colname="col3"> <p>Changed the date when Adobe will phase out support for TLS 1.0 from September 12, 2018 to February 2019. </p> </td> 
   </tr> 
   <tr> 
@@ -587,7 +587,7 @@ This page lists important changes made to the Target documentation.
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
-   <td colname="col2"> <p>Release 18.8.1 <a href="../r-release-notes/r-release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A" format="dita" scope="local"> Release Notes </a> </p> </td> 
+   <td colname="col2"> <p>Release 18.8.1 <a href="../r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A" format="dita" scope="local"> Release Notes </a> </p> </td> 
    <td colname="col3"> <p>This release includes enhancements and fixes. You can read about them and link to the documentation from the Release Notes. This release also includes many documentation updates throughout the help. </p> </td> 
   </tr> 
  </tbody> 

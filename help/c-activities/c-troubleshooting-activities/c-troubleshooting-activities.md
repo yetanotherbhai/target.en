@@ -15,7 +15,7 @@ If your activity does not appear on your site, these troubleshooting suggestions
 
 >[!NOTE]
 >
->In addition to the following troubleshooting information, see [Troubleshooting Target](../../r-troubleshooting-target/r-troubleshooting-target.md#reference_A9DB82675D044BD8861F6752A4EE6839) for links to additional troubleshooting topics, FAQs, and other useful information about troubleshooting activities and other features in [!DNL Adobe Target].
+>In addition to the following troubleshooting information, see [Troubleshooting Target](../../r-troubleshooting-target/troubleshooting-target.md#reference_A9DB82675D044BD8861F6752A4EE6839) for links to additional troubleshooting topics, FAQs, and other useful information about troubleshooting activities and other features in [!DNL Adobe Target].
 
 <table id="table_E64C8310F6C24FBFAFC91BA89EA1F335"> 
  <thead> 

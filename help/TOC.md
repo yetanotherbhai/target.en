@@ -9,11 +9,11 @@ index: n
 
 + [Adobe Target product documentation](target-home.md)
 + Target release notes {#release-notes}
-   + [Current release notes](r-release-notes/r-release-notes.md)
+   + [Current release notes](r-release-notes/release-notes.md)
    + [Target release notes (prerelease)](r-release-notes/target-release-notes.md)
    + [Known issues and resolved issues](r-release-notes/known-issues-resolved-issues.md)
    + [System status updates](r-release-notes/system-status-updates.md)
-   + [Documentation changes](r-release-notes/r-doc-change.md)
+   + [Documentation changes](r-release-notes/doc-change.md)
    + [Release notes for previous releases](r-release-notes/release-notes-for-previous-releases.md)
 + Introduction {#introduction}
    + [Introduction to Target](c-intro/c-intro.md)
@@ -349,6 +349,6 @@ index: n
       + [Use Adobe Launch to set up the Mobile App VEC](c-target-mobile-app/c-mobile-visual-experience-composer/c-use-adobe-launch-to-set-up-the-mobile-app-vec.md)
       + [Set up click tracking in the Mobile VEC](c-target-mobile-app/c-mobile-visual-experience-composer/c-set-up-click-tracking-in-the-mobile-vec.md)
 + Troubleshoot Target {#troubleshoot}
-   + [Troubleshoot Target](r-troubleshooting-target/r-troubleshooting-target.md)
-   + [Limits](r-troubleshooting-target/r-target-limits.md)
+   + [Troubleshoot Target](r-troubleshooting-target/troubleshooting-target.md)
+   + [Limits](r-troubleshooting-target/target-limits.md)
 + [Resources and Contact Information](cmp-resources-and-contact-information.md)
