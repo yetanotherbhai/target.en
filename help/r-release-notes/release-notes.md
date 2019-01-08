@@ -93,7 +93,7 @@ In addition to the notes for each release, the following resources provide addit
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <a href="../r-release-notes/r-doc-change.md#reference_366123CF00994BACBBF9BBDF2C4D840C" format="dita" scope="local"> Documentation Changes</a> </p> </td> 
+   <td colname="col1"> <p> <a href="../r-release-notes/doc-change.md#reference_366123CF00994BACBBF9BBDF2C4D840C" format="dita" scope="local"> Documentation Changes</a> </p> </td> 
    <td colname="col2"> <p>View detailed information about updates to this guide that might not be included in these release notes. </p> </td> 
   </tr> 
   <tr> 

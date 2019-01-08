@@ -33,7 +33,7 @@ A list of frequently asked questions about using the features in Adobe Target, a
   </tr> 
   <tr> 
    <td colname="col1"> <p>Where can I learn about the latest Target features? </p> </td> 
-   <td colname="col2"> <p>See our <a href="../r-release-notes/r-release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A" format="dita" scope="local"> Release Notes</a> to check out the details on the latest release. Information about all of our <a href="../r-release-notes/release-notes-for-previous-releases.md#topic_607D0324907E472EA3682033A27B5F07" format="dita" scope="local"> past releases</a> is also available online. </p> </td> 
+   <td colname="col2"> <p>See our <a href="../r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A" format="dita" scope="local"> Release Notes</a> to check out the details on the latest release. Information about all of our <a href="../r-release-notes/release-notes-for-previous-releases.md#topic_607D0324907E472EA3682033A27B5F07" format="dita" scope="local"> past releases</a> is also available online. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Does Adobe have a Community/Forum where I can find answers and more information about Target? </p> </td> 
@@ -388,7 +388,7 @@ A list of frequently asked questions about using the features in Adobe Target, a
   </tr> 
   <tr> 
    <td colname="col1"> <p>Do you have a troubleshooting guide? </p> </td> 
-   <td colname="col2"> <p>We are sorry to hear that you are having problems. Check out <a href="../r-troubleshooting-target/r-troubleshooting-target.md#reference_A9DB82675D044BD8861F6752A4EE6839" format="dita" scope="local"> Troubleshooting Target</a> for links to many troubleshooting topics. </p> </td> 
+   <td colname="col2"> <p>We are sorry to hear that you are having problems. Check out <a href="../r-troubleshooting-target/troubleshooting-target.md#reference_A9DB82675D044BD8861F6752A4EE6839" format="dita" scope="local"> Troubleshooting Target</a> for links to many troubleshooting topics. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -405,7 +405,7 @@ A list of frequently asked questions about using the features in Adobe Target, a
  <tbody> 
   <tr> 
    <td colname="col1"> <p> We have a mobile SKU. Can I create mobile activities? </p> </td> 
-   <td colname="col2"> <p> For optimization and personalization on mobile, you need to use <a href="../c-experiences/t-form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E" format="dita" scope="local"> form-based activities</a> along with the <a href="../c-target-mobile-app/t-mobile-enable-target-in-sdk.md#task_FCA99AD0785A44E995468776AE76FE91" format="dita" scope="local"> Adobe SDK</a>. Check out more details about <a href="../c-target-mobile-app/c-target-mobile-app.md#concept_80126FF457724DE788CE37264A047559" format="dita" scope="local"> Target for mobile apps</a>. </p> </td> 
+   <td colname="col2"> <p> For optimization and personalization on mobile, you need to use <a href="../c-experiences/t-form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E" format="dita" scope="local"> form-based activities</a> along with the <a href="../c-target-mobile-app/mobile-enable-target-in-sdk.md#task_FCA99AD0785A44E995468776AE76FE91" format="dita" scope="local"> Adobe SDK</a>. Check out more details about <a href="../c-target-mobile-app/c-target-mobile-app.md#concept_80126FF457724DE788CE37264A047559" format="dita" scope="local"> Target for mobile apps</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

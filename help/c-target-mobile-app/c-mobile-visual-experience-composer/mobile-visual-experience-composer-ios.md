@@ -19,7 +19,7 @@ Target's new SDK Library allows developers to do a one-time setup on their iOS m
 
 The Mobile VEC can now be used along with the recently released Adobe Experience Cloud SDK. To do this, customers must use the Adobe Launch integration, the recommended method for using SDKs. For more information, see [Adobe Experience Platform SDKs](https://aep-sdks.gitbook.io/docs).
 
-To set up the Target VEC extension from Launch, see [Use Adobe Launch to set up the Mobile App VEC...](../../c-target-mobile-app/c-mobile-visual-experience-composer/c-use-adobe-launch-to-set-up-the-mobile-app-vec.md#concept_630A05151EF1487193BAE670B59F8CAC).
+To set up the Target VEC extension from Launch, see [Use Adobe Launch to set up the Mobile App VEC...](../../c-target-mobile-app/c-mobile-visual-experience-composer/use-adobe-launch-to-set-up-the-mobile-app-vec.md#concept_630A05151EF1487193BAE670B59F8CAC).
 
 ## Include the Mobile SDK & the Target Library {#section_FD969A63C4F74603B2F31B82881422A4}
 

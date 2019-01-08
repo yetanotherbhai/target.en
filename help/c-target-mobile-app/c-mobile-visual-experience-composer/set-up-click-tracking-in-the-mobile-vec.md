@@ -50,6 +50,6 @@ There are several things to consider when selecting elements:
 * If you select more than one element, if an entrant clicks any one of the chosen elements, the click is counted. To count each item separately, set up individual success metrics for each element. 
 * Click events are sent to Target as soon as the user clicks the element. 
 * While selecting elements, only those elements that have the click handler attached are allowed to be selected. Other elements won't be available for selection. 
-* You can browse to any section of the app, but make sure that [views](../../c-target-mobile-app/c-mobile-visual-experience-composer/c-mobile-visual-experience-composer.md#section_9B3941F6EE854F87917611D2A8AF8868) are defined for the section where you are selecting elements for click tracking. 
+* You can browse to any section of the app, but make sure that [views](../../c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md#section_9B3941F6EE854F87917611D2A8AF8868) are defined for the section where you are selecting elements for click tracking. 
 * While editing an activity, if the device is already selected in Step1, you don't need to select the device again. However, if you land directly on the click track page, you will be shown the device selection screen to select an authorized device.
 

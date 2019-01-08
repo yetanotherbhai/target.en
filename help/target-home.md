@@ -11,7 +11,7 @@ uuid: 8755e622-8a31-4106-ba90-b1128a0cf89c
 
  [!DNL Adobe Target] is the [!DNL Adobe Experience Cloud] solution that provides everything you need to tailor and personalize your customers' experience so you can maximize revenue on your web and mobile sites, apps, social media, and other digital channels.
 
-**Last Updated: January 4, 2019 ( [See What Changed](r-release-notes/r-doc-change.md) )**
+**Last Updated: January 4, 2019 ( [See What Changed](r-release-notes/doc-change.md) )**
 
 The following sections point you to useful links in this guide, arraigned by intended audience based on typical job functions:
 
@@ -19,10 +19,10 @@ The following sections point you to useful links in this guide, arraigned by int
 
 Marketers, developers, administrators, analysts, and quality assurance engineers.
 
-- [Target release notes](r-release-notes/r-release-notes.md): Contains information about the current release, information about known issues that affect [!DNL Target], a list important changes to this documentation, and an archive of past release notes.
+- [Target release notes](r-release-notes/release-notes.md): Contains information about the current release, information about known issues that affect [!DNL Target], a list important changes to this documentation, and an archive of past release notes.
 - [Introduction to Target](c-intro/c-intro.md): Explains the core concepts of the [!DNL Target] solution.
 - [Integrate Target with the Adobe Experience Cloud](c-integrating-target-with-mac/c-integrating-target-with-mac.md): Explains how to integrate [!DNL Target] with other [!DNL Experience Cloud] solutions, including [!DNL Analytics] for [!DNL Target] (A4T), [!DNL Experience Cloud Audiences], [!DNL Adobe Campaign], and the [!DNL Experience Cloud Device Co-op].
-- [Troubleshooting Target](r-troubleshooting-target/r-troubleshooting-target.md): Provides links to troubleshooting information contained in this guide, including information about the character limits and other limits (offer size, audiences, profiles, values, parameters, etc.) that affect activities and other elements in [!DNL Target].
+- [Troubleshooting Target](r-troubleshooting-target/troubleshooting-target.md): Provides links to troubleshooting information contained in this guide, including information about the character limits and other limits (offer size, audiences, profiles, values, parameters, etc.) that affect activities and other elements in [!DNL Target].
 - [Target for mobile apps](c-target-mobile-app/c-target-mobile-app.md): Explains how [!DNL Target] can be used for mobile app optimization and personalization.
 - [Resources and contact information](cmp-resources-and-contact-information.md): Provides information about additional resources to help you learn about [!DNL Target] features and how to contact [!DNL Adobe] should you need help.
 
