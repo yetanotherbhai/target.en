@@ -74,7 +74,7 @@ There are several types of activities:
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> <p>
-   <p> <a href="../c-recommendations/c-recommendations.md#concept_7556C8A4543942F2A77B13A29339C0C0" format="dita" scope="local"> Recommendations (Target Premium)</a> </p> </td> 
+   <p> <a href="../c-recommendations/recommendations.md#concept_7556C8A4543942F2A77B13A29339C0C0" format="dita" scope="local"> Recommendations (Target Premium)</a> </p> </td> 
    <td colname="col2"> <p>A recommendation determines how a product is suggested to a website user, depending on that user's activities on the site. </p> <p>For example, you might want to encourage people who purchase a backpack to consider buying hiking shoes and trekking poles. You could create a recommendation that shows items that are often purchased together, using the "People who bought this also bought that" algorithm. Or, you might want to encourage visitors to spend more time on your media site by recommending similar video to the one they are watching, using the "People who viewed this viewed that" algorithm. </p> </td> 
   </tr> 
  </tbody> 

@@ -203,7 +203,7 @@ index: n
    + [Activity Change Log](c-activities/t-change-log.md)
    + Troubleshoot activities {#troubleshoot-activities}
       + [Troubleshoot activities overview](c-activities/c-troubleshooting-activities/c-troubleshooting-activities.md)
-      + [Troubleshoot content delivery](c-activities/c-troubleshooting-activities/c-content-trouble.md)
+      + [Troubleshoot content delivery](c-activities/c-troubleshooting-activities/content-trouble.md)
    + Activity QA {#activity-qa}
       + [Activity QA overview](c-activities/c-activity-qa/c-activity-qa.md)
       + [Activity QA bookmarklet](c-activities/c-activity-qa/c-activity-qa-bookmark.md)
@@ -301,7 +301,7 @@ index: n
    + [Downloading data in a CSV file](c-reports/c-downloading-data-in-csv-file.md)
    + [Reporting FAQ](c-reports/c-reporting-frequently-asked-questions.md)
 + Recommendations {#recommendations}   
-   + [Recommendations overview](c-recommendations/c-recommendations.md)
+   + [Recommendations overview](c-recommendations/recommendations.md)
    + [Plan and implement Recommendations](c-recommendations/c-plan-implement.md)
    + Entities {#entities} 
       + [Entities overview](c-recommendations/c-products/c-products.md)

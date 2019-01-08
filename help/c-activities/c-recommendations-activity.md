@@ -12,5 +12,5 @@ Recommendations activities automatically display products or content that might 
 
 >[!NOTE]
 >
->The Recommendations documentation as been relocated to its own section. See [Recommendations](../c-recommendations/c-recommendations.md#concept_7556C8A4543942F2A77B13A29339C0C0).
+>The Recommendations documentation as been relocated to its own section. See [Recommendations](../c-recommendations/recommendations.md#concept_7556C8A4543942F2A77B13A29339C0C0).
 
