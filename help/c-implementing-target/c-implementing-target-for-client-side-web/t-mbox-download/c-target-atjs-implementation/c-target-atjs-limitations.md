@@ -32,7 +32,7 @@ Some functions within [!DNL mbox.js] are not available in [!DNL at.js]. Internal
 
 Because all mboxes are now asynchronous, they won't block page rendering or return in the order in which they fired.
 
-* If you are using a global mbox in the [Form-Based Experience Composer](../../../../c-experiences/c-experiences.md#section_3643394BD424463C8768F2907DEBCC22), be aware that HTML offers should contain only `<script>`, `<style>`, and `<link>` tags.
+* If you are using a global mbox in the [Form-Based Experience Composer](../../../../c-experiences/experiences.md#section_3643394BD424463C8768F2907DEBCC22), be aware that HTML offers should contain only `<script>`, `<style>`, and `<link>` tags.
 
   During delivery, [!DNL at.js] filters out all the other HTML tags when applying global mbox offers. Global mbox offers are applied to HTML HEAD, which doesn't allow DIV, SPAN, and so forth. For example `<div>test</div>` cannot be applied because the `<div>` tag can be used only inside HTML BODY. 
 

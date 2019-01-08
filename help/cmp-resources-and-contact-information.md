@@ -113,7 +113,7 @@ Current recorded Target sessions include:
       <li id="li_0D6C087EA751405C91028871A46B72F8"> <p>How the VEC works </p> </li> 
       <li id="li_B5BF1A9E1897473B93A6B962D0743790"> <p>How to avoid common issues with the VEC </p> </li> 
       <li id="li_7E254C2E78EE4D658E9F01156B2FB16B"> <p>Work-around practices you can use with the VEC </p> </li> 
-     </ul> </p> <p>For more information in this guide, see <a href="c-experiences/c-experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D" format="dita" scope="local"> Experiences</a>. </p> </td> 
+     </ul> </p> <p>For more information in this guide, see <a href="c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D" format="dita" scope="local"> Experiences</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><a href="https://helpx.adobe.com/customer-care-office-hours/target/analytics-target-A4T-integration.html" format="html" scope="external"> Adobe Target: Analytics/Target Integration (A4T)</a> </p> <p>40:33 </p> <p>January 2018 </p> </td> 

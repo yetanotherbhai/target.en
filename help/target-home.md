@@ -30,7 +30,7 @@ Marketers, developers, administrators, analysts, and quality assurance engineers
 
 - [Activities](c-activities/c-activities.md): Explains how to set up, manage, and QA [!DNL Target] activities.
 - [Audiences](c-target/c-target.md): Explains how to determine who will see content and experiences in targeted activities.
-- [Experiences and offers](c-experiences/c-experiences.md): Explains how to specify which content displays when a visitor meets the audience criteria for an activity.
+- [Experiences and offers](c-experiences/experiences.md): Explains how to specify which content displays when a visitor meets the audience criteria for an activity.
 - [Recommendations](c-recommendations/c-recommendations.md):Explains how [!DNL Recommendations] activities automatically display products or content that might interest your customers based on previous user activity or other algorithms.
 
 ## Developers

@@ -17,7 +17,7 @@ Information about changes to how Adobe and Target use TLS (Transport Layer Secur
 
 ## Visual Experience Composer (VEC) with Enhanced Experience Composer (EEC) Enabled {#section_B374B62DEC3344C194AC7BECC2EE0AA0}
 
-Until now, Adobe Target's [Enhanced Experience Composer](../../c-experiences/c-experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) (EEC) used TLS 1.0 by default. Starting with the Target 18.4.1 release (April 25, 2018), Target is moving to TLS 1.2 by default.
+Until now, Adobe Target's [Enhanced Experience Composer](../../c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) (EEC) used TLS 1.0 by default. Starting with the Target 18.4.1 release (April 25, 2018), Target is moving to TLS 1.2 by default.
 
 Adobe will be moving customers in a phased manner to TLS 1.2. For those, whose domains are already 1.2 compliant, we will move them to TLS 1.2 without any changes needed from you. Most customer domains already support TLS 1.2; however, if your domain does not support TLS 1.2, we will keep those domains on TLS 1.0 like today (until February 2019).
 

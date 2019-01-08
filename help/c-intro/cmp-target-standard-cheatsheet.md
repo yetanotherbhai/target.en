@@ -215,11 +215,11 @@ A list of frequently asked questions about using the features in Adobe Target, a
   </tr> 
   <tr> 
    <td colname="col1"> <p>Can I try the Visual Experience Composer (VEC) on my site even though the Target at.js library has yet not been deployed? </p> </td> 
-   <td colname="col2"> <p>Try loading the page with the <a href="../c-experiences/c-experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D" format="dita" scope="local"> Enhanced Experience Composer</a>. </p> </td> 
+   <td colname="col2"> <p>Try loading the page with the <a href="../c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D" format="dita" scope="local"> Enhanced Experience Composer</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Why is my site not loading within the Visual Experience Composer (VEC)? </p> </td> 
-   <td colname="col2"> <p>Try out the<a href="../c-experiences/c-visual-experience-composer/r-troubleshoot-composer/r-troubleshoot-composer.md#reference_77743144F10143A3A89D56E116D296E4" format="dita" scope="local"> troubleshooting information</a> outlined in our help page. Reach out to <a href="../cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C" format="dita" scope="local"> Adobe Support</a> if none of these approaches work. </p> <p>We also have <a href="../c-experiences/t-form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E" format="dita" scope="local"> form-based approach</a> which can unblock you. </p> <p>Also read when and why the <a href="../c-experiences/c-experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D" format="dita" scope="local"> Enhanced Experience Composer</a> can be useful. You might have to reach out to your IT department to <a href="../c-experiences/c-visual-experience-composer/c-experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6" format="dita" scope="local"> whitelist Adobe's proxy servers</a> as well. </p> </td> 
+   <td colname="col2"> <p>Try out the<a href="../c-experiences/c-visual-experience-composer/r-troubleshoot-composer/r-troubleshoot-composer.md#reference_77743144F10143A3A89D56E116D296E4" format="dita" scope="local"> troubleshooting information</a> outlined in our help page. Reach out to <a href="../cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C" format="dita" scope="local"> Adobe Support</a> if none of these approaches work. </p> <p>We also have <a href="../c-experiences/t-form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E" format="dita" scope="local"> form-based approach</a> which can unblock you. </p> <p>Also read when and why the <a href="../c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D" format="dita" scope="local"> Enhanced Experience Composer</a> can be useful. You might have to reach out to your IT department to <a href="../c-experiences/c-visual-experience-composer/c-experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6" format="dita" scope="local"> whitelist Adobe's proxy servers</a> as well. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>I have a responsive site. While creating an activity, how can I be sure that I am considering key devices? </p> </td> 
@@ -227,7 +227,7 @@ A list of frequently asked questions about using the features in Adobe Target, a
   </tr> 
   <tr> 
    <td colname="col1"> <p>I have multiple domains. One of the domains needs the Enhanced Experience Composer enabled, while others need it to be disabled. How can I do this? </p> </td> 
-   <td colname="col2"> <p>You can always use <a href="../c-experiences/c-experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D" format="dita" scope="local"> Enhanced Experience Composer option at the activity level</a> to override the default setting (<span class="uicontrol"> Setup</span> &gt; <span class="uicontrol"> Preferences</span>). </p> </td> 
+   <td colname="col2"> <p>You can always use <a href="../c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D" format="dita" scope="local"> Enhanced Experience Composer option at the activity level</a> to override the default setting (<span class="uicontrol"> Setup</span> &gt; <span class="uicontrol"> Preferences</span>). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Why don't I see an option to swap images? </p> </td> 
