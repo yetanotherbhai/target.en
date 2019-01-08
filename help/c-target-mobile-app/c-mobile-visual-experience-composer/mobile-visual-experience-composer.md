@@ -63,8 +63,8 @@ Developers must do the following to use the Mobile VEC:
 
 For more information and step-by-step instructions, see:
 
-* [Android - Setting Up the Mobile App](../../c-target-mobile-app/c-mobile-visual-experience-composer/c-mobile-visual-experience-composer-android.md#concept_3DD4DC02DCFD45CF91AFC13FFC3BB634) 
-* [iOS - Setting Up the Mobile App](../../c-target-mobile-app/c-mobile-visual-experience-composer/c-mobile-visual-experience-composer-ios.md#concept_A7B6F56076B049B497262B971A793D4A)
+* [Android - Setting Up the Mobile App](../../c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-android.md#concept_3DD4DC02DCFD45CF91AFC13FFC3BB634) 
+* [iOS - Setting Up the Mobile App](../../c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-ios.md#concept_A7B6F56076B049B497262B971A793D4A)
 
 ## General Guidelines for Target API Calls {#section_C7276795F02540DCA230AEEDF882A833}
 

@@ -405,7 +405,7 @@ A list of frequently asked questions about using the features in Adobe Target, a
  <tbody> 
   <tr> 
    <td colname="col1"> <p> We have a mobile SKU. Can I create mobile activities? </p> </td> 
-   <td colname="col2"> <p> For optimization and personalization on mobile, you need to use <a href="../c-experiences/t-form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E" format="dita" scope="local"> form-based activities</a> along with the <a href="../c-target-mobile-app/t-mobile-enable-target-in-sdk.md#task_FCA99AD0785A44E995468776AE76FE91" format="dita" scope="local"> Adobe SDK</a>. Check out more details about <a href="../c-target-mobile-app/c-target-mobile-app.md#concept_80126FF457724DE788CE37264A047559" format="dita" scope="local"> Target for mobile apps</a>. </p> </td> 
+   <td colname="col2"> <p> For optimization and personalization on mobile, you need to use <a href="../c-experiences/t-form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E" format="dita" scope="local"> form-based activities</a> along with the <a href="../c-target-mobile-app/mobile-enable-target-in-sdk.md#task_FCA99AD0785A44E995468776AE76FE91" format="dita" scope="local"> Adobe SDK</a>. Check out more details about <a href="../c-target-mobile-app/c-target-mobile-app.md#concept_80126FF457724DE788CE37264A047559" format="dita" scope="local"> Target for mobile apps</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

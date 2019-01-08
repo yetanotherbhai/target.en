@@ -19,7 +19,7 @@ Target's new SDK Library allows developers to do a one-time setup on their Andro
 
 The Mobile VEC can now be used along with the recently released [!DNL Adobe Experience Cloud SDK]. To do this, customers must use the [!DNL Adobe Launch] integration, the recommended method for using SDKs. For more information, see [Adobe Experience Platform SDKs](https://aep-sdks.gitbook.io/docs).
 
-To set up the Target VEC extension from Launch, see [Use Adobe Launch to set up the Mobile App VEC...](../../c-target-mobile-app/c-mobile-visual-experience-composer/c-use-adobe-launch-to-set-up-the-mobile-app-vec.md#concept_630A05151EF1487193BAE670B59F8CAC).
+To set up the Target VEC extension from Launch, see [Use Adobe Launch to set up the Mobile App VEC...](../../c-target-mobile-app/c-mobile-visual-experience-composer/use-adobe-launch-to-set-up-the-mobile-app-vec.md#concept_630A05151EF1487193BAE670B59F8CAC).
 
 ## Include the Mobile SDK & the Target Library {#section_481F9644C71B4CB7AE3FC526D281D1D2}
 
@@ -206,7 +206,7 @@ To set up this application for use in the Mobile VEC:
 
 1. In Android Studio, open the project with the [!DNL build.gradle] file in the package subdirectory [!DNL MovieGuide]. 
 1. Follow to directions on [https://github.com/AshishKayastha/Movie-Guide](https://github.com/AshishKayastha/Movie-Guide) to get your API key and enable access to its movie database. Modify the [!DNL local.properties] files as per the instructions. 
-1. In the `BaseApplication::OnCreate` method, add `TargetVEC.registerExtension()` after following [Launch integration steps](../../c-target-mobile-app/c-mobile-visual-experience-composer/c-use-adobe-launch-to-set-up-the-mobile-app-vec.md#concept_630A05151EF1487193BAE670B59F8CAC). 
+1. In the `BaseApplication::OnCreate` method, add `TargetVEC.registerExtension()` after following [Launch integration steps](../../c-target-mobile-app/c-mobile-visual-experience-composer/use-adobe-launch-to-set-up-the-mobile-app-vec.md#concept_630A05151EF1487193BAE670B59F8CAC). 
 1. Build and run the application. 
 1. To enter the Mobile VEC authoring mode, use the [!DNL sdkbeta://com.adobe.sdkbeta] as its URL scheme, and open the generated deep link on the device (see directions below).
 
