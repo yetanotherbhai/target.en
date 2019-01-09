@@ -200,13 +200,13 @@ index: n
       + [Success metrics](c-activities/r-success-metrics/success-metrics.md)
       + [Click tracking](c-activities/r-success-metrics/click-tracking.md)
       + [Capture Score](c-activities/r-success-metrics/capture-score.md)
-   + [Activity Change Log](c-activities/t-change-log.md)
+   + [Activity Change Log](c-activities/change-log.md)
    + Troubleshoot activities {#troubleshoot-activities}
-      + [Troubleshoot activities overview](c-activities/c-troubleshooting-activities/troubleshooting-activities.md)
+      + [Troubleshoot activities overview](c-activities/c-troubleshooting-activities/c-troubleshooting-activities.md)
       + [Troubleshoot content delivery](c-activities/c-troubleshooting-activities/content-trouble.md)
    + Activity QA {#activity-qa}
       + [Activity QA overview](c-activities/c-activity-qa/activity-qa.md)
-      + [Activity QA bookmarklet](c-activities/c-activity-qa/activity-qa-bookmark.md)
+      + [Activity QA bookmarklet](c-activities/c-activity-qa/c-activity-qa-bookmark.md)
       + [Use Activity QA with server-side delivery](c-activities/c-activity-qa/use-qa-mode-with-server-side-delivery.md)
    + [Activity notifications](c-activities/notifications.md)
 + Audiences {#audiences}
@@ -257,7 +257,7 @@ index: n
          + [Experience Templates](c-experiences/c-visual-experience-composer/c-vec-code-editor/c-experience-templates.md)
       + [Element Selectors Used in the Visual Experience Composer](c-experiences/c-visual-experience-composer/c-vec-selectors.md)
       + [Mobile Viewports for Responsive Experiences](c-experiences/c-visual-experience-composer/c-mobile-viewports.md)
-      + [Visual Experience Composer Best Practices and Limitations](c-experiences/c-visual-experience-composer/c-experience-composebest-practices.md)
+      + [Visual Experience Composer Best Practices and Limitations](c-experiences/c-visual-experience-composer/c-experience-composer-best-practices.md)
       + Troubleshooting the Visual Experience Composer {#troubleshoot-composer}
          + [Troubleshooting the Visual Experience Composer overview](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/r-troubleshoot-composer.md)
          + [Visual Experience Composer and Enhanced Experience Composer](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/c-issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md)

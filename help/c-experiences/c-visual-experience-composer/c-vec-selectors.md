@@ -23,7 +23,7 @@ You can set whether to use element classed or element IDs in your account prefer
 >
 >Element Classes are available as selectors in A/B Test, Automated Personalization, and Multivariate Test activities.
 
-For information about when to use CSS selectors and when to use unique IDs, see [Visual Experience Composer Best Practices and Limitations](../../c-experiences/c-visual-experience-composer/c-experience-composebest-practices.md#concept_E284B3F704C04406B174D9050A2528A6).
+For information about when to use CSS selectors and when to use unique IDs, see [Visual Experience Composer Best Practices and Limitations](../../c-experiences/c-visual-experience-composer/c-experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6).
 
 ## How Adobe Target Generates a Selector for an Element {#section_D89D954BCBFB486CA081BE183776A475}
 
