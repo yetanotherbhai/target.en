@@ -17,6 +17,12 @@ Details about changes in each version of at.js.
 >
 >The Target team maintains only two versions of [!DNL at.js]—the current version and the second-latest version. Please upgrade [!DNL at.js] as necessary to ensure that you are running a supported version.
 
+## at.js Version 1.6.4
+
+at.js 1.6.4 is a maintenance release and addresses the following issue:
+
+* Fixed a race condition manifesting in Microsoft Internet Explorer 11 that caused duplicate offers to be applied.
+
 ## at.js Version 1.6.3 {#section_484A56774E004282B98FFFF851E4E670}
 
 <table id="table_7320E43397D2471FA313A9D6FC21E55F"> 

@@ -37,7 +37,12 @@ This page lists important changes made to the Target documentation.
 <tr> 
    <td colname="col1"></td> 
    <td colname="col2"> <p> <a href="/help/r-release-notes/target-release-notes.md" format="dita" scope="local">Target Release Notes (prerelease)</a></p> </td> 
-   <td colname="col3"> <p>Added information for 19.1.1 release.</p> </td> 
+   <td colname="col3"> <p>Added information for Target 19.1.1 and at.js 1.6.4 releases.</p> </td> 
+  </tr> 
+<tr> 
+   <td colname="col1"></td> 
+   <td colname="col2"> <p> <a href="/help/r-release-notes/target-release-notes.md" format="dita" scope="local">at.js version details</a></p> </td> 
+   <td colname="col3"> <p>Added information for at.js 1.6.4 release.</p> </td> 
   </tr> 
 <tr> 
    <td colname="col1"> December 20, 2018 </td> 
