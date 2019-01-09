@@ -43,4 +43,4 @@ To change the environment for an activity's report:
 
 1. Click **[!UICONTROL Save Settings]**.
 
-For more information about environments, see [Hosts](../administrating-target/c-hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E). 
+For more information about environments, see [Hosts](../administrating-target/hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E). 

@@ -155,7 +155,7 @@ at.js version 1.3.0 is now available.
 
 The following enhancements and fixes are included in [!DNL at.js] version 1.1:
 
-* Added response token handling. For more information, see [Response Tokens](../../administrating-target/c-response-tokens.md#concept_2B21B222F6A344D68CA5929817E836C4). 
+* Added response token handling. For more information, see [Response Tokens](../../administrating-target/response-tokens.md#concept_2B21B222F6A344D68CA5929817E836C4). 
 * Resolved issue so that `document.currentScript polyfill` doesn't interfere with Angular 1.X. 
 * Made changes to ensure that click tracking doesn't interfere with visibility property. Click tracking elements are marked with the `at-element-click-tracking` CSS class instead of `at-element-marker`.
 

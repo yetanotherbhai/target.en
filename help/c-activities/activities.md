@@ -86,7 +86,7 @@ The Activities list displays the following information:
   </tr> 
   <tr> 
    <td colname="col1"> Estimated Lift in Revenue </td> 
-   <td colname="col2"> <p>Shows the predicted increase in revenue if 100% of the audience sees the winning experience. </p> <p>Calculated using the following formula: </p> <p> (&lt;winning experience&gt; - &lt;control experience&gt;)*&lt;total number of visitors&gt; </p> <p>This number is rounded to one decimal place, maximum, if the condensed form has only a single digit before the decimal. For example: $1.6M, $60K, $900, $8.5K, $205K </p> <p>This column shows "---" for activities that do not have enough data to call a winner show or do not have a cost estimate. </p> <p>See <a href="../administrating-target/r-target-account-preferences/c-estimating-lift-in-revenue.md#concept_32F875D8F91349CE86AF391F65BEAEEE" format="dita" scope="local"> Estimating Lift in Revenue</a> for more information. </p> </td> 
+   <td colname="col2"> <p>Shows the predicted increase in revenue if 100% of the audience sees the winning experience. </p> <p>Calculated using the following formula: </p> <p> (&lt;winning experience&gt; - &lt;control experience&gt;)*&lt;total number of visitors&gt; </p> <p>This number is rounded to one decimal place, maximum, if the condensed form has only a single digit before the decimal. For example: $1.6M, $60K, $900, $8.5K, $205K </p> <p>This column shows "---" for activities that do not have enough data to call a winner show or do not have a cost estimate. </p> <p>See <a href="../administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md#concept_32F875D8F91349CE86AF391F65BEAEEE" format="dita" scope="local"> Estimating Lift in Revenue</a> for more information. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Last Updated </td> 
@@ -107,7 +107,7 @@ Mouse over an activity to see the available actions. Possible actions include:
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Edit </p> </td> 
-   <td colname="col2"> <p>Change the activity. Any activity can be edited. </p> <p>For more information about the various ways you can edit activities, see <a href="../c-activities/c-edit-activity.md#concept_BB064C0D4A194BD1A1AE7CCA1E6BB8F0" format="dita" scope="local"> Edit an Activity</a>. </p> </td> 
+   <td colname="col2"> <p>Change the activity. Any activity can be edited. </p> <p>For more information about the various ways you can edit activities, see <a href="../c-activities/edit-activity.md#concept_BB064C0D4A194BD1A1AE7CCA1E6BB8F0" format="dita" scope="local"> Edit an Activity</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Deactivate </p> </td> 
@@ -254,7 +254,7 @@ If you exceed any of these limits, the activity cannot be saved.
 
 Increasing the numbers of these items in your activity also increases the length of time it takes to synchronize the activity across Target.
 
-For additional limits of the Visual Experience Composer, see [Visual Experience Composer Limitations](../c-experiences/c-visual-experience-composer/c-experience-composer-best-practices.md#section_F33C2EA27F2E417AA036BC199DD6C721).
+For additional limits of the Visual Experience Composer, see [Visual Experience Composer Limitations](../c-experiences/c-visual-experience-composer/c-experience-composebest-practices.md#section_F33C2EA27F2E417AA036BC199DD6C721).
 
 ## Attributes Imported into Target for Activities Updated Outside of Target {#section_802B0D174E6A44E1A96F404CA81AAE44}
 

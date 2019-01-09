@@ -117,12 +117,12 @@ The Automated Personalization activity workflow varies from the workflow of the 
 
    It is important to understand that reporting groups impact how Target builds its models. As a result, we recommend that you use reporting groups only if you plan to replace or add new offers while the activity is live. If a new offer is introduced into a live activity, putting the new offer into a group with existing similar offers allow the machine to use the data already collected for the other offers in its group to learn about the new offer. You should never put all offers into a single reporting group.
 
-   For information about targeting an offer to specific audiences, see [Target AP Offers](../../c-activities/t-automated-personalization/t-ap-target-offers.md#task_F207ED7A41B84FD39BB6FCBFABF4B23E). 
+   For information about targeting an offer to specific audiences, see [Target AP Offers](../../c-activities/t-automated-personalization/ap-target-offers.md#task_F207ED7A41B84FD39BB6FCBFABF4B23E). 
 1. (Conditional) Click **[!UICONTROL Offers]** to select pieces of content and assign them to reporting groups or only allow certain visitors to see certain offers with targeting.
 
    For more information, see [Offer Reporting Groups in Automated Personalization](../../c-reports/c-offer-reporting-groups-in-automated-personalization.md#concept_194128C0B56B4B26AAB57DB49892960C).
 
-   For information about targeting an offer to specific audiences, see [Target Automated Personalization Offers](../../c-activities/t-automated-personalization/t-ap-target-offers.md#task_F207ED7A41B84FD39BB6FCBFABF4B23E). 
+   For information about targeting an offer to specific audiences, see [Target Automated Personalization Offers](../../c-activities/t-automated-personalization/ap-target-offers.md#task_F207ED7A41B84FD39BB6FCBFABF4B23E). 
 1. (Conditional) Click **[!UICONTROL Exclusion Groups]** to choose any combinations of elements that you want to exclude from the activity.
 
    ![Step Result](assets/exclusion_groups.png)

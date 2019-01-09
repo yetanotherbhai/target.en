@@ -84,7 +84,7 @@ The following list describes some of the situations that might cause a preset to
 
 ## Report Metric {#section_894ABD7148244806B7CE556EBBA2AD62}
 
-Click the **[!UICONTROL Report Metric]** drop-down list to select a different [success metric](../../c-activities/r-success-metrics/r-success-metrics.md#reference_D011575C85DA48E989A244593D9B9924) or multiple metrics to display in the graph and chart.
+Click the **[!UICONTROL Report Metric]** drop-down list to select a different [success metric](../../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924) or multiple metrics to display in the graph and chart.
 
 By default, the primary metric is determined in the success metrics setup when you create the activity. If you change the setup and re-save the activity, the primary metric for reporting is updated.
 
@@ -129,7 +129,7 @@ Depending on the selected activity type, the options vary:
     * Activity Impressions
 
 * **Control:** Select the control experience to use when calculating and comparing lift.  
-* **Environment:** Select the environment (host group) to use for the report.  For more information, see [Hosts](../../administrating-target/c-hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E). 
+* **Environment:** Select the environment (host group) to use for the report.  For more information, see [Hosts](../../administrating-target/hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E). 
 * **Reset Report Data:** Reset reporting data to remove old data. Current visitors will remain in the activity.  This option is available only for those with approver permissions.
 
   >[!IMPORTANT]

@@ -173,7 +173,7 @@ Consider the following caveats when using the Visual Experience Composer to desi
  <tbody> 
   <tr> 
    <td colname="col1"> <p>The Move feature does not support z-index. </p> </td> 
-   <td colname="col2"> <p>Because there is no z-index functionality, the moved element can't be moved on top of another element. See <a href="../../c-experiences/c-visual-experience-composer/c-experience-composer-best-practices.md#section_F33C2EA27F2E417AA036BC199DD6C721" format="dita" scope="local"> Limitations </a> for more details. </p> </td> 
+   <td colname="col2"> <p>Because there is no z-index functionality, the moved element can't be moved on top of another element. See <a href="../../c-experiences/c-visual-experience-composer/c-experience-composebest-practices.md#section_F33C2EA27F2E417AA036BC199DD6C721" format="dita" scope="local"> Limitations </a> for more details. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Rearranging elements affects click tracking. </p> </td> 

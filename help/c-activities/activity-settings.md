@@ -48,10 +48,10 @@ Use Activity Settings to manage the objective, priority, and duration of your ac
 
    The [!UICONTROL Goal & Settings] page includes additional settings that vary based on the type of activity you are creating. For more information on these settings, refer to your activity type:
 
-   * [A/B Test](../c-activities/t-test-ab/t-test-create-ab/r-ab-goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC) 
-   * [Automated Personalization](../c-activities/t-automated-personalization/t-automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) 
-   * [Experience Targeting](../c-activities/t-experience-target/t-xt-create/r-xt-goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC) 
-   * [Multivariate Test](../c-activities/c-multivariate-testing/t-create-multivariate-test/r-goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC) 
+   * [A/B Test](../c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC) 
+   * [Automated Personalization](../c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) 
+   * [Experience Targeting](../c-activities/t-experience-target/t-xt-create/xt-goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC) 
+   * [Multivariate Test](../c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC) 
    * [Recommendations](../c-recommendations/t-create-recs-activity/r-recs-activity-settings.md#reference_3FDA8388CEEC4159949151C1829E2FBB)
 
    **Activity Settings (3:02)**

@@ -21,12 +21,12 @@ There is no turn-key option of comparing AP to a default experience. However, as
 
 ## What are best practices to set up an Automated Personalization activity? {#section_E155B26282BE49B58EA2683413D11DE6}
 
-* If you are looking to personalize a lower-traffic page, or you want to make structural changes to the experience you are personalizing, consider using Auto-Target in place of Automated Personalization. See [Auto-Target For Personalized Experiences](../../c-activities/c-auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3). 
+* If you are looking to personalize a lower-traffic page, or you want to make structural changes to the experience you are personalizing, consider using Auto-Target in place of Automated Personalization. See [Auto-Target For Personalized Experiences](../../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3). 
 * Consider completing an A/B activity between the offers and locations you are planning to use in your Automated Personalization activity to ensure the location(s) and offers have an impact on the optimization goal. If an A/B activity fails to demonstrate a significant difference, Automated Personalization likely will also fail to generate lift.
 
     * If an A/B…N test shows no statistically significant differences between experiences, likely the offers you are considering are not sufficiently different from each other, the locations you selected do not impact the success metric, or the optimization goal is too far in the conversion funnel to be affected by your chosen offers.
 
-* Make sure to use the [Traffic Estimator](../../c-activities/t-automated-personalization/t-ap-traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714) so you can have a sense of how long it will take for personalization models to build in your Automated Personalization activity. 
+* Make sure to use the [Traffic Estimator](../../c-activities/t-automated-personalization/ap-traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714) so you can have a sense of how long it will take for personalization models to build in your Automated Personalization activity. 
 * Decide on the allocation between control and targeted before beginning the activity based on your goals.
 
     * Is the goal of your Automated Personalization activity to determine how well the personalization algorithm works overall or to run an "always on" personalization optimization on your page? Depending on your answer to this question, you will want to use a different traffic allocation between control and targeted. 
@@ -59,11 +59,11 @@ There are four factors required for an AP activity to generate lift:
 
 The best course of action is to first make sure the content and locations that make up the activity experiences truly make a difference to the overall response rates using a simple, non-personalized A/B test. Be sure to compute the sample sizes ahead of time to ensure there is enough power to see a reasonable lift and run the A/B test for a fixed duration without stopping it or making any changes. If an A/B test results show statistically significant lift on one or more of the experiences, then it is likely that a personalized activity will work. Of course, personalization can work even if there are no differences in the overall response rates of the experiences. Typically, the issue stems from the offers/locations not having a large enough impact on the optimization goal to be detected with statistical significance.
 
-For more information, [Troubleshooting Automated Personalization](../../c-activities/t-automated-personalization/r-ap-trouble.md#reference_281954549C3E49E2B5498009BBDC62CA).
+For more information, [Troubleshooting Automated Personalization](../../c-activities/t-automated-personalization/ap-trouble.md#reference_281954549C3E49E2B5498009BBDC62CA).
 
 ## How is Automated Personalization allocating my activity's traffic? {#section_4369364F77804E0D9B78BEE551DA5659}
 
-Automated Personalization routes visitors to the experience that has the highest forecasted success metric based on the most recent [Random Forest](../../c-activities/t-automated-personalization/c-algo-random-forest.md#concept_48F3CDAA16A848D2A84CDCD19DAAE3AA) models built for each model. This forecast is based on the visitor's specific information and visit context.
+Automated Personalization routes visitors to the experience that has the highest forecasted success metric based on the most recent [Random Forest](../../c-activities/t-automated-personalization/algo-random-forest.md#concept_48F3CDAA16A848D2A84CDCD19DAAE3AA) models built for each model. This forecast is based on the visitor's specific information and visit context.
 
 For example, assume an AP activity had two locations with two offers each. In the first location, Offer A has a forecasted conversion rate of 3% for a specific visitor, and Offer B has a forecasted conversion rate of 1%. In the second location, Offer C has a forecasted conversion rate of 2% for the same visitor, and Offer D has a forecasted conversion rate of 5%. Therefore, Automated Personalization would serve this visitor an experience with Offer A and Offer D.
 
@@ -73,7 +73,7 @@ Automated Personalization can be used as "always on" personalization that will c
 
 ## How long should I wait for models to build? {#section_6F6A5A9DB3564BE6B22FFEDFA5B29619}
 
-The length of time it takes for models to build in your activity typically depends on the traffic to your selected activity location(s) and your activity success metric. Use the [Traffic Estimator](../../c-activities/t-automated-personalization/t-ap-traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714) to determine the expected length of time it will take for models to build in your activity.
+The length of time it takes for models to build in your activity typically depends on the traffic to your selected activity location(s) and your activity success metric. Use the [Traffic Estimator](../../c-activities/t-automated-personalization/ap-traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714) to determine the expected length of time it will take for models to build in your activity.
 
 ## One model is built within my activity. Are the visits to that experience personalized? {#section_51EA953C6D1D4A3185FC9DD290D66621}
 

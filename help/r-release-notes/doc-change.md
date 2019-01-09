@@ -51,37 +51,37 @@ This page lists important changes made to the Target documentation.
   </tr> 
 <tr> 
    <td colname="col1"> </td> 
-   <td colname="col2"> <p> <a href="../c-activities/t-test-ab/t-test-create-ab/c-ab-audience.md" format="dita" scope="local">Select audience</a> </p> </td> 
+   <td colname="col2"> <p> <a href="../c-activities/t-test-ab/t-test-create-ab/ab-audience.md" format="dita" scope="local">Select audience</a> </p> </td> 
    <td colname="col3"> <p>Updated images.</p> </td> 
   </tr> 
 <tr> 
    <td colname="col1"></td> 
-   <td colname="col2"> <p> <a href="../c-activities/t-test-ab/t-test-create-ab/t-ab-add-experience.md" format="dita" scope="local">Add experience</a> </p> </td> 
+   <td colname="col2"> <p> <a href="../c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md" format="dita" scope="local">Add experience</a> </p> </td> 
    <td colname="col3"> <p>Updated image.</p> </td> 
   </tr> 
 <tr> 
    <td colname="col1"></td> 
-   <td colname="col2"> <p> <a href="../c-activities/t-test-ab/t-test-create-ab/t-test-create-ab.md" format="dita" scope="local">Create an A/B Test</a> </p> </td> 
+   <td colname="col2"> <p> <a href="../c-activities/t-test-ab/t-test-create-ab/test-create-ab.md" format="dita" scope="local">Create an A/B Test</a> </p> </td> 
    <td colname="col3"> <p>Updated images.</p> </td> 
   </tr> 
 <tr> 
    <td colname="col1"></td> 
-   <td colname="col2"> <p> <a href="../c-activities/c-multivariate-testing/t-create-multivariate-test/r-test-summary.md" format="dita" scope="local">Test summary</a> </p> </td> 
+   <td colname="col2"> <p> <a href="../c-activities/c-multivariate-testing/t-create-multivariate-test/test-summary.md" format="dita" scope="local">Test summary</a> </p> </td> 
    <td colname="col3"> <p>Updated image.</p> </td> 
   </tr> 
 <tr> 
    <td colname="col1"></td> 
-   <td colname="col2"> <p> <a href="../c-activities/c-multivariate-testing/t-create-multivariate-test/t-preview-experiences.md" format="dita" scope="local">Preview experiences for a Multivariate Test</a> </p> </td> 
+   <td colname="col2"> <p> <a href="../c-activities/c-multivariate-testing/t-create-multivariate-test/preview-experiences.md" format="dita" scope="local">Preview experiences for a Multivariate Test</a> </p> </td> 
    <td colname="col3"> <p>Updated image.</p> </td> 
   </tr> 
 <tr> 
    <td colname="col1"></td> 
-   <td colname="col2"> <p> <a href="../c-activities/c-multivariate-testing/t-create-multivariate-test/c-add-offers.md" format="dita" scope="local">Create combinations</a> </p> </td> 
+   <td colname="col2"> <p> <a href="../c-activities/c-multivariate-testing/t-create-multivariate-test/add-offers.md" format="dita" scope="local">Create combinations</a> </p> </td> 
    <td colname="col3"> <p>Updated text and images.</p> </td> 
   </tr> 
 <tr> 
    <td colname="col1"></td> 
-   <td colname="col2"> <p> <a href="../c-activities/c-multivariate-testing/t-create-multivariate-test/t-create-multivariate-test.md" format="dita" scope="local">Create a Multivariate Test</a> </p> </td> 
+   <td colname="col2"> <p> <a href="../c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test.md" format="dita" scope="local">Create a Multivariate Test</a> </p> </td> 
    <td colname="col3"> <p>Updated text and images.</p> </td> 
   </tr> 
 <tr> 
@@ -117,12 +117,12 @@ This page lists important changes made to the Target documentation.
   </tr> 
 <tr> 
    <td colname="col1"> November 29, 2018 </td> 
-   <td colname="col2"> <p> <a href="../c-activities/c-multivariate-testing/t-create-multivariate-test/t-traffic-estimator.md" format="dita" scope="local"> Estimate the traffic required for a successful test</a> </p> </td> 
+   <td colname="col2"> <p> <a href="../c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md" format="dita" scope="local"> Estimate the traffic required for a successful test</a> </p> </td> 
    <td colname="col3"> <p>Minor text updates and updated images.</p> </td> 
   </tr>
   <tr> 
    <td colname="col1"> November 27, 2018 </td> 
-   <td colname="col2"> <p> <a href="../c-activities/c-activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03" format="dita" scope="local"> Activities </a> </p> </td> 
+   <td colname="col2"> <p> <a href="../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03" format="dita" scope="local"> Activities </a> </p> </td> 
    <td colname="col3"> <p>Updated text and images. </p> </td> 
   </tr> 
   <tr> 
@@ -167,7 +167,7 @@ This page lists important changes made to the Target documentation.
   </tr> 
   <tr> 
    <td colname="col1"> November 7, 2018 </td> 
-   <td colname="col2"> <p> <a href="../c-activities/t-test-ab/c-sample-size-determination.md#concept_2801F552DB874C20B8A17C1B774C0383" format="dita" scope="local"> How long should you run an A/B Test? </a> </p> </td> 
+   <td colname="col2"> <p> <a href="../c-activities/t-test-ab/sample-size-determination.md#concept_2801F552DB874C20B8A17C1B774C0383" format="dita" scope="local"> How long should you run an A/B Test? </a> </p> </td> 
    <td colname="col3"> <p>Edited topic and added additional information. </p> </td> 
   </tr> 
   <tr> 
@@ -212,22 +212,22 @@ This page lists important changes made to the Target documentation.
   </tr> 
   <tr> 
    <td colname="col1"> October 24, 2018 </td> 
-   <td colname="col2"> <p> <a href="../administrating-target/r-target-account-preferences/r-target-account-preferences.md#reference_0CF97B1C2214412ABBC8222EA8A36D7E" format="dita" scope="local"> Preferences </a> </p> </td> 
+   <td colname="col2"> <p> <a href="../administrating-target/r-target-account-preferences/target-account-preferences.md#reference_0CF97B1C2214412ABBC8222EA8A36D7E" format="dita" scope="local"> Preferences </a> </p> </td> 
    <td colname="col3"> <p>Added information to consider when choosing the reporting source for activities in Setup &gt; Preferences or per activity. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
-   <td colname="col2"> <p> <a href="../c-activities/t-automated-personalization/t-create-ap-activity.md#task_8AAF837796D74CF893CA2F88BA1491C9" format="dita" scope="local"> Create an Automated Personalization activity </a> </p> </td> 
+   <td colname="col2"> <p> <a href="../c-activities/t-automated-personalization/create-ap-activity.md#task_8AAF837796D74CF893CA2F88BA1491C9" format="dita" scope="local"> Create an Automated Personalization activity </a> </p> </td> 
    <td colname="col3"> <p>Added information about filtering for Unassigned Offers. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
-   <td colname="col2"> <p> <a href="../c-activities/t-experience-target/t-xt-create/t-xt-add-experience.md#task_454646F2895242D3B92DC395A0CE1A00" format="dita" scope="local"> Create Experience </a> </p> </td> 
+   <td colname="col2"> <p> <a href="../c-activities/t-experience-target/t-xt-create/xt-add-experience.md#task_454646F2895242D3B92DC395A0CE1A00" format="dita" scope="local"> Create Experience </a> </p> </td> 
    <td colname="col3"> <p>Added information about duplicating experiences in XT activities. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
-   <td colname="col2"> <p> <a href="../c-activities/t-test-ab/t-test-create-ab/t-ab-add-experience.md#task_454646F2895242D3B92DC395A0CE1A00" format="dita" scope="local"> Add experience </a> </p> </td> 
+   <td colname="col2"> <p> <a href="../c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md#task_454646F2895242D3B92DC395A0CE1A00" format="dita" scope="local"> Add experience </a> </p> </td> 
    <td colname="col3"> <p>Added information about duplicating experiences in A/B Tests. </p> </td> 
   </tr> 
   <tr> 
@@ -305,7 +305,7 @@ This page lists important changes made to the Target documentation.
   </tr> 
   <tr> 
    <td colname="col1"> October 12, 2018 </td> 
-   <td colname="col2"> <p> <a href="../c-activities/c-activity-qa/c-activity-qa.md#concept_9329EF33DE7D41CA9815C8115DBC4E40" format="dita" scope="local"> Activity QA </a> </p> </td> 
+   <td colname="col2"> <p> <a href="../c-activities/c-activity-qa/activity-qa.md#concept_9329EF33DE7D41CA9815C8115DBC4E40" format="dita" scope="local"> Activity QA </a> </p> </td> 
    <td colname="col3"> <p>Edited the following paragraph under <span class="wintitle"> Considerations</span>: </p> <p>Activity QA does not display content for archived activities or activities that are past their end dates. If you deactivate an ended activity, you must save the activity again for Activity QA to work. </p> </td> 
   </tr> 
   <tr> 
@@ -340,7 +340,7 @@ This page lists important changes made to the Target documentation.
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
-   <td colname="col2"> <p> <a href="../c-activities/c-activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03" format="dita" scope="local"> Activities </a> </p> </td> 
+   <td colname="col2"> <p> <a href="../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03" format="dita" scope="local"> Activities </a> </p> </td> 
    <td colname="col3"> <p>Added information about how to disable the Tip of the Day. </p> </td> 
   </tr> 
   <tr> 
@@ -355,7 +355,7 @@ This page lists important changes made to the Target documentation.
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
-   <td colname="col2"> <p> <a href="../c-activities/t-test-ab/t-test-create-ab/t-test-create-ab.md#task_68C8079BF9FF4625A3BD6680D554BB72" format="dita" scope="local"> Create an A/B Test </a> </p> <p> <a href="../c-activities/t-automated-personalization/t-create-ap-activity.md#task_8AAF837796D74CF893CA2F88BA1491C9" format="dita" scope="local"> Creating an Automated Personalization Activity </a> </p> <p> <a href="../c-activities/t-experience-target/t-xt-create/t-xt-create.md#task_D6B3429AC31549E1A70EDF04B3DDC765" format="dita" scope="local"> Create an Experience Targeting Activity </a> </p> <p> <a href="../c-activities/c-multivariate-testing/t-create-multivariate-test/t-create-multivariate-test.md#task_BF870FA60A8245AB8F0B775BE32EA710" format="dita" scope="local"> Create a Multivariate Test </a> </p> <p> <a href="../c-recommendations/t-create-recs-activity/r-recs-activity-settings.md#reference_3FDA8388CEEC4159949151C1829E2FBB" format="dita" scope="local"> Recommendations Activity Settings </a> </p> <p> <a href="../c-activities/t-test-ab/t-test-create-ab/t-ab-add-experience.md#task_454646F2895242D3B92DC395A0CE1A00" format="dita" scope="local"> Add Experience </a> </p> <p> <a href="../c-activities/t-test-ab/t-test-create-ab/t-ab-set-metrics.md#task_A04AB66007C1467DA1C21A519A5C7BEB" format="dita" scope="local"> Set Metrics </a> </p>
+   <td colname="col2"> <p> <a href="../c-activities/t-test-ab/t-test-create-ab/test-create-ab.md#task_68C8079BF9FF4625A3BD6680D554BB72" format="dita" scope="local"> Create an A/B Test </a> </p> <p> <a href="../c-activities/t-automated-personalization/create-ap-activity.md#task_8AAF837796D74CF893CA2F88BA1491C9" format="dita" scope="local"> Creating an Automated Personalization Activity </a> </p> <p> <a href="../c-activities/t-experience-target/t-xt-create/xt-create.md#task_D6B3429AC31549E1A70EDF04B3DDC765" format="dita" scope="local"> Create an Experience Targeting Activity </a> </p> <p> <a href="../c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test.md#task_BF870FA60A8245AB8F0B775BE32EA710" format="dita" scope="local"> Create a Multivariate Test </a> </p> <p> <a href="../c-recommendations/t-create-recs-activity/r-recs-activity-settings.md#reference_3FDA8388CEEC4159949151C1829E2FBB" format="dita" scope="local"> Recommendations Activity Settings </a> </p> <p> <a href="../c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md#task_454646F2895242D3B92DC395A0CE1A00" format="dita" scope="local"> Add Experience </a> </p> <p> <a href="../c-activities/t-test-ab/t-test-create-ab/ab-set-metrics.md#task_A04AB66007C1467DA1C21A519A5C7BEB" format="dita" scope="local"> Set Metrics </a> </p>
    </td> 
    <td colname="col3"> <p>Updated the table listing characters not allowed in activity, experience, or metric names. </p> </td> 
   </tr> 
@@ -386,12 +386,12 @@ This page lists important changes made to the Target documentation.
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
-   <td colname="col2"> <a href="../c-activities/t-automated-personalization/t-create-ap-activity.md#task_8AAF837796D74CF893CA2F88BA1491C9" format="dita" scope="local"> Creating an Automated Personalization Activity </a> </td> 
+   <td colname="col2"> <a href="../c-activities/t-automated-personalization/create-ap-activity.md#task_8AAF837796D74CF893CA2F88BA1491C9" format="dita" scope="local"> Creating an Automated Personalization Activity </a> </td> 
    <td colname="col3"> <p>Added information about the Report Group list that lets you filter offers by reporting group. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
-   <td colname="col2"> <p> <a href="../c-activities/t-automated-personalization/c-managing-exclusions.md#topic_30B4E4F89C914EB2B20B038C0299ED2E" format="dita" scope="local"> Manage Exclusions </a> </p> </td> 
+   <td colname="col2"> <p> <a href="../c-activities/t-automated-personalization/managing-exclusions.md#topic_30B4E4F89C914EB2B20B038C0299ED2E" format="dita" scope="local"> Manage Exclusions </a> </p> </td> 
    <td colname="col3"> <p>Added information about using multiple offers from the same location in an exclusion group. </p> </td> 
   </tr> 
   <tr> 
@@ -465,7 +465,7 @@ This page lists important changes made to the Target documentation.
   </tr> 
   <tr> 
    <td colname="col1"> September 11, 2018 </td> 
-   <td colname="col2"> <p> <a href="../c-activities/c-activity-qa/c-use-qa-mode-with-server-side-delivery.md#concept_54698C5CE8934F68B20961CD83FD6202" format="dita" scope="local"> Use Activity QA with Server-Side Delivery </a> </p> </td> 
+   <td colname="col2"> <p> <a href="../c-activities/c-activity-qa/use-qa-mode-with-server-side-delivery.md#concept_54698C5CE8934F68B20961CD83FD6202" format="dita" scope="local"> Use Activity QA with Server-Side Delivery </a> </p> </td> 
    <td colname="col3"> <p>New topic. </p> </td> 
   </tr> 
   <tr> 
@@ -510,7 +510,7 @@ This page lists important changes made to the Target documentation.
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
-   <td colname="col2"> <p> <a href="../c-activities/t-test-ab/t-test-create-ab/c-ab-activity-url.md#concept_D28549AAA0A14E3BB5F05F32BE8ABC90" format="dita" scope="local"> Activity URL </a> </p> </td> 
+   <td colname="col2"> <p> <a href="../c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md#concept_D28549AAA0A14E3BB5F05F32BE8ABC90" format="dita" scope="local"> Activity URL </a> </p> </td> 
    <td colname="col3"> <p>Modified text and updated illustration. </p> </td> 
   </tr> 
   <tr> 
@@ -572,7 +572,7 @@ This page lists important changes made to the Target documentation.
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
-   <td colname="col2"> <p> <a href="../c-activities/c-activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03" format="dita" scope="local"> Activities </a> </p> </td> 
+   <td colname="col2"> <p> <a href="../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03" format="dita" scope="local"> Activities </a> </p> </td> 
    <td colname="col3"> <p>Added the "Tips and Tricks" section. </p> </td> 
   </tr> 
   <tr> 

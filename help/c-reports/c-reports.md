@@ -31,11 +31,11 @@ In addition to the general reporting information in this topic and its subtopics
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><a href="../c-activities/t-test-ab/t-test-ab.md#task_05E33EB15C4D4459B5EAFF90A94A7977" format="dita" scope="local"> A/B Test</a> </p> </td> 
-   <td colname="col2"> <p>To understand lift and confidence and the statistical approaches used in Target, see <a href="../c-activities/t-test-ab/c-sample-size-determination.md#concept_2801F552DB874C20B8A17C1B774C0383" format="dita" scope="local"> Plan an A/B Test</a>. </p> </td> 
+   <td colname="col1"> <p><a href="../c-activities/t-test-ab/test-ab.md#task_05E33EB15C4D4459B5EAFF90A94A7977" format="dita" scope="local"> A/B Test</a> </p> </td> 
+   <td colname="col2"> <p>To understand lift and confidence and the statistical approaches used in Target, see <a href="../c-activities/t-test-ab/sample-size-determination.md#concept_2801F552DB874C20B8A17C1B774C0383" format="dita" scope="local"> Plan an A/B Test</a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><a href="../c-activities/c-auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3" format="dita" scope="local"> Auto-Target</a> (AT) </p> </td> 
+   <td colname="col1"> <p><a href="../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3" format="dita" scope="local"> Auto-Target</a> (AT) </p> </td> 
    <td colname="col2"> <p> 
      <ul id="ul_81F3B2F17153401DBE4180F8CDA02CFB"> 
       <li id="li_6649B81BDA274685871478C1B6EC60DB"> <p>Information about the Summary report for AT activities. For more information, see <a href="../c-reports/c-auto-target-summary-report.md#concept_E2171F7B57C1417DAAD7E7909A3FB073" format="dita" scope="local"> Auto-Target Summary Report</a>. </p> </li> 
@@ -43,7 +43,7 @@ In addition to the general reporting information in this topic and its subtopics
      </ul> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><a href="../c-activities/t-automated-personalization/t-automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9" format="dita" scope="local"> Automated Personalization</a> (AP) </p> </td> 
+   <td colname="col1"> <p><a href="../c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9" format="dita" scope="local"> Automated Personalization</a> (AP) </p> </td> 
    <td colname="col2"> <p> 
      <ul id="ul_A1BA81DA5EC948E2A4384083907BA7B2"> 
       <li id="li_C370889D33244710BDDD34FE68A44F28"> <p>Information about the two AP Summary reports for AP activities: Activity Level report and Offer Level report.. For more information, see <a href="../c-reports/c-reports-ap.md#concept_C02BAFC922114A44846998FD956E345A" format="dita" scope="local"> Automated Personalization Summary Reports</a>. </p> </li> 
@@ -51,7 +51,7 @@ In addition to the general reporting information in this topic and its subtopics
      </ul> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><a href="../c-activities/c-multivariate-testing/c-multivariate-testing.md#concept_628695CDC71B449B8DCC2F5654C11499" format="dita" scope="local"> Multivariate Test</a> (MVT) </p> </td> 
+   <td colname="col1"> <p><a href="../c-activities/c-multivariate-testing/multivariate-testing.md#concept_628695CDC71B449B8DCC2F5654C11499" format="dita" scope="local"> Multivariate Test</a> (MVT) </p> </td> 
    <td colname="col2"> <p> 
      <ul id="ul_335ECDC31B0B45EC831EDA824A85B096"> 
       <li id="li_967E0EC06E914E308F8F985D505C1339"> <p>Information about the two reports for MVT activities: Experience Performance report and Location Contribution report.. For more information, see <a href="../c-reports/c-experience-performance-report.md#concept_4470C6A177924695A6595B54E3A7FD90" format="dita" scope="local"> Experience Performance Report (MVT)</a> and <a href="../c-reports/c-location-contribution-report.md#concept_95A285CEDB674FE7A05B323AA2771906" format="dita" scope="local"> Location Contribution Report (MVT)</a>. </p> </li> 

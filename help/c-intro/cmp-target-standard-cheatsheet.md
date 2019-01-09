@@ -75,19 +75,19 @@ A list of frequently asked questions about using the features in Adobe Target, a
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Can I perform a statistically rigorous activity to find a winning and losing experience while using a control experience? </p> </td> 
-   <td colname="col2"> <p>Use <a href="../c-activities/t-test-ab/t-test-ab.md#task_05E33EB15C4D4459B5EAFF90A94A7977" format="dita" scope="local"> A/B Testing</a> (Manual Targeting option) along with the <a href="../c-activities/t-test-ab/c-sample-size-determination.md#section_286EB6E671184239BB1552F0387DAEB5" format="dita" scope="local"> Sample Size Calculator</a> for best results. </p> </td> 
+   <td colname="col2"> <p>Use <a href="../c-activities/t-test-ab/test-ab.md#task_05E33EB15C4D4459B5EAFF90A94A7977" format="dita" scope="local"> A/B Testing</a> (Manual Targeting option) along with the <a href="../c-activities/t-test-ab/sample-size-determination.md#section_286EB6E671184239BB1552F0387DAEB5" format="dita" scope="local"> Sample Size Calculator</a> for best results. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> How do I know when to stop an activity? </p> </td> 
-   <td colname="col2"> <p>Stopping activities prematurely can result in wrong conclusions. Be aware of <a href="../c-activities/t-test-ab/c-common-ab-testing-pitfalls.md#section_DF01A97275E44CA5859D825E0DE2F49F" format="dita" scope="local"> common pitfalls and ensure practices to avoid them</a>. </p> </td> 
+   <td colname="col2"> <p>Stopping activities prematurely can result in wrong conclusions. Be aware of <a href="../c-activities/t-test-ab/common-ab-testing-pitfalls.md#section_DF01A97275E44CA5859D825E0DE2F49F" format="dita" scope="local"> common pitfalls and ensure practices to avoid them</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>How can I perform an activity if the time-window is small? </p> <p>Can I optimize for my goal as I test? </p> </td> 
-   <td colname="col2"> <p>Use our <a href="../c-activities/automated-traffic-allocation/c-determine-winner.md#concept_5741A89ED7224E1285A3BC34B2CCD0F9" format="dita" scope="local"> reports to determine the winning experience</a>. </p> </td> 
+   <td colname="col2"> <p>Use our <a href="../c-activities/automated-traffic-allocation/determine-winner.md#concept_5741A89ED7224E1285A3BC34B2CCD0F9" format="dita" scope="local"> reports to determine the winning experience</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Can I perform an activity with a level of personalization as an integral part of the activity? </p> </td> 
-   <td colname="col2"> <p>Check out <a href="../c-activities/c-auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3" format="dita" scope="local"> A/B Testing with the Auto-Target</a> option. </p> </td> 
+   <td colname="col2"> <p>Check out <a href="../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3" format="dita" scope="local"> A/B Testing with the Auto-Target</a> option. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>How can I know which type of activity best fits my needs? </p> </td> 
@@ -95,7 +95,7 @@ A list of frequently asked questions about using the features in Adobe Target, a
   </tr> 
   <tr> 
    <td colname="col1"> <p>How can I discover which combinations of elements on my page contribute to its success and to what degree each element helps? </p> </td> 
-   <td colname="col2"> <p>Check out our <a href="../c-activities/c-multivariate-testing/c-multivariate-testing.md#concept_628695CDC71B449B8DCC2F5654C11499" format="dita" scope="local"> Full Factorial Multivariate (MVT) activities</a> with Element contribution analysis to see if it meets your needs. </p> <p>Note that the traffic requirement increases with MVT activities. </p> </td> 
+   <td colname="col2"> <p>Check out our <a href="../c-activities/c-multivariate-testing/multivariate-testing.md#concept_628695CDC71B449B8DCC2F5654C11499" format="dita" scope="local"> Full Factorial Multivariate (MVT) activities</a> with Element contribution analysis to see if it meets your needs. </p> <p>Note that the traffic requirement increases with MVT activities. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Can I run an activity spanning multiple pages where the page structure is different? </p> <p>Can I apply offers at different locations (for example, the checkout funnel)? </p> </td> 
@@ -103,31 +103,31 @@ A list of frequently asked questions about using the features in Adobe Target, a
   </tr> 
   <tr> 
    <td colname="col1"> <p>How can I ensure that once a goal (Primary or Secondary) has been reached, a user never enters the activity again and instead sees a different activity going forward? </p> </td> 
-   <td colname="col2"> <p>This is easy to achieve by using the <a href="../c-activities/t-test-ab/t-test-create-ab/r-ab-goals-and-settings.md#section_E2FE441AFB324E498793ABB025ED9974" format="dita" scope="local"> Advanced Settings</a> option available with every goal. You have options to decide what should happen after user reaches the goal and how you want the counting to be incremented. </p> <p>So, in this case, you might choose "Increment Count, Release User &amp; Bar from Reentry" along with "Default/Other Activity Content" to achieve the objective. Check out other options as well. </p> </td> 
+   <td colname="col2"> <p>This is easy to achieve by using the <a href="../c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_E2FE441AFB324E498793ABB025ED9974" format="dita" scope="local"> Advanced Settings</a> option available with every goal. You have options to decide what should happen after user reaches the goal and how you want the counting to be incremented. </p> <p>So, in this case, you might choose "Increment Count, Release User &amp; Bar from Reentry" along with "Default/Other Activity Content" to achieve the objective. Check out other options as well. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>I have created multiple goals in my activity. Can I create a chain of goals as a funnel for reporting and analysis purposes? </p> <p>For example, I want to consider Goal B when the user has achieved Goal A so that I can track numbers for a particular funnel. </p> </td> 
-   <td colname="col2"> <p>Target has a robust way to achieve this with our Metrics Dependency feature. Simply <a href="../c-activities/r-success-metrics/r-success-metrics.md#section_7CE95A2FA8F5438E936C365A6D43BC5B" format="dita" scope="local"> add dependencies on other success metrics</a>. You have options like "Reached" and "Not Reached," along with ability to combine metrics in multiple ways to create any combination you want. </p> </td> 
+   <td colname="col2"> <p>Target has a robust way to achieve this with our Metrics Dependency feature. Simply <a href="../c-activities/r-success-metrics/success-metrics.md#section_7CE95A2FA8F5438E936C365A6D43BC5B" format="dita" scope="local"> add dependencies on other success metrics</a>. You have options like "Reached" and "Not Reached," along with ability to combine metrics in multiple ways to create any combination you want. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>How can I be clear as to how to set up an activity to achieve my objectives? </p> </td> 
-   <td colname="col2"> <p>This is where <a href="../c-activities/t-test-ab/t-test-create-ab/r-ab-goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC" format="dita" scope="local"> goals</a> come in. </p> <p>You should start by knowing what you want to optimize on. Is it Revenue, Conversion, or Engagement? Each of these options is available in the goals section. And for each of these, you can further define which action a user would take on your site to qualify that the goal has been reached. </p> <p>This is made possible by the Primary Goal setting in Step 3 of the three-part guided workflow. You can add additional goals as well, which can help you for better reporting </p> </td> 
+   <td colname="col2"> <p>This is where <a href="../c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC" format="dita" scope="local"> goals</a> come in. </p> <p>You should start by knowing what you want to optimize on. Is it Revenue, Conversion, or Engagement? Each of these options is available in the goals section. And for each of these, you can further define which action a user would take on your site to qualify that the goal has been reached. </p> <p>This is made possible by the Primary Goal setting in Step 3 of the three-part guided workflow. You can add additional goals as well, which can help you for better reporting </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Can I schedule an activity to start and end at a fixed time? </p> </td> 
-   <td colname="col2"> <p>Use the <a href="../c-activities/t-test-ab/t-test-create-ab/r-ab-goals-and-settings.md#section_DCBDC354261F420EBD4B43EA34947BAC" format="dita" scope="local"> Scheduling feature in the Goals and Settings</a> step of the three-part activity workflow by specifying the start and end dates. </p> <p>Remember to activate the campaign. Only live campaigns adhere to the specified schedule. After the end date is reached, the activity goes into the Ended state. </p> </td> 
+   <td colname="col2"> <p>Use the <a href="../c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_DCBDC354261F420EBD4B43EA34947BAC" format="dita" scope="local"> Scheduling feature in the Goals and Settings</a> step of the three-part activity workflow by specifying the start and end dates. </p> <p>Remember to activate the campaign. Only live campaigns adhere to the specified schedule. After the end date is reached, the activity goes into the Ended state. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Can I make a change to just the Targeting step and not go through the entire three-step guided workflow for editing? </p> </td> 
-   <td colname="col2"> <p>You can easily do that by <a href="../c-activities/c-edit-activity.md#concept_BB064C0D4A194BD1A1AE7CCA1E6BB8F0" format="dita" scope="local"> directly entering the desired step of your choice from the Activity Overview page</a> and then exiting from that step by using the Save and Close option. </p> </td> 
+   <td colname="col2"> <p>You can easily do that by <a href="../c-activities/edit-activity.md#concept_BB064C0D4A194BD1A1AE7CCA1E6BB8F0" format="dita" scope="local"> directly entering the desired step of your choice from the Activity Overview page</a> and then exiting from that step by using the Save and Close option. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Can I stay on a particular step, keep modifying the activity (offer text or custom code, for example), and then perform QA in another tab? </p> </td> 
-   <td colname="col2"> <p> This is also possible. Simply <a href="../c-activities/c-edit-activity.md#concept_BB064C0D4A194BD1A1AE7CCA1E6BB8F0" format="dita" scope="local"> use the Save option available to make incremental changes without leaving the step</a>. </p> </td> 
+   <td colname="col2"> <p> This is also possible. Simply <a href="../c-activities/edit-activity.md#concept_BB064C0D4A194BD1A1AE7CCA1E6BB8F0" format="dita" scope="local"> use the Save option available to make incremental changes without leaving the step</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>How can I preview and QA an activity I just created? </p> </td> 
-   <td colname="col2"> <p>Use our <a href="../c-activities/c-activity-qa/c-activity-qa.md#concept_9329EF33DE7D41CA9815C8115DBC4E40" format="dita" scope="local"> powerful QA Mode feature</a> to perform QA. You can share links with your QA team and also test the activity end-to-end, including reporting, to be fully sure that after the activity is live, it works as intended and as tested. </p> </td> 
+   <td colname="col2"> <p>Use our <a href="../c-activities/c-activity-qa/activity-qa.md#concept_9329EF33DE7D41CA9815C8115DBC4E40" format="dita" scope="local"> powerful QA Mode feature</a> to perform QA. You can share links with your QA team and also test the activity end-to-end, including reporting, to be fully sure that after the activity is live, it works as intended and as tested. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>How can I use Target's decisioning power to receive an experience/offer that can be used in Single Page Applications (SPAs) or server-side integrations? </p> </td> 
@@ -135,7 +135,7 @@ A list of frequently asked questions about using the features in Adobe Target, a
   </tr> 
   <tr> 
    <td colname="col1"> <p>I have set up two activities. How do I know which one a visitor will end up seeing? </p> <p> Can I set the priority order of a few activities? </p> </td> 
-   <td colname="col2"> <p>Use the Priority setting available on Step 3 of the Target three-part guided workflow (Goals and Settings Page) to <a href="../c-activities/t-test-ab/t-test-create-ab/r-ab-goals-and-settings.md#section_DCBDC354261F420EBD4B43EA34947BAC" format="dita" scope="local"> define the priority of the activities</a>. </p> <p>There are two options: </p> <p> 
+   <td colname="col2"> <p>Use the Priority setting available on Step 3 of the Target three-part guided workflow (Goals and Settings Page) to <a href="../c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_DCBDC354261F420EBD4B43EA34947BAC" format="dita" scope="local"> define the priority of the activities</a>. </p> <p>There are two options: </p> <p> 
      <ul id="ul_C4428F1AF0FC4E1286BF1E7EBBC8A618"> 
       <li id="li_397DCB40BF324AA984B971E9143683DB"> <p><a href="../c-intro/cmp-target-standard-cheatsheet.md#section_C2AC78DFDAD84981A8C84DF20893E340" format="dita" scope="local"> Target JavaScript Libraries (at.js and mbox.js)</a> </p> </li> 
       <li id="li_D431F300DB6B45DE92A937BDDA4770A5"> <p>Default, with three levels (Low / Medium / High) </p> </li> 
@@ -157,7 +157,7 @@ A list of frequently asked questions about using the features in Adobe Target, a
  <tbody> 
   <tr> 
    <td colname="col1"> <p>I have set up two activities. Which one a visitor will end up seeing? </p> <p> Can I set the priority order of a few activities? </p> </td> 
-   <td colname="col2"> <p>Use the Priority setting available on Step 3 of the Target three-part guided workflow (Goals and Settings Page) to <a href="../c-activities/t-test-ab/t-test-create-ab/r-ab-goals-and-settings.md#section_DCBDC354261F420EBD4B43EA34947BAC" format="dita" scope="local"> define the priority of the activities</a>. </p> <p>There are two options: </p> <p> 
+   <td colname="col2"> <p>Use the Priority setting available on Step 3 of the Target three-part guided workflow (Goals and Settings Page) to <a href="../c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_DCBDC354261F420EBD4B43EA34947BAC" format="dita" scope="local"> define the priority of the activities</a>. </p> <p>There are two options: </p> <p> 
      <ul id="ul_DD4D5E642ED3431EAD64B4C4CBEA015E"> 
       <li id="li_DDCE4874A2F64722AAD3F601CC49F3F2"> <p>Default, with three levels (Low / Medium / High) </p> </li> 
       <li id="li_2B8C13AF161249E8883445A545BEE842"> <p>Custom, with a range from 0 to 999. For Custom, enable the Fine-Grained Priorities feature (<span class="uicontrol"> Setup</span> &gt; <span class="uicontrol"> Preferences</span>). </p> </li> 
@@ -181,7 +181,7 @@ A list of frequently asked questions about using the features in Adobe Target, a
   </tr> 
   <tr> 
    <td colname="col1"> <p>Can I start an activity with a fewer number of visitors? </p> </td> 
-   <td colname="col2"> <p>Use the percentage allocation controls available from<a href="../c-activities/t-test-ab/t-test-create-ab/c-ab-audience.md#concept_A268236C1224451DB7844BF67F41A087" format="dita" scope="local"> Step 2 of the Target three-part guided workflow (Targeting page)</a> to decide how you want to go about setting up the activity. </p> </td> 
+   <td colname="col2"> <p>Use the percentage allocation controls available from<a href="../c-activities/t-test-ab/t-test-create-ab/ab-audience.md#concept_A268236C1224451DB7844BF67F41A087" format="dita" scope="local"> Step 2 of the Target three-part guided workflow (Targeting page)</a> to decide how you want to go about setting up the activity. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>I also have Adobe Analytics and want to leverage it with Target. What key capabilities do I get by integrating the two solutions? </p> </td> 
@@ -219,7 +219,7 @@ A list of frequently asked questions about using the features in Adobe Target, a
   </tr> 
   <tr> 
    <td colname="col1"> <p>Why is my site not loading within the Visual Experience Composer (VEC)? </p> </td> 
-   <td colname="col2"> <p>Try out the<a href="../c-experiences/c-visual-experience-composer/r-troubleshoot-composer/r-troubleshoot-composer.md#reference_77743144F10143A3A89D56E116D296E4" format="dita" scope="local"> troubleshooting information</a> outlined in our help page. Reach out to <a href="../cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C" format="dita" scope="local"> Adobe Support</a> if none of these approaches work. </p> <p>We also have <a href="../c-experiences/t-form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E" format="dita" scope="local"> form-based approach</a> which can unblock you. </p> <p>Also read when and why the <a href="../c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D" format="dita" scope="local"> Enhanced Experience Composer</a> can be useful. You might have to reach out to your IT department to <a href="../c-experiences/c-visual-experience-composer/c-experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6" format="dita" scope="local"> whitelist Adobe's proxy servers</a> as well. </p> </td> 
+   <td colname="col2"> <p>Try out the<a href="../c-experiences/c-visual-experience-composer/r-troubleshoot-composer/r-troubleshoot-composer.md#reference_77743144F10143A3A89D56E116D296E4" format="dita" scope="local"> troubleshooting information</a> outlined in our help page. Reach out to <a href="../cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C" format="dita" scope="local"> Adobe Support</a> if none of these approaches work. </p> <p>We also have <a href="../c-experiences/t-form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E" format="dita" scope="local"> form-based approach</a> which can unblock you. </p> <p>Also read when and why the <a href="../c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D" format="dita" scope="local"> Enhanced Experience Composer</a> can be useful. You might have to reach out to your IT department to <a href="../c-experiences/c-visual-experience-composer/c-experience-composebest-practices.md#concept_E284B3F704C04406B174D9050A2528A6" format="dita" scope="local"> whitelist Adobe's proxy servers</a> as well. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>I have a responsive site. While creating an activity, how can I be sure that I am considering key devices? </p> </td> 
@@ -231,11 +231,11 @@ A list of frequently asked questions about using the features in Adobe Target, a
   </tr> 
   <tr> 
    <td colname="col1"> <p>Why don't I see an option to swap images? </p> </td> 
-   <td colname="col2"> <p>Reach out to Adobe to <a href="../administrating-target/t-scene7-settings.md#task_37AD0768EFBA4E588955FE3D5DD670A5" format="dita" scope="local"> ensure that your account is set up for Scene7</a>. Once provisioned, you will be able to swap an image with another image with ease. </p> </td> 
+   <td colname="col2"> <p>Reach out to Adobe to <a href="../administrating-target/scene7-settings.md#task_37AD0768EFBA4E588955FE3D5DD670A5" format="dita" scope="local"> ensure that your account is set up for Scene7</a>. Once provisioned, you will be able to swap an image with another image with ease. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>I want to test between two different experiences, for example Flat discount versus Percentage discount, but I want to target the experiences properly (show different locale text or different currency for people coming from different countries). How can I do this? </p> </td> 
-   <td colname="col2"> <p>You can easily achieve this with our<a href="../c-activities/t-test-ab/t-test-create-ab/t-target-experience-to-multiple-audiences.md#task_0138112E283A4A5B9F8AB9AAF2FBC2FF" format="dita" scope="local"> Multiple Experience Versions feature</a>. Note the nuances around delivery in such tests </p> </td> 
+   <td colname="col2"> <p>You can easily achieve this with our<a href="../c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md#task_0138112E283A4A5B9F8AB9AAF2FBC2FF" format="dita" scope="local"> Multiple Experience Versions feature</a>. Note the nuances around delivery in such tests </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>How can I see what modifications I made in Visual Experience Composer (VEC)? </p> </td> 
@@ -259,11 +259,11 @@ A list of frequently asked questions about using the features in Adobe Target, a
   </tr> 
   <tr> 
    <td colname="col1"> <p>Can I start an activity with a fewer number of visitors. </p> </td> 
-   <td colname="col2"> <p>Use the percentage allocation controls available from<a href="../c-activities/t-test-ab/t-test-create-ab/c-ab-audience.md#concept_A268236C1224451DB7844BF67F41A087" format="dita" scope="local"> Step 2 of the Target three-part guided workflow (Targeting page)</a> to decide how you want to go about setting up the activity. </p> </td> 
+   <td colname="col2"> <p>Use the percentage allocation controls available from<a href="../c-activities/t-test-ab/t-test-create-ab/ab-audience.md#concept_A268236C1224451DB7844BF67F41A087" format="dita" scope="local"> Step 2 of the Target three-part guided workflow (Targeting page)</a> to decide how you want to go about setting up the activity. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>I have set up two activities. Which one a visitor will end up seeing? </p> <p> Can I set the priority order of a few activities? </p> </td> 
-   <td colname="col2"> <p>Use the Priority setting available on Step 3 of the Target three-part guided workflow (Goals and Settings Page) to <a href="../c-activities/t-test-ab/t-test-create-ab/r-ab-goals-and-settings.md#section_DCBDC354261F420EBD4B43EA34947BAC" format="dita" scope="local"> define the priority of the activities</a>. </p> <p>There are two options: </p> <p> 
+   <td colname="col2"> <p>Use the Priority setting available on Step 3 of the Target three-part guided workflow (Goals and Settings Page) to <a href="../c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_DCBDC354261F420EBD4B43EA34947BAC" format="dita" scope="local"> define the priority of the activities</a>. </p> <p>There are two options: </p> <p> 
      <ul id="ul_0616289BFCEA4BBD88CCC9588502C893"> 
       <li id="li_8B39958488F24F36BEB7C3C8D7A3C92C"> <p>Default, with three levels (Low / Medium / High) </p> </li> 
       <li id="li_C5D63C689C3E47E6B2DEC76BFE8665A1"> <p>Custom, with a range from 0 to 999. For Custom, enable the Fine-Grained Priorities feature (<span class="uicontrol"> Setup</span> &gt; <span class="uicontrol"> Preferences</span>). </p> </li> 
@@ -296,7 +296,7 @@ A list of frequently asked questions about using the features in Adobe Target, a
   </tr> 
   <tr> 
    <td colname="col1"> <p>Why is content delivery not happening in my QA process? </p> </td> 
-   <td colname="col2"> <p>It's possible that your site might have dynamic IDs, duplicate IDs, or dynamic classes on elements. You might have to evaluate the site preference options at the account level (or at activity level if the issue is specific to a domain or a page). See "CSS Selectors" in <a href="../administrating-target/r-target-account-preferences/r-target-account-preferences.md#section_8155EDBF449E4198863235F94D1EA872" format="dita" scope="local"> CSS Selectors</a>. </p> </td> 
+   <td colname="col2"> <p>It's possible that your site might have dynamic IDs, duplicate IDs, or dynamic classes on elements. You might have to evaluate the site preference options at the account level (or at activity level if the issue is specific to a domain or a page). See "CSS Selectors" in <a href="../administrating-target/r-target-account-preferences/target-account-preferences.md#section_8155EDBF449E4198863235F94D1EA872" format="dita" scope="local"> CSS Selectors</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Why am I not seeing the desired offer/experience and am instead seeing some other activity? </p> </td> 
@@ -330,7 +330,7 @@ A list of frequently asked questions about using the features in Adobe Target, a
   </tr> 
   <tr> 
    <td colname="col1"> <p>Can I slice and dice the reporting on multiple user segments? </p> </td> 
-   <td colname="col2"> <p> This is where the <a href="../c-activities/t-test-ab/t-test-create-ab/r-ab-goals-and-settings.md#section_13119392051044FBA6387D9B3B1C43CF" format="dita" scope="local"> Audiences for Reporting feature</a> available on the Goals and Settings page in Step 3 of the three-part guided activity workflow comes in. </p> <p>You have option to add 50 such segments and also the application point (Campaign Entry or a specific metric) to have a powerful way to slice and dice. </p> <p>Note that Target collects the data in this regard from the time you add these audiences, so if you miss adding segments before running the test, you are out of luck. </p> </td> 
+   <td colname="col2"> <p> This is where the <a href="../c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_13119392051044FBA6387D9B3B1C43CF" format="dita" scope="local"> Audiences for Reporting feature</a> available on the Goals and Settings page in Step 3 of the three-part guided activity workflow comes in. </p> <p>You have option to add 50 such segments and also the application point (Campaign Entry or a specific metric) to have a powerful way to slice and dice. </p> <p>Note that Target collects the data in this regard from the time you add these audiences, so if you miss adding segments before running the test, you are out of luck. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>I cannot define audiences prior to running the activity. I find this aspect of reporting audiences in Target activities restrictive. </p> <p>What can I do to make this process easier? </p> </td> 
@@ -367,7 +367,7 @@ A list of frequently asked questions about using the features in Adobe Target, a
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Can I perform an integration with a 3rd-party system, such as Google Analytics or ClickTale, to pass the activity information delivered to an end-user for analysis? </p> </td> 
-   <td colname="col2"> <p>We have a solution for that too with our <a href="../administrating-target/c-response-tokens.md#concept_2B21B222F6A344D68CA5929817E836C4" format="dita" scope="local"> Response Tokens feature</a>. </p> </td> 
+   <td colname="col2"> <p>We have a solution for that too with our <a href="../administrating-target/response-tokens.md#concept_2B21B222F6A344D68CA5929817E836C4" format="dita" scope="local"> Response Tokens feature</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -405,7 +405,7 @@ A list of frequently asked questions about using the features in Adobe Target, a
  <tbody> 
   <tr> 
    <td colname="col1"> <p> We have a mobile SKU. Can I create mobile activities? </p> </td> 
-   <td colname="col2"> <p> For optimization and personalization on mobile, you need to use <a href="../c-experiences/t-form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E" format="dita" scope="local"> form-based activities</a> along with the <a href="../c-target-mobile-app/mobile-enable-target-in-sdk.md#task_FCA99AD0785A44E995468776AE76FE91" format="dita" scope="local"> Adobe SDK</a>. Check out more details about <a href="../c-target-mobile-app/c-target-mobile-app.md#concept_80126FF457724DE788CE37264A047559" format="dita" scope="local"> Target for mobile apps</a>. </p> </td> 
+   <td colname="col2"> <p> For optimization and personalization on mobile, you need to use <a href="../c-experiences/t-form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E" format="dita" scope="local"> form-based activities</a> along with the <a href="../c-target-mobile-app/mobile-enable-target-in-sdk.md#task_FCA99AD0785A44E995468776AE76FE91" format="dita" scope="local"> Adobe SDK</a>. Check out more details about <a href="../c-target-mobile-app/target-mobile-app.md#concept_80126FF457724DE788CE37264A047559" format="dita" scope="local"> Target for mobile apps</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

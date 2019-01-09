@@ -47,29 +47,29 @@ There are several types of activities:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p class="- topic/p "> <a href="../c-activities/t-test-ab/t-test-ab.md#task_05E33EB15C4D4459B5EAFF90A94A7977" format="dita" scope="local"> A/B Test</a> </p> </td> 
+   <td colname="col1"> <p class="- topic/p "> <a href="../c-activities/t-test-ab/test-ab.md#task_05E33EB15C4D4459B5EAFF90A94A7977" format="dita" scope="local"> A/B Test</a> </p> </td> 
    <td colname="col2"> <p class="- topic/p ">A/B Testing compares two or more versions of your Web site content to see which version best improves your conversions during a pre-specified test period. </p> <p>The following are two types of A/B tests you can use: </p> 
     <ul id="ul_1A94061695D74ABEADE7C579B1349F09"> 
      <li id="li_97B7AB009C86403AA6ABEECE03B15659"> <p><a href="../c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4" format="dita" scope="local"> Auto-Allocate</a> </p> <p>Auto Allocate identifies a winner among two or more experiences and automatically reallocates more traffic to the winner to increase conversions while the test continues to run and learn. </p> </li> 
-     <li id="li_69D72AECB5524DC0B2C80AE332B5A178"> <p><a href="../c-activities/c-auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3" format="dita" scope="local"> Auto-Target (Target Premium)</a>  
+     <li id="li_69D72AECB5524DC0B2C80AE332B5A178"> <p><a href="../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3" format="dita" scope="local"> Auto-Target (Target Premium)</a>  
      <p>Auto Target uses advanced machine learning to identify multiple high performing marketer-defined experiences, and serves the most tailored experience to each visitor based on their individual customer profile and the behavior of previous visitors with similar profiles, in order to personalize content and drive conversions. </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../c-activities/t-test-ab/t-test-create-ab/t-create-a4t.md#task_FE48F7B077C44A5BA015B087428412EF" format="dita" scope="local"> Using Analytics Data</a> </p> </td> 
+   <td colname="col1"> <p> <a href="../c-activities/t-test-ab/t-test-create-ab/create-a4t.md#task_FE48F7B077C44A5BA015B087428412EF" format="dita" scope="local"> Using Analytics Data</a> </p> </td> 
    <td colname="col2"> <p>You can configure an activity to use <span class="keyword"> Adobe Analytics</span> as the reporting source. This activity type requires that you link your <span class="keyword"> Adobe Experience Cloud</span> account with both <span class="keyword"> Analytics</span> and <span class="keyword"> Target</span>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p class="- topic/p "> <a href="../c-activities/c-multivariate-testing/c-multivariate-testing.md#concept_628695CDC71B449B8DCC2F5654C11499" format="dita" scope="local"> Multivariate Test</a> </p> </td> 
+   <td colname="col1"> <p class="- topic/p "> <a href="../c-activities/c-multivariate-testing/multivariate-testing.md#concept_628695CDC71B449B8DCC2F5654C11499" format="dita" scope="local"> Multivariate Test</a> </p> </td> 
    <td colname="col2"> <p class="- topic/p ">Multivariate Testing (MVT) compares combinations of offers in elements on a page to determine which combination performs the best for a specific audience, and identifies which element most impacts the activity's success. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p class="- topic/p "> <a href="../c-activities/t-experience-target/t-experience-target.md#task_A53DF336CB9F4D7BB87EF2106099EFC4" format="dita" scope="local"> Experience Targeting</a> </p> </td> 
+   <td colname="col1"> <p class="- topic/p "> <a href="../c-activities/t-experience-target/experience-target.md#task_A53DF336CB9F4D7BB87EF2106099EFC4" format="dita" scope="local"> Experience Targeting</a> </p> </td> 
    <td colname="col2"> <p class="- topic/p ">Experience Targeting (XT) delivers content to a specific audience based on a set of marketer-defined rules and criteria. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> <p><img src="help/assets/premium.png"></p>
-   <p><a href="../c-activities/t-automated-personalization/t-automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9" format="dita" scope="local"> Automated Personalization (Target Premium)</a> </p> </td> 
+   <p><a href="../c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9" format="dita" scope="local"> Automated Personalization (Target Premium)</a> </p> </td> 
    <td colname="col2"> <p>Automated Personalization (AP) combines offers or messages, and uses advanced machine learning to match different variations to each visitor based on their individual customer profile, in order to personalize content and drive conversions. </p> </td> 
   </tr> 
   <tr> 

@@ -17,7 +17,7 @@ Auto Allocate identifies a winner among two or more experiences and automaticall
 >
 >Auto-Allocate does not support [!DNL Target for Analytics] (A4T) reporting.
 
-While [creating an A/B activity using the three-step guided workflow](../../c-activities/t-test-ab/t-test-create-ab/t-test-create-ab.md#task_68C8079BF9FF4625A3BD6680D554BB72), you can choose the [!UICONTROL Auto-Allocate to Best Experience] option.
+While [creating an A/B activity using the three-step guided workflow](../../c-activities/t-test-ab/t-test-create-ab/test-create-ab.md#task_68C8079BF9FF4625A3BD6680D554BB72), you can choose the [!UICONTROL Auto-Allocate to Best Experience] option.
 
 ## Training Videos {#section_893E5B36DC4A415C9B1D287F51FCCB83}
 
@@ -62,8 +62,8 @@ Auto-Allocate intelligently allocates new visitors to experiences until the conf
 ## When to Use Auto-Allocate versus A/B or Automated Personalization {#section_3F73B0818A634E4AAAA60A37B502BFF9}
 
 * Use **Auto-Allocate** when you want to optimize your activity from the beginning and identify the winning experiences as quickly as possible. By serving high-performing experiences more often the overall activity performance is increased. 
-* Use a standard **[A/B test](../../c-activities/t-test-ab/t-test-ab.md#task_05E33EB15C4D4459B5EAFF90A94A7977)** when you want to characterize the performance of all experiences before optimizing your site. An A/B test helps you rank all of your experiences, whereas Automated Traffic Allocation finds top performers but does not guarantee differentiation among the lower performers. 
-* Use [Automated Personalization](../../c-activities/t-automated-personalization/t-automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) when you want optimization algorithms of the highest complexity, such as machine-learning models that build predictions based on individual profile attributes. Automated Traffic Allocation looks at the aggregate behavior of experiences (just like standard A/B tests), and doesn't differentiate between visitors.
+* Use a standard **[A/B test](../../c-activities/t-test-ab/test-ab.md#task_05E33EB15C4D4459B5EAFF90A94A7977)** when you want to characterize the performance of all experiences before optimizing your site. An A/B test helps you rank all of your experiences, whereas Automated Traffic Allocation finds top performers but does not guarantee differentiation among the lower performers. 
+* Use [Automated Personalization](../../c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) when you want optimization algorithms of the highest complexity, such as machine-learning models that build predictions based on individual profile attributes. Automated Traffic Allocation looks at the aggregate behavior of experiences (just like standard A/B tests), and doesn't differentiate between visitors.
 
 ## Key Benefits {#section_0913BF06F73C4794862561388BBDDFF0}
 
@@ -146,7 +146,7 @@ The illustration shows how the traffic allocated to each experience progresses o
   </tr> 
   <tr> 
    <td colname="col1"> <p><img id="image_E34C5278F17945379811E8B9568A4BA7" src="assets/aa-phase-n.png" /> </p> </td> 
-   <td colname="col2"> <p><b>Round <i>n</i>:</b> As the activity progresses, a high-performing experience starts to emerge and the process continues until there is a winning experience. When the confidence interval of the experience with the highest conversion rate doesn't overlap with any other experience's confidence interval, it is labeled the winner and a <a href="../../c-activities/automated-traffic-allocation/c-determine-winner.md#concept_5741A89ED7224E1285A3BC34B2CCD0F9" format="dita" scope="local"> badge displays on the activity's page</a> and in the Activity list. </p> <p> 
+   <td colname="col2"> <p><b>Round <i>n</i>:</b> As the activity progresses, a high-performing experience starts to emerge and the process continues until there is a winning experience. When the confidence interval of the experience with the highest conversion rate doesn't overlap with any other experience's confidence interval, it is labeled the winner and a <a href="../../c-activities/automated-traffic-allocation/determine-winner.md#concept_5741A89ED7224E1285A3BC34B2CCD0F9" format="dita" scope="local"> badge displays on the activity's page</a> and in the Activity list. </p> <p> 
      <ul id="ul_6F0D50E969E4450595E964C22CDE9635"> 
       <li id="li_96093AC2B40547D7A28483DEF142B195"> <p>The algorithm picks experience C as the clear winner. </p> </li> 
      </ul> </p> <p>At this point the algorithm serves 80% of traffic to experience C, while 20% of traffic continues to be served randomly to all experiences (A, B, C, and D). In total, C gets 85% of traffic. In the unlikely event that the confidence interval of the winner begins to overlap again, the algorithm reverts to the behavior of round 4 above. </p> <p> <p>Important:  If you manually chose a winner earlier in the process, it would have been easy to choose the wrong experience. For this reason, it is best practice to wait until the algorithm determines the winning experience. </p> </p> </td> 

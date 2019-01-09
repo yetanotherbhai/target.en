@@ -42,7 +42,7 @@ The content that displays to visitors depends on the type of activity you create
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><a href="../c-activities/t-test-ab/t-test-create-ab/t-test-create-ab.md#task_68C8079BF9FF4625A3BD6680D554BB72" format="dita" scope="local"> Create an A/B Test</a> </p> </td> 
+   <td colname="col1"> <p><a href="../c-activities/t-test-ab/t-test-create-ab/test-create-ab.md#task_68C8079BF9FF4625A3BD6680D554BB72" format="dita" scope="local"> Create an A/B Test</a> </p> </td> 
    <td colname="col2"> <p>The content that displays in a basic A/B test is randomly chosen from the assets you assign to the activity, according to the percentages you choose for each experience. As a result of this random splitting of traffic, it can take a lot of initial traffic before the percentages even out. For example, if you create two experiences, the starting experience is chosen randomly. If there is little traffic, it's possible that the percentage of visitors can be skewed toward one experience. As traffic increases, the percentages should become more equal. </p> <p>You can specify percentage targets for each experience. In this case, a random number is generated and that number is used to choose the experience to display. The resulting percentages might not exactly match the specified targets, but more traffic means that the experiences should be split closer to the target goals. </p> <p class="- topic/p "> 
      <ol class="- topic/ol " id="ol_074AC9DDC5604981AA883F0CC5107391"> 
       <li class="- topic/li " id="li_7DC54492E73F431FBA7ED0CF93CB7A77"> A customer requests a page from your server and it displays in the browser. </li> 
@@ -56,19 +56,19 @@ The content that displays to visitors depends on the type of activity you create
    <td colname="col2"> <p>Auto Allocate identifies a winner among two or more experiences and automatically reallocates more traffic to the winning experience to increase conversions while the test continues to run and learn. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><a href="../c-activities/c-auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3" format="dita" scope="local"> Auto-Target</a> </p> </td> 
+   <td colname="col1"> <p><a href="../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3" format="dita" scope="local"> Auto-Target</a> </p> </td> 
    <td colname="col2"> <p>Auto-Target uses advanced machine learning to select from multiple high-performing marketer-defined experiences, and serves the most tailored experience to each visitor based on his or her individual customer profile and the behavior of previous visitors with similar profiles, in order to personalize content and drive conversions. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><a href="../c-activities/t-automated-personalization/t-automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9" format="dita" scope="local"> Automated Personalization</a> </p> </td> 
+   <td colname="col1"> <p><a href="../c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9" format="dita" scope="local"> Automated Personalization</a> </p> </td> 
    <td colname="col2"> <p>Automated Personalization (AP) combines offers or messages, and uses advanced machine learning to match different offer variations to each visitor based on their individual customer profile, in order to personalize content and drive lift. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><a href="../c-activities/t-experience-target/t-experience-target.md#task_A53DF336CB9F4D7BB87EF2106099EFC4" format="dita" scope="local"> Experience Targeting</a> </p> </td> 
+   <td colname="col1"> <p><a href="../c-activities/t-experience-target/experience-target.md#task_A53DF336CB9F4D7BB87EF2106099EFC4" format="dita" scope="local"> Experience Targeting</a> </p> </td> 
    <td colname="col2"> <p>Experience Targeting (XT) delivers content to a specific audience based on a set of marketer-defined rules and criteria. </p> <p>Experience Targeting, including geotargeting, is valuable for defining rules that target a specific experience or content to a particular audience. Several rules can be defined in an activity to deliver different content variations to different audiences. When visitors view your site, Experience Targeting (XT) evaluates them to determine whether they meet the criteria you set. If they meet the criteria, they enter the activity and the experience designed for qualifying audiences is displayed. You can create experiences for multiple audiences within a single activity. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><a href="../c-activities/c-multivariate-testing/c-multivariate-testing.md#concept_628695CDC71B449B8DCC2F5654C11499" format="dita" scope="local"> Multivariate Test</a> </p> </td> 
+   <td colname="col1"> <p><a href="../c-activities/c-multivariate-testing/multivariate-testing.md#concept_628695CDC71B449B8DCC2F5654C11499" format="dita" scope="local"> Multivariate Test</a> </p> </td> 
    <td colname="col2"> <p>Multivariate Testing (MVT) compares combinations of offers in elements on a page to determine which combination performs the best for a specific audience, and identifies which element most impacts the activity's success. </p> </td> 
   </tr> 
   <tr> 

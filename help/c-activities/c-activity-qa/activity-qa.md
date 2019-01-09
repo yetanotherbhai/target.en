@@ -21,7 +21,7 @@ Activity QA lets you fully test your Target activities prior to launching them l
 * Audience conditions optionally respected so marketers can test targeting criteria or ignore targeting criteria to QA the appearance of experiences without having to meet the audience conditions 
 * QA reporting is captured so that marketers can confirm that metrics are incrementing as expected and the QA report data is kept separate from production reporting (for non-A4T reporting) 
 * The ability to preview an experience in isolation or in conjunction with other live activities satisfying the delivery criteria (page/mbox/audience). 
-* The ability to QA the entire "user journey." You can access your site once with the QA link and then browse the entire site while in Activity QA. You remain in Activity QA until you end the session or until you use the [QA Target bookmarklet](../../c-activities/c-activity-qa/c-activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879) to force yourself out of Activity QA. This feature is particularly useful if you have an activity spanning multiple web pages.
+* The ability to QA the entire "user journey." You can access your site once with the QA link and then browse the entire site while in Activity QA. You remain in Activity QA until you end the session or until you use the [QA Target bookmarklet](../../c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879) to force yourself out of Activity QA. This feature is particularly useful if you have an activity spanning multiple web pages.
 
 ## Accessing and Sharing a QA URL {#section_1C59BAA247B247BDB125D1BE8EAD4547}
 
@@ -41,7 +41,7 @@ Activity QA lets you fully test your Target activities prior to launching them l
 
       If this setting is toggled to "off," consider the following:
 
-        * If there are collisions between the activity you are testing and other live activities, [normal priority rules](../../c-activities/c-priority.md#concept_1780C11FEA57440499F0047DD6900E0F) apply. Because of this, it is possible you won't see the activity you are intending to QA. 
+        * If there are collisions between the activity you are testing and other live activities, [normal priority rules](../../c-activities/priority.md#concept_1780C11FEA57440499F0047DD6900E0F) apply. Because of this, it is possible you won't see the activity you are intending to QA. 
         * Metrics increment for the viewed activities, but only in the QA reporting environment.
 
 1. Click **[!UICONTROL Done]** to save your changes. 
@@ -55,12 +55,12 @@ Activity QA lets you fully test your Target activities prior to launching them l
 
 ## Considerations {#section_B256EDD7BFEC4A6DA72A8A6ABD196D78}
 
-* The [!UICONTROL Activity QA] link displays on the [!UICONTROL Overview] page of all activity types except for Automated Personalization (AP). You can use [Preview links](../../c-activities/t-automated-personalization/t-experience-preview.md#task_586C6655A6FD4AF08F5678FC3F481EFC) for AP activities. 
+* The [!UICONTROL Activity QA] link displays on the [!UICONTROL Overview] page of all activity types except for Automated Personalization (AP). You can use [Preview links](../../c-activities/t-automated-personalization/experience-preview.md#task_586C6655A6FD4AF08F5678FC3F481EFC) for AP activities. 
 * Activity QA URLs are available with activities with Analytics as the reporting source (A4T). Hits generated while performing QA using Activity QA will flow to the same report suite where the activity's data will flow even after the activity goes live. 
 * Activity QA does not display content for archived activities or activities that are past their end dates. If you deactivate an ended activity, you must save the activity again for Activity QA to work. 
 * Activities imported into Target Standard/Premium (from Target Classic, for example) do not support QA URLs. 
 * In Auto-Allocate, Auto-Target, and Recommendations activities, the model will not be affected by the visits captured in Activity QA. 
-* Because Activity QA is sticky, after you browse a website in Activity QA, your Target session must expire or you need to have Target release you from Activity QA before you can view your site like a typical visitor. Use the [Target QA bookmarklet](../../c-activities/c-activity-qa/c-activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879) to force yourself out of Activity QA.
+* Because Activity QA is sticky, after you browse a website in Activity QA, your Target session must expire or you need to have Target release you from Activity QA before you can view your site like a typical visitor. Use the [Target QA bookmarklet](../../c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879) to force yourself out of Activity QA.
 
   You can also manually force yourself out by loading a page on your site with the `at_preview_token` parameter with an empty value (for example, `https://www.mysite.com/?at_preview_token=`). 
 

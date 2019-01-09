@@ -14,7 +14,7 @@ A successful A/B test requires an adequate number of visitors (sample size) to i
 
 It is tempting to stop an activity if one of the offers performs much better or worse than the others in the first few days of the activity. However, when the number of observations is low, there is a high likelihood that a positive or negative lift is observed by chance because the conversion rate is averaged over a low number of visitors. As the activity collects more data points, the conversion rates converge toward their true long-term values.
 
-Stopping an activity prematurely is one of the nine significant pitfalls that you might fall prey to when performing A/B testing. For more information, see [Nine common A/B testing pitfalls and how to avoid them](../../c-activities/t-test-ab/c-common-ab-testing-pitfalls.md#concept_578A7947C9554868B30F12DFF9E3F8E3).
+Stopping an activity prematurely is one of the nine significant pitfalls that you might fall prey to when performing A/B testing. For more information, see [Nine common A/B testing pitfalls and how to avoid them](../../c-activities/t-test-ab/common-ab-testing-pitfalls.md#concept_578A7947C9554868B30F12DFF9E3F8E3).
 
 Target provides tools to help ensure that your activity has a large enough sample size to achieve your conversion goals:
 

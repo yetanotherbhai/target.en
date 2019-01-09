@@ -21,8 +21,8 @@ Use the Visual Experience Composer to create an Experience Targeting activity on
    >
    >The available activity types depend on your Target account. Some activity types might not appear in your list.
 
-   For information about the activity types, see [Activities](../../../c-activities/c-activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03). 
-1. Enter your [activity URL](../../../c-activities/t-experience-target/t-xt-create/c-xt-activity-url.md#concept_D28549AAA0A14E3BB5F05F32BE8ABC90), then click **[!UICONTROL Next]**.
+   For information about the activity types, see [Activities](../../../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03). 
+1. Enter your [activity URL](../../../c-activities/t-experience-target/t-xt-create/xt-activity-url.md#concept_D28549AAA0A14E3BB5F05F32BE8ABC90), then click **[!UICONTROL Next]**.
 
    ![](assets/form_url.png)
 
@@ -82,7 +82,7 @@ Use the Visual Experience Composer to create an Experience Targeting activity on
     </tbody> 
     </table>
 
-1. [Create any new experiences](../../../c-activities/t-experience-target/t-xt-create/t-xt-add-experience.md#task_454646F2895242D3B92DC395A0CE1A00) by changing the elements on the page.
+1. [Create any new experiences](../../../c-activities/t-experience-target/t-xt-create/xt-add-experience.md#task_454646F2895242D3B92DC395A0CE1A00) by changing the elements on the page.
 
    The Experience Composer (see [Experiences](../../../c-experiences/experiences.md#concept_1D011219034B492BB03C08B3BB80E3F0)) opens the page that is specified in your Account Preferences. To display a different page, click the Globe icon and enter the URL in the Select URL box in the Experience Composer and click **[!UICONTROL Continue]**. If you entered a URL for a site that does not include the Target Standard JavaScript code, you cannot select page elements.
 
@@ -135,7 +135,7 @@ Use the Visual Experience Composer to create an Experience Targeting activity on
    ![](assets/xt_add_xt.png)
 
    Click **[!UICONTROL Continue]** when you are finished with this step. 
-1. Specify the [goals and settings](../../../c-activities/t-experience-target/t-xt-create/r-xt-goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC) for the activity.
+1. Specify the [goals and settings](../../../c-activities/t-experience-target/t-xt-create/xt-goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC) for the activity.
 
    ![](assets/xt_settings.png)
 

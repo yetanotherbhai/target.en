@@ -18,11 +18,11 @@ Two specialized reports are available to users of Automated Personalization (AP)
 >
 >* AP and AT activities are available as part of the [!DNL Target Premium] solution. They are not included with [!DNL Target Standard] without a [!DNL Target Premium] license.
 >* Personalization Insights reports are available only for AP and AT activities that use a conversion optimization goal. Activities where the optimization goal was changed to conversion from revenue after the activity was already live are also not supported.
->* Personalization Insights reports are supported in the [default environment](../../administrating-target/c-hosts.md) only.
+>* Personalization Insights reports are supported in the [default environment](../../administrating-target/hosts.md) only.
 
 ## Personalization Insights Reporting Overview {#section_B47CD4A50FEB43D587F9FACD9FFD6D9D}
 
-The goal of the [!UICONTROL Personalization Insights] reports is to provide more information on how the Target personalization models behind your AP and AT activities personalize visitor traffic. The [Random Forest algorithm](/help/c-activities/t-automated-personalization/c-algo-random-forest.md) is the basis for Target's personalization models.
+The goal of the [!UICONTROL Personalization Insights] reports is to provide more information on how the Target personalization models behind your AP and AT activities personalize visitor traffic. The [Random Forest algorithm](/help/c-activities/t-automated-personalization/algo-random-forest.md) is the basis for Target's personalization models.
 
 Because the goal of the Personalization Insights reports is to understand how Target's personalization models decided to send which visitor to what piece(s) of content, the Personalization Insights reports reflect only a sub-segment of all the traffic served by your AP or AT activity. Specifically, the two reports are reflective of all traffic that used the personalization model. In other words, Personalization Insights reports do not consider control traffic or traffic that is served by the overall winner model.
 
@@ -51,8 +51,8 @@ There are two reports available in:
 
 There are two types of attributes represented in [!UICONTROL Personalization Insights] reports that are used in your AP or Auto Target models:
 
-* **Attributes automatically collected by Target:** Target uses a base data set to build its personalization algorithms in AP and AT activities that are reflected in Personalization Insights. See [Data Collection for Target's Personalization Algorithms](../../c-activities/t-automated-personalization/r-ap-data.md#reference_255BD3DE7AD04DC9B766E0BC78961058) for data types, example attributes, and their [!UICONTROL Personalization Insights] naming convention. Note that although these attributes are considered, an individual activity’s models might not use all of these attributes in the final model. 
-* **Attributes passed to Target:** See [Uploading Data for the Target Personalization Algorithms](../../c-activities/t-automated-personalization/c-uploading-data-for-the-target-personalization-algorithms.md#concept_85EA505B37E54514A1C8AB91553FEED6).
+* **Attributes automatically collected by Target:** Target uses a base data set to build its personalization algorithms in AP and AT activities that are reflected in Personalization Insights. See [Data Collection for Target's Personalization Algorithms](../../c-activities/t-automated-personalization/ap-data.md#reference_255BD3DE7AD04DC9B766E0BC78961058) for data types, example attributes, and their [!UICONTROL Personalization Insights] naming convention. Note that although these attributes are considered, an individual activity’s models might not use all of these attributes in the final model. 
+* **Attributes passed to Target:** See [Uploading Data for the Target Personalization Algorithms](../../c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md#concept_85EA505B37E54514A1C8AB91553FEED6).
 
 Target provides many ways for you to pass in additional data to Target to enrich the base data set used to build its personalization algorithms in AP and AT activities:
 

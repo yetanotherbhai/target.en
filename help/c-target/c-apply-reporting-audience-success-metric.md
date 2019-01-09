@@ -20,7 +20,7 @@ For example, suppose you have created an activity for all visitors entering from
 
 The Applied At drop-down list potentially provides three categories: any visitors to the activity, only visitors who reach a certain step in the activity, or only visitors who reach conversion. Or, to phrase it another way, you can specify that a visitor must have reached an mbox on the entry page of the activity, an mbox that defines some point in the middle of the activity, or the conversion mbox at the end of the activity.
 
-[Success metrics](../c-activities/r-success-metrics/r-success-metrics.md#reference_D011575C85DA48E989A244593D9B9924) are available only if you have configured them for your activity. If you have not defined success metrics, you'll see only two options from the drop-down list: Campaign Entry and Conversion.
+[Success metrics](../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924) are available only if you have configured them for your activity. If you have not defined success metrics, you'll see only two options from the drop-down list: Campaign Entry and Conversion.
 
 Consider the following information when applying a reporting audience to a success metric:
 
