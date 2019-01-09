@@ -99,7 +99,7 @@ If you are creating a Recommendations activity, there are no experiences. Choose
 1. (Optional, for AB activities, Automated Personalization, and Experience Targeting) To repeat this process for additional locations, click `Add Location` and configure the location and content.
 1. Click **[!UICONTROL Continue]**, then complete the activity creation steps as usual for your activity type.
 
-* [Create an A/B Test](../c-activities/t-test-ab/t-test-create-ab/t-test-create-ab.md#task_68C8079BF9FF4625A3BD6680D554BB72) 
-* [Create an Experience Targeting Activity](../c-activities/t-experience-target/t-xt-create/t-xt-create.md#task_D6B3429AC31549E1A70EDF04B3DDC765) 
+* [Create an A/B Test](../c-activities/t-test-ab/t-test-create-ab/test-create-ab.md#task_68C8079BF9FF4625A3BD6680D554BB72) 
+* [Create an Experience Targeting Activity](../c-activities/t-experience-target/t-xt-create/xt-create.md#task_D6B3429AC31549E1A70EDF04B3DDC765) 
 * [Create a Recommendations Activity](../c-recommendations/t-create-recs-activity/t-create-recs-activity.md#task_6874328773C64C44A73F0A130AD3F96F)
 

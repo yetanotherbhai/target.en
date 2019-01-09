@@ -14,4 +14,4 @@ Adobe Target helps test, personalize, and optimize mobile app experiences based 
 
 For more information about implementing Target on mobile apps, see the new [Adobe Experience Platform SDK for Mobile Apps](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-target) (SDK 5.x).
 
-If you are leveraging the SDK 4.x, see [Target for Mobile Apps](../c-target-mobile-app/c-target-mobile-app.md#concept_80126FF457724DE788CE37264A047559). 
+If you are leveraging the SDK 4.x, see [Target for Mobile Apps](../c-target-mobile-app/target-mobile-app.md#concept_80126FF457724DE788CE37264A047559). 

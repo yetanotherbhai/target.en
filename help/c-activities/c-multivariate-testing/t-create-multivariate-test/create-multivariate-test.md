@@ -29,7 +29,7 @@ The multivariate test takes a page-first report. In other words, the test runs o
 
    ![](assets/create_mvt.png)
 
-1. [Specify the URL](../../../c-activities/c-multivariate-testing/t-create-multivariate-test/c-url.md#concept_C12E4A85FF3B4E518E3110F6CF1AF9C0) for the page you want to test, then click **[!UICONTROL Create Activity]**.
+1. [Specify the URL](../../../c-activities/c-multivariate-testing/t-create-multivariate-test/url.md#concept_C12E4A85FF3B4E518E3110F6CF1AF9C0) for the page you want to test, then click **[!UICONTROL Create Activity]**.
 
    ![](assets/url.png)
 
@@ -91,7 +91,7 @@ The multivariate test takes a page-first report. In other words, the test runs o
     </tbody> 
     </table>
 
-1. [Create the offers in each location](../../../c-activities/c-multivariate-testing/t-create-multivariate-test/c-add-offers.md#concept_DCE6B45C30F7419B8EC17AFDEE8D8AA6).
+1. [Create the offers in each location](../../../c-activities/c-multivariate-testing/t-create-multivariate-test/add-offers.md#concept_DCE6B45C30F7419B8EC17AFDEE8D8AA6).
 
    ![](assets/editoffers.png)
 
@@ -101,12 +101,12 @@ The multivariate test takes a page-first report. In other words, the test runs o
     * Image 
     * Text
 
-1. [Preview your experiences](../../../c-activities/c-multivariate-testing/t-create-multivariate-test/t-preview-experiences.md#task_21A700587E88453A9FC2210C0DE53A28).
+1. [Preview your experiences](../../../c-activities/c-multivariate-testing/t-create-multivariate-test/preview-experiences.md#task_21A700587E88453A9FC2210C0DE53A28).
 
    ![](assets/preview.png)
 
    You can view each experience, and exclude any you do not want to include in your test. 
-1. [Use the Traffic Estimator](../../../c-activities/c-multivariate-testing/t-create-multivariate-test/t-traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714) to test the feasibility of your test plan.
+1. [Use the Traffic Estimator](../../../c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714) to test the feasibility of your test plan.
 
    ![](assets/estimator.png)  ![](assets/estimator2.png)
 
@@ -120,11 +120,11 @@ The multivariate test takes a page-first report. In other words, the test runs o
    >
    >In addition to selecting an existing audience, you can combine multiple audiences to create ad hoc combined audiences rather than creating a new audience. For more information, see [Combining Multiple Audiences](../../../c-target/c-combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5).
 
-1. [Review the test summary](../../../c-activities/c-multivariate-testing/t-create-multivariate-test/r-test-summary.md#reference_971AB225963A4DC18EEB5B0E20F0A4A7) and make any desired changes, then click **[!UICONTROL Next]**..
+1. [Review the test summary](../../../c-activities/c-multivariate-testing/t-create-multivariate-test/test-summary.md#reference_971AB225963A4DC18EEB5B0E20F0A4A7) and make any desired changes, then click **[!UICONTROL Next]**..
 
    ![](assets/mvtflow.png)
 
-1. [Specify the goals and settings](../../../c-activities/c-multivariate-testing/t-create-multivariate-test/r-goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC) for the test.
+1. [Specify the goals and settings](../../../c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC) for the test.
 
    ![](assets/settings.png)
 

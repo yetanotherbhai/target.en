@@ -19,7 +19,7 @@ The Visual Experience Composer (VEC) for Native Mobile Apps lets you create acti
 
 ## Overview {#section_C94BC5378FE8440F8C58D96575562EE4}
 
-The existing [Visual Experience Composer](../../c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) gives you a do-it-yourself capability to create activities and personalize experiences that can be dynamically delivered to your web properties via Target's Global Mbox without any developer intervention. You can now take advantage of the VEC to do the same for native mobile applications. The Mobile VEC can be used to create [A/B Test](../../c-activities/t-test-ab/t-test-ab.md#task_05E33EB15C4D4459B5EAFF90A94A7977) and [Experience Targeting (XT)](../../c-activities/t-experience-target/t-experience-target.md#task_A53DF336CB9F4D7BB87EF2106099EFC4) activities for mobile apps. Support for other activity types will be available in the future.
+The existing [Visual Experience Composer](../../c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) gives you a do-it-yourself capability to create activities and personalize experiences that can be dynamically delivered to your web properties via Target's Global Mbox without any developer intervention. You can now take advantage of the VEC to do the same for native mobile applications. The Mobile VEC can be used to create [A/B Test](../../c-activities/t-test-ab/test-ab.md#task_05E33EB15C4D4459B5EAFF90A94A7977) and [Experience Targeting (XT)](../../c-activities/t-experience-target/experience-target.md#task_A53DF336CB9F4D7BB87EF2106099EFC4) activities for mobile apps. Support for other activity types will be available in the future.
 
 The Mobile VEC supports the browsers listed in [Target Standard/Premium Interface in Supported Browsers](../../c-implementing-target/c-considerations-before-you-implement-target/r-supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100).
 
@@ -142,7 +142,7 @@ The following illustration represents the process of using the Mobile VEC:
   </tr> 
   <tr> 
    <td colname="col1"> <p>Authoring </p> </td> 
-   <td colname="col2"> <p>Author a <a href="../../c-activities/c-activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03" format="dita" scope="local"> Target activity</a>, with real-time preview of actions performed in the Target UI. </p> </td> 
+   <td colname="col2"> <p>Author a <a href="../../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03" format="dita" scope="local"> Target activity</a>, with real-time preview of actions performed in the Target UI. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Delivery </p> </td> 
@@ -194,7 +194,7 @@ After the app is connected and a real-time view of the app appears in the VEC, y
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Swap Image </p> </td> 
-   <td colname="col2"> <p>Replace an image in the app with an alternate image. These images will be served via <a href="../../administrating-target/t-scene7-settings.md#task_37AD0768EFBA4E588955FE3D5DD670A5" format="dita" scope="local"> Adobe Scene7</a>. </p> </td> 
+   <td colname="col2"> <p>Replace an image in the app with an alternate image. These images will be served via <a href="../../administrating-target/scene7-settings.md#task_37AD0768EFBA4E588955FE3D5DD670A5" format="dita" scope="local"> Adobe Scene7</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Change Text </p> </td> 
@@ -232,7 +232,7 @@ Note that each time Target offers are prefetched, the offers for the last Target
 ## Known Limitations {#section_DF5148F9CFEB48AF9187F38175D7DEF2}
 
 * Although the normal UI can be targeted with the current implementation, Target View cannot be defined for dialog boxes and alerts. In Android, support for dialog boxes and Alert Target Views will be added into the full release. 
-* The Mobile VEC can currently be used to create [A/B Test](../../c-activities/t-test-ab/t-test-ab.md#task_05E33EB15C4D4459B5EAFF90A94A7977) and [Experience Targeting](../../c-activities/t-experience-target/t-experience-target.md#task_A53DF336CB9F4D7BB87EF2106099EFC4) (XT) activities for Mobile Apps. Support for other activity types will be available in the future. 
+* The Mobile VEC can currently be used to create [A/B Test](../../c-activities/t-test-ab/test-ab.md#task_05E33EB15C4D4459B5EAFF90A94A7977) and [Experience Targeting](../../c-activities/t-experience-target/experience-target.md#task_A53DF336CB9F4D7BB87EF2106099EFC4) (XT) activities for Mobile Apps. Support for other activity types will be available in the future. 
 * While authoring your activity in the Mobile VEC, currently the Swap Image and Change Text actions are supported. Support for other actions will be available in the future. 
 * You must close the mobile app from the recent apps section and not by pressing the [!UICONTROL Back] button while trying to reconnect the app to the Mobile VEC.
 

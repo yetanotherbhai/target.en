@@ -52,14 +52,14 @@ For tasks performed in the Adobe Admin Console, access the console by following 
 
 All user management must be performed in the [!DNL Adobe Admin Console for Enterprise]. However, all of your existing users in [!DNL Target] will be migrated from [!DNL Target] to the [!DNL Admin Console for Enterprise].
 
-1. [In the Admin Console](../../../administrating-target/c-user-management/c-user-management/c-user-management.md#section_79796E0227D048F59BAE0AB02E544EBE), click **[!UICONTROL User Management]** > **[!UICONTROL Users]** to create new users or to edit existing users. 
+1. [In the Admin Console](../../../administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE), click **[!UICONTROL User Management]** > **[!UICONTROL Users]** to create new users or to edit existing users. 
 1. Follow the instructions in [Manage Users and Groups in the Experience Cloud](https://helpx.adobe.com/enterprise/help/users.html) in the *Enterprise User Guide*.
 
 ## Create User Groups {#section_5F5CB9AA7A9F4D26953E22016DA59605}
 
 You can create user groups, such as Developers, Analysts, Marketers, Executives, etc., and then assign privileges across multiple Adobe products and workspaces. Assigning a new team member all the appropriate privileges across different Adobe products can be as easy as adding them to a specific user group.
 
-1. [In the Admin Console](../../../administrating-target/c-user-management/c-user-management/c-user-management.md#section_79796E0227D048F59BAE0AB02E544EBE), click **[!UICONTROL User Management]** > **[!UICONTROL User Groups]** to create new user groups or to edit existing groups. 
+1. [In the Admin Console](../../../administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE), click **[!UICONTROL User Management]** > **[!UICONTROL User Groups]** to create new user groups or to edit existing groups. 
 1. Follow the instructions in [Manage Users and Groups in the Experience Cloud](https://helpx.adobe.com/enterprise/help/users.html) in the *Enterprise User Guide*.
 
 ## Specify Roles and Permissions {#section_8C425E43E5DD4111BBFC734A2B7ABC80}
@@ -68,7 +68,7 @@ Only system admins can set user roles in Target. For example, a Standard approve
 
 System admin users must add users to the system. Users are not automatically added. They are invited by email from the Experience Cloud and must confirm their email addresses before their accounts are registered.
 
-1. [In the Admin Console](../../../administrating-target/c-user-management/c-user-management/c-user-management.md#section_79796E0227D048F59BAE0AB02E544EBE), click **[!UICONTROL Products]**, then select the name of the desired product.
+1. [In the Admin Console](../../../administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE), click **[!UICONTROL Products]**, then select the name of the desired product.
 
    ![](assets/workspace.png)
 

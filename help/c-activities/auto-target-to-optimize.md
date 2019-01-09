@@ -19,7 +19,7 @@ Auto-Target uses advanced machine learning to select from multiple high-performi
 >
 >Auto-Target is available as part of the [!DNL Target Premium] solution. This feature is not available in [!DNL Target Standard] without a [!DNL Target Premium] license.
 
-While [creating an A/B activity using the three-step guided workflow](../c-activities/t-test-ab/t-test-create-ab/t-test-create-ab.md#task_68C8079BF9FF4625A3BD6680D554BB72), you can choose to allocate traffic using the [!UICONTROL Auto-Target For Personalized Experiences] option:
+While [creating an A/B activity using the three-step guided workflow](../c-activities/t-test-ab/t-test-create-ab/test-create-ab.md#task_68C8079BF9FF4625A3BD6680D554BB72), you can choose to allocate traffic using the [!UICONTROL Auto-Target For Personalized Experiences] option:
 
 ![](assets/auto-target-ui.png)
 
@@ -57,7 +57,7 @@ The following terms are useful when discussing Auto-Target:
 |  Term  | Definition  |
 |---|---|
 |  Multi-armed bandit  | A multi-armed bandit approach to optimization balances exploratory learning and exploitation of that learning.  |
-|  Random Forest  |Random Forest is a leading machine learning approach. In data-science speak, it is an ensemble classification, or regression method, that works by constructing a large number of decision trees based on visitor and visit attributes. Within Target, Random Forest is used to determine which experience is expected to have the highest likelihood of conversion (or highest revenue per visit) for each specific visitor. For more information about Random Forest in Target, see [Random Forest Algorithm](../c-activities/t-automated-personalization/c-algo-random-forest.md#concept_48F3CDAA16A848D2A84CDCD19DAAE3AA).  |
+|  Random Forest  |Random Forest is a leading machine learning approach. In data-science speak, it is an ensemble classification, or regression method, that works by constructing a large number of decision trees based on visitor and visit attributes. Within Target, Random Forest is used to determine which experience is expected to have the highest likelihood of conversion (or highest revenue per visit) for each specific visitor. For more information about Random Forest in Target, see [Random Forest Algorithm](../c-activities/t-automated-personalization/algo-random-forest.md#concept_48F3CDAA16A848D2A84CDCD19DAAE3AA).  |
 |  Thompson Sampling  |The goal of Thompson Sampling is to determine which experience is the best overall (non-personalized), while minimizing the “cost” of finding that experience. Thompson sampling always picks a winner, even if there is no statistical difference between two experiences. For more information, see [Thompson Sampling](https://en.wikipedia.org/wiki/Thompson_sampling).  |
 
 ## How Auto-Target Works {#section_77240E2DEB7D4CD89F52BE0A85E20136}
@@ -73,15 +73,15 @@ Learn more about the data and algorithms underlying Auto-Target and Automated Pe
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><a href="../c-activities/t-automated-personalization/c-algo-random-forest.md#concept_48F3CDAA16A848D2A84CDCD19DAAE3AA" format="dita" scope="local"> Random Forest Algorithm</a> </p> </td> 
+   <td colname="col1"> <p><a href="../c-activities/t-automated-personalization/algo-random-forest.md#concept_48F3CDAA16A848D2A84CDCD19DAAE3AA" format="dita" scope="local"> Random Forest Algorithm</a> </p> </td> 
    <td colname="col2"> <p>Target's main personalization algorithm used in both Auto-Target and Automated Personalization is Random Forest. Ensemble methods like Random Forest use multiple learning algorithms to obtain better predictive performance than could be obtained from any of the constituent learning algorithms. The Random Forest algorithm in the automated personalization system is a classification, or regression method, that operates by constructing a multitude of decision trees at training time. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><a href="../c-activities/t-automated-personalization/c-uploading-data-for-the-target-personalization-algorithms.md#concept_85EA505B37E54514A1C8AB91553FEED6" format="dita" scope="local"> Uploading Data For Target's Personalization Algorithms</a> </p> </td> 
+   <td colname="col1"> <p><a href="../c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md#concept_85EA505B37E54514A1C8AB91553FEED6" format="dita" scope="local"> Uploading Data For Target's Personalization Algorithms</a> </p> </td> 
    <td colname="col2"> There are several ways to input data for Auto-Target and Automated Personalization models. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><a href="../c-activities/t-automated-personalization/r-ap-data.md#reference_255BD3DE7AD04DC9B766E0BC78961058" format="dita" scope="local"> Data Collection for Target's Personalization Algorithms</a> </p> </td> 
+   <td colname="col1"> <p><a href="../c-activities/t-automated-personalization/ap-data.md#reference_255BD3DE7AD04DC9B766E0BC78961058" format="dita" scope="local"> Data Collection for Target's Personalization Algorithms</a> </p> </td> 
    <td colname="col2"> <p> Target's personalization algorithms automatically collect a variety of data. </p> </td> 
   </tr> 
  </tbody> 
@@ -172,7 +172,7 @@ There are several scenarios where you might prefer to use Auto-Target over Autom
 
 **Target automatically collects information about visitors to build the personalization models.**
 
-* For more information about the parameters used in Auto-Target and Automated Personalization, see [Automated Personalization Data Collection](../c-activities/t-automated-personalization/r-ap-data.md#reference_255BD3DE7AD04DC9B766E0BC78961058).
+* For more information about the parameters used in Auto-Target and Automated Personalization, see [Automated Personalization Data Collection](../c-activities/t-automated-personalization/ap-data.md#reference_255BD3DE7AD04DC9B766E0BC78961058).
 
 **Target automatically uses all Experience Cloud shared audiences to build the personalization models.**
 
@@ -180,7 +180,7 @@ There are several scenarios where you might prefer to use Auto-Target over Autom
 
 **Marketers can upload offline data, propensity scores, or other custom data to build personalization models.**
 
-* Learn more about [uploading data for Auto-Target and Automated Personalization](../c-activities/t-automated-personalization/c-uploading-data-for-the-target-personalization-algorithms.md#concept_85EA505B37E54514A1C8AB91553FEED6).
+* Learn more about [uploading data for Auto-Target and Automated Personalization](../c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md#concept_85EA505B37E54514A1C8AB91553FEED6).
 
 ## How Does Auto-Target differ from Automated Personalization? {#section_BA4D83BE40F14A96BE7CBC7C7CF2A8FB}
 
@@ -195,7 +195,7 @@ For Auto-Target, simple rules of thumb can be used to understand traffic require
 
 **Auto-Target has full-fledged setup functionality.**
 
-* Because Auto-Target is embedded in the A/B activity workflow, Auto-Target benefits from the more mature and full-fledged Visual Experience Composer (VEC). You can also leverage [QA links](../c-activities/c-activity-qa/c-activity-qa.md#concept_9329EF33DE7D41CA9815C8115DBC4E40) with Auto-Target.
+* Because Auto-Target is embedded in the A/B activity workflow, Auto-Target benefits from the more mature and full-fledged Visual Experience Composer (VEC). You can also leverage [QA links](../c-activities/c-activity-qa/activity-qa.md#concept_9329EF33DE7D41CA9815C8115DBC4E40) with Auto-Target.
 
 **Auto-Target provides an extensive online testing framework.**
 

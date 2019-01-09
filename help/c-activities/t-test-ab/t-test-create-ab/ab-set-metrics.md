@@ -12,10 +12,10 @@ uuid: 57f84da4-10f9-42f3-b9ce-06cf41007157
 
 Use metrics in an A/B activity to determine when a visit is successful.
 
-For detailed information about success metrics, see [Success Metrics](../../../c-activities/r-success-metrics/r-success-metrics.md#reference_D011575C85DA48E989A244593D9B9924). 
+For detailed information about success metrics, see [Success Metrics](../../../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924). 
 
 1. Specify the goal of the activity.
-1. Select a [success metric](../../../c-activities/r-success-metrics/r-success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)
+1. Select a [success metric](../../../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)
 
    ![](assets/ab_metrics.png)
 
@@ -30,11 +30,11 @@ For detailed information about success metrics, see [Success Metrics](../../../c
 
    The available settings depend on the success metric you are using.
 
-   If enabled, the [!UICONTROL Estimated Value of the Conversion]field (not available for the Page Score metrics) provides a value for your goal. This value enables Target to calculate an estimated lift in revenue. This field is optional; however, incremental revenue for any non-revenue metric cannot be calculated without it. The data type is currency. This field is progressively shown after the user indicates the action taken to satisfy the goal. See [Estimating Lift in Revenue](../../../administrating-target/r-target-account-preferences/c-estimating-lift-in-revenue.md#concept_32F875D8F91349CE86AF391F65BEAEEE) for more information.
+   If enabled, the [!UICONTROL Estimated Value of the Conversion]field (not available for the Page Score metrics) provides a value for your goal. This value enables Target to calculate an estimated lift in revenue. This field is optional; however, incremental revenue for any non-revenue metric cannot be calculated without it. The data type is currency. This field is progressively shown after the user indicates the action taken to satisfy the goal. See [Estimating Lift in Revenue](../../../administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md#concept_32F875D8F91349CE86AF391F65BEAEEE) for more information.
 
    The correct configuration of success metrics is critical for making sure you get the data you expect.
 
-   For more information, see [Success Metrics](../../../c-activities/r-success-metrics/r-success-metrics.md#reference_D011575C85DA48E989A244593D9B9924). 
+   For more information, see [Success Metrics](../../../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924). 
 1. (Optional) Add additional metrics.
 1. Click **[!UICONTROL Continue]** when you are finished setting your metrics.
 

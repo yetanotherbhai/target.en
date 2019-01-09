@@ -23,12 +23,12 @@ Marketers, developers, administrators, analysts, and quality assurance engineers
 - [Introduction to Target](c-intro/c-intro.md): Explains the core concepts of the [!DNL Target] solution.
 - [Integrate Target with the Adobe Experience Cloud](c-integrating-target-with-mac/c-integrating-target-with-mac.md): Explains how to integrate [!DNL Target] with other [!DNL Experience Cloud] solutions, including [!DNL Analytics] for [!DNL Target] (A4T), [!DNL Experience Cloud Audiences], [!DNL Adobe Campaign], and the [!DNL Experience Cloud Device Co-op].
 - [Troubleshooting Target](r-troubleshooting-target/troubleshooting-target.md): Provides links to troubleshooting information contained in this guide, including information about the character limits and other limits (offer size, audiences, profiles, values, parameters, etc.) that affect activities and other elements in [!DNL Target].
-- [Target for mobile apps](c-target-mobile-app/c-target-mobile-app.md): Explains how [!DNL Target] can be used for mobile app optimization and personalization.
+- [Target for mobile apps](c-target-mobile-app/target-mobile-app.md): Explains how [!DNL Target] can be used for mobile app optimization and personalization.
 - [Resources and contact information](cmp-resources-and-contact-information.md): Provides information about additional resources to help you learn about [!DNL Target] features and how to contact [!DNL Adobe] should you need help.
 
 ## Marketers
 
-- [Activities](c-activities/c-activities.md): Explains how to set up, manage, and QA [!DNL Target] activities.
+- [Activities](c-activities/activities.md): Explains how to set up, manage, and QA [!DNL Target] activities.
 - [Audiences](c-target/c-target.md): Explains how to determine who will see content and experiences in targeted activities.
 - [Experiences and offers](c-experiences/experiences.md): Explains how to specify which content displays when a visitor meets the audience criteria for an activity.
 - [Recommendations](c-recommendations/recommendations.md):Explains how [!DNL Recommendations] activities automatically display products or content that might interest your customers based on previous user activity or other algorithms.
@@ -48,7 +48,7 @@ Marketers, developers, administrators, analysts, and quality assurance engineers
 
 ## QA engineers
 
-- [Activities](c-activities/c-activities.md): Explains how to set up, manage, and QA [!DNL Target] activities.
+- [Activities](c-activities/activities.md): Explains how to set up, manage, and QA [!DNL Target] activities.
 
 ## Additional Resources {#section_BF207244CECD479F98900F0E11151E31}
 

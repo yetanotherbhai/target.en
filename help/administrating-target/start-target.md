@@ -104,4 +104,4 @@ ov/t_approver.xml
 1. Click the [!DNL Approver] radio button.
 
    Now that you are an approver, you can create and edit activities, audiences, and content. You are also able to approve activities. 
-1. Continue to the next step, [setting up users and roles](../administrating-target/c-user-management/c-user-management/c-user-management.md#concept_501166A5F8FB4964A3AAA15D6095C6BE).
+1. Continue to the next step, [setting up users and roles](../administrating-target/c-user-management/c-user-management/user-management.md#concept_501166A5F8FB4964A3AAA15D6095C6BE).

@@ -139,7 +139,7 @@ Advanced settings are available for Multivariate Test goal metrics.
  </tbody> 
 </table>
 
-See [Success Metrics](../../../c-activities/r-success-metrics/r-success-metrics.md#reference_D011575C85DA48E989A244593D9B9924) for more information about advanced settings.
+See [Success Metrics](../../../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924) for more information about advanced settings.
 
 ## Other Metadata {#section_2E8917BEFB954480A4206B9E9E917F80}
 

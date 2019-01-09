@@ -17,7 +17,7 @@ Experience URLs can be generated for Target Automated Personalization activities
 
 >[!NOTE]
 >
->The Activity QA mode lets you create Activity URLs for other types of activities. For more information, see [Activity QA](../../c-activities/c-activity-qa/c-activity-qa.md#concept_9329EF33DE7D41CA9815C8115DBC4E40)
+>The Activity QA mode lets you create Activity URLs for other types of activities. For more information, see [Activity QA](../../c-activities/c-activity-qa/activity-qa.md#concept_9329EF33DE7D41CA9815C8115DBC4E40)
 
 .
 
@@ -25,7 +25,7 @@ To use experience URLs, you have to share the links generated from Target, not t
 
 Use experience URLs to share experiences with team members and to QA experiences across browsers and environments, without creating a separate QA activity. This feature is particularly useful if a site is complex, or if your security policies do not allow the site to be viewed in a simulator. 
 
-1. Create an [Automated Personalization activity](../../c-activities/t-automated-personalization/t-create-ap-activity.md#task_8AAF837796D74CF893CA2F88BA1491C9) or click the activity to open it.
+1. Create an [Automated Personalization activity](../../c-activities/t-automated-personalization/create-ap-activity.md#task_8AAF837796D74CF893CA2F88BA1491C9) or click the activity to open it.
 
    The activity does not have to be live to preview an experience. 
 1. On the activity summary page, click on the three vertical dots, then click **[!UICONTROL View Experience URLs]**.

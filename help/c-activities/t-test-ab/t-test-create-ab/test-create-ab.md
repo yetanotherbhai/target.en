@@ -32,7 +32,7 @@ This video demonstrates how to create an A/B test using the [!DNL Target] three-
    >
    >The available activity types depend on your [!DNL Target] account. Some activity types might not appear in your list.
 
-   For information about the various activity types, see [Activities](../../../c-activities/c-activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03).
+   For information about the various activity types, see [Activities](../../../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03).
 
    ![](assets/ab_newactivityurl.png)
 
@@ -41,7 +41,7 @@ This video demonstrates how to create an A/B test using the [!DNL Target] three-
    For troubleshooting information about the VEC, should you have problems, see [Troubleshooting the Visual Experience Composer](../../../c-experiences/c-visual-experience-composer/r-troubleshoot-composer/r-troubleshoot-composer.md#reference_77743144F10143A3A89D56E116D296E4).
 
    If you prefer to use the Form-Based Experience Composer, select that option. See [Form-Based Experience Composer](https://marketing.adobe.com/resources/help/en_US/target/target/t_form_experience_composer.html). 
-1. Specify your [activity URL](../../../c-activities/t-test-ab/t-test-create-ab/c-ab-activity-url.md#concept_D28549AAA0A14E3BB5F05F32BE8ABC90), then click **[!UICONTROL Create]**.
+1. Specify your [activity URL](../../../c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md#concept_D28549AAA0A14E3BB5F05F32BE8ABC90), then click **[!UICONTROL Create]**.
 
    If your account is configured with a default URL, that URL appears by default. You can change from the default to another URL.
 
@@ -102,7 +102,7 @@ This video demonstrates how to create an A/B test using the [!DNL Target] three-
 
    The [!UICONTROL Visual Experience Composer] displays two tabs on the left side after you create a new activity: Experience A and Experience B. Experience A is the control experience. Your focus will be on the Experience B tab, which you can modify as desired. Experience B is the alternate experience you can add to your test. You can add multiple experiences to the test. You can also delete Experience A from the activity if you don't want to include a default site experience as an option.
 
-   For more information about adding and modifying experiences in the [!UICONTROL Visual Experience Composer], see [Add Experience](../../../c-activities/t-test-ab/t-test-create-ab/t-ab-add-experience.md#task_454646F2895242D3B92DC395A0CE1A00). To modify Experience B, start with Step 3. 
+   For more information about adding and modifying experiences in the [!UICONTROL Visual Experience Composer], see [Add Experience](../../../c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md#task_454646F2895242D3B92DC395A0CE1A00). To modify Experience B, start with Step 3. 
 
 1. Click **[!UICONTROL Target]** at the top of the [!UICONTROL Visual Experience Composer] to move to the next step in the three-step guided workflow.
 
@@ -111,7 +111,7 @@ This video demonstrates how to create an A/B test using the [!DNL Target] three-
    ![](assets/ab_flow.png)
 
    The flow diagram leads you through the steps of choosing the audience for the activity and setting up experiences. 
-1. In the [!UICONTROL Audience] box, click the edit icon, then [select the audience](../../../c-activities/t-test-ab/t-test-create-ab/c-ab-audience.md#concept_A268236C1224451DB7844BF67F41A087) for your activity.
+1. In the [!UICONTROL Audience] box, click the edit icon, then [select the audience](../../../c-activities/t-test-ab/t-test-create-ab/ab-audience.md#concept_A268236C1224451DB7844BF67F41A087) for your activity.
 
    By default, the audience is set to All Visitors. 1. Choose the percentage of qualifying visitors that you want to enter the activity.
 
@@ -132,11 +132,11 @@ This video demonstrates how to create an A/B test using the [!DNL Target] three-
    >
    >This "First Look" offering is enabled for a few customers in this release for testing and feedback.
 
-   For more information, see [Auto-Target to Optimize](../../../c-activities/c-auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3).
+   For more information, see [Auto-Target to Optimize](../../../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3).
 
    You can also click **[!UICONTROL Add Experience]** to add another experience to the activity. 
 1. When you are satisfied with your audience and experience choices, click **[!UICONTROL Next]** to move to the third step of the three-step guided workflow.
-1. Specify the [goals and settings](../../../c-activities/t-test-ab/t-test-create-ab/r-ab-goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC) for the activity.
+1. Specify the [goals and settings](../../../c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC) for the activity.
 
    ![](assets/ab_settings.png)
 

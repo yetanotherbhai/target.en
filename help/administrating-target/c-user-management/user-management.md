@@ -14,7 +14,7 @@ uuid: 798a6273-2a6e-4fe6-b1a0-b5c28932969f
 
 Information about managing Users in Target Standard and managing enterprise Properties and Permissions in Target Premium.
 
- Properties and Permissions functionality is available as part of the [!DNL Target Premium] solution. They are not available in [!DNL Target Standard] without a [!DNL Target Premium] license.
+Properties and Permissions functionality is available as part of the [!DNL Target Premium] solution. They are not available in [!DNL Target Standard] without a [!DNL Target Premium] license.
 
 You can tell whether your organization has a Standard or Premium license by clicking the [!UICONTROL Setup] link at the top of the Target UI.
 

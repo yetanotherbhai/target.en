@@ -79,11 +79,11 @@ Target Premium includes the following premium features:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><a href="../c-activities/t-automated-personalization/t-automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9" format="dita" scope="local"> Automated Personalization</a> </p> </td> 
+   <td colname="col1"> <p><a href="../c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9" format="dita" scope="local"> Automated Personalization</a> </p> </td> 
    <td colname="col2"> <p>Automated Personalization provides advanced machine learning algorithms to drive personalized experiences and improved conversion rates for digital experiences. </p> <p class="- topic/p ">Automated personalization (formerly Test&amp;Target 1:1) records visitor activity on the site, building a profile of visitors so content can be targeted to similar visitors. It tracks responses to content, both for individuals and the population as a whole, then uses sophisticated modeling approaches to automatically target each individual by accounting for everything known about that visitor. </p> <p class="- topic/p ">Automated personalization learns by itself and requires minimum human analysis. Fully automated, it learns continuously. The system builds models and automatically learns what products an individual visitor is most likely to be interested in. Every time a visitor interacts with the site, information is collected and stored in the visitor profile. Multiple algorithms are available to provide the best model for your system. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><a href="../c-activities/c-auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3" format="dita" scope="local"> Auto-Target For Personalized Experiences</a> </p> </td> 
+   <td colname="col1"> <p><a href="../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3" format="dita" scope="local"> Auto-Target For Personalized Experiences</a> </p> </td> 
    <td colname="col2"> <p>Auto-Target uses advanced machine learning to identify multiple high-performing marketer-defined experiences, and serves the most tailored experience to each visitor based on their individual customer profile and the behavior of previous visitors with similar profiles, in order to personalize content and drive conversions. </p> </td> 
   </tr> 
   <tr> 

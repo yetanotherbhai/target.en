@@ -242,7 +242,7 @@ recs/t_feeds_create.xml
 
    >[!NOTE]
    >
-   >For more information, see [Hosts](../../administrating-target/c-hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E).
+   >For more information, see [Hosts](../../administrating-target/hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E).
 
 1. Click **[!UICONTROL Save]**.
 
