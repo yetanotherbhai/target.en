@@ -31,6 +31,14 @@ These release notes provide information about features, enhancements, fixes, and
  </tbody> 
 </table>
 
+## at.js version 1.6.4 (January 10, 2019)
+
+at.js 1.6.4 is a maintenance release and addresses the following issue:
+
+* Fixed a race condition manifesting in Microsoft Internet Explorer 11 that caused duplicate offers to be applied.
+
+
+
 ## Target Standard/Premium 19.1.1 (January 22, 2019) {#section_6BBA8B1EE9D241C28E12856A375E97F6}
 
 This release includes the following features, changes and enhancements:
