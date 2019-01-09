@@ -25,6 +25,21 @@ This page lists important changes made to the Target documentation.
  </thead>
  <tbody>
 <tr> 
+   <td colname="col1"> January 10, 2019 </td> 
+   <td colname="col2"> <p> <a href="/help/c-experiences/c-visual-experience-composer/r-viztarget-options.md" format="dita" scope="local">Visual Experience Composer Options</a></p> </td> 
+   <td colname="col3"> <p>Added information regarding Recommendations to Insert Before, Insert After, and Replace With rows.</p> </td> 
+  </tr> 
+<tr> 
+   <td colname="col1"></td> 
+   <td colname="col2"> <p> <a href="/help/r-release-notes/release-notes.md" format="dita" scope="local">Target Release Notes (current)</a>, <a href="/help/r-release-notes/target-release-notes.md" format="dita" scope="local">Target Release Notes (prerelease)</a>, and <a href="/help/c-implementing-target/c-considerations-before-you-implement-target/r-supported-browsers.md" format="dita" scope="local">Supported Browsers</a></p> </td> 
+   <td colname="col3"> <p>Added information about Target and the Adobe Marketing Cloud dropping support for Microsoft Internet Explorer 11 starting in March 2019.</p> </td> 
+  </tr> 
+<tr> 
+   <td colname="col1"></td> 
+   <td colname="col2"> <p> <a href="/help/r-release-notes/target-release-notes.md" format="dita" scope="local">Target Release Notes (prerelease)</a></p> </td> 
+   <td colname="col3"> <p>Added information for 19.1.1 release.</p> </td> 
+  </tr> 
+<tr> 
    <td colname="col1"> December 20, 2018 </td> 
    <td colname="col2"> <p> <a href="../c-implementing-target/c-api-and-sdk-overview/c-api-and-sdk-overview.md" format="dita" scope="local">Server Side implement Target</a> </p> </td> 
    <td colname="col3"> <p>Added note about CORS.</p> </td> 

@@ -13,7 +13,7 @@ uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 
 These release notes provide information about features, enhancements, fixes, and known issues for the latest or upcoming Target releases.
 
-**Last Updated: December 6, 2018**
+**Last Updated: January 9, 2019**
 
 >[!NOTE]
 >
@@ -24,39 +24,18 @@ These release notes provide information about features, enhancements, fixes, and
   <tr> 
    <td colname="col1"> <p><b>Announcements:</b> </p> <p> 
      <ul id="ul_A0205508929340CB89A766AA047E8363"> 
-      <li id="li_248ACD8F14F74ECEB34E18DB16CFD1C5"> <p> Starting with the Target 18.4.1 release (April 25, 2018), Adobe Target will take steps to move towards TLS 1.2 encryption and phase out support for TLS 1.0 encryption. Migrating to TLS 1.2 will provide improved security. It is important that you go through the specifics and plan out the changes for a smooth transition. For more information, see <a href="../c-implementing-target/c-considerations-before-you-implement-target/c-tls-transport-layer-security-encryption.md" format="dita" scope="local"> TLS encryption changes</a>.</p></li> 
+      <lI>Target and the Adobe Marketing Cloud will drop support for Microsoft Internet Explorer 11 starting in March 2019. This change affects Target authoring only; this change does not affect experience delivery. Please switch to Microsoft Edge or another supported browser. For more information, see <a href="/help/c-implementing-target/c-considerations-before-you-implement-target/r-supported-browsers.md" format="dita" scope="local"> Supported Browsers</a>.</li> </li> 
+      <li id="li_262EDDD313B5423DA77D002B8AF747C6"> <p> Starting with the Target 18.4.1 release (April 25, 2018), Adobe Target will take steps to move towards TLS 1.2 encryption and phase out support for TLS 1.0 encryption by February 2019. Migrating to TLS 1.2 will provide improved security. It is important that you go through the specifics and plan out the changes for a smooth transition. For more information, see <a href="../c-implementing-target/c-considerations-before-you-implement-target/c-tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451" format="dita" scope="local"> TLS (Transport Layer Security) Encryption Changes</a>. </p> </li>  
      </ul> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Platform (November 15, 2018) {#section_484A56774E004282B98FFFF851E4E670}
+## Target Standard/Premium 19.1.1 (January 22, 2019) {#section_6BBA8B1EE9D241C28E12856A375E97F6}
 
-<table id="table_7320E43397D2471FA313A9D6FC21E55F"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Feature / Enhancement </th> 
-   <th colname="col2" class="entry"> Description </th> 
-  </tr>
- </thead>
- <tbody> 
-  <!-- <row> <entry colname="col1"> <p>Form-Based Activities </p> </entry> <entry colname="col2"> <p>This release includes a new priority model for activities that use the Form-Based Experience Composer with only a global mbox. Before this release, content from multiple activities was returned to the page and overwrote content from other returned activities. Now, only the top priority activity's content is returned. </p> </entry> </row> --> 
-  <tr> 
-   <td colname="col1"> <p>at.js 1.6.3 </p> </td> 
-   <td colname="col2"> <p>at.js version 1.6.3 is now available. </p> <p> 
-     <ul id="ul_2C7CB74B1AAF4B52B6EB382977F7DC28"> 
-      <li id="li_07CF8EDB25E24A7AB9B7A0F3402BAEB1"> <p>Selectors are now CSS-escaped if they contain IDs or CSS classes that start with a digit, two hyphens, or a hyphen followed by a digit (for example #-123). (TNT-31061) </p> </li> 
-      <li id="li_6504E90D7C534A1BB9A2DE8510CE3B90"> <p>Fixed an issue introduced with at.js 1.6.2 where Visual Experience Composer (VEC) offers from different activities that apply to the same CSS selector did not respect activity priority. (TNT-31052) </p> </li> 
-      <li id="li_D347CA513F1240E4BF79D757287AB30C"> <p>Fixed an issue with timing out a promise in environments where there was no native support for promises. (TNT-30974) </p> </li> 
-      <li id="li_17F41A84CCFF41D7993E35DE10F87066"> <p>Issues are now correctly captured and reported via the content-rendering failed event. Previously, JavaScript might have been reported to have run successfully, even if that wasn't the case. (TNT-30599) </p> </li> 
-     </ul> </p> <p>For more information, see <a href="../c-implementing-target/c-implementing-target-for-client-side-web/r-target-atjs-versions.md" format="dita" scope="local"> at.js Version Details</a>. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+This release includes the following features, changes and enhancements:
 
-## Target Standard/Premium 18.11.1 (November 12, 2018) {#section_6BBA8B1EE9D241C28E12856A375E97F6}
-
-The [!DNL Target] Standard/Premium release on November 12 includes back-end enhancements, fixes, and changes. The [!UICONTROL Personalization Insights] reports will be available November 14.
+Note: The issue numbers in parentheses are for internal Adobe use.
 
 <table id="table_EF529199D1C741F7BDBC9C41A37B7D26"> 
  <thead> 
@@ -68,15 +47,19 @@ The [!DNL Target] Standard/Premium release on November 12 includes back-end enha
  <tbody> 
   <!-- <row> <entry colname="col1"> <p>Form-Based Activities </p> </entry> <entry colname="col2"> <p>This release includes a new priority model for activities that use the Form-Based Experience Composer with only a global mbox. Before this release, content from multiple activities was returned to the page and overwrote content from other returned activities. Now, only the top priority activity's content is returned. </p> </entry> </row> --> 
   <tr> 
-   <td colname="col1" class="premium"> <p>Personalization Insights reports </p> </td> 
-   <td colname="col2"> <p>Two specialized reports are available to users of <span class="wintitle"> Automated Personalization (AP)</span> and <span class="wintitle"> Auto-Target (AT)</span> activities: </p> <p> 
-     <ul id="ul_C338AC34C57C49E1A8DFA471167EC40A"> 
-      <li id="li_2329BFC8CC524EBBA99C2F8EDC745B90"> <p><b><span class="wintitle"> Automated Segments</span>:</b> Different visitors respond differently to the offers/experiences in your AP/AT activity. This report shows how different automated segments defined by Target's personalization models responded to the offers/experiences in the activity. </p> </li> 
-      <li id="li_48556C9BAD48476DA00DD666F5265E2B"> <p><b><span class="wintitle"> Important Attributes</span>:</b> In different activities, different attributes are more, or less, important to how the model decides to personalize. This report shows the top attributes that influenced the model and their relative importance. </p> </li> 
-     </ul> </p> <p>See <a href="../c-reports/c-personalization-insights-reports/c-personalization-insights-reports.md" format="dita" scope="local"> Personalization Insights reports</a>. </p> </td> 
+   <td colname="col1" class="premium"> <p>Enterprise Permissions support in Target APIs </p> <p>(Target Premium)</p></td> 
+   <td colname="col2"> <p>Adobe Target APIs can now leverage the power of Enterprise Permissions just like the UI. Currently, Target APIs deal only with the Default workspace if you are leveraging Enterprise Permissions features. However, now you can work with Target APIs (Activity, Offers, Audiences and Reporting) across all workspaces.</p><p>Note: This feature will be available starting January 31, 2019 after the Adobe IO APIs are updated. Support for Automated Personalization (AP) activities will come in next release.</P> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1" class="premium"> <p>Recommendations Feeds, Collections, and Excusions </p> <p>(Target Premium)</p></td> 
+   <td colname="col2"> <p>You can now filter Feeds, Collections, and Exclusions by environment. (TGT-20622)</P> </td> 
   </tr> 
  </tbody> 
 </table>
+
+**Enhancement, Fixes, and Changes**
+
+* You are now instructed to re-authenticate when your session expires while reviewing a report. After you log in again, you are directed back to the report. (TGT-32723)
 
 ## Product Documentation for Target Capabilities {#section_F03C61D438814538967B2BF901130BE4}
 
