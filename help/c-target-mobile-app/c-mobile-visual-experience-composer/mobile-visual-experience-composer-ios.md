@@ -143,16 +143,16 @@ To set up the Target VEC extension from Launch, see [Use Adobe Launch to set up 
 
    ```
    // EXAMPLE OVERRIDE METHOD FOR OBJECTIVE C ONLY:
-\- (BOOL)application:(UIApplication *)application openURL:(NSURL *)url options:(NSDictionary<NSString *, id> *)options {
-    [ACPTargetVEC handleDeepLink:url];
-    return YES;
-}
+   - (BOOL)application:(UIApplication *)application openURL:(NSURL *)url options:(NSDictionary<NSString *, id> *)options {
+   [ACPTargetVEC handleDeepLink:url];
+   return YES;
+ }
   
-// EXAMPLE OVERRIDE METHOD FOR SWIFT ONLY:
-func application(_ app: UIApplication, open url: URL, options: [UIApplication.OpenURLOptionsKey : Any] = [:]) -> Bool {
+   // EXAMPLE OVERRIDE METHOD FOR SWIFT ONLY:
+   func application(_ app: UIApplication, open url: URL, options: [UIApplication.OpenURLOptionsKey : Any] = [:]) -> Bool {
       ACPTargetVEC.handleDeepLink(url)
       return true;
-}
+ }
    ```
 
 1. Build and run your application and use it to test Mobile VEC capabilities.
