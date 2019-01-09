@@ -91,7 +91,7 @@ To set up the Target VEC extension from Launch, see [Use Adobe Launch to set up 
    As a example, the method should resemble the following sample:
 
    ```
-      // EXAMPLE OVERRIDE METHOD FOR OBJECTIVE C ONLY: 
+   // EXAMPLE OVERRIDE METHOD FOR OBJECTIVE C ONLY: 
    - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions { 
         // Override point for customization after application launch. 
        [ACPCore configureWithAppId:@"YOUR_ADOBE_LAUNCH_APP_ID"]; 
@@ -100,12 +100,12 @@ To set up the Target VEC extension from Launch, see [Use Adobe Launch to set up 
        [ACPIdentity registerExtension]; 
        [ACPUserProfile registerExtension]; 
        [ACPTarget registerExtension]; 
-     
+
        [ACPTargetVEC registerExtension]; 
-     
+   
        [ACPCore start:nil]; 
        [ACPCore lifecycleStart:nil]; 
-     
+   
       return YES; 
    } 
       
@@ -142,7 +142,7 @@ To set up the Target VEC extension from Launch, see [Use Adobe Launch to set up 
    As a example, the method should resemble the following sample:
 
    ```
-code goes here
+   code goes here
    ```
 
 1. Build and run your application and use it to test Mobile VEC capabilities.
@@ -234,11 +234,9 @@ var targetParams : TargetParameters = TargetParameters.init(parameters: mboxPara
 ACPTargetVEC.setRequest(targetParams)
 ```
 
-** Passing parameters to specific view:**
+**Passing parameters to specific view:**
 
-We have seen the API to trigger Views via `TargetVEC.targetView("view_name")`.
-
-.You can also pass parameters that are specific to the particular view, as shown below:
+We have seen the API to trigger Views via `TargetVEC.targetView("view_name")`.You can also pass parameters that are specific to the particular view, as shown below:
 
 ```
 //For Objective-c 
@@ -252,7 +250,7 @@ ACPTargetVEC.setTargetView("VIEW_NAME", with: TARGET_PARAMS)
 
 There might be certain scenarios when you might want to call the prefetch API again to refresh the offers stored in cache. The following APIs are exposed, which are described as :
 
-** Prefetch Offers:**
+**Prefetch Offers:**
 
 ```
 /** 
@@ -262,7 +260,7 @@ There might be certain scenarios when you might want to call the prefetch API ag
 + (void) prefetchOffers;
 ```
 
-** Prefetch Offers in background:**
+**Prefetch Offers in background:**
 
 ```
 /** 
