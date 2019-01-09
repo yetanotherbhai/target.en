@@ -32,7 +32,7 @@ The [!DNL Target Standard/Premium] interface supports the following browsers and
    <td colname="col2"> Windows </td> 
    <td colname="col3"> <p> 
      <ul id="ul_B6F9F5BC38E249ECA5AA512B94082BF9"> 
-      <li id="li_5B63829413D24320AB812546794A7934"> <p>Microsoft Internet Explorer 11 </p> </li> 
+      <li id="li_5B63829413D24320AB812546794A7934"> <p>Microsoft Internet Explorer 11 </p> <p>Note: Target and the Adobe Marketing Cloud will drop support for Microsoft Internet Explorer 11 starting in March 2019. This change affects Target authoring only; this change does not affect experience delivery. Please switch to Microsoft Edge or another supported browser.</p></li> 
       <li id="li_BA7EF5BCBC4648B49839A8B4F31F9FBA"> <p>Microsoft Edge </p> </li> 
       <li id="li_9441697F249C4AB28E96FC1DC8A27B6F"> <p>Google Chrome (Latest, Latest minus 1) </p> </li> 
       <li id="li_BA8F65110C6643ADA40FB334F61EF36F"> <p>Mozilla Firefox (Latest, Latest minus 1) </p> </li> 
