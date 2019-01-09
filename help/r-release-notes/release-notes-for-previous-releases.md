@@ -2420,7 +2420,7 @@ This release includes the following features and enhancements:
  <tbody> 
   <tr> 
    <td colname="col1"> Activity change log </td> 
-   <td colname="col2"> <p>The change log lists changes made to an activity. The action and the user are listed with a timestamp for each change. </p> <p>See <a href="../c-activities/t-change-log.md#task_D6F224E8CE8346699187D21CD9A2B4AB" format="dita" scope="local"> Activity Change Log </a>. </p> </td> 
+   <td colname="col2"> <p>The change log lists changes made to an activity. The action and the user are listed with a timestamp for each change. </p> <p>See <a href="../c-activities/change-log.md#task_D6F224E8CE8346699187D21CD9A2B4AB" format="dita" scope="local"> Activity Change Log </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Multipage activity </td> 

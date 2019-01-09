@@ -202,11 +202,11 @@ index: n
       + [Capture Score](c-activities/r-success-metrics/capture-score.md)
    + [Activity Change Log](c-activities/change-log.md)
    + Troubleshoot activities {#troubleshoot-activities}
-      + [Troubleshoot activities overview](c-activities/c-troubleshooting-activities/c-troubleshooting-activities.md)
+      + [Troubleshoot activities overview](c-activities/c-troubleshooting-activities/troubleshooting-activities.md)
       + [Troubleshoot content delivery](c-activities/c-troubleshooting-activities/content-trouble.md)
    + Activity QA {#activity-qa}
       + [Activity QA overview](c-activities/c-activity-qa/activity-qa.md)
-      + [Activity QA bookmarklet](c-activities/c-activity-qa/c-activity-qa-bookmark.md)
+      + [Activity QA bookmarklet](c-activities/c-activity-qa/activity-qa-bookmark.md)
       + [Use Activity QA with server-side delivery](c-activities/c-activity-qa/use-qa-mode-with-server-side-delivery.md)
    + [Activity notifications](c-activities/notifications.md)
 + Audiences {#audiences}
