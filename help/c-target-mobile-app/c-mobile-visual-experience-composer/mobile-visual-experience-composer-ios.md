@@ -143,7 +143,7 @@ To set up the Target VEC extension from Launch, see [Use Adobe Launch to set up 
 
    ```
    // EXAMPLE OVERRIDE METHOD FOR OBJECTIVE C ONLY:
-- (BOOL)application:(UIApplication *)application openURL:(NSURL *)url options:(NSDictionary<NSString *, id> *)options {
+\- (BOOL)application:(UIApplication *)application openURL:(NSURL *)url options:(NSDictionary<NSString *, id> *)options {
     [ACPTargetVEC handleDeepLink:url];
     return YES;
 }
