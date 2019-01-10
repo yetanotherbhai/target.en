@@ -47,7 +47,7 @@ The following table lists the various APIs and the NodeJS SDK and provides addit
   </tr> 
   <tr> 
    <td colname="col1"> <p>Target Classic APIs </p> </td> 
-   <td colname="col2"> <p>The Target Classic UI and APIs have been decommissioned. For information about switching to Target’s modern APIs, see <a href="../../c-implementing-target/c-api-and-sdk-overview/c-target-api-documentation.md#concept_3A31E26C8FAF49598152ACFE088BD4D2" format="dita" scope="local"> Transitioning from Target Legacy APIs to Adobe I/O</a>. </p> </td> 
+   <td colname="col2"> <p>The Target Classic UI and APIs have been decommissioned. For information about switching to Target’s modern APIs, see <a href="../../c-implementing-target/c-api-and-sdk-overview/target-api-documentation.md#concept_3A31E26C8FAF49598152ACFE088BD4D2" format="dita" scope="local"> Transitioning from Target Legacy APIs to Adobe I/O</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

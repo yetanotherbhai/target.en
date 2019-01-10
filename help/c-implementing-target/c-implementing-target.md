@@ -17,5 +17,5 @@ Before you start using Adobe Target, you should implement it on your site, under
 + [Before you implement](c-considerations-before-you-implement-target/considerations-before-you-implement-target.md)
 + [Client-side web implementation](c-implementing-target-for-client-side-web/c-how-atjs-works/c-how-atjs-works.md)
 + [Mobile apps implementation](c-implementing-target-for-moblile-apps.md)
-+ [Server Side implementation](c-api-and-sdk-overview/c-target-api-documentation.md)
++ [Server Side implementation](c-api-and-sdk-overview/target-api-documentation.md)
 + [Email implementation](c-non-javascript-based-implementation/c-non-javascript-based-implementation.md)
