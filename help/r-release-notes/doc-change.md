@@ -45,6 +45,16 @@ This page lists important changes made to the Target documentation.
    <td colname="col3"> <p>Added information for at.js 1.6.4 release.</p> </td> 
   </tr> 
 <tr> 
+   <td colname="col1"></td> 
+   <td colname="col2"> <p> <a href="/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md" format="dita" scope="local">Minimizing inlated visit and visitor counts in A4T</a></p> </td> 
+   <td colname="col3"> <p>Removed note stating that after November 14, 2016, customers will no longer be able to create A4T activities with redirect offers.</p> </td> 
+  </tr> 
+<tr> 
+   <td colname="col1"></td> 
+   <td colname="col2"> <p> <a href="/help/c-integrating-target-with-mac/a4t/r-a4t-faq/c-a4t-faq-redirect-offers.md" format="dita" scope="local">Redirect offers - A4T FAQ</a></p> </td> 
+   <td colname="col3"> <p>Added note under "Why are page views on the original page and on the redirect page sometimes counted?"</p> </td> 
+  </tr> 
+<tr> 
    <td colname="col1"> December 20, 2018 </td> 
    <td colname="col2"> <p> <a href="../c-implementing-target/c-api-and-sdk-overview/c-api-and-sdk-overview.md" format="dita" scope="local">Server Side implement Target</a> </p> </td> 
    <td colname="col3"> <p>Added note about CORS.</p> </td> 
