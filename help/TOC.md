@@ -102,7 +102,7 @@ index: n
    + [Mobile apps: implement Target](c-implementing-target/c-implementing-target-for-moblile-apps.md)
    + Server Side: implement Target
       + [Server Side: implement Target overview](c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)
-      + [Transition from Target legacy APIs to Adobe I/O](c-implementing-target/c-api-and-sdk-overview/c-target-api-documentation.md)
+      + [Transition from Target legacy APIs to Adobe I/O](c-implementing-target/c-api-and-sdk-overview/target-api-documentation.md)
    + Email: implement Target {#implement-email}
       + [Email: implement Target overview](c-implementing-target/c-non-javascript-based-implementation/c-non-javascript-based-implementation.md)
       + [Create an Adbox for an image](c-implementing-target/c-non-javascript-based-implementation/t-testing-content-with-the-adbox.md)
