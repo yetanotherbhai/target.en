@@ -47,7 +47,7 @@ When an activity entrant clicks a selected element, that click is counted as a c
 
 There are several things to consider when selecting elements:
 
-* You can browse to a different page to track clicks on a page where you might not be changing content. This different page must be included in the activity using the [multipage feature](../../c-experiences/c-visual-experience-composer/c-multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48) and [!DNL at.js] or [!DNL mbox.js] must be implemented on it. 
+* You can browse to a different page to track clicks on a page where you might not be changing content. This different page must be included in the activity using the [multipage feature](../../c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48) and [!DNL at.js] or [!DNL mbox.js] must be implemented on it. 
 * If you select more than one element, if an entrant clicks on any one of the chosen elements, the click is counted. To count each item separately, set up individual success metrics for each element. 
 * Make sure you select the level of element you want to track. For example, when specifying a button, make sure you select the link and not the button text. 
 * Click events are sent to [!DNL Target] on the same page as the click. 

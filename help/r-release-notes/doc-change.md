@@ -26,7 +26,7 @@ This page lists important changes made to the Target documentation.
  <tbody>
 <tr> 
    <td colname="col1"> January 10, 2019 </td> 
-   <td colname="col2"> <p> <a href="/help/c-experiences/c-visual-experience-composer/r-viztarget-options.md" format="dita" scope="local">Visual Experience Composer Options</a></p> </td> 
+   <td colname="col2"> <p> <a href="/help/c-experiences/c-visual-experience-composer/viztarget-options.md" format="dita" scope="local">Visual Experience Composer Options</a></p> </td> 
    <td colname="col3"> <p>Added information regarding Recommendations to Insert Before, Insert After, and Replace With rows.</p> </td> 
   </tr> 
 <tr> 
@@ -71,7 +71,7 @@ This page lists important changes made to the Target documentation.
   </tr> 
 <tr> 
    <td colname="col1"> December 13, 2018 </td> 
-   <td colname="col2"> <p> <a href="../c-experiences/t-form-experience-composer.md" format="dita" scope="local">Form-based Experience Composer</a> </p> </td> 
+   <td colname="col2"> <p> <a href="../c-experiences/form-experience-composer.md" format="dita" scope="local">Form-based Experience Composer</a> </p> </td> 
    <td colname="col3"> <p>Updated text and image.</p> </td> 
   </tr> 
 <tr> 
@@ -411,7 +411,7 @@ This page lists important changes made to the Target documentation.
   </tr> 
   <tr> 
    <td colname="col1"> September 26, 2018 </td> 
-   <td colname="col2"> <p> <a href="../c-experiences/c-visual-experience-composer/r-viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81" format="dita" scope="local"> Visual Experience Composer Options </a> </p> </td> 
+   <td colname="col2"> <p> <a href="../c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81" format="dita" scope="local"> Visual Experience Composer Options </a> </p> </td> 
    <td colname="col3"> <p>Added information about the <span class="wintitle"> Insert Before </span> option. </p> </td> 
   </tr> 
   <tr> 
@@ -485,7 +485,7 @@ This page lists important changes made to the Target documentation.
   </tr> 
   <tr> 
    <td colname="col1"> September 18, 2018 </td> 
-   <td colname="col2"> <p> <a href="../c-experiences/c-visual-experience-composer/c-vec-code-editor/c-experience-templates.md#concept_109BBD7EABC04DD39E6B7B1687786652" format="dita" scope="local"> Experience Templates </a> </p> </td> 
+   <td colname="col2"> <p> <a href="../c-experiences/c-visual-experience-composer/c-vec-code-editor/experience-templates.md#concept_109BBD7EABC04DD39E6B7B1687786652" format="dita" scope="local"> Experience Templates </a> </p> </td> 
    <td colname="col3"> <p>New topic. </p> </td> 
   </tr> 
   <tr> 
@@ -583,12 +583,12 @@ This page lists important changes made to the Target documentation.
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
-   <td colname="col2"> <p> <a href="../c-experiences/c-visual-experience-composer/c-vec-code-editor/c-vec-code-editor.md#concept_B3A6E9EE3A60406DB640E205EA1745B5" format="dita" scope="local"> Modifications </a> </p> </td> 
+   <td colname="col2"> <p> <a href="../c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md#concept_B3A6E9EE3A60406DB640E205EA1745B5" format="dita" scope="local"> Modifications </a> </p> </td> 
    <td colname="col3"> <p>Added information about docking the Modifications panel. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
-   <td colname="col2"> <p> <a href="../c-experiences/c-visual-experience-composer/r-viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81" format="dita" scope="local"> Visual Experience Composer Options </a> </p> </td> 
+   <td colname="col2"> <p> <a href="../c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81" format="dita" scope="local"> Visual Experience Composer Options </a> </p> </td> 
    <td colname="col3"> <p>Reorganized table to account for new groupings. </p> </td> 
   </tr> 
   <tr> 

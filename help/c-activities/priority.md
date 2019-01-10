@@ -36,7 +36,7 @@ If your company uses Target Standard/Premium and the Visual Experience Composer 
    If the visitor is already in an A/B test or Multivariate Test, they will match into that test until they convert. If they were previously in an experience targeting activity, they must match into it again. If they meet the audience rules, then the visitor falls into those activities and into specific experiences. 
 
 1. Content for all the activities and experiences the visitor matches is returned to the page. 
-1. If the content for each activity references different [CSS selectors](../c-experiences/c-visual-experience-composer/c-vec-selectors.md#concept_4EB7663E255F439B8D24079D23479337), then all content is displayed.
+1. If the content for each activity references different [CSS selectors](../c-experiences/c-visual-experience-composer/vec-selectors.md#concept_4EB7663E255F439B8D24079D23479337), then all content is displayed.
 
    If there is an overlap or a duplicated CSS selector, then the activity content with the highest priority is displayed. The results from all activities that run on the page are counted and reflected in the reports.
 

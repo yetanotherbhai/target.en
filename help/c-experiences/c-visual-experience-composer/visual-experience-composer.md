@@ -83,4 +83,4 @@ You can also click **[!UICONTROL Browse]**, then navigate to a page that is avai
 >
 >If a hover state depends on JavaScript, make sure **[!UICONTROL Disable JavaScript]** is not selected. JavaScript must be enabled to edit JavaScript elements.
 
-For information about the options available in the Visual Experience Composer, see [Visual Experience Composer Options](../../c-experiences/c-visual-experience-composer/r-viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81). 
+For information about the options available in the Visual Experience Composer, see [Visual Experience Composer Options](../../c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81). 

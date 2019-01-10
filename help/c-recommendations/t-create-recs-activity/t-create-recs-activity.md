@@ -33,7 +33,7 @@ Use the Target Visual Experience Composer (VEC) to create a Recommendations acti
 
    When you click [!UICONTROL Next], the VEC opens and shows your page. You can replace a current element with recommendations, or insert recommendations.
 
-   For troubleshooting information about the VEC, should you have problems, see [Troubleshooting the Visual Experience Composer](../../c-experiences/c-visual-experience-composer/r-troubleshoot-composer/r-troubleshoot-composer.md#reference_77743144F10143A3A89D56E116D296E4). 
+   For troubleshooting information about the VEC, should you have problems, see [Troubleshooting the Visual Experience Composer](../../c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md#reference_77743144F10143A3A89D56E116D296E4). 
 1. Click an element on your page, then if recommendations are available where that element is located, click either **[!UICONTROL Replace w/ Recommendations]** or **[!UICONTROL Insert Recommendations]** before or after the selected element.
 
    ![](assets/Menu_Replace-Insert.png)
