@@ -11,35 +11,35 @@ uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 
 # Target release notes (prerelease){#target-release-notes-prerelease}
 
-These release notes provide information about features, enhancements, fixes, and known issues for the latest or upcoming Target releases.
+These release notes provide information about features, enhancements, fixes, and known issues for the latest or upcoming [!DNL Adobe Target] releases.
 
 **Last Updated: January 9, 2019**
 
 >[!NOTE]
 >
->These release notes contain prerelease information. Release dates, features, and other information are subject to change. To view information about the current release, see [Target Release Notes](release-notes.md) in the Target documentation. Depending on the timing of releases, the information on these pages might differ.
+>These release notes contain prerelease information. Release dates, features, and other information are subject to change. To view information about the current release, see [Target Release Notes](release-notes.md) in the [!DNL Target] documentation. Depending on the timing of releases, the information on these pages might differ.
 
 <table id="table_1DAD8293D4A447D9932083FB9488EAA2"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>Announcements:</b> </p> <p> 
      <ul id="ul_A0205508929340CB89A766AA047E8363"> 
-      <lI>Target and the Adobe Marketing Cloud will drop support for Microsoft Internet Explorer 11 starting in March 2019. This change affects Target authoring only; this change does not affect experience delivery. Please switch to Microsoft Edge or another supported browser. For more information, see <a href="/help/c-implementing-target/c-considerations-before-you-implement-target/r-supported-browsers.md" format="dita" scope="local"> Supported Browsers</a>.</li> </li> 
-      <li id="li_262EDDD313B5423DA77D002B8AF747C6"> <p> Starting with the Target 18.4.1 release (April 25, 2018), Adobe Target will take steps to move towards TLS 1.2 encryption and phase out support for TLS 1.0 encryption by February 2019. Migrating to TLS 1.2 will provide improved security. It is important that you go through the specifics and plan out the changes for a smooth transition. For more information, see <a href="../c-implementing-target/c-considerations-before-you-implement-target/c-tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451" format="dita" scope="local"> TLS (Transport Layer Security) Encryption Changes</a>. </p> </li>  
+      <lI>[!DNL Target] and the [!DNL Adobe Marketing Cloud] will drop support for Microsoft Internet Explorer 11 starting in March 2019. This change affects [!DNL Target] authoring only; this change does not affect experience delivery. Please switch to Microsoft Edge or another supported browser. For more information, see <a href="/help/c-implementing-target/c-considerations-before-you-implement-target/r-supported-browsers.md" format="dita" scope="local"> Supported Browsers</a>.</li> </li> 
+      <li id="li_262EDDD313B5423DA77D002B8AF747C6"> <p> Starting with the [!DNL Target] 18.4.1 release (April 25, 2018), [!DNL Target] will take steps to move towards TLS 1.2 encryption and phase out support for TLS 1.0 encryption by February 2019. Migrating to TLS 1.2 provides improved security. It is important that you go through the specifics and plan out the changes for a smooth transition. For more information, see <a href="../c-implementing-target/c-considerations-before-you-implement-target/c-tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451" format="dita" scope="local"> TLS (Transport Layer Security) Encryption Changes</a>. </p> </li>  
      </ul> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## at.js version 1.6.4 (January 10, 2019)
+## [!DNL at.js] version 1.6.4 (January 10, 2019)
 
-at.js 1.6.4 is a maintenance release and addresses the following issue:
+[!DNL at.js] 1.6.4 is a maintenance release and addresses the following issue:
 
 * Fixed a race condition manifesting in Microsoft Internet Explorer 11 that caused duplicate offers to be applied.
 
 
 
-## Target Standard/Premium 19.1.1 (January 22, 2019) {#section_6BBA8B1EE9D241C28E12856A375E97F6}
+## [!DNL Target] Standard/Premium 19.1.1 (January 22, 2019) {#section_6BBA8B1EE9D241C28E12856A375E97F6}
 
 This release includes the following features, changes and enhancements:
 
@@ -52,15 +52,14 @@ Note: The issue numbers in parentheses are for internal Adobe use.
    <th colname="col2" class="entry"> Description </th> 
   </tr>
  </thead>
- <tbody> 
-  <!-- <row> <entry colname="col1"> <p>Form-Based Activities </p> </entry> <entry colname="col2"> <p>This release includes a new priority model for activities that use the Form-Based Experience Composer with only a global mbox. Before this release, content from multiple activities was returned to the page and overwrote content from other returned activities. Now, only the top priority activity's content is returned. </p> </entry> </row> --> 
+ <tbody>  
   <tr> 
-   <td colname="col1" class="premium"> <p>Enterprise Permissions support in Target APIs </p> <p>(Target Premium)</p></td> 
-   <td colname="col2"> <p>Adobe Target APIs can now leverage the power of Enterprise Permissions just like the UI. Currently, Target APIs deal only with the Default workspace if you are leveraging Enterprise Permissions features. However, now you can work with Target APIs (Activity, Offers, Audiences and Reporting) across all workspaces.</p><p>Note: This feature will be available starting January 31, 2019 after the Adobe IO APIs are updated. Support for Automated Personalization (AP) activities will come in next release.</P> </td> 
+   <td colname="col1" class="premium"> <p>Enterprise Permissions support in [!DNL Target] APIs </p> <p>([!DNL Target Premium])</p></td> 
+   <td colname="col2"> <p>[!DNL Adobe Target] APIs can now leverage the power of Enterprise Permissions just like the UI. Currently, [!DNL Target] APIs deal only with the default workspace if you are leveraging Enterprise Permissions features. However, now you can work with [!DNL Target] APIs (Activity, Offers, Audiences and Reporting) across all workspaces.</p><p>Note: This feature will be available starting January 31, 2019 after the Adobe I/O APIs are updated. Support for Automated Personalization (AP) activities will come in next release.</P> </td> 
   </tr> 
   <tr> 
-   <td colname="col1" class="premium"> <p>Recommendations Feeds, Collections, and Excusions </p> <p>(Target Premium)</p></td> 
-   <td colname="col2"> <p>You can now filter Feeds, Collections, and Exclusions by environment. (TGT-20622)</P> </td> 
+   <td colname="col1" class="premium"> <p>[!DNL Recommendations]: filter collections and exclusions by host group (environment) </p> <p>([!DNL Target Premium])</p></td> 
+   <td colname="col2"> <p>You can now filter collections and exclusions by host group (environment).</P> <p>Previously, when you viewed the [!UICONTROL Collections] or [!UICONTROL Exclusions] list pages, the items for the default host group (set in [!UICONTROL Recommendations > Settings > Default Host Group]) displayed. You can now filter the pages by host group to view only collections and exclusions for the selected host group.</p><p>Additionally, when you created or edified collections or exclusions, those items were created or edited in the default host group. You can now access the [!UICONTROL Environment] filter to select the desired host group in which to create or edit the collection or exclusion.</p><p>The new [!UICONTROL Environment] filter saves you time and effort because you must no longer navigate to the [!UICONTROL Settings] page to change the default host group every time before viewing, creating, or editing collections and exclusions.</p><p>The new [!UICONTROL Environment] filter is available from the following places in the Target UI:</p><ul><li>[!UICONTROL Collections] list page ([!UICONTROL Recommendations > Collections])</li><li>[!UICONTROL Exclusions] list page ([!UICONTROL Recommendations > Exclusions])</li><li>[!UICONTROL Create Collections] dialog box</li><li>[!UICONTROL Create Exclusions] dialog box</li><li>[!UICONTROL Update Collections] dialog box</li><li>[!UICONTROL Update Exclusions] dialog box</ul> <p>(TGT-20622)</P></td> 
   </tr> 
  </tbody> 
 </table>
@@ -69,9 +68,9 @@ Note: The issue numbers in parentheses are for internal Adobe use.
 
 * You are now instructed to re-authenticate when your session expires while reviewing a report. After you log in again, you are directed back to the report. (TGT-32723)
 
-## Product Documentation for Target Capabilities {#section_F03C61D438814538967B2BF901130BE4}
+## Product Documentation for [!DNL Target] Capabilities {#section_F03C61D438814538967B2BF901130BE4}
 
-Use the following links to view product documentation for Target capabilities:
+Use the following links to view product documentation for [!DNL Target] capabilities:
 
 * [Adobe Target Learn &amp; Support](https://helpx.adobe.com/support/target.html) 
 * [Recommendations Classic release notes](../assets/adobe-recommendations-classic.pdf) 
