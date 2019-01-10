@@ -15,7 +15,7 @@ Migrating from mbox.js to at.js is a straightforward process.
 
 Use the following steps to migrate from [!DNL mbox.js] to [!DNL at.js] and to check your migration: 
 
-1. Determine your organization's [browser support](../../../../c-implementing-target/c-considerations-before-you-implement-target/r-supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100) requirements.
+1. Determine your organization's [browser support](../../../../c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100) requirements.
 1. Check your website's current [!DNL mbox.js] implementation for capabilities that are not supported by [!DNL at.js].
 
    When auditing your implementation, look for the following:

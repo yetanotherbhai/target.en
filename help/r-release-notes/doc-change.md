@@ -31,7 +31,7 @@ This page lists important changes made to the Target documentation.
   </tr> 
 <tr> 
    <td colname="col1"></td> 
-   <td colname="col2"> <p> <a href="/help/r-release-notes/release-notes.md" format="dita" scope="local">Target Release Notes (current)</a>, <a href="/help/r-release-notes/target-release-notes.md" format="dita" scope="local">Target Release Notes (prerelease)</a>, and <a href="/help/c-implementing-target/c-considerations-before-you-implement-target/r-supported-browsers.md" format="dita" scope="local">Supported Browsers</a></p> </td> 
+   <td colname="col2"> <p> <a href="/help/r-release-notes/release-notes.md" format="dita" scope="local">Target Release Notes (current)</a>, <a href="/help/r-release-notes/target-release-notes.md" format="dita" scope="local">Target Release Notes (prerelease)</a>, and <a href="/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md" format="dita" scope="local">Supported Browsers</a></p> </td> 
    <td colname="col3"> <p>Added information about Target and the Adobe Marketing Cloud dropping support for Microsoft Internet Explorer 11 starting in March 2019.</p> </td> 
   </tr> 
 <tr> 
@@ -56,7 +56,7 @@ This page lists important changes made to the Target documentation.
   </tr> 
 <tr> 
    <td colname="col1"> December 20, 2018 </td> 
-   <td colname="col2"> <p> <a href="../c-implementing-target/c-api-and-sdk-overview/c-api-and-sdk-overview.md" format="dita" scope="local">Server Side implement Target</a> </p> </td> 
+   <td colname="col2"> <p> <a href="../c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md" format="dita" scope="local">Server Side implement Target</a> </p> </td> 
    <td colname="col3"> <p>Added note about CORS.</p> </td> 
   </tr> 
 <tr> 
@@ -227,7 +227,7 @@ This page lists important changes made to the Target documentation.
   </tr> 
   <tr> 
    <td colname="col1"> October 29, 2018 </td> 
-   <td colname="col2"> <p> <a href="../c-implementing-target/c-considerations-before-you-implement-target/c-tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451" format="dita" scope="local"> TLS (Transport Layer Security) encryption changes </a> </p> </td> 
+   <td colname="col2"> <p> <a href="../c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451" format="dita" scope="local"> TLS (Transport Layer Security) encryption changes </a> </p> </td> 
    <td colname="col3"> <p>Added new section: Expected Behavior with Browsers Supporting TLS 1.0 Only. </p> </td> 
   </tr> 
   <tr> 
@@ -401,7 +401,7 @@ This page lists important changes made to the Target documentation.
   </tr> 
   <tr> 
    <td colname="col1"> September 27, 2018 </td> 
-   <td colname="col2"> <p> <a href="../c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/c-methods-to-get-data-into-target.md#concept_0069C0EFB56C4700BB33F2F35C2B9B17" format="dita" scope="local"> Methods to get Data into Target </a> </p> </td> 
+   <td colname="col2"> <p> <a href="../c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md#concept_0069C0EFB56C4700BB33F2F35C2B9B17" format="dita" scope="local"> Methods to get Data into Target </a> </p> </td> 
    <td colname="col3"> <p>Added information about allowed characters in query stings. </p> </td> 
   </tr> 
   <tr> 
@@ -520,7 +520,7 @@ This page lists important changes made to the Target documentation.
   </tr> 
   <tr> 
    <td colname="col1"> September 10, 2018 </td> 
-   <td colname="col2"> <p> <a href="../r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A" format="dita" scope="local"> Target Release Notes </a> </p> <p> <a href="../c-implementing-target/c-considerations-before-you-implement-target/c-tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451" format="dita" scope="local"> TLS (Transport Layer Security) Encryption Changes </a> </p> </td> 
+   <td colname="col2"> <p> <a href="../r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A" format="dita" scope="local"> Target Release Notes </a> </p> <p> <a href="../c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451" format="dita" scope="local"> TLS (Transport Layer Security) Encryption Changes </a> </p> </td> 
    <td colname="col3"> <p>Changed the date when Adobe will phase out support for TLS 1.0 from September 12, 2018 to February 2019. </p> </td> 
   </tr> 
   <tr> 
@@ -612,7 +612,7 @@ This page lists important changes made to the Target documentation.
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
-   <td colname="col2"> <p> <a href="../c-implementing-target/c-considerations-before-you-implement-target/c-tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451" format="dita" scope="local"> TLS (Transport Layer Security) Encryption Changes </a> </p> </td> 
+   <td colname="col2"> <p> <a href="../c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451" format="dita" scope="local"> TLS (Transport Layer Security) Encryption Changes </a> </p> </td> 
    <td colname="col3"> <p>Removed the previously proposed date when TLS 1.0 support would be phased out (September 12, 2018). </p> <p>The date when TLS 1.0 support will be removed will be announced at a later date; however, It is important that you go through the specifics and plan out the changes for a smooth transition. </p> </td> 
   </tr> 
   <tr> 

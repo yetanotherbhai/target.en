@@ -28,7 +28,7 @@ For example, let’s assume you work for a furniture company and uploaded two cu
 
 You could create an audience defined as the propensity to buy dining room furniture is greater than the propensity to buy living room furniture. Target would then dynamically compare the dining room and living room propensity scores for a specific visitor to determine if that visitor qualifies for this audience.
 
-For more information, see [Methods to get Data into Target](../../c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/c-methods-to-get-data-into-target.md#concept_0069C0EFB56C4700BB33F2F35C2B9B17).
+For more information, see [Methods to get Data into Target](../../c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md#concept_0069C0EFB56C4700BB33F2F35C2B9B17).
 
 ## Training Video {#section_3BB8DBF3418F4520B3E274B6F40AF8F3}
 

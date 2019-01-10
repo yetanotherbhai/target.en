@@ -41,7 +41,7 @@ A list of frequently asked questions about using the features in Adobe Target, a
   </tr> 
   <tr> 
    <td colname="col1"> <p> Which browsers does Target support? </p> </td> 
-   <td colname="col2"> <p>Please read our <a href="../c-implementing-target/c-considerations-before-you-implement-target/r-supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100" format="dita" scope="local"> Supported Browsers</a> matrix for more details. Notice that there are two aspects: the Target Standard/Premium Experience Cloud interface support and the end-user browser support on desktop/devices. </p> </td> 
+   <td colname="col2"> <p>Please read our <a href="../c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100" format="dita" scope="local"> Supported Browsers</a> matrix for more details. Notice that there are two aspects: the Target Standard/Premium Experience Cloud interface support and the end-user browser support on desktop/devices. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -58,7 +58,7 @@ A list of frequently asked questions about using the features in Adobe Target, a
  <tbody> 
   <tr> 
    <td colname="col1"> <p> Which implementation JavaScript file should I use, at.js or mbox.js? </p> </td> 
-   <td colname="col2"> <p>at.js is our latest and greatest JavaScript library. mbox.js is our older version. See <a href="../c-implementing-target/c-considerations-before-you-implement-target/c-target-implement.md#concept_60B748DE4293488F917E8F1FA4C7E9EB" format="dita" scope="local"> Understanding the Target JavaScript Libraries</a> to understand the differences between the two libraries. All new customers should use at.js. </p> <p>All existing mbox.js customers should migrate to at.js. Learn more about the steps involved in<a href="../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/t-target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA" format="dita" scope="local"> migrating from mbox.js to at.js</a> before making the transition. </p> </td> 
+   <td colname="col2"> <p>at.js is our latest and greatest JavaScript library. mbox.js is our older version. See <a href="../c-implementing-target/c-considerations-before-you-implement-target/target-implement.md#concept_60B748DE4293488F917E8F1FA4C7E9EB" format="dita" scope="local"> Understanding the Target JavaScript Libraries</a> to understand the differences between the two libraries. All new customers should use at.js. </p> <p>All existing mbox.js customers should migrate to at.js. Learn more about the steps involved in<a href="../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/t-target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA" format="dita" scope="local"> migrating from mbox.js to at.js</a> before making the transition. </p> </td> 
   </tr> 
  </tbody> 
 </table>

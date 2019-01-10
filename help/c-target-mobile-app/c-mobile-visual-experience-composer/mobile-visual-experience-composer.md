@@ -21,7 +21,7 @@ The Visual Experience Composer (VEC) for Native Mobile Apps lets you create acti
 
 The existing [Visual Experience Composer](../../c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) gives you a do-it-yourself capability to create activities and personalize experiences that can be dynamically delivered to your web properties via Target's Global Mbox without any developer intervention. You can now take advantage of the VEC to do the same for native mobile applications. The Mobile VEC can be used to create [A/B Test](../../c-activities/t-test-ab/test-ab.md#task_05E33EB15C4D4459B5EAFF90A94A7977) and [Experience Targeting (XT)](../../c-activities/t-experience-target/experience-target.md#task_A53DF336CB9F4D7BB87EF2106099EFC4) activities for mobile apps. Support for other activity types will be available in the future.
 
-The Mobile VEC supports the browsers listed in [Target Standard/Premium Interface in Supported Browsers](../../c-implementing-target/c-considerations-before-you-implement-target/r-supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100).
+The Mobile VEC supports the browsers listed in [Target Standard/Premium Interface in Supported Browsers](../../c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100).
 
 ## Target Views & Mobile Applications {#section_9B3941F6EE854F87917611D2A8AF8868}
 
