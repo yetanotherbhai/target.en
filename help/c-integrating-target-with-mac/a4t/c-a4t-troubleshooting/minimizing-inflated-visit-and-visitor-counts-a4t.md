@@ -46,10 +46,6 @@ The identified causes of partial data include the following:
 * **Page Errors:** If there are JavaScript errors or other scenarios where each of the touchpoints do not fire (Experience Cloud ID service, Target, and Analytics), partial data will result. 
 * **Redirect Offer(s) in Target Activity:** Redirect offers immediately send a user to a different page, which means the [!DNL Analytics] call does not fire on the first page.
 
-  >[!NOTE]
-  >
-  >After November 14, 2016, customers will no longer be able to create A4T activities with redirect offers.
-
 * **Old Versions of the Libraries:** Over the past year Adobe has made several improvements to our JavaScript libraries ( [!DNL appMeasurement.js], `at.js/mbox.js`, and `visitorAPI.js`) to make sure data is sent as efficiently as possible. To learn more about implementation requirements, see [Before You Implement](../../../c-integrating-target-with-mac/a4t/c-before-implement.md#concept_046BC89C03044417A30B63CE34C22543).
 
 ## What are the Best Practices to Reduce Partial Data? {#section_065C38501527451C8058278054A1818D}

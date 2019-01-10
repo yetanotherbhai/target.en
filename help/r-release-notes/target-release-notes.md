@@ -13,7 +13,7 @@ uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 
 These release notes provide information about features, enhancements, fixes, and known issues for the latest or upcoming [!DNL Adobe Target] releases.
 
-**Last Updated: January 9, 2019**
+**Last Updated: January 10, 2019**
 
 >[!NOTE]
 >
@@ -31,7 +31,7 @@ These release notes provide information about features, enhancements, fixes, and
  </tbody> 
 </table>
 
-## [!DNL at.js] version 1.6.4 (January 10, 2019)
+## [!DNL at.js] version 1.6.4 (January 11, 2019)
 
 [!DNL at.js] 1.6.4 is a maintenance release and addresses the following issue:
 

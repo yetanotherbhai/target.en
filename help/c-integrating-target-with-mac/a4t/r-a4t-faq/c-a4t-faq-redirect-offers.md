@@ -35,6 +35,10 @@ There is a possibility that a race condition can occur that might cause the Anal
 
 Using the form-based composer to build a redirect activity is recommended to increase the speed of the page redirect. This is because of where the code gets executed on the page. Also, creating a redirect offer for every experience, even the default experience, where the redirect would return the original page is recommended. This ensures that if mis-counting occurs, it happens across all experiences so reporting and analysis is still valid for the test.
 
+>[!NOTE]
+>
+>This race condition affects only customers using at.js version 1.6.3 or earlier. Be aware that the Target team maintains only two versions of at.js—the current version and the second-latest version. Please upgrade at.js as necessary to ensure that you are running a [supported version](/help/c-implementing-target/c-implementing-target-for-client-side-web/r-target-atjs-versions.md).
+
 For more information about this issue, see the "Redirect offers" column in the [Known Issues](../../../r-release-notes/known-issues-resolved-issues.md#concept_625C3A16B7F24D4B82EFF130F0945541) table.
 
 ## Can I use redirect offers with A4T if I'm using the mbox.js JavaScript library? {#section_D2A8B182B7254D61A8BB2BCBA0C0F64A}

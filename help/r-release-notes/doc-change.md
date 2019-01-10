@@ -41,7 +41,7 @@ This page lists important changes made to the Target documentation.
   </tr> 
 <tr> 
    <td colname="col1"></td> 
-   <td colname="col2"> <p> <a href="/help/r-release-notes/target-release-notes.md" format="dita" scope="local">at.js version details</a></p> </td> 
+   <td colname="col2"> <p> <a href="/help/c-implementing-target/c-implementing-target-for-client-side-web/r-target-atjs-versions.md" format="dita" scope="local">at.js version details</a></p> </td> 
    <td colname="col3"> <p>Added information for at.js 1.6.4 release.</p> </td> 
   </tr> 
 <tr> 
