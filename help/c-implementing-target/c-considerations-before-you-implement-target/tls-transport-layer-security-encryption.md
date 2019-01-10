@@ -44,7 +44,7 @@ As you plan for this change, consider the following (note that the February 2019
 * Be aware that the number of visitors in your Target reports can potentially see an insignificant drop in the number of visitors. 
 * You might need to change audiences created specifically to target older devices or browsers that do not support TLS 1.0—delivery to those devices an browsers will no longer work.
 
-For more details about supported browsers and their versions, see [Supported Browsers](../../c-implementing-target/c-considerations-before-you-implement-target/r-supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100).
+For more details about supported browsers and their versions, see [Supported Browsers](../../c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100).
 
 ## Adobe Target APIs {#section_88797FA5434049EC89F908853CC76903}
 
@@ -56,7 +56,7 @@ Starting February 2019, Target APIs will no longer support TLS 1.0 encryption. C
 
 ## Access to Experience Cloud Solutions Interfaces {#section_748870ADE77B4CBEB18518DC784E64E5}
 
-Because the Target Standard/Premium interface already requires a [modern web browser](../../c-implementing-target/c-considerations-before-you-implement-target/r-supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100), we do not anticipate issues. If you are unable to connect to Target, you should upgrade your browser to the latest version.
+Because the Target Standard/Premium interface already requires a [modern web browser](../../c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100), we do not anticipate issues. If you are unable to connect to Target, you should upgrade your browser to the latest version.
 
 ## How to Check Which TLS Version Your Browser Uses {#section_44716DA2CEFF492BABD95AE32B1A3FC6}
 

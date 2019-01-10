@@ -17,7 +17,7 @@ Mobile viewports help you preview how your activities appear on screens of vario
 
 Mobile viewports help you preview how your activities appear on screens of various sizes. 
 
-The mobile viewport preview feature is designed for responsive sites. Use mobile viewports if your site is responsive and the same elements in your desktop page are used on your mobile page in a different configuration. If you have a separate mobile site with a separate structure, such as [!DNL m.mysite.com], use a [multipage activity](../../c-experiences/c-visual-experience-composer/c-multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48).
+The mobile viewport preview feature is designed for responsive sites. Use mobile viewports if your site is responsive and the same elements in your desktop page are used on your mobile page in a different configuration. If you have a separate mobile site with a separate structure, such as [!DNL m.mysite.com], use a [multipage activity](../../c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48).
 
 >[!NOTE]
 >

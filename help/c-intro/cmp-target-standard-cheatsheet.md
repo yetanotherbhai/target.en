@@ -41,7 +41,7 @@ A list of frequently asked questions about using the features in Adobe Target, a
   </tr> 
   <tr> 
    <td colname="col1"> <p> Which browsers does Target support? </p> </td> 
-   <td colname="col2"> <p>Please read our <a href="../c-implementing-target/c-considerations-before-you-implement-target/r-supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100" format="dita" scope="local"> Supported Browsers</a> matrix for more details. Notice that there are two aspects: the Target Standard/Premium Experience Cloud interface support and the end-user browser support on desktop/devices. </p> </td> 
+   <td colname="col2"> <p>Please read our <a href="../c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100" format="dita" scope="local"> Supported Browsers</a> matrix for more details. Notice that there are two aspects: the Target Standard/Premium Experience Cloud interface support and the end-user browser support on desktop/devices. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -58,7 +58,7 @@ A list of frequently asked questions about using the features in Adobe Target, a
  <tbody> 
   <tr> 
    <td colname="col1"> <p> Which implementation JavaScript file should I use, at.js or mbox.js? </p> </td> 
-   <td colname="col2"> <p>at.js is our latest and greatest JavaScript library. mbox.js is our older version. See <a href="../c-implementing-target/c-considerations-before-you-implement-target/c-target-implement.md#concept_60B748DE4293488F917E8F1FA4C7E9EB" format="dita" scope="local"> Understanding the Target JavaScript Libraries</a> to understand the differences between the two libraries. All new customers should use at.js. </p> <p>All existing mbox.js customers should migrate to at.js. Learn more about the steps involved in<a href="../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/t-target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA" format="dita" scope="local"> migrating from mbox.js to at.js</a> before making the transition. </p> </td> 
+   <td colname="col2"> <p>at.js is our latest and greatest JavaScript library. mbox.js is our older version. See <a href="../c-implementing-target/c-considerations-before-you-implement-target/target-implement.md#concept_60B748DE4293488F917E8F1FA4C7E9EB" format="dita" scope="local"> Understanding the Target JavaScript Libraries</a> to understand the differences between the two libraries. All new customers should use at.js. </p> <p>All existing mbox.js customers should migrate to at.js. Learn more about the steps involved in<a href="../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/t-target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA" format="dita" scope="local"> migrating from mbox.js to at.js</a> before making the transition. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -99,7 +99,7 @@ A list of frequently asked questions about using the features in Adobe Target, a
   </tr> 
   <tr> 
    <td colname="col1"> <p>Can I run an activity spanning multiple pages where the page structure is different? </p> <p>Can I apply offers at different locations (for example, the checkout funnel)? </p> </td> 
-   <td colname="col2"> <p>Try out the <a href="../c-experiences/c-visual-experience-composer/c-multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48" format="dita" scope="local"> Multipage Activity feature</a> that lets you create multiple pages within experiences. </p> </td> 
+   <td colname="col2"> <p>Try out the <a href="../c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48" format="dita" scope="local"> Multipage Activity feature</a> that lets you create multiple pages within experiences. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>How can I ensure that once a goal (Primary or Secondary) has been reached, a user never enters the activity again and instead sees a different activity going forward? </p> </td> 
@@ -131,7 +131,7 @@ A list of frequently asked questions about using the features in Adobe Target, a
   </tr> 
   <tr> 
    <td colname="col1"> <p>How can I use Target's decisioning power to receive an experience/offer that can be used in Single Page Applications (SPAs) or server-side integrations? </p> </td> 
-   <td colname="col2"> <p>Use the power of <a href="../c-experiences/t-form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E" format="dita" scope="local"> form-based activities</a> with <a href="../c-experiences/c-manage-content/c-create-json-offer.md#concept_63C7BEE1F0DB4A7596D997219B7C136D" format="dita" scope="local"> JSON offers</a> to meet your goal. </p> </td> 
+   <td colname="col2"> <p>Use the power of <a href="../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E" format="dita" scope="local"> form-based activities</a> with <a href="../c-experiences/c-manage-content/c-create-json-offer.md#concept_63C7BEE1F0DB4A7596D997219B7C136D" format="dita" scope="local"> JSON offers</a> to meet your goal. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>I have set up two activities. How do I know which one a visitor will end up seeing? </p> <p> Can I set the priority order of a few activities? </p> </td> 
@@ -207,11 +207,11 @@ A list of frequently asked questions about using the features in Adobe Target, a
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Can I run an activity on multiple pages where the page structure is common? </p> </td> 
-   <td colname="col2"> <p>Check out <a href="../c-experiences/c-visual-experience-composer/t-temtest.md#task_2539D51A18044F82B0D9895636546781" format="dita" scope="local"> Template Rules</a> to include many similar structured pages to the activity while still creating the experience on the single URL provided. </p> </td> 
+   <td colname="col2"> <p>Check out <a href="../c-experiences/c-visual-experience-composer/temtest.md#task_2539D51A18044F82B0D9895636546781" format="dita" scope="local"> Template Rules</a> to include many similar structured pages to the activity while still creating the experience on the single URL provided. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>I am tired of the "allow your browser to load scripts" message when I attempt to load my page in the Visual Experience Composer (VEC). How can I avoid this? </p> </td> 
-   <td colname="col2"> <p>This is because your site has mixed content—it’s a site that fetches both HTTP and HTTPS resources. Request that your IT team move to HTTPS completely. </p> <p>Until this happens, follow the instructions in <a href="../c-experiences/c-visual-experience-composer/r-troubleshoot-composer/c-mixed-content.md#concept_46D022D50280468C9EF6D5DF6EFC911C" format="dita" scope="local"> Enabling Mixed Content in Your Browser</a> to allow your browser to load mixed content. This is a security feature of most modern browsers. </p> </td> 
+   <td colname="col2"> <p>This is because your site has mixed content—it’s a site that fetches both HTTP and HTTPS resources. Request that your IT team move to HTTPS completely. </p> <p>Until this happens, follow the instructions in <a href="../c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md#concept_46D022D50280468C9EF6D5DF6EFC911C" format="dita" scope="local"> Enabling Mixed Content in Your Browser</a> to allow your browser to load mixed content. This is a security feature of most modern browsers. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Can I try the Visual Experience Composer (VEC) on my site even though the Target at.js library has yet not been deployed? </p> </td> 
@@ -219,11 +219,11 @@ A list of frequently asked questions about using the features in Adobe Target, a
   </tr> 
   <tr> 
    <td colname="col1"> <p>Why is my site not loading within the Visual Experience Composer (VEC)? </p> </td> 
-   <td colname="col2"> <p>Try out the<a href="../c-experiences/c-visual-experience-composer/r-troubleshoot-composer/r-troubleshoot-composer.md#reference_77743144F10143A3A89D56E116D296E4" format="dita" scope="local"> troubleshooting information</a> outlined in our help page. Reach out to <a href="../cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C" format="dita" scope="local"> Adobe Support</a> if none of these approaches work. </p> <p>We also have <a href="../c-experiences/t-form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E" format="dita" scope="local"> form-based approach</a> which can unblock you. </p> <p>Also read when and why the <a href="../c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D" format="dita" scope="local"> Enhanced Experience Composer</a> can be useful. You might have to reach out to your IT department to <a href="../c-experiences/c-visual-experience-composer/c-experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6" format="dita" scope="local"> whitelist Adobe's proxy servers</a> as well. </p> </td> 
+   <td colname="col2"> <p>Try out the<a href="../c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md#reference_77743144F10143A3A89D56E116D296E4" format="dita" scope="local"> troubleshooting information</a> outlined in our help page. Reach out to <a href="../cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C" format="dita" scope="local"> Adobe Support</a> if none of these approaches work. </p> <p>We also have <a href="../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E" format="dita" scope="local"> form-based approach</a> which can unblock you. </p> <p>Also read when and why the <a href="../c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D" format="dita" scope="local"> Enhanced Experience Composer</a> can be useful. You might have to reach out to your IT department to <a href="../c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6" format="dita" scope="local"> whitelist Adobe's proxy servers</a> as well. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>I have a responsive site. While creating an activity, how can I be sure that I am considering key devices? </p> </td> 
-   <td colname="col2"> <p>Try out the <a href="../c-experiences/c-visual-experience-composer/c-mobile-viewports.md#concept_8E45527C4ABC41D59AA3553BEDC76FA5" format="dita" scope="local"> Mobile Viewports</a> feature. Note that it works only when the Enhanced Experience Composer is enabled. </p> </td> 
+   <td colname="col2"> <p>Try out the <a href="../c-experiences/c-visual-experience-composer/mobile-viewports.md#concept_8E45527C4ABC41D59AA3553BEDC76FA5" format="dita" scope="local"> Mobile Viewports</a> feature. Note that it works only when the Enhanced Experience Composer is enabled. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>I have multiple domains. One of the domains needs the Enhanced Experience Composer enabled, while others need it to be disabled. How can I do this? </p> </td> 
@@ -239,11 +239,11 @@ A list of frequently asked questions about using the features in Adobe Target, a
   </tr> 
   <tr> 
    <td colname="col1"> <p>How can I see what modifications I made in Visual Experience Composer (VEC)? </p> </td> 
-   <td colname="col2"> <p>We always show your changes in the <a href="../c-experiences/c-visual-experience-composer/c-vec-code-editor/c-vec-code-editor.md#concept_B3A6E9EE3A60406DB640E205EA1745B5" format="dita" scope="local"> Code Editor</a>. The Modifications tab shows the CSS Selector or mbox you applied to your offer. </p> <p>Note that the CSS Selector is a Sizzle Selector. You can use this section to make minor modifications or delete certain offers quickly. </p> </td> 
+   <td colname="col2"> <p>We always show your changes in the <a href="../c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md#concept_B3A6E9EE3A60406DB640E205EA1745B5" format="dita" scope="local"> Code Editor</a>. The Modifications tab shows the CSS Selector or mbox you applied to your offer. </p> <p>Note that the CSS Selector is a Sizzle Selector. You can use this section to make minor modifications or delete certain offers quickly. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>I want to deliver JavaScript as part of the experiment/activity to either make modifications on the fly for some dynamic elements or simply to send a call to a 3rd-party solution. How can I do this? </p> </td> 
-   <td colname="col2"> <p>One of the ways is to use the <a href="../c-experiences/c-visual-experience-composer/c-vec-code-editor/c-vec-code-editor.md#concept_B3A6E9EE3A60406DB640E205EA1745B5" format="dita" scope="local"> Custom Code Editor</a>. Go ahead and put your JavaScript in the section and it will get delivered. You have the option to deliver it in the head or at the top of the body, depending on your needs. </p> </td> 
+   <td colname="col2"> <p>One of the ways is to use the <a href="../c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md#concept_B3A6E9EE3A60406DB640E205EA1745B5" format="dita" scope="local"> Custom Code Editor</a>. Go ahead and put your JavaScript in the section and it will get delivered. You have the option to deliver it in the head or at the top of the body, depending on your needs. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Why can't I go past the log-in page within the Visual Experience Composer (VEC) or to a page buried deep within for which I don't have a specific URL? </p> </td> 
@@ -255,7 +255,7 @@ A list of frequently asked questions about using the features in Adobe Target, a
   </tr> 
   <tr> 
    <td colname="col1"> <p>I am a former Target Classic user. Can I leverage my mboxes for certain use cases? </p> </td> 
-   <td colname="col2"> <p>Use <a href="../c-experiences/t-form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E" format="dita" scope="local"> form-based approach</a> to create activities. </p> </td> 
+   <td colname="col2"> <p>Use <a href="../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E" format="dita" scope="local"> form-based approach</a> to create activities. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Can I start an activity with a fewer number of visitors. </p> </td> 
@@ -275,7 +275,7 @@ A list of frequently asked questions about using the features in Adobe Target, a
   </tr> 
   <tr> 
    <td colname="col1"> <p>Why am I not seeing the desired offer/experience and am instead seeing some other activity? </p> </td> 
-   <td colname="col2"> <p> Use our <a href="../c-activities/c-troubleshooting-activities/content-trouble.md#concept_D2548B486C984B1E97ED7A72075B8EEA" format="dita" scope="local"> debugger</a> and check for<a href="../c-experiences/c-visual-experience-composer/c-activity-collisions.md#concept_0BC6B929592744DFA7DA01FF4F91052E" format="dita" scope="local"> activity collisions</a>. </p> </td> 
+   <td colname="col2"> <p> Use our <a href="../c-activities/c-troubleshooting-activities/content-trouble.md#concept_D2548B486C984B1E97ED7A72075B8EEA" format="dita" scope="local"> debugger</a> and check for<a href="../c-experiences/c-visual-experience-composer/activity-collisions.md#concept_0BC6B929592744DFA7DA01FF4F91052E" format="dita" scope="local"> activity collisions</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -300,11 +300,11 @@ A list of frequently asked questions about using the features in Adobe Target, a
   </tr> 
   <tr> 
    <td colname="col1"> <p>Why am I not seeing the desired offer/experience and am instead seeing some other activity? </p> </td> 
-   <td colname="col2"> <p> Use our <a href="../c-activities/c-troubleshooting-activities/content-trouble.md#concept_D2548B486C984B1E97ED7A72075B8EEA" format="dita" scope="local"> debugger</a> and check for<a href="../c-experiences/c-visual-experience-composer/c-activity-collisions.md#concept_0BC6B929592744DFA7DA01FF4F91052E" format="dita" scope="local"> activity collisions</a>. </p> </td> 
+   <td colname="col2"> <p> Use our <a href="../c-activities/c-troubleshooting-activities/content-trouble.md#concept_D2548B486C984B1E97ED7A72075B8EEA" format="dita" scope="local"> debugger</a> and check for<a href="../c-experiences/c-visual-experience-composer/activity-collisions.md#concept_0BC6B929592744DFA7DA01FF4F91052E" format="dita" scope="local"> activity collisions</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Can I use Target's decisioning power to receive an experience/offer that can be used in Single Page Applications (SPAs) or server-side integrations? </p> </td> 
-   <td colname="col2"> <p>Use the power of <a href="../c-experiences/t-form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E" format="dita" scope="local"> form-based activities</a> with <a href="../c-experiences/c-manage-content/c-create-json-offer.md#concept_63C7BEE1F0DB4A7596D997219B7C136D" format="dita" scope="local"> JSON offers</a> to meet your goal. </p> </td> 
+   <td colname="col2"> <p>Use the power of <a href="../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E" format="dita" scope="local"> form-based activities</a> with <a href="../c-experiences/c-manage-content/c-create-json-offer.md#concept_63C7BEE1F0DB4A7596D997219B7C136D" format="dita" scope="local"> JSON offers</a> to meet your goal. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -405,7 +405,7 @@ A list of frequently asked questions about using the features in Adobe Target, a
  <tbody> 
   <tr> 
    <td colname="col1"> <p> We have a mobile SKU. Can I create mobile activities? </p> </td> 
-   <td colname="col2"> <p> For optimization and personalization on mobile, you need to use <a href="../c-experiences/t-form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E" format="dita" scope="local"> form-based activities</a> along with the <a href="../c-target-mobile-app/mobile-enable-target-in-sdk.md#task_FCA99AD0785A44E995468776AE76FE91" format="dita" scope="local"> Adobe SDK</a>. Check out more details about <a href="../c-target-mobile-app/target-mobile-app.md#concept_80126FF457724DE788CE37264A047559" format="dita" scope="local"> Target for mobile apps</a>. </p> </td> 
+   <td colname="col2"> <p> For optimization and personalization on mobile, you need to use <a href="../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E" format="dita" scope="local"> form-based activities</a> along with the <a href="../c-target-mobile-app/mobile-enable-target-in-sdk.md#task_FCA99AD0785A44E995468776AE76FE91" format="dita" scope="local"> Adobe SDK</a>. Check out more details about <a href="../c-target-mobile-app/target-mobile-app.md#concept_80126FF457724DE788CE37264A047559" format="dita" scope="local"> Target for mobile apps</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

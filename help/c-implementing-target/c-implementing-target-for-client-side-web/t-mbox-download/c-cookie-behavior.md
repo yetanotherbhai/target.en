@@ -233,7 +233,7 @@ From Apple:
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Opt-out support </p> </td> 
-   <td colname="col2"> <p>Apple's WebKit tracking changes breaks opt-out support. </p> <p>Target opt-out uses a cookie in the <span class="filepath"> clientcode.tt.omtrdc.net</span> domain. For more details, see <a href="../../../c-implementing-target/c-considerations-before-you-implement-target/c-privacy/c-privacy.md#concept_639482A343DB4963A6144378E1D8D7F0" format="dita" scope="local"> Privacy</a>. </p> <p>Target supports two opt-outs: </p> <p> 
+   <td colname="col2"> <p>Apple's WebKit tracking changes breaks opt-out support. </p> <p>Target opt-out uses a cookie in the <span class="filepath"> clientcode.tt.omtrdc.net</span> domain. For more details, see <a href="../../../c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md#concept_639482A343DB4963A6144378E1D8D7F0" format="dita" scope="local"> Privacy</a>. </p> <p>Target supports two opt-outs: </p> <p> 
      <ul id="ul_BC41B5AA41884FFE8EAA34F3EB5EF254"> 
       <li id="li_1D79215CB0714FD7B33E7A310B6236C7"> <p>One per client (the client manages the opt-out link). </p> </li> 
       <li id="li_C0CB5430AFA54FC79CAD62676602EB8B"> <p>One via Adobe that opts the user out of all Target functionality for all customers. </p> </li> 

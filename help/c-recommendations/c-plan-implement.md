@@ -199,7 +199,7 @@ For more information about implementing [!DNL at.js], see [How to Deploy at.js](
 
 For more information about implementing [!DNL mbox.js], see [Mbox.js Implementation](../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/t-mbox-download.md#task_4EAE26BB84FD4E1D858F411AEDF4B420).
 
-For more information about the differences between the two Target Javascript libraries, see [Understanding the Target JavaScript Libraries](../c-implementing-target/c-considerations-before-you-implement-target/c-target-implement.md#concept_60B748DE4293488F917E8F1FA4C7E9EB).
+For more information about the differences between the two Target Javascript libraries, see [Understanding the Target JavaScript Libraries](../c-implementing-target/c-considerations-before-you-implement-target/target-implement.md#concept_60B748DE4293488F917E8F1FA4C7E9EB).
 
 ## Category Page {#section_F51A1AAEAC0E4B788582BBE1FEC3ABDC}
 

@@ -134,7 +134,7 @@ You can add devices to use when previewing experiences. Each device has an assoc
  <tbody> 
   <tr> 
    <td colname="col1"> <p class="premium">Add New </p> </td> 
-   <td colname="col2"> <p>Click <span class="uicontrol"> Add New</span>, specify a descriptive name for the mobile viewport, specify the width and height, select the desired operating system, then click Save. </p> <p>For information about how to add a mobile viewport, see <a href="../../c-experiences/c-visual-experience-composer/c-mobile-viewports.md#task_B4B161499DC0470584ED922A4D20FCAB" format="dita" scope="local"> Mobile Viewport Configuration</a>. </p> </td> 
+   <td colname="col2"> <p>Click <span class="uicontrol"> Add New</span>, specify a descriptive name for the mobile viewport, specify the width and height, select the desired operating system, then click Save. </p> <p>For information about how to add a mobile viewport, see <a href="../../c-experiences/c-visual-experience-composer/mobile-viewports.md#task_B4B161499DC0470584ED922A4D20FCAB" format="dita" scope="local"> Mobile Viewport Configuration</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

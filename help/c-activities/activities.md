@@ -254,7 +254,7 @@ If you exceed any of these limits, the activity cannot be saved.
 
 Increasing the numbers of these items in your activity also increases the length of time it takes to synchronize the activity across Target.
 
-For additional limits of the Visual Experience Composer, see [Visual Experience Composer Limitations](../c-experiences/c-visual-experience-composer/c-experience-composer-best-practices.md#section_F33C2EA27F2E417AA036BC199DD6C721).
+For additional limits of the Visual Experience Composer, see [Visual Experience Composer Limitations](../c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#section_F33C2EA27F2E417AA036BC199DD6C721).
 
 ## Attributes Imported into Target for Activities Updated Outside of Target {#section_802B0D174E6A44E1A96F404CA81AAE44}
 

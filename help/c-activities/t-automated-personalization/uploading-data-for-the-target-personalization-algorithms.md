@@ -12,7 +12,7 @@ uuid: eb0938b9-7f35-4bb5-ac4b-260b2144db5b
 
 Offline data, such as CRM information or customer churn propensity scores, can be incredibly valuable when building personalization models.
 
- There are several ways to input data in Automated Personalization (AP) and Auto-Target personalization algorithms. In addition to the methods in [Methods to get Data into Target](../../c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/c-methods-to-get-data-into-target.md#concept_0069C0EFB56C4700BB33F2F35C2B9B17), Experience Cloud shared audiences (Adobe Analytics, Audience Management) and in-activity reporting audiences are also used in our algorithms.
+ There are several ways to input data in Automated Personalization (AP) and Auto-Target personalization algorithms. In addition to the methods in [Methods to get Data into Target](../../c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md#concept_0069C0EFB56C4700BB33F2F35C2B9B17), Experience Cloud shared audiences (Adobe Analytics, Audience Management) and in-activity reporting audiences are also used in our algorithms.
 
 For information about the data automatically collected and used by Automated Personalization and Auto-Target personalization algorithms, see [Automated Personalization Data Collection](../../c-activities/t-automated-personalization/ap-data.md#reference_255BD3DE7AD04DC9B766E0BC78961058).
 
