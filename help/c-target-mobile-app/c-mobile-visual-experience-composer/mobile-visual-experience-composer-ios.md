@@ -248,14 +248,14 @@ ACPTargetVEC.setTargetView("VIEW_NAME", with: TARGET_PARAMS)
 
 ## Calling the Prefetch API Explicitly {#section_373DB4527FC649C58FBA3DF0C18C9836}
 
-There might be certain scenarios when you might want to call the prefetch API again to refresh the offers stored in cache. The following APIs are exposed, which are described as :
+There might be certain scenarios when you might want to call the prefetch API again to refresh the offers stored in cache. The following APIs are exposed, which are described as:
 
 **Prefetch Offers:**
 
 ```
 /** 
  * Prefetch all offers for all views in the cache. It will remove existing offers and changes for the current view will be 
- refreshed only when the view is triggered. This call happens on the main thread blocking the UI 
+ refreshed only when the view is triggered. This call happens on the main thread blocking the UI. 
  */ 
 + (void) prefetchOffers;
 ```
@@ -265,7 +265,7 @@ There might be certain scenarios when you might want to call the prefetch API ag
 ```
 /** 
  * Prefetch all offers for all views in the cache. It will remove existing offers and changes for the current view will be 
- refreshed only when the view is triggered. This call happens on the background thread so doesn't block UI 
+ refreshed only when the view is triggered. This call happens on the background thread so doesn't block UI. 
  */ 
 + (void) prefetchOffersBackground;
 ```
