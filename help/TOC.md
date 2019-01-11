@@ -172,7 +172,7 @@ index: n
    + Experience Targeting {#experience-targeting}
       + [Experience Targeting overview](c-activities/t-experience-target/experience-target.md)
       + Create an Experience Targeting activity {#create-targeting}
-         + [Create an activity](c-activities/t-experience-target/xt-create/xt-create.md)
+         + [Create an activity](c-activities/t-experience-target/t-xt-create/xt-create.md)
          + [Activity URL](c-activities/t-experience-target/t-xt-create/xt-activity-url.md)
          + [Create an experience](c-activities/t-experience-target/t-xt-create/xt-add-experience.md)
          + [Switching Experiences in Experience Targeting](c-activities/t-experience-target/t-xt-create/xt-switching-experiences.md)
