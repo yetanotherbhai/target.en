@@ -38,7 +38,7 @@ The Automated Personalization activity workflow varies from the workflow of the 
 
    ![](assets/ap_url.png)
 
-   For troubleshooting information about the VEC, should you have problems, see [Troubleshooting the Visual Experience Composer](../../c-experiences/c-visual-experience-composer/r-troubleshoot-composer/r-troubleshoot-composer.md#reference_77743144F10143A3A89D56E116D296E4). 
+   For troubleshooting information about the VEC, should you have problems, see [Troubleshooting the Visual Experience Composer](../../c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md#reference_77743144F10143A3A89D56E116D296E4). 
 1. To name the activity, click the Name field and type your activity name.
 
    ![](assets/ab_newname.png)

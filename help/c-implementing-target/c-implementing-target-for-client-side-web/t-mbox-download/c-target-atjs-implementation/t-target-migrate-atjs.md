@@ -15,7 +15,7 @@ Migrating from mbox.js to at.js is a straightforward process.
 
 Use the following steps to migrate from [!DNL mbox.js] to [!DNL at.js] and to check your migration: 
 
-1. Determine your organization's [browser support](../../../../c-implementing-target/c-considerations-before-you-implement-target/r-supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100) requirements.
+1. Determine your organization's [browser support](../../../../c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100) requirements.
 1. Check your website's current [!DNL mbox.js] implementation for capabilities that are not supported by [!DNL at.js].
 
    When auditing your implementation, look for the following:
@@ -134,6 +134,6 @@ Use the following steps to migrate from [!DNL mbox.js] to [!DNL at.js] and to ch
   HTML > BODY > DIV:nth-of-type(1)
   ```
 
-  For more information about how to use the code editor to do this, see [Code Editor](../../../../c-experiences/c-visual-experience-composer/c-vec-code-editor/c-vec-code-editor.md#concept_B3A6E9EE3A60406DB640E205EA1745B5). 
+  For more information about how to use the code editor to do this, see [Code Editor](../../../../c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md#concept_B3A6E9EE3A60406DB640E205EA1745B5). 
 
 * Because all mboxes are now asynchronous, they won't block page rendering or return in the order in which they fired. For more information, see "Asynchronous Considerations" in [at.js Limitations](../../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/c-target-atjs-limitations.md#concept_FA99E4D6EC274552BF45E01AFB76CCAE). 

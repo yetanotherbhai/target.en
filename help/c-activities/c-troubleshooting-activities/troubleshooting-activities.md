@@ -74,7 +74,7 @@ If your activity does not appear on your site, these troubleshooting suggestions
    <td colname="col2"> <p> <b>Validate:</b> Go to the Visual Experience Composer for the existing activity. Look for warning message indicating that the selectors (or structure) has changed. </p> <p> <b>Options:</b> </p> <p> 
      <ul id="ul_8CACB4017E0048D88A21433785827B6A"> 
       <li id="li_E7AF83ABC5FE4759AB77ECA4AA71D3EB"> <p>Rebuild the activity. </p> </li> 
-     </ul> </p> <p>For more information about how page modifications affect Target's ability to display, see <a href="../../c-experiences/c-visual-experience-composer/r-troubleshoot-composer/c-vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB" format="dita" scope="local"> Page Modification Scenarios</a>. </p> </td> 
+     </ul> </p> <p>For more information about how page modifications affect Target's ability to display, see <a href="../../c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB" format="dita" scope="local"> Page Modification Scenarios</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>The structure of the page is modified during page load (at run time). </p> </td> 
@@ -82,7 +82,7 @@ If your activity does not appear on your site, these troubleshooting suggestions
      <ul id="ul_8C2E2601DA6B4E4CA388EF0D9C748759"> 
       <li id="li_9E970E0E9B1847C7AD030CB67C032AF7"> <p> Update page code to uniquely identify each element that will be tested (using an <span class="codeph"> id</span>). </p> </li> 
       <li id="li_2523B1A8518E45F2B4130ED52DE7A0CF"> <p> Stop dynamically modifying the class or siblings as described above. </p> </li> 
-     </ul> </p> <p>For more information about how page modifications affect Target's ability to display, see <a href="../../c-experiences/c-visual-experience-composer/r-troubleshoot-composer/c-vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB" format="dita" scope="local"> Page Modification Scenarios</a>. </p> </td> 
+     </ul> </p> <p>For more information about how page modifications affect Target's ability to display, see <a href="../../c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB" format="dita" scope="local"> Page Modification Scenarios</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="filepath"> Mbox.js</span> is popping all subsequent code out of the head and into the body. </p> </td> 

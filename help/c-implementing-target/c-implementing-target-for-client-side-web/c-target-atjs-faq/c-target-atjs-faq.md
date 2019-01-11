@@ -44,7 +44,7 @@ As you can see, [!DNL at.js] 1.0.0 will complete the requests faster. In additio
 
 ## What is the impact of at.js on page-load times? {#section_90B3B94FE0BF4B369577FCB97B67F089}
 
-For more information, see [Understanding the Target JavaScript Libraries](../../../c-implementing-target/c-considerations-before-you-implement-target/c-target-implement.md#concept_60B748DE4293488F917E8F1FA4C7E9EB).
+For more information, see [Understanding the Target JavaScript Libraries](../../../c-implementing-target/c-considerations-before-you-implement-target/target-implement.md#concept_60B748DE4293488F917E8F1FA4C7E9EB).
 
 ## Can I load the Target library asynchronously? {#section_AB9A0CA30C5440C693413F1455841470}
 

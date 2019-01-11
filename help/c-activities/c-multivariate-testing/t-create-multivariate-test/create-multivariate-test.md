@@ -41,7 +41,7 @@ The multivariate test takes a page-first report. In other words, the test runs o
 
    The Visual Experience Composer opens.
 
-   For troubleshooting information about the VEC, should you have problems, see [Troubleshooting the Visual Experience Composer](../../../c-experiences/c-visual-experience-composer/r-troubleshoot-composer/r-troubleshoot-composer.md#reference_77743144F10143A3A89D56E116D296E4). 
+   For troubleshooting information about the VEC, should you have problems, see [Troubleshooting the Visual Experience Composer](../../../c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md#reference_77743144F10143A3A89D56E116D296E4). 
 1. Type a name for the activity.
 
    ![](assets/activityname.png)

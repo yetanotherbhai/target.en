@@ -49,7 +49,7 @@ We recommend that all VEC users upgrade to the [latest version of mbox.js](../..
 
 ## When I change one element on the page, multiple elements change. (VEC and EEC) {#section_309188ACF34942989BE473F63C5710AF}
 
-If the same DOM element ID is used on multiple elements on the page, changing one of those elements changes all elements with that ID. To prevent this from happening, an ID should be used only once on each page. This is a standard HTML best practice. For more information, see [Page Modification Scenarios](../../../c-experiences/c-visual-experience-composer/r-troubleshoot-composer/c-vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB).
+If the same DOM element ID is used on multiple elements on the page, changing one of those elements changes all elements with that ID. To prevent this from happening, an ID should be used only once on each page. This is a standard HTML best practice. For more information, see [Page Modification Scenarios](../../../c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB).
 
 ## I can't edit experiences for an iFrame-busting site. (VEC and EEC) {#section_9FE266B964314F2EB75604B4D7047200}
 

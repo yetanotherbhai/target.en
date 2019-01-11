@@ -373,7 +373,7 @@ The following table contains description of the illustrative profile JSON fields
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Sample_Parameter </span> </p> </td> 
-   <td colname="col2"> <p>Many pieces of information in the Target profile are uploaded or directly provided by the Data Controller. In this example, a parameter was uploaded into the Target profile using the Profile Update API. For more information, see <a href="../../../c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/c-methods-to-get-data-into-target.md#concept_0069C0EFB56C4700BB33F2F35C2B9B17" format="dita" scope="local"> Methods to get Data into Target </a>. </p> </td> 
+   <td colname="col2"> <p>Many pieces of information in the Target profile are uploaded or directly provided by the Data Controller. In this example, a parameter was uploaded into the Target profile using the Profile Update API. For more information, see <a href="../../../c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md#concept_0069C0EFB56C4700BB33F2F35C2B9B17" format="dita" scope="local"> Methods to get Data into Target </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> user.ReturnTimeOfDay </span> </p> </td> 
@@ -396,4 +396,4 @@ The following table contains description of the illustrative profile JSON fields
 
 ## Does Target support IP obfuscation? {#section_428907B0CD9842D9B245B38C66A53C6A}
 
-Target supports IP obfuscation in Target if you choose to use it as part of your GDPR implementation strategy. For more information, see [Privacy](../../../c-implementing-target/c-considerations-before-you-implement-target/c-privacy/c-privacy.md#concept_639482A343DB4963A6144378E1D8D7F0). 
+Target supports IP obfuscation in Target if you choose to use it as part of your GDPR implementation strategy. For more information, see [Privacy](../../../c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md#concept_639482A343DB4963A6144378E1D8D7F0). 

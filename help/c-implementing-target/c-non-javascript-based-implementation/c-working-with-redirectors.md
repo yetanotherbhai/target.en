@@ -76,7 +76,7 @@ ov2/t_creating-a-redirector.xml
 1. Validate the Redirector.
    1. Insert the Redirector URL into a browser and refresh.
    1. Log in to your account, refresh your mbox list and verify the new Redirector is listed as an mbox.
-1. If you will test different destinations for one ad, create [Redirect Offers](../../c-experiences/c-visual-experience-composer/t-redirect-offer.md#task_9578678D42784F5EB9638F8AC8C911FA) for each version.
+1. If you will test different destinations for one ad, create [Redirect Offers](../../c-experiences/c-visual-experience-composer/redirect-offer.md#task_9578678D42784F5EB9638F8AC8C911FA) for each version.
 1. Create the campaign.
 
    See [Non-JavaScript-Based Implementations](../../c-implementing-target/c-non-javascript-based-implementation/c-non-javascript-based-implementation.md#concept_4799C58B081A43F6B3B8CC25A8D5D7C4) for the right setup to meet your goals. 

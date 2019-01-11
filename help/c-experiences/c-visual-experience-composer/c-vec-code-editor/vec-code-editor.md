@@ -14,7 +14,7 @@ uuid: 4555290b-8d51-4882-9251-c80c868e1a73
 
 Information about the Modifications page that lets you view modifications to your page and add additional modifications (CSS Selector, Mbox, and Custom Code).
 
-The Modifications page shows all changes that have been made to your page in the Visual Experience Composer (VEC) and lets you make additional changes by clicking each element on the page and [selecting an action](../../../c-experiences/c-visual-experience-composer/r-viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81). Each change you make appears as a separate action or element in the [!UICONTROL Modifications] list. You can also add modifications, including the following modification types: CSS Selector, Mbox. and Custom Code.
+The Modifications page shows all changes that have been made to your page in the Visual Experience Composer (VEC) and lets you make additional changes by clicking each element on the page and [selecting an action](../../../c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81). Each change you make appears as a separate action or element in the [!UICONTROL Modifications] list. You can also add modifications, including the following modification types: CSS Selector, Mbox. and Custom Code.
 
 ## Modifications Overview {#section_EE27E7572AA74397BBDED563B2B3D509}
 
@@ -64,7 +64,7 @@ Use the Modifications page to:
 
    >[!NOTE]
    >
-   >To open the Modifications panel in the Form-based Experience Composer, create or edit an HTML offer. For more information, see [Form-Based Experience Composer](../../../c-experiences/t-form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E).
+   >To open the Modifications panel in the Form-based Experience Composer, create or edit an HTML offer. For more information, see [Form-Based Experience Composer](../../../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E).
 
    The [!UICONTROL Modifications] page opens, splitting the screen between the visual mode on the left and the Modifications panel on the right. Click the [!UICONTROL Dock] icon to dock the Modifications panel vertically along the side of the Target UI or horizontally at the bottom. Notice that Experience A in the following illustration has no previous modifications.
 
@@ -225,7 +225,7 @@ Use the **[!UICONTROL Custom Code]** tab to:
 
 * Add Adobe Target Experience Templates for use in custom code. Target Experience Templates are pre-coded samples with configurable inputs to be used to execute common marketer use-cases. These Experience Templates are provided free to developers and marketers as a starting point to execute common use-cases, either via the VEC or the Form-based Experience Composer. Use-cases include lightboxes, carousels, countdowns, and more.
 
-  For more information, see [Experience Templates](../../../c-experiences/c-visual-experience-composer/c-vec-code-editor/c-experience-templates.md#concept_109BBD7EABC04DD39E6B7B1687786652).
+  For more information, see [Experience Templates](../../../c-experiences/c-visual-experience-composer/c-vec-code-editor/experience-templates.md#concept_109BBD7EABC04DD39E6B7B1687786652).
 
 ## Custom Code Best Practices {#section_10DFFD9FB92A43C1BB444A45E0272B28}
 

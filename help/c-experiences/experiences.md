@@ -17,6 +17,6 @@ An activity typically contains more than one experience. For example, visitors f
 
 Target provides the following experience composers:
 
-* [Visual Experience Composer (VEC)](../c-experiences/c-visual-experience-composer/c-visual-experience-composer.md#concept_CF63320EB8924B2F9BDA3C72256DCE50) 
-* [Form-Based Experience Composer](../c-experiences/t-form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E)
+* [Visual Experience Composer (VEC)](../c-experiences/c-visual-experience-composer/visual-experience-composer.md#concept_CF63320EB8924B2F9BDA3C72256DCE50) 
+* [Form-Based Experience Composer](../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E)
 

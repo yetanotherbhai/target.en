@@ -141,7 +141,7 @@ You can consume Experience Fragments in Target activities using the Visual Exper
 
 **To consume Experience Fragments using the Form-based Experience Composer:**
 
-1. In Target, while creating or editing an experience in the [Form-Based Experience Composer](../../c-experiences/t-form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E), select the location on the page where you want to insert AEM content, then select **[!UICONTROL Change Experience Fragment]** to display the [!UICONTROL Choose an Experience Fragment] list.
+1. In Target, while creating or editing an experience in the [Form-Based Experience Composer](../../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E), select the location on the page where you want to insert AEM content, then select **[!UICONTROL Change Experience Fragment]** to display the [!UICONTROL Choose an Experience Fragment] list.
 
    ![](assets/experience_fragment_list.png)
 

@@ -119,7 +119,7 @@ This release includes the following features and enhancements:
   </tr> 
   <tr> 
    <td colname="col1"> <p>Visual Experience Composer (VEC) </p> </td> 
-   <td colname="col2"> <p>We have added an <span class="wintitle"> Insert Before </span> action to the (VEC). This is similar to the previously existing <span class="wintitle"> Insert After </span> option. When you select an element on the page, you can click <span class="wintitle"> Insert Before </span> and choose whether you want to insert an image, HTML, or text. The inserted element appears before the selected element. (TGT-30473) See <a href="../c-experiences/c-visual-experience-composer/r-viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81" format="dita" scope="local"> Visual Experience Composer Options </a>. </p> </td> 
+   <td colname="col2"> <p>We have added an <span class="wintitle"> Insert Before </span> action to the (VEC). This is similar to the previously existing <span class="wintitle"> Insert After </span> option. When you select an element on the page, you can click <span class="wintitle"> Insert Before </span> and choose whether you want to insert an image, HTML, or text. The inserted element appears before the selected element. (TGT-30473) See <a href="../c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81" format="dita" scope="local"> Visual Experience Composer Options </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -159,8 +159,8 @@ This release includes the following features and enhancements:
    <td colname="col1"> <p>Visual Experience Composer (VEC) </p> </td> 
    <td colname="col2"> <p> 
      <ul id="ul_406B95728467496CA6CC5892F88B69FE"> 
-      <li id="li_6D717868FB204A3A95832E709773B424"> <p>You can dock the Modifications panel vertically along the side of the Target UI or horizontally at the bottom. </p> <p>See <a href="../c-experiences/c-visual-experience-composer/c-vec-code-editor/c-vec-code-editor.md#concept_B3A6E9EE3A60406DB640E205EA1745B5" format="dita" scope="local"> Modifications </a>. </p> </li> 
-      <li id="li_27750AFBCB3E4CB8B0B53592B2447E59"> <p>We have grouped various VEC actions to make your job quicker and more efficient. (TGT-30472) </p> <p>See <a href="../c-experiences/c-visual-experience-composer/r-viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81" format="dita" scope="local"> Visual Experience Composer Options </a>. </p> </li> 
+      <li id="li_6D717868FB204A3A95832E709773B424"> <p>You can dock the Modifications panel vertically along the side of the Target UI or horizontally at the bottom. </p> <p>See <a href="../c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md#concept_B3A6E9EE3A60406DB640E205EA1745B5" format="dita" scope="local"> Modifications </a>. </p> </li> 
+      <li id="li_27750AFBCB3E4CB8B0B53592B2447E59"> <p>We have grouped various VEC actions to make your job quicker and more efficient. (TGT-30472) </p> <p>See <a href="../c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81" format="dita" scope="local"> Visual Experience Composer Options </a>. </p> </li> 
       <li id="li_27FEBEE245E64ADF9ADF561C6CBBDE8F"> <p>You can edit offers more efficiently, thanks to a larger edit window. (TGT-31052) </p> </li> 
      </ul> </p> </td> 
   </tr> 
@@ -211,7 +211,7 @@ This release includes the following features and enhancements:
   </tr> 
   <tr> 
    <td colname="col1"> <p>Custom Code </p> </td> 
-   <td colname="col2"> <p>"Custom Code" is now available from the "Add Modifications" panel instead of having its own tab. You can also add more than one custom code and optionally name each custom code. (TGT-28504) </p> <p>See <a href="../c-experiences/c-visual-experience-composer/c-vec-code-editor/c-vec-code-editor.md#concept_B3A6E9EE3A60406DB640E205EA1745B5" format="dita" scope="local"> Modifications </a>. </p> </td> 
+   <td colname="col2"> <p>"Custom Code" is now available from the "Add Modifications" panel instead of having its own tab. You can also add more than one custom code and optionally name each custom code. (TGT-28504) </p> <p>See <a href="../c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md#concept_B3A6E9EE3A60406DB640E205EA1745B5" format="dita" scope="local"> Modifications </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> <p>Recommendations </p> </td> 
@@ -223,7 +223,7 @@ This release includes the following features and enhancements:
   </tr> 
   <tr> 
    <td colname="col1"> <p>Experience Templates </p> </td> 
-   <td colname="col2"> <p>Adobe Target Experience Templates are pre-coded offer samples with configurable inputs to be used in Target to execute some common marketer use cases. These experience templates are provided free to developers and marketers as a starting point to execute some common external use cases in Adobe Target - either via the Visual Experience Composer or Form-Based Experience Composer. Customization might be required to integrate successfully with your webpage or platform architecture. </p> <p>See <a href="../c-experiences/c-visual-experience-composer/c-vec-code-editor/c-experience-templates.md#concept_109BBD7EABC04DD39E6B7B1687786652" format="dita" scope="local"> Experience Templates </a>. </p> </td> 
+   <td colname="col2"> <p>Adobe Target Experience Templates are pre-coded offer samples with configurable inputs to be used in Target to execute some common marketer use cases. These experience templates are provided free to developers and marketers as a starting point to execute some common external use cases in Adobe Target - either via the Visual Experience Composer or Form-Based Experience Composer. Customization might be required to integrate successfully with your webpage or platform architecture. </p> <p>See <a href="../c-experiences/c-visual-experience-composer/c-vec-code-editor/experience-templates.md#concept_109BBD7EABC04DD39E6B7B1687786652" format="dita" scope="local"> Experience Templates </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Target Basics Webinar Series </p> </td> 
@@ -290,7 +290,7 @@ This release includes the following features and enhancements:
   </tr> 
   <tr> 
    <td colname="col1"> <p>Supported browsers </p> </td> 
-   <td colname="col2"> <p>Added Microsoft Edge support for the Target UI and for content delivery. </p> <p>For more information, see . <a href="../c-implementing-target/c-considerations-before-you-implement-target/r-supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100" format="dita" scope="local"> Supported Browsers </a> (TGT-14102) </p> </td> 
+   <td colname="col2"> <p>Added Microsoft Edge support for the Target UI and for content delivery. </p> <p>For more information, see . <a href="../c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100" format="dita" scope="local"> Supported Browsers </a> (TGT-14102) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> <p>Recommendations </p> </td> 
@@ -367,7 +367,7 @@ This release includes the following features and enhancements:
    <td colname="col1" class="premium"> <p>Recommendations </p> </td> 
    <td colname="col2"> <p> 
      <ul id="ul_7765B69E679D4C94B1E863E340DFDE15"> 
-      <li id="li_F2AF7E1AFBD6461990EF1D83D1989582"> <p>While selecting Recommendations criteria in the Form-Based Experience Composer, there is now a direct link to the selected Criteria card so you can quickly and easily edit the criteria. (TGT-28483) </p> <p>For more information, see <a href="../c-experiences/t-form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E" format="dita" scope="local"> Form-Based Experience Composer </a>. </p> </li> 
+      <li id="li_F2AF7E1AFBD6461990EF1D83D1989582"> <p>While selecting Recommendations criteria in the Form-Based Experience Composer, there is now a direct link to the selected Criteria card so you can quickly and easily edit the criteria. (TGT-28483) </p> <p>For more information, see <a href="../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E" format="dita" scope="local"> Form-Based Experience Composer </a>. </p> </li> 
       <li id="li_517F0A174587416B8621D6F710C1AC48"> <p>Recommendations Criteria, Recommendations Promotions, and Template Testing rules creation now allow using the mbox parameter directly without having to mandatorily specify the mbox name. The mbox name is now optional. This change lets you use parameters from multiple mboxes or reference a parameter that has not yet been recorded on the edge. Alternately, you can also filter on mbox parameter with the mbox name filter. </p> <p>This same improvement has also been extended to Custom Audience creation. </p> <p>For more information, see <a href="../c-recommendations/c-recommendations-faq/c-recommendations-faq.md#concept_EF272DE4AC6C47B19026BFBE816F5DB8" format="dita" scope="local"> Recommendations FAQ </a>. </p> </li> 
       <li id="li_AAB242830D1E47B78E58A980B717C736"> <p>Updated the UI for Recommendations Design cards. </p> </li> 
       <li id="li_1BE3178663E54F4CA8714FE3ACDBB97B"> <p>The Target Recommendations API documentation can be found on the <a href="https://www.adobe.io/apis/experiencecloud/target/docs/getting-started.html" format="html" scope="external"> Adobe I/0 Adobe Target website </a> (https://www.adobe.io/apis/experiencecloud/target/docs/getting-started.html). </p> </li> 
@@ -434,7 +434,7 @@ This release includes the following features and enhancements:
 
 This [!DNL Target] release includes the following enhancements, fixes, and changes:
 
-* Transport Layer Security (TLS) is the most-widely deployed security protocol used today for web browsers and other applications that require data to be securely exchanged over a network. Adobe has security compliance standards that require the end-of-life of older protocols and is mandating the use of TLS 1.2 in order to have the most up-to-date and secure version in use. Starting with the Target 18.4.1 release (April 25, 2018), Adobe Target will take steps to move towards TLS 1.2 encryption and phase out support for TLS 1.0 encryption completely by September 12, 2018. It is important that you go through the specifics and plan out the changes for a smooth transition. For more information, see [TLS (Transport Layer Security) Encryption Changes](../c-implementing-target/c-considerations-before-you-implement-target/c-tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451). 
+* Transport Layer Security (TLS) is the most-widely deployed security protocol used today for web browsers and other applications that require data to be securely exchanged over a network. Adobe has security compliance standards that require the end-of-life of older protocols and is mandating the use of TLS 1.2 in order to have the most up-to-date and secure version in use. Starting with the Target 18.4.1 release (April 25, 2018), Adobe Target will take steps to move towards TLS 1.2 encryption and phase out support for TLS 1.0 encryption completely by September 12, 2018. It is important that you go through the specifics and plan out the changes for a smooth transition. For more information, see [TLS (Transport Layer Security) Encryption Changes](../c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451). 
 * UI for Recommendations Criteria Cards has been improved for better usability. (TGT-27829)
 
 ## at.js (April 3, 2018) {#section_932DF1004F4648668FE4984BFAF2EC49}
@@ -467,7 +467,7 @@ This release includes the following features and enhancements:
       <li id="li_7336D8D48A894291A378E0BB212B7F9B"> <p>at.js has improved event and click tracking functionality. at.js uses <span class="codeph"> navigator.sendBeacon() </span> to send event tracking data and will fallback to synchronous XHR when <span class="codeph"> navigator.sendBeacon() </span> is not supported. This fallback mostly affects Internet Explorer 10 and 11 and some versions of Safari. Safari will add support for <span class="codeph"> navigator.sendBeacon() </span> in the iOS 11.3 release. </p> </li> 
       <li id="li_28D7324137B14C75BF6F1EA0B2487C9B"> <p>at.js can now render offers even when a page is opened in background tabs. Some Target Customers encountered an issue when <span class="codeph"> requestAnimationFrame() </span> was disabled because of the browser throttling behavior for background tabs. </p> </li> 
       <li id="li_3278979E1C6C41DEA7E8025AEB337985"> <p>This release adds many performance improvements, including shorter callstacks when inspecting a Chrome CPU profile. </p> </li> 
-      <li id="li_AAA9C0DCC3354DFA8907968C8E6427F6"> <p>at.js 1.3.0 no longer supports content delivery on Microsoft Internet Explorer 9. For a list of supported browsers, see <a href="../c-implementing-target/c-considerations-before-you-implement-target/r-supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100" format="dita" scope="local"> Supported Browsers </a>. Going forward, all requests are executed via <span class="codeph"> XMLHttpRequest </span> with CORS support with no JSONP requests. This change greatly improves security. </p> </li> 
+      <li id="li_AAA9C0DCC3354DFA8907968C8E6427F6"> <p>at.js 1.3.0 no longer supports content delivery on Microsoft Internet Explorer 9. For a list of supported browsers, see <a href="../c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100" format="dita" scope="local"> Supported Browsers </a>. Going forward, all requests are executed via <span class="codeph"> XMLHttpRequest </span> with CORS support with no JSONP requests. This change greatly improves security. </p> </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 
@@ -757,7 +757,7 @@ This release includes the following features and enhancements (issue numbers in 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Form-based Experience Composer </p> </td> 
-   <td colname="col2"> <p>In the Form-based Experience Composer, Refinements have been replaced with full audience functionality. Refinements for existing activities have been migrated to activity-only audiences. (TGT-13646) </p> <p>For more information, see <a href="../c-experiences/t-form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E" format="dita" scope="local"> Form-Based Experience Composer </a>. </p> </td> 
+   <td colname="col2"> <p>In the Form-based Experience Composer, Refinements have been replaced with full audience functionality. Refinements for existing activities have been migrated to activity-only audiences. (TGT-13646) </p> <p>For more information, see <a href="../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E" format="dita" scope="local"> Form-Based Experience Composer </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Response Tokens </p> </td> 
@@ -844,7 +844,7 @@ This release includes the following features and enhancements (issue numbers in 
      <ul id="ul_CBB17806FBF34774A8160A61204ED014"> 
       <li id="li_22665F583F1742E280D5BC7EC4203007"> <p>Line numbers are now visible for better usability. </p> </li> 
       <li id="li_B0D863CDAD2E46A4B133BB86886EB527"> <p>Syntax highlighting helps you avoid incorrect syntax for HTML offers. </p> </li> 
-     </ul> </p> <p>For more information, see <a href="../c-experiences/c-visual-experience-composer/c-vec-code-editor/c-vec-code-editor.md#concept_B3A6E9EE3A60406DB640E205EA1745B5" format="dita" scope="local"> Code Editor </a>. </p> </td> 
+     </ul> </p> <p>For more information, see <a href="../c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md#concept_B3A6E9EE3A60406DB640E205EA1745B5" format="dita" scope="local"> Code Editor </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Geo Targeting </p> </td> 
@@ -863,12 +863,12 @@ This [!DNL Target] release includes the following customer-facing enhancements, 
 
 * Users with Approver permissions can now generate and enable profile API authentication tokens. (TGT-24074)
 
-  For more information, see [Profile API Settings](../c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/c-profile-api-settings.md#concept_5C4ABA5FA64E4D6CAE9C5902572F2794). 
+  For more information, see [Profile API Settings](../c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/profile-api-settings.md#concept_5C4ABA5FA64E4D6CAE9C5902572F2794). 
 
 * When creating an activity in the Visual Experience Composer and the user reloads the page, the activity URL and associated properties are retained in the UI. The need to reload can occur if the activity uses mixed content (secure and insecure content) or there are permission issues. (TGT-28230) 
 * Improved the messaging when an activity uses mixed content (secure and insecure content). The message provides information to help users perform the necessary steps needed to open an HTTP site or a site that has mixed calls (HTTPS and HTTP). (TGT-26271)
 
-  For more information, see [Enabling Mixed Content in Your Browser](../c-experiences/c-visual-experience-composer/r-troubleshoot-composer/c-mixed-content.md#concept_46D022D50280468C9EF6D5DF6EFC911C). 
+  For more information, see [Enabling Mixed Content in Your Browser](../c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md#concept_46D022D50280468C9EF6D5DF6EFC911C). 
 
 * Improved the workflow when a user's Target session times out while configuring options on the Setup, Audiences, and Recommendations pages. When the user clicks Save, the session-expired message displays, but after logging back in, a dialog informs the user of a successful login and the UI remains on the same page in Target with no data loss. (TGT-25557)
 
@@ -1422,7 +1422,7 @@ This release includes the following features and enhancements:
   </tr> 
   <tr> 
    <td colname="col1"> <p>Enhanced Visual Experience Composer (VEC) </p> </td> 
-   <td colname="col2"> <p>Updated the IP addresses for the Enhanced Visual Experience Composer (VEC). </p> <p>If you whitelist IP addresses used for the VEC, add the new IP addresses. </p> <p>For more information, see <a href="../c-experiences/c-visual-experience-composer/r-troubleshoot-composer/r-troubleshoot-composer.md#reference_77743144F10143A3A89D56E116D296E4" format="dita" scope="local"> Troubleshooting the Visual Experience Composer </a>. </p> </td> 
+   <td colname="col2"> <p>Updated the IP addresses for the Enhanced Visual Experience Composer (VEC). </p> <p>If you whitelist IP addresses used for the VEC, add the new IP addresses. </p> <p>For more information, see <a href="../c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md#reference_77743144F10143A3A89D56E116D296E4" format="dita" scope="local"> Troubleshooting the Visual Experience Composer </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1532,7 +1532,7 @@ This release includes the following features and enhancements:
   </tr> 
   <tr> 
    <td colname="col1"> Form-based Experience Composer </td> 
-   <td colname="col2"> <p>Add a link to an image. The link can be a click-through link, destination link, or a landing link. </p> <p>For more information, see <a href="../c-experiences/t-form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E" format="dita" scope="local"> Form-Based Experience Composer </a>. </p> </td> 
+   <td colname="col2"> <p>Add a link to an image. The link can be a click-through link, destination link, or a landing link. </p> <p>For more information, see <a href="../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E" format="dita" scope="local"> Form-Based Experience Composer </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1597,7 +1597,7 @@ This release includes the following features and enhancements:
   </tr> 
   <tr> 
    <td colname="col1"> Form-based Experience Composer </td> 
-   <td colname="col2"> <p>Add a link to an image. The link can be a click-through link, destination link, or a landing link. </p> <p>For more information, see <a href="../c-experiences/t-form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E" format="dita" scope="local"> Form-Based Experience Composer </a>. </p> </td> 
+   <td colname="col2"> <p>Add a link to an image. The link can be a click-through link, destination link, or a landing link. </p> <p>For more information, see <a href="../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E" format="dita" scope="local"> Form-Based Experience Composer </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1680,7 +1680,7 @@ This release includes the following enhancements:
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Code Editor UI redesign </p> </td> 
-   <td colname="col2"> <p>The code editor UI has been updated to be more intuitive and easier to use. </p> <p>For more information, see <a href="../c-experiences/c-visual-experience-composer/c-vec-code-editor/c-vec-code-editor.md#concept_B3A6E9EE3A60406DB640E205EA1745B5" format="dita" scope="local"> Code Editor </a>. </p> </td> 
+   <td colname="col2"> <p>The code editor UI has been updated to be more intuitive and easier to use. </p> <p>For more information, see <a href="../c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md#concept_B3A6E9EE3A60406DB640E205EA1745B5" format="dita" scope="local"> Code Editor </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1747,7 +1747,7 @@ The Adobe Target Standard/Premium 16.7.1 (July 21, 2016) release includes the fo
   </tr> 
   <tr> 
    <td colname="col1"> Use classes to determine element selectors </td> 
-   <td colname="col2"> <p>Element selectors can now be based on classes or IDs in Automated Personalization and Multivariate Test activities. In previous versions, this option was only available for A/B Test activities. </p> <p>For more information, see <a href="../c-experiences/c-visual-experience-composer/c-vec-selectors.md#concept_4EB7663E255F439B8D24079D23479337" format="dita" scope="local"> Element Selectors Used in the Visual Experience Composer </a>. </p> </td> 
+   <td colname="col2"> <p>Element selectors can now be based on classes or IDs in Automated Personalization and Multivariate Test activities. In previous versions, this option was only available for A/B Test activities. </p> <p>For more information, see <a href="../c-experiences/c-visual-experience-composer/vec-selectors.md#concept_4EB7663E255F439B8D24079D23479337" format="dita" scope="local"> Element Selectors Used in the Visual Experience Composer </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> Recommendations: Content similarity </td> 
@@ -2100,7 +2100,7 @@ This release includes the following features and enhancements:
   </tr> 
   <tr> 
    <td colname="col1"> Support for Internet Explorer 11 </td> 
-   <td colname="col2"> <p>Internet Explorer 11 is now supported in the Target interface. </p> <p>See <a href="../c-implementing-target/c-considerations-before-you-implement-target/r-supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100" format="dita" scope="local"> Supported Browsers </a>. </p> </td> 
+   <td colname="col2"> <p>Internet Explorer 11 is now supported in the Target interface. </p> <p>See <a href="../c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100" format="dita" scope="local"> Supported Browsers </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> View Confidence Interval in Target reports for continuous variables </td> 
@@ -2120,7 +2120,7 @@ This release includes the following features and enhancements:
   </tr> 
   <tr> 
    <td colname="col1"> <p>Enhancement: Allow targeting on hash (#) fragments </p> </td> 
-   <td colname="col2"> <p>You can now target on the part of a URL that follows a hash (#). </p> <p>See <a href="../c-experiences/c-visual-experience-composer/t-temtest.md#task_2539D51A18044F82B0D9895636546781" format="dita" scope="local"> Include the Same Experience on Similar Pages </a> and other relevant topics. </p> </td> 
+   <td colname="col2"> <p>You can now target on the part of a URL that follows a hash (#). </p> <p>See <a href="../c-experiences/c-visual-experience-composer/temtest.md#task_2539D51A18044F82B0D9895636546781" format="dita" scope="local"> Include the Same Experience on Similar Pages </a> and other relevant topics. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> Download success metrics report </p> </td> 
@@ -2278,23 +2278,23 @@ This release includes the following features and enhancements:
  <tbody> 
   <tr> 
    <td colname="col1"> Mobile Web Experience Composer </td> 
-   <td colname="col2"> <p> View your site as it looks on various mobile devices and different screen sizes. Set responsive site breakpoints once and use them across your activities to make sure your optimization activities look great on all the devices your visitors use. </p> <p>See <a href="../c-experiences/c-visual-experience-composer/c-mobile-viewports.md#concept_8E45527C4ABC41D59AA3553BEDC76FA5" format="dita" scope="local"> Mobile Viewports for Responsive Experiences </a>. </p> </td> 
+   <td colname="col2"> <p> View your site as it looks on various mobile devices and different screen sizes. Set responsive site breakpoints once and use them across your activities to make sure your optimization activities look great on all the devices your visitors use. </p> <p>See <a href="../c-experiences/c-visual-experience-composer/mobile-viewports.md#concept_8E45527C4ABC41D59AA3553BEDC76FA5" format="dita" scope="local"> Mobile Viewports for Responsive Experiences </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Location targeting on form-based activity creation </td> 
-   <td colname="col2"> <p> Apply targeting to your mbox locations to limit where your activity displays. </p> <p>See <a href="../c-experiences/t-form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E" format="dita" scope="local"> Form-Based Experience Composer </a>. </p> </td> 
+   <td colname="col2"> <p> Apply targeting to your mbox locations to limit where your activity displays. </p> <p>See <a href="../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E" format="dita" scope="local"> Form-Based Experience Composer </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Background color selection in Visual Experience Composer for MVT and Automated Personalization activities </td> 
-   <td colname="col2"> <p>A color picker enables you to set background colors when editing Automated Personalization and Multivariate Test activities. </p> <p>This feature was previously only available for A/B and Experience Targeting activities. </p> <p>See <a href="../c-experiences/c-visual-experience-composer/r-viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81" format="dita" scope="local"> Visual Experience Composer Options </a>. </p> </td> 
+   <td colname="col2"> <p>A color picker enables you to set background colors when editing Automated Personalization and Multivariate Test activities. </p> <p>This feature was previously only available for A/B and Experience Targeting activities. </p> <p>See <a href="../c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81" format="dita" scope="local"> Visual Experience Composer Options </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Rich Text and HTML editing in Visual Experience Composer for MVT and Automated Personalization activities </td> 
-   <td colname="col2"> <p> Text and HTML formatting in a word processor-like window when editing Automated Personalization and Multivariate Test activities. </p> <p> This feature was previously only available for A/B and Experience Targeting activities. </p> <p>These actions provide rich-text editing capabilities by adding HTML tags or applying styles. These modifications by the rich-text editor for any action can be seen in its source view. Users can press the HTML button in the rich-text editor to see the source view. The styles added by the rich-text editor can interfere with customer websites' styles. In this case, users can go to the source view and edit the modifications to align them with their websites' styles. </p> <p>See <a href="../c-experiences/c-visual-experience-composer/r-viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81" format="dita" scope="local"> Visual Experience Composer Options </a>. </p> </td> 
+   <td colname="col2"> <p> Text and HTML formatting in a word processor-like window when editing Automated Personalization and Multivariate Test activities. </p> <p> This feature was previously only available for A/B and Experience Targeting activities. </p> <p>These actions provide rich-text editing capabilities by adding HTML tags or applying styles. These modifications by the rich-text editor for any action can be seen in its source view. Users can press the HTML button in the rich-text editor to see the source view. The styles added by the rich-text editor can interfere with customer websites' styles. In this case, users can go to the source view and edit the modifications to align them with their websites' styles. </p> <p>See <a href="../c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81" format="dita" scope="local"> Visual Experience Composer Options </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> <p class="Premium">Recommendations </p> <p class="Premium">Form-based recommendations </p> </td> 
-   <td colname="col2"> <p> Create recommendations activities for non-site locations including emails, consoles, kiosks, etc. </p> <p>See <a href="../c-experiences/t-form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E" format="dita" scope="local"> Form-Based Experience Composer </a>. </p> </td> 
+   <td colname="col2"> <p> Create recommendations activities for non-site locations including emails, consoles, kiosks, etc. </p> <p>See <a href="../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E" format="dita" scope="local"> Form-Based Experience Composer </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> <p class="Premium">Recommendations </p> <p> Display information about the key in the design </p> </td> 
@@ -2310,7 +2310,7 @@ This release includes the following features and enhancements:
   </tr> 
   <tr> 
    <td colname="col1"> Redirect Offers in Form-Based activity creation </td> 
-   <td colname="col2"> <p> Support for the redirect offers functionality of Target Classic added in Target Standard form-based activity creation flow. </p> <p>See <a href="../c-experiences/t-form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E" format="dita" scope="local"> Form-Based Experience Composer </a>. </p> </td> 
+   <td colname="col2"> <p> Support for the redirect offers functionality of Target Classic added in Target Standard form-based activity creation flow. </p> <p>See <a href="../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E" format="dita" scope="local"> Form-Based Experience Composer </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Enhancement: Experience URLs in activities no longer use on-site cookie </td> 
@@ -2369,11 +2369,11 @@ This release includes the following features and enhancements:
   </tr> 
   <tr> 
    <td colname="col1"> Rich text and HTML editing in Visual Experience Composer </td> 
-   <td colname="col2"> <p>Text formatting options are available when editing text and HTML for A/B and Experience Targeting activities in the Visual Experience Composer. You can choose a font, select a font style, change text alignment, and other standard text formatting options. When modifying HTML, you can toggle between the code view and rich-editing view of the HTML. </p> <p>See <a href="../c-experiences/c-visual-experience-composer/r-viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81" format="dita" scope="local"> Visual Experience Composer Options </a>. </p> </td> 
+   <td colname="col2"> <p>Text formatting options are available when editing text and HTML for A/B and Experience Targeting activities in the Visual Experience Composer. You can choose a font, select a font style, change text alignment, and other standard text formatting options. When modifying HTML, you can toggle between the code view and rich-editing view of the HTML. </p> <p>See <a href="../c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81" format="dita" scope="local"> Visual Experience Composer Options </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Background color selection in Visual Experience Composer </td> 
-   <td colname="col2"> <p>A color picker enables you to set background colors when editing A/B and Experience Targeting activities in the Visual Experience Composer. This option is not available if a background image is set. </p> <p>See <a href="../c-experiences/c-visual-experience-composer/r-viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81" format="dita" scope="local"> Visual Experience Composer Options </a>. </p> </td> 
+   <td colname="col2"> <p>A color picker enables you to set background colors when editing A/B and Experience Targeting activities in the Visual Experience Composer. This option is not available if a background image is set. </p> <p>See <a href="../c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81" format="dita" scope="local"> Visual Experience Composer Options </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Archive activity </td> 
@@ -2424,11 +2424,11 @@ This release includes the following features and enhancements:
   </tr> 
   <tr> 
    <td colname="col1"> Multipage activity </td> 
-   <td colname="col2"> <p>A multipage activity enables you to create a story over multiple pages, with a design that is specific to each page. </p> <p>For example, you might want to test an offer for free shipping with purchases above a certain amount. You might want that offer to appear on your landing page, a category page, and certain product pages, but you want it to be a different size and in a different location on each page type. You could display a prominent offer on your home page, then reinforce that offer with smaller offers on other relevant pages. </p> <p>You can also use a multipage activity to define different layouts for your desktop and non-responsive mobile sites. </p> <p>See <a href="../c-experiences/c-visual-experience-composer/c-multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48" format="dita" scope="local"> Multipage Activity </a>. </p> </td> 
+   <td colname="col2"> <p>A multipage activity enables you to create a story over multiple pages, with a design that is specific to each page. </p> <p>For example, you might want to test an offer for free shipping with purchases above a certain amount. You might want that offer to appear on your landing page, a category page, and certain product pages, but you want it to be a different size and in a different location on each page type. You could display a prominent offer on your home page, then reinforce that offer with smaller offers on other relevant pages. </p> <p>You can also use a multipage activity to define different layouts for your desktop and non-responsive mobile sites. </p> <p>See <a href="../c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48" format="dita" scope="local"> Multipage Activity </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Form-based activity creation </td> 
-   <td colname="col2"> <p>Create an activity without using the Visual Experience Composer. Instead, choose locations and offers through a form. With this, Target Standard activities can be delivered in emails, mobile apps, kiosks, and other places that don't work with a Visual Experience Composer. </p> <p>See <a href="../c-experiences/t-form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E" format="dita" scope="local"> Form-Based Experience Composer </a>. </p> </td> 
+   <td colname="col2"> <p>Create an activity without using the Visual Experience Composer. Instead, choose locations and offers through a form. With this, Target Standard activities can be delivered in emails, mobile apps, kiosks, and other places that don't work with a Visual Experience Composer. </p> <p>See <a href="../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E" format="dita" scope="local"> Form-Based Experience Composer </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>New mbox.js </p> </td> 
@@ -2549,11 +2549,11 @@ This release includes the following features and enhancements:
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Custom code entry and editing in Visual Experience Composer </p> </td> 
-   <td colname="col2"> <p>Enables you to see, edit, and add new actions using a code editor within the Visual Experience Composer. </p> <p>See <a href="../c-experiences/c-visual-experience-composer/c-vec-code-editor/c-vec-code-editor.md#concept_B3A6E9EE3A60406DB640E205EA1745B5" format="dita" scope="local"> Code Editor </a> for more information. </p> </td> 
+   <td colname="col2"> <p>Enables you to see, edit, and add new actions using a code editor within the Visual Experience Composer. </p> <p>See <a href="../c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md#concept_B3A6E9EE3A60406DB640E205EA1745B5" format="dita" scope="local"> Code Editor </a> for more information. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Add JavaScript and CSS to the top of your page </p> </td> 
-   <td colname="col2"> <p> Add JavaScript code to your page(s) right below the <span class="codeph"> &lt;body&gt; </span> tag, without requiring the selection of an element on your page. </p> <p>See <a href="../c-experiences/c-visual-experience-composer/c-vec-code-editor/c-vec-code-editor.md#concept_B3A6E9EE3A60406DB640E205EA1745B5" format="dita" scope="local"> Code Editor </a> for more information. </p> </td> 
+   <td colname="col2"> <p> Add JavaScript code to your page(s) right below the <span class="codeph"> &lt;body&gt; </span> tag, without requiring the selection of an element on your page. </p> <p>See <a href="../c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md#concept_B3A6E9EE3A60406DB640E205EA1745B5" format="dita" scope="local"> Code Editor </a> for more information. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>New Audience Creation Options </p> </td> 
@@ -2778,7 +2778,7 @@ This release includes the following features and enhancements:
 
 |  Feature  | Description  |
 |---|---|
-|  Redirect offers  | Redirect an experience to a different URL so you can test one page against another page. See [Create a Redirect Offer](../c-experiences/c-visual-experience-composer/t-redirect-offer.md#task_9578678D42784F5EB9638F8AC8C911FA).  |
+|  Redirect offers  | Redirect an experience to a different URL so you can test one page against another page. See [Create a Redirect Offer](../c-experiences/c-visual-experience-composer/redirect-offer.md#task_9578678D42784F5EB9638F8AC8C911FA).  |
 |  Apply targeting on success metrics  | Choose a saved audience to apply on a success metric. With this feature you can limit what actions count for a particular success event. An example might be limiting conversions to when the order is more than $0, or only counting success when a user views a particular page in the same session as entering the activity.  |
 |  Automated Personalization: Select and report against RPV/AOV metrics  | You can now select the RPV and AOV metrics in the Automated Personalization experience creation flow. For more information about creating n Automated Personalization activity, see [Automated Personalization](../c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9).  |
 |  Improved permission controls  | Only users with sufficient permissions can edit audiences.  |
@@ -2911,7 +2911,7 @@ This release includes the following new features:
   </tr> 
   <tr> 
    <td colname="col1"> Multi-page testing </td> 
-   <td colname="col2"> <p> <a href="../c-experiences/c-visual-experience-composer/t-temtest.md#task_2539D51A18044F82B0D9895636546781" format="dita" scope="local"> Choose to run a test or targeted activity across a set of webpages </a>. You can now deliver tests to every product page, or modify your global nav on every page of the site. Use a simple rule builder to specify what the group of pages should be. </p> </td> 
+   <td colname="col2"> <p> <a href="../c-experiences/c-visual-experience-composer/temtest.md#task_2539D51A18044F82B0D9895636546781" format="dita" scope="local"> Choose to run a test or targeted activity across a set of webpages </a>. You can now deliver tests to every product page, or modify your global nav on every page of the site. Use a simple rule builder to specify what the group of pages should be. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -2976,7 +2976,7 @@ This release includes the following new features:
  <tbody> 
   <tr> 
    <td colname="col1"> Activity collisions </td> 
-   <td colname="col2"> <p> Target Standard now provides a list of activity collisions. An activity collision occurs when multiple activities are set up to deliver content to the same page. If an activity collision occurs, you may not see the expected content on your page because you've entered a different activity. </p> <p> All activities on the same URL are listed, regardless of any audience targeting in each activity. </p> <p> If your activity contains collisions, a <span class="wintitle"> Collisions </span> tab is available the on the activity overview page. Open this tab for a list of activities that are colliding. Click an activity in the list to view the overview page for that activity. </p> <p>See <a href="../c-experiences/c-visual-experience-composer/c-activity-collisions.md#concept_0BC6B929592744DFA7DA01FF4F91052E" format="dita" scope="local"> Activity Collisions </a>. </p> </td> 
+   <td colname="col2"> <p> Target Standard now provides a list of activity collisions. An activity collision occurs when multiple activities are set up to deliver content to the same page. If an activity collision occurs, you may not see the expected content on your page because you've entered a different activity. </p> <p> All activities on the same URL are listed, regardless of any audience targeting in each activity. </p> <p> If your activity contains collisions, a <span class="wintitle"> Collisions </span> tab is available the on the activity overview page. Open this tab for a list of activities that are colliding. Click an activity in the list to view the overview page for that activity. </p> <p>See <a href="../c-experiences/c-visual-experience-composer/activity-collisions.md#concept_0BC6B929592744DFA7DA01FF4F91052E" format="dita" scope="local"> Activity Collisions </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> New targeting options: Profile, User </td> 
@@ -2984,7 +2984,7 @@ This release includes the following new features:
   </tr> 
   <tr> 
    <td colname="col1"> Insert elements </td> 
-   <td colname="col2"> <p>You can now add any kind of element to your page in addition to modifying existing content. Add text, code, lists, and more to create entirely different experiences to test. </p> <p>See <a href="../c-experiences/c-visual-experience-composer/r-viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81" format="dita" scope="local"> Visual Experience Composer Options </a>. </p> </td> 
+   <td colname="col2"> <p>You can now add any kind of element to your page in addition to modifying existing content. Add text, code, lists, and more to create entirely different experiences to test. </p> <p>See <a href="../c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81" format="dita" scope="local"> Visual Experience Composer Options </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -3014,15 +3014,15 @@ This release includes the following new features and enhancements:
   </tr> 
   <tr> 
    <td colname="col1"> Undo/Redo </td> 
-   <td colname="col2"> <p>You can undo changes you make to your activities during an editing session. You can also redo undone changes. </p> <p>See <a href="../c-experiences/c-visual-experience-composer/r-viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81" format="dita" scope="local"> Visual Experience Composer Options </a>. </p> </td> 
+   <td colname="col2"> <p>You can undo changes you make to your activities during an editing session. You can also redo undone changes. </p> <p>See <a href="../c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81" format="dita" scope="local"> Visual Experience Composer Options </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Move element </td> 
-   <td colname="col2"> <p>You can move elements on your page. Unlike Rearrange Elements, Move does not shift other elements to make room for the element being moved. Use your arrow keys to fine tune the move. </p> <p>See <a href="../c-experiences/c-visual-experience-composer/r-viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81" format="dita" scope="local"> Visual Experience Composer Options </a>. </p> </td> 
+   <td colname="col2"> <p>You can move elements on your page. Unlike Rearrange Elements, Move does not shift other elements to make room for the element being moved. Use your arrow keys to fine tune the move. </p> <p>See <a href="../c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81" format="dita" scope="local"> Visual Experience Composer Options </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Resize element </td> 
-   <td colname="col2"> <p>You can resize an element on your page. When you select Resize, a handle appears in a corner of the element that lets you drag that corner to resize. </p> <p>See <a href="../c-experiences/c-visual-experience-composer/r-viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81" format="dita" scope="local"> Visual Experience Composer Options </a>. </p> </td> 
+   <td colname="col2"> <p>You can resize an element on your page. When you select Resize, a handle appears in a corner of the element that lets you drag that corner to resize. </p> <p>See <a href="../c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81" format="dita" scope="local"> Visual Experience Composer Options </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Target a location when setting up an audience </td> 

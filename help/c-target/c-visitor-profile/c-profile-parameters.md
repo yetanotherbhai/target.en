@@ -285,4 +285,4 @@ The following methods can be used to debug profile scripts:
 
 **Is it possible to use profile scripts to capture information from a page that resides in a data layer?**
 
-Profile scripts are unable to read the page directly because they are executed server side. The data must be passed in through an mbox request or through other [methods of getting data into Target](../../c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/c-methods-to-get-data-into-target.md#concept_0069C0EFB56C4700BB33F2F35C2B9B17). After the data is in Target, profile scripts can read the data as an mbox parameter or profile parameter. 
+Profile scripts are unable to read the page directly because they are executed server side. The data must be passed in through an mbox request or through other [methods of getting data into Target](../../c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md#concept_0069C0EFB56C4700BB33F2F35C2B9B17). After the data is in Target, profile scripts can read the data as an mbox parameter or profile parameter. 
