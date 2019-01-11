@@ -15,7 +15,7 @@ Define an audience to compare two profile attributes for your audience library o
 
 >[!NOTE]
 >
->This functionality is available for the [Visitor Profile](../../c-target/c-audiences/c-target-rules/c-visitor-profile.md#concept_E972690B9A4C4372A34229FA37EDA38E) category only.
+>This functionality is available for the [Visitor Profile](../../c-target/c-audiences/c-target-rules/visitor-profile.md#concept_E972690B9A4C4372A34229FA37EDA38E) category only.
 
 ## Overview {#section_303CBC78194D49A2A004945D425441E1}
 

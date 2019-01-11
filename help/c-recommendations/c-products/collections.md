@@ -51,7 +51,7 @@ recs/t_create_collection.xml
 
    >[!NOTE]
    >
-   >The "Number of Items" reported for each collection on the [!UICONTROL Collections] list view is the number of products matching the rules for that collection within the configured default Recommendations host group (environment). See [Settings](../../c-recommendations/c-plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84) to change the default host group.
+   >The "Number of Items" reported for each collection on the [!UICONTROL Collections] list view is the number of products matching the rules for that collection within the configured default Recommendations host group (environment). See [Settings](../../c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84) to change the default host group.
 
    ![](assets/collections_list.png)
 

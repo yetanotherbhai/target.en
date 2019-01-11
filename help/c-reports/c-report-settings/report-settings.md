@@ -92,9 +92,9 @@ For more information about selecting multiple metrics to view in reports, see [V
 
 ## Audience {#section_70926EB4618945D9AFF2B0564FF3717B}
 
-Click the [!UICONTROL Audience] drop-down list to change the displayed [audience](../../c-target/c-target.md#concept_A782F8481A5041EBA75103CB26376522) for the report.
+Click the [!UICONTROL Audience] drop-down list to change the displayed [audience](../../c-target/target.md#concept_A782F8481A5041EBA75103CB26376522) for the report.
 
-For more information, see [Audiences](../../c-target/c-target.md#concept_A782F8481A5041EBA75103CB26376522).
+For more information, see [Audiences](../../c-target/target.md#concept_A782F8481A5041EBA75103CB26376522).
 
 ## Date Range {#section_A410A768403C4E01891F95CB357E63ED}
 

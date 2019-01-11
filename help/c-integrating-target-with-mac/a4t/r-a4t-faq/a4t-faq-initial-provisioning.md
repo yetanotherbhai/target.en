@@ -15,7 +15,7 @@ This topic contains answers to questions that are frequently asked about provisi
 
 ## How can I tell whether A4T is enabled on my Target account? {#section_4437D284448F4313BF953D4B6EDBACA6}
 
-Before a report suite can be selected when defining an Analytics activity, you need both an Analytics user account and a Target user account. Your user accounts must be configured as described in the documentation. See [User Permission Requirements](../../../c-integrating-target-with-mac/a4t/c-account-reqs.md#concept_4BC06CAB00BF46FF9362AFE98656B083) .
+Before a report suite can be selected when defining an Analytics activity, you need both an Analytics user account and a Target user account. Your user accounts must be configured as described in the documentation. See [User Permission Requirements](../../../c-integrating-target-with-mac/a4t/account-reqs.md#concept_4BC06CAB00BF46FF9362AFE98656B083) .
 
 Once you are a member of one or more Experience Cloud groups that have access to Analytics and Target and you have access to all report suites, you should see the option to create an A/B test using Analytics under **[!UICONTROL Create Activity]**.
 

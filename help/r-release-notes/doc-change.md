@@ -56,7 +56,7 @@ This page lists important changes made to the Target documentation.
   </tr> 
 <tr> 
    <td colname="col1"></td> 
-   <td colname="col2"> <p> <a href="/help/c-integrating-target-with-mac/a4t/r-a4t-faq/c-a4t-faq-redirect-offers.md" format="dita" scope="local">Redirect offers - A4T FAQ</a></p> </td> 
+   <td colname="col2"> <p> <a href="/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md" format="dita" scope="local">Redirect offers - A4T FAQ</a></p> </td> 
    <td colname="col3"> <p>Added note under "Why are page views on the original page and on the redirect page sometimes counted?"</p> </td> 
   </tr> 
 <tr> 
@@ -162,7 +162,7 @@ This page lists important changes made to the Target documentation.
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
-   <td colname="col2"> <p> <a href="../c-target/c-visitor-profile/c-profile-parameters.md#concept_8C07AEAB0A144FECA8B4FEB091AED4D2" format="dita" scope="local"> Profile Script Attributes </a> </p> </td> 
+   <td colname="col2"> <p> <a href="../c-target/c-visitor-profile/profile-parameters.md#concept_8C07AEAB0A144FECA8B4FEB091AED4D2" format="dita" scope="local"> Profile Script Attributes </a> </p> </td> 
    <td colname="col3"> <p>Added note that <span class="keyword"> Target </span> has a limit of 1,000 profile scripts per account. </p> </td> 
   </tr> 
   <tr> 
@@ -350,7 +350,7 @@ This page lists important changes made to the Target documentation.
   </tr> 
   <tr> 
    <td colname="col1"> October 9, 2019 </td> 
-   <td colname="col2"> <p> <a href="../c-target/c-visitor-profile/c-profile-parameters.md#concept_01A30B4762D64CD5946B3AA38DC8A201" format="dita" scope="local"> Profile Attributes </a> </p> </td> 
+   <td colname="col2"> <p> <a href="../c-target/c-visitor-profile/profile-parameters.md#concept_01A30B4762D64CD5946B3AA38DC8A201" format="dita" scope="local"> Profile Attributes </a> </p> </td> 
    <td colname="col3"> <p>Added Profile Scripts FAQ section. </p> </td> 
   </tr> 
   <tr> 
@@ -385,7 +385,7 @@ This page lists important changes made to the Target documentation.
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
-   <td colname="col2"> <p> <a href="../c-intro/c-how-target-works.md#concept_459AB4DEE7364A9290C2FD405DC29584" format="dita" scope="local"> How Adobe Target Works </a> </p> </td> 
+   <td colname="col2"> <p> <a href="../c-intro/how-target-works.md#concept_459AB4DEE7364A9290C2FD405DC29584" format="dita" scope="local"> How Adobe Target Works </a> </p> </td> 
    <td colname="col3"> <p>Updated entire topic. </p> </td> 
   </tr> 
   <tr> 
@@ -540,7 +540,7 @@ This page lists important changes made to the Target documentation.
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
-   <td colname="col2"> <p> <a href="../c-target/c-audiences/c-target-rules/c-visitor-profile.md#concept_E972690B9A4C4372A34229FA37EDA38E" format="dita" scope="local"> Visitor Profile </a> </p> </td> 
+   <td colname="col2"> <p> <a href="../c-target/c-audiences/c-target-rules/visitor-profile.md#concept_E972690B9A4C4372A34229FA37EDA38E" format="dita" scope="local"> Visitor Profile </a> </p> </td> 
    <td colname="col3"> <p>Added following paragraph: </p> <p>A visitor profile is created in the local edge memory for each mbox call with new <span class="codeph"> mboxPC </span>. After 30 minutes of inactivity, the profile is saved to the Target database and is accessible from other edges. </p> </td> 
   </tr> 
   <tr> 

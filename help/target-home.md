@@ -29,7 +29,7 @@ Marketers, developers, administrators, analysts, and quality assurance engineers
 ## Marketers
 
 - [Activities](c-activities/activities.md): Explains how to set up, manage, and QA [!DNL Target] activities.
-- [Audiences](c-target/c-target.md): Explains how to determine who will see content and experiences in targeted activities.
+- [Audiences](c-target/target.md): Explains how to determine who will see content and experiences in targeted activities.
 - [Experiences and offers](c-experiences/experiences.md): Explains how to specify which content displays when a visitor meets the audience criteria for an activity.
 - [Recommendations](c-recommendations/recommendations.md):Explains how [!DNL Recommendations] activities automatically display products or content that might interest your customers based on previous user activity or other algorithms.
 
@@ -43,7 +43,7 @@ Marketers, developers, administrators, analysts, and quality assurance engineers
 
 ## Analysts
 
-- [Audiences](c-target/c-target.md): Explains how to determine who will see content and experiences in targeted activities.
+- [Audiences](c-target/target.md): Explains how to determine who will see content and experiences in targeted activities.
 - [Reports](c-reports/c-reports.md): Explains how to interpret the performance of your activities.
 
 ## QA engineers

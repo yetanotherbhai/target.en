@@ -60,8 +60,8 @@ target/c_use-category-affinity-for-targeted-group.xml
 
 This section contains the following information:
 
-* [Create an Audience to Use Category Affinity](../../c-target/c-visitor-profile/c-category-affinity.md#section_A27C600BBA664FE7A74F8FE076B78F40) 
-* [Use the Category Affinity Audience in an Activity](../../c-target/c-visitor-profile/c-category-affinity.md#section_91526B942D1B4AEBB8FCDF4EBFF931CF)
+* [Create an Audience to Use Category Affinity](../../c-target/c-visitor-profile/category-affinity.md#section_A27C600BBA664FE7A74F8FE076B78F40) 
+* [Use the Category Affinity Audience in an Activity](../../c-target/c-visitor-profile/category-affinity.md#section_91526B942D1B4AEBB8FCDF4EBFF931CF)
 
 ## Create an Audience to Use Category Affinity {#section_A27C600BBA664FE7A74F8FE076B78F40}
 

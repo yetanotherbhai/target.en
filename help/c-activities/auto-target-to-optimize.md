@@ -204,7 +204,7 @@ For Auto-Target, simple rules of thumb can be used to understand traffic require
 
 ## Reporting and Auto-Target {#section_42EE7F5E65E84F89A872FE9921917F76}
 
-For more information, see [Auto-Target Summary Report](../c-reports/c-auto-target-summary-report.md#concept_E2171F7B57C1417DAAD7E7909A3FB073) in the [Reports](../c-reports/c-reports.md#concept_B5077F5503AA4C98901AA99EDCE6CDE6) section.
+For more information, see [Auto-Target Summary Report](../c-reports/auto-target-summary-report.md#concept_E2171F7B57C1417DAAD7E7909A3FB073) in the [Reports](../c-reports/c-reports.md#concept_B5077F5503AA4C98901AA99EDCE6CDE6) section.
 
 ## Auto-Target Frequently Asked Questions {#section_5C120A2B11D14D9BAF767BBAB50FED23}
 

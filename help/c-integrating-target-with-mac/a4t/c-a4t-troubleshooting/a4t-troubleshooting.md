@@ -76,4 +76,4 @@ Review your implementation, especially on pages where your visitors qualify for 
 
 If there is no supplemental data ID in the [!DNL Target] call, confirm that the [!DNL VisitorAPI.js] file is loaded before [!DNL at.js] or [!DNL mbox.js]. If there is no supplemental data ID in the [!DNL Analytics] call, confirm that the [!DNL Target] call fires before the [!DNL Analytics] call.
 
-For more information, see [Analytics for Target Implementation](../../../c-integrating-target-with-mac/a4t/c-a4timplementation.md#concept_CE78750AC2A4487D8ACD9369B3EAC85A) or contact [Customer Care](../../../cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C). 
+For more information, see [Analytics for Target Implementation](../../../c-integrating-target-with-mac/a4t/a4timplementation.md#concept_CE78750AC2A4487D8ACD9369B3EAC85A) or contact [Customer Care](../../../cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C). 

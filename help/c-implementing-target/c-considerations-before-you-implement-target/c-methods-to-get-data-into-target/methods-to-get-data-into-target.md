@@ -58,7 +58,7 @@ Information about the various methods you can use to get data into Target, inclu
   </tr> 
   <tr> 
    <td colname="col1"> <p>Links to Relevant Information </p> </td> 
-   <td colname="col2"> <p>Recommendations: <a href="../../../c-recommendations/c-plan-implement.md#reference_DE38BB07BD3C4511B176CDAB45E126FC" format="dita" scope="local"> Implementation According to Page Type </a> </p> <p>Order confirmation: <a href="../../../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#task_E85D2F64FEB84201A594F2288FABF053" format="dita" scope="local"> Track Conversions </a> </p> <p>Category affinity: <a href="../../../c-target/c-visitor-profile/c-category-affinity.md#concept_75EC1E1123014448B8B92AD16B2D72CC" format="dita" scope="local"> Category Affinity </a> </p> </td> 
+   <td colname="col2"> <p>Recommendations: <a href="../../../c-recommendations/plan-implement.md#reference_DE38BB07BD3C4511B176CDAB45E126FC" format="dita" scope="local"> Implementation According to Page Type </a> </p> <p>Order confirmation: <a href="../../../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#task_E85D2F64FEB84201A594F2288FABF053" format="dita" scope="local"> Track Conversions </a> </p> <p>Category affinity: <a href="../../../c-target/c-visitor-profile/category-affinity.md#concept_75EC1E1123014448B8B92AD16B2D72CC" format="dita" scope="local"> Category Affinity </a> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -102,7 +102,7 @@ Information about the various methods you can use to get data into Target, inclu
   </tr> 
   <tr> 
    <td colname="col1"> <p>Links to Relevant Information </p> </td> 
-   <td colname="col2"> <p> <a href="../../../c-target/c-visitor-profile/c-profile-parameters.md#concept_01A30B4762D64CD5946B3AA38DC8A201" format="dita" scope="local"> Profile Attributes </a> </p> <p> <a href="../../../c-target/c-audiences/c-target-rules/c-visitor-profile.md#concept_E972690B9A4C4372A34229FA37EDA38E" format="dita" scope="local"> Visitor Profile </a> </p> </td> 
+   <td colname="col2"> <p> <a href="../../../c-target/c-visitor-profile/profile-parameters.md#concept_01A30B4762D64CD5946B3AA38DC8A201" format="dita" scope="local"> Profile Attributes </a> </p> <p> <a href="../../../c-target/c-audiences/c-target-rules/visitor-profile.md#concept_E972690B9A4C4372A34229FA37EDA38E" format="dita" scope="local"> Visitor Profile </a> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -140,7 +140,7 @@ Information about the various methods you can use to get data into Target, inclu
   </tr> 
   <tr> 
    <td colname="col1"> <p>Links to Relevant Information </p> </td> 
-   <td colname="col2"> <p> <a href="../../../c-target/c-visitor-profile/c-profile-parameters.md#concept_8C07AEAB0A144FECA8B4FEB091AED4D2" format="dita" scope="local"> Profile Script Attributes </a> </p> </td> 
+   <td colname="col2"> <p> <a href="../../../c-target/c-visitor-profile/profile-parameters.md#concept_8C07AEAB0A144FECA8B4FEB091AED4D2" format="dita" scope="local"> Profile Script Attributes </a> </p> </td> 
   </tr> 
  </tbody> 
 </table>

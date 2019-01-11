@@ -23,7 +23,7 @@ This video includes information about managing content. (4:56)
 
 1. Click **[!UICONTROL Offer]**, select the **[!UICONTROL Code Offer]** or **[!UICONTROL Image Offer]** tab, then locate the asset you want to work with.
 
-   For more information about searching the Offer library and creating Smart Collections, see [Filter and Search Content](../../c-experiences/c-manage-content/c-filter-and-search-content.md#concept_3B59B8F025BF4CEA82ECC5199D365276). 
+   For more information about searching the Offer library and creating Smart Collections, see [Filter and Search Content](../../c-experiences/c-manage-content/filter-and-search-content.md#concept_3B59B8F025BF4CEA82ECC5199D365276). 
 
 1. Hover over the item you want to work with, then select an action.
 

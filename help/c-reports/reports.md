@@ -38,7 +38,7 @@ In addition to the general reporting information in this topic and its subtopics
    <td colname="col1"> <p><a href="../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3" format="dita" scope="local"> Auto-Target</a> (AT) </p> </td> 
    <td colname="col2"> <p> 
      <ul id="ul_81F3B2F17153401DBE4180F8CDA02CFB"> 
-      <li id="li_6649B81BDA274685871478C1B6EC60DB"> <p>Information about the Summary report for AT activities. For more information, see <a href="../c-reports/c-auto-target-summary-report.md#concept_E2171F7B57C1417DAAD7E7909A3FB073" format="dita" scope="local"> Auto-Target Summary Report</a>. </p> </li> 
+      <li id="li_6649B81BDA274685871478C1B6EC60DB"> <p>Information about the Summary report for AT activities. For more information, see <a href="../c-reports/auto-target-summary-report.md#concept_E2171F7B57C1417DAAD7E7909A3FB073" format="dita" scope="local"> Auto-Target Summary Report</a>. </p> </li> 
       <li id="li_5BE42826325744BCA8F449CC282853AD"> <p>Information about the two Personalization Insights reports for AT and AP activities: Automated Segments report and Important Attributes report. For more information, see <a href="../c-reports/c-personalization-insights-reports/personalization-insights-reports.md#concept_A897070E1EDC403EB84CFB7A6ECAD767" format="dita" scope="local"> Personalization Insights Reports</a>. </p> </li> 
      </ul> </p> </td> 
   </tr> 

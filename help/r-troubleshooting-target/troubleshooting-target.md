@@ -64,7 +64,7 @@ In addition to the topics listed below, the following video demonstrates tools f
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Audiences and Targeting</b> </p> </td> 
-   <td colname="col2"> <p><a href="../c-intro/cmp-target-standard-cheatsheet.md#topic_68D10E3826D34BD6886A64BF56718B06" format="dita" scope="local"> Target Standard Optimization and Personalization FAQ</a> </p> <p><a href="../c-target/c-troubleshooting-targets-and-audiences/c-troubleshooting-targets-and-audiences.md#concept_C4EE4B8F4840430CBD798D579A8F208D" format="dita" scope="local"> Targets and Audiences Frequently Asked Questions</a> </p> <p><a href="../c-target/c-visitor-profile/c-profile-parameters.md#concept_8C07AEAB0A144FECA8B4FEB091AED4D2" format="dita" scope="local"> Profile Script Attributes</a> </p> </td> 
+   <td colname="col2"> <p><a href="../c-intro/cmp-target-standard-cheatsheet.md#topic_68D10E3826D34BD6886A64BF56718B06" format="dita" scope="local"> Target Standard Optimization and Personalization FAQ</a> </p> <p><a href="../c-target/c-troubleshooting-targets-and-audiences/c-troubleshooting-targets-and-audiences.md#concept_C4EE4B8F4840430CBD798D579A8F208D" format="dita" scope="local"> Targets and Audiences Frequently Asked Questions</a> </p> <p><a href="../c-target/c-visitor-profile/profile-parameters.md#concept_8C07AEAB0A144FECA8B4FEB091AED4D2" format="dita" scope="local"> Profile Script Attributes</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Content</b> </p> </td> 
@@ -89,7 +89,7 @@ In addition to the topics listed below, the following video demonstrates tools f
       <li id="li_535A478CE5D940D8BE9F98EFBF7C470B"> <p><a href="../c-integrating-target-with-mac/a4t/r-a4t-faq/c-a4t-faq-initial-provisioning.md#concept_AD9B428CEEEE4106A7F6CE47F025AE97" format="dita" scope="local"> Initial Provisioning - A4T FAQ</a> </p> </li> 
       <li id="li_201F9B235BF4497BA1348BECFDC2A1E0"> <p><a href="../c-integrating-target-with-mac/a4t/r-a4t-faq/c-a4t-faq-activity-setup.md#concept_6DF34BC1AD3F4D47B7635B5E2D95F836" format="dita" scope="local"> Activity Setup - A4T FAQ</a> </p> </li> 
       <li id="li_C9C2F85F043546018C06D3C1E02415D6"> <p><a href="../c-integrating-target-with-mac/a4t/r-a4t-faq/c-a4t-faq-viewing-reports.md#concept_72A95F6466A04B409FCD5989A6B6A554" format="dita" scope="local"> Viewing Reports - A4T FAQ</a> </p> </li> 
-      <li id="li_73F1253B6C7D4998ABD79CDF2CFD88E6"> <p><a href="../c-integrating-target-with-mac/a4t/r-a4t-faq/c-a4t-faq-redirect-offers.md#concept_21BF213F10E1414A9DCD4A98AF207905" format="dita" scope="local"> Redirect Offers - A4T FAQ</a> </p> </li> 
+      <li id="li_73F1253B6C7D4998ABD79CDF2CFD88E6"> <p><a href="../c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#concept_21BF213F10E1414A9DCD4A98AF207905" format="dita" scope="local"> Redirect Offers - A4T FAQ</a> </p> </li> 
       <li id="li_13A3D044484744D399A842C87C9F7E8E"> <p><a href="../c-integrating-target-with-mac/a4t/r-a4t-faq/c-a4t-faq-lift-and-confidence.md#concept_CD51D91024E64F019605ABE27A6F355A" format="dita" scope="local"> Lift and Confidence - A4T FAQ</a> </p> </li> 
       <li id="li_F7856D4566AE426084C55466C06060C1"> <p><a href="../c-integrating-target-with-mac/a4t/r-a4t-faq/c-a4t-faq-metric-definition.md#concept_8B5D8A76B68F4BC1B1C1EF90F2214EFF" format="dita" scope="local"> Metric Definitions - A4T FAQ</a> </p> </li> 
       <li id="li_8CFE53AE22FF4AD3BC6A3F178337B197"> <p><a href="../c-target/c-troubleshooting-targets-and-audiences/c-a4t-faq-sharing-metrics-audiences-reports.md#concept_21DD393A03CA4466B182119C0BCE9B25" format="dita" scope="local"> Sharing Metrics, Segments, and Reports - A4T FAQ</a> </p> </li> 
@@ -104,7 +104,7 @@ In addition to the topics listed below, the following video demonstrates tools f
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Search Engine Optimization (SEO)</b> </p> </td> 
-   <td colname="col2"> <p><a format="dita" scope="local" href="../c-intro/c-how-target-works.md#concept_C0C865663CAB4251B66A1F250FD25E6A"> Search Engine Optimization (SEO) Friendly Testing</a> </p> </td> 
+   <td colname="col2"> <p><a format="dita" scope="local" href="../c-intro/how-target-works.md#concept_C0C865663CAB4251B66A1F250FD25E6A"> Search Engine Optimization (SEO) Friendly Testing</a> </p> </td> 
   </tr> 
  </tbody> 
 </table>

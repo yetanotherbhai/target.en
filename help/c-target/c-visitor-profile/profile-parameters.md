@@ -37,7 +37,7 @@ The following types of profile attributes are available:
   </tr> 
   <tr> 
    <td colname="col1"> <p>Script </p> </td> 
-   <td colname="col2"> <p>Defined directly with a JavaScript code snippet. These can store running totals like total money spent by consumer and are executed on each mbox request. See <a href="../../c-target/c-visitor-profile/c-profile-parameters.md#concept_8C07AEAB0A144FECA8B4FEB091AED4D2" format="dita" scope="local"> Profile Script Attributes </a>. </p> </td> 
+   <td colname="col2"> <p>Defined directly with a JavaScript code snippet. These can store running totals like total money spent by consumer and are executed on each mbox request. See <a href="../../c-target/c-visitor-profile/profile-parameters.md#concept_8C07AEAB0A144FECA8B4FEB091AED4D2" format="dita" scope="local"> Profile Script Attributes </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -151,7 +151,7 @@ Typical reasons for the system to disable profile scripts include the following:
 * An undefined variable to referenced. 
 * An invalid value is referenced. This is often caused by referencing URL values and other user-inputted data without proper validation. 
 * Too many JavaScript instructions are used. Target has limit of 2,000 JavaScript instructions per script, but this cannot simply be calculated by manually reading the JavaScript. For example, Rhino treats all function calls and "new" calls as 100 instructions. Also, the size of any entry data, such as URL values, can impact the instructions count. 
-* Not following items highlighted in the [best practices](../../c-target/c-visitor-profile/c-profile-parameters.md#section_64AFE5D2B0C8408A912FC2A832B3AAE0) section below.
+* Not following items highlighted in the [best practices](../../c-target/c-visitor-profile/profile-parameters.md#section_64AFE5D2B0C8408A912FC2A832B3AAE0) section below.
 
 ## Best Practices {#section_64AFE5D2B0C8408A912FC2A832B3AAE0}
 

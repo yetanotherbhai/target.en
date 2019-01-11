@@ -15,7 +15,7 @@ This topic contains answers to questions that are frequently asked about using r
 
 ## Does Analytics for Target (A4T) support redirect offers? {#section_46B8B03ED4D542C6AD875F5F61176298}
 
-Yes, provided that your implementation uses [!DNL at.js]. However, your implementation must meet the minimum requirements listed below in order to use [redirect offers](../../../c-experiences/c-manage-content/t-offer-redirect.md#task_33C80CD722564303B687948261484F94) in activities that use Analytics as the reporting source.
+Yes, provided that your implementation uses [!DNL at.js]. However, your implementation must meet the minimum requirements listed below in order to use [redirect offers](../../../c-experiences/c-manage-content/offer-redirect.md#task_33C80CD722564303B687948261484F94) in activities that use Analytics as the reporting source.
 
 ## What are the minimum requirements needed to use redirect offers with A4T? {#section_FA9384C2AA9D41EDBCE263FFFD1D9B58}
 

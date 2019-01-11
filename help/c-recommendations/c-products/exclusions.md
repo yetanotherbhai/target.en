@@ -21,7 +21,7 @@ Create an exclusion list to prevent items from being recommended.
 
    >[!NOTE]
    >
-   >The "Number of Items" reported for each exclusion on the [!UICONTROL Exclusions] list view is the number of products matching the rules for that exclusion within the configured default Recommendations host group (environment). See [Settings](../../c-recommendations/c-plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84) to change the default host group.
+   >The "Number of Items" reported for each exclusion on the [!UICONTROL Exclusions] list view is the number of products matching the rules for that exclusion within the configured default Recommendations host group (environment). See [Settings](../../c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84) to change the default host group.
 
    ![](assets/exclusions_list.png)
 

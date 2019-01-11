@@ -61,7 +61,7 @@ Use the following steps to migrate from [!DNL mbox.js] to [!DNL at.js] and to ch
    * Extra Javascript 
    * Other locations
 
-   Most of the [mbox.js objects and methods](../../../../c-target/c-visitor-profile/r-variables-profiles-parameters-methods.md#section_8C78059D15D9452F95636A5640188537) (such as `mbox`, `mboxCurrent`, `mboxFactoryDefault`, `mboxFactories`, and others) are not supported. Alternate approaches might be possible to accomplish what you are trying to do.
+   Most of the [mbox.js objects and methods](../../../../c-target/c-visitor-profile/variables-profiles-parameters-methods.md#section_8C78059D15D9452F95636A5640188537) (such as `mbox`, `mboxCurrent`, `mboxFactoryDefault`, `mboxFactories`, and others) are not supported. Alternate approaches might be possible to accomplish what you are trying to do.
 
    **Do you have [!DNL mbox.js] on any of your web pages?**
 

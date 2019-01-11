@@ -15,8 +15,8 @@ Search for assets by keywords and save search folders, called smart collections,
 
 This section contains the following information:
 
-* [Search for Assets by Keyword](../../c-experiences/c-manage-content/c-filter-and-search-content.md#section_2465A71BC95942588F586B1EC8B9E5DB) 
-* [Save Smart Collection](../../c-experiences/c-manage-content/c-filter-and-search-content.md#section_5C95159543B5405EB8C8E47B518DF4AB)
+* [Search for Assets by Keyword](../../c-experiences/c-manage-content/filter-and-search-content.md#section_2465A71BC95942588F586B1EC8B9E5DB) 
+* [Save Smart Collection](../../c-experiences/c-manage-content/filter-and-search-content.md#section_5C95159543B5405EB8C8E47B518DF4AB)
 
 ## Search for Assets by Keyword {#section_2465A71BC95942588F586B1EC8B9E5DB}
 

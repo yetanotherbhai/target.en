@@ -157,7 +157,7 @@ function targetPageParams() {
 }
 ```
 
-For more examples of the code you might use on different types of pages, see [Implementation According to Page Type](../c-recommendations/c-plan-implement.md#reference_DE38BB07BD3C4511B176CDAB45E126FC). 
+For more examples of the code you might use on different types of pages, see [Implementation According to Page Type](../c-recommendations/plan-implement.md#reference_DE38BB07BD3C4511B176CDAB45E126FC). 
 
 ## Implementation According to Page Type {#reference_DE38BB07BD3C4511B176CDAB45E126FC}
 

@@ -159,7 +159,7 @@ The following table shows you which activity types support Analytics as the repo
   <tr> 
    <td colname="col1"> <p>Any activity using a Redirect offer </p> </td> 
    <td colname="col3"> <p>Yes </p> </td> 
-   <td colname="col5"> <p>There are stricter minimum requirements for using redirect offers with A4T. For more information, see <a href="../../c-integrating-target-with-mac/a4t/r-a4t-faq/c-a4t-faq-redirect-offers.md#concept_21BF213F10E1414A9DCD4A98AF207905" format="dita" scope="local"> Redirect Offers - A4T FAQ</a>. </p> </td> 
+   <td colname="col5"> <p>There are stricter minimum requirements for using redirect offers with A4T. For more information, see <a href="../../c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#concept_21BF213F10E1414A9DCD4A98AF207905" format="dita" scope="local"> Redirect Offers - A4T FAQ</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Node.JS </p> </td> 

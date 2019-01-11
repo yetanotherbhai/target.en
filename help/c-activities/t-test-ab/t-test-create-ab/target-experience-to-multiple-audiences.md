@@ -37,7 +37,7 @@ In this case, what you need are geo-specific versions of the experience, so you 
 
    ![](assets/exp-versions.png)
 
-   If the audience does not yet exist, click [Create Audience](../../../c-target/c-audiences/t-create-audience.md#task_E18BD77A9A8F4ED0AC50569F94556558) and set it up.
+   If the audience does not yet exist, click [Create Audience](../../../c-target/c-audiences/create-audience.md#task_E18BD77A9A8F4ED0AC50569F94556558) and set it up.
 
    If a visitor qualifies for more than one audience, the content for all audiences is returned, with the last one in the list actually rendering on the page. 
 1. Continue setting up the activity.

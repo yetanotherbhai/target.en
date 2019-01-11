@@ -49,7 +49,7 @@ For help selecting the right setup see [Non-JavaScript-Based Implementations](..
  </tbody> 
 </table>
 
-1. Create [Redirect Offers](../../c-experiences/c-manage-content/t-offer-redirect.md#task_33C80CD722564303B687948261484F94) for each alternative image.
+1. Create [Redirect Offers](../../c-experiences/c-manage-content/offer-redirect.md#task_33C80CD722564303B687948261484F94) for each alternative image.
 
    >[!NOTE] {class="- topic/note "}
    >

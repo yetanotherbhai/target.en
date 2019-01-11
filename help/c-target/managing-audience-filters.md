@@ -41,7 +41,7 @@ The following sections provide more information about setting up and reporting o
   </tr> 
   <tr> 
    <td colname="col1"> <p>Create audiences, if necessary. </p> </td> 
-   <td colname="col2"> <p><a href="../c-target/c-audiences/t-create-audience.md#task_E18BD77A9A8F4ED0AC50569F94556558" format="dita" scope="local"> Creating an Audience</a> </p> </td> 
+   <td colname="col2"> <p><a href="../c-target/c-audiences/create-audience.md#task_E18BD77A9A8F4ED0AC50569F94556558" format="dita" scope="local"> Creating an Audience</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Combine multiple audiences, if necessary. </p> </td> 

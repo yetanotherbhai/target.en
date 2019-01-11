@@ -131,7 +131,7 @@ A list of frequently asked questions about using the features in Adobe Target, a
   </tr> 
   <tr> 
    <td colname="col1"> <p>How can I use Target's decisioning power to receive an experience/offer that can be used in Single Page Applications (SPAs) or server-side integrations? </p> </td> 
-   <td colname="col2"> <p>Use the power of <a href="../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E" format="dita" scope="local"> form-based activities</a> with <a href="../c-experiences/c-manage-content/c-create-json-offer.md#concept_63C7BEE1F0DB4A7596D997219B7C136D" format="dita" scope="local"> JSON offers</a> to meet your goal. </p> </td> 
+   <td colname="col2"> <p>Use the power of <a href="../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E" format="dita" scope="local"> form-based activities</a> with <a href="../c-experiences/c-manage-content/create-json-offer.md#concept_63C7BEE1F0DB4A7596D997219B7C136D" format="dita" scope="local"> JSON offers</a> to meet your goal. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>I have set up two activities. How do I know which one a visitor will end up seeing? </p> <p> Can I set the priority order of a few activities? </p> </td> 
@@ -177,7 +177,7 @@ A list of frequently asked questions about using the features in Adobe Target, a
   </tr> 
   <tr> 
    <td colname="col1"> <p>Can I deliver experiences based on visitor attributes across multiple visits? </p> <p> Can I randomly split the traffic in two buckets? </p> </td> 
-   <td colname="col2"> <p>Try the <a href="../c-target/c-visitor-profile/c-profile-parameters.md#concept_8C07AEAB0A144FECA8B4FEB091AED4D2" format="dita" scope="local"> Profile Scripts feature</a>. It is a powerful way to personalize experiences, although it requires you to write code. </p> </td> 
+   <td colname="col2"> <p>Try the <a href="../c-target/c-visitor-profile/profile-parameters.md#concept_8C07AEAB0A144FECA8B4FEB091AED4D2" format="dita" scope="local"> Profile Scripts feature</a>. It is a powerful way to personalize experiences, although it requires you to write code. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Can I start an activity with a fewer number of visitors? </p> </td> 
@@ -292,7 +292,7 @@ A list of frequently asked questions about using the features in Adobe Target, a
  <tbody> 
   <tr> 
    <td colname="col1"> <p>I do not want to try minor changes, but instead want to test a brand new, completely different page. </p> <p>I want to direct users to a landing page, for example, a new launch. </p> <p>How can I do this? </p> </td> 
-   <td colname="col2"> <p>We have <a href="../c-experiences/c-manage-content/t-offer-redirect.md#task_33C80CD722564303B687948261484F94" format="dita" scope="local"> Redirect URL feature</a> that lets you redirect users to the page of choice (with or without the current query parameters). </p> </td> 
+   <td colname="col2"> <p>We have <a href="../c-experiences/c-manage-content/offer-redirect.md#task_33C80CD722564303B687948261484F94" format="dita" scope="local"> Redirect URL feature</a> that lets you redirect users to the page of choice (with or without the current query parameters). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Why is content delivery not happening in my QA process? </p> </td> 
@@ -304,7 +304,7 @@ A list of frequently asked questions about using the features in Adobe Target, a
   </tr> 
   <tr> 
    <td colname="col1"> <p>Can I use Target's decisioning power to receive an experience/offer that can be used in Single Page Applications (SPAs) or server-side integrations? </p> </td> 
-   <td colname="col2"> <p>Use the power of <a href="../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E" format="dita" scope="local"> form-based activities</a> with <a href="../c-experiences/c-manage-content/c-create-json-offer.md#concept_63C7BEE1F0DB4A7596D997219B7C136D" format="dita" scope="local"> JSON offers</a> to meet your goal. </p> </td> 
+   <td colname="col2"> <p>Use the power of <a href="../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E" format="dita" scope="local"> form-based activities</a> with <a href="../c-experiences/c-manage-content/create-json-offer.md#concept_63C7BEE1F0DB4A7596D997219B7C136D" format="dita" scope="local"> JSON offers</a> to meet your goal. </p> </td> 
   </tr> 
  </tbody> 
 </table>
