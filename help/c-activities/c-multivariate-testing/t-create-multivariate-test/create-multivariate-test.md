@@ -12,15 +12,6 @@ uuid: 876441bd-d841-4974-b1ec-3ad7cb6ef3ee
 
 The Visual Experience Composer in Target makes it easy to create your test right on a Target-enabled page and to modify portions of the page within Target.
 
-**Creating Multivariate Tests (9:25)**
-
-This video demonstrates how to plan and create a multivariate test using the Target three-step guided workflow.
-
-* Define and design a multivariate test 
-* Create a multivariate test
-
->[!VIDEO](https://www.youtube.com/watch?v=X8w5IQqEOow)
-
 The Target point-and-click editor enables you to pick any location and add multiple offers.
 
 The multivariate test takes a page-first report. In other words, the test runs on a specific URL, with the experiences you design for that page. 
@@ -48,48 +39,16 @@ The multivariate test takes a page-first report. In other words, the test runs o
 
    The following characters are not allowed in an activity name:
 
-    <table id="table_F5E365667FDC48AD8B4461E40CD669B8"> 
-    <thead> 
-    <tr> 
-    <th colname="col1" class="entry"> Character </th> 
-    <th colname="col2" class="entry"> Description </th> 
-    </tr>
-    </thead>
-    <tbody> 
-    <tr> 
-    <td colname="col1"> <p>/ </p> </td> 
-    <td colname="col2"> <p>Forward slash </p> </td> 
-    </tr> 
-    <tr> 
-    <td colname="col1"> <p>? </p> </td> 
-    <td colname="col2"> <p>Question mark </p> </td> 
-    </tr> 
-    <tr> 
-    <td colname="col1"> <p># </p> </td> 
-    <td colname="col2"> <p>Number sign </p> </td> 
-    </tr> 
-    <tr> 
-    <td colname="col1"> <p>: </p> </td> 
-    <td colname="col2"> <p>Colon </p> </td> 
-    </tr> 
-    <tr> 
-    <td colname="col1"> <p>= </p> </td> 
-    <td colname="col2"> <p>Equals to </p> </td> 
-    </tr> 
-    <tr> 
-    <td colname="col1"> <p>+ </p> </td> 
-    <td colname="col2"> <p>Plus </p> </td> 
-    </tr> 
-    <tr> 
-    <td colname="col1"> <p>- </p> </td> 
-    <td colname="col2"> <p>Minus </p> </td> 
-    </tr> 
-    <tr> 
-    <td colname="col1"> <p>@ </p> </td> 
-    <td colname="col2"> <p>At sign </p> </td> 
-    </tr> 
-    </tbody> 
-    </table>
+   | Character | Description |
+   |--- |--- |
+   |/|Forward slash|
+   |?|Question mark|
+   |#|Number sign|
+   |:|Colon|
+   |=|Equals to|
+   |+|Plus|
+   |-|Minus|
+   |@|At sign|
 
 1. [Create the offers in each location](../../../c-activities/c-multivariate-testing/t-create-multivariate-test/add-offers.md#concept_DCE6B45C30F7419B8EC17AFDEE8D8AA6).
 
@@ -130,4 +89,11 @@ The multivariate test takes a page-first report. In other words, the test runs o
 
 1. Click **[!UICONTROL Save and Close]** to create the activity.
 
-   Step Result 
+## Training video: Creating Multivariate Tests
+
+This video demonstrates how to plan and create a multivariate test using the Target three-step guided workflow.
+
+* Define and design a multivariate test 
+* Create a multivariate test
+
+>[!VIDEO](https://www.youtube.com/watch?v=X8w5IQqEOow)
