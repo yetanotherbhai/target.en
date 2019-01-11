@@ -71,7 +71,7 @@ This page lists important changes made to the Target documentation.
   </tr> 
 <tr> 
    <td colname="col1"></td> 
-   <td colname="col2"> <p> <a href="../c-reports/c-personalization-insights-reports/c-personalization-insights-reports.md" format="dita" scope="local">Personalization Insights reports</a> </p> </td> 
+   <td colname="col2"> <p> <a href="../c-reports/c-personalization-insights-reports/personalization-insights-reports.md" format="dita" scope="local">Personalization Insights reports</a> </p> </td> 
    <td colname="col3"> <p>Added link to training video.</p> </td> 
   </tr> 
 <tr> 
@@ -142,7 +142,7 @@ This page lists important changes made to the Target documentation.
   </tr> 
 <tr> 
    <td colname="col1"> December 5, 2018 </td> 
-   <td colname="col2"> <p> <a href="../c-reports/c-personalization-insights-reports/c-personalization-insights-reports.md" format="dita" scope="local"> Personalization Insights reports </a> </p> </td> 
+   <td colname="col2"> <p> <a href="../c-reports/c-personalization-insights-reports/personalization-insights-reports.md" format="dita" scope="local"> Personalization Insights reports </a> </p> </td> 
    <td colname="col3"> <p>Added note that the Personalization Insights reports are available in the default environment only.</p> </td> 
   </tr> 
   <tr> 
@@ -172,7 +172,7 @@ This page lists important changes made to the Target documentation.
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
-   <td colname="col2"> <p> <a href="../c-reports/c-personalization-insights-reports/c-personalization-insights-reports.md#concept_A897070E1EDC403EB84CFB7A6ECAD767" format="dita" scope="local"> Personalization Insights reports </a> </p> </td> 
+   <td colname="col2"> <p> <a href="../c-reports/c-personalization-insights-reports/personalization-insights-reports.md#concept_A897070E1EDC403EB84CFB7A6ECAD767" format="dita" scope="local"> Personalization Insights reports </a> </p> </td> 
    <td colname="col3"> <p>Added new topics for the new <span class="wintitle"> Personalization Insights </span> reports: <span class="wintitle"> Automated Segments </span> and <span class="wintitle"> Important Attributes </span>. </p> </td> 
   </tr> 
   <!-- <row> <entry colname="col2"> <p><xref href="c_priority.xml#concept_1780C11FEA57440499F0047DD6900E0F" format="dita" scope="local">Priority</xref> </p> </entry> <entry colname="col3"> <p>Edited topic to reflect the new priority model for activities that use the Form-Based Experience Composer with only a global mbox. </p> </entry> </row> --> 
@@ -267,7 +267,7 @@ This page lists important changes made to the Target documentation.
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
-   <td colname="col2"> <p> <a href="../c-target/c-audiences/c-audiences.md#concept_65BE870D290E412D8BBF557EEA67C271" format="dita" scope="local"> About audiences </a> </p> </td> 
+   <td colname="col2"> <p> <a href="../c-target/c-audiences/audiences.md#concept_65BE870D290E412D8BBF557EEA67C271" format="dita" scope="local"> About audiences </a> </p> </td> 
    <td colname="col3"> <p>Added information about the handling of audiences referenced in Target activities that have been deleted in Adobe Audience Manager (AAM). </p> </td> 
   </tr> 
   <tr> 
@@ -390,7 +390,7 @@ This page lists important changes made to the Target documentation.
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
-   <td colname="col2"> <p> <a href="../c-activities/t-test-ab/t-test-create-ab/test-create-ab.md#task_68C8079BF9FF4625A3BD6680D554BB72" format="dita" scope="local"> Create an A/B Test </a> </p> <p> <a href="../c-activities/t-automated-personalization/create-ap-activity.md#task_8AAF837796D74CF893CA2F88BA1491C9" format="dita" scope="local"> Creating an Automated Personalization Activity </a> </p> <p> <a href="../c-activities/t-experience-target/t-xt-create/xt-create.md#task_D6B3429AC31549E1A70EDF04B3DDC765" format="dita" scope="local"> Create an Experience Targeting Activity </a> </p> <p> <a href="../c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test.md#task_BF870FA60A8245AB8F0B775BE32EA710" format="dita" scope="local"> Create a Multivariate Test </a> </p> <p> <a href="../c-recommendations/t-create-recs-activity/r-recs-activity-settings.md#reference_3FDA8388CEEC4159949151C1829E2FBB" format="dita" scope="local"> Recommendations Activity Settings </a> </p> <p> <a href="../c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md#task_454646F2895242D3B92DC395A0CE1A00" format="dita" scope="local"> Add Experience </a> </p> <p> <a href="../c-activities/t-test-ab/t-test-create-ab/ab-set-metrics.md#task_A04AB66007C1467DA1C21A519A5C7BEB" format="dita" scope="local"> Set Metrics </a> </p>
+   <td colname="col2"> <p> <a href="../c-activities/t-test-ab/t-test-create-ab/test-create-ab.md#task_68C8079BF9FF4625A3BD6680D554BB72" format="dita" scope="local"> Create an A/B Test </a> </p> <p> <a href="../c-activities/t-automated-personalization/create-ap-activity.md#task_8AAF837796D74CF893CA2F88BA1491C9" format="dita" scope="local"> Creating an Automated Personalization Activity </a> </p> <p> <a href="../c-activities/t-experience-target/t-xt-create/xt-create.md#task_D6B3429AC31549E1A70EDF04B3DDC765" format="dita" scope="local"> Create an Experience Targeting Activity </a> </p> <p> <a href="../c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test.md#task_BF870FA60A8245AB8F0B775BE32EA710" format="dita" scope="local"> Create a Multivariate Test </a> </p> <p> <a href="../c-recommendations/t-create-recs-activity/recs-activity-settings.md#reference_3FDA8388CEEC4159949151C1829E2FBB" format="dita" scope="local"> Recommendations Activity Settings </a> </p> <p> <a href="../c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md#task_454646F2895242D3B92DC395A0CE1A00" format="dita" scope="local"> Add Experience </a> </p> <p> <a href="../c-activities/t-test-ab/t-test-create-ab/ab-set-metrics.md#task_A04AB66007C1467DA1C21A519A5C7BEB" format="dita" scope="local"> Set Metrics </a> </p>
    </td> 
    <td colname="col3"> <p>Updated the table listing characters not allowed in activity, experience, or metric names. </p> </td> 
   </tr> 
@@ -583,7 +583,7 @@ This page lists important changes made to the Target documentation.
   </tr> 
   <tr> 
    <td colname="col1"> August 21, 2018 </td> 
-   <td colname="col2"> <p> <a href="../c-reports/c-personalization-insights-reports/c-personalization-insights-reports.md#concept_A897070E1EDC403EB84CFB7A6ECAD767" format="dita" scope="local"> Personalization Insights Reports </a> </p> </td> 
+   <td colname="col2"> <p> <a href="../c-reports/c-personalization-insights-reports/personalization-insights-reports.md#concept_A897070E1EDC403EB84CFB7A6ECAD767" format="dita" scope="local"> Personalization Insights Reports </a> </p> </td> 
    <td colname="col3"> <p>New topic. </p> <p> <p>Note:  This feature will be available soon. </p> </p> </td> 
   </tr> 
   <tr> 

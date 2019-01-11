@@ -100,7 +100,7 @@ In addition to the topics listed below, the following video demonstrates tools f
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Targeting</b> </p> </td> 
-   <td colname="col2"> <p><a href="../c-target/c-audiences/c-target-rules/c-geo.md#concept_5B4D99DE685348FB877929EE0F942670" format="dita" scope="local"> Geo</a> </p> </td> 
+   <td colname="col2"> <p><a href="../c-target/c-audiences/c-target-rules/geo.md#concept_5B4D99DE685348FB877929EE0F942670" format="dita" scope="local"> Geo</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Search Engine Optimization (SEO)</b> </p> </td> 

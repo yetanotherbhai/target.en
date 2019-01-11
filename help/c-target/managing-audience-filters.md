@@ -45,7 +45,7 @@ The following sections provide more information about setting up and reporting o
   </tr> 
   <tr> 
    <td colname="col1"> <p>Combine multiple audiences, if necessary. </p> </td> 
-   <td colname="col2"> <p><a href="../c-target/c-combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5" format="dita" scope="local"> Combining Multiple Audiences</a> </p> </td> 
+   <td colname="col2"> <p><a href="../c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5" format="dita" scope="local"> Combining Multiple Audiences</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Apply audiences on the activity's <span class="wintitle"> Goals &amp; Settings</span> page. </p> </td> 

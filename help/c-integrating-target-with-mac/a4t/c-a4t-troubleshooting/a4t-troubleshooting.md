@@ -46,7 +46,7 @@ Lift and confidence details are not available in Analytics. They are, however, a
 
 ## Activities do not appear in Analytics reports. {#section_F7001EB4670F4B3497CC7DA60BBDA6D5}
 
-A4T activities require an analytics tracking server to be specified. See [Using an Analytics Tracking Server](../../../c-integrating-target-with-mac/a4t/t-analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823) to make sure your Analytics Tracking Server is set up correctly.
+A4T activities require an analytics tracking server to be specified. See [Using an Analytics Tracking Server](../../../c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823) to make sure your Analytics Tracking Server is set up correctly.
 
 >[!NOTE]
 >

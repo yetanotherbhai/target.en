@@ -42,7 +42,7 @@ Creating a Target Standard activity that uses Analytics as the reporting source 
    If the report suite(s) is still missing from the list, please [contact Customer Care](../../cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C). 
 1. Specify your tracking server.
 
-   See [Using an Analytics Tracking Server](../../c-integrating-target-with-mac/a4t/t-analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823).
+   See [Using an Analytics Tracking Server](../../c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823).
 
    >[!NOTE]
    >

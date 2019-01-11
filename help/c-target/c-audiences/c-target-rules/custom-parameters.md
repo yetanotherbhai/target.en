@@ -35,7 +35,7 @@ Using either method, there is no link between the mbox and the parameter. The au
 
 If you edit an existing audience, the filtering criteria displays with the mbox name that was supplied during creation.
 
-The audience's [definition details pop-up card](../../../c-target/c-audiences/c-audiences.md#section_11B9C4A777E14D36BA1E925021945780) shows the parameter name in the Rules section. There is no reference to the mbox used for filtering.
+The audience's [definition details pop-up card](../../../c-target/c-audiences/audiences.md#section_11B9C4A777E14D36BA1E925021945780) shows the parameter name in the Rules section. There is no reference to the mbox used for filtering.
 
 >[!NOTE]
 >

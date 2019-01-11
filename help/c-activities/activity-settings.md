@@ -52,7 +52,7 @@ Use Activity Settings to manage the objective, priority, and duration of your ac
    * [Automated Personalization](../c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) 
    * [Experience Targeting](../c-activities/t-experience-target/t-xt-create/xt-goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC) 
    * [Multivariate Test](../c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC) 
-   * [Recommendations](../c-recommendations/t-create-recs-activity/r-recs-activity-settings.md#reference_3FDA8388CEEC4159949151C1829E2FBB)
+   * [Recommendations](../c-recommendations/t-create-recs-activity/recs-activity-settings.md#reference_3FDA8388CEEC4159949151C1829E2FBB)
 
    **Activity Settings (3:02)**
 

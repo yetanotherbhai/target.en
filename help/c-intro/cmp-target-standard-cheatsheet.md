@@ -169,7 +169,7 @@ A list of frequently asked questions about using the features in Adobe Target, a
   </tr> 
   <tr> 
    <td colname="col1"> <p>How can I target users based on their locations? </p> </td> 
-   <td colname="col2"> <p>Try out <a href="../c-target/c-audiences/c-target-rules/c-geo.md#concept_5B4D99DE685348FB877929EE0F942670" format="dita" scope="local"> Geo audiences</a>. Read about the accuracy levels of this feature. </p> </td> 
+   <td colname="col2"> <p>Try out <a href="../c-target/c-audiences/c-target-rules/geo.md#concept_5B4D99DE685348FB877929EE0F942670" format="dita" scope="local"> Geo audiences</a>. Read about the accuracy levels of this feature. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Can I target users based on some of the attributes on the page in the session? </p> </td> 
@@ -189,7 +189,7 @@ A list of frequently asked questions about using the features in Adobe Target, a
      <ul id="ul_B970DF9C1D7C46678CBE59610A5E6833"> 
       <li id="li_25CD6FD9893C4472A4BD430CCE0AF959"> <p><a href="../c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE" format="dita" scope="local"> Analytics for Target (A4T)</a> </p> </li> 
       <li id="li_DF425C7C5C4F4C4B9650C90EB2D38982"> <p><a href="../c-target/c-visitor-profile/c-working-with-customer-attributes.md#concept_16C5C434D32D4EB1AD44A71821F3DEE8" format="dita" scope="local"> Customer Attributes</a> </p> </li> 
-      <li id="li_33872F2ADC12441894791FA042D522DD"> <p><a href="../c-integrating-target-with-mac/c-mmp.md#concept_F4863DE4C92D4805AB690B4B3D487969" format="dita" scope="local"> Audiences</a> </p> </li> 
+      <li id="li_33872F2ADC12441894791FA042D522DD"> <p><a href="../c-integrating-target-with-mac/mmp.md#concept_F4863DE4C92D4805AB690B4B3D487969" format="dita" scope="local"> Audiences</a> </p> </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 
@@ -325,7 +325,7 @@ A list of frequently asked questions about using the features in Adobe Target, a
      <ul id="ul_47A0307BD482495680E73478E6CF2B83"> 
       <li id="li_7077216476C847698F9156E0DB17EB2C"> <p><a href="../c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE" format="dita" scope="local"> Analytics for Target (A4T)</a> </p> </li> 
       <li id="li_23490B5AB2314488B9D0420C968C9529"> <p><a href="../c-target/c-visitor-profile/c-working-with-customer-attributes.md#concept_16C5C434D32D4EB1AD44A71821F3DEE8" format="dita" scope="local"> Customer Attributes</a> </p> </li> 
-      <li id="li_0E1439B4B92A42C996103AFAAA97A63F"> <p><a href="../c-integrating-target-with-mac/c-mmp.md#concept_F4863DE4C92D4805AB690B4B3D487969" format="dita" scope="local"> Audiences</a> </p> </li> 
+      <li id="li_0E1439B4B92A42C996103AFAAA97A63F"> <p><a href="../c-integrating-target-with-mac/mmp.md#concept_F4863DE4C92D4805AB690B4B3D487969" format="dita" scope="local"> Audiences</a> </p> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 

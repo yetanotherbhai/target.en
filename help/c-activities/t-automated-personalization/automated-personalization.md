@@ -71,7 +71,7 @@ Random Forest is a leading machine learning approach. In data-science speak, it 
 
 **Target automatically uses all Experience Cloud shared audiences to build the personalization models.**
 
-* You don’t have to do anything specific to add audiences to the model. For information about using Experience Cloud Audiences with Target, see [Experience Cloud Audiences](../../c-integrating-target-with-mac/c-mmp.md#concept_F4863DE4C92D4805AB690B4B3D487969).
+* You don’t have to do anything specific to add audiences to the model. For information about using Experience Cloud Audiences with Target, see [Experience Cloud Audiences](../../c-integrating-target-with-mac/mmp.md#concept_F4863DE4C92D4805AB690B4B3D487969).
 
 **Marketers can upload offline data, propensity scores or other custom data to build personalization models.**
 

@@ -216,7 +216,7 @@ index: n
       + [Create](c-target/c-audiences/audiences.md)
       + [Build audiences in Target](c-target/c-audiences/create-audience.md)
       + Categories for audiences {#categories-audiences}
-         + [Categories for audiences overview](c-target/c-audiences/c-target-rules/c-target-rules.md)
+         + [Categories for audiences overview](c-target/c-audiences/c-target-rules/target-rules.md)
          + [Browser](c-target/c-audiences/c-target-rules/browser.md)
          + [Custom parameters](c-target/c-audiences/c-target-rules/custom-parameters.md)
          + [Geo](c-target/c-audiences/c-target-rules/geo.md)
@@ -239,7 +239,7 @@ index: n
       + [Profile attributes](c-target/c-visitor-profile/profile-parameters.md)
       + [Category affinity](c-target/c-visitor-profile/category-affinity.md)
       + [Customer attributes](c-target/c-visitor-profile/working-with-customer-attributes.md)
-      + [Real-time profile syncing for mbox3rdPartyID](c-target/visitor-profile/c-3rd-party-id.md)
+      + [Real-time profile syncing for mbox3rdPartyID](c-target/c-visitor-profile/3rd-party-id.md)
       + [Profile and variable glossary](c-target/c-visitor-profile/variables-profiles-parameters-methods.md)
    + Targets and audiences FAQ {#faq-audiences}
       + [Targets and audiences FAQ](c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)

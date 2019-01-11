@@ -25,5 +25,5 @@ The following list presents best practices for uploading data for Target's perso
 * Don’t pass a unique Id, such as a session ID if not needed. 
 * Review what data Target automatically collects ( [Data Collection for Target's Personalization Algorithms](../../c-activities/t-automated-personalization/ap-data.md#reference_255BD3DE7AD04DC9B766E0BC78961058)) so that you don’t send duplicate information. For example, Target uses IP addresses to determine visitors' ZIP codes. It is not necessary to pass this information as a separate variable. 
 * Do not pass multiple values in the same attribute/variable. If multiple variables are concatenated, Target’s personalization algorithms treat each string as a unique value, reducing the value of the information for personalization. 
-* Use a memorable and meaningful naming convention to make your [Personalization Insights Reports](../../c-reports/c-personalization-insights-reports/c-personalization-insights-reports.md#concept_A897070E1EDC403EB84CFB7A6ECAD767) more understandable.
+* Use a memorable and meaningful naming convention to make your [Personalization Insights Reports](../../c-reports/c-personalization-insights-reports/personalization-insights-reports.md#concept_A897070E1EDC403EB84CFB7A6ECAD767) more understandable.
 

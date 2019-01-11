@@ -39,15 +39,15 @@ In addition to the general reporting information in this topic and its subtopics
    <td colname="col2"> <p> 
      <ul id="ul_81F3B2F17153401DBE4180F8CDA02CFB"> 
       <li id="li_6649B81BDA274685871478C1B6EC60DB"> <p>Information about the Summary report for AT activities. For more information, see <a href="../c-reports/c-auto-target-summary-report.md#concept_E2171F7B57C1417DAAD7E7909A3FB073" format="dita" scope="local"> Auto-Target Summary Report</a>. </p> </li> 
-      <li id="li_5BE42826325744BCA8F449CC282853AD"> <p>Information about the two Personalization Insights reports for AT and AP activities: Automated Segments report and Important Attributes report. For more information, see <a href="../c-reports/c-personalization-insights-reports/c-personalization-insights-reports.md#concept_A897070E1EDC403EB84CFB7A6ECAD767" format="dita" scope="local"> Personalization Insights Reports</a>. </p> </li> 
+      <li id="li_5BE42826325744BCA8F449CC282853AD"> <p>Information about the two Personalization Insights reports for AT and AP activities: Automated Segments report and Important Attributes report. For more information, see <a href="../c-reports/c-personalization-insights-reports/personalization-insights-reports.md#concept_A897070E1EDC403EB84CFB7A6ECAD767" format="dita" scope="local"> Personalization Insights Reports</a>. </p> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><a href="../c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9" format="dita" scope="local"> Automated Personalization</a> (AP) </p> </td> 
    <td colname="col2"> <p> 
      <ul id="ul_A1BA81DA5EC948E2A4384083907BA7B2"> 
-      <li id="li_C370889D33244710BDDD34FE68A44F28"> <p>Information about the two AP Summary reports for AP activities: Activity Level report and Offer Level report.. For more information, see <a href="../c-reports/c-reports-ap.md#concept_C02BAFC922114A44846998FD956E345A" format="dita" scope="local"> Automated Personalization Summary Reports</a>. </p> </li> 
-      <li id="li_5720539F6D4645608E9593E8F4368C51"> <p>Information about the two Personalization Insights reports for AP and AT activities: Automated Segments report and Important Attributes report. For more information, see <a href="../c-reports/c-personalization-insights-reports/c-personalization-insights-reports.md#concept_A897070E1EDC403EB84CFB7A6ECAD767" format="dita" scope="local"> Personalization Insights Reports</a>. </p> </li> 
+      <li id="li_C370889D33244710BDDD34FE68A44F28"> <p>Information about the two AP Summary reports for AP activities: Activity Level report and Offer Level report.. For more information, see <a href="../c-reports/reports-ap.md#concept_C02BAFC922114A44846998FD956E345A" format="dita" scope="local"> Automated Personalization Summary Reports</a>. </p> </li> 
+      <li id="li_5720539F6D4645608E9593E8F4368C51"> <p>Information about the two Personalization Insights reports for AP and AT activities: Automated Segments report and Important Attributes report. For more information, see <a href="../c-reports/c-personalization-insights-reports/personalization-insights-reports.md#concept_A897070E1EDC403EB84CFB7A6ECAD767" format="dita" scope="local"> Personalization Insights Reports</a>. </p> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 

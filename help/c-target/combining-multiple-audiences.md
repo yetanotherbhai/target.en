@@ -87,7 +87,7 @@ You can create an ad hoc combined audience on the activity's [!UICONTROL Goals &
 
    ![](assets/combine_multiple_audiences5.png)
 
-1. Proceed with [Step 2](../c-target/c-combining-multiple-audiences.md#section_2F1CE9434CC04174B4BA2BFC89B85D77) under "Create a Combined Audience While Creating an Activity" to create the combined audience.
+1. Proceed with [Step 2](../c-target/combining-multiple-audiences.md#section_2F1CE9434CC04174B4BA2BFC89B85D77) under "Create a Combined Audience While Creating an Activity" to create the combined audience.
 
 ## Create a Combined Audience for Use in Reporting {#section_4682D342EFBB43C38E54B99B3A1E14CD}
 
@@ -97,7 +97,7 @@ You can create an ad hoc combined audience on the activity's [!UICONTROL Goals &
 
    ![](assets/combine_multiple_audiences6.png)
 
-1. Proceed with [Step 2](../c-target/c-combining-multiple-audiences.md#section_2F1CE9434CC04174B4BA2BFC89B85D77) under "Create a Combined Audience While Creating an Activity" to create the combined audience.
+1. Proceed with [Step 2](../c-target/combining-multiple-audiences.md#section_2F1CE9434CC04174B4BA2BFC89B85D77) under "Create a Combined Audience While Creating an Activity" to create the combined audience.
 
 ## Create a Combined Audience While Editing an Activity {#section_364A12CE96E04B61B7C18113AA586C2C}
 
@@ -111,5 +111,5 @@ You can create an ad hoc combined audience while editing an existing activity.
 
 1. Click the gear icon > **[!UICONTROL Audiences]** > **[!UICONTROL Multiple Audiences]**. 
 1. Click the more options icon (three vertical ellipses) next to the activity's current audience, then click **[!UICONTROL Change Audience]**. 
-1. Proceed with [Step 2](../c-target/c-combining-multiple-audiences.md#section_2F1CE9434CC04174B4BA2BFC89B85D77) under "Create a Combined Audience While Creating an Activity" to create the combined audience.
+1. Proceed with [Step 2](../c-target/combining-multiple-audiences.md#section_2F1CE9434CC04174B4BA2BFC89B85D77) under "Create a Combined Audience While Creating an Activity" to create the combined audience.
 

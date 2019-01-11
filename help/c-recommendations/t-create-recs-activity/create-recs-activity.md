@@ -100,7 +100,7 @@ Use the Target Visual Experience Composer (VEC) to create a Recommendations acti
 
   >[!NOTE]
   >
-  >In addition to selecting an existing audience, you can [create an activity-only audience](../../c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483) or [combine multiple audiences](../../c-target/c-combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5) to create ad hoc audiences rather than creating a new audience.
+  >In addition to selecting an existing audience, you can [create an activity-only audience](../../c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483) or [combine multiple audiences](../../c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5) to create ad hoc audiences rather than creating a new audience.
 
   By default, all users see the recommendations. However, you can target recommendation to a specific audience.
 
@@ -115,7 +115,7 @@ Use the Target Visual Experience Composer (VEC) to create a Recommendations acti
 1. Click **[!UICONTROL Next]** when finished.
 1. Specify your activity settings.
 
-   For example, type a name (required) and objective (optional) for the activity. For information about the settings, see [Recommendations Activity Settings](../../c-recommendations/t-create-recs-activity/r-recs-activity-settings.md#reference_3FDA8388CEEC4159949151C1829E2FBB).
+   For example, type a name (required) and objective (optional) for the activity. For information about the settings, see [Recommendations Activity Settings](../../c-recommendations/t-create-recs-activity/recs-activity-settings.md#reference_3FDA8388CEEC4159949151C1829E2FBB).
 
    >[!NOTE]
    >

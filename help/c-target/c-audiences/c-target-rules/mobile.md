@@ -78,7 +78,7 @@ Customers who are using a custom integration (not using at.js or the Mobile SDK)
 
    >[!NOTE]
    >
-   >You can target by mobile device carrier using the [Geo settings](../../../c-target/c-audiences/c-target-rules/c-geo.md#concept_5B4D99DE685348FB877929EE0F942670).
+   >You can target by mobile device carrier using the [Geo settings](../../../c-target/c-audiences/c-target-rules/geo.md#concept_5B4D99DE685348FB877929EE0F942670).
 
 1. (Optional) Click **[!UICONTROL Add Rule]** and set up additional rules for the audience. 
 1. Click **[!UICONTROL Save]**.
