@@ -71,7 +71,7 @@ The following table lists the known issues for this release:
   </tr> 
   <tr> 
    <td colname="col1"> <p>mbox.js </p> </td> 
-   <td colname="col3"> <p>The <span class="codeph"> mbox.js </span> library does not support client-side templating languages, such as Handlebars and Mustache. The <span class="codeph"> at.js </span> library does support these languages. </p> <p> <p>Note:  The <span class="codeph"> mbox.js </span> library is no longer being developed. All customers should migrate from <span class="codeph"> mbox.js </span> to <span class="codeph"> at.js </span>. For more information, see <a href="../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/t-target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA" format="dita" scope="local"> Migrate to at.js from mbox.js </a>. </p> </p> </td> 
+   <td colname="col3"> <p>The <span class="codeph"> mbox.js </span> library does not support client-side templating languages, such as Handlebars and Mustache. The <span class="codeph"> at.js </span> library does support these languages. </p> <p> <p>Note:  The <span class="codeph"> mbox.js </span> library is no longer being developed. All customers should migrate from <span class="codeph"> mbox.js </span> to <span class="codeph"> at.js </span>. For more information, see <a href="../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA" format="dita" scope="local"> Migrate to at.js from mbox.js </a>. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Redirect offers </p> </td> 

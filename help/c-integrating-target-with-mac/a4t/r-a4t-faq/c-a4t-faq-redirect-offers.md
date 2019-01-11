@@ -37,7 +37,7 @@ Using the form-based composer to build a redirect activity is recommended to inc
 
 >[!NOTE]
 >
->This race condition affects only customers using at.js version 1.6.3 or earlier. Be aware that the Target team maintains only two versions of at.js—the current version and the second-latest version. Please upgrade at.js as necessary to ensure that you are running a [supported version](/help/c-implementing-target/c-implementing-target-for-client-side-web/r-target-atjs-versions.md).
+>This race condition affects only customers using at.js version 1.6.3 or earlier. Be aware that the Target team maintains only two versions of at.js—the current version and the second-latest version. Please upgrade at.js as necessary to ensure that you are running a [supported version](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
 
 For more information about this issue, see the "Redirect offers" column in the [Known Issues](../../../r-release-notes/known-issues-resolved-issues.md#concept_625C3A16B7F24D4B82EFF130F0945541) table.
 

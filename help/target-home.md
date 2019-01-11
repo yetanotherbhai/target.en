@@ -35,7 +35,7 @@ Marketers, developers, administrators, analysts, and quality assurance engineers
 
 ## Developers
 
-- [Implement Target](c-implementing-target/c-implementing-target.md): Explains how to implement [!DNL Target] on web sites, mobile apps, Single-Page Apps (SPAs), and iOT/OTT platforms.
+- [Implement Target](c-implementing-target/implementing-target.md): Explains how to implement [!DNL Target] on web sites, mobile apps, Single-Page Apps (SPAs), and iOT/OTT platforms.
 
 ## Target and Adobe Experience Cloud admins
 

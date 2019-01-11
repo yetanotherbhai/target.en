@@ -32,8 +32,8 @@ Information to help you customize a global mbox for both at.js and mbox.js.
    Click **[!UICONTROL Save]** when you are finished. 
 1. Implement the [!DNL mbox.js] or [!DNL at.js] library on your site.
 
-* For mbox.js, see [Mbox.js Implementation](../../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/t-mbox-download.md#task_4EAE26BB84FD4E1D858F411AEDF4B420). 
-* For at.js, see [at.js Implementation](../../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/c-target-atjs-implementation.md#concept_8AC8D169E02944B1A547A0CAD97EAC17).
+* For mbox.js, see [Mbox.js Implementation](../../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md#task_4EAE26BB84FD4E1D858F411AEDF4B420). 
+* For at.js, see [at.js Implementation](../../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#concept_8AC8D169E02944B1A547A0CAD97EAC17).
 
 1. Time the transition with your release.
 

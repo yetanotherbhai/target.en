@@ -18,7 +18,7 @@ To use Target Standard or Target Premium, add one line of code to call mbox.js.
 
 >[!NOTE]
 >
->The mbox.js library is still supported, but there will be no feature updates. All customers should migrate to at.js. For more information, see [Migrate to at.js from mbox.js](../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/t-target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA).
+>The mbox.js library is still supported, but there will be no feature updates. All customers should migrate to at.js. For more information, see [Migrate to at.js from mbox.js](../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA).
 
 The single reference to [!DNL mbox.js] on each page provides the libraries needed for all of your activities. [!DNL mbox.js] calls [!DNL Target] from every page that references the [!DNL mbox.js] file. This enables [!DNL Target] to do the following:
 

@@ -41,7 +41,7 @@ This page lists important changes made to the Target documentation.
   </tr> 
 <tr> 
    <td colname="col1"></td> 
-   <td colname="col2"> <p> <a href="/help/c-implementing-target/c-implementing-target-for-client-side-web/r-target-atjs-versions.md" format="dita" scope="local">at.js version details</a></p> </td> 
+   <td colname="col2"> <p> <a href="/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md" format="dita" scope="local">at.js version details</a></p> </td> 
    <td colname="col3"> <p>Added information for at.js 1.6.4 release.</p> </td> 
   </tr> 
 <tr> 
@@ -162,7 +162,7 @@ This page lists important changes made to the Target documentation.
   </tr> 
   <tr> 
    <td colname="col1"> November 15, 2018 </td> 
-   <td colname="col2"> <p> <a href="../r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A" format="dita" scope="local"> Target release notes (current) </a> </p> <p> <a href="../r-release-notes/target-release-notes.md#reference_4A966062C61048D1A81412E2DDB16E34" format="dita" scope="local"> Target release notes (prerelease) </a> </p> <p> <a href="../c-implementing-target/c-implementing-target-for-client-side-web/r-target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A" format="dita" scope="local"> at.js version details </a> </p> </td> 
+   <td colname="col2"> <p> <a href="../r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A" format="dita" scope="local"> Target release notes (current) </a> </p> <p> <a href="../r-release-notes/target-release-notes.md#reference_4A966062C61048D1A81412E2DDB16E34" format="dita" scope="local"> Target release notes (prerelease) </a> </p> <p> <a href="../c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A" format="dita" scope="local"> at.js version details </a> </p> </td> 
    <td colname="col3"> <p>Added information about at.js version 1.6.3. </p> </td> 
   </tr> 
   <tr> 
@@ -267,7 +267,7 @@ This page lists important changes made to the Target documentation.
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
-   <td colname="col2"> <p> <a href="../c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/c-target-atjs-integrations.md#concept_C100BC4F073C4B57A608B309D0157B39" format="dita" scope="local"> at.js integrations </a> </p> </td> 
+   <td colname="col2"> <p> <a href="../c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/target-atjs-integrations.md#concept_C100BC4F073C4B57A608B309D0157B39" format="dita" scope="local"> at.js integrations </a> </p> </td> 
    <td colname="col3"> <p>Updated topic. </p> </td> 
   </tr> 
   <tr> 
@@ -306,12 +306,12 @@ This page lists important changes made to the Target documentation.
   </tr> 
   <tr> 
    <td colname="col1"> October 22, 2018 </td> 
-   <td colname="col2"> <p> <a href="../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-cookie-behavior.md#concept_4D8107E193B64168A3C0B85B51612991" format="dita" scope="local"> Target Cookie </a> </p> </td> 
+   <td colname="col2"> <p> <a href="../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/cookie-behavior.md#concept_4D8107E193B64168A3C0B85B51612991" format="dita" scope="local"> Target Cookie </a> </p> </td> 
    <td colname="col3"> <p>Added Important note at top of topic advising clients to not link sensitive information to mboxSession and mboxPC. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> October 21, 2018 </td> 
-   <td colname="col2"> <p> <a href="../c-implementing-target/c-implementing-target-for-client-side-web/r-target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A" format="dita" scope="local"> at.js Version Details </a> </p> </td> 
+   <td colname="col2"> <p> <a href="../c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A" format="dita" scope="local"> at.js Version Details </a> </p> </td> 
    <td colname="col3"> <p>Added information about at.js Version 1.6.2. </p> </td> 
   </tr> 
   <tr> 
@@ -470,12 +470,12 @@ This page lists important changes made to the Target documentation.
  <tbody> 
   <tr> 
    <td colname="col1"> September 21, 2018 </td> 
-   <td colname="col2"> <p> <a href="../c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/c-target-debugging-atjs.md#concept_CAE591DA8C404C22917584ECD4F7494F" format="dita" scope="local"> Debugging at.js Using the Adobe Experience Cloud Debugger </a> </p> </td> 
+   <td colname="col2"> <p> <a href="../c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md#concept_CAE591DA8C404C22917584ECD4F7494F" format="dita" scope="local"> Debugging at.js Using the Adobe Experience Cloud Debugger </a> </p> </td> 
    <td colname="col3"> <p>Revised entire topic and added training videos. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> September 20, 2018 </td> 
-   <td colname="col2"> <p> <a href="../r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A" format="dita" scope="local"> Target Release Notes </a> </p> <p> <a href="../c-implementing-target/c-implementing-target-for-client-side-web/r-target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A" format="dita" scope="local"> at.js Version Details </a> </p> </td> 
+   <td colname="col2"> <p> <a href="../r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A" format="dita" scope="local"> Target Release Notes </a> </p> <p> <a href="../c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A" format="dita" scope="local"> at.js Version Details </a> </p> </td> 
    <td colname="col3"> <p>Added information about the at.js 1.6.1 release. </p> </td> 
   </tr> 
   <tr> 

@@ -135,7 +135,7 @@ Current recorded Target sessions include:
       <li id="li_94479C7A03C54343A81B8C99AA7C5506"> <p>Error handling in at.js </p> </li> 
       <li id="li_461233D829364C8187CB2CE891816364"> <p>Debugging methodologies </p> </li> 
       <li id="li_1F17C87CB70B4A55BB6286F31FD9A9E4"> <p>Known issues and future roadmap </p> </li> 
-     </ul> </p> <p>For more information in this guide, see <a href="c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/c-target-atjs-implementation.md#concept_8AC8D169E02944B1A547A0CAD97EAC17" format="dita" scope="local"> at.js Implementation</a>. </p> </td> 
+     </ul> </p> <p>For more information in this guide, see <a href="c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#concept_8AC8D169E02944B1A547A0CAD97EAC17" format="dita" scope="local"> at.js Implementation</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

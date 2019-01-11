@@ -39,4 +39,4 @@ To use your existing global mbox for both [!DNL Target Standard] and your legacy
    All existing activities update to use the specified global mbox, including activities that have previously been created and implemented. 
 **Troubleshooting Global Mbox Implementation** *Why is the global mbox not loading, or why is there latency in loading the global mbox when the page loads?*
 
-Make sure the mbox.js reference is the first JavaScript call on the page. For other solutions to this problem, see [Mbox.js Implementation](../../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/t-mbox-download.md#task_4EAE26BB84FD4E1D858F411AEDF4B420). 
+Make sure the mbox.js reference is the first JavaScript call on the page. For other solutions to this problem, see [Mbox.js Implementation](../../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md#task_4EAE26BB84FD4E1D858F411AEDF4B420). 

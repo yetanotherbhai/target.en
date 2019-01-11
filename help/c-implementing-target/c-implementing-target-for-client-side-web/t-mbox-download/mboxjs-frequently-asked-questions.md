@@ -21,13 +21,13 @@ For more information, see [Understanding the Target JavaScript Libraries](../../
 
 This console message displays when using Chrome in many scenarios in which the `document.write` function is used within the mbox.js file. This is a warning message and should not affect your activity setup process.
 
-The best way to prevent this situation is to [migrate your Target implementation to the at.js JavaScript library](../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/t-target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA), which doesn't use the `document.write` function. Using at.js provides many advantages versus using mbox.js. For more information, see [at.js Frequently Asked Questions](../../../c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/c-target-atjs-faq.md#concept_D6EFE8D84A06476DB5ABD494D7E8C769).
+The best way to prevent this situation is to [migrate your Target implementation to the at.js JavaScript library](../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA), which doesn't use the `document.write` function. Using at.js provides many advantages versus using mbox.js. For more information, see [at.js Frequently Asked Questions](../../../c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md#concept_D6EFE8D84A06476DB5ABD494D7E8C769).
 
 ## Why are my mboxes not firing on my web pages? {#section_4BA5DA424B734324AAB51E4588FA50F5}
 
 Target customers sometimes use cloud-based instances with [!DNL Target] for testing or simple proof-of-concept purposes. These domains, and many others, are part of the [Public Suffix List](https://publicsuffix.org/list/public_suffix_list.dat).
 
-Modern browsers won't save cookies if you are using these domains unless you customize the `cookieDomain` setting using targetGlobalSettings(). For more information, see [Using Cloud-Based Instances with Target](../../../c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/c-targeting-using-cloud-based-instances.md#concept_A2077766948F4EA081CE592D8998F566).
+Modern browsers won't save cookies if you are using these domains unless you customize the `cookieDomain` setting using targetGlobalSettings(). For more information, see [Using Cloud-Based Instances with Target](../../../c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/targeting-using-cloud-based-instances.md#concept_A2077766948F4EA081CE592D8998F566).
 
 ## What is the domain tt.omtrdc.net that Target server calls go to? {#section_999C29940E8B4CAD8A957A6B1D440317}
 
