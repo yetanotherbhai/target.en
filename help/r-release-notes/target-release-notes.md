@@ -23,8 +23,8 @@ These release notes provide information about features, enhancements, fixes, and
 
 Be aware of the following important announcements:
 
-* [!DNL Target] and the [!DNL Adobe Marketing Cloud] will drop support for Microsoft Internet Explorer 11 starting in March 2019. This change affects [!DNL Target] authoring only; this change does not affect experience delivery. Please switch to Microsoft Edge or another browser. For more information, see [Supported browsers](/help/c-implementing-target/c-considerations-before-you-implement-target/r-supported-browsers.md).
-* Starting with the [!DNL Target] 18.4.1 release (April 25, 2018), [!DNL Target] will take steps to move towards TLS 1.2 encryption and phase out support for TLS 1.0 encryption. Migrating to TLS 1.2 provides improved security. It is important that you go through the specifics and plan out the changes for a smooth transition. For more information, see [TLS (Transport Layer Security) Encryption Changes](/help/c-implementing-target/c-considerations-before-you-implement-target/c-tls-transport-layer-security-encryption.md).
+* [!DNL Target] and the [!DNL Adobe Marketing Cloud] will drop support for Microsoft Internet Explorer 11 starting in March 2019. This change affects [!DNL Target] authoring only; this change does not affect experience delivery. Please switch to Microsoft Edge or another browser. For more information, see [Supported browsers](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md).
+* Starting with the [!DNL Target] 18.4.1 release (April 25, 2018), [!DNL Target] will take steps to move towards TLS 1.2 encryption and phase out support for TLS 1.0 encryption. Migrating to TLS 1.2 provides improved security. It is important that you go through the specifics and plan out the changes for a smooth transition. For more information, see [TLS (Transport Layer Security) Encryption Changes](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md).
 
 ## [!DNL at.js] version 1.6.4 (January 11, 2019)
 
