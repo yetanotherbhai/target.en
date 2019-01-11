@@ -45,48 +45,16 @@ The Automated Personalization activity workflow varies from the workflow of the 
 
    The following characters are not allowed in an activity name:
 
-   <table id="table_F5E365667FDC48AD8B4461E40CD669B8"> 
-   <thead> 
-   <tr> 
-      <th colname="col1" class="entry"> Character </th> 
-      <th colname="col2" class="entry"> Description </th> 
-   </tr>
-   </thead>
-   <tbody> 
-   <tr> 
-      <td colname="col1"> <p>/ </p> </td> 
-      <td colname="col2"> <p>Forward slash </p> </td> 
-   </tr> 
-   <tr> 
-      <td colname="col1"> <p>? </p> </td> 
-      <td colname="col2"> <p>Question mark </p> </td> 
-   </tr> 
-   <tr> 
-      <td colname="col1"> <p># </p> </td> 
-      <td colname="col2"> <p>Number sign </p> </td> 
-   </tr> 
-   <tr> 
-      <td colname="col1"> <p>: </p> </td> 
-      <td colname="col2"> <p>Colon </p> </td> 
-   </tr> 
-   <tr> 
-      <td colname="col1"> <p>= </p> </td> 
-      <td colname="col2"> <p>Equals to </p> </td> 
-   </tr> 
-   <tr> 
-      <td colname="col1"> <p>+ </p> </td> 
-      <td colname="col2"> <p>Plus </p> </td> 
-   </tr> 
-   <tr> 
-      <td colname="col1"> <p>- </p> </td> 
-      <td colname="col2"> <p>Minus </p> </td> 
-   </tr> 
-   <tr> 
-      <td colname="col1"> <p>@ </p> </td> 
-      <td colname="col2"> <p>At sign </p> </td> 
-   </tr> 
-   </tbody> 
-   </table>
+   | Character | Description |
+   |--- |--- |
+   |/|Forward slash|
+   |?|Question mark|
+   |#|Number sign|
+   |:|Colon|
+   |=|Equals to|
+   |+|Plus|
+   |-|Minus|
+   |@|At sign|
 
 1. Modify page elements as explained in [Experiences](../../c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D), then click **[!UICONTROL Next]**.
 
@@ -164,17 +132,7 @@ The Automated Personalization activity workflow varies from the workflow of the 
    <tbody> 
    <tr> 
       <td colname="col1"> Name </td> 
-      <td colname="col2"> <p>Name the activity. Give the activity a name that is descriptive enough that team members can recognize it in the Activities list. </p> <p>The following characters are not allowed in an activity name: </p> <p> 
-      <ul id="ul_5710602E3CF24EAD9C2C6BF10B83841F"> 
-         <li id="li_1E06CC79069F4A3C825FAEB5C32F6C9F"> / </li> 
-         <li id="li_0C716E01A8C74BE7BF540D21A249E692">? </li> 
-         <li id="li_924D064F365C45B8B0F8AC15A23ABE3D"># </li> 
-         <li id="li_E9F2F644FC5C4E9B91101745590DD6D8">: </li> 
-         <li id="li_8EBFDC2985E445D49B9627F8DB32DF5A">= </li> 
-         <li id="li_2BDACF8A11DC4023AF6586FD7AFC305E">+ </li> 
-         <li id="li_7431D6F4017349BEA91D352F6836F28F">- </li> 
-         <li id="li_9A475E8CBC8F4AB997D3662F405D3790">@ </li> 
-      </ul> </p> </td> 
+      <td colname="col2"> <p>Name the activity. Give the activity a name that is descriptive enough that team members can recognize it in the Activities list. </p> <p>Consult the table above to see which characters are not allowed in an activity name.</p>  </td> 
    </tr> 
    <tr> 
       <td colname="col1"> Objective </td> 
@@ -224,50 +182,18 @@ The Automated Personalization activity workflow varies from the workflow of the 
    </tbody> 
    </table>
 
-      Note that when you name or rename a metric, the following characters are not allowed:
+   Note that when you name or rename a metric, the following characters are not allowed:
 
-   <table id="table_71C27F648627451F95D533EDB4C31392"> 
-   <thead> 
-   <tr> 
-      <th colname="col1" class="entry"> Character </th> 
-      <th colname="col2" class="entry"> Description </th> 
-   </tr>
-   </thead>
-   <tbody> 
-   <tr> 
-      <td colname="col1"> <p>/ </p> </td> 
-      <td colname="col2"> <p>Forward slash </p> </td> 
-   </tr> 
-   <tr> 
-      <td colname="col1"> <p>? </p> </td> 
-      <td colname="col2"> <p>Question mark </p> </td> 
-   </tr> 
-   <tr> 
-      <td colname="col1"> <p># </p> </td> 
-      <td colname="col2"> <p>Number sign </p> </td> 
-   </tr> 
-   <tr> 
-      <td colname="col1"> <p>: </p> </td> 
-      <td colname="col2"> <p>Colon </p> </td> 
-   </tr> 
-   <tr> 
-      <td colname="col1"> <p>= </p> </td> 
-      <td colname="col2"> <p>Equals to </p> </td> 
-   </tr> 
-   <tr> 
-      <td colname="col1"> <p>+ </p> </td> 
-      <td colname="col2"> <p>Plus </p> </td> 
-   </tr> 
-   <tr> 
-      <td colname="col1"> <p>- </p> </td> 
-      <td colname="col2"> <p>Minus </p> </td> 
-   </tr> 
-   <tr> 
-      <td colname="col1"> <p>@ </p> </td> 
-      <td colname="col2"> <p>At sign </p> </td> 
-   </tr> 
-   </tbody> 
-   </table>
+   | Character | Description |
+   |--- |--- |
+   |/|Forward slash|
+   |?|Question mark|
+   |#|Number sign|
+   |:|Colon|
+   |=|Equals to|
+   |+|Plus|
+   |-|Minus|
+   |@|At sign|
 
 After you click **[!UICONTROL Create]**, the Activity Summary appears. Click **Preview Experiences** to preview how your experiences will look when delivered. A pop-up appears that you can use to view and share links to your AP experiences on your site to get a "true preview" of the experiences outside of Target's Visual Experience Composer. You must share the links from the message to share the preview. Clicking a link and then copying the URL directly from the page won't work because the URL contains a parameter that only displays the page correctly when you access the page from the link in the message. 
 
