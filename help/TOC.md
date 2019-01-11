@@ -216,7 +216,7 @@ index: n
       + [Create](c-target/c-audiences/audiences.md)
       + [Build audiences in Target](c-target/c-audiences/create-audience.md)
       + Categories for audiences {#categories-audiences}
-         + [Categories for audiences overview](c-target/c-audiences/c-target-rules/target-rules.md)
+         + [Categories for audiences overview](c-target/c-audiences/c-target-rules/c-target-rules.md)
          + [Browser](c-target/c-audiences/c-target-rules/browser.md)
          + [Custom parameters](c-target/c-audiences/c-target-rules/custom-parameters.md)
          + [Geo](c-target/c-audiences/c-target-rules/geo.md)
