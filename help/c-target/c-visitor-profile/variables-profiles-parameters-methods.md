@@ -213,7 +213,7 @@ This page lists profiles, variables, and parameters that are useful in profile s
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> mbox3rdPartyId </span> </p> </td> 
-   <td colname="col2"> <p>An mbox parameter to sync a customer ID to Target's mboxPCID. A customer ID is an ID your company uses to track visitors, such as a CRM ID, membership ID, or something similar. This ID can then be used to add information via the Profile APIs and <a href="../../c-target/c-visitor-profile/c-working-with-customer-attributes.md#concept_16C5C434D32D4EB1AD44A71821F3DEE8" format="dita" scope="local"> Customer Attributes </a>. </p> </td> 
+   <td colname="col2"> <p>An mbox parameter to sync a customer ID to Target's mboxPCID. A customer ID is an ID your company uses to track visitors, such as a CRM ID, membership ID, or something similar. This ID can then be used to add information via the Profile APIs and <a href="../../c-target/c-visitor-profile/working-with-customer-attributes.md#concept_16C5C434D32D4EB1AD44A71821F3DEE8" format="dita" scope="local"> Customer Attributes </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> mboxPageValue </span> </p> </td> 

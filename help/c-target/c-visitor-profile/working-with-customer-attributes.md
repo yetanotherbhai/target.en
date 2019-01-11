@@ -26,7 +26,7 @@ Consider the following information as your work with customer attributes and Tar
 
 * There are some prerequisite requirements that you must meet before you can use the [!UICONTROL Customer Attributes] feature in the [!DNL People] core service. For more information, see "Prerequisites for Uploading Customer Attributes" in [Customer Attributes](https://marketing.adobe.com/resources/help/en_US/mcloud/attributes.html) in the *Experience Cloud and Core Services Product Documentation*. Note that [!DNL at.js] (any version) or [!DNL mbox.js] version 58 or later is required. 
 * Adobe does not guarantee that 100% of customer attribute (visitor profile) data from CRM databases will be onboarded to the Experience Cloud and thus be available for use for targeting in Target. In our current design, there is a possibility that a small percentage of data might not be onboarded. 
-* The lifetime of customer attributes data imported from the Experience Cloud to Target depends on the lifetime of the visitor profile, which is 14 days by default. For more information, see [Visitor Profile Lifetime](../../c-target/c-visitor-profile/c-visitor-profile-lifetime.md#concept_D9F21B416F1F49159F03036BA2DD54FD). 
+* The lifetime of customer attributes data imported from the Experience Cloud to Target depends on the lifetime of the visitor profile, which is 14 days by default. For more information, see [Visitor Profile Lifetime](../../c-target/c-visitor-profile/visitor-profile-lifetime.md#concept_D9F21B416F1F49159F03036BA2DD54FD). 
 * If the `vst.*` parameters are the only thing identifying the user, the existing "authenticated" profile will not be fetched as long as `authState` is UNAUTHENTICATED (0). The profile will only come into play if `authState` is changed to UNAUTHENTICATED (1).
 
   For example, if the `vst.myDataSource.id` parameter is used to identify the user (where `myDataSource` is the data source alias) and there is no MCID or third-party ID, using the parameter `vst.myDataSource.authState=0` won't fetch the profile that might have been created through a Customer Attributes import. If the desired behavior is to fetch the authenticated profile, the `vst.myDataSource.authState` has to have the value of 1 (AUTHENTICATED).
@@ -172,7 +172,7 @@ You might encounter the following issues when working with customer attributes a
   </tr> 
   <tr> 
    <td colname="col1"> <p>Customer attributes are not being imported into Target. </p> </td> 
-   <td colname="col2"> <p>If you cannot find Customer Attributes data in Target, ensure that the import occurred within the last <i>x</i> days where <i>x</i> is the Target <a href="../../c-target/c-visitor-profile/c-visitor-profile-lifetime.md#concept_D9F21B416F1F49159F03036BA2DD54FD" format="dita" scope="local"> Visitor Profile Lifetime </a> value (14 days by default). </p> </td> 
+   <td colname="col2"> <p>If you cannot find Customer Attributes data in Target, ensure that the import occurred within the last <i>x</i> days where <i>x</i> is the Target <a href="../../c-target/c-visitor-profile/visitor-profile-lifetime.md#concept_D9F21B416F1F49159F03036BA2DD54FD" format="dita" scope="local"> Visitor Profile Lifetime </a> value (14 days by default). </p> </td> 
   </tr> 
  </tbody> 
 </table>

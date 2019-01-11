@@ -18,9 +18,9 @@ If your Target is used together with other Adobe Marketing Suite solutions, such
 
 By default, Target profile information is stored in a single first-party cookie. The configuration can easily be changed to serve third-party cookies as well. 
 
-- [Visitor profile lifetime](c-visitor-profile-lifetime.md)
+- [Visitor profile lifetime](visitor-profile-lifetime.md)
 - [Profile attributes](profile-parameters.md)
 - [Category affinity](category-affinity.md)
-- [Customer attributes](c-working-with-customer-attributes.md)
-- [Real-time profile syncing for mbox3rdPartyID](c-3rd-party-id.md)
+- [Customer attributes](working-with-customer-attributes.md)
+- [Real-time profile syncing for mbox3rdPartyID](3rd-party-id.md)
 - [Profile and variable glossary](variables-profiles-parameters-methods.md)

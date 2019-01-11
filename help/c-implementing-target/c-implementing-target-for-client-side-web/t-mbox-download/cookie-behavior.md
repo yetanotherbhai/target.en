@@ -241,7 +241,7 @@ From Apple:
   </tr> 
   <tr> 
    <td colname="col1"> <p>Target activities </p> </td> 
-   <td colname="col2"> <p>Customers can choose their <a href="../../../c-target/c-visitor-profile/c-visitor-profile-lifetime.md#concept_D9F21B416F1F49159F03036BA2DD54FD" format="dita" scope="local"> profile lifetime length</a> for their Target accounts—up to 90 days. The concern is that if the account's profile lifetime is longer than 30 days, and the first-party cookie gets purged because the customer's domain has been marked as tracking users cross-site, behavior for Safari visitors will be affected in the following areas in Target: </p> <p> 
+   <td colname="col2"> <p>Customers can choose their <a href="../../../c-target/c-visitor-profile/visitor-profile-lifetime.md#concept_D9F21B416F1F49159F03036BA2DD54FD" format="dita" scope="local"> profile lifetime length</a> for their Target accounts—up to 90 days. The concern is that if the account's profile lifetime is longer than 30 days, and the first-party cookie gets purged because the customer's domain has been marked as tracking users cross-site, behavior for Safari visitors will be affected in the following areas in Target: </p> <p> 
      <ul id="ul_FB4D6702D440456EBD16DA4108F90DA9"> 
       <li id="li_AB4D43B0CAFD49ADAFD1DF7C2DFC5A55"> <p><b>Target Reports</b> </p> <p> 
         <ul id="ul_0CFA08EDE5A449A68FC8493B67C7668E"> 

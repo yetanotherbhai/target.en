@@ -210,7 +210,7 @@ recs/t_feeds_create.xml
 1. Specify a descriptive name for your feed.
 1. Select a **[!UICONTROL Source Type]**.
 
-   For information about Google Product Feed and CSV feed types, see [Feeds Overview](../../c-recommendations/c-products/c-feeds.md#concept_D1E9C7347C5D4583AA69B02E79607890). 
+   For information about Google Product Feed and CSV feed types, see [Feeds Overview](../../c-recommendations/c-products/feeds.md#concept_D1E9C7347C5D4583AA69B02E79607890). 
 1. Specify a Report Suite, or the URL or FTP location where the feed can be accessed.
 
    If you select FTP, provide the FTP server information, the login credentials, the filename, and the FTP directory. You have the option to use FTP with SSL (FTPS) for more secure uploads.
@@ -246,7 +246,7 @@ recs/t_feeds_create.xml
 
 1. Click **[!UICONTROL Save]**.
 
-After you create or edit a feed, the feed runs immediately, then will update according to the parameters you set. It takes some time for all the information to be available. First, the feed must sync, then it must be processed and indexed before it can be published and made available. The current status appears under [Feed Status](../../c-recommendations/c-products/c-feeds.md#concept_E475986720D1400999868B3DFD14A7A0) in the Feeds list. You can close [!DNL Target] before the process is complete and the process continues. 
+After you create or edit a feed, the feed runs immediately, then will update according to the parameters you set. It takes some time for all the information to be available. First, the feed must sync, then it must be processed and indexed before it can be published and made available. The current status appears under [Feed Status](../../c-recommendations/c-products/feeds.md#concept_E475986720D1400999868B3DFD14A7A0) in the Feeds list. You can close [!DNL Target] before the process is complete and the process continues. 
 
 While indexing is in progress, products and feed headers appear before individual values have been indexed. This enables you to search and see products so you can create collections, exclusions, designs, and activities before indexing has been completed. 
 
@@ -264,8 +264,8 @@ recs/c_feed-statuses-and-indicators.xml
 
 This section contains the following information: 
 
-* [Feed Statuses](../../c-recommendations/c-products/c-feeds.md#section_5DDC2DECF70A42FDAFF2235E91371537) 
-* [Feed Status Indicators](../../c-recommendations/c-products/c-feeds.md#section_3C8A236C5CB84C769A9E9E36B8BFABA4) 
+* [Feed Statuses](../../c-recommendations/c-products/feeds.md#section_5DDC2DECF70A42FDAFF2235E91371537) 
+* [Feed Status Indicators](../../c-recommendations/c-products/feeds.md#section_3C8A236C5CB84C769A9E9E36B8BFABA4) 
 
 ## Feed Statuses {#section_5DDC2DECF70A42FDAFF2235E91371537}
 

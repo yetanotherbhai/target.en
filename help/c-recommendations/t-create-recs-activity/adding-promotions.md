@@ -17,7 +17,7 @@ Add promoted items and control their placement in your Recommendations designs. 
 
 >[!IMPORTANT]
 >
->Static and dynamic exclusion rules are powerful features that can help you with your marketing efforts. For detailed information, examples, and use-case scenarios, see [Use Dynamic and Static Inclusion Rules](../../c-recommendations/c-algorithms/c-use-dynamic-and-static-inclusion-rules.md#concept_4CB5C0FA705D4E449BD0B37B3D987F9F).
+>Static and dynamic exclusion rules are powerful features that can help you with your marketing efforts. For detailed information, examples, and use-case scenarios, see [Use Dynamic and Static Inclusion Rules](../../c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#concept_4CB5C0FA705D4E449BD0B37B3D987F9F).
 
 When you create a [!DNL Recommendations] activity, you have the option to include promoted items in your [!DNL Recommendations] design. Promotions use available slots in a design and take precedence over criteria results and backup recommendations. For example, if your design has six slots and you use two of them for promotions, four slots are available for items recommended based on criteria.
 
@@ -46,9 +46,9 @@ You can promote specific items, dynamically promote items, promote items based o
 
 * Select **[!UICONTROL Promote by attribute]** and add rules to define the attributes of the items you want to promote.
 
-  If you select Promote by Attribute, you can create dynamic matches. For more information, see [Use Dynamic and Static Inclusion Rules](../../c-recommendations/c-algorithms/c-use-dynamic-and-static-inclusion-rules.md#concept_4CB5C0FA705D4E449BD0B37B3D987F9F). 
+  If you select Promote by Attribute, you can create dynamic matches. For more information, see [Use Dynamic and Static Inclusion Rules](../../c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#concept_4CB5C0FA705D4E449BD0B37B3D987F9F). 
 
-* Select **[!UICONTROL Promote a collection]** and choose the collection of items you want to promote. You can create new collections to use for promotions. See [Create a Collection](../../c-recommendations/c-products/c-collections.md#task_1256DFF6842141FCAADD9E1428EF7F08) for more information.
+* Select **[!UICONTROL Promote a collection]** and choose the collection of items you want to promote. You can create new collections to use for promotions. See [Create a Collection](../../c-recommendations/c-products/collections.md#task_1256DFF6842141FCAADD9E1428EF7F08) for more information.
 
 1. Click **[!UICONTROL Save.]**.
 

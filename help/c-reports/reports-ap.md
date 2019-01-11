@@ -36,7 +36,7 @@ The [!UICONTROL Activity Level] report compares the aggregate performance of usi
 
 ![](assets/box_plot_ap.jpg)
 
-The standard rules of results interpretation for A/B testing still apply, including lift, confidence, trending, duration, and so on. For more information about interpreting results, see [About the Conversion Rate](../c-reports/c-conversion-rate.md#concept_2D9FEDE8F94A485DAC86D611BFBDC844).
+The standard rules of results interpretation for A/B testing still apply, including lift, confidence, trending, duration, and so on. For more information about interpreting results, see [About the Conversion Rate](../c-reports/conversion-rate.md#concept_2D9FEDE8F94A485DAC86D611BFBDC844).
 
 ## Offer Level Report {#section_CAA6409879E349C6906E2BE8156D87A1}
 

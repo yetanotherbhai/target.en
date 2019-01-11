@@ -70,4 +70,4 @@ During activity creation, you must specify a goal for the activity on the [!UICO
 
 You can perform offline calculations for A4T, but it requires a step with data exports in [!DNL Analytics].
 
-For more information, see [Performing Offline Calculations for Analytics for Target (A4T)](../../c-reports/c-conversion-rate.md#concept_0D0002A1EBDF420E9C50E2A46F36629B). 
+For more information, see [Performing Offline Calculations for Analytics for Target (A4T)](../../c-reports/conversion-rate.md#concept_0D0002A1EBDF420E9C50E2A46F36629B). 

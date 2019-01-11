@@ -51,7 +51,7 @@ If control is 0, there is no percentage lift.
 
 This number represents the likelihood that the results would be duplicated if the test were run again. The confidence rounds up to 100.00% when the confidence is greater than or equal to 99.995%.
 
-See [Confidence Level and Confidence Interval](../c-reports/c-conversion-rate.md#concept_0D0002A1EBDF420E9C50E2A46F36629B).
+See [Confidence Level and Confidence Interval](../c-reports/conversion-rate.md#concept_0D0002A1EBDF420E9C50E2A46F36629B).
 
 ## Retail Data {#section_30A674731BA6440E9BB93C421BE990EE}
 
@@ -111,7 +111,7 @@ The *confidence interval* is a range within which the true value can be found at
 
 ## Confidence Calculation and How to Perform It Offline {#section_86F7C231943043A5B8B6BFE67B706E3B}
 
-The [downloaded CSV report](../c-reports/c-downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75) includes only raw data and does not include calculated metrics, such as revenue per visitor, lift, or confidence used for A/B tests.
+The [downloaded CSV report](../c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75) includes only raw data and does not include calculated metrics, such as revenue per visitor, lift, or confidence used for A/B tests.
 
 To calculate these calculated metrics, download the [Target's Complete Confidence Calculator](https://marketing.adobe.com/resources/help/en_US/target/target/complete_confidence_calculator.xlsx) Excel file to input the activity's value, or review the [statistical calculations used by Target](https://marketing.adobe.com/resources/help/en_US/target/target/statistical-calculations.pdf).
 

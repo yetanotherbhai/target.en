@@ -26,8 +26,8 @@ Videos are available in the following categories:
 You can find Adobe Target training videos in the following locations:
 
 * Embedded in Adobe Target Help (This guide) 
-* [Adobe Target YouTube Channel](../c-intro/c-target-standard-premium-training-videos.md#section_957DDF05147C4BB1A7A86582A2B792B4) 
-* [Adobe Video Training Resource](../c-intro/c-target-standard-premium-training-videos.md#section_72038F5E77BE48C183DEB4DDE709B0DC)
+* [Adobe Target YouTube Channel](../c-intro/target-standard-premium-training-videos.md#section_957DDF05147C4BB1A7A86582A2B792B4) 
+* [Adobe Video Training Resource](../c-intro/target-standard-premium-training-videos.md#section_72038F5E77BE48C183DEB4DDE709B0DC)
 
 ## Embedded in Adobe Target Help {#section_53C618334E974FB89B3F093DEF789CCB}
 

@@ -140,7 +140,7 @@ Depending on the selected activity type, the options vary:
 
 ## Download {#section_77E65C50BAAF4AB79242DB3A8778ADEF}
 
-Click the Download icon to download report data in a [!DNL .csv] format for quick import into Excel, Access, or other data analysis programs. For more information, see [Downloading Data in a CSV File](../../c-reports/c-downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75).
+Click the Download icon to download report data in a [!DNL .csv] format for quick import into Excel, Access, or other data analysis programs. For more information, see [Downloading Data in a CSV File](../../c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75).
 
 ## Refresh {#section_E203729F2F314DF3856D2EE67C60B370}
 

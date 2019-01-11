@@ -38,17 +38,17 @@ What you need to know before creating a [!DNL Recommendations] activity.
   <tr> 
    <td colname="col1"> <p> <img src="assets/step2_red.png" id="image_8600F0A878A547F590F14959DE95D0D2" /> </p> </td> 
    <td colname="col2"> <p>Keys </p> </td> 
-   <td colname="col3"> <p>The key determines the type of product or content that displays in your recommendations. For example, the key might be a product category. See <a href="../c-recommendations/c-algorithms/t-create-new-algorithm.md#task_2B0ED54AFBF64C56916B6E1F4DC0DC3B" format="dita" scope="local"> Base the Recommendation on a Recommendation Key </a>. </p> </td> 
+   <td colname="col3"> <p>The key determines the type of product or content that displays in your recommendations. For example, the key might be a product category. See <a href="../c-recommendations/c-algorithms/create-new-algorithm.md#task_2B0ED54AFBF64C56916B6E1F4DC0DC3B" format="dita" scope="local"> Base the Recommendation on a Recommendation Key </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <img src="assets/step3_red.png" id="image_9A3BE89D45F84FE09B8F8E7751470F83" /> </p> </td> 
    <td colname="col2"> <p>Attributes </p> </td> 
-   <td colname="col3"> <p>Attributes provide more specific information about the products you want to display. For example, you might want to show products within a certain price range, or items that meet an inventory threshold. Attributes can be provided in the mbox or through a <a href="../c-recommendations/c-products/c-feeds.md#concept_1228B31E3D0B483B9DD42C5E2AE436E3" format="dita" scope="local"> feed </a>. </p> <p>See <a href="../c-recommendations/c-algorithms/t-create-new-algorithm.md#task_28DB20F968B1451481D8E51BAF947079" format="dita" scope="local"> Inclusion Rules </a> and <a href="../c-recommendations/c-products/r-entity-attributes.md#reference_3BCC1383FB3F44F4A2120BB36270387F" format="dita" scope="local"> Entity Attributes </a>. </p> </td> 
+   <td colname="col3"> <p>Attributes provide more specific information about the products you want to display. For example, you might want to show products within a certain price range, or items that meet an inventory threshold. Attributes can be provided in the mbox or through a <a href="../c-recommendations/c-products/feeds.md#concept_1228B31E3D0B483B9DD42C5E2AE436E3" format="dita" scope="local"> feed </a>. </p> <p>See <a href="../c-recommendations/c-algorithms/create-new-algorithm.md#task_28DB20F968B1451481D8E51BAF947079" format="dita" scope="local"> Inclusion Rules </a> and <a href="../c-recommendations/c-products/r-entity-attributes.md#reference_3BCC1383FB3F44F4A2120BB36270387F" format="dita" scope="local"> Entity Attributes </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <img src="assets/step4_red.png" id="image_933D0A2340CF423B8970DF4336F9C0C4" /> </p> </td> 
    <td colname="col2"> <p>Exclusions </p> </td> 
-   <td colname="col3"> <p>Exclusions determine which specific items do not appear in your recommendations. </p> <p>See <a href="../c-recommendations/c-products/c-feeds.md#task_DD6D2F889E234F8C82B1604A3B315D81" format="dita" scope="local"> Exclusions </a>. </p> </td> 
+   <td colname="col3"> <p>Exclusions determine which specific items do not appear in your recommendations. </p> <p>See <a href="../c-recommendations/c-products/feeds.md#task_DD6D2F889E234F8C82B1604A3B315D81" format="dita" scope="local"> Exclusions </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <img src="assets/step5_red.png" id="image_5E83430D145948BDBB2C17D0F6C2B9A5" /> </p> </td> 
@@ -86,7 +86,7 @@ There are two methods to provide information about products and services to [!DN
   </tr> 
   <tr> 
    <td colname="col1"> <p>Pass parameters through a Google or CSV feed </p> </td> 
-   <td colname="col2"> <p>This method works well for collections that do not change frequently. It is usually not necessary to change your mbox implementation or other page code to provide product information through a feed. However, the product list remains static, so quick changes are more difficult. For more information, see <a href="../c-recommendations/c-products/c-feeds.md#concept_1228B31E3D0B483B9DD42C5E2AE436E3" format="dita" scope="local"> Feeds </a>. </p> </td> 
+   <td colname="col2"> <p>This method works well for collections that do not change frequently. It is usually not necessary to change your mbox implementation or other page code to provide product information through a feed. However, the product list remains static, so quick changes are more difficult. For more information, see <a href="../c-recommendations/c-products/feeds.md#concept_1228B31E3D0B483B9DD42C5E2AE436E3" format="dita" scope="local"> Feeds </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -203,7 +203,7 @@ For more information about the differences between the two Target Javascript lib
 
 ## Category Page {#section_F51A1AAEAC0E4B788582BBE1FEC3ABDC}
 
-On a category page, you probably want to restrict your recommendations to products or content within that category. To set up a category page, you set up the keys used by the page. For more information about keys, see [Base the Recommendation on a Recommendation Key](../c-recommendations/c-algorithms/t-create-new-algorithm.md#task_2B0ED54AFBF64C56916B6E1F4DC0DC3B).
+On a category page, you probably want to restrict your recommendations to products or content within that category. To set up a category page, you set up the keys used by the page. For more information about keys, see [Base the Recommendation on a Recommendation Key](../c-recommendations/c-algorithms/create-new-algorithm.md#task_2B0ED54AFBF64C56916B6E1F4DC0DC3B).
 
 ```
 function targetPageParams() { 

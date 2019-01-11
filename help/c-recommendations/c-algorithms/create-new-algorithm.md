@@ -52,14 +52,14 @@ There are multiple ways to reach the [!UICONTROL Create New Criteria] screen. So
    Together, the industry vertical and page types are used to categorize your saved criteria, making it easier to reuse criteria for other [!DNL Recommendations] activities. 
 1. Select a **[!UICONTROL Recommendation Key]**.
 
-   For more information about basing criteria on a key, see [Base the Recommendation on a Recommendation Key](../../c-recommendations/c-algorithms/t-create-new-algorithm.md#task_2B0ED54AFBF64C56916B6E1F4DC0DC3B). 
+   For more information about basing criteria on a key, see [Base the Recommendation on a Recommendation Key](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_2B0ED54AFBF64C56916B6E1F4DC0DC3B). 
 1. Select the **[!UICONTROL Recommendation Logic]**.
 
    For more information about recommendation logic options, see [Criteria](../../c-recommendations/c-algorithms/c-algorithms.md#concept_4BD01DC437F543C0A13621C93A302750).
 
    >[!NOTE]
    >
-   >If you select **[!UICONTROL Items]**/ **[!UICONTROL Media with Similar Attributes]**, you will have the option to set [content similarity rules](../../c-recommendations/c-algorithms/t-create-new-algorithm.md#concept_5402DAFA279C4E46A9A449526889A0CB).
+   >If you select **[!UICONTROL Items]**/ **[!UICONTROL Media with Similar Attributes]**, you will have the option to set [content similarity rules](../../c-recommendations/c-algorithms/create-new-algorithm.md#concept_5402DAFA279C4E46A9A449526889A0CB).
 
 1. Set the **[!UICONTROL Data Range]** to determine the time range of available historical user behavior data to use when determining which recommendations to show.
 
@@ -94,12 +94,12 @@ There are multiple ways to reach the [!UICONTROL Create New Criteria] screen. So
 
    Inclusion rules determine which items will be included in your recommendations. The options available depend on your industry vertical.
 
-   For more details, see [Inclusion Rules](../../c-recommendations/c-algorithms/t-create-new-algorithm.md#task_28DB20F968B1451481D8E51BAF947079). 
+   For more details, see [Inclusion Rules](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_28DB20F968B1451481D8E51BAF947079). 
 1. Configure **[!UICONTROL Attribute Weighting]**.
 
    You can add multiple rules to "nudge" the algorithm based on important description or metadata about the content catalog. For example, you can apply a higher weighting to on-sale items so they appear more often in the recommendation.
 
-   See [Attribute Weighting](../../c-recommendations/c-algorithms/t-create-new-algorithm.md#task_2AEDA0DB15B74770B76F6982B24C2E42). 
+   See [Attribute Weighting](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_2AEDA0DB15B74770B76F6982B24C2E42). 
 1. When finished, click **[!UICONTROL Save]**.
 
    If you are creating a new [!UICONTROL Recommendations] activity or editing an existing one, the **[!UICONTROL Save criteria for later]** check box is selected by default. If you do not want to use the criteria in other activities, clear the check box before saving.
@@ -352,7 +352,7 @@ Select the appropriate toggles:
 
   This setting is based on the `productPurchasedId` profile value. The default behavior is to not recommend previously purchased items. In most cases you do not want to promote items a customer has recently purchased. If customers typically buy certain items on a repeated basis, enabling this feature allows previously purchased items to continue to be recommended. 
 
-If you enable **[!UICONTROL Show Backup Recommendations]**, the option to apply your [inclusion rules](../../c-recommendations/c-algorithms/t-create-new-algorithm.md#task_28DB20F968B1451481D8E51BAF947079) to backup recommendations is enabled by default. 
+If you enable **[!UICONTROL Show Backup Recommendations]**, the option to apply your [inclusion rules](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_28DB20F968B1451481D8E51BAF947079) to backup recommendations is enabled by default. 
 
 ![](assets/Recs_ContentControls.png)
 

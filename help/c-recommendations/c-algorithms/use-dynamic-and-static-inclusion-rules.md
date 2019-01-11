@@ -19,7 +19,7 @@ The process for creating and using inclusion rules for criteria and promotions i
 
 ## Adding Filtering Rules to Criteria {#section_CD0D74B8D3BE4A75A78C36CF24A8C57F}
 
-While you are [creating criteria](../../c-recommendations/c-algorithms/t-create-new-algorithm.md#task_8A9CB465F28D44899F69F38AD27352FE), click **[!UICONTROL Add Filtering Rule]** under **[!UICONTROL Inclusion Rules]**.
+While you are [creating criteria](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_8A9CB465F28D44899F69F38AD27352FE), click **[!UICONTROL Add Filtering Rule]** under **[!UICONTROL Inclusion Rules]**.
 
 ![](assets/inclusion_options.png)
 
@@ -145,7 +145,7 @@ To select the desired action, hover over the gear icon (![](assets/icon_gear.png
  </tbody> 
 </table>
 
-As an example of handling empty values, consider [Scenario 9](../../c-recommendations/c-algorithms/c-use-dynamic-and-static-inclusion-rules.md#section_9873E2F22E094E479569D05AD5BB1D40) below:
+As an example of handling empty values, consider [Scenario 9](../../c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#section_9873E2F22E094E479569D05AD5BB1D40) below:
 
 ## Dynamic Filter Scenarios {#section_9873E2F22E094E479569D05AD5BB1D40}
 
@@ -305,7 +305,7 @@ The following rules are used in this example:
 salesPrice - is between - 90% and 110% of - current item's - price
 ```
 
-**Scenario 9:** Consider the following scenario for a sport's media site about how to handle empty values, as explained in [Handling Empty Values when Filtering by Entity Attribute Matching, Profile Attribute Matching, and Parameter Matching](../../c-recommendations/c-algorithms/c-use-dynamic-and-static-inclusion-rules.md#section_7D30E04116DB47BEA6FF840A3424A4C8) above:
+**Scenario 9:** Consider the following scenario for a sport's media site about how to handle empty values, as explained in [Handling Empty Values when Filtering by Entity Attribute Matching, Profile Attribute Matching, and Parameter Matching](../../c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#section_7D30E04116DB47BEA6FF840A3424A4C8) above:
 
 The content team for a sport's media site wants to show content to users for their favorite teams. If a user has specified a favorite team, the team wants to show media for that team. If a user has not specified a favorite team, the team can use the "If *x* is Empty" drop-down list to do one of the following:
 

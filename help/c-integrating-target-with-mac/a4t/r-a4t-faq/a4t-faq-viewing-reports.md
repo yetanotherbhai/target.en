@@ -214,6 +214,6 @@ You can shorten the amount of time the Target variable persists down to a sessio
 The following list explains reasons why the same visitor could be counted in multiple experiences in Analytics:
 
 * The Target profile expired but the Analytics cookie is still there. In this situation, Target re-evaluates the user but Analytics considers the visitor to be the same person. 
-* If the visitor is using the `mbox3rdPartyId`, when the anonymous visitor is merged with his or her 3rd-party ID profile, Target could put the visitor into a different experience to match up with the 3rd-party ID. For more information, see [Real-Time Profile Syncing for mbox3rdPartyID](../../../c-target/c-visitor-profile/c-3rd-party-id.md#concept_BF4113593F614987B1D3E359AE1C5732). 
+* If the visitor is using the `mbox3rdPartyId`, when the anonymous visitor is merged with his or her 3rd-party ID profile, Target could put the visitor into a different experience to match up with the 3rd-party ID. For more information, see [Real-Time Profile Syncing for mbox3rdPartyID](../../../c-target/c-visitor-profile/3rd-party-id.md#concept_BF4113593F614987B1D3E359AE1C5732). 
 * Analytics might be tracking different devices as the same visitor in a different way than Target tracks those devices—the 3rd party ID setup in Target is different than in Analytics.
 

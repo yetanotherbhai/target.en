@@ -15,7 +15,7 @@ This topic contains answers to questions that are frequently asked about lift an
 
 ## Can I perform offline calculations for A4T? {#section_55B5B750E17D414CAECBEECE27B15D81}
 
-You can perform offline calculations for A4T, but it requires a step with data exports in [!DNL Analytics]. For more information, see "Performing Offline Calculations for Analytics for Target (A4T)" in [Confidence Level and Confidence Interval](../../../c-reports/c-conversion-rate.md#concept_0D0002A1EBDF420E9C50E2A46F36629B).
+You can perform offline calculations for A4T, but it requires a step with data exports in [!DNL Analytics]. For more information, see "Performing Offline Calculations for Analytics for Target (A4T)" in [Confidence Level and Confidence Interval](../../../c-reports/conversion-rate.md#concept_0D0002A1EBDF420E9C50E2A46F36629B).
 
 ## How is lift calculated? {#section_8CAE788EED5646C4B1D64A0D22070734}
 

@@ -44,7 +44,7 @@ Marketers, developers, administrators, analysts, and quality assurance engineers
 ## Analysts
 
 - [Audiences](c-target/target.md): Explains how to determine who will see content and experiences in targeted activities.
-- [Reports](c-reports/c-reports.md): Explains how to interpret the performance of your activities.
+- [Reports](c-reports/reports.md): Explains how to interpret the performance of your activities.
 
 ## QA engineers
 
