@@ -146,7 +146,7 @@ ov2/c_target-configure-atjs.xml
 
 >[!IMPORTANT]
 >
->The Target team maintains only two versions of [!DNL at.js]—the current version and the second-latest version. Please upgrade [!DNL at.js] as necessary to ensure that you are running a supported version. For more information about what's in each version, see [at.js Version Details](../../../c-implementing-target/c-implementing-target-for-client-side-web/r-target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A).
+>The Target team maintains only two versions of [!DNL at.js]—the current version and the second-latest version. Please upgrade [!DNL at.js] as necessary to ensure that you are running a supported version. For more information about what's in each version, see [at.js Version Details](../../../c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A).
 
 ## Download at.js Using the Target Interface {#section_1F5EE401C2314338910FC57F9592894E}
 
@@ -194,11 +194,11 @@ To download [!DNL at.js] using the API.
 
     * Replace ` < *`admin number`*>` with your admin number. 
     * Replace ` < *`client code`*>` with the client code from Step 1. 
-    * Replace ` < *`version number`*>` with the desired [ [!DNL at.js] version number ](../../../c-implementing-target/c-implementing-target-for-client-side-web/r-target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A) (for example, 1.6.2).
+    * Replace ` < *`version number`*>` with the desired [ [!DNL at.js] version number ](../../../c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A) (for example, 1.6.2).
 
     >[!IMPORTANT]
     >
-    >The Target team maintains only two versions of [!DNL at.js]—the current version and the second-latest version. Please upgrade [!DNL at.js] as necessary to ensure that you are running a supported version. For more information about what's in each version, see [at.js Version Details](../../../c-implementing-target/c-implementing-target-for-client-side-web/r-target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A).
+    >The Target team maintains only two versions of [!DNL at.js]—the current version and the second-latest version. Please upgrade [!DNL at.js] as necessary to ensure that you are running a supported version. For more information about what's in each version, see [at.js Version Details](../../../c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A).
 
    Loading this URL starts the download of your customized [!DNL at.js] file.
 

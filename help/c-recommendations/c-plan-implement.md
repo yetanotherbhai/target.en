@@ -33,7 +33,7 @@ What you need to know before creating a [!DNL Recommendations] activity.
   <tr> 
    <td colname="col1"> <p> <img src="assets/step1_red.png" id="image_079D053A075F427B85266AA9BACE95B8" /> </p> </td> 
    <td colname="col2"> <p>JavaScript library </p> </td> 
-   <td colname="col3"> <p> Each page requires a reference to <span class="filepath"> at.js </span> version 0.9.1 (or later) or <span class="filepath"> mbox.js </span> version 55 (or later). This implementation step is required on all pages where a <span class="keyword"> Target </span> activity will be used, and can include keys such as a product or category ID. </p> <p>For information about <span class="filepath"> at.js </span>, see <a href="../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/c-target-atjs-implementation.md#concept_8AC8D169E02944B1A547A0CAD97EAC17" format="dita" scope="local"> at.js Implementation </a>. </p> <p>For more information about <span class="filepath"> mbox.js </span>, see <a href="../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/t-mbox-download.md#task_4EAE26BB84FD4E1D858F411AEDF4B420" format="dita" scope="local"> Mbox.js Implementation </a>. </p> </td> 
+   <td colname="col3"> <p> Each page requires a reference to <span class="filepath"> at.js </span> version 0.9.1 (or later) or <span class="filepath"> mbox.js </span> version 55 (or later). This implementation step is required on all pages where a <span class="keyword"> Target </span> activity will be used, and can include keys such as a product or category ID. </p> <p>For information about <span class="filepath"> at.js </span>, see <a href="../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#concept_8AC8D169E02944B1A547A0CAD97EAC17" format="dita" scope="local"> at.js Implementation </a>. </p> <p>For more information about <span class="filepath"> mbox.js </span>, see <a href="../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md#task_4EAE26BB84FD4E1D858F411AEDF4B420" format="dita" scope="local"> Mbox.js Implementation </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <img src="assets/step2_red.png" id="image_8600F0A878A547F590F14959DE95D0D2" /> </p> </td> 
@@ -197,7 +197,7 @@ This implementation requires:
 
 For more information about implementing [!DNL at.js], see [How to Deploy at.js](../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/how-to-deployatjs.md#topic_ECF2D3D1F3384E2386593A582A978556).
 
-For more information about implementing [!DNL mbox.js], see [Mbox.js Implementation](../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/t-mbox-download.md#task_4EAE26BB84FD4E1D858F411AEDF4B420).
+For more information about implementing [!DNL mbox.js], see [Mbox.js Implementation](../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md#task_4EAE26BB84FD4E1D858F411AEDF4B420).
 
 For more information about the differences between the two Target Javascript libraries, see [Understanding the Target JavaScript Libraries](../c-implementing-target/c-considerations-before-you-implement-target/target-implement.md#concept_60B748DE4293488F917E8F1FA4C7E9EB).
 
@@ -254,7 +254,7 @@ function targetPageParams() {
 On the Thank You page, you might want to show the order total, and the order ID, and show the products that were purchased, without recommending additional items. You can implement a second mbox to capture the order information.
 
 * If you are using at.js, see [Track Conversions](../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#task_E85D2F64FEB84201A594F2288FABF053). 
-* If you are using mbox.js, see [Create an Order Confirmation mbox - mbox.js](../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/t-orderconfirm-create.md#task_0036D5F6C062442788BB55E872816D82).
+* If you are using mbox.js, see [Create an Order Confirmation mbox - mbox.js](../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/orderconfirm-create.md#task_0036D5F6C062442788BB55E872816D82).
 
 ## Settings {#concept_C1E1E2351413468692D6C21145EF0B84}
 

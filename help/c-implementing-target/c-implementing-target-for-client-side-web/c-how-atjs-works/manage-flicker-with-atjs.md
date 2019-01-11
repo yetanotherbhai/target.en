@@ -17,7 +17,7 @@ Flicker happens when default content momentarily displays to visitors before it 
 
 ## Using an Auto Created Global mbox {#section_C502170D551C4F52AAFD8E82C41BB63A}
 
-If you enable the [Auto Create Global Mbox](../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/c-understanding-global-mbox.md#concept_76AC0EC995A048238F3220F53773DB13) setting when configuring at.js, at.js manages flicker by changing the opacity setting as the page loads. When at.js loads, it will change the opacity setting of the <body> element to "0", making the page initially invisible to visitors. After a response from Target is received—or if an error with the Target request is detected—at.js resets opacity to "1". This ensures that the visitor only sees the page after your activities' content has been applied.
+If you enable the [Auto Create Global Mbox](../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/understanding-global-mbox.md#concept_76AC0EC995A048238F3220F53773DB13) setting when configuring at.js, at.js manages flicker by changing the opacity setting as the page loads. When at.js loads, it will change the opacity setting of the <body> element to "0", making the page initially invisible to visitors. After a response from Target is received—or if an error with the Target request is detected—at.js resets opacity to "1". This ensures that the visitor only sees the page after your activities' content has been applied.
 
 If you enable the setting when configuring at.js, at.js will set HTML BODY style opacity to 0. After a response from Target is received, at.js resets HTML BODY opacity to 1.
 
@@ -25,7 +25,7 @@ Opacity set to 0 keeps the page content hidden to prevent flicker, but the brows
 
 If opacity 0 does not work in your implementation, you can also manage flicker by customizing `bodyHiddenStyle` and set it to `body {visibility:hidden !important}`. You can use either value body `{opacity:0 !important`} or `body {visibility:hidden !important}`, whichever works best for your specific circumstance.
 
-The following illustration shows the Hide Body and Show Body calls in the [overall auto created global mbox flow](../../../c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/c-how-atjs-works.md#concept_7B5951B4394D4478B01FE80D57735F8B):
+The following illustration shows the Hide Body and Show Body calls in the [overall auto created global mbox flow](../../../c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md#concept_7B5951B4394D4478B01FE80D57735F8B):
 
 ![](assets/target-flow2.png)
 
@@ -33,7 +33,7 @@ For more information about the `bodyHiddenStyle` override, see [targetGlobalSett
 
 ## Using a Custom Global mbox with getOffer() and applyOffer() {#section_E42C06BB3B16456A920B3332BC6B1C28}
 
-In almost all implementations, the auto created mbox should be used. In the rare instance that a [custom global mbox](../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/t-customize-global-mbox.md#task_8FE8D068DE924B3B96A784643015D830) is required, you can use a combination of [ `getOffer()` ](../../../c-implementing-target/c-implementing-target-for-client-side-web/cmp-at.js-functions.md#reference_C81525D1598A4A1199740DCAB81A7FDF) and [ `applyOffer()` ](../../../c-implementing-target/c-implementing-target-for-client-side-web/cmp-at.js-functions.md#reference_BBE83F513B5B4E03BBC3F50D90864245). You must use your own flicker-handling code. The following sample pre-hides HTML BODY and then displays it after a response is received from Target:
+In almost all implementations, the auto created mbox should be used. In the rare instance that a [custom global mbox](../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/customize-global-mbox.md#task_8FE8D068DE924B3B96A784643015D830) is required, you can use a combination of [ `getOffer()` ](../../../c-implementing-target/c-implementing-target-for-client-side-web/cmp-at.js-functions.md#reference_C81525D1598A4A1199740DCAB81A7FDF) and [ `applyOffer()` ](../../../c-implementing-target/c-implementing-target-for-client-side-web/cmp-at.js-functions.md#reference_BBE83F513B5B4E03BBC3F50D90864245). You must use your own flicker-handling code. The following sample pre-hides HTML BODY and then displays it after a response is received from Target:
 
 ```
 document.documentElement.style.opacity = "0"; 

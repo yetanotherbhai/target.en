@@ -429,7 +429,7 @@ This function is built into [!DNL at.js] mostly to ease the transition from [!DN
 
 `mboxCreate()` now uses the "json" endpoint instead of the "standard" endpoint and fires asynchronously. Because of this:
 
-* [Debugging](../../c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/c-target-debugging-atjs.md#concept_CAE591DA8C404C22917584ECD4F7494F) is a little different. 
+* [Debugging](../../c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md#concept_CAE591DA8C404C22917584ECD4F7494F) is a little different. 
 * Avoid offer code requiring synchronous, blocking calls.
 
   For example, offers that set JavaScript variables that are used by site code or other mboxes that come later on the page. 
@@ -566,7 +566,7 @@ You can override the following settings:
    <td colname="col1"> <p>bodyHiddenStyle </p> </td> 
    <td colname="col2"> <p>String </p> </td> 
    <td colname="col3"> <p>body { opacity: 0 } </p> </td> 
-   <td colname="col4"> <p>Used only when <span class="codeph"> globalMboxAutocreate === true </span> to minimize the chance of flicker </p> <p>For more information, see <a href="../../c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/c-manage-flicker-with-atjs.md#concept_AA168574397D4474B993EEAB90865EBA" format="dita" scope="local"> How at.js Manages Flicker </a>. </p> </td> 
+   <td colname="col4"> <p>Used only when <span class="codeph"> globalMboxAutocreate === true </span> to minimize the chance of flicker </p> <p>For more information, see <a href="../../c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/manage-flicker-with-atjs.md#concept_AA168574397D4474B993EEAB90865EBA" format="dita" scope="local"> How at.js Manages Flicker </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>bodyHidingEnabled </p> </td> 

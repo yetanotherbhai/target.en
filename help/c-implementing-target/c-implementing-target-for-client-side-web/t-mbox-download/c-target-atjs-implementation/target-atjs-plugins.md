@@ -29,7 +29,7 @@ Here is the current status of some of the plug-ins that are used by many custome
  <tbody> 
   <tr> 
    <td colname="col1"> mboxTrack </td> 
-   <td colname="col2"> <p>Not supported. </p> <p>This is replaced by the <a href="../../../../c-implementing-target/c-implementing-target-for-client-side-web/cmp-at.js-functions.md#reference_7E0F19368F9C4BC38F1E5DC5E717E487" format="dita" scope="local"> adobe.target.trackEvent(options)</a> function. Update your plug-ins to apply the new function. </p> <p> See the <a href="../../../../c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/c-target-atjs-integrations.md#concept_C100BC4F073C4B57A608B309D0157B39" format="dita" scope="local"> integrations</a> page. </p> </td> 
+   <td colname="col2"> <p>Not supported. </p> <p>This is replaced by the <a href="../../../../c-implementing-target/c-implementing-target-for-client-side-web/cmp-at.js-functions.md#reference_7E0F19368F9C4BC38F1E5DC5E717E487" format="dita" scope="local"> adobe.target.trackEvent(options)</a> function. Update your plug-ins to apply the new function. </p> <p> See the <a href="../../../../c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/target-atjs-integrations.md#concept_C100BC4F073C4B57A608B309D0157B39" format="dita" scope="local"> integrations</a> page. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Persistent Profile Backup Plugin </td> 

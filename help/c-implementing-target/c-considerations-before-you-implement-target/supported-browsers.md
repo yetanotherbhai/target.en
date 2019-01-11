@@ -76,7 +76,7 @@ Content delivery has been tested across the following browsers and devices:
    <td colname="col1"> Mac </td> 
    <td colname="col2"> <p> 
      <ul id="ul_550A4C0C8E384C48ADE8C9E38BB3662F"> 
-      <li id="li_442E1CE6507146A795B774B8B28F1F3F"> <p>Apple Safari (Latest) </p> <p>For more information about how Safari handles first- and third-party cookies, see <a href="../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-cookie-behavior.md#concept_4D8107E193B64168A3C0B85B51612991" format="dita" scope="local"> Target Cookie</a>. </p> </li> 
+      <li id="li_442E1CE6507146A795B774B8B28F1F3F"> <p>Apple Safari (Latest) </p> <p>For more information about how Safari handles first- and third-party cookies, see <a href="../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/cookie-behavior.md#concept_4D8107E193B64168A3C0B85B51612991" format="dita" scope="local"> Target Cookie</a>. </p> </li> 
       <li id="li_81347CC1A29946EF9AFC4BBBEFEBBF74"> <p>Firefox (Latest, Latest minus 1) </p> </li> 
       <li id="li_642DBDCAB3F3423488D790C8D368961A"> <p>Chrome (Latest, Latest minus 1) </p> </li> 
      </ul> </p> </td> 

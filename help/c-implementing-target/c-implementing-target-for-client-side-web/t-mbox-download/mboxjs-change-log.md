@@ -17,11 +17,11 @@ This page shows changes to each version of mbox.js.
 >
 >We recommend that all mbox.js users upgrade to version 57 or later. Some users have experienced timeout issues when `target.js` couldn't be loaded. Version 57 fixed that issue. However, if you are using the [!DNL Experience Cloud Visitor ID] service, version 58 or later is required.
 
-The way Target responds to calls from your page depends on the version of the Target library you are using, whether the visitor ID implementation is present, and whether the visitor ID exists. For information, see [Target Call Responses by Library Version](../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-call-responses-library-version.md#concept_A95A4758A1E7405D947E9B4BCB5D62F0).
+The way Target responds to calls from your page depends on the version of the Target library you are using, whether the visitor ID implementation is present, and whether the visitor ID exists. For information, see [Target Call Responses by Library Version](../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/call-responses-library-version.md#concept_A95A4758A1E7405D947E9B4BCB5D62F0).
 
 >[!NOTE]
 >
->The mbox.js library is no longer being developed. All customers should migrate from mbox.js to at.js. For more information, see [Migrate to at.js from mbox.js](../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/t-target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA).
+>The mbox.js library is no longer being developed. All customers should migrate from mbox.js to at.js. For more information, see [Migrate to at.js from mbox.js](../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA).
 
 ## mbox.js version 63 {#section_ED8EFCF653A845ED8927F759578C4A33}
 
@@ -91,7 +91,7 @@ Also in Version 60, if the [!DNL visitorAPI.js] file is present for the Experien
 
 * V60 asynchronous calls
 
-  When using v60 with the visitor id service, all mbox calls are made asynchronously. This is a change from how mboxes have always worked, so be careful if upgrading to this version. Review the [Asynchronous Considerations](../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/c-target-atjs-limitations.md#section_B586360A3DD34E2995AE25A18E3FB953) section of the [!DNL at.js] documentation ( [!DNL at.js] also uses asynchronous calls) to understand some of the risks. 
+  When using v60 with the visitor id service, all mbox calls are made asynchronously. This is a change from how mboxes have always worked, so be careful if upgrading to this version. Review the [Asynchronous Considerations](../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-limitations.md#section_B586360A3DD34E2995AE25A18E3FB953) section of the [!DNL at.js] documentation ( [!DNL at.js] also uses asynchronous calls) to understand some of the risks. 
 * New Visitor scenarios might have flicker
 
   When using v58 to v60 with the visitor id service, mbox calls will wait for the visitor id to be set before firing (or until a timeout has occurred). This happens on the first page load of a new visitor.
