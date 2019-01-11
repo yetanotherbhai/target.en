@@ -26,6 +26,11 @@ This page lists important changes made to the Target documentation.
  <tbody>
 <tr> 
    <td colname="col1"> January 10, 2019 </td> 
+   <td colname="col2"> <p> <a href="/help/r-release-notes/release-notes.md" format="dita" scope="local">Target Release Notes (current)</a>, <a href="/help/r-release-notes/target-release-notes.md" format="dita" scope="local">Target Release Notes (prerelease)</a>, and <a href="/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md" format="dita" scope="local">TLS (Transport Layer Security) encryption changes</a></p> </td> 
+   <td colname="col3"> <p>Added the date when Target will completely phase out support for TLS 1.0 encryption: <b>February 20, 2019</b>.</p> </td> 
+  </tr>  
+<tr> 
+   <td colname="col1"> January 9, 2019 </td> 
    <td colname="col2"> <p> <a href="/help/c-experiences/c-visual-experience-composer/viztarget-options.md" format="dita" scope="local">Visual Experience Composer Options</a></p> </td> 
    <td colname="col3"> <p>Added information regarding Recommendations to Insert Before, Insert After, and Replace With rows.</p> </td> 
   </tr> 
