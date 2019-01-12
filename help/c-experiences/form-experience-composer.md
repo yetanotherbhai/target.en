@@ -41,7 +41,7 @@ If you are creating a Recommendations activity, there are no experiences. Choose
    When you click in the Select Location box, a list of available locations appears. Select one of those locations. To choose the global location delivered via target.js, choose “target-global-mbox.”
 
    You can also enter a location that is not listed here. This can be useful if the mbox has not yet been created or viewed on a page. Type the name of the location. Be careful when entering a location that does not yet exist. If the spelling or capitalization does not match the spelling and capitalization when the mbox call is made, the activity will not deliver. Manually entered locations are saved to the list. 
-1. Click **[!UICONTROL Add Audience Refinements]**, then choose one or more [audience](../c-target/c-target.md#concept_A782F8481A5041EBA75103CB26376522) for this activity.
+1. Click **[!UICONTROL Add Audience Refinements]**, then choose one or more [audience](../c-target/target.md#concept_A782F8481A5041EBA75103CB26376522) for this activity.
 
    ![](assets/location_refinements_2.png)
 
@@ -101,5 +101,5 @@ If you are creating a Recommendations activity, there are no experiences. Choose
 
 * [Create an A/B Test](../c-activities/t-test-ab/t-test-create-ab/test-create-ab.md#task_68C8079BF9FF4625A3BD6680D554BB72) 
 * [Create an Experience Targeting Activity](../c-activities/t-experience-target/t-xt-create/xt-create.md#task_D6B3429AC31549E1A70EDF04B3DDC765) 
-* [Create a Recommendations Activity](../c-recommendations/t-create-recs-activity/t-create-recs-activity.md#task_6874328773C64C44A73F0A130AD3F96F)
+* [Create a Recommendations Activity](../c-recommendations/t-create-recs-activity/create-recs-activity.md#task_6874328773C64C44A73F0A130AD3F96F)
 

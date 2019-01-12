@@ -45,7 +45,7 @@ The identified causes of partial data include the following:
 * **Slow pages:** Because [!DNL Target] calls are at the top of the page and [!DNL Analytics] calls are typically at the bottom of the page, if the page loads slowly, it increases the likelihood of a visitor leaving the page after the [!DNL Target] call fires, but before the [!DNL Analytics] call. This can be especially problematic on mobile web sites where connections are often slower. 
 * **Page errors:** If there are JavaScript errors or other scenarios where each of the touchpoints do not fire (Experience Cloud ID service, Target, and Analytics), partial data will result. 
 * **Redirect offer(s) in [!DNL Target] activity:** Redirect offers immediately send a user to a different page, which means the [!DNL Analytics] call does not fire on the first page.
-* **Old versions of the libraries:** Over the past year Adobe has made several improvements to our JavaScript libraries ( [!DNL appMeasurement.js], `at.js/mbox.js`, and `visitorAPI.js`) to make sure data is sent as efficiently as possible. To learn more about implementation requirements, see [Before You Implement](../../../c-integrating-target-with-mac/a4t/c-before-implement.md#concept_046BC89C03044417A30B63CE34C22543).
+* **Old versions of the libraries:** Over the past year Adobe has made several improvements to our JavaScript libraries ( [!DNL appMeasurement.js], `at.js/mbox.js`, and `visitorAPI.js`) to make sure data is sent as efficiently as possible. To learn more about implementation requirements, see [Before You Implement](../../../c-integrating-target-with-mac/a4t/before-implement.md#concept_046BC89C03044417A30B63CE34C22543).
 
 ## What are the best practices to reduce partial data? {#section_065C38501527451C8058278054A1818D}
 
@@ -54,9 +54,9 @@ We recommend reviewing the following steps, in order, to reduce partial data col
 | Step | Task |
 | --- | --- |
 | ![Step 1](assets/step1_icon.png) | Make sure the report suite selected in [!DNL Target] is the same as the one on the page(s) where the activity will be presented. |
-| ![Step 2](assets/step2_icon.png) | Ensure the visitorAPI.js, appMeasurement.js, at.js / mbox.js libraries are on A4T-compatible versions. To learn more about implementation requirements, see [Before You Implement](/help/c-integrating-target-with-mac/a4t/c-before-implement.md). |
+| ![Step 2](assets/step2_icon.png) | Ensure the visitorAPI.js, appMeasurement.js, at.js / mbox.js libraries are on A4T-compatible versions. To learn more about implementation requirements, see [Before You Implement](/help/c-integrating-target-with-mac/a4t/before-implement.md). |
 | ![Step 3](assets/step3_icon.png) | Check to make sure the SDID is getting set on all [!DNL Target] and [!DNL Analytics] calls leaving the page and that they match.<br/>Do this by using a network analyzer or debugging tool to ensure that the `mboxMCSDID` parameter on [!DNL Target] call(s) matches the SDID parameter in the [!DNL Analytics] call. |
-| ![Step 4](assets/step4_icon.png) | Confirm that the implementation libraries load in the correct order on your sites. For more information, see [Analytics for Target Implementation](/help/c-integrating-target-with-mac/a4t/c-a4timplementation.md).|
+| ![Step 4](assets/step4_icon.png) | Confirm that the implementation libraries load in the correct order on your sites. For more information, see [Analytics for Target Implementation](/help/c-integrating-target-with-mac/a4t/a4timplementation.md).|
 
 ## How can I see how much partial data I have? {#section_89B663E2824A4805AB934153508A0F4B}
 

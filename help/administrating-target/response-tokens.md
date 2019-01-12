@@ -117,7 +117,7 @@ A key difference between plug-ins and response tokens is that while plug-ins del
   <tr> 
    <td colname="col1"> <p>Geo </p> </td> 
    <td colname="col2"> <p>geo.country </p> <p>geo.state </p> <p>geo.city </p> <p>geo.zip </p> <p>geo.dma </p> <p>geo.domainName </p> <p>geo.ispName </p> <p>geo.connectionSpeed </p> <p>geo.mobileCarrier </p> </td> 
-   <td colname="col3"> <p>See <a href="../c-target/c-audiences/c-target-rules/c-geo.md#concept_5B4D99DE685348FB877929EE0F942670" format="dita" scope="local"> Geo </a> for more information about using geo targeting in activities. </p> </td> 
+   <td colname="col3"> <p>See <a href="../c-target/c-audiences/c-target-rules/geo.md#concept_5B4D99DE685348FB877929EE0F942670" format="dita" scope="local"> Geo </a> for more information about using geo targeting in activities. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -42,7 +42,7 @@ With Experience Targeting, you can control which experience visitors see as thei
   </tr> 
   <tr> 
    <td colname="col1"> <p>Category Affinity </p> </td> 
-   <td colname="col2"> <p>The <a href="../../../c-target/c-visitor-profile/c-category-affinity.md#concept_75EC1E1123014448B8B92AD16B2D72CC" format="dita" scope="local"> category affinity</a> feature in <span class="keyword"> Target</span> automatically captures the categories users visit and then calculates the users' affinity for the category for targeting purposes. For example, visitors who viewed several articles on your website about a particular subject could be presented with content related to that subject. </p> </td> 
+   <td colname="col2"> <p>The <a href="../../../c-target/c-visitor-profile/category-affinity.md#concept_75EC1E1123014448B8B92AD16B2D72CC" format="dita" scope="local"> category affinity</a> feature in <span class="keyword"> Target</span> automatically captures the categories users visit and then calculates the users' affinity for the category for targeting purposes. For example, visitors who viewed several articles on your website about a particular subject could be presented with content related to that subject. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Day of Week </p> </td> 

@@ -176,7 +176,7 @@ There are several scenarios where you might prefer to use Auto-Target over Autom
 
 **Target automatically uses all Experience Cloud shared audiences to build the personalization models.**
 
-* You don't have to do anything specific to add audiences to the model. For information about using Experience Cloud Audiences with Target, see [Experience Cloud Audiences](../c-integrating-target-with-mac/c-mmp.md#concept_F4863DE4C92D4805AB690B4B3D487969)
+* You don't have to do anything specific to add audiences to the model. For information about using Experience Cloud Audiences with Target, see [Experience Cloud Audiences](../c-integrating-target-with-mac/mmp.md#concept_F4863DE4C92D4805AB690B4B3D487969)
 
 **Marketers can upload offline data, propensity scores, or other custom data to build personalization models.**
 
@@ -204,7 +204,7 @@ For Auto-Target, simple rules of thumb can be used to understand traffic require
 
 ## Reporting and Auto-Target {#section_42EE7F5E65E84F89A872FE9921917F76}
 
-For more information, see [Auto-Target Summary Report](../c-reports/c-auto-target-summary-report.md#concept_E2171F7B57C1417DAAD7E7909A3FB073) in the [Reports](../c-reports/c-reports.md#concept_B5077F5503AA4C98901AA99EDCE6CDE6) section.
+For more information, see [Auto-Target Summary Report](../c-reports/auto-target-summary-report.md#concept_E2171F7B57C1417DAAD7E7909A3FB073) in the [Reports](../c-reports/reports.md#concept_B5077F5503AA4C98901AA99EDCE6CDE6) section.
 
 ## Auto-Target Frequently Asked Questions {#section_5C120A2B11D14D9BAF767BBAB50FED23}
 

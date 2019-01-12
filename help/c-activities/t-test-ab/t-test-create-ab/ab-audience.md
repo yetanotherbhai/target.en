@@ -15,7 +15,7 @@ The audience determines which site visitors are entered into your activity.
 
 >[!NOTE]
 >
->In addition to selecting an existing audience, you can combine multiple audiences to create ad hoc combined audiences rather than creating a new audience. For more information, see [Combining Multiple Audiences](../../../c-target/c-combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5).
+>In addition to selecting an existing audience, you can combine multiple audiences to create ad hoc combined audiences rather than creating a new audience. For more information, see [Combining Multiple Audiences](../../../c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5).
 
 **Using Audiences in Adobe Target (6:21)**
 
@@ -31,7 +31,7 @@ This video explains how to use audiences in [!DNL Target Standard/Premium].
 
 In the [!UICONTROL Audience] box, click the Edit icon (three vertical ellipses), then click **[!UICONTROL Replace Audience]**.
 
-By default, all visitors are your audience. However, you can change the audience. Audiences are selected from the audience library or you can create an activity-only audience. The audience library contains audiences that have previously been defined, including some common audiences that are pre-built as a part of Target. You can either select an audience from the library, [create a new audience](../../../c-target/c-audiences/t-create-audience.md#task_1D507519D3AD4390B507F188BD294DC1), or [create an activity-only audience](../../../c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483). For an A/B test without specific audience targeting, choose the default, All Visitors.
+By default, all visitors are your audience. However, you can change the audience. Audiences are selected from the audience library or you can create an activity-only audience. The audience library contains audiences that have previously been defined, including some common audiences that are pre-built as a part of Target. You can either select an audience from the library, [create a new audience](../../../c-target/c-audiences/create-audience.md#task_1D507519D3AD4390B507F188BD294DC1), or [create an activity-only audience](../../../c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483). For an A/B test without specific audience targeting, choose the default, All Visitors.
 
 Note that you can also edit or copy an audience by hovering over the desired audience in the [!UICONTROL Choose Audience] dialog box, as shown below. Copying an audience is helpful if you want to create a similar audience to an existing audience. You can make a copy of the audience, make your edits, then save it as a new audience. This hover functionality exists in other activity types as well.
 
@@ -62,4 +62,4 @@ This video includes information about setting up audiences.
 
 >[!VIDEO](https://www.youtube.com/watch?v=LOmBgKPeBtA)
 
-For detailed information, see [Audiences](../../../c-target/c-audiences/c-audiences.md#concept_65BE870D290E412D8BBF557EEA67C271). 
+For detailed information, see [Audiences](../../../c-target/c-audiences/audiences.md#concept_65BE870D290E412D8BBF557EEA67C271). 

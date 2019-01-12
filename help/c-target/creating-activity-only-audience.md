@@ -36,7 +36,7 @@ Activity-only audiences provide the following benefits:
 
 1. Select a rule type.
 
-   Each rule type has its own parameters. See [Categories for Audiences](../c-target/c-audiences/c-target-rules/c-target-rules.md#concept_E3A77E42F1644503A829B5107B20880D) for more information on configuring each type of audience rule. 
+   Each rule type has its own parameters. See [Categories for Audiences](../c-target/c-audiences/c-target-rules/target-rules.md#concept_E3A77E42F1644503A829B5107B20880D) for more information on configuring each type of audience rule. 
 
 1. Define the rule parameters. 
 1. Click **[!UICONTROL Save]**.
@@ -48,5 +48,5 @@ Keep the following information in mind as you work with activity-only audiences:
 * Refinements for existing activities are migrated to activity-only audiences. 
 * Activity-only audiences have a status of Used or Unused. Unused activity-only audiences display until the activity is saved. If left unused and you try to save the activity, a warning message displays informing you that unused activity-only audiences will be deleted. 
 * You can view audience definition details on a pop-up card accessed from the audience picker without opening the audience. 
-* You can [combine multiple audiences](../c-target/c-combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5) to create activity-only audiences.
+* You can [combine multiple audiences](../c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5) to create activity-only audiences.
 

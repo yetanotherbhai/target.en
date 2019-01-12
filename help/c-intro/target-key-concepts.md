@@ -176,4 +176,4 @@ Audiences can be saved for reuse in multiple activities, or they can be created 
  </tbody> 
 </table>
 
-For information about how the visitor profile tracks information about visitors to your site, see [Visitor Profiles](../c-target/c-visitor-profile/c-visitor-profile.md#concept_5E53D1A6DF224D7BAE76F4AE390B9DA1). 
+For information about how the visitor profile tracks information about visitors to your site, see [Visitor Profiles](../c-target/c-visitor-profile/visitor-profile.md#concept_5E53D1A6DF224D7BAE76F4AE390B9DA1). 

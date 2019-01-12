@@ -106,7 +106,7 @@ All GDPR requests across Experience Cloud solutions, including Target, will be m
 
 ## What information will Adobe enable our customers to delete in response to a data subject/user request? {#section_4B51D00924EC4166B2442218B69214F0}
 
-The information related to an individual visitor within Target is contained within the Target Visitor Profile. Adobe Target will enable our customers to delete all data associated with an ID in their Visitor Profile. For examples of the profile data Adobe Target stores, see [Visitor Profile](../../../c-target/c-audiences/c-target-rules/c-visitor-profile.md#concept_E972690B9A4C4372A34229FA37EDA38E).
+The information related to an individual visitor within Target is contained within the Target Visitor Profile. Adobe Target will enable our customers to delete all data associated with an ID in their Visitor Profile. For examples of the profile data Adobe Target stores, see [Visitor Profile](../../../c-target/c-audiences/c-target-rules/visitor-profile.md#concept_E972690B9A4C4372A34229FA37EDA38E).
 
 Aggregated or anonymized data (for example, reporting data) that does not identify a particular individual, or data that is unrelated to a specific individual (for example, content data), is outside the scope of a user-deletion request.
 
@@ -385,7 +385,7 @@ The following table contains description of the illustrative profile JSON fields
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> user.sessionCountScript </span> </p> </td> 
-   <td colname="col2"> <p>Many pieces of information in the Target profile are uploaded or directly provided by the Data Controller. In this example, a profile script is incrementing the number of sessions this visitor has made to the Data Controller’s site. For more information, see <a href="../../../c-target/c-visitor-profile/c-profile-parameters.md#concept_8C07AEAB0A144FECA8B4FEB091AED4D2" format="dita" scope="local"> Profile Script Attributes </a>. </p> </td> 
+   <td colname="col2"> <p>Many pieces of information in the Target profile are uploaded or directly provided by the Data Controller. In this example, a profile script is incrementing the number of sessions this visitor has made to the Data Controller’s site. For more information, see <a href="../../../c-target/c-visitor-profile/profile-parameters.md#concept_8C07AEAB0A144FECA8B4FEB091AED4D2" format="dita" scope="local"> Profile Script Attributes </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

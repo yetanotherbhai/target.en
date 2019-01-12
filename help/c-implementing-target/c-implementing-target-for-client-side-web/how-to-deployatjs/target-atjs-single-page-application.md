@@ -84,5 +84,5 @@ There are many options for implementing Target in single-page applications with 
 
 >[!NOTE]
 >
->If you are using the Analytics for Target (A4T) implementation, ensure that you complete Step 8 in [Analytics for Target Implementation](../../../c-integrating-target-with-mac/a4t/c-a4timplementation.md#concept_CE78750AC2A4487D8ACD9369B3EAC85A).
+>If you are using the Analytics for Target (A4T) implementation, ensure that you complete Step 8 in [Analytics for Target Implementation](../../../c-integrating-target-with-mac/a4t/a4timplementation.md#concept_CE78750AC2A4487D8ACD9369B3EAC85A).
 
