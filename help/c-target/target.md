@@ -22,7 +22,7 @@ When a visitor lands on a page where you have set up an activity, [!DNL Target] 
 
 If the visitor is identified as part of a target audience, [!DNL Target] determines which experience to display, based on the criteria established when the activity was created.
 
-**Activity Workflow - Targeting (2:14)**
+## Training Video: Activity Targeting
 
 This video includes information about setting up targeting and audiences.
 
