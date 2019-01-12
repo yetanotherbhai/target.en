@@ -15,23 +15,13 @@ badge: premium
 
 Automated Personalization (AP) combines offers or messages, and uses advanced machine learning to match different offer variations to each visitor based on their individual customer profile, in order to personalize content and drive lift.
 
-Similarly to Auto-Target, Automated Personalization uses a Random Forest algorithm, a leading data science ensemble method, as its main personalization algorithm to determine the best experience to show a visitor. Automated Personalization can be valuable in the discovery phase of testing. It is also useful to allow machine learning to determine the most effective content when targeting diverse visitors. Over time, the algorithm learns to predict the most effective content and displays the content most likely to achieve your goals.
-
-To find more information about how Automated Personalization differs from Auto Target, see [Auto-Target For Personalized Experiences](../../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3).
-
 >[!NOTE]
 >
 >Automated Personalization is available as part of the Target Premium solution. It is not included with Target Standard without a Target Premium license. If you have a Target Premium license, the Target Premium card replaces the Target Standard card in the Adobe Experience Cloud.
 
-**Activity Types (9:03)**
+Similarly to Auto-Target, Automated Personalization uses a Random Forest algorithm, a leading data science ensemble method, as its main personalization algorithm to determine the best experience to show a visitor. Automated Personalization can be valuable in the discovery phase of testing. It is also useful to allow machine learning to determine the most effective content when targeting diverse visitors. Over time, the algorithm learns to predict the most effective content and displays the content most likely to achieve your goals.
 
-This video explains the activity types available in Target Standard/Premium. Automated Personalization is discussed beginning at 5:55.
-
-* Describe the types of activities included in [!DNL Adobe Target] 
-* Select the appropriate activity type to achieve your goals 
-* Describe the three-step guided workflow that applies to all activity types
-
->[!VIDEO](https://www.youtube.com/watch?v=vtHg1pPFJp8)
+To find more information about how Automated Personalization differs from Auto Target, see [Auto-Target For Personalized Experiences](../../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3).
 
 Marketers implement one file on their site which enables them to point and click on any content and then visually create and select additional content options for that area using the VEC (Visual Experience Composer). Then, the algorithm automatically determines which piece of content to deliver to each individual visitor based on all the behavioral data that the system has about that visitor, providing a personalized experience. Because Automated Personalization can adapt to changes in visitor behavior, it can be run without a set end date to provide ongoing lift and personalization. This is sometimes referred to as “always-on” mode. The marketer does not need to run a test, analyze the results, then deliver a winner before realizing the lift found from optimization—a standard order of operations to implement the outcome of a standard A/B activity.
 
@@ -82,3 +72,13 @@ Offline data, such as CRM information or customer churn propensity scores, can b
 * [Server-side APIs for profile update](../../c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md#concept_0069C0EFB56C4700BB33F2F35C2B9B17)
 
 For information about the data automatically collected and used by Automated Personalization and Auto-Target personalization algorithms, see [Automated Personalization Data Collection](../../c-activities/t-automated-personalization/ap-data.md#reference_255BD3DE7AD04DC9B766E0BC78961058). 
+
+## Training video: Activity Types
+
+This video explains the activity types available in Target Standard/Premium. Automated Personalization is discussed beginning at 5:55.
+
+* Describe the types of activities included in [!DNL Adobe Target] 
+* Select the appropriate activity type to achieve your goals 
+* Describe the three-step guided workflow that applies to all activity types
+
+>[!VIDEO](https://www.youtube.com/watch?v=vtHg1pPFJp8)
