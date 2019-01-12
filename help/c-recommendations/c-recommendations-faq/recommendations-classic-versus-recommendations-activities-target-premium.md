@@ -35,14 +35,14 @@ The [!DNL Recommendations] activity in [!DNL Target] improves on [!DNL Recommend
 
 Criteria are pre-configured and sorted by industry verticals, page types, and implementation. For example, you can look for the criteria that apply to the retail vertical, for use on a product page, showing products from within a particular category (as defined by the `entity.categoryID` parameter).
 
-For more information about using and creating criteria, see [Criteria](../../c-recommendations/c-algorithms/c-algorithms.md#concept_4BD01DC437F543C0A13621C93A302750).
+For more information about using and creating criteria, see [Criteria](../../c-recommendations/c-algorithms/algorithms.md#concept_4BD01DC437F543C0A13621C93A302750).
 
 ## Workflow {#section_76B4A26297BF422382DE2C79A2713D3C}
 
 The [!DNL Recommendations] workflow has been simplified. Instead of filling out complicated forms, you follow a visual workflow to:
 
 1. Select the criteria. 
-1. Select a pre-configured [design](../../c-recommendations/c-design-overview/t-create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14). 
+1. Select a pre-configured [design](../../c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14). 
 1. Preview the resulting recommendations.
 
 ## Visual Preview {#section_639B9E38C9EC4093BF9023EE0F2A15AC}

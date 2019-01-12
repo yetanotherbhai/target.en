@@ -21,7 +21,7 @@ Recommendations activities automatically display products or content that might 
 
 >[!NOTE]
 >
->If you currently have [!DNL Recommendations Classic], see [Recommendations Classic versus Recommendations Activities in Target Premium](../c-recommendations/c-recommendations-faq/c-recommendations-classic-versus-recommendations-activities-target-premium.md#concept_A80223EF66634EA380580C2823A581C5) for more information about the two solutions.
+>If you currently have [!DNL Recommendations Classic], see [Recommendations Classic versus Recommendations Activities in Target Premium](../c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md#concept_A80223EF66634EA380580C2823A581C5) for more information about the two solutions.
 
 [!DNL Recommendations] helps you optimize and customize real-time suggestions across channels, apps, pages, email messages, and other delivery options to increase engagement and conversion while reducing management effort.
 
@@ -61,7 +61,7 @@ A recommendation determines how a product is suggested to a customer, depending 
  </tbody> 
 </table>
 
-For more information about these and other [!DNL Recommendations] criteria, see [Criteria](../c-recommendations/c-algorithms/c-algorithms.md#concept_4BD01DC437F543C0A13621C93A302750).
+For more information about these and other [!DNL Recommendations] criteria, see [Criteria](../c-recommendations/c-algorithms/algorithms.md#concept_4BD01DC437F543C0A13621C93A302750).
 
 **Activity Types (9:03)**
 

@@ -52,7 +52,7 @@ After a custom attribute is sent as a valid JSON array, the attribute is treated
 
 **Restrictions**:
 
-* You cannot use predefined entity attribute names for custom entity attributes. (See [Entity Attributes](../../c-recommendations/c-products/r-entity-attributes.md#reference_3BCC1383FB3F44F4A2120BB36270387F).) 
+* You cannot use predefined entity attribute names for custom entity attributes. (See [Entity Attributes](../../c-recommendations/c-products/entity-attributes.md#reference_3BCC1383FB3F44F4A2120BB36270387F).) 
 * The attribute `entity.environment` is reserved by the system and cannot be used for custom entity attributes. Attempts to pass `entity.environment` using `targetPageParams`, feeds, or APIs will be ignored. 
 * Arrays must contain a single value type. Mixed-value arrays ( `["AB",1,true]`) are not supported. 
 * A multi-value attribute that includes a nested JSON array ( `[10,12,[1,2,3]]`) is treated as a single-value attribute.
@@ -373,4 +373,4 @@ When `entity.genre=["genre1","genre2"]` is referenced in a design as `$entity<N>
 
 >[!MORE_LIKE_THIS]
 >
->* [Entity Attributes](../../c-recommendations/c-products/r-entity-attributes.md#reference_3BCC1383FB3F44F4A2120BB36270387F)
+>* [Entity Attributes](../../c-recommendations/c-products/entity-attributes.md#reference_3BCC1383FB3F44F4A2120BB36270387F)

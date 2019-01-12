@@ -83,7 +83,7 @@ In different activities, different attributes are more, or less, important to ho
     </tbody> 
     </table>
 
-1. (Optional) [Download the report in CSV format](../../c-reports/c-report-settings/c-report-settings.md#section_77E65C50BAAF4AB79242DB3A8778ADEF) for analysis in Excel and other tools.
+1. (Optional) [Download the report in CSV format](../../c-reports/c-report-settings/report-settings.md#section_77E65C50BAAF4AB79242DB3A8778ADEF) for analysis in Excel and other tools.
 
    >[!NOTE]
    >

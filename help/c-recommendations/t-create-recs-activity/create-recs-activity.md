@@ -60,12 +60,12 @@ Use the Target Visual Experience Composer (VEC) to create a Recommendations acti
   Some criteria are supplied with [!DNL Recommendations]. You and your team can also create your own custom criteria. 
 
 * To create a new criteria, click **[!UICONTROL Create New]** > **[!UICONTROL Create Criteria]**, then fill in the information for the new criteria. For information about creating new criteria, see [Creating Criteria](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_8A9CB465F28D44899F69F38AD27352FE). 
-* You can also group criteria into sequences. To create a new criteria sequence, click **[!UICONTROL Create New]** > **[!UICONTROL Create Criteria Sequence]**. See [Creating Criteria Sequences](../../c-recommendations/c-algorithms/t-create-criteria-sequence.md#task_8A9CB465F28D44899F69F38AD27352FE) for more information.
+* You can also group criteria into sequences. To create a new criteria sequence, click **[!UICONTROL Create New]** > **[!UICONTROL Create Criteria Sequence]**. See [Creating Criteria Sequences](../../c-recommendations/c-algorithms/create-criteria-sequence.md#task_8A9CB465F28D44899F69F38AD27352FE) for more information.
 
 1. Click **[!UICONTROL Next]**.
 1. Select a design.
 
-   A design is a template that determines the look of the locations on your page. [!DNL Target] includes several preconfigured designs. You can also create your own custom designs. For more information, see [Create a Design](../../c-recommendations/c-design-overview/t-create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14) and [Customizing a Design](../../c-recommendations/c-design-overview/c-customizing-a-template.md#concept_94F1554C3F2E4CDB9A2C3D78F10EDA59).
+   A design is a template that determines the look of the locations on your page. [!DNL Target] includes several preconfigured designs. You can also create your own custom designs. For more information, see [Create a Design](../../c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14) and [Customizing a Design](../../c-recommendations/c-design-overview/c-customizing-a-template.md#concept_94F1554C3F2E4CDB9A2C3D78F10EDA59).
 
    ![](assets/Card_SelectDesign.png)
 
@@ -75,11 +75,11 @@ Use the Target Visual Experience Composer (VEC) to create a Recommendations acti
 
   If you selected multiple criteria, you can only select one design. 
 
-* To create a custom design, click **[!UICONTROL Create New]**, then fill in the name and code for the new design. Click **[!UICONTROL Next]**, then select or upload an image and click **[!UICONTROL Done]** > **[!UICONTROL Done]**. For information about creating a new design, see [Create a Design](../../c-recommendations/c-design-overview/t-create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14).
+* To create a custom design, click **[!UICONTROL Create New]**, then fill in the name and code for the new design. Click **[!UICONTROL Next]**, then select or upload an image and click **[!UICONTROL Done]** > **[!UICONTROL Done]**. For information about creating a new design, see [Create a Design](../../c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14).
 
 1. Click **[!UICONTROL Next]**.
 
-   You have the option to add promotions to your recommendations. For more information about adding front and back promotions, see [Adding Promotions](../../c-recommendations/t-create-recs-activity/t-adding-promotions.md#task_CC5BD28C364742218C1ACAF0D45E0E14). 
+   You have the option to add promotions to your recommendations. For more information about adding front and back promotions, see [Adding Promotions](../../c-recommendations/t-create-recs-activity/adding-promotions.md#task_CC5BD28C364742218C1ACAF0D45E0E14). 
 1. Click **[!UICONTROL Save]**.
 
    The VEC screen displays the recommendation design on your page. 

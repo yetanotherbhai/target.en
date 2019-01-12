@@ -27,7 +27,7 @@ The available options vary depending on the selected industry vertical and recom
 
 ## Adding Filtering Rules to Promotions {#section_D59AFB62E2EE423086281CF5D18B1076}
 
-While [creating a promotion](../../c-recommendations/t-create-recs-activity/t-adding-promotions.md#task_CC5BD28C364742218C1ACAF0D45E0E14), select **[!UICONTROL Promote by Attribute]**, then click **[!UICONTROL Add Filtering Rule]**.
+While [creating a promotion](../../c-recommendations/t-create-recs-activity/adding-promotions.md#task_CC5BD28C364742218C1ACAF0D45E0E14), select **[!UICONTROL Promote by Attribute]**, then click **[!UICONTROL Add Filtering Rule]**.
 
 ![](assets/inclusion_options_promotion.png)
 

@@ -115,7 +115,7 @@ Different visitors respond differently to the offers/experiences in your AP/AT a
 
       ![](assets/automated_segment_example_2.png)
 
-1. (Optional) [Download the report in CSV format](../../c-reports/c-report-settings/c-report-settings.md#section_77E65C50BAAF4AB79242DB3A8778ADEF) for analysis in Excel and other tools.
+1. (Optional) [Download the report in CSV format](../../c-reports/c-report-settings/report-settings.md#section_77E65C50BAAF4AB79242DB3A8778ADEF) for analysis in Excel and other tools.
 
    >[!NOTE]
    >

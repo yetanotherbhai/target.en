@@ -47,7 +47,7 @@ The Order Details report (known as the Audit report in [!DNL Target Classic]) sh
 
 * Order flag (duplicate or extreme orders)
 
-  An order is flagged as extreme if it is more than +/- 3 standard deviations from the average order value using the last month of data (up to the point in time in which the calculation was made). An activity will have its extreme orders excluded once the activity has run for an hour or until after 15 orders, whichever comes first. For more information, see [Excluding Extreme Orders](../c-reports/c-report-settings/t-excluding-extreme-orders.md#task_2AE7743FFCDD466DAEEB720BE5F33DAA). 
+  An order is flagged as extreme if it is more than +/- 3 standard deviations from the average order value using the last month of data (up to the point in time in which the calculation was made). An activity will have its extreme orders excluded once the activity has run for an hour or until after 15 orders, whichever comes first. For more information, see [Excluding Extreme Orders](../c-reports/c-report-settings/excluding-extreme-orders.md#task_2AE7743FFCDD466DAEEB720BE5F33DAA). 
 
 * Product ID
 

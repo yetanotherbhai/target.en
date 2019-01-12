@@ -218,7 +218,7 @@ This release includes the following features and enhancements:
    <td colname="col2"> <p> 
      <ul id="ul_371C18DFC6D24E94B3D4FFFD83FC8D3A"> 
       <li id="li_9D11939014E7479AB7FD8910852A5386"> <p>View a list of activities that reference a selected criteria on its Criteria card. The card lists active and inactive activities. (TGT-27672) </p> </li> 
-      <li id="li_B97BF9305EB04F6D8B1F6178B2E0CB34"> <p>From the activity diagram, Criteria cards now show when results are ready to display. (TGT-27673) </p> <p>See <a href="../c-recommendations/c-algorithms/c-algorithms.md#concept_4BD01DC437F543C0A13621C93A302750" format="dita" scope="local"> Criteria </a>. </p> </li> 
+      <li id="li_B97BF9305EB04F6D8B1F6178B2E0CB34"> <p>From the activity diagram, Criteria cards now show when results are ready to display. (TGT-27673) </p> <p>See <a href="../c-recommendations/c-algorithms/algorithms.md#concept_4BD01DC437F543C0A13621C93A302750" format="dita" scope="local"> Criteria </a>. </p> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
@@ -347,7 +347,7 @@ This release includes the following features and enhancements:
       <li id="li_B8929C19276D42168A28A3775CDEDFB3"> <p>You can save up to ten different presets of an individual activity's report after configuring it as desired (metrics, audiences, advanced settings, and so forth). All Target users can display, edit, and delete the various presets, regardless of who created them. (TGT-21268) </p> </li> 
       <li id="li_7ADA62F2ACA049C9B4A8986B09A9F4AA"> <p>You can configure an individual activity's report as desired and then save that configuration as your default/favorite preset. This is the view that displays whenever you view that activity's report going forward. (TGT-10082) </p> </li> 
       <li id="li_DC63C04F3A884BDDA55B5515E4643B7B"> <p>Alerts and messages inside reports let you know if one (or more) audience, metric, host group, or experience has been deleted from a previously configured preset report. The alert or message instructs you to choose another audience, metric, host group, or experience to make a preset again. (TGT-29424) </p> </li> 
-     </ul> </p> <p>For more information, see the Target Preset section in <a href="../c-reports/c-report-settings/c-report-settings.md#concept_3A80D5A394EC4B639DC715E06085BDB0" format="dita" scope="local"> Report Settings </a>. </p> </td> 
+     </ul> </p> <p>For more information, see the Target Preset section in <a href="../c-reports/c-report-settings/report-settings.md#concept_3A80D5A394EC4B639DC715E06085BDB0" format="dita" scope="local"> Report Settings </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Profile scripts </p> </td> 
@@ -368,7 +368,7 @@ This release includes the following features and enhancements:
    <td colname="col2"> <p> 
      <ul id="ul_7765B69E679D4C94B1E863E340DFDE15"> 
       <li id="li_F2AF7E1AFBD6461990EF1D83D1989582"> <p>While selecting Recommendations criteria in the Form-Based Experience Composer, there is now a direct link to the selected Criteria card so you can quickly and easily edit the criteria. (TGT-28483) </p> <p>For more information, see <a href="../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E" format="dita" scope="local"> Form-Based Experience Composer </a>. </p> </li> 
-      <li id="li_517F0A174587416B8621D6F710C1AC48"> <p>Recommendations Criteria, Recommendations Promotions, and Template Testing rules creation now allow using the mbox parameter directly without having to mandatorily specify the mbox name. The mbox name is now optional. This change lets you use parameters from multiple mboxes or reference a parameter that has not yet been recorded on the edge. Alternately, you can also filter on mbox parameter with the mbox name filter. </p> <p>This same improvement has also been extended to Custom Audience creation. </p> <p>For more information, see <a href="../c-recommendations/c-recommendations-faq/c-recommendations-faq.md#concept_EF272DE4AC6C47B19026BFBE816F5DB8" format="dita" scope="local"> Recommendations FAQ </a>. </p> </li> 
+      <li id="li_517F0A174587416B8621D6F710C1AC48"> <p>Recommendations Criteria, Recommendations Promotions, and Template Testing rules creation now allow using the mbox parameter directly without having to mandatorily specify the mbox name. The mbox name is now optional. This change lets you use parameters from multiple mboxes or reference a parameter that has not yet been recorded on the edge. Alternately, you can also filter on mbox parameter with the mbox name filter. </p> <p>This same improvement has also been extended to Custom Audience creation. </p> <p>For more information, see <a href="../c-recommendations/c-recommendations-faq/recommendations-faq.md#concept_EF272DE4AC6C47B19026BFBE816F5DB8" format="dita" scope="local"> Recommendations FAQ </a>. </p> </li> 
       <li id="li_AAB242830D1E47B78E58A980B717C736"> <p>Updated the UI for Recommendations Design cards. </p> </li> 
       <li id="li_1BE3178663E54F4CA8714FE3ACDBB97B"> <p>The Target Recommendations API documentation can be found on the <a href="https://www.adobe.io/apis/experiencecloud/target/docs/getting-started.html" format="html" scope="external"> Adobe I/0 Adobe Target website </a> (https://www.adobe.io/apis/experiencecloud/target/docs/getting-started.html). </p> </li> 
      </ul> </p> </td> 
@@ -406,8 +406,8 @@ This release includes the following features and enhancements:
    <td colname="col1"> <p>Reports </p> </td> 
    <td colname="col2"> 
     <ul id="ul_EAB90C510EA04D6A8AEFF23A77DB2337"> 
-     <li id="li_47DA6EB92CC84FFDBFDC9CC9386AF654"> <p>You can now refresh a report to update the report's table and graph view without refreshing the entire page, its configuration, or its date range. (TGT-28125) </p> <p>For more information, see <a href="../c-reports/c-report-settings/c-report-settings.md#concept_3A80D5A394EC4B639DC715E06085BDB0" format="dita" scope="local"> Report Settings </a>. </p> </li> 
-     <li id="li_AB2DE7A45D914FD7AEB0832187AF3844"> <p>The calendar in reports now contains pre-defined date ranges, such as Last 7 Days, Last 15 Days, and so forth. (TGT-29171) </p> <p>For more information, see <a href="../c-reports/c-report-settings/c-report-settings.md#concept_3A80D5A394EC4B639DC715E06085BDB0" format="dita" scope="local"> Report Settings </a>. </p> </li> 
+     <li id="li_47DA6EB92CC84FFDBFDC9CC9386AF654"> <p>You can now refresh a report to update the report's table and graph view without refreshing the entire page, its configuration, or its date range. (TGT-28125) </p> <p>For more information, see <a href="../c-reports/c-report-settings/report-settings.md#concept_3A80D5A394EC4B639DC715E06085BDB0" format="dita" scope="local"> Report Settings </a>. </p> </li> 
+     <li id="li_AB2DE7A45D914FD7AEB0832187AF3844"> <p>The calendar in reports now contains pre-defined date ranges, such as Last 7 Days, Last 15 Days, and so forth. (TGT-29171) </p> <p>For more information, see <a href="../c-reports/c-report-settings/report-settings.md#concept_3A80D5A394EC4B639DC715E06085BDB0" format="dita" scope="local"> Report Settings </a>. </p> </li> 
      <li id="li_46DF9037E0ED4935B3BCDB35E8BED065"> <p>The table view column width was modified to reduce horizontal scrolling when multiple metrics are applied. (TGT-26575) </p> </li> 
     </ul> </td> 
   </tr> 
@@ -515,7 +515,7 @@ This release includes the following features and enhancements:
      <ul id="ul_BDD55AB34F4A43C691D2399C16AA3D6C"> 
       <li id="li_133C33E0D02E4861A4C855BD8A492E69"> <p>Custom Criteria are now configurable, like other criteria in recommendations. </p> </li> 
       <li id="li_AC201F0917BF465C985E8947635F762E"> <p>You can use collections, exclusions, and inclusions (including the special rules for Price and Inventory) in the same way as any other criteria. Collections and exclusions were already supported. This release adds inclusions. </p> </li> 
-     </ul> </p> <p>For more information, see <a href="../c-recommendations/c-algorithms/c-algorithms.md#concept_4BD01DC437F543C0A13621C93A302750" format="dita" scope="local"> Criteria </a>. </p> <p>(TGT-28488) </p> </td> 
+     </ul> </p> <p>For more information, see <a href="../c-recommendations/c-algorithms/algorithms.md#concept_4BD01DC437F543C0A13621C93A302750" format="dita" scope="local"> Criteria </a>. </p> <p>(TGT-28488) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> <p>Recommendations: Inclusion rules, collections, and exclusions for Recently Viewed Criteria </p> </td> 
@@ -523,7 +523,7 @@ This release includes the following features and enhancements:
      <ul id="ul_A2D260F01CA047EEA72EF56BD0EE88FA"> 
       <li id="li_DB107DD357B741CCB2B7A4FDAD16F9D6"> <p>Recently Viewed Criteria are now configurable, like other criteria in recommendations. </p> </li> 
       <li id="li_85452C03F0924D4C8D854509F1293021"> <p>You can use collections, exclusions, and inclusions (including the special rules for Price and Inventory) in the same way as any other criteria. Collections and exclusions were already supported. This release adds inclusions. </p> </li> 
-     </ul> </p> <p>For more information, see <a href="../c-recommendations/c-algorithms/c-algorithms.md#concept_4BD01DC437F543C0A13621C93A302750" format="dita" scope="local"> Criteria </a>. </p> <p>(TGT-22843) </p> </td> 
+     </ul> </p> <p>For more information, see <a href="../c-recommendations/c-algorithms/algorithms.md#concept_4BD01DC437F543C0A13621C93A302750" format="dita" scope="local"> Criteria </a>. </p> <p>(TGT-22843) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Target Extension for Adobe Launch </p> </td> 
@@ -616,7 +616,7 @@ This release includes the following features and enhancements:
      <ul id="ul_C595EEF916494342AD99FF0FDF999927"> 
       <li id="li_8C74478D3480406591DC876F69C19329"> <p>You can now view confidence intervals for continuous variables. (TGT-22085) </p> </li> 
       <li id="li_21B31F91685C46CAA47688FDE5735312"> <p>Target now displays lift bounds when statistically significant in reports.(TGT-27301, TGT-27794, and TGT-26387) </p> </li> 
-     </ul> </p> <p>See <a href="../c-reports/c-report-settings/c-report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA" format="dita" scope="local"> Report Settings </a>. </p> </td> 
+     </ul> </p> <p>See <a href="../c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA" format="dita" scope="local"> Report Settings </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Offers </p> </td> 
@@ -830,8 +830,8 @@ This release includes the following features and enhancements (issue numbers in 
    <td colname="col1"> <p>Reporting </p> </td> 
    <td colname="col2"> <p>The following new features and enhancements are available for reporting: </p> <p> 
      <ul id="ul_2D1AF91D1B4E478FBFFA0B83EE30075E"> 
-      <li id="li_98E67A4DA8BF4CFF90C279FAC12F4C54"> <p>You can choose the counting methodology for graphs in reports. Note that this is not supported in Auto-Target and Automated Personalization (AP) activities. </p> <p>For more information, see the "Counting Methodology" row in <a href="../c-reports/c-report-settings/c-report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA" format="dita" scope="local"> Report Settings </a>. </p> </li> 
-      <li id="li_5803CE90DB764C9E983702CB6C1AFEE3"> <p>You can view multiple metrics in a single report for Auto-Target A/B activities. (TGT-23464) </p> <p>For more information, see <a href="../c-reports/c-report-settings/c-view-multiple-metrics.md#concept_9E3C3F6F3EC1412FAF252975AC0720B7" format="dita" scope="local"> View Multiple Metrics in a Report </a>. </p> </li> 
+      <li id="li_98E67A4DA8BF4CFF90C279FAC12F4C54"> <p>You can choose the counting methodology for graphs in reports. Note that this is not supported in Auto-Target and Automated Personalization (AP) activities. </p> <p>For more information, see the "Counting Methodology" row in <a href="../c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA" format="dita" scope="local"> Report Settings </a>. </p> </li> 
+      <li id="li_5803CE90DB764C9E983702CB6C1AFEE3"> <p>You can view multiple metrics in a single report for Auto-Target A/B activities. (TGT-23464) </p> <p>For more information, see <a href="../c-reports/c-report-settings/view-multiple-metrics.md#concept_9E3C3F6F3EC1412FAF252975AC0720B7" format="dita" scope="local"> View Multiple Metrics in a Report </a>. </p> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
@@ -1029,7 +1029,7 @@ This [!DNL Target] release includes the following customer-facing enhancements, 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Reporting (Auto-Allocate A/B Tests) </p> </td> 
-   <td colname="col2"> <p>The ability to view multiple metrics is now available for Auto-Allocate A/B activities. </p> <p>For more information, see <a href="../c-reports/c-report-settings/c-view-multiple-metrics.md#concept_9E3C3F6F3EC1412FAF252975AC0720B7" format="dita" scope="local"> View Multiple Metrics in a Report </a>. </p> </td> 
+   <td colname="col2"> <p>The ability to view multiple metrics is now available for Auto-Allocate A/B activities. </p> <p>For more information, see <a href="../c-reports/c-report-settings/view-multiple-metrics.md#concept_9E3C3F6F3EC1412FAF252975AC0720B7" format="dita" scope="local"> View Multiple Metrics in a Report </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Audiences </p> </td> 
@@ -1165,7 +1165,7 @@ This [!DNL Target] release includes the following customer-facing enhancements a
   </tr> 
   <tr> 
    <td colname="col1"> <p>Reporting: A/B, XT, and Recommendations </p> </td> 
-   <td colname="col2"> <p>Reports for A/B, XT, and Recommendations activities include visual representations that let you visually see the confidence interval and lift so that you can more accurately determine a winner. You can mouse over the representations to see the actual numbers. This feature is not available for activities that use Analytics as the reporting source (A4T). </p> <p> <img src="assets/whisker.JPG" id="image_DFD8EED61D52497280066D55AD473479" /> </p> <p>For more information, see <a href="../c-reports/c-report-settings/c-report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA" format="dita" scope="local"> Report Settings </a>. </p> </td> 
+   <td colname="col2"> <p>Reports for A/B, XT, and Recommendations activities include visual representations that let you visually see the confidence interval and lift so that you can more accurately determine a winner. You can mouse over the representations to see the actual numbers. This feature is not available for activities that use Analytics as the reporting source (A4T). </p> <p> <img src="assets/whisker.JPG" id="image_DFD8EED61D52497280066D55AD473479" /> </p> <p>For more information, see <a href="../c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA" format="dita" scope="local"> Report Settings </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> <p>Automated Personalization (AP) activities </p> </td> 
@@ -1204,7 +1204,7 @@ This release includes the following features and enhancements:
  <tbody> 
   <tr> 
    <td colname="col1"> Reporting </td> 
-   <td colname="col2"> <p><b>View Multiple Goals/Metrics:</b> You can now view multiple metrics in A/B and Experience Targeting (XT) activities, with the exception of <a href="../c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4" format="dita" scope="local"> Auto-Allocate </a> and <a href="../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3" format="dita" scope="local"> Auto-Target </a> A/B activities. </p> <p>For more information, see <a href="../c-reports/c-report-settings/c-view-multiple-metrics.md#concept_9E3C3F6F3EC1412FAF252975AC0720B7" format="dita" scope="local"> View Multiple Metrics in a Report </a>. </p> </td> 
+   <td colname="col2"> <p><b>View Multiple Goals/Metrics:</b> You can now view multiple metrics in A/B and Experience Targeting (XT) activities, with the exception of <a href="../c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4" format="dita" scope="local"> Auto-Allocate </a> and <a href="../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3" format="dita" scope="local"> Auto-Target </a> A/B activities. </p> <p>For more information, see <a href="../c-reports/c-report-settings/view-multiple-metrics.md#concept_9E3C3F6F3EC1412FAF252975AC0720B7" format="dita" scope="local"> View Multiple Metrics in a Report </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1384,7 +1384,7 @@ This release includes the following features and enhancements:
       <li id="li_0B634602BB044AEDB26DAF78189AB833"> <p>The user interface for reports has been redesigned. </p> </li> 
       <li id="li_309435D10AE84E8795C4CCC1F36747F7"> <p>Target reports now have an option to reset reporting data to remove old data. (TGT-5933) </p> </li> 
       <li id="li_9D30BFCC4CD6461B9DDCD5797A5E2B3A"> <p>The counting methodology options for reporting includes Visitors (the default), Visits, and Activity Impressions. (TGT-10002) </p> </li> 
-     </ul> </p> <p>For more information, see <a href="../c-reports/c-report-settings/c-report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA" format="dita" scope="local"> Report Settings </a> and <a href="../c-reports/conversion-rate.md#concept_EC19BC897D66411BABAF2FA27BCE89AA" format="dita" scope="local"> Counting Methodology </a>. </p> <p>The following reporting enhancements are now available for downloadable CSV reports: </p> <p> 
+     </ul> </p> <p>For more information, see <a href="../c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA" format="dita" scope="local"> Report Settings </a> and <a href="../c-reports/conversion-rate.md#concept_EC19BC897D66411BABAF2FA27BCE89AA" format="dita" scope="local"> Counting Methodology </a>. </p> <p>The following reporting enhancements are now available for downloadable CSV reports: </p> <p> 
      <ul id="ul_18B0636A41B94F9F903ABFE3E13285DA"> 
       <li id="li_2422075AA0A34F868809C5D580FC5D4B"> <p>The offer-level CSV report now has additional details about each offer. (TGT-18995) </p> </li> 
       <li id="li_659D126E846348D4BE4544962F41539F"> <p>Downloaded offer-level CSV files now always include data from control and targeted segments for <span class="wintitle"> Automated Personalization </span> reports. (TGT-22000) </p> </li> 
@@ -1471,11 +1471,11 @@ This release includes the following features and enhancements:
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> Recommendations: Criteria set sequencing </td> 
-   <td colname="col2"> <p>Use sets of up to five pre-created criteria in a single experience for greater control over the recommendations presented to visitors. </p> <p>For more information, see <a href="../c-recommendations/c-algorithms/t-create-criteria-sequence.md#task_8A9CB465F28D44899F69F38AD27352FE" format="dita" scope="local"> Creating Criteria Sequences </a>. </p> </td> 
+   <td colname="col2"> <p>Use sets of up to five pre-created criteria in a single experience for greater control over the recommendations presented to visitors. </p> <p>For more information, see <a href="../c-recommendations/c-algorithms/create-criteria-sequence.md#task_8A9CB465F28D44899F69F38AD27352FE" format="dita" scope="local"> Creating Criteria Sequences </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> Recommendations: Insert external promotions </td> 
-   <td colname="col2"> <p>Add promoted items and control their placement in your Recommendations designs. </p> <p>For more information, see <a href="../c-recommendations/t-create-recs-activity/t-adding-promotions.md#task_CC5BD28C364742218C1ACAF0D45E0E14" format="dita" scope="local"> Adding Promotions </a>. </p> </td> 
+   <td colname="col2"> <p>Add promoted items and control their placement in your Recommendations designs. </p> <p>For more information, see <a href="../c-recommendations/t-create-recs-activity/adding-promotions.md#task_CC5BD28C364742218C1ACAF0D45E0E14" format="dita" scope="local"> Adding Promotions </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1" class="firstlook"> <p><b>First Look</b> </p> Auto-targeting in A/B activities </td> 
@@ -1735,7 +1735,7 @@ The Adobe Target Standard/Premium 16.7.1 (July 21, 2016) release includes the fo
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> Multi-valued Recommendations attributes </td> 
-   <td colname="col2"> <p>All custom <span class="keyword"> Recommendations </span> attributes can now contain multiple entity values. </p> <p>For more information, see <a href="../c-recommendations/c-products/c-custom-entity-attributes.md#concept_E5CF39BCAC8140309A73828706288322" format="dita" scope="local"> Custom Entity Attributes </a>. </p> </td> 
+   <td colname="col2"> <p>All custom <span class="keyword"> Recommendations </span> attributes can now contain multiple entity values. </p> <p>For more information, see <a href="../c-recommendations/c-products/custom-entity-attributes.md#concept_E5CF39BCAC8140309A73828706288322" format="dita" scope="local"> Custom Entity Attributes </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Dynamic/remote offer support </td> 
@@ -2112,7 +2112,7 @@ This release includes the following features and enhancements:
   </tr> 
   <tr> 
    <td colname="col1"> <p class="premium">Recommendations: </p> <p>Change in global mbox delivery coding </p> </td> 
-   <td colname="col2"> <p>When creating a design, it is now the default to wrap an HTML design in a <span class="codeph"> &lt;div&gt; </span> element. </p> <p>For information about creating a design, see <a href="../c-recommendations/c-design-overview/t-create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14" format="dita" scope="local"> Create a Design </a>. </p> </td> 
+   <td colname="col2"> <p>When creating a design, it is now the default to wrap an HTML design in a <span class="codeph"> &lt;div&gt; </span> element. </p> <p>For information about creating a design, see <a href="../c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14" format="dita" scope="local"> Create a Design </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Life Time Value (LTV) machine learning reinforcement technique </p> </td> 
@@ -2197,7 +2197,7 @@ This release includes the following features and enhancements:
       <li id="li_60B55A81119E48FE83639B9740A2FD21">Target visitors based on which language they use on their browser. This is more accurate than geo-based language targeting. </li> 
       <li id="li_84CAAE7E02CA48FA9C7C00C0415046B6">Target visitors based on browser version, not just which browser is being used. </li> 
       <li id="li_AAF8170CAF4C45BB965D1A9A4E9204D5">You can now Target multiple browsers rather than only one. </li> 
-     </ul> </p> <p>See <a href="../c-target/c-audiences/c-target-rules/c-browser.md#concept_221D8EEF53CC45AEACEB17CF336A3658" format="dita" scope="local"> Browser Options </a>. </p> </td> 
+     </ul> </p> <p>See <a href="../c-target/c-audiences/c-target-rules/browser.md#concept_221D8EEF53CC45AEACEB17CF336A3658" format="dita" scope="local"> Browser Options </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> <p class="Premium">Recommendations </p> <p class="Premium">Exclude Past Purchases </p> </td> 
@@ -2243,7 +2243,7 @@ This release includes the following features and enhancements:
       <li id="li_1B44AB35B045416B8D8B72C428750822">More Content Like This </li> 
       <li id="li_FEC84CCF3DF3444DAB39F4764DE897B0">More Slideshows Like This </li> 
       <li id="li_5E874ACB5B004CACBDB4F8FF217BC593">More Products Like This </li> 
-     </ul> </p> <p>See <a href="../c-recommendations/c-algorithms/c-algorithms.md#concept_4BD01DC437F543C0A13621C93A302750" format="dita" scope="local"> Criteria </a>. </p> </td> 
+     </ul> </p> <p>See <a href="../c-recommendations/c-algorithms/algorithms.md#concept_4BD01DC437F543C0A13621C93A302750" format="dita" scope="local"> Criteria </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Enhancement: Improved reporting details shown when using Analytics as your reporting source. </td> 

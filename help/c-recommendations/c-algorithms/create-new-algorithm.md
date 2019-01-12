@@ -55,7 +55,7 @@ There are multiple ways to reach the [!UICONTROL Create New Criteria] screen. So
    For more information about basing criteria on a key, see [Base the Recommendation on a Recommendation Key](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_2B0ED54AFBF64C56916B6E1F4DC0DC3B). 
 1. Select the **[!UICONTROL Recommendation Logic]**.
 
-   For more information about recommendation logic options, see [Criteria](../../c-recommendations/c-algorithms/c-algorithms.md#concept_4BD01DC437F543C0A13621C93A302750).
+   For more information about recommendation logic options, see [Criteria](../../c-recommendations/c-algorithms/algorithms.md#concept_4BD01DC437F543C0A13621C93A302750).
 
    >[!NOTE]
    >

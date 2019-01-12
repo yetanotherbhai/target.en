@@ -43,7 +43,7 @@ What you need to know before creating a [!DNL Recommendations] activity.
   <tr> 
    <td colname="col1"> <p> <img src="assets/step3_red.png" id="image_9A3BE89D45F84FE09B8F8E7751470F83" /> </p> </td> 
    <td colname="col2"> <p>Attributes </p> </td> 
-   <td colname="col3"> <p>Attributes provide more specific information about the products you want to display. For example, you might want to show products within a certain price range, or items that meet an inventory threshold. Attributes can be provided in the mbox or through a <a href="../c-recommendations/c-products/feeds.md#concept_1228B31E3D0B483B9DD42C5E2AE436E3" format="dita" scope="local"> feed </a>. </p> <p>See <a href="../c-recommendations/c-algorithms/create-new-algorithm.md#task_28DB20F968B1451481D8E51BAF947079" format="dita" scope="local"> Inclusion Rules </a> and <a href="../c-recommendations/c-products/r-entity-attributes.md#reference_3BCC1383FB3F44F4A2120BB36270387F" format="dita" scope="local"> Entity Attributes </a>. </p> </td> 
+   <td colname="col3"> <p>Attributes provide more specific information about the products you want to display. For example, you might want to show products within a certain price range, or items that meet an inventory threshold. Attributes can be provided in the mbox or through a <a href="../c-recommendations/c-products/feeds.md#concept_1228B31E3D0B483B9DD42C5E2AE436E3" format="dita" scope="local"> feed </a>. </p> <p>See <a href="../c-recommendations/c-algorithms/create-new-algorithm.md#task_28DB20F968B1451481D8E51BAF947079" format="dita" scope="local"> Inclusion Rules </a> and <a href="../c-recommendations/c-products/entity-attributes.md#reference_3BCC1383FB3F44F4A2120BB36270387F" format="dita" scope="local"> Entity Attributes </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <img src="assets/step4_red.png" id="image_933D0A2340CF423B8970DF4336F9C0C4" /> </p> </td> 
@@ -171,7 +171,7 @@ recs/r_implementation_page_type.xml
 
 For example, the types of recommendations you want to present may be different on a product page than on a category page or your home page. For each page, you can run specific functions prior to the mbox call to display the appropriate recommendations.
 
-For information about the attributes in the examples, see [Entity Attributes](../c-recommendations/c-products/r-entity-attributes.md#reference_3BCC1383FB3F44F4A2120BB36270387F).
+For information about the attributes in the examples, see [Entity Attributes](../c-recommendations/c-products/entity-attributes.md#reference_3BCC1383FB3F44F4A2120BB36270387F).
 
 Valid JSON formatting is required.
 
@@ -290,7 +290,7 @@ The following options are available:
   </tr> 
   <tr> 
    <td colname="col1"> <p>Filter Incompatible Criteria </p> </td> 
-   <td colname="col2"> <p>Enable this option to show only those criteria where the selected page passes the required data. Not every criteria will run correctly on every page. The page or mbox needs to pass in <span class="codeph"> entity.id </span> or <span class="codeph"> entity.categoryId </span> for the current item/current category recommendations to be compatible. In general, it is best to show only compatible criteria. However, if you want incompatible criteria to be available for the activity, uncheck this option. </p> <p> It is recommended that you disable this option if using a tag management solution. </p> <p>For more information about this option, see <a href="../c-recommendations/c-recommendations-faq/c-recommendations-faq.md#concept_EF272DE4AC6C47B19026BFBE816F5DB8" format="dita" scope="local"> Recommendations FAQ </a>. </p> </td> 
+   <td colname="col2"> <p>Enable this option to show only those criteria where the selected page passes the required data. Not every criteria will run correctly on every page. The page or mbox needs to pass in <span class="codeph"> entity.id </span> or <span class="codeph"> entity.categoryId </span> for the current item/current category recommendations to be compatible. In general, it is best to show only compatible criteria. However, if you want incompatible criteria to be available for the activity, uncheck this option. </p> <p> It is recommended that you disable this option if using a tag management solution. </p> <p>For more information about this option, see <a href="../c-recommendations/c-recommendations-faq/recommendations-faq.md#concept_EF272DE4AC6C47B19026BFBE816F5DB8" format="dita" scope="local"> Recommendations FAQ </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Default Host Group </p> </td> 

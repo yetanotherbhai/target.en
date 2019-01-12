@@ -19,7 +19,7 @@ Use feeds to get entities imported into Recommendations. Entities can be sent us
 
 Use feeds to get entities imported into Recommendations. Entities can be sent using CSV files, the Google Product Search feed format, and/or Adobe Analytics product classifications. 
 
-Feeds allow you to pass [Entities](../../c-recommendations/c-products/c-products.md#concept_FD935A24D98745FFB2447933FCEB8062) or augment your mbox data with information that is either unavailable on the page or is unsafe to send directly from the page, such as margin, COGS, and so on.
+Feeds allow you to pass [Entities](../../c-recommendations/c-products/products.md#concept_FD935A24D98745FFB2447933FCEB8062) or augment your mbox data with information that is either unavailable on the page or is unsafe to send directly from the page, such as margin, COGS, and so on.
 
 You can select which columns from your Adobe Target product classifications file or Google Product Search file you want to send to the [!DNL Recommendations] server. These pieces of data about each item can then be used in template display and for controlling recommendations.
 

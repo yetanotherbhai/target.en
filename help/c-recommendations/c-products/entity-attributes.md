@@ -110,7 +110,7 @@ The following table describes the available variables.
      </code> </p> <p>Custom entity attributes support multiple values. A multi-value entity attribute can include up to 100 values. Each value can be up to 100 characters. Values that exceed 100 characters are ignored. </p> <p>Example: </p> <p> 
      <code>
        'entity.secondary=["band1",&amp;nbsp;"band2"]' 
-     </code> </p> <p> <p>Note:  Multi-value custom entity attributes require valid JSON arrays. For correct syntax information, see <a href="../../c-recommendations/c-products/c-custom-entity-attributes.md#concept_E5CF39BCAC8140309A73828706288322" format="dita" scope="local"> Custom Entity Attributes </a>. </p> </p> </td> 
+     </code> </p> <p> <p>Note:  Multi-value custom entity attributes require valid JSON arrays. For correct syntax information, see <a href="../../c-recommendations/c-products/custom-entity-attributes.md#concept_E5CF39BCAC8140309A73828706288322" format="dita" scope="local"> Custom Entity Attributes </a>. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> entity.event.detailsOnly </span> </p> <p>Single-value only. </p> </td> 
@@ -190,4 +190,4 @@ If the mbox is on a product page, you can include both the product ID and catego
 
 >[!MORE_LIKE_THIS]
 >
->* [Custom Entity Attributes](../../c-recommendations/c-products/c-custom-entity-attributes.md#concept_E5CF39BCAC8140309A73828706288322)
+>* [Custom Entity Attributes](../../c-recommendations/c-products/custom-entity-attributes.md#concept_E5CF39BCAC8140309A73828706288322)

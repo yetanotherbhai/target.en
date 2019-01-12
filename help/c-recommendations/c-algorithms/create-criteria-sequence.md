@@ -86,4 +86,4 @@ There are multiple ways to reach the [!UICONTROL Create Criteria Sequence] scree
 
    ![](assets/CriteriaSequenceCard.png)
 
-   For more information about recommendation logic options, see [Criteria](../../c-recommendations/c-algorithms/c-algorithms.md#concept_4BD01DC437F543C0A13621C93A302750). 
+   For more information about recommendation logic options, see [Criteria](../../c-recommendations/c-algorithms/algorithms.md#concept_4BD01DC437F543C0A13621C93A302750). 

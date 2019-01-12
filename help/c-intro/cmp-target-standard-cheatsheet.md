@@ -338,7 +338,7 @@ A list of frequently asked questions about using the features in Adobe Target, a
   </tr> 
   <tr> 
    <td colname="col1"> <p>Can I clean up reports and start recording data going forward? For example, initial hits recorded were due to my own test hits on the activity. </p> </td> 
-   <td colname="col2"> <p>Use the <a href="../c-reports/c-report-settings/c-report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA" format="dita" scope="local"> Reset Report Data</a> feature. </p> </td> 
+   <td colname="col2"> <p>Use the <a href="../c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA" format="dita" scope="local"> Reset Report Data</a> feature. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Can I perform offline reporting calculations? </p> </td> 
@@ -346,11 +346,11 @@ A list of frequently asked questions about using the features in Adobe Target, a
   </tr> 
   <tr> 
    <td colname="col1"> <p>Can I change the control experience for evaluating reports or change the counting methodology from Visitors to Visits? </p> </td> 
-   <td colname="col2"> <p>Make these changes using the<a href="../c-reports/c-report-settings/c-report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA" format="dita" scope="local"> Settings gear on the reports page</a>. Read more about these settings to understand how the calculations vary. </p> </td> 
+   <td colname="col2"> <p>Make these changes using the<a href="../c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA" format="dita" scope="local"> Settings gear on the reports page</a>. Read more about these settings to understand how the calculations vary. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>How should I interpret reports? </p> </td> 
-   <td colname="col2"> <p>We have tried to make reports as intuitive as possible with features like <a href="../c-reports/c-report-settings/c-report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA" format="dita" scope="local"> confidence Interval bars, lift bounds, significance/confidence and multiple metric selections, table and graph views, running averages, and more</a> to allow for powerful, yet easy, report analysis. Obviously, you can look into Analytics if you are using<a href="../c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE" format="dita" scope="local"> Analytics for Target (A4T)</a> activities for further analysis on audiences. </p> </td> 
+   <td colname="col2"> <p>We have tried to make reports as intuitive as possible with features like <a href="../c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA" format="dita" scope="local"> confidence Interval bars, lift bounds, significance/confidence and multiple metric selections, table and graph views, running averages, and more</a> to allow for powerful, yet easy, report analysis. Obviously, you can look into Analytics if you are using<a href="../c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE" format="dita" scope="local"> Analytics for Target (A4T)</a> activities for further analysis on audiences. </p> </td> 
   </tr> 
  </tbody> 
 </table>

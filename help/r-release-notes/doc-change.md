@@ -520,7 +520,7 @@ This page lists important changes made to the Target documentation.
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
-   <td colname="col2"> <p> <a href="../c-recommendations/c-recommendations-faq/c-recommendations-faq.md#concept_EF272DE4AC6C47B19026BFBE816F5DB8" format="dita" scope="local"> Recommendations FAQ </a> </p> </td> 
+   <td colname="col2"> <p> <a href="../c-recommendations/c-recommendations-faq/recommendations-faq.md#concept_EF272DE4AC6C47B19026BFBE816F5DB8" format="dita" scope="local"> Recommendations FAQ </a> </p> </td> 
    <td colname="col3"> <p>Changed the required Velocity version to 1.7. </p> </td> 
   </tr> 
   <tr> 
@@ -535,7 +535,7 @@ This page lists important changes made to the Target documentation.
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
-   <td colname="col2"> <p> <a href="../c-recommendations/c-recommendations-faq/c-recommendations-faq.md#concept_EF272DE4AC6C47B19026BFBE816F5DB8" format="dita" scope="local"> Recommendations FAQ </a> </p> </td> 
+   <td colname="col2"> <p> <a href="../c-recommendations/c-recommendations-faq/recommendations-faq.md#concept_EF272DE4AC6C47B19026BFBE816F5DB8" format="dita" scope="local"> Recommendations FAQ </a> </p> </td> 
    <td colname="col3"> <p>Added following FAQ: What is the maximum size of a CSV file for a feed upload? </p> </td> 
   </tr> 
   <tr> 
@@ -550,7 +550,7 @@ This page lists important changes made to the Target documentation.
   </tr> 
   <tr> 
    <td colname="col1"> September 7, 2018 </td> 
-   <td colname="col2"> <p> <a href="../c-recommendations/c-recommendations-faq/c-recommendations-faq.md#concept_EF272DE4AC6C47B19026BFBE816F5DB8" format="dita" scope="local"> Recommendations FAQ </a> </p> </td> 
+   <td colname="col2"> <p> <a href="../c-recommendations/c-recommendations-faq/recommendations-faq.md#concept_EF272DE4AC6C47B19026BFBE816F5DB8" format="dita" scope="local"> Recommendations FAQ </a> </p> </td> 
    <td colname="col3"> <p>Added new FAQ: Why can't I save my legacy Recommendations activity after defining a new audience? </p> </td> 
   </tr> 
   <tr> 
@@ -573,7 +573,7 @@ This page lists important changes made to the Target documentation.
   </tr> 
   <tr> 
    <td colname="col1"> August 28, 2018 </td> 
-   <td colname="col2"> <p> <a href="../c-recommendations/c-products/r-entity-attributes.md#reference_3BCC1383FB3F44F4A2120BB36270387F" format="dita" scope="local"> Entity Attributes </a> </p> </td> 
+   <td colname="col2"> <p> <a href="../c-recommendations/c-products/entity-attributes.md#reference_3BCC1383FB3F44F4A2120BB36270387F" format="dita" scope="local"> Entity Attributes </a> </p> </td> 
    <td colname="col3"> <p>Updated the entity ID row. </p> </td> 
   </tr> 
   <tr> 

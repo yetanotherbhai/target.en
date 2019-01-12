@@ -60,7 +60,7 @@ The following sections provide more information about setting up and reporting o
   </tr> 
   <tr> 
    <td colname="col1"> <p>View reports with information about your audience filters. </p> </td> 
-   <td colname="col2"> <p><a href="../c-reports/c-report-settings/c-report-settings.md#concept_3A80D5A394EC4B639DC715E06085BDB0" format="dita" scope="local"> Report Settings</a> </p> </td> 
+   <td colname="col2"> <p><a href="../c-reports/c-report-settings/report-settings.md#concept_3A80D5A394EC4B639DC715E06085BDB0" format="dita" scope="local"> Report Settings</a> </p> </td> 
   </tr> 
  </tbody> 
 </table>

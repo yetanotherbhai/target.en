@@ -88,7 +88,7 @@ Click the **[!UICONTROL Report Metric]** drop-down list to select a different [s
 
 By default, the primary metric is determined in the success metrics setup when you create the activity. If you change the setup and re-save the activity, the primary metric for reporting is updated.
 
-For more information about selecting multiple metrics to view in reports, see [View Multiple Metrics in a Report](../../c-reports/c-report-settings/c-view-multiple-metrics.md#concept_9E3C3F6F3EC1412FAF252975AC0720B7).
+For more information about selecting multiple metrics to view in reports, see [View Multiple Metrics in a Report](../../c-reports/c-report-settings/view-multiple-metrics.md#concept_9E3C3F6F3EC1412FAF252975AC0720B7).
 
 ## Audience {#section_70926EB4618945D9AFF2B0564FF3717B}
 
@@ -136,7 +136,7 @@ Depending on the selected activity type, the options vary:
   >
   >This is a permanent action and cannot be undone.
 
-* **Exclude Extreme Values:** The [!UICONTROL Exclude Extreme Values] toggle applies to activities with Revenue and Engagement metric types only. For more information, see [Excluding Extreme Orders](../../c-reports/c-report-settings/t-excluding-extreme-orders.md#task_2AE7743FFCDD466DAEEB720BE5F33DAA).
+* **Exclude Extreme Values:** The [!UICONTROL Exclude Extreme Values] toggle applies to activities with Revenue and Engagement metric types only. For more information, see [Excluding Extreme Orders](../../c-reports/c-report-settings/excluding-extreme-orders.md#task_2AE7743FFCDD466DAEEB720BE5F33DAA).
 
 ## Download {#section_77E65C50BAAF4AB79242DB3A8778ADEF}
 

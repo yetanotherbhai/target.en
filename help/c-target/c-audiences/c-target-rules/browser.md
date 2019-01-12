@@ -59,9 +59,9 @@ There are two ways to target browsers:
 
     1. Click **[!UICONTROL Select]**, then select one of the following options:
 
-        * **Type:** Target or exclude a certain browser. See [Type](../../../c-target/c-audiences/c-target-rules/c-browser.md#section_6ADC758F23F145B3A310151546D83D56). 
-        * **Language:** Target or exclude a certain browsers that are set to use specific languages. See [Language](../../../c-target/c-audiences/c-target-rules/c-browser.md#section_7520D1AA464A45A6843EABE2D2B431A1). 
-        * **Version:** Target or exclude certain browser versions. See [Version](../../../c-target/c-audiences/c-target-rules/c-browser.md#section_37CC8CE45DA04E8682AE6388321BA6EF).
+        * **Type:** Target or exclude a certain browser. See [Type](../../../c-target/c-audiences/c-target-rules/browser.md#section_6ADC758F23F145B3A310151546D83D56). 
+        * **Language:** Target or exclude a certain browsers that are set to use specific languages. See [Language](../../../c-target/c-audiences/c-target-rules/browser.md#section_7520D1AA464A45A6843EABE2D2B431A1). 
+        * **Version:** Target or exclude certain browser versions. See [Version](../../../c-target/c-audiences/c-target-rules/browser.md#section_37CC8CE45DA04E8682AE6388321BA6EF).
 
     1. (Optional) Click **[!UICONTROL Add Rule]** and set up additional rules for the audience. 
     1. Click **[!UICONTROL Save]**.

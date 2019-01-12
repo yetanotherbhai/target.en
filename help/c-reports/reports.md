@@ -95,7 +95,7 @@ In addition to the general reporting information in this topic and its subtopics
    >
    >Experience results appear after at least one entrant has seen the experience.
 
-1. (Optional) [Configure the report](../c-reports/c-report-settings/c-report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA), as desired. 
+1. (Optional) [Configure the report](../c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA), as desired. 
 1. (Optional) [Download the report in CSV format](../c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75) for analysis in Excel and other tools.
 
    The following options are available:
