@@ -54,14 +54,14 @@ In addition to the general reporting information in this topic and its subtopics
    <td colname="col1"> <p><a href="../c-activities/c-multivariate-testing/multivariate-testing.md#concept_628695CDC71B449B8DCC2F5654C11499" format="dita" scope="local"> Multivariate Test</a> (MVT) </p> </td> 
    <td colname="col2"> <p> 
      <ul id="ul_335ECDC31B0B45EC831EDA824A85B096"> 
-      <li id="li_967E0EC06E914E308F8F985D505C1339"> <p>Information about the two reports for MVT activities: Experience Performance report and Location Contribution report.. For more information, see <a href="../c-reports/c-experience-performance-report.md#concept_4470C6A177924695A6595B54E3A7FD90" format="dita" scope="local"> Experience Performance Report (MVT)</a> and <a href="../c-reports/c-location-contribution-report.md#concept_95A285CEDB674FE7A05B323AA2771906" format="dita" scope="local"> Location Contribution Report (MVT)</a>. </p> </li> 
+      <li id="li_967E0EC06E914E308F8F985D505C1339"> <p>Information about the two reports for MVT activities: Experience Performance report and Location Contribution report.. For more information, see <a href="../c-reports/experience-performance-report.md#concept_4470C6A177924695A6595B54E3A7FD90" format="dita" scope="local"> Experience Performance Report (MVT)</a> and <a href="../c-reports/location-contribution-report.md#concept_95A285CEDB674FE7A05B323AA2771906" format="dita" scope="local"> Location Contribution Report (MVT)</a>. </p> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><a href="../c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE" format="dita" scope="local"> Adobe Analytics as the Reporting Source for Adobe Target (A4T)</a> </p> </td> 
    <td colname="col2"> <p> 
      <ul id="ul_31083A6CAA3C4DF58996460347AB1C8D"> 
-      <li id="li_981A84CA7169459ABC3EF49E1BD16B02"> <p>Information about using Adobe Analytics as the reporting source for Target. A4T gives you access to Analytics reports for your Target activities. For more information, see <a href="../c-reports/c-analytics-for-target-a4t-reporting.md#concept_49805AB5ADEB4CD4A95F60C75918FF16" format="dita" scope="local"> Analytics for Target (A4T) Reporting</a>. </p> </li> 
+      <li id="li_981A84CA7169459ABC3EF49E1BD16B02"> <p>Information about using Adobe Analytics as the reporting source for Target. A4T gives you access to Analytics reports for your Target activities. For more information, see <a href="../c-reports/analytics-for-target-a4t-reporting.md#concept_49805AB5ADEB4CD4A95F60C75918FF16" format="dita" scope="local"> Analytics for Target (A4T) Reporting</a>. </p> </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 

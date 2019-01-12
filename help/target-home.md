@@ -20,7 +20,7 @@ The following sections point you to useful links in this guide, arraigned by int
 Marketers, developers, administrators, analysts, and quality assurance engineers.
 
 - [Target release notes](r-release-notes/release-notes.md): Contains information about the current release, information about known issues that affect [!DNL Target], a list important changes to this documentation, and an archive of past release notes.
-- [Introduction to Target](c-intro/c-intro.md): Explains the core concepts of the [!DNL Target] solution.
+- [Introduction to Target](c-intro/intro.md): Explains the core concepts of the [!DNL Target] solution.
 - [Integrate Target with the Adobe Experience Cloud](c-integrating-target-with-mac/c-integrating-target-with-mac.md): Explains how to integrate [!DNL Target] with other [!DNL Experience Cloud] solutions, including [!DNL Analytics] for [!DNL Target] (A4T), [!DNL Experience Cloud Audiences], [!DNL Adobe Campaign], and the [!DNL Experience Cloud Device Co-op].
 - [Troubleshooting Target](r-troubleshooting-target/troubleshooting-target.md): Provides links to troubleshooting information contained in this guide, including information about the character limits and other limits (offer size, audiences, profiles, values, parameters, etc.) that affect activities and other elements in [!DNL Target].
 - [Target for mobile apps](c-target-mobile-app/target-mobile-app.md): Explains how [!DNL Target] can be used for mobile app optimization and personalization.

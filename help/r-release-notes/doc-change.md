@@ -212,7 +212,7 @@ This page lists important changes made to the Target documentation.
   </tr> 
   <tr> 
    <td colname="col1"> November 5, 2018 </td> 
-   <td colname="col2"> <p> <a href="../c-recommendations/c-recommendations-faq/r-integrating-recs-email.md#reference_256B16C894864F24AF970E43DC174420" format="dita" scope="local"> Integrate Recommendations with email </a> </p> </td> 
+   <td colname="col2"> <p> <a href="../c-recommendations/c-recommendations-faq/integrating-recs-email.md#reference_256B16C894864F24AF970E43DC174420" format="dita" scope="local"> Integrate Recommendations with email </a> </p> </td> 
    <td colname="col3"> <p>Updated link in Option 3. </p> </td> 
   </tr> 
   <tr> 
@@ -335,7 +335,7 @@ This page lists important changes made to the Target documentation.
   </tr> 
   <tr> 
    <td colname="col1"> October 18, 2018 </td> 
-   <td colname="col2"> <p> <a href="../c-recommendations/c-recommendations-faq/c-ip-addresses-marketing-cloud.md#concept_216F959FF18143D6A3BA0BE937918580" format="dita" scope="local"> IP Addresses Used by Recommendations Feed-Processing Servers </a> </p> </td> 
+   <td colname="col2"> <p> <a href="../c-recommendations/c-recommendations-faq/ip-addresses-marketing-cloud.md#concept_216F959FF18143D6A3BA0BE937918580" format="dita" scope="local"> IP Addresses Used by Recommendations Feed-Processing Servers </a> </p> </td> 
    <td colname="col3"> <p>Updated IP address range used by Target Recommendations activities. </p> <p>Added IP address range used by Target Recommendations APIs. </p> </td> 
   </tr> 
   <tr> 
@@ -355,12 +355,12 @@ This page lists important changes made to the Target documentation.
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
-   <td colname="col2"> <p> <a href="../c-recommendations/c-recommendations-faq/c-ip-addresses-marketing-cloud.md#concept_216F959FF18143D6A3BA0BE937918580" format="dita" scope="local"> IP Addresses Used by Recommendations Feed-Processing Servers </a> </p> </td> 
+   <td colname="col2"> <p> <a href="../c-recommendations/c-recommendations-faq/ip-addresses-marketing-cloud.md#concept_216F959FF18143D6A3BA0BE937918580" format="dita" scope="local"> IP Addresses Used by Recommendations Feed-Processing Servers </a> </p> </td> 
    <td colname="col3"> <p>Edited text to indicate that <span class="wintitle"> Recommendations </span> activities use IP addresses located in the Oregon data center. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> October 8, 2018 </td> 
-   <td colname="col2"> <p> <a href="../c-recommendations/c-recommendations-faq/c-ip-addresses-marketing-cloud.md#concept_216F959FF18143D6A3BA0BE937918580" format="dita" scope="local"> IP Addresses Used by Recommendations Feed-Processing Servers </a> </p> </td> 
+   <td colname="col2"> <p> <a href="../c-recommendations/c-recommendations-faq/ip-addresses-marketing-cloud.md#concept_216F959FF18143D6A3BA0BE937918580" format="dita" scope="local"> IP Addresses Used by Recommendations Feed-Processing Servers </a> </p> </td> 
    <td colname="col3"> <p>Added new IP address range for the CIDR Notation 192.243.242.0/24. </p> </td> 
   </tr> 
   <tr> 
@@ -401,7 +401,7 @@ This page lists important changes made to the Target documentation.
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
-   <td colname="col2"> <p> <a href="../c-recommendations/c-products/t-exclusions.md#task_E79DA82BA402415FB41232976EDEF1CA" format="dita" scope="local"> Exclusions </a> </p> </td> 
+   <td colname="col2"> <p> <a href="../c-recommendations/c-products/exclusions.md#task_E79DA82BA402415FB41232976EDEF1CA" format="dita" scope="local"> Exclusions </a> </p> </td> 
    <td colname="col3"> <p>Added note after Step 1. </p> </td> 
   </tr> 
   <tr> 
@@ -446,7 +446,7 @@ This page lists important changes made to the Target documentation.
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
-   <td colname="col2"> <p> <a href="../c-recommendations/c-recommendations-faq/r-integrating-recs-email.md#reference_256B16C894864F24AF970E43DC174420" format="dita" scope="local"> Integrating Recommendations with Email </a> </p> </td> 
+   <td colname="col2"> <p> <a href="../c-recommendations/c-recommendations-faq/integrating-recs-email.md#reference_256B16C894864F24AF970E43DC174420" format="dita" scope="local"> Integrating Recommendations with Email </a> </p> </td> 
    <td colname="col3"> <p>Updated note under "Option 1: Use the Delivery API." </p> </td> 
   </tr> 
   <tr> 

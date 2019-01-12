@@ -65,7 +65,7 @@ Use the Target Visual Experience Composer (VEC) to create a Recommendations acti
 1. Click **[!UICONTROL Next]**.
 1. Select a design.
 
-   A design is a template that determines the look of the locations on your page. [!DNL Target] includes several preconfigured designs. You can also create your own custom designs. For more information, see [Create a Design](../../c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14) and [Customizing a Design](../../c-recommendations/c-design-overview/c-customizing-a-template.md#concept_94F1554C3F2E4CDB9A2C3D78F10EDA59).
+   A design is a template that determines the look of the locations on your page. [!DNL Target] includes several preconfigured designs. You can also create your own custom designs. For more information, see [Create a Design](../../c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14) and [Customizing a Design](../../c-recommendations/c-design-overview/customizing-a-template.md#concept_94F1554C3F2E4CDB9A2C3D78F10EDA59).
 
    ![](assets/Card_SelectDesign.png)
 

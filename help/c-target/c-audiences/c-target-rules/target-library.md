@@ -12,7 +12,7 @@ uuid: 62e894a8-e3ca-4c1d-883a-976daf041506
 
 Target users based on pre-built targeting rules.
 
-The pre-built audiences in the Target Library category are legacy audiences and exist in other categories. For more information and best practices, see [Targets and Audiences Frequently Asked Questions](../../../c-target/c-troubleshooting-targets-and-audiences/c-troubleshooting-targets-and-audiences.md#concept_C4EE4B8F4840430CBD798D579A8F208D).
+The pre-built audiences in the Target Library category are legacy audiences and exist in other categories. For more information and best practices, see [Targets and Audiences Frequently Asked Questions](../../../c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md#concept_C4EE4B8F4840430CBD798D579A8F208D).
 
 >[!NOTE]
 >
