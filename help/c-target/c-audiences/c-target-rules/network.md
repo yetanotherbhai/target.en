@@ -12,15 +12,6 @@ uuid: 06b9c92a-e9bd-4444-abbc-7b6dffcefea7
 
 You can create audiences based on network details.
 
-**Creating Audiences (9:58)**
-
-This video includes information about using audience categories.
-
-* Create audiences 
-* Define audience categories
-
->[!VIDEO](https://www.youtube.com/watch?v=wV9lVTSOxMk)
-
 1. In the [!DNL Target] interface, click **[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]**. 
 1. Name the audience. 
 1. Click **[!UICONTROL Add Rule]** > **[!UICONTROL Network]**.
@@ -65,3 +56,11 @@ This video includes information about using audience categories.
 1. (Optional) Click **[!UICONTROL Add Rule]** and set up additional rules for the audience. 
 1. Click **[!UICONTROL Save]**.
 
+Training Video: Creating Audiences
+
+This video includes information about using audience categories.
+
+* Create audiences 
+* Define audience categories
+
+>[!VIDEO](https://www.youtube.com/watch?v=wV9lVTSOxMk)

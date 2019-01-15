@@ -20,26 +20,14 @@ You can target users who use a specific browser or specific browser options when
 
 The following browsers can be targeted:
 
-<table id="table_71E18114B6E2469C836D9A8067BFA811"> 
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Chrome </p> </td> 
-   <td colname="col2"> <p>Microsoft Edge </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Firefox </p> </td> 
-   <td colname="col2"> <p>Opera </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Safari </p> </td> 
-   <td colname="col2"> <p>iPad </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Internet Explorer </p> </td> 
-   <td colname="col2"> <p>iPhone </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+* Chrome
+* Microsoft Edge
+* Firefox
+* Opera
+* Safari
+* iPad
+* Internet Explorer
+* iPhone|
 
 There are two ways to target browsers:
 
@@ -70,26 +58,11 @@ The following example shows an audience that includes Internet Explorer users on
 
 ![](assets/target_exclude_ie.png)
 
-**Creating Audiences (9:58)**
-
-This video includes information about using audience categories.
-
-* Create audiences 
-* Define audience categories
-
->[!VIDEO](https://www.youtube.com/watch?v=wV9lVTSOxMk) 
-
 ## Browser Options {#concept_221D8EEF53CC45AEACEB17CF336A3658}
 
 Target or exclude activity entrants based on their browser type, language, or version.
 
-## Type {#section_6ADC758F23F145B3A310151546D83D56}
-
-<!-- 
-
-target/c_browser_options.xml
-
- -->
+### Type {#section_6ADC758F23F145B3A310151546D83D56}
 
 Target or exclude a certain browser.
 
@@ -102,7 +75,7 @@ Select one or more browsers.
 
 Multiple options are connected with an OR.
 
-## Language {#section_7520D1AA464A45A6843EABE2D2B431A1}
+### Language {#section_7520D1AA464A45A6843EABE2D2B431A1}
 
 Target or exclude a certain browsers that are set to use specific languages.
 
@@ -131,7 +104,7 @@ The following browser languages can be targeted or excluded:
 
 Multiple options are connected with an OR.
 
-## Version {#section_37CC8CE45DA04E8682AE6388321BA6EF}
+### Version {#section_37CC8CE45DA04E8682AE6388321BA6EF}
 
 Target or exclude certain browser versions.
 
@@ -151,3 +124,12 @@ Type the version number.
 Only major versions can be entered in the text field. The specified version includes any minor version of that release. For example, if you specify version 10, visitors on version 10.1 are included.
 
 Multiple options are connected with an OR. 
+
+## Training video: Creating Audiences
+
+This video includes information about using audience categories.
+
+* Create audiences 
+* Define audience categories
+
+>[!VIDEO](https://www.youtube.com/watch?v=wV9lVTSOxMk) 

@@ -35,7 +35,7 @@ The pre-built audiences in the Target Library category are legacy audiences and 
 1. (Optional) Click **[!UICONTROL Add Rule]** and set up additional rules for the audience. 
 1. Click **[!UICONTROL Save]**.
 
-**Creating Audiences (9:58)**
+## Training video: Creating Audiences
 
 This video includes information about using audience categories.
 

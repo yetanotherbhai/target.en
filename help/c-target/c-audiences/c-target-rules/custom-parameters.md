@@ -15,15 +15,6 @@ Custom parameters are mbox parameters. If you pass any mbox parameters to mboxes
 
 For more information, see [Passing Parameters to a Global Mbox](https://marketing.adobe.com/resources/help/en_US/target/ov/c_pass_parameters_to_global_mbox.html).
 
-**Creating Audiences (9:58)**
-
-This video includes information about using audience categories.
-
-* Create audiences 
-* Define audience categories
-
->[!VIDEO](https://www.youtube.com/watch?v=wV9lVTSOxMk)
-
 When creating a custom audience based on an mbox parameter, `mboxParameter` no longer prompts you for `mboxName`. mbox name is now optional. This change lets you use parameters from multiple mboxes or reference a parameter that has not yet been recorded on the edge.
 
 To select the desired parameter:
@@ -41,3 +32,11 @@ The audience's [definition details pop-up card](../../../c-target/c-audiences/au
 >
 >For custom audiences created before the Target 18.5.1 release (May, 22, 2018), mbox names will not display in the audience's definition pop-up card. You must re-save the custom audience to get the mbox name to be shown in the card.
 
+## Training video: Creating Audiences
+
+This video includes information about using audience categories.
+
+* Create audiences 
+* Define audience categories
+
+>[!VIDEO](https://www.youtube.com/watch?v=wV9lVTSOxMk)

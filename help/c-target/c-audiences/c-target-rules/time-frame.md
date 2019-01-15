@@ -48,7 +48,7 @@ For example, using the [combined, ad-hoc audiences feature](../../../c-target/co
 
 1. Click **[!UICONTROL Save]**.
 
-**Creating Audiences (9:58)**
+## Training video: Creating Audiences
 
 This video includes information about using audience categories.
 
