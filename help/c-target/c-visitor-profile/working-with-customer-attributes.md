@@ -57,8 +57,8 @@ Detailed instructions for completing each of the following tasks can be found in
 
    Data files up to 100 MB can be uploaded using the HTTP method. Files larger than 100 MB, up to 4 GB can be uploaded through FTP.
 
-    * **HTTPS: **You can drag-and-drop the [!DNL .csv] data file or click [!UICONTROL Browse] to upload from your file system. 
-    * **FTP: **Click on FTP link to [upload file through FTP](https://marketing.adobe.com/resources/help/en_US/mcloud/t_upload_attributes_ftp.html). First step is to provide a password for the Adobe-provided FTP server. Enter the password, then click [!UICONTROL Done].
+    * **HTTPS:** You can drag-and-drop the [!DNL .csv] data file or click [!UICONTROL Browse] to upload from your file system. 
+    * **FTP:** Click on FTP link to [upload file through FTP](https://marketing.adobe.com/resources/help/en_US/mcloud/t_upload_attributes_ftp.html). First step is to provide a password for the Adobe-provided FTP server. Enter the password, then click [!UICONTROL Done].
 
       Now transfer your CSV/ZIP/GZIP file to the FTP server. Once this file transfer is successful, create a new file with same name and [!DNL .fin] extension. Transfer this empty file to the server. This indicates a End Of Transfer and the Experience Cloud starts to process data file.
 
@@ -90,43 +90,33 @@ Detailed instructions for completing each of the following tasks can be found in
 
 You can use customer attributes in [!DNL Target] in the following ways:
 
-<table id="table_96AB5A9C2F17437489DF4C42642EB6D3"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Method </th> 
-   <th colname="col2" class="entry"> Details </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Creating targeting audiences </p> </td> 
-   <td colname="col2"> <p>In <span class="keyword"> Target </span>, you can select a customer attribute from the <span class="wintitle"> Visitor Profile </span> section when creating an audience. All customer attributes have the prefix &lt; <span class="varname"> data_source_name </span>&gt; in the list. Combine these attributes as required with other data attributes to build audiences. </p> <p> <img src="assets/TargetAudience.png" id="image_00473D9BBCE843DAB2C1736FE52CB3DE" /> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Creating profile scripts using tokens </p> </td> 
-   <td colname="col2"> <p>Customer attributes can be referenced in profile scripts using format <span class="codeph"> crs.get('&lt;Datasource Name&gt;.&lt;Attribute name&gt;') </span>. </p> <p>This profile script can be used directly in offers for delivering attributes that belong to the current visitor. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Using <span class="codeph"> mbox3rdPartyID </span> in your website for a successful implementation and usage </p> </td> 
-   <td colname="col2"> <p>Pass <span class="codeph"> mbox3rdPartyId </span> as a parameter to the global mbox inside the <span class="codeph"> targetPageParams() </span> method. The value of <span class="codeph"> mbox3rdPartyId </span> should be set to the customer ID that was present in CSV data file. </p> 
-    <codeblock>
-      &lt;script&nbsp;type="text/javascript"&gt; 
-     
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;function&nbsp;targetPageParams()&nbsp;{ 
-     
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;'mbox3rdPartyId=2000578'; 
-     
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;} 
-     
-&lt;/script&gt; 
-    </codeblock> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Using the Experience Cloud ID Service </p> </td> 
-   <td colname="col2"> <p>If you are using the Experience Cloud ID service, you need to set a Customer ID and Authentication State to use customer attributes in targeting. For more information, see <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-authenticated-state.html" format="html" scope="external"> Customer IDs and Authentication State </a> in the <i>Experience Cloud ID Service Documentation</i>. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+### Creating targeting audiences
+
+In [!DNL Target], you can select a customer attribute from the Visitor Profile section when creating an audience. All customer attributes have the prefix &lt; data_source_name &gt; in the list. Combine these attributes as required with other data attributes to build audiences.
+
+![Target Audience](/help/c-target/c-visitor-profile/assets/TargetAudience.png)
+
+### Creating profile scripts using tokens
+
+Customer attributes can be referenced in profile scripts using format `crs.get('<Datasource Name>.<Attribute name>')`.
+
+This profile script can be used directly in offers for delivering attributes that belong to the current visitor.
+
+### Using mbox3rdPartyID in your website for a successful implementation and usage
+
+Pass mbox3rdPartyId as a parameter to the global mbox inside the `targetPageParams()` method. The value of mbox3rdPartyId should be set to the customer ID that was present in CSV data file.
+
+```
+<script type="text/javascript">
+            function targetPageParams() {
+               return 'mbox3rdPartyId=2000578';
+            }
+</script>
+```
+
+### Using the Experience Cloud ID Service
+
+If you are using the Experience Cloud ID service, you need to set a Customer ID and Authentication State to use customer attributes in targeting. For more information, see [Customer IDs and Authentication State](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-authenticated-state.html) in the *Experience Cloud ID Service Documentation*.
 
 For more information about using customer attributes in [!DNL Target], see the following resources:
 
@@ -137,45 +127,14 @@ For more information about using customer attributes in [!DNL Target], see the f
 
 You might encounter the following issues when working with customer attributes and [!DNL Target]:
 
-<table id="table_4635ECDB7D1A4023A889A9CEC639B360"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Issue </th> 
-   <th colname="col2" class="entry"> Details </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Customer attributes are removed because the profile is too large </p> </td> 
-   <td colname="col2"> <p>There is no character limit on a particular field in the user's profile, but if the profile gets larger than 64K, it is truncated by removing the oldest attributes until the profile is below 64K again. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Attributes not listing in the Audience Library in <span class="keyword"> Target </span>, even after several days </p> </td> 
-   <td colname="col2"> <p>This is usually a Pipeline connection problem. As a resolution, ask your Customer Attributes team to republish the feed. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Delivery not working based on the attribute </p> </td> 
-   <td colname="col2"> <p>The profile has not been updated on the edge yet. As a resolution, ask your Customer Attributes team to republish the feed. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Implementation issues </p> </td> 
-   <td colname="col2"> <p>Be aware of the following implementation issues: </p> <p> 
-     <ul id="ul_5CCB01F625D94208AC7F7B57E38DB0A6"> 
-      <li id="li_2D2106650BC444328DF526BEB0C69690"> <p>The Visitor Id was not passed correctly. The ID was passed in <span class="codeph"> mboxMCGVID </span> instead of <span class="codeph"> setCustomerId </span>. </p> </li> 
-      <li id="li_7B7A1F2F47E641718A8D5C203DF871BB"> <p>The Visitor Id was passed correctly, but the AUTHENTICATION state was not set to Authenticated. </p> </li> 
-      <li id="li_C0A232B444274463988DDF977BC651FB"> <p> <span class="codeph"> mbox3rdPartyId </span> was not passed correctly. </p> </li> 
-     </ul> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <span class="codeph"> mboxUpdate </span> not performed properly </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> mboxUpdate </span> was not performed properly with <span class="codeph"> mbox3rdPartyId </span>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Customer attributes are not being imported into Target. </p> </td> 
-   <td colname="col2"> <p>If you cannot find Customer Attributes data in Target, ensure that the import occurred within the last <i>x</i> days where <i>x</i> is the Target <a href="../../c-target/c-visitor-profile/visitor-profile-lifetime.md#concept_D9F21B416F1F49159F03036BA2DD54FD" format="dita" scope="local"> Visitor Profile Lifetime </a> value (14 days by default). </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Issue | Details |
+|--- |--- |
+|Customer attributes are removed because the profile is too large|There is no character limit on a particular field in the user's profile, but if the profile gets larger than 64K, it is truncated by removing the oldest attributes until the profile is below 64K again.|
+|Attributes not listing in the Audience Library in [!DNL Target], even after several days|This is usually a Pipeline connection problem. As a resolution, ask your Customer Attributes team to republish the feed.|
+|Delivery not working based on the attribute|The profile has not been updated on the edge yet. As a resolution, ask your Customer Attributes team to republish the feed.|
+|Implementation issues|Be aware of the following implementation issues:<ul><li>The Visitor Id was not passed correctly. The ID was passed in mboxMCGVID instead of `setCustomerId`.</li><li>The Visitor Id was passed correctly, but the AUTHENTICATION state was not set to Authenticated.</li><li>`mbox3rdPartyId` was not passed correctly.</li>|
+|`mboxUpdate` not performed properly|mboxUpdate  was not performed properly with `mbox3rdPartyId`.|
+|Customer attributes are not being imported into Target.|If you cannot find Customer Attributes data in Target, ensure that the import occurred within the last x days where x is the Target [Visitor Profile Lifetime](/help/c-target/c-visitor-profile/visitor-profile-lifetime.md) value (14 days by default).|
 
 Issues in rows 1 and 2 above cause approximately 60% of problems in this area. Issues in row 3 cause approximately 30% of problems. The issue in row 4 causes approximately 5% of problems. The remaining 5% are due to miscellaneous issues.
 
