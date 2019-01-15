@@ -55,24 +55,10 @@ If you use your own custom code for the redirect, you must ensure that you popul
 
 The following query string parameters are associated with redirect offers:
 
-<table id="table_59CFDE3E9B62468588C75B3BCC2020F5"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Parameter </th> 
-   <th colname="col2" class="entry"> Description </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p><span class="codeph"> adobe_mc_sdid</span> </p> </td> 
-   <td colname="col2"> <p>The <span class="codeph"> adobe_mc_sdid</span> parameter passes the Supplemental Data Id (SDID) and Experience Cloud Org Id from the default page to the new page in order for A4T to "stitch" together the <span class="keyword"> Target</span> request on the default page with the <span class="keyword"> Analytic</span> request on the new page. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><span class="codeph"> adobe_mc_ref</span> </p> </td> 
-   <td colname="col2"> <p>The <span class="codeph"> adobe_mc_ref</span> parameter passes the referring URL of the default page to the new page. When used with <span class="filepath"> AppMeasurement.js</span> version 2.1 (or later), <span class="keyword"> Analytics</span> will use this parameter value as the referring URL on the new page. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Parameter | Description |
+|--- |--- |
+|`adobe_mc_sdid`|The `adobe_mc_sdid` parameter passes the Supplemental Data Id (SDID) and Experience Cloud Org Id from the default page to the new page in order for A4T to "stitch" together the  Target request on the default page with the  Analytic request on the new page.|
+|`adobe_mc_ref`|The `adobe_mc_ref` parameter passes the referring URL of the default page to the new page. When used with  AppMeasurement.js version 2.1 (or later),  Analytics will use this parameter value as the referring URL on the new page.|
 
 These parameters are automatically added to the redirect URLs when using the built-in redirect offers in the VEC and Form-Based Experience Composer when the Visitor Id service is implemented on the page. If you are using your own custom redirect code in the VEC or Form-Based Composer, you must be sure to pass these parameters with your custom code.
 
