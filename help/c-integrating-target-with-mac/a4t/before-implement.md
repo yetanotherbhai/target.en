@@ -23,30 +23,9 @@ Before you decide to use this integration, review the following sections and con
 
 This A4T integration requires that you implement the following library versions, depending on whether you want to use redirect offers with A4T or not:
 
-<table id="table_34391C80AE954618AE91D6AE654D3985"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Requirements Needed for A4T </th> 
-   <th colname="col2" class="entry"> Requirements Needed for Redirect Offers Using A4T </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>This integration requires that you implement the following library versions (or newer) if you do not plan on using redirect offers with A4T: </p> <p> 
-     <ul id="ul_4D98A3886E10443B930094BE9D47A2F2"> 
-      <li id="li_06A9C85450E64D05AD3D45FE20DA4A53"> <p>Adobe Analytics: <span class="filepath"> appMeasurement.js</span> version 1.7.0. </p> </li> 
-      <li id="li_3D79F3BD5B52402A8DC81875F510370B"> <p>Experience Cloud Visitor ID Service: <span class="filepath"> visitorAPI.js</span> version 1.8.0. </p> </li> 
-      <li id="li_351A2616F18444DF951F16A977BD9FAC"> <p>Adobe Target (depending on your implementation): <span class="filepath"> at.js</span> version 0.9.1 or <span class="filepath"> mbox.js</span> version 61. </p> </li> 
-     </ul> </p> </td> 
-   <td colname="col2"> <p>To use redirect offers with A4T, you must implement the following library versions (or newer): </p> <p> 
-     <ul id="ul_1FE7990C3F51461EAD3A1FA03EB40FC4"> 
-      <li id="li_48BFEAC3E7964DA98BB49BE1725E3F26"> <p>Experience Cloud Visitor ID Service: <span class="filepath"> visitorAPI.js</span> version 2.3.0 or later. </p> </li> 
-      <li id="li_A3EEB21E43C54D62B039154CB2E75168"> <p>Adobe Analytics: <span class="filepath"> appMeasurement.js</span> version 2.1. </p> </li> 
-      <li id="li_2F6C0B81896E4247A10E31B63EC08720"> <p>Adobe Target: <span class="filepath"> at.js</span> version 0.9.6 or later (except version 1.1.0 if using redirect offers with A4T). </p> <p>The <span class="filepath"> mbox.js</span> library does not support redirect offers with A4T. Your implementation must use <span class="filepath"> at.js</span>. </p> </li> 
-     </ul> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Requirements Needed for A4T | Requirements Needed for Redirect Offers Using A4T |
+|--- |--- |
+|This integration requires that you implement the following library versions (or newer) if you do not plan on using redirect offers with A4T:<ul><li>Adobe Analytics: appMeasurement.js version 1.7.0</li><li>Experience Cloud Visitor ID Service: visitorAPI.js version 1.8.0</li><li>Adobe Target (depending on your implementation): at.js version 0.9.1 or mbox.js version 61</li></ul>|To use redirect offers with A4T, you must implement the following library versions (or newer):<ul><li>Experience Cloud Visitor ID Service: visitorAPI.js version 2.3.0 or later</li><li>Adobe Analytics: appMeasurement.js version 2.1</li><li>Adobe Target: at.js version 0.9.6 or later (except version 1.1.0 if using redirect offers with A4T)</li></ul><br>**Note:** The  mbox.js library does not support redirect offers with A4T. Your implementation must use at.js.|
 
 Download and deployment instructions are listed in [Adobe for Target Implementation](https://marketing.adobe.com/resources/help/en_US/target/a4t/c_a4timplementation.html).
 
