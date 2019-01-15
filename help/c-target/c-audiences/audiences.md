@@ -17,22 +17,10 @@ Audiences are used anywhere targeting is available. When targeting an activity, 
 
 You can also use audience data collected by [!DNL Analytics] for real-time targeting and personalization in [!DNL Adobe Target] and other [!DNL Experience Cloud] solutions. See [Audiences in the Experience Cloud Product Documentation](https://marketing.adobe.com/resources/help/en_US/mcloud/audience_library.html).
 
-**Using Audiences (6:22)**
-
-This video includes information about using audiences.
-
-* Explain the term "audience" 
-* Explain the two ways audiences are used for optimization 
-* Find audiences in the Audiences List 
-* Target an activity to an audience 
-* Use audiences for passive reporting in an activity
-
->[!VIDEO](https://www.youtube.com/watch?v=TAMBpW9vpOI)
-
 [!DNL Target] defines two types of audiences:
 
-* **Targeting Audiences: **Used to deliver different content to different types of visitors. 
-* **Reporting Audiences: **Used to determine how different types of visitors respond to the same content so you can analyze your test results.
+* **Targeting Audiences:** Used to deliver different content to different types of visitors. 
+* **Reporting Audiences:** Used to determine how different types of visitors respond to the same content so you can analyze your test results.
 
   In [!DNL Target], you can configure reporting audiences only if you use [!DNL Target] as your reporting source. If you use [ [!DNL Adobe Analytics] as your reporting source (A4T)](../../c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE), you must configure your reporting audiences within [!DNL Analytics].
 
@@ -77,31 +65,25 @@ The following audience definition card is for an audience imported from the Adob
 
 The following details are available for these imported audience types:
 
-<table id="table_BEE4E80E557B4BC9B703A5B80BF59F0F"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Audience Type </th> 
-   <th colname="col2" class="entry"> Details </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Mobile audience </p> </td> 
-   <td colname="col2"> <p>Marketing Name, Vendor, and Model. </p> <p>The <span class="codeph"> matches|does not match</span> operator displays instead of <span class="codeph"> equals|does not equal</span>. </p> <p><img src="assets/imported_mobile_audience.png" id="image_D858836141D34047ABEBCE9FBE302826" /> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Visitor-behavior audience </p> </td> 
-   <td colname="col2"> <p>user.categoryAffinity: <span class="codeph"> categoryAffinity</span> with <span class="codeph"> FAVORITE</span> parameter. </p> <p><img src="assets/imported_category_affinity.png" id="image_117DA80E582F45ACB03B244798A24264" /> </p> <p>Monitoring: <span class="codeph"> Monitoring service equals true</span>. </p> <p>No Monitoring Service: <span class="codeph"> Monitoring service equals false</span>. </p> <p><img src="assets/imported_monitoring.png" id="image_D63245B224C14837B5DDA33247394CB5" /> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Audiences using the NOT operator </p> </td> 
-   <td colname="col2"> <p>Single Rule: Target displays the audience in the format <span class="codeph"> [All Visitor AND [NOT [rule]</span>. Single NOT rule displays with AND with AllVisitor audience. </p> <p><img src="assets/imported_not_audience.png" id="image_E1D8B2BF23C64213984A58CFEF7951F4" /> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Audience Type | Details |
+|--- |--- |
+|Mobile audience|Marketing Name, Vendor, and Model.<br>The `matches | does not match` operator displays instead of `equals | does not equal`<br>![Imported Mobile Audience](/help/c-target/c-audiences/assets/imported_mobile_audience.png).|
+|Visitor-behavior audience|**user.categoryAffinity:** `categoryAffinity` with `FAVORITE` parameter.<br>![Imported Category Affinity](/help/c-target/c-audiences/assets/imported_category_affinity.png)<br>**Monitoring:** Monitoring service equals true.<br>**No Monitoring Service:** Monitoring service equals false.<br>![Imported Monitoring](/help/c-target/c-audiences/assets/imported_monitoring.png)|
+|Audiences using the NOT operator|**Single Rule:** Target displays the audience in the format `[All Visitor AND [NOT [rule]`. Single NOT rule displays with AND with `AllVisitor` audience.<br>![Imported Not Audience](/help/c-target/c-audiences/assets/imported_not_audience.png)|
 
 Keep the following points in mind as you work with imported audiences:
 
 * Expression target audiences are no longer supported in Target Standard/Premium. 
 * Target Standard/Premium does not support some deprecated audiences or has improved operators for ease of use. Because of this, the definition of an imported audience, although working as per definition, does not mean that same is now available for creation in the Standard/Premium interface. For example, Social Audiences are visible with their rules but Target Standard/Premium does not allow social audiences to be created.
 
+## Training video: Using Audiences
+
+This video includes information about using audiences.
+
+* Explain the term "audience" 
+* Explain the two ways audiences are used for optimization 
+* Find audiences in the Audiences List 
+* Target an activity to an audience 
+* Use audiences for passive reporting in an activity
+
+>[!VIDEO](https://www.youtube.com/watch?v=TAMBpW9vpOI)

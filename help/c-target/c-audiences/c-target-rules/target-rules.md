@@ -12,15 +12,6 @@ uuid: 4b0f6e32-24bc-4e87-aa8e-70728889f891
 
 You can target on any of several categories. Each category functions as a tab that enables you to create targeting rules (or groups) for each category.
 
-**Creating Audiences (9:58)**
-
-This video includes information about using audience categories.
-
-* Create audiences 
-* Define audience categories
-
->[!VIDEO](https://www.youtube.com/watch?v=wV9lVTSOxMk)
-
 When a particular category is selected, you can apply one or more targeting conditions. For example, in the Geo category, define a rule like City=San Francisco. Adding multiple values creates an OR condition. The visitor has to match only one of the values to meet the targeting condition. For AND conditions on the same parameter, create a custom expression target.
 
 After you have created a rule, click **[!UICONTROL Save]**. A summary of the rule displays next to the targeting link for the level you are targeting.
@@ -33,4 +24,12 @@ Use the search box to search your [!UICONTROL Audiences] list. You can search fo
 
 You can sort the Audience list by audience name or by the date when it was last modified.
 
-You can create targeting rules for each of the following categories: 
+## Training video: Creating Audiences
+
+This video includes information about using audience categories.
+
+* Create audiences 
+* Define audience categories
+
+>[!VIDEO](https://www.youtube.com/watch?v=wV9lVTSOxMk)
+

@@ -30,12 +30,6 @@ You could create an audience defined as the propensity to buy dining room furnit
 
 For more information, see [Methods to get Data into Target](../../c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md#concept_0069C0EFB56C4700BB33F2F35C2B9B17).
 
-## Training Video {#section_3BB8DBF3418F4520B3E274B6F40AF8F3}
-
-Watch the following video for more information and a scenario in which you could use this feature:
-
->[!VIDEO](https://video.tv.adobe.com/v/23218/)
-
 ## Create a Profile Attribute Comparison Audience {#section_7A62FD47D5C74C3EBC3417ACDBB85013}
 
 1. Click **[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]** > **[!UICONTROL Add Rule]** > **[!UICONTROL Visitor Profile]**. 
@@ -63,3 +57,8 @@ Watch the following video for more information and a scenario in which you could
 
    ![](assets/propensity_score_4.png)
 
+## Training video {#section_3BB8DBF3418F4520B3E274B6F40AF8F3}
+
+Watch the following video for more information and a scenario in which you could use this feature:
+
+>[!VIDEO](https://video.tv.adobe.com/v/23218/)

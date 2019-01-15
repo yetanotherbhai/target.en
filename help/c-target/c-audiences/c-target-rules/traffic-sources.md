@@ -37,7 +37,7 @@ You can combine multiple traffic sources to create a complex targeting rule.
 
 You can target users who are referred to your site by a specific search engine or from a specific landing page.
 
-**Creating Audiences (9:58)**
+## Training video: Creating Audiences
 
 This video includes information about using audience categories.
 
