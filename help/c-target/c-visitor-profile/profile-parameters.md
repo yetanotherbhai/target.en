@@ -23,34 +23,14 @@ To set up profile attributes, click **[!UICONTROL Audiences]** > **[!UICONTROL P
 
 The following types of profile attributes are available:
 
-<table id="table_B82609FE1EC84FB194189F4FE07B0884"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Parameter Type </th> 
-   <th colname="col2" class="entry"> Description </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Mbox </p> </td> 
-   <td colname="col2"> <p>Passed in directly through page code when creating the mbox. See <a href="../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md#concept_33362A04146C4E3C8E7089B65F38B5E5" format="dita" scope="local"> Passing Parameters to a Global Mbox </a>. </p> <p> <p>Note:  <span class="keyword"> Target </span> has a limit of 50 unique profile attributes per mbox call. If you need to pass more than 50 profile attributes to <span class="keyword"> Target </span>, you can pass them using the <span class="wintitle"> Profile Update </span> API method. For more information, see <a href="https://developers.adobetarget.com/api/#updating-profiles" format="http" scope="external"> Profile Update </a> in the Adobe Target API documentation. </p> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Script </p> </td> 
-   <td colname="col2"> <p>Defined directly with a JavaScript code snippet. These can store running totals like total money spent by consumer and are executed on each mbox request. See <a href="../../c-target/c-visitor-profile/profile-parameters.md#concept_8C07AEAB0A144FECA8B4FEB091AED4D2" format="dita" scope="local"> Profile Script Attributes </a>. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Parameter Type | Description |
+|--- |--- |
+|Mbox|Passed in directly through page code when creating the mbox. See[Pass Parameters to a Global Mbox](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md).<br>Note:   Target  has a limit of 50 unique profile attributes per mbox call. If you need to pass more than 50 profile attributes to  Target , you can pass them using the  Profile Update  API method. For more information, see[Profile Update  in the Adobe Target API documentation](http://developers.adobetarget.com/api/#updating-profiles).|
+|Script|Defined directly with a JavaScript code snippet. These can store running totals like total money spent by consumer and are executed on each mbox request. See Profile Script Attributes below.|
 
 ## Profile Script Attributes {#concept_8C07AEAB0A144FECA8B4FEB091AED4D2}
 
 Define a profile script attribute with its associated JavaScript code snippet.
-
-<!-- 
-
-target/c_script_profile_attributes.xml
-
- -->
 
 You can use profile scripts to capture visitor attributes across multiple visits. Profile scripts are code snippets defined within Target using a form of server-side JavaScript. For example, you might use a profile script to capture how frequently a visitor visits your site, and when they last visited.
 
@@ -68,23 +48,11 @@ To add a new profile script, click the **[!UICONTROL Profile Scripts]** tab, **[
 
 Or
 
-To copy an existing profile script, from the [!UICONTROL Profile Scripts] list, hover over the desired script, then click the **[!UICONTROL Copy]** icon (  ![](assets/icon_copy.png)
+To copy an existing profile script, from the [!UICONTROL Profile Scripts] list, hover over the desired script, then click the **[!UICONTROL Copy]** icon: (assets/icon_copy.png)
 
-). You can then edit the audience to create a similar audience.
+You can then edit the audience to create a similar audience.
 
 ![](assets/profile-script.png)
-
-**Profile Scripts (8:19)**
-
-This video includes information about using and creating profile scripts.
-
-* Explain what a profile script is 
-* Explain how a profile script is different from a profile parameter 
-* Create a simple profile script 
-* Use the Available Token menu to access available options 
-* Enable and disable profile scripts
-
->[!VIDEO](https://www.youtube.com/watch?v=m0jH2tIR1XQ)
 
 Profile scripts run profile attribute "catchers" on each location request. When a location request is received, Target determines which activity should run and displays content that is appropriate to that activity and that experience, tracks the success of the activity, and runs any relevant profile scripts. This enables you to track information about the visit, such as the visitor's location, time of day, number of times that visitor has been to the site, if they've purchased before and so on. This information is then added to the visitor's profile so you can better track that visitor's activity on your site.
 
@@ -122,17 +90,12 @@ The [!UICONTROL Script Usage] tab lists the activities (and their workspaces) th
 
 ![](assets/profile_script_info_card_usage_tab.png)
 
-<table id="table_F6EE7974B851430F9B7BAF7B268FFEC3"> 
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p> <p>Note:  The <span class="wintitle"> Script Usage </span> tab does <i>not</i> display activities that reference the selected profile script in the following situations: </p> </p> <p> 
-     <ul id="ul_C0A48C2474994135A67AAF73012A8444"> 
-      <li id="li_190D31CC860B45159EB1D7C559CDCF42"> <p>The activity is in the Draft state. </p> </li> 
-      <li id="li_6AB23AEA9A1941F6AB696545C66A6FAC"> <p>The content or offer used in the activity uses script variables (either an inline offer within the activity or an offer within the Offer library). </p> </li> 
-     </ul> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+>[!Note] 
+>
+>The Script Usage tab does not display activities that reference the selected profile script in the following situations:
+> * The activity is in the Draft state.
+> * The content or offer used in the activity uses script variables (either an inline offer within the activity or an offer within the Offer library).
+
 
 ## Target Disables Profile Scripts in Certain Situations {#section_C0FCB702E60D4576AD1174D39FBBE1A7}
 
@@ -180,7 +143,7 @@ Be aware of the following information when using one of the following profile sc
 * The profile script must run before the activity launches and the script must remain unchanged for the duration of the activity. 
 * This technique will reduce the amount of traffic in the activity, which might require the activity to run longer. You must account for this fact when you estimate the duration of the activity.
 
-**Setting Up Two Activities**
+### Setting Up Two Activities
 
 To sort visitors into groups that each see a different activity, you must create a profile attribute. A profile attribute can sort a visitor into one of two or more groups. To set up a profile attribute called "twogroups," create the following script:
 
@@ -209,7 +172,7 @@ After you create the profile attribute, set up the first activity to target the 
 
 Set up the second campaign so the user profile parameter `user.twogroups` matches the value specified for GroupB.
 
-**Setting Up Three or More Activities**
+### Setting Up Three or More Activities
 
 Setting up three or more mutually exclusive activities is similar to setting up two, but you must change the profile attribute JavaScript to create a separate group for each activity and determine who sees each one. The random number generation is different, depending on whether you create an odd or even number of groups.
 
@@ -286,3 +249,15 @@ The following methods can be used to debug profile scripts:
 **Is it possible to use profile scripts to capture information from a page that resides in a data layer?**
 
 Profile scripts are unable to read the page directly because they are executed server side. The data must be passed in through an mbox request or through other [methods of getting data into Target](../../c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md#concept_0069C0EFB56C4700BB33F2F35C2B9B17). After the data is in Target, profile scripts can read the data as an mbox parameter or profile parameter. 
+
+## Training video: Profile Scripts
+
+This video includes information about using and creating profile scripts.
+
+* Explain what a profile script is 
+* Explain how a profile script is different from a profile parameter 
+* Create a simple profile script 
+* Use the Available Token menu to access available options 
+* Enable and disable profile scripts
+
+>[!VIDEO](https://www.youtube.com/watch?v=m0jH2tIR1XQ)
