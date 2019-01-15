@@ -17,7 +17,7 @@ This page lists profiles, variables, and parameters that are useful in profile s
 
 | Profile | Notes |
 |--- |--- |
-|user.activeActivities     user.activeCampaigns|Return the campaign ID for all campaigns/activities that the user is in, even if he or she has not interacted with the campaign/activity in the current session.|
+|user.activeActivities<br>user.activeCampaigns|Return the campaign ID for all campaigns/activities that the user is in, even if he or she has not interacted with the campaign/activity in the current session.|
 |user.pcId||
 |user.sessionId||
 |user.categoryAffinity||
@@ -26,8 +26,8 @@ This page lists profiles, variables, and parameters that are useful in profile s
 |user.isNewSession||
 |user.daysSinceLastVisit||
 |user.browser|The user agent|
-|user.header|All  user.header  profiles are built-in from mbox request header data|
-|user.header('x-cluster-client-ip')|The public-facing IP address of the network connection that the visitor is on.  You can get this in several ways, for example  [whatismyip.com](https://www.whatismyip.com/). The IP address is not the NAT address (internal address), starting with 10., 192.168., or 172.|
+|user.header|All `user.header` profiles are built-in from mbox request header data|
+|user.header('x-cluster-client-ip')|The public-facing IP address of the network connection that the visitor is on.<br>You can get this in several ways, for example [whatismyip.com](https://www.whatismyip.com/). The IP address is not the NAT address (internal address), starting with 10., 192.168., or 172.|
 |user.header('host')|Website hostname|
 |user.header('cookie')|Visitor cookie data|
 |user.header('user-agent')|Visitor browser user-agent|
@@ -35,7 +35,7 @@ This page lists profiles, variables, and parameters that are useful in profile s
 |user.header('accept-encoding')|Visitor character encoding|
 |user.header('accept')|Visitor language and character encoding|
 |user.header('connection')|Server connection. For example:  keep-live|
-|user.header('referer')|Website URL of visitor current page. Does not work for Internet Explorer.|
+|user.header('referrer')|Website URL of visitor current page. Does not work for Internet Explorer.|
 |user.getLocal('param_name','value');||
 |user.setLocal('param_name','value');||
 |user.get('param_name')||
@@ -46,7 +46,7 @@ This page lists profiles, variables, and parameters that are useful in profile s
 |profile.browserTime|The visitor's local browser time. For system time, create a new date object in the profile script|
 |profile.averageDaysBetweenVisits||
 |profile.sessionCount||
-|parameter=|Generic term for additional values passed with an mbox, usually as name/value pairs. Not persistent unless made so with  profile.parameter  or  user.parameter .|
+|parameter=|Generic term for additional values passed with an mbox, usually as name/value pairs. Not persistent unless made so with `profile.parameter` or `user.parameter`.|
 
 ## URL Variables {#section_8F25958273164EBAA6DC659302993FD3}
 
