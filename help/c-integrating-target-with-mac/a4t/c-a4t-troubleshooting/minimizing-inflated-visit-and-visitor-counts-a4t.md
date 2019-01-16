@@ -49,7 +49,7 @@ The identified causes of partial data include the following:
 
 ## What are the best practices to reduce partial data? {#section_065C38501527451C8058278054A1818D}
 
-We recommend reviewing the following steps, in order, to reduce partial data collection:
+Review the following steps, in order, to reduce partial data collection:
 
 | Step | Task |
 | --- | --- |
