@@ -80,18 +80,16 @@ The following illustration shows for the segment definition for the virtual repo
 
 When creating the virtual report suite, specify the following configuration for the segment definition (as shown in the above illustration):
 
-<ul class="simplelist"> 
- <li> <b>Show Hit:</b> </li> 
- <li> Analytics for Target: Exists </li> 
- <li> And </li> 
- <li> Page Views: Does not exist </li> 
- <li> And </li> 
- <li> Custom Link Instances: Does not exist </li> 
- <li> And </li> 
- <li> Download Link Instances: Does not exist </li> 
- <li> And </li> 
- <li> Exit Link Instances: Does not exist </li> 
-</ul>
+*   **Show Hit:**
+*   Analytics for Target: Exists
+*   And
+*   Page Views: Does not exist
+*   And
+*   Custom Link Instances: Does not exist
+*   And
+*   Download Link Instances: Does not exist
+*   And
+*   Exit Link Instances: Does not exist
 
 **Orphaned hits:&nbsp;** In fewer situations, users don't remain on the page long enough for an Analytics call and Target didn't get a proper MCID. These are what we define as "orphaned" hits. These hits represent customers that rarely return and they inflate visit and visitor counts inappropriately.
 
