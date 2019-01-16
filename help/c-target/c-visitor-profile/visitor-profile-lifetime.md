@@ -18,24 +18,10 @@ By default, visitor profiles are stored for 14 days. This profile lifetime can b
 
 The [!DNL Target] JavaScript library you are using ( [!DNL mbox.js] or [!DNL at.js]) determines whether or not you need to download a new file:
 
-<table id="table_2BD28C564EE44016A2B241DB7205F1DE"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Target Library </th> 
-   <th colname="col2" class="entry"> Details </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>mbox.js </p> </td> 
-   <td colname="col2"> <p>If your profile is extended beyond the 14-day default, you must download a new <span class="filepath"> mbox.js</span> file after your consultant or Client Care changes your settings. The cookie extension to support the changed profile lifetime is included in the updated <span class="filepath"> mbox.js</span> file. After you start using the new library, your visitors' profile lifetimes will update. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>at.js </p> </td> 
-   <td colname="col2"> <p>You do not need to download a new <span class="filepath"> at.js</span> file if your profile is extended beyond the default. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Target Library | Details |
+|--- |--- |
+|at.js|You do not need to download a new  at.js file if your profile is extended beyond the default.|
+|mbox.js|If your profile is extended beyond the 14-day default, you must download a new  mbox.js file after your consultant or Client Care changes your settings. The cookie extension to support the changed profile lifetime is included in the updated  mbox.js file. After you start using the new library, your visitors' profile lifetimes will update.|
 
 The expiration date is not reset for existing profiles. If a previous visitor does not return for 15 days, that profile expires. If a previous visitor returns before the original two-week profile expires, the profile is reset to the extended lifetime. All new visitor profiles are set to the extended profile lifetime.
 

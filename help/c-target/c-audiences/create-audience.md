@@ -13,14 +13,7 @@ uuid: 496dbb9d-cb13-47ee-88bd-ba5920b2ca1c
 
 You can create customized audiences and save them to the Target library for use in your activities. You can copy an existing audience that you can then edit to create a similar audience and combine multiple audiences.
 
-**Creating Audiences (9:58)**
-
-This video includes information about creating audiences.
-
-* Create audiences 
-* Define audience categories
-
->[!VIDEO](https://www.youtube.com/watch?v=wV9lVTSOxMk)
+## Audience overview
 
 Audiences are defined by rules that determine who is included or excluded from a [!DNL Target] activity. An audience definition can include multiple rules and each rule can include multiple parameters. Complex audience definitions use the boolean operators AND and OR to combine rules and parameters to give you detailed control over which site visitors are counted as activity entrants.
 
@@ -38,7 +31,7 @@ For example, the following rule targets visitors who use either Chrome or Firefo
 >
 >Be careful to avoid creating rules that exclude all potential audience members. For example, it is not possible for someone to visit a page using browser x AND browser y simultaneously.
 
-**To create a new audience:** 
+## Create a new audience
 
 1. Click **[!UICONTROL Audiences]** in the top menu bar.
 
@@ -61,3 +54,12 @@ For example, the following rule targets visitors who use either Chrome or Firefo
 1. Click **[!UICONTROL Save]**.
 
    Newly created audiences appear in the list after a few seconds of processing delay. If the audience does not display immediately in the list, try searching for the audience or refresh the list. 
+
+## Training video: Creating Audiences
+
+This video includes information about creating audiences.
+
+* Create audiences 
+* Define audience categories
+
+>[!VIDEO](https://www.youtube.com/watch?v=wV9lVTSOxMk)

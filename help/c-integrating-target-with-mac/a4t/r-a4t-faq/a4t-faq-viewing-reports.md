@@ -78,122 +78,31 @@ As an example, let’s assume that the A4T variable expires after 90 days and ou
 
 On January 1, the user comes to the site and sees activity XYZ once and has five page views after that. In the next two weeks, the user never returns to the site. The data would look like this for this user:
 
-<table id="table_235DECCD466E4B868F2760B66E2DD14B"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Activity Name </th> 
-   <th colname="col2" class="entry"> Instances (Impressions) </th> 
-   <th colname="col3" class="entry"> Page Views </th> 
-   <th colname="col4" class="entry"> Visits </th> 
-   <th colname="col5" class="entry"> Unique Visitors </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>XYZ </p> </td> 
-   <td colname="col2"> 1 </td> 
-   <td colname="col3"> 5 </td> 
-   <td colname="col4"> 1 </td> 
-   <td colname="col5"> 1 </td> 
-  </tr> 
- </tbody> 
-</table>
+| Activity Name | Instances (Impressions) | Page Views | Visits | Unique Visitors |
+|--- |--- |--- |--- |--- |
+|XYZ|1|5|1|1|
 
 The user returns on February 1, views five more pages, and doesn’t encounter any more Target activities and the original activity is no longer active. Even though the activity is no longer active, it is still following the user via eVar persistence. The data now looks like this:
 
-<table id="table_3668A00B8CA14B92B7EC54B9C13FE844"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Activity Name </th> 
-   <th colname="col2" class="entry"> Instances (Impressions) </th> 
-   <th colname="col3" class="entry"> Page Views </th> 
-   <th colname="col4" class="entry"> Visits </th> 
-   <th colname="col5" class="entry"> Unique Visitors </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>XYZ </p> </td> 
-   <td colname="col2"> 1 </td> 
-   <td colname="col3"> 10 </td> 
-   <td colname="col4"> 2 </td> 
-   <td colname="col5"> 1 </td> 
-  </tr> 
- </tbody> 
-</table>
-
-—
+| Activity Name | Instances (Impressions) | Page Views | Visits | Unique Visitors |
+|--- |--- |--- |--- |--- |
+|XYZ|1|10|2|1|
 
 The user comes back on March 1 and sees a new activity, ABC. The user also views five pages. Because activity XYZ is still following the user through persistence, and this user then has ABC set, we’ll see two line items in reporting:
 
-<table id="table_D7609FF0861E4BF3B33E29F17A83396A"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Activity Name </th> 
-   <th colname="col2" class="entry"> Instances (Impressions) </th> 
-   <th colname="col3" class="entry"> Page Views </th> 
-   <th colname="col4" class="entry"> Visits </th> 
-   <th colname="col5" class="entry"> Unique Visitors </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>XYZ </p> </td> 
-   <td colname="col2"> 1 </td> 
-   <td colname="col3"> 15 </td> 
-   <td colname="col4"> 3 </td> 
-   <td colname="col5"> 1 </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>ABC </p> </td> 
-   <td colname="col2"> 1 </td> 
-   <td colname="col3"> 5 </td> 
-   <td colname="col4"> 1 </td> 
-   <td colname="col5"> 1 </td> 
-  </tr> 
- </tbody> 
-</table>
+| Activity Name | Instances (Impressions) | Page Views | Visits | Unique Visitors |
+|--- |--- |--- |--- |--- |
+|XYZ|1|15|3|1|
+|ABC|1|5|1|1|
+
 
 The user then comes back on April 1, views another five pages, and makes a purchase. The 90-day expiration of that first eVar value is reset on April 1, so we’ll see that in reporting. And all the Target activities the user sees receives the credit for the conversion, but the total number of conversions is deduplicated:
 
-<table id="table_E23223B2A1D547D2B6CE42520122A856"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Activity Name </th> 
-   <th colname="col2" class="entry"> Instances (Impressions) </th> 
-   <th colname="col3" class="entry"> Page Views </th> 
-   <th colname="col4" class="entry"> Visits </th> 
-   <th colname="col5" class="entry"> Unique Visitors </th> 
-   <th colname="col6" class="entry"> Orders </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>XYZ </p> </td> 
-   <td colname="col2"> 1 </td> 
-   <td colname="col3"> 20 </td> 
-   <td colname="col4"> 4 </td> 
-   <td colname="col5"> 1 </td> 
-   <td colname="col6"> 1 </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>ABC </p> </td> 
-   <td colname="col2"> 1 </td> 
-   <td colname="col3"> 10 </td> 
-   <td colname="col4"> 2 </td> 
-   <td colname="col5"> 1 </td> 
-   <td colname="col6"> 1 </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><b>Total</b> </p> </td> 
-   <td colname="col2"> <b>2</b> </td> 
-   <td colname="col3"> <b>20</b> </td> 
-   <td colname="col4"> <b>3</b> </td> 
-   <td colname="col5"> <b>1</b> </td> 
-   <td colname="col6"> <b>1</b> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Activity Name | Instances (Impressions) | Page Views | Visits | Unique Visitors | Orders |
+|--- |--- |--- |--- |--- |--- |
+|XYZ|1|20|4|1|1|
+|ABC|1|10|2|1|1|
+|Total|2|20|3|1|1|
 
 Because both experiences were seen prior to the conversion, they both get “credit” for the order. But, only one order took place in the system and the total reflects that. For Target reporting, because you aren’t putting Target activity against activity to see which is more successful, it doesn’t matter that all activities the user saw got credit. You’re comparing the results of two items within the single activity, and it's not possible for a user to see different experiences in the same activity so you don’t have to worry about cross-contamination of order credit.
 

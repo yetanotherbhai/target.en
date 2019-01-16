@@ -28,7 +28,7 @@ You can target visitors who use a certain operating system.
 1. (Optional) Click **[!UICONTROL Add Rule]** and set up additional rules for the audience. 
 1. Click **[!UICONTROL Save]**.
 
-**Creating Audiences (9:58)**
+## Training video: Creating Audiences
 
 This video includes information about using audience categories.
 

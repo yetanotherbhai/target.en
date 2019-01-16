@@ -23,32 +23,11 @@ For example, Apple devices don't share device model-specific tokens in the UA. T
 
 To solve this, Target collects additional data to accurately detect iPhones and other Apple devices using the following parameters:
 
-<table id="table_6349A969CE7249E8BCF70CB6625DCA1A"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Parameter </th> 
-   <th colname="col2" class="entry"> Type </th> 
-   <th colname="col3" class="entry"> Description </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>devicePixelRatio </p> </td> 
-   <td colname="col2"> <p>String </p> </td> 
-   <td colname="col3"> <p>Ratio between physical pixels and device-independent pixels (dips) on the browser. </p> <p>e.g “1.5” or “2” </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>screenOrientation </p> </td> 
-   <td colname="col2"> <p>String </p> </td> 
-   <td colname="col3"> <p>The device and the browser's JavaScript engine support Device Orientation. Can be Landscape or Portrait. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>webGLRenderer </p> </td> 
-   <td colname="col2"> <p>String </p> </td> 
-   <td colname="col3"> <p>Browser renderer of the graphics driver. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Parameter | Type | Description |
+|--- |--- |--- |
+|devicePixelRatio|String|Ratio between physical pixels and device-independent pixels (dips) on the browser.  e.g “1.5” or “2”|
+|screenOrientation|String|The device and the browser's JavaScript engine support Device Orientation. Can be Landscape or Portrait.|
+|webGLRenderer|String|Browser renderer of the graphics driver.|
 
 >[!NOTE]
 >
@@ -83,7 +62,7 @@ Customers who are using a custom integration (not using at.js or the Mobile SDK)
 1. (Optional) Click **[!UICONTROL Add Rule]** and set up additional rules for the audience. 
 1. Click **[!UICONTROL Save]**.
 
-**Creating Audiences**
+## Training video: Creating Audiences
 
 This video includes information about using audience categories.
 

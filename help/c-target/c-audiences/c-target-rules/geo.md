@@ -13,15 +13,6 @@ uuid: d30cda0e-016e-4391-95b7-ff3b55e06bf0
 
 Target users based on their geographical location, including their country, state/province, city, zip/postal code, DMA, or mobile carrier.
 
-**Creating Audiences (9:58)**
-
-This video includes information about using audience categories.
-
-* Create audiences 
-* Define audience categories
-
->[!VIDEO](https://www.youtube.com/watch?v=wV9lVTSOxMk)
-
 Geo location parameters allow you to target activities and experiences based on your visitors' geography. You can include or exclude visitors based on their country, state/province, city, zip/postal code, DMA, or mobile carrier. This data is sent with each mbox request and is based on the visitor's IP address. Select these parameters just like any targeting values.
 
 ## Create an Audience with Geo Targeting {#section_49CBFFAAC8694C4AAD3DE4B2DB7B05DE}
@@ -56,78 +47,18 @@ The accuracy of geo targeting depends on several factors. WiFi connections are m
 
 The following table shows the accuracy of IP-based geographical information from [DigitalEnvoy](https://www.digitalelement.com/solutions/) for wired or WiFi Internet connections. DigitalEnvoy provides the most accurate data in the industry. Global accuracy is more than 99.9 percent at the country level and is up to 97 percent accurate at a city level. Accuracy information does not apply to cell tower-based networks.
 
-<table id="table_9F4BD43BF51A400E81D43876D4310820"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Country </th> 
-   <th colname="col2" class="entry"> State </th> 
-   <th colname="col3" class="entry"> City </th> 
-   <th colname="col4" class="entry"> Region </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>US </p> </td> 
-   <td colname="col2"> <p>99.99% </p> </td> 
-   <td colname="col3"> <p>96% </p> </td> 
-   <td colname="col4"> <p>94% </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Canada </p> </td> 
-   <td colname="col2"> <p>99.99% </p> </td> 
-   <td colname="col3"> <p>96% </p> </td> 
-   <td colname="col4"> <p>94% </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Europe </p> </td> 
-   <td colname="col2"> <p>99.99% </p> </td> 
-   <td colname="col3"> <p> </p> </td> 
-   <td colname="col4"> <p> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>UK </p> </td> 
-   <td colname="col2"> <p>99.99% </p> </td> 
-   <td colname="col3"> <p> </p> </td> 
-   <td colname="col4"> <p>87% </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Germany </p> </td> 
-   <td colname="col2"> <p>99.99% </p> </td> 
-   <td colname="col3"> <p>95% </p> </td> 
-   <td colname="col4"> <p>93% </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Scandinavia </p> </td> 
-   <td colname="col2"> <p>99% </p> </td> 
-   <td colname="col3"> <p>Low 90s </p> </td> 
-   <td colname="col4"> <p>Mid 80s </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Spain </p> </td> 
-   <td colname="col2"> <p>99.99% </p> </td> 
-   <td colname="col3"> <p>Around 90% </p> </td> 
-   <td colname="col4"> <p>Mid to high 90s </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Asia </p> </td> 
-   <td colname="col2"> <p>99% </p> </td> 
-   <td colname="col3"> <p>Mid 90s </p> </td> 
-   <td colname="col4"> <p>Low 90s </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Japan </p> </td> 
-   <td colname="col2"> <p>99.99% </p> </td> 
-   <td colname="col3"> <p>Mid 90s </p> </td> 
-   <td colname="col4"> <p>Low 90s </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Australia </p> </td> 
-   <td colname="col2"> <p>99.99% </p> </td> 
-   <td colname="col3"> <p>94% </p> </td> 
-   <td colname="col4"> <p>91% </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Country | State | City | Region |
+|--- |--- |--- |--- |
+|US|99.99%|96%|94%|
+|Canada|99.99%|96%|94%|
+|Europe|99.99%|||
+|UK|99.99%||87%|
+|Germany|99.99%|95%|93%|
+|Scandinavia|99%|Low 90s|Mid 80s|
+|Spain|99.99%|Around 90%|Mid to high 90s|
+|Asia|99%|Mid 90s|Low 90s|
+|Japan|99.99%|Mid 90s|Low 90s|
+|Australia|99.99%|94%|91%|
 
 ## Using Geo-Targeting in Profile Scripts {#section_92C93138542C4A94997E3F4BE3F5DA28}
 
@@ -204,3 +135,12 @@ You'll need to clear your cookies before doing this.
 **How are territories, such as Puerto Rico and Hong Kong, mapped into the geo-targeting structure?**
 
 Puerto Rico, Hong Kong, and other territories are treated as separate "Country" values. 
+
+## Training video: Creating Audiences
+
+This video includes information about using audience categories.
+
+* Create audiences 
+* Define audience categories
+
+>[!VIDEO](https://www.youtube.com/watch?v=wV9lVTSOxMk)

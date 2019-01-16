@@ -53,7 +53,7 @@ as illustrated below:
 
 ![](assets/site_pages.png)
 
-**Creating Audiences (9:58)**
+## Training video: Creating Audiences
 
 This video includes information about using audience categories.
 

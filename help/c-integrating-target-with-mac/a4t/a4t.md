@@ -27,8 +27,6 @@ The three primary benefits of using Analytics data in Target are:
 >[!IMPORTANT]
 >
 >Before you can begin using A4T, you need to request that your account be provisioned for the integration. Use [this form](https://www.adobe.com/go/audiences) to request to be provisioned.
-
->[!NOTE]
 >
 >The integration that enables Adobe Analytics as the data source for Adobe Target (A4T) represents the next generation of the Test&Target to SiteCatalyst plug-in. This plug-in has been deprecated, but is still supported for customers who already use it.
 
@@ -51,123 +49,27 @@ Keep the following points in mind when considering using A4T:
 * Only one mbox-based metric is allowed when using Analytics as the reporting source. 
 * A server-to-server call from Target to Analytics sends activity and experience information to Analytics. This integration does not result in additional server calls for either Target or Analytics.
 
-## Analytics & Target: Best Practices for Analysis Tutorial {#section_3438E6E77A464424B717A4FD333B84B2}
-
-Open the [Analytics & Target: Best Practices for Analysis](https://spark.adobe.com/page/Lo3Spm4oBOvwF/) tutorial, provided by Adobe Experience League.
-
-## Training Videos {#section_3CD2B02C87B948D1AE37D54382B2745E}
-
-**Analytics for Target (A4T) (4:32)**
-
-This video explains how to use Adobe Analytics as a reporting source in Adobe Target to drive the analysis of your optimization program.
-
-* Explain what A4T is and why you would use it 
-* Explain how A4T works 
-* Understand the prerequisites needed before using A4T
-
->[!VIDEO](https://www.youtube.com/watch?v=eS_LeNmcJug)
-
-**Analytics / Target Integration (A4T) (40:33)**
-
-This video is a recording of " [Office Hours](../../cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7)," an initiative led by the Adobe Customer Care team.
-
-* How to set up and validate that the integration is working 
-* How the integration works 
-* Learn about the ideal reports to use in Analytics 
-* Answers to common questions about A4T
-
->[!VIDEO](https://video.tv.adobe.com/v/22223/)
-
 ## Supported Activity Types {#section_F487896214BF4803AF78C552EF1669AA}
 
 The following table shows you which activity types support Analytics as the reporting source (A4T):
 
-<table id="table_3FB19416FBDD441ABC338554D34BED0A"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Activity Types </th> 
-   <th colname="col3" class="entry"> A4T Compatible? </th> 
-   <th colname="col5" class="entry"> Notes, if applicable </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>A/B activity with manual traffic split </p> </td> 
-   <td colname="col3"> <p>Yes </p> </td> 
-   <td colname="col5"> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>A/B activity with Auto-Allocate </p> </td> 
-   <td colname="col3"> <p>No </p> </td> 
-   <td colname="col5"> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>A/B activity with Auto-Target </p> </td> 
-   <td colname="col3"> <p>No </p> </td> 
-   <td colname="col5"> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Experience Targeting (XT) </p> </td> 
-   <td colname="col3"> <p>Yes </p> </td> 
-   <td colname="col5"> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Multivariate test (MVT) </p> </td> 
-   <td colname="col3"> <p>Yes </p> </td> 
-   <td colname="col5"> <p>Requires mbox-based goal metric goal to get the Element Contribution report. </p> <p>The Element Contribution Report does not currently support Analytics metrics. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Automated Personalization (AP) activity </p> </td> 
-   <td colname="col3"> <p>No </p> </td> 
-   <td colname="col5"> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Recommendations activity </p> </td> 
-   <td colname="col3"> <p>Yes </p> </td> 
-   <td colname="col5"> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Mobile App </p> </td> 
-   <td colname="col3"> <p>Yes </p> </td> 
-   <td colname="col5"> <p>Supported with the <span class="keyword"> Mobile Services</span> SDK, version 4.13.1 or later. </p> <p>For more information, see the <a href="https://marketing.adobe.com/resources/help/en_US/mobile/" format="https" scope="external"> Mobile Services documentation</a>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Email </p> </td> 
-   <td colname="col3"> <p>No </p> </td> 
-   <td colname="col5"> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Server Side Delivery API </p> </td> 
-   <td colname="col3"> <p>Yes </p> </td> 
-   <td colname="col5"> For more information, see <a href="../../c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md#concept_5718EC1FF2ED4436935D0BCCD7AA29A6" format="dita" scope="local"> Server Side: implement Target</a>. </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>NodeJS SDK </p> </td> 
-   <td colname="col3"> <p>Yes </p> </td> 
-   <td colname="col5">For more information, see <a href="../../c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md#concept_5718EC1FF2ED4436935D0BCCD7AA29A6" format="dita" scope="local"> Server Side: implement Target</a>. </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>AEM 6.1 (or earlier) Cloud Service Integration </p> </td> 
-   <td colname="col3"> <p>No </p> </td> 
-   <td colname="col5"> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>AEM 6.2 (or later) Cloud Service Integration </p> </td> 
-   <td colname="col3"> <p>Yes </p> </td> 
-   <td colname="col5"> <p>For more information, see <a href="https://docs.adobe.com/docs/en/aem/6-2/administer/integration/marketing-cloud/target.html" format="html" scope="external"> Integrating with Adobe Target</a> in the Adobe Experience Manager 6.2 documentation. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Any activity using a Redirect offer </p> </td> 
-   <td colname="col3"> <p>Yes </p> </td> 
-   <td colname="col5"> <p>There are stricter minimum requirements for using redirect offers with A4T. For more information, see <a href="../../c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#concept_21BF213F10E1414A9DCD4A98AF207905" format="dita" scope="local"> Redirect Offers - A4T FAQ</a>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Node.JS </p> </td> 
-   <td colname="col3"> <p>Yes </p> </td> 
-   <td colname="col5"> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Activity Types | A4T Compatible? | Notes, if applicable |
+|--- |--- |--- |
+|A/B activity with manual traffic split|Yes||
+|A/B activity with Auto-Allocate|No||
+|A/B activity with Auto-Target|No||
+|Experience Targeting (XT)|Yes||
+|Multivariate test (MVT)|Yes|Requires mbox-based goal metric goal to get the Element Contribution report.  The Element Contribution Report does not currently support Analytics metrics.|
+|Automated Personalization (AP) activity|No||
+|Recommendations activity|Yes||
+|Mobile App|Yes|Supported with the  Mobile Services SDK, version 4.13.1 or later.  For more information, see the [Mobile Services documentation](https://marketing.adobe.com/resources/help/en_US/mobile/).|
+|Email|No||
+|Server Side Delivery API|Yes|For more information, see [Server Side: implement Target](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md).|
+|NodeJS SDK|Yes|For more information, see [Server Side: implement Target](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md).|
+|AEM 6.1 (or earlier) Cloud Service Integration|No||
+|AEM 6.2 (or later) Cloud Service Integration|Yes|For more information, see [Integrating with Adobe Target](https://helpx.adobe.com/experience-manager/6-2/sites/administering/using/target.html) in the Adobe Experience Manager 6.2 documentation.|
+|Any activity using a Redirect offer|Yes|There are stricter minimum requirements for using redirect offers with A4T. For more information, see [Redirect Offers - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md).|
+|Node.JS|Yes||
 
 Because all activity types do not yet support A4T, it is recommended that you keep or implement important conversion mboxes, such as the "orderConfirmPage" mbox.
 
@@ -194,3 +96,30 @@ The following illustration shows the [!UICONTROL Table View] of an A4T report:
 ![](assets/a4t_report_table.png)
 
 To view the report in [!DNL Analytics] rather than in [!DNL Target], click **[!UICONTROL View in Analytics]** along the top of the report. 
+
+## Analytics & Target: Best Practices for Analysis Tutorial {#section_3438E6E77A464424B717A4FD333B84B2}
+
+Open the [Analytics & Target: Best Practices for Analysis](https://spark.adobe.com/page/Lo3Spm4oBOvwF/) tutorial, provided by Adobe Experience League.
+
+## Training videos: Analytics and A4T and Analytics/Target Integration (A4T) {#section_3CD2B02C87B948D1AE37D54382B2745E}
+
+**Analytics for Target (A4T) (4:32)**
+
+This video explains how to use Adobe Analytics as a reporting source in Adobe Target to drive the analysis of your optimization program.
+
+* Explain what A4T is and why you would use it 
+* Explain how A4T works 
+* Understand the prerequisites needed before using A4T
+
+>[!VIDEO](https://www.youtube.com/watch?v=eS_LeNmcJug)
+
+**Analytics / Target Integration (A4T) (40:33)**
+
+This video is a recording of " [Office Hours](../../cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7)," an initiative led by the Adobe Customer Care team.
+
+* How to set up and validate that the integration is working 
+* How the integration works 
+* Learn about the ideal reports to use in Analytics 
+* Answers to common questions about A4T
+
+>[!VIDEO](https://video.tv.adobe.com/v/22223/)
