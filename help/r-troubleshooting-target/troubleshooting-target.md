@@ -59,9 +59,9 @@ The following sections contain troubleshooting information about activities:
   * [Inflated Visit and Visitor counts - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-inflated-visit-and-visitor-counts.md)
   * [Classifications - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-classifications.md)
 * [Legacy SiteCatalyst to Test&Target integration - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-old-integration.md)
-  * "Office Hours" video, an initiative led by the Adobe Customer Care team. See [Adobe Analytics as the Reporting Source for Adobe Target (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md).
+* "Office Hours" video, an initiative led by the Adobe Customer Care team. See [Adobe Analytics as the Reporting Source for Adobe Target (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md).
 
-  ## Audiences and targeting
+## Audiences and targeting
 
 * [Target optimization and personalization FAQ](/help/c-intro/cmp-target-standard-cheatsheet.md)
 * [Targets and audiences FAQ](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)
