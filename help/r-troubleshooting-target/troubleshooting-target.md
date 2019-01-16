@@ -11,7 +11,7 @@ uuid: 8ed11372-f2cd-4bc4-a1da-ad626131e196
 
 # Troubleshoot Target{#troubleshoot-target}
 
-List of topics to help you resolve issues in Adobe Target, including troubleshooting topics, frequently asked questions (FAQs), and other helpful topics.
+List of topics to help you resolve issues in [!DNL Adobe Target], including troubleshooting topics, frequently asked questions (FAQs), and other helpful topics.
 
 ## Activities
 
