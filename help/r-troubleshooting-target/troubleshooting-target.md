@@ -118,7 +118,7 @@ The following sections contain troubleshooting information about implementing Ta
 
 ## Known issues
 
-* [Known issues and resolved issues](/help/r-release-notes/known-issues-resolved-issues.md) 
+* [Known issues and resolved issues](/help/r-release-notes/known-issues-resolved-issues.md)
 
 ## Reporting
 
@@ -153,8 +153,8 @@ The following sections contain troubleshooting information about implementing Ta
 
 This video demonstrates tools for troubleshooting [!DNL Target].
 
-* Use native browser tools for inspecting mbox requests 
-* Use the Experience Cloud Debugger, mboxTrace, and ttMETA 
+* Use native browser tools for inspecting mbox requests
+* Use the Experience Cloud Debugger, mboxTrace, and ttMETA
 * Understand the Target timeout
 
->[!VIDEO](https://www.youtube.com/watch?v=OXznmfKjxwU) 
+>[!VIDEO](https://www.youtube.com/watch?v=OXznmfKjxwU)
