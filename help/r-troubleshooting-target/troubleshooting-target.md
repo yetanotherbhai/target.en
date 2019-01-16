@@ -61,7 +61,7 @@ The following sections contain troubleshooting information about activities, sep
   * [Classifications - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-classifications.md)
   * [Legacy SiteCatalyst to Test & Target integration - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-old-integration.md)
 
-## Audiences and targeting
+## Audiences and targets
 
 * [Target optimization and personalization FAQ](/help/c-intro/cmp-target-standard-cheatsheet.md)
 * [Targets and audiences FAQ](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)
