@@ -13,29 +13,19 @@ badge: premium
 
 # ![PREMIUM](/help/assets/premium.png) Automated Personalization{#automated-personalization}
 
-Automated Personalization (AP) combines offers or messages, and uses advanced machine learning to match different offer variations to each visitor based on their individual customer profile, in order to personalize content and drive lift.
-
-Similarly to Auto-Target, Automated Personalization uses a Random Forest algorithm, a leading data science ensemble method, as its main personalization algorithm to determine the best experience to show a visitor. Automated Personalization can be valuable in the discovery phase of testing. It is also useful to allow machine learning to determine the most effective content when targeting diverse visitors. Over time, the algorithm learns to predict the most effective content and displays the content most likely to achieve your goals.
-
-To find more information about how Automated Personalization differs from Auto Target, see [Auto-Target For Personalized Experiences](../../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3).
+[!UICONTROL Automated Personalization] (AP) combines offers or messages, and uses advanced machine learning to match different offer variations to each visitor based on their individual customer profile, in order to personalize content and drive lift.
 
 >[!NOTE]
 >
->Automated Personalization is available as part of the Target Premium solution. It is not included with Target Standard without a Target Premium license. If you have a Target Premium license, the Target Premium card replaces the Target Standard card in the Adobe Experience Cloud.
+>[!UICONTROL Automated Personalization] is available as part of the [!DNL Target Premium] solution. It is not included with [!DNL Target Standard] without a [!DNL Target Premium] license. If you have a [!DNL Target Premium] license, the [!DNL Target Premium] card replaces the [!DNL Target Standard] card in the [!DNL Adobe Experience Cloud].
 
-**Activity Types (9:03)**
+Similarly to [!UICONTROL Auto-Target], [!UICONTROL Automated Personalization] uses a Random Forest algorithm, a leading data science ensemble method, as its main personalization algorithm to determine the best experience to show a visitor. [!UICONTROL Automated Personalization] can be valuable in the discovery phase of testing. It is also useful to allow machine learning to determine the most effective content when targeting diverse visitors. Over time, the algorithm learns to predict the most effective content and displays the content most likely to achieve your goals.
 
-This video explains the activity types available in Target Standard/Premium. Automated Personalization is discussed beginning at 5:55.
+To find more information about how [!UICONTROL Automated Personalization] differs from [!UICONTROL Auto-Target], see [Auto-Target For Personalized Experiences](../../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3).
 
-* Describe the types of activities included in [!DNL Adobe Target] 
-* Select the appropriate activity type to achieve your goals 
-* Describe the three-step guided workflow that applies to all activity types
+Marketers implement one file on their site, which enables them to point and click on any content and then visually create and select additional content options for that area using the VEC ([!UICONTROL Visual Experience Composer]). Then, the algorithm automatically determines which piece of content to deliver to each individual visitor based on all the behavioral data that the system has about that visitor, providing a personalized experience. Because [!UICONTROL Automated Personalization] can adapt to changes in visitor behavior, it can be run without a set end date to provide ongoing lift and personalization. This is sometimes referred to as “always-on” mode. The marketer does not need to run a test, analyze the results, then deliver a winner before realizing the lift found from optimization, which is a standard order of operations to implement the outcome of a standard A/B activity.
 
->[!VIDEO](https://www.youtube.com/watch?v=vtHg1pPFJp8)
-
-Marketers implement one file on their site which enables them to point and click on any content and then visually create and select additional content options for that area using the VEC (Visual Experience Composer). Then, the algorithm automatically determines which piece of content to deliver to each individual visitor based on all the behavioral data that the system has about that visitor, providing a personalized experience. Because Automated Personalization can adapt to changes in visitor behavior, it can be run without a set end date to provide ongoing lift and personalization. This is sometimes referred to as “always-on” mode. The marketer does not need to run a test, analyze the results, then deliver a winner before realizing the lift found from optimization—a standard order of operations to implement the outcome of a standard A/B activity.
-
-The following terms are useful when discussing Automated Personalization:
+The following terms are useful when discussing [!UICONTROL Automated Personalization]:
 
 |  Term  | Definition  |
 |---|---|
@@ -43,9 +33,9 @@ The following terms are useful when discussing Automated Personalization:
 |  Random Forest  |Random Forest is a leading machine learning approach. In data-science speak, it is an ensemble classification or regression method that works by constructing a large number of decision trees based on visitor and visit attributes. Within Target, Random Forest is used to determine which experience is expected to have the highest likelihood of conversion (or highest revenue per visit) for each specific visitor. For more information about Random Forest in Target, see [Random Forest Algorithm](../../c-activities/t-automated-personalization/algo-random-forest.md#concept_48F3CDAA16A848D2A84CDCD19DAAE3AA).  |
 |  Thompson Sampling  |The goal of Thompson Sampling is to determine which experience is the best overall (non-personalized), while minimizing the “cost” of finding that experience. Thompson sampling always picks a winner, even if there is no statistical difference between two experiences. For more information, see [Thompson Sampling](https://en.wikipedia.org/wiki/Thompson_sampling).  |
 
-Consider the following details when using Automated Personalization:
+Consider the following details when using [!UICONTROL Automated Personalization]:
 
-**Automated Personalization uses a Random Forest algorithm to personalize.**
+**[!UICONTROL Automated Personalization] uses a Random Forest algorithm to personalize.**
 
 Random Forest is a leading machine learning approach. In data-science speak, it is an ensemble classification or regression method that works by constructing a large number of decision trees based on visitor and visit attributes. Within Target, Random Forest is used to determine which experience is expected to have the highest likelihood of conversion (or highest revenue per visit) for each specific visitor. For example, visitors who use Chrome, are gold loyalty members, and access your site on Tuesdays might be more likely to convert with Experience A, while visitors from New York might be more likely to convert with Experience B. For more information about Random Forest in Target, see [Random Forest Algorithm](../../c-activities/t-automated-personalization/algo-random-forest.md#concept_48F3CDAA16A848D2A84CDCD19DAAE3AA).
 
@@ -63,22 +53,32 @@ Random Forest is a leading machine learning approach. In data-science speak, it 
 
 **The model continually optimizes a single goal metric.**
 
-* This metric could be conversion-based or revenue-based (more specifically, Revenue per Visitor).
+* This metric could be conversion-based or revenue-based (more specifically, [!UICONTROL Revenue per Visitor]).
 
 **Target automatically collects information about visitors to build the personalization models.**
 
-* For more information about the attributes used in Auto-Target and Automated Personalization, see [Automated Personalization Data Collection](../../c-activities/t-automated-personalization/ap-data.md#reference_255BD3DE7AD04DC9B766E0BC78961058).
+* For more information about the attributes used in [!UICONTROL Auto-Target] and [!UICONTROL Automated Personalization], see [Automated Personalization Data Collection](../../c-activities/t-automated-personalization/ap-data.md#reference_255BD3DE7AD04DC9B766E0BC78961058).
 
-**Target automatically uses all Experience Cloud shared audiences to build the personalization models.**
+**Target automatically uses all [!DNL Adobe Experience Cloud] shared audiences to build the personalization models.**
 
-* You don’t have to do anything specific to add audiences to the model. For information about using Experience Cloud Audiences with Target, see [Experience Cloud Audiences](../../c-integrating-target-with-mac/mmp.md#concept_F4863DE4C92D4805AB690B4B3D487969).
+* You don’t have to do anything specific to add audiences to the model. For information about using [!DNL Experience Cloud Audiences] with [!DNL Target], see [Experience Cloud Audiences](../../c-integrating-target-with-mac/mmp.md#concept_F4863DE4C92D4805AB690B4B3D487969).
 
 **Marketers can upload offline data, propensity scores or other custom data to build personalization models.**
 
-Offline data, such as CRM information or customer churn propensity scores, can be incredibly valuable when building personalization models. There are several ways to input data in Automated Personalization (AP) and Auto-Target personalization algorithms.
+Offline data, such as CRM information or customer churn propensity scores, can be incredibly valuable when building personalization models. There are several ways to input data in [!UICONTROL Automated Personalization] (AP) and [!UICONTROL Auto-Target] personalization algorithms.
 
 * [mbox parameters](../../c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md#concept_0069C0EFB56C4700BB33F2F35C2B9B17) 
 * [Profile parameters](../../c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md#concept_0069C0EFB56C4700BB33F2F35C2B9B17) 
 * [Server-side APIs for profile update](../../c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md#concept_0069C0EFB56C4700BB33F2F35C2B9B17)
 
-For information about the data automatically collected and used by Automated Personalization and Auto-Target personalization algorithms, see [Automated Personalization Data Collection](../../c-activities/t-automated-personalization/ap-data.md#reference_255BD3DE7AD04DC9B766E0BC78961058). 
+For information about the data automatically collected and used by [!UICONTROL Automated Personalization] and [!UICONTROL Auto-Target] personalization algorithms, see [Automated Personalization Data Collection](../../c-activities/t-automated-personalization/ap-data.md#reference_255BD3DE7AD04DC9B766E0BC78961058). 
+
+## Training video: Activity Types
+
+This video explains the activity types available in [!DNL Target Standard/Premium]. [!UICONTROL Automated Personalization] is discussed beginning at 5:55.
+
+* Describe the types of activities included in [!DNL Adobe Target] 
+* Select the appropriate activity type to achieve your goals 
+* Describe the three-step guided workflow that applies to all activity types
+
+>[!VIDEO](https://www.youtube.com/watch?v=vtHg1pPFJp8)
