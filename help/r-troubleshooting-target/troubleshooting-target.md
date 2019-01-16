@@ -59,7 +59,7 @@ The following sections contain troubleshooting information about activities:
   * [Sharing metrics, segments, and reports - A4T FAQ](/help/c-target/c-troubleshooting-targets-and-audiences/a4t-faq-sharing-metrics-audiences-reports.md)
   * [Inflated Visit and Visitor counts - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-inflated-visit-and-visitor-counts.md)
   * [Classifications - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-classifications.md)
-  * [Legacy SiteCatalyst to Test&Target integration - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-old-integration.md)
+  * [Legacy SiteCatalyst to Test&amp;Target integration - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-old-integration.md)
 
 ## Audiences and targeting
 
