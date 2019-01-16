@@ -18,54 +18,17 @@ Reports provide information about the performance of your activities.
 >
 >You can block visitors from specified IP addresses from being counted in reports. Contact Client Care to set up IP filters. This filtering does not apply when using [Analytics for Target](../c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) (A4T) as your reporting source.
 
-## Reporting Information for Specific Activity Types {#section_DFE037B9E1C345D3B3BDFCB3AC0359CA}
+## Reporting information for specific activity types {#section_DFE037B9E1C345D3B3BDFCB3AC0359CA}
 
 In addition to the general reporting information in this topic and its subtopics, additional information specific to individual activity types is available elsewhere in this guide:
 
-<table id="table_6A63A3766BA14060BE53DF3AD80D13C1"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Activity Type </th> 
-   <th colname="col2" class="entry"> Details </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p><a href="../c-activities/t-test-ab/test-ab.md#task_05E33EB15C4D4459B5EAFF90A94A7977" format="dita" scope="local"> A/B Test</a> </p> </td> 
-   <td colname="col2"> <p>To understand lift and confidence and the statistical approaches used in Target, see <a href="../c-activities/t-test-ab/sample-size-determination.md#concept_2801F552DB874C20B8A17C1B774C0383" format="dita" scope="local"> Plan an A/B Test</a>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><a href="../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3" format="dita" scope="local"> Auto-Target</a> (AT) </p> </td> 
-   <td colname="col2"> <p> 
-     <ul id="ul_81F3B2F17153401DBE4180F8CDA02CFB"> 
-      <li id="li_6649B81BDA274685871478C1B6EC60DB"> <p>Information about the Summary report for AT activities. For more information, see <a href="../c-reports/auto-target-summary-report.md#concept_E2171F7B57C1417DAAD7E7909A3FB073" format="dita" scope="local"> Auto-Target Summary Report</a>. </p> </li> 
-      <li id="li_5BE42826325744BCA8F449CC282853AD"> <p>Information about the two Personalization Insights reports for AT and AP activities: Automated Segments report and Important Attributes report. For more information, see <a href="../c-reports/c-personalization-insights-reports/personalization-insights-reports.md#concept_A897070E1EDC403EB84CFB7A6ECAD767" format="dita" scope="local"> Personalization Insights Reports</a>. </p> </li> 
-     </ul> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><a href="../c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9" format="dita" scope="local"> Automated Personalization</a> (AP) </p> </td> 
-   <td colname="col2"> <p> 
-     <ul id="ul_A1BA81DA5EC948E2A4384083907BA7B2"> 
-      <li id="li_C370889D33244710BDDD34FE68A44F28"> <p>Information about the two AP Summary reports for AP activities: Activity Level report and Offer Level report.. For more information, see <a href="../c-reports/reports-ap.md#concept_C02BAFC922114A44846998FD956E345A" format="dita" scope="local"> Automated Personalization Summary Reports</a>. </p> </li> 
-      <li id="li_5720539F6D4645608E9593E8F4368C51"> <p>Information about the two Personalization Insights reports for AP and AT activities: Automated Segments report and Important Attributes report. For more information, see <a href="../c-reports/c-personalization-insights-reports/personalization-insights-reports.md#concept_A897070E1EDC403EB84CFB7A6ECAD767" format="dita" scope="local"> Personalization Insights Reports</a>. </p> </li> 
-     </ul> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><a href="../c-activities/c-multivariate-testing/multivariate-testing.md#concept_628695CDC71B449B8DCC2F5654C11499" format="dita" scope="local"> Multivariate Test</a> (MVT) </p> </td> 
-   <td colname="col2"> <p> 
-     <ul id="ul_335ECDC31B0B45EC831EDA824A85B096"> 
-      <li id="li_967E0EC06E914E308F8F985D505C1339"> <p>Information about the two reports for MVT activities: Experience Performance report and Location Contribution report.. For more information, see <a href="../c-reports/experience-performance-report.md#concept_4470C6A177924695A6595B54E3A7FD90" format="dita" scope="local"> Experience Performance Report (MVT)</a> and <a href="../c-reports/location-contribution-report.md#concept_95A285CEDB674FE7A05B323AA2771906" format="dita" scope="local"> Location Contribution Report (MVT)</a>. </p> </li> 
-     </ul> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><a href="../c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE" format="dita" scope="local"> Adobe Analytics as the Reporting Source for Adobe Target (A4T)</a> </p> </td> 
-   <td colname="col2"> <p> 
-     <ul id="ul_31083A6CAA3C4DF58996460347AB1C8D"> 
-      <li id="li_981A84CA7169459ABC3EF49E1BD16B02"> <p>Information about using Adobe Analytics as the reporting source for Target. A4T gives you access to Analytics reports for your Target activities. For more information, see <a href="../c-reports/analytics-for-target-a4t-reporting.md#concept_49805AB5ADEB4CD4A95F60C75918FF16" format="dita" scope="local"> Analytics for Target (A4T) Reporting</a>. </p> </li> 
-     </ul> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Activity Type | Details |
+|--- |--- |
+|[A/B Test](/help/c-activities/t-test-ab/test-ab.md)|To understand lift and confidence and the statistical approaches used in [!DNL Target], see [Plan an A/B Test](/help/c-activities/t-test-ab/sample-size-determination.md).|
+|[Auto-Target](/help/c-activities/auto-target-to-optimize.md) (AT)|Information about the [!UICONTROL Summary] report for AT activities. For more information, see [Auto-Target Summary Report](/help/c-reports/auto-target-summary-report.md).<br>Information about the two [!UICONTROL Personalization Insights] reports for AT and AP activities: [!UICONTROL Automated Segments] report and [!UICONTROL Important Attributes] report. For more information, see [Personalization Insights Reports](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md).|
+|[Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md) (AP)|Information about the two [!UICONTROL Automated Personalization Summary] reports for AP activities: [!UICONTROL Activity Level] report and [!UICONTROL Offer Level] report. For more information, see [Automated Personalization Summary Reports](/help/c-reports/reports-ap.md).<br>Information about the two [!UICONTROL Personalization Insights] reports for AT and AP activities: [!UICONTROL Automated Segments] report and [!UICONTROL Important Attributes] report. For more information, see [Personalization Insights Reports](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md).|
+|[Multivariate Test](/) (MVT)|Information about the two reports for MVT activities: [!UICONTROL Experience Performance] report and [!UICONTROL Location Contribution] report. For more information, see [Experience Performance Report](/help/c-reports/experience-performance-report.md) (MVT) and  [Location Contribution Report](/help/c-reports/location-contribution-report.md) (MVT).|
+|[Adobe Analytics as the Reporting Source for Adobe Target](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T)|Information about using [!DNL Adobe Analytics] as the reporting source for [!DNL Target]. A4T gives you access to [!DNL Analytics] reports for your [!DNL Target] activities. For more information, see [Analytics for Target (A4T) Reporting](/help/c-reports/analytics-for-target-a4t-reporting.md).|
 
 ## Displaying a Report {#section_C4591A32F6D04C95A1AD5A377C27C28B}
 
@@ -87,7 +50,7 @@ In addition to the general reporting information in this topic and its subtopics
 
    The legend displays the following information:
 
-    * The activity status, including the date range when the activity ran. 
+    * The activity status, including the date range when the activity ran.
     * The projected winning experience. 
     * The activity's source, such as [!DNL Adobe Target] or [!DNL Adobe Target Classic].
 
@@ -100,10 +63,9 @@ In addition to the general reporting information in this topic and its subtopics
 
    The following options are available:
 
-    * [!UICONTROL Export Report to CSV] 
+    * [!UICONTROL Export Report to CSV]
     * [!UICONTROL Export Order Details to CSV]
 
 1. (Optional) Click the **[!UICONTROL Table View]** and **[!UICONTROL Graph View]** icons to switch between reporting formats.
 
    For Multivariate tests only, click the **[!UICONTROL Location Contribution]** ( ![Location Contribution icon](assets/icon_location_contribution.png) ) icon to switch the report to show contribution by location.
-
