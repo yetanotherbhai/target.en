@@ -141,7 +141,7 @@ The following sections contain troubleshooting information about implementing Ta
 * [Troubleshooting user management](/help/administrating-target/c-user-management/c-user-management/troubleshooting-user-management.md)
 
 ## Visual Experience Composer (VEC)
-	
+
 * [Target optimization and personalization FAQ](/help/c-intro/cmp-target-standard-cheatsheet.md)
 * [Troubleshooting the Visual Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)
 * [Visual Experience Composer best practices and limitations](/help/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md)
