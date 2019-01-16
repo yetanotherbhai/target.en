@@ -15,7 +15,7 @@ List of topics to help you resolve issues in [!DNL Adobe Target], including trou
 
 ## Activities
 
-The following sections contain troubleshooting information about activities:
+The following sections contain troubleshooting information about activities, separated by type:
 
 ### General activity troubleshooting
 
