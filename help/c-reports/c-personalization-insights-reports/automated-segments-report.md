@@ -55,35 +55,38 @@ Different visitors respond differently to the offers/experiences in your AP/AT a
 
    ![](assets/automated_segments_report.png)
 
-   The following table explains how to interpret the report and describes its elements:
-
-   | Element | Details |
-   |--- |--- |
-   |Left-hand side panel|The left-hand side panel lists the 20 largest "automated segments" identified by Target's personalization models for this activity. An "automated segment" is like an audience, but it is defined by Target's personalization models instead of by the marketer. Each automated segment is made up of specific values (or value ranges) of specific attributes.<br>Note that automated segments can overlap. Automated segments can be defined by one, two, three, or four attributes. See the examples below for more details.<br>To learn more about Target's personalization models, see [Random Forest Algorithm](/help/c-activities/t-automated-personalization/algo-random-forest.md). To learn more about the attributes Target's personalization models use to create the automated segments, see [Data Collection for Target's Personalization Algorithms](/help/c-activities/t-automated-personalization/ap-data.md).|
-   |Center graph|The center graphs displays how your activity's content performed for the highlighted automated segment. As you click different segments on the left-hand panel, the center graphs update.|
-   |Pie charts|The pie charts at the top of the center panel show the size of the automated segment, as well as the total number of personalized visits in the activity (for example, traffic to this activity that was served by the personalization model. It does not include control traffic or traffic served by the overall winner model). Note that the size of the segment is based only on personalized visits.<br>![Pie chart](/help/c-reports/c-personalization-insights-reports/assets/pie.png)|
-   |Dual-axis bar chart|The dual-axis bar chart includes visit and conversion information by the offer or experience for that specific automated segment.|
-   |Pink bar|The pink bar represents the conversion rate, and uses the bottom axis of the graph. You can hover over the bar for more information|
-   |Blue bar|The blue bar represents the number of visits, and uses the top axis of the graph. You can hover over the bar for more information.|
-   |Grey dotted line|The grey dotted line represents the conversion rate for all personalized visits in the activity, across all offers/ experiences and automated segments.|
-
-    **Automated Segment Example 1**
-
-    This automated segment is defined based on only one attribute. Visitors included in this automated segment saw this AP activity on a weekday outside of typical working hours or on a weekend.
-
-    ![](assets/automated_segment_example_1.png)
-
-    **Automated Segment Example 2**
-
-    This automated segment is defined based on two attributes. Visitors included in this automated segment who saw this AP activity had fewer than three page views in their current visit and were geographically based within the Latitude 42.57 and 47.29 (approximately between New Hampshire/Oregon and Washington/Maine for a US-based company).
-
-    ![](assets/automated_segment_example_2.png)
 
 1. (Optional) [Download the report in CSV format](../../c-reports/c-report-settings/report-settings.md#section_77E65C50BAAF4AB79242DB3A8778ADEF) for analysis in Excel and other tools.
 
    >[!NOTE]
    >
    >The Personalization Insights UI report contains select information. The CSV download for the Automated Segments report contains additional details. The Automated Segments report download includes additional Automated Segments beyond the top segments included in the UI, along with how those segments performed against your offers or experiences.
+
+## Interpret the Automated Segments report
+
+The following table explains how to interpret the report and describes its elements:
+
+| Element | Details |
+|--- |--- |
+|Left-hand side panel|The left-hand side panel lists the 20 largest "automated segments" identified by Target's personalization models for this activity. An "automated segment" is like an audience, but it is defined by Target's personalization models instead of by the marketer. Each automated segment is made up of specific values (or value ranges) of specific attributes.<br>Note that automated segments can overlap. Automated segments can be defined by one, two, three, or four attributes. See the examples below for more details.<br>To learn more about Target's personalization models, see [Random Forest Algorithm](/help/c-activities/t-automated-personalization/algo-random-forest.md). To learn more about the attributes Target's personalization models use to create the automated segments, see [Data Collection for Target's Personalization Algorithms](/help/c-activities/t-automated-personalization/ap-data.md).|
+|Center graph|The center graphs displays how your activity's content performed for the highlighted automated segment. As you click different segments on the left-hand panel, the center graphs update.|
+|Pie charts|The pie charts at the top of the center panel show the size of the automated segment, as well as the total number of personalized visits in the activity (for example, traffic to this activity that was served by the personalization model. It does not include control traffic or traffic served by the overall winner model). Note that the size of the segment is based only on personalized visits.<br>![Pie chart](/help/c-reports/c-personalization-insights-reports/assets/pie.png)|
+|Dual-axis bar chart|The dual-axis bar chart includes visit and conversion information by the offer or experience for that specific automated segment.|
+|Pink bar|The pink bar represents the conversion rate, and uses the bottom axis of the graph. You can hover over the bar for more information|
+|Blue bar|The blue bar represents the number of visits, and uses the top axis of the graph. You can hover over the bar for more information.|
+|Grey dotted line|The grey dotted line represents the conversion rate for all personalized visits in the activity, across all offers/ experiences and automated segments.|
+
+**Automated Segment Example 1**
+
+This automated segment is defined based on only one attribute. Visitors included in this automated segment saw this AP activity on a weekday outside of typical working hours or on a weekend.
+
+![](assets/automated_segment_example_1.png)
+
+**Automated Segment Example 2**
+
+This automated segment is defined based on two attributes. Visitors included in this automated segment who saw this AP activity had fewer than three page views in their current visit and were geographically based within the Latitude 42.57 and 47.29 (approximately between New Hampshire/Oregon and Washington/Maine for a US-based company).
+
+![](assets/automated_segment_example_2.png)
 
 ## Automated Segments FAQ {#section_740910A52FA646B4AC9452F98C2F5719}
 
