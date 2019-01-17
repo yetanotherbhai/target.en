@@ -135,48 +135,15 @@ For example, if you’re optimizing to page views per visitor, you’d export a 
 
    For more information about each field, see "Data Warehouse Descriptions" in [Data Warehouse](https://marketing.adobe.com/resources/help/en_US/reference/data_warehouse.html).
 
-    <table id="table_0644A7F8ABCB429B85DFF8C73762619F"> 
-    <thead> 
-      <tr> 
-      <th colname="col1" class="entry"> Field </th> 
-      <th colname="col2" class="entry"> Instructions </th> 
-      </tr> 
-    </thead>
-    <tbody> 
-      <tr> 
-      <td colname="col1"> <p>Request Name </p> </td> 
-      <td colname="col2"> <p>Specify a name for your request. </p> </td> 
-      </tr> 
-      <tr> 
-      <td colname="col1"> <p>Reporting Date </p> </td> 
-      <td colname="col2"> <p>Specify a time period and granularity. </p> <p>As best practice, choose no more than an hour or one day of data for your first request. </p> <p>Data Warehouse files take longer to process the longer the time period requested, so it is always a best practice to request a small time period data first to make sure your file returns the expected result. Then, go to the Request Manager, duplicate your request, and ask for more data the second time. Also, if you toggle granularity to anything other than “None,” the file size will increase drastically. </p> <p> <img src="assets/datawarehouse.png" id="image_D58215BCAF2B4DA3B22437C199A59418" /> </p> </td> 
-      </tr> 
-      <tr> 
-      <td colname="col1"> <p>Available Segments </p> </td> 
-      <td colname="col2"> <p>Apply a segment, as needed. </p> </td> 
-      </tr> 
-      <tr> 
-      <td colname="col1"> <p>Breakdowns </p> </td> 
-      <td colname="col2"> <p>Select the desired dimensions: </p> <p>Standard is out-of-the-box (OOTB), while Custom includes eVars &amp; props. It is recommended you use “Visitor ID” if visitor ID level information is needed, rather than “Experience Cloud Visitor ID.” </p> <p> 
-        <ul id="ul_2F4D7201447240AF974F73BD2D607F3D"> 
-          <li id="li_6FF1F0D5F91C41398AA6CDE0A69E154A"> <p>Visitor ID is the final ID used by Analytics. It will either be AID (if the customer is legacy) or MID (if the customer is new or cleared cookies since the MC visitor ID service was launched). </p> </li> 
-          <li id="li_5E0099C92E6C4F88A54BAA352D04E4E0"> <p>Experience Cloud Visitor ID will only be set for customers who are new or cleared cookies since the MC visitor ID service was launched. </p> </li> 
-        </ul> </p> </td> 
-      </tr> 
-      <tr> 
-      <td colname="col1"> <p>Metrics </p> </td> 
-      <td colname="col2"> <p> Select your desired metrics. Standard is OOTB, while Custom includes custom events. </p> </td> 
-      </tr> 
-      <tr> 
-      <td colname="col1"> <p>Report Preview </p> </td> 
-      <td colname="col2"> <p>Review your settings before scheduling the report. </p> <p> <img src="assets/datawarehouse2.png" id="image_D209CF4053204BE591CEF42BEB0C065C" /> </p> </td> 
-      </tr> 
-      <tr> 
-      <td colname="col1"> <p>Schedule Delivery </p> </td> 
-      <td colname="col2"> <p>Enter an email address to deliver the file to, name the file, then select <span class="uicontrol"> Send Immediately </span>. </p> <p> <p>Note:  The file can be delivered via FTP under <span class="wintitle"> Advanced Delivery Options </span>. </p> </p> <p> <img src="assets/datawarehouse3.png" id="image_DD2DA7CA0FAB4EC78D9BC80476301576" /> </p> </td> 
-      </tr> 
-    </tbody> 
-    </table>
+   | Field | Instructions |
+   |--- |--- |
+   |Request Name|Specify a name for your request.|
+   |Reporting Date|Specify a time period and granularity.<br>As best practice, choose no more than an hour or one day of data for your first request.  Data Warehouse files take longer to process the longer the time period requested, so it is always a best practice to request a small time period data first to make sure your file returns the expected result. Then, go to the Request Manager, duplicate your request, and ask for more data the second time. Also, if you toggle granularity to anything other than “None,” the file size will increase drastically.<br>![Data Warehouse](/help/c-reports/assets/datawarehouse.png)|
+   |Available Segments|Apply a segment, as needed.|
+   |Breakdowns|Select the desired dimensions:  Standard is out-of-the-box (OOTB), while Custom includes eVars & props. It is recommended you use “Visitor ID” if visitor ID level information is needed, rather than “Experience Cloud Visitor ID.”<ul><li>Visitor ID is the final ID used by Analytics. It will either be AID (if the customer is legacy) or MID (if the customer is new or cleared cookies since the MC visitor ID service was launched).</li><li>Experience Cloud Visitor ID will only be set for customers who are new or cleared cookies since the MC visitor ID service was launched.</li></ul>|
+   |Metrics|Select your desired metrics. Standard is OOTB, while Custom includes custom events.|
+   |Report Preview|Review your settings before scheduling the report.<br>![Data Warehouse 2](/help/c-reports/assets/datawarehouse2.png)|
+   |Schedule Delivery|Enter an email address to deliver the file to, name the file, then select [!UICONTROL Send Immediately].<br>Note: The file can be delivered via FTP under [!UICONTROL Advanced Delivery Options]<br>![Schedule Delivery](/help/c-reports/assets/datawarehouse3.png).|
 
 1. Click **[!UICONTROL Request this Report]**.
 
@@ -193,11 +160,6 @@ For more information about [!DNL Data Warehouse], see the following links in the
 
 You can choose to view reports by different counting methodologies to understand how your activities affect your users across their lifetimes or during a single session.
 
-<!-- 
-
-target/c_counting_methodology.xml
-
- -->
 
 Counting methodology is supported for the following activity types:
 
