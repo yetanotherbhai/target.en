@@ -16,9 +16,11 @@ Two specialized reports are available to users of Automated Personalization (AP)
 
 >[!NOTE]
 >
->* AP and AT activities are available as part of the [!DNL Target Premium] solution. They are not included with [!DNL Target Standard] without a [!DNL Target Premium] license.
->* Personalization Insights reports are available only for AP and AT activities that use a conversion optimization goal. Activities where the optimization goal was changed to conversion from revenue after the activity was already live are also not supported.
->* Personalization Insights reports are supported in the [default environment](../../administrating-target/hosts.md) only.
+>AP and AT activities are available as part of the [!DNL Target Premium] solution. They are not included with [!DNL Target Standard] without a [!DNL Target Premium] license.
+>
+>Personalization Insights reports are available only for AP and AT activities that use a conversion optimization goal. Activities where the optimization goal was changed to conversion from revenue after the activity was already live are also not supported.
+>
+>Personalization Insights reports are supported in the [default environment](../../administrating-target/hosts.md) only.
 
 ## Personalization Insights Reporting Overview {#section_B47CD4A50FEB43D587F9FACD9FFD6D9D}
 
@@ -44,11 +46,11 @@ Target provides many ways for you to pass in additional data to Target to enrich
 
 | Data Type | Description | Data Type Naming Convention |
 |--- |--- |--- |
-|Profile Attributes, including profile scripts, Profile Update API, and in-page profile attributes|Any information you've decided to include in Target's user profile.<br>This information could come from profile scripts, information uploaded using the Profile Update API, or in-mbox profile parameters prefixed with "profile."|Custom - Profile - [parameter name]|
-|Page Parameters (also called “mbox parameters”)|Name/value pairs passed in directly through page code that are not stored in the visitor's profile for future use.|Custom - Mbox Parameter - [parameter name]|
-|Customer Attributes|Customer attributes let you upload visitor profile data via FTP to the Experience Cloud. Once uploaded, leverage the data in Adobe Analytics and Adobe Target.|Custom - Customer Attributes - [parameter name]|
-|Shared Audiences (Adobe Audience Manager or Adobe Analytics)|Audiences created through Adobe Audience Manager or Adobe Analytics and shared with Target.|Custom - Experience Cloud Segment - [segment name]|
-|In-Activity Reporting Audiences/ Segments|Audiences defined in your AP or Auto Target activity during setup in “Goals & Metrics.”|Custom - Reporting Segment - [segment name]|
+|Profile Attributes, including profile scripts, Profile Update API, and in-page profile attributes|Any information you've decided to include in Target's user profile.<br>This information could come from profile scripts, information uploaded using the Profile Update API, or in-mbox profile parameters prefixed with "profile."|`Custom - Profile - [parameter name]`|
+|Page Parameters (also called “mbox parameters”)|Name/value pairs passed in directly through page code that are not stored in the visitor's profile for future use.|`Custom - Mbox Parameter - [parameter name]`|
+|Customer Attributes|Customer attributes let you upload visitor profile data via FTP to the Experience Cloud. Once uploaded, leverage the data in Adobe Analytics and Adobe Target.|`Custom - Customer Attributes - [parameter name]`|
+|Shared Audiences (Adobe Audience Manager or Adobe Analytics)|Audiences created through Adobe Audience Manager or Adobe Analytics and shared with Target.|`Custom - Experience Cloud Segment - [segment name]`|
+|In-Activity Reporting Audiences/ Segments|Audiences defined in your AP or Auto Target activity during setup in “Goals & Metrics.”|`Custom - Reporting Segment - [segment name]`|
 
 ## Training video: Using the Personalization Insights Reports
 
