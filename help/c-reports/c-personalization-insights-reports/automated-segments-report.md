@@ -67,17 +67,17 @@ The following table explains how to interpret the report and describes its eleme
 |Blue bar|The blue bar represents the number of visits, and uses the top axis of the graph. You can hover over the bar for more information.|
 |Grey dotted line|The grey dotted line represents the conversion rate for all personalized visits in the activity, across all offers/ experiences and automated segments.|
 
-      **Automated Segment Example 1**
+**Automated Segment Example 1**
 
-      This automated segment is defined based on only one attribute. Visitors included in this automated segment saw this AP activity on a weekday outside of typical working hours or on a weekend.
+This automated segment is defined based on only one attribute. Visitors included in this automated segment saw this AP activity on a weekday outside of typical working hours or on a weekend.
 
-      ![](assets/automated_segment_example_1.png)
+![](assets/automated_segment_example_1.png)
 
-      **Automated Segment Example 2**
+**Automated Segment Example 2**
 
-      This automated segment is defined based on two attributes. Visitors included in this automated segment who saw this AP activity had fewer than three page views in their current visit and were geographically based within the Latitude 42.57 and 47.29 (approximately between New Hampshire/Oregon and Washington/Maine for a US-based company).
+This automated segment is defined based on two attributes. Visitors included in this automated segment who saw this AP activity had fewer than three page views in their current visit and were geographically based within the Latitude 42.57 and 47.29 (approximately between New Hampshire/Oregon and Washington/Maine for a US-based company).
 
-      ![](assets/automated_segment_example_2.png)
+![](assets/automated_segment_example_2.png)
 
 1. (Optional) [Download the report in CSV format](../../c-reports/c-report-settings/report-settings.md#section_77E65C50BAAF4AB79242DB3A8778ADEF) for analysis in Excel and other tools.
 

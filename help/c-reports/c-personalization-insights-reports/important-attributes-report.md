@@ -47,7 +47,7 @@ In different activities, different attributes are more, or less, important to ho
 
    ![](assets/personalization_insights_calendar_1.png)
 
-   You can access the available fixed date ranges from the [!UICONTROL Choose Duration]drop-down list.
+   You can access the available fixed date ranges from the [!UICONTROL Choose Duration] drop-down list.
 
    ![](assets/personalization_insights_calendar_2.png)
 
