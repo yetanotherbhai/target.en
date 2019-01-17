@@ -21,7 +21,7 @@ Information about the Important Attributes report, one of the two specialized re
 
 In different activities, different attributes are more, or less, important to how the model decides to personalize. This report shows the top attributes that influenced the model and their relative importance.
 
-## Accessing and Interpreting the Important Attributes Report {#section_8E8F997AAAF44A1B9EE06EB6FB652801}
+## Access the Important Attributes report {#section_8E8F997AAAF44A1B9EE06EB6FB652801}
 
 1. Click **[!UICONTROL Activities]**, then click the desired [AP](../../c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) or [AT](../../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3) activity from the list.
 
@@ -55,18 +55,21 @@ In different activities, different attributes are more, or less, important to ho
 
    ![](assets/model_attribute_ranking_report.png)
 
-   The following table explains how to interpret the report and describes its elements:
-
-   | Element | Details |
-   |--- |--- |
-   |Bar graph|The multi-colored bar graph at the top of the screen allows you to visualize these relative importance scores and maps to the dot's color beside each respective attribute in the table. You can also hover over a specific color in the bar chart to see the attribute it represents.  The importance scores across the top 100 attributes add to 100%. For more information about how to add more attributes that Target's personalization models can use, see [Uploading Data for Target's Personalization Algorithms](/help/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md).|
-   |Model Attribute Ranking chart|The Model Attribute Ranking includes the top 10 attributes that were most important to how Target's personalization model decided what content to show each visitor. The importance score shows, relative to the top 100 attributes, how important a specific attribute was to Target's personalization models in this activity.|
 
 1. (Optional) [Download the report in CSV format](../../c-reports/c-report-settings/report-settings.md#section_77E65C50BAAF4AB79242DB3A8778ADEF) for analysis in Excel and other tools.
 
    >[!NOTE]
    >
    >The Personalization Insights UI report contains select information. The CSV download for the Important Attributes report contains additional details. The Important Attributes report download includes the full list of the top 100 attributes, while the UI report includes the top 10 only. If you are looking for a specific attribute on the report but it is not there, that doesn't mean that the attribute didn't influence the activity, it just didn't make the list for the top 100 attributes.
+
+## Interpret the Important Attributes report
+
+The following table explains how to interpret the report and describes its elements:
+
+| Element | Details |
+|--- |--- |
+|Bar graph|The multi-colored bar graph at the top of the screen allows you to visualize these relative importance scores and maps to the dot's color beside each respective attribute in the table. You can also hover over a specific color in the bar chart to see the attribute it represents.  The importance scores across the top 100 attributes add to 100%. For more information about how to add more attributes that Target's personalization models can use, see [Uploading Data for Target's Personalization Algorithms](/help/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md).|
+|Model Attribute Ranking chart|The Model Attribute Ranking includes the top 10 attributes that were most important to how Target's personalization model decided what content to show each visitor. The importance score shows, relative to the top 100 attributes, how important a specific attribute was to Target's personalization models in this activity.|
 
 ## Important Attributes FAQ {#section_740910A52FA646B4AC9452F98C2F5719}
 

@@ -21,7 +21,7 @@ Information about the Automated Segments report, one of the two specialized repo
 
 Different visitors respond differently to the offers/experiences in your AP/AT activity. This report shows how different automated segments defined by Target's personalization models responded to the offers/experiences in the activity.
 
-## Accessing and Interpreting the Automated Segments Report {#section_8E8F997AAAF44A1B9EE06EB6FB652801}
+## Access the Automated Segments report {#section_8E8F997AAAF44A1B9EE06EB6FB652801}
 
 1. Click **[!UICONTROL Activities]**, then click the desired [AP](../../c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) or [AT](../../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3) activity from the list.
 

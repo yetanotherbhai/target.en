@@ -22,7 +22,7 @@ Two specialized reports are available to users of Automated Personalization (AP)
 >
 >Personalization Insights reports are supported in the [default environment](../../administrating-target/hosts.md) only.
 
-## Personalization Insights Reporting Overview {#section_B47CD4A50FEB43D587F9FACD9FFD6D9D}
+## Personalization Insights Reporting overview {#section_B47CD4A50FEB43D587F9FACD9FFD6D9D}
 
 The goal of the [!UICONTROL Personalization Insights] reports is to provide more information on how the Target personalization models behind your AP and AT activities personalize visitor traffic. The [Random Forest algorithm](/help/c-activities/t-automated-personalization/algo-random-forest.md) is the basis for Target's personalization models.
 
@@ -35,7 +35,7 @@ There are two reports available in:
 |Automated Segments|Different visitors respond differently to the offers/experiences in your AP/AT activity. This report shows how different automated segments defined by Target's personalization models responded to the offers/experiences in the activity.|
 |Important Attributes|In different activities, different attributes are more, or less, important to how the model decides to personalize. This report shows the top attributes that influenced the model and their relative importance.|
 
-## Interpreting Attributes in Personalization Insights {#section_B5C45E723EC941BDA2A7A642EEB30E4D}
+## Interpreting attributes in Personalization Insights {#section_B5C45E723EC941BDA2A7A642EEB30E4D}
 
 There are two types of attributes represented in [!UICONTROL Personalization Insights] reports that are used in your AP or Auto Target models:
 
@@ -52,7 +52,7 @@ Target provides many ways for you to pass in additional data to Target to enrich
 |Shared Audiences (Adobe Audience Manager or Adobe Analytics)|Audiences created through Adobe Audience Manager or Adobe Analytics and shared with Target.|`Custom - Experience Cloud Segment - [segment name]`|
 |In-Activity Reporting Audiences/ Segments|Audiences defined in your AP or Auto Target activity during setup in “Goals & Metrics.”|`Custom - Reporting Segment - [segment name]`|
 
-## Training video: Using the Personalization Insights Reports
+## Training video: Using the Personalization Insights reports
 
 >[!VIDEO](https://video.tv.adobe.com/v/25601/)
 
