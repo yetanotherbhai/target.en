@@ -28,24 +28,10 @@ Because the goal of the Personalization Insights reports is to understand how Ta
 
 There are two reports available in:
 
-<table id="table_713AAD1ED0A5460580ACA7EBB7986C2A"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Report </th> 
-   <th colname="col2" class="entry"> Details </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p> <span class="wintitle"> Automated Segments </span> </p> </td> 
-   <td colname="col2"> <p>Different visitors respond differently to the offers/experiences in your AP/AT activity. This report shows how different automated segments defined by Target's personalization models responded to the offers/experiences in the activity. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <span class="wintitle"> Important Attributes </span> </p> </td> 
-   <td colname="col2"> <p>In different activities, different attributes are more, or less, important to how the model decides to personalize. This report shows the top attributes that influenced the model and their relative importance. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Report | Details |
+|--- |--- |
+|Automated Segments|Different visitors respond differently to the offers/experiences in your AP/AT activity. This report shows how different automated segments defined by Target's personalization models responded to the offers/experiences in the activity.|
+|Important Attributes|In different activities, different attributes are more, or less, important to how the model decides to personalize. This report shows the top attributes that influenced the model and their relative importance.|
 
 ## Interpreting Attributes in Personalization Insights {#section_B5C45E723EC941BDA2A7A642EEB30E4D}
 
@@ -56,48 +42,15 @@ There are two types of attributes represented in [!UICONTROL Personalization Ins
 
 Target provides many ways for you to pass in additional data to Target to enrich the base data set used to build its personalization algorithms in AP and AT activities:
 
-<table id="table_8DAFC42AA43D4AB8A5CE4CF562A5B614"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Data Type </th> 
-   <th colname="col2" class="entry"> Description </th> 
-   <th colname="col3" class="entry"> Data Type Naming Convention </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Profile Attributes, including profile scripts, Profile Update API, and in-page profile attributes </p> </td> 
-   <td colname="col2"> <p> 
-     <ul id="ul_293A93F5B98646BDB9D93C251A4E4915"> 
-      <li id="li_E023C6C1AA4C4F5FB1725CDEDE0B0C98"> <p>Any information you've decided to include in Target's user profile. </p> </li> 
-      <li id="li_978DEF1A5E0F4BCFB995E6D3D41AA140"> <p>This information could come from profile scripts, information uploaded using the Profile Update API, or in-mbox profile parameters prefixed with "profile." </p> </li> 
-     </ul> </p> </td> 
-   <td colname="col3"> <p>Custom - Profile - [parameter name] </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Page Parameters (also called “mbox parameters”) </p> </td> 
-   <td colname="col2"> <p>Name/value pairs passed in directly through page code that are not stored in the visitor's profile for future use. </p> </td> 
-   <td colname="col3"> <p>Custom - Mbox Parameter - [parameter name] </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Customer Attributes </p> </td> 
-   <td colname="col2"> <p>Customer attributes let you upload visitor profile data via FTP to the Experience Cloud. Once uploaded, leverage the data in Adobe Analytics and Adobe Target. </p> </td> 
-   <td colname="col3"> <p>Custom - Customer Attributes - [parameter name] </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Shared Audiences (Adobe Audience Manager or Adobe Analytics) </p> </td> 
-   <td colname="col2"> <p>Audiences created through Adobe Audience Manager or Adobe Analytics and shared with Target. </p> </td> 
-   <td colname="col3"> <p>Custom - Experience Cloud Segment - [segment name] </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>In-Activity Reporting Audiences/ Segments </p> </td> 
-   <td colname="col2"> <p>Audiences defined in your AP or Auto Target activity during setup in “Goals &amp; Metrics.” </p> </td> 
-   <td colname="col3"> <p>Custom - Reporting Segment - [segment name] </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Data Type | Description | Data Type Naming Convention |
+|--- |--- |--- |
+|Profile Attributes, including profile scripts, Profile Update API, and in-page profile attributes|Any information you've decided to include in Target's user profile.<br>This information could come from profile scripts, information uploaded using the Profile Update API, or in-mbox profile parameters prefixed with "profile."|Custom - Profile - [parameter name]|
+|Page Parameters (also called “mbox parameters”)|Name/value pairs passed in directly through page code that are not stored in the visitor's profile for future use.|Custom - Mbox Parameter - [parameter name]|
+|Customer Attributes|Customer attributes let you upload visitor profile data via FTP to the Experience Cloud. Once uploaded, leverage the data in Adobe Analytics and Adobe Target.|Custom - Customer Attributes - [parameter name]|
+|Shared Audiences (Adobe Audience Manager or Adobe Analytics)|Audiences created through Adobe Audience Manager or Adobe Analytics and shared with Target.|Custom - Experience Cloud Segment - [segment name]|
+|In-Activity Reporting Audiences/ Segments|Audiences defined in your AP or Auto Target activity during setup in “Goals & Metrics.”|Custom - Reporting Segment - [segment name]|
 
-## Training Video
+## Training video: Using the Personalization Insights Reports
 
 >[!VIDEO](https://video.tv.adobe.com/v/25601/)
 
