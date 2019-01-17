@@ -14,17 +14,10 @@ badge: premium
 
 Information about the Important Attributes report, one of the two specialized reports available to users of Automated Personalization (AP) and Auto-Target (AT) activities.
 
-<table id="table_94482816FCA2417A9B0EA7BBCC414715"> 
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p><b>Notes:</b> </p> <p> 
-     <ul id="ul_D2221BB4EAD54260B69A2E282C789E98"> 
-      <li id="li_19AD73402DB54C199EC506D434ABE96C"> <p>AP and AT activities are available as part of the <span class="keyword"> Target Premium</span> solution. They are not included with <span class="keyword"> Target Standard</span> without a<span class="keyword"> Target Premium</span> license. </p> </li> 
-      <li id="li_E1AC7D9CA0B9418F852B843E3418D898"> <p>Personalization Insights reports are available only for AP and AT activities that use a conversion optimization goal. Activities where the optimization goal was changed to conversion from revenue after the activity was already live are also not supported. </p> </li> 
-     </ul> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+>[!NOTE]
+>AP and AT activities are available as part of the  Target Premium solution. They are not included with  Target Standard without a Target Premium license.
+>
+>Personalization Insights reports are available only for AP and AT activities that use a conversion optimization goal. Activities where the optimization goal was changed to conversion from revenue after the activity was already live are also not supported.|
 
 In different activities, different attributes are more, or less, important to how the model decides to personalize. This report shows the top attributes that influenced the model and their relative importance.
 
@@ -64,24 +57,10 @@ In different activities, different attributes are more, or less, important to ho
 
    The following table explains how to interpret the report and describes its elements:
 
-    <table id="table_2EE03EE607164B939276BD00A6B3FA2C"> 
-    <thead> 
-      <tr> 
-      <th colname="col1" class="entry"> Element </th> 
-      <th colname="col2" class="entry"> Details </th> 
-      </tr>
-    </thead>
-    <tbody> 
-      <tr> 
-      <td colname="col1"> <p>Bar graph </p> </td> 
-      <td colname="col2"> <p>The multi-colored bar graph at the top of the screen allows you to visualize these relative importance scores and maps to the dot's color beside each respective attribute in the table. You can also hover over a specific color in the bar chart to see the attribute it represents. </p> <p>The importance scores across the top 100 attributes add to 100%. For more information about how to add more attributes that Target's personalization models can use, see <a href="../../c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md#concept_85EA505B37E54514A1C8AB91553FEED6" format="dita" scope="local"> Uploading Data for Target's Personalization Algorithms</a>. </p> </td> 
-      </tr> 
-      <tr> 
-      <td colname="col1"> <p>Model Attribute Ranking chart </p> </td> 
-      <td colname="col2"> <p>The Model Attribute Ranking includes the top 10 attributes that were most important to how Target's personalization model decided what content to show each visitor. The importance score shows, relative to the top 100 attributes, how important a specific attribute was to Target's personalization models in this activity. </p> </td> 
-      </tr> 
-    </tbody> 
-    </table>
+   | Element | Details |
+   |--- |--- |
+   |Bar graph|The multi-colored bar graph at the top of the screen allows you to visualize these relative importance scores and maps to the dot's color beside each respective attribute in the table. You can also hover over a specific color in the bar chart to see the attribute it represents.  The importance scores across the top 100 attributes add to 100%. For more information about how to add more attributes that Target's personalization models can use, see [Uploading Data for Target's Personalization Algorithms](/help/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md).|
+   |Model Attribute Ranking chart|The Model Attribute Ranking includes the top 10 attributes that were most important to how Target's personalization model decided what content to show each visitor. The importance score shows, relative to the top 100 attributes, how important a specific attribute was to Target's personalization models in this activity.|
 
 1. (Optional) [Download the report in CSV format](../../c-reports/c-report-settings/report-settings.md#section_77E65C50BAAF4AB79242DB3A8778ADEF) for analysis in Excel and other tools.
 

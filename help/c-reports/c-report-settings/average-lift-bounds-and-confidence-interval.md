@@ -25,32 +25,12 @@ Reports include several data points and visualization representations that help 
 
 The lift information in the Target reporting UI includes:
 
-<table id="table_38374EAB34604728AB3495EBDB9078DB"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Element </th> 
-   <th colname="col2" class="entry"> Details </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Lift </p> </td> 
-   <td colname="col2"> <p>The large number and arrow reflect the expected value of the lift. This number is the midpoint of the range of the lift bounds. The expected lift arrow displays in grey until the confidence passes 95%. After this threshold, the arrow displays as red or green based on negative or positive lift, respectively. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Lift Bounds </p> </td> 
-   <td colname="col2"> <p>This is the 95% confidence interval of the lift. It displays as a range below the average lift. See <a href="../../c-reports/c-report-settings/average-lift-bounds-and-confidence-interval.md#section_35BD6FB7AFD346E28BA093147C248471" format="dita" scope="local"> Example Calculation</a> for an example of how these lift bounds are calculated. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Boxplot Graph </p> </td> 
-   <td colname="col2"> <p>The boxplot graph in the Target interface represents the expected value and 95% confidence interval of the success metric in question. Think of it as a graphical way to view the lift and lift bounds information. </p> <p>There are a few key ways Target helps you interpret the confidence information, one of which is color. The graph displays any overlap in the confidence interval of a specific experience with the confidence interval of the control in grey, and any range of a specific experience’s confidence interval that is above or below that of the control confidence interval as green or red, respectively. </p> <p>The length of the boxplot bar represents how large the confidence interval is in an easily understood way. As you collect more data in your activity, the bar shifts and changes. The confidence interval is derived from the variance and the sample size (number of visitors). The smaller the variance and the larger the sample size, the narrower your confidence interval. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Confidence </p> </td> 
-   <td colname="col2"> <p>The confidence of an experience or offer represents the probability that the lift of the associated experience/offer over the control experience/offer is “real” (not caused by random chance). Typically, 95% is the recommended level of confidence for the lift to be considered significant. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Element | Details |
+|--- |--- |
+|Lift|The large number and arrow reflect the expected value of the lift. This number is the midpoint of the range of the lift bounds. The expected lift arrow displays in grey until the confidence passes 95%. After this threshold, the arrow displays as red or green based on negative or positive lift, respectively.|
+|Lift Bounds|This is the 95% confidence interval of the lift. It displays as a range below the average lift. See Example Calculation below for an example of how these lift bounds are calculated.|
+|Boxplot Graph|The boxplot graph in the Target interface represents the expected value and 95% confidence interval of the success metric in question. Think of it as a graphical way to view the lift and lift bounds information.<br>There are a few key ways Target helps you interpret the confidence information, one of which is color. The graph displays any overlap in the confidence interval of a specific experience with the confidence interval of the control in grey, and any range of a specific experience’s confidence interval that is above or below that of the control confidence interval as green or red, respectively.<br>The length of the boxplot bar represents how large the confidence interval is in an easily understood way. As you collect more data in your activity, the bar shifts and changes. The confidence interval is derived from the variance and the sample size (number of visitors). The smaller the variance and the larger the sample size, the narrower your confidence interval.|
+|Confidence|The confidence of an experience or offer represents the probability that the lift of the associated experience/offer over the control experience/offer is “real” (not caused by random chance). Typically, 95% is the recommended level of confidence for the lift to be considered significant.|
 
 The following illustration shows Lift Bounds and Confidence Level information:
 
@@ -83,30 +63,10 @@ There is some additional calculation to arrive at the input to our lift bounds:
 
 Let’s consider an example activity with two experiences and the following results:
 
-<table id="table_484C2AC096034CCDB1223D5216C28277"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Experience </th> 
-   <th colname="col2" class="entry"> Visitors </th> 
-   <th colname="col3" class="entry"> Conversions </th> 
-   <th colname="col4" class="entry"> Conversion Rate </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Experience A (Control) </p> </td> 
-   <td colname="col2"> <p>219, 328 </p> </td> 
-   <td colname="col3"> <p>2,466 </p> </td> 
-   <td colname="col4"> <p>1.12% </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Experience B </p> </td> 
-   <td colname="col2"> <p>218, 362 </p> </td> 
-   <td colname="col3"> <p>3,040 </p> </td> 
-   <td colname="col4"> <p>1.39% </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Experience | Visitors | Conversions | Conversion Rate |
+|--- |--- |--- |--- |
+|Experience A (Control)|219, 328|2,466|1.12%|
+|Experience B|218, 362|3,040|1.39%|
 
 Based on our formulas, we can calculate the inputs we need for the lift bounds.
 
