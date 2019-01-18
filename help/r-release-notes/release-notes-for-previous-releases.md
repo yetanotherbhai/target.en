@@ -13,23 +13,63 @@ uuid: a1f0ddae-39f1-4e28-bf86-03e82e3cb91e
 
 Release notes for previous Target releases, including release notes for Target Standard/Premium, the Target platform, and the Target Javascript libraries (at.js and mbox.js). Release notes are arraigned in descending order by month and year of release.
 
-## Release notes for previous releases {#topic_607D0324907E472EA3682033A27B5F07}
-
-Release notes for previous Target releases, including release notes for Target Standard/Premium, the Target platform, and the Target Javascript libraries (at.js and mbox.js). Release notes are arraigned in descending order by month and year of release.
-
 >[!NOTE]
 >
 >See [Target release notes (current)](../r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) for information about the current month's Target releases (platform and Target Standard/Premium).
 
 ## Release notes - 2018 {#reference_36ACC83E135A41F28104C44755C26D5B}
 
+### Platform (November 15, 2018) {#section_484A56774E004282B98FFFF851E4E670}
+
+<table id="table_7320E43397D2471FA313A9D6FC21E55F"> 
+ <thead> 
+  <tr> 
+   <th colname="col1" class="entry"> Feature / Enhancement </th> 
+   <th colname="col2" class="entry"> Description </th> 
+  </tr>
+ </thead>
+ <tbody> 
+  <tr> 
+   <td colname="col1"> <p>at.js 1.6.3 </p> </td> 
+   <td colname="col2"> <p>at.js version 1.6.3 is now available. </p> <p> 
+     <ul id="ul_2C7CB74B1AAF4B52B6EB382977F7DC28"> 
+      <li id="li_07CF8EDB25E24A7AB9B7A0F3402BAEB1"> <p>Selectors are now CSS-escaped if they contain IDs or CSS classes that start with a digit, two hyphens, or a hyphen followed by a digit (for example #-123). (TNT-31061) </p> </li> 
+      <li id="li_6504E90D7C534A1BB9A2DE8510CE3B90"> <p>Fixed an issue introduced with at.js 1.6.2 where Visual Experience Composer (VEC) offers from different activities that apply to the same CSS selector did not respect activity priority. (TNT-31052) </p> </li> 
+      <li id="li_D347CA513F1240E4BF79D757287AB30C"> <p>Fixed an issue with timing out a promise in environments where there was no native support for promises. (TNT-30974) </p> </li> 
+      <li id="li_17F41A84CCFF41D7993E35DE10F87066"> <p>Issues are now correctly captured and reported via the content-rendering failed event. Previously, JavaScript might have been reported to have run successfully, even if that wasn't the case. (TNT-30599) </p> </li> 
+     </ul> </p> <p>For more information, see <a href="../c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A" format="dita" scope="local"> at.js Version Details</a>. </p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+### Target Standard/Premium 18.11.1 (November 12, 2018) {#section_6BBA8B1EE9D241C28E12856A375E97F6}
+
+The [!DNL Target] Standard/Premium release on November 12 includes back-end enhancements, fixes, and changes. The [!UICONTROL Personalization Insights] reports will be available November 14.
+
+<table id="table_EF529199D1C741F7BDBC9C41A37B7D26"> 
+ <thead> 
+  <tr> 
+   <th colname="col1" class="entry"> Feature / Enhancement </th> 
+   <th colname="col2" class="entry"> Description </th> 
+  </tr>
+ </thead>
+ <tbody> 
+  <tr> 
+   <td colname="col1" class="premium"> <p>Personalization Insights reports </p> <p> <p>Note:  Available November 14, 2018. </p> </p> </td> 
+   <td colname="col2"> <p>Two specialized reports are available to users of <span class="wintitle"> Automated Personalization (AP)</span> and <span class="wintitle"> Auto-Target (AT)</span> activities: </p> <p> 
+     <ul id="ul_C338AC34C57C49E1A8DFA471167EC40A"> 
+      <li id="li_2329BFC8CC524EBBA99C2F8EDC745B90"> <p><b><span class="wintitle"> Automated Segments</span>:</b> Different visitors respond differently to the offers/experiences in your AP/AT activity. This report shows how different automated segments defined by Target's personalization models responded to the offers/experiences in the activity. </p> </li> 
+      <li id="li_48556C9BAD48476DA00DD666F5265E2B"> <p><b><span class="wintitle"> Important Attributes</span>:</b> In different activities, different attributes are more, or less, important to how the model decides to personalize. This report shows the top attributes that influenced the model and their relative importance. </p> </li> 
+     </ul> </p> <p>See <a href="../c-reports/c-personalization-insights-reports/personalization-insights-reports.md#concept_A897070E1EDC403EB84CFB7A6ECAD767" format="dita" scope="local"> Personalization Insights reports</a>. </p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
 ### Target Standard/Premium 18.10.1 (October 24, 2018) {#section_FA37BF4E840B424E8BC4791D7234FE2A}
 
 This release includes the following features and enhancements:
 
->[!NOTE]
->
->The issue numbers in parentheses are for internal Adobe use.
+(The issue numbers in parentheses are for internal Adobe use.)
 
 <table id="table_B1911F55CCE1428881D258380A8254A9"> 
  <thead> 
@@ -67,7 +107,7 @@ This [!DNL Target] release includes the following enhancements, fixes, and chang
 
 * Fixed an issue that prevented users in certain situations from being able to create an activity when Adobe Analytics was selected as the reporting source on the [!UICONTROL Setup] page. Users saw a "Please select a report suite" message even though they were not given the option of selecting the report suite. (TGT-31968)
 
-### Platform (October 19, 2018) {#section_484A56774E004282B98FFFF851E4E670}
+### Platform (October 19, 2018) 
 
 <table id="table_7320E43397D2471FA313A9D6FC21E55F"> 
  <thead> 
@@ -320,7 +360,7 @@ This release includes the following enhancement:
 
   For more information, see [Mobile](../c-target/c-audiences/c-target-rules/mobile.md#concept_2A794199DC1A4D349FFFBC7DCF1FEB89). (TNT-26714 & TNT-28288)
 
-## Target Download API (June 5, 2018) {#section_B8729DA10F18433C8D8E01B04F308ED2}
+### Target Download API (June 5, 2018) {#section_B8729DA10F18433C8D8E01B04F308ED2}
 
 You can use the recommendations download API to download your recommendations in a .CSV file that can be viewed in a spreadsheet or text editor. For improved security, starting on **June 5, 2018**, Target will block HTTP requests and allow only HTTPS requests.
 
@@ -2865,7 +2905,7 @@ This release includes the following new features:
 
 * Fixed an error that resulted in removed items continuing to be displayed.
 
-## Adobe Target Standard 14.5 (May 28, 2014) {#section_530EAB9376414D4989CA0740361DDCC2}
+### Adobe Target Standard 14.5 (May 28, 2014) {#section_530EAB9376414D4989CA0740361DDCC2}
 
 This release includes the following bug fixes:
 
