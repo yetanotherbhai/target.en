@@ -19,9 +19,7 @@ Create an exclusion list to prevent items from being recommended.
 
 1. Click **[!UICONTROL Recommendations]** > **[!UICONTROL Exclusions]** to display the list of existing exclusions.
 
-   >[!NOTE]
-   >
-   >The "Number of Items" reported for each exclusion on the [!UICONTROL Exclusions] list view is the number of products matching the rules for that exclusion within the configured default Recommendations host group (environment). See [Settings](../../c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84) to change the default host group.
+   The "Number of Items" reported for each exclusion on the [!UICONTROL Exclusions] list view is the number of products matching the rules for that exclusion within the configured default Recommendations [host group](/administrating-target/hosts.md) (environment). See [Settings](../../c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84) to change the default host group.
 
    ![](assets/exclusions_list.png)
 
@@ -29,10 +27,16 @@ Create an exclusion list to prevent items from being recommended.
 
    ![Step Result](assets/CreateExclusion.png)
 
+1. (Conditional) Choose an environment from the **[!UICONTROL Environment]** filter while creating (or updating) an exclusion to preview the contents of the exclusion in that environment. By default, results from the default host group are displayed.
+
+   ![Create Exclusion](/c-recommendations/c-products/assets/CreateExclusion.png)
+
 1. Type an exclusion **[!UICONTROL Name]** and enter an optional description.
+
 1. Use the rule builder to create your exclusions.
 
-   Select a parameter in the Rules list, select an operator, and then enter one or more values to identify the products. Separate multiple values with commas. 
+   Select a parameter in the Rules list, select an operator, and then enter one or more values to identify the products. Separate multiple values with commas.
+
 1. Click **[!UICONTROL Save]**.
 
    You can also create exclusions using Advanced Search on the Catalog Search page ( [!UICONTROL Recommendations] > [!UICONTROL Catalog Search] > [!UICONTROL Advanced Search]). After creating a search using "id > contains," for example, you can then click [!UICONTROL Save As] > [!UICONTROL Exclusion]. 

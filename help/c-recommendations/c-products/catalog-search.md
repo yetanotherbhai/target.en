@@ -21,7 +21,7 @@ You can refine your search by selecting a search option from the options menu th
 
 **[!UICONTROL ALL]** searches across all of the other search criteria, using OR logic.
 
-In the search results, you click Settings to specify the production host group environment whose catalog you are displaying. An item can exist only once within an environment. You can also scroll through the items in the search results to view thumbnails and other product information.
+In the search results, you click the **[UICONTROL Environment]** filter to specify the production host group environment whose catalog you are displaying. You can also scroll through the items in the search results to view thumbnails and other product information.
 
 The number that displays next to "Products" is the number of products that match the search term, out of the total available in the specified environment.
 

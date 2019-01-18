@@ -188,12 +188,6 @@ You can delete an environment when it is no longer needed.
 
 Best practices for managing and troubleshooting hosts in [!DNL Adobe Target].
 
-<!-- 
-
-ov2/c_hosts_best-practices-and-troubleshooting.xml
-
- -->
-
 Try the following troubleshooting tips if you experience problems with your hosts:
 
 **Host does not appear in mbox list for your account.**
@@ -208,4 +202,28 @@ A domain appears in this list if a call to [!DNL Target] is made from the domain
 
 **My mbox call returns /&#42; no display - unauthorized mbox host &#42;/.**
 
-If an mbox call is made on an unauthorized host, the call will respond with /&#42; no display - unauthorized mbox host &#42;/. 
+If an mbox call is made on an unauthorized host, the call will respond with /&#42; no display - unauthorized mbox host &#42;/.
+
+## Recommendations: filter collections and exclusions by environment (host group)
+
+![Premium badge](/assets/premium.png)
+
+You can preview the contents of Recommendations collections and exclusions for a selected environment (host group).
+
+>[!NOTE]
+>Recommendations activities are available as part of the Target Premium solution. They are not available in Target Standard without a Target Premium license.
+
+The host group can be used to separate the available items in your catalog for different uses. For example, you can use host groups for Development and Production environments, different brands, or different geographies. By default, preview results in Catalog Search, Collections, and Exclusions are based on the default host group. (You can also select a different host group to preview results, by using the Environment filter.) By default, newly added items are available in all host groups unless an environment ID is specified when creating or updating the item. Delivered recommendations depend on the host group specified in the request.
+
+If you don't see your products, make sure that you are using the correct host group. For example, if you set up your recommendation to use a staging environment and you set your host group to Staging, you might need to re-create your collections in the staging environment for the products to show. To see which products are available in each environment, use Catalog Search with each environment. You can also preview the contents of Recommendations collections and exclusions for a selected environment (host group).
+
+>[!NOTE]
+>After changing the selected environment, you must click Search to update the returned results.
+
+The Environment filter is available from the following places in the Target UI:
+
+* Catalog Search ([!UICONTROL Recommendations > Catalog Search])
+* Create Collection dialog box ([!UICONTROL Recommendations > Collections > Create New])
+* Update Collection dialog box ([!UICONTROL Recommendations > Collections > Edit])
+* Create Exclusion dialog box ([!UICONTROL Recommendations > Exclusions > Create New])
+* Update Exclusion dialog box ([!UICONTROL Recommendations > Exclusions > Edit])

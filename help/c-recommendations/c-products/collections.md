@@ -41,17 +41,9 @@ When you are creating or editing a [!DNL Recommendations] activity, the collecti
 
 Create a collection to organize the products you want to show in your recommendations.
 
-<!-- 
-
-recs/t_create_collection.xml
-
- -->
-
 1. Click **[!UICONTROL Recommendations]** > **[!UICONTROL Collections]** to display the list of existing collections.
 
-   >[!NOTE]
-   >
-   >The "Number of Items" reported for each collection on the [!UICONTROL Collections] list view is the number of products matching the rules for that collection within the configured default Recommendations host group (environment). See [Settings](../../c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84) to change the default host group.
+   The "Number of Items" reported for each collection on the [!UICONTROL Collections] list view is the number of products matching the rules for that collection within the configured default Recommendations [host group](/administrating-target/hosts.md) (environment). See [Settings](../../c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84) to change the default host group.
 
    ![](assets/collections_list.png)
 
@@ -59,14 +51,20 @@ recs/t_create_collection.xml
 
    ![Step Result](assets/CreateCollection.png)
 
+1. (Conditional) Choose an environment from the **[!UICONTROL Environment]** filter while creating (or updating) a collection to preview the contents of the collection in that environment. By default, results from the default host group are displayed.
+
+   ![Create Collection](/c-recommendations/c-products/assets/CreateCollection.png)
+
 1. Type a **[!UICONTROL Name]** for the collection.
 
-   You can also enter an optional **[!UICONTROL Description]**. 
+   You can also enter an optional **[!UICONTROL Description]**.
+
 1. Set the rules used to build the collection.
 
    For example, your collection might be built around a product ID or category, margin, or any other parameter in the list.
 
-   You can add rules to use multiple parameters to define a collection. Multiple rules are joined with an AND. All specified rules must be matched for the collection to apply. 
+   You can add rules to use multiple parameters to define a collection. Multiple rules are joined with an AND. All specified rules must be matched for the collection to apply.
+
 1. Click **[!UICONTROL Save]**.
 You can also create collections using Advanced Search on the Catalog Search page ([!UICONTROL Recommendations] > [!UICONTROL Catalog Search] > [!UICONTROL Advanced Search]). After creating a search using "id > contains," for example, you can then click [!UICONTROL Save As] > [!UICONTROL Collection].
 
