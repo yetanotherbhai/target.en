@@ -65,7 +65,7 @@ In addition to the notes for each release, the following resources provide addit
    <td colname="col2"> <p>View detailed information about updates to this guide that might not be included in these release notes. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../r-release-notes/release-notes-for-previous-releases.md#topic_607D0324907E472EA3682033A27B5F07" format="dita" scope="local"> Release notes for previous releases</a> </p> </td> 
+   <td colname="col1"> <p> <a href="../r-release-notes/release-notes-for-previous-releases.md" format="dita" scope="local"> Release notes for previous releases</a> </p> </td> 
    <td colname="col2"> <p>View information about new features and enhancements in previous releases of <span class="keyword"> Target Standard</span> and <span class="keyword"> Target Premium</span>. </p> </td> 
   </tr> 
   <tr> 
