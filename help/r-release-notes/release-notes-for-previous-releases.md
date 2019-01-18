@@ -107,7 +107,7 @@ This [!DNL Target] release includes the following enhancements, fixes, and chang
 
 * Fixed an issue that prevented users in certain situations from being able to create an activity when Adobe Analytics was selected as the reporting source on the [!UICONTROL Setup] page. Users saw a "Please select a report suite" message even though they were not given the option of selecting the report suite. (TGT-31968)
 
-### Platform (October 19, 2018) {#section_484A56774E004282B98FFFF851E4E670}
+### Platform (October 19, 2018) 
 
 <table id="table_7320E43397D2471FA313A9D6FC21E55F"> 
  <thead> 
