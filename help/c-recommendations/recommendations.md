@@ -18,8 +18,6 @@ Recommendations activities automatically display products or content that might 
 >[!NOTE]
 >
 >[!DNL Recommendations] activities are available as part of the [!DNL Target Premium] solution. They are not available in [!DNL Target Standard] without a [!DNL Target Premium] license.
-
->[!NOTE]
 >
 >If you currently have [!DNL Recommendations Classic], see [Recommendations Classic versus Recommendations Activities in Target Premium](../c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md#concept_A80223EF66634EA380580C2823A581C5) for more information about the two solutions.
 
@@ -38,32 +36,16 @@ The following illustration shows recommendations on a web page:
 
 A recommendation determines how a product is suggested to a customer, depending on that customer's activities on the site. For example:
 
-<table id="table_4753CB411DA247C08C8AC46B0D034879"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Desired Action </th> 
-   <th colname="col2" class="entry"> Recommendation </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Encourage people who purchase a backpack to consider buying hiking shoes and trekking poles. </p> </td> 
-   <td colname="col2"> <p>Create a recommendation that shows items that are often purchased together, using the "People who bought this also bought that" criteria. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Increase the time visitors spend on your media site by recommending media content similar to what they are watching. </p> </td> 
-   <td colname="col2"> <p>Create a recommendation that suggests other videos, using the "People who viewed this viewed that" criteria. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Suggest that customers who viewed information about savings plans at your bank also read about IRA accounts. </p> </td> 
-   <td colname="col2"> <p>Show other products people purchased after viewing one product without showing the first product in the recommendations, using the "people who viewed this also bought" criteria. </p> </td> 
-  </tr> 
- </tbody> 
+| Desired Action | Recommendation |
+|--- |--- |
+|Encourage people who purchase a backpack to consider buying hiking shoes and trekking poles.|Create a recommendation that shows items that are often purchased together, using the "People who bought this also bought that" criteria.|
+|Increase the time visitors spend on your media site by recommending media content similar to what they are watching.|Create a recommendation that suggests other videos, using the "People who viewed this viewed that" criteria.|
+|Suggest that customers who viewed information about savings plans at your bank also read about IRA accounts.|Show other products people purchased after viewing one product without showing the first product in the recommendations, using the "people who viewed this also bought" criteria.|
 </table>
 
 For more information about these and other [!DNL Recommendations] criteria, see [Criteria](../c-recommendations/c-algorithms/algorithms.md#concept_4BD01DC437F543C0A13621C93A302750).
 
-**Activity Types (9:03)**
+## Training video: Activity Types
 
 This video explains the activity types available in [!DNL Target Standard/Premium]. [!DNL Recommendations] is discussed beginning at 7:20.
 

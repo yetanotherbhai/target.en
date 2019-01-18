@@ -15,118 +15,158 @@ badge: premium
 
 Use entity attributes to pass product or content information to Recommendations.
 
-The following table describes the available variables. 
+## Available variables
 
-<table id="table_2F24AB9862FE4D94BFD91F910F436BA9"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Entity Attribute </th> 
-   <th colname="col2" class="entry"> Description </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p> <span class="codeph"> entity.id </span> </p> <p>Single-value only. </p> </td> 
-   <td colname="col2"> <p>This required parameter identifies the product. This alphanumeric ID must be the same across all Adobe Experience Cloud products that are used, including Analytics, for the various products to recognize the item and share data about it. </p> <p> <span class="codeph"> entity.id </span> values must not contain slashes, ampersands, question marks, percentage symbols, or punctuation characters that requiring URL encoding. Hyphens and underscores are permitted. Including invalid punctuation in an <span class="codeph"> entity.id </span> value causes some Recommendations functionality to fail. </p> <p>Example: </p> <p> 
-     <code>
-       'entity.id=67833' 
-     </code> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <span class="codeph"> entity.name </span> </p> <p>Single-value only. </p> </td> 
-   <td colname="col2"> <p>The product name that is displayed on the Web site when the product is recommended. </p> <p>Example: </p> <p> 
-     <code>
-       'entity.name=Giants&amp; vs&amp; Rockies&amp; 5/12' 
-     </code> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <span class="codeph"> entity.categoryId </span> </p> <p>Supports multi-value (comma-delimited list). </p> </td> 
-   <td colname="col2"> <p>Category of the current page. This can include multiple categories, such as a cardigans sub-subsection (i.e. <span class="codeph"> womens </span>, <span class="codeph"> womens:sweaters </span>, <span class="codeph"> womens:sweaters:cardigans </span>). Multiple categories should be separated by commas. </p> <p> <span class="codeph"> categoryId </span>is limited to 250 characters. </p> <p> <p>Note:  To show a recommendation based on a category in a Category page, only one <span class="codeph"> categoryId </span> can be passed into the mbox used to display that particular recommendation. The value of the <span class="codeph"> categoryId </span> must match exactly the value of <span class="codeph"> entity.cateogryId </span> passed on the Product Detail page. </p> </p> <p>Example Product Detail Page: <span class="codeph"> womens, womens:sweaters, womens:sweaters:cardigans </span> </p> <p>Example Category Page Sweaters: <span class="codeph"> womens:sweaters </span> </p> <p>Example Category Page Cardigans: <span class="codeph"> womens:sweaters:cardigans </span> </p> <p>For category-based Recommendations, a comma is used to separate category value. Any values separated by commas become categories. You can also define subcategories by using a different separator, such as a colon (:), to separate subcategories within the category value. </p> <p>For example, in the following code the Womens category is divided into several subcategories: </p> <p> 
-     <code>
-       mboxCreate('mboxName', 'entity.id=343942-32', 'entity.categoryId= Womens, Womens:Outerwear, Womens:Outerwear:Jackets, Womens:Outerwear:Jackets:Parka, Womens:Outerwear:Jackets:Caban’, 'entity.thumbnailUrl=...', 'entity.message=...', ); 
-     </code> </p> <p>For the mbox delivery, the longest attribute name is used for the key. If there is a tie, the last attribute is used. In the example above, the category key is <span class="codeph"> Womens:Outerwear:Jackets:Caban </span>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <span class="codeph"> entity.brand </span> </p> <p>Single-value only. </p> </td> 
-   <td colname="col2"> <p>Displays an item's brand name. </p> <p>Example: </p> <p> 
-     <code>
-       'entity.brand=brandxyz' 
-     </code> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <span class="codeph"> entity.pageURL </span> </p> <p>Single-value only. </p> </td> 
-   <td colname="col2"> <p>Defines the relative URL of the page where the item can be purchased. </p> <p>Example: </p> <p> 
-     <code> 
-'entity.pageURL=baseball/giants-tix/giantsvrockies5.12.2000-67833' 
-     </code> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <span class="codeph"> entity.thumbnailURL </span> </p> <p>Single-value only. </p> </td> 
-   <td colname="col2"> <p>Defines the relative URL to the thumbnail image that displays with the item. </p> <p>Example: </p> <p> 
-     <code>
-       'entity.thumbnailURL=baseball/giants-tix/giants-136px.gif' 
-     </code> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <span class="codeph"> entity.message </span> </p> <p>Single-value only. </p> </td> 
-   <td colname="col2"> <p> A message about the product that is displayed in the recommendation, such as "on sale" or "clearance." The message is typically more verbose than the product name. Use to define additional information to display with the product in the template </p> <p>Example: </p> <p> 
-     <code>
-       'entity.message=Family&amp;nbsp;special' 
-     </code> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <span class="codeph"> entity.inventory </span> </p> <p>Single-value only. Requires an integer or long value. </p> </td> 
-   <td colname="col2"> <p>Displays the inventory level of the item. </p> <p>Example: </p> <p> 
-     <code>
-       'entity.inventory=1' 
-     </code> </p> <p><b>Empty Inventory Attribute Handling</b> </p> <p>For delivery, if you have an inclusion rule, collection rule, or criteria setting with <span class="codeph"> entity.inventory &gt; 0 </span> or <span class="codeph"> entity.inventory = 0 </span> and the product has inventory not set, Target evaluates this to TRUE and includes products where the inventory is not set. This was done by default so that products with inventory that is not set show up in recommendation results. </p> <p>Similarly, if you have a global exclusion rule with <span class="codeph"> entity.inventory = 0 </span> and <span class="codeph"> entity.inventory </span> is not set, Target evaluates this rule to be TRUE and excludes the product. </p> <p>Known issue: Product Search is inconsistent with delivery for not set inventory value attributes. For example for a rule with <span class="codeph"> entity.inventory = 0 </span>, Product Search will not display products where the inventory value is not set. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <span class="codeph"> entity.value </span> </p> <p>Single-value only. </p> </td> 
-   <td colname="col2"> <p>Defines the price or value of the item. </p> <p>Example: </p> <p> 
-     <code>
-       'entity.value=15.99' 
-     </code> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <span class="codeph"> entity.margin </span> </p> <p>Single-value only. </p> </td> 
-   <td colname="col2"> <p>The profit margin or other value of the item. </p> <p>Example: </p> <p> 
-     <code>
-       'entity.margin=1.00' 
-     </code> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <span class="codeph"> entity. </span> <span class="varname"> &lt;custom&gt; </span> </p> <p>Supports multi-value (JSON array). </p> </td> 
-   <td colname="col2"> <p>Define up to 100 custom variables that provide additional information about the item. You can specify any unused attribute name for each custom attribute. For example, you might create a custom attribute called <span class="codeph"> entity.genre </span> to define a book or movie. Or, a ticket vendor might create attributes for an event venue for a secondary performer, such as a visiting team in a sporting event or an opening act in a concert. </p> <p><b>Restrictions</b>: </p> 
-    <ul id="ul_F0F102908B0142669AF3B74636C828F1"> 
-     <li id="li_9271366EC1C34315B01D5BD919F5432A">You cannot use predefined entity attribute names for custom entity attributes. </li> 
-     <li id="li_C765DE30512C4E99927E9810EAA822CF">The attribute <span class="codeph"> entity.environment </span> is reserved by the system and cannot be used for custom entity attributes. Attempts to pass <span class="codeph"> entity.environment </span> using <span class="codeph"> targetPageParams </span>, feed, or API will be ignored. </li> 
-    </ul> <p>Examples: </p> <p> 
-     <code>
-       'entity.venue=AT&amp;T&amp;nbsp;Park' 
-     </code> </p> <p> 
-     <code>
-       'entity.secondary=Rockies' 
-     </code> </p> <p>Custom entity attributes support multiple values. A multi-value entity attribute can include up to 100 values. Each value can be up to 100 characters. Values that exceed 100 characters are ignored. </p> <p>Example: </p> <p> 
-     <code>
-       'entity.secondary=["band1",&amp;nbsp;"band2"]' 
-     </code> </p> <p> <p>Note:  Multi-value custom entity attributes require valid JSON arrays. For correct syntax information, see <a href="../../c-recommendations/c-products/custom-entity-attributes.md#concept_E5CF39BCAC8140309A73828706288322" format="dita" scope="local"> Custom Entity Attributes </a>. </p> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <span class="codeph"> entity.event.detailsOnly </span> </p> <p>Single-value only. </p> </td> 
-   <td colname="col2"> <p>Used to prevent an mbox call from incrementing behavioral data counters for an algorithm. </p> <p>Example: </p> <p> 
-     <code>
-       'entity.event.detailsOnly=true' 
-     </code> </p> <p>In the examples below, the first mbox call will update the catalog and behavioral data. The second mbox call will update only the catalog. </p> <p> 
-     <code>
-       mboxCreate('myMbox', 'profile.geo.city&nbsp;=&nbsp;new&nbsp;york', 'profile.geo.state&nbsp;=&nbsp;new&nbsp;york',&nbsp; 'entity.id&nbsp;=&nbsp;'entity.inventory&nbsp;=&nbsp;4' ) 
-     </code> </p> <p> 
-     <code>
-       mboxCreate('myMbox',&nbsp; 'profile.geo.city&nbsp;=&nbsp;new&nbsp;york', 'profile.geo.state&nbsp;=&nbsp;new&nbsp;york',&nbsp; 'entity.id&nbsp;=&nbsp;123', 'entity.inventory&nbsp;=&nbsp;4' 'entity.event.detailsOnly=true' ) 
-     </code> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+The following list describes the available variables.
+
+### `entity.id`
+
+Singe value only.
+
+This required parameter identifies the product. This alphanumeric ID must be the same across all [DNL Adobe Experience Cloud] products that are used, including [!DNL Analytics], for the various products to recognize the item and share data about it.
+
+`entity.id` values must not contain slashes, ampersands, question marks, percentage symbols, or punctuation characters that requiring URL encoding. Hyphens and underscores are permitted. Including invalid punctuation in an `entity.id` value causes some [!DNL Recommendations] functionality to fail.
+
+Example: `'entity.id=67833'`
+
+### `entity.name`
+
+Single-value only.
+
+The product name that is displayed on the Web site when the product is recommended.
+
+Example: `'entity.name=Giants& vs& Rockies& 5/12'`
+
+### `entity.categoryId`
+
+Supports multi-value (comma-delimited list).
+
+Category of the current page. This can include multiple categories, such as a cardigans sub-subsection (i.e. womens, womens:sweaters, womens:sweaters:cardigans). Multiple categories should be separated by commas.
+
+`categoryId` is limited to 250 characters.
+
+>[!NOTE]
+>
+>To show a recommendation based on a category in a [!UICONTROL Category] page, only one `categoryId` can be passed into the mbox used to display that particular recommendation. The value of the `categoryId` must match exactly the value of `entity.cateogryId` passed on the [!UICONTROL Product Detail] page.
+
+Examples:
+
+* Example Product Detail Page: womens, womens:sweaters, womens:sweaters:cardigans
+* Example Category Page Sweaters: womens:sweaters
+* Example Category Page Cardigans: womens:sweaters:cardigans
+
+For category-based recommendations, a comma is used to separate category value. Any values separated by commas become categories. You can also define subcategories by using a different separator, such as a colon (:), to separate subcategories within the category value.
+
+For example, in the following code the Womens category is divided into several subcategories:
+
+```
+mboxCreate('mboxName', 'entity.id=343942-32', 'entity.categoryId= Womens, Womens:Outerwear, Womens:Outerwear:Jackets, Womens:Outerwear:Jackets:Parka, Womens:Outerwear:Jackets:Caban’, 'entity.thumbnailUrl=...', 'entity.message=...', );
+```
+For the mbox delivery, the longest attribute name is used for the key. If there is a tie, the last attribute is used. In the example above, the category key is Womens:Outerwear:Jackets:Caban .
+
+### `entity.brand`
+
+Single-value only.
+
+Displays an item's brand name.
+
+Example: `'entity.brand=brandxyz'`
+
+### `entity.pageURL`
+
+Single-value only.
+
+Defines the relative URL of the page where the item can be purchased.
+
+Example: `'entity.pageURL=baseball/giants-tix/giantsvrockies5.12.2000-67833'`
+
+### `entity.thumbnailURL`
+
+Single-value only.
+
+Defines the relative URL to the thumbnail image that displays with the item.
+
+Example: `'entity.thumbnailURL=baseball/giants-tix/giants-136px.gif'`
+
+### `entity.message`
+
+Single-value only.
+
+A message about the product that is displayed in the recommendation, such as "on sale" or "clearance." The message is typically more verbose than the product name. Use to define additional information to display with the product in the template.
+
+Example: `'entity.message=Family&nbsp;special'`
+
+### `entity.inventory`
+
+Single-value only. Requires an integer or long value.
+
+Displays the inventory level of the item.
+
+Example: `'entity.inventory=1'`
+
+**Empty Inventory Attribute Handling:** For delivery, if you have an inclusion rule, collection rule, or criteria setting with `entity.inventory` > 0 or `entity.inventory` = 0 and the product has inventory not set, [!DNL Target] evaluates this to TRUE and includes products where the inventory is not set. This was done by default so that products with inventory that is not set show up in recommendation results.
+
+Similarly, if you have a global exclusion rule with `entity.inventory` = 0 and `entity.inventory` is not set, [!DNL Target] evaluates this rule to be TRUE and excludes the product.
+
+**Known issue:** Product Search is inconsistent with delivery for not-set inventory value attributes. For example for a rule with `entity.inventory` = 0 , Product Search will not display products where the inventory value is not set.
+
+### `entity.value`
+
+Single-value only.
+
+Defines the price or value of the item.
+
+Example: `'entity.value=15.99'`
+
+### `entity.margin`
+
+Single-value only.
+
+The profit margin or other value of the item.
+
+Example: `'entity.margin=1.00'`
+
+### `entity.<custom>`
+
+Supports multi-value (JSON array).
+
+Define up to 100 custom variables that provide additional information about the item. You can specify any unused attribute name for each custom attribute. For example, you might create a custom attribute called `entity.genre` to define a book or movie. Or, a ticket vendor might create attributes for an event venue for a secondary performer, such as a visiting team in a sporting event or an opening act in a concert.
+
+Restrictions:
+
+* You cannot use predefined entity attribute names for custom entity attributes.
+* The attribute entity.environment is reserved by the system and cannot be used for custom entity attributes. Attempts to pass entity.environment using targetPageParams , feed, or API will be ignored.
+
+Examples:
+
+`'entity.venue=AT&T&nbsp;Park'`
+
+`'entity.secondary=Rockies'`
+
+Custom entity attributes support multiple values. A multi-value entity attribute can include up to 100 values. Each value can be up to 100 characters. Values that exceed 100 characters are ignored.
+
+Example: `'entity.secondary=["band1",&nbsp;"band2"]'`
+
+>[!NOTE]>
+>
+>Multi-value custom entity attributes require valid JSON arrays. For correct syntax information, see Custom Entity Attributes.
+
+### `entity.event.detailsOnly`
+
+Single-value only.
+
+Used to prevent an mbox call from incrementing behavioral data counters for an algorithm.
+
+Example: `'entity.event.detailsOnly=true'`
+
+In the examples below, the first mbox call will update the catalog and behavioral data. The second mbox call will update only the catalog.
+
+```
+mboxCreate('myMbox', 'profile.geo.city = new york', 'profile.geo.state = new york',  'entity.id = 'entity.inventory = 4' )
+mboxCreate('myMbox',  'profile.geo.city = new york', 'profile.geo.state = new york',  'entity.id = 123', 'entity.inventory = 4' 'entity.event.detailsOnly=true' )
+```
+
+## Use entity attributes
 
 Recommendations sends the `productId` or `productPurchasedId` (referred to as `entity.id` in the code) that is used in the algorithms.
 
