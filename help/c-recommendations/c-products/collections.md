@@ -43,7 +43,7 @@ Create a collection to organize the products you want to show in your recommenda
 
 1. Click **[!UICONTROL Recommendations]** > **[!UICONTROL Collections]** to display the list of existing collections.
 
-   The "Number of Items" reported for each collection on the [!UICONTROL Collections] list view is the number of products matching the rules for that collection within the configured default Recommendations [host group](/administrating-target/hosts.md) (environment). See [Settings](../../c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84) to change the default host group.
+   The "Number of Items" reported for each collection on the [!UICONTROL Collections] list view is the number of products matching the rules for that collection within the configured default Recommendations [host group](/help/administrating-target/hosts.md) (environment). See [Settings](../../c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84) to change the default host group.
 
    ![](assets/collections_list.png)
 
@@ -53,7 +53,7 @@ Create a collection to organize the products you want to show in your recommenda
 
 1. (Conditional) Choose an environment from the **[!UICONTROL Environment]** filter while creating (or updating) a collection to preview the contents of the collection in that environment. By default, results from the default host group are displayed.
 
-   ![Create Collection](/c-recommendations/c-products/assets/CreateCollection.png)
+   ![Create Collection](/help/c-recommendations/c-products/assets/CreateCollection.png)
 
 1. Type a **[!UICONTROL Name]** for the collection.
 

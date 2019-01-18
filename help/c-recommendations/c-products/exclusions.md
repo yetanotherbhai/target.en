@@ -19,7 +19,7 @@ Create an exclusion list to prevent items from being recommended.
 
 1. Click **[!UICONTROL Recommendations]** > **[!UICONTROL Exclusions]** to display the list of existing exclusions.
 
-   The "Number of Items" reported for each exclusion on the [!UICONTROL Exclusions] list view is the number of products matching the rules for that exclusion within the configured default Recommendations [host group](/administrating-target/hosts.md) (environment). See [Settings](../../c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84) to change the default host group.
+   The "Number of Items" reported for each exclusion on the [!UICONTROL Exclusions] list view is the number of products matching the rules for that exclusion within the configured default Recommendations [host group](/help/administrating-target/hosts.md) (environment). See [Settings](../../c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84) to change the default host group.
 
    ![](assets/exclusions_list.png)
 
@@ -29,7 +29,7 @@ Create an exclusion list to prevent items from being recommended.
 
 1. (Conditional) Choose an environment from the **[!UICONTROL Environment]** filter while creating (or updating) an exclusion to preview the contents of the exclusion in that environment. By default, results from the default host group are displayed.
 
-   ![Create Exclusion](/c-recommendations/c-products/assets/CreateExclusion.png)
+   ![Create Exclusion](/help/c-recommendations/c-products/assets/CreateExclusion.png)
 
 1. Type an exclusion **[!UICONTROL Name]** and enter an optional description.
 
