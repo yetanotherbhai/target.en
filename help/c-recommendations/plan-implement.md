@@ -27,7 +27,7 @@ What you need to know before creating a [!DNL Recommendations] activity.
 |![Step 2](/help/c-recommendations/assets/step2_red.png)|Keys|The key determines the type of product or content that displays in your recommendations. For example, the key might be a product category. See [Base the Recommendation on a Recommendation Key](/help/c-recommendations/c-algorithms/create-new-algorithm.md#task_2B0ED54AFBF64C56916B6E1F4DC0DC3B).|
 |![Step 3](/help/c-recommendations/assets/step3_red.png)|Attributes|Attributes provide more specific information about the products you want to display. For example, you might want to show products within a certain price range, or items that meet an inventory threshold. Attributes can be provided in the mbox or through a [feed](/help/c-recommendations/c-products/feeds.md).<br>See [Inclusion Rules](/help/c-recommendations/c-algorithms/create-new-algorithm.md#task_28DB20F968B1451481D8E51BAF947079) and [Entity Attributes](/help/c-recommendations/c-products/entity-attributes.md).|
 |![Step 4](/help/c-recommendations/assets/step4_red.png)|Exclusions|Exclusions determine which specific items do not appear in your recommendations.<br>See [Exclusions](/help/c-recommendations/c-products/exclusions.md).|
-||Purchase deals|Purchase details provide information about purchased items and the order when the purchase has been completed.|
+|![Step 5](/help/c-recommendations/assets/step5_red.png)|Purchase deals|Purchase details provide information about purchased items and the order when the purchase has been completed.|
 
 ## Base Implementation {#concept_D1154A3FB0FB4467A29AD2BDD21C82D5}
 
