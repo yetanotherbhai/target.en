@@ -25,8 +25,6 @@ Create an exclusion list to prevent items from being recommended.
 
 1. Click **[!UICONTROL Create Exclusion]**.
 
-   ![Step Result](assets/CreateExclusion.png)
-
 1. (Conditional) Choose an environment from the **[!UICONTROL Environment]** filter while creating (or updating) an exclusion to preview the contents of the exclusion in that environment. By default, results from the default host group are displayed.
 
    ![Create Exclusion](/help/c-recommendations/c-products/assets/CreateExclusion.png)

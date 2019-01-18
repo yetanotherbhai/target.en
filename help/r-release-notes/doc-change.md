@@ -13,6 +13,13 @@ uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 
 This page lists important changes made to the Target documentation.
 
+## Adobe Target Standard/Premium 19.1.1 (January 22, 2019)
+
+|Date|Topic|Changes|
+| --- | --- | --- |
+|January 22, 2019|[Collections](/help/c-recommendations/c-products/collections.md)<br>[Exclusions](/help/c-recommendations/c-products/exclusions.md)<br>[Catalog search](/help/c-recommendations/c-products/catalog-search.md)<br>[Settings](/help/c-recommendations/plan-implement.md##concept_C1E1E2351413468692D6C21145EF0B84)<br>[Recommendations: filter collections and exclusions by environment (host group)](/help/administrating-target/hosts.md)|Added information about filtering collections and exclusions by environment (host group).|
+||Release Notes: 19.1.1|This release includes enhancements and fixes. You can read about them and link to the documentation from the Release Notes. This release also includes many documentation updates throughout the help.|
+
 ## Adobe Target Standard/Premium 18.11.1 (November 12, 2018) {#section_4AD10E8B7EB04F96807FFDB763F31703}
 
 <table id="table_D9395734C53D472496F193EF3C141B35"> 
@@ -24,6 +31,11 @@ This page lists important changes made to the Target documentation.
   </tr> 
  </thead>
  <tbody>
+<tr> 
+   <td colname="col1"> January 16, 2019 </td> 
+   <td colname="col2"> <p> <a href="/help/r-release-notes/release-notes.md" format="dita" scope="local">Target Release Notes (current)</a>, <a href="/help/r-release-notes/target-release-notes.md" format="dita" scope="local">Target Release Notes (prerelease)</a>, and <a href="/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md" format="dita" scope="local">at.js version details</a></p> </td> 
+   <td colname="col3"> <p>Added information about at.js version 1.6.4.</p> </td> 
+  </tr> 
 <tr> 
    <td colname="col1"> January 10, 2019 </td> 
    <td colname="col2"> <p> <a href="/help/r-release-notes/release-notes.md" format="dita" scope="local">Target Release Notes (current)</a>, <a href="/help/r-release-notes/target-release-notes.md" format="dita" scope="local">Target Release Notes (prerelease)</a>, and <a href="/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md" format="dita" scope="local">TLS (Transport Layer Security) encryption changes</a></p> </td> 

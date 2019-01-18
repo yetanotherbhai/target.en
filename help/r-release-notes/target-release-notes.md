@@ -13,7 +13,7 @@ uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 
 These release notes provide information about features, enhancements, fixes, and known issues for the latest or upcoming [!DNL Adobe Target] releases.
 
-**Last Updated: January 10, 2019**
+**Last Updated: January 22, 2019**
 
 >[!NOTE]
 >

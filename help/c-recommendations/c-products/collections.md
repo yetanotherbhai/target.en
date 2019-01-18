@@ -49,8 +49,6 @@ Create a collection to organize the products you want to show in your recommenda
 
 1. Click **[!UICONTROL Create Collection]**.
 
-   ![Step Result](assets/CreateCollection.png)
-
 1. (Conditional) Choose an environment from the **[!UICONTROL Environment]** filter while creating (or updating) a collection to preview the contents of the collection in that environment. By default, results from the default host group are displayed.
 
    ![Create Collection](/help/c-recommendations/c-products/assets/CreateCollection.png)
