@@ -39,12 +39,6 @@ To manage hosts and environments, click **[!UICONTROL Setup]** > **[!UICONTROL H
 
 Information about the conditions that must be met for [!DNL Target] to recognize a host and add it to the Hosts list.
 
-<!-- 
-
-ov2/c_hosts-recognizing.xml
-
- -->
-
 To recognize a host, the following conditions must be met:
 
 * At least one mbox must exist on the host 
@@ -76,11 +70,6 @@ After a host is added to the [!UICONTROL Host] list, make sure that the host is 
 
 Information to help you manage hosts and environments (host groups,) including setting the default host for reporting, creating whitelists, changing an environment's name, moving a host to another environment, and deleting a host or environment.
 
-<!-- 
-
-ov2/c_hosts-manage-hosts-and-host-groups.xml
-
- -->
 
 To access the [!UICONTROL Hosts] list, click **[!UICONTROL Setup]** > **[!UICONTROL Hosts]**.
 
@@ -206,7 +195,7 @@ If an mbox call is made on an unauthorized host, the call will respond with /&#4
 
 ## Recommendations: filter collections and exclusions by environment (host group)
 
-![Premium badge](/assets/premium.png)
+![Premium badge](/help/assets/premium.png)
 
 You can preview the contents of Recommendations collections and exclusions for a selected environment (host group).
 
