@@ -32,7 +32,7 @@ Be aware of the following important announcements:
 
 * Fixed a race condition manifesting in Microsoft Internet Explorer 11 that caused duplicate offers to be applied.
 
-## [!DNL Target] Standard/Premium 19.1.1 (January 22, 2019) {#section_6BBA8B1EE9D241C28E12856A375E97F6}
+## [!DNL Target] Standard/Premium 19.1.1 (January 22, 2019)
 
 This release includes the following features, changes and enhancements:
 
