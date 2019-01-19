@@ -17,7 +17,7 @@ This page lists important changes made to the Target documentation.
 
 |Date|Topic|Changes|
 | --- | --- | --- |
-|January 22, 2019|[Collections](/help/c-recommendations/c-products/collections.md)<br>[Exclusions](/help/c-recommendations/c-products/exclusions.md)<br>[Catalog search](/help/c-recommendations/c-products/catalog-search.md)<br>[Settings](/help/c-recommendations/plan-implement.md##concept_C1E1E2351413468692D6C21145EF0B84)<br>[Recommendations: filter collections and exclusions by environment (host group)](/help/administrating-target/hosts.md)|Added information about filtering collections and exclusions by environment (host group).|
+|January 22, 2019|[Collections](/help/c-recommendations/c-products/collections.md)<br>[Exclusions](/help/c-recommendations/c-products/exclusions.md)<br>[Catalog search](/help/c-recommendations/c-products/catalog-search.md)<br>[Settings](/help/c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84)<br>[Recommendations: filter collections and exclusions by environment (host group)](/help/administrating-target/hosts.md)|Added information about filtering collections and exclusions by environment (host group).|
 ||Release Notes: 19.1.1|This release includes enhancements and fixes. You can read about them and link to the documentation from the Release Notes. This release also includes many documentation updates throughout the help.|
 
 ## Adobe Target Standard/Premium 18.11.1 (November 12, 2018) {#section_4AD10E8B7EB04F96807FFDB763F31703}
