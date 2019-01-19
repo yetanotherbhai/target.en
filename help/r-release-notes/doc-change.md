@@ -13,280 +13,69 @@ uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 
 This page lists important changes made to the Target documentation.
 
+## Adobe Target Standard/Premium 19.1.1 (January 22, 2019)
+
+|Date|Topic|Changes|
+| --- | --- | --- |
+|January 22, 2019|[Collections](/help/c-recommendations/c-products/collections.md)<br>[Exclusions](/help/c-recommendations/c-products/exclusions.md)<br>[Catalog search](/help/c-recommendations/c-products/catalog-search.md)<br>[Settings](/help/c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84)<br>[Recommendations: filter collections and exclusions by environment (host group)](/help/administrating-target/hosts.md)|Added information about filtering collections and exclusions by environment (host group).|
+||Release Notes: 19.1.1|This release includes enhancements and fixes. You can read about them and link to the documentation from the Release Notes. This release also includes many documentation updates throughout the help.|
+
 ## Adobe Target Standard/Premium 18.11.1 (November 12, 2018) {#section_4AD10E8B7EB04F96807FFDB763F31703}
 
-<table id="table_D9395734C53D472496F193EF3C141B35"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Date </th> 
-   <th colname="col2" class="entry"> Topic </th> 
-   <th colname="col3" class="entry"> Changes </th> 
-  </tr> 
- </thead>
- <tbody>
-<tr> 
-   <td colname="col1"> January 10, 2019 </td> 
-   <td colname="col2"> <p> <a href="/help/r-release-notes/release-notes.md" format="dita" scope="local">Target Release Notes (current)</a>, <a href="/help/r-release-notes/target-release-notes.md" format="dita" scope="local">Target Release Notes (prerelease)</a>, and <a href="/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md" format="dita" scope="local">TLS (Transport Layer Security) encryption changes</a></p> </td> 
-   <td colname="col3"> <p>Added the date when Target will completely phase out support for TLS 1.0 encryption: <b>February 20, 2019</b>.</p> </td> 
-  </tr>  
-<tr> 
-   <td colname="col1"> January 9, 2019 </td> 
-   <td colname="col2"> <p> <a href="/help/c-experiences/c-visual-experience-composer/viztarget-options.md" format="dita" scope="local">Visual Experience Composer Options</a></p> </td> 
-   <td colname="col3"> <p>Added information regarding Recommendations to Insert Before, Insert After, and Replace With rows.</p> </td> 
-  </tr> 
-<tr> 
-   <td colname="col1"></td> 
-   <td colname="col2"> <p> <a href="/help/r-release-notes/release-notes.md" format="dita" scope="local">Target Release Notes (current)</a>, <a href="/help/r-release-notes/target-release-notes.md" format="dita" scope="local">Target Release Notes (prerelease)</a>, and <a href="/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md" format="dita" scope="local">Supported Browsers</a></p> </td> 
-   <td colname="col3"> <p>Added information about Target and the Adobe Marketing Cloud dropping support for Microsoft Internet Explorer 11 starting in March 2019.</p> </td> 
-  </tr> 
-<tr> 
-   <td colname="col1"></td> 
-   <td colname="col2"> <p> <a href="/help/r-release-notes/target-release-notes.md" format="dita" scope="local">Target Release Notes (prerelease)</a></p> </td> 
-   <td colname="col3"> <p>Added information for Target 19.1.1 and at.js 1.6.4 releases.</p> </td> 
-  </tr> 
-<tr> 
-   <td colname="col1"></td> 
-   <td colname="col2"> <p> <a href="/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md" format="dita" scope="local">at.js version details</a></p> </td> 
-   <td colname="col3"> <p>Added information for at.js 1.6.4 release.</p> </td> 
-  </tr> 
-<tr> 
-   <td colname="col1"></td> 
-   <td colname="col2"> <p> <a href="/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md" format="dita" scope="local">Minimizing inlated visit and visitor counts in A4T</a></p> </td> 
-   <td colname="col3"> <p>Removed note stating that after November 14, 2016, customers will no longer be able to create A4T activities with redirect offers.</p> </td> 
-  </tr> 
-<tr> 
-   <td colname="col1"></td> 
-   <td colname="col2"> <p> <a href="/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md" format="dita" scope="local">Redirect offers - A4T FAQ</a></p> </td> 
-   <td colname="col3"> <p>Added note under "Why are page views on the original page and on the redirect page sometimes counted?"</p> </td> 
-  </tr> 
-<tr> 
-   <td colname="col1"> December 20, 2018 </td> 
-   <td colname="col2"> <p> <a href="../c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md" format="dita" scope="local">Server Side implement Target</a> </p> </td> 
-   <td colname="col3"> <p>Added note about CORS.</p> </td> 
-  </tr> 
-<tr> 
-   <td colname="col1"> December 14, 2018 </td> 
-   <td colname="col2"> <p> <a href="../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md" format="dita" scope="local">Implement Target using Adobe Launch</a> </p> </td> 
-   <td colname="col3"> <p>Added link to a new training video: Implementing Target with the Adobe Launch Tutorial.</p> </td> 
-  </tr> 
-<tr> 
-   <td colname="col1"></td> 
-   <td colname="col2"> <p> <a href="../c-reports/c-personalization-insights-reports/personalization-insights-reports.md" format="dita" scope="local">Personalization Insights reports</a> </p> </td> 
-   <td colname="col3"> <p>Added link to training video.</p> </td> 
-  </tr> 
-<tr> 
-   <td colname="col1"> December 13, 2018 </td> 
-   <td colname="col2"> <p> <a href="../c-experiences/form-experience-composer.md" format="dita" scope="local">Form-based Experience Composer</a> </p> </td> 
-   <td colname="col3"> <p>Updated text and image.</p> </td> 
-  </tr> 
-<tr> 
-   <td colname="col1"></td> 
-   <td colname="col2"> <p> <a href="known-issues-resolved-issues.md" format="dita" scope="local">Known issues and resolved issues</a> </p> </td> 
-   <td colname="col3"> <p>Added known issue that the Recommendations feed index can show "Waiting for index" if the items in the feed are the same as in the previous run.</p> </td> 
-  </tr> 
-<tr> 
-   <td colname="col1"> </td> 
-   <td colname="col2"> <p> <a href="../c-activities/t-test-ab/t-test-create-ab/ab-audience.md" format="dita" scope="local">Select audience</a> </p> </td> 
-   <td colname="col3"> <p>Updated images.</p> </td> 
-  </tr> 
-<tr> 
-   <td colname="col1"></td> 
-   <td colname="col2"> <p> <a href="../c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md" format="dita" scope="local">Add experience</a> </p> </td> 
-   <td colname="col3"> <p>Updated image.</p> </td> 
-  </tr> 
-<tr> 
-   <td colname="col1"></td> 
-   <td colname="col2"> <p> <a href="../c-activities/t-test-ab/t-test-create-ab/test-create-ab.md" format="dita" scope="local">Create an A/B Test</a> </p> </td> 
-   <td colname="col3"> <p>Updated images.</p> </td> 
-  </tr> 
-<tr> 
-   <td colname="col1"></td> 
-   <td colname="col2"> <p> <a href="../c-activities/c-multivariate-testing/t-create-multivariate-test/test-summary.md" format="dita" scope="local">Test summary</a> </p> </td> 
-   <td colname="col3"> <p>Updated image.</p> </td> 
-  </tr> 
-<tr> 
-   <td colname="col1"></td> 
-   <td colname="col2"> <p> <a href="../c-activities/c-multivariate-testing/t-create-multivariate-test/preview-experiences.md" format="dita" scope="local">Preview experiences for a Multivariate Test</a> </p> </td> 
-   <td colname="col3"> <p>Updated image.</p> </td> 
-  </tr> 
-<tr> 
-   <td colname="col1"></td> 
-   <td colname="col2"> <p> <a href="../c-activities/c-multivariate-testing/t-create-multivariate-test/add-offers.md" format="dita" scope="local">Create combinations</a> </p> </td> 
-   <td colname="col3"> <p>Updated text and images.</p> </td> 
-  </tr> 
-<tr> 
-   <td colname="col1"></td> 
-   <td colname="col2"> <p> <a href="../c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test.md" format="dita" scope="local">Create a Multivariate Test</a> </p> </td> 
-   <td colname="col3"> <p>Updated text and images.</p> </td> 
-  </tr> 
-<tr> 
-   <td colname="col1"> December 11, 2018 </td> 
-   <td colname="col2"> <p> <a href="../c-implementing-target/c-implementing-target-for-client-side-web/cmp-at.js-functions.md" format="dita" scope="local"> targetGlobalSettings</a> </p> </td> 
-   <td colname="col3"> <p>Added that the default value for overrideMboxEdgeServer is "true" beginning with at.js version 1.6.2.</p> </td> 
-  </tr> 
- <tr> 
-   <td colname="col1"> December 7, 2018 </td> 
-   <td colname="col2"> <p> <a href="known-issues-resolved-issues.md" format="dita" scope="local"> Known Issues and Resolved Issues </a> </p> </td> 
-   <td colname="col3"> <p>Moved the following from the Known Issues table to the Resolved Issues table: </p>
-   <p>
-<ul>
-   <li>
-      <p>at.js: Mboxes not firing on Microsoft Explorer 11 browsers after upgrading to at.js version 1.0 due to the interaction between at.js and Visitor API 2.2.0.</p>
-   </li>
-   <li>
-      <p>Geo targeting: Searching for a string that contains special characters (such as a space or a comma) is currently not working when creating geo-targeting audiences.</p>
-   </li>
-</ul>
-</p>
-   </td> 
-  </tr> 
-<tr> 
-   <td colname="col1"> December 5, 2018 </td> 
-   <td colname="col2"> <p> <a href="../c-reports/c-personalization-insights-reports/personalization-insights-reports.md" format="dita" scope="local"> Personalization Insights reports </a> </p> </td> 
-   <td colname="col3"> <p>Added note that the Personalization Insights reports are available in the default environment only.</p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> </td> 
-   <td colname="col2"> <p> <a href="../c-integrating-target-with-mac/a4t/a4t.md" format="dita" scope="local"> Adobe Analytics as the reporting source for Adobe Target (AT) </a> </p> </td> 
-   <td colname="col3"> <p>Updated table to indicate that A4T supports server-side deployments.</p> </td> 
-  </tr> 
-<tr> 
-   <td colname="col1"> November 29, 2018 </td> 
-   <td colname="col2"> <p> <a href="../c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md" format="dita" scope="local"> Estimate the traffic required for a successful test</a> </p> </td> 
-   <td colname="col3"> <p>Minor text updates and updated images.</p> </td> 
-  </tr>
-  <tr> 
-   <td colname="col1"> November 27, 2018 </td> 
-   <td colname="col2"> <p> <a href="../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03" format="dita" scope="local"> Activities </a> </p> </td> 
-   <td colname="col3"> <p>Updated text and images. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> </td> 
-   <td colname="col2"> <p> <a href="../c-target/c-visitor-profile/profile-parameters.md#concept_8C07AEAB0A144FECA8B4FEB091AED4D2" format="dita" scope="local"> Profile Script Attributes </a> </p> </td> 
-   <td colname="col3"> <p>Added note that <span class="keyword"> Target </span> has a limit of 1,000 profile scripts per account. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> November 15, 2018 </td> 
-   <td colname="col2"> <p> <a href="../r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A" format="dita" scope="local"> Target release notes (current) </a> </p> <p> <a href="../r-release-notes/target-release-notes.md#reference_4A966062C61048D1A81412E2DDB16E34" format="dita" scope="local"> Target release notes (prerelease) </a> </p> <p> <a href="../c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A" format="dita" scope="local"> at.js version details </a> </p> </td> 
-   <td colname="col3"> <p>Added information about at.js version 1.6.3. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> </td> 
-   <td colname="col2"> <p> <a href="../c-reports/c-personalization-insights-reports/personalization-insights-reports.md#concept_A897070E1EDC403EB84CFB7A6ECAD767" format="dita" scope="local"> Personalization Insights reports </a> </p> </td> 
-   <td colname="col3"> <p>Added new topics for the new <span class="wintitle"> Personalization Insights </span> reports: <span class="wintitle"> Automated Segments </span> and <span class="wintitle"> Important Attributes </span>. </p> </td> 
-  </tr> 
-  <!-- <row> <entry colname="col2"> <p><xref href="c_priority.xml#concept_1780C11FEA57440499F0047DD6900E0F" format="dita" scope="local">Priority</xref> </p> </entry> <entry colname="col3"> <p>Edited topic to reflect the new priority model for activities that use the Form-Based Experience Composer with only a global mbox. </p> </entry> </row> --> 
-  <tr> 
-   <td colname="col1"> November 14, 2018 </td> 
-   <td colname="col2"> <p>Release 18.11.1 <a href="../r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A" format="dita" scope="local"> Target release notes (current) </a> </p> </td> 
-   <td colname="col3"> <p>This release includes enhancements and fixes. You can read about them and link to the documentation from the Release Notes. This release also includes many documentation updates throughout the help. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Date | Topic | Changes |
+|--- |--- |--- |
+|January 16, 2019|[Target Release Notes (current)](/help/r-release-notes/release-notes.md), [Target Release Notes (prerelease)](/help/r-release-notes/target-release-notes.md), and [at.js version details](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)|Added information about at.js version 1.6.4.|
+|January 10, 2019|[Target Release Notes (current)](/help/r-release-notes/release-notes.md), [Target Release Notes (prerelease)](/help/r-release-notes/target-release-notes.md), and [TLS (Transport Layer Security) encryption changes](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md)|Added the date when Target will completely phase out support for TLS 1.0 encryption: February 20, 2019.|
+|January 9, 2019|[Visual Experience Composer Options](/help/c-experiences/c-visual-experience-composer/viztarget-options.md)|Added information regarding Recommendations to Insert Before, Insert After, and Replace With rows.|
+|[Target Release Notes (current)](/help/r-release-notes/release-notes.md), [Target Release Notes (prerelease)](/help/r-release-notes/target-release-notes.md), and [Supported Browsers](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md)|Added information about Target and the Adobe Marketing Cloud dropping support for Microsoft Internet Explorer 11 starting in March 2019.|
+|[Target Release Notes (prerelease)](/help/r-release-notes/target-release-notes.md)|Added information for Target 19.1.1 and at.js 1.6.4 releases.|
+|[at.js version details](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)|Added information for at.js 1.6.4 release.|
+|[Minimizing inlated visit and visitor counts in A4T](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md)|Removed note stating that after November 14, 2016, customers will no longer be able to create A4T activities with redirect offers.|
+|[Redirect offers - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md)|Added note under "Why are page views on the original page and on the redirect page sometimes counted?"|
+|December 20, 2018|[Server Side implement Target](../c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)|Added note about CORS.|
+|December 14, 2018|[Implement Target using Adobe Launch](../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)|Added link to a new training video: Implementing Target with the Adobe Launch Tutorial.|
+|[Personalization Insights reports](../c-reports/c-personalization-insights-reports/personalization-insights-reports.md)|Added link to training video.|
+|December 13, 2018|[Form-based Experience Composer](../c-experiences/form-experience-composer.md)|Updated text and image.|
+|[Known issues and resolved issues](known-issues-resolved-issues.md)|Added known issue that the Recommendations feed index can show "Waiting for index" if the items in the feed are the same as in the previous run.|
+||[Select audience](../c-activities/t-test-ab/t-test-create-ab/ab-audience.md)|Updated images.|
+|[Add experience](../c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md)|Updated image.|
+|[Create an A/B Test](../c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)|Updated images.|
+|[Test summary](../c-activities/c-multivariate-testing/t-create-multivariate-test/test-summary.md)|Updated image.|
+|[Preview experiences for a Multivariate Test](../c-activities/c-multivariate-testing/t-create-multivariate-test/preview-experiences.md)|Updated image.|
+|[Create combinations](../c-activities/c-multivariate-testing/t-create-multivariate-test/add-offers.md)|Updated text and images.|
+|[Create a Multivariate Test](../c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test.md)|Updated text and images.|
+|December 11, 2018|[ targetGlobalSettings](../c-implementing-target/c-implementing-target-for-client-side-web/cmp-at.js-functions.md)|Added that the default value for overrideMboxEdgeServer is "true" beginning with at.js version 1.6.2.|
+|December 7, 2018|[ Known Issues and Resolved Issues ](known-issues-resolved-issues.md)|Moved the following from the Known Issues table to the Resolved Issues table: <ul><li>at.js: Mboxes not firing on Microsoft Explorer 11 browsers after upgrading to at.js version 1.0 due to the interaction between at.js and Visitor API 2.2.0.</li><li>Geo targeting: Searching for a string that contains special characters (such as a space or a comma) is currently not working when creating geo-targeting audiences.</li></ul>|
+|December 5, 2018|[ Personalization Insights reports ](../c-reports/c-personalization-insights-reports/personalization-insights-reports.md)|Added note that the Personalization Insights reports are available in the default environment only.|
+||[ Adobe Analytics as the reporting source for Adobe Target (AT) ](../c-integrating-target-with-mac/a4t/a4t.md)|Updated table to indicate that A4T supports server-side deployments.|
+|November 29, 2018|[ Estimate the traffic required for a successful test](../c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md)|Minor text updates and updated images.|
+|November 27, 2018|[ Activities ](../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)|Updated text and images.|
+||[ Profile Script Attributes ](../c-target/c-visitor-profile/profile-parameters.md#concept_8C07AEAB0A144FECA8B4FEB091AED4D2)|Added note that  Target  has a limit of 1,000 profile scripts per account.|
+|November 15, 2018|[ Target release notes (current) ](../r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A)   [ Target release notes (prerelease) ](../r-release-notes/target-release-notes.md#reference_4A966062C61048D1A81412E2DDB16E34)   [ at.js version details ](../c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A)|Added information about at.js version 1.6.3.|
+||[ Personalization Insights reports ](../c-reports/c-personalization-insights-reports/personalization-insights-reports.md#concept_A897070E1EDC403EB84CFB7A6ECAD767)|Added new topics for the new  Personalization Insights  reports:  Automated Segments  and  Important Attributes .|
+|November 14, 2018|Release 18.11.1 [ Target release notes (current) ](../r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A)|This release includes enhancements and fixes. You can read about them and link to the documentation from the Release Notes. This release also includes many documentation updates throughout the help.|
 
 ## Adobe Target Standard/Premium 18.10.1 (October 24, 2018) {#section_F3DB9A89D944428DBEE04634EB712601}
 
-<table id="table_EC7D9C3A76374831963983EFBC4334F2"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Date </th> 
-   <th colname="col2" class="entry"> Topic </th> 
-   <th colname="col3" class="entry"> Changes </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> November 8, 2018 </td> 
-   <td colname="col2"> <p> <a href="../c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE" format="dita" scope="local"> Adobe Analytics as the reporting source for Adobe Target (A4T) </a> </p> </td> 
-   <td colname="col3"> <p>Added NodeJS SDK to the compatibility table. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> November 7, 2018 </td> 
-   <td colname="col2"> <p> <a href="../c-activities/t-test-ab/sample-size-determination.md#concept_2801F552DB874C20B8A17C1B774C0383" format="dita" scope="local"> How long should you run an A/B Test? </a> </p> </td> 
-   <td colname="col3"> <p>Edited topic and added additional information. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> </td> 
-   <td colname="col2"> <p> <a href="../r-release-notes/target-release-notes.md#reference_4A966062C61048D1A81412E2DDB16E34" format="dita" scope="local"> Target release notes (prerelease) </a> </p> </td> 
-   <td colname="col3"> <p>Added information about features in the Target 18.11.1 release. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> November 5, 2018 </td> 
-   <td colname="col2"> <p> <a href="../c-recommendations/c-recommendations-faq/integrating-recs-email.md#reference_256B16C894864F24AF970E43DC174420" format="dita" scope="local"> Integrate Recommendations with email </a> </p> </td> 
-   <td colname="col3"> <p>Updated link in Option 3. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> </td> 
-   <td colname="col2"> <p> <a href="../c-target/c-visitor-profile/working-with-customer-attributes.md#concept_16C5C434D32D4EB1AD44A71821F3DEE8" format="dita" scope="local"> Customer attributes </a> </p> </td> 
-   <td colname="col3"> <p>Added the following note: </p> <p>Important:  The data source name and the attribute name cannot contain a period. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> October 31, 2018 </td> 
-   <td colname="col2"> <p> <a href="../r-release-notes/system-status-updates.md#concept_5CBDF506BEFA40E483CC7DE0DA915EAD" format="dita" scope="local"> System status updates </a> </p> </td> 
-   <td colname="col3"> <p>Updated topic. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> </td> 
-   <td colname="col2"> <p> <a href="../cmp-resources-and-contact-information.md#concept_11902FAC95C64479AABE020557A7EEE4" format="dita" scope="local"> Target Basics Webinar Series </a> </p> </td> 
-   <td colname="col3"> <p>Added link to the Best Practices in Audience Segmentation recording. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> October 29, 2018 </td> 
-   <td colname="col2"> <p> <a href="../c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451" format="dita" scope="local"> TLS (Transport Layer Security) encryption changes </a> </p> </td> 
-   <td colname="col3"> <p>Added new section: Expected Behavior with Browsers Supporting TLS 1.0 Only. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> October 26, 2018 </td> 
-   <td colname="col2"> <p> <a href="../r-release-notes/known-issues-resolved-issues.md#concept_625C3A16B7F24D4B82EFF130F0945541" format="dita" scope="local"> Known Issues and Resolved Issues </a> </p> </td> 
-   <td colname="col3"> 
-    <ul id="ul_49864F48E8854BAD86BF25DE6676F8CE"> 
-     <li id="li_17EBC3BD03B249028FAEA03FC87E6182"> <p>Added a known issue about searching for strings containing special characters when creating geo-targeting audiences. </p> </li> 
-     <li id="li_75C2103E0D06437B8E246BF24E2FAAE8"> <p>Moved at.js 1.6.0 redirect issue to Resolved Issues table. </p> </li> 
-     <li id="li_33FA1795770D445392C91ACDCC4B2DA7"> <p>Moved issue to the Resolved Issues table regarding activities in the default workspace deleted via API continuing to display in the Target UI </p> </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> October 24, 2018 </td> 
-   <td colname="col2"> <p> <a href="../administrating-target/r-target-account-preferences/target-account-preferences.md#reference_0CF97B1C2214412ABBC8222EA8A36D7E" format="dita" scope="local"> Preferences </a> </p> </td> 
-   <td colname="col3"> <p>Added information to consider when choosing the reporting source for activities in Setup &gt; Preferences or per activity. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> </td> 
-   <td colname="col2"> <p> <a href="../c-activities/t-automated-personalization/create-ap-activity.md#task_8AAF837796D74CF893CA2F88BA1491C9" format="dita" scope="local"> Create an Automated Personalization activity </a> </p> </td> 
-   <td colname="col3"> <p>Added information about filtering for Unassigned Offers. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> </td> 
-   <td colname="col2"> <p> <a href="../c-activities/t-experience-target/t-xt-create/xt-add-experience.md#task_454646F2895242D3B92DC395A0CE1A00" format="dita" scope="local"> Create Experience </a> </p> </td> 
-   <td colname="col3"> <p>Added information about duplicating experiences in XT activities. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> </td> 
-   <td colname="col2"> <p> <a href="../c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md#task_454646F2895242D3B92DC395A0CE1A00" format="dita" scope="local"> Add experience </a> </p> </td> 
-   <td colname="col3"> <p>Added information about duplicating experiences in A/B Tests. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> </td> 
-   <td colname="col2"> <p> <a href="../c-target/c-audiences/audiences.md#concept_65BE870D290E412D8BBF557EEA67C271" format="dita" scope="local"> About audiences </a> </p> </td> 
-   <td colname="col3"> <p>Added information about the handling of audiences referenced in Target activities that have been deleted in Adobe Audience Manager (AAM). </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> </td> 
-   <td colname="col2"> <p> <a href="../c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/target-atjs-integrations.md#concept_C100BC4F073C4B57A608B309D0157B39" format="dita" scope="local"> at.js integrations </a> </p> </td> 
-   <td colname="col3"> <p>Updated topic. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> </td> 
-   <td colname="col2"> <p> <a href="../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#topic_397FFA3D6918456BBE02A9FBE9537894" format="dita" scope="local"> Implement Target without a tag manager </a> </p> </td> 
-   <td colname="col3"> <p>Updated all sections. </p> <p>Added new section: at.js Implementation. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> </td> 
-   <td colname="col2"> <p>Release 18.10.1 <a href="../r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A" format="dita" scope="local"> Release Notes </a> </p> </td> 
-   <td colname="col3"> <p>This release includes enhancements and fixes. You can read about them and link to the documentation from the Release Notes. This release also includes many documentation updates throughout the help. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Date | Topic | Changes |
+|--- |--- |--- |
+|November 8, 2018|[Adobe Analytics as the reporting source for Adobe Target (A4T)](../c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)|Added NodeJS SDK to the compatibility table.|
+|November 7, 2018|[How long should you run an A/B Test?](../c-activities/t-test-ab/sample-size-determination.md#concept_2801F552DB874C20B8A17C1B774C0383)|Edited topic and added additional information.|
+||[Target release notes (prerelease)](../r-release-notes/target-release-notes.md#reference_4A966062C61048D1A81412E2DDB16E34)|Added information about features in the Target 18.11.1 release.|
+|November 5, 2018|[Integrate Recommendations with email](../c-recommendations/c-recommendations-faq/integrating-recs-email.md#reference_256B16C894864F24AF970E43DC174420)|Updated link in Option 3.|
+||[Customer attributes](../c-target/c-visitor-profile/working-with-customer-attributes.md#concept_16C5C434D32D4EB1AD44A71821F3DEE8)|Added the following note:<br>**Important**: The data source name and the attribute name cannot contain a period.|
+|October 31, 2018|[System status updates](../r-release-notes/system-status-updates.md#concept_5CBDF506BEFA40E483CC7DE0DA915EAD)|Updated topic.|
+||[Target Basics Webinar Series](../cmp-resources-and-contact-information.md#concept_11902FAC95C64479AABE020557A7EEE4)|Added link to the Best Practices in Audience Segmentation recording.|
+|October 29, 2018|[TLS (Transport Layer Security) encryption changes](../c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451)|Added new section: Expected Behavior with Browsers Supporting TLS 1.0 Only.|
+|October 26, 2018|[Known Issues and Resolved Issues](../r-release-notes/known-issues-resolved-issues.md#concept_625C3A16B7F24D4B82EFF130F0945541)|<ul><li>Added a known issue about searching for strings containing special characters when creating geo-targeting audiences.</li><li>Moved at.js 1.6.0 redirect issue to Resolved Issues table.</li><li>Moved issue to the Resolved Issues table regarding activities in the default workspace deleted via API continuing to display in the Target UI</li></ul>|
+|October 24, 2018|[Preferences](../administrating-target/r-target-account-preferences/target-account-preferences.md#reference_0CF97B1C2214412ABBC8222EA8A36D7E)|Added information to consider when choosing the reporting source for activities in Setup > Preferences or per activity.|
+||[Create an Automated Personalization activity](../c-activities/t-automated-personalization/create-ap-activity.md#task_8AAF837796D74CF893CA2F88BA1491C9)|Added information about filtering for Unassigned Offers.|
+||[Create Experience](../c-activities/t-experience-target/t-xt-create/xt-add-experience.md#task_454646F2895242D3B92DC395A0CE1A00)|Added information about duplicating experiences in XT activities.|
+||[Add experience](../c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md#task_454646F2895242D3B92DC395A0CE1A00)|Added information about duplicating experiences in A/B Tests.|
+||[About audiences](../c-target/c-audiences/audiences.md#concept_65BE870D290E412D8BBF557EEA67C271)|Added information about the handling of audiences referenced in Target activities that have been deleted in Adobe Audience Manager (AAM).|
+||[at.js integrations](../c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/target-atjs-integrations.md#concept_C100BC4F073C4B57A608B309D0157B39)|Updated topic.|
+||[Implement Target without a tag manager](../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#topic_397FFA3D6918456BBE02A9FBE9537894)|Updated all sections.  Added new section: at.js Implementation.|
+||Release 18.10.1 [Release Notes](../r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A)|This release includes enhancements and fixes. You can read about them and link to the documentation from the Release Notes. This release also includes many documentation updates throughout the help.|
 
 ## Adobe Target Standard/Premium 18.9.1 (September 26, 2018) {#section_F7E74227BB9D467E9ABC0797EDC2FE0D}
 
