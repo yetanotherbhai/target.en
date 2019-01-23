@@ -26,7 +26,7 @@ Be aware of the following important announcements:
 
 | Feature / Enhancement | Description |
 | --- | --- |
-|Profile scripts<br>January 17, 2019|For performance reasons, Target requires a return value that is no longer than 256 characters.<br>For a String return value, if the size of the return value exceeds 2048 characters, the script is disabled by the system.<br>For an array return value, if the size of the concatenated values of the array exceeds 2048 characters, the script is disabled by the system.<br>For more information about the character limits and other limits (offer size, audiences, profiles, values, parameters, etc.) that affect activities and other elements in Target, see [Limits](/help/r-troubleshooting-target/target-limits.md).|
+|Profile scripts<br>January 17, 2019|For performance reasons, Target requires a return value that is no longer than 256 characters.<br>For a String return value, if the size of the return value exceeds 2048 characters, the script is disabled by the system.<br>For an array return value, if the size of the concatenated values of the array exceeds 2048 characters, the script is disabled by the system.<br>For more information about the character limits and other limits (offer size, audiences, profiles, values, parameters, etc.) that affect activities and other elements in Target, see [Limits](../r-troubleshooting-target/target-limits.md).|
 |at.js<br>January 16, 2019|at.js 1.6.4 is a maintenance release and addresses the following issues:<ul><li>Fixed a race condition manifesting in Microsoft Internet Explorer 11 that caused duplicate offers to be applied. (TNT-31374)</li><li>Fixed an issue that affected click tracking when there is a default offer with a click-token and html offers. (TNT-31493)</li><li>Extended the mboxEdgeCluster cookie with each Target request. This is used only when mboxEdgeOverride is enabled. (TNT-31485)</li></ul>
 
 ## [!DNL Target] Standard/Premium 19.1.1 (January 22, 2019) {#section_6BBA8B1EE9D241C28E12856A375E97F6}
@@ -42,7 +42,7 @@ This release includes the following features, changes and enhancements:
 
 **Enhancement, fixes, and changes**
 
-* You are now instructed to re-authenticate when your session expires while reviewing a report. After you log in again, you are directed back to the report. (TGT-32723)
+* Fixed an issue that caused the Save button to remain disabled when the user logs in through the login pop dialog box on session expiry while editing an audience. (TGT-32722)
 
 ## Release Notes for Other Adobe Target Capabilities {#section_9EB425262A1947D18953F98CF3D4EE71}
 
