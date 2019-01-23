@@ -35,42 +35,12 @@ While [creating a promotion](../../c-recommendations/t-create-recs-activity/addi
 
 The following table lists the types of filtering options for both criteria and promotions:
 
-<table id="table_605D70D1824340279387637819AD1A05"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Type </th> 
-   <th colname="col2" class="entry"> Option </th> 
-   <th colname="col3" class="entry"> Available Operators </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p><b>Dynamic Filtering</b> </p> </td> 
-   <td colname="col2"> <p><b>Entity Attribute Matching:</b> Filter dynamically by comparing a pool of potential recommendations items to a specific item that the users has interacted with. </p> <p>For example, only recommend items that match the current item’s brand. </p> </td> 
-   <td colname="col3"> <p>equals </p> <p>does not equal </p> <p>is between </p> <p>contains </p> <p>does not contain </p> <p>starts with </p> <p>ends with </p> <p>value is present </p> <p>value is not present </p> <p>is greater than or equal to </p> <p>is less than or equal to </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> </td> 
-   <td colname="col2"> <p><b>Profile Attribute Matching:</b> Filter dynamically by comparing items (entities) against a value in the user's profile. </p> <p>For example, only recommend items that match the visitor’s favorite brand. </p> </td> 
-   <td colname="col3"> <p>equals </p> <p>does not equal </p> <p>contains </p> <p>does not contain </p> <p>starts with </p> <p>ends with </p> <p>is greater than or equal to </p> <p>is less than or equal to </p> <p>is between </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> </td> 
-   <td colname="col2"> <p><b>Parameter Matching:</b> Filter dynamically by comparing items (entities) against a value in the request (API or mbox). </p> <p>For example, only recommend content that matches the "industry" page parameter. </p> <p> <p>Important:  If the activity was created before October 31, 2016, its delivery will fail if it uses the "Parameter Matching" filter. To work around this problem: <p> 
-       <ul id="ul_0F41B82D21A940CC94A1155D19E890E0"> 
-        <li id="li_CBACB09973FB4A65949E34826B7FD72C">Create a new activity and add your criteria in it. </li> 
-        <li id="li_9FEF18BCB138488DAC8460764F9A143C">Use a criteria that does not contain the "Parameter Matching" filter. </li> 
-        <li id="li_7A20F76AD7C44A19BB9E1516D8663C50">Remove the "Parameter Matching" filter from your criteria. </li> 
-       </ul> </p> </p> </p> </td> 
-   <td colname="col3"> <p>equals </p> <p>does not equal </p> <p>contains </p> <p>does not contain </p> <p>starts with </p> <p>ends with </p> <p>is greater than or equal to </p> <p>is less than or equal to </p> <p>is between </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><b>Filter by Value</b> </p> </td> 
-   <td colname="col2"> <p><b>Static Filter:</b> Manually enter one or more static values to filter. </p> <p>For example, only recommend content with an MPAA rating of "G" or "PG." </p> </td> 
-   <td colname="col3"> <p>equals </p> <p>does not equal </p> <p>contains </p> <p>does not contain </p> <p>starts with </p> <p>ends with </p> <p>value is present </p> <p>value is not present </p> <p>is greater than or equal to </p> <p>is less than or equal to </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Type | Option | Available Operators |
+|--- |--- |--- |
+|**Dynamic Filtering**|**Entity Attribute Matching:** Filter dynamically by comparing a pool of potential recommendations items to a specific item that the users has interacted with.<br>For example, only recommend items that match the current item’s brand.|equals<br>does not equal<br>is between<br>contains<br>does not contain<br>starts with<br>ends with<br>value is present<br>value is not present<br>is greater than or equal to<br>is less than or equal to|
+||**Profile Attribute Matching:** Filter dynamically by comparing items (entities) against a value in the user's profile.<br>For example, only recommend items that match the visitor’s favorite brand.|equals<br> does not equal<br>contains<br>does not contain<br>tarts with<br>ends with<br>is greater than or equal to<br>is less than or equal to<br>is between|
+||**Parameter Matching:** Filter dynamically by comparing items (entities) against a value in the request (API or mbox).<br>For example, only recommend content that matches the "industry" page parameter.<br>**Important:** If the activity was created before October 31, 2016, its delivery will fail if it uses the "Parameter Matching" filter. To work around this problem:<ul><li>Create a new activity and add your criteria in it.</li><li>Use a criteria that does not contain the "Parameter Matching" filter.</li><li>Remove the "Parameter Matching" filter from your criteria.</li></ul>|equals<br>does not equal<br>contains<br>does not contain<br>starts with<br>ends with<br>is greater than or equal to<br>is less than or equal to<br>s between|
+|**Filter by Value**|**Static Filter:** Manually enter one or more static values to filter.<br>For example, only recommend content with an MPAA rating of "G" or "PG."|equals<br>does not equal<br>contains<br>does not contain<br>starts with<br>ends with<br>value is present<br>value is not present<br>is greater than or equal to<br>s less than or equal to|
 
 >[!NOTE]
 >
@@ -82,31 +52,25 @@ Dynamic criteria and promotions are much more powerful than static criteria and 
 
 **Equals:** Using the "equals" operator in dynamic promotions, when a visitor is viewing an item on your website (such as a product, article, or movie), you can promote other items from:
 
-<ul class="simplelist"> 
- <li> the same brand </li> 
- <li> the same category </li> 
- <li> the same category AND from the house brand </li> 
- <li> the same store </li> 
-</ul>
+* the same brand
+* the same category
+* the same category AND from the house brand
+* the same store
 
 **Does Not Equal:** Using the "does not equal" operator in dynamic promotions, when a visitor is viewing an item on your website (such as a product, article, or movie), you can promote other items from:
 
-<ul class="simplelist"> 
- <li> a different TV series </li> 
- <li> a different genre </li> 
- <li> a different product series </li> 
- <li> a different style ID </li> 
-</ul>
+* a different TV series
+* a different genre
+* a different product series
+* a different style ID
 
 **Is Between:** Using the "is between" operator in dynamic promotions, when a visitor is viewing an item on your website (such as a product, article, or movie), you can promote other items that are:
 
-<ul class="simplelist"> 
- <li> more expensive </li> 
- <li> less expensive </li> 
- <li> cost plus or minus 30% </li> 
- <li> later episodes in the same season </li> 
- <li> prior books in a series </li> 
-</ul>
+* more expensive
+* less expensive
+* cost plus or minus 30%
+* later episodes in the same season
+* prior books in a series
 
 ## Handling Empty Values when Filtering by Entity Attribute Matching, Profile Attribute Matching, and Parameter Matching {#section_7D30E04116DB47BEA6FF840A3424A4C8}
 
@@ -118,32 +82,11 @@ Previously, no results were returned if a value was empty. The "If *x* is Empty"
 
 To select the desired action, hover over the gear icon (![](assets/icon_gear.png)), then choose the desired action:
 
-<table id="table_DB442803C2654F18A62517E19B4E3974"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Action </th> 
-   <th colname="col02" class="entry"> Available For </th> 
-   <th colname="col2" class="entry"> Details </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Ignore this filtering rule </p> </td> 
-   <td colname="col02"> <p>Profile Attribute Matching </p> <p>Parameter Matching </p> </td> 
-   <td colname="col2"> <p>This is the default action for Profile Attribute Matching and Parameter Matching. </p> <p>This option specifies that the rule is ignored. For example, if there are three filtering rules and the third rule doesn't pass any values, instead of not returning any results, you can simply ignore the third rule with the empty values. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Do not show any results for this criteria </p> </td> 
-   <td colname="col02"> <p>Entity Attribute Matching </p> <p>Profile Attribute Matching </p> <p>Parameter Matching </p> </td> 
-   <td colname="col2"> <p>This is the default action for Entity Attribute Matching. </p> <p>This action is how Target handled empty values before the addition of this option: no results will be shown for this criteria. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Use a static value </p> </td> 
-   <td colname="col02"> <p>Entity Attribute Matching </p> <p>Profile Attribute Matching </p> <p>Parameter Matching </p> </td> 
-   <td colname="col2"> <p>If a value is empty, you can choose to use a static value. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Action | Available For | Details |
+|--- |--- |--- |
+|Ignore this filtering rule|Profile Attribute Matching<br>Parameter Matching|This is the default action for Profile Attribute Matching and Parameter Matching.<br>This option specifies that the rule is ignored. For example, if there are three filtering rules and the third rule doesn't pass any values, instead of not returning any results, you can simply ignore the third rule with the empty values.|
+|Do not show any results for this criteria|Entity Attribute Matching<br>Profile Attribute Matching<br>Parameter Matching|This is the default action for Entity Attribute Matching.<br>This action is how Target handled empty values before the addition of this option: no results will be shown for this criteria.|
+|Use a static value|Entity Attribute Matching<br>Profile Attribute Matching<br>Parameter Matching|If a value is empty, you can choose to use a static value.|
 
 As an example of handling empty values, consider [Scenario 9](../../c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#section_9873E2F22E094E479569D05AD5BB1D40) below:
 
@@ -201,45 +144,31 @@ Include only when `entity.featuredTeam` has one or more values that match `profi
 
 When considering the following examples, remember that at least one entire string value needs to match (completely). There is no match if none of the strings match. Note the de-coupling of the entity attributes in the matching rules. This allows for matching between different metadata fields.
 
-<table id="table_E5EB0F6494804183B358E5F17D0B4BCC"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Examples/Descriptions </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> 
-    <codeblock>
-      "entity.featuredTeam"&amp;nbsp;-&amp;nbsp;"Athletics,Red&amp;nbsp;Sox"&amp;nbsp;equals&amp;nbsp;"profile.favoriteTeams"&amp;nbsp;-&amp;nbsp;"Athletics" 
-    </codeblock> <p>Considered a match because "Athletics" equals, even though "Red Sox" does not. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 
-    <codeblock>
-      "entity.featuredTeam"&amp;nbsp;-&amp;nbsp;"Athletics,Red&amp;nbsp;Sox"&amp;nbsp;equals&amp;nbsp;"profile.favoriteTeams"&amp;nbsp;-&amp;nbsp;"Athletics,Red&amp;nbsp;Sox" 
-    </codeblock> <p>Considered a match because both "Athletics" and "Red Sox" equals, although it is not necessary for both teams to match. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 
-    <codeblock>
-      "entity.featuredTeam"&amp;nbsp;-&amp;nbsp;"Athletics"&amp;nbsp;equals&amp;nbsp;"profile.favoriteTeams"&amp;nbsp;-&amp;nbsp;"Athletics,Red&amp;nbsp;Sox" 
-    </codeblock> <p>Considered a match because "Athletics" equals, even though "Red Sox" does not. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 
-    <codeblock>
-      "entity.featuredTeam"&amp;nbsp;-&amp;nbsp;"Athletics"&amp;nbsp;equals&amp;nbsp;"profile.favoriteTeams"&amp;nbsp;-&amp;nbsp;"Athletic" 
-    </codeblock> <p>Does not match because "Athletics" (plural) does not equal "Athletic" (singular). </p> <p>Alternatively, you could use "contains" instead of "equals" to make this a match. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 
-    <codeblock>
-      "entity.featuredTeam"&amp;nbsp;-&amp;nbsp;"Athletic"&amp;nbsp;equals&amp;nbsp;"profile.favoriteTeams"&amp;nbsp;-&amp;nbsp;"Athletics" 
-    </codeblock> <p>Does not match because "Athletic" (singular) does not equal "Athletics" (plural). </p> <p>Alternatively, you could use "starts with" instead of "equals" to make this a match. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+Examples/Descriptions
+
+`"entity.featuredTeam" - "Athletics,Red Sox" equals "profile.favoriteTeams" - "Athletics"`
+
+Considered a match because "Athletics" equals, even though "Red Sox" does not.
+
+`"entity.featuredTeam" - "Athletics,Red Sox" equals "profile.favoriteTeams" - "Athletics,Red Sox"`
+
+Considered a match because both "Athletics" and "Red Sox" equals, although it is not necessary for both teams to match.
+
+`"entity.featuredTeam" - "Athletics" equals "profile.favoriteTeams" - "Athletics,Red Sox"`
+
+Considered a match because "Athletics" equals, even though "Red Sox" does not.
+
+`"entity.featuredTeam" - "Athletics" equals "profile.favoriteTeams" - "Athletic"`
+
+Does not match because "Athletics" (plural) does not equal "Athletic" (singular).
+
+Alternatively, you could use "contains" instead of "equals" to make this a match.
+
+`"entity.featuredTeam" - "Athletic" equals "profile.favoriteTeams" - "Athletics"`
+
+Does not match because "Athletic" (singular) does not equal "Athletics" (plural).
+
+Alternatively, you could use "starts with" instead of "equals" to make this a match.
 
 **Scenario 4:** The following illustration demonstrates how to use the "equals" and "is between" operators to promote more expensive items that are from the same category and the same brand. For example, a sporting apparel company can promote more expensive running shoes in an effort to up-sell a visitor looking at running shorts.
 
@@ -331,30 +260,9 @@ The content team for a sport's media site wants to show content to users for the
 
 The following table shows effective rules and rules that might not be compatible during runtime:
 
-<table id="table_CDDDC41C55EA4D23A910CC0747F31435"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Compatible Rules </th> 
-   <th colname="col2" class="entry"> Potential Incompatible Rules </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p> <span class="codeph"> value - is between - 90% and 110% of current item's - salesValue </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> salesValue - is between - 90% and 110% of current item's - value </span> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <span class="codeph"> value - is between - 90% and 110% of current item's - value </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> clearancePrice - is between - 90% and 110% of current item's - margin </span> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin - is between - 90% and 110% of current item's - margin </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> storeInventory - equals - current item's - inventory </span> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <span class="codeph"> inventory - equals - current item's - inventory </span> </p> </td> 
-   <td colname="col2"> </td> 
-  </tr> 
- </tbody> 
-</table>
-
+| Compatible Rules | Potential Incompatible Rules |
+|--- |--- |
+|value - is between - 90% and 110% of current item's - salesValue|salesValue - is between - 90% and 110% of current item's - value|
+|value - is between - 90% and 110% of current item's - value|clearancePrice - is between - 90% and 110% of current item's - margin|
+|margin - is between - 90% and 110% of current item's - margin|storeInventory - equals - current item's - inventory|
+|inventory - equals - current item's - inventory||
