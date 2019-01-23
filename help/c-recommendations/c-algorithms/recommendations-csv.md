@@ -80,38 +80,11 @@ The flow for an error-free upload should be Scheduled > Downloading Feed File > 
 
 The following are possible error messages you might receive if Target encounters a problem with the upload:
 
-<table id="table_183BD638E0F2465A836671ABDED77FC3"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Error Message </th> 
-   <th colname="col2" class="entry"> Details </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Unknown Error </p> </td> 
-   <td colname="col2"> <p>Indicates an internal technical error. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Parsing Error </p> </td> 
-   <td colname="col2"> <p>There is likely an issue with the feed file format. Correct the file format and re-save the algorithm, which will re-start the file download process. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Server Not Found </p> </td> 
-   <td colname="col2"> <p>Provide an IP or Host Name that is visible on the internet. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Credentials Error </p> </td> 
-   <td colname="col2"> <p>Provide a valid user and password for an active account on the server. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Directory Not Found </p> </td> 
-   <td colname="col2"> <p>Provide a directory that exists on the server. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>File Not Found </p> </td> 
-   <td colname="col2"> <p> Provide the name of a file that exists on the server in the directory indicated. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
+| Error Message | Details |
+|--- |--- |
+|Unknown Error|Indicates an internal technical error.|
+|Parsing Error|There is likely an issue with the feed file format. Correct the file format and re-save the algorithm, which will re-start the file download process.|
+|Server Not Found|Provide an IP or Host Name that is visible on the internet.|
+|Credentials Error|Provide a valid user and password for an active account on the server.|
+|Directory Not Found|Provide a directory that exists on the server.|
+|File Not Found|Provide the name of a file that exists on the server in the directory indicated.|

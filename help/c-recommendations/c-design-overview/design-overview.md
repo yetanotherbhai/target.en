@@ -84,36 +84,16 @@ The following example shows how to JSON responses can be returned when configuri
 
    where
 
-<table id="table_74D9504F935C46C7A2E36FA912C96AE7"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Parameter </th> 
-   <th colname="col2" class="entry"> Value </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> [YOUR_CLIENT_CODE] </td> 
-   <td colname="col2"> <p>Target Client code (available on <span class="filepath"> ../target/products.html#recsSettings </span> &gt; Recommendation API Token &gt; Client Code. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> [YOUR_MBOX_NAME] </td> 
-   <td colname="col2"> <p> The name you've selected in the "locations" section of the form-based Recommendations, in this case YOUR_CLIENT_CODE. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> [ENTITY_ID] </td> 
-   <td colname="col2"> <p>The <span class="codeph"> entity.id </span>of an item in your catalog. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> [AT_PROPERTY_TOKEN] </td> 
-   <td colname="col2"> <p>(Optional) Add if you've selected a Property (part of Enterprise Permissions) during your activity setup. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Parameter | Value |
+|--- |--- |
+|[YOUR_CLIENT_CODE]|Target Client code (available on  ../target/products.html#recsSettings  > Recommendation API Token > Client Code.|
+|[YOUR_MBOX_NAME]|The name you've selected in the "locations" section of the form-based Recommendations, in this case YOUR_CLIENT_CODE.|
+|[ENTITY_ID]|The `entity.id` of an item in your catalog.|
+|[AT_PROPERTY_TOKEN]|(Optional) Add if you've selected a Property (part of Enterprise Permissions) during your activity setup.|
 
-   After your algorithm has run, and you have results, your response should look something like this:
+After your algorithm has run, and you have results, your response should look something like this:
 
-   ![](assets/json_recommendation.png){width="575px"}
+![](assets/json_recommendation.png){width="575px"}
 
 ## Additional JSON Object Tips and Tricks {#section_C305673C68944749969DB239E3221DC2}
 
