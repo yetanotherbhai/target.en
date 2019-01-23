@@ -25,26 +25,26 @@ This page lists important changes made to the Target documentation.
 
 | Date | Topic | Changes |
 |--- |--- |--- |
-|January 16, 2019|[Target Release Notes (current)](/help/r-release-notes/release-notes.md), [Target Release Notes (prerelease)](/help/r-release-notes/target-release-notes.md), and [at.js version details](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)|Added information about at.js version 1.6.4.|
-|January 10, 2019|[Target Release Notes (current)](/help/r-release-notes/release-notes.md), [Target Release Notes (prerelease)](/help/r-release-notes/target-release-notes.md), and [TLS (Transport Layer Security) encryption changes](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md)|Added the date when Target will completely phase out support for TLS 1.0 encryption: February 20, 2019.|
+|January 16, 2019|[Target Release Notes (current)](/help/r-release-notes/release-notes.md)<br>[Target Release Notes (prerelease)](/help/r-release-notes/target-release-notes.md)<br>[at.js version details](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)|Added information about at.js version 1.6.4.|
+|January 10, 2019|[Target Release Notes (current)](/help/r-release-notes/release-notes.md)<br>[Target Release Notes (prerelease)](/help/r-release-notes/target-release-notes.md)<br>[TLS (Transport Layer Security) encryption changes](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md)|Added the date when Target will completely phase out support for TLS 1.0 encryption: February 20, 2019.|
 |January 9, 2019|[Visual Experience Composer Options](/help/c-experiences/c-visual-experience-composer/viztarget-options.md)|Added information regarding Recommendations to Insert Before, Insert After, and Replace With rows.|
-|[Target Release Notes (current)](/help/r-release-notes/release-notes.md), [Target Release Notes (prerelease)](/help/r-release-notes/target-release-notes.md), and [Supported Browsers](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md)|Added information about Target and the Adobe Marketing Cloud dropping support for Microsoft Internet Explorer 11 starting in March 2019.|
-|[Target Release Notes (prerelease)](/help/r-release-notes/target-release-notes.md)|Added information for Target 19.1.1 and at.js 1.6.4 releases.|
-|[at.js version details](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)|Added information for at.js 1.6.4 release.|
-|[Minimizing inlated visit and visitor counts in A4T](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md)|Removed note stating that after November 14, 2016, customers will no longer be able to create A4T activities with redirect offers.|
-|[Redirect offers - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md)|Added note under "Why are page views on the original page and on the redirect page sometimes counted?"|
+||[Target Release Notes (current)](/help/r-release-notes/release-notes.md)<br>[Target Release Notes (prerelease)](/help/r-release-notes/target-release-notes.md)<br>[Supported Browsers](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md)|Added information about Target and the Adobe Marketing Cloud dropping support for Microsoft Internet Explorer 11 starting in March 2019.|
+||[Target Release Notes (prerelease)](/help/r-release-notes/target-release-notes.md)|Added information for Target 19.1.1 and at.js 1.6.4 releases.|
+||[at.js version details](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)|Added information for at.js 1.6.4 release.|
+||[Minimizing inlated visit and visitor counts in A4T](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md)|Removed note stating that after November 14, 2016, customers will no longer be able to create A4T activities with redirect offers.|
+||[Redirect offers - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md)|Added note under "Why are page views on the original page and on the redirect page sometimes counted?"|
 |December 20, 2018|[Server Side implement Target](../c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)|Added note about CORS.|
 |December 14, 2018|[Implement Target using Adobe Launch](../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)|Added link to a new training video: Implementing Target with the Adobe Launch Tutorial.|
-|[Personalization Insights reports](../c-reports/c-personalization-insights-reports/personalization-insights-reports.md)|Added link to training video.|
+||[Personalization Insights reports](../c-reports/c-personalization-insights-reports/personalization-insights-reports.md)|Added link to training video.|
 |December 13, 2018|[Form-based Experience Composer](../c-experiences/form-experience-composer.md)|Updated text and image.|
-|[Known issues and resolved issues](known-issues-resolved-issues.md)|Added known issue that the Recommendations feed index can show "Waiting for index" if the items in the feed are the same as in the previous run.|
+||[Known issues and resolved issues](known-issues-resolved-issues.md)|Added known issue that the Recommendations feed index can show "Waiting for index" if the items in the feed are the same as in the previous run.|
 ||[Select audience](../c-activities/t-test-ab/t-test-create-ab/ab-audience.md)|Updated images.|
-|[Add experience](../c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md)|Updated image.|
-|[Create an A/B Test](../c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)|Updated images.|
-|[Test summary](../c-activities/c-multivariate-testing/t-create-multivariate-test/test-summary.md)|Updated image.|
-|[Preview experiences for a Multivariate Test](../c-activities/c-multivariate-testing/t-create-multivariate-test/preview-experiences.md)|Updated image.|
-|[Create combinations](../c-activities/c-multivariate-testing/t-create-multivariate-test/add-offers.md)|Updated text and images.|
-|[Create a Multivariate Test](../c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test.md)|Updated text and images.|
+||[Add experience](../c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md)|Updated image.|
+||[Create an A/B Test](../c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)|Updated images.|
+||[Test summary](../c-activities/c-multivariate-testing/t-create-multivariate-test/test-summary.md)|Updated image.|
+||[Preview experiences for a Multivariate Test](../c-activities/c-multivariate-testing/t-create-multivariate-test/preview-experiences.md)|Updated image.|
+||[Create combinations](../c-activities/c-multivariate-testing/t-create-multivariate-test/add-offers.md)|Updated text and images.|
+||[Create a Multivariate Test](../c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test.md)|Updated text and images.|
 |December 11, 2018|[ targetGlobalSettings](../c-implementing-target/c-implementing-target-for-client-side-web/cmp-at.js-functions.md)|Added that the default value for overrideMboxEdgeServer is "true" beginning with at.js version 1.6.2.|
 |December 7, 2018|[ Known Issues and Resolved Issues ](known-issues-resolved-issues.md)|Moved the following from the Known Issues table to the Resolved Issues table: <ul><li>at.js: Mboxes not firing on Microsoft Explorer 11 browsers after upgrading to at.js version 1.0 due to the interaction between at.js and Visitor API 2.2.0.</li><li>Geo targeting: Searching for a string that contains special characters (such as a space or a comma) is currently not working when creating geo-targeting audiences.</li></ul>|
 |December 5, 2018|[ Personalization Insights reports ](../c-reports/c-personalization-insights-reports/personalization-insights-reports.md)|Added note that the Personalization Insights reports are available in the default environment only.|
