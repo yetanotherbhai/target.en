@@ -70,57 +70,20 @@ For more information and step-by-step instructions, see:
 
 To properly add Target Views for Android, here's a simple table that outlines the correct locations to put the `targetView` calls:
 
-<table id="table_00F3FC8661354120AFA778054DD06964"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Acceptable TargetView Location </th> 
-   <th colname="col2" class="entry"> Under the Correct Additions </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>At the end of <span class="codeph"> Activity::onStart</span>, <span class="codeph"> Activity::onResume</span> </p> </td> 
-   <td colname="col2"> <p>It is up to the developer whether to consider <span class="codeph"> OnStart</span> and <span class="codeph"> OnResume</span> to be the same or different <span class="codeph"> targetViews</span>. If the same, use the same <span class="codeph"> viewName</span>. If different, use different <span class="codeph"> viewNames</span>. These events are automatically added by the SDK. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Immediately after an <span class="codeph"> Activity::SetContent</span> call </p> </td> 
-   <td colname="col2"> <p>If the UI doesn't change, we can insert a <span class="codeph"> targetView</span> call. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Inside of <span class="codeph"> View::willAppear</span> </p> </td> 
-   <td colname="col2"> <p>If the selected view that appears in uniquely in one specific view hierarchy. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Immediately after an <span class="codeph"> Activity::SetContentView</span> call </p> </td> 
-   <td colname="col2"> <p>If the activity doesn't change/amend any of its content in the following code. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Acceptable TargetView Location | Under the Correct Additions |
+|--- |--- |
+|At the end of `Activity::onStart`, `Activity::onResume`|It is up to the developer whether to consider `OnStart` and `OnResume` to be the same or different `targetViews`. If the same, use the same `viewName`. If different, use different `viewNames`. These events are automatically added by the SDK.|
+|Immediately after an `Activity::SetContent` call|If the UI doesn't change, we can insert a  `targetView` call.|
+|Inside of `View::willAppear`|If the selected view that appears in uniquely in one specific view hierarchy.|
+|Immediately after an `Activity::SetContentView` call|If the activity doesn't change/amend any of its content in the following code.|
 
 For Android, here's a table for incorrect locations to put the `targetView` calls:
 
-<table id="table_CB4A3E940F034A728D783CBE356F9C9F"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Unacceptable TargetView Location </th> 
-   <th colname="col2" class="entry"> Reason </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Within <span class="codeph"> Activity::onCreate</span> </p> </td> 
-   <td colname="col2"> <p>The activity has been created, but the view associated with activity is not guaranteed to be complete, and/or attached to the window. This placement might lead to the authoring screen being not sampled or incompletely sampled, and/or the offers being applied in a non-deterministic manner. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Inside of <span class="codeph"> View::didAppear</span> </p> </td> 
-   <td colname="col2"> <p>The view has already appeared and the application of the offer will create a poor UI experience with flicker. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Inside of <span class="codeph"> View::didLoad</span> </p> </td> 
-   <td colname="col2"> <p>The view is not attached to the main view hierarchy, and might be instantiated, but are not guaranteed to be shown on the app UI. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Unacceptable TargetView Location | Reason |
+|--- |--- |
+|Within `Activity::onCreate`|The activity has been created, but the view associated with activity is not guaranteed to be complete, and/or attached to the window. This placement might lead to the authoring screen being not sampled or incompletely sampled, and/or the offers being applied in a non-deterministic manner.|
+|Inside of `View::didAppear`|The view has already appeared and the application of the offer will create a poor UI experience with flicker.|
+|Inside of `View::didLoad`|The view is not attached to the main view hierarchy, and might be instantiated, but are not guaranteed to be shown on the app UI.|
 
 ## Using the Visual Experience Composer for Native Mobile Apps {#section_A9FC975468E74FA8AC7CF2B1EFE1B59B}
 
@@ -128,28 +91,11 @@ The following illustration represents the process of using the Mobile VEC:
 
 ![](assets/mobile-vec-diagram.png)
 
-<table id="table_3FD0CC55DC8040AAA7B60D7171C69D44"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Process </th> 
-   <th colname="col2" class="entry"> Details </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Paring </p> </td> 
-   <td colname="col2"> <p>Securely authorize your mobile app and device to work with Target. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Authoring </p> </td> 
-   <td colname="col2"> <p>Author a <a href="../../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03" format="dita" scope="local"> Target activity</a>, with real-time preview of actions performed in the Target UI. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Delivery </p> </td> 
-   <td colname="col2"> <p>Target automatically delivers activities in your native mobile app. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Process | Details |
+|--- |--- |
+|Paring|Securely authorize your mobile app and device to work with Target.|
+|Authoring|Author a [Target activity](/help/c-activities/activities.md), with real-time preview of actions performed in the Target UI.|
+|Delivery|Target automatically delivers activities in your native mobile app.|
 
 **Pairing:**
 
@@ -184,24 +130,10 @@ The pairing process contains the following steps:
 
 After the app is connected and a real-time view of the app appears in the VEC, you can start authoring your activity. At this time the following actions are supported:
 
-<table id="table_25BFAA713B664E5DADF0693A50CEBB34"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Action </th> 
-   <th colname="col2" class="entry"> Details </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Swap Image </p> </td> 
-   <td colname="col2"> <p>Replace an image in the app with an alternate image. These images will be served via <a href="../../administrating-target/scene7-settings.md#task_37AD0768EFBA4E588955FE3D5DD670A5" format="dita" scope="local"> Adobe Scene7</a>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Change Text </p> </td> 
-   <td colname="col2"> <p>Change the text content, color, and font-size in a Text element. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Action | Details |
+|--- |--- |
+|Swap Image|Replace an image in the app with an alternate image. These images will be served via [Adobe Scene7](/help/administrating-target/scene7-settings.md).|
+|Change Text|Change the text content, color, and font-size in a Text element.|
 
 Actions performed in the VEC are visible in real-time in the app, thereby allowing for a real-time preview capability during authoring. Actions are associated with relevant Mobile Screens or Views and are associated appropriately.
 
