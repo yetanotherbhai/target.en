@@ -23,14 +23,16 @@ These release notes provide information about features, enhancements, fixes, and
 
 Be aware of the following important announcements:
 
+* We’re looking for the best experience makers. Which means we’re looking for you. The person behind those experiences. The brains. The rock star. The experience maker who worked hard to make something magical happen. Enter your work so we can showcase our amazing customers and partners who've created the world's best experiences. We'll showcase your work at both our North America and EMEA Summit events. For more information, see [2019 Adobe Experience Maker Awards](https://www.adobeexperienceawards.com/). The submission deadline is February 14, 2019.
 * [!DNL Target] and the [!DNL Adobe Marketing Cloud] will drop support for Microsoft Internet Explorer 11 starting in March 2019. This change affects [!DNL Target] authoring only; this change does not affect experience delivery. Please switch to Microsoft Edge or another browser. For more information, see [Supported browsers](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md).
-* Starting with the [!DNL Target] 18.4.1 release (April 25, 2018), [!DNL Target] had taken steps to move towards TLS 1.2 encryption. The final date to completely phase out support for TLS 1.0 encryption is **February 20, 2019**. With this change, [!DNL Adobe] will no longer collect data from end users with older devices or web browsers that do not support TLS 1.1 or later. We do not expect this to have a significant impact to customer data or reporting. Migrating to TLS 1.2 provides improved security. It is important that you go through the specifics and plan out the changes for a smooth transition. For more information, see [TLS (Transport Layer Security) Encryption Changes](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md).
+* Starting with the [!DNL Target] 18.4.1 release (April 25, 2018), [!DNL Target] had taken steps to move towards TLS 1.2 encryption. The final date to completely phase out support for TLS 1.0 encryption is **February 20, 2019**. With this change, [!DNL Adobe] will no longer collect data from end users with older devices or web browsers that do not support TLS 1.1 or later. We do not expect this to have a significant impact to customer data or reporting. Migrating to TLS 1.2 provides improved security. It is important that you go through the specifics and plan out the changes for a smooth transition. For more information, see [TLS (Transport Layer Security) Encryption Changes](../c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md).
 
-## [!DNL at.js] version 1.6.4 (January 11, 2019)
+## Platform Changes (January 16 and 17, 2019)
 
-[!DNL at.js] 1.6.4 is a maintenance release and addresses the following issue:
-
-* Fixed a race condition manifesting in Microsoft Internet Explorer 11 that caused duplicate offers to be applied.
+| Feature / Enhancement | Description |
+| --- | --- |
+|Profile scripts<br>January 17, 2019|For performance reasons, Target requires a return value that is no longer than 256 characters.<br>For a String return value, if the size of the return value exceeds 2048 characters, the script is disabled by the system.<br>For an array return value, if the size of the concatenated values of the array exceeds 2048 characters, the script is disabled by the system.<br>For more information about the character limits and other limits (offer size, audiences, profiles, values, parameters, etc.) that affect activities and other elements in Target, see see [Limits](../r-troubleshooting-target/target-limits.md).|
+|at.js<br>January 16, 2019|at.js 1.6.4 is a maintenance release and addresses the following issues:<ul><li>Fixed a race condition manifesting in Microsoft Internet Explorer 11 that caused duplicate offers to be applied. (TNT-31374)</li><li>Fixed an issue that affected click tracking when there is a default offer with a click-token and html offers. (TNT-31493)</li><li>Extended the mboxEdgeCluster cookie with each Target request. This is used only when mboxEdgeOverride is enabled. (TNT-31485)</li></ul>|
 
 ## [!DNL Target] Standard/Premium 19.1.1 (January 22, 2019)
 
@@ -45,7 +47,7 @@ This release includes the following features, changes and enhancements:
 
 **Enhancement, fixes, and changes**
 
-* You are now instructed to re-authenticate when your session expires while reviewing a report. After you log in again, you are directed back to the report. (TGT-32723)
+* Fixed an issue that caused the Save button to remain disabled when the user logs in through the login pop dialog box on session expiry while editing an audience. (TGT-32722)
 
 ## Product documentation for [!DNL Target] capabilities {#section_F03C61D438814538967B2BF901130BE4}
 
