@@ -256,18 +256,7 @@ When the Status says "Success," it means that the file was found and it parsed c
 
 Information about the possible feed statuses and their indicators. 
 
-<!-- 
-
-recs/c_feed-statuses-and-indicators.xml
-
- -->
-
-This section contains the following information: 
-
-* [Feed Statuses](../../c-recommendations/c-products/feeds.md#section_5DDC2DECF70A42FDAFF2235E91371537) 
-* [Feed Status Indicators](../../c-recommendations/c-products/feeds.md#section_3C8A236C5CB84C769A9E9E36B8BFABA4) 
-
-## Feed Statuses {#section_5DDC2DECF70A42FDAFF2235E91371537}
+### Feed Statuses {#section_5DDC2DECF70A42FDAFF2235E91371537}
 
 The following are possible statuses for a feed: 
 
@@ -291,7 +280,7 @@ To update a feed (for example, to make changes to your feed configuration or fee
 >
 >Uploaded feeds expire after 61 days. This means that recommendations will no longer be returned if a feed file has not been processed in the last 60 days. 
 
-## Feed Status Indicators {#section_3C8A236C5CB84C769A9E9E36B8BFABA4}
+### Feed Status Indicators {#section_3C8A236C5CB84C769A9E9E36B8BFABA4}
 
 The following feed status indicators display in the [!UICONTROL Status] column: 
 
