@@ -17,47 +17,15 @@ If you have a compelling need for an integration that is not supported or mentio
 
 ## Supported Integrations {#section_3B44A970D3FB42D1973701452C868B55}
 
-<table id="table_3C9C2D0A88004D5D9708347B85DE5A7E"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Integration </th> 
-   <th colname="col2" class="entry"> Details </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Analytics for Target (A4T) </p> </td> 
-   <td colname="col2"> <p>See <a href="../../../c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE" format="dita" scope="local"> Adobe Analytics as the Reporting Source for Adobe Target (A4T)</a>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Profiles &amp; Audiences (P&amp;A) </p> </td> 
-   <td colname="col2"> <p>See <a href="https://marketing.adobe.com/resources/help/en_US/mcloud/audience_library.html" format="html" scope="external"> Audiences</a> in the Adobe Experience Cloud and Core Services Help. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Experience Cloud ID Service </p> </td> 
-   <td colname="col2"> <p>See the <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/" format="https" scope="external"> Adobe Experience Cloud ID Service documentation</a>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Adobe Launch </p> </td> 
-   <td colname="col2"> <p>Launch is the next-generation tag management platform from Adobe and is the preferred method to implement Adobe Target. Launch gives customers a simple way to deploy and manage all of the analytics, marketing, and advertising tags necessary to power relevant customer experiences. </p> <p>See <a href="../../../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25" format="dita" scope="local"> Implementing Target using Adobe Launch</a>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Dynamic Tag Management (DTM) </p> </td> 
-   <td colname="col2"> <p>See the <a href="https://marketing.adobe.com/resources/help/en_US/target/ov2/implementing-target-using-dynamic-tag-management.html" format="html" scope="external"> Implementing Target Using Dynamic Tag Management guide</a>. </p> <p> <p>Important: <a href="../../../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25" format="dita" scope="local"> Adobe Launch</a> is the preferred, up-to-date method for implementing Target and the at.js library. For new Target implementations, use Launch. The following guide is for existing clients using a DTM implementation. </p> </p> <p>Consider the following when using a DTM integration: </p> <p> 
-     <ul id="ul_8B7BF60E14554C7B863E434180D409C7"> 
-      <li id="li_EF8BC216C6A04FAA8E214ADC59CC7724">Library Management: Use the "Custom" hosting option to use at.js. <p>"Automatic" management is not currently supported. </p> </li> 
-     </ul> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Adobe Experience Manager (AEM) Cloud Service </p> </td> 
-   <td colname="col2"> <p>The AEM Cloud Service enables the creation of A/B tests and Experience Targeting activities within the AEM workflow. Supports at.js with Adobe Experience Manager 6.2 with FP-11577 (or later) . For more information, see <a href="https://helpx.adobe.com/experience-manager/6-2/sites/administering/using/target.html" format="html" scope="external"> Integrating with Adobe Target</a> and select your AEM version. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>AEM Experience Fragments </p> </td> 
-   <td colname="col2"> <p>Experience fragments created in AEM in Target activities let you combine the ease-of-use and power of AEM with powerful Automated Intelligence (AI) and Machine Learning (ML) capabilities in Target to test and personalize experiences at scale. </p> <p>AEM brings together all of your content and assets in a central location to fuel your personalization strategy. AEM lets you easily create content for desktops, tablets, and mobile devices in one location without writing code. There’s no need to create pages for every device—AEM automatically adjusts each experience using your content. </p> <p>See <a href="../../../c-experiences/c-manage-content/aem-experience-fragments.md#topic_1E1E4EA01F074349B2CF8785387B5FE8" format="dita" scope="local"> AEM experience fragments</a>. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Integration | Details |
+|--- |--- |
+|Analytics for Target (A4T)|See [Adobe Analytics as the Reporting Source for Adobe Target (A4T)](../../../c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE).|
+|Profiles & Audiences (P&A)|See [Audiences](https://marketing.adobe.com/resources/help/en_US/mcloud/audience_library.html) in the Adobe Experience Cloud and Core Services Help.|
+|Experience Cloud ID Service|See the [Adobe Experience Cloud ID Service documentation](https://marketing.adobe.com/resources/help/en_US/mcvid/).|
+|Adobe Launch|Launch is the next-generation tag management platform from Adobe and is the preferred method to implement Adobe Target. Launch gives customers a simple way to deploy and manage all of the analytics, marketing, and advertising tags necessary to power relevant customer experiences.  See [Implementing Target using Adobe Launch](../../../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25).|
+|Dynamic Tag Management (DTM)|See the [Implementing Target Using Dynamic Tag Management guide](https://marketing.adobe.com/resources/help/en_US/target/ov2/implementing-target-using-dynamic-tag-management.html).   Important: [Adobe Launch](../../../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25) is the preferred, up-to-date method for implementing Target and the at.js library. For new Target implementations, use Launch. The following guide is for existing clients using a DTM implementation.   Consider the following when using a DTM integration: <ul><li>Library Management: Use the "Custom" hosting option to use at.js. "Automatic" management is not currently supported. </li></ul>|
+|Adobe Experience Manager (AEM) Cloud Service|The AEM Cloud Service enables the creation of A/B tests and Experience Targeting activities within the AEM workflow. Supports at.js with Adobe Experience Manager 6.2 with FP-11577 (or later) . For more information, see [Integrating with Adobe Target](https://helpx.adobe.com/experience-manager/6-2/sites/administering/using/target.html) and select your AEM version.|
+|AEM Experience Fragments|Experience fragments created in AEM in Target activities let you combine the ease-of-use and power of AEM with powerful Automated Intelligence (AI) and Machine Learning (ML) capabilities in Target to test and personalize experiences at scale.  AEM brings together all of your content and assets in a central location to fuel your personalization strategy. AEM lets you easily create content for desktops, tablets, and mobile devices in one location without writing code. There’s no need to create pages for every device—AEM automatically adjusts each experience using your content.  See [AEM experience fragments](../../../c-experiences/c-manage-content/aem-experience-fragments.md#topic_1E1E4EA01F074349B2CF8785387B5FE8).|
 
 ## Unsupported Integrations {#section_8EFCAED418DC42E0B07F95924819EAC2}
 
