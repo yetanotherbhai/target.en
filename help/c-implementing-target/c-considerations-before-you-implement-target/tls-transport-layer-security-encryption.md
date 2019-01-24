@@ -102,4 +102,4 @@ This section describes what to expect with browsers that support TLS 1.0 only wh
 | Target JavaScript Implementation | Details |
 |--- |--- |
 |at.js|at.js is not supported on Internet Explorer versions earlier than version 10.|
-|mbox.js|With TLS 1.0 enabled:<ul><li>Default content is served.</li></ul>No Target requests are fired.</li></ul>No console error is displayed.</li></ul>Using browser dev tools, on the Network tab, you'll see "200 OK." This means the request has succeeded.</li></ul>With TLS 1.1 or 1.2 enabled:<ul><li>Offer content is served.</li></ul>|
+|mbox.js|With TLS 1.0 enabled:<ul><li>Default content is served.</li><li>No Target requests are fired.</li><li>No console error is displayed.</li><li>Using browser dev tools, on the Network tab, you'll see "200 OK." This means the request has succeeded.</li></ul>With TLS 1.1 or 1.2 enabled:<ul><li>Offer content is served.</li></ul>|
