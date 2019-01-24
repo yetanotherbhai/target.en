@@ -238,7 +238,7 @@ A sample Target access API response could look like this:
 |--- |--- |
 |jobId|Indicates the GDPR job ID from the Central GDPR API.|
 |imsOrgID|Provides a unique identifier for your company.|
-|namespace|Also referred to as data source. See "What IDs are supported to help customers complete a GDPR access and deletion request for Target?" in this topic.
+|namespace|Also referred to as data source. See "What IDs are supported to help customers complete a GDPR access and deletion request for Target?" in this topic.|
 |type|The type of ID for which you requested the GDPR data access. Target accepts several ID types, some of which are standard and some of which are Target-specific. See "What IDs are supported to help customers complete a GDPR access and deletion request for Target?" in this topic.|
 |value|The ID of the namespace/data source. See "What IDs are supported to help customers complete a GDPR access and deletion request for Target?" for accepted values.|
 |integration code|Integration codes are friendly names for your data sources and help you track your data sources easier than using data source IDs.|
