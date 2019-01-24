@@ -75,58 +75,12 @@ Activity QA lets you fully test your Target activities prior to launching them l
 
   The following table lists the parameters that can be whitelisted in your domain:
 
-<table id="table_928DBBEE9362444F8FB50FC0402E0BD3"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Parameter </th> 
-   <th colname="col2" class="entry"> Type </th> 
-   <th colname="col3" class="entry"> Value </th> 
-   <th colname="col4" class="entry"> Description </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>at_preview_token </p> </td> 
-   <td colname="col2"> <p>Encrypted string </p> </td> 
-   <td colname="col3"> <p>Mandatory; no default value </p> </td> 
-   <td colname="col4"> <p>An encrypted entity that contains the list of campaigns IDs that are allowed to be executed in QA mode. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>at_preview_index </p> </td> 
-   <td colname="col2"> <p>String </p> </td> 
-   <td colname="col3"> <p>Empty </p> </td> 
-   <td colname="col4"> <p>Format of the parameter is &lt; <span class="codeph"> campaignIndex </span>&gt; or &lt; <span class="codeph"> campaignIndex </span>&gt;_&lt; <span class="codeph"> experienceIndex </span>&gt; </p> <p>Both indexes start with 1. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>t_preview_listed_activities_only </p> </td> 
-   <td colname="col2"> <p>Boolean (true/false) </p> </td> 
-   <td colname="col3"> <p>Default value: false </p> </td> 
-   <td colname="col4"> <p> If "true," all campaigns specified in the <span class="codeph"> at_preview_index </span> parameters are processed. </p> <p>If "false," all the campaigns from the page are processed, even if they were not specified in the preview token. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>at_preview_evaluate_as_true_audience_ids </p> </td> 
-   <td colname="col2"> <p>String </p> </td> 
-   <td colname="col3"> <p>Empty </p> </td> 
-   <td colname="col4"> <p>Underscore-separated ("_") list of segmentId-s that should always (at targetting and reporting level) be evaluated as "true" in the scope of the mbox request. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>_AT_Debug </p> </td> 
-   <td colname="col2"> <p>String </p> </td> 
-   <td colname="col3"> <p>Window or console </p> </td> 
-   <td colname="col4"> <p>Console logging or new window. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>adobe_mc_ref </p> </td> 
-   <td colname="col2"> <p> </p> </td> 
-   <td colname="col3"> <p> </p> </td> 
-   <td colname="col4"> <p>Passes the referring URL of the default page to the new page. When used with <span class="filepath"> AppMeasurement.js </span> version 2.1 (or later), Adobe Analytics uses this parameter value as the referring URL on the new page. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>adobe_mc_sdid </p> </td> 
-   <td colname="col2"> <p> </p> </td> 
-   <td colname="col3"> <p> </p> </td> 
-   <td colname="col4"> <p>Passes the Supplemental Data Id (SDID) and Experience Cloud Org Id from the default page to the new page in order for Analytics for Target (A4T) to "stitch" together the Target request on the default page with the Analytics request on the new page. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
+| Parameter | Type | Value | Description |
+|--- |--- |--- |--- |
+|`at_preview_token`|Encrypted string|Mandatory; no default value|An encrypted entity that contains the list of campaigns IDs that are allowed to be executed in QA mode.|
+|`at_preview_index`|String|Empty|Format of the parameter is `<campaignIndex>` or `<campaignIndex>_< experienceIndex>`<br>Both indexes start with 1.|
+|`t_preview_listed_activities_only`|Boolean (true/false)|Default value: false|If "true," all campaigns specified in the `at_preview_index` parameters are processed.<br>If "false," all the campaigns from the page are processed, even if they were not specified in the preview token.|
+|`at_preview_evaluate_as_true_audience_ids`|String|Empty|Underscore-separated ("_") list of segmentId-s that should always (at targetting and reporting level) be evaluated as "true" in the scope of the mbox request.|
+|`_AT_Debug`|String|Window or console|Console logging or new window.|
+|`adobe_mc_ref`|||Passes the referring URL of the default page to the new page. When used with `AppMeasurement.js` version 2.1 (or later), [!DNL Adobe Analytics] uses this parameter value as the referring URL on the new page.|
+|`adobe_mc_sdid`|||Passes the [!DNL Supplemental Data Id] (SDID) and [!DNL Experience Cloud Org Id] from the default page to the new page in order for Analytics for Target (A4T) to "stitch" together the Target request on the default page with the Analytics request on the new page.|

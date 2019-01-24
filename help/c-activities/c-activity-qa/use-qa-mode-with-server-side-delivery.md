@@ -54,58 +54,12 @@ The following code sample shows Activity QA in a server-side call:
 
 The following table explains a server-side request's details:
 
-<table id="table_B114F67E9F154558B2ECC135D17655BF"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Parameter </th> 
-   <th colname="col2" class="entry"> Type </th> 
-   <th colname="col3" class="entry"> Default Value </th> 
-   <th colname="col4" class="entry"> Description </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p><span class="codeph"> token</span> </p> </td> 
-   <td colname="col2"> <p>Encrypted token </p> </td> 
-   <td colname="col3"> <p>None. </p> <p> It cannot be empty. </p> </td> 
-   <td colname="col4"> <p>An encrypted entity that contains the list of activity IDs that are allowed to be executed in Activity QA. </p> <p>Validation rules: Should be an encrypted token belonging to the client specified in the mbox request. All activities specified in the token should belong to the client. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><span class="codeph"> bypassEntryAudience</span> </p> </td> 
-   <td colname="col2"> <p>Boolean </p> </td> 
-   <td colname="col3"> <p>False </p> </td> 
-   <td colname="col4"> <p>Specifies whether entry step targets for QA activities should be evaluated or if they should be considered as matching. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><span class="codeph"> listedActivitiesOnly</span> </p> </td> 
-   <td colname="col2"> <p>Boolean </p> </td> 
-   <td colname="col3"> <p>False </p> </td> 
-   <td colname="col4"> <p>Specifies whether QA activities should be executed in isolation or if they should be evaluated as active activities for the current environment. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><span class="codeph"> evaluateAsTrueAudienceIds</span> </p> </td> 
-   <td colname="col2"> <p>List of IDs </p> </td> 
-   <td colname="col3"> <p>Empty list. </p> </td> 
-   <td colname="col4"> <p>List of audience IDs that should always be evaluated as true in the scope of the mbox request. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><span class="codeph"> evaluateAsFalseAudienceIds</span> </p> </td> 
-   <td colname="col2"> <p>List of IDs </p> </td> 
-   <td colname="col3"> <p>Empty list. </p> </td> 
-   <td colname="col4"> <p>List of audience IDs that should always be evaluated as false in the scope of the mbox request. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><span class="codeph"> activityIndex</span> </p> </td> 
-   <td colname="col2"> <p>Integer </p> </td> 
-   <td colname="col3"> <p>Null. </p> <p> It cannot be empty. </p> </td> 
-   <td colname="col4"> <p>Activity index in the encrypted token. If <span class="codeph"> activityIndex</span> is out of boundaries of the activity in the token or if null, it will be ignored. Index starts with 1. </p> <p>Validation rules: Should be at least one activity index, and should reference an activity specified in the token. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>experienceIndex </p> </td> 
-   <td colname="col2"> <p>Integer </p> </td> 
-   <td colname="col3"> <p>Null. </p> </td> 
-   <td colname="col4"> <p>When specified, selects an experience by index in the activity definition. If not specified or out of boundaries, it will fall-back to the activity's experience selector strategy. Index starts with 1 </p> <p>Validation rules: Can be null, or should reference an experience in the activity. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
+| Parameter | Type | Default Value | Description |
+|--- |--- |--- |--- |
+|token|Encrypted token|None.<br>It cannot be empty.|An encrypted entity that contains the list of activity IDs that are allowed to be executed in Activity QA.<br>Validation rules: Should be an encrypted token belonging to the client specified in the mbox request. All activities specified in the token should belong to the client.|
+|bypassEntryAudience|Boolean|False|Specifies whether entry step targets for QA activities should be evaluated or if they should be considered as matching.|
+|listedActivitiesOnly|Boolean|False|Specifies whether QA activities should be executed in isolation or if they should be evaluated as active activities for the current environment.|
+|evaluateAsTrueAudienceIds|List of IDs|Empty list.|List of audience IDs that should always be evaluated as true in the scope of the mbox request.|
+|evaluateAsFalseAudienceIds|List of IDs|Empty list.|List of audience IDs that should always be evaluated as false in the scope of the mbox request.|
+|activityIndex|Integer|Null.<br>It cannot be empty.|Activity index in the encrypted token. If  activityIndex is out of boundaries of the activity in the token or if null, it will be ignored. Index starts with 1.<br>Validation rules: Should be at least one activity index, and should reference an activity specified in the token.|
+|experienceIndex|Integer|Null.|When specified, selects an experience by index in the activity definition. If not specified or out of boundaries, it will fall-back to the activity's experience selector strategy. Index starts with 1  Validation rules: Can be null, or should reference an experience in the activity.|
