@@ -18,16 +18,6 @@ Target enables you to track clicks on any element as a success metric.
 >
 >Tracking clicks is not supported on the target global mbox when it is used as a location in a form-based activity.
 
-## Training Video {#section_36607204DAE146E3B8E2C609D244EDB1}
-
-This video includes information about creating click-tracking success metrics.
-
-* Understand "goal" metrics 
-* Understand and build Conversion, Revenue, and Engagement metrics 
-* Build a click-tracking metric
-
->[!VIDEO](https://www.youtube.com/watch?v=oCMD2SymhoI)
-
 ## Setting Up Click Tracking {#section_5540C5A533114E57BAE022A600B02E72}
 
 1. When setting your goals on the [!UICONTROL Goals & Settings] page for your activity , select the **[!UICONTROL Conversion]** success metric. 
@@ -68,13 +58,23 @@ There are several things to consider when selecting elements:
 
   The following steps are executed by [!DNL at.js] when the click tracking event is attached to an `A` (link) tag or a `FORM` tag:
 
-1. Invoke `event.preventDefault()`.
+  1. Invoke `event.preventDefault()`.
 
-  2. Fire Target request.
+  1. Fire Target request.
 
-  3. On Target request success or error callback, execute default behavior:
+  1. On Target request success or error callback, execute default behavior:
 
-    * `A` (link) tag: The default behavior is to navigate to the URL defined by HREF attribute. 
-    * `FORM` tag: The default behavior is to submit the form.
+     * `A` (link) tag: The default behavior is to navigate to the URL defined by HREF attribute. 
+     * `FORM` tag: The default behavior is to submit the form.
 
   This default behavior might interfere with Analytics click tracking. If you are using Analytics, you should rely on Analytics for click tracking rather than Target.
+
+## Training Video {#section_36607204DAE146E3B8E2C609D244EDB1}
+
+This video includes information about creating click-tracking success metrics.
+
+* Understand "goal" metrics 
+* Understand and build Conversion, Revenue, and Engagement metrics 
+* Build a click-tracking metric
+
+>[!VIDEO](https://www.youtube.com/watch?v=oCMD2SymhoI)
