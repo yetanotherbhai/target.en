@@ -20,16 +20,6 @@ If your page does not display the expected content, there are a few steps you ca
 
 mboxDebug is especially useful when you are setting up Target on your page to make sure the mbox is firing and the cookie is being set. However, it does not go into the kind of detail that is useful when debugging content delivery. If your activity does not appear on your page or undesired content appears, use mboxTrace to examine and debug the page in detail.
 
-## Troubleshooting Video {#section_9D3E12A8238E414B9C4241D1528FA1FB}
-
-The following video demonstrates tools to troubleshoot [!DNL Target]. (14:14)
-
-* Use native browser tools for inspecting mbox requests 
-* Use the Experience Cloud Debugger, mboxTrace, and ttMETA 
-* Understand the Target timeout
-
->[!VIDEO](https://www.youtube.com/watch?v=OXznmfKjxwU)
-
 ## Retrieve the Authorization Token to Use With Debugging Tools {#section_BED130298E794D1FA229DB7C3358BA54}
 
 Because mboxTrace and mboxDebug can expose campaign data and profile data to external parties, an authorization token is required. The authorization token can be retrieved in the [!DNL Target] UI. The token is valid for six hours.
@@ -50,32 +40,12 @@ mboxTrace enables you to receive trace information attached to mbox replies. Tra
 
 The following parameters are available:
 
-<table id="table_91A8471DD2FC4D4CB3CFB9FF0E11C5DF"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> mboxTrace Options </th> 
-   <th colname="col2" class="entry"> Outcome </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> ?mboxTrace=console </td> 
-   <td colname="col2"> <p>Prints into console log as objects </p> <p>For <span class="filepath"> at.js</span>, instead of popping a new browser window or outputting to the console as in <span class="filepath"> mbox.js</span>, you will need to inspect the Network request and look under Preview (Chrome) or Response (Firefox). </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> ?mboxTrace=json </td> 
-   <td colname="col2"> <p>Prints into console log as a literal JSON string </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> ?mboxTrace=window </td> 
-   <td colname="col2"> <p>Prints into a popup window as a JSON string </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> ?mboxTrace=disable </td> 
-   <td colname="col2"> <p>Turns off tracing session mode </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| mboxTrace Options | Outcome |
+|--- |--- |
+|`?mboxTrace=console`|Prints into console log as objects.<br>For at.js, instead of popping a new browser window or outputting to the console as in  mbox.js, you will need to inspect the Network request and look under Preview (Chrome) or Response (Firefox).|
+|`?mboxTrace=json`|Prints into console log as a literal JSON string|
+|`?mboxTrace=window`|Prints into a popup window as a JSON string|
+|`?mboxTrace=disable`|Turns off tracing session mode|
 
 **Example mboxTrace Call**
 
@@ -111,40 +81,14 @@ To use mboxDebug, append an mboxDebug parameter to the end of your URL. The foll
 >
 >Some mboxDebug parameters are available with or without authentication.
 
-<table id="table_A39547BF527643BCBD168B7B2085D881"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> URL Parameters </th> 
-   <th colname="col2" class="entry"> Purpose </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p> <span class="codeph"> mboxDebug=1</span> </p> </td> 
-   <td colname="col2"> <p>Debugger </p> <p>Adding this parameter to any URL with mboxes defined opens a pop-up window with valuable debugging details. Cookie information, PCid and Session ID values are written out, and all of the mbox URLs are visible. Click on a mbox URL to show the response for that mbox. More details are available in <a href="https://marketing.adobe.com/resources/help/en_US/tnt/pdf/mbox_debug.pdf" scope="external" format="html"> mbox_debug.pdf</a>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <span class="codeph"> mboxDebug=x-cookie</span> </p> </td> 
-   <td colname="col2"> <p>Modify the cookie </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <span class="codeph"> mboxDisable=1</span> </p> </td> 
-   <td colname="col2"> <p>Disable mboxes on the page </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <span class="codeph"> mboxDebug=x-profile</span> </p> </td> 
-   <td colname="col2"> <p>View profiles set. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <span class="codeph"> mboxDebug=x-time</span> </p> </td> 
-   <td colname="col2"> <p>Show response time for each mbox request </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <span class="codeph">mboxOverride.browserIp=<span class="varname"> Insert IP address</span></span> </p> </td> 
-   <td colname="col2"> <p>Test geotargeting </p> <p>Test geotargeting with this URL parameter. Type an IP address as the value for this attribute, and Test&amp;Target's geotargeting evaluates that IP address to match against any geotargeting or segmentation set in a campaign. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| URL Parameters | Purpose |
+|--- |--- |
+|`mboxDebug=1`|Debugger<br>Adding this parameter to any URL with mboxes defined opens a pop-up window with valuable debugging details. Cookie information, PCid and Session ID values are written out, and all of the mbox URLs are visible. Click on a mbox URL to show the response for that mbox. More details are available in [mbox_debug.pdf](/help/assets/mbox_debug.pdf).|
+|`mboxDebug=x-cookie`|Modify the cookie|
+|`mboxDisable=1`|Disable mboxes on the page|
+|`mboxDebug=x-profile`|View profiles set.|
+|`mboxDebug=x-time`|Show response time for each mbox request|
+|`mboxOverride.browserIp=<Insert IP address>`|Test geotargeting<br>Test geotargeting with this URL parameter. Type an IP address as the value for this attribute, and Test&Target's geotargeting evaluates that IP address to match against any geotargeting or segmentation set in a campaign.|
 
 ## Adobe Experience Cloud Debugger {#section_A2798ED3A431409690A4BE08A1BFCF17}
 
@@ -209,3 +153,13 @@ Or
 For remote offers, the mbox response can contain `/* invalid remote offer URL */`
 
 You can check the mbox response in the browser or using mboxTrace. See [https://tools.ietf.org/html/std66](https://tools.ietf.org/html/std66) for more information on valid URLs. 
+
+## Training video: Troubleshooting {#section_9D3E12A8238E414B9C4241D1528FA1FB}
+
+The following video demonstrates tools to troubleshoot [!DNL Target]. (14:14)
+
+* Use native browser tools for inspecting mbox requests 
+* Use the Experience Cloud Debugger, mboxTrace, and ttMETA 
+* Understand the Target timeout
+
+>[!VIDEO](https://www.youtube.com/watch?v=OXznmfKjxwU)
