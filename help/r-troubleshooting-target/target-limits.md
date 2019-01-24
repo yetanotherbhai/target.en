@@ -32,7 +32,7 @@ Information about the character limits and other limits (offer size, audiences, 
 |In-Mbox Profiles in an mbox request|50 profiles|All profiles after 50 are ignored.|
 |In-Mbox Profile Attribute Value|256 characters|Values longer than this get truncated.|
 |Script Profile Names|50 characters||
-|Script Profile Value|256 characters|For performance reasons, Target requires a return value that is no longer than 256 characters.<br>For a String return value, if the size of the return value exceeds 2048 characters, the script is disabled by the system.<br>For an array return value, if the size of the concatenated values of the array exceeds 2048 characters, the script is disabled by the system.|
+|Script Profile Value|2048 characters|For performance reasons, we recommend a return value that is no longer than 256 characters.<br>For a String return value, if the size of the return value exceeds 2048 characters, the script is disabled by the system.<br>For an array return value, if the size of the concatenated values of the array exceeds 2048 characters, the script is disabled by the system.|
 |Script Profile input box in the Target UI|1,300 characters||
 |Target Names|50 characters||
 |Target input box in the Target UI|2,000 characters|Recommended limit. Depends on the size of the encoded string, which could be much longer than the raw string. If the string is too large, it fails before it gets to Adobe Target.|

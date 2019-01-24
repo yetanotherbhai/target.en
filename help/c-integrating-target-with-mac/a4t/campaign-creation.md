@@ -31,13 +31,13 @@ Creating a Target Standard activity that uses Analytics as the reporting source 
 
    You might encounter two possible errors while selecting the report suite:
 
-* You get an error that no report suites are available, but your account is properly set up.
+   * You get an error that no report suites are available, but your account is properly set up.
 
-  You might need to check your Analytics company. If your Experience Cloud account is tied to more than one Analytics company, log out of Target, and log in to Analytics under the right company. Then return to Target, and the report suites will load. 
+   You might need to check your Analytics company. If your Experience Cloud account is tied to more than one Analytics company, log out of Target, and log in to Analytics under the right company. Then return to Target, and the report suites will load. 
 
-* You don't see the report suite that you expect.
+   * You don't see the report suite that you expect.
 
-  Only report suites that are provisioned to connect to Adobe Target will be available for selection. If you don't see the report suite(s) you expect, first try logging out and logging back in to the Adobe Experience Cloud to try again.
+   Only report suites that are provisioned to connect to Adobe Target will be available for selection. If you don't see the report suite(s) you expect, first try logging out and logging back in to the Adobe Experience Cloud to try again.
 
    If the report suite(s) is still missing from the list, please [contact Customer Care](../../cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C). 
 1. Specify your tracking server.
