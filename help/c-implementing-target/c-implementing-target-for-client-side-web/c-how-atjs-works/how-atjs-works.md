@@ -17,40 +17,9 @@ In the Target implementation illustrated below, the following Experience Cloud s
 
 ![](assets/target-flow.png)
 
-<table id="table_BF424454762C45C6ABED85FC49A7809E"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Call </th> 
-   <th colname="col2" class="entry"> Description </th> 
-   <th colname="col3" class="entry"> Call </th> 
-   <th colname="col4" class="entry"> Description </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <img src="assets/step1_red.png" id="image_93C806D5A60A4F03BA258780E99C9EA9" /> </td> 
-   <td colname="col2"> <p>Call returns the <span class="keyword"> Experience Cloud ID </span> (MCID) if the user is authenticated; another call syncs the customer ID. </p> </td> 
-   <td colname="col3"> <img src="assets/step2_red.png" id="image_6FC6C3541AF34BA5B53843D573D726B7" /> </td> 
-   <td colname="col4"> <p>The <span class="filepath"> at.js </span> library loads synchronously and hides the document body. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <img src="assets/step3_red.png" id="image_54CB02239B994478A20AC192EDF90DC4" /> </td> 
-   <td colname="col2"> <p>A global mbox request is made including all configured parameters, MCID, SDID, and customer ID (optional). </p> </td> 
-   <td colname="col3"> <img src="assets/step4_red.png" id="image_6AF7D59C1127417E9718A027AB304BD3" /> </td> 
-   <td colname="col4"> <p>Profile scripts execute and then feed into the Profile Store. The Store requests qualified audiences from the Audience Library (for example, audiences shared from <span class="keyword"> Adobe Analytics </span>, <span class="keyword"> Audience Management </span>, etc.). </p> <p>Customer attributes are sent to the Profile Store in a batch process. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <img src="assets/step5_red.png" id="image_978B5A368D9A4929B9CD98CEAF261136" /> </td> 
-   <td colname="col2"> <p>Based on the URL, mbox parameters, and profile data, <span class="keyword"> Target </span> decides which activities and experiences to return to the visitor. </p> </td> 
-   <td colname="col3"> <img src="assets/step6_red.png" id="image_8CC1644F6C8A49DFA74678FC484ADCDD" /> </td> 
-   <td colname="col4"> <p>Targeted content is sent back to page, optionally including profile values for additional personalization. </p> <p>The experience is revealed as quickly as possible without flicker of default content. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <img src="assets/step7_red.png" id="image_BA305C16960247A0B55D66CD3A664B02" /> </td> 
-   <td colname="col2"> <p> <span class="keyword"> Analytics </span> data is sent to Data Collection servers. </p> </td> 
-   <td colname="col3"> <img src="assets/step8_red.png" id="image_01FCF7749E2A42EA9C8AF0F46B219846" /> </td> 
-   <td colname="col4"> <p> <span class="keyword"> Target </span> data is matched to <span class="keyword"> Analytics </span> data via the SDID and is processed into the <span class="keyword"> Analytics </span> reporting storage. </p> <p> <span class="keyword"> Analytics </span> data can then be viewed in both <span class="keyword"> Analytics </span> and <span class="keyword"> Target </span> via <span class="wintitle"> Analytics for Target </span> (A4T) reports. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
+| Call | Description | Call | Description |
+|--- |--- |--- |--- |
+|![Step 1](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/assets/step1_red.png)|Call returns the [!DNL Experience Cloud ID] (MCID) if the user is authenticated; another call syncs the customer ID.|![Step 2](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/assets/step2_red.png)|The at.js library loads synchronously and hides the document body.|
+|![Step 3](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/assets/step3_red.png)|A global mbox request is made including all configured parameters, MCID, SDID, and customer ID (optional).|![Step 4](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/assets/step4_red.png)|Profile scripts execute and then feed into the Profile Store. The Store requests qualified audiences from the [!UICONTROL Audience Library] (for example, audiences shared from [!DNL Adobe Analytics], [!DNL Audience Manager], etc.).<br>Customer attributes are sent to the [!DNL Profile Store] in a batch process.|
+|![Step 5](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/assets/step5_red.png)|Based on the URL, mbox parameters, and profile data, [!DNL Target] decides which activities and experiences to return to the visitor.|![Step 6](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/assets/step6_red.png)|Targeted content is sent back to page, optionally including profile values for additional personalization.<br>The experience is revealed as quickly as possible without flicker of default content.|
+|![Step 7](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/assets/step7_red.png)|[!DNL Analytics] data is sent to Data Collection servers.|![Step 8](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/assets/step8_red.png)|[!DNL Target] data is matched to [!DNL Analytics] data via the SDID and is processed into the [!DNL Analytics]  reporting storage.<br>[!DNL Analytics] data can then be viewed in both [!DNL Analytics] and  [!DNL Target] via [!DNL Analytics for Target] (A4T) reports.|
