@@ -55,38 +55,11 @@ Email image testing is achieved through using modified versions of adboxes. Beca
 
 Where the bold values are specific to you:
 
-<table id="table_13516D41801B4E58AC6E7724DF168C7B"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Value </th> 
-   <th colname="col2" class="entry"> Description </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>clientcode </p> </td> 
-   <td colname="col2"> <p>Your company's client code. Find this in your <span class="codeph"> at.js</span> or <span class="codeph"> mbox.js</span> listed as <span class="codeph"> clientCode='yourclientcode'</span>. This is all lower case and has no special characters. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>image </p> </td> 
-   <td colname="col2"> <p> The offer type. It is always "image" for graphic ads and "page" for redirectors. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>email_header </p> </td> 
-   <td colname="col2"> <p>The name of the adbox. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>http%3A%2F%2Fwww.domain.com%2Fheader.jpg </p> </td> 
-   <td colname="col2"> <p>The adbox's default content. This must be an absolute reference and must be URL encoded. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>mboxXDomain=disabled </p> </td> 
-   <td colname="col2"> <p> Tells <span class="keyword"> Target</span> to not attempt to set a cookie. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>mboxSession=123456 and mboxPC=123456 </p> </td> 
-   <td colname="col2"> <p>Two values required by <span class="keyword"> Target</span> to merge this user's profile with the existing profile for your site. 123456 is the unique identifier generated per email. Dynamically insert this value into every adbox and redirector URL. This number must be unique for each email sent to each person. If a weekly email is sent to 1,000 people, 1,000 unique IDs need to be generated. </p> <p class="- topic/p ">The unique identifier per email needs to be assigned to the <span class="+ topic/ph pr-d/codeph codeph"> mboxSession</span> and <span class="+ topic/ph pr-d/codeph codeph"> mboxPC</span> in each adbox and redirector URL. The recommended format for this identifier is <span class="+ topic/ph pr-d/codeph codeph"> timestamp-NNNNN</span> where <span class="+ topic/keyword sw-d/varname varname"> NNNNN</span> is a random 5-digit number, but any alphanumeric format will work. Some mass e-mail services and any programming language are capable of generating this unique identifier. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
+| Value | Description |
+|--- |--- |
+|clientcode|Your company's client code. Find this in your at.js or mbox.js listed as `clientCode='yourclientcode'`. This is all lower case and has no special characters.|
+|image|The offer type. It is always "image" for graphic ads and "page" for redirectors.|
+|email_header|The name of the adbox.|
+|`http%3A%2F%2Fwww.domain.com%2Fheader.jpg`|The adbox's default content. This must be an absolute reference and must be URL encoded.|
+|`mboxXDomain=disabled`|Tells  Target to not attempt to set a cookie.|
+|`mboxSession=123456` and `mboxPC=123456`|Two values required by  Target to merge this user's profile with the existing profile for your site. 123456 is the unique identifier generated per email. Dynamically insert this value into every adbox and redirector URL. This number must be unique for each email sent to each person. If a weekly email is sent to 1,000 people, 1,000 unique IDs need to be generated.<br>The unique identifier per email needs to be assigned to the  mboxSession and  mboxPC in each adbox and redirector URL. The recommended format for this identifier is  timestamp-NNNNN where  NNNNN is a random 5-digit number, but any alphanumeric format will work. Some mass e-mail services and any programming language are capable of generating this unique identifier.|

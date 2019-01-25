@@ -41,108 +41,23 @@ The following table lists the equivalent new Target API methods for the legacy A
 
 The new API methods are linked to the corresponding section in the API documentation site. An example is provided for each API method. You can also use the Admin Postman Collection that contains sample API calls for all the new Adobe API methods on Adobe I/O.
 
-<table id="table_C7A209501D99423DB13D513F54427277"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Grouping </th> 
-   <th colname="col2" class="entry"> Legacy API Method </th> 
-   <th colname="col3" class="entry"> New API Method </th> 
-   <th colname="col4" class="entry"> Notes </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Campaign/Activity </p> </td> 
-   <td colname="col2"> <p>Campaign Create </p> </td> 
-   <td colname="col3"> <p><a href="https://developers.adobetarget.com/api/#create-ab-activity" format="http" scope="external"> Create AB Activity</a> </p> <p><a href="https://developers.adobetarget.com/api/#create-xt-activity" format="http" scope="external"> Create XT Activity</a> </p> </td> 
-   <td colname="col4"> <p>The new APIs provide separate create methods for AB and XT </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> </td> 
-   <td colname="col2"> <p>Campaign Update </p> </td> 
-   <td colname="col3"> <p><a href="https://developers.adobetarget.com/api/#update-ab-activity" format="http" scope="external"> Update AB Activity</a> </p> <p><a href="https://developers.adobetarget.com/api/#update-xt-activity" format="http" scope="external"> Update XT Activity</a> </p> </td> 
-   <td colname="col4"> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> </td> 
-   <td colname="col2"> <p>Copy Campaign </p> </td> 
-   <td colname="col3"> <p>N/A </p> </td> 
-   <td colname="col4"> <p>Use the Activity Create APIs </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> </td> 
-   <td colname="col2"> <p>Campaign List </p> </td> 
-   <td colname="col3"> <p><a href="https://developers.adobetarget.com/api/#list-activities" format="http" scope="external"> List Activities</a> </p> </td> 
-   <td colname="col4"> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> </td> 
-   <td colname="col2"> <p>Campaign State </p> </td> 
-   <td colname="col3"> <p><a href="https://developers.adobetarget.com/api/#update-activity-state" format="http" scope="external"> Update Activity State</a> </p> </td> 
-   <td colname="col4"> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> </td> 
-   <td colname="col2"> <p>Campaign View </p> </td> 
-   <td colname="col3"> <p><a href="https://developers.adobetarget.com/api/#get-ab-activity-by-id" format="http" scope="external"> Get AB Activity by ID</a> </p> <p><a href="https://developers.adobetarget.com/api/#get-xt-activity-by-id" format="http" scope="external"> Get XT Activity by ID</a> </p> </td> 
-   <td colname="col4"> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> </td> 
-   <td colname="col2"> <p>Third-Party Campaign ID </p> </td> 
-   <td colname="col3"> <p>N/A </p> </td> 
-   <td colname="col4"> <p>If you are using a thirdpartyID, the relevant Activity methods can be used </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Offers </p> </td> 
-   <td colname="col2"> <p>Offer Create </p> </td> 
-   <td colname="col3"> <p><a href="https://developers.adobetarget.com/api/#create-offer" format="http" scope="external"> Create Offer</a> </p> </td> 
-   <td colname="col4"> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> </td> 
-   <td colname="col2"> <p>Offer Get </p> </td> 
-   <td colname="col3"> <p><a href="https://developers.adobetarget.com/api/#get-offer-by-id" format="http" scope="external"> Get Offer by ID</a> </p> </td> 
-   <td colname="col4"> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> </td> 
-   <td colname="col2"> <p>Offer List </p> </td> 
-   <td colname="col3"> <p><a href="https://developers.adobetarget.com/api/#list-offers" format="http" scope="external"> List Offers</a> </p> </td> 
-   <td colname="col4"> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> </td> 
-   <td colname="col2"> <p>Folder List </p> </td> 
-   <td colname="col3"> <p>N/A </p> </td> 
-   <td colname="col4"> <p>Folders aren’t supported in Target Standard/Premium </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Reporting </p> </td> 
-   <td colname="col2"> <p>Campaign Performance Report </p> </td> 
-   <td colname="col3"> <p><a href="https://developers.adobetarget.com/api/#get-ab-performance-report" format="http" scope="external"> Get AB Performance Report</a> </p> <p><a href="https://developers.adobetarget.com/api/#get-xt-performance-report" format="http" scope="external"> Get XT Performance Report</a> </p> </td> 
-   <td colname="col4"> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> </td> 
-   <td colname="col2"> <p>Audit Report </p> </td> 
-   <td colname="col3"><a href="https://developers.adobetarget.com/api/#get-audit-report" format="http" scope="external"> Get Audit Report </a> </td> 
-   <td colname="col4"> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> </td> 
-   <td colname="col2"> <p>1-1 Content Report </p> </td> 
-   <td colname="col3"> <p><a href="https://developers.adobetarget.com/api/#get-ap-activity-performance-report" format="http" scope="external"> Get AP Performance Report</a> </p> </td> 
-   <td colname="col4"> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Account Settings </p> </td> 
-   <td colname="col2"> <p>Get Host Groups </p> </td> 
-   <td colname="col3"> <p><a href="https://developers.adobetarget.com/api/#list-environments" format="http" scope="external"> List Environments</a> </p> </td> 
-   <td colname="col4"> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Grouping | Legacy API Method | New API Method | Notes |
+|--- |--- |--- |--- |
+|Campaign/Activity|Campaign Create|[Create AB Activity](http://developers.adobetarget.com/api/#create-ab-activity)<br>[Create XT Activity](http://developers.adobetarget.com/api/#create-xt-activity)|The new APIs provide separate create methods for AB and XT|
+||Campaign Update|[Update AB Activity](http://developers.adobetarget.com/api/#update-ab-activity)<br>[Update XT Activity](http://developers.adobetarget.com/api/#update-xt-activity)||
+||Copy Campaign|N/A|Use the Activity Create APIs|
+||Campaign List|[List Activities](http://developers.adobetarget.com/api/#list-activities)||
+||Campaign State|[Update Activity State](http://developers.adobetarget.com/api/#update-activity-state)||
+||Campaign View|[Get AB Activity by ID](http://developers.adobetarget.com/api/#get-ab-activity-by-id)<br>[Get XT Activity by ID](http://developers.adobetarget.com/api/#get-xt-activity-by-id)||
+||Third-Party Campaign ID|N/A|If you are using a thirdpartyID, the relevant Activity methods can be used|
+|Offers|Offer Create|[Create Offer](http://developers.adobetarget.com/api/#create-offer)||
+||Offer Get|[Get Offer by ID](http://developers.adobetarget.com/api/#get-offer-by-id)||
+||Offer List|[List Offers](http://developers.adobetarget.com/api/#list-offers)||
+||Folder List|N/A|Folders aren’t supported in Target Standard/Premium|
+|Reporting|Campaign Performance Report|[Get AB Performance Report](http://developers.adobetarget.com/api/#get-ab-performance-report)<br>[Get XT Performance Report](http://developers.adobetarget.com/api/#get-xt-performance-report)||
+||Audit Report|[Get Audit Report](http://developers.adobetarget.com/api/#get-audit-report)||
+||1-1 Content Report|[Get AP Performance Report](http://developers.adobetarget.com/api/#get-ap-activity-performance-report)||
+|Account Settings|Get Host Groups|[List Environments](http://developers.adobetarget.com/api/#list-environments)||
 
 ## Exceptions {#section_09CF9A0E289149279783B4801D1B6D4C}
 

@@ -20,36 +20,10 @@ An AdBox is useful for sites that do not have [!DNL at.js] or [!DNL mbox.js], su
 
 AdBox ads and Redirector can be used with any kind of activity. The following table compares Adbox and Redirector, and when to use each:
 
-<table id="table_0FCE44A165574C609FF7F94A7DDF8926"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> </th> 
-   <th colname="col2" class="entry"> Purpose </th> 
-   <th colname="col3" class="entry"> When To Use </th> 
-   <th colname="col4" class="entry"> URL Structure </th> 
-   <th colname="col5" class="entry"> Offer Type </th> 
-   <th colname="col6" class="entry"> Offer Content </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>AdBox </p> </td> 
-   <td colname="col2"> <p>Returns different images to the ad </p> </td> 
-   <td colname="col3"> <p>To change the content of an ad </p> </td> 
-   <td colname="col4"> <p> <span class="codeph"> clientcode​.tt.​omtrdc​.net/​m2​/​clientcode/ubox/​image?</span> </p> </td> 
-   <td colname="col5"> <p>redirect offer </p> </td> 
-   <td colname="col6"> <p>URL for an image </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Redirector </p> </td> 
-   <td colname="col2"> <p>Redirects a visitor to a different web page </p> </td> 
-   <td colname="col3"> <p>To change the landing page of an ad </p> </td> 
-   <td colname="col4"> <p> <span class="codeph">  clientcode​.tt.omtrdc.net/​m2/clientcode​/ubox/page? </span> </p> </td> 
-   <td colname="col5"> <p>redirect offer </p> </td> 
-   <td colname="col6"> <p>URL for a page </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| | Purpose | When To Use | URL Structure | Offer Type | Offer Content |
+|--- |--- |--- |--- |--- |--- |
+|AdBox|Returns different images to the ad|To change the content of an ad|`clientcode​.tt.​omtrdc​.net/​m2​/​clientcode/ubox/​image?`|redirect offer|URL for an image|
+|Redirector|Redirects a visitor to a different web page|To change the landing page of an ad|`clientcode​.tt.omtrdc.net/​m2/clientcode​/ubox/page?`|redirect offer|URL for a page|
 
 ## Constraints {#section_38F559DCF1324271926608BCD4AB1227}
 

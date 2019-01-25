@@ -50,28 +50,12 @@ ov2/t_creating-a-redirector.xml
    &mboxDefault=http%3A%2F%2Fwww%2Eyourcompany%2Ecom%2Fusualdestination%2Ehtm
    ```
 
-<table id="table_DD29523C6FB54061B40AD2B07AE8EDAB"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Where </th> 
-   <th colname="col2" class="entry"> Is </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>yourclientcode </p> </td> 
-   <td colname="col2"> <p>Your company's client code. </p> <p><b>at.js: </b>Your client code is available at the top of the Setup &gt; Implementation &gt; Edit at.js Settings page of the Target interface. </p> <p><b>mbox.js: </b>Your client code is available at the top of the Setup &gt; Implementation &gt; Edit Mbox.js Settings page. </p> <p>Your company's client code is all lower case and has no special characters. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>redirectorlink_456 </p> </td> 
-   <td colname="col2"> <p>The name of the Redirector mbox that appears in your account to use in campaigns and tests. </p> <p class="- topic/p ">Redirectors function differently from other mboxes, but appear just as any other mbox in your account. Name the redirector so it is easily distinguished them from the standard type mboxes in your account. </p> <p class="- topic/p ">As best practice, begin the mbox name with<span class="+ topic/ph pr-d/codeph codeph"> 'redirectorlink'</span>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>http%3A%2F%2Fwww%2Eyourcompany%2Ecom%2Fusualdestination%2Ehtm </p> </td> 
-   <td colname="col2"> <p>The default destination. </p> <p class="- topic/p ">This must be URL encoded and must be an absolute reference. </p> <p class="- topic/p ">Tip:<span class="+ topic/ph sw-d/filepath filepath"> https://www.w3schools.com/tags/ref_urlencode.asp</span> quickly encodes your URLs. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Where | Is |
+|--- |--- |
+|yourclientcode|Your company's client code.<br>**at.js**: Your client code is available at the top of the [!UICONTROL Setup > Implementation > Edit at.js Settings] page of the [!DNL Target] interface.<br>**mbox.js**: Your client code is available at the top of the [!UICONTROL Setup > Implementation > Edit Mbox.js Settings] page.<br>Your company's client code is all lower case and has no special characters.|
+|redirectorlink_456|The name of the Redirector mbox that appears in your account to use in campaigns and tests.<br>Redirectors function differently from other mboxes, but appear just as any other mbox in your account. Name the redirector so it is easily distinguished them from the standard type mboxes in your account.  As best practice, begin the mbox name with 'redirectorlink'.|
+|`http%3A%2F%2Fwww%2Eyourcompany%2Ecom%2Fusualdestination%2Ehtm`|The default destination.<br>This must be URL encoded and must be an absolute reference.<br>**Tip**: You can use the [HTML URL Encoding Reference](https://www.w3schools.com/tags/ref_urlencode.asp) to quickly encodes your URLs.|
+
 
 1. Validate the Redirector.
    1. Insert the Redirector URL into a browser and refresh.
