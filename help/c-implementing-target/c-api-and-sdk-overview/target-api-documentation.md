@@ -19,47 +19,19 @@ For more information about the Target API documentation, see [Target APIs and No
 
 ## Terminology {#section_D8286EDAE3B24D208DA432AEF2E88FD9}
 
-<table id="table_3228619660E54F029F4834236BEFE19B"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Term </th> 
-   <th colname="col2" class="entry"> Description </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Legacy API </p> </td> 
-   <td colname="col2"> <p>APIs that are linked to your Target Classic account. These API calls are based on a username and password-based authentication and use the hostname <span class="filepath"> testandtarget.omniture.com</span>. If your API calls contain a user name and password in the request URL, you must transition to Adobe I/O APIs. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Adobe I/O </p> </td> 
-   <td colname="col2"> <p><b>Adobe I/O:</b> Adobe I/O is the new gateway for Target APIs. These APIs are connected to your Target Standard/Premium account. The Target APIs on Adobe I/O use a JWT-based authentication, which is the industry standard for secure enterprise APIs. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Term | Description |
+|--- |--- |
+|Legacy API|APIs that are linked to your Target Classic account. These API calls are based on a username and password-based authentication and use the hostname `testandtarget.omniture.com`. If your API calls contain a user name and password in the request URL, you must transition to Adobe I/O APIs.|
+|Adobe I/O|Adobe I/O is the new gateway for Target APIs. These APIs are connected to your Target Standard/Premium account. The Target APIs on Adobe I/O use a JWT-based authentication, which is the industry standard for secure enterprise APIs.|
 
 ## Timeline {#section_A478EBF637554A2DB5A31661955121ED}
 
 The legacy APIs will be decommissioned when you Target Classic is decommissioned:
 
-<table id="table_BE395755732E4DC1915A72EE72D57CA8"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Date </th> 
-   <th colname="col2" class="entry"> Details </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>October 17, 2017 </p> </td> 
-   <td colname="col2"> <p>All API methods that perform a write operation (<span class="codeph"> saveCampaign</span>, <span class="codeph"> copyCampaign</span>, <span class="codeph"> saveHTMLOfferContent</span>, and <span class="codeph"> setCampaignState</span>) were decommissioned. </p> <p>This is the same date when all Target Classic user accounts were set to read-only status. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>November 14, 2017 </p> </td> 
-   <td colname="col2"> <p>The remaining APIs were decommissioned. </p> <p>This is the date when the Target Classic user interface was decommissioned </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Date | Details |
+|--- |--- |
+|October 17, 2017|All API methods that perform a write operation (`saveCampaign`, `copyCampaign`, `saveHTMLOfferContent`, and `setCampaignState`) were decommissioned.<br>This is the same date when all Target Classic user accounts were set to read-only status.|
+|November 14, 2017|The remaining APIs were decommissioned. This is the date when the Target Classic user interface was decommissioned|
 
 Recommendations Classic APIs won’t be impacted by this time line.
 
