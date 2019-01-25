@@ -18,24 +18,10 @@ Information about the global mbox, a name used to refer to the single server cal
 
 There are several differences between a regular mbox (non-global mbox) and the global mbox, including:
 
-<table id="table_D849378A87FE478487DA11581D274F61"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Regular mbox </th> 
-   <th colname="col2" class="entry"> Global mbox </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>A regular mbox typically wraps around content with a <span class="codeph"> &lt;DIV&gt;</span> tag. </p> </td> 
-   <td colname="col2"> <p>The global mbox is "empty" and does not wrap around any content. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Content from only one activity can be delivered in a regular mbox. </p> </td> 
-   <td colname="col2"> <p>Content from multiple activities can be delivered in one response to a global mbox. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Regular mbox | Global mbox |
+|--- |--- |
+|A regular mbox typically wraps around content with a `<DIV>` tag.|The global mbox is "empty" and does not wrap around any content.|
+|Content from only one activity can be delivered in a regular mbox.|Content from multiple activities can be delivered in one response to a global mbox.|
 
 If multiple activities are delivered via the global mbox or via multiple regular mboxes, [!DNL Target] [determines the priority](../../../../c-activities/priority.md#concept_1780C11FEA57440499F0047DD6900E0F) by which the activity (or activities) are delivered to a web page.
 

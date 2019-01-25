@@ -22,36 +22,17 @@ Use the following steps to migrate from [!DNL mbox.js] to [!DNL at.js] and to ch
 
    **What types of mboxes do you currently use?**
 
-   <table id="table_B728D875E392457CB304D82CA85348BA"> 
-   <thead> 
-   <tr> 
-      <th colname="col1" class="entry"> Type </th> 
-      <th colname="col2" class="entry"> Details </th> 
-   </tr> 
-   </thead>
-   <tbody> 
-   <tr> 
-      <td colname="col1"> <p>Auto-created global mbox </p> </td> 
-      <td colname="col2"> <p> The auto-created global mbox is created when the only line of <span class="keyword"> Target </span> code on your site is the <span class="filepath"> mbox.js </span> file. That file automatically generates an mbox call. </p> </td> 
-   </tr> 
-   <tr> 
-      <td colname="col1"> <p>Global, empty <span class="codeph"> mboxCreate </span> </p> </td> 
-      <td colname="col2"> <p>It is recommended that you switch to the auto-created global mbox. </p> </td> 
-   </tr> 
-   <tr> 
-      <td colname="col1"> <p>Wrapping <span class="codeph"> mboxCreate </span> </p> </td> 
-      <td colname="col2"> <p>Migration should be simple, as long as your <span class="codeph"> mboxCreate() </span> is preceded by the <span class="codeph"> &lt;div class="mboxDefault"&gt;&lt;/div&gt; </span>. </p> </td> 
-   </tr> 
-   <tr> 
-      <td colname="col1"> <p>mboxUpdate </p> </td> 
-      <td colname="col2"> <p> Migration should be simple when <a href="../../../../c-implementing-target/c-implementing-target-for-client-side-web/cmp-at.js-functions.md#reference_61B2B9F351344CF5B0915D5AFD21C5FE" format="dita" scope="local"> <span class="codeph"> mboxUpdate() </span> </a> is used in conjunction with <span class="codeph"> mboxDefine() </span> or <a href="../../../../c-implementing-target/c-implementing-target-for-client-side-web/cmp-at.js-functions.md#reference_E68805FE86C64792B2066DB17B253D74" format="dita" scope="local"> <span class="codeph"> mboxCreate() </span> </a>. <span class="codeph"> mboxUpdate() </span> does not update the auto-created global mbox or an mbox originally created by <span class="codeph"> getOffer() </span>. In these circumstances, <a href="../../../../c-implementing-target/c-implementing-target-for-client-side-web/cmp-at.js-functions.md#reference_C81525D1598A4A1199740DCAB81A7FDF" format="dita" scope="local"> a combination of <span class="codeph"> getOffer() </span> and <span class="codeph"> applyOffer() </span> </a> should be used to replace <span class="codeph"> mboxUpdate() </span> when migrating to at.js. </p> </td> 
-   </tr> 
-   <tr> 
-      <td colname="col1"> <p>Custom clicktracking mboxes, including mboxTrack </p> </td> 
-      <td colname="col2"> <p>We recommend that you update your code to use <a href="../../../../c-implementing-target/c-implementing-target-for-client-side-web/cmp-at.js-functions.md#reference_7E0F19368F9C4BC38F1E5DC5E717E487" format="dita" scope="local"> trackEvent() </a>. </p> </td> 
-   </tr> 
-   </tbody> 
-   </table>
+   | Type | Details |
+   |--- |--- |
+   |Auto-created global mbox|The auto-created global mbox is created when the only line of  Target  code on your site is the  mbox.js  file. That file automatically generates an mbox call.|
+   |Global, empty mboxCreate|It is recommended that you switch to the auto-created global mbox.|
+   |Wrapping  mboxCreate|Migration should be simple, as long as your `mboxCreate()` is preceded by the  `<div class="mboxDefault"></div>`.|
+   |mboxUpdate|Migration should be simple when `mboxUpdate()` is used in conjunction with `mboxDefine()` or `mboxCreate()`. `mboxUpdate()` does not update the auto-created global mbox or an mbox originally created by `getOffer()`. In these circumstances, a combination of `getOffer()` and `applyOffer()` should be used to replace `mboxUpdate()` when migrating to at.js.|
+   |Custom clicktracking mboxes, including mboxTrack|We recommend that you update your code to use `trackEvent()`.|
+
+   >[!NOTE]
+   >
+   >For more information about the various functions mentioned in the preceding table, see [at.js functions](/help/c-implementing-target/c-implementing-target-for-client-side-web/cmp-at.js-functions.md).
 
    **Do you have any customizations to your [!DNL mbox.js] file?**
 

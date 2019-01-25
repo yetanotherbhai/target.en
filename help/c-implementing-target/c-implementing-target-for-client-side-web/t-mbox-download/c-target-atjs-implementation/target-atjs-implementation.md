@@ -45,7 +45,7 @@ The [!DNL at.js] library offers several improvements over the [!DNL mbox.js] lib
 
 * Functions designed specifically for single-page apps/MVC frameworks
 
-**at.js - Advantages and Implementation Best Practices (26:43)**
+## Training video: at.js - Advantages and Implementation Best Practices
 
 This video is a recording of " [Office Hours](../../../../cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7)," an initiative led by the Adobe Customer Care team.
 

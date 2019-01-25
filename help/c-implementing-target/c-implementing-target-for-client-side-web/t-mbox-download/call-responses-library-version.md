@@ -18,42 +18,13 @@ This section provides information about how each version of the [!DNL Target] li
 
 There are several types or endpoints, depending on your implementation and library version. You should be familiar with each type to understand how [!DNL Target] responds to calls in each scenario.
 
-<table id="table_9B6FA7E1F7E5470889FDA9D7C6F66CA9"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Type/Endpoint </th> 
-   <th colname="col2" class="entry"> Call Method </th> 
-   <th colname="col3" class="entry"> Response Content </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> autocreate global mbox - synchronous </td> 
-   <td colname="col2"> document.write to make call </td> 
-   <td colname="col3"> JavaScript without document.write() </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> autocreate global mbox - asynchronous </td> 
-   <td colname="col2"> createElement() to append call to body </td> 
-   <td colname="col3"> JavaScript without document.write() </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> standard </td> 
-   <td colname="col2"> <p>document.write to make call </p> </td> 
-   <td colname="col3"> JavaScript with document.write() </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> ajax </td> 
-   <td colname="col2"> <p>createElement() to append call to body </p> </td> 
-   <td colname="col3"> JavaScript without document.write() </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> json </td> 
-   <td colname="col2"> XMLHTTPrequest() to make call </td> 
-   <td colname="col3"> returns JSON response </td> 
-  </tr> 
- </tbody> 
-</table>
+| Type/Endpoint | Call Method | Response Content |
+|--- |--- |--- |
+|autocreate global mbox - synchronous|document.write to make call|JavaScript without document.write()|
+|autocreate global mbox - asynchronous|createElement() to append call to body|JavaScript without document.write()|
+|standard|document.write to make call|JavaScript with document.write()|
+|ajax|createElement() to append call to body|JavaScript without document.write()|
+|json|XMLHTTPrequest() to make call|returns JSON response|
 
 >[!IMPORTANT]
 >
@@ -101,4 +72,3 @@ If the visitor ID cookie exists, [!DNL Target] does not need to make a call to t
 |---|---|---|---|---|
 |  autocreate global mbox  | autocreate global mbox - synchronous  | autocreate global mbox - synchronous  | autocreate global mbox - synchronous  | autocreate global mbox - asynchronous (to support development of the Data Co-op, which will be released later in 2016)  |
 |  mboxCreate  | standard  | standard  | standard  | ajax  |
-
