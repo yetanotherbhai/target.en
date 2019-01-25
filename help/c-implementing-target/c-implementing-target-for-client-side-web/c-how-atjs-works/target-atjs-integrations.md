@@ -29,47 +29,15 @@ If you have a compelling need for an integration that is not supported or mentio
 
 ## Unsupported Integrations {#section_8EFCAED418DC42E0B07F95924819EAC2}
 
-<table id="table_4CF1738CF06B43A784EE783D3FAED3C8"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Integration </th> 
-   <th colname="col2" class="entry"> Details </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Legacy Target to SiteCatalyst Integration </p> </td> 
-   <td colname="col2"> <p>This was the integration that sent campaign and recipe ids to <span class="keyword"> SiteCatalyst</span> via the page call so you could do reporting in the <span class="keyword"> SiteCatalyst</span> UI. This functionality is replaced by A4T. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Legacy Target to SiteCatalyst Integration </p> </td> 
-   <td colname="col2"> <p>This was the integration that made mbox calls named "SiteCatalyst: Event" and "SiteCatalyst: Purchase" so you could build success metrics and user profiles based on evars and props. This functionality is replaced by A4T and P&amp;A. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Legacy Audience Manager (AAM) to Target Integration </p> </td> 
-   <td colname="col2"> <p>This was the integration that made a front-end API call to retrieve AAM segments and then sent them as mbox parameters on every mbox call on the page. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Integration | Details |
+|--- |--- |
+|[!DNL Legacy Target to SiteCatalyst Integration]|This was the integration that sent campaign and recipe ids to [!DNL SiteCatalyst] via the page call so you could do reporting in the  [!DNL SiteCatalyst] UI. This functionality is replaced by A4T.|
+|[!DNL Legacy Target to SiteCatalyst Integration]|This was the integration that made mbox calls named `"SiteCatalyst: Event"` and `"SiteCatalyst: Purchase"` so you could build success metrics and user profiles based on evars and props. This functionality is replaced by A4T and P&A.|
+|[!DNL Legacy Audience Manager (AAM) to Target Integration]|This was the integration that made a front-end API call to retrieve AAM segments and then sent them as mbox parameters on every mbox call on the page.|
 
 ## Third-Party Integrations {#section_EE599839CCAD49DD97640E5EDAD9082E}
 
-<table id="table_8139E0696BAD436588224AEC2AEE0852"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Integration </th> 
-   <th colname="col2" class="entry"> Details </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Other Tag Managers </p> </td> 
-   <td colname="col2"> <p><span class="filepath"> at.js</span> should work with non-Adobe tag management platforms, but be careful using custom integration features that other vendors have developed. Their integrations might be dependent on internal <span class="filepath"> mbox.js</span> functions that no longer exist in <span class="filepath"> at.js</span>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Third-party data providers (e.g. Demandbase, Bluekai, weather APIs) </p> </td> 
-   <td colname="col2"> <p>Many third-party data providers used to supplement Target's user profiling can be integrated using the at.js <a href="../../../c-implementing-target/c-implementing-target-for-client-side-web/cmp-at.js-functions.md#section_42725F3C837247D58AE1831EA330E44D" format="dita" scope="local"> Data Providers</a> feature </p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
+| Integration | Details |
+|--- |--- |
+|Other Tag Managers|at.js should work with non-Adobe tag management platforms, but be careful using custom integration features that other vendors have developed. Their integrations might be dependent on internal  mbox.js functions that no longer exist in  at.js.|
+|Third-party data providers (e.g. Demandbase, Bluekai, weather APIs)|Many third-party data providers used to supplement Target's user profiling can be integrated using the at.js [Data Providers feature](/help/c-implementing-target/c-implementing-target-for-client-side-web/cmp-at.js-functions.md).|
