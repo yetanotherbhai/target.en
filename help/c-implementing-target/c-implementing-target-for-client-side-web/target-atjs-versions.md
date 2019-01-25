@@ -25,27 +25,12 @@ at.js 1.6.4 is a maintenance release and addresses the following issue:
 
 ## at.js Version 1.6.3 {#section_484A56774E004282B98FFFF851E4E670}
 
-<table id="table_7320E43397D2471FA313A9D6FC21E55F"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Feature / Enhancement </th> 
-   <th colname="col2" class="entry"> Description </th> 
-  </tr>
- </thead>
- <tbody> 
-  <!-- <row> <entry colname="col1"> <p>Form-Based Activities </p> </entry> <entry colname="col2"> <p>This release includes a new priority model for activities that use the Form-Based Experience Composer with only a global mbox. Before this release, content from multiple activities was returned to the page and overwrote content from other returned activities. Now, only the top priority activity's content is returned. </p> </entry> </row> --> 
-  <tr> 
-   <td colname="col1"> <p>at.js 1.6.3 </p> </td> 
-   <td colname="col2"> <p>at.js version 1.6.3 is now available. </p> <p> 
-     <ul id="ul_753CB08097834317A145899EA0840EB9"> 
-      <li id="li_530C2567D5C2496F95A975EA4924188C"> <p>Selectors are now CSS-escaped if they contain IDs or CSS classes that start with a digit, two hyphens, or a hyphen followed by a digit (for example #-123). (TNT-31061) </p> </li> 
-      <li id="li_6504E90D7C534A1BB9A2DE8510CE3B90"> <p>Fixed an issue introduced with at.js 1.6.2 where Visual Experience Composer (VEC) offers from different activities that apply to the same CSS selector did not respect activity priority. (TNT-31052) </p> </li> 
-      <li id="li_D347CA513F1240E4BF79D757287AB30C"> <p>Fixed an issue with timing out a promise in environments where there was no native support for promises. (TNT-30974) </p> </li> 
-      <li id="li_17F41A84CCFF41D7993E35DE10F87066"> <p>Issues are now correctly captured and reported via the content-rendering failed event. Previously, JavaScript might have been reported to have run successfully, even if that wasn't the case. (TNT-30599) </p> </li> 
-     </ul> </p> <p>For more information, see <a href="../../c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A" format="dita" scope="local"> at.js Version Details</a>. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+at.js version 1.6.3 includes the following fixes and enhancements:
+
+* Selectors are now CSS-escaped if they contain IDs or CSS classes that start with a digit, two hyphens, or a hyphen followed by a digit (for example #-123). (TNT-31061)
+* Fixed an issue introduced with at.js 1.6.2 where Visual Experience Composer (VEC) offers from different activities that apply to the same CSS selector did not respect activity priority. (TNT-31052)
+* Fixed an issue with timing out a promise in environments where there was no native support for promises. (TNT-30974)
+* Issues are now correctly captured and reported via the content-rendering failed event. Previously, JavaScript might have been reported to have run successfully, even if that wasn't the case. (TNT-30599)
 
 ## at.js Version 1.6.2 {#section_88BE2F69943D4280B8170F377886B58E}
 

@@ -14,18 +14,7 @@ Information about issues customers face when using cloud-based instances to test
 
 Target customers sometimes use cloud-based instances with [!DNL Target] for testing or simple proof-of-concept purposes. These instances might include the following domains: 
 
-<table id="simpletable_9C9D8225552A483F958D0F4AF7CEA31A"> 
- <tr class="strow">
-  <td class="stentry"> <p>azurewebsites.net </p></td>
-  <td class="stentry"> <p>cloudapp.net </p></td>
-  <td class="stentry"> <p>amazonaws.com </p></td> 
- </tr> 
- <tr class="strow">
-  <td class="stentry"> <p>cloudfront.net </p></td>
-  <td class="stentry"> <p>herokuapp.com </p></td>
-  <td class="stentry"> <p>firebaseapp.com </p></td> 
- </tr> 
-</table>
+`azurewebsites.net`, `cloudapp.net`, `amazonaws.com`, `cloudfront.net`, `herokuapp.com`, or `firebaseapp.com`
 
 These domains, and many others, are part of the [Public Suffix List](https://publicsuffix.org/list/public_suffix_list.dat).
 

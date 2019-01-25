@@ -44,26 +44,8 @@ The Order Confirmation mbox records details about orders on your site and allows
 
 The Order Confirmation mbox uses the following parameters:
 
-<table id="table_CEB2E2F2265142D89672E124CB4C880B"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Parameter </th> 
-   <th colname="col2" class="entry"> Description </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p> <span class="codeph"> orderId </span> </p> </td> 
-   <td colname="col2"> <p> Unique value to identify an order for conversion counting. </p> <p>The <span class="codeph"> orderId </span> must be unique. Duplicate orders are ignored in reports. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <span class="codeph"> orderTotal </span> </p> </td> 
-   <td colname="col2"> <p> Monetary value of the purchase. </p> <p>Do not pass the currency symbol. Use a decimal point (not a comma) to indicate decimal values. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <span class="codeph"> productPurchasedId </span> (Optional) </p> </td> 
-   <td colname="col2"> <p> Comma-separated list of product IDs purchased in the order. </p> <p> These product IDs display in the audit report to support additional reporting analysis. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
+| Parameter | Description |
+|--- |--- |
+|`orderId`|Unique value to identify an order for conversion counting.<br>The `orderId` must be unique. Duplicate orders are ignored in reports.|
+|`orderTotal`|Monetary value of the purchase.<br>Do not pass the currency symbol. Use a decimal point (not a comma) to indicate decimal values.|
+|`productPurchasedId` (Optional)|Comma-separated list of product IDs purchased in the order.<br>These product IDs display in the audit report to support additional reporting analysis.|
