@@ -18,11 +18,6 @@ List of functions that can be used with at.js.
 
 This function fires a request to get a Target offer.
 
-<!-- 
-
-ov2/r_target-atjs-getoffer.xml
-
- -->
 
 Use with `adobe.target.applyOffer()` to process the response or use your own success handling. The options parameter is mandatory and has the following structure:
 
@@ -74,7 +69,7 @@ Use with `adobe.target.applyOffer()` to process the response or use your own suc
  </tbody> 
 </table>
 
-## Examples {#section_97C2D2E03E6549BEA7F4873E3F5E4A0D}
+### Examples {#section_97C2D2E03E6549BEA7F4873E3F5E4A0D}
 
 Adding parameters with getOffer() and using applyOffer() for success-handling:
 
@@ -137,7 +132,7 @@ adobe.target.getOffer({
 });
 ```
 
-## Responses {#section_CF9FD236EF794620BCBF84EB80160183}
+### Responses {#section_CF9FD236EF794620BCBF84EB80160183}
 
 The response parameter passed to the success callback will be an array of actions. An action is an object that usually has the following format:
 
@@ -194,7 +189,7 @@ The response parameter passed to the success callback will be an array of action
 }
 ```
 
-## Error Responses {#section_1ACCE79AF2CB4FA2AD1371EA06AF129F}
+### Error Responses {#section_1ACCE79AF2CB4FA2AD1371EA06AF129F}
 
 The "status" and "error" parameters passed to the error callback will have the following format:
 
@@ -228,12 +223,6 @@ The "status" and "error" parameters passed to the error callback will have the f
 ## adobe.target.applyOffer(options) {#reference_BBE83F513B5B4E03BBC3F50D90864245}
 
 This function is for applying the response content.
-
-<!-- 
-
-ov2/r_target-atjs-applyoffer.xml
-
- -->
 
 >[!NOTE]
 >
@@ -272,7 +261,7 @@ The options parameter is mandatory and has the following structure:
  </tbody> 
 </table>
 
-## Example {#section_D8D6A17B73DE4542937CDB687193A5CC}
+### Example {#section_D8D6A17B73DE4542937CDB687193A5CC}
 
 The following example shows how to use `getOffer` and `applyOffer` together:
 
@@ -299,12 +288,6 @@ adobe.target.getOffer({
 ## adobe.target.trackEvent(options) {#reference_7E0F19368F9C4BC38F1E5DC5E717E487}
 
 This function fires a request to report user actions, such as clicks and conversions. It does not deliver activities in the response.
-
-<!-- 
-
-ov2/r_target-atjs-trackevent.xml
-
- -->
 
 These event-tracking mbox calls can then be used to define metrics in activities. For more information, see [Success Metrics](../../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924) and [Track Conversions](../../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#task_E85D2F64FEB84201A594F2288FABF053).
 
@@ -406,12 +389,6 @@ adobe.target.trackEvent({
 
 Executes a request and applies the offer to the closest DIV with mboxDefault class name.
 
-<!-- 
-
-ov2/r_target-atjs-mboxcreate.xml
-
- -->
-
 This function is built into [!DNL at.js] mostly to ease the transition from [!DNL mbox.js] to [!DNL at.js]. A newer alternative to `mboxCreate()` is `adobe.target.getOffer()`/ `adobe.target.applyOffer()` or the Angular directive.
 
 **Example**
@@ -443,25 +420,19 @@ This function is built into [!DNL at.js] mostly to ease the transition from [!DN
 
 Define and update an mbox.
 
-<!-- 
-
-ov2/r_target-atjs-mboxdefine-mboxupdate.
-
- -->
-
 >[!NOTE]
 >
 >`mboxDefine()` and `mboxCreate()` are tied to HTML DIV elements where the offer should be displayed. These HTML DIV elements should have the `mboxDefault` class. If the HTML elements won't have this class attached, you could see some noticeable flicker.
 
-## mboxDefine {#section_134BAAE8EE9D49D8BAFEA5E7EAB93BA7}
+### mboxDefine {#section_134BAAE8EE9D49D8BAFEA5E7EAB93BA7}
 
 Creates an internal mapping between a nodeId and an mbox name, but does not execute the request. Used in conjunction with `mboxUpdate()`. Built into [!DNL at.js]mostly to ease the transition from [!DNL mbox.js]to [!DNL at.js].
 
-## mboxUpdate {#section_D20B3E551884452A996305C12D5959D5}
+### mboxUpdate {#section_D20B3E551884452A996305C12D5959D5}
 
 Executes the request and applies the offer to the element identified by the `nodeId` in the `mboxDefine()`. Can also be used to update an mbox initiated by `mboxCreate`. Built into [!DNL at.js] mostly to ease the transition from [!DNL mbox.js] to [!DNL at.js]. `mboxDefine()`/ `mboxUpdate()` could be replaced by [ `adobe.target.getOffer()` ](../../c-implementing-target/c-implementing-target-for-client-side-web/cmp-at.js-functions.md#reference_C81525D1598A4A1199740DCAB81A7FDF)and [ `adobe.target.applyOffer()` ](../../c-implementing-target/c-implementing-target-for-client-side-web/cmp-at.js-functions.md#reference_BBE83F513B5B4E03BBC3F50D90864245) using the selector option.
 
-## Example {#section_9C1E75D9E4BA4DC7879D2B69877EB01A}
+### Example {#section_9C1E75D9E4BA4DC7879D2B69877EB01A}
 
 ```
 <div id="someId" class="mboxDefault"></div> 
@@ -475,15 +446,9 @@ Executes the request and applies the offer to the element identified by the `nod
 
 You can override settings in the at.js library using `targetGlobalSettings()`, rather than configuring the settings in the [!DNL Target] Standard/Premium UI or by using REST APIs.
 
-<!-- 
-
-ov2/c_atjs-settings-override.xml
-
- -->
-
 There are use cases, especially when at.js is delivered via [!DNL Dynamic Tag Management] (DTM) when you would like to override some of the settings.
 
-## Settings {#section_42C759AE9B524A43B8659018677224B8}
+### Settings {#section_42C759AE9B524A43B8659018677224B8}
 
 You can override the following settings:
 
@@ -619,7 +584,7 @@ You can override the following settings:
  </tbody> 
 </table>
 
-## Usage {#section_9AD6FA3690364F7480C872CB55567FB0}
+### Usage {#section_9AD6FA3690364F7480C872CB55567FB0}
 
 This function can be defined before at.js is loaded or in **[!UICONTROL Setup]** > **[!UICONTROL Implementation]** > **[!UICONTROL Edit at.js Settings]** > **[!UICONTROL Code Settings]** > **[!UICONTROL Library Header]**.
 
@@ -850,12 +815,6 @@ targetPageParams = function() {
 
 This method allows you to attach parameters to all mboxes from outside of the request code.
 
-<!-- 
-
-ov2/r_target-atjs-targetpageparamsall.xml
-
- -->
-
 This is very useful for including the same set of parameters on multiple mbox calls. The function needs to be defined by the customer. It should return an array of parameters that will be passed to all mbox requests on the page. This function can be defined before at.js is loaded or in **[!UICONTROL Setup]** > **[!UICONTROL Implementation]** > **[!UICONTROL Edit at.js Settings]** > **[!UICONTROL Code Settings]** > **[!UICONTROL Library Header]**.
 
 You can pass in parameters to target-global-mbox using the targetPageParamsAll() function in any of the following ways:
@@ -903,12 +862,6 @@ targetPageParamsAll = function() {
 
 Provides a standard way to register a specific extension.
 
-<!-- 
-
-ov2/r_target-atjs-registerextension.xml
-
- -->
-
 The options parameter is mandatory and has the following structure:
 
 <table id="table_46A93D7071DE4A3F84D6E05FFC849EAF"> 
@@ -949,7 +902,7 @@ Notes:
 
 For more information and examples of how to use `registerExtension`, see the [Adobe Experience Cloud Target atjs Extensions](https://github.com/Adobe-Marketing-Cloud/target-atjs-extensions) page on GitHub.
 
-## Settings Module Methods {#section_8501CDD4B0624FA2B10532C98C5F4328}
+### Settings Module Methods {#section_8501CDD4B0624FA2B10532C98C5F4328}
 
 <table id="table_8A5991797599470C87EBB022783087D6"> 
  <thead> 
@@ -988,7 +941,7 @@ For more information and examples of how to use `registerExtension`, see the [Ad
  </tbody> 
 </table>
 
-## Logger Module Methods {#section_10AF62B49AEF48F981E950D26E176138}
+### Logger Module Methods {#section_10AF62B49AEF48F981E950D26E176138}
 
 <table id="table_D76DD582EF9A432BB1B5B7F1DD2D853E"> 
  <thead> 
@@ -1016,12 +969,6 @@ For more information and examples of how to use `registerExtension`, see the [Ad
 
 Information about `at.js custom events`, which lets you know when an mbox request or offer fails or succeeds.
 
-<!-- 
-
-ov2/r_target-atjs-notification.xml
-
- -->
-
 Historically, mbox.js didn't let other JavaScript code that runs on the page know what happens behind the scenes. With the advancement of at.js, we had a unique opportunity to fix this issue.
 
 According to our customers there are several scenarios that they would like to be notified of, including:
@@ -1035,7 +982,7 @@ Pre-defined events have a structure that allows you to extract the required data
 
 To make sure that events can be used in different scenarios, the custom events have a payload object that is assigned to the detail property of the event object (that is passed to the handler). Also to avoid passing strings as event names, the events are exposed as constants using `adobe.target.event` namespace.
 
-## Structure {#section_0E5C9A13DE234A5DAECBCBF9F23F94FE}
+### Structure {#section_0E5C9A13DE234A5DAECBCBF9F23F94FE}
 
 <table id="table_5B00CCB9BA3C4EE491D6460450823680"> 
  <thead> 
@@ -1073,7 +1020,7 @@ To make sure that events can be used in different scenarios, the custom events h
  </tbody> 
 </table>
 
-## Usage {#section_0500FF09D3A04450B5DC8F85C6F793E0}
+### Usage {#section_0500FF09D3A04450B5DC8F85C6F793E0}
 
 ```
 document.addEventListener(adobe.target.event.REQUEST_SUCCEEDED, function(event) { 
@@ -1081,9 +1028,8 @@ document.addEventListener(adobe.target.event.REQUEST_SUCCEEDED, function(event) 
 });
 ```
 
-## Training Video {#section_ED304A7137DC42A4BDCD6D57C989F1FA}
+### Training Video {#section_ED304A7137DC42A4BDCD6D57C989F1FA}
 
 Watch the following video to learn how to use Response Tokens and at.js Custom Events to share profile information from Target to third-party systems.
 
 >[!VIDEO](https://video.tv.adobe.com/v/23253/)
-
