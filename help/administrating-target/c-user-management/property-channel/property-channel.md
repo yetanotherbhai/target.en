@@ -26,11 +26,11 @@ Information about creating properties and using the Properties and Permissions f
 >
 >**[!DNL Target Standard] Customers**: If you see the [!UICONTROL Users] tab ([!UICONTROL Setup > Users]), your organization has a [!DNL Target Standard] license. [!DNL Target Standard]customers should follow the instructions in [Users](/help/administrating-target/c-user-management/c-user-management/user-management.md) to add users and assign permissions in the Adobe Admin Console.
 >
->[!DNL Target Standard] users see the following error message when clicking the !UICONTROL Properties] tab. There is nothing wrong with [!DNL Target]. !UICONTROL Target Standard] users do not have access to the [!DNL Target Premium] !UICONTROL Enterprise Permissions] functionality.
+>[!DNL Target Standard] users see the following error message when clicking the [!UICONTROL Properties] tab. There is nothing wrong with [!DNL Target]. [!UICONTROL Target Standard] users do not have access to the [!DNL Target Premium] [!UICONTROL Enterprise Permissions] functionality.
 >
 >![Error message](/help/administrating-target/c-user-management/property-channel/assets/sorry.png)
 >
->**[!DNL Target Premium] Customers**: If you see the !UICONTROL Properties] tab (!UICONTROL Setup > Properties]), your organization has a [!DNL Target Premium] license. [!DNL Target Premium] customers should follow the instructions in this article and in [Configure enterprise permissions](/help/administrating-target/c-user-management/property-channel/properties-overview.md).
+>**[!DNL Target Premium] Customers**: If you see the [!UICONTROL Properties] tab ([!UICONTROL Setup > Properties]), your organization has a [!DNL Target Premium] license. [!DNL Target Premium] customers should follow the instructions in this article and in [Configure enterprise permissions](/help/administrating-target/c-user-management/property-channel/properties-overview.md).
 
 >[!IMPORTANT]
 >
@@ -118,12 +118,7 @@ The new Permissions functionality can be seen in various places in the [!DNL Tar
 
 Consider the following when using or configuring properties and permissions in Target Premium:
 
-* 
-
-  >[!IMPORTANT]
-  >
-  >Do not delete workspaces with activities. If this happens, work with client care to recover those activities.
-
+* **Important**: Do not delete workspaces with activities. If this happens, work with client care to recover those activities.
 * When using the All My Workspaces view:
 
     * You can see activities, audiences, and offers for all workspaces that you have the proper roles and permissions to access. 
