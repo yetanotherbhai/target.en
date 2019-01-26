@@ -14,10 +14,6 @@ uuid: 79d7caf6-5693-4bb3-9131-8d1ae420fa5e
 
 Use a Redirector similarly to how you use an mbox in your tests.
 
-## Work with redirectors {#concept_D5EF059F4DC94C67A8B684C9F9910EE4}
-
-Use a Redirector similarly to how you use an mbox in your tests. 
-
 Redirectors are created with a special Redirector URL that loads a Redirector mbox (Redirector) into your account. Use this Redirector similarly to how you use an mbox in your tests. Submit the Redirector URL to your Ad Network as the ad's destination link.
 
 Use the Redirector to do the following:
@@ -35,12 +31,6 @@ For help deciding the right setup see [Non-JavaScript-Based Implementations](../
 ## Create a Redirector {#task_76608B0F73FC45C4A9F125B894DCF821}
 
 Before you can use a redirector, you must create it.
-
-<!-- 
-
-ov2/t_creating-a-redirector.xml
-
- -->
 
 1. Determine the ad's destination variations, including the default destination.
 1. Create the Redirector URL.
@@ -98,7 +88,7 @@ ov2/c_using-a-redirector-to-pass-costs-per-click-and-revenue-per-click.xml
 
  -->
 
-## Passing Costs per Click {#section_DEB889470F7D4360B5CEA85FD05DEDFA}
+### Passing Costs per Click {#section_DEB889470F7D4360B5CEA85FD05DEDFA}
 
 Use a redirector to pass the costs per click.
 
@@ -115,7 +105,7 @@ https://<your_clientcode>.tt.omtrdc.net/​m2/yourclientcode/ubox/​page?mbox=r
 &mboxPageValue=-0.1&mboxDefault=​https://www.yourcompany.com/usualdestination.htm
 ```
 
-## Passing Revenue per Click {#section_3E48AC465E7D42DAAC51B4BFF83F64B1}
+### Passing Revenue per Click {#section_3E48AC465E7D42DAAC51B4BFF83F64B1}
 
 Use a redirector to pass the revenue per click.
 

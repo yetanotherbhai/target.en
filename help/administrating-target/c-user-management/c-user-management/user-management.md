@@ -14,17 +14,14 @@ uuid: 9b311dd3-b8fa-483d-aedd-96761cfcd67e
 
 You can add users and manage their permissions in the Adobe Admin Console.
 
-<table id="table_FD223AA7282243338769C27AC146FD51"> 
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p> Properties and Permissions functionality is available as part of the <span class="keyword"> Target Premium</span> solution. They are not available in <span class="keyword"> Target Standard</span> without a <span class="keyword"> Target Premium</span> license. </p> <p>You can tell whether your organization has a Standard or Premium license by clicking the <span class="wintitle"> Setup</span> link at the top of the Target UI. </p> <p> 
-     <ul id="ul_829C5A2E317C40DDAB679A3AC9B67DC3"> 
-      <li id="li_DB7A95A7929E457EACE6E8D531E36CA2"> <p><b>Target Standard Customers: </b>If you see the <span class="wintitle"> Users</span> tab (<span class="wintitle"> Setup</span> &gt; <span class="wintitle"> Users</span>), your organization has a Target Standard license. Target Standard customers should follow the instructions in this topic to add users and assign permissions in the Adobe Admin Console. </p> </li> 
-      <li id="li_7DA386EFE11F4F5F82125B7E07D0145C"> <p><b>Target Premium Customers: </b>If you see the <span class="wintitle"> Properties</span> tab (<span class="wintitle"> Setup</span> &gt; <span class="wintitle"> Properties</span>), your organization has a Target Premium license. Target Premium customers should follow the instructions in <a href="../../../administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838" format="dita" scope="local"> Enterprise User Permissions</a> and <a href="../../../administrating-target/c-user-management/property-channel/properties-overview.md#concept_22F2855DBF0D4754B9460F5D68749C71" format="dita" scope="local"> Configure Enterprise Permissions</a> to add users and assign permissions in the Adobe Admin Console. </p> </li> 
-     </ul> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+>[!NOTE]
+>
+>[!UICONTROL Properties] and [!UICONTROL Permissions] functionality is available as part of the [!DNL Target] Premium solution. They are not available in [!DNL Target] Standard without a [!DNL Target] Premium license.
+>You can tell whether your organization has a Standard or Premium license by clicking the [!UICONTROL Setup] link at the top of the [!DNL Target] UI.
+>
+>**[!DNL Target] Standard Customers**: If you see the [!UICONTROL Users] tab ([!UICONTROL Setup > Users]), your organization has a [!DNL Target] Standard license. [!DNL Target Standard customers should follow the instructions in this topic to add users and assign permissions in the [!DNL Adobe Admin Console].
+>
+>**[!DNL Target] Premium Customers**: If you see the [!UICONTROL Properties] tab ([!UICONTROL Setup > Properties]), your organization has a [!DNL Target] Premium license. [!DNL Target] Premium customers should follow the instructions in [Enterprise user permissions](/help/administrating-target/c-user-management/property-channel/property-channel.md) and [Configure enterprise permissions](/help/administrating-target/c-user-management/property-channel/properties-overview.md) to add users and assign permissions in the [!DNL Adobe Admin Console].
 
 Only system admin users can add users and manage their permissions. The system admin role is assigned at the [!DNL Experience Cloud] level. [!DNL Experience Cloud] roles are separate from the roles managed in each solution.
 
@@ -64,7 +61,7 @@ You can create user groups, such as Developers, Analysts, Marketers, Executives,
 
 ## Specify Roles and Permissions {#section_8C425E43E5DD4111BBFC734A2B7ABC80}
 
-Only system admins can set user roles in Target. For example, a Standard approver user cannot change an observer to an approver, without also having Experience Cloud Admin rights.
+Only system admins can set user roles in [!DNL Target]. For example, a Standard approver user cannot change an observer to an approver, without also having Experience Cloud Admin rights.
 
 System admin users must add users to the system. Users are not automatically added. They are invited by email from the Experience Cloud and must confirm their email addresses before their accounts are registered.
 
@@ -81,27 +78,10 @@ System admin users must add users to the system. Users are not automatically add
 
 1. Select the desired permissions role (Observer, Editor, or Approver) by using the drop-down list for each user in the [!UICONTROL Product Role] column.
 
-<table id="table_92B2935FEB0A4DFEAC24C074EDEBD409"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Role </th> 
-   <th colname="col2" class="entry"> Description </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Observer </p> </td> 
-   <td colname="col2"> <p>Can view activities, but cannot create or edit them. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Editor </p> </td> 
-   <td colname="col2"> <p>Can create and edit activities before they are live, but cannot approve the launch of an activity. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Approver </p> </td> 
-   <td colname="col2"> <p> Can create, edit, and activate or stop activities. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Role | Description |
+|--- |--- |
+|Observer|Can view activities, but cannot create or edit them.|
+|Editor|Can create and edit activities before they are live, but cannot approve the launch of an activity.|
+|Approver|Can create, edit, and activate or stop activities.|
 
 For more information, see [Manage Product Permissions and Roles in the Admin Console](https://helpx.adobe.com/enterprise/help/manage-permissions-and-roles.html) in the *Enterprise User Guide*. 
