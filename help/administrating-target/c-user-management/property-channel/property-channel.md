@@ -16,19 +16,19 @@ badge: premium
 
 Information about creating properties and using the Properties and Permissions functionality that lets Target administrators create separate workspaces (product profiles) in Target and then assign users different roles and permissions for individual pages, properties, or web sites based on these workspaces.
 
+## Determine Whether You Have Access to Enterprise User Permissions
+
 >[!NOTE]
 >
 >Properties and Permissions functionality is available as part of the Target Premium solution. They are not available in Target Standard without a Target Premium license.
 >
 >Your Target implementation can be using any version of at.js or mbox.js.
 
-## Determine Whether You Have Access to Enterprise User Permissions
-
 You can tell whether your organization has a Standard or Premium license by clicking the [!UICONTROL Setup] link at the top of the [!DNL Target] UI.
 
 * **[!DNL Target Standard] Customers**: If you see the [!UICONTROL Users] tab ([!UICONTROL Setup > Users]), your organization has a [!DNL Target Standard] license. [!DNL Target Standard]customers should follow the instructions in [Users](/help/administrating-target/c-user-management/c-user-management/user-management.md) to add users and assign permissions in the Adobe Admin Console.
 
-  [!DNL Target Standard] users see the following error message when clicking the [!UICONTROL Properties] tab. There is nothing wrong with [!DNL Target]. [!UICONTROL Target Standard] users do not have access to the [!DNL Target Premium] [!UICONTROL Enterprise Permissions] functionality.
+  [!DNL Target Standard] users see the following error message when clicking the [!UICONTROL Properties] tab. There is nothing wrong with [!DNL Target]. [!DNL Target Standard] users do not have access to the [!DNL Target Premium] [!UICONTROL Enterprise Permissions] functionality.
 
   ![Error message](/help/administrating-target/c-user-management/property-channel/assets/sorry.png)
 
@@ -46,8 +46,8 @@ The following terms are used throughout this section and might be new to users w
 
 | Term | Definition |
 |--- |--- |
-|Property|Properties are similar in nature to those within  Dynamic Tag Management  (  Activation ) in that they use a unique snippet of code to differentiate them.<br>A web property is a library of rules and one embed code. A web property can be any grouping of one or more domains and subdomains.<br>Properties are enabled by adding a specific name/value pair as a parameter with any call (mbox, api, etc.) to Target.<br>Properties belong to specific channels (Web, Mobile, Email, or API/Other).|
-|Workspace (Product Profile)|A workspace lets an organization assign a specific set of users to a specific set of properties. In many ways, a workspace is similar to a report suite in [!DNL Adobe Analytics].<br>** Note**:  Workspaces are known as [!UICONTROL Product Profiles] in the [!DNL Adobe Admin Console for Enterprise].<br>If you are part of a multi-national organization, you might have a workspace for your European web pages, properties, or sites and another workspace for your American web pages, properties, or sites. If you are part of a multi-brand organization, you might have a separate workspace for each of your brands.<br>Users can be part of multiple workspaces and can even have different roles within each workspace.<br>Users can have different views of Adobe Target by moving between workspaces, similar to how Analytics users have different views of Analytics by moving between Report Suites.<br>Workspaces can include complete different audiences, code offers, and activities.<br>All audiences and activities created before the new Enterprise Permissions model migration will be grouped together in the "Default Workspace," discussed below.<br>All activities created via Adobe Experience Manager (AEM), Adobe Mobile Services, and Adobe Target Classic will be part of the "Default Workspace."|
+|Property|Properties are similar in nature to those within [!DNL Dynamic Tag Management] (Activation) in that they use a unique snippet of code to differentiate them.<br>A web property is a library of rules and one embed code. A web property can be any grouping of one or more domains and subdomains.<br>Properties are enabled by adding a specific name/value pair as a parameter with any call (mbox, api, etc.) to Target.<br>Properties belong to specific channels (Web, Mobile, Email, or API/Other).|
+|Workspace (Product Profile)|A workspace lets an organization assign a specific set of users to a specific set of properties. In many ways, a workspace is similar to a report suite in [!DNL Adobe Analytics].<br>** Note**: Workspaces are known as [!UICONTROL Product Profiles] in the [!DNL Adobe Admin Console for Enterprise].<br>If you are part of a multi-national organization, you might have a workspace for your European web pages, properties, or sites and another workspace for your American web pages, properties, or sites. If you are part of a multi-brand organization, you might have a separate workspace for each of your brands.<br>Users can be part of multiple workspaces and can even have different roles within each workspace.<br>Users can have different views of Adobe Target by moving between workspaces, similar to how Analytics users have different views of Analytics by moving between Report Suites.<br>Workspaces can include complete different audiences, code offers, and activities.<br>All audiences and activities created before the new Enterprise Permissions model migration will be grouped together in the "Default Workspace," discussed below.<br>All activities created via Adobe Experience Manager (AEM), Adobe Mobile Services, and Adobe Target Classic will be part of the "Default Workspace."|
 |Default Workspace|All existing workspaces (product profiles) within Admin Console are merged into a single workspace called "Default Workspace" during your organization's migration to the new Enterprise Permissions model.<br>**Important**: Do not delete the Default Workspace.<br>All user roles and access to all Target functionality remains exactly the same as they were prior to the migration to the new Enterprise Permissions model.|
 |User Groups|You can create user groups, such as Developers, Analysts, Marketers, Executives, etc., and then assign privileges across multiple Adobe products and workspaces. Assigning a new team member all the appropriate privileges across different Adobe products can be as easy as adding them to a specific user group.|
 |Roles and Permissions|Roles and permissions determine the access levels that users have to create and manage activities in your Target implementation. In Target, roles include the following:<ul></li>Observer: Can view activities, but cannot create or edit them.</li><li>Editor: Can create and edit activities before they are live, but cannot approve the launch of an activity.</li><li>Approver: Can create, edit, and activate or stop activities.</li></ul>|
@@ -160,8 +160,6 @@ Unfortunately, you cannot move activities from one workspace to another. However
 Activities created before the migration continue to run the same way in the Default Workspace unless they are edited and assigned properties. Activities under a specific workspace will honor properties assigned to that workspace and, therefore, behavior might not remain same as before the migration. 
 
 ## Training video: Enterprise Permissions Training Video {#section_2FA080303A064242B63FF16CFA6DB31D}
-
-This video explains the Enterprise Permissions.
 
 Learning objectives:
 
