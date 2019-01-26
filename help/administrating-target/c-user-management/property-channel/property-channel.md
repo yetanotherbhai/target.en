@@ -44,14 +44,60 @@ You can tell whether your organization has a Standard or Premium license by clic
 
 The following terms are used throughout this section and might be new to users wanting to use the Properties and Permissions functionality in Target Premium.
 
-| Term | Definition |
-|--- |--- |
-|Property|Properties are similar in nature to those within [!DNL Dynamic Tag Management] (Activation) in that they use a unique snippet of code to differentiate them.<br>A web property is a library of rules and one embed code. A web property can be any grouping of one or more domains and subdomains.<br>Properties are enabled by adding a specific name/value pair as a parameter with any call (mbox, api, etc.) to Target.<br>Properties belong to specific channels (Web, Mobile, Email, or API/Other).|
-|Workspace (Product Profile)|A workspace lets an organization assign a specific set of users to a specific set of properties. In many ways, a workspace is similar to a report suite in [!DNL Adobe Analytics].<br>**Note**: Workspaces are known as [!UICONTROL Product Profiles] in the [!DNL Adobe Admin Console for Enterprise].<br>If you are part of a multi-national organization, you might have a workspace for your European web pages, properties, or sites and another workspace for your American web pages, properties, or sites. If you are part of a multi-brand organization, you might have a separate workspace for each of your brands.<br>Users can be part of multiple workspaces and can even have different roles within each workspace.<br>Users can have different views of Adobe Target by moving between workspaces, similar to how Analytics users have different views of Analytics by moving between Report Suites.<br>Workspaces can include complete different audiences, code offers, and activities.<br>All audiences and activities created before the new Enterprise Permissions model migration will be grouped together in the "Default Workspace," discussed below.<br>All activities created via Adobe Experience Manager (AEM), Adobe Mobile Services, and Adobe Target Classic will be part of the "Default Workspace."|
-|Default Workspace|All existing workspaces (product profiles) within Admin Console are merged into a single workspace called "Default Workspace" during your organization's migration to the new Enterprise Permissions model.<br>**Important**: Do not delete the Default Workspace.<br>All user roles and access to all Target functionality remains exactly the same as they were prior to the migration to the new Enterprise Permissions model.|
-|User Groups|You can create user groups, such as Developers, Analysts, Marketers, Executives, etc., and then assign privileges across multiple Adobe products and workspaces. Assigning a new team member all the appropriate privileges across different Adobe products can be as easy as adding them to a specific user group.|
-|Roles and Permissions|Roles and permissions determine the access levels that users have to create and manage activities in your Target implementation. In Target, roles include the following:<ul></li>Observer: Can view activities, but cannot create or edit them.</li><li>Editor: Can create and edit activities before they are live, but cannot approve the launch of an activity.</li><li>Approver: Can create, edit, and activate or stop activities.</li></ul>|
-|Channel|Channel refers to the content type of where your  Target  activities are delivered: webpages, mobile apps, email messages, and so forth.<br>When you create a new activity, it is created in the currently selected workspace. You'll see channel selection options in the first dialog box that lets you choose the desired channel for the activity: Web, Mobile App, Email, or Other/API.|
+### Property
+
+Properties are similar in nature to those within Dynamic Tag Management (Activation) in that they use a unique snippet of code to differentiate them.
+
+A web property is a library of rules and one embed code. A web property can be any grouping of one or more domains and subdomains.
+
+Properties are enabled by adding a specific name/value pair as a parameter with any call (mbox, api, etc.) to Target.
+Properties belong to specific channels (Web, Mobile, Email, or API/Other).
+
+### Workspace (Product Profile)
+
+A workspace lets an organization assign a specific set of users to a specific set of properties. In many ways, a workspace is similar to a report suite in Adobe Analytics.
+
+Note: Workspaces are known as Product Profiles in the Adobe Admin Console for Enterprise.
+
+If you are part of a multi-national organization, you might have a workspace for your European web pages, properties, or sites and another workspace for your American web pages, properties, or sites. If you are part of a multi-brand organization, you might have a separate workspace for each of your brands.
+
+Users can be part of multiple workspaces and can even have different roles within each workspace.
+
+Users can have different views of Adobe Target by moving between workspaces, similar to how Analytics users have different views of Analytics by moving between Report Suites.
+
+Workspaces can include complete different audiences, code offers, and activities.
+
+All audiences and activities created before the new Enterprise Permissions model migration will be grouped together in the "Default Workspace," discussed below.
+
+All activities created via Adobe Experience Manager (AEM), Adobe Mobile Services, and Adobe Target Classic will be part of the "Default Workspace."
+
+### Default Workspace
+
+All existing workspaces (product profiles) within Admin Console are merged into a single workspace called "Default Workspace" during your organization's migration to the new Enterprise Permissions model.
+
+>[!IMPORTANT]
+>
+>Do not delete the Default Workspace.
+
+All user roles and access to all Target functionality remains exactly the same as they were prior to the migration to the new Enterprise Permissions model.
+
+### User Groups
+
+You can create user groups, such as Developers, Analysts, Marketers, Executives, etc., and then assign privileges across multiple Adobe products and workspaces. Assigning a new team member all the appropriate privileges across different Adobe products can be as easy as adding them to a specific user group.
+
+### Roles and Permissions
+
+Roles and permissions determine the access levels that users have to create and manage activities in your Target implementation. In Target, roles include the following:
+
+* Observer: Can view activities, but cannot create or edit them.
+* Editor: Can create and edit activities before they are live, but cannot approve the launch of an activity.
+* Approver: Can create, edit, and activate or stop activities.
+
+### Channel
+
+Channel refers to the content type of where your Target activities are delivered: webpages, mobile apps, email messages,and so forth.
+
+When you create a new activity, it is created in the currently selected workspace. You'll see channel selection options in the first dialog box that lets you choose the desired channel for the activity: Web, Mobile App, Email, or Other/API.
 
 ## Permissions Overview {#section_DC2172520DA84605B218A5E9FB6D187A}
 
@@ -95,10 +141,28 @@ In this example, Jan cannot see the Product Pages, Russia Site, and the Careers 
 
 The following use cases might be helpful to understand how properties, projects, roles, and permissions can help you achieve your marketing goals with [!DNL Target]:
 
-| Type of Organization | Example Project and Permissions Structure |
-|--- |--- |
-|Multi-national organization|If you are part of a multi-national organization, you might have a workspace for your European web pages, properties, or sites and another workspace for your American web pages, properties, or sites.  After a reorganization, using the personas in the illustrations above, you might set up workspaces and permissions similar to the following:<br>**Jan**: Jan is the Head of Optimization in the Center of Excellence for her organization's United States web pages, properties, and sites. She most likely has System Admin rights in the [!DNL Adobe Experience Cloud].<br>In her role, she has [!UICONTROL Approver] permissions for the US Homepage and the US Site. With Approver permissions, she can create, edit, and activate or stop activities.<br>Jan also consults with the optimization team in France and, therefore, has [!UICONTROL Observer] permissions for the France Site that give her read-only access to activities. Jan can view activities, but cannot create or edit them.<br>Because Jan has no role that necessitates her seeing the Product Pages, Russia Site, or Careers Site, she cannot see activities for those sites.<br>**Ernie**: Ernie is a Marketing Manager for the organization in charge of marketing in the United States.<br>Because Ernie is fairly new to the organization and somewhat inexperienced with [!DNL Target], he has [!UICONTROL Editor] permissions for the US Homepage, US Site, and Product Pages. With [!UICONTROL Editor] permissions, Ernie can create and edit activities before they are live, but he cannot approve the launch of an activity—someone with [!UICONTROL Approval] permissions, such as Jan, must approve the activity before it can be put into production.<br>Because Ernie has no role that necessitates him seeing the Russia Site, France Site, or Careers Site, he cannot see activities for those sites.<br>**Diana**: Diana is now an Analyst for the organization and has been granted [!UICONTROL Observer] permissions for the US Homepage, US Site, Product Pages, Russia Site, and the France Site that give her read-only access to activities. Diana can view activities, but cannot create or edit them.<br>Because Diana has no role that necessitates her seeing the Careers Site, she cannot see activities for those sites.</li></ul>|
-|Multi-brand organization|If you are part of a multi-brand organization, you might have a separate workspace for each brand's web pages, properties, or sites.  After a reorganization, using the personas in the illustrations above, you might set up projects and permissions similar to the following:<br>**Jan**: Jan is the Head of Optimization in the Center of Excellence for a heath-care organization that operates in the hospital-product and consumer-product spaces. She most likely has System Admin rights in the [!DNL Adobe Experience Cloud].<br>In her role, she has [!UICONTROL Approver] permissions for the Hospital Site. With [!UICONTROL Approver] permissions, she can create, edit, and activate or stop activities.<br>Jan also consults with the optimization team in the consumer-products space and, therefore, has [!UICONTROL Observer] permissions for that site that give her read-only access to activities. Jan can view activities, but cannot create or edit them.<br>**Ernie**: Ernie is a Marketing Manager for the organization in charge of marketing in the consumer-product space.<br>Because Ernie is fairly new to the organization and somewhat inexperienced with [!DNL Target], he has [!UICONTROL Editor] permissions for the Consumer Site. With [!UICONTROL Editor] permissions, Ernie can create and edit activities before they are live, but he cannot approve the launch of an activity—someone with [!UICONTROL Approval] permissions for the Consumer Site, but not Jan in this scenario, must approve the activity before it can be put into production.<br>Because Ernie has no role that necessitates him seeing the Hospital Site, he cannot see activities for that site.<br>**Diana**: Diana is now an Analyst for the organization and has been granted [!UICONTROL Observer] permissions for the Hospital Site and the Consumer Site that give her read-only access to activities. Diana can view activities, but cannot create or edit them.</li></ul>|
+### Multi-national organization
+
+If you are part of a multi-national organization, you might have a workspace for your European web pages, properties, or sites and another workspace for your American web pages, properties, or sites.
+After a reorganization, using the personas in the illustrations above, you might set up workspaces and permissions similar to the following:
+
+**Jan**: Jan is the Head of Optimization in the Center of Excellence for her organization's United States web pages, properties, and sites. She most likely has System Admin rights in the Adobe Experience Cloud.
+
+In her role, she has Approver permissions for the US Homepage and the US Site. With Approver permissions, she can create, edit, and activate or stop activities.
+
+Jan also consults with the optimization team in France and, therefore, has Observer permissions for the France Site that give her read-only access to activities. Jan can view activities, but cannot create or edit them.
+
+Because Jan has no role that necessitates her seeing the Product Pages, Russia Site, or Careers Site, she cannot see activities for those sites.
+
+**Ernie**: Ernie is a Marketing Manager for the organization in charge of marketing in the United States.
+
+Because Ernie is fairly new to the organization and somewhat inexperienced with Target, he has Editor permissions for the US Homepage, US Site, and Product Pages. With Editor permissions, Ernie can create and edit activities before they are live, but he cannot approve the launch of an activity—someone with Approval permissions, such as Jan, must approve the activity before it can be put into production.
+
+Because Ernie has no role that necessitates him seeing the Russia Site, France Site, or Careers Site, he cannot see activities for those sites.
+
+**Diana**: Diana is now an Analyst for the organization and has been granted Observer permissions for the US Homepage, US Site, Product Pages, Russia Site, and the France Site that give her read-only access to activities. Diana can view activities, but cannot create or edit them.
+
+Because Diana has no role that necessitates her seeing the Careers Site, she cannot see activities for those sites.
 
 ## Target UI Property and Permissions Touchpoints {#section_3414371393BB42999A268628B5456EC9}
 
@@ -139,15 +203,27 @@ Consider the following when using or configuring properties and permissions in T
 
 * Users cannot move resources from one workspace (product profile) to another. Copy, however, is supported. 
 * When viewing audiences from the [!DNL Audiences] page, the page loads slower than expected. If you interact with the search bar in any way, audiences display faster. This is a known issue and will be fixed in an upcoming update. This issue does not affect selecting audiences during the activity-creation workflow. 
-* The following resources are or are not part of the new Enterprise Permissions model:
+* The following resources are part of the new Enterprise Permissions model:
 
-  | Are Part of New Enterprise Permissions Model | Are Not Part of New Enterprise Permissions Model |
-  |--- |--- |
-  |The following resources are part of the new Enterprise Permissions model:<ul><li>Activities, audiences, and code offers created within Target Standard/Premium after the customer is enabled for permissions. (Note: customers must be entitled to Target Premium.)</li><li>Properties can be added to existing activities in the Default Workspace; however, this is subject to change.</li></ul>|The following resources are not part of the new Enterprise Permissions model:<ul><li>Image offers</li><li>All Recommendations resources: Criteria Library, Design Library, Catalog,and Recommendations Setup</li></ul>|
-  |Only new resources (such as activities, code offers, and audiences) created within [!DNL Target Premium] (after [!UICONTROL Enterprise Permissions] are enabled) will be available to restrict by permissions.|Existing resources (such as activities, code offers, and audiences) created within [!DNL Target Premium] prior to enabling [!UICONTROL Enterprise Permissions] can be copied but cannot be moved to other workspaces.|
-  |External resources are available only to users in the Default Workspace. A user's role in the Default Workspace applies globally (to all Target requests and all Target resources).|Activities, audiences, code offers, image offers, or any other resource created using the following solutions or methods cannot be controlled by the [!UICONTROL Enterprise Permissions] model, but will be part of the Default Workspace:<ul><li>Target Classic</li><li>Adobe Experience Manager (AEM)</li><li>Adobe Mobile Services</li><li>Resources created via API (including activities, audiences, code offers, and image offers)</li></ul>|
-  ||Image offers (assets stored under `https://[tenantName].marketing.adobe.com/content/mac/[tenantName]/target/offers.html#image-library`) cannot be controlled by the [!UICONTROL Enterprise Permissions] model at this time.|
-  ||clickTracking and redirects will only work when the destination link or destination page are part of a property that is included in the activity. Additionally, clickTracking may not work when using the `targetPageParams()` function. The `targetPageParamsAll()` is the recommended function.<br>[!DNL Target] currently requires an `at_property` token to be present on any page where tracking occurs. In the event that the token is (1) not present, (2) not detected at the time of activity setup (within the VEC), or (3) not passed to the clickTracking mbox via the `targetPageParamsAll()` function, the metric will not be incremented and will appear as "0."<br>The same applies for activities using redirects. The destination page must have an `at_property` token and be recognized at the time of setup within the VEC.<br> In a future release, [!DNL Target] will work on pages where no `at_property` token is present or pages where a different `at_property` token is present.|
+  * Activities, audiences, and code offers created within Target Standard/Premium after the customer is enabled for permissions. (Note: customers must be entitled to Target Premium.)
+  * Properties can be added to existing activities in the Default Workspace; however, this is subject to change.
+  * Only new resources (such as activities, code offers, and audiences) created within Target Premium (after Enterprise Permissions are enabled) will be available to restrict by permissions.
+  * External resources are available only to users in the Default Workspace. A user's role in the Default Workspace applies globally (to all Target requests and all Target resources).
+
+* The following resources are *not* part of the new Enterprise Permissions model:
+
+  * Image offers
+  * All Recommendations resources, including Criteria Library, Design Library, Catalog, Recommendations Setup.
+  * Existing resources (such as activities, code offers, and audiences) created within Target Premium prior to enabling Enterprise Permissions can be copied but cannot be moved to other workspaces.
+  * Activities, audiences, code offers, image offers, or any other resource created using the following solutions or methods cannot be controlled by the Enterprise Permissions model, but will be part of the Default Workspace: Target Classic, Adobe Experience Manager (AEM), Adobe Mobile Services, and resources created via API. Resources created via API include activities, audiences, code offers, and image offers).
+  * Image offers (assets stored under `https://[tenantName].marketing.adobe.com/content/mac/[tenantName]/target/offers.html#image-library` cannot be controlled by the Enterprise Permissions model at this time.
+  * clickTracking and redirects will only work when the destination link or destination page are part of a property that is included in the activity. Additionally, clickTracking may not work when using the `targetPageParams()` function. The `targetPageParamsAll()` is the recommended function.
+
+  Target currently requires an `at_property` token to be present on any page where tracking occurs. In the event that the token is (1) not present, (2) not detected at the time of activity setup (within the VEC), or (3) not passed to the clickTracking mbox via the `targetPageParamsAll()` function, the metric will not be incremented and will appear as "0."
+
+  The same applies for activities using redirects. The destination page must have an `at_property` token and be recognized at the time of setup within the VEC.
+
+  In a future release, Target will work on pages where no `at_property` token is present or pages where a different `at_property` token is present.
 
 * The Enterprise User Permissions functionality is not supported in [Adobe I/O API calls](https://developers.adobetarget.com).
 
