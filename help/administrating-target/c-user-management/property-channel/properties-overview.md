@@ -75,10 +75,10 @@ Users can be part of multiple workspaces and can even have different roles withi
 
    You can use these workspaces to divide access to different teams by region, business unit, site section, or via any other method you choose. Users can be part of multiple workspaces and can have different roles within each workspace.
 
+1. Follow the instructions in [Create and Manage Product Configurations](https://helpx.adobe.com/enterprise/help/manage-products-and-configurations.html) in the *Enterprise User Guide*.
+
 >[!NOTE]
 >See the training video below for more information about configuring workspaces.
-
-1. Follow the instructions in [Create and Manage Product Configurations](https://helpx.adobe.com/enterprise/help/manage-products-and-configurations.html) in the *Enterprise User Guide*.
 
 ## Step 3. Create User Groups (Optional) {#section_5F5CB9AA7A9F4D26953E22016DA59605}
 
@@ -182,7 +182,7 @@ To use the [!DNL Target] user-permissions functionality, you must add the `at_pr
 
 ## Training videos
 
-**How to Configure Target Workspaces (6:55)**
+### How to Configure Target Workspaces (6:55)
 
 This video explains how to create workspaces.
 
@@ -196,7 +196,7 @@ This video explains how to create workspaces.
 
 >[!VIDEO](https://video.tv.adobe.com/v/19463/)
 
-**How to Create Properties in Adobe Target (3:05).**
+### How to Create Properties in Adobe Target (3:05)
 
 * How to create a property within the [!DNL Adobe Target] interface 
 * How to generate a property token to include in your property implementation 
