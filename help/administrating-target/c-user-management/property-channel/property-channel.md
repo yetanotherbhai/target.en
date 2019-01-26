@@ -21,16 +21,20 @@ Information about creating properties and using the Properties and Permissions f
 >Properties and Permissions functionality is available as part of the Target Premium solution. They are not available in Target Standard without a Target Premium license.
 >
 >Your Target implementation can be using any version of at.js or mbox.js.
->
->You can tell whether your organization has a Standard or Premium license by clicking the [!UICONTROL Setup] link at the top of the [!DNL Target] UI.
->
->**[!DNL Target Standard] Customers**: If you see the [!UICONTROL Users] tab ([!UICONTROL Setup > Users]), your organization has a [!DNL Target Standard] license. [!DNL Target Standard]customers should follow the instructions in [Users](/help/administrating-target/c-user-management/c-user-management/user-management.md) to add users and assign permissions in the Adobe Admin Console.
->
->[!DNL Target Standard] users see the following error message when clicking the [!UICONTROL Properties] tab. There is nothing wrong with [!DNL Target]. [!UICONTROL Target Standard] users do not have access to the [!DNL Target Premium] [!UICONTROL Enterprise Permissions] functionality.
->
->![Error message](/help/administrating-target/c-user-management/property-channel/assets/sorry.png)
->
->**[!DNL Target Premium] Customers**: If you see the [!UICONTROL Properties] tab ([!UICONTROL Setup > Properties]), your organization has a [!DNL Target Premium] license. [!DNL Target Premium] customers should follow the instructions in this article and in [Configure enterprise permissions](/help/administrating-target/c-user-management/property-channel/properties-overview.md).
+
+## Determine Whether You Have Access to Enterprise User Permissions
+
+You can tell whether your organization has a Standard or Premium license by clicking the [!UICONTROL Setup] link at the top of the [!DNL Target] UI.
+
+* **[!DNL Target Standard] Customers**: If you see the [!UICONTROL Users] tab ([!UICONTROL Setup > Users]), your organization has a [!DNL Target Standard] license. [!DNL Target Standard]customers should follow the instructions in [Users](/help/administrating-target/c-user-management/c-user-management/user-management.md) to add users and assign permissions in the Adobe Admin Console.
+
+  [!DNL Target Standard] users see the following error message when clicking the [!UICONTROL Properties] tab. There is nothing wrong with [!DNL Target]. [!UICONTROL Target Standard] users do not have access to the [!DNL Target Premium] [!UICONTROL Enterprise Permissions] functionality.
+
+  ![Error message](/help/administrating-target/c-user-management/property-channel/assets/sorry.png)
+
+* **[!DNL Target Premium] Customers**: If you see the [!UICONTROL Properties] tab ([!UICONTROL Setup > Properties]), your organization has a [!DNL Target Premium] license. [!DNL Target Premium] customers should follow the instructions in this article and in [Configure enterprise permissions](/help/administrating-target/c-user-management/property-channel/properties-overview.md).
+
+## Before You Get Started with Enterprise Permissions
 
 >[!IMPORTANT]
 >
