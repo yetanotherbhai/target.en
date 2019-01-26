@@ -41,7 +41,7 @@ The following are known issues with Recommendations activities:
 
 * Recommended products might not display values up to two decimal points. For example, if you try to display the value in the design as 35.00, Recommendations displays 35 (no decimal points rather than two decimal points). (RECS-5972)
 
-  **Workaround**: Pass the value of the entity into two entity.attributes . The first, \`entity.value\`, is a reserved parameter that expects a double. The second, can be a custom entity.attribute that will store the value of the entity as a string to allow for proper rending.
+  **Workaround**: Pass the value of the entity into two entity.attributes . The first, `entity.value`, is a reserved parameter that expects a double. The second, can be a custom entity.attribute that will store the value of the entity as a string to allow for proper rending.
   
   For example:
 
