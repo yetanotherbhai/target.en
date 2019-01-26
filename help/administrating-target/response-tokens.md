@@ -22,24 +22,10 @@ A key difference between plug-ins and response tokens is that while plug-ins del
 >
 >Response tokens are available with [!DNL at.js] 1.1 or later. Response tokens are not supported with mbox.js.
 
-<table id="table_320ECAEC1777428092BAE18ADF760FA1"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Target Library in Use </th> 
-   <th colname="col2" class="entry"> Suggested Actions </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>at.js </p> </td> 
-   <td colname="col2"> <p>Ensure that you are using <span class="filepath"> at.js </span> version 1.1 or later. For information about downloading the latest version of at.js, see <a href="../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_1E1F958F9CCC4E35AD97581EFAF659E2" format="dita" scope="local"> Download at.js </a>. For information about new functionality in each version of at.js, see <a href="../c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A" format="dita" scope="local"> at.js Version Details </a>. </p> <p>Customers using <span class="filepath"> at.js </span> are encouraged to use response tokens and move away from plugins. Some plugins that rely on internal methods that exist in <span class="filepath"> mbox.js </span>, but not in <span class="filepath"> at.js </span>, will be delivered but will fail. For more information, see <a href="../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-limitations.md#concept_FA99E4D6EC274552BF45E01AFB76CCAE" format="dita" scope="local"> at.js Limitations </a>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>mbox.js </p> </td> 
-   <td colname="col2"> <p>Plugins will continue to be supported and delivered when using <span class="filepath"> mbox.js </span>. </p> <p>However, customers using <span class="filepath"> mbox.js </span> and plugins are encouraged to move to <span class="filepath"> at.js </span> and response tokens. For information about the advantages of using <span class="filepath"> at.js </span> over <span class="filepath"> mbox.js </span>, see <a href="../c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md#concept_D6EFE8D84A06476DB5ABD494D7E8C769" format="dita" scope="local"> at.js Frequently Asked Questions </a>. For information about migrating, see <a href="../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA" format="dita" scope="local"> Migrate to at.js from mbox.js </a>. </p> <p>After the deprecation of <span class="keyword"> Target Classic </span> (November 2017), you might need to contact Client Care to edit or disable existing plugins. You should have audited your plugins before <span class="keyword"> Target Classic </span> was deprecated and disabled unwanted plugins. </p> <p>You cannot create new plugins in Target Standard/Premium. Instead, use response tokens. </p> <p>Old SiteCatalyst plugins should be disabled and replaced with <a href="../c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE" format="dita" scope="local"> Adobe Analytics as the Reporting Source for Adobe Target (A4T) </a>. The ttMeta plugin should be disabled and replaced with the <a href="https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj" format="https" scope="external"> Adobe Experience Cloud Debugger </a>. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Target Library in Use | Suggested Actions |
+|--- |--- |
+|at.js|Ensure that you are using at.js version 1.1 or later. For information about downloading the latest version of at.js, see [Download at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md). For information about new functionality in each version of at.js, see [at.js Version Details](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).<br>Customers using at.js are encouraged to use response tokens and move away from plugins. Some plugins that rely on internal methods that exist in mbox.js, but not in at.js, will be delivered but will fail. For more information, see [at.js Limitations](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-limitations.md).|
+|mbox.js|Plugins will continue to be supported and delivered when using mbox.js.<br>However, customers using mbox.js and plugins are encouraged to move to at.js and response tokens. For information about the advantages of using at.js over mbox.js, see [at.js Frequently Asked Questions](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md). For information about migrating, see [Migrate to at.js from mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md).<br>After the deprecation of Target Classic (November 2017), you might need to contact Client Care to edit or disable existing plugins. You should have audited your plugins before Target Classic was deprecated and disabled unwanted plugins.<br>You cannot create new plugins in Target Standard/Premium. Instead, use response tokens.<br>Old SiteCatalyst plugins should be disabled and replaced with [Adobe Analytics as the Reporting Source for Adobe Target](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T). The ttMeta plugin should be disabled and replaced with the [Adobe Experience Cloud Debugger](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj).|
 
 ## Using Response Tokens {#section_A9E141DDCBA84308926E68D05FD2AC62}
 
@@ -55,72 +41,19 @@ A key difference between plug-ins and response tokens is that while plug-ins del
 
    The following parameters are available by default:
 
-<table id="table_2E69919346E244AEBA94290CE852DB02"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Type </th> 
-   <th colname="col2" class="entry"> Parameter </th> 
-   <th colname="col3" class="entry"> Notes </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Built-in Profiles </p> </td> 
-   <td colname="col2"> <p>profile.activeActivities </p> </td> 
-   <td colname="col3"> <p>Returns an array of the activityIds the visitor is qualified for. It increments as users are qualified. For example, on a page with two mboxes delivering two different activities, the second mbox will include both activities. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> </td> 
-   <td colname="col2"> <p>profile.isFirstSession </p> </td> 
-   <td colname="col3"> <p>Returns "true" or "false." </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> </td> 
-   <td colname="col2"> <p>profile.isNewSession </p> </td> 
-   <td colname="col3"> <p>Returns "true" or "false." </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> </td> 
-   <td colname="col2"> <p>profile.daysSinceLastVisit </p> </td> 
-   <td colname="col3"> <p>Returns the number of days since the visitor's last visit. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> </td> 
-   <td colname="col2"> <p>profile.tntId </p> </td> 
-   <td colname="col3"> <p>Returns the visitor's tntID </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> </td> 
-   <td colname="col2"> <p>profile.marketingCloudVisitorId </p> </td> 
-   <td colname="col3"> <p>Returns the visitor's Experience Cloud Visitor ID. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> </td> 
-   <td colname="col2"> <p>profile.thirdPartyId </p> </td> 
-   <td colname="col3"> <p>Returns the visitor's third-party ID. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> </td> 
-   <td colname="col2"> <p>profile.categoryAffinity </p> </td> 
-   <td colname="col3"> <p>Returns the visitor's favorite category. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> </td> 
-   <td colname="col2"> <p>profile.categoryAffinities </p> </td> 
-   <td colname="col3"> <p>Returns an array of the visitor's top 5 categories as strings. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Activity </p> </td> 
-   <td colname="col2"> <p>activity.name </p> <p>activity.id </p> <p>experience.name </p> <p>experience.id </p> <p>option.name </p> <p>option.id </p> </td> 
-   <td colname="col3"> <p>Details of the current activity. Note that "option" equals "offer." </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Geo </p> </td> 
-   <td colname="col2"> <p>geo.country </p> <p>geo.state </p> <p>geo.city </p> <p>geo.zip </p> <p>geo.dma </p> <p>geo.domainName </p> <p>geo.ispName </p> <p>geo.connectionSpeed </p> <p>geo.mobileCarrier </p> </td> 
-   <td colname="col3"> <p>See <a href="../c-target/c-audiences/c-target-rules/geo.md#concept_5B4D99DE685348FB877929EE0F942670" format="dita" scope="local"> Geo </a> for more information about using geo targeting in activities. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+   | Type | Parameter | Notes |
+   |--- |--- |--- |
+   |Built-in Profiles|`profile.activeActivities`|Returns an array of the `activityIds` the visitor is qualified for. It increments as users are qualified. For example, on a page with two mboxes delivering two different activities, the second mbox will include both activities.|
+   ||`profile.isFirstSession`|Returns "true" or "false."|
+   ||`profile.isNewSession`|Returns "true" or "false."|
+   ||`profile.daysSinceLastVisit`|Returns the number of days since the visitor's last visit.|
+   ||`profile.tntId`|Returns the visitor's tntID|
+   ||`profile.marketingCloudVisitorId`|Returns the visitor's Experience Cloud Visitor ID.|
+   ||`profile.thirdPartyId`|Returns the visitor's third-party ID.|
+   ||`profile.categoryAffinity`|Returns the visitor's favorite category.|
+   ||`profile.categoryAffinities`|Returns an array of the visitor's top 5 categories as strings.|
+   |Activity|`activity.name`<br>`activity.id`<br>`experience.name`<br>`experience.id`<br>`option.name`<br>`option.id`|Details of the current activity. Note that "option" equals "offer."|
+   |Geo|`geo.country`<br>`geo.state`<br>`geo.city`<br>`geo.zip`<br>`geo.dma`<br>`geo.domainName`<br>`geo.ispName`<br>`geo.connectionSpeed`<br>`geo.mobileCarrier`|See [Geo](/help/c-target/c-audiences/c-target-rules/geo.md) for more information about using geo targeting in activities.|
 
    User profile attributes and Customer Attributes also display in the list.
 
@@ -180,12 +113,6 @@ document.addEventListener(adobe.target.event.REQUEST_SUCCEEDED, function(e) {
   console.log("Request succeeded", e.detail); 
 });
 ```
-
-## Training Video {#section_3AA0A6C8DBD94A528337A2525E3E05D5}
-
-Watch the following video to learn how to use Response Tokens and at.js Custom Events to share profile information from Target to third-party systems.
-
->[!VIDEO](https://video.tv.adobe.com/v/23253/)
 
 ## Response Token FAQs {#section_3DD5F32C668246289CDF9B4CDE1F536D}
 
@@ -351,3 +278,8 @@ The equivalent of the ttMeta plugin for debugging purposes can be created by add
 </script>
 ```
 
+## Training Video: Response Tokens and at.js Custom Events {#section_3AA0A6C8DBD94A528337A2525E3E05D5}
+
+Watch the following video to learn how to use Response Tokens and at.js Custom Events to share profile information from Target to third-party systems.
+
+>[!VIDEO](https://video.tv.adobe.com/v/23253/)

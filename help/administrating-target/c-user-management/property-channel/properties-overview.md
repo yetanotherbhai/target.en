@@ -20,42 +20,16 @@ Information about the tasks required to add users to your Target implementation;
 >
 >Properties and Permissions functionality is available as part of the [!DNL Target Premium] solution. They are not available in [!DNL Target Standard] without a [!DNL Target Premium] license.
 
-The following table lists the tasks you should perform to create properties and assign user roles and permissions:
+The following table lists the tasks you should perform to create properties and assign user roles and permissions. Refer to the sections below for more information about each task.
 
-<table id="table_D3FFB40000DC4CBAA18B1D0E52D40565"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Task </th> 
-   <th colname="col2" class="entry"> Performed In </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p> <a href="../../../administrating-target/c-user-management/property-channel/properties-overview.md#section_A92AF0F921B743FEB9E9033433BD816A" format="dita" scope="local"> 1. Add Users (Optional) </a> </p> </td> 
-   <td colname="col2"> <p> <span class="keyword"> Adobe Admin Console for Enterprise </span> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <a href="../../../administrating-target/c-user-management/property-channel/properties-overview.md#section_B82EB409B67C4D9D9D20CE30E48DB1DC" format="dita" scope="local"> 2. Create a Workspace (Product Profile) </a> </p> </td> 
-   <td colname="col2"> <p> <span class="keyword"> Adobe Admin Console for Enterprise </span> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <a href="../../../administrating-target/c-user-management/property-channel/properties-overview.md#section_5F5CB9AA7A9F4D26953E22016DA59605" format="dita" scope="local"> 3. Create User Groups (Optional) </a> </p> </td> 
-   <td colname="col2"> <p> <span class="keyword"> Adobe Admin Console for Enterprise </span> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <a href="../../../administrating-target/c-user-management/property-channel/properties-overview.md#section_E8F2C92BE0F4466AB87604059C9CF3FD" format="dita" scope="local"> 4. Create Properties </a> </p> </td> 
-   <td colname="col2"> <p>Target UI </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <a href="../../../administrating-target/c-user-management/property-channel/properties-overview.md#section_9B17A59807A94712BE642942442EBBC8" format="dita" scope="local"> 5: Update Your Implementation to Include the at_property Parameter </a> </p> </td> 
-   <td colname="col2"> <p>Target UI / <span class="codeph"> at.js </span> functions / Dynamic Tag Management </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <a href="../../../administrating-target/c-user-management/property-channel/properties-overview.md#section_8C425E43E5DD4111BBFC734A2B7ABC80" format="dita" scope="local"> 6: Specify Roles and Permissions </a> </p> </td> 
-   <td colname="col2"> <p> <span class="keyword"> Adobe Admin Console for Enterprise </span> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Task | Performed In |
+|--- |--- |
+|1. Add Users (Optional)|[!DNL Adobe Admin Console for Enterprise]|
+|2. Create a Workspace (Product Profile)|[!DNL Adobe Admin Console for Enterprise]|
+|3. Create User Groups (Optional)|[!DNL Adobe Admin Console for Enterprise]|
+|4. Create Properties|[!DNL Target] UI|
+|5: Update Your Implementation to Include the `at_property` Parameter|[!DNL Target] UI, at.js functions, [!DNL Adobe Launch], or [!DNL Dynamic Tag Management]|
+|6: Specify Roles and Permissions|[!DNL Adobe Admin Console for Enterprise]|
 
 For those tasks performed in the Adobe Admin Console for Enterprise, access the console by following these steps:
 
@@ -84,20 +58,6 @@ Customers can use these workspaces to separate access to different teams by regi
 
 Users can be part of multiple workspaces and can even have different roles within each workspace.
 
-**How to Configure Target Workspaces (6:55)**
-
-This video explains how to create workspaces.
-
-* Access the Adobe Admin Console from the Adobe Target interface (3 ways) 
-* Configure a workspace in Adobe Admin Console
-
-    * Add users to workspaces 
-    * Add properties to workspaces
-
-* Understand default workspaces
-
->[!VIDEO](https://video.tv.adobe.com/v/19463/)
-
 1. In the Admin Console, click **[!UICONTROL Products]**, then select the name of the desired product.
 
    ![](assets/workspace.png)
@@ -113,7 +73,10 @@ This video explains how to create workspaces.
         * Creating new workspaces within the [!DNL Admin Console for Enterprise]. 
         * Assigning Target properties to the workspaces.
 
-   You can use these workspaces to divide access to different teams by region, business unit, site section, or via any other method you choose. Users can be part of multiple workspaces and can have different roles within each workspace. 
+   You can use these workspaces to divide access to different teams by region, business unit, site section, or via any other method you choose. Users can be part of multiple workspaces and can have different roles within each workspace.
+
+>[!NOTE]
+>See the training video below for more information about configuring workspaces.
 
 1. Follow the instructions in [Create and Manage Product Configurations](https://helpx.adobe.com/enterprise/help/manage-products-and-configurations.html) in the *Enterprise User Guide*.
 
@@ -125,18 +88,6 @@ You can create user groups, such as Developers, Analysts, Marketers, Executives,
 1. Follow the instructions in [Manage Users and Groups of a Product Configuration](https://helpx.adobe.com/enterprise/help/manage-products-and-configurations.html) in the *Enterprise User Guide*.
 
 ## Step 4. Create Properties {#section_E8F2C92BE0F4466AB87604059C9CF3FD}
-
-This video explains how to create properties (3:05).
-
-* How to create a property within the [!DNL Adobe Target] interface 
-* How to generate a property token to include in your property implementation 
-* Familiarize yourself with the three implementation methods:
-
-    * Web 
-    * Mobile app 
-    * Email, set top box, or API calls
-
->[!VIDEO](https://video.tv.adobe.com/v/18990/)
 
 Properties are enabled by adding a specific name/value pair as a parameter with any call (mbox, api, etc.) to Target.
 
@@ -156,6 +107,9 @@ Properties belong to specific channels (Web, Mobile, Email, and API/Other).
 1. Click **[!UICONTROL Generate Code]** to generate the code you'll use while performing the steps in [5: Update Your Implementation to Include the at_property Parameter](../../../administrating-target/c-user-management/property-channel/properties-overview.md#section_9B17A59807A94712BE642942442EBBC8). 
 1. Copy the code to your clipboard. 
 1. Click **[!UICONTROL Save]** when done.
+
+>[!NOTE]
+>See the training video below for more information about creating properties.
 
 ## Step 5: Update Your Implementation to Include the at_property Parameter {#section_9B17A59807A94712BE642942442EBBC8}
 
@@ -225,3 +179,31 @@ To use the [!DNL Target] user-permissions functionality, you must add the `at_pr
    |Approver|Can create, edit, and activate or stop activities.|
 
    For more information, see [Manage Product Permissions and Roles in the Admin Console](https://helpx.adobe.com/enterprise/help/manage-permissions-and-roles.html) in the *Enterprise User Guide*.
+
+## Training videos
+
+**How to Configure Target Workspaces (6:55)**
+
+This video explains how to create workspaces.
+
+* Access the Adobe Admin Console from the Adobe Target interface (3 ways) 
+* Configure a workspace in Adobe Admin Console
+
+  * Add users to workspaces 
+  * Add properties to workspaces
+
+* Understand default workspaces
+
+>[!VIDEO](https://video.tv.adobe.com/v/19463/)
+
+**How to Create Properties in Adobe Target (3:05).**
+
+* How to create a property within the [!DNL Adobe Target] interface 
+* How to generate a property token to include in your property implementation 
+* Familiarize yourself with the three implementation methods:
+
+  * Web 
+  * Mobile app 
+  * Email, set top box, or API calls
+
+>[!VIDEO](https://video.tv.adobe.com/v/18990/)
