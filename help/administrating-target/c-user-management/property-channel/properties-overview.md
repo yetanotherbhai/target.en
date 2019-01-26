@@ -20,16 +20,16 @@ Information about the tasks required to add users to your Target implementation;
 >
 >Properties and Permissions functionality is available as part of the [!DNL Target Premium] solution. They are not available in [!DNL Target Standard] without a [!DNL Target Premium] license.
 
-The following table lists the tasks you should perform to create properties and assign user roles and permissions:
+The following table lists the tasks you should perform to create properties and assign user roles and permissions. More information about each task is included in this article.
 
 | Task | Performed In |
 |--- |--- |
-|[1. Add Users](/help/administrating-target/c-user-management/property-channel/properties-overview.md#section_A92AF0F921B743FEB9E9033433BD816A) (Optional)|Adobe Admin Console for Enterprise|
-|2. [Create a Workspace](/help/administrating-target/c-user-management/property-channel/properties-overview.md#section_B82EB409B67C4D9D9D20CE30E48DB1DC)|Adobe Admin Console for Enterprise|
-|3. [Create User Groups](/help/administrating-target/c-user-management/property-channel/properties-overview.md#section_5F5CB9AA7A9F4D26953E22016DA59605) (Optional)|Adobe Admin Console for Enterprise|
-|[4. Create Properties](help/administrating-target/c-user-management/property-channel/properties-overview.md#section_E8F2C92BE0F4466AB87604059C9CF3FD)|Target UI|
-|[5: Update Your Implementation to Include the at_property Parameter](/help/administrating-target/c-user-management/property-channel/properties-overview.md#section_9B17A59807A94712BE642942442EBBC8)|Target UI /  at.js  functions / Dynamic Tag Management|
-|[6: Specify Roles and Permissions](/help/administrating-target/c-user-management/property-channel/properties-overview.md#section_8C425E43E5DD4111BBFC734A2B7ABC80)|Adobe Admin Console for Enterprise|
+|1. Add Users (Optional)|Adobe Admin Console for Enterprise|
+|2. Create a Workspace|Adobe Admin Console for Enterprise|
+|3. Create User Groups (Optional)|Adobe Admin Console for Enterprise|
+|4. Create Properties|Target UI|
+|5: Update Your Implementation to Include the at_property Parameter|Target UI /  at.js  functions / Dynamic Tag Management|
+|6: Specify Roles and Permissions|Adobe Admin Console for Enterprise|
 
 For those tasks performed in the Adobe Admin Console for Enterprise, access the console by following these steps:
 
