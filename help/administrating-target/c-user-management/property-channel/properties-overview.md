@@ -20,16 +20,16 @@ Information about the tasks required to add users to your Target implementation;
 >
 >Properties and Permissions functionality is available as part of the [!DNL Target Premium] solution. They are not available in [!DNL Target Standard] without a [!DNL Target Premium] license.
 
-The following table lists the tasks you should perform to create properties and assign user roles and permissions. More information about each task is included in this article.
+The following table lists the tasks you should perform to create properties and assign user roles and permissions. Refer to the sections below for more information about each task.
 
 | Task | Performed In |
 |--- |--- |
-|1. Add Users (Optional)|Adobe Admin Console for Enterprise|
-|2. Create a Workspace|Adobe Admin Console for Enterprise|
-|3. Create User Groups (Optional)|Adobe Admin Console for Enterprise|
-|4. Create Properties|Target UI|
-|5: Update Your Implementation to Include the at_property Parameter|Target UI /  at.js  functions / Dynamic Tag Management|
-|6: Specify Roles and Permissions|Adobe Admin Console for Enterprise|
+|1. Add Users (Optional)|[!DNL Adobe Admin Console for Enterprise]|
+|2. Create a Workspace (Product Profile)|[!DNL Adobe Admin Console for Enterprise]|
+|3. Create User Groups (Optional)|[!DNL Adobe Admin Console for Enterprise]|
+|4. Create Properties|[!DNL Target] UI|
+|5: Update Your Implementation to Include the `at_property` Parameter|[!DNL Target] UI, at.js functions, [!DNL Adobe Launch], or [!DNL Dynamic Tag Management]|
+|6: Specify Roles and Permissions|[!DNL Adobe Admin Console for Enterprise]|
 
 For those tasks performed in the Adobe Admin Console for Enterprise, access the console by following these steps:
 
@@ -58,18 +58,6 @@ Customers can use these workspaces to separate access to different teams by regi
 
 Users can be part of multiple workspaces and can even have different roles within each workspace.
 
-**How to Configure Target Workspaces (6:55)**
-
-This video explains how to create workspaces.
-
-* Access the Adobe Admin Console from the Adobe Target interface (3 ways) 
-* Configure a workspace in Adobe Admin Console
-
-    * Add users to workspaces 
-    * Add properties to workspaces
-
-* Understand default workspaces (See training videos below)
-
 1. In the Admin Console, click **[!UICONTROL Products]**, then select the name of the desired product.
 
    ![](assets/workspace.png)
@@ -85,9 +73,12 @@ This video explains how to create workspaces.
         * Creating new workspaces within the [!DNL Admin Console for Enterprise]. 
         * Assigning Target properties to the workspaces.
 
-   You can use these workspaces to divide access to different teams by region, business unit, site section, or via any other method you choose. Users can be part of multiple workspaces and can have different roles within each workspace. 
+   You can use these workspaces to divide access to different teams by region, business unit, site section, or via any other method you choose. Users can be part of multiple workspaces and can have different roles within each workspace.
 
 1. Follow the instructions in [Create and Manage Product Configurations](https://helpx.adobe.com/enterprise/help/manage-products-and-configurations.html) in the *Enterprise User Guide*.
+
+>[!NOTE]
+>See the training video below for more information about configuring workspaces.
 
 ## Step 3. Create User Groups (Optional) {#section_5F5CB9AA7A9F4D26953E22016DA59605}
 
@@ -98,7 +89,7 @@ You can create user groups, such as Developers, Analysts, Marketers, Executives,
 
 ## Step 4. Create Properties {#section_E8F2C92BE0F4466AB87604059C9CF3FD}
 
-Properties are enabled by adding a specific name/value pair as a parameter with any call (mbox, api, etc.) to Target. 
+Properties are enabled by adding a specific name/value pair as a parameter with any call (mbox, api, etc.) to Target.
 
 Properties belong to specific channels (Web, Mobile, Email, and API/Other).
 
@@ -118,6 +109,9 @@ Properties belong to specific channels (Web, Mobile, Email, and API/Other).
 1. Click **[!UICONTROL Generate Code]** to generate the code you'll use while performing the steps in [5: Update Your Implementation to Include the at_property Parameter](../../../administrating-target/c-user-management/property-channel/properties-overview.md#section_9B17A59807A94712BE642942442EBBC8). 
 1. Copy the code to your clipboard. 
 1. Click **[!UICONTROL Save]** when done.
+
+>[!NOTE]
+>See the training video below for more information about creating properties.
 
 ## Step 5: Update Your Implementation to Include the at_property Parameter {#section_9B17A59807A94712BE642942442EBBC8}
 
@@ -188,20 +182,32 @@ To use the [!DNL Target] user-permissions functionality, you must add the `at_pr
 
    For more information, see [Manage Product Permissions and Roles in the Admin Console](https://helpx.adobe.com/enterprise/help/manage-permissions-and-roles.html) in the *Enterprise User Guide*.
 
-## Training video: Access the Adobe Admin Console from the Adobe Target Interface
+## Training videos
+
+The following videos contain information related to the tasks discussed in this article:
+
+### How to Configure Target Workspaces (6:55)
+
+This video explains how to create workspaces.
+
+* Access the Adobe Admin Console from the Adobe Target interface (3 ways) 
+* Configure a workspace in Adobe Admin Console
+
+  * Add users to workspaces 
+  * Add properties to workspaces
+
+* Understand default workspaces
 
 >[!VIDEO](https://video.tv.adobe.com/v/19463/)
 
-## Training video: How to Create a Property within Adobe Target's Interface
-
-This video explains how to create properties (3:05).
+### How to Create Properties in Adobe Target (3:05)
 
 * How to create a property within the [!DNL Adobe Target] interface 
 * How to generate a property token to include in your property implementation 
 * Familiarize yourself with the three implementation methods:
 
-    * Web 
-    * Mobile app 
-    * Email, set top box, or API calls
+  * Web 
+  * Mobile app 
+  * Email, set top box, or API calls
 
 >[!VIDEO](https://video.tv.adobe.com/v/18990/)

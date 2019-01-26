@@ -102,7 +102,7 @@ For more information about how page modifications affect Target's ability to dis
 
 **Options:**
 
-* Place mbox.js as the last item inside the <head> section of your page.
+* Place mbox.js as the last item inside the `<head>` section of your page.
 * Use unique div ids on the highest-level elements inside the body.
 
 ## Other activities are running on the same page.
