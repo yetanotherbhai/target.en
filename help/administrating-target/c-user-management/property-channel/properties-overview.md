@@ -93,6 +93,8 @@ Properties are enabled by adding a specific name/value pair as a parameter with 
 
 Properties belong to specific channels (Web, Mobile, Email, and API/Other).
 
+**Tip**: See the training video below for more information about how to create properties.
+
 1. In [!DNL Target], click **[!UICONTROL Setup]** > **[!UICONTROL Properties]** to display the [!UICONTROL Properties] list. 
 1. Click **Create Property**.
 
