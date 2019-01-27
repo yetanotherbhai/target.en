@@ -13,43 +13,22 @@ uuid: a4fa4cf0-509c-4c31-a778-09c5edacc9b0
 
 Information about the how visitors can switch between experiences in an Experience Targeting (XT) activity as their profiles evolve.
 
-<table id="table_4877125D1060461CBE8042261839BDEB"> 
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p><b>September 21, 2017</b> </p> <p>With the release on September 21, Target will change the way users are placed into experiences in Experience Targeting (XT) activities (Landing Page campaigns in Target Classic). For all new and existing activities in both Target Standard/Premium and Target Classic, users must meet the experience targeting rules on every impression to continue to see the experience's content and to be counted in reports. Previously, if the user no longer qualified for any experience, the user would continue to see the content from, and be counted in reports for, the last experience they did qualify for. </p> <p>This change will happen automatically as part of the release for all existing activities and for any new activities created post-release. If the previous method (prior to September 21) is desired, you can create audiences using profile scripts so a user only must meet a condition once to continue to fall into that audience in the future. Then, use those audiences for each experience in the activity. </p> 
-    <!--<p> <note>We are currently prototyping scenarios and updating the information in this topic to ensure accuracy. This note will be removed after the information below if corrected and verified. </note> </p>--> </td> 
-  </tr> 
- </tbody> 
-</table>
+>[!NOTE]
+>
+>**September 21, 2017**
+>
+>With the release on September 21, Target will change the way users are placed into experiences in Experience Targeting (XT) activities (Landing Page campaigns in Target Classic). For all new and existing activities in both Target Standard/Premium and Target Classic, users must meet the experience targeting rules on every impression to continue to see the experience's content and to be counted in reports. Previously, if the user no longer qualified for any experience, the user would continue to see the content from, and be counted in reports for, the last experience they did qualify for.
+>
+>This change will happen automatically as part of the release for all existing activities and for any new activities created post-release. If the previous method (prior to September 21) is desired, you can create audiences using profile scripts so a user only must meet a condition once to continue to fall into that audience in the future. Then, use those audiences for each experience in the activity.
 
 With Experience Targeting, you can control which experience visitors see as their profiles evolve. The following list presents just a few scenarios in which visitors' profiles can evolve and you might want to present different content:
 
-<table id="table_4809FC45A27743128026C5E3074955EC"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Scenario </th> 
-   <th colname="col2" class="entry"> Details </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Geographic Location </p> </td> 
-   <td colname="col2"> <p>As visitors travel for business or pleasure, they might view your website or mobile app from different geographic locations. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Customer Status </p> </td> 
-   <td colname="col2"> <p>Visitors might be considered prospects before creating an account or purchasing a product. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Category Affinity </p> </td> 
-   <td colname="col2"> <p>The <a href="../../../c-target/c-visitor-profile/category-affinity.md#concept_75EC1E1123014448B8B92AD16B2D72CC" format="dita" scope="local"> category affinity</a> feature in <span class="keyword"> Target</span> automatically captures the categories users visit and then calculates the users' affinity for the category for targeting purposes. For example, visitors who viewed several articles on your website about a particular subject could be presented with content related to that subject. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Day of Week </p> </td> 
-   <td colname="col2"> <p>As the weekend approaches, you might want to show visitors content about movies, dining, or other forms of entertainment. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Scenario | Details |
+|--- |--- |
+|Geographic Location|As visitors travel for business or pleasure, they might view your website or mobile app from different geographic locations.|
+|Customer Status|Visitors might be considered prospects before creating an account or purchasing a product.|
+|Category Affinity|The [category affinity](/help/c-target/c-visitor-profile/category-affinity.md) feature in  Target automatically captures the categories users visit and then calculates the users' affinity for the category for targeting purposes. For example, visitors who viewed several articles on your website about a particular subject could be presented with content related to that subject.|
+|Day of Week|As the weekend approaches, you might want to show visitors content about movies, dining, or other forms of entertainment.|
 
 To leverage these capabilities in [!DNL Target], it is important to understand the following information as you work with XT activities:
 

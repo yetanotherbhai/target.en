@@ -13,15 +13,9 @@ uuid: 5aaff281-e96c-41a6-849e-2c3b0e35f161
 
 Use remote offers to host content outside of Target that Target references and delivers to users' websites. This content might be in a content management or other system, either for ease-of-use or for security reasons.
 
-## Create remote offers {#concept_657016A0E6174C22B89036E9C8A0170F}
-
-Use remote offers to host content outside of [!DNL Target] that Target references and delivers to users' websites. This content might be in a content management or other system, either for ease-of-use or for security reasons.
-
 >[!NOTE]
 >
 >Remote offers can be created only in the forms-based composer. Content will be injected in the mbox locations, so these are most likely not appropriate for a global mbox.
-
->[!NOTE]
 >
 >[!DNL Target Classic] included similar features: [!UICONTROL Offer on Your Site] and [!UICONTROL Offer Outside Test&Target].
 
@@ -46,24 +40,10 @@ Some examples of remote offers include:
 
 1. Specify the remote URL for the remote offer:
 
-    <table id="table_E030736D80514A53B65D26DFF62ED67C"> 
-    <thead> 
-    <tr> 
-    <th colname="col1" class="entry"> Option </th> 
-    <th colname="col2" class="entry"> Description </th> 
-    </tr>
-    </thead>
-    <tbody> 
-    <tr> 
-    <td colname="col1"> <p>Cached </p> </td> 
-    <td colname="col2"> <p>The content for a cached remote offer is served from <span class="keyword"> Target</span>. </p> <p>Every two hours, <span class="keyword"> Target</span> fetches the content at the remote URL and then stores the content inside <span class="keyword"> Target</span>. When visitors load a site with an experience that includes a remote offer, the offer is delivered by <span class="keyword"> Target</span>. </p> <p>Cached remote offers provide enhanced security because somebody logged in to Target cannot change the content. To change the content, someone would need to log in to the content management or other system and change the content there. </p> <p>You can specify an absolute or relative URL for a cached remote offer. </p> </td> 
-    </tr> 
-    <tr> 
-    <td colname="col1"> <p>Dynamic </p> </td> 
-    <td colname="col2"> <p>A dynamic remote offer is served from the content management or other system rather than from <span class="keyword"> Target</span>. </p> <p>You might not want the content periodically cached and then delivered by <span class="keyword"> Target</span> whenever visitors load a site with an experience that includes a remote offer. Instead, you want to call the system that is hosting the content, possibly pass in specific information so that the returned offer can be dynamic, or different, for each user. </p> <p>For example, if a user logs in to a website for a credit card that includes an experience with a dynamic remote offer, you could pass parameters into the URL for the user's account information. Then the website could provide user-specific information, such as account balance. </p> <p>Click <span class="wintitle"> Add Parameter</span> to add one or more mbox or request parameters. </p> </td> 
-    </tr> 
-    </tbody> 
-    </table>
+   | Option | Description |
+   |--- |--- |
+   |Cached|The content for a cached remote offer is served from Target.<br>Every two hours, [!DNL Target] fetches the content at the remote URL and then stores the content inside Target. When visitors load a site with an experience that includes a remote offer, the offer is delivered by Target.<br>Cached remote offers provide enhanced security because somebody logged in toTarget cannot change the content. To change the content, someone would need to log in to the content management or other system and change the content there.<br>You can specify an absolute or relative URL for a cached remote offer.|
+   |Dynamic|A dynamic remote offer is served from the content management or other system rather than from Target.<br>You might not want the content periodically cached and then delivered by Target whenever visitors load a site with an experience that includes a remote offer. Instead, you want to call the system that is hosting the content, possibly pass in specific information so that the returned offer can be dynamic, or different, for each user.<br>For example, if a user logs in to a website for a credit card that includes an experience with a dynamic remote offer, you could pass parameters into the URL for the user's account information. Then the website could provide user-specific information, such as account balance.<br>Click [!UICONTROL Add Parameter] to add one or more mbox or request parameters.|
 
 1. Click **[!UICONTROL Save]**.
 
@@ -83,12 +63,6 @@ Best practices for using remote offers in your activities:
 
 Dynamic remote offers use your dynamic page technology to pass values to the offer.
 
-<!-- 
-
-target/c_how-remote-offers_work.xml
-
- -->
-
 The offer is executed after you render the page. An invisible iframe gathers the data, copies it out of the frame and inserts in on the page, loading your passed values.
 
 ![](assets/remote_offer_howitworks_2.jpeg)
@@ -97,56 +71,12 @@ The offer is executed after you render the page. An invisible iframe gathers the
 
 The Remote Offer Selection Matrix helps you decide which type of remote offer to choose: [!UICONTROL Cached] or [!UICONTROL Dynamic].
 
-<!-- 
-
-target/r_remote-offer-selection-matrix.xml
-
- -->
-
-<table id="table_6D4312DFE1A241958CE1E867FC20F9A8"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Feature </th> 
-   <th colname="col002" class="entry"> Cached </th> 
-   <th colname="col2" class="entry"> Dynamic </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Updates each time a visitor makes a request </p> </td> 
-   <td colname="col002"> <p>No </p> </td> 
-   <td colname="col2"> <p>Yes </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Content updates </p> </td> 
-   <td colname="col002"> <p>Cached every 2 hours </p> </td> 
-   <td colname="col2"> <p>Updated immediately upon each request </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Load time </p> </td> 
-   <td colname="col002"> <p>Faster </p> </td> 
-   <td colname="col2"> <p>Slower due to request processing </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Can see JavaScript on page </p> </td> 
-   <td colname="col002"> <p>Yes </p> </td> 
-   <td colname="col2"> <p>No, but can pass via URL </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Offers can include JavaScript </p> </td> 
-   <td colname="col002"> <p>Yes </p> </td> 
-   <td colname="col2"> <p>No </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Offer URL </p> </td> 
-   <td colname="col002"> <p>Absolute or Relative </p> </td> 
-   <td colname="col2"> <p>Relative </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Requesting computer </p> </td> 
-   <td colname="col002"> <p>Adobe servers </p> </td> 
-   <td colname="col2"> <p>The visitor's computer, which carries the visitor's cookies </p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
+| Feature | Cached | Dynamic |
+|--- |--- |--- |
+|Updates each time a visitor makes a request|No|Yes|
+|Content updates|Cached every 2 hours|Updated immediately upon each request|
+|Load time|Faster|Slower due to request processing|
+|Can see JavaScript on page|Yes|No, but can pass via URL|
+|Offers can include JavaScript|Yes|No|
+|Offer URL|Absolute or Relative|Relative|
+|Requesting computer|Adobe servers|The visitor's computer, which carries the visitor's cookies|
