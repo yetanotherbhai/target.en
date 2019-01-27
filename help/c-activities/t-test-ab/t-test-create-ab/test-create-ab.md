@@ -13,17 +13,6 @@ uuid: 2a255cf9-91c7-4710-bfd7-a4d8797ef24c
 
 Use the Visual Experience Composer in Target to create your test directly on a Target-enabled page and to modify portions of the page within Target.
 
-**Creating A/B Tests (8:36)**
-
-This video demonstrates how to create an A/B test using the [!DNL Target] three-step guided workflow.
-
-* Create an A/B activity in Adobe Target 
-* Allocate traffic using a manual split or automatic traffic allocation
-
->[!VIDEO](https://www.youtube.com/watch?v=JG0dbWDAvtk)
-
-**To Create an A/B test:** 
-
 1. From the [!UICONTROL Activities] list, click **[!UICONTROL Create Activity]** > **[!UICONTROL A/B Test]**.
 
    ![](assets/ab_select.png)
@@ -55,48 +44,16 @@ This video demonstrates how to create an A/B test using the [!DNL Target] three-
 
    The following characters are not allowed in an activity name:
 
-    <table id="table_F5E365667FDC48AD8B4461E40CD669B8"> 
-    <thead> 
-    <tr> 
-    <th colname="col1" class="entry"> Character </th> 
-    <th colname="col2" class="entry"> Description </th> 
-    </tr>
-    </thead>
-    <tbody> 
-    <tr> 
-    <td colname="col1"> <p>/ </p> </td> 
-    <td colname="col2"> <p>Forward slash </p> </td> 
-    </tr> 
-    <tr> 
-    <td colname="col1"> <p>? </p> </td> 
-    <td colname="col2"> <p>Question mark </p> </td> 
-    </tr> 
-    <tr> 
-    <td colname="col1"> <p># </p> </td> 
-    <td colname="col2"> <p>Number sign </p> </td> 
-    </tr> 
-    <tr> 
-    <td colname="col1"> <p>: </p> </td> 
-    <td colname="col2"> <p>Colon </p> </td> 
-    </tr> 
-    <tr> 
-    <td colname="col1"> <p>= </p> </td> 
-    <td colname="col2"> <p>Equals to </p> </td> 
-    </tr> 
-    <tr> 
-    <td colname="col1"> <p>+ </p> </td> 
-    <td colname="col2"> <p>Plus </p> </td> 
-    </tr> 
-    <tr> 
-    <td colname="col1"> <p>- </p> </td> 
-    <td colname="col2"> <p>Minus </p> </td> 
-    </tr> 
-    <tr> 
-    <td colname="col1"> <p>@ </p> </td> 
-    <td colname="col2"> <p>At sign </p> </td> 
-    </tr> 
-    </tbody> 
-    </table>
+   | Character | Description |
+   |--- |--- |
+   |`/`|Forward slash|
+   |`?`|Question mark|
+   |`#`|Number sign|
+   |`:`|Colon|
+   |`=`|Equals to|
+   |`+`|Plus|
+   |`-`|Minus|
+   |`@`|At sign|
 
 1. Create any new experiences by changing the elements on the page.
 
@@ -143,3 +100,12 @@ This video demonstrates how to create an A/B test using the [!DNL Target] three-
 1. Click **[!UICONTROL Save]**.
 
 After you create the activity, the Overview tab shows information about the activity, including a diagram of your activity.
+
+## Training video: Creating A/B Tests (8:36)
+
+This video demonstrates how to create an A/B test using the [!DNL Target] three-step guided workflow.
+
+* Create an A/B activity in Adobe Target 
+* Allocate traffic using a manual split or automatic traffic allocation
+
+>[!VIDEO](https://www.youtube.com/watch?v=JG0dbWDAvtk)
