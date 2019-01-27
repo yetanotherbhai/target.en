@@ -15,41 +15,16 @@ In an Automated Personalization activity, you can target offers to specific audi
 
  Using this functionality reduces the number of offers a specific visitor is qualified to see. For example consider an Automated Personalization (AP) activity that has three offers. Offer 1 has a targeting rule that limits its exposure only to Audience A. Two visitors saw this AP activity.
 
-<table id="table_0A65E5AFA2FA4561A902E8892092D1D1"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> </th> 
-   <th colname="col2" class="entry"> Visitor 1 </th> 
-   <th colname="col3" class="entry"> Visitor 2 </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Audience Qualification </p> </td> 
-   <td colname="col2"> <p>Audience A </p> </td> 
-   <td colname="col3"> <p>Audience B </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Offer 1 Target personalization model score </p> </td> 
-   <td colname="col2"> <p>90 </p> </td> 
-   <td colname="col3"> <p>90 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> Offer 2 Target personalization model score </p> </td> 
-   <td colname="col2"> <p>50 </p> </td> 
-   <td colname="col3"> <p>70 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> Offer 3 Target personalization model score </p> </td> 
-   <td colname="col2"> <p>80 </p> </td> 
-   <td colname="col3"> <p>60 </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| | Visitor 1 | Visitor 2 |
+|--- |--- |--- |
+|Audience Qualification|Audience A|Audience B|
+|Offer 1 Target personalization model score|90|90|
+|Offer 2 Target personalization model score|50|70|
+|Offer 3 Target personalization model score|80|60|
 
 In this scenario, Visitor 1 would see Offer 1 (because he or she qualifies as part of Audience A), which is that visitor's highest score. However, Visitor 2 would see Offer 2 even though his or her highest score is for Offer 1, because Visitor 2 is not part of Audience A. This example demonstrates why targeting rules should be used sparingly to meet business needs. Adding these rules can reduce the effectiveness of Target's personalization models.
 
-**To set up Targeting rules:** 
+## Set up Targeting rules 
 
 1. Create an Automated Personalization activity containing the offers you want to target.
 1. After setting up the offers for the activity in the Visual Experience Composer, click **[!UICONTROL Content]**.

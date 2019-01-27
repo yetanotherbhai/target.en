@@ -39,50 +39,18 @@ For detailed information about success metrics, see [Success Metrics](../../../c
 1. Click **[!UICONTROL Continue]** when you are finished setting your metrics.
 Note that when you name or rename a metric, the following characters are not allowed:
 
-<table id="table_F5E365667FDC48AD8B4461E40CD669B8"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Character </th> 
-   <th colname="col2" class="entry"> Description </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>/ </p> </td> 
-   <td colname="col2"> <p>Forward slash </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>? </p> </td> 
-   <td colname="col2"> <p>Question mark </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p># </p> </td> 
-   <td colname="col2"> <p>Number sign </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>: </p> </td> 
-   <td colname="col2"> <p>Colon </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>= </p> </td> 
-   <td colname="col2"> <p>Equals to </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>+ </p> </td> 
-   <td colname="col2"> <p>Plus </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>- </p> </td> 
-   <td colname="col2"> <p>Minus </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>@ </p> </td> 
-   <td colname="col2"> <p>At sign </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+   | Character | Description |
+   |--- |--- |
+   |`/`|Forward slash|
+   |`?`|Question mark|
+   |`#`|Number sign|
+   |`:`|Colon|
+   |`=`|Equals to|
+   |`+`|Plus|
+   |`-`|Minus|
+   |`@`|At sign|
 
-**Activity Metrics (7:43)**
+## Training video: Activity Metrics (7:43)
 
 This video includes information about working with success metrics.
 

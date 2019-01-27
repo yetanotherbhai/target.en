@@ -39,48 +39,16 @@ Use the Visual Experience Composer to create an Experience Targeting activity on
 
    The following characters are not allowed in an activity name:
 
-    <table id="table_F5E365667FDC48AD8B4461E40CD669B8"> 
-    <thead> 
-    <tr> 
-    <th colname="col1" class="entry"> Character </th> 
-    <th colname="col2" class="entry"> Description </th> 
-    </tr>
-    </thead>
-    <tbody> 
-    <tr> 
-    <td colname="col1"> <p>/ </p> </td> 
-    <td colname="col2"> <p>Forward slash </p> </td> 
-    </tr> 
-    <tr> 
-    <td colname="col1"> <p>? </p> </td> 
-    <td colname="col2"> <p>Question mark </p> </td> 
-    </tr> 
-    <tr> 
-    <td colname="col1"> <p># </p> </td> 
-    <td colname="col2"> <p>Number sign </p> </td> 
-    </tr> 
-    <tr> 
-    <td colname="col1"> <p>: </p> </td> 
-    <td colname="col2"> <p>Colon </p> </td> 
-    </tr> 
-    <tr> 
-    <td colname="col1"> <p>= </p> </td> 
-    <td colname="col2"> <p>Equals to </p> </td> 
-    </tr> 
-    <tr> 
-    <td colname="col1"> <p>+ </p> </td> 
-    <td colname="col2"> <p>Plus </p> </td> 
-    </tr> 
-    <tr> 
-    <td colname="col1"> <p>- </p> </td> 
-    <td colname="col2"> <p>Minus </p> </td> 
-    </tr> 
-    <tr> 
-    <td colname="col1"> <p>@ </p> </td> 
-    <td colname="col2"> <p>At sign </p> </td> 
-    </tr> 
-    </tbody> 
-    </table>
+   | Character | Description |
+   |--- |--- |
+   |`/`|Forward slash|
+   |`?`|Question mark|
+   |`#`|Number sign|
+   |`:`|Colon|
+   |`=`|Equals to|
+   |`+`|Plus|
+   |`-`|Minus|
+   |`@`|At sign|
 
 1. [Create any new experiences](../../../c-activities/t-experience-target/t-xt-create/xt-add-experience.md#task_454646F2895242D3B92DC395A0CE1A00) by changing the elements on the page.
 

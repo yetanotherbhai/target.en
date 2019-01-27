@@ -30,44 +30,15 @@ Because it is stored in the user profile, you can repeat this message on his nex
 
 The following values can be "token replaced":
 
-<table id="table_392FA513A3494227A00DCB2B464FFE95"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Values </th> 
-   <th colname="col2" class="entry"> Examples </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>In-mbox profile parameters </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> ${profile.age} </span> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Script profile parameters </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> ${user.lifetimeSpend} </span> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Mbox parameters </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> ${mbox.favoriteColor} </span> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Campaign information </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> ${campaign.name}, ${campaign.recipe.name}, ${campaign.id}, </span> </p> <p> <span class="codeph"> ${campaign.recipe.id} </span> </p> <p> <span class="codeph"> ${campaign.recipe.trafficType} </span> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Unique visitor id </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> ${user. pcId} </span> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Unique session id </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> ${user.sessionId} </span> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Visitor's first session (true or false) </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> ${user.isFirstSession} </span> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Values | Examples |
+|--- |--- |
+|In-mbox profile parameters|`${profile.age}`|
+|Script profile parameters|`${user.lifetimeSpend}`|
+|Mbox parameters|`${mbox.favoriteColor}`|
+|Campaign information|`${campaign.name}`, `${campaign.recipe.name}`, `${campaign.id}`, `${campaign.recipe.id}`, and `${campaign.recipe.trafficType}`|
+|Unique visitor id|`${user. pcId}`|
+|Unique session id|`${user.sessionId}`|
+|Visitor's first session (true or false)|`${user.isFirstSession}`|
 
 **Tip:** This information can be useful for debugging.
 

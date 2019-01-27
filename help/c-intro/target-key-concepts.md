@@ -14,10 +14,6 @@ uuid: c62ac156-b4cf-494c-979f-33f889abd118
 
 Information about key concepts that will help you understand the features and capabilities of Adobe Target.
 
-## Target key concepts {#topic_547A22434AA047FAB514D7DA9112A48D}
-
-Information about key concepts that will help you understand the features and capabilities of Adobe Target.
-
 ## Activities and Tests {#section_BEA0A0C51A8847579B566060206DE7E8}
 
 An activity determines the experiences a site visitor might encounter.
@@ -26,59 +22,16 @@ For example, you might design an activity that tests two different landing pages
 
 When designing an activity, you should plan carefully. Determine when the activity will start and how long it will last. Then, list your offers and assign a target audience to each one.
 
-**Activity Types (9:03)**
-
-This video explains the activity types available in [!DNL Target Standard/Premium].
-
-* Describe the types of activities included in [!DNL Adobe Target] 
-* Select the appropriate activity type to achieve your goals 
-* Describe the three-step guided workflow that applies to all activity types
-
->[!VIDEO](https://www.youtube.com/watch?v=vtHg1pPFJp8)
-
 There are several types of activities:
 
-<table id="table_B1D68605447642F29CC02157582B921B"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Activity Type </th> 
-   <th colname="col2" class="entry"> Description </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p class="- topic/p "> <a href="../c-activities/t-test-ab/test-ab.md#task_05E33EB15C4D4459B5EAFF90A94A7977" format="dita" scope="local"> A/B Test</a> </p> </td> 
-   <td colname="col2"> <p class="- topic/p ">A/B Testing compares two or more versions of your Web site content to see which version best improves your conversions during a pre-specified test period. </p> <p>The following are two types of A/B tests you can use: </p> 
-    <ul id="ul_1A94061695D74ABEADE7C579B1349F09"> 
-     <li id="li_97B7AB009C86403AA6ABEECE03B15659"> <p><a href="../c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4" format="dita" scope="local"> Auto-Allocate</a> </p> <p>Auto Allocate identifies a winner among two or more experiences and automatically reallocates more traffic to the winner to increase conversions while the test continues to run and learn. </p> </li> 
-     <li id="li_69D72AECB5524DC0B2C80AE332B5A178"> <p><a href="../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3" format="dita" scope="local"> Auto-Target (Target Premium)</a>  
-     <p>Auto Target uses advanced machine learning to identify multiple high performing marketer-defined experiences, and serves the most tailored experience to each visitor based on their individual customer profile and the behavior of previous visitors with similar profiles, in order to personalize content and drive conversions. </p> </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <a href="../c-activities/t-test-ab/t-test-create-ab/create-a4t.md#task_FE48F7B077C44A5BA015B087428412EF" format="dita" scope="local"> Using Analytics Data</a> </p> </td> 
-   <td colname="col2"> <p>You can configure an activity to use <span class="keyword"> Adobe Analytics</span> as the reporting source. This activity type requires that you link your <span class="keyword"> Adobe Experience Cloud</span> account with both <span class="keyword"> Analytics</span> and <span class="keyword"> Target</span>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p class="- topic/p "> <a href="../c-activities/c-multivariate-testing/multivariate-testing.md#concept_628695CDC71B449B8DCC2F5654C11499" format="dita" scope="local"> Multivariate Test</a> </p> </td> 
-   <td colname="col2"> <p class="- topic/p ">Multivariate Testing (MVT) compares combinations of offers in elements on a page to determine which combination performs the best for a specific audience, and identifies which element most impacts the activity's success. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p class="- topic/p "> <a href="../c-activities/t-experience-target/experience-target.md#task_A53DF336CB9F4D7BB87EF2106099EFC4" format="dita" scope="local"> Experience Targeting</a> </p> </td> 
-   <td colname="col2"> <p class="- topic/p ">Experience Targeting (XT) delivers content to a specific audience based on a set of marketer-defined rules and criteria. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1" class="premium"> <p><img src="help/assets/premium.png"></p>
-   <p><a href="../c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9" format="dita" scope="local"> Automated Personalization (Target Premium)</a> </p> </td> 
-   <td colname="col2"> <p>Automated Personalization (AP) combines offers or messages, and uses advanced machine learning to match different variations to each visitor based on their individual customer profile, in order to personalize content and drive conversions. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1" class="premium"> <p>
-   <p> <a href="../c-recommendations/recommendations.md#concept_7556C8A4543942F2A77B13A29339C0C0" format="dita" scope="local"> Recommendations (Target Premium)</a> </p> </td> 
-   <td colname="col2"> <p>A recommendation determines how a product is suggested to a website user, depending on that user's activities on the site. </p> <p>For example, you might want to encourage people who purchase a backpack to consider buying hiking shoes and trekking poles. You could create a recommendation that shows items that are often purchased together, using the "People who bought this also bought that" algorithm. Or, you might want to encourage visitors to spend more time on your media site by recommending similar video to the one they are watching, using the "People who viewed this viewed that" algorithm. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Activity Type | Description |
+|--- |--- |
+|[A/B Test](/help/c-activities/t-test-ab/test-ab.md)|A/B Testing compares two or more versions of your Web site content to see which version best improves your conversions during a pre-specified test period.  The following are two types of A/B tests you can use:<ul><li>[Auto-Allocate](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md): Auto Allocate identifies a winner among two or more experiences and automatically reallocates more traffic to the winner to increase conversions while the test continues to run and learn.</li><li>[Auto-Target](/help/c-activities/auto-target-to-optimize.md): (Target Premium) Auto Target uses advanced machine learning to identify multiple high performing marketer-defined experiences, and serves the most tailored experience to each visitor based on their individual customer profile and the behavior of previous visitors with similar profiles, in order to personalize content and drive conversions.</li></ul>|
+|[Using Analytics Data](/help/c-activities/t-test-ab/t-test-create-ab/create-a4t.md)|You can configure an activity to use [!DNL Adobe Analytics] as the reporting source. This activity type requires that you link your  [!DNL Adobe Experience Cloud] account with both [!DNL Analytics] and [!DNL Target].|
+|[Multivariate Test](/help/c-activities/c-multivariate-testing/multivariate-testing.md)|Multivariate Testing (MVT) compares combinations of offers in elements on a page to determine which combination performs the best for a specific audience, and identifies which element most impacts the activity's success.|
+|[Experience Targeting](/help/c-activities/t-experience-target/experience-target.md)|Experience Targeting (XT) delivers content to a specific audience based on a set of marketer-defined rules and criteria.|
+|[Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md)<br>(Target Premium)|Automated Personalization (AP) combines offers or messages, and uses advanced machine learning to match different variations to each visitor based on their individual customer profile, in order to personalize content and drive conversions.|
+|[Recommendations](/help/c-recommendations/recommendations.md)<br>(Target Premium)|A recommendation determines how a product is suggested to a website user, depending on that user's activities on the site.<br>For example, you might want to encourage people who purchase a backpack to consider buying hiking shoes and trekking poles. You could create a recommendation that shows items that are often purchased together, using the "People who bought this also bought that" algorithm. Or, you might want to encourage visitors to spend more time on your media site by recommending similar video to the one they are watching, using the "People who viewed this viewed that" algorithm.|
 
 ## Locations {#section_F18FBF1ED23340ED9F39C51971A4E874}
 
@@ -133,7 +86,37 @@ Optimize your targeted content to activity entrants who meet specific criteria.
 
 Audiences define the target for your activity and are used anywhere where targeting is available.
 
-**Using Audiences in Adobe Target (6:21)**
+[!DNL Target] audiences are a defined set of visitor criteria. Offers can be targeted to specific audiences (or segments). Only visitors who belong to that audience see the experience that is targeted to them.
+
+For example, you might target an activity to an audience made up of visitors who use a particular browser or operating system.
+
+Or, your activity might be targeted at visitors from one geographical region, or people who access your page from a certain search engine.
+
+Audiences can be saved for reuse in multiple activities, or they can be created for a specific campaign.
+
+| Audience Type | Description |
+|--- |--- |
+|Reusable audiences|Reusable audiences can be selected for any test. Changing one of these audiences changes it for all activities that use it.|
+|Custom segments|Custom segments (also known as campaign-specific segments) are specific to a campaign in  Target Classic. They are created as a part of the campaign and cannot be reused in other campaigns.|
+|Shared audiences|Audiences can be shared across [!DNL Adobe Experience Cloud] solutions. See [Experience Cloud Audiences](https://marketing.adobe.com/resources/help/en_US/mcloud/audience_library.html) for examples.|
+
+For information about how the visitor profile tracks information about visitors to your site, see [Visitor Profiles](../c-target/c-visitor-profile/visitor-profile.md#concept_5E53D1A6DF224D7BAE76F4AE390B9DA1). 
+
+## Training videos:
+
+The following videos contain more details about information discussed in this article.
+
+### Activity Types (9:03)
+
+This video explains the activity types available in [!DNL Target Standard/Premium].
+
+* Describe the types of activities included in [!DNL Adobe Target] 
+* Select the appropriate activity type to achieve your goals 
+* Describe the three-step guided workflow that applies to all activity types
+
+>[!VIDEO](https://www.youtube.com/watch?v=vtHg1pPFJp8)
+
+### Using Audiences in Adobe Target (6:21)
 
 This video explains how to use audiences in [!DNL Target Standard/Premium].
 
@@ -144,36 +127,3 @@ This video explains how to use audiences in [!DNL Target Standard/Premium].
 * Use audiences for passive reporting in an activity
 
 >[!VIDEO](https://www.youtube.com/watch?v=TAMBpW9vpOI)
-
-[!DNL Target] audiences are a defined set of visitor criteria. Offers can be targeted to specific audiences (or segments). Only visitors who belong to that audience see the experience that is targeted to them.
-
-For example, you might target an activity to an audience made up of visitors who use a particular browser or operating system.
-
-Or, your activity might be targeted at visitors from one geographical region, or people who access your page from a certain search engine.
-
-Audiences can be saved for reuse in multiple activities, or they can be created for a specific campaign.
-
-<table id="table_8293411EA6844B0488254DDE98864C9F"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Audience Type </th> 
-   <th colname="col2" class="entry"> Description </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Reusable audiences </p> </td> 
-   <td colname="col2"> <p>Reusable audiences can be selected for any test. Changing one of these audiences changes it for all activities that use it. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Custom segments </p> </td> 
-   <td colname="col2"> <p>Custom segments (also known as <i>campaign-specific</i> segments) are specific to a campaign in <span class="keyword"> Target Classic</span>. They are created as a part of the campaign and cannot be reused in other campaigns. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Shared audiences </p> </td> 
-   <td colname="col2"> <p>Audiences can be shared across <span class="keyword"> Adobe Experience Cloud solutions</span>. See <a href="https://marketing.adobe.com/resources/help/en_US/mcloud/audience_library.html" format="https" scope="external"> Experience Cloud Audiences</a> for examples. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-For information about how the visitor profile tracks information about visitors to your site, see [Visitor Profiles](../c-target/c-visitor-profile/visitor-profile.md#concept_5E53D1A6DF224D7BAE76F4AE390B9DA1). 
