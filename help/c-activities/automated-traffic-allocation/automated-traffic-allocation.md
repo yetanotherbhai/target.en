@@ -19,28 +19,6 @@ Auto Allocate identifies a winner among two or more experiences and automaticall
 
 While [creating an A/B activity using the three-step guided workflow](../../c-activities/t-test-ab/t-test-create-ab/test-create-ab.md#task_68C8079BF9FF4625A3BD6680D554BB72), you can choose the [!UICONTROL Auto-Allocate to Best Experience] option.
 
-## Training Videos {#section_893E5B36DC4A415C9B1D287F51FCCB83}
-
-**Activity Workflow - Targeting (2:14)**
-
-This video includes information about setting up traffic allocation.
-
-* Assign an audience to your activity 
-* Throttle traffic up or down 
-* Select your traffic allocation method 
-* allocate traffic between different experiences
-
->[!VIDEO](https://www.youtube.com/watch?v=LOmBgKPeBtA)
-
-**Creating A/B Tests (8:36)**
-
-This video demonstrates how to create an A/B test using the Target three-step guided workflow. Automated traffic allocation is discussed beginning at 4:45.
-
-* Create an A/B activity in Adobe Target 
-* Allocate traffic using a manual split or automatic traffic allocation
-
->[!VIDEO](https://www.youtube.com/watch?v=JG0dbWDAvtk)
-
 ## The Challenge {#section_85D5A03637204BACA75E19646162ACFF}
 
 Standard A/B tests have an inherent cost. You have to spend traffic to measure performance of each experience and through analysis figure out the winning experience. Traffic distribution remains fixed even after you recognize that some experiences are outperforming others. Also, it's complicated to figure out the sample size, and the activity must run its entire course before you can act on a winner. After doing all of this, there is still a chance the identified winner is not a true winner.
@@ -75,7 +53,7 @@ Auto-Allocate intelligently allocates new visitors to experiences until the conf
 
 The following terms are useful when discussing Auto-Allocate:
 
-* **Multi-armed bandit:** A [multi-armed bandit](https://en.wikipedia.org/wiki/Multi-armed_bandit) approach to optimization balances exploratory learning and exploitation of that learning.
+**Multi-armed bandit:** A [multi-armed bandit](https://en.wikipedia.org/wiki/Multi-armed_bandit) approach to optimization balances exploratory learning and exploitation of that learning.
 
 ## How the Algorithm Works {#section_ADB69A1C7352462D98849F2918D4FF7B}
 
@@ -94,65 +72,14 @@ The following illustration represents how the algorithm might perform during a t
 
 The illustration shows how the traffic allocated to each experience progresses over several rounds of the activity lifetime until a clear winner is determined.
 
-<table id="table_8252CA26599E4A71A8C4F9968F714F65"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Round </th> 
-   <th colname="col2" class="entry"> Description </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p><img src="assets/aa-phase-0.png" id="image_0BDFD174EE434221A3AAC940DE3B7FBA" /> </p> </td> 
-   <td colname="col2"> <p><b>Warm-Up Round (0):</b> During the warm-up round, each experience gets equal traffic allocation until each experience in the activity has a minimum of 1,000 visitors and 50 conversions. </p> <p> 
-     <ul id="ul_7663360057FA422F993C163FCCDD51E9"> 
-      <li id="li_BDBF90D122E5495386A04F518323A2EF">Experience A=25% </li> 
-      <li id="li_A2900230E1CC4B558B446FBAD26C7AE5">Experience B=25% </li> 
-      <li id="li_A1B55E07ECE740E698A5BC86CECFD004">Experience C=25% </li> 
-      <li id="li_F4BB66AA54E1459BA3446E8784DA4001">Experience D=25% </li> 
-     </ul> </p> <p>After each experience gets 1,000 visitors and 50 conversions, Target starts automated traffic allocation. All allocations happen in rounds and two experiences are picked for each round. </p> <p>Only two experiences move forward into the next round: D and C. </p> <p>Moving forward means that the two experiences are allocated 80% of the traffic equally, while the other two experiences continue to participate but are only served as part of the 20% random traffic allocation as new visitors enter the activity. </p> <p>All allocations are updated every hour (shown by rounds along the x-axis above). After each round, the cumulative data is compared. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><img src="assets/aa-phase-1.png" id="image_B097451B3B9C46BCA38DB2BABA13EFE0" /> </p> </td> 
-   <td colname="col2"> <p><b>Round 1:</b> During this round, 80% of traffic is allocated to experiences C and D (40% each). 20% of traffic is allocated randomly to experiences A, B, C, and D (5% each). During this round, experience A performs well. </p> <p> 
-     <ul id="ul_AE94BCEC678A4E21A533AABEE5556D2A"> 
-      <li id="li_6DD4BC0F6E634F6A9DA9BCFA099F0C6C"> <p>The algorithm picks experience D to move forward into the next round because it has the highest conversion rate (as indicated by <img src="assets/aa-tick.png" id="image_153EA14CE0A54DE9888D144649E9C186" /> on each activity's vertical scale). </p> </li> 
-      <li id="li_3E356F97D85D4246B0A0D17C119BFFDE"> <p>The algorithm picks experience A to move forward as well because it has the highest upper bound of the Bernstein 95% confidence interval of the remaining experiences. </p> </li> 
-     </ul> </p> <p>Experiences D and A move forward. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><img id="image_D7C4C37610304A5A87DC0CB01D78C282" src="assets/aa-phase-2.png" /> </p> </td> 
-   <td colname="col2"> <p><b>Round 2:</b> During this round, 80% of traffic is allocated to experiences A and D (40% each). 20% of traffic is allocated randomly, so that means A, B, C, and D each get 5% of traffic. During this round, experience B performs well. </p> <p> 
-     <ul id="ul_145A2C322D5C4822AA5CA0510E391F87"> 
-      <li id="li_477844A87D174A09869E09192405D4F3"> <p>The algorithm picks experience D to move forward into the next round because it has the highest conversion rate (as indicated by <img src="assets/aa-tick.png" id="image_EE1FA84DAC694E89BA31DC0163E32997" /> on each activity's vertical scale). </p> </li> 
-      <li id="li_0E04FF8C08BC45049DFE39D5E4E3E6FE"> <p>The algorithm picks experience B to move forward as well because it has the highest upper bound of the Bernstein 95% confidence interval of the remaining experiences. </p> </li> 
-     </ul> </p> <p>Experiences D and B move forward. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><img id="image_1B8316E72E834FBFB3106217682460DB" src="assets/aa-phase-3.png" /> </p> </td> 
-   <td colname="col2"> <p><b>Round 3:</b> During this round, 80% of traffic is allocated to experiences B and D (40% each). 20% of traffic is allocated randomly, so that means A, B, C, and D each get 5% of traffic. During this round, experience D continues to perform well and experience C performs well. </p> <p> 
-     <ul id="ul_DC884A8893724C889C22B2D7AE822D71"> 
-      <li id="li_C8BA7BAC5363488E85956D2378BAAA45"> <p>The algorithm picks experience D to move forward into the next round because it has the highest conversion rate (as indicated by <img src="assets/aa-tick.png" id="image_3485B0250A3645A8A9A2AC7E21A6959F" /> on each activity's vertical scale). </p> </li> 
-      <li id="li_11CD6CD743AD4FDB858C2B3DD793EC95"> <p>The algorithm picks experience C to move forward as well because it has the highest upper bound of the Bernstein 95% confidence interval of the remaining experiences. </p> </li> 
-     </ul> </p> <p>Experiences D and C move forward. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><img id="image_FD156B5CFF084B7B9CB3B87D43AA37B1" src="assets/aa-phase-4.png" /> </p> </td> 
-   <td colname="col2"> <p><b>Round 4:</b> During this round, 80% of traffic is allocated to experiences C and D (40% each). 20% of traffic is allocated randomly, so that means A, B, C, and D each get 5% of traffic. During this round, experience C performs well. </p> <p> 
-     <ul id="ul_55EE78DAA5CB4E48903B322E56095DDC"> 
-      <li id="li_53781D3F2FCE42F3A9BF5F4E96905CCC"> <p>The algorithm picks experience C to move forward into the next round because it has the highest conversion rate (as indicated by <img src="assets/aa-tick.png" id="image_7E4B2BBD79CA4BC990EE507118702995" /> on each activity's vertical scale). </p> </li> 
-      <li id="li_969FCEBDC1E444CD936F041F750F8781"> <p>The algorithm picks experience D to move forward as well because it has the highest upper bound of the Bernstein 95% confidence interval of the remaining experiences. </p> </li> 
-     </ul> </p> <p>Experiences C and D move forward. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><img id="image_E34C5278F17945379811E8B9568A4BA7" src="assets/aa-phase-n.png" /> </p> </td> 
-   <td colname="col2"> <p><b>Round <i>n</i>:</b> As the activity progresses, a high-performing experience starts to emerge and the process continues until there is a winning experience. When the confidence interval of the experience with the highest conversion rate doesn't overlap with any other experience's confidence interval, it is labeled the winner and a <a href="../../c-activities/automated-traffic-allocation/determine-winner.md#concept_5741A89ED7224E1285A3BC34B2CCD0F9" format="dita" scope="local"> badge displays on the activity's page</a> and in the Activity list. </p> <p> 
-     <ul id="ul_6F0D50E969E4450595E964C22CDE9635"> 
-      <li id="li_96093AC2B40547D7A28483DEF142B195"> <p>The algorithm picks experience C as the clear winner. </p> </li> 
-     </ul> </p> <p>At this point the algorithm serves 80% of traffic to experience C, while 20% of traffic continues to be served randomly to all experiences (A, B, C, and D). In total, C gets 85% of traffic. In the unlikely event that the confidence interval of the winner begins to overlap again, the algorithm reverts to the behavior of round 4 above. </p> <p> <p>Important:  If you manually chose a winner earlier in the process, it would have been easy to choose the wrong experience. For this reason, it is best practice to wait until the algorithm determines the winning experience. </p> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Round | Description |
+|--- |--- |
+|![Warm-up round](/help/c-activities/automated-traffic-allocation/assets/aa-phase-0.png)|**Warm-Up Round (0)**: During the warm-up round, each experience gets equal traffic allocation until each experience in the activity has a minimum of 1,000 visitors and 50 conversions.<ul><li>Experience A=25%</li><li>Experience B=25%</li><li>Experience C=25%</li><li>Experience D=25%</li></ul>After each experience gets 1,000 visitors and 50 conversions, Target starts automated traffic allocation. All allocations happen in rounds and two experiences are picked for each round.<br>Only two experiences move forward into the next round: D and C.<br>Moving forward means that the two experiences are allocated 80% of the traffic equally, while the other two experiences continue to participate but are only served as part of the 20% random traffic allocation as new visitors enter the activity.<br>All allocations are updated every hour (shown by rounds along the x-axis above). After each round, the cumulative data is compared.|
+|![Round 1](/help/c-activities/automated-traffic-allocation/assets/aa-phase-1.png)|**Round 1**: During this round, 80% of traffic is allocated to experiences C and D (40% each). 20% of traffic is allocated randomly to experiences A, B, C, and D (5% each). During this round, experience A performs well.<ul><li>The algorithm picks experience D to move forward into the next round because it has the highest conversion rate (as indicated by  on each activity's vertical scale).</li><li>The algorithm picks experience A to move forward as well because it has the highest upper bound of the Bernstein 95% confidence interval of the remaining experiences.</li></ul>Experiences D and A move forward.|
+|![Round 2](/help/c-activities/automated-traffic-allocation/assets/aa-phase-2.png)|**Round 2**: During this round, 80% of traffic is allocated to experiences A and D (40% each). 20% of traffic is allocated randomly, so that means A, B, C, and D each get 5% of traffic. During this round, experience B performs well.<ul><li>The algorithm picks experience D to move forward into the next round because it has the highest conversion rate (as indicated by  on each activity's vertical scale).</li><li>The algorithm picks experience B to move forward as well because it has the highest upper bound of the Bernstein 95% confidence interval of the remaining experiences.</li></ul>Experiences D and B move forward.|
+|![Round 3](/help/c-activities/automated-traffic-allocation/assets/aa-phase-3.png)|**Round 3**: During this round, 80% of traffic is allocated to experiences B and D (40% each). 20% of traffic is allocated randomly, so that means A, B, C, and D each get 5% of traffic. During this round, experience D continues to perform well and experience C performs well.<ul><li>The algorithm picks experience D to move forward into the next round because it has the highest conversion rate (as indicated by  on each activity's vertical scale).</li><li>The algorithm picks experience C to move forward as well because it has the highest upper bound of the Bernstein 95% confidence interval of the remaining experiences.</li></ul>Experiences D and C move forward.|
+|![Round 4](/help/c-activities/automated-traffic-allocation/assets/aa-phase-4.png)|**Round 4**: During this round, 80% of traffic is allocated to experiences C and D (40% each). 20% of traffic is allocated randomly, so that means A, B, C, and D each get 5% of traffic. During this round, experience C performs well.<ul><li>The algorithm picks experience C to move forward into the next round because it has the highest conversion rate (as indicated by on each activity's vertical scale).</li><li>The algorithm picks experience D to move forward as well because it has the highest upper bound of the Bernstein 95% confidence interval of the remaining experiences.</li></ul>Experiences C and D move forward.|
+|![Round n](/help/c-activities/automated-traffic-allocation/assets/aa-phase-n.png)|**Round n**: As the activity progresses, a high-performing experience starts to emerge and the process continues until there is a winning experience. When the confidence interval of the experience with the highest conversion rate doesn't overlap with any other experience's confidence interval, it is labeled the winner and a [badge displays on the activity's page](/help/c-activities/automated-traffic-allocation/determine-winner.md) and in the Activity list.<ul><li>The algorithm picks experience C as the clear winner</li></ul>At this point the algorithm serves 80% of traffic to experience C, while 20% of traffic continues to be served randomly to all experiences (A, B, C, and D). In total, C gets 85% of traffic. In the unlikely event that the confidence interval of the winner begins to overlap again, the algorithm reverts to the behavior of round 4 above.<br>**Important**: If you manually chose a winner earlier in the process, it would have been easy to choose the wrong experience. For this reason, it is best practice to wait until the algorithm determines the winning experience.|
 
 If the activity has only two experiences, both get equal traffic until Target finds an experience with 90% confidence. At that point, 70% of traffic is allocated to the winner and 30% to the loser. After that experience reaches 95% confidence, 100% of traffic is allocated to the winner and 0% to the loser.
 
@@ -164,37 +91,43 @@ After the model for an Auto-Allocate activity is ready (each experience has a mi
 
 ## Caveats {#section_5C83F89F85C14FD181930AA420435E1D}
 
-* **Auto-Allocate A/B activities are no longer supported in Analytics for Target (A4T)**
+**Auto-Allocate A/B activities are no longer supported in Analytics for Target (A4T)**
 
-  With the 16.10.1.0 release (October 25, 2016), Target does not support Analytics as a reporting source for Auto-Allocate A/B activities going forward. Any active Auto-Allocate A/B activities with A4T enabled will be switched to Manual mode (equal traffic allocation). 
+With the 16.10.1.0 release (October 25, 2016), Target does not support Analytics as a reporting source for Auto-Allocate A/B activities going forward. Any active Auto-Allocate A/B activities with A4T enabled will be switched to Manual mode (equal traffic allocation). 
 
-* **The Auto-Allocate feature works with only one advanced metric setting: Increment Count and Keep User in Activity**
+**The Auto-Allocate feature works with only one advanced metric setting: Increment Count and Keep User in Activity**
 
-  The following advanced metric settings are not supported: Increment Count, Release User, Allow Reentry and Increment Count, and Release User and Bar from Reentry. 
+The following advanced metric settings are not supported: Increment Count, Release User, Allow Reentry and Increment Count, and Release User and Bar from Reentry. 
 
-* **Frequent return visitors can inflate experience conversion-rates.** If a visitor who sees experience A returns frequently and converts several times, the Conversion Rate (CR) of experience A is artificially increased. Compare this to experience B, where visitors convert but do not return often. As a result, the CR of A looks better than the CR of B, so new visitors are more likely to be allocated to A than to B. If you choose to count once per entrant, the CR of A and CR of B might be identical.
+**Frequent return visitors can inflate experience conversion-rates.** 
 
-  If return visitors are randomly distributed, their effect on conversion rates is more likely to be evened out. To mitigate this effect, consider changing the counting method of the goal metric to count only once per entrant. 
+If a visitor who sees experience A returns frequently and converts several times, the Conversion Rate (CR) of experience A is artificially increased. Compare this to experience B, where visitors convert but do not return often. As a result, the CR of A looks better than the CR of B, so new visitors are more likely to be allocated to A than to B. If you choose to count once per entrant, the CR of A and CR of B might be identical.
 
-* **Differentiates between high-performers, not between low-performers.** Auto-Allocate is good at differentiating between high-performing experiences (and finding a winner). There could be times when you don't have enough differentiation among the under-performing experiences.
+If return visitors are randomly distributed, their effect on conversion rates is more likely to be evened out. To mitigate this effect, consider changing the counting method of the goal metric to count only once per entrant. 
 
-  If you want to produce statistically significant differentiation between all experiences, you might want to consider using manual Traffic Allocation mode. 
+**Differentiates between high-performers, not between low-performers.** 
 
-* **Time-correlated (or contextually varying) conversion rates can skew allocation amounts.** Some factors that can be ignored during a standard A/B test because they affect all experiences equally cannot be ignored in an Auto-Allocate test. The algorithm is sensitive to the observed conversion rates. Following are examples of factors that can affect experience performance unequally:
+Auto-Allocate is good at differentiating between high-performing experiences (and finding a winner). There could be times when you don't have enough differentiation among the under-performing experiences.
 
-    * Experiences with varying contextual (time, location, gender, etc.) relevance.
+If you want to produce statistically significant differentiation between all experiences, you might want to consider using manual Traffic Allocation mode. 
 
-      For example:
+**Time-correlated (or contextually varying) conversion rates can skew allocation amounts.** 
 
-        * "Thank God it's Friday" results in higher conversions on Friday 
-        * "Jump-start your Monday" has higher conversion on Monday 
-        * "Gear up for an East-coast winter" provides higher conversion in East-Coast or winter-afflicted locations
+Some factors that can be ignored during a standard A/B test because they affect all experiences equally cannot be ignored in an Auto-Allocate test. The algorithm is sensitive to the observed conversion rates. Following are examples of factors that can affect experience performance unequally:
 
-      These can skew the results in an Auto-Allocate test more than in an A/B test because the A/B test analyzes the results over a longer period. 
-    
-    * Experiences with varying delays in conversion, possibly due to the urgency of the message.
+* Experiences with varying contextual (time, location, gender, etc.) relevance.
 
-      For example, "30% sale ends today" signals the visitor to convert today, but "50% off first purchase" doesn't create the same sense of urgency.
+  For example:
+
+  * "Thank God it's Friday" results in higher conversions on Friday 
+  * "Jump-start your Monday" has higher conversion on Monday 
+  * "Gear up for an East-coast winter" provides higher conversion in East-Coast or winter-afflicted locations
+
+These can skew the results in an Auto-Allocate test more than in an A/B test because the A/B test analyzes the results over a longer period. 
+
+* Experiences with varying delays in conversion, possibly due to the urgency of the message.
+
+  For example, "30% sale ends today" signals the visitor to convert today, but "50% off first purchase" doesn't create the same sense of urgency.
 
 ## Frequently Asked Questions {#section_0E72C1D72DE74F589F965D4B1763E5C3}
 
@@ -235,3 +168,27 @@ Currently, the logic favors visitors that convert quickly or visit more often. T
 **Can I use the sample size calculator when using Auto Allocate to estimate how long the activity will take to identify the winner?**
 
 You can use the existing [sample size calculator](https://docs.adobe.com/content/target-microsite/testcalculator.html) with Bonferroni correction appropriately applied to get an estimate of how long the test will run. In our experiments, we’ve seen the Auto-Allocate activity end much sooner than this sample size. 
+
+## Training videos {#section_893E5B36DC4A415C9B1D287F51FCCB83}
+
+The following videos contain more information:
+
+### Activity Workflow - Targeting (2:14)
+
+This video includes information about setting up traffic allocation.
+
+* Assign an audience to your activity 
+* Throttle traffic up or down 
+* Select your traffic allocation method 
+* allocate traffic between different experiences
+
+>[!VIDEO](https://www.youtube.com/watch?v=LOmBgKPeBtA)
+
+### Creating A/B Tests (8:36)
+
+This video demonstrates how to create an A/B test using the Target three-step guided workflow. Automated traffic allocation is discussed beginning at 4:45.
+
+* Create an A/B activity in Adobe Target 
+* Allocate traffic using a manual split or automatic traffic allocation
+
+>[!VIDEO](https://www.youtube.com/watch?v=JG0dbWDAvtk)
