@@ -303,7 +303,7 @@ The script is executed within the scope of target.js after the page loads. There
 **Inserting an image from the Content library (Scene7) and editing the HTML breaks the image url.**
 
 Add an anchor element inside the 'customHeaderMessage' div with some dummy text:
-    
+
 ```
 <a href="#"> 
 <span> Dummy text </span>
@@ -313,7 +313,7 @@ Add an anchor element inside the 'customHeaderMessage' div with some dummy text:
 Select this div using the Insert Element action to insert a image as a sibling of this dummy text div. 
 
 After image insertion, it looks like:
-    
+
 ```
 <a href="#">  
 <span> Dummy text </span> 
