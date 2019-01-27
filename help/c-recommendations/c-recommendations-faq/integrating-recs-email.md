@@ -68,37 +68,22 @@ Set up a [!DNL Recommendations] activity in [!DNL Adobe Target], using the [Form
 
 The email system you use should be capable of handling these scenarios:
 
-<table id="table_2C52E771EBA94C999A9C87A6CDE473C3"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Scenario </th> 
-   <th colname="col2" class="entry"> Description </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>A valid response is received, but no recommendations are present. </p> </td> 
-   <td colname="col2"> <p> 
-     <ul id="ul_651BBA215E0F44ADBA0070A253B71375"> 
-      <li id="li_056C20D1FB864D0DAA89DD2D9B9B02D0"> <p>In this case, the response will be whatever is set as the <span class="codeph"> mboxDefault </span> parameter value. See explanation below on this parameter. </p> </li> 
-      <li id="li_CC3F79E7892B411C822AF3FDBC11DBD5"> <p>The email provider should have a default HTML block of recommendations to use in this case. </p> </li> 
-     </ul> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> The Target server times out and returns without data. </p> </td> 
-   <td colname="col2"> <p> 
-     <ul id="ul_169613D5B5054303BD2055E41F377B63"> 
-      <li id="li_40ABA222FA384ADFB4027EB415E00958"> <p> In this case, the <span class="keyword"> Target </span> server will return the following content: </p> <p> <span class="codeph"> //ERROR: application server timeout </span> </p> </li> 
-      <li id="li_F58E0C5EF6FF4079BD1AB002FE137363"> <p>The email application should search for that text and be able to handle the error. The email provider has multiple options for handling this case: </p> 
-       <ul id="ul_FF19400B34B340FCB0D1910DEAC73F04"> 
-        <li id="li_8B2F0B203B684F32AE57231B8C735291"> <p>Try another server call immediately (recommended, perhaps with an attempt counter). </p> </li> 
-        <li id="li_5B178AC437BB41D1ACEFF6C2E3394505"> <p>Toss out that particular email and continue to the next one. </p> </li> 
-        <li id="li_AC8A1872FE684441A6F82861C723C745"> <p>Queue that particular email and re-run failed emails as a batch at the end of the initial run. </p> </li> 
-       </ul> </li> 
-     </ul> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+**A valid response is received, but no recommendations are present.**
+
+* In this case, the response will be whatever is set as the mboxDefault parameter value. See explanation below on this parameter.
+* The email provider should have a default HTML block of recommendations to use in this case.
+
+**The Target server times out and returns without data.**
+
+* In this case, the Target server will return the following content:
+
+  `//ERROR: application server timeout`
+
+* The email application should search for that text and be able to handle the error. The email provider has multiple options for handling this case:
+
+  * Try another server call immediately (recommended, perhaps with an attempt counter).
+  * Toss out that particular email and continue to the next one.
+  * Queue that particular email and re-run failed emails as a batch at the end of the initial run.
 
 **Sample request URL:**
 
@@ -112,147 +97,36 @@ https://client_code.tt.omtrdc.net/m2/client_code/ubox/raw?mbox=mbox_name&mboxSes
 >
 >To use [!DNL Recommendations] in email, the rawbox call usually must include either the `entity.id` or `entity.categoryId` or both, depending on the type of recommendation criteria. The sample call above includes both.
 
-<table id="table_4F7443A8A46C4369AC4B8EB76F0292F3"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Parameter </th> 
-   <th colname="col02" class="entry"> Value </th> 
-   <th colname="col2" class="entry"> Description </th> 
-   <th colname="col4" class="entry"> Validation </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p> <span class="codeph"> client_code </span> </p> </td> 
-   <td colname="col02"> <p><i>client_code</i> </p> </td> 
-   <td colname="col2"> <p>The client’s code used in Recommendations. Your Adobe consultant can provide this value. </p> </td> 
-   <td colname="col4"> </td> 
-  </tr> 
-  <tr> 
-   <td> <p> <span class="codeph"> mbox </span> </p> </td> 
-   <td colname="col02"> <p><i>mboxName</i> </p> </td> 
-   <td colname="col2"> <p>The mbox name that is used for targeting. </p> </td> 
-   <td colname="col4"> <p>Same validation as for all mbox calls. </p> <p>250 character limit. </p> <p>Cannot contains any of the following characters: ', ", %22, %27, &lt;, &gt;, %3C, %3E </p> </td> 
-  </tr> 
-  <tr> 
-   <td> <p> <span class="codeph"> mboxXDomain </span> </p> </td> 
-   <td colname="col02"> <p>disabled </p> </td> 
-   <td colname="col2"> <p>Prevents the response from setting a cookie in non-web environments. </p> </td> 
-   <td colname="col4"> </td> 
-  </tr> 
-  <tr> 
-   <td> <p> <span class="codeph"> entity.id </span> </p> <p>(Required for certain types of criteria: view/view, view/bought, bought/bought) </p> </td> 
-   <td colname="col02"> <p><i>entity_id</i> </p> </td> 
-   <td colname="col2"> <p>The productId the recommendation is based on, such as an abandoned product in the cart, or a previous purchase. </p> <p>If required by the criteria, the rawbox call must include the <span class="codeph"> entity.id </span>. </p> </td> 
-   <td colname="col4"> </td> 
-  </tr> 
-  <tr> 
-   <td> <p> <span class="codeph"> entity.event.detailsOnly </span> </p> </td> 
-   <td colname="col02"> <p>true </p> </td> 
-   <td colname="col2"> <p>If entity.id is passed, it is highly recommended to also pass this parameter to prevent the request from incrementing the number of tallied page views for an item, so as not to skew product view-based algorithms. </p> </td> 
-   <td colname="col4"> </td> 
-  </tr> 
-  <tr> 
-   <td> <p> <span class="codeph"> entity.categoryId </span> </p> <p>(Required for certain types of criteria: most viewed by category and top sellers by category) </p> </td> 
-   <td colname="col02"> <p><i>category_id</i> </p> </td> 
-   <td colname="col2"> <p>The category the recommendation is based on, such as top sellers in a category. </p> <p>If required by the criteria, the rawbox call must include the <span class="codeph"> entity.categoryId </span>. </p> </td> 
-   <td colname="col4"> </td> 
-  </tr> 
-  <tr> 
-   <td> <p> <span class="codeph"> mboxDefault </span> </p> </td> 
-   <td colname="col02"> <p><i>https://www.default.com</i> </p> </td> 
-   <td colname="col2"> If the <span class="codeph"> mboxNoRedirect </span> parameter is not present, <span class="codeph"> mboxDefault </span> should be an absolute URL that will return default content if no recommendation is available. This can be an image or other static content. <p>If the <span class="codeph"> mboxNoRedirect </span> parameter is present, <span class="codeph"> mboxDefault </span> can be any text indicating there are no recommendations, for example <span class="codeph"> no_content </span>. </p> <p>The email provider will need to handle the case where this value is returned and insert default HTML into the email. </p> </td> 
-   <td colname="col4"> </td> 
-  </tr> 
-  <tr> 
-   <td> <p> <span class="codeph"> mboxHost </span> </p> </td> 
-   <td colname="col02"> <p><i>mbox_host</i> </p> </td> 
-   <td colname="col2"> <p>This is the domain that is added to the default environment (host group) when the call fires. </p> </td> 
-   <td colname="col4"> </td> 
-  </tr> 
-  <tr> 
-   <td> <p> <span class="codeph"> mboxPC </span> </p> </td> 
-   <td colname="col02"> <p>Empty </p> </td> 
-   <td colname="col2"> <p>(Required for recommendations that use a visitor's profile.) </p> <p>If no “thirdPartyId” was provided, a new tntId is generated and returned as part of the response. Otherwise remains empty. </p> <p> <p>Note:  Be sure to provide a unique value of <span class="codeph"> mboxSession </span> and <span class="codeph"> mboxPC </span> for each email recipient (i.e., for each API call). If you do not provide unique values for these fields, API response might slow or fail due to the large number of events generated within a single profile. </p> </p> </td> 
-   <td colname="col4"> <p>1 &lt; Length &lt; 128 </p> <p>Cannot contain more than a single “.” (dot). </p> <p>The only dot allowed is for profile location suffix. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Parameter | Value | Description | Validation |
+|--- |--- |--- |--- |
+|`client_code`|*client_code*|The client’s code used in Recommendations. Your Adobe consultant can provide this value.||
+|`mbox`|*mboxName*|The mbox name that is used for targeting.|Same validation as for all mbox calls.<br>250 character limit.<br>Cannot contains any of the following characters: `', ", %22, %27, <, >, %3C, %3E`|
+|`mboxXDomain`|disabled|Prevents the response from setting a cookie in non-web environments.||
+|`entity.id`<br>(Required for certain types of criteria: view/view, view/bought, bought/bought)|*entity_id*|The productId the recommendation is based on, such as an abandoned product in the cart, or a previous purchase.<br>If required by the criteria, the rawbox call must include the `entity.id`.||
+|`entity.event.detailsOnly`|true|If `entity.id` is passed, it is highly recommended to also pass this parameter to prevent the request from incrementing the number of tallied page views for an item, so as not to skew product view-based algorithms.||
+|`entity.categoryId`<br>(Required for certain types of criteria: most viewed by category and top sellers by category)|*category_id*|The category the recommendation is based on, such as top sellers in a category.<br>If required by the criteria, the rawbox call must include the `entity.categoryId`.||
+|`mboxDefault`|*`https://www.default.com`*|If the `mboxNoRedirect` parameter is not present, `mboxDefault` should be an absolute URL that will return default content if no recommendation is available. This can be an image or other static content.<br>If the `mboxNoRedirect` parameter is present, `mboxDefault` can be any text indicating there are no recommendations, for example `no_content`.<br>The email provider will need to handle the case where this value is returned and insert default HTML into the email.||
+|`mboxHost`|*mbox_host*|This is the domain that is added to the default environment (host group) when the call fires.||
+|`mboxPC`|Empty|(Required for recommendations that use a visitor's profile.)<br>If no “thirdPartyId” was provided, a new tntId is generated and returned as part of the response. Otherwise remains empty.<br>**Note**: Be sure to provide a unique value of `mboxSession` and `mboxPC` for each email recipient (i.e., for each API call). If you do not provide unique values for these fields, API response might slow or fail due to the large number of events generated within a single profile.|1 < Length < 128<br>Cannot contain more than a single “.” (dot).<br>The only dot allowed is for profile location suffix.|
 
 **Optional parameters**:
 
-<table id="table_EDAF09359DF34308BFB4AA293DC1EB1F"> 
- <thead> 
-  <tr> 
-   <th class="entry"> Parameter </th> 
-   <th colname="col02" class="entry"> Value </th> 
-   <th colname="col2" class="entry"> Description </th> 
-   <th colname="col4" class="entry"> Validation </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p> <span class="codeph"> mboxPC </span> </p> <p>(Optional) </p> </td> 
-   <td colname="col02"> <p><i>mboxPCId</i> </p> </td> 
-   <td colname="col2"> <p>Target visitor ID. Use this value when if you want to track a user full-circle back to your site across multiple visits, or when using a user profile parameter. </p> <p>This value needs to be the actual Adobe Target PCID for the user, which would be exported from the website to your CRM. The email provider would retrieve this ID from your CRM or Data warehouse, and use it for the value of this parameter. </p> <p>The <span class="codeph"> mboxPC </span> value is also useful for tracking visitor site behavior across multiple visits for metrics tracking when a recommendation is part of an A/B activity. </p> <p> <p>Note:  Be sure to provide a unique value of <span class="codeph"> mboxSession </span> and <span class="codeph"> mboxPC </span> for each email recipient (i.e., for each API call). If you do not provide unique values for these fields, API response might slow or fail due to the large number of events generated within a single profile. </p> </p> </td> 
-   <td colname="col4"> <p>1 &lt; Length &lt; 128 </p> <p>Cannot contain more than a single "." (dot). </p> <p>The only dot allowed is for profile location suffix. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <span class="codeph"> mboxNoRedirect </span> </p> <p>(Optional) </p> </td> 
-   <td colname="col02"> <p>1 </p> </td> 
-   <td colname="col2"> <p>By default, the caller is redirected when no deliverable content is found. Use to disable the default behavior. </p> </td> 
-   <td colname="col4"> </td> 
-  </tr> 
-  <tr> 
-   <td> <p> <span class="codeph"> mbox3rdPartyId </span> </p> </td> 
-   <td colname="col02"> <p><i>xxx</i> </p> </td> 
-   <td colname="col2"> <p>Use this if you have your own custom visitor ID to use for profile targeting. </p> </td> 
-   <td colname="col4"> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Parameter | Value | Description | Validation |
+|--- |--- |--- |--- |
+|`mboxPC`<br>(Optional)|*mboxPCId*|Target visitor ID. Use this value when if you want to track a user full-circle back to your site across multiple visits, or when using a user profile parameter.<br>This value needs to be the actual Adobe Target PCID for the user, which would be exported from the website to your CRM. The email provider would retrieve this ID from your CRM or Data warehouse, and use it for the value of this parameter.<br>The `mboxPC` value is also useful for tracking visitor site behavior across multiple visits for metrics tracking when a recommendation is part of an A/B activity.<br>**Note**: Be sure to provide a unique value of `mboxSession` and `mboxPC` for each email recipient (i.e., for each API call). If you do not provide unique values for these fields, API response might slow or fail due to the large number of events generated within a single profile.|1 < Length < 128<br>Cannot contain more than a single "." (dot).<br>The only dot allowed is for profile location suffix.|
+|`mboxNoRedirect`<br>(Optional)|1|By default, the caller is redirected when no deliverable content is found. Use to disable the default behavior.||
+|`mbox3rdPartyId`|*xxx*|Use this if you have your own custom visitor ID to use for profile targeting.||
 
 **Potential Target server responses**:
 
-<table id="table_D197310D72E246769330C665F821E284"> 
- <thead> 
-  <tr> 
-   <th class="entry"> Response </th> 
-   <th class="entry"> Description </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td> <span class="codeph"> //ERROR: </span> </td> 
-   <td> <p>Generated by load balancer when it can't return content </p> </td> 
-  </tr> 
-  <tr> 
-   <td> <span class="codeph"> success </span> </td> 
-   <td> <p>The <span class="codeph"> mboxNoRedirect </span> parameter is set to 'true' and the server does not return any recommendations (i.e., there is no match for the mbox or the server cache is not initialized). </p> </td> 
-  </tr> 
-  <tr> 
-   <td> <span class="codeph"> bad request </span> </td> 
-   <td> <p>The <span class="codeph"> mbox </span> parameter is missing. </p> <p> 
-     <ul id="ul_AD90ED7DB02548E99673D383549A84A7"> 
-      <li id="li_E6DC1403122C440F9DB19CC2BA3CC1C8"> <p> Either <span class="codeph"> mboxDefault </span> or the <span class="codeph"> mboxNoRedirect </span> parameter is not specified. </p> </li> 
-      <li id="li_FA1B81972DBB42658E6EF079C71A48F5"> <p> <span class="codeph"> mboxTrace </span> request parameter is specified but <span class="codeph"> mboxNoRedirect </span> is not. </p> </li> 
-      <li id="li_8D9E8CBE46D14F56A848857A3D79F995"> <p> <span class="codeph"> mboxTarget </span> parameter is not specified when mbox names ends with <span class="codeph"> -clicked </span> suffix. </p> </li> 
-     </ul> </p> </td> 
-  </tr> 
-  <tr> 
-   <td> <span class="codeph"> Cannot redirect to default content, please specify mboxDefault parameter </span> </td> 
-   <td> <p> <span class="codeph"> mboxDefault </span> not specified when no match for the request exists and <span class="codeph"> mboxNoRedirect </span> parameter is not specified. </p> </td> 
-  </tr> 
-  <tr> 
-   <td> <span class="codeph"> Invalid mbox name:= MBOX_NAME </span> </td> 
-   <td> <p>Indicates <span class="codeph"> mbox </span> parameter contains invalid characters. </p> </td> 
-  </tr> 
-  <tr> 
-   <td> <span class="codeph"> Mbox name [MBOX_NAME] is too long </span> </td> 
-   <td> <p>Indicates <span class="codeph"> mbox </span> parameter is longer than 250 characters. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Response | Description |
+|--- |--- |
+|//ERROR:|Generated by load balancer when it can't return content|
+|success|The `mboxNoRedirect` parameter is set to 'true' and the server does not return any recommendations (i.e., there is no match for the mbox or the server cache is not initialized).|
+|bad request|The `mbox` parameter is missing.<ul><li>Either `mboxDefault` or the `mboxNoRedirect` parameter is not specified.</li><li>`mboxTrace` request parameter is specified but `mboxNoRedirect` is not.</li><li>`mboxTarget`parameter is not specified when mbox names ends with `-clicked` suffix.</li></ul>|
+|`Cannot redirect to default content, please specify mboxDefault parameter`|`mboxDefault` not specified when no match for the request exists and `mboxNoRedirect` parameter is not specified.|
+|`Invalid mbox name:= MBOX_NAME`|Indicates `mbox` parameter contains invalid characters.|
+|`Mbox name [MBOX_NAME] is too long`|Indicates `mbox` parameter is longer than 250 characters.|
 
 ## Option 3: Use the Download-Only Template {#section_518C279AF0094BE780F4EA40A832A164}
 

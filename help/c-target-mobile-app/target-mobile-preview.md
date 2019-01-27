@@ -112,33 +112,14 @@ Open the link in a mobile browser on a device where you have your app installed.
 
     Share the link that you copied in the previous step from the Target UI to your mobile device in a convenient way, for example using text, email, or Slack.
 
-    <table id="table_F853E79832954A87850BDDAF36D88A7F"> 
-    <tbody> 
-    <tr> 
-    <td colname="col1"> <p> <img src="assets/mobile-preview-open-deeplink.png" /> </p> </td> 
-    <td colname="col2"> <p> <img src="assets/mobile-preview-open-app.png" /> </p> </td> 
-    </tr> 
-    </tbody> 
-    </table>
+    |![preview deep link 1](/help/c-target-mobile-app/assets/mobile-preview-open-deeplink.png)|![preview deep link 2](/help/c-target-mobile-app/assets/mobile-preview-open-app.png)|
 
     Your app opens and starts the Target Mobile Preview Mode. 
 
 1. Select the combination of experiences that you want to see, then click **[!UICONTROL Launch Experiences]**.
 
-    <table id="table_6123AAE2EE9D426CA477BD71B4361489"> 
-    <tbody> 
-    <tr> 
-    <td colname="col1"> <p> <img src="assets/mobile-preview-experience-selection-1.png" id="image_C9AA4C0525A449AA91A253BDD177A1DC" /> </p> </td> 
-    <td colname="col2"> <p> <img src="assets/mobile-preview-experience-result-1-france.png" /> </p> </td> 
-    <td colname="col3"> <p> <img src="assets/mobile-preview-experience-result-1-shipfree.png" /> </p> </td> 
-    </tr> 
-    <tr> 
-    <td colname="col1"> <p> <img src="assets/mobile-preview-experience-selection-2.png" /> </p> </td> 
-    <td colname="col2"> <p> <img src="assets/mobile-preview-experience-result-2-aus.png" /> </p> </td> 
-    <td colname="col3"> <p> <img src="assets/mobile-preview-experience-result-2-10off.png" /> </p> </td> 
-    </tr> 
-    </tbody> 
-    </table>
+   |![mobile preview 1](/help/c-target-mobile-app/assets/mobile-preview-experience-selection-1.png)|![mobile preview 2](/help/c-target-mobile-app/assets/mobile-preview-experience-result-1-france.png)|![mobile preview 3](/help/c-target-mobile-app/assets/mobile-preview-experience-result-1-shipfree.png)|
+   |![mobile preview 4](/help/c-target-mobile-app/assets/mobile-preview-experience-selection-2.png)|![mobile preview 5](/help/c-target-mobile-app/assets/mobile-preview-experience-result-2-aus.png)|![mobile preview 6](/help/c-target-mobile-app/assets/mobile-preview-experience-result-2-10off.png)|
 
 ## Limitations {#section_4E9BDED0F718485292527EFB508305BD}
 
