@@ -146,23 +146,43 @@ The following use cases might be helpful to understand how properties, projects,
 If you are part of a multi-national organization, you might have a workspace for your European web pages, properties, or sites and another workspace for your American web pages, properties, or sites.
 After a reorganization, using the personas in the illustrations above, you might set up workspaces and permissions similar to the following:
 
-**Jan**: Jan is the Head of Optimization in the Center of Excellence for her organization's United States web pages, properties, and sites. She most likely has System Admin rights in the Adobe Experience Cloud.
+* **Jan**: Jan is the Head of Optimization in the Center of Excellence for her organization's United States web pages, properties, and sites. She most likely has System Admin rights in the Adobe Experience Cloud.
 
-In her role, she has Approver permissions for the US Homepage and the US Site. With Approver permissions, she can create, edit, and activate or stop activities.
+  In her role, she has Approver permissions for the US Homepage and the US Site. With Approver permissions, she can create, edit, and activate or stop activities.
 
-Jan also consults with the optimization team in France and, therefore, has Observer permissions for the France Site that give her read-only access to activities. Jan can view activities, but cannot create or edit them.
+  Jan also consults with the optimization team in France and, therefore, has Observer permissions for the France Site that give her read-only access to activities. Jan can view activities, but cannot create or edit them.
 
-Because Jan has no role that necessitates her seeing the Product Pages, Russia Site, or Careers Site, she cannot see activities for those sites.
+  Because Jan has no role that necessitates her seeing the Product Pages, Russia Site, or Careers Site, she cannot see activities for those sites.
 
-**Ernie**: Ernie is a Marketing Manager for the organization in charge of marketing in the United States.
+* **Ernie**: Ernie is a Marketing Manager for the organization in charge of marketing in the United States.
 
-Because Ernie is fairly new to the organization and somewhat inexperienced with Target, he has Editor permissions for the US Homepage, US Site, and Product Pages. With Editor permissions, Ernie can create and edit activities before they are live, but he cannot approve the launch of an activity—someone with Approval permissions, such as Jan, must approve the activity before it can be put into production.
+  Because Ernie is fairly new to the organization and somewhat inexperienced with Target, he has Editor permissions for the US Homepage, US Site, and Product Pages. With Editor permissions, Ernie can create and edit activities before they are live, but he cannot approve the launch of an activity—someone with Approval permissions, such as Jan, must approve the activity before it can be put into production.
 
-Because Ernie has no role that necessitates him seeing the Russia Site, France Site, or Careers Site, he cannot see activities for those sites.
+  Because Ernie has no role that necessitates him seeing the Russia Site, France Site, or Careers Site, he cannot see activities for those sites.
 
-**Diana**: Diana is now an Analyst for the organization and has been granted Observer permissions for the US Homepage, US Site, Product Pages, Russia Site, and the France Site that give her read-only access to activities. Diana can view activities, but cannot create or edit them.
+* **Diana**: Diana is now an Analyst for the organization and has been granted Observer permissions for the US Homepage US Site, Product Pages, Russia Site, and the France Site that give her read-only access to activities. Diana can view activities, but cannot create or edit them.
 
-Because Diana has no role that necessitates her seeing the Careers Site, she cannot see activities for those sites.
+  Because Diana has no role that necessitates her seeing the Careers Site, she cannot see activities for those sites.
+
+### Multi-brand organization
+
+If you are part of a multi-brand organization, you might have a separate workspace for each brand's web pages, properties, or sites.
+
+After a reorganization, using the personas in the illustrations above, you might set up projects and permissions similar to the following:
+
+* **Jan**: Jan is the Head of Optimization in the Center of Excellence for a heath-care organization that operates in the hospital-product and consumer-product spaces. She most likely has System Admin rights in the Adobe Experience Cloud.
+
+  In her role, she has Approver permissions for the Hospital Site. With Approver permissions, she can create, edit, and activate or stop activities.
+
+  Jan also consults with the optimization team in the consumer-products space and, therefore, has Observer permissions for that site that give her read-only access to activities. Jan can view activities, but cannot create or edit them.
+
+* **Ernie**: Ernie is a Marketing Manager for the organization in charge of marketing in the consumer-product space.
+
+  Because Ernie is fairly new to the organization and somewhat inexperienced with Target, he has Editor permissions for the Consumer Site. With Editor permissions, Ernie can create and edit activities before they are live, but he cannot approve the launch of an activity—someone with Approval permissions for the Consumer Site, but not Jan in this scenario, must approve the activity before it can be put into production.
+
+  Because Ernie has no role that necessitates him seeing the Hospital Site, he cannot see activities for that site.
+
+* **Diana**: Diana is now an Analyst for the organization and has been granted Observer permissions for the Hospital Site and the Consumer Site that give her read-only access to activities. Diana can view activities, but cannot create or edit them.
 
 ## Target UI Property and Permissions Touchpoints {#section_3414371393BB42999A268628B5456EC9}
 
