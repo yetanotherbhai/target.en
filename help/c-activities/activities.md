@@ -25,7 +25,7 @@ The Activities list displays the following information:
 |Name|The name of the activity.|
 |Objective|The objective appears in lighter text next to the name. If the objective is too long for your screen width, it is truncated.|
 |URL|The URL appears in lighter text below the name.<br>The URL for the activity identifies where the activity is displayed. This helps you quickly identify an activity, and determine whether a particular page already has a test running on it.<br>If a test runs on multiple URLs, a link shows how many more URLs are used. Click the link to view the complete list of URLs for that activity.<br>You can search based on URL. Use the drop-down list next to search box and select [!UICONTROL Search URL].|
-|Status|The status of the activity can be one of the following:<ul></li>**Live**: The activity is currently running.</li><li>**Draft**: The activity setup has started but the activity is not yet ready to run.</li><li>**Scheduled**: The activity is ready to be activated when the specified start date and time arrives.</li><li>**Inactive**: The activity has been paused or deactivated.</li><li>**Syncing**: The activity has been saved and is being synced to the Target delivery network.</li><li>**Ended**: The specified end date and time of activity has reached and the activity is no longer being served.</li><li>**Archived**: The activity has been archived. You can activate an archived activity to use it again.</li></ul>**Note**: When you perform certain actions, such as activating an activity outside of the UI using API methods, the update can take up to ten minutes to propagate to the UI.|
+|Status|The status of the activity can be one of the following:<ul><li>**Live**: The activity is currently running.</li><li>**Draft**: The activity setup has started but the activity is not yet ready to run.</li><li>**Scheduled**: The activity is ready to be activated when the specified start date and time arrives.</li><li>**Inactive**: The activity has been paused or deactivated.</li><li>**Syncing**: The activity has been saved and is being synced to the Target delivery network.</li><li>**Ended**: The specified end date and time of activity has reached and the activity is no longer being served.</li><li>**Archived**: The activity has been archived. You can activate an archived activity to use it again.</li></ul>**Note**: When you perform certain actions, such as activating an activity outside of the UI using API methods, the update can take up to ten minutes to propagate to the UI.|
 |Source|Shows where the activity was created:<ul><li>Adobe Target</li><li>Adobe Target Classic</li><li>Adobe Experience Manager (AEM)</li><li>Adobe Mobile Services (AMS)</li></ul>|
 |Estimated Lift in Revenue|Shows the predicted increase in revenue if 100% of the audience sees the winning experience.<br>Calculated using the following formula:<br>`(<winning experience> - <control experience>)*<total number of visitors>`<br>This number is rounded to one decimal place, maximum, if the condensed form has only a single digit before the decimal. For example: $1.6M, $60K, $900, $8.5K, $205K<br>This column shows "---" for activities that do not have enough data to call a winner show or do not have a cost estimate.<br>See [Estimating Lift in Revenue](/help/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md) for more information.|
 |Last Updated|The date when the activity was last updated, and by whom.|
@@ -58,7 +58,7 @@ Note the following details about the Activity list:
 
 By default, the list is sorted by the date the activity was last modified, with the most recent on top. However, there are several filtering options to help you customize the list to show the activities you want to see.
 
-**Search**
+### Search
 
 Use the search field to search for activities that match your search criteria.
 
@@ -66,7 +66,7 @@ Use the search field to search for activities that match your search criteria.
 
 The search field includes a drop-down menu to help you narrow your search by specifying one of the following search filters: [!UICONTROL Activity Name] and [!UICONTROL URL].
 
-**Activity List Filters**
+### Activity List Filters
 
 You can determine which activities appear in your Activities list by selecting list filters.
 
@@ -83,7 +83,7 @@ You can filter by the following options. In each category, if nothing is selecte
 |Metrics Type|Conversion<br>Revenue<br>Engagement|
 |Activity Source|Adobe Target<br>Adobe Target Classic<br>Adobe Experience Manager<br>Adobe Mobile Services|
 
-**Sort by Activity Attribute**
+### Sort by Activity Attribute
 
 Click one of the following headings to toggle whether the activities are listed in ascending or descending order according to the selected heading.
 
@@ -108,7 +108,7 @@ Each Target activity has the following content limitations:
 |Offers in each experience|350|
 |Click track selectors in metrics|50|
 |Mboxes in metrics|50|
-|Audiences and locations|50  Audiences and locations (mbox) combination should not be more than 50.|
+|Audiences and locations|50 Audiences and locations (mbox) combination should not be more than 50.|
 
 If you exceed any of these limits, the activity cannot be saved.
 
@@ -134,7 +134,7 @@ If activities created in [!DNL Target] are updated from outside of [!DNL Target]
 
 This import job will run when the activities page is opened, with a maximum delay of ten minutes. (KB-1526) 
 
-## Training Videos {#section_BE80D13A2E81460C885F902010E1AD87}
+## Training videos {#section_BE80D13A2E81460C885F902010E1AD87}
 
 The Activity Types video (9:03) explains the activity types available in [!DNL Target Standard/Premium].
 
