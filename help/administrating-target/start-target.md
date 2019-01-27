@@ -14,37 +14,9 @@ uuid: 1a7ea739-4fa6-444a-8f39-17cf346c73c2
 
 This section contains the first steps Target administrators should take after receiving the emailed invitation to the Adobe Experience Cloud.
 
-## Administrator first steps {#task_9F178DC9A2244357896DE50B43C844D8}
-
-This section contains the first steps [!DNL Target] administrators should take after receiving the emailed invitation to the [!DNL Adobe Experience Cloud].
-
-<!-- 
-
-ov/start_target.xml
-
- -->
-
-**Adobe Target in the Experience Cloud (4:59)**
-
-This video includes information about [!DNL Adobe Target] in the [!DNL Experience Cloud].
-
-* Describe and understand the value of the Adobe Experience Cloud 
-* Log in to the Adobe Experience Cloud with your Adobe ID or create an Adobe ID 
-* Invite a new user to the Adobe Experience Cloud 
-* Link your Target account to the Adobe Experience Cloud 
-* Set Adobe Target as your default landing page
-
->[!VIDEO](https://www.youtube.com/watch?v=7lwYrYC7vdM)
-
 ## Invite users to Target {#task_3E0817630774431983FAA3D2CB2E75BD}
 
 Administrators add users to [!DNL Target] by inviting them to join.
-
-<!-- 
-
-ov/t_invite-users.xml
-
- -->
 
 1. Add the new user in the role-specific groups in the Enterprise Dashboard.
 
@@ -89,12 +61,6 @@ ov/t_accept_invitation.xml
 
 After accepting the invitation to join the [!DNL Adobe Experience Cloud] and logging in, confirm that Standard has been added to your [!DNL Experience Cloud] account, then assign yourself the [!UICONTROL Approver] role in [!DNL Target Standard].
 
-<!-- 
-
-ov/t_approver.xml
-
- -->
-
 1. After you log in to the [!DNL Adobe Experience Cloud], click **[!UICONTROL Target]**.
 
    The [!DNL Target Standard] card displays. This confirms that you have added Standard to your [!DNL Experience Cloud] account. At this time, you are not able to create an activity because you have not been given the [!UICONTROL Approver] role. 
@@ -105,3 +71,15 @@ ov/t_approver.xml
 
    Now that you are an approver, you can create and edit activities, audiences, and content. You are also able to approve activities. 
 1. Continue to the next step, [setting up users and roles](../administrating-target/c-user-management/c-user-management/user-management.md#concept_501166A5F8FB4964A3AAA15D6095C6BE).
+
+## Training video: Adobe Target in the Experience Cloud (4:59)
+
+This video includes information about [!DNL Adobe Target] in the [!DNL Experience Cloud].
+
+* Describe and understand the value of the Adobe Experience Cloud 
+* Log in to the Adobe Experience Cloud with your Adobe ID or create an Adobe ID 
+* Invite a new user to the Adobe Experience Cloud 
+* Link your Target account to the Adobe Experience Cloud 
+* Set Adobe Target as your default landing page
+
+>[!VIDEO](https://www.youtube.com/watch?v=7lwYrYC7vdM)

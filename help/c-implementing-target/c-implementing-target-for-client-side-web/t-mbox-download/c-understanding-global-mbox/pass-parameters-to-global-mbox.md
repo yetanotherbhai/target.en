@@ -120,7 +120,7 @@ This example sends the following data to the mbox edge:
 
 This video explains how to add mbox parameters using DTM.
 
-**Adding mbox Parameters via Activation (DTM) (4:25)**
+## Training video: Adding mbox Parameters via Activation (DTM) (4:25)
 
 * Map a static name/value pair to a parameter or profile parameter in the target-global-mbox 
 * Understand the basics of a data element 
