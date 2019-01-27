@@ -54,50 +54,32 @@ Use the following links to view release notes for Target capabilities other than
 
 In addition to the notes for each release, the following resources provide additional information:
 
-<table id="table_9729DAEA57B44D8D9751785BAA43A729"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Resource </th> 
-   <th colname="col2" class="entry"> Details </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p> <a href="../r-release-notes/doc-change.md#reference_366123CF00994BACBBF9BBDF2C4D840C" format="dita" scope="local"> Documentation Changes</a> </p> </td> 
-   <td colname="col2"> <p>View detailed information about updates to this guide that might not be included in these release notes. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <a href="../r-release-notes/release-notes-for-previous-releases.md" format="dita" scope="local"> Release notes for previous releases</a> </p> </td> 
-   <td colname="col2"> <p>View information about new features and enhancements in previous releases of <span class="keyword"> Target Standard</span> and <span class="keyword"> Target Premium</span>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><a href="https://wwwimages.adobe.com/content/dam/acom/en/marketing-cloud/testing-targeting/54658.en.target.capabilities.whats-new-fall-2016.pdf" format="pdf" scope="external"> What’s New in Adobe Target 2016</a> (PDF) </p> </td> 
-   <td colname="col2"> <p>Display a graphical review of features released in 2016. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/whatsnew/" format="https" scope="external"> Experience Cloud Release Notes</a> </p> </td> 
-   <td colname="col2"> <p>View the latest release notes for the<span class="keyword"> Adobe Experience Cloud</span> solutions. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+### [Documentation Changes](../r-release-notes/doc-change.md#reference_366123CF00994BACBBF9BBDF2C4D840C)
+
+View detailed information about updates to this guide that might not be included in these release notes.
+
+### [Release notes for previous releases](../r-release-notes/release-notes-for-previous-releases.md)
+
+View information about new features and enhancements in previous releases of Target Standard and Target Premium.
+
+### [What’s New in Adobe Target 2016](https://wwwimages.adobe.com/content/dam/acom/en/marketing-cloud/testing-targeting/54658.en.target.capabilities.whats-new-fall-2016.pdf) (PDF)
+
+Display a graphical review of features released in 2016.
+
+### [Experience Cloud Release Notes](https://marketing.adobe.com/resources/help/en_US/whatsnew/)
+
+View the latest release notes for the Adobe Experience Cloud solutions.
 
 ## Prerelease Information {#section_5D588F0415A2435B851A4D0113ACA3A0}
 
-<table id="table_51A9CF02F1A34B6497DB81657E4893FA"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Enhancement </th> 
-   <th colname="col2" class="entry"> Description </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Adobe Priority Product Update list </p> </td> 
-   <td colname="col2"> <p>To receive advance notifications about upcoming product enhancements, sign up for the Adobe Priority Product Update: </p> <p> <a href="https://www.adobe.com/subscription/priority-product-update.html" format="html" scope="external"> https://www.adobe.com/subscription/priority-product-update.html</a> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Current and upcoming release notes </p> </td> 
-   <td colname="col2"> <p>For information about the current month's Target releases, including prerelease information, see the <a href="https://marketing.adobe.com/resources/help/en_US/target/rn/" format="https" scope="external"> Target Release Notes - Prerelease</a> page. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+The following resources let you see what's coming in the next Target release.
+
+### Adobe Priority Product Update list
+
+To receive advance notifications about upcoming product enhancements, sign up for the Adobe Priority Product Update:
+
+[https://www.adobe.com/subscription/priority-product-update.html](https://www.adobe.com/subscription/priority-product-update.html)
+
+### Current and upcoming release notes
+
+For information about the current month's Target releases, including prerelease information, see the [Target Release Notes - Prerelease](https://marketing.adobe.com/resources/help/en_US/target/rn/) page.

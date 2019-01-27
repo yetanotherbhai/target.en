@@ -13,13 +13,13 @@ uuid: 61bef460-8613-4251-b1b2-b6226ec86d9b
 
 Information about expected data variances between Target and Adobe Analytics when not using Analytics as the Reporting Source (A4T), which eliminates data variance altogether.
 
-<table id="table_8C6EF23E70CF4788AADA1C9941DEDF31"> 
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p> <p>Note:  With A4T, both Analytics and Target reporting of activities use Analytics data exclusively, so there is no variance between the solutions in Target activity reports. In some circumstances, however, customers might compare Target data to Analytics data outside the scope of the A4T integration and, thus, experience the variance issues described below. </p> </p> <p>Here is a scenario in which you might experience expected data variance: Suppose you create an Auto-Allocate activity open to all visitors to a particular page. Because Auto-Allocate activities don't support A4T, all of the activity data is collected by Target. You might expect that the visitors to the activity in the Target reporting should match the visitors to that page in the Analytics reporting for the same date range. This is a scenario in which the variance described below is expected. </p> <p>For a complete list of activity types that support A4T, see <a href="../../c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA" format="dita" scope="local"> Supported Activity Types </a>. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+>[!NOTE]
+>
+>With A4T, both Analytics and Target reporting of activities use Analytics data exclusively, so there is no variance between the solutions in Target activity reports. In some circumstances, however, customers might compare Target data to Analytics data outside the scope of the A4T integration and, thus, experience the variance issues described below.
+>
+>Here is a scenario in which you might experience expected data variance: Suppose you create an Auto-Allocate activity open to all visitors to a particular page. Because Auto-Allocate activities don't support A4T, all of the activity data is collected by Target. You might expect that the visitors to the activity in the Target reporting should match the visitors to that page in the Analytics reporting for the same date range. This is a scenario in which the variance described below is expected.
+>
+>For a complete list of activity types that support A4T, see [Supported Activity Types](../../c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA) .
 
 Variances of 15-20% are normal, even with similar data sets. Systems that count differently can result in much higher data variances, as much as 35-50%. In some cases, variances can be even higher.
 

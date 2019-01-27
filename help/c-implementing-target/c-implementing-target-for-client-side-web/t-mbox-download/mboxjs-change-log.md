@@ -25,7 +25,7 @@ The way Target responds to calls from your page depends on the version of the Ta
 
 ## mbox.js version 63 {#section_ED8EFCF653A845ED8927F759578C4A33}
 
-**Target Release: **17.7.1
+**Target Release:** 17.7.1
 
 [!DNL mbox.js] version 63 is now available. For more information, see [Download mbox.js](https://marketing.adobe.com/resources/help/en_US/target/ov/t_target-download-config-mbox.html).
 
@@ -85,7 +85,7 @@ window.targetGlobalSettings = {
 
 The page hiding technique uses style tags to add and remove styles. This ensures that the site's styles remain unchanged after the page hiding code executes.
 
-** DTM Users:** Note that this will prevent you from using the Automatic import option since there is no way to save the above configuration in the Target UI. You will have to use the instructions above and then paste the contents into the code box of the Custom hosting option.
+**DTM Users:** Note that this will prevent you from using the Automatic import option since there is no way to save the above configuration in the Target UI. You will have to use the instructions above and then paste the contents into the code box of the Custom hosting option.
 
 Also in Version 60, if the [!DNL visitorAPI.js] file is present for the Experience Cloud Visitor ID service, all mboxes are requested via an AJAX endpoint. This is required because Visitor API methods are asynchronous. One benefit of this approach is that the Start Render time is decreased dramatically, because mbox requests do not block rendering. However, this also means that all [!DNL Target] offer content runs asynchronously, so all offer code must be written accordingly. Offers containing `document.write` and other code that assumes it will run on initial page load will not execute as expected.
 
@@ -209,168 +209,136 @@ The following changes have been made in this version:
 
 * Added a cookie called "em-disabled" that mbox.js gives to the user if target.js fails to load during delivery. This cookie prevents offers created using the Visual Experience Composer from rendering on the site. Users with this cookie neither see the test content nor get counted in those activity reports. All other offer content (from campaigns in Target Classic for example) will continue to load. The cookie has a lifetime of 30 min from the time of load failure.
 
-## Previous Releases {#section_FAB0A088308A42BEA855936F4E7D89C6}
+## mbox version 55
 
-<table id="table_2311674B4A054BFE825854743EB803F1"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Version </th> 
-   <th colname="col002" class="entry"> Target Release </th> 
-   <th colname="col02" class="entry"> Date </th> 
-   <th colname="col2" class="entry"> Changes </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> 55 </td> 
-   <td colname="col002"> 15.1 </td> 
-   <td colname="col02"> January 19, 2015 </td> 
-   <td colname="col2"> Modifies version 53 with IE fixes. </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 54 </td> 
-   <td colname="col002"> 14.9.2 </td> 
-   <td colname="col02"> September 30, 2014 </td> 
-   <td colname="col2"> <p> Changes the global mbox implementation to AJAX from document.write. This removes the requirement for the mbox.js file to be the last item in the page's &lt;head&gt; section. This version is only available via API. Clients can download it and use this mbox.js file. Some sites experience content flicker with this implementation, so please validate the integration on your site. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 53 </td> 
-   <td colname="col002"> 14.9.1 </td> 
-   <td colname="col02"> September 14, 2014 </td> 
-   <td colname="col2"> Fixed an issue where Target page params do not fire correctly in Internet Explorer. </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 52 </td> 
-   <td colname="col002"> 14.8 </td> 
-   <td colname="col02"> August 14, 2014 </td> 
-   <td colname="col2"> <p> 
-     <!--TNT-19408--> <span class="codeph"> mboxParameter </span> function now works in Target Standard and Premium. </p> <p> Fixed an issue that kept Analytics tracking from working in IE 9 &amp; 11. This change only affects users of Analytics. </p> <p> 
-     <!--TNT-19403-->Now you can <a href="https://marketing.adobe.com/resources/help/en_US/target/ov/c_pass_parameters_to_global_mbox.html" format="https" scope="external"> pass in parameters </a> as an array, as a JSON object, or as a comma-delimited list (previously supported) to target-global-mbox using the <span class="codeph"> targetPageParams() </span> function. </p> <p> 
-     <!--TNT-19117-->Renamed <span class="codeph"> M2PcId </span> and everything related to VisitorId. </p> <p> 
-     <!--TNT-16921-->Allow the <span class="codeph"> defaultDiv </span> of a registered mbox to be cleared. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 51 </td> 
-   <td colname="col002"> 14.6 </td> 
-   <td colname="col02"> June 25, 2014 </td> 
-   <td colname="col2"> <p> Fixed a bug that set an incorrect cookie in sites with two characters in their top-level domain. </p> <p> Fixed a minor bug in mbox.js that caused hashtag values to be returned. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 50 </td> 
-   <td colname="col002"> </td> 
-   <td colname="col02"> </td> 
-   <td colname="col2"> Improved synchronization between Target Standard and Target Classic. </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 49 </td> 
-   <td colname="col002"> </td> 
-   <td colname="col02"> </td> 
-   <td colname="col2"> Improved Internet Explorer 10 support for nested mboxes. </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 48 </td> 
-   <td colname="col002"> </td> 
-   <td colname="col02"> </td> 
-   <td colname="col2"> Added support for Adobe Analytics as the reporting source for Target. </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 47 </td> 
-   <td colname="col002"> </td> 
-   <td colname="col02"> </td> 
-   <td colname="col2"> mbox.js now supports using a custom global mbox name for Target Standard. </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 46 </td> 
-   <td colname="col002"> </td> 
-   <td colname="col02"> </td> 
-   <td colname="col2"> 
-    <!--TNT-17519, TGT-1547, TGT-1497--> Added complete support for Experience Cloud visitor ID service for Target Standard's single-line-of-code implementation. This enables server-side Adobe Analytics integration and the Experience Cloud shared profile. <p>Fixed an issue with delivering content in IE10 in document mode. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 45 </td> 
-   <td colname="col002"> </td> 
-   <td colname="col02"> </td> 
-   <td colname="col2"> Added complete support for Experience Cloud visitor ID service. This enables server-side Adobe Analytics integration and the Experience Cloud shared profile. </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 44 </td> 
-   <td colname="col002"> </td> 
-   <td colname="col02"> </td> 
-   <td colname="col2"> 
-    <!--TNT-18142-->Added new parameter in URL by mboxVizTarget: <p> <span class="codeph"> mboxDOMLoaded </span> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 43 </td> 
-   <td colname="col002"> </td> 
-   <td colname="col02"> </td> 
-   <td colname="col2"> Added support for Target Standard. </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 42 </td> 
-   <td colname="col002"> </td> 
-   <td colname="col02"> </td> 
-   <td colname="col2"> Added initial support for Experience Cloud shared visitor ID service. </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 41 </td> 
-   <td colname="col002"> </td> 
-   <td colname="col02"> </td> 
-   <td colname="col2"> 
-    <ol id="ol_07CF02C8B272406694B8FFC5F7D02C8F"> 
-     <li id="li_732204D00534423B80391F4E801FC85D">Even with x-only setting, disable the first party cookie to improve load time and prevent continuous page refreshes <p>A timeout cookie is set if the call to Target fails to return in time. This is a faster method than using only the 3rd-party cookie. With just the 3rd-party cookie, the page is continually refreshed while waiting for a good response from Target's servers. </p> </li> 
-     <li id="li_F9E3078A5348450684E55D6EBC1863C1">Fixed traffic limitation to occur only when <span class="filepath"> mbox.js </span> is enabled 
-      <!--(#17540)--> <p>This issue occurred if a customer had a traffic limitation on their mbox.js, causing the timeout setting to not work. This resulted in the page refreshing while waiting foir a good response from the Target servers. </p> </li> 
-     <li id="li_B20DFA3CAB964D87B92FC7AD1B421BC3">Fixed SiteCalyst plugin to always use the Ajax fetcher 
-      <!--(#16527)--> <p>Prior to this change, there were some situations for users of the Test&amp;Target to SiteCatalyst plugin where, depending on when the plugin loaded, a document.write that would wipe out the page could be triggered. </p> </li> 
-    </ol> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 38 </td> 
-   <td colname="col002"> </td> 
-   <td colname="col02"> </td> 
-   <td colname="col2"> Added support for page-based SiteCatalyst to Test&amp;Target integration (must be enabled) </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 37 </td> 
-   <td colname="col002"> </td> 
-   <td colname="col02"> </td> 
-   <td colname="col2"> Encoded URL keys </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 36 </td> 
-   <td colname="col002"> </td> 
-   <td colname="col02"> </td> 
-   <td colname="col2"> Changed mbox to use <span class="filepath"> tt.omtrdc.net </span> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 35 </td> 
-   <td colname="col002"> </td> 
-   <td colname="col02"> </td> 
-   <td colname="col2"> <p> </p> <p> 
-     <ol id="ol_DB2B0D9035E24AAD80D2689777CE241B"> 
-      <li id="li_CE57D9EC5BC3475B8B2887632CC21823">Mbox debug is now always remote </li> 
-      <li id="li_96F8FC4CB17648C097CD401538FB078C">Added the <span class="codeph"> mboxTime </span> parameter. This parameter is the time as the user sees it, in ms since the epoch, GMT. This is only calculated once. </li> 
-     </ol> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 34 </td> 
-   <td colname="col002"> </td> 
-   <td colname="col02"> </td> 
-   <td colname="col2"> 
-    <ol id="ol_DE06E076E7564F44966F22A0E3131335"> 
-     <li id="li_5038B012262848ADB03D4EB39E24D304">Always try to get the latest default <span class="codeph"> div </span> instead of referring to a cached version. <p>This fixes a problem with a cached default content <span class="codeph"> div </span> not being in the DOM due to an <span class="codeph"> mboxUpdate </span>, which provided the content for the default <span class="codeph"> div </span>. </p> <p> <span class="codeph"> mbox.getDefaultDiv </span> has a new optional boolean parameter. If <span class="codeph"> true </span>, it returns the current default <span class="codeph"> div </span>. If <span class="codeph"> false </span>, it returns the last cached default <span class="codeph"> div </span>. 
-       <!--(initially in #9501, updated in #7529)--> </p> </li> 
-     <li id="li_24DC79ECDED34D58BA3BD4CCF3CFE878">Updated <span class="codeph"> mbox.loaded </span> to support Ajax load 
-      <!--(see #7529)--> </li> 
-     <li id="li_F43C29D0F60A44C8B063377ED69030AD"> <span class="codeph"> mboxURL </span> parameter is now encoded using <span class="codeph"> encodeURIComponent </span> rather than <span class="codeph"> escape </span> 
-      <!--see #8965--> </li> 
-     <li id="li_7E3080E931C74304B99DAD70C8F378FF"> 
-      <!--(see #10010)-->Test whether <span class="codeph"> encodeURIComponent </span> is supported by the browser and show default content if it isn't. Also removed the following mbox.js config options: 
-      <ul id="ul_66BAA15593194833ACCB2234D9182B45"> 
-       <li id="li_5505591AE70F45AFBB27B57DB4A02552"> <span class="codeph"> encode_mbox_parameters </span> </li> 
-       <li id="li_FB2A7539397F47F4AAA4B1962CF271C0"> <span class="codeph"> mbox_signal_support </span> </li> 
-      </ul> </li> 
-    </ol> </td> 
-  </tr> 
- </tbody> 
-</table>
+**Target Release:** 15.1
+
+**Release Date:** January, 19, 2015
+
+Modifies version 53 with IE fixes.
+
+## mbox version 54
+
+**Target Release:** 14.9.2
+
+**Release Date:** September 30, 2014
+
+Changes the global mbox implementation to AJAX from document.write. This removes the requirement for the mbox.js file to be the last item in the page's <head> section. This version is only available via API. Clients can download it and use this mbox.js file. Some sites experience content flicker with this implementation, so please validate the integration on your site.
+
+## mbox version 53
+
+**Target Release:** 14.9.1
+
+**Release Date:** September 14, 2014
+
+Fixed an issue where Target page params do not fire correctly in Internet Explorer.
+
+## mbox version 52
+
+**Target Release:** 14.8
+
+**Release Date:** August 14, 2014
+
+mboxParameter function now works in Target Standard and Premium.
+
+Fixed an issue that kept Analytics tracking from working in IE 9 & 11. This change only affects users of Analytics.
+
+Now you can [pass in parameters](https://marketing.adobe.com/resources/help/en_US/target/ov/c_pass_parameters_to_global_mbox.html) as an array, as a JSON object, or as a comma-delimited list (previously supported) to target-global-mbox using the targetPageParams() function.
+
+Renamed M2PcId and everything related to VisitorId.
+
+Allow the defaultDiv of a registered mbox to be cleared.
+
+## mbox version 51
+
+**Target Release:** 14.6
+
+**Release Date:** June 25, 2014
+
+Fixed a bug that set an incorrect cookie in sites with two characters in their top-level domain.
+
+Fixed a minor bug in mbox.js that caused hashtag values to be returned.
+
+## mbox version 50
+
+Improved synchronization between Target Standard and Target Classic.
+
+## mbox version 49
+
+Improved Internet Explorer 10 support for nested mboxes.
+
+## mbox version 48
+
+Added support for Adobe Analytics as the reporting source for Target.
+
+## mbox version 47
+
+mbox.js now supports using a custom global mbox name for Target Standard.
+
+## mbox version 46
+
+Added complete support for Experience Cloud visitor ID service for Target Standard's single-line-of-code implementation. This enables server-side Adobe Analytics integration and the Experience Cloud shared profile.
+
+Fixed an issue with delivering content in IE10 in document mode.
+
+## mbox version 45
+
+Added complete support for Experience Cloud visitor ID service. This enables server-side Adobe Analytics integration and the Experience Cloud shared profile.
+
+## mbox version 44
+
+Added new parameter in URL by mboxVizTarget:
+
+mboxDOMLoaded
+
+## mbox version 43
+
+Added support for Target Standard.
+
+## mbox version 42
+
+Added initial support for Experience Cloud shared visitor ID service.
+
+## mbox version 41
+
+* Even with x-only setting, disable the first party cookie to improve load time and prevent continuous page refreshes
+
+  A timeout cookie is set if the call to Target fails to return in time. This is a faster method than using only the 3rd-party cookie. With just the 3rd-party cookie, the page is continually refreshed while waiting for a good response from Target's servers.
+
+* Fixed traffic limitation to occur only when mbox.js is enabled
+    
+  This issue occurred if a customer had a traffic limitation on their mbox.js, causing the timeout setting to not work. This resulted in the page refreshing while waiting foir a good response from the Target servers.
+    
+* Fixed SiteCalyst plugin to always use the Ajax fetcher
+
+  Prior to this change, there were some situations for users of the Test&Target to SiteCatalyst plugin where, depending on when the plugin loaded, a document.write that would wipe out the page could be triggered.
+
+## mbox version 38
+
+Added support for page-based SiteCatalyst to Test&Target integration (must be enabled)
+
+## mbox version 37
+
+Encoded URL keys
+
+## mbox version 36
+
+Changed mbox to use tt.omtrdc.net
+
+## mbox version 35
+
+* Mbox debug is now always remote
+* Added the mboxTime parameter. This parameter is the time as the user sees it, in ms since the epoch, GMT. This is only calculated once.
+
+## mbox version 34
+
+* Always try to get the latest default div instead of referring to a cached version.
+    
+  This fixes a problem with a cached default content div not being in the DOM due to an mboxUpdate , which provided the content for the default div .
+
+* mbox.getDefaultDiv has a new optional boolean parameter. If true, it returns the current default div. If false, it returns the last cached default div.
+* Updated mbox.loaded to support Ajax load
+* mboxURL parameter is now encoded using encodeURIComponent rather than escape
+* Test whether encodeURIComponent is supported by the browser and show default content if it isn't. Also removed the following mbox.js config options:
+  * encode\_mbox\_parameters
+  * mbox\_signal\_support

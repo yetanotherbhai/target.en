@@ -37,32 +37,12 @@ Let us consider a bank's credit card web app that is built on an SPA framework, 
 
 The app has the following single pages:
 
-<table id="table_71B5EE5869BD4E16B6A1BE8AF9D7AAAE"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Page </th> 
-   <th colname="col2" class="entry"> Description </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p> /dashboard </p> </td> 
-   <td colname="col2"> <p> Gives a summary of the outstanding amount, number of cards, payment due dates, and so forth. Each of these could be components that are rendered on the client side after the page load. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> /current-activity </p> </td> 
-   <td colname="col2"> <p> Lists this month's charges on the card. If you have multiple cards, it has a component that allows users to select the card. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> /apply-new </p> </td> 
-   <td colname="col2"> <p> Apply for a new credit card. This a multi-stage form, with all components of the form displayed on the same page. Based on the selections in the form components, the application is re-rendered. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> /make-payment </p> </td> 
-   <td colname="col2"> <p> Select a mode of payment and process payment to card. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Page | Description |
+|--- |--- |
+|`/dashboard`|Gives a summary of the outstanding amount, number of cards, payment due dates, and so forth. Each of these could be components that are rendered on the client side after the page load.|
+|`/current-activity`|Lists this month's charges on the card. If you have multiple cards, it has a component that allows users to select the card.|
+|`/apply-new`|Apply for a new credit card. This a multi-stage form, with all components of the form displayed on the same page. Based on the selections in the form components, the application is re-rendered.|
+|`/make-payment`|Select a mode of payment and process payment to card.|
 
 The simplest way to understand Target Views is to consider each of these pages as a View. In this scenario, your SPA is built up of four views with each page being a view. If you are using React or Angular Routers, these are routes in your SPA and can be associated with a view each.
 
@@ -131,13 +111,13 @@ There are two major improvements in the VEC:
 * Modifications Panel 
 * Actions
 
-**Modifications Panel**
+### Modifications Panel
 
 The Modifications Panel, as shown below, captures the VEC actions created as part of an experience. Notice that the actions are grouped by Target Views. The view named "Page Load Event" is an abstract view whose actions are applied whenever the visitor first visits the website and the page load event is fired for the first time. Actions that need to be applied on shared components, such as header and footer, can be created under this abstract view.
 
 ![](assets/spa_vec_modifications_panel.png)
 
-**Actions**
+### Actions
 
 Clicking an action highlights the element on the page where this action will be applied. Each VEC action created under a view has four icons as shown below: Information, Edit, Move to "Page Load" and Delete.
 
@@ -145,35 +125,14 @@ Clicking an action highlights the element on the page where this action will be 
 
 The following table describes each action:
 
-<table id="table_703E3C12D18A44E6A28F0B54247CFD56"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Page </th> 
-   <th colname="col2" class="entry"> Description </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Information </p> </td> 
-   <td colname="col2"> <p>Displays the details of this action. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Edit </p> </td> 
-   <td colname="col2"> <p>Allows you to edit the properties of this action directly. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Move to "Page Load" </p> </td> 
-   <td colname="col2"> <p>Moves the action to the page-load event. You might accidentally create an action, such as reordering the menu link in the header, under a view that you can move to page load. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Delete </p> </td> 
-   <td colname="col2"> <p>Deletes the activity. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Page | Description |
+|--- |--- |
+|Information|Displays the details of this action.|
+|Edit|Allows you to edit the properties of this action directly.|
+|Move to "Page Load"|Moves the action to the page-load event. You might accidentally create an action, such as reordering the menu link in the header, under a view that you can move to page load.|
+|Delete|Deletes the activity.|
 
 ## Known Limitations {#section_F5B6506B86B0488FBEC870FB5AA4A435}
 
 * The VEC for SPAs can be used for creating [A/B Test](../c-activities/t-test-ab/test-ab.md#task_05E33EB15C4D4459B5EAFF90A94A7977) and [Experience Targeting](../c-activities/t-experience-target/experience-target.md#task_A53DF336CB9F4D7BB87EF2106099EFC4) (XT) activities only. Support for other activity types will be available in the future. 
 * [Analytics for Target](../c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) (A4T) reporting will be available in a future Target release.
-

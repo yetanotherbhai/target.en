@@ -33,60 +33,46 @@ In Target, each element on the page is part of a single experience for the entir
 
 The content that displays to visitors depends on the type of activity you create:
 
-<table id="table_7D980A8C299F462EACB22ABD650D701F"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Activity Type </th> 
-   <th colname="col2" class="entry"> Details </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p><a href="../c-activities/t-test-ab/t-test-create-ab/test-create-ab.md#task_68C8079BF9FF4625A3BD6680D554BB72" format="dita" scope="local"> Create an A/B Test</a> </p> </td> 
-   <td colname="col2"> <p>The content that displays in a basic A/B test is randomly chosen from the assets you assign to the activity, according to the percentages you choose for each experience. As a result of this random splitting of traffic, it can take a lot of initial traffic before the percentages even out. For example, if you create two experiences, the starting experience is chosen randomly. If there is little traffic, it's possible that the percentage of visitors can be skewed toward one experience. As traffic increases, the percentages should become more equal. </p> <p>You can specify percentage targets for each experience. In this case, a random number is generated and that number is used to choose the experience to display. The resulting percentages might not exactly match the specified targets, but more traffic means that the experiences should be split closer to the target goals. </p> <p class="- topic/p "> 
-     <ol class="- topic/ol " id="ol_074AC9DDC5604981AA883F0CC5107391"> 
-      <li class="- topic/li " id="li_7DC54492E73F431FBA7ED0CF93CB7A77"> A customer requests a page from your server and it displays in the browser. </li> 
-      <li class="- topic/li " id="li_0372A6E46F014DB7B8179C8173667BB3"> A first party cookie is set in the customer's browser to store customer behavior. </li> 
-      <li class="- topic/li " id="li_C2520C49CB454392A0B7C13809F96C1A"> The page calls the targeting system. </li> 
-      <li class="- topic/li " id="li_3AD0BEAA7FDF43AF851468E3E951E9ED"> Content displays based on the rules of your campaign. </li> 
-     </ol> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><a href="../c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4" format="dita" scope="local"> Auto-Allocate</a> </p> </td> 
-   <td colname="col2"> <p>Auto Allocate identifies a winner among two or more experiences and automatically reallocates more traffic to the winning experience to increase conversions while the test continues to run and learn. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><a href="../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3" format="dita" scope="local"> Auto-Target</a> </p> </td> 
-   <td colname="col2"> <p>Auto-Target uses advanced machine learning to select from multiple high-performing marketer-defined experiences, and serves the most tailored experience to each visitor based on his or her individual customer profile and the behavior of previous visitors with similar profiles, in order to personalize content and drive conversions. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><a href="../c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9" format="dita" scope="local"> Automated Personalization</a> </p> </td> 
-   <td colname="col2"> <p>Automated Personalization (AP) combines offers or messages, and uses advanced machine learning to match different offer variations to each visitor based on their individual customer profile, in order to personalize content and drive lift. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><a href="../c-activities/t-experience-target/experience-target.md#task_A53DF336CB9F4D7BB87EF2106099EFC4" format="dita" scope="local"> Experience Targeting</a> </p> </td> 
-   <td colname="col2"> <p>Experience Targeting (XT) delivers content to a specific audience based on a set of marketer-defined rules and criteria. </p> <p>Experience Targeting, including geotargeting, is valuable for defining rules that target a specific experience or content to a particular audience. Several rules can be defined in an activity to deliver different content variations to different audiences. When visitors view your site, Experience Targeting (XT) evaluates them to determine whether they meet the criteria you set. If they meet the criteria, they enter the activity and the experience designed for qualifying audiences is displayed. You can create experiences for multiple audiences within a single activity. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><a href="../c-activities/c-multivariate-testing/multivariate-testing.md#concept_628695CDC71B449B8DCC2F5654C11499" format="dita" scope="local"> Multivariate Test</a> </p> </td> 
-   <td colname="col2"> <p>Multivariate Testing (MVT) compares combinations of offers in elements on a page to determine which combination performs the best for a specific audience, and identifies which element most impacts the activity's success. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><a href="../c-recommendations/recommendations.md#concept_7556C8A4543942F2A77B13A29339C0C0" format="dita" scope="local"> Recommendations</a> </p> </td> 
-   <td colname="col2"> <p>Recommendations activities automatically display products or content that might interest your customers based on previous user activity or other algorithms. Recommendations help direct customers to relevant items they might otherwise not know about. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+### [Create an A/B Test](../c-activities/t-test-ab/t-test-create-ab/test-create-ab.md#task_68C8079BF9FF4625A3BD6680D554BB72)
+
+The content that displays in a basic A/B test is randomly chosen from the assets you assign to the activity, according to the percentages you choose for each experience. As a result of this random splitting of traffic, it can take a lot of initial traffic before the percentages even out. For example, if you create two experiences, the starting experience is chosen randomly. If there is little traffic, it's possible that the percentage of visitors can be skewed toward one experience. As traffic increases, the percentages should become more equal.
+
+You can specify percentage targets for each experience. In this case, a random number is generated and that number is used to choose the experience to display. The resulting percentages might not exactly match the specified targets, but more traffic means that the experiences should be split closer to the target goals.
+
+1. A customer requests a page from your server and it displays in the browser.
+2. A first party cookie is set in the customer's browser to store customer behavior.
+3. The page calls the targeting system.
+4. Content displays based on the rules of your campaign.
+
+### [Auto-Allocate](../c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4)
+
+Auto Allocate identifies a winner among two or more experiences and automatically reallocates more traffic to the winning experience to increase conversions while the test continues to run and learn.
+
+### [Auto-Target](../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3)
+
+Auto-Target uses advanced machine learning to select from multiple high-performing marketer-defined experiences, and serves the most tailored experience to each visitor based on his or her individual customer profile and the behavior of previous visitors with similar profiles, in order to personalize content and drive conversions.
+
+### [Automated Personalization](../c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9)
+
+Automated Personalization (AP) combines offers or messages, and uses advanced machine learning to match different offer variations to each visitor based on their individual customer profile, in order to personalize content and drive lift.
+
+### [Experience Targeting](../c-activities/t-experience-target/experience-target.md#task_A53DF336CB9F4D7BB87EF2106099EFC4)
+
+Experience Targeting (XT) delivers content to a specific audience based on a set of marketer-defined rules and criteria.
+
+Experience Targeting, including geotargeting, is valuable for defining rules that target a specific experience or content to a particular audience. Several rules can be defined in an activity to deliver different content variations to different audiences. When visitors view your site, Experience Targeting (XT) evaluates them to determine whether they meet the criteria you set. If they meet the criteria, they enter the activity and the experience designed for qualifying audiences is displayed. You can create experiences for multiple audiences within a single activity.
+
+### [Multivariate Test](../c-activities/c-multivariate-testing/multivariate-testing.md#concept_628695CDC71B449B8DCC2F5654C11499)
+
+Multivariate Testing (MVT) compares combinations of offers in elements on a page to determine which combination performs the best for a specific audience, and identifies which element most impacts the activity's success.
+
+### [Recommendations](../c-recommendations/recommendations.md#concept_7556C8A4543942F2A77B13A29339C0C0)
+
+Recommendations activities automatically display products or content that might interest your customers based on previous user activity or other algorithms. Recommendations help direct customers to relevant items they might otherwise not know about.
 
 ## The Edge Network {#concept_0AE2ED8E9DE64288A8B30FCBF1040934}
 
 “Edge” is a geographically distributed serving architecture that ensures optimum response times for end-users requesting content, regardless of where they are located around the globe.
-
-<!-- 
-
-ov/c_edge_network.xml
-
- -->
 
 To improve response times, Edge environments house only activity logic and cached profile and offer information. Activity and content databases, [!DNL Analytics] data, APIs, and marketer user interfaces are housed in Adobe’s central data environments. Updates are then sent to the Edge nodes. The central environments and Edge nodes are automatically synched to continually update cached activity data. 1:1 modeling is also stored at each edge, so those more complex requests can also stay on the Edge.
 
@@ -106,12 +92,6 @@ The network also serves as a fail-over mechanism. If one edge node is not functi
 
 Adobe ensures that the availability and performance of the targeting infrastructure is as reliable as possible. However, a communication breakdown between an end-user’s browser and Adobe’s servers can cause an interruption in content delivery.
 
-<!-- 
-
-ov/c_protected_user_experience.xml
-
- -->
-
 To safeguard against service interruptions and connectivity issues, all locations are set up to include default content (defined by the client), which is surfaced if the user’s browser cannot connect to [!DNL Target].
 
 No changes are made to the page if the user’s browser cannot connect within a defined timeout period (by default,15 seconds). If this timeout threshold is reached, a setting is changed in the cookie so the user sees default content for all other locations immediately. This state lasts for a half hour, after which the user’s browser again attempts to contact Adobe’s servers for content requests.
@@ -127,12 +107,6 @@ Adobe protects the user experience by optimizing and safeguarding performance.
 
 [!DNL Adobe Target] aligns with search engine guidelines for testing.
 
-<!-- 
-
-ov/c_effect_on_seo.xml
-
- -->
-
 Google encourages user testing and has stated in its documentation that A/B and multivariate testing will not harm organic search engine rankings as long as a few simple guidelines are followed.
 
 For more information, see the following Google resources:
@@ -142,21 +116,21 @@ For more information, see the following Google resources:
 
 Guidelines were presented in a [Google Webmaster Central Blog](https://webmasters.googleblog.com/2012/08/website-testing-google-search.html) post. Although the post dates back to 2012, it remains Google's most recent statement on the matter and the guidelines remain relevant.
 
-* ** No cloaking** - Cloaking is showing one set of content to your users and a different set of content to search engine bots by specifically identifying them and purposely feeding them different content.
+* **No cloaking** - Cloaking is showing one set of content to your users and a different set of content to search engine bots by specifically identifying them and purposely feeding them different content.
 
   Target, as a platform, has been configured to treat search engine bots the same as any user. This means that the bots might get included in tests you are running, if they are randomly selected, and "see" the test variations. 
 
-* ** Use rel="canonical"** - Sometimes an A/B test needs to be set up using different URLs for the variations. In these instances, all variations should contain a `rel="canonical"` tag that references the original (control) URL. For instance, if Adobe were testing its home page using different URLs for each variation, the following canonical tag for the home page would go in the `<head>` tag for each of the variations:
+* **Use rel="canonical"** - Sometimes an A/B test needs to be set up using different URLs for the variations. In these instances, all variations should contain a `rel="canonical"` tag that references the original (control) URL. For instance, if Adobe were testing its home page using different URLs for each variation, the following canonical tag for the home page would go in the `<head>` tag for each of the variations:
 
   `<link rel="canonical" href="https://www.adobe.com" />` 
 
-* ** Use 302 (temporary) redirects** - In the instances where separate URLs are used for the variation pages in a test, Google recommends using a 302 redirect to direct traffic into the test variations. This tells the search engines that the redirect is temporary and will only be active as long as the test is running.
+* **Use 302 (temporary) redirects** - In the instances where separate URLs are used for the variation pages in a test, Google recommends using a 302 redirect to direct traffic into the test variations. This tells the search engines that the redirect is temporary and will only be active as long as the test is running.
 
   A 302 redirect is a server-side redirect, and Target, along with most optimization providers, uses client-side capabilities. Therefore, this is an area where Target is not fully compliant with Google's recommendations. This, however, impacts only a small fraction of tests. The standard approach for running tests through Target calls for changing content within a single URL, so no redirects are necessary. There are instances when clients need to use multiple URLs to represent their test variations. In these instances, Target uses the JavaScript `window.location` command to direct users to test variations, which does not explicitly signify whether the redirect is a 301 or 302.
 
   Although we continue to look for viable solutions to completely align with search engine guidelines, for those clients that must use separate URLs for testing, we are confident that proper implementation of the canonical tags mentioned above mitigates the risk associated with this approach. 
 
-* ** Run experiments only as long as necessary** - We believe "as long as necessary" to be as long as it takes to reach statistical significance. Target [provides best practices](https://docs.adobe.com/content/target-microsite/testcalculator.html) to determine when your test has reached this point. We recommend that you incorporate the hardcoded implementation of winning tests into your testing workflow and allot the appropriate resources.
+* **Run experiments only as long as necessary** - We believe "as long as necessary" to be as long as it takes to reach statistical significance. Target [provides best practices](https://docs.adobe.com/content/target-microsite/testcalculator.html) to determine when your test has reached this point. We recommend that you incorporate the hardcoded implementation of winning tests into your testing workflow and allot the appropriate resources.
 
   Using the Target platform to "publish" winning tests is not recommended as a permanent solution, but as long as the winning test is published for 100% of users 100% of the time, this approach can be used while the process of hardcoding the winning test is completed.
 
