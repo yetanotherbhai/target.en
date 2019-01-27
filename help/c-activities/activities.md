@@ -19,8 +19,8 @@ The [!UICONTROL Activities] list provides an overview of all activities.
 
 The Activities list displays the following information:
 
-| Element | Description | Action | Description |
-|--- |--- |--- |--- |
+| Element | Description |
+|--- |--- |
 |Type|The activity type, such as A/B or MVT.|
 |Name|The name of the activity.|
 |Objective|The objective appears in lighter text next to the name. If the objective is too long for your screen width, it is truncated.|
