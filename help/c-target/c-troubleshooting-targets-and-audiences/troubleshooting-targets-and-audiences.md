@@ -63,8 +63,8 @@ The following table contains a few examples:
 
 |Script Value|Targeting Criteria|Result|
 | --- | --- | --- |
-1.0|equals 1|	true
-1|equalsIgnoreCase 1.0|true|
-1.500|equals 1.5|true|
-1.200|is less than 2|true|
-2|is greater than 3.0|false|
+|1.0|equals 1|true|
+|1|equalsIgnoreCase 1.0|true|
+|1.500|equals 1.5|true|
+|1.200|is less than 2|true|
+|2|is greater than 3.0|false|
