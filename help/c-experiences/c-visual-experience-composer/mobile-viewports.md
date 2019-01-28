@@ -154,7 +154,7 @@ This use case shows how to configure experiences for two iPhone versions, iPhone
 
 The following videos contain additional information about the concepts and tasks discussed in this article.
 
-###Visual Experience Composer (2 of 2) (7:29)
+### Visual Experience Composer (2 of 2) (7:29)
 
 The following demo video includes information about using the Visual Experience composer to work with mobile viewports:
 
