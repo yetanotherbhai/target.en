@@ -159,6 +159,7 @@ The following videos contain more information about the concepts discussed in th
 >[!VIDEO](https://video.tv.adobe.com/v/23113t2/)
 
 ### Troubleshooting
+
 The following video demonstrates tools to troubleshoot [!DNL Target]. (14:14)
 
 * Use native browser tools for inspecting mbox requests 
