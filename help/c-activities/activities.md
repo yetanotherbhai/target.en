@@ -136,7 +136,11 @@ This import job will run when the activities page is opened, with a maximum dela
 
 ## Training videos {#section_BE80D13A2E81460C885F902010E1AD87}
 
-The Activity Types video (9:03) explains the activity types available in [!DNL Target Standard/Premium].
+The following videos contain more information about the concepts discussed in this article.
+
+### Activity Types ((9:03)
+
+This video explains the activity types available in [!DNL Target Standard/Premium].
 
 * Describe the types of activities included in [!DNL Adobe Target] 
 * Select the appropriate activity type to achieve your goals 
@@ -144,7 +148,9 @@ The Activity Types video (9:03) explains the activity types available in [!DNL T
 
 >[!VIDEO](https://www.youtube.com/watch?v=vtHg1pPFJp8)
 
-The Managing Activities video (5:55) explains how to use the Activities list to manage activities.
+### Managing Activities (5:55)
+
+This video explains how to use the Activities list to manage activities.
 
 * Define the term *activity* 
 * Find activities in the Activities list 

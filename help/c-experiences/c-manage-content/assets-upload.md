@@ -20,6 +20,8 @@ You can add items to the Image Offers list.
 
    The item is added to the library. 
 
+## Training video: Managing content
+
 This video includes information about managing content. 
 
 * Connection between the [Experience Cloud Asset Library](https://marketing.adobe.com/resources/help/en_US/mcloud/creative_cloud.html) and the Target Content Library 

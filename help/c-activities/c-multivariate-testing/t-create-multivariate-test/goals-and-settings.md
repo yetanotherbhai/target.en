@@ -150,7 +150,7 @@ Type any information about your activity that is useful to keep on hand for your
 
 ## Training videos
 
-The following videos contain details about information in this article.
+The following videos contain more information about the concepts discussed in this article.
 
 ### Activity Settings (3:02)
 

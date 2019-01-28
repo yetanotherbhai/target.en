@@ -12,27 +12,6 @@ snippet: y
 
 The Goals and Settings page is where you enter information about the goals of the test.
 
-**Activity Settings (3:02)**
-
-This video includes information about activity settings.
-
-* Enter an objective for your activity 
-* Set the priority level of your activities 
-* Schedule activity start and end times 
-* Add audiences for reporting to create report filters 
-* Enter notes for your activities
-
->[!VIDEO](https://www.youtube.com/watch?v=6XNEM8tUADo)
-
-**Creating A/B Tests (8:36)**
-
-This video demonstrates how activity settings fit within the three-step guided workflow when creating an activity. Goals and settings are discussed beginning at 5:30.
-
-* Create an A/B activity in Adobe Target 
-* Allocate traffic using a manual split or automatic traffic allocation
-
->[!VIDEO](https://www.youtube.com/watch?v=JG0dbWDAvtk)
-
 The available settings depend on whether you use Target or Analytics as the data source.
 
 ![](assets/ab_settings.png)
@@ -76,3 +55,28 @@ See [Success Metrics](../../../c-activities/r-success-metrics/success-metrics.md
 |  Settings  | Description  |
 |---|---|
 |  Notes  | Type any information about your activity that is useful to keep on hand for yourself or other team members. The Notes pane is resizable.  |
+
+## Training videos
+
+The following videos contain more information about the concepts discussed in this article.
+
+### Activity Settings (3:02)
+
+This video includes information about activity settings.
+
+* Enter an objective for your activity 
+* Set the priority level of your activities 
+* Schedule activity start and end times 
+* Add audiences for reporting to create report filters 
+* Enter notes for your activities
+
+(https://www.youtube.com/watch?v=6XNEM8tUADo)
+
+### Creating A/B Tests (8:36)
+
+This video demonstrates how activity settings fit within the three-step guided workflow when creating an activity. Goals and settings are discussed beginning at 5:30.
+
+* Create an A/B activity in Adobe Target 
+* Allocate traffic using a manual split or automatic traffic allocation
+
+>[!VIDEO](https://www.youtube.com/watch?v=JG0dbWDAvtk)

@@ -13,10 +13,6 @@ uuid: ca72e933-2ad3-44e1-893f-7b65c474704b
 
 The Experience Performance report shows how each experience in the activity performs. This report includes information about the number of entrants, the conversion rate, the lift, and the confidence.
 
-This video demonstrates how to create a multivariate test using the Target three-step guided workflow. The Experience Performance report is described beginning at 8:20.
-
->[!VIDEO](https://www.youtube.com/watch?v=X8w5IQqEOow)
-
 You can select one or more experiences to compare them. Click on an experience and select **[!UICONTROL Preview]** to open the experience in a browser tab.
 
 ![](assets/experienceperformancetable.png)
@@ -36,3 +32,9 @@ You can display the best five, worst five, or all experiences. The best and wors
 >Multivariate test reports do not show any excluded experiences when either the Best Five or Worst Five filter is selected.
 
 Below the graph, a table shows how many entrants saw each experience, as well as other information relevant to your success metric. 
+
+## Training video: Create an MVT Test
+
+This video demonstrates how to create a multivariate test using the Target three-step guided workflow. The Experience Performance report is described beginning at 8:20.
+
+>[!VIDEO](https://www.youtube.com/watch?v=X8w5IQqEOow)

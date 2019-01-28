@@ -51,7 +51,7 @@ Note that when you name or rename a metric, the following characters are not all
 |-|Minus|
 |@|At sign|
 
-**Activity Metrics (7:43)** 
+## Training video: Activity Metrics (7:43) 
 
 This video includes information about working with success metrics. 
 

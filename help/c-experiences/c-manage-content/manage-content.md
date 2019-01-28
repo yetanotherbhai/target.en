@@ -16,16 +16,6 @@ Use the Offers library to manage your code offer and image offer content.
 >
 >In the January 2017 release, offers created via [!DNL Target Classic], [!DNL Adobe Experience Manager] (AEM), [!DNL Adobe Mobile Services] (AMS), and APIs are visible in the [!DNL Target Standard/Premium] user interface. Offers updated in the last two years using these methods will be visible (i.e. January 2015 and beyond). The initial synchronization will occur the first time any user in your organization opens the [!UICONTROL Offers] page. The amount of time for the initial synchronization will depend on the amount of data. After the initial synchronization, data will sync incrementally. If you had code and images in the same folder before this release, [!DNL Target] will split them into two duplicate folders. Note that the Updated date and time refers to the time when the folder was migrated and does not reflect the date you originally created the folder.
 
-**Offers Library (4:56)**
-
-This video includes information about managing offers.
-
-* Connection between the [Experience Cloud Asset Library](https://marketing.adobe.com/resources/help/en_US/mcloud/creative_cloud.html) and the Target Content Library 
-* Custom HTML Offers 
-* Custom HTML Offer in the Visual Experience Composer
-
->[!VIDEO](https://www.youtube.com/watch?v=ZNIGgXOATMY)
-
 Click **[!UICONTROL Offers]** to open the library. The library contains the offers that have been set up via [!DNL Target Standard/Premium], [!DNL Target Classic], [!DNL Adobe Experience Manager] (AEM), [!DNL Adobe Mobile Services] (AMS), and APIs. Offers created in [!DNL Target Classic] or other solutions are editable in [!DNL Target Standard/Premium].
 
 The [!UICONTROL Offers] page has two tabs along the right side: Code Offers and Image Offers that let you view offers by type.
@@ -92,3 +82,12 @@ The following information is available:
 * Redirect URL Type 
 * Absolute or Relative URL
 
+## Training video: Offers Library (4:56)
+
+This video includes information about managing offers.
+
+* Connection between the [Experience Cloud Asset Library](https://marketing.adobe.com/resources/help/en_US/mcloud/creative_cloud.html) and the Target Content Library 
+* Custom HTML Offers 
+* Custom HTML Offer in the Visual Experience Composer
+
+>[!VIDEO](https://www.youtube.com/watch?v=ZNIGgXOATMY)

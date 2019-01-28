@@ -15,15 +15,6 @@ Multivariate Testing (MVT) compares combinations of offers in elements on a page
 
 ## MVT Overview {#section_C73A2D1409EC42C9B0EDD4B976651C5E}
 
-**Creating Multivariate Tests (9:25)**
-
-This video explains how to understand, plan, and create a multivariate test using the Target three-step guided workflow.
-
-* Define and design a multivariate test 
-* Create a multivariate test
-
->[!VIDEO](https://www.youtube.com/watch?v=X8w5IQqEOow)
-
 Multivariate testing can help you discover the relative influence specific elements have on conversion, compared to other elements on the page. It can also help you refine a combination of elements that have been shown to be effective.
 
 One advantage a multivariate test provides compared to an A/B test is the ability to show you which elements on your page have the greatest influence on conversion. This is also known as the "main effect." This information is useful, for example, by helping you determine where to place content that you want to receive the most attention.
@@ -37,16 +28,6 @@ In Target, each combination is one experience. The multivariate test compares ea
 ![](assets/multivariate.png){width="672px"}
 
 Because of the number of combinations that can be generated, a multivariate test requires more time and traffic than an A/B test. The page must receive enough traffic to produce statistically significant results for each experience. To obtain useful results, you need to understand the amount of traffic your page receives and test the optimal number of combinations for the right amount of time to get the required results. Target's [Traffic Estimator](../../c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714) can help you design a test that works with your traffic. Before you use the Traffic Estimator, you should have good statistics showing the number of impressions and conversions your site normally receives. Consider your traffic levels per day. The more experiences in an activity, the more traffic the activity will need to include or the longer your activity will need to run. If your traffic isn't very high, you should test a small number of combinations; otherwise, the amount of time required to produce meaningful test results might be too long to be useful.
-
-**Activity Types (9:03)**
-
-This video explains the activity types available in Target Standard/Premium. Multivariate testing is discussed beginning at 4:20.
-
-* Describe the types of activities included in [!DNL Adobe Target] 
-* Select the appropriate activity type to achieve your goals 
-* Describe the three-step guided workflow that applies to all activity types
-
->[!VIDEO](https://www.youtube.com/watch?v=vtHg1pPFJp8)
 
 ## MVT Terminology {#section_DF475CA7F34B4CFDB7BE7363761D64AE}
 
@@ -98,3 +79,26 @@ Multivariate tests can be used together with A/B tests to optimize your page. Ex
     * After the activity is over (based on the sample size calculator), run results through the spreadsheet to get the other details.
 
 For more considerations and best practices, see [Multivariate Test Best Practices](../../c-activities/c-multivariate-testing/best-practices.md#reference_53635817FFB741EF8C4E56CC70688EDD). 
+
+## Training videos:
+
+The following videos contain more information about the concepts discussed in this article.
+
+### Activity Types (9:03)
+
+This video explains the activity types available in Target Standard/Premium. Multivariate testing is discussed beginning at 4:20.
+
+* Describe the types of activities included in [!DNL Adobe Target] 
+* Select the appropriate activity type to achieve your goals 
+* Describe the three-step guided workflow that applies to all activity types
+
+>[!VIDEO](https://www.youtube.com/watch?v=vtHg1pPFJp8)
+
+### Creating Multivariate Tests (9:25)
+
+This video explains how to understand, plan, and create a multivariate test using the Target three-step guided workflow.
+
+* Define and design a multivariate test 
+* Create a multivariate test
+
+>[!VIDEO](https://www.youtube.com/watch?v=X8w5IQqEOow)

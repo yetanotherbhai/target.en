@@ -171,7 +171,7 @@ You can use the existing [sample size calculator](https://docs.adobe.com/content
 
 ## Training videos {#section_893E5B36DC4A415C9B1D287F51FCCB83}
 
-The following videos contain more information:
+The following videos contain more information about the concepts discussed in this article.
 
 ### Activity Workflow - Targeting (2:14)
 

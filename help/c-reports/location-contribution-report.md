@@ -13,10 +13,6 @@ uuid: f487d1a2-05dc-40b7-af40-8da1616452b3
 
 The Location Contribution report shows the performance of each element and each offer.
 
-This video demonstrates how to create a multivariate test using the Target three-step guided workflow. The Location Contribution report is described beginning at 8:45.
-
->[!VIDEO](https://www.youtube.com/watch?v=X8w5IQqEOow)
-
 The top of the report shows the metric, start and end dates, and audience used in the report. You can change any of these factors.
 
 >[!NOTE]
@@ -33,3 +29,8 @@ The second table provides an offer-level report. It shows the conversion rate, l
 
 ![](assets/locationcontributionbottom.png)
 
+## Training video: Create an MVT Test
+
+This video demonstrates how to create a multivariate test using the Target three-step guided workflow. The Location Contribution report is described beginning at 8:45.
+
+>[!VIDEO](https://www.youtube.com/watch?v=X8w5IQqEOow)

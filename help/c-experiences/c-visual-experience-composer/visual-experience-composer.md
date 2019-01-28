@@ -10,46 +10,11 @@ uuid: f1e6f67e-1d7e-4806-8389-2ce165b534b4
 
 Information about using the Visual Experience Composer (VEC) and the Enhanced Experience Composer.
 
-The Visual Experience Composer video (7:17) below provides information about using the Visual Experience Composer options.
-
-* Change the content of a page 
-* Change the layout of a page
-
->[!VIDEO](https://www.youtube.com/watch?v=2KUDgu6Mscg)
-
 The following experience composers are available:
 
 ## Visual Experience Composer and Enhanced Experience Composer {#section_34265986611B4AB8A0E4D6ACC25EF91D}
 
 The Visual Experience Composer is one of the main features of Adobe Target. The Visual Experience Composer is an editor that enables marketers and designers to create and change content using a visual interface. Many design choices can be made without requiring direct editing of the code. Editing HTML and JavaScript is also possible using the editing options available in the composer.
-
-The videos below provide information about using the Visual Experience Composer.
-
-**Visual Experience Composer (1 of 2) (7:17)**
-
-* Change the content of a page 
-* Change the layout of a page
-
->[!VIDEO](https://www.youtube.com/watch?v=2KUDgu6Mscg)
-
-**Visual Experience Composer (2 of 2) (7:29)**
-
-* Rename and duplicate an experience 
-* Create a redirect experience 
-* Target an activity to a single URL or a group of URLs 
-* Create a multi-page activity 
-* Preview and build experience for responsive websites 
-* Use overlays to highlight types of elements
-
->[!VIDEO](https://www.youtube.com/watch?v=qwUKEp8en_k)
-
-This video is a recording of " [Office Hours](../../cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7)," an initiative led by the Adobe Customer Care team.
-
-* How the VEC works 
-* How to avoid common issues with the VEC 
-* Work-around practices you can use with the VEC
-
->[!VIDEO](https://video.tv.adobe.com/v/20784/)
 
 On the Target **[!UICONTROL Setup]** > **[!UICONTROL Preferences]** tab, you can enter the Default Visual Experience Composer URL.
 
@@ -84,3 +49,45 @@ You can also click **[!UICONTROL Browse]**, then navigate to a page that is avai
 >If a hover state depends on JavaScript, make sure **[!UICONTROL Disable JavaScript]** is not selected. JavaScript must be enabled to edit JavaScript elements.
 
 For information about the options available in the Visual Experience Composer, see [Visual Experience Composer Options](../../c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81). 
+
+
+## Training videos
+
+The following videos contain more information about the concepts discussed in this article.
+
+### Visual Experience Composer (7:17)
+
+This video provides information about using the Visual Experience Composer options.
+
+* Change the content of a page 
+* Change the layout of a page
+
+>[!VIDEO](https://www.youtube.com/watch?v=2KUDgu6Mscg)
+
+### Visual Experience Composer (1 of 2) (7:17)
+
+* Change the content of a page 
+* Change the layout of a page
+
+>[!VIDEO](https://www.youtube.com/watch?v=2KUDgu6Mscg)
+
+### Visual Experience Composer (2 of 2) (7:29)
+
+* Rename and duplicate an experience 
+* Create a redirect experience 
+* Target an activity to a single URL or a group of URLs 
+* Create a multi-page activity 
+* Preview and build experience for responsive websites 
+* Use overlays to highlight types of elements
+
+>[!VIDEO](https://www.youtube.com/watch?v=qwUKEp8en_k)
+
+### Office hours: Visual Experience Composer
+
+This video is a recording of " [Office Hours](../../cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7)," an initiative led by the Adobe Customer Care team.
+
+* How the VEC works 
+* How to avoid common issues with the VEC 
+* Work-around practices you can use with the VEC
+
+>[!VIDEO](https://video.tv.adobe.com/v/20784/)

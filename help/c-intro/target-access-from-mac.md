@@ -14,18 +14,6 @@ uuid: df5aaded-cb8c-4929-801f-deb0a190febd
 
 Instructions to access Adobe Target from the Adobe Experience Cloud.
 
-**Adobe Target in the Experience Cloud (4:59)**
-
-This video includes information about [!DNL Adobe Target] in the [!DNL Experience Cloud].
-
-* Describe and understand the value of the Adobe Experience Cloud 
-* Log in to the Adobe Experience Cloud with your Adobe ID or create an Adobe ID 
-* Invite a new user to the Adobe Experience Cloud 
-* Link your Target account to the Adobe Experience Cloud 
-* Set Adobe Target as your default landing page
-
->[!VIDEO](https://www.youtube.com/watch?v=7lwYrYC7vdM) 
-
 1. After signing into the [!DNL Experience Cloud], click the App icon in the navigation bar.
 
    ![](assets/appmenu.png)
@@ -42,3 +30,14 @@ This video includes information about [!DNL Adobe Target] in the [!DNL Experienc
 
    ![](assets/pagepref.png)
 
+## Training video: Adobe Target in the Experience Cloud (4:59)
+
+This video includes information about [!DNL Adobe Target] in the [!DNL Experience Cloud].
+
+* Describe and understand the value of the Adobe Experience Cloud 
+* Log in to the Adobe Experience Cloud with your Adobe ID or create an Adobe ID 
+* Invite a new user to the Adobe Experience Cloud 
+* Link your Target account to the Adobe Experience Cloud 
+* Set Adobe Target as your default landing page
+
+>[!VIDEO](https://www.youtube.com/watch?v=7lwYrYC7vdM) 

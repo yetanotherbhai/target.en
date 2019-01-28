@@ -18,7 +18,11 @@ When visitors view your site, Experience Targeting (XT) evaluates them to determ
 
 Experience Targeting is a first step into the world of personalization and often begins with A/B testing. A marketer runs an A/B test, and through the use of reporting audiences discovers that different experiences resonate with different audiences. Experience Targeting allows the marketer to easily leverage that discovery and switch to long-term targeting of content to those different user segments.
 
-**From A/B Testing to Experience Targeting**
+## Training videos:
+
+The following videos contain more information about the concepts discussed in this article.
+
+### From A/B Testing to Experience Targeting
 
 This video describes how to take A/B Testing to the next level with Experience Targeting (XT).
 
@@ -28,7 +32,7 @@ This video describes how to take A/B Testing to the next level with Experience T
 
 >[!VIDEO](https://video.tv.adobe.com/v/22418/)
 
-**Activity Types (9:03)**
+### Activity Types (9:03)
 
 This video explains the activity types available in Target Standard/Premium. Experience Targeting is discussed beginning at 5:15.
 

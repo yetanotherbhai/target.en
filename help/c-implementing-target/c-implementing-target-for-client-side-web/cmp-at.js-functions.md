@@ -607,7 +607,7 @@ document.addEventListener(adobe.target.event.REQUEST_SUCCEEDED, function(event) 
 });
 ```
 
-### Training Video {#section_ED304A7137DC42A4BDCD6D57C989F1FA}
+## Training Video: Response Tokens and the at.js Custom Events {#section_ED304A7137DC42A4BDCD6D57C989F1FA}
 
 Watch the following video to learn how to use Response Tokens and at.js Custom Events to share profile information from Target to third-party systems.
 

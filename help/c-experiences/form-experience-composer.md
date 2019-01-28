@@ -15,14 +15,6 @@ The Form-Based Experience Composer provides non-visual experience creation.
 
  This feature enables Target Standard A/B tests, Experience Targeting, Automated Personalization, and Recommendations activities to be delivered in emails, mobile apps, kiosks, and other places that don't work with a Visual Experience Composer.
 
-This video provides a demo of the form-based composer.
-
-* Create an activity using the Form-Based Experience Composer 
-* Understand when to use Form-Based Experience Composer vs. the Visual Experience Composer 
-* Use refinements to target a location
-
->[!VIDEO](https://www.youtube.com/watch?v=R9hcD9D1VPY)
-
 If you are creating a Recommendations activity, there are no experiences. Choose your criteria and design. If you choose multiple criteria or designs, Target automatically generates the experiences. 
 
 1. Click **[!UICONTROL Create Activity]**, then select the type of activity you want to create.
@@ -103,3 +95,12 @@ If you are creating a Recommendations activity, there are no experiences. Choose
 * [Create an Experience Targeting Activity](../c-activities/t-experience-target/t-xt-create/xt-create.md#task_D6B3429AC31549E1A70EDF04B3DDC765) 
 * [Create a Recommendations Activity](../c-recommendations/t-create-recs-activity/create-recs-activity.md#task_6874328773C64C44A73F0A130AD3F96F)
 
+## Training video: Form-based Composer
+
+This video provides a demo of the form-based composer.
+
+* Create an activity using the Form-Based Experience Composer 
+* Understand when to use Form-Based Experience Composer vs. the Visual Experience Composer 
+* Use refinements to target a location
+
+>[!VIDEO](https://www.youtube.com/watch?v=R9hcD9D1VPY)
