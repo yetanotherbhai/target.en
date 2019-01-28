@@ -18,28 +18,11 @@ This can be resolved by whitelisting the following IP addresses. These IP addres
 
 Ask your IT team to whitelist the following IP addresses:
 
-<table id="table_E8DFD24B9B684CF182CEAFCA13ADD9C4"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Region </th> 
-   <th colname="col2" class="entry"> IP Addresses </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>United States </p> </td> 
-   <td colname="col2"> <p>52.55.99.45 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Europe, Middle East, and Africa (EMEA) </p> </td> 
-   <td colname="col2"> <p>52.51.238.221 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Asia-Pacific (APAC) </p> </td> 
-   <td colname="col2"> <p>52.193.67.35 </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Region | IP Addresses |
+|--- |--- |
+|United States|52.55.99.45|
+|Europe, Middle East, and Africa (EMEA)|52.51.238.221|
+|Asia-Pacific (APAC)|52.193.67.35|
 
 You might see the following error message in Target:
 

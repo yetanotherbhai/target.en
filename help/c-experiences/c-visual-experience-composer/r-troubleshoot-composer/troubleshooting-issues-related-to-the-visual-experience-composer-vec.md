@@ -37,20 +37,19 @@ Some users see the following error message in the console:
 
 If neither the Visual Experience Composer nor the Enhanced Experience Composer works, use a browser extension like Requestly (Chrome or Firefox) or Modify Response Headers (Firefox) that can overwrite the X-Frames header options for your site and allow them to be loaded in iFrames, enabling the VEC. If you are unable to use browser extensions, use the Form Composer.
 
-<table id="table_24793D197093447C94DA4E766B052A77"> 
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>These plugins should be used only in the context of VEC editing. </p> <p>For the Requestly extension, whenever there is a need to remove headers, you should do either of following: </p> <p> 
-     <ul id="ul_C903A746005D43B681FA0F5862387424"> 
-      <li id="li_C58081214B1242AC8E6471A313AA2295"> <p>Add URL rules for the URL that you want to open in the VEC so that headers are removed for those URLs only. </p> </li> 
-      <li id="li_38385DF774B54A9F831852440DFFF1FD"> <p>Enable the rule when you are editing in the VEC and disable the rule when you are not using the VEC. </p> </li> 
-     </ul> </p> <p>For the Modify Response Header extension (Firefox), because you can't add a URL rule, you must do the following: </p> <p> 
-     <ul id="ul_3D969F8BABBC432CA0744D2E7DD668F8"> 
-      <li id="li_CD489672E1D3460392A703A3E873B999"> <p>Enable the rule when you are editing in the VEC and disable the rule when you are not using the VEC. </p> </li> 
-     </ul> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+>[!Note]
+>
+>These plugins should be used only in the context of VEC editing.
+>
+>For the Requestly extension, whenever there is a need to remove headers, you should do either of following:
+>
+>* Add URL rules for the URL that you want to open in the VEC so that headers are removed for those URLs only.
+>
+>* Enable the rule when you are editing in the VEC and disable the rule when you are not using the VEC.
+>
+>For the Modify Response Header extension (Firefox), because you can't add a URL rule, you must do the following:
+>
+>* Enable the rule when you are editing in the VEC and disable the rule when you are not using the VEC.
 
 **To use the Requestly extension on Chrome or Firefox:**
 

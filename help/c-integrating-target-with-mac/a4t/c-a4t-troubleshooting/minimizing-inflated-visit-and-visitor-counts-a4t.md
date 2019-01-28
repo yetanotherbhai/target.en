@@ -14,18 +14,18 @@ uuid: 1d5f242a-634f-47f7-ad23-b62019359734
 
 Information to help you minimize the effects of inflated Visit and Visitor counts when using Analytics as a reporting source.
 
-<table id="table_08DC686833144E6BAB92A78A98B56CAB"> 
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>On November 14, 2016, <span class="keyword"> Adobe Analytics </span> changed the way some data is processed for customers using <span class="keyword"> Analytics </span> reporting for <span class="keyword"> Target </span> (A4T). These changes bring <span class="keyword"> Adobe Target </span> data into better alignment with the data model for <span class="keyword"> Adobe Analytics </span>. These changes were rolled out for all customers using A4T. These changes specifically address an issue where some customers have noticed an inflated visitor count when <span class="keyword"> Target </span> activities are running. </p> <p> <p>Note:  This change is not retroactive. If your historical reports show inflated counts, and you would like to exclude them from your reports, you can create a virtual report suite, as explained below. </p> </p> <p>Additionally, several JavaScript libraries have been updated to help minimize inflated counts. We recommend that you upgrade to the following library versions (or newer): </p> <p> 
-     <ul id="ul_1FE7990C3F51461EAD3A1FA03EB40FC4"> 
-      <li id="li_48BFEAC3E7964DA98BB49BE1725E3F26"> <p>Experience Cloud Visitor ID Service: <span class="filepath"> visitorAPI.js </span> version 2.3.0 or later. </p> </li> 
-      <li id="li_A3EEB21E43C54D62B039154CB2E75168"> <p>Adobe Analytics: <span class="filepath"> appMeasurement.js </span> version 2.1. </p> </li> 
-      <li id="li_2F6C0B81896E4247A10E31B63EC08720"> <p>Adobe Target: <span class="filepath"> at.js </span> version 0.9.6 or later (except version 1.1.0 if using redirect offers with A4T). </p> <p>The <span class="filepath"> mbox.js </span> library does not support redirect offers with A4T. Your implementation must use <span class="filepath"> at.js </span>. </p> </li> 
-     </ul> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+>[!IMPORTANT]
+>On November 14, 2016, Adobe Analytics changed the way some data is processed for customers using Analytics reporting for Target (A4T). These changes bring Adobe Target data into better alignment with the data model for Adobe Analytics . These changes were rolled out for all customers using A4T. These changes specifically address an issue where some customers have noticed an inflated visitor count when Target activities are running.
+>
+>Note that this change is not retroactive. If your historical reports show inflated counts, and you would like to exclude them from your reports, you can create a virtual report suite, as explained below.
+>
+>Additionally, several JavaScript libraries have been updated to help minimize inflated counts. We recommend that you upgrade to the following library versions (or newer):
+>
+>* Experience Cloud Visitor ID Service: visitorAPI.js version 2.3.0 or later.
+>* Adobe Analytics: appMeasurement.js version 2.1.
+>* Adobe Target: at.js version 0.9.6 or later (except version 1.1.0 if using redirect offers with A4T).
+>
+>  The mbox.js library does not support redirect offers with A4T. Your implementation must use at.js.
 
 ## What changed? {#section_9CCF45F5D66D48EBA88F3A178B27D986}
 
