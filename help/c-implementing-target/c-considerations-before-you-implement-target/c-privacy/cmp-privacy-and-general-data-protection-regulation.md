@@ -13,10 +13,6 @@ uuid: 5e67adcf-464c-495f-9ba5-15152d9a6a41
 
 Information about the European Union's General Data Protection Regulation (GDPR) and a list of Frequently Asked Questions about how this regulation impacts your organization and Adobe Target.
 
-## Privacy and General Data Protection Regulation (GDPR) {#topic_6BCC0D0984184379A2A2EA6FFC948899}
-
-Information about the European Union's General Data Protection Regulation (GDPR) and a list of Frequently Asked Questions about how this regulation impacts your organization and Adobe Target. 
-
 ## Overview of the Privacy and General Data Protection Regulation (GDPR) {#topic_DE567ECB6C944695AEE5073889F1AEA9}
 
 Information about how Adobe works with you to become GDPR-ready with the European Union's General Data Protection Regulation (GDPR).
@@ -88,17 +84,17 @@ There are three scenarios to consider when using Opt-In:
 
 Frequently Asked Questions about the General Data Protection Regulation (GDPR) specific to Adobe Target.
 
-## What is Adobe's policy for General Data Protection Regulation (GDPR)? {#section_A6849628D6524C80A6E16946DC5D25A9}
+### What is Adobe's policy for General Data Protection Regulation (GDPR)? {#section_A6849628D6524C80A6E16946DC5D25A9}
 
 Adobe either already meets or is implementing our obligations as a Data Processor. We have a strong foundation of certified security and privacy controls by design and will continue to make product enhancements in advance of the May 2018 deadline. Enterprise customers will have the responsibility to implement these enhancements, as well as update any necessary policies and procedures.
 
-## Will my company, the Data Controller, need to submit a GDPR request to each Adobe Experience Cloud solution that it uses? {#section_1DCFA9387D0C4506B14DCE04C49AC22A}
+### Will my company, the Data Controller, need to submit a GDPR request to each Adobe Experience Cloud solution that it uses? {#section_1DCFA9387D0C4506B14DCE04C49AC22A}
 
 No, Adobe is providing a central way to help Data Controllers meet their GDPR requirements. Data Controllers will not need to go directly to each solution.
 
 All GDPR requests across Experience Cloud solutions, including Target, will be made through a central Adobe API, currently called the GDPR API. The API will then complete the request across the Data Controller's Experience Cloud solution suite.
 
-## What information will Adobe enable our customers to delete in response to a data subject/user request? {#section_4B51D00924EC4166B2442218B69214F0}
+### What information will Adobe enable our customers to delete in response to a data subject/user request? {#section_4B51D00924EC4166B2442218B69214F0}
 
 The information related to an individual visitor within Target is contained within the Target Visitor Profile. Adobe Target will enable our customers to delete all data associated with an ID in their Visitor Profile. For examples of the profile data Adobe Target stores, see [Visitor Profile](../../../c-target/c-audiences/c-target-rules/visitor-profile.md#concept_E972690B9A4C4372A34229FA37EDA38E).
 
@@ -106,7 +102,7 @@ Aggregated or anonymized data (for example, reporting data) that does not identi
 
 Target Visitor Profiles that have been inactive for 90 days are deleted by default, without any action required.
 
-## What IDs are supported to help customers complete a GDPR access and deletion request for Target? {#section_F7D0EE4E6A28490FB20056A0D26118BC}
+### What IDs are supported to help customers complete a GDPR access and deletion request for Target? {#section_F7D0EE4E6A28490FB20056A0D26118BC}
 
 Target supports the following ID types to locate a customer profile:
 
@@ -120,7 +116,7 @@ Target supports the following ID types to locate a customer profile:
 >
 >Although Adobe Target supports both first-party and third-party cross-domain cookies, first-party Adobe Target cookies only are recommended for GDPR.
 
-## How does Adobe Target handle consent management? {#section_C86BF5EE4FAA47039659850E7594A6BA}
+### How does Adobe Target handle consent management? {#section_C86BF5EE4FAA47039659850E7594A6BA}
 
 GDPR doesn't change when you need to get consent, but how you get it. Each customer's consent strategy depends on its data collection and use practices as well as its privacy policy. Consent management isn’t supported by and shouldn’t be achieved via Target for GDPR.
 
@@ -130,17 +126,17 @@ Adobe Target does provide opt-in functionality support via Adobe Launch to provi
 
 For more information on GDPR and Adobe Launch, see [The Adobe Privacy JavaScript Library and GDPR](https://www.adobe.io/apis/cloudplatform/gdpr/services/allservices.html). Also, see the “Adobe Target and Adobe Launch Opt-In” section above.
 
-## Does AdobePrivacy.js submit information to the GDPR API? {#section_1EB8A2BAAD31474C97C1D455F41DA739}
+### Does AdobePrivacy.js submit information to the GDPR API? {#section_1EB8A2BAAD31474C97C1D455F41DA739}
 
 [!DNL AdobePrivacy.js] does *not* submit this information to the API. The customer must do that. This library provides only the IDs that are stored in the browser for that specific visitor.
 
-## What does removeIdentities remove? {#section_D3A1591EA1B84C499CE1563DEAF32448}
+### What does removeIdentities remove? {#section_D3A1591EA1B84C499CE1563DEAF32448}
 
 [!DNL removeIdentities] *only* removes those identities from the browser, and that only depends on whether the Adobe solution has implemented it.
 
 For example, Target deletes the cookies storing its IDs, but Adobe Audience Manager (AAM) does not delete the demdex ID that is stored in a 3rd-party cookie.
 
-## What information needs to be included in a Target GDPR request? {#section_D29A4744AE6344E68AD7710B185FD6D0}
+### What information needs to be included in a Target GDPR request? {#section_D29A4744AE6344E68AD7710B185FD6D0}
 
 In addition to the requirements from Central Privacy Service, a valid GDPR message for Target contains:
 
@@ -181,7 +177,7 @@ In addition to the requirements from Central Privacy Service, a valid GDPR messa
 }
 ```
 
-## What types of responses can I expect from Target via the GDPR API? {#section_F67263D2A72B4641A47CE36729CCAE8F}
+### What types of responses can I expect from Target via the GDPR API? {#section_F67263D2A72B4641A47CE36729CCAE8F}
 
 | Request Status | Target Response Message | Scenario |
 |--- |--- |--- |
@@ -190,7 +186,7 @@ In addition to the requirements from Central Privacy Service, a valid GDPR messa
 |Complete|Not applicable - user context not found|The ID provided in the GDPR request for the specific visitor or data subject is not present in the Target profile store.<br>Note that this result also returns if you attempt to submit a namespace ID type that is not supported by Target (see above for supported IDs).|
 |Error|Error Message (details depend on the type of error)|Error while fetching or deleting the requested data subject profile.<br>Error while uploading to Azure for access request.|
 
-## What response does Target send to the GDPR API for an access request? {#section_D96D8FBEAF9C4BDAA638215FAFE00763}
+### What response does Target send to the GDPR API for an access request? {#section_D96D8FBEAF9C4BDAA638215FAFE00763}
 
 Responses to access data requests contain a summary of the Target profile for the visitor in question. Note that this return is sent to the Experience Cloud GDPR API, which in turn sends Data Controllers a response.
 
