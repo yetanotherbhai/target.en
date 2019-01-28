@@ -54,19 +54,21 @@ Use the following links to view release notes for Target capabilities other than
 
 In addition to the notes for each release, the following resources provide additional information:
 
-### [Documentation Changes](../r-release-notes/doc-change.md#reference_366123CF00994BACBBF9BBDF2C4D840C)
+### Documentation changes
+
+For more information, see [Documentation Changes](../r-release-notes/doc-change.md#reference_366123CF00994BACBBF9BBDF2C4D840C)
 
 View detailed information about updates to this guide that might not be included in these release notes.
 
-### [Release notes for previous releases](../r-release-notes/release-notes-for-previous-releases.md)
+### Release notes for previous releases
+
+For more information, see [Release notes for previous releases](../r-release-notes/release-notes-for-previous-releases.md)
 
 View information about new features and enhancements in previous releases of Target Standard and Target Premium.
 
-### [What’s New in Adobe Target 2016](https://wwwimages.adobe.com/content/dam/acom/en/marketing-cloud/testing-targeting/54658.en.target.capabilities.whats-new-fall-2016.pdf) (PDF)
+### Adobe Experience Cloud release notes
 
-Display a graphical review of features released in 2016.
-
-### [Experience Cloud Release Notes](https://marketing.adobe.com/resources/help/en_US/whatsnew/)
+For more information, see [Experience Cloud Release Notes](https://marketing.adobe.com/resources/help/en_US/whatsnew/)
 
 View the latest release notes for the Adobe Experience Cloud solutions.
 
@@ -82,4 +84,4 @@ To receive advance notifications about upcoming product enhancements, sign up fo
 
 ### Current and upcoming release notes
 
-For information about the current month's Target releases, including prerelease information, see the [Target Release Notes - Prerelease](https://marketing.adobe.com/resources/help/en_US/target/rn/) page.
+For information about the current month's Target releases, including prerelease information, see the [Target Release Notes - Prerelease](/help/r-release-notes/target-release-notes.md) page.
