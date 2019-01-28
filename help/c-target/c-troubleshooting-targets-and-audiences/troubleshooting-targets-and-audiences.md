@@ -51,4 +51,20 @@ Automated Personalization activities are evaluated once per session. If there we
 
 ## Why are changes made to audiences created via API not reflected in the Target UI? {#section_6BEB237CAC004A06A290F9644E5BF0FB}
 
-Unlike offers and profile scripts, changes made by API to audiences created via Target Standard are not currently synced back to the Target UI. 
+Unlike offers and profile scripts, changes made by API to audiences created via Target Standard are not currently synced back to the Target UI.
+
+## Must returned values exactly match the strings from targeting conditions in order to be evaluated as True?
+
+No. If the return value of profile scripts or any other source of input, such as mbox parameters, profile parameters, etc., is a non-decimal value, but is evaluated in the target/audience against a decimal value, the target is matched.
+
+If the return value is a decimal value, and is used in the target/audience against a non-decimal value, it is also matched. Strings that represent numbers (floating point numbers are supported as well) are compared as numbers.
+
+The following table contains a few examples:
+
+|Script Value|Targeting Criteria|Result|
+| --- | --- | --- |
+1.0|equals 1|	true
+1|equalsIgnoreCase 1.0|true|
+1.500|equals 1.5|true|
+1.200|is less than 2|true|
+2|is greater than 3.0|false|
