@@ -104,7 +104,7 @@ For information about how the visitor profile tracks information about visitors 
 
 ## Training videos:
 
-The following videos contain more details about information discussed in this article.
+The following videos contain more information about the concepts discussed in this article.
 
 ### Activity Types (9:03)
 

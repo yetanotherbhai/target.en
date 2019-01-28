@@ -101,9 +101,11 @@ To view the report in [!DNL Analytics] rather than in [!DNL Target], click **[!U
 
 Open the [Analytics & Target: Best Practices for Analysis](https://spark.adobe.com/page/Lo3Spm4oBOvwF/) tutorial, provided by Adobe Experience League.
 
-## Training videos: Analytics and A4T and Analytics/Target Integration (A4T) {#section_3CD2B02C87B948D1AE37D54382B2745E}
+## Training videos:
 
-**Analytics for Target (A4T) (4:32)**
+The following videos contain more information about the concepts discussed in this article.
+
+### Analytics for Target (A4T) (4:32)
 
 This video explains how to use Adobe Analytics as a reporting source in Adobe Target to drive the analysis of your optimization program.
 
@@ -113,7 +115,7 @@ This video explains how to use Adobe Analytics as a reporting source in Adobe Ta
 
 >[!VIDEO](https://www.youtube.com/watch?v=eS_LeNmcJug)
 
-**Analytics / Target Integration (A4T) (40:33)**
+### Analytics / Target Integration (A4T) (40:33)
 
 This video is a recording of " [Office Hours](../../cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7)," an initiative led by the Adobe Customer Care team.
 

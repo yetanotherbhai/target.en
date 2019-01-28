@@ -16,16 +16,18 @@ You can quickly view your library configuration, examine requests to make sure y
 
 Review the [Adobe Experience Cloud Debugger Extension documentation](https://marketing.adobe.com/resources/help/en_US/experience-cloud-debugger/) for more information. Information specific to Target can be found in the [Tools](https://marketing.adobe.com/resources/help/en_US/experience-cloud-debugger/tools.html) section.
 
+## Training videos
+
 The following videos step you through the debugging process:
 
-## Add the Adobe Experience Cloud Debugger Extension {#section_8CD96F76E397476193529573F3199615}
+### Add the Adobe Experience Cloud Debugger Extension {#section_8CD96F76E397476193529573F3199615}
 
 >[!VIDEO](https://video.tv.adobe.com/v/23114/)
 
-## Basic Target Debugging Using the Adobe Experience Cloud Debugger {#section_AB2814A994DC4A86BABDD0441343D911}
+### Basic Target Debugging Using the Adobe Experience Cloud Debugger {#section_AB2814A994DC4A86BABDD0441343D911}
 
 >[!VIDEO](https://video.tv.adobe.com/v/23115/)
 
-## Mbox Trace {#section_FD3BC8019FA847209AB8BCA747C50211}
+### Mbox Trace {#section_FD3BC8019FA847209AB8BCA747C50211}
 
 >[!VIDEO](https://video.tv.adobe.com/v/23113/) 

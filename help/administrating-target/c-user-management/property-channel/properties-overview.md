@@ -184,7 +184,7 @@ To use the [!DNL Target] user-permissions functionality, you must add the `at_pr
 
 ## Training videos
 
-The following videos contain information related to the tasks discussed in this article:
+The following videos contain more information about the concepts discussed in this article.
 
 ### How to Configure Target Workspaces (6:55)
 

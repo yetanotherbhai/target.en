@@ -56,7 +56,9 @@ The redirect offer executes JavaScript code to redirect the browser. It uses the
 >
 >Ask your Implementation Consultant before launching these tests.
 
-This video includes information about managing content. (4:56)
+## Training video: Managing Content (4:56)
+
+This video includes information about managing content.
 
 * Connection between the [Experience Cloud Asset Library](https://marketing.adobe.com/resources/help/en_US/mcloud/creative_cloud.html) and the Target Content Library 
 * Custom HTML Offers 

@@ -94,19 +94,7 @@ To use mboxDebug, append an mboxDebug parameter to the end of your URL. The foll
 
 The Adobe Experience Cloud Debugger makes it fast and easy to understand your Target implementation. You can quickly view your library configuration, examine requests to make sure your custom parameters are being passed correctly, turn on console logging, and disable all Target requests. Authenticate into the Experience Cloud and you can use the powerful Mbox Trace tool to inspect your activity and audience qualifications as well as your visitor profile.
 
-For more information, watch the following videos:
-
-**Add the Extension**
-
->[!VIDEO](https://video.tv.adobe.com/v/23114t2/)
-
-**Basic Target Debugging**
-
->[!VIDEO](https://video.tv.adobe.com/v/23115t2/)
-
-**Mbox Trace**
-
->[!VIDEO](https://video.tv.adobe.com/v/23113t2/)
+For more information, see the training videos below:
 
 For more detailed information, see the [*Adobe Experience Cloud Debugger Extension* documentation](https://marketing.adobe.com/resources/help/en_US/experience-cloud-debugger/).
 
@@ -154,7 +142,23 @@ For remote offers, the mbox response can contain `/* invalid remote offer URL */
 
 You can check the mbox response in the browser or using mboxTrace. See [https://tools.ietf.org/html/std66](https://tools.ietf.org/html/std66) for more information on valid URLs. 
 
-## Training video: Troubleshooting {#section_9D3E12A8238E414B9C4241D1528FA1FB}
+## Training videos
+
+The following videos contain more information about the concepts discussed in this article.
+
+### Add the Extension
+
+>[!VIDEO](https://video.tv.adobe.com/v/23114t2/)
+
+### Basic Target Debugging
+
+>[!VIDEO](https://video.tv.adobe.com/v/23115t2/)
+
+### Mbox Trace
+
+>[!VIDEO](https://video.tv.adobe.com/v/23113t2/)
+
+### Troubleshooting
 
 The following video demonstrates tools to troubleshoot [!DNL Target]. (14:14)
 
@@ -163,3 +167,4 @@ The following video demonstrates tools to troubleshoot [!DNL Target]. (14:14)
 * Understand the Target timeout
 
 >[!VIDEO](https://www.youtube.com/watch?v=OXznmfKjxwU)
+

@@ -56,7 +56,7 @@ You can create audiences based on network details.
 1. (Optional) Click **[!UICONTROL Add Rule]** and set up additional rules for the audience. 
 1. Click **[!UICONTROL Save]**.
 
-Training Video: Creating Audiences
+## Training Video: Creating Audiences
 
 This video includes information about using audience categories.
 

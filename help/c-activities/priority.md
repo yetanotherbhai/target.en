@@ -13,18 +13,6 @@ uuid: 114cd625-2716-4c4c-983b-a7f677717b07
 
 Target determines which activity (or activities) to deliver to a page differently depending on which Target interface and which activity creation function (Visual Experience Composer or Form Based composer) you're using.
 
-**Activity Settings (3:02)**
-
-This video includes information about activity settings.
-
-* Enter an objective for your activity 
-* Set the priority level of your activities 
-* Schedule activity start and end times 
-* Add audiences for reporting to create report filters 
-* Enter notes for your activities
-
->[!VIDEO](https://www.youtube.com/watch?v=6XNEM8tUADo)
-
 ## Target Standard/Premium Visual Experience Composer Only or Form-Based Composer Using Global mbox Only {#section_4A0A317DFED345649B58B0CB5B410C8B}
 
 If your company uses Target Standard/Premium and the Visual Experience Composer exclusively, then content from multiple activities can be returned for the same call. Activities are delivered using the following decision flow:
@@ -137,3 +125,14 @@ Response: offer1, visualExpCompOffer2, visualExpCompOffer1
 >
 >The order of combined responses is that classic content comes first (only one classic response will be serviced as in use case 1) and then Visual Experience Composer offer responses that are ordered by inverted priority.
 
+## Training video: Activity Settings (3:02)
+
+This video includes information about activity settings.
+
+* Enter an objective for your activity 
+* Set the priority level of your activities 
+* Schedule activity start and end times 
+* Add audiences for reporting to create report filters 
+* Enter notes for your activities
+
+>[!VIDEO](https://www.youtube.com/watch?v=6XNEM8tUADo)

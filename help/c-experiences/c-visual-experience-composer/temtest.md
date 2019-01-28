@@ -28,17 +28,6 @@ For example, you might use this feature to do one of the following:
 
 The following demo video includes information about using a template:
 
-**Visual Experience Composer (2 of 2) (7:29)**
-
-* Rename and duplicate an experience 
-* Create a redirect experience 
-* Target an activity to a single URL or a group of URLs 
-* Create a multi-page activity 
-* Preview and build experience for responsive websites 
-* Use overlays to highlight types of elements
-
->[!VIDEO](https://www.youtube.com/watch?v=qwUKEp8en_k)
-
 You can specify pages that include the change elements, or apply the change across your site. 
 
 1. Create an activity as described in [Activities](../../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03).
@@ -80,3 +69,14 @@ You can specify pages that include the change elements, or apply the change acro
 >[!IMPORTANT]
 >
 > Target cannot check the pages to make sure they appear as expected, so it is always an important practice when using this feature to test affected pages before making them public.
+
+## Training video: Visual Experience Composer (2 of 2) (7:29)
+
+* Rename and duplicate an experience 
+* Create a redirect experience 
+* Target an activity to a single URL or a group of URLs 
+* Create a multi-page activity 
+* Preview and build experience for responsive websites 
+* Use overlays to highlight types of elements
+
+>[!VIDEO](https://www.youtube.com/watch?v=qwUKEp8en_k)
