@@ -17,7 +17,9 @@ This page lists important changes made to the Target documentation.
 
 |Date|Topic|Changes|
 | --- | --- | --- |
-|January 29, 2019|[Targets and audiences](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)|Added new FAQ: Must returned values exactly match the strings from targeting conditions in order to be evaluated as True?|
+|January 29, 2019|[Target release notes (current)](/help/r-release-notes/release-notes.md)|Enterprise Permissions support in Target APIs availability date updated to February 14, 2019.|
+||[System status updates and proactive notifications](/help/r-release-notes/system-status-updates.md)|Added Proactive notifications section.|
+|January 28, 2019|[Targets and audiences](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)|Added new FAQ: Must returned values exactly match the strings from targeting conditions in order to be evaluated as True?|
 |January 22, 2019|[Collections](/help/c-recommendations/c-products/collections.md)<br>[Exclusions](/help/c-recommendations/c-products/exclusions.md)<br>[Catalog search](/help/c-recommendations/c-products/catalog-search.md)<br>[Settings](/help/c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84)<br>[Recommendations: filter collections and exclusions by environment (host group)](/help/administrating-target/hosts.md)|Added information about filtering collections and exclusions by environment (host group).|
 ||[Limits](/help/r-troubleshooting-target/target-limits.md)|Updated information in the Profile Script Value row.|
 ||Release Notes: 19.1.1|This release includes enhancements and fixes. You can read about them and link to the documentation from the Release Notes. This release also includes many documentation updates throughout the help.|
