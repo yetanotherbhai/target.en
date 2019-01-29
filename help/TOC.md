@@ -12,7 +12,7 @@ index: n
    + [Current release notes](r-release-notes/release-notes.md)
    + [Target release notes (prerelease)](r-release-notes/target-release-notes.md)
    + [Known issues and resolved issues](r-release-notes/known-issues-resolved-issues.md)
-   + [System status updates](r-release-notes/system-status-updates.md)
+   + [System status updates and proactive notifications](r-release-notes/system-status-updates.md)
    + [Documentation changes](r-release-notes/doc-change.md)
    + [Release notes for previous releases](r-release-notes/release-notes-for-previous-releases.md)
 + Introduction {#introduction}
