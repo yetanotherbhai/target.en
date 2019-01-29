@@ -9,7 +9,7 @@ topic: Standard
 uuid: 5a627580-8e06-4e14-9fe0-1a442acc6fd8
 ---
 
-# System status updates and proactive notifications{#system-status-updates}
+# System status updates and proactive notifications
 
 Use the [!UICONTROL Adobe System Status] page and proactive notifications to keep abreast of the status of [!DNL Adobe] products and [!DNL Adobe Experience Cloud] solutions. Proactive notifications alert you to outage events and maintenance events.
 
