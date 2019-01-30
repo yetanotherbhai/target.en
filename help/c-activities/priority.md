@@ -41,7 +41,7 @@ If your company uses Target Standard/Premium and the Visual Experience Composer 
 
 >[!NOTE]
 >
->This information also applies to any campaigns running that were created in Target Classic.
+>This information also applies to any campaigns running that were created in [!DNL Target Classic].
 
 If your company uses the form-based composer in Target Standard/Premium and the Target Standard/Premium Visual Experience Composer, then content from multiple Visual Experience Composer activities can deliver, but only one activity from the form-based workflow. Activity delivery is determined using the following decision flow:
 
