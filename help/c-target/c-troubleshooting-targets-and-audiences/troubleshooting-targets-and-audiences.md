@@ -53,18 +53,24 @@ Automated Personalization activities are evaluated once per session. If there we
 
 Unlike offers and profile scripts, changes made by API to audiences created via Target Standard are not currently synced back to the Target UI.
 
-## Must returned values exactly match the strings from targeting conditions in order to be evaluated as True?
+## How does "Equal" and "Equals ignore case" work? Does this functionality support numbers?
 
-No. If the return value of profile scripts or any other source of input, such as mbox parameters, profile parameters, etc., is a non-decimal value, but is evaluated in the target/audience against a decimal value, the target is matched.
+If the left and the right part of the equals expressions can be parsed to a number, the two parts are compared as numbers, not as strings.
 
-If the return value is a decimal value, and is used in the target/audience against a non-decimal value, it is also matched. Strings that represent numbers (floating point numbers are supported as well) are compared as numbers.
+For example:
 
-The following table contains a few examples:
-
-|Script Value|Targeting Criteria|Result|
+|Value|Targeting Criteria|Result|
 | --- | --- | --- |
 |1.0|equals 1|true|
 |1|equalsIgnoreCase 1.0|true|
+|1.230|equals 1|true|
 |1.500|equals 1.5|true|
 |1.200|is less than 2|true|
 |2|is greater than 3.0|false|
+|045|equals 45|true|
+
+Only integers and floating-point numbers are supported. Numbers written in scientific notation are compared *only* as strings.
+
+For example,
+
+"4e-2" will only equal "4e-2". It will *not* equal "0.04".
