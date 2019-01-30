@@ -13,7 +13,7 @@ uuid: 22ac394d-70fe-4c4f-8b40-d478148d7e82
 
 The test summary provides a visual overview of your multivariate test.
 
- ![](assets/summary2.png)
+![Test summary dialog box](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/summary2new.png)
 
 The test summary shows:
 
