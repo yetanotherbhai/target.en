@@ -18,6 +18,7 @@ This page lists important changes made to the Target documentation.
 |Date|Topic|Changes|
 | --- | --- | --- |
 |January 30, 2019|[Targets and audiences](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)|Added new FAQ: How does “Equal” and “Equals ignore case” work? Does this functionality support numbers?|
+||[Troubleshoot the Analytics and Target integration](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md) (A4T)|Added new troubleshooting section: Conversions are not recorded properly in a multi-page activity that uses A4T.|
 |January 29, 2019|[Target release notes (current)](/help/r-release-notes/release-notes.md)|Enterprise Permissions support in Target APIs availability date updated to February 14, 2019.|
 ||[System status updates and proactive notifications](/help/r-release-notes/system-status-updates.md)|Added Proactive notifications section.|
 |January 22, 2019|[Collections](/help/c-recommendations/c-products/collections.md)<br>[Exclusions](/help/c-recommendations/c-products/exclusions.md)<br>[Catalog search](/help/c-recommendations/c-products/catalog-search.md)<br>[Settings](/help/c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84)<br>[Recommendations: filter collections and exclusions by environment (host group)](/help/administrating-target/hosts.md)|Added information about filtering collections and exclusions by environment (host group).|
