@@ -13,10 +13,6 @@ uuid: c42d7683-2eec-4443-9545-5695a122c9de
 
 The conversion rate, lift, confidence (statistical significance) and confidence interval are reported for each experience.
 
-## Conversion rate {#concept_2D9FEDE8F94A485DAC86D611BFBDC844}
-
-The conversion rate, lift, confidence (statistical significance) and confidence interval are reported for each experience. 
-
 The following illustration shows the chart header for a sample activity with the [!UICONTROL Conversion Rate], [!UICONTROL Lift], and [!UICONTROL Confidence] headers highlighted.
 
 ![](assets/conversion-rate.jpg)
@@ -25,7 +21,7 @@ The following illustration shows the chart header for a sample activity with the
 >
 >In all data, duplicate orders are ignored if an `orderID` is passed. The audit report lists the ignored duplicate orders.
 
-## Conversion Rate {#section_07A36846C4E84D0881906809B9CE5A74}
+### Conversion Rate {#section_07A36846C4E84D0881906809B9CE5A74}
 
 Shows the median conversion rate, confidence, interval, and the number of conversions.
 
@@ -39,7 +35,7 @@ The first line is the control experience. It shows a 15% conversion rate, with t
 >
 >Currently, the confidence interval is calculated only for binary metrics.
 
-## Lift {#section_0F409572C720433D9378092ABC999982}
+### Lift {#section_0F409572C720433D9378092ABC999982}
 
 Compares the conversion rate for each experience against the control experience.
 
@@ -47,25 +43,19 @@ Lift = (Experience CR - Control CR) / Control CR
 
 If control is 0, there is no percentage lift.
 
-## Confidence (Statistical Significance) {#section_35DB6724813D40C7B0808DE18FE595C1}
+### Confidence (Statistical Significance) {#section_35DB6724813D40C7B0808DE18FE595C1}
 
 This number represents the likelihood that the results would be duplicated if the test were run again. The confidence rounds up to 100.00% when the confidence is greater than or equal to 99.995%.
 
 See [Confidence Level and Confidence Interval](../c-reports/conversion-rate.md#concept_0D0002A1EBDF420E9C50E2A46F36629B).
 
-## Retail Data {#section_30A674731BA6440E9BB93C421BE990EE}
+### Retail Data {#section_30A674731BA6440E9BB93C421BE990EE}
 
 AOV, RPV, and Sales data are displayed for each experience if you inserted a [Place Order](https://marketing.adobe.com/resources/help/en_US/target/ov/t_orderconfirm_create.html) ( `orderConfirmPage`) mbox and selected it as the conversion mbox. 
 
 ## Confidence Level and Confidence Interval {#concept_0D0002A1EBDF420E9C50E2A46F36629B}
 
 For each experience, confidence level and confidence interval are displayed.
-
-<!-- 
-
-target/c_confidence_level_and_confidence_interval.xml
-
- -->
 
 Conversions and continuous variables for Target-based metrics, such as revenue and engagement metrics, are calculated as follows:
 
@@ -74,7 +64,7 @@ Conversions and continuous variables for Target-based metrics, such as revenue a
 
 You can perform offline calculations for Analytics for Target (A4T), but it requires a step with data exports in [!DNL Analytics]. For more information, see "Performing Offline Calculations for Analytics for Target (A4T)" below.
 
-## Confidence Level {#section_26FE5E44BDD5478792A65FCFD83DCCDC}
+### Confidence Level {#section_26FE5E44BDD5478792A65FCFD83DCCDC}
 
 The *confidence level* is represented by the darker percentage in the Conversion Rate column for each experience.
 
@@ -92,7 +82,7 @@ If the confidence level is over 90% or 95%, then the result can be considered st
 >
 >The confidence rounds up to 100.00% when the confidence is greater than or equal to 99.995%.
 
-## Confidence Interval {#section_F582738DFE1648C78B93D81EBC6CACF7}
+### Confidence Interval {#section_F582738DFE1648C78B93D81EBC6CACF7}
 
 >[!NOTE]
 >
@@ -109,7 +99,7 @@ The *confidence interval* is a range within which the true value can be found at
 * **Sample size:** As sample grows the interval will shrink or narrow. This is preferred as it means your reports are getting closer to the true value of the success metric. 
 * **Standard deviation smaller:** More similar results, such as similar AOVs or similar numbers or visitors converting each day, reduces the standard deviation.
 
-## Confidence Calculation and How to Perform It Offline {#section_86F7C231943043A5B8B6BFE67B706E3B}
+### Confidence Calculation and How to Perform It Offline {#section_86F7C231943043A5B8B6BFE67B706E3B}
 
 The [downloaded CSV report](../c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75) includes only raw data and does not include calculated metrics, such as revenue per visitor, lift, or confidence used for A/B tests.
 
