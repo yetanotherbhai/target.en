@@ -21,7 +21,7 @@ The following illustration shows the chart header for a sample activity with the
 >
 >In all data, duplicate orders are ignored if an `orderID` is passed. The audit report lists the ignored duplicate orders.
 
-### Conversion Rate {#section_07A36846C4E84D0881906809B9CE5A74}
+## Conversion Rate {#section_07A36846C4E84D0881906809B9CE5A74}
 
 Shows the median conversion rate, confidence, interval, and the number of conversions.
 
@@ -35,7 +35,7 @@ The first line is the control experience. It shows a 15% conversion rate, with t
 >
 >Currently, the confidence interval is calculated only for binary metrics.
 
-### Lift {#section_0F409572C720433D9378092ABC999982}
+## Lift {#section_0F409572C720433D9378092ABC999982}
 
 Compares the conversion rate for each experience against the control experience.
 
@@ -43,13 +43,13 @@ Lift = (Experience CR - Control CR) / Control CR
 
 If control is 0, there is no percentage lift.
 
-### Confidence (Statistical Significance) {#section_35DB6724813D40C7B0808DE18FE595C1}
+## Confidence (Statistical Significance) {#section_35DB6724813D40C7B0808DE18FE595C1}
 
 This number represents the likelihood that the results would be duplicated if the test were run again. The confidence rounds up to 100.00% when the confidence is greater than or equal to 99.995%.
 
 See [Confidence Level and Confidence Interval](../c-reports/conversion-rate.md#concept_0D0002A1EBDF420E9C50E2A46F36629B).
 
-### Retail Data {#section_30A674731BA6440E9BB93C421BE990EE}
+## Retail Data {#section_30A674731BA6440E9BB93C421BE990EE}
 
 AOV, RPV, and Sales data are displayed for each experience if you inserted a [Place Order](https://marketing.adobe.com/resources/help/en_US/target/ov/t_orderconfirm_create.html) ( `orderConfirmPage`) mbox and selected it as the conversion mbox. 
 
@@ -99,7 +99,7 @@ The *confidence interval* is a range within which the true value can be found at
 * **Sample size:** As sample grows the interval will shrink or narrow. This is preferred as it means your reports are getting closer to the true value of the success metric. 
 * **Standard deviation smaller:** More similar results, such as similar AOVs or similar numbers or visitors converting each day, reduces the standard deviation.
 
-### Confidence Calculation and How to Perform It Offline {#section_86F7C231943043A5B8B6BFE67B706E3B}
+## Confidence Calculation and How to Perform It Offline {#section_86F7C231943043A5B8B6BFE67B706E3B}
 
 The [downloaded CSV report](../c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75) includes only raw data and does not include calculated metrics, such as revenue per visitor, lift, or confidence used for A/B tests.
 
@@ -150,7 +150,6 @@ For more information about [!DNL Data Warehouse], see the following links in the
 
 You can choose to view reports by different counting methodologies to understand how your activities affect your users across their lifetimes or during a single session.
 
-
 Counting methodology is supported for the following activity types:
 
 * A/B Test
@@ -183,4 +182,3 @@ You can view reports by the following counting methodologies:
 >[!NOTE] {class="- topic/note "}
 >
 >Usually, counts are determined by cookies and session activity. However, if you reach the final conversion point of an activity and then re-enter the activity, you are considered a new entrant and a new visit to the activity. This is true even if your PCID and `sessionID` values do not change.
-
