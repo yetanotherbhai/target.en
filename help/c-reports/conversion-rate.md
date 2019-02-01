@@ -13,10 +13,6 @@ uuid: c42d7683-2eec-4443-9545-5695a122c9de
 
 The conversion rate, lift, confidence (statistical significance) and confidence interval are reported for each experience.
 
-## Conversion rate {#concept_2D9FEDE8F94A485DAC86D611BFBDC844}
-
-The conversion rate, lift, confidence (statistical significance) and confidence interval are reported for each experience. 
-
 The following illustration shows the chart header for a sample activity with the [!UICONTROL Conversion Rate], [!UICONTROL Lift], and [!UICONTROL Confidence] headers highlighted.
 
 ![](assets/conversion-rate.jpg)
@@ -61,12 +57,6 @@ AOV, RPV, and Sales data are displayed for each experience if you inserted a [Pl
 
 For each experience, confidence level and confidence interval are displayed.
 
-<!-- 
-
-target/c_confidence_level_and_confidence_interval.xml
-
- -->
-
 Conversions and continuous variables for Target-based metrics, such as revenue and engagement metrics, are calculated as follows:
 
 * **Conversion:** Either yes or no 
@@ -74,7 +64,7 @@ Conversions and continuous variables for Target-based metrics, such as revenue a
 
 You can perform offline calculations for Analytics for Target (A4T), but it requires a step with data exports in [!DNL Analytics]. For more information, see "Performing Offline Calculations for Analytics for Target (A4T)" below.
 
-## Confidence Level {#section_26FE5E44BDD5478792A65FCFD83DCCDC}
+### Confidence Level {#section_26FE5E44BDD5478792A65FCFD83DCCDC}
 
 The *confidence level* is represented by the darker percentage in the Conversion Rate column for each experience.
 
@@ -92,7 +82,7 @@ If the confidence level is over 90% or 95%, then the result can be considered st
 >
 >The confidence rounds up to 100.00% when the confidence is greater than or equal to 99.995%.
 
-## Confidence Interval {#section_F582738DFE1648C78B93D81EBC6CACF7}
+### Confidence Interval {#section_F582738DFE1648C78B93D81EBC6CACF7}
 
 >[!NOTE]
 >
@@ -160,7 +150,6 @@ For more information about [!DNL Data Warehouse], see the following links in the
 
 You can choose to view reports by different counting methodologies to understand how your activities affect your users across their lifetimes or during a single session.
 
-
 Counting methodology is supported for the following activity types:
 
 * A/B Test
@@ -193,4 +182,3 @@ You can view reports by the following counting methodologies:
 >[!NOTE] {class="- topic/note "}
 >
 >Usually, counts are determined by cookies and session activity. However, if you reach the final conversion point of an activity and then re-enter the activity, you are considered a new entrant and a new visit to the activity. This is true even if your PCID and `sessionID` values do not change.
-
