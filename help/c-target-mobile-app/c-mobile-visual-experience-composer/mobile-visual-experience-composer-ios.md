@@ -25,7 +25,8 @@ To set up the Target VEC extension from Launch, see [Use Adobe Launch to set up 
 
 1. Add the library to your project via your Cocoapods [!DNL Podfile] by adding pod 'ACPTargetVEC'. 
 1. Open your Objective-C application project in XCode. 
-1. Go to your project build settings and set 'Always Embed swift Standard Libraries' to yes if already not set. 
+1. Go to your project build settings and set 'Always Embed swift Standard Libraries' to yes if already not set.
+1. In project build settings find "Other linker flags," Add `$(inherited)` if not already there.
 1. For objective-C only project - Create a swift file to create the bridging header. It will set up your application environment for Swift. 
 1. Add the deeplink handler:
 
@@ -49,7 +50,7 @@ To set up the Target VEC extension from Launch, see [Use Adobe Launch to set up 
 1. In XCode, open your [!DNL AppDelegate] file. 
 1. At the top of the file, add the following line at the end of your imports:
 
-   `#import <ACPTargetVEC_iOS/ACPTargetVEC_iOS.h>`
+   `#import "ACPTargetVEC.h"`
 
    If you are using Swift, add the following line:
 

@@ -17,6 +17,7 @@ This page lists important changes made to the Target documentation.
 
 |Date|Topic|Changes|
 | --- | --- | --- |
+|February 2, 2019|[Target release notes](/help/r-release-notes/target-release-notes.md) (prerelease)|Updated prerelease notes for the [!DNL Target] 19.2.1 (February 19, 2019) release.|
 |January 30, 2019|[Targets and audiences](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)|Added new FAQ: Strings that represent numbers (floating point numbers are supported as well) are compared as numbers.|
 ||[Troubleshoot the Analytics and Target integration](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md) (A4T)|Added new troubleshooting section: How should I implement the [!DNL Target] and [!DNL Analytics] JavaScript libraries to capture events across multiple pages and associate them with an A4T activity in [!DNL Target].|
 |January 29, 2019|[Target release notes (current)](/help/r-release-notes/release-notes.md)|Enterprise Permissions support in Target APIs availability date updated to February 21, 2019.|
