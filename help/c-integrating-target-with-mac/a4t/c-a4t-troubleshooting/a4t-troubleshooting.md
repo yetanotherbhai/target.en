@@ -78,9 +78,9 @@ If there is no supplemental data ID in the [!DNL Target] call, confirm that the 
 
 For more information, see [Analytics for Target Implementation](../../../c-integrating-target-with-mac/a4t/a4timplementation.md#concept_CE78750AC2A4487D8ACD9369B3EAC85A) or contact [Customer Care](../../../cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C).
 
-## How should I implement the [!DNL Target] and [!DNL Analytics] JavaScript libraries to capture events across multiple pages and associate them with an A4T activity in [!DNL Target].
+## Implement the [!DNL Target] and [!DNL Analytics] JS libraries to capture events across multiple pages and associate them with an A4T activity.
 
-To capture [!DNL Analytics] events across multiple pages and associate them with an A4T activity in [!DNL Target], do the following:
+To capture [!DNL Analytics] events across multiple pages and associate them with an A4T activity in [!DNL Target]:
 
 1. Implement the JavaScript libraries for both [!DNL Target] (at.js or mbox.js) and [!DNL Analytics] on the activity landing URL/page. Implementing both solutions stitches the [!DNL Target] data with the [!DNL Analytics] data for each visitor. This data remains in [!DNL Analytics] until it expires with the default expiration set to 90 days. 
 1. For the remaining pages on the site, where just the [!DNL Analytics] metrics are to be tracked, implement [!DNL Analytics] on those pages. It is not necessary to implement [!DNL Target] on those pages. The [!DNL Analytics] metrics captured across those pages are automatically stitched to the [!DNL Target] activity the user initially qualified for, based on the [!DNL Target] information attached to that visitor from the preceding step.
