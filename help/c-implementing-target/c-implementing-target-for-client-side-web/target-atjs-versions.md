@@ -17,7 +17,7 @@ Details about changes in each version of at.js.
 >
 >The Target team maintains only two versions of [!DNL at.js]—the current version and the second-latest version. Please upgrade [!DNL at.js] as necessary to ensure that you are running a supported version.
 
-## at.js Version 1.6.4
+## at.js Version 1.6.4 {#at-js-164}
 
 at.js 1.6.4 is a maintenance release and addresses the following issue:
 
