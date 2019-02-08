@@ -9,7 +9,7 @@ topic: Advanced
 uuid: 61bef460-8613-4251-b1b2-b6226ec86d9b
 ---
 
-# Expected Data Variances between Target and Analytics when using and not using A4T{#expected-data-variances-when-not-using-a-t}
+# Expected data variances between Target and Analytics when using and not using A4T{#expected-data-variances-when-not-using-a-t}
 
 Information about expected data variances between [!DNL Target] and Adobe [!DNL Analytics] when using and *not* using Analytics as the Reporting Source (A4T), which eliminates data variance altogether.
 

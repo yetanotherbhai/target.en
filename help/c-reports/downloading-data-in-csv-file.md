@@ -61,12 +61,15 @@ The Order Details report (known as the Audit report in [!DNL Target Classic]) sh
 
   There was no impact on [!UICONTROL Recommendations] activities.
 
-Keep the following information in mind when analyzing downloaded reports:
+>[!NOTE]
+>
+>* Order report data includes four weeks of data for the default environment (host group) and two weeks for all non-default environments.
+>* Revenue metrics that are set to "Increment count and keep the user in the activity" log order details only for the first order made by the same visitor. All subsequent orders increase conversion count, but will not add revenue to RPV/AOV/Sales, and will not be included in the Order Details report.
 
-* Revenue metrics that are set to "Increment count and keep the user in the activity" log order details only for the first order made by the same visitor. All subsequent orders increase conversion count, but will not add revenue to RPV/AOV/Sales, and will not be included in the Order Details report. 
+## Best Practices
+
 * In order to record an order record, the `orderTotal` parameter must be passed. 
 * Values passed via the `ProductPurchasedId` mbox parameter are listed in the Order Details report. 
-* Order report data includes four weeks of data for the default environment (host group) and two weeks for all non-default environments. 
 * Best practice is to include an `orderID` as well as an `orderTotal`. This allows duplicate orders to automatically be ignored.
 
 ## Caveats {#section_49B9590904A645B18E694B4EFFFC1DEF}
