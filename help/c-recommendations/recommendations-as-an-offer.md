@@ -28,7 +28,7 @@ To get started, create an [!UICONTROL A/B Test] or [!UICONTROL Experience Target
   
    >[!NOTE]
    >
-   >Remember that you can choose the [Auto-Allocate](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) option to automatically push traffic to the best-performing recommendations or the [Auto-Target](/help/c-activities/auto-target-to-optimize.md) option to assign visitors to tailored recommendations experiences based on their profile.
+   >For A/B Tests, remember that you can choose the [Auto-Allocate](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) option to automatically push traffic to the best-performing recommendations or the [Auto-Target](/help/c-activities/auto-target-to-optimize.md) option to assign visitors to tailored recommendations experiences based on their profile.
 
 1. While creating an [experience](/help/c-experiences/c-visual-experience-composer/viztarget-options.md), click the element you want to add a recommendation to as an offer, select the [!UICONTROL Insert Before], [!UICONTROL Insert After], or [!UICONTROL Replace With] action, then select [!UICONTROL Recommendation].
 
@@ -52,4 +52,55 @@ To get started, create an [!UICONTROL A/B Test] or [!UICONTROL Experience Target
    * Configure the [Front Promotion and Back Promotion](/help/c-recommendations/t-create-recs-activity/adding-promotions.md) options, as necessary. 
 
 1. Click [!UICONTROL Save].
-1. Finish configuring the A/B Test or MVT activity using the three-part guided workflow.
+1. Finish configuring the A/B Test or XT activity using the three-part guided workflow.
+
+## Edit a recommendations offer's configuration
+
+There are two ways you can edit an offer's configuration: 
+
+* Using the [!UICONTROL Edit] menu
+* Using the [!UICONTROL Modifications] panel 
+
+### Edit a recommendations offer using the Edit menu
+
+1. Click the offer you want to edit, then click Edit.
+
+   ![Edit menu](/help/c-recommendations/assets/recs-offer-edit.png)
+
+1. Choose from the following options:
+
+   * [Change Criteria](/help/c-recommendations/c-algorithms/algorithms.md)
+   * [Change Design](/help/c-recommendations/c-design-overview/design-overview.md)
+   * [Change Collection](/help/c-recommendations/c-products/collections.md)
+   * [Change Promotion](/help/c-recommendations/t-create-recs-activity/adding-promotions.md)
+
+1. Make your edits.
+
+### Edit a recommendations offer using the Modifications panel
+
+1. Click the [!UICONTROL Modifications] icon *`</>'* to display the [Modifications](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) pane.
+1. Hover over the desired action, then click the [!UICONTROL Edit] icon.
+
+   ![Modifications panel](/help/c-recommendations/assets/recs-offer-modifications.png)
+
+1. Make your edits.
+
+## Delete a recommendations offer
+
+There are two ways to delete a recommendations offer:
+
+* Using the [!UICONTROL Edit] menu
+* Using the [!UICONTROL Modifications] panel
+
+### Delete a recommendations offer using the Edit Menu
+
+1. Click the offer you want to remove, then click [!UICONTROL Layout > Remove].
+
+   ![Remove](/help/c-recommendations/assets/recs-offer-remove.png)
+
+### Delete a recommendations offer using the Modifications panel
+
+1. Click the [!UICONTROL Modifications] icon *`</>'* to display the [Modifications](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) pane.
+1. Hover over the desired action, then click the [!UICONTROL Delete] icon.
+
+   ![Delete icon](/help/c-recommendations/assets/recs-offer-delete.png)
