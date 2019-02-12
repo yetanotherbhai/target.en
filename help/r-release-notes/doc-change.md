@@ -13,6 +13,15 @@ uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 
 This page lists important changes made to the Target documentation.
 
+## Adobe Target Standard/Premium 19.2.1 (February 19, 2019) {#section-19-2-1}
+
+|Date|Topic|Changes|
+| --- | --- | --- |
+|February 19, 2019|Single Page App Visual Experience Composer||
+||at.js cookies|New topic.|
+||[Recommendations as an offer](/help/c-recommendations/recommendations-as-an-offer.md)|New topic.|
+||[Release Notes](/help/r-release-notes/release-notes.md): 19.2.1|This release includes enhancements and fixes. You can read about them and link to the documentation from the Release Notes. This release also includes many documentation updates throughout the help.|
+
 ## Adobe Target Standard/Premium 19.1.1 (January 22, 2019) {#section-19-1-0}
 
 |Date|Topic|Changes|
@@ -24,7 +33,7 @@ This page lists important changes made to the Target documentation.
 ||[System status updates and proactive notifications](/help/r-release-notes/system-status-updates.md)|Added Proactive notifications section.|
 |January 22, 2019|[Collections](/help/c-recommendations/c-products/collections.md)<br>[Exclusions](/help/c-recommendations/c-products/exclusions.md)<br>[Catalog search](/help/c-recommendations/c-products/catalog-search.md)<br>[Settings](/help/c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84)<br>[Recommendations: filter collections and exclusions by environment (host group)](/help/administrating-target/hosts.md)|Added information about filtering collections and exclusions by environment (host group).|
 ||[Limits](/help/r-troubleshooting-target/target-limits.md)|Updated information in the Profile Script Value row.|
-||Release Notes: 19.1.1|This release includes enhancements and fixes. You can read about them and link to the documentation from the Release Notes. This release also includes many documentation updates throughout the help.|
+||[Release Notes](/help/r-release-notes/release-notes.md): 19.1.1|This release includes enhancements and fixes. You can read about them and link to the documentation from the Release Notes. This release also includes many documentation updates throughout the help.|
 
 ## Adobe Target Standard/Premium 18.11.1 (November 12, 2018) {#section_4AD10E8B7EB04F96807FFDB763F31703}
 
