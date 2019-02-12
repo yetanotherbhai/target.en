@@ -124,7 +124,7 @@ From Apple:
 
 "Intelligent Tracking Prevention is a new WebKit feature that reduces cross-site tracking by further limiting cookies and other website data."
 
-"This is what's called cross-site tracking and the cookie used by example-tracker.com is called a third-party cookie. In our testing we found popular websites with over 70 such trackers, all silently collecting data on users."
+"This is what's called cross-site tracking and the cookie used by `example-tracker.com` is called a third-party cookie. In our testing we found popular websites with over 70 such trackers, all silently collecting data on users."
 
 | Approach | Details |
 |--- |--- |

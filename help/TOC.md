@@ -77,6 +77,7 @@ index: n
          + [at.js FAQs](c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md)
          + [Global mbox Frequently Asked Questions](c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/global-mbox-frequently-asked-questions.md)
       + [at.js version details](c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)
+      + [at.js cookies](c-implementing-target/c-implementing-target-for-client-side-web/atjs-cookies.md)
       + mbox.js implementation {#mbox-implement}
          + [mbox.js implementation overview](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md)
          + Migrate from mbox.js to at.js {#migrate-mbox}
@@ -342,6 +343,7 @@ index: n
       + [Select criteria](c-recommendations/t-create-recs-activity/algo-select-recs.md)
       + [Add promotions](c-recommendations/t-create-recs-activity/adding-promotions.md)
       + [Recommendations Activity settings](c-recommendations/t-create-recs-activity/recs-activity-settings.md)
+   + [Recommendations as an offer](c-recommendations/recommendations-as-an-offer.md)
    + Frequently asked questions {#recommendations-faq}
       + [Recommendations FAQ](c-recommendations/c-recommendations-faq/recommendations-faq.md)
       + [Integrate Recommendations with email](c-recommendations/c-recommendations-faq/integrating-recs-email.md)

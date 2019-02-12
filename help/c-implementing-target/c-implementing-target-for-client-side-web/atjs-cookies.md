@@ -31,7 +31,7 @@ However, in at.js 2.0, HTTP GET is no longer used and instead we use HTTP POST. 
 
 Therefore, neither third-party cookies nor cross-domain tracking are not supported in at.js 2.0.
 
-## at.js 1.*x* cookie behavior
+## at.js 1.*x* cookie behavior {#at-js-1x-cookie-behavior}
 
 For at.js versions 1.*x*, the cookie behavior depends on whether it is a first-party cookie, a third-party cookie with a first-party cookie, or a third-party cookie alone.
 
@@ -137,7 +137,7 @@ From Apple:
 
 "Intelligent Tracking Prevention is a new WebKit feature that reduces cross-site tracking by further limiting cookies and other website data."
 
-"This is what's called cross-site tracking and the cookie used by example-tracker.com is called a third-party cookie. In our testing we found popular websites with over 70 such trackers, all silently collecting data on users."
+"This is what's called cross-site tracking and the cookie used by `example-tracker.com` is called a third-party cookie. In our testing we found popular websites with over 70 such trackers, all silently collecting data on users."
 
 | Approach | Details |
 |--- |--- |
