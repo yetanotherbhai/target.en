@@ -17,12 +17,12 @@ This page lists important changes made to the Target documentation.
 
 |Date|Topic|Changes|
 | --- | --- | --- |
-|February 19, 2019|Single Page App Visual Experience Composer||
-||at.js cookies|New topic.|
+|February 19, 2019|Single Page App Visual Experience Composer|New topic.|
+||[at.js cookies](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-cookies.md)|New topic.|
 ||[Recommendations as an offer](/help/c-recommendations/recommendations-as-an-offer.md)|New topic.|
 ||[Release Notes](/help/r-release-notes/release-notes.md): 19.2.1|This release includes enhancements and fixes. You can read about them and link to the documentation from the Release Notes. This release also includes many documentation updates throughout the help.|
 
-## Adobe Target Standard/Premium 19.1.1 (January 22, 2019) {#section-19-1-0}
+## Adobe Target Standard/Premium 19.1.1 (January 22, 2019) {#section-19-1-1}
 
 |Date|Topic|Changes|
 | --- | --- | --- |
