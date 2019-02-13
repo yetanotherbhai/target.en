@@ -133,6 +133,7 @@ Creates an internal mapping between an element and an mbox name, but does not ex
  mboxUpdate('mboxName','param3=value3','param4=value4');
 </script>
 ```
+
 **AT.js 2.0 equivalent**:
 
 An alternative to `mboxDefine()` and `mboxUpdate` is `getOffer()` and `applyOffer()`, with the selector option used in `applyOffer()`. This approach lets you map the offer to an element using any CSS selector, not just one with an ID.
