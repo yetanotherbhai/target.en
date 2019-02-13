@@ -19,6 +19,29 @@ Release notes for previous Target releases, including release notes for Target S
 
 ## Release notes - 2018 {#reference_36ACC83E135A41F28104C44755C26D5B}
 
+### Platform Changes (January 2019) {#platform-19-1-previous}
+
+| Feature / Enhancement | Description |
+| --- | --- |
+|Targeting<br>January 25, 2019|Made changes to how targeting matches function for "equals" comparisons with non-decimal and decimal values returned by profile scripts or any other source of input, such as mbox parameters, profile parameters, etc.<br>For more information, see [Targets and audiences](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md) FAQ.|
+|Profile scripts<br>January 17, 2019|For performance reasons, we recommend a return value that is no longer than 256 characters.<br>For a String return value, if the size of the return value exceeds 2048 characters, the script is disabled by the system.<br>For an array return value, if the size of the concatenated values of the array exceeds 2048 characters, the script is disabled by the system.<br>For more information about the character limits and other limits (offer size, audiences, profiles, values, parameters, etc.) that affect activities and other elements in Target, see [Limits](../r-troubleshooting-target/target-limits.md).|
+|at.js<br>January 16, 2019|at.js 1.6.4 is a maintenance release and addresses the following issues:<ul><li>Fixed a race condition manifesting in Microsoft Internet Explorer 11 that caused duplicate offers to be applied. (TNT-31374)</li><li>Fixed an issue that affected click tracking when there is a default offer with a click-token and html offers. (TNT-31493)</li><li>Extended the mboxEdgeCluster cookie with each Target request. This is used only when mboxEdgeOverride is enabled. (TNT-31485)</li></ul>|
+
+### [!DNL Target] Standard/Premium 19.1.1 (January 22, 2019) {#release-19-1-1-previous}
+
+This release includes the following features, changes and enhancements:
+
+(The issue numbers in parentheses are for internal Adobe use.)
+
+| Feature / Enhancement | Description |
+| --- | --- |
+| ![Target Premium badge](/help/assets/premium.png)<br/>[!UICONTROL Enterprise Permissions] support in [!DNL Target] APIs |[Adobe Target Admin APIs](http://developers.adobetarget.com/api/#admin-apis) will now take full advantage of the same Enterprise Permissions capabilities found in the Target UI. Starting **Feb 21, 2019**, system administrators will be able to programmatically access report data as well as create and manage activities, offers, and audiences within any workspace. These actions were previously limited to the default workspace only. Support for Automated Personalization (AP) activities will come in a future release. |
+| ![Target Premium badge](/help/assets/premium.png)<br/>[!UICONTROL Recommendations]: filter collections and exclusions by environment (host group) | You can now preview the contents of [!UICONTROL Recommendations] collections and exclusions for a selected environment (host group).<br/>Previously, when you viewed a collection or exclusion, the displayed items contained were results for the default host group (specified in [!UICONTROL Recommendations > Settings > Default Host Group]).<br/>Now, when creating or updating a collection or exclusion, you can use the [!UICONTROL Environment] selector to choose the environment to preview results for. The new [!UICONTROL Environment] filter saves you time and effort because you no longer need to navigate to the [!UICONTROL Settings] page to select the appropriate default host group before creating or editing collections and exclusions.<br/>**Note:** After changing the selected environment, you must click [!UICONTROL Search] to update the returned results.<br/>The new [!UICONTROL Environment] filter is available from the following places in the [!DNL Target] UI:<ul><li>[!UICONTROL Catalog Search] ([!UICONTROL Recommendations > Catalog Search])</li><li>[!UICONTROL Create Collection] dialog box ([!UICONTROL Recommendations > Collections > Create New])</li><li>[!UICONTROL Update Collection] dialog box ([!UICONTROL Recommendations > Collections > Edit])</li><li>[!UICONTROL Create Exclusion] dialog box ([!UICONTROL Recommendations > Exclusions > Create New])</li><li>[!UICONTROL Update Exclusion] dialog box ([!UICONTROL Recommendations > Exclusions > Edit])</li></ul><br>For more information, see the following topics:<uL><li>[Collections](/help/c-recommendations/c-products/collections.md)</li><li>[Exclusions](/help/c-recommendations/c-products/exclusions.md)</li><li>[Catalog Search](/help/c-recommendations/c-products/catalog-search.md)</li><li>[Settings](/help/c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84)</li><li>[Recommendations: filter collections and exclusions by environment (host group)](/help/administrating-target/hosts.md)</li></ul>(TGT-20622)</ul>|
+
+**Enhancement, fixes, and changes**
+
+* Fixed an issue that caused the Save button to remain disabled when the user logs in through the login pop dialog box on session expiry while editing an audience. (TGT-32722)
+
 ### Platform (November 15, 2018) {#section_484A56774E004282B98FFFF851E4E670}
 
 <table id="table_7320E43397D2471FA313A9D6FC21E55F"> 
