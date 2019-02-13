@@ -27,14 +27,14 @@ The following diagrams help you understand the workflow of at.js 2.0 with Views 
 
 |Call|Details|
 | --- | --- |
-|![Step 1](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/assets/step1_red.png)|Call returns the [!DNL Experience Cloud ID] if the user is authenticated; another call syncs the customer ID.|
-|![Step 2](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/assets/step2_red.png)|The at.js library loads synchronously and hides the document body.<br>at.js can also be loaded asynchronously with an option prehiding snippet implemented on the page.|
-|![Step 3](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/assets/step3_red.png)|A page load request is made including all configured parameters (MCID, SDID, and customer ID).|
-|![Step 4](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/assets/step4_red.png)|Profile scripts execute and then feed into the Profile Store. The Store requests qualified audiences from the Audience Library (for example, audiences shared from Adobe Analytics, Audience Management, etc.).<br>Customer attributes are sent to the Profile Store in a batch process.|
-|![Step 5](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/assets/step5_red.png)|Based on URL request parameters and profile data, [!DNL Target] decides which activities and experiences to return to the visitor for the current page and future views.|
-|![Step 6](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/assets/step6_red.png)|Targeted content is sent back to the page, optionally including profile values for additional personalization.<br>Targeted content on the current page is revealed as quickly as possible without flicker of default content.<br>Targeted content for views that are shown as a result to user actions in a SPA that is cached in the browser so it can be instantly applied without an additional server call when the views are triggered through `triggerView()`.|
-|![Step 7](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/assets/step7_red.png)|Analytics data is sent to Data Collection servers.|
-|![Step 8](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/assets/step8_red.png)|Targeted data is matched to Analytics data via the SDID and is processed into the Analytics reporting storage.<br>Analytics data can then be viewed in both Analytics and Target via Analytics for Target (A4T) reports.|
+|1|Call returns the [!DNL Experience Cloud ID] if the user is authenticated; another call syncs the customer ID.|
+|2|The at.js library loads synchronously and hides the document body.<br>at.js can also be loaded asynchronously with an option prehiding snippet implemented on the page.|
+|3|A page load request is made including all configured parameters (MCID, SDID, and customer ID).|
+|4|Profile scripts execute and then feed into the Profile Store. The Store requests qualified audiences from the Audience Library (for example, audiences shared from Adobe Analytics, Audience Management, etc.).<br>Customer attributes are sent to the Profile Store in a batch process.|
+|5|Based on URL request parameters and profile data, [!DNL Target] decides which activities and experiences to return to the visitor for the current page and future views.|
+|6|Targeted content is sent back to the page, optionally including profile values for additional personalization.<br>Targeted content on the current page is revealed as quickly as possible without flicker of default content.<br>Targeted content for views that are shown as a result to user actions in a SPA that is cached in the browser so it can be instantly applied without an additional server call when the views are triggered through `triggerView()`.|
+|7|Analytics data is sent to Data Collection servers.|
+|8|Targeted data is matched to Analytics data via the SDID and is processed into the Analytics reporting storage.<br>Analytics data can then be viewed in both Analytics and Target via Analytics for Target (A4T) reports.|
 
 Now, wherever `triggerView()` is implemented on your SPA, the Views and actions are retrieved from cache and shown to the user without a server call. `triggerView()` also makes a notifications request to the [!DNL Target] backend in order to increment and record impression counts.
 
@@ -42,12 +42,12 @@ Now, wherever `triggerView()` is implemented on your SPA, the Views and actions 
 
 |Call|Details|
 | --- | --- |
-|![Step 1](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/assets/step1_red.png)|`triggerView()` is called in the SPA to render the View and apply actions to modify visual elements.|
-|![Step 2](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/assets/step2_red.png)|Targeted content for the view is read from the cache.|
-|![Step 3](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/assets/step3_red.png)|Targeted content is revealed as quickly as possible without flicker of default content.|
-|![Step 4](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/assets/step4_red.png)|Notification request is sent to the [!DNL Target] Profile Store to count the visitor in the activity and increment metrics.|
-|![Step 5](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/assets/step5_red.png)|Analytics data sent to Data Collection Servers.|
-|![Step 6](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/assets/step6_red.png)|Target data is matched to Analytics data via the SDID and is processed into the Analytics reporting storage. Analytics data can then be viewed in both Analytics and Target via A4T reports.|
+|1|`triggerView()` is called in the SPA to render the View and apply actions to modify visual elements.|
+|2|Targeted content for the view is read from the cache.|
+|3|Targeted content is revealed as quickly as possible without flicker of default content.|
+|4|Notification request is sent to the [!DNL Target] Profile Store to count the visitor in the activity and increment metrics.|
+|5|Analytics data sent to Data Collection Servers.|
+|6|Target data is matched to Analytics data via the SDID and is processed into the Analytics reporting storage. Analytics data can then be viewed in both Analytics and Target via A4T reports.|
 
 ## Deploy at.js 2.0
 
@@ -289,10 +289,10 @@ Customers are able to specify a global mbox name via [!UICONTROL Target > Setup 
 
 **Are the below at.js custom events applicable to `triggerView()` or is it only for `applyOffer()` or `applyOffers()`?**
 
-`adobe.target.event.CONTENT_RENDERING_FAILED`
-`adobe.target.event.CONTENT_RENDERING_SUCCEEDED`
-`adobe.target.event.CONTENT_RENDERING_NO_OFFERS`
-`adobe.target.event.CONTENT_RENDERING_REDIRECT`
+* `adobe.target.event.CONTENT_RENDERING_FAILED`
+* `adobe.target.event.CONTENT_RENDERING_SUCCEEDED`
+* `adobe.target.event.CONTENT_RENDERING_NO_OFFERS`
+* `adobe.target.event.CONTENT_RENDERING_REDIRECT`
 
 Yes the at.js custom events are applicable to `triggerView()` as well.
 
