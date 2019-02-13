@@ -18,7 +18,6 @@ List of functions that can be used with at.js.
 
 This function fires a request to get a Target offer.
 
-
 Use with `adobe.target.applyOffer()` to process the response or use your own success handling. The options parameter is mandatory and has the following structure:
 
 | Key | Type | Required | Description |
@@ -133,6 +132,115 @@ The "status" and "error" parameters passed to the error callback will have the f
 |status|String|Represents the error status. This parameter can have the following values:<ul><li>timeout: Indicates that the request timed out.</li><li>parseerror: Indicates that the response could not be parsed, for example if we receive HTML or plain text instead of JSON.</li><li>error: Indicates a general error like we received HTTP status different from 200 OK</li></ul>|
 |error|String|Contains additional data like exception message or anything else that might be useful for troubleshooting.|
 
+## adobe.target.getOffers(options) - at.js 2.0
+
+This function lets you retrieve multiple offers by passing in multiple mboxes. Additionally, multiple offers can be retrieved for all views in active activities.
+
+>[!NOTE]
+>
+>This function was introduced with at.js 2.0. This function is not available for at.js version 1.*x*.
+
+|Key|Type|Required?|Description|
+| --- | --- | --- | --- |
+|consumerId|String|No|Default value is client's global mbox if not provided. This key is used to generate the supplemental data ID used for A4T integration.|
+|request<br>|Object|Yes|See Requests table below.|
+|timeout|Number|No|request timeout. If not specified the default at.js timeout is used.|
+
+### Request
+
+|Field name|Required?|Limitations|Description|
+| --- | --- | ---| --- |
+|request > id|No||One of `tntId`, `thirdPartyId`, or `marketingCloudVisitorId` is required.|
+|Request > id > thirdPartyId|No|Maximum size = 128||
+|Request > prefetch|No|||
+|Request > prefetch > views|No|Maximim count 50<br>Name not blank<br>Name length `<=` 128<br>Value length `<=` 5000<br>Name should not start with "profile"<br>Not allowed names: "orderId", "orderTotal", "productPurchasedId"|Pass in parameters to be used to retrieve relevant views in active activities.|
+|Request > prefetch > views > profileParameters|No|Maximim count 50<br>Name not blank<br>Name length `<=` 128<br>Value length `<=` 5000<br>Name should not start with "profile"|Pass in profile parameters to be used to retrieve relevant views in active activities.|
+|Request > prefetch > views > product|No|||
+|Request > prefetch > views > product -> id|No|Not blank<br>maximum size = 128|Pass in product IDs to be used to retrieve relevant views in active activities.|
+|Request > prefetch > views > product > categoryId|No|Not blank<br>maximum size = 128|Pass in product category IDs to be used to retrieve relevant views in activities.|
+|Request > prefetch > views > order|No|||
+|Request > prefetch > views > order > id|No|Maximum length = 250|Pass in order IDs to be used to retrieve relevant views in in active activities.|
+|Request > prefetch > views > order > total|No|Total `>=` 0|Pass in order totals to be used to retrieve relevant views in active activities.|
+|Request > prefetch > views > order > purchasedProductIds|No|No blank values<br>Each value's max length 50<br>Concatenated and separated by comma<br>Product IDs total length `<=` 250|Pass in purchased product IDs to be used to retrieve relevant views in active activities.|
+|Request > execute|No|||
+|Request > execute > pageLoad|No|||
+|Request > execute > pageLoad > parameters|No|Maximum count 50<br>Name not blank<br>Name length `<=` 128<br>Value length `<=` 5000<br>Name should not start with "profile."<br>Not allowed names: "orderId", "orderTotal", "productPurchasedId"|Retrieve offers with specified parameters when page loads.|
+|Request > execute > pageLoad > profileParameters|No|Maximum count 50<br>Name not blank<br>Name length `<=` 128<br>Value length `<=`256<br>Name should not start with "profile."|Retrieve offers with specified profile parameters when page loads.|
+|Request > execute > pageLoad > product|No|||
+|Request > execute > pageLoad > product -> id|No|Not blank<br>Maximum size = 128|Retrieve offers with specified product IDs when page loads.|
+|Request > execute > pageLoad > product > categoryId|No|Not blank<br>Maximum size = 128|Retrieve offers with specified product category IDs when page loads.|
+|Request > execute > pageLoad > order|No|||
+|Request > execute > pageLoad > order > id|No|Maximum length = 250|Retrieve offers with specified order IDs when page loads.|
+|Request > execute > pageLoad > order > total|No|`>=` 0|Retrieve offers with specified order totals when page loads.|
+|Request > execute > pageLoad > order > purchasedProductIds|No|No blank values<br>Each value's max length 50<br>Concatenated and separated by comma<br>Product IDs total length `<=` 250|Retrieve offers with specified purchased product IDs when page loads.|
+|Request > execute > mboxes|No|Maximum size = 50<br>No null elements||
+|Request > execute > mboxes>mbox|Yes|Not blank<br>No '-clicked' suffix<br>Maximum size = 250<br>Allowed characters: `'-, ._\/=:;&!@#$%^&*()_+|?~[]{}'`|Name of mbox.|
+|Request > execute > mboxes>mbox>index|Yes|Not null<br>Unique<br>`>=` 0|Note that the index does not represent the order in which the mboxes will be processed. Same as in a web page with several regional mboxes, the order in which they will be processed cannot be specified.|
+|Request > execute > mboxes > mbox > parameters|No|Maximum count = 50<br>Name not blank<br>Name length `<=` 128<br>Value length `<=` 5000<br>Name should not start with "profile."<br>Not allowed names: "orderId", "orderTotal", "productPurchasedId"|Retrieve offers for a given mbox with the specified parameters.|
+|Request > execute > mboxes>mbox>profileParameters|No|Maximum count = 50<br>Name not blank<br>Name length `<=` 128<br>Value length `<=`256<br>Name should not start with "profile."|Retrieve offers for a given mbox with the specified profile parameters.|
+|Request > execute > mboxes>mbox > product|No|||
+|Request > execute > mboxes > mbox > product > id|No|Not blank<br>Maximum size = 128|Retrieve offers for a given mbox with the specified product IDs.|
+|Request > execute > mboxes > mbox > product > categoryId|No|Not blank<br>Maximum size = 128|Retrieve offers for a given mbox with the specified product category IDs.|
+|Request > execute > mboxes > mbox > order|No|||
+|Request > execute > mboxes>mbox > order > id|No|Maximum length = 250|Retrieve offers for a given mbox with the specified order IDs.|
+|Request > execute > mboxes > mbox > order > total|No|`>=` 0|Retrieve offers for a given mbox with the specified order totals.|
+|Request > execute > mboxes > mbox > order > purchasedProductIds|No|No blank values<br>Each value's maximum length = 50<br>Concatenated and separated by comma<br>Product ids total length `<=` 250|Retrieve offers for a given mbox with the specified order purchased product IDs.|
+
+### Call `getOffers()` for all views
+
+```
+adobe.target.getOffers({
+    prefetch: {
+      views: []
+    }
+  }
+});
+```
+
+### Call `getOffers()` to retrieve the latest views with the passed-in parameters and profile parameters
+
+```
+adobe.target.getOffers({
+request: {
+"prefetch": {
+  "views": [
+    {
+      "parameters": {
+        "ad": "1"
+      },
+      "profileParameters": {
+        "age": 23
+      }
+    }
+  ]
+}
+  }
+}
+});
+```
+
+### Call `getOffers()` to retrieve mboxes with parameters and profile parameters passed-in.
+
+```
+adobe.target.getOffers({
+  request: {
+    execute: {
+      mboxes: [{
+        mbox: "foo"
+      },{
+        mbox: "bla",
+        parameters: {
+          a: 1
+        },
+        profileParameters: {
+          b: 2
+        }
+      }]
+    }
+  }
+});
+```
+
 ## adobe.target.applyOffer(options) {#reference_BBE83F513B5B4E03BBC3F50D90864245}
 
 This function is for applying the response content.
@@ -170,7 +278,133 @@ adobe.target.getOffer({
   }, 
  "timeout": 5000 
 }); 
+```
 
+## adobe.target.applyOffers(options) - at.js 2.0
+
+This function lets you apply more than one offer that was retrieved by `adobe.target.getOffers()`.
+
+>[!NOTE]
+>
+>This function was introduced with at.js 2.0. This function is not available for at.js version 1.*x*.
+
+|Key|Type|Required?|Description|
+| --- | --- | --- | --- |
+|selector|String|No|HTML element or CSS selector used to identify the HTML element where [!DNL Target] should place the offer content. If a selector is not provided, [!DNL Target] assumes that the HTML element to should use is HTML HEAD.|
+|Response|Object|Yes|Response object from `getOffers()`.<br>See Requests table below.|
+
+### Request
+
+|Field Name|Description|
+| --- | --- |
+|response > prefetch > views > options > content|Note that the content of the "option" is not well-defined and depends directly on the option type/template structure.|
+|response > prefetch > views > options > type|Option type. Reflects type of "content" field. Supported type is actions.|
+|response > prefetch > views > state|An opaque view state token that should be forwarded with display notification for the view|
+|response > prefetch  > views > options > responseTokens|Contains the map of `responseTokens` that have been collected when the current option was being processed.|
+|response > prefetch  > views > analytics > payload|Analytics payload for client-side integration that should be sent to Analytics after the view has been applied.|
+|response > prefetch  > views > trace|The object containing all trace data for the prefetch call per view.<br>The trace object will also include a version for the trace.<br>The trace object will also include details of the current view.|
+|response > prefetch  > views > options > eventToken|Event logging is done per option. For every applied option the respective event token should to be added to the list of notification tokens. Note that a View is composed of multiple options. If all options have been applied and seen, all `eventTokens` need to be included in the notification.|
+|response > prefetch  > views > name|The human-readable view name.|
+|response > prefetch  > views > metrics|Reporting metrics that should be watched and then notify [!DNL Target] about. Currently, just click metric is supported. In case a click on the element happens, the appropriate `eventTokens` should be collected and a notification should be sent.|
+|response > prefetch  > views > key|The key or fingerprint that identifies the view.|
+|response > prefetch  > views > id|ID of the view.|
+|response > notifications > id|Notification ID.|
+|response > notifications > events > type|The type of the notification, click, or display.|
+|response > notifications > events > trace|The trace for the notification event.|
+|response > notifications > events > token|The token that was sent with the notification event.|
+|response > notifications > events > timestamp|The timestamp that was sent with the notification event.|
+|response > notifications > events > errorCode|If the notification failed, the code indicates the reason for the failure.|
+|response > notifications > events|The events that were logged or failed to be logged for the current notification.|
+|response > notifications|Indicates the logged or failed notifications.|
+|response > execute > mboxes > mbox > trace|The object containing all trace data for the individual mbox request.|
+|response > execute > mboxes > mbox > responseTokens|Contains map of `responseTokens` for specific mbox request execution.|
+|response > execute > mboxes > mbox > option > content|Note that the content of the "option" is not well-defined and depends directly on the option type/template structure.|
+|response > execute > mboxes > mbox > option > type|Option type. Reflects type of "content" field. Supported types are: html, redirect, JSON, and dynamic.|
+|response > execute > mboxes > mbox > options|Response option.|
+|response > execute > mboxes > mbox > metrics > eventToken|Token of click event.|
+|response > execute > mboxes > mbox > metrics > type|"click"|
+|response > execute > mboxes > mbox > metrics|Contains list of `clickThrough` metrics.|
+|response > execute > mboxes > mbox > mbox|The name of the mbox.|
+|response > execute > mboxes > mbox >index|Indicates that the response is for mbox with this index from the request.|
+|response > execute > mboxes > mbox > analytics > payload|Analytics payload for client-side integration that should be sent to Analytics after the mbox has been applied. (See A4T-enabled Campaigns section.)|
+|response > execute > mboxes|List of executed mboxes.|
+|response > execute > pageLoad > options > content|Note that the content of the "option" is not well-defined and depends directly on the option type/template structure.|
+|response > execute > pageLoad > options > type|Option type. Reflects type of "content" field. Supported types are: html, redirect, JSON, dynamic, and actions.|
+|response > execute > pageLoad > options|Options that aren't grouped by views (target-global-mbox + options from activities with views not grouped by views).|
+|response > execute > pageLoad > metrics|Click metrics that were not set to belong to a specific view.|
+|response > execute > pageLoad > trace|The object containing all trace data for the pageLoad request.|
+|response > execute > pageLoad > analytics > payload|Analytics payload for client-side integration that should be sent to Analytics after the page load content has been applied. (See A4T-enabled Campaigns section.)|
+
+### Example applyOffers() call
+
+```
+adobe.target.applyOffers({response:{
+  "execute": {
+    "pageLoad": {
+      "options": [{
+        "type": "html",
+        "content": "page-load"
+      },
+      {
+        "type": "actions",
+        "content": [{
+          "type": "setHtml",
+          "content": "<h1>Container 1</h1>",
+          "selector": "#container1",
+          "cssSelector": "#container1"
+        },
+        {
+          "type": "setHtml",
+          "content": "<h3>Container 3</h3>",
+          "selector": "#container3",
+          "cssSelector": "#container3"
+        }]
+      }],
+ 
+ 
+      "metrics": [{
+        "type": "click",
+        "selector": "#container1",
+        "eventToken": "page-load-click-metric" 
+      }]
+    }
+  }
+}});
+```
+
+### Example call of Promise chaining with `getOffers()` and `applyOffers()`, because these functions are Promise based
+
+```
+adobe.target.getOffers({...})
+.then(response => adobe.target.applyOffers({ response: response }))
+.then(() => console.log("Success"))
+.catch(error => console.log("Error", error));
+```
+
+## adobe.target.triggerView (viewName, options) - at.js 2.0
+
+This function can be called whenever a new page is loaded or when a component on a page is re-rendered. `adobe.target.triggerView()` should be implemented for single page applications (SPAs) in order to use the Visual Experience Composer (VEC) to create A/B Tests and Experience Targeting (XT) activities. If `adobe.target.triggerView()` is not implemented on the site, the VEC cannot be utilized for SPA. Please refer to the SPA documentation for more information: `[INSERT URL]`
+
+>[!NOTE]
+>
+>This function was introduced with at.js 2.0. This function is not available for at.js version 1.*x*.
+
+|Parameter|Type|Required?|Description|
+| -- | --- | --- | --- |
+|viewName|String|Yes|Pass in any name as a string type that you want to represent your view. This view name appears in the [!UICONTROL Modifications] panel of the VEC for marketers to create actions and run their A/B and XT activities.|
+|options|Object|No||
+|options > page|Boolean|No|**TRUE:** Default value of page is true. When page=true, notifications are sent to the [!DNL Target] backend for incrementing impression count.<br>**FALSE:** When page=false, notifications are sent for incrementing impression count. This should be used when you want to only re-render a component on a page with an offer.|
+
+### Example `triggerView()` call that will send a notification to the Target backend for incrementing impression count
+
+```
+adobe.target.triggerView("homeView")
+```
+
+### Example `triggerView()` call to not have notifications sent to the Target backend for impression counting
+
+```
+adobe.target.triggerView("homeView", {page: false})
 ```
 
 ## adobe.target.trackEvent(options) {#reference_7E0F19368F9C4BC38F1E5DC5E717E487}
@@ -227,6 +461,10 @@ adobe.target.trackEvent({
 
 Executes a request and applies the offer to the closest DIV with mboxDefault class name.
 
+>[!NOTE]
+>
+>This function is available for at.js versions 1.*x* only. This function was deprecated with the release of at.js 2.0. This function returns default content if used with at.js 2.0.
+
 This function is built into [!DNL at.js] mostly to ease the transition from [!DNL mbox.js] to [!DNL at.js]. A newer alternative to `mboxCreate()` is `adobe.target.getOffer()`/ `adobe.target.applyOffer()` or the Angular directive.
 
 **Example**
@@ -260,7 +498,9 @@ Define and update an mbox.
 
 >[!NOTE]
 >
->`mboxDefine()` and `mboxCreate()` are tied to HTML DIV elements where the offer should be displayed. These HTML DIV elements should have the `mboxDefault` class. If the HTML elements won't have this class attached, you could see some noticeable flicker.
+>These functions are available for at.js versions 1.*x* only. These functions were deprecated with the release of at.js 2.0. These functions return default content if used with at.js 2.0.
+
+`mboxDefine()` and `mboxCreate()` are tied to HTML DIV elements where the offer should be displayed. These HTML DIV elements should have the `mboxDefault` class. If the HTML elements won't have this class attached, you could see some noticeable flicker.
 
 ### mboxDefine {#section_134BAAE8EE9D49D8BAFEA5E7EAB93BA7}
 
