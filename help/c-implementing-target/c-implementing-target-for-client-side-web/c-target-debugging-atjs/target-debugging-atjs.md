@@ -12,6 +12,10 @@ uuid: 04cfb0fe-1f45-4824-bd06-d54c43baaffe
 
 Information about using the Adobe Experience Cloud Debugger extension, which makes it fast and easy to understand your Target implementation.
 
+>[!NOTE]
+>
+>The Adobe Experience Cloud Debugger Network Request and Mbox Trace features are not yet supported for At.js 2.0.
+
 You can quickly view your library configuration, examine requests to make sure your custom parameters are being passed correctly, turn on console logging, and disable all Target requests. Authenticate into the Experience Cloud and you can use the powerful Mbox Trace tool to inspect your activity and audience qualifications as well as your visitor profile.
 
 Review the [Adobe Experience Cloud Debugger Extension documentation](https://marketing.adobe.com/resources/help/en_US/experience-cloud-debugger/) for more information. Information specific to Target can be found in the [Tools](https://marketing.adobe.com/resources/help/en_US/experience-cloud-debugger/tools.html) section.

@@ -70,64 +70,7 @@ To load at.js asynchronously:
 
 Loading at.js asynchronously is a great way to avoid blocking the browser from rendering; however, this technique can lead to flicker on the web page.
 
-You can avoid flicker by using a pre-hiding snippet that will be visible after the relevant HTML elements are personalized by Target. We recommend using a tag manager such as Adobe DTM or the new Adobe Launch to add the pre-hiding snippet. The snippet must be added before loading at.js.
-
-The pre-hiding code snippet is as follows:
-
-```
-;(function(win, doc, style, timeout) { 
-  var STYLE_ID = 'at-body-style'; 
- 
-  function getParent() { 
-    return doc.getElementsByTagName('head')[0]; 
-  } 
- 
-  function addStyle(parent, id, def) { 
-    if (!parent) { 
-      return; 
-    } 
- 
-    var style = doc.createElement('style'); 
-    style.id = id; 
-    style.innerHTML = def; 
-    parent.appendChild(style); 
-  } 
- 
-  function removeStyle(parent, id) { 
-    if (!parent) { 
-      return; 
-    } 
- 
-    var style = doc.getElementById(id); 
- 
-    if (!style) { 
-      return; 
-    } 
- 
-    parent.removeChild(style); 
-  } 
- 
-  addStyle(getParent(), STYLE_ID, style); 
-  setTimeout(function() { 
-    removeStyle(getParent(), STYLE_ID); 
-  }, timeout); 
-}(window, document, "body {opacity: 0 !important}", 3000));
-```
-
-By default the snippet pre-hides the whole HTML BODY. In some cases, you may only want to pre-hide certain HTML elements and not the entire page. You can achieve that by customizing the style parameter. It can be replaced with something that pre-hides only particular regions of the page.
-
-For example, you have two regions identified by IDs container-1 and container-2, then the style can be replaced with the following:
-
-```
-#container-1, #container-2 {opacity: 0 !important}
-```
-
-Instead of default:
-
-```
-body {opacity: 0 !important} 
-
-```
+For more information, see [How at.js manages flicker](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/manage-flicker-with-atjs.md). 
 
 ## Is at.js compatible with the Adobe Experience Manager integration (AEM)? {#section_6177AE10542344239753764C6165FDDC}
 
@@ -165,17 +108,7 @@ Not on the same page. However, while implementing and testing [!DNL at.js], you 
 
 ## Can I use the Target Visual Experience Composer in my single-page applications? {#section_459C1BEABD4B4A1AADA6CF4EC7A70DFB}
 
-The Visual Experience Composer (VEC) was designed for static web content and server-side-driven web applications. Depending on your SPA architecture, you may or may not be successful using the VEC. Each SPA framework and application is different and may have different results. Expect to need front-end developer support to create activities in single-page applications.
-
-Your SPA should load in the VEC so you can see if it will work for simple content changes in your application. If you have trouble loading your SPA in the VEC, open a Client Care ticket. You should also be able to use the "Browse&Navigate" feature to get to the right state of your application to begin making edits, as well as target the Activity URL to hash fragments and mbox parameters to deliver the activity content to the right mbox.
-
-The main challenges are timing:
-
-* VEC offer replaces content before the SPA has fully updated. The updated SPA content then replaces the VEC content. 
-* VEC offer looks for SPA content that is not yet on the page. After several tries the offer will give up. The SPA content then loads. 
-* SPA content loads and is visible before the VEC offer is returned and can replace it, resulting in flicker.
-
-An implementation strategy that initiates mbox calls as close as possible to dynamic content can help. Please see the SPA Implementations page.
+Yes, you can use the VEC for your SPA if you utilize at.js 2.0. For more information, please visit the following documentation: `[INSERT LINK TO SINGLE PAGE APP (SPA) VISUAL EXPERIENCE COMPOSER DOCUMENTATION]`
 
 ## Can I use the Adobe Experience Cloud Debugger with at.js implementations? {#section_FF3CF4C5FD2F4DB1BF1A6B39DA161637}
 
