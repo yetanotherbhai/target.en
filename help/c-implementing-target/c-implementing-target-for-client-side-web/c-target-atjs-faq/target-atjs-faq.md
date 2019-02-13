@@ -108,7 +108,7 @@ Not on the same page. However, while implementing and testing [!DNL at.js], you 
 
 ## Can I use the Target Visual Experience Composer in my single-page applications? {#section_459C1BEABD4B4A1AADA6CF4EC7A70DFB}
 
-Yes, you can use the VEC for your SPA if you utilize at.js 2.0. For more information, please visit the following documentation: `[INSERT LINK TO SINGLE PAGE APP (SPA) VISUAL EXPERIENCE COMPOSER DOCUMENTATION]`
+Yes, you can use the VEC for your SPA if you utilize at.js 2.0. For more information, see [Single Page (SPA) Visual Experience Composer](help/c-experiences/spa-visual-experience-composer.md).
 
 ## Can I use the Adobe Experience Cloud Debugger with at.js implementations? {#section_FF3CF4C5FD2F4DB1BF1A6B39DA161637}
 
