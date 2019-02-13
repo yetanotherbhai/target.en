@@ -77,6 +77,7 @@ index: n
          + [at.js FAQs](c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md)
          + [Global mbox Frequently Asked Questions](c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/global-mbox-frequently-asked-questions.md)
       + [at.js version details](c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)
+      + [Upgrading from at.js 1.x to at.js 2.0](c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md)
       + [at.js cookies](c-implementing-target/c-implementing-target-for-client-side-web/atjs-cookies.md)
       + mbox.js implementation {#mbox-implement}
          + [mbox.js implementation overview](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md)
