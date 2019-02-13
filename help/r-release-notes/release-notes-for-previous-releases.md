@@ -19,7 +19,7 @@ Release notes for previous Target releases, including release notes for Target S
 
 ## Release notes - 2018 {#reference_36ACC83E135A41F28104C44755C26D5B}
 
-### Platform Changes (January 2019) {#platform-1-19}
+### Platform Changes (January 2019) {#platform-19-1-previous}
 
 | Feature / Enhancement | Description |
 | --- | --- |
@@ -27,7 +27,7 @@ Release notes for previous Target releases, including release notes for Target S
 |Profile scripts<br>January 17, 2019|For performance reasons, we recommend a return value that is no longer than 256 characters.<br>For a String return value, if the size of the return value exceeds 2048 characters, the script is disabled by the system.<br>For an array return value, if the size of the concatenated values of the array exceeds 2048 characters, the script is disabled by the system.<br>For more information about the character limits and other limits (offer size, audiences, profiles, values, parameters, etc.) that affect activities and other elements in Target, see [Limits](../r-troubleshooting-target/target-limits.md).|
 |at.js<br>January 16, 2019|at.js 1.6.4 is a maintenance release and addresses the following issues:<ul><li>Fixed a race condition manifesting in Microsoft Internet Explorer 11 that caused duplicate offers to be applied. (TNT-31374)</li><li>Fixed an issue that affected click tracking when there is a default offer with a click-token and html offers. (TNT-31493)</li><li>Extended the mboxEdgeCluster cookie with each Target request. This is used only when mboxEdgeOverride is enabled. (TNT-31485)</li></ul>|
 
-### [!DNL Target] Standard/Premium 19.1.1 (January 22, 2019) {#section_6BBA8B1EE9D241C28E12856A375E97F6}
+### [!DNL Target] Standard/Premium 19.1.1 (January 22, 2019) {#release-19-1-1-previous}
 
 This release includes the following features, changes and enhancements:
 
