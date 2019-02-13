@@ -21,7 +21,7 @@ Here are some benefits of using at.js 2.0 that are not available in previous ver
 
 ## at.js 2.0 system diagrams
 
-The following diagrams help you understand the workflow of at.js 2.0 with Views and how this enhances the SPA integration. To get a better introduction of the concepts used in at.js 2.0, please see this documentation: `[INSERT LINK TO SINGLE PAGE APPLICATION IMPLEMENTATION]`.
+The following diagrams help you understand the workflow of at.js 2.0 with Views and how this enhances the SPA integration. To get a better introduction of the concepts used in at.js 2.0, see [Single Page Application implementation](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md).
 
 ![Target flow with at.js 2.0](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/system-diagram-atjs-20.png)
 
@@ -63,7 +63,7 @@ Now, wherever `triggerView()` is implemented on your SPA, the Views and actions 
 
 There are several functions that have been deprecated in the new 2.0 version. If these deprecated functions are still used on your site when at.js 2.0 is deployed, you will see console warnings. The recommended approach when upgrading is to test the deployment of at.js 2.0 in a staging environment and make sure to go through each and every warning that has been logged in the console and translate the deprecated functions to new functions introduced in at.js 2.0. 
 
-You can find the deprecated functions and their counterpart below.
+You can find the deprecated functions and their counterpart below. For a complete list of functions, see [at.js functions](/help/c-implementing-target/c-implementing-target-for-client-side-web/cmp-at.js-functions.md).
 
 >[!NOTE]
 >At.js 2.0 no longer automatically pre-hides `mboxDefault` marked elements. Customers will therefore have to accommodate for the pre-hide logic manually on the site or through a tag manager.
