@@ -17,7 +17,7 @@ This page lists important changes made to the Target documentation.
 
 |Date|Topic|Changes|
 | --- | --- | --- |
-|February 19, 2019|Single Page App Visual Experience Composer|New topic.|
+|February 19, 2019|[Single Page App (SPA) Visual Experience Composer](/help/c-experiences/spa-visual-experience-composer.md)|New topic.|
 ||[Upgrading from at.js 1.x to at.js 2.0](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md)|New topic.|
 ||[at.js functions](/help/c-implementing-target/c-implementing-target-for-client-side-web/cmp-at.js-functions.md)|Updated topic to reflect changes with the introduction of at.js 2.0.|
 ||[How at.js works](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md)|Updated topic to reflect changes with the introduction of at.js 2.0.|
