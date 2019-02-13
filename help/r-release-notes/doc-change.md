@@ -20,6 +20,9 @@ This page lists important changes made to the Target documentation.
 |February 19, 2019|Single Page App Visual Experience Composer|New topic.|
 ||[Upgrading from at.js 1.x to at.js 2.0](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md)|New topic.|
 ||[at.js functions](/help/c-implementing-target/c-implementing-target-for-client-side-web/cmp-at.js-functions.md)|Updated topic to reflect changes with the introduction of at.js 2.0.|
+||[How at.js works](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md)|Updated topic to reflect changes with the introduction of at.js 2.0.|
+||[at.js Frequently Asked Questions](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md)|Updated topic to reflect changes with the introduction of at.js 2.0.|
+||[Debug at.js using the Adobe Experience Cloud Debugger](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md)|Added note explaining that the Adobe Experience Cloud Debugger Network Request and Mbox Trace features are not yet supported for At.js 2.0.|
 ||[at.js cookies](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-cookies.md)|New topic.|
 ||[Recommendations as an offer](/help/c-recommendations/recommendations-as-an-offer.md)|New topic.|
 ||[Release Notes](/help/r-release-notes/release-notes.md): 19.2.1|This release includes enhancements and fixes. You can read about them and link to the documentation from the Release Notes. This release also includes many documentation updates throughout the help.|
