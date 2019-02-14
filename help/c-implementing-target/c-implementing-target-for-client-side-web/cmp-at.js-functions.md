@@ -132,7 +132,7 @@ The "status" and "error" parameters passed to the error callback will have the f
 |status|String|Represents the error status. This parameter can have the following values:<ul><li>timeout: Indicates that the request timed out.</li><li>parseerror: Indicates that the response could not be parsed, for example if we receive HTML or plain text instead of JSON.</li><li>error: Indicates a general error like we received HTTP status different from 200 OK</li></ul>|
 |error|String|Contains additional data like exception message or anything else that might be useful for troubleshooting.|
 
-## adobe.target.getOffers(options) - at.js 2.0
+## adobe.target.getOffers(options) - at.js 2.0 {#adobe-target-getOffers}
 
 This function lets you retrieve multiple offers by passing in multiple mboxes. Additionally, multiple offers can be retrieved for all views in active activities.
 
@@ -280,7 +280,7 @@ adobe.target.getOffer({
 }); 
 ```
 
-## adobe.target.applyOffers(options) - at.js 2.0
+## adobe.target.applyOffers(options) - at.js 2.0 {#adobe-target-applyOffers}
 
 This function lets you apply more than one offer that was retrieved by `adobe.target.getOffers()`.
 
@@ -381,7 +381,7 @@ adobe.target.getOffers({...})
 .catch(error => console.log("Error", error));
 ```
 
-## adobe.target.triggerView (viewName, options) - at.js 2.0
+## adobe.target.triggerView (viewName, options) - at.js 2.0 {#adobe-target-triggerView}
 
 This function can be called whenever a new page is loaded or when a component on a page is re-rendered. `adobe.target.triggerView()` should be implemented for single page applications (SPAs) in order to use the Visual Experience Composer (VEC) to create A/B Tests and Experience Targeting (XT) activities. If `adobe.target.triggerView()` is not implemented on the site, the VEC cannot be utilized for SPA. For more information, see [Single Page Application implementation](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md).
 
@@ -457,7 +457,7 @@ adobe.target.trackEvent({
 >
 >In case the mandatory fields are not set, no request is executed, and an error is thrown.
 
-## mboxCreate(mbox,params) {#reference_E68805FE86C64792B2066DB17B253D74}
+## mboxCreate(mbox,params) - at.js 1.x {#reference_E68805FE86C64792B2066DB17B253D74}
 
 Executes a request and applies the offer to the closest DIV with mboxDefault class name.
 
@@ -492,7 +492,7 @@ This function is built into [!DNL at.js] mostly to ease the transition from [!DN
 
   The auto-created global mbox in [!DNL at.js] is a better option because it fires from the `<head>` and can return content earlier.
 
-## mboxDefine() and mboxUpdate() {#reference_61B2B9F351344CF5B0915D5AFD21C5FE}
+## mboxDefine() and mboxUpdate() - at.js 1.x {#reference_61B2B9F351344CF5B0915D5AFD21C5FE}
 
 Define and update an mbox.
 
@@ -777,7 +777,7 @@ targetPageParamsAll = function() {
 };
 ``` 
 
-## registerExtension() {#reference_B3ACC004D45E460C8DD94C1476D2625C}
+## registerExtension() - at.js 1.x {#reference_B3ACC004D45E460C8DD94C1476D2625C}
 
 Provides a standard way to register a specific extension.
 
