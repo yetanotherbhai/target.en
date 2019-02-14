@@ -13,6 +13,7 @@ uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 
 This page lists important changes made to the Target documentation.
 
+
 ## Adobe Target Standard/Premium 19.2.1 (February 19, 2019) {#section-19-2-1}
 
 |Date|Topic|Changes|
