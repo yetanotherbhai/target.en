@@ -29,13 +29,13 @@ The Adobe Target VEC for SPAs takes advantage of a new concept called Views: a l
 
 To explain further about what Views are, let’s navigate this fake online e-commerce site implemented in React called AShop and explore some example Views.
 
-**Home Site**: `http://www.adobeshop.com/home`
+**Home Site**: `http://www.ashop.com/home`
 
 ![home site](/help/c-experiences/assets/home.png)
 
 When we navigate to the home site of the AShop, we can immediately see a hero image that promotes an Easter sale as well as the newest products that AShop is selling on its site. In this case, a View can be defined as the entire home site. We can name this View as home just like the path name in `www.adobshop.com/home`. This is handy to note as we will expand on this more in the Implementing Adobe Target Views section below.
 
-**Product Site**: `http://www.adobeshop.com/products`
+**Product Site**: `http://www.ashop.com/products`
 
 ![product site](/help/c-experiences/assets/product-site.png)
 
@@ -49,7 +49,7 @@ In the beginning of this section, we defined Views as the whole site or even a g
 
 We decide to click on the Load More button to explore more products on the site. The website URL does not change in this case. But a View here can represent only the second row of products shown above. The View name can be called PRODUCTS-PAGE-2.
 
-**Checkout**: `http://www.adobeshop.com/checkout`
+**Checkout**: `http://www.ashop.com/checkout`
 
 ![check-out page](/help/c-experiences/assets/checkout.png)
 
@@ -85,19 +85,15 @@ Now that we have covered what Adobe Target Views are, we can leverage this conce
 
    Now let’s go through some example use cases on how to invoke the `triggerView()` function in React for our hypothetical AShop e-commerce SPA:
 
-   **Home Site**: `http://www.adobeshop.com/home`
+   **Home Site**: `http://www.shop.com/home`
 
    ![home-react-1](/help/c-experiences/assets/react1.png)
-
-   ![home-react-2](/help/c-experiences/assets/react2.png)
-
-   ![home-react-3](/help/c-experiences/assets/react3.png)
 
    As AShop marketers, if we want to run A/B tests on the whole home site, then we might want to name the view as home that can be extracted from the URL:
 
    `[Insert Code Here]`
 
-   **Products Site**: `http://www.adobeshop.com/products`
+   **Products Site**: `http://www.ashop.com/products`
 
    Now, let’s look at an example that is a little bit more complicated. Let’s say as AShop marketers, we would like to personalize the second row of the products by changing the price label color to red after a user clicked on the Load More button.
 
@@ -105,9 +101,9 @@ Now that we have covered what Adobe Target Views are, we can leverage this conce
 
    `[Insert Code Here]`
 
-   **Checkout**: `http://www.adobeshop.com/checkout`
+   **Checkout**: `http://www.ashop.com/checkout`
 
-   ![react checkout](/Checkout: http://www.adobeshop.com/checkout)
+   ![react checkout](/Checkout: http://www.ashop.com/checkout)
 
    ![react checkout](/help/c-experiences/assets/react6.png)
 
