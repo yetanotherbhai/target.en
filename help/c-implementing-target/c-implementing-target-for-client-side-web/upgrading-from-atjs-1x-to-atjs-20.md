@@ -332,7 +332,8 @@ The following tables explain at.js compatibility with different activity types, 
 |Debugger|currently no request capture or mboxTrace|
 |Auditor|Rules have not yet been updated for at.js 2.0|
 |Dynamic Tag Manager (DTM)|Yes|
-|Experience Cloud Opt-In| No |
+|Opt-In| No |
+| AEM Enhanced Personalization powered by Adobe Target | No|
 
 ### Features
 
