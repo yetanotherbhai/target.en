@@ -39,7 +39,9 @@ For more information, see:
 
 ## Adobe Target and Adobe Launch Opt-In {#section_6F7B53F5E40C4425934627B653E831B0}
 
-Target provides opt-in functionality support via Adobe Launch to help support your consent management strategy. Opt-in functionality lets customers control how and when the Target tag is fired. There is also an option via Adobe Launch to pre-approve the Target tag. To enable the ability to use Opt-In in Target at.js, you should use `targetGlobalSettings` and add the `optinEnabled=true` setting. In Launch you'll need to select "enable" from the GDPR Opt-In drop-down list in the Target Launch Extension installation view. See the Launch documentation for more details.
+Target provides opt-in functionality support via Adobe Launch to help support your consent management strategy. Opt-in functionality lets customers control how and when the Target tag is fired. There is also an option via Adobe Launch to pre-approve the Target tag. To enable the ability to use Opt-In in Target at.js, you should use `targetGlobalSettings` and add the `optinEnabled=true` setting. In Launch you'll need to select "enable" from the GDPR Opt-In drop-down list in the Target Launch Extension installation view. See the [Launch documentation](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) for more details.
+
+The following code snippet shows you how to enable the `optinEnabled=true` setting:
 
 ```
 window.targetGlobalSettings = {
@@ -49,7 +51,7 @@ window.targetGlobalSettings = {
 
 >[!NOTE]
 >
->Opt-in functionality is not supported in at.js version 2.0.
+>Opt-in functionality is supported in at.js version 1.7 but currently not supported in at.js version 2.0.
 >
 >Using Adobe Launch to manage opt-in is the recommended approach. Further granular control exists in Adobe Launch to hide selected elements of your page prior to Target firing that are helpful to leverage as part of your consent strategy.
 
