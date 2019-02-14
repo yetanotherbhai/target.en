@@ -265,9 +265,9 @@ Yes, at.js 2.0 supports A4T for SPA via the `triggerView()` function given that 
 |Automated Personalization|No|
 |Recommendations|No|
 
-**If we installed At.js 2.0 and implemented triggerView() on our sites, how do we run Auto-Target A/B activities since SPA VEC doesn't support Auto-Target?**
+**If we installed at.js 2.0 and implemented `triggerView()` on our sites, how do we run Auto-Target A/B activities because the SPA VEC doesn't support Auto-Target?**
 
-If you want to use Auto-Target A/B activities, you can move all of your actions to be executed on *Page Load Event* in the VEC. Hover over each action, and click on the button "Move to Page Load Event". Once this is done, in the next step, you can select Auto-Target for the traffic allocation method.
+If you want to use Auto-Target A/B activities, you can move all of your actions to be executed on Page Load Event in the VEC. Hover over each action, and click the [!UICONTROL Move to Page Load Event] button. After this is done, in the next step, you can select Auto-Target for the traffic allocation method.
 
 ## Supported integrations
 
