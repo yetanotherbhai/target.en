@@ -37,7 +37,7 @@ The Experience Composer provides a visual interface for editing the experiences 
 
    If you created an mbox on the page using Target Classic (formerly Test&Target), that mbox appears as an element that shows the mbox name, and can be modified like any other element.
 
-   For a list of actions that can be performed on an element on the displayed page to change the experience, see [Visual Experience Composer Options](/help/c-experiences/c-visual-experience-composer/viztarget-options.md)
+   For a list of actions that can be performed on an element on the displayed page to change the experience, see [Visual Experience Composer Options](/help/c-experiences/c-visual-experience-composer/viztarget-options.md).
 
    >[!NOTE]
    >
