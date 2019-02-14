@@ -1,13 +1,14 @@
 ---
 description: List of functions that can be used with at.js.
 keywords: adobe.target.notification;element;selector;notification;extension
-seo-description: List of functions that can be used with at.js.
+seo-description: List of functions that can be used with the at.js JavaScript library in Adobe Target.
 seo-title: at.js functions
 solution: Target
 subtopic: Getting Started
 title: at.js functions
 topic: Standard
 uuid: ec5f27a7-b22a-48c9-968c-9eb02830a2a6
+minitoc-levels: 1
 ---
 
 # at.js functions{#at-js-functions}

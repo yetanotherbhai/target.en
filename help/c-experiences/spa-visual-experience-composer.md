@@ -89,7 +89,30 @@ Now that we have covered what Adobe Target Views are, we can leverage this conce
 
    As AShop marketers, if we want to run A/B tests on the whole home site, then we might want to name the view as home that can be extracted from the URL:
 
-   `[Insert Code Here]`
+   ```
+   function targetView() {
+     var viewName = window.location.hash; // or use window.location.pathName if router works on path and not hash
+
+     viewName = viewName || 'home'; // view name cannot be empty
+
+     // Sanitize viewName to get rid of any trailing symbols derived from URL
+     if (viewName.startsWith('#') || viewName.startsWith('/')) {
+       viewName = viewName.substr(1);
+     }
+  
+     // Validate if the Target Libraries are available on your website
+     if (typeof adobe != 'undefined' && adobe.target && typeof adobe.target.triggerView === 'function') {
+       adobe.target.triggerView(viewName);
+     }
+   }
+
+   // react router v4
+   const history = syncHistoryWithStore(createBrowserHistory(), store);
+   history.listen(targetView);
+
+   // react router v3
+   <Router history={hashHistory} onUpdate={targetView} >
+   ```
 
    **Products Site**: `http://www.ashop.com/products`
 
@@ -97,7 +120,28 @@ Now that we have covered what Adobe Target Views are, we can leverage this conce
 
    ![react products](/help/c-experiences/assets/react4.png)
 
-   `[Insert Code Here]`
+   ```
+   function targetView(viewName) {
+     // Validate if the Target Libraries are available on your website
+     if (typeof adobe != 'undefined' && adobe.target && typeof adobe.target.triggerView === 'function') {
+       adobe.target.triggerView(viewName);
+     }
+   }
+
+   class Products extends Component {
+     render() {
+       return (
+         <button type="button" onClick={this.handleLoadMoreClicked}>Load more</button>
+       );
+     }
+
+     handleLoadMoreClicked() {
+       var page = this.state.page + 1; // assuming page number is derived from component’s state
+       this.setState({page: page});
+       targetView('PRODUCTS-PAGE-' + page);
+     }
+   }
+   ```
 
    **Checkout**: `http://www.ashop.com/checkout`
 
@@ -109,7 +153,37 @@ Now that we have covered what Adobe Target Views are, we can leverage this conce
 
    Now, AShop might want to run an A/B test to see whether changing the color from blue to red when Express Delivery is selected can boost conversions as opposed to keeping the button color blue for both delivery options.  
 
-   `[INSERT CODE HERE]`
+   ```
+   function targetView(viewName) {
+     // Validate if the Target Libraries are available on your website
+     if (typeof adobe != 'undefined' && adobe.target && typeof adobe.target.triggerView === 'function') {
+       adobe.target.triggerView(viewName);
+     }
+   }
+
+   class Checkout extends Component {
+     render() {
+       return (
+         <div onChange={this.onDeliveryPreferenceChanged}>
+           <label>
+             <input type="radio" id="normal" name="deliveryPreference" value={"Normal Delivery"} defaultChecked={true}/>
+             <span> Normal Delivery (7-10 business days)</span>
+           </label>
+
+           <label>
+             <input type="radio" id="express" name="deliveryPreference" value={"Express Delivery"}/>
+             <span> Express Delivery* (2-3 business days)</span>
+           </label>
+         </div>
+       );
+     }
+     onDeliveryPreferenceChanged(evt) {
+       var selectedPreferenceValue = evt.target.value;
+       targetView(selectedPreferenceValue);
+     }
+   }
+   ```
+
 
 1. Launch A/B or XT activities via the VEC.
 
