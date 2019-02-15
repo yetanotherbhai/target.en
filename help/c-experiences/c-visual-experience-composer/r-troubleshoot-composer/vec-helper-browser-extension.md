@@ -21,13 +21,13 @@ Reasons why some websites might not open reliably in the VEC include:
 
 In situations like this, many customers choose to open the website in the Target [!UICONTROL Enhanced Experience Composer] (EEC) or use a third-party extension, such as Requestly, to open the website.
 
-The VEC Helper browser extension for Chrome solves site-loading issues for which customers now rely on the [!DNL Target] [!UI CONTROL Enhanced Experience Composer] (EEC) or third-party extensions.
+The VEC Helper browser extension for Chrome solves site-loading issues for which customers now rely on the [!DNL Target] [!UICONTROL Enhanced Experience Composer] (EEC) or third-party extensions.
 
 Benefits of using the VEC Helper extension include:
 
 * All iframe busting headers, such as X-Frame-Options and Content-Security-Policy, are implicitly removed from the website. There is no more need to create complicated Requestly rules to do this.
 * If a webpage does not yet contain the Target at.js JavaScript library, you can use the extension to inject the library so you can author experiences for the website. You can then create activities and QA them using preview links.
-* Mobile Viewports are supported even without the [!UI CONTROL Enhanced Experience Composer] (EEC).
+* Mobile Viewports are supported even without the [!UICONTROL Enhanced Experience Composer] (EEC).
 * Customers new to [!DNL Target] can use the extension to experiment with [!DNL Target] even if their IT developers have not yet implemented [!DNL Target] on their websites.
 
 ## Obtain and install the VEC Helper browser extension
