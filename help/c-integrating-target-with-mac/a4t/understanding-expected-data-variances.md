@@ -11,17 +11,17 @@ uuid: 61bef460-8613-4251-b1b2-b6226ec86d9b
 
 # Expected data variances between Target and Analytics when using and not using A4T{#expected-data-variances-when-not-using-a-t}
 
-Information about expected data variances between [!DNL Target] and Adobe [!DNL Analytics] when using and *not* using Analytics as the Reporting Source (A4T), which eliminates data variance altogether.
+Information about expected data variances between [!DNL Target] and Adobe [!DNL Analytics] when *using* and *not* using Analytics as the Reporting Source (A4T), which eliminates data variance altogether.
 
-## There is no expected data variance when using A4T
+## A4T significantly reduces data variance
 
-With A4T, both [!DNL Analytics] and [!DNL Target] reporting of activities use [!DNL Analytics] data exclusively, so there is no variance between the solutions in [!DNL Target] activity reports. In some circumstances, however, customers might compare [!DNL Target] data to [!DNL Analytics] data outside the scope of the A4T integration and, thus, experience the variance issues described below.
+With A4T, both Analytics and Target reporting of activities use Analytics data exclusively, so there is little variance between the solutions in Target activity reports. In some circumstances, however, customers might compare Target data to Analytics data outside the scope of the A4T integration and, thus, experience the variance issues described below.
 
 Here is a scenario in which you might experience expected data variance: Suppose you create an Auto-Allocate activity open to all visitors to a particular page. Because Auto-Allocate activities don't support A4T, all of the activity data is collected by [!DNL Target]. You might expect that the visitors to the activity in the [!DNL Target] reporting should match the visitors to that page in the [!DNL Analytics] reporting for the same date range. This is a scenario in which the variance described below is expected.
 
 For a complete list of activity types that support A4T, see [Supported Activity Types](../../c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA).
 
-## Expected data variance when *not* using A4T
+## Expected data variance when *not using* A4T
 
 Variances of 15-20% are normal, even with similar data sets. Systems that count differently can result in much higher data variances, as much as 35-50%. In some cases, variances can be even higher.
 
@@ -48,8 +48,8 @@ The following can cause data variances based on technical differences:
 The following can cause data variances based on business differences:
 
 * Differences between visitor and visit metrics 
-* [!DNL Target]ing on activities excludes some visitors 
+* Targeting on activities excludes some visitors 
 * A single mbox can be located on multiple pages, counting visitors on each of those pages 
 * Activity priorities might include some visitors and exclude others on a page 
 * Visitors who have converted once can be counted again when they re-enter the activity 
-* [!DNL Analytics] counts all conversions for all visits and visitors, but [!DNL Target] only counts conversions for those visits and visitors that are included in the activity
+* [!DNL Analytics] counts all conversions for all visits and visitors, but [!DNL Target] counts conversions only for those visits and visitors that are included in the activity
