@@ -281,6 +281,7 @@ index: n
          + [Troubleshooting Issues Related to the Enhanced Experience Composer](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md)
          + [Enabling Mixed Content in Your Browser](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md)
          + [Page Modification Scenarios](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md)
+         + [Visual Experience Composer helper extension](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)
       + [Redirect to a URL](c-experiences/c-visual-experience-composer/redirect-offer.md)
       + [Creating Carousels that Work in the Visual Experience Composer](c-experiences/c-visual-experience-composer/vec-carousels.md)
    + [Form-Based Experience Composer](c-experiences/form-experience-composer.md)
