@@ -17,7 +17,7 @@ Details about changes in each version of at.js.
 >
 >The Target team maintains only two versions of [!DNL at.js]—the current version and the second-latest version. Please upgrade [!DNL at.js] as necessary to ensure that you are running a supported version.
 
-## at.js Version 2.0 {#at-js-20}
+## at.js Version 2.0.0 {#at-js-20}
 
 at.js 2.0 provides rich feature sets that equip your business to execute personalization on next generation client-side technologies. This new version is focused on upgrading at.js to have harmonious interactions with single page applications (SPAs).
 
@@ -27,9 +27,13 @@ Here are some benefits of using at.js 2.0 that are not available in previous ver
 * Tremendously improve your end-user’s experience on your site because offers are shown immediately via the cache without any lag time that traditional server calls introduce.
 * Simple one-line of code and one-time developer setup to enable your marketers to create and run A/B and Experience (XT) activities via the Visual Experience Composer (VEC) on your single page application.
 
+>[!NOTE]
+>
+>at.js 2.0.0 does not yet include Adobe Opt-in support introduced in at.js 1.7.0.
+
 For more information, see [Upgrading from at.js 1.x to at.js 2.0](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md).
 
-## at.js Version 1.7 {#at-js-17}
+## at.js Version 1.7.0 {#at-js-17}
 
 This release brings Adobe Opt-In support. Adobe Opt-In is a way to simplify Adobe solutions integrations with consent management platforms.
 
