@@ -33,13 +33,15 @@ To explain further about what Views are, let’s navigate this fake online e-com
 
 ![home site](/help/c-experiences/assets/home.png)
 
-When we navigate to the home site of the e-commerce, we can immediately see a hero image that promotes an Easter sale as well as the newest products that the business is selling on its site. In this case, a View can be defined as the entire home site.  This is handy to note as we will expand on this more in the Implementing Adobe Target Views section below.
+When we navigate to the home site, we can immediately see a hero image that promotes an Easter sale as well as the newest products that is selling on the site. In this case, a View can be defined as the entire home site. We can name this View as home just like the path name in `www.adobshop.com/home`. This is handy to note as we will expand on this more in the Implementing Adobe Target Views section below.
 
 **Product Site**: `https://target.enablementadobe.com/react/demo/#/products`
 
 ![product site](/help/c-experiences/assets/product-site.png)
 
 As we become more interested in the products that the business is selling, we decide to click the Products link. Similar to the home site, the entirety of the products site can be defined as a View. We can name this View as products just like the path name in `https://target.enablementadobe.com/react/demo/#/products`.
+
+As we become more interested in the products that the site is selling, we decide to click the Products link. Similar to the home site, the entirety of the products site can be defined as a View. We can name this View as products just like the path name in `https://target.enablementadobe.com/react/demo/#/products`.
 
 ![product site 2](/help/c-experiences/assets/product-site-2.png)
 
@@ -53,11 +55,11 @@ We decide to click on the Load More button to explore more products on the site.
 
 ![check-out page](/help/c-experiences/assets/checkout.png)
 
-Because we liked some products shown in the site, we decided to buy a couple. Now, on the checkout site we are given some options to choose normal delivery or express delivery. Because a View can be any group of visual elements on a site, we can name this View Delivery Preferences. 
+Because we liked some products shown on the site, we decided to buy a couple. Now, on the checkout site we are given some options to choose normal delivery or express delivery. Because a View can be any group of visual elements on a site, we can name this View Delivery Preferences. 
 
-Furthermore, the Views concept can be extended much further than this. If marketers wants to personalize content on the site depending on which delivery preference is selected, a View can be created for each delivery preference. In this case, when we select Normal Delivery, the View can be named Normal Delivery. If Express Delivery is selected, the View can be named Express Delivery. 
+Furthermore, the Views concept can be extended much further than this. If the site wants to personalize content on the site depending on which delivery preference is selected, a View can be created for each delivery preference. In this case, when we select Normal Delivery, the View can be named Normal Delivery. If Express Delivery is selected, the View can be named Express Delivery. 
 
-Now, marketers may want to run an A/B Test to see whether changing the color from blue to red when Express Delivery is selected can boost conversions as opposed to keeping the button color blue for both delivery options. 
+Now, the site may want to run an A/B Test to see whether changing the color from blue to red when Express Delivery is selected can boost conversions as opposed to keeping the button color blue for both delivery options. 
 
 ## Implementing Adobe Target Views
 
@@ -103,11 +105,13 @@ Now that we have covered what Adobe Target Views are, we can leverage this conce
 
    **Checkout**: `https://target.enablementadobe.com/react/demo/#/checkout`
 
-   ![react checkout](/Checkout: http://www.ashop.com/checkout)
+   Checkout: http://www.ashop.com/checkout
 
    ![react checkout](/help/c-experiences/assets/react6.png)
 
    If the business wants to personalize content on the site depending on which delivery preference is selected, a View can be created for each delivery preference. In this case, when we select Normal Delivery, the View can be named as Normal Delivery. If Express Delivery is selected, the View can be named as Express Delivery. 
+
+   If marketers want to personalize content on the site depending on which delivery preference is selected, a View can be created for each delivery preference. In this case, when we select Normal Delivery, the View can be named as Normal Delivery. If Express Delivery is selected, the View can be named as Express Delivery. 
 
    Now, marketers might want to run an A/B test to see whether changing the color from blue to red when Express Delivery is selected can boost conversions as opposed to keeping the button color blue for both delivery options.  
 
