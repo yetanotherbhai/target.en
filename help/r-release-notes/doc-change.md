@@ -20,17 +20,17 @@ This page lists important changes made to the Target documentation.
 | --- | --- | --- |
 |February 19, 2019|[Single Page App (SPA) Visual Experience Composer](/help/c-experiences/spa-visual-experience-composer.md)|New topic.|
 ||[Single Page Application implementation](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md)|New topic.|
-||[at.js version details](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)|Added information about at.js versions 1.7 and 2.0.|
-||[Upgrading from at.js 1.x to at.js 2.0](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md)|New topic.|
-||[at.js functions](/help/c-implementing-target/c-implementing-target-for-client-side-web/cmp-at.js-functions.md)|Updated topic to reflect changes with the introduction of at.js 2.0.<br>There are three new fuctions available for at.js 2.0.<ul><li>adobe.target.getOffers(options)</li><li>adobe.target.applyOffers(options)</li><li>adobe.target.triggerView (viewName, options)</li></ul>|
-||[How at.js works](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md)|Updated topic to reflect changes with the introduction of at.js 2.0.|
-||[How at.js manages flicker](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/manage-flicker-with-atjs.md)|Updated topic to reflect changes with the introduction of at.js 2.0.|
-||[at.js Frequently Asked Questions](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md)|Updated topic to reflect changes with the introduction of at.js 2.0.|
-||[Debug at.js using the Adobe Experience Cloud Debugger](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md)|Added note explaining that the Adobe Experience Cloud Debugger Network Request and Mbox Trace features are not yet supported for At.js 2.0.|
+||[at.js version details](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)|Added information about at.js versions 1.7.0 and 2.0.0.0.|
+||[Upgrading from at.js 1.x to at.js 2.0.0.0](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md)|New topic.|
+||[at.js functions](/help/c-implementing-target/c-implementing-target-for-client-side-web/cmp-at.js-functions.md)|Updated topic to reflect changes with the introduction of at.js 2.0.0.0.<br>There are three new fuctions available for at.js 2.0.0.<ul><li>adobe.target.getOffers(options)</li><li>adobe.target.applyOffers(options)</li><li>adobe.target.triggerView (viewName, options)</li></ul>|
+||[How at.js works](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md)|Updated topic to reflect changes with the introduction of at.js 2.0.0.|
+||[How at.js manages flicker](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/manage-flicker-with-atjs.md)|Updated topic to reflect changes with the introduction of at.js 2.0.0.|
+||[at.js Frequently Asked Questions](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md)|Updated topic to reflect changes with the introduction of at.js 2.0.0.|
+||[Debug at.js using the Adobe Experience Cloud Debugger](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md)|Added note explaining that the Adobe Experience Cloud Debugger Network Request and Mbox Trace features are not yet supported for At.js 2.0.0.|
 ||[at.js cookies](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-cookies.md)|New topic.|
 ||[Recommendations as an offer](/help/c-recommendations/recommendations-as-an-offer.md)|New topic.|
 ||[Visual Experience Composer Options](/help/c-experiences/c-visual-experience-composer/viztarget-options.md)|<ul><li>Added information about using the [!UICONTROL Insert Before, Insert After, or Replace With] action to add recommendations to an experience in an A/B Test or Experience Targeting activity.</li><li>Added information about using the [!UICONTROL Insert Before or Insert After] action to add AEM Experience Fragments to an experience.</li></ul>|
-||[Privacy and General Data Protection Regulation](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) (GDPR)|Minor edits and information about Opt-in functionality and at.js 1.7 and at.js 2.0. |
+||[Privacy and General Data Protection Regulation](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) (GDPR)|Minor edits and information about Opt-in functionality and at.js 1.7.0 and at.js 2.0.0. |
 ||[Release Notes](/help/r-release-notes/release-notes.md): 19.2.1|This release includes enhancements and fixes. You can read about them and link to the documentation from the Release Notes. This release also includes many documentation updates throughout the help.|
 
 ## Adobe Target Standard/Premium 19.1.1 (January 22, 2019) {#section-19-1-1}
@@ -71,7 +71,7 @@ This page lists important changes made to the Target documentation.
 ||[Create combinations](../c-activities/c-multivariate-testing/t-create-multivariate-test/add-offers.md)|Updated text and images.|
 ||[Create a Multivariate Test](../c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test.md)|Updated text and images.|
 |December 11, 2018|[ targetGlobalSettings](../c-implementing-target/c-implementing-target-for-client-side-web/cmp-at.js-functions.md)|Added that the default value for overrideMboxEdgeServer is "true" beginning with at.js version 1.6.2.|
-|December 7, 2018|[ Known Issues and Resolved Issues ](known-issues-resolved-issues.md)|Moved the following from the Known Issues table to the Resolved Issues table: <ul><li>at.js: Mboxes not firing on Microsoft Explorer 11 browsers after upgrading to at.js version 1.0 due to the interaction between at.js and Visitor API 2.2.0.</li><li>Geo targeting: Searching for a string that contains special characters (such as a space or a comma) is currently not working when creating geo-targeting audiences.</li></ul>|
+|December 7, 2018|[ Known Issues and Resolved Issues ](known-issues-resolved-issues.md)|Moved the following from the Known Issues table to the Resolved Issues table: <ul><li>at.js: Mboxes not firing on Microsoft Explorer 11 browsers after upgrading to at.js version 1.0 due to the interaction between at.js and Visitor API 2.2.0.0.</li><li>Geo targeting: Searching for a string that contains special characters (such as a space or a comma) is currently not working when creating geo-targeting audiences.</li></ul>|
 |December 5, 2018|[ Personalization Insights reports ](../c-reports/c-personalization-insights-reports/personalization-insights-reports.md)|Added note that the Personalization Insights reports are available in the default environment only.|
 ||[ Adobe Analytics as the reporting source for Adobe Target (AT) ](../c-integrating-target-with-mac/a4t/a4t.md)|Updated table to indicate that A4T supports server-side deployments.|
 |November 29, 2018|[ Estimate the traffic required for a successful test](../c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md)|Minor text updates and updated images.|
@@ -176,7 +176,7 @@ This page lists important changes made to the Target documentation.
   <tr> 
    <td colname="col1"> October 8, 2018 </td> 
    <td colname="col2"> <p> <a href="../c-recommendations/c-recommendations-faq/ip-addresses-marketing-cloud.md#concept_216F959FF18143D6A3BA0BE937918580" format="dita" scope="local"> IP Addresses Used by Recommendations Feed-Processing Servers </a> </p> </td> 
-   <td colname="col3"> <p>Added new IP address range for the CIDR Notation 192.243.242.0/24. </p> </td> 
+   <td colname="col3"> <p>Added new IP address range for the CIDR Notation 192.243.242.0.0/24. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> October 5, 2018 </td> 
@@ -336,7 +336,7 @@ This page lists important changes made to the Target documentation.
   <tr> 
    <td colname="col1"> </td> 
    <td colname="col2"> <p> <a href="../c-recommendations/c-recommendations-faq/recommendations-faq.md#concept_EF272DE4AC6C47B19026BFBE816F5DB8" format="dita" scope="local"> Recommendations FAQ </a> </p> </td> 
-   <td colname="col3"> <p>Changed the required Velocity version to 1.7. </p> </td> 
+   <td colname="col3"> <p>Changed the required Velocity version to 1.7.0. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> September 10, 2018 </td> 
