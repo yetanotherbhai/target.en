@@ -14,14 +14,14 @@ The [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC) Helper bro
 
 Reasons why some websites might not open reliably in the VEC include:
 
-* Website has strict security policies.
-* Website is in an iframe.
-* at.js is not yet implemented on the website.
-* Customer's QA and/or stage site is not available to the outside world (the site is internal).
+* The website has strict security policies.
+* The website is in an iframe.
+* The at.js library is not yet implemented on the website.
+* The customer's QA and/or stage site is not available to the outside world (the site is internal).
 
 The VEC Helper browser extension for Chrome solves site-loading issues for which customers now rely on the [!DNL Target] [!UICONTROL Enhanced Experience Composer] or third-party extensions, such as Requestly
 
-Benefits of using the VEC Helper extension include:
+Benefits of using the VEC Helper extension include the following:
 
 * All iframe busting headers, such as X-Frame-Options and Content-Security-Policy, are implicitly removed from the website. There is no more need to create complicated Requestly rules to do this.
 * If a webpage does not yet contain the [!DNL Target] at.js JavaScript library, you can use the extension to inject the library so you can author experiences for the website. You can then create activities and QA them using preview links.
@@ -33,7 +33,7 @@ Benefits of using the VEC Helper extension include:
 
 1. Navigate to the [Adobe Target VEC Helper browser extension in the Chrome Web Store](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak).
 1. Click [!UICONTROL Add to Chrome > Add Extension].
-1. To use the extension, click the VEC Helper browser extension icon ( ![VEC Helper icon](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/vec-help-extension.png) ) in your Chrome browser's toolbar while in the VEC or QA Mode.
+1. To use the extension, click the VEC Helper browser extension icon ( ![VEC Helper icon](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/vec-help-extension.png) ) in your Chrome browser's toolbar while in the VEC or [QA Mode](/help/c-activities/c-activity-qa/activity-qa.md).
 
 ## Notes
 
