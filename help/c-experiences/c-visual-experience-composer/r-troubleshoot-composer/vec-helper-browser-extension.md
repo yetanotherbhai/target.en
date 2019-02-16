@@ -27,7 +27,7 @@ Benefits of using the VEC Helper extension include the following:
 * If a webpage does not yet contain the [!DNL Target] at.js JavaScript library, you can use the extension to inject the library so you can author experiences for the website. You can then create activities and QA them using preview links.
 * Mobile Viewports are supported even without the [!UICONTROL Enhanced Experience Composer] (EEC).
 * Customers new to [!DNL Target] can use the extension to experiment with [!DNL Target] even if their IT developers have not yet implemented [!DNL Target] on their websites.
-* Partners servicing multiple customers' websites and [!DNL Target] accounts now have one simple mechanism to support VEC loading, instead of managing multiple rules in third-party tools
+* Partners servicing multiple customers' websites and [!DNL Target] accounts now have one simple mechanism to support VEC loading, instead of managing multiple rules in third-party tools.
 
 ## Obtain and install the VEC Helper browser extension
 
@@ -37,8 +37,16 @@ Benefits of using the VEC Helper extension include the following:
 
 ## Notes
 
-* The [!UICONTROL Inject Target libraries] flag in the extension is OFF by default. You can enable this flag if you want to use the VEC on a site that has not yet been implemented for Target.
-* If you attempt to load a website that fails to load, a message displays in the VEC suggesting that you install the VEC Helper browser extension.
-* If at.js is not yet implemented on the website, a message displays in the VEC suggesting that you install the extension.
-* If the extension is enabled and is powering the loading, messages display when the extension injects the at.js library (if necessary) or helps open the website reliably within the VEC.
-* To use the extension in [QA Mode](/help/c-activities/c-activity-qa/activity-qa.md), you need to have another Chrome tab authenticated into the [!DNL Adobe Experience Cloud] org.
+* Your implementation must use the [!DNL Target] at.js library. You cannot use an mbox.js implementation with the extension.
+* The [!UICONTROL Inject Target libraries] flag in the extension is OFF by default. You can enable this flag if you want to use the VEC on a site that has not yet been implemented for [!DNL Target].
+
+  Be aware that this flag is a global setting. The flag is enabled or disabled for all websites opened in the VEC. So, for example, if you set this flag to ON and open a website that is already implemented with at.js, you'll receive a message informing you that at.js is already loaded. We anticipate that most customers will already have at.js implemented on their pages and will use the default setting of OFF.
+
+* The extension loads the latest version of at.js that is available from the [!DNL Target UI] io [UICONTROL Setup > Implementation].
+* When using the extension to inject at.js while in [QA Mode](/help/c-activities/c-activity-qa/activity-qa.md), you must have another Chrome tab open. This Chrome tab must be authenticated to the same [!DNL Adobe Experience Cloud] Organization in which you created the activity.
+* The following messages help keep you informed:
+
+  * If you attempt to load a website using the VEC that fails to load, a message displays suggesting that you install the VEC Helper browser extension.
+  * If at.js is not yet implemented on the website, a message displays in the VEC suggesting that you install the extension.
+  * If the extension is enabled and is powering the loading, messages display when the extension injects the at.js library (if necessary) or helps open the website reliably within the VEC.
+
