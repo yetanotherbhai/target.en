@@ -23,13 +23,13 @@ The Adobe Target VEC for SPAs takes advantage of a new concept called Views: a l
 
 To explain further about what Views are, let’s navigate this fake online e-commerce site implemented in React called AShop and explore some example Views.
 
-**Home Site**: <https://target.enablementadobe.com/react/demo/#/>
+**[Home Site](https://target.enablementadobe.com/react/demo/#/)**
 
 ![home site](/help/c-experiences/assets/home.png)
 
 When we navigate to the home site, we can immediately see a hero image that promotes an Easter sale as well as the newest products that AShop is selling on its site. In this case, a View can be defined as the entire home site. We can name this View as home just like the path name in `https://target-enablementabobe.com/home`. This is handy to note as we will expand on this more in the Implementing Adobe Target Views section below.
 
-**Product Site**: <https://target.enablementadobe.com/react/demo/#/products>
+**[Product Site](https://target.enablementadobe.com/react/demo/#/products)**
 
 ![product site](/help/c-experiences/assets/product-site.png)
 
@@ -43,7 +43,7 @@ In the beginning of this section, we defined Views as the whole site or even a g
 
 We decide to click on the Load More button to explore more products on the site. The website URL does not change in this case. But a View here can represent only the second row of products shown above. The View name can be called PRODUCTS-PAGE-2.
 
-**Checkout**: <https://target.enablementadobe.com/react/demo/#/checkout>
+**[Checkout](https://target.enablementadobe.com/react/demo/#/checkout)**
 
 ![check-out page](/help/c-experiences/assets/checkout.png)
 
@@ -143,7 +143,7 @@ Now that we have covered what Adobe Target Views are, we can leverage this conce
    }
    ```
 
-   **Checkout**: <https://target.enablementadobe.com/react/demo/#/checkout>
+   **[Checkout](https://target.enablementadobe.com/react/demo/#/checkout)**
 
    ![react checkout](/help/c-experiences/assets/react6.png)
 
