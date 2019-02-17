@@ -29,19 +29,17 @@ The Adobe Target VEC for SPAs takes advantage of a new concept called Views: a l
 
 To explain further about what Views are, let’s navigate this fake online e-commerce site implemented in React and explore some example Views.
 
-**Home Site**: `https://target.enablementadobe.com/react/demo/#/`
+**Home Site**: https://target.enablementadobe.com/react/demo/#/
 
 ![home site](/help/c-experiences/assets/home.png)
 
 When we navigate to the home site, we can immediately see a hero image that promotes an Easter sale as well as the newest products that is selling on the site. In this case, a View can be defined as the entire home site. We can name this View as home just like the path name in `www.adobshop.com/home`. This is handy to note as we will expand on this more in the Implementing Adobe Target Views section below.
 
-**Product Site**: `https://target.enablementadobe.com/react/demo/#/products`
+**Product Site**: https://target.enablementadobe.com/react/demo/#/products
 
 ![product site](/help/c-experiences/assets/product-site.png)
 
-As we become more interested in the products that the business is selling, we decide to click the Products link. Similar to the home site, the entirety of the products site can be defined as a View. We can name this View as products just like the path name in `https://target.enablementadobe.com/react/demo/#/products`.
-
-As we become more interested in the products that the site is selling, we decide to click the Products link. Similar to the home site, the entirety of the products site can be defined as a View. We can name this View as products just like the path name in `https://target.enablementadobe.com/react/demo/#/products`.
+As we become more interested in the products that the business is selling, we decide to click the Products link. Similar to the home site, the entirety of the products site can be defined as a View. We can name this View as products just like the path name in https://target.enablementadobe.com/react/demo/#/products.
 
 ![product site 2](/help/c-experiences/assets/product-site-2.png)
 
@@ -51,7 +49,7 @@ In the beginning of this section, we defined Views as the whole site or even a g
 
 We decide to click on the Load More button to explore more products on the site. The website URL does not change in this case. But a View here can represent only the second row of products shown above. The View name can be called PRODUCTS-PAGE-2.
 
-**Checkout**: `https://target.enablementadobe.com/react/demo/#/checkout`
+**Checkout**: https://target.enablementadobe.com/react/demo/#/checkout
 
 ![check-out page](/help/c-experiences/assets/checkout.png)
 
@@ -77,7 +75,7 @@ Now that we have covered what Adobe Target Views are, we can leverage this conce
 
    After defining the Views of your SPA where you want to run an A/B or XT test, implement at.js 2.0’s `triggerView()` function with the Views passed in as a parameter. This allows marketers to use the VEC to design and run the A/B and XT tests for those Views defined. If the `triggerView()` function is not defined for those Views, the VEC will not detect the Views and thus marketers cannot use the VEC to design and run A/B and XT tests.
 
-   adobe.target.triggerView(viewName, options)
+   `adobe.target.triggerView(viewName, options)`
 
    |Parameter|Type|Required?|Validation|Description|
    | --- | --- | --- | --- | --- |
@@ -87,25 +85,67 @@ Now that we have covered what Adobe Target Views are, we can leverage this conce
 
    Now let’s go through some example use cases on how to invoke the `triggerView()` function in React for our hypothetical  e-commerce SPA:
 
-   **Home Site**: `https://target.enablementadobe.com/react/demo/#/`
+   **Home Site**: https://target.enablementadobe.com/react/demo/#/
 
    ![home-react-1](/help/c-experiences/assets/react1.png)
 
    As marketers, if we want to run A/B tests on the whole home site, then we might want to name the view as home:
 
-   `[Insert Code Here]`
+  ```
+   function targetView() {
+     var viewName = window.location.hash; // or use window.location.pathName if router works on path and not hash
 
-   **Products Site**: `https://target.enablementadobe.com/react/demo/#/products`
+     viewName = viewName || 'home'; // view name cannot be empty
+
+     // Sanitize viewName to get rid of any trailing symbols derived from URL
+     if (viewName.startsWith('#') || viewName.startsWith('/')) {
+       viewName = viewName.substr(1);
+     }
+  
+     // Validate if the Target Libraries are available on your website
+     if (typeof adobe != 'undefined' && adobe.target && typeof adobe.target.triggerView === 'function') {
+       adobe.target.triggerView(viewName);
+     }
+   }
+
+   // react router v4
+   const history = syncHistoryWithStore(createBrowserHistory(), store);
+   history.listen(targetView);
+
+   // react router v3
+   <Router history={hashHistory} onUpdate={targetView} >
+  ```
+
+   **Products Site**: https://target.enablementadobe.com/react/demo/#/products
 
    Now, let’s look at an example that is a little bit more complicated. Let’s say as marketers, we would like to personalize the second row of the products by changing the price label color to red after a user clicked on the Load More button.
 
    ![react products](/help/c-experiences/assets/react4.png)
 
-   `[Insert Code Here]`
+  ```
+   function targetView(viewName) {
+     // Validate if the Target Libraries are available on your website
+     if (typeof adobe != 'undefined' && adobe.target && typeof adobe.target.triggerView === 'function') {
+       adobe.target.triggerView(viewName);
+     }
+   }
 
-   **Checkout**: `https://target.enablementadobe.com/react/demo/#/checkout`
+   class Products extends Component {
+     render() {
+       return (
+         <button type="button" onClick={this.handleLoadMoreClicked}>Load more</button>
+       );
+     }
 
-   Checkout: http://www.ashop.com/checkout
+     handleLoadMoreClicked() {
+       var page = this.state.page + 1; // assuming page number is derived from component’s state
+       this.setState({page: page});
+       targetView('PRODUCTS-PAGE-' + page);
+     }
+   }
+  ```
+
+   **Checkout**: https://target.enablementadobe.com/react/demo/#/checkout
 
    ![react checkout](/help/c-experiences/assets/react6.png)
 
@@ -115,7 +155,36 @@ Now that we have covered what Adobe Target Views are, we can leverage this conce
 
    Now, marketers might want to run an A/B test to see whether changing the color from blue to red when Express Delivery is selected can boost conversions as opposed to keeping the button color blue for both delivery options.  
 
-   `[INSERT CODE HERE]`
+  ```
+   function targetView(viewName) {
+     // Validate if the Target Libraries are available on your website
+     if (typeof adobe != 'undefined' && adobe.target && typeof adobe.target.triggerView === 'function') {
+       adobe.target.triggerView(viewName);
+     }
+   }
+
+   class Checkout extends Component {
+     render() {
+       return (
+         <div onChange={this.onDeliveryPreferenceChanged}>
+           <label>
+             <input type="radio" id="normal" name="deliveryPreference" value={"Normal Delivery"} defaultChecked={true}/>
+             <span> Normal Delivery (7-10 business days)</span>
+           </label>
+
+           <label>
+             <input type="radio" id="express" name="deliveryPreference" value={"Express Delivery"}/>
+             <span> Express Delivery* (2-3 business days)</span>
+           </label>
+         </div>
+       );
+     }
+     onDeliveryPreferenceChanged(evt) {
+       var selectedPreferenceValue = evt.target.value;
+       targetView(selectedPreferenceValue);
+     }
+   }
+  ```
 
 ## at.js 2.0 system diagrams
 

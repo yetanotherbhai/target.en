@@ -23,17 +23,17 @@ The Adobe Target VEC for SPAs takes advantage of a new concept called Views: a l
 
 To explain further about what Views are, let’s navigate this fake online e-commerce site implemented in React called AShop and explore some example Views.
 
-**Home Site**: `http://www.ashop.com/home`
+**Home Site**: https://target.enablementadobe.com/react/demo/#/
 
 ![home site](/help/c-experiences/assets/home.png)
 
-When we navigate to the home site of the AShop, we can immediately see a hero image that promotes an Easter sale as well as the newest products that AShop is selling on its site. In this case, a View can be defined as the entire home site. We can name this View as home just like the path name in `www.adobshop.com/home`. This is handy to note as we will expand on this more in the Implementing Adobe Target Views section below.
+When we navigate to the home site, we can immediately see a hero image that promotes an Easter sale as well as the newest products that AShop is selling on its site. In this case, a View can be defined as the entire home site. We can name this View as home just like the path name in `https://target-enablementabobe.com/home`. This is handy to note as we will expand on this more in the Implementing Adobe Target Views section below.
 
-**Product Site**: `http://www.ashop.com/products`
+**Product Site**: https://target.enablementadobe.com/react/demo/#/products
 
 ![product site](/help/c-experiences/assets/product-site.png)
 
-As we become more interested in the products that AShop is selling, we decide to click the Products link. Similar to the home site, the entirety of the products site can be defined as a View. We can name this View as products just like the path name in `www.adobshop.com/products`.
+As we become more interested in the products, we decide to click the Products link. Similar to the home site, the entirety of the products site can be defined as a View. We can name this View as products just like the path name in `https://www.target-enablementabobe.com/products`.
 
 ![product site 2](/help/c-experiences/assets/product-site-2.png)
 
@@ -43,15 +43,15 @@ In the beginning of this section, we defined Views as the whole site or even a g
 
 We decide to click on the Load More button to explore more products on the site. The website URL does not change in this case. But a View here can represent only the second row of products shown above. The View name can be called PRODUCTS-PAGE-2.
 
-**Checkout**: `http://www.ashop.com/checkout`
+**Checkout**: https://target.enablementadobe.com/react/demo/#/checkout
 
 ![check-out page](/help/c-experiences/assets/checkout.png)
 
-Because we liked some products shown in AShop, we decided to buy a couple. Now, on the checkout site we are given some options to choose normal delivery or express delivery. Because a View can be any group of visual elements on a site, we can name this View Delivery Preferences. 
+Because we liked some products shown on the site, we decided to buy a couple. Now, on the checkout site we are given some options to choose normal delivery or express delivery. Because a View can be any group of visual elements on a site, we can name this View Delivery Preferences. 
 
-Furthermore, the Views concept can be extended much further than this. If AShop wants to personalize content on the site depending on which delivery preference is selected, a View can be created for each delivery preference. In this case, when we select Normal Delivery, the View can be named Normal Delivery. If Express Delivery is selected, the View can be named Express Delivery. 
+Furthermore, the Views concept can be extended much further than this. If marketers want to personalize content on the site depending on which delivery preference is selected, a View can be created for each delivery preference. In this case, when we select Normal Delivery, the View can be named Normal Delivery. If Express Delivery is selected, the View can be named Express Delivery. 
 
-Now, AShop may want to run an A/B Test to see whether changing the color from blue to red when Express Delivery is selected can boost conversions as opposed to keeping the button color blue for both delivery options. 
+Now, marketers might want to run an A/B Test to see whether changing the color from blue to red when Express Delivery is selected can boost conversions as opposed to keeping the button color blue for both delivery options. 
 
 ## Implementing Adobe Target Views
 
@@ -69,7 +69,7 @@ Now that we have covered what Adobe Target Views are, we can leverage this conce
 
    After defining the Views of your SPA where you want to run an A/B or XT test, implement at.js 2.0’s `triggerView()` function with the Views passed in as a parameter. This allows marketers to use the VEC to design and run the A/B and XT tests for those Views defined. If the `triggerView()` function is not defined for those Views, the VEC will not detect the Views and thus marketers cannot use the VEC to design and run A/B and XT tests.
 
-   adobe.target.triggerView(viewName, options)
+   `adobe.target.triggerView(viewName, options)`
 
    |Parameter|Type|Required?|Validation|Description|
    | --- | --- | --- | --- | --- |
@@ -79,7 +79,7 @@ Now that we have covered what Adobe Target Views are, we can leverage this conce
 
    Now let’s go through some example use cases on how to invoke the `triggerView()` function in React for our hypothetical AShop e-commerce SPA:
 
-   **Home Site**: `http://www.ashop.com/home`
+   **Home Site**: https://target.enablementadobe.com/react/demo/#/
 
    ![home-react-1](/help/c-experiences/assets/react1.png)
 
@@ -87,7 +87,7 @@ Now that we have covered what Adobe Target Views are, we can leverage this conce
 
    ![home-react-3](/help/c-experiences/assets/react3.png)
 
-   As AShop marketers, if we want to run A/B tests on the whole home site, then we might want to name the view as home that can be extracted from the URL:
+   As marketers, if we want to run A/B tests on the whole home site, then we might want to name the view as home that can be extracted from the URL:
 
    ```
    function targetView() {
@@ -114,9 +114,9 @@ Now that we have covered what Adobe Target Views are, we can leverage this conce
    <Router history={hashHistory} onUpdate={targetView} >
    ```
 
-   **Products Site**: `http://www.ashop.com/products`
+   **Products Site**: https://target.enablementadobe.com/react/demo/#/products
 
-   Now, let’s look at an example that is a little bit more complicated. Let’s say as AShop marketers, we would like to personalize the second row of the products by changing the price label color to red after a user clicked on the Load More button.
+   Now, let’s look at an example that is a little bit more complicated. Let’s say as marketers, we would like to personalize the second row of the products by changing the price label color to red after a user clicked on the Load More button.
 
    ![react products](/help/c-experiences/assets/react4.png)
 
@@ -143,15 +143,13 @@ Now that we have covered what Adobe Target Views are, we can leverage this conce
    }
    ```
 
-   **Checkout**: `http://www.ashop.com/checkout`
-
-   ![react checkout](/Checkout: http://www.ashop.com/checkout)
+   **Checkout**: https://target.enablementadobe.com/react/demo/#/checkout
 
    ![react checkout](/help/c-experiences/assets/react6.png)
 
-   If AShop wants to personalize content on the site depending on which delivery preference is selected, a View can be created for each delivery preference. In this case, when we select Normal Delivery, the View can be named as Normal Delivery. If Express Delivery is selected, the View can be named as Express Delivery. 
+   If marketers want to personalize content on the site depending on which delivery preference is selected, a View can be created for each delivery preference. In this case, when we select Normal Delivery, the View can be named as Normal Delivery. If Express Delivery is selected, the View can be named as Express Delivery. 
 
-   Now, AShop might want to run an A/B test to see whether changing the color from blue to red when Express Delivery is selected can boost conversions as opposed to keeping the button color blue for both delivery options.  
+   Now, marketers might want to run an A/B test to see whether changing the color from blue to red when Express Delivery is selected can boost conversions as opposed to keeping the button color blue for both delivery options.  
 
    ```
    function targetView(viewName) {
@@ -183,7 +181,6 @@ Now that we have covered what Adobe Target Views are, we can leverage this conce
      }
    }
    ```
-
 
 1. Launch A/B or XT activities via the VEC.
 
