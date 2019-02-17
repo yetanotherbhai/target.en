@@ -211,8 +211,8 @@ Now that we have covered what Adobe Target Views are, we can leverage this conce
 
    Let’s refer to the example above where we created a Home view. Our goal is two-fold for this view:
 
-   * Change the Add to Cart and the Like button to a lighter blue color. This should be in a “Page Load” because we are changing components of the header.
-   * Change the "Latest Products for 2019" label to "Hottest Products for 2019" with the text color changed to purple.
+   1. Change the Add to Cart and the Like button to a lighter blue color. This should be in a “Page Load” because we are changing components of the header.
+   1.  Change the "Latest Products for 2019" label to "Hottest Products for 2019" with the text color changed to purple.
 
    To execute these goals, in the VEC, click [!UICONTROL Compose] and apply those changes on the Home view.
 
