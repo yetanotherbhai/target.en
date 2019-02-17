@@ -29,17 +29,17 @@ The Adobe Target VEC for SPAs takes advantage of a new concept called Views: a l
 
 To explain further about what Views are, let’s navigate this fake online e-commerce site implemented in React and explore some example Views.
 
-**Home Site**: <https://target.enablementadobe.com/react/demo/#/>
+**[Home Site](https://target.enablementadobe.com/react/demo/#/)**
 
 ![home site](/help/c-experiences/assets/home.png)
 
 When we navigate to the home site, we can immediately see a hero image that promotes an Easter sale as well as the newest products that is selling on the site. In this case, a View can be defined as the entire home site. We can name this View as home just like the path name in `www.adobshop.com/home`. This is handy to note as we will expand on this more in the Implementing Adobe Target Views section below.
 
-**Product Site**: <https://target.enablementadobe.com/react/demo/#/products>
+**[Product Site](https://target.enablementadobe.com/react/demo/#/products)**: <>
 
 ![product site](/help/c-experiences/assets/product-site.png)
 
-As we become more interested in the products that the business is selling, we decide to click the Products link. Similar to the home site, the entirety of the products site can be defined as a View. We can name this View as products just like the path name in <https://target.enablementadobe.com/react/demo/#/products>.
+As we become more interested in the products that the business is selling, we decide to click the Products link. Similar to the home site, the entirety of the products site can be defined as a View. We can name this View as products just like the path name in `https://target.enablementadobe.com/products`.
 
 ![product site 2](/help/c-experiences/assets/product-site-2.png)
 
@@ -49,7 +49,7 @@ In the beginning of this section, we defined Views as the whole site or even a g
 
 We decide to click on the Load More button to explore more products on the site. The website URL does not change in this case. But a View here can represent only the second row of products shown above. The View name can be called PRODUCTS-PAGE-2.
 
-**Checkout**: <https://target.enablementadobe.com/react/demo/#/checkout>
+**[Checkout](https://target.enablementadobe.com/react/demo/#/checkout)**
 
 ![check-out page](/help/c-experiences/assets/checkout.png)
 
@@ -85,7 +85,7 @@ Now that we have covered what Adobe Target Views are, we can leverage this conce
 
    Now let’s go through some example use cases on how to invoke the `triggerView()` function in React for our hypothetical  e-commerce SPA:
 
-   **Home Site**: <https://target.enablementadobe.com/react/demo/#/>
+   **[Home Site](https://target.enablementadobe.com/react/demo/#/)**
 
    ![home-react-1](/help/c-experiences/assets/react1.png)
 
@@ -116,7 +116,7 @@ Now that we have covered what Adobe Target Views are, we can leverage this conce
    <Router history={hashHistory} onUpdate={targetView} >
   ```
 
-   **Products Site**: <https://target.enablementadobe.com/react/demo/#/products>
+   **[Products Site](https://target.enablementadobe.com/react/demo/#/products)**
 
    Now, let’s look at an example that is a little bit more complicated. Let’s say as marketers, we would like to personalize the second row of the products by changing the price label color to red after a user clicked on the Load More button.
 
@@ -145,7 +145,7 @@ Now that we have covered what Adobe Target Views are, we can leverage this conce
    }
   ```
 
-   **Checkout**: <https://target.enablementadobe.com/react/demo/#/checkout>
+   **[Checkout](https://target.enablementadobe.com/react/demo/#/checkout)**
 
    ![react checkout](/help/c-experiences/assets/react6.png)
 
