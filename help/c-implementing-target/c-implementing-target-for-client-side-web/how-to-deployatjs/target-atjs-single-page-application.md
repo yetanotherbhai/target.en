@@ -69,7 +69,7 @@ Now that we have covered what Adobe Target Views are, we can leverage this conce
 
    ![Implementations Details dialog box](/help/c-experiences/assets/implement-atjs-2.png)
 
-   Download at.js 2.0.0 via the Adobe Target UI located in [!UICONTROL Setup > Implementation]. at.js 2.0.0 can also be deployed via [Adobe Launch](help/c-target-mobile-app/c-mobile-visual-experience-composer/use-adobe-launch-to-set-up-the-mobile-app-vec.md). However, the Adobe Target Extensions are currently not up to date and supported.
+   Download at.js 2.0.0 via the Adobe Target UI located in [!UICONTROL Setup > Implementation]. at.js 2.0.0 can also be deployed via [Adobe Launch](/help/c-target-mobile-app/c-mobile-visual-experience-composer/use-adobe-launch-to-set-up-the-mobile-app-vec.md). However, the Adobe Target Extensions are currently not up to date and supported.
 
 1. Implement at.js 2.0.0’s newest function, `triggerView()` on your sites.
 
