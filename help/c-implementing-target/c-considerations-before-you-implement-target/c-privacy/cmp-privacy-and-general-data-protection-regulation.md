@@ -51,7 +51,7 @@ window.targetGlobalSettings = {
 
 >[!NOTE]
 >
->Opt-in functionality is supported in at.js version 1.7 but currently not supported in at.js version 2.0.
+>Opt-in functionality is supported in at.js version 1.7.0 but currently not supported in at.js version 2.0.0.
 >
 >Using Adobe Launch to manage opt-in is the recommended approach. Further granular control exists in Adobe Launch to hide selected elements of your page prior to Target firing that are helpful to leverage as part of your consent strategy.
 

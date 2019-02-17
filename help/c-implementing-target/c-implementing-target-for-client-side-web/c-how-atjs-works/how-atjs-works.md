@@ -1,8 +1,8 @@
 ---
 description: Target system diagram showing the flow of calls and information sent or collected for an auto-created global mbox using at.js.
 keywords: system diagram;flicker;Target Standard;at.js;implementation
-seo-description: Target system diagram showing the flow of calls and information sent or collected for an auto-created global mbox using at.js.
-seo-title: How at.js works
+seo-description: Adobe Target system diagram showing the flow of calls and information sent or collected for an auto-created global mbox using at.js.
+seo-title: How Adobe Target at.js works
 solution: Target
 title: How at.js works
 topic: Standard
@@ -13,20 +13,18 @@ uuid: 8ed04881-3dd9-496f-9c9c-feb9c740ed80
 
 In the [!DNL Target] implementation illustrated below, the following [!DNL Adobe Experience Cloud] solutions are implemented: Analytics, Target, and Audience Management. In addition, the following Experience Cloud core services are implemented: Dynamic Tag Management (Activation), Audiences, and Visitor ID Service.
 
-In the Target implementation illustrated below, the following Experience Cloud solutions are implemented: Analytics, Target, and Audience Management. In addition, the following Experience Cloud core services are implemented: Dynamic Tag Management (Activation), Audiences, and Visitor ID Service.
+## What is the difference between At.js 1.*x* and At.js 2.0.0 workflow diagrams?
 
-## What is the difference between At.js 1.*x* and At.js 2.0 workflow diagrams?
-
-See [Upgrading from at.js 1.x to at.js 2.0](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md) for more information on the differences that were introduced in 2.O from 1.*x*.
+See [Upgrading from at.js 1.x to at.js 2.0.0](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md) for more information on the differences that were introduced in 2.O from 1.*x*.
 
 From a high level view, there are a couple of differences between the two versions:
 
-* at.js 2.0 does not have a global mbox request concept but rather a page-load request. A page-load request can be viewed as a request to retrieve content that should be applied on the initial page load of your website.
-* at.js 2.0 manages concepts of Views that are use for Single Page Applications (SPAs). at.js 1.*x* is not aware of this concept.
+* at.js 2.0.0 does not have a global mbox request concept but rather a page-load request. A page-load request can be viewed as a request to retrieve content that should be applied on the initial page load of your website.
+* at.js 2.0.0 manages concepts of Views that are use for Single Page Applications (SPAs). at.js 1.*x* is not aware of this concept.
 
-## at.js 2.0 diagrams
+## at.js 2.0.0 diagrams
 
-The following diagrams help you understand the workflow of at.js 2.0 with Views and how this enhances the SPA integration. To get a better introduction of the concepts used in at.js 2.0, see [Single Page Application implementation](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md).
+The following diagrams help you understand the workflow of at.js 2.0.0 with Views and how this enhances the SPA integration. To get a better introduction of the concepts used in at.js 2.0.0, see [Single Page Application implementation](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md).
 
 ![Target flow with at.js 2.0](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/system-diagram-atjs-20.png)
 
@@ -41,7 +39,7 @@ The following diagrams help you understand the workflow of at.js 2.0 with Views 
 |7|Analytics data is sent to Data Collection servers.|
 |8|Targeted data is matched to Analytics data via the SDID and is processed into the Analytics reporting storage.<br>Analytics data can then be viewed in both Analytics and Target via Analytics for Target (A4T) reports.|
 
-Now, wherever `triggerView()` is implemented on your SPA, the Views and actions are retrieved from cache and shown to the user without a server call. `triggerView()` also makes a notifications request to the [!DNL Target] backend in order to increment and record impression counts. For more information on At.js for SPAs with Views, please see the following documentation: `[INSERT LINK TO SINGLE PAGE APPLICATION IMPLEMENTATION]`
+Now, wherever `triggerView()` is implemented on your SPA, the Views and actions are retrieved from cache and shown to the user without a server call. `triggerView()` also makes a notifications request to the [!DNL Target] backend in order to increment and record impression counts. For more information on at.js for SPAs with Views, see [Single Page Application implementation](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md).
 
 ![Target flow at.js 2.0 triggerView](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/atjs-20-triggerview.png)
 

@@ -1,8 +1,8 @@
 ---
 description: Information about how the Target at.js JavaScript library prevents flicker during page or app load.
 keywords: flicker;Target Standard;at.js;implementation
-seo-description: Information about how the Target at.js JavaScript library prevents flicker during page or app load.
-seo-title: How at.js manages flicker
+seo-description: Information about how the Adobe Target at.js JavaScript library prevents flicker during page or app load.
+seo-title: How Adobe Target at.js manages flicker
 solution: Target
 title: How at.js manages flicker
 topic: Standard
@@ -27,7 +27,7 @@ If opacity 0 does not work in your implementation, you can also manage flicker b
 
 The following illustration shows the Hide Body and Show Body calls in both at.js 1.*x* and at.js 2.0.
 
-**at.js 2.0**
+**at.js 2.0.0**
 
 ![Target flow: at.js page load request](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/atjs-20-flow-page-load-request.png)
 
@@ -99,13 +99,13 @@ Instead of the default:
 body {opacity: 0 !important}
 ```
 
-## Managing Flicker in At.js 2.0 for triggerView()
+## Managing Flicker in At.js 2.0.0 for triggerView()
 
-When using `triggerView()` to show targeted content in your SPA, flicker management is provided out of the box. This means that pre-hiding logic does not need to be added manually. Instead, at.js 2.0 pre-hides the location where your view needs to be shown before applying the targeted content.
+When using `triggerView()` to show targeted content in your SPA, flicker management is provided out of the box. This means that pre-hiding logic does not need to be added manually. Instead, at.js 2.0.0 pre-hides the location where your view needs to be shown before applying the targeted content.
 
 ## Managing Flicker with getOffer() and applyOffer()
 
-Because both `getOffer()` and `applyOffer()` are low-level APIs, there is no built-in flicker control. You can pass a selector or HTML element as an option to `a`pplyOffer()`, in this case `applyOffer()` adds the activity content to this particular element; however, you must make sure the element is properly pre-hidden before invoking `getOffer()` and `applyOffer()`.
+Because both `getOffer()` and `applyOffer()` are low-level APIs, there is no built-in flicker control. You can pass a selector or HTML element as an option to `applyOffer()`, in this case `applyOffer()` adds the activity content to this particular element; however, you must make sure the element is properly pre-hidden before invoking `getOffer()` and `applyOffer()`.
 
 ```
 document.documentElement.style.opacity = "0";
@@ -126,7 +126,7 @@ adobe.target.getOffer({
 });
 ```
 
-## Using a regional mbox with mboxCreate() in At.js 1.x (not supported in 2.0)
+## Using a regional mbox with mboxCreate() in At.js 1.x (not supported in at.js 2.0.0)
 
 If you use a regional mbox implementation, you can use `mboxCreate()` with your page provisioned similar to the following sample code:
 

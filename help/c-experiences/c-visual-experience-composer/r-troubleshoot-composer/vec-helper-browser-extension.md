@@ -42,7 +42,7 @@ Benefits of using the VEC Helper extension include the following:
 
   Be aware that this flag is a global setting. The flag is enabled or disabled for all websites opened in the VEC. So, for example, if you set this flag to ON and open a website that is already implemented with at.js, you'll receive a message informing you that at.js is already loaded. We anticipate that most customers will already have at.js implemented on their pages and will use the default setting of OFF.
 
-* The extension loads the latest version of at.js that is available from the [!DNL Target UI] io [UICONTROL Setup > Implementation].
+* The extension loads the latest version of at.js that is available from the [!DNL Target UI] in [UICONTROL Setup > Implementation].
 * When using the extension to inject at.js while in [QA Mode](/help/c-activities/c-activity-qa/activity-qa.md), you must have another Chrome tab open. This Chrome tab must be authenticated to the same [!DNL Adobe Experience Cloud] Organization in which you created the activity.
 * The following messages help keep you informed:
 

@@ -1,27 +1,27 @@
 ---
-description: Upgrading from at.js 1.x to at.js 2.0
+description: Upgrading from at.js 1.x to at.js 2.0.0
 keywords: at.js releases;at.js versions;single page app; spa
-seo-description: Detailed informatation about how to upgrade from Adobe Target at.js 1.x to at.js version 2.0
-seo-title: Upgrade from Adobe Target at.js version 1.x to at.js version 2.0 
+seo-description: Detailed information about how to upgrade from Adobe Target at.js 1.x to at.js version 2.0.0
+seo-title: Upgrade from Adobe Target at.js version 1.x to at.js version 2.0.0 
 solution: Target
 subtopic: Getting Started
 title: Upgrading from at.js 1.x to at.js 2.0
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 ---
 
-# Upgrading from at.js 1.x to at.js 2.0
+# Upgrading from at.js 1.x to at.js 2.0.0 {#upgrading-from-atjs-1x-to-atjs-200}
 
-The newest version of at.js provides rich feature sets that equip your business to execute personalization on next generation client-side technologies. This new version is focused on upgrading at.js to have harmonious interactions with single page applications (SPAs). 
+The newest version of at.js provides rich feature sets that equip your business to execute personalization on next-generation, client-side technologies. This new version is focused on upgrading at.js to have harmonious interactions with single page applications (SPAs). 
 
-Here are some benefits of using at.js 2.0 that are not available in previous versions:
+Here are some benefits of using at.js 2.0.0 that are not available in previous versions:
 
-* The ability to cache all offers on page load to reduce multiple server calls to a single server call.
-* Tremendously improve your end-user’s experience on your site because offers are shown immediately via the cache without any lag time that traditional server calls introduce.
-* Simple one-line of code and one-time developer setup to enable your marketers to create and run A/B and XT activities via the Visual Experience Composer (VEC) on your single page application.
+* The ability to cache all offers on page-load to reduce multiple server calls to a single server call.
+* Tremendously improve your end-users' experiences on your site because offers are shown immediately via the cache without any lag time that traditional server calls introduce.
+* Simple one-line of code and one-time developer setup to enable your marketers to create and run A/B and XT activities via the VEC on your SPAs.
 
 ## at.js 2.0 system diagrams
 
-The following diagrams help you understand the workflow of at.js 2.0 with Views and how this enhances the SPA integration. To get a better introduction of the concepts used in at.js 2.0, see [Single Page Application implementation](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md).
+The following diagrams help you understand the workflow of at.js 2.0.0 with Views and how this enhances the SPA integration. To get a better introduction of the concepts used in at.js 2.0.0, see [Single Page Application implementation](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md).
 
 ![Target flow with at.js 2.0](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/system-diagram-atjs-20.png)
 
@@ -49,24 +49,28 @@ Now, wherever `triggerView()` is implemented on your SPA, the Views and actions 
 |5|Analytics data sent to Data Collection Servers.|
 |6|Target data is matched to Analytics data via the SDID and is processed into the Analytics reporting storage. Analytics data can then be viewed in both Analytics and Target via A4T reports.|
 
-## Deploy at.js 2.0
+## Deploy at.js 2.0.0 {#deploy-atjs-200}
 
-1. Download at.js 2.0 using the Target UI.
+1. Download at.js 2.0.0 using the Target UI.
 
    ![Implementation details dialog box](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/download-atjs-20.png)
 
 >[!NOTE]
 >
->Installing at.js 2.0 via [!DNL Adobe Launch] extension is not yet supported.
+>Installing at.js 2.0 via the [Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) extension is not yet supported.
 
 ## Deprecated at.js functions
 
-There are several functions that have been deprecated in the new 2.0 version. If these deprecated functions are still used on your site when at.js 2.0 is deployed, you will see console warnings. The recommended approach when upgrading is to test the deployment of at.js 2.0 in a staging environment and make sure to go through each and every warning that has been logged in the console and translate the deprecated functions to new functions introduced in at.js 2.0. 
+There are several functions that have been deprecated in at.js 2.0.0. 
+
+>[!IMPORTANT]
+>
+>If these deprecated functions are still used on your site when at.js 2.0.0 is deployed, you will see console warnings. The recommended approach when upgrading is to test the deployment of at.js 2.0.0 in a staging environment and make sure to go through each and every warning that has been logged in the console and translate the deprecated functions to new functions introduced in at.js 2.0. 
 
 You can find the deprecated functions and their counterpart below. For a complete list of functions, see [at.js functions](/help/c-implementing-target/c-implementing-target-for-client-side-web/cmp-at.js-functions.md).
 
 >[!NOTE]
->At.js 2.0 no longer automatically pre-hides `mboxDefault` marked elements. Customers will therefore have to accommodate for the pre-hide logic manually on the site or through a tag manager.
+>At.js 2.0.0 no longer automatically pre-hides `mboxDefault` marked elements. Customers will therefore have to accommodate for the pre-hide logic manually on the site or through a tag manager.
 
 ### mboxCreate(mbox,params)
 
@@ -85,7 +89,7 @@ Executes a request and applies the offer to the closest DIV with the `mboxDefaul
 </script>
 ```
 
-**at.js 2.0 equivalent**
+**at.js 2.0.0 equivalent**
 
 An alternative to `mboxCreate(mbox, params)` is `getOffer()` and `applyOffer()`.
 
@@ -134,7 +138,7 @@ Creates an internal mapping between an element and an mbox name, but does not ex
 </script>
 ```
 
-**AT.js 2.0 equivalent**:
+**AT.js 2.0.0 equivalent**:
 
 An alternative to `mboxDefine()` and `mboxUpdate` is `getOffer()` and `applyOffer()`, with the selector option used in `applyOffer()`. This approach lets you map the offer to an element using any CSS selector, not just one with an ID.
 
@@ -208,21 +212,23 @@ Customers using `mboxCreate()` for conversion tracking must use `trackEvent()` o
 
 Customers who do not replace `mboxCreate()` with `getOffer()` or `applyOffer()` risk not having offers delivered.
 
-**Can at.js 2.0 be used on some pages while at.js 1.*x* or mbox.js is on other pages?**
+**Can at.js 2.0.0 be used on some pages while at.js 1.*x* or mbox.js is on other pages?**
 
 Yes, the visitor profile is preserved across pages using different versions and libraries. The cookie format is the same.
 
-**Adobe Experience Cloud Debugger is no fully supported in at.js 2.0**
+**Adobe Experience Cloud Debugger is not fully supported in at.js 2.0.0**
 
-[!DNL Adobe Experience Cloud Debugger] [!UICONROL Summary Tab] features and [!UICONTROL Disable and Console Logging] tools are supported, but Network Requests and mboxTrace are not supported for at.js 2.0. This is because in at.js 2.0 a JSON payload is sent instead of key-value pairs. To inspect [!DNL Target] requests, filter the [!UICONTROL Network] tab of your browser’s Developer Tools to “delivery”, “`tt.omtrdc.net`,” or your client code. Trace data can still be inspected by using the query string parameter and authorization token. For more information, see [mboxTrace](/help/c-activities/c-troubleshooting-activities/content-trouble.md).
+[!DNL Adobe Experience Cloud Debugger] [!UICONROL Summary Tab] features and [!UICONTROL Disable and Console Logging] tools are supported, but Network Requests and mboxTrace are not supported for at.js 2.0.0. 
 
-**New API use in at.js 2.0**
+This is because in at.js 2.0.0, a JSON payload is sent instead of key-value pairs. To inspect [!DNL Target] requests, filter the [!UICONTROL Network] tab of your browser’s Developer Tools to “delivery”, “`tt.omtrdc.net`,” or your client code. Trace data can still be inspected by using the query string parameter and authorization token. For more information, see [mboxTrace](/help/c-activities/c-troubleshooting-activities/content-trouble.md).
 
-at.js 2.0 uses a new API, which we call the Delivery API. In order to debug whether at.js is calling the [!DNL Target] edge server correctly, you can filter the Network tab of your browser’s Developer Tools to “delivery”, “`tt.omtrdc.net`,” or your client code. You will also notice that [!DNL Target] sends a JSON payload instead of key-value pairs.
+**New API use in at.js 2.0.0**
+
+at.js 2.0.0 uses a new API, which we call the Delivery API. In order to debug whether at.js is calling the [!DNL Target] edge server correctly, you can filter the Network tab of your browser’s Developer Tools to “delivery”, “`tt.omtrdc.net`,” or your client code. You will also notice that [!DNL Target] sends a JSON payload instead of key-value pairs.
 
 **Target Global Mbox is no longer used**
 
-In at.js 2.0, you no longer see “`target-global-mbox`” visibly in the network calls. Instead, we have replaced the “`target-global-mbox`” syntax to “`execute > pageLoad`” in the JSON payload sent to the [!DNL Target] servers, as seen below:
+In at.js 2.0.0, you no longer see “`target-global-mbox`” visibly in the network calls. Instead, we have replaced the “`target-global-mbox`” syntax to “`execute > pageLoad`” in the JSON payload sent to the [!DNL Target] servers, as seen below:
 
 ```
 {
@@ -239,7 +245,7 @@ In at.js 2.0, you no longer see “`target-global-mbox`” visibly in the networ
 }
 ```
 
-Essentially the global mbox concept was introduced to let [!DNL Target] know whether to retrieve offers and content on page load. Thus, we have made this more explicit in our newest version.
+Essentially the global mbox concept was introduced to let [!DNL Target] know whether to retrieve offers and content on page-load. Thus, we have made this more explicit in our newest version.
 
 **Does the global mbox name in at.js matter anymore?**
 
@@ -251,11 +257,11 @@ and
 
 ![Custom Global mbox](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/custom-global-mbox.png)
 
-**Does the auto-create global mbox setting need to be turned on for at.js 2.0?**
+**Does the auto-create global mbox setting need to be turned on for at.js 2.0.0?**
 
-In most cases, yes. This setting tells at.js 2.0 to fire a request to the [!DNL Target] edge servers upon page load. Because global mbox is translated to execute > pageLoad, and if you want to fire a request on page load, then this setting should be on.
+In most cases, yes. This setting tells at.js 2.0.0 to fire a request to the [!DNL Target] edge servers upon page load. Because global mbox is translated to execute > pageLoad, and if you want to fire a request on page load, then this setting should be on.
 
-**Will existing VEC activities continue to work, even though the target global mbox name is not specified from at.js 2.0?**
+**Will existing VEC activities continue to work, even though the target global mbox name is not specified from at.js 2.0.0?**
 
 Yes, because execute > pageLoad is treated on the [!DNL Target] backend like `target-global-mbox`.
 
@@ -263,7 +269,7 @@ Yes, because execute > pageLoad is treated on the [!DNL Target] backend like `ta
 
 Yes, because execute > pageLoad is treated on the [!DNL Target] edge servers like `target-global-mbox`.
 
-**Supported and non-supported at.js 2.0 Settings**
+**Supported and non-supported at.js 2.0.0 Settings**
 
 |Setting|Supported?|
 | --- | --- |
@@ -277,11 +283,11 @@ Cross-domain tracking makes it possible to see sessions on two-related sites, bu
 
 In [!DNL Target], the third-party cookie is stored in `[CLIENTCODE].tt.omtrdc.net` and the first-party cookie is stored in `clientdomain.com`. The first request returns HTTP response headers that attempt to set third-party cookies named `mboxSession` and `mboxPC`, whereas a redirect request is sent back with an extra parameter (`mboxXDomainCheck=true`). If the browser accepts third-party cookies, the redirect request includes those cookies, and the offer is returned. This workflow is possible because we use the HTTP GET method.
 
-However, in at.js 2.0, HTTP GET is no longer used and instead we use HTTP POST. HTTP POST is now used via at.js in order to send JSON payloads to [!DNL Target] edge servers. This means that the redirect request to check whether a browser supports third-party cookies now breaks. This is because HTTP GET requests are idempotent transactions, while HTTP POST is non-idempotent and mustn’t be arbitrarily repeated. Therefore, cross-domain tracking in at.js 2.0 is no longer supported.
+However, in at.js 2.0.0, HTTP GET is no longer used and instead we use HTTP POST. HTTP POST is now used via at.js in order to send JSON payloads to [!DNL Target] edge servers. This means that the redirect request to check whether a browser supports third-party cookies now breaks. This is because HTTP GET requests are idempotent transactions, while HTTP POST is non-idempotent and mustn’t be arbitrarily repeated. Therefore, cross-domain tracking in at.js 2.0.0 is no longer supported.
 
 **Auto Create Global Mbox is supported**
 
-This setting tells at.js 2.0 to fire a request to the [!DNL Target] edge servers on page load. Because the global mbox is translated to execute > pageLoad, and this is interpreted by the [!DNL Target] edge servers, customers should turn this on if they want to fire a request on page load.
+This setting tells at.js 2.0.0 to fire a request to the [!DNL Target] edge servers on page-load. Because the global mbox is translated to execute > pageLoad, and this is interpreted by the [!DNL Target] edge servers, customers should turn this on if they want to fire a request on page-load.
 
 **Global Mbox Name is supported**
 
@@ -302,11 +308,11 @@ When a prefetch call is made to the [!DNL Target] backend, the profile scripts a
 
 **Do we need to add pre-hiding code before calling `triggerView()` in order to manage flicker?**
 
-No, you do not need to add pre-hiding code before calling `triggerView()`. at.js 2.0 manages the pre-hiding and flicker logic before the view is displayed and applied.
+No, you do not need to add pre-hiding code before calling `triggerView()`. at.js 2.0.0 manages the pre-hiding and flicker logic before the view is displayed and applied.
 
 ## at.js compatibility
 
-The following tables explain at.js compatibility with different activity types, integrations, features, and at.js functions.
+The following tables explain at.js. 2.0.0 compatibility with different activity types, integrations, features, and at.js functions.
 
 ### Activity types
 
@@ -329,7 +335,7 @@ The following tables explain at.js compatibility with different activity types, 
 |Customer Attributes|Yes|
 |AEM Experience Fragments|Yes|
 |Adobe Launch extension|Not currently|
-|Debugger|currently no request capture or mboxTrace|
+|Debugger|Currently no request capture or mboxTrace|
 |Auditor|Rules have not yet been updated for at.js 2.0|
 |Dynamic Tag Manager (DTM)|Yes|
 |Opt-In| No |

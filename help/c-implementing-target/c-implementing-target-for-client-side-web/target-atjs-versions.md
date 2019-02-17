@@ -17,29 +17,45 @@ Details about changes in each version of at.js.
 >
 >The Target team maintains only two versions of [!DNL at.js]—the current version and the second-latest version. Please upgrade [!DNL at.js] as necessary to ensure that you are running a supported version.
 
-## at.js Version 2.0.0 {#at-js-20}
+## at.js Version 2.0.0 {#at-js-200}
 
-at.js 2.0 provides rich feature sets that equip your business to execute personalization on next generation client-side technologies. This new version is focused on upgrading at.js to have harmonious interactions with single page applications (SPAs).
+at.js 2.0.0 provides rich feature sets that equip your business to execute personalization on next generation client-side technologies. This new version is focused on upgrading at.js to have harmonious interactions with single page applications (SPAs).
 
-Here are some benefits of using at.js 2.0 that are not available in previous versions:
+Here are some benefits of using at.js 2.0.0 that are not available in previous versions:
 
 * The ability to cache all offers on page load to reduce multiple server calls to a single server call.
-* Tremendously improve your end-user’s experience on your site because offers are shown immediately via the cache without any lag time that traditional server calls introduce.
-* Simple one-line of code and one-time developer setup to enable your marketers to create and run A/B and Experience (XT) activities via the Visual Experience Composer (VEC) on your single page application.
+* Tremendously improve your end-users' experiences on your site because offers are shown immediately via the cache without any lag time that traditional server calls introduce.
+* Simple one-line of code and one-time developer setup to enable your marketers to create and run A/B and Experience (XT) activities via the Visual Experience Composer (VEC) on your single page applications.
+
+at.js 2.0.0 introduces the following new functions:
+
+* getOffers()
+* applyOffers()
+* triggerView()
+
+The following functions have been deprecated with the introduction of at.js 2.0.0:
+
+* mboxCreate()
+* mboxDefine
+* registerExtension()
+
+For more information, see [Upgrading from at.js 1.x to at.js 2.0.0](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md) and [at.js functions](/help/c-implementing-target/c-implementing-target-for-client-side-web/cmp-at.js-functions.md).
 
 >[!NOTE]
 >
->at.js 2.0.0 does not yet include Adobe Opt-in support introduced in at.js 1.7.0.
+>If you require Adobe Opt-in support for the [General Data Protection Regulation](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) (GDPR), you must currently use at.js 1.7.0. Opt-in support is not currently supported in at.js 2.0.0.
 
-For more information, see [Upgrading from at.js 1.x to at.js 2.0](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md).
+## at.js Version 1.7.0 {#at-js-170}
 
-## at.js Version 1.7.0 {#at-js-17}
-
-This release brings Adobe Opt-In support. Adobe Opt-In is a way to simplify Adobe solutions integrations with consent management platforms.
+at.js 1.7.0 brings Adobe Opt-In support. Adobe Opt-In is a way to simplify Adobe solutions integrations with consent management platforms.
 
 For more information about Adobe Opt-in, see [Privacy and General Data Protection Regulation](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) (GDPR).
 
 This release also fixes an issue where Target might override redirect URL parameters with parameters that are coming from the redirect URL.
+
+>[! NOTE]
+>
+>If you require Adobe Opt-in support for GDPR, you must currently use at.js 1.7.0. Opt-in support is not currently supported in at.js 2.0.0.<br>For a list of all versions, see [at.js version details](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
 
 ## at.js Version 1.6.4 {#at-js-164}
 
