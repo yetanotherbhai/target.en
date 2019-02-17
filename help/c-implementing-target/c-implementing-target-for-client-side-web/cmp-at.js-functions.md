@@ -2,18 +2,18 @@
 description: List of functions that can be used with at.js.
 keywords: adobe.target.notification;element;selector;notification;extension
 seo-description: List of functions that can be used with the at.js JavaScript library in Adobe Target.
-seo-title: at.js functions
+seo-title: Adobe Target at.js functions
 solution: Target
 subtopic: Getting Started
 title: at.js functions
 topic: Standard
 uuid: ec5f27a7-b22a-48c9-968c-9eb02830a2a6
-minitoc-levels: 1
+minitoc-levels: 1 
 ---
 
 # at.js functions{#at-js-functions}
 
-List of functions that can be used with at.js.
+List of functions that can be used with the Adobe Target at.js JavaScript library.
 
 ## adobe.target.getOffer(options) {#reference_C81525D1598A4A1199740DCAB81A7FDF}
 
@@ -133,7 +133,7 @@ The "status" and "error" parameters passed to the error callback will have the f
 |status|String|Represents the error status. This parameter can have the following values:<ul><li>timeout: Indicates that the request timed out.</li><li>parseerror: Indicates that the response could not be parsed, for example if we receive HTML or plain text instead of JSON.</li><li>error: Indicates a general error like we received HTTP status different from 200 OK</li></ul>|
 |error|String|Contains additional data like exception message or anything else that might be useful for troubleshooting.|
 
-## adobe.target.getOffers(options) - at.js 2.0 {#adobe-target-getOffers}
+## adobe.target.getOffers(options) - at.js 2.0.0 {#adobe-target-getOffers}
 
 This function lets you retrieve multiple offers by passing in multiple mboxes. Additionally, multiple offers can be retrieved for all views in active activities.
 
@@ -281,7 +281,7 @@ adobe.target.getOffer({
 }); 
 ```
 
-## adobe.target.applyOffers(options) - at.js 2.0 {#adobe-target-applyOffers}
+## adobe.target.applyOffers(options) - at.js 2.0.0 {#adobe-target-applyOffers}
 
 This function lets you apply more than one offer that was retrieved by `adobe.target.getOffers()`.
 
@@ -382,7 +382,7 @@ adobe.target.getOffers({...})
 .catch(error => console.log("Error", error));
 ```
 
-## adobe.target.triggerView (viewName, options) - at.js 2.0 {#adobe-target-triggerView}
+## adobe.target.triggerView (viewName, options) - at.js 2.0.0 {#adobe-target-triggerView}
 
 This function can be called whenever a new page is loaded or when a component on a page is re-rendered. `adobe.target.triggerView()` should be implemented for single page applications (SPAs) in order to use the Visual Experience Composer (VEC) to create A/B Tests and Experience Targeting (XT) activities. If `adobe.target.triggerView()` is not implemented on the site, the VEC cannot be utilized for SPA. For more information, see [Single Page Application implementation](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md).
 
