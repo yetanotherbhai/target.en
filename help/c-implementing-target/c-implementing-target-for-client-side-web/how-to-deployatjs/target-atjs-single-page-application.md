@@ -91,7 +91,7 @@ Now that we have covered what Adobe Target Views are, we can leverage this conce
 
    As marketers, if we want to run A/B tests on the whole home site, then we might want to name the view as home:
 
-     ```
+  ```
    function targetView() {
      var viewName = window.location.hash; // or use window.location.pathName if router works on path and not hash
 
@@ -114,7 +114,7 @@ Now that we have covered what Adobe Target Views are, we can leverage this conce
 
    // react router v3
    <Router history={hashHistory} onUpdate={targetView} >
-   ```
+  ```
 
    **Products Site**: https://target.enablementadobe.com/react/demo/#/products
 
@@ -122,7 +122,7 @@ Now that we have covered what Adobe Target Views are, we can leverage this conce
 
    ![react products](/help/c-experiences/assets/react4.png)
 
-   ```
+  ```
    function targetView(viewName) {
      // Validate if the Target Libraries are available on your website
      if (typeof adobe != 'undefined' && adobe.target && typeof adobe.target.triggerView === 'function') {
@@ -143,7 +143,7 @@ Now that we have covered what Adobe Target Views are, we can leverage this conce
        targetView('PRODUCTS-PAGE-' + page);
      }
    }
-   ```
+  ```
 
    **Checkout**: https://target.enablementadobe.com/react/demo/#/checkout
 
@@ -155,7 +155,7 @@ Now that we have covered what Adobe Target Views are, we can leverage this conce
 
    Now, marketers might want to run an A/B test to see whether changing the color from blue to red when Express Delivery is selected can boost conversions as opposed to keeping the button color blue for both delivery options.  
 
-   ```
+  ```
    function targetView(viewName) {
      // Validate if the Target Libraries are available on your website
      if (typeof adobe != 'undefined' && adobe.target && typeof adobe.target.triggerView === 'function') {
@@ -184,7 +184,7 @@ Now that we have covered what Adobe Target Views are, we can leverage this conce
        targetView(selectedPreferenceValue);
      }
    }
-   ```
+  ```
 
 ## at.js 2.0 system diagrams
 
