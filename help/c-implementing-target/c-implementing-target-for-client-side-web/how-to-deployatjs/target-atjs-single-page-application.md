@@ -15,7 +15,7 @@ Traditional websites worked on "Page-to-Page" navigation models, otherwise known
 
 ![Traditional page lifecycle vs. SPA lifecycle](/help/c-experiences/assets/trad-vs-spa.png)
 
-The newest version of at.js 2.0.0 provides rich features that equip your business to execute personalization on next-generation, client-side technologies. This version is focused on improving at.js to have harmonious interactions with SAPs. 
+at.js 2.0.0 provides rich features that equip your business to execute personalization on next-generation, client-side technologies. This version is focused on improving at.js to have harmonious interactions with SPAs. 
 
 Here are some benefits to using at.js 2.0.0 that are not available in previous versions:
 
@@ -184,13 +184,13 @@ Now that we have covered what Adobe Target Views are, we can leverage this conce
    }
   ```
 
-## at.js 2.0 system diagrams
+## at.js 2.0.0 system diagrams
 
 The following diagrams help you understand the workflow of at.js 2.0.0 with Views and how this enhances the SPA integration. To get a better introduction of the concepts used in at.js 2.0.0, see [Single Page Application implementation](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md).
 
 ![Target flow with at.js 2.0](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/system-diagram-atjs-20.png)
 
-|Call|Details|
+|Step|Details|
 | --- | --- |
 |1|Call returns the [!DNL Experience Cloud ID] if the user is authenticated; another call syncs the customer ID.|
 |2|The at.js library loads synchronously and hides the document body.<br>at.js can also be loaded asynchronously with an option prehiding snippet implemented on the page.|
@@ -205,7 +205,7 @@ Now, wherever `triggerView()` is implemented on your SPA, the Views and actions 
 
 ![Target flow at.js 2.0 triggerView](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/atjs-20-triggerview.png)
 
-|Call|Details|
+|Step|Details|
 | --- | --- |
 |1|`triggerView()` is called in the SPA to render the View and apply actions to modify visual elements.|
 |2|Targeted content for the view is read from the cache.|
@@ -217,3 +217,25 @@ Now, wherever `triggerView()` is implemented on your SPA, the Views and actions 
 ## Single Page App Visual Experience Composer
 
 After you have completed installing at.js 2.0.0 and adding `triggerView()` to your site, use the VEC to run A/B and XT activities. For more information, see [Single Page App (SPA) Visual Experience Composer](/help/c-experiences/spa-visual-experience-composer.md).
+
+## Training videos
+
+The following videos contain more information:
+
+### Understanding how at.js 2.0.0 works
+
+>[!VIDEO](https://video.tv.adobe.com/v/26250)
+
+See [Understanding how at.js 2.0.0 works](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) for more information.
+
+### Implement at.js 2.0.0 in a SPA
+
+>[!VIDEO](https://video.tv.adobe.com/v/26248)
+
+See [Implement Adobe Target's at.js 2.0 in a Single Page Application (SPA)](https://helpx.adobe.com/target/kt/using/atjs2-single-page-application-technical-video-implement.html) for more information.
+
+### Using the VEC for SPAs in Adobe Target
+
+>[!VIDEO](https://video.tv.adobe.com/v/26249)
+
+See [Using the Visual Experience Composer for Single Page Application (SPA VEC) in Adobe Target](https://helpx.adobe.com/target/kt/using/visual-experience-composer-for-single-page-applications-feature-video-use.html) for more information.

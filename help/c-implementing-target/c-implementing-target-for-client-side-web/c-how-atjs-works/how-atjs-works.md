@@ -11,7 +11,7 @@ uuid: 8ed04881-3dd9-496f-9c9c-feb9c740ed80
 
 # How at.js works{#how-at-js-works}
 
-In the [!DNL Target] implementation illustrated below, the following [!DNL Adobe Experience Cloud] solutions are implemented: Analytics, Target, and Audience Management. In addition, the following Experience Cloud core services are implemented: Dynamic Tag Management (Activation), Audiences, and Visitor ID Service.
+In the [!DNL Target] implementation illustrated below, the following [!DNL Adobe Experience Cloud] solutions are implemented: Analytics, Target, and Audience Management. In addition, the following Experience Cloud core services are implemented: Adobe Launch, Audiences, and Visitor ID Service.
 
 ## What is the difference between At.js 1.*x* and At.js 2.0.0 workflow diagrams?
 
@@ -26,9 +26,9 @@ From a high level view, there are a couple of differences between the two versio
 
 The following diagrams help you understand the workflow of at.js 2.0.0 with Views and how this enhances the SPA integration. To get a better introduction of the concepts used in at.js 2.0.0, see [Single Page Application implementation](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md).
 
-![Target flow with at.js 2.0](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/system-diagram-atjs-20.png)
+![Target flow with at.js 2.0.0](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/system-diagram-atjs-20.png)
 
-|Call|Details|
+|Step|Details|
 | --- | --- |
 |1|Call returns the [!DNL Experience Cloud ID] if the user is authenticated; another call syncs the customer ID.|
 |2|The at.js library loads synchronously and hides the document body.<br>at.js can also be loaded asynchronously with an option prehiding snippet implemented on the page.|
@@ -43,7 +43,7 @@ Now, wherever `triggerView()` is implemented on your SPA, the Views and actions 
 
 ![Target flow at.js 2.0 triggerView](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/atjs-20-triggerview.png)
 
-|Call|Details|
+|Step|Details|
 | --- | --- |
 |1|`triggerView()` is called in the SPA to render the View and apply actions to modify visual elements.|
 |2|Targeted content for the view is read from the cache.|
@@ -56,9 +56,17 @@ Now, wherever `triggerView()` is implemented on your SPA, the Views and actions 
 
 ![](assets/target-flow.png)
 
-| Call | Description | Call | Description |
+| Step | Description | Call | Description |
 |--- |--- |--- |--- |
 |1|Call returns the [!DNL Experience Cloud ID] (MCID) if the user is authenticated; another call syncs the customer ID.|2|The at.js library loads synchronously and hides the document body.|
 |3|A global mbox request is made including all configured parameters, MCID, SDID, and customer ID (optional).|4|Profile scripts execute and then feed into the Profile Store. The Store requests qualified audiences from the [!UICONTROL Audience Library] (for example, audiences shared from [!DNL Adobe Analytics], [!DNL Audience Manager], etc.).<br>Customer attributes are sent to the [!DNL Profile Store] in a batch process.|
 |5|Based on the URL, mbox parameters, and profile data, [!DNL Target] decides which activities and experiences to return to the visitor.|6|Targeted content is sent back to page, optionally including profile values for additional personalization.<br>The experience is revealed as quickly as possible without flicker of default content.|
 |7|[!DNL Analytics] data is sent to Data Collection servers.|8|[!DNL Target] data is matched to [!DNL Analytics] data via the SDID and is processed into the [!DNL Analytics]  reporting storage.<br>[!DNL Analytics] data can then be viewed in both [!DNL Analytics] and  [!DNL Target] via [!DNL Analytics for Target] (A4T) reports.|
+
+## Training video: at.js 2.0.0 architectural diagram
+
+at.js 2.0.0 enhances Adobe Target's support for SPAs and integrates with other Experience Cloud solutions. This video explains how everything comes together.
+
+>[!VIDEO](https://video.tv.adobe.com/v/26250)
+
+See [Understanding how at.js 2.0.0 works](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) for more information.
