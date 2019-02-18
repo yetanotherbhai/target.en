@@ -285,6 +285,7 @@ index: n
       + [Redirect to a URL](c-experiences/c-visual-experience-composer/redirect-offer.md)
       + [Creating Carousels that Work in the Visual Experience Composer](c-experiences/c-visual-experience-composer/vec-carousels.md)
    + [Form-Based Experience Composer](c-experiences/form-experience-composer.md)
+   + [Single Page App (SPA) Visual Experience Composer](c-experiences/spa-visual-experience-composer.md)
    + Offers {#offers}
       + [Offers overview](c-experiences/c-manage-content/manage-content.md)
       + [Create offer folder](c-experiences/c-manage-content/create-content-folder.md)
@@ -296,7 +297,6 @@ index: n
       + [Search content and create smart collections](c-experiences/c-manage-content/filter-and-search-content.md)
       + [Pass dynamic data into offers](c-experiences/c-manage-content/passing-profile-attributes-to-the-html-offer.md)
       + [AEM experience fragments](c-experiences/c-manage-content/aem-experience-fragments.md)
-   + [Single Page App (SPA) Visual Experience Composer](c-experiences/spa-visual-experience-composer.md)
 + Reports {#reports}
    + [Reports overview](c-reports/reports.md)
    + Report setttings {#settings}

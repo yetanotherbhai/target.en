@@ -1,18 +1,14 @@
 ---
-description: Information about using the Visual Experience Composer (VEC) and the Enhanced Experience Composer.
-seo-description: Information about using the Visual Experience Composer (VEC) and the Enhanced Experience Composer.
-seo-title: Visual Experience Composer (VEC)
+description: Information about using the Visual Experience Composer (VEC).
+seo-description: Information about using the Visual Experience Composer (VEC) in Adobe Target.
+seo-title: Adobe Target Visual Experience Composer (VEC)
 title: Visual Experience Composer (VEC)
 uuid: f1e6f67e-1d7e-4806-8389-2ce165b534b4
 ---
 
 # Visual Experience Composer (VEC){#visual-experience-composer-vec}
 
-Information about using the Visual Experience Composer (VEC) and the Enhanced Experience Composer.
-
-The following experience composers are available:
-
-## Visual Experience Composer and Enhanced Experience Composer {#section_34265986611B4AB8A0E4D6ACC25EF91D}
+Information about using the Visual Experience Composer (VEC).
 
 The Visual Experience Composer is one of the main features of Adobe Target. The Visual Experience Composer is an editor that enables marketers and designers to create and change content using a visual interface. Many design choices can be made without requiring direct editing of the code. Editing HTML and JavaScript is also possible using the editing options available in the composer.
 
@@ -49,7 +45,6 @@ You can also click **[!UICONTROL Browse]**, then navigate to a page that is avai
 >If a hover state depends on JavaScript, make sure **[!UICONTROL Disable JavaScript]** is not selected. JavaScript must be enabled to edit JavaScript elements.
 
 For information about the options available in the Visual Experience Composer, see [Visual Experience Composer Options](../../c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81). 
-
 
 ## Training videos
 
