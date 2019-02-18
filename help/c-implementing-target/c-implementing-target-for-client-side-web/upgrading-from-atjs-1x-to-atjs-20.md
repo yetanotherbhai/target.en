@@ -19,7 +19,7 @@ Here are some benefits of using at.js 2.0.0 that are not available in previous v
 * Tremendously improve your end-users' experiences on your site because offers are shown immediately via the cache without any lag time that traditional server calls introduce.
 * Simple one-line of code and one-time developer setup to enable your marketers to create and run A/B and XT activities via the VEC on your SPAs.
 
-## at.js 2.0 system diagrams
+## at.js 2.0.0 system diagrams
 
 The following diagrams help you understand the workflow of at.js 2.0.0 with Views and how this enhances the SPA integration. To get a better introduction of the concepts used in at.js 2.0.0, see [Single Page Application implementation](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md).
 
@@ -366,3 +366,11 @@ The following tables explain at.js. 2.0.0 compatibility with different activity 
 |`?mboxTrace`|Yes|
 |`?mboxSession`|No|
 |`?mboxOverride.browserIp`|No|
+
+## Training video: at.js 2.0.0 architectural diagram
+
+at.js 2.0.0 enhances Adobe Target's support for SPAs and integrates with other Experience Cloud solutions. This video explains how everything comes together.
+
+>[!VIDEO](https://video.tv.adobe.com/v/26250)
+
+See [Understanding how at.js 2.0.0 works](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) for more information.

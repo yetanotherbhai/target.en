@@ -310,7 +310,7 @@ Yes, at.js 2.0 supports A4T for SPA via the `triggerView()` function given that 
 
 ![Target Flow](/help/c-experiences/assets/atjs-spa-flow.png)
 
-|Call|Description|
+|Step|Description|
 | --- | --- |
 |1|`triggerView()` is called in the SPA to render a view and apply actions to modify visual elements associated to the view.|
 |2|Targeted content for the view is read from the cache.|
@@ -360,3 +360,9 @@ If you want to use Auto-Target A/B activities, you can move all of your actions 
 |VEC options|All|
 |Click-tracking|Yes|
 |Multi-Activity Delivery|Yes|
+
+## Training video: Using the VEC for SPAs in Adobe Target
+
+>[!VIDEO](https://video.tv.adobe.com/v/26249)
+
+See [Using the Visual Experience Composer for Single Page Application (SPA VEC) in Adobe Target](https://helpx.adobe.com/target/kt/using/visual-experience-composer-for-single-page-applications-feature-video-use.html) for more information.
