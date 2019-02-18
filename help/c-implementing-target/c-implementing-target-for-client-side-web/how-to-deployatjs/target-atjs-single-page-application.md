@@ -232,7 +232,7 @@ See [Understanding how at.js 2.0.0 works](https://helpx.adobe.com/target/kt/usin
 
 >[!VIDEO](https://video.tv.adobe.com/v/26248)
 
-See [Implement Adobe Target's at.js 2.0 in a Single Page Application (SPA)](/https://helpx.adobe.com/target/kt/using/atjs2-single-page-application-technical-video-implement.html) for more information.
+See [Implement Adobe Target's at.js 2.0 in a Single Page Application (SPA)](https://helpx.adobe.com/target/kt/using/atjs2-single-page-application-technical-video-implement.html) for more information.
 
 ### Using the VEC for SPAs in Adobe Target
 
