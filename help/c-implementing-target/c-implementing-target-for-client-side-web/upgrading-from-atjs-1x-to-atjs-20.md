@@ -53,11 +53,11 @@ Now, wherever `triggerView()` is implemented on your SPA, the Views and actions 
 
 1. Download at.js 2.0.0 using the Target UI.
 
-   ![Implementation details dialog box](/help/c-experiences/assets/implement-atjs-2.png)
+   ![Implementation details dialog box](/help/c-experiences/assets/imp-200.png)
 
->[!NOTE]
->
->Installing at.js 2.0 via the [Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) extension is not yet supported.
+   >[!NOTE]
+   >
+   >Installing at.js 2.0 via the [Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) extension is not yet supported.
 
 ## Deprecated at.js functions
 

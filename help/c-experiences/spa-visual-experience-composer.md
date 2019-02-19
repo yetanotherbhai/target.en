@@ -61,7 +61,7 @@ Now that we have covered what Adobe Target Views are, we can leverage this conce
 
    First, we need to install at.js 2.0.0. This version of at.js was developed with SPAs in mind. Previous versions of at.js and mbox.js do not support Adobe Target Views and the VEC for SPA.
 
-   ![Implementations Details dialog box](/help/c-experiences/assets/implement-atjs-2.png)
+   ![Implementation details dialog box](/help/c-experiences/assets/imp-200.png)
 
    Download the at.js 2.0.0 via the Adobe Target UI located in [!UICONTROL Setup > Implementation]. at.js 2.0.0 can also be deployed via [Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md). However, the Adobe Target Extensions are not currently up to date and supported.
 
