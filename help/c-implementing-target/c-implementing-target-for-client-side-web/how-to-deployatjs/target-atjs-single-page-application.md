@@ -33,13 +33,13 @@ To explain further about what Views are, let’s navigate this hypothetical onli
 
 ![home site](/help/c-experiences/assets/home.png)
 
-When we navigate to the home site, we can immediately see a hero image that promotes an Easter sale as well as the newest products that is selling on the site. In this case, a View can be defined as the entire home site. We can name this View "home" just like the path name in `https://target.enablementadobe.com/home`. This is handy to note as we will expand on this more in the Implementing Adobe Target Views section below.
+When we navigate to the home site, we can immediately see a hero image that promotes an Easter sale as well as the newest products that is selling on the site. In this case, a View can be defined as the entire home site. This is handy to note as we will expand on this more in the Implementing Adobe Target Views section below.
 
 **Link: [Product Site](https://target.enablementadobe.com/react/demo/#/products)**
 
 ![product site](/help/c-experiences/assets/product-site.png)
 
-As we become more interested in the products that the business is selling, we decide to click the Products link. Similar to the home site, the entirety of the products site can be defined as a View. We can name this View "products" just like the path name in `https://target.enablementadobe.com/products`.
+As we become more interested in the products that the business is selling, we decide to click the Products link. Similar to the home site, the entirety of the products site can be defined as a View. We can name this View "products" just like the path name in `https://target.enablementadobe.com/react/demo/#/products)`.
 
 ![product site 2](/help/c-experiences/assets/product-site-2.png)
 
