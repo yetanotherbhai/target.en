@@ -218,6 +218,10 @@ Now, wherever `triggerView()` is implemented on your SPA, the Views and actions 
 
 After you have completed installing at.js 2.0.0 and adding `triggerView()` to your site, use the VEC to run A/B and XT activities. For more information, see [Single Page App (SPA) Visual Experience Composer](/help/c-experiences/spa-visual-experience-composer.md).
 
+>[!NOTE]
+>
+>The VEC for SPAs is really the same VEC that you use on regular web pages, but some additional capabilities are available when you open a single page app with `triggerView()` implemented.
+
 ## Training videos
 
 The following videos contain more information:

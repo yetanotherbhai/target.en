@@ -104,7 +104,7 @@ As a workaround, please rely on A4T data in Reports & Analytics until this issue
 ### Target APIs
 
 * Customers cannot perform CRUD operations on Auto-Allocate activities through the v3 version of the A/B Activities API on Adobe I/O.
-* v1 version of the Offer APIs on Adobe I/O considers all offers created through Target to be in the default workspace and allows operations on offers through the API. (TTTEAM-41957)
+* v1 version of the Offer APIs on Adobe I/O treats all offers created through Target to be in the default workspace. (TTTEAM-41957)
 
 ## Resolved Issues {#section_FD2FC86E7C734D60B1EDC9DEF60E1014}
 

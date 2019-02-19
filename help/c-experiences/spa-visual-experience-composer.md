@@ -186,6 +186,10 @@ Now that we have covered what Adobe Target Views are, we can leverage this conce
 
    When `adobe.target.triggerView()` is implemented on your SPA with View names passed in as parameters, the VEC will be able to detect these views and allow users to create actions and modifications for their A/B or XT activities.
 
+   >[!NOTE]
+   >
+   >The VEC for SPAs is really the same VEC that you use on regular web pages, but some additional capabilities are available when you open a single page app with `triggerView()` implemented.
+
   There are two major improvements to the [Modifications](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) panel and Actions for the VEC that allow the VEC to work well with SPAs.
 
    **Modifications Panel**
