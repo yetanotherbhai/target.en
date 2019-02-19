@@ -329,6 +329,7 @@ Yes, at.js 2.0 supports A4T for SPA via the `triggerView()` function given that 
 |Activity Type|Supported?|
 | --- | --- |
 |A/B Test|Yes|
+|[Recommendations as an offer](/help/c-recommendations/recommendations-as-an-offer.md)<br>in A/B Test and Experience Targeting (XT) activities|Yes|
 |Auto-Allocate|Yes|
 |Experience Targeting|Yes|
 |Multivariate Test|No|
