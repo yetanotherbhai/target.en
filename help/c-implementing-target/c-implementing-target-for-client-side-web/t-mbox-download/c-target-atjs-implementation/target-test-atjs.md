@@ -20,6 +20,10 @@ For more information, see [Option 3: Implement Target Manually with the Target J
 
 ## Use "Requestly" Chrome extension to map to another file
 
+>[!NOTE]
+>
+>In addition to the following information, you can use the [Adobe Target VEC Helper browser extension](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) for Google Chrome.
+
 [Requestly](https://chrome.google.com/webstore/detail/requestly/mdnleldcmiljblolnjhpnblkcekpdkpa?hl=en) is a free Chrome extension that lets you redirect requests to an alternate URL.
 
 You deploy at.js to a URL, and then use Requestly to map your current mbox.js file URL to the new at.js URL. Then, any time your website tries to load mbox.js, it loads at.js instead. This approach also make it easier for Adobe to provide support.

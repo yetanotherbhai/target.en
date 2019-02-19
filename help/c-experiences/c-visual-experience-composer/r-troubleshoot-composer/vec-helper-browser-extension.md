@@ -1,7 +1,7 @@
 ---
-description: Information to use the Target Visual Experience Composer (VEC) Helper browser extension to load websites reliably in iframe.
+description: Information to use the Target Visual Experience Composer (VEC) Helper browser extension to load websites reliably within the VEC to rapidly author and QA experiences.
 keywords: vec;visual experience composer; vec;iframe;extension;browser
-seo-description: Information to use the Adobe Target Visual Experience Composer (VEC) Helper browser extension to load websites reliably in iframe.
+seo-description: Information to use the Adobe Target Visual Experience Composer (VEC) Helper browser extension to load websites reliably within the VEC to rapidly author and QA experiences.
 seo-title: Adobe Target Visual Experience Composer (VEC) helper extension
 solution: Target
 title: Visual Experience Composer helper extension
@@ -10,9 +10,9 @@ topic: Standard
 
 # Visual Experience Composer helper extension
 
-The [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC) Helper browser extension for Google Chrome can be used to reliably load websites that might otherwise be problematic.
+The [!DNL Adobe Target] Visual Experience Composer (VEC) Helper browser extension for Google Chrome lets you load websites reliably within the VEC to rapidly author and QA web experiences.
 
-Reasons why some websites might not open reliably in the VEC include:
+Reasons why some websites might not open reliably in the VEC:
 
 * The website has strict security policies.
 * The website is in an iframe.
@@ -21,7 +21,7 @@ Reasons why some websites might not open reliably in the VEC include:
 
 The VEC Helper browser extension for Chrome solves site-loading issues for which customers now rely on the [!DNL Target] [!UICONTROL Enhanced Experience Composer] or third-party extensions, such as Requestly
 
-Benefits of using the VEC Helper extension include the following:
+Benefits of using the VEC Helper extension:
 
 * All iframe busting headers, such as X-Frame-Options and Content-Security-Policy, are implicitly removed from the website. There is no more need to create complicated Requestly rules to do this.
 * If a webpage does not yet contain the [!DNL Target] at.js JavaScript library, you can use the extension to inject the library so you can author experiences for the website. You can then create activities and QA them using preview links.
@@ -49,4 +49,3 @@ Benefits of using the VEC Helper extension include the following:
   * If you attempt to load a website using the VEC that fails to load, a message displays suggesting that you install the VEC Helper browser extension.
   * If at.js is not yet implemented on the website, a message displays in the VEC suggesting that you install the extension.
   * If the extension is enabled and is powering the loading, messages display when the extension injects the at.js library (if necessary) or helps open the website reliably within the VEC.
-

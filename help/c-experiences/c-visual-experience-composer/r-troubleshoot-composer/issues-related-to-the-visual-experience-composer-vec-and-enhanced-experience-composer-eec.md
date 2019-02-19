@@ -20,6 +20,10 @@ This can happen if the URL contains a # character. To fix the issue, switch into
 
 If your website's CSP headers block Target libraries, then loads the website but prevents editing, ensure that the Target libraries are not blocked.
 
+>[!NOTE]
+>
+>In addition to the following information, you can use the [Adobe Target VEC Helper browser extension](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) for Google Chrome.
+
 ![](assets/cps_headers.png)
 
 As a workaround, you can configure a Requestly rule to remove CSP headers, as shown below:
