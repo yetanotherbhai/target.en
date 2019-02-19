@@ -1,8 +1,7 @@
 ---
-product: Adobe Target
+product: target
 audience: end-user
 user-guide-title: Adobe Target Help
-index: n
 ---
 
 # Adobe Target Help {#using}
