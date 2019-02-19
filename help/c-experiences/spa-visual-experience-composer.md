@@ -27,13 +27,13 @@ To explain further about what Views are, let’s navigate this hypothetical onli
 
 ![home site](/help/c-experiences/assets/home.png)
 
-When we navigate to the home site, we can immediately see a hero image that promotes an Easter sale as well as the newest products selling on the site. In this case, a View can be defined as the entire home site. We can name this View "home" just like the path name in `https://target-enablementabobe.com/home`. This is handy to note as we will expand on this more in the Implementing Adobe Target Views section below.
+When we navigate to the home site, we can immediately see a hero image that promotes an Easter sale as well as the newest products selling on the site. In this case, a View can be defined as the entire home site. This is handy to note as we will expand on this more in the Implementing Adobe Target Views section below.
 
 **Link: [Product Site](https://target.enablementadobe.com/react/demo/#/products)**
 
 ![product site](/help/c-experiences/assets/product-site.png)
 
-As we become more interested in the products, we decide to click the Products link. Similar to the home site, the entirety of the products site can be defined as a View. We can name this View "products" just like the path name in `https://www.target-enablementabobe.com/products`.
+As we become more interested in the products, we decide to click the Products link. Similar to the home site, the entirety of the products site can be defined as a View. We can name this View "products" just like the path name in `https://target.enablementadobe.com/react/demo/#/products`.
 
 ![product site 2](/help/c-experiences/assets/product-site-2.png)
 
@@ -82,10 +82,6 @@ Now that we have covered what Adobe Target Views are, we can leverage this conce
    **Link: [Home Site](https://target.enablementadobe.com/react/demo/#/)**
 
    ![home-react-1](/help/c-experiences/assets/react1.png)
-
-   ![home-react-2](/help/c-experiences/assets/react2.png)
-
-   ![home-react-3](/help/c-experiences/assets/react3.png)
 
    As marketers, if we want to run A/B tests on the whole home site, then we might want to name the view "home" that can be extracted from the URL:
 

@@ -53,7 +53,7 @@ Now, wherever `triggerView()` is implemented on your SPA, the Views and actions 
 
 1. Download at.js 2.0.0 using the Target UI.
 
-   ![Implementation details dialog box](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/download-atjs-20.png)
+   ![Implementation details dialog box](/help/c-experiences/assets/implement-atjs-2.png)
 
 >[!NOTE]
 >
