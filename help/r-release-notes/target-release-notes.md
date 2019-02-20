@@ -49,7 +49,6 @@ This release includes the following features, changes and enhancements:
 
 **Enhancement, fixes, and changes**
 
-* You are now instructed to re-authenticate when your session expires while reviewing a report. After you log in again, you are directed back to the report. (TGT-32723)
 * To improve security, [!DNL Target] now prevents accessing Amazon Web Services (AWS) metadata endpoints while loading the VEC. (TGT-33129)
 
 ## Product documentation for [!DNL Target] capabilities {#section_F03C61D438814538967B2BF901130BE4}
