@@ -169,6 +169,10 @@ mboxCreate('myMbox',  'profile.geo.city = new york', 'profile.geo.state = new yo
 
 ## Use entity attributes
 
+>[!NOTE]
+>
+>Provided entity attribute values expire after 61 days. This means that you should ensure that the latest value of each entity attribute is passed to Target Recommendations at least once per month for each item in your catalog.
+
 Recommendations sends the `productId` or `productPurchasedId` (referred to as `entity.id` in the code) that is used in the algorithms.
 
 >[!NOTE]

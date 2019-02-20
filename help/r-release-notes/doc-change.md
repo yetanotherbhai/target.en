@@ -32,6 +32,7 @@ This page lists important changes made to the Target documentation.
 ||[Visual Experience Composer helper extension](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)|New topic.|
 ||[Privacy and General Data Protection Regulation](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) (GDPR)|Minor edits and information about Opt-in functionality and at.js 1.7.0 and at.js 2.0.0. |
 ||[Known issues and resolved issues](/help/r-release-notes/known-issues-resolved-issues.md)|Added known issues about Target APIs.|
+||[Entity attributes](/help/c-recommendations/c-products/entity-attributes.md)|Added note that provided entity attribute values expire after 61 days.|
 ||[Release Notes](/help/r-release-notes/release-notes.md): 19.2.1|This release includes enhancements and fixes. You can read about them and link to the documentation from the Release Notes. This release also includes many documentation updates throughout the help.|
 
 ## Adobe Target Standard/Premium 19.1.1 (January 22, 2019) {#section-19-1-1}
