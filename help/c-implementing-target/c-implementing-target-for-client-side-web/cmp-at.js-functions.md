@@ -391,7 +391,7 @@ This function can be called whenever a new page is loaded or when a component on
 >This function was introduced with at.js 2.0. This function is not available for at.js version 1.*x*.
 
 |Parameter|Type|Required?|Description|
-| -- | --- | --- | --- |
+| --- | --- | --- | --- |
 |viewName|String|Yes|Pass in any name as a string type that you want to represent your view. This view name appears in the [!UICONTROL Modifications] panel of the VEC for marketers to create actions and run their A/B and XT activities.|
 |options|Object|No||
 |options > page|Boolean|No|**TRUE:** Default value of page is true. When page=true, notifications are sent to the [!DNL Target] backend for incrementing impression count.<br>**FALSE:** When page=false, notifications are sent for incrementing impression count. This should be used when you want to only re-render a component on a page with an offer.|
