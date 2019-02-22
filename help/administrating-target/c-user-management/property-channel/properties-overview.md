@@ -87,6 +87,8 @@ You'll need to pass the workspace ID to leverage Enterprise Permissions in [Targ
 1. In the [Adobe Admin Console](https://adminconsole.adobe.com), click the [!UICONTROL Products] tab, then click the appropiate product in the left menu to display the PLC(workspace) list.
 1. Click the desired PLC(workspace), then locate the "profiles" ID in the URL, as shown below.
 
+![workspaceID](/help/administrating-target/c-user-management/property-channel/assets/workspaceid.png)
+
 ## Step 3. Create User Groups (Optional) {#section_5F5CB9AA7A9F4D26953E22016DA59605}
 
 You can create user groups, such as Developers, Analysts, Marketers, Executives, etc., and then assign privileges across multiple Adobe products and workspaces. Assigning a new team member all the appropriate privileges across different Adobe products can be as easy as adding them to a specific user group.
