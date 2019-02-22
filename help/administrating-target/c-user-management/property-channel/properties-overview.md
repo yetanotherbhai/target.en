@@ -80,6 +80,14 @@ Users can be part of multiple workspaces and can even have different roles withi
 >[!NOTE]
 >See the training video below for more information about configuring workspaces.
 
+### Obtain your Workspace ID {workspace-id}
+
+You'll need to pass the workspace ID to leverage Enterprise Permissions in Target APIs.
+
+1. In the Adobe Admin Console navigate to where can see the PLC(workspace) list.
+1. Click on the desired PLC(workspace) whose workspace ID you want to retrieve.
+1. Locate the "profiles" keyword in the URL. 
+
 ## Step 3. Create User Groups (Optional) {#section_5F5CB9AA7A9F4D26953E22016DA59605}
 
 You can create user groups, such as Developers, Analysts, Marketers, Executives, etc., and then assign privileges across multiple Adobe products and workspaces. Assigning a new team member all the appropriate privileges across different Adobe products can be as easy as adding them to a specific user group.
