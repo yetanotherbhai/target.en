@@ -17,6 +17,7 @@ This page lists important changes made to the Target documentation.
 
 |Date|Topic|Changes|
 | --- | --- | --- |
+|February 22, 2019|[Configure enterprise permissions](/help/administrating-target/c-user-management/property-channel/properties-overview.md)|Added "Obtain your Workspace ID" section.|
 |February 20, 2019|[Category affinity](/help/c-target/c-visitor-profile/category-affinity.md)|Updated "Category affinity algorithm" section.|
 |February 19, 2019|[Single Page App (SPA) Visual Experience Composer](/help/c-experiences/spa-visual-experience-composer.md)|New topic and training videos.|
 ||[Single Page Application implementation](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md)|New topic and training videos.|

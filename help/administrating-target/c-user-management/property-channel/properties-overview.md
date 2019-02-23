@@ -84,10 +84,10 @@ Users can be part of multiple workspaces and can even have different roles withi
 
 You'll need to pass the workspace ID to leverage Enterprise Permissions in [Target APIs](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md).
 
-1. In the [Adobe Admin Console](https://adminconsole.adobe.com), click the [!UICONTROL Products] tab, then click the appropiate product in the left menu to display the PLC(workspace) list.
+1. In the [Adobe Admin Console](https://adminconsole.adobe.com), click the [!UICONTROL Products] tab, then click the product in the left menu to display the PLC(workspace) list.
 1. Click the desired PLC(workspace), then locate the "profiles" ID in the URL, as shown below.
 
-![workspaceID](/help/administrating-target/c-user-management/property-channel/assets/workspaceid.png)
+![workspaceID](/help/administrating-target/c-user-management/property-channel/assets/workspace-id.png)
 
 ## Step 3. Create User Groups (Optional) {#section_5F5CB9AA7A9F4D26953E22016DA59605}
 
