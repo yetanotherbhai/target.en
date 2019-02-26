@@ -384,7 +384,9 @@ Another significant difference is that:
 
 The following sections list each at.js 1.*x* parameter, its description, and the corresponding 2.0.0 JSON payload (if applicable):
 
-### browserHeight (1.*x* parameter)
+### browserHeight
+
+(at.js 1.*x* parameter)
 
 The height of the visitor's browser window.
 
@@ -401,7 +403,9 @@ at.js 2.0.0 JSON payload:
 }
 ```
 
-### browserWidth (1.*x* parameter)
+### browserWidth
+
+(at.js 1.*x* parameter)
 
 The width of the visitor's browser window.
 
@@ -417,7 +421,9 @@ at.js 2.0.0 JSON payload:
 }
 ```
 
-### browserTimeOffset (1.*x* parameter)
+### browserTimeOffset
+
+(at.js 1.*x* parameter)
 
 The timezone offset.
 
@@ -431,7 +437,9 @@ at.js 2.0.0 JSON payload:
 }
 ```
 
-### screenHeight (1.*x* parameter)
+### screenHeight
+
+(at.js 1.*x* parameter)
 
 The height of visitor's screen.
 
@@ -447,7 +455,9 @@ at.js 2.0.0 JSON payload:
 }
 ```
 
-### screenWidth	(1.*x* parameter)
+### screenWidth
+
+(at.js 1.*x* parameter)
 
 The width of visitor's screen.
 
@@ -463,7 +473,9 @@ at.js 2.0.0 JSON payload:
 }
 ```
 
-### colorDepth (1.*x* parameter)
+### colorDepth
+
+(at.js 1.*x* parameter)
 
 The color depth of visitor's screen.
 
@@ -479,7 +491,9 @@ at.js 2.0.0 JSON payload:
 }
 ```
 
-### mboxHost (1.*x* parameter)
+### mboxHost
+
+(at.js 1.*x* parameter)
 
 The domain of the page where the Target library runs.
 
@@ -495,7 +509,9 @@ at.js 2.0.0 JSON payload:
 }
 ```
 
-### webGLRenderer	(1.*x* parameter)
+### webGLRenderer
+
+(at.js 1.*x* parameter)
 
 The WEB GL renderer capabilities of the browser. This is used by our device detection mechanism to determine whether the visitor's device is a desktop, iPhone, Android device, etc.
 
@@ -511,7 +527,9 @@ at.js 2.0.0 JSON payload:
 }
 ```
 
-### mboxURL (1.*x* parameter)
+### mboxURL
+
+(at.js 1.*x* parameter)
 
 The page URL.
 
@@ -528,7 +546,9 @@ at.js 2.0.0 JSON payload:
 
 ```
 
-### mboxReferrer (1.*x* parameter)
+### mboxReferrer
+
+(at.js 1.*x* parameter)
 
 The page referrer.
 
@@ -544,7 +564,9 @@ at.js 2.0.0 JSON payload:
 }
 ```
 
-### mbox (the name) equals to global mbox	(1.*x* parameter)
+### mbox (the name) equals to global mbox
+
+(at.js 1.*x* parameter)
 
 Delivery API no longer has a global mbox concept. In the JSON payload you must use `execute > pageLoad`.
 
@@ -562,7 +584,9 @@ at.js 2.0.0 JSON payload:
 }
 ```
 
-### mbox (the name) is *not* equal to global mbox	(1.*x* parameter)
+### mbox (the name) is *not* equal to global mbox	
+
+(at.js 1.*x* parameter)
 
 To use an mbox name, you must pass it to `execute > mboxes`. An mbox requires an index and name.
 
@@ -582,15 +606,21 @@ at.js 2.0.0 JSON payload:
 }
 ```
 
-### mboxId (1.*x* parameter)
+### mboxId
+
+(at.js 1.*x* parameter)
 
 No longer used.
 
-### mboxCount	(1.*x* parameter)
+### mboxCount
+
+(at.js 1.*x* parameter)
 
 No longer used.
 
-### mboxRid (1.*x* parameter)
+### mboxRid
+
+(at.js 1.*x* parameter)
 
 Request ID used by downstream systems to help with debugging.
 
@@ -603,15 +633,21 @@ at.js 2.0.0 JSON payload:
 }
 ```
 
-### mboxTime (1.*x* parameter)
+### mboxTime
+
+(at.js 1.*x* parameter)
 
 No longer used.
 
-### mboxSession	
+### mboxSession
+
+(at.js 1.*x* parameter)
 
 Session ID is sent as a query string parameter (`sessionId`) to the Delivery API endpoint.
 
-### mboxPC (1.*x* parameter)
+### mboxPC
+
+(at.js 1.*x* parameter)
 
 The TNT ID is passed into `id > tntId`.
 
@@ -626,7 +662,9 @@ at.js 2.0.0 JSON payload:
 }
 ```
 
-### mboxMCGVID (1.*x* parameter)
+### mboxMCGVID
+
+(at.js 1.*x* parameter)
 
 Marketing Cloud Visitor ID is passed into `id > marketingCloudVisitorId`.
 
@@ -641,7 +679,9 @@ at.js 2.0.0 JSON payload:
 }
 ```
 
-### vst.aaaa.id and vst.aaaa.authState (1.*x* parameter)
+### vst.aaaa.id and vst.aaaa.authState
+
+(at.js 1.*x* parameters)
 
 Customer IDs should be passed into `id > customerIds`.
 
@@ -660,7 +700,9 @@ at.js 2.0.0 JSON payload:
 }
 ```
 
-### mbox3rdPartyId (1.*x* parameter)
+### mbox3rdPartyId
+
+(at.js 1.*x* parameter)
 
 Customer third-party ID used to link different Target IDs.
 
@@ -675,7 +717,9 @@ at.js 2.0.0 JSON payload:
 }
 ```
 
-### mboxMCSDID (1.*x* parameter)
+### mboxMCSDID
+
+(at.js 1.*x* parameter)
 
 SDID, also known as Supplemental Data ID. Should be passed into `experienceCloud > analytics > supplementalDataId`.
 
@@ -692,7 +736,9 @@ at.js 2.0.0 JSON payload:
 }
 ```
 
-### vst.trk	(1.*x* parameter)
+### vst.trk
+
+(at.js 1.*x* parameter)
 
 Analytics tracking server. Should be passed into `experienceCloud > analytics > trackingServer`.
 
@@ -709,7 +755,9 @@ at.js 2.0.0 JSON payload:
 }
 ```
 
-### vst.trks (1.*x* parameter)
+### vst.trks
+
+(at.js 1.*x* parameter)
 
 Analytics tracking server secure. Should be passed into `experienceCloud > analytics > trackingServerSecure`.
 
@@ -726,7 +774,9 @@ at.js 2.0.0 JSON payload:
 }
 ```
 
-### mboxMCGLH	(1.*x* parameter)
+### mboxMCGLH
+
+(at.js 1.*x* parameter)
 
 Audience Manager location hint. Should be passed into `experienceCloud > audienceManager > locationHint`.
 
@@ -743,7 +793,9 @@ at.js 2.0.0 JSON payload:
 }
 ```
 
-### mboxAAMB (1.*x* parameter)
+### mboxAAMB
+
+(at.js 1.*x* parameter)
 
 Audience Manager blob. Should be passed into `experienceCloud > audienceManager > blob`.
 
@@ -760,7 +812,9 @@ at.js 2.0.0 JSON payload:
 }
 ```
 
-### mboxVersion	 (1.*x* parameter)
+### mboxVersion
+
+(at.js 1.*x* parameter)
 
 Version is sent as a query string parameter via the version parameter.
 
