@@ -367,6 +367,403 @@ The following tables explain at.js. 2.0.0 compatibility with different activity 
 |`?mboxSession`|No|
 |`?mboxOverride.browserIp`|No|
 
+## at.js 1.x parameters to at.js 2.0.0 payload mapping {#payload-mapping}
+
+This section outlines the mappings between at.js 1.*x* and at.js 2.0.0.
+
+Before delving into parameters mapping, the endpoints that these library versions are using have changed:
+
+* at.js 1.*x* - `http://<client code>.tt.omtrdc.net/m2/<client code>/mbox/json`
+* at.js 2.0.0 - `http://<client code>.tt.omtrdc.net/rest/v1/delivery`
+
+Another significant difference is that:
+
+* at.js 1.*x* - Client code is part of the path
+* at.js 2.0.0 - Client code is sent as a query string parameter, such as: 
+  `http://<client code>.tt.omtrdc.net/rest/v1/delivery?client=democlient`
+
+The following sections list each at.js 1.*x* parameter, its description, and the corresponding 2.0.0 JSON payload (if applicable):
+
+### browserHeight (1.*x* parameter)
+
+The height of the visitor's browser window.
+
+at.js 2.0.0 JSON payload:
+
+```
+
+{
+  "context": {
+    "window": {
+       "height": 200
+    }
+  }
+}
+```
+
+### browserWidth (1.*x* parameter)
+
+The width of the visitor's browser window.
+
+at.js 2.0.0 JSON payload:
+
+```
+{
+  "context": {
+    "window": {
+       "width": 200
+    }
+  }
+}
+```
+
+### browserTimeOffset (1.*x* parameter)
+
+The timezone offset.
+
+at.js 2.0.0 JSON payload:
+
+```
+{
+  "context": {
+    "timeOffsetInMinutes": -480
+  }
+}
+```
+
+### screenHeight (1.*x* parameter)
+
+The height of visitor's screen.
+
+at.js 2.0.0 JSON payload:
+
+```
+{
+  "context": {
+    "screen": {
+       "height": 200
+    }
+  }
+}
+```
+
+### screenWidth	(1.*x* parameter)
+
+The width of visitor's screen.
+
+at.js 2.0.0 JSON payload:
+
+```
+{
+  "context": {
+    "screen": {
+       "width": 200
+    }
+  }
+}
+```
+
+### colorDepth (1.*x* parameter)
+
+The color depth of visitor's screen.
+
+at.js 2.0.0 JSON payload:
+
+```
+{
+  "context": {
+    "screen": {
+       "colorDepth": 24
+    }
+  }
+}
+```
+
+### mboxHost (1.*x* parameter)
+
+The domain of the page where the Target library runs.
+
+at.js 2.0.0 JSON payload:
+
+```
+{
+  "context": {
+    "browser": {
+       "host": "test.com"
+    }
+  }
+}
+```
+
+### webGLRenderer	(1.*x* parameter)
+
+The WEB GL renderer capabilities of the browser. This is used by our device detection mechanism to determine whether the visitor's device is a desktop, iPhone, Android device, etc.
+
+at.js 2.0.0 JSON payload:
+
+```
+{
+  "context": {
+    "browser": {
+       "webGLRenderer": "AMD Radeon Pro 560X OpenGL Engine"
+    }
+  }
+}
+```
+
+### mboxURL (1.*x* parameter)
+
+The page URL.
+
+at.js 2.0.0 JSON payload:
+
+```
+{
+  "context": {
+    "address": {
+       "url": "http://test.com"
+    }
+  }
+}
+
+```
+
+### mboxReferrer (1.*x* parameter)
+
+The page referrer.
+
+at.js 2.0.0 JSON payload:
+
+```
+{
+  "context": {
+    "address": {
+       "referringUrl": "http://google.com"
+    }
+  }
+}
+```
+
+### mbox (the name) equals to global mbox	(1.*x* parameter)
+
+Delivery API no longer has a global mbox concept. In the JSON payload you must use `execute > pageLoad`.
+
+at.js 2.0.0 JSON payload:
+
+```
+{
+  "execute": {
+    "pageLoad": {
+       "parameters": ....
+       "profileParameters": ...
+       .....
+    }
+  }
+}
+```
+
+### mbox (the name) is *not* equal to global mbox	(1.*x* parameter)
+
+To use an mbox name, you must pass it to `execute > mboxes`. An mbox requires an index and name.
+
+at.js 2.0.0 JSON payload:
+
+```
+{
+  "execute": {
+    "mboxes": [{
+       "index": 0,
+       "name": "some-mbox",
+       "parameters": ....
+       "profileParameters": ...
+       .....
+    }]
+  }
+}
+```
+
+### mboxId (1.*x* parameter)
+
+No longer used.
+
+### mboxCount	(1.*x* parameter)
+
+No longer used.
+
+### mboxRid (1.*x* parameter)
+
+Request ID used by downstream systems to help with debugging.
+
+at.js 2.0.0 JSON payload:
+
+```
+{
+  "requestId": "2412234442342"
+  ....
+}
+```
+
+### mboxTime (1.*x* parameter)
+
+No longer used.
+
+### mboxSession	
+
+Session ID is sent as a query string parameter (`sessionId`) to the Delivery API endpoint.
+
+### mboxPC (1.*x* parameter)
+
+The TNT ID is passed into `id > tntId`.
+
+at.js 2.0.0 JSON payload:
+
+```
+{
+  "id": {
+    "tntId": "ca5ddd7e33504c58b70d45d0368bcc70.21_3"
+  }
+  ....
+}
+```
+
+### mboxMCGVID (1.*x* parameter)
+
+Marketing Cloud Visitor ID is passed into `id > marketingCloudVisitorId`.
+
+at.js 2.0.0 JSON payload:
+
+```
+{
+  "id": {
+    "marketingCloudVisitorId": "797110122341429343505"
+  }
+  ....
+}
+```
+
+### vst.aaaa.id and vst.aaaa.authState (1.*x* parameter)
+
+Customer IDs should be passed into `id > customerIds`.
+
+at.js 2.0.0 JSON payload:
+
+```
+{
+  "id": {
+    "customerIds": [{
+       "id": "1232131",
+       "integrationCode": "aaaa",
+       "authenticatedState": "....."
+     }]
+  }
+  ....
+}
+```
+
+### mbox3rdPartyId (1.*x* parameter)
+
+Customer third-party ID used to link different Target IDs.
+
+at.js 2.0.0 JSON payload:
+
+```
+{
+  "id": {
+    "thirdPartyId": "1232312323123"
+  }
+  ....
+}
+```
+
+### mboxMCSDID (1.*x* parameter)
+
+SDID, also known as Supplemental Data ID. Should be passed into `experienceCloud > analytics > supplementalDataId`.
+
+at.js 2.0.0 JSON payload:
+
+```
+{
+  "experienceCloud": {
+    "analytics": {
+      "supplementalDataId": "1212321132123131"
+    }
+  }
+  ....
+}
+```
+
+### vst.trk	(1.*x* parameter)
+
+Analytics tracking server. Should be passed into `experienceCloud > analytics > trackingServer`.
+
+at.js 2.0.0 JSON payload:
+
+```
+{
+  "experienceCloud": {
+    "analytics": {
+      "trackingServer": "analytics.test.com"
+    }
+  }
+  ....
+}
+```
+
+### vst.trks (1.*x* parameter)
+
+Analytics tracking server secure. Should be passed into `experienceCloud > analytics > trackingServerSecure`.
+
+at.js 2.0.0 JSON payload:
+
+```
+{
+  "experienceCloud": {
+    "analytics": {
+      "trackingServerSecure": "secure-analytics.test.com"
+    }
+  }
+  ....
+}
+```
+
+### mboxMCGLH	(1.*x* parameter)
+
+Audience Manager location hint. Should be passed into `experienceCloud > audienceManager > locationHint`.
+
+at.js 2.0.0 JSON payload:
+
+```
+{
+  "experienceCloud": {
+    "audienceManager": {
+      "locationHint": 9
+    }
+  }
+  ....
+}
+```
+
+### mboxAAMB (1.*x* parameter)
+
+Audience Manager blob. Should be passed into `experienceCloud > audienceManager > blob`.
+
+at.js 2.0.0 JSON payload:
+
+```
+{
+  "experienceCloud": {
+    "audienceManager": {
+      "blob": "2142342343242342"
+    }
+  }
+  ....
+}
+```
+
+### mboxVersion	 (1.*x* parameter)
+
+Version is sent as a query string parameter via the version parameter.
+
 ## Training video: at.js 2.0.0 architectural diagram
 
 at.js 2.0.0 enhances Adobe Target's support for SPAs and integrates with other Experience Cloud solutions. This video explains how everything comes together.

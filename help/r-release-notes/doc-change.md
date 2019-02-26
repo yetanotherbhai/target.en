@@ -17,6 +17,8 @@ This page lists important changes made to the Target documentation.
 
 |Date|Topic|Changes|
 | --- | --- | --- |
+|February 25, 2019|[Upgrading from at.js 1.x to at.js 2.0.0](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#payload-mapping)|New section.|
+||[Troubleshooting Issues Related to the Enhanced Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md)|Added "Hostnames" column to the IP addresses to whitelist.|
 |February 22, 2019|[Configure enterprise permissions](/help/administrating-target/c-user-management/property-channel/properties-overview.md)|Added "Obtain your Workspace ID" section.|
 |February 20, 2019|[Category affinity](/help/c-target/c-visitor-profile/category-affinity.md)|Updated "Category affinity algorithm" section.|
 |February 19, 2019|[Single Page App (SPA) Visual Experience Composer](/help/c-experiences/spa-visual-experience-composer.md)|New topic and training videos.|
