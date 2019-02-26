@@ -584,11 +584,11 @@ at.js 2.0.0 JSON payload:
 }
 ```
 
-### mbox (the name) is *not* equal to global mbox	
+### mbox (the name) is *not* equal to global mbox
 
 (at.js 1.*x* parameter)
 
-To use an mbox name, you must pass it to `execute > mboxes`. An mbox requires an index and name.
+To use an mbox name, pass it to `execute > mboxes`. An mbox requires an index and name.
 
 at.js 2.0.0 JSON payload:
 
