@@ -124,7 +124,6 @@ user-guide-title: Adobe Target Help
       + [Test an email image Adbox](c-implementing-target/c-non-javascript-based-implementation/testing-email-image-adbox.md)
       + [Work with redirectors](c-implementing-target/c-non-javascript-based-implementation/working-with-redirectors.md)
 + Integrate Adobe Target with the Experience Cloud {#integrate}
-   + [Integrate Adobe Target with the Experience Cloud overview](c-integrating-target-with-mac/integrating-target-with-mac.md)
    + Adobe Analytics as the reporting source for Adobe Target (A4T) {#a4t}
       + [A4T overview](c-integrating-target-with-mac/a4t/a4t.md)
       + [Before you implement](c-integrating-target-with-mac/a4t/before-implement.md)
