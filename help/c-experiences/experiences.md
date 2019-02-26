@@ -19,4 +19,4 @@ Target provides the following experience composers:
 
 * [Visual Experience Composer (VEC)](../c-experiences/c-visual-experience-composer/visual-experience-composer.md#concept_CF63320EB8924B2F9BDA3C72256DCE50) 
 * [Form-Based Experience Composer](../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E)
-
+* [Single Page Application (SPA) Visual Experience Composer (VEC)](/help/c-experiences/spa-visual-experience-composer.md)
