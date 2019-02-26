@@ -21,6 +21,10 @@ Information about known issues for this release of Target. Also includes informa
 
 The following sections list the known issues for [!DNL Target]:
 
+### Enterprise Permissions support in Target APIs {#api}
+
+Code offers created from the Target UI in the Offers library might display in the default workspace if the list of offers is pulled using GET APIs. This issue will be fixed in first week of March 2019. After this fix is in place, code offers will display in the appropriate workspace when pulled from APIs. This issue does *not* affect offers created from APIs. For example, code offers created from APIs display in the workspace in which they were created, whether fetched using GET APIs or from within the Target UI.
+
 ### Exclusion groups
 
 The following are known issues with exclusion groups:
