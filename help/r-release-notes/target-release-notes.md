@@ -13,7 +13,7 @@ uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 
 These release notes provide information about features, enhancements, and fixes for the latest or upcoming [!DNL Adobe Target] releases.
 
-**Last Updated: February 19, 2019**
+**Last Updated: February 25, 2019**
 
 >[!NOTE]
 >
@@ -24,7 +24,7 @@ These release notes provide information about features, enhancements, and fixes 
 Be aware of the following important announcements:
 
 * The [Adobe Target product documentation](https://docs.adobe.com/content/help/en/target/using/target-home.html) has moved to a new domain: `docs.adobe.com`. The documentation can be found at the following URL: `https://docs.adobe.com/content/help/en/target/using/target-home.html`. Please update your bookmarks accordingly.
-* Starting with the [!DNL Target] 18.4.1 release (April 25, 2018), [!DNL Target] had taken steps to move towards TLS 1.2 encryption. The final date to completely phase out support for TLS 1.0 encryption is **February 20, 2019**. With this change, [!DNL Adobe] will no longer collect data from end users with older devices or web browsers that do not support TLS 1.1 or later. We do not expect this to have a significant impact to customer data or reporting. Migrating to TLS 1.2 provides improved security. It is important that you go through the specifics and plan out the changes for a smooth transition. For more information, see [TLS (Transport Layer Security) Encryption Changes](../c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md).
+* On February 20, 2019, Adobe Target infrastructure was upgraded in the EMEA, Japan, and APAC regions to no longer collect data from end users with older devices or web browsers that do not support TLS 1.1 or later. This same upgrade is planned for the North America region on **March 4, 2019**. Migrating to TLS 1.2 provides improved security. It is important that you go through the specifics and plan out the changes for a smooth transition.  For more information, see [TLS (Transport Layer Security) Encryption Changes](../c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md).
 * [!DNL Target] and the [!DNL Adobe Marketing Cloud] will drop support for Microsoft Internet Explorer 11 starting in March 2019. This change affects [!DNL Target] authoring only; this change does not affect experience delivery. Please switch to Microsoft Edge or another browser. For more information, see [Supported browsers](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md).
 
 ## Platform Changes (February 19, 2019) {#platform-changes-19-2-1-prerelease}
