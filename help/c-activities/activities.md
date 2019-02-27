@@ -27,12 +27,12 @@ There are several types of activities:
 |--- |--- |
 |[A/B Test](/help/c-activities/t-test-ab/test-ab.md)|A/B Testing compares two or more versions of your Web site content to see which version best improves your conversions during a pre-specified test period.|
 |[Auto-Allocate](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)|Auto Allocate identifies a winner among two or more experiences and automatically reallocates more traffic to the winner to increase conversions while the test continues to run and learn.|
-|[Auto-Target](/help/c-activities/auto-target-to-optimize.md)<br>(Target Premium) |Auto Target uses advanced machine learning to identify multiple high performing marketer-defined experiences, and serves the most tailored experience to each visitor based on their individual customer profile and the behavior of previous visitors with similar profiles, in order to personalize content and drive conversions.|
+|[Auto-Target](/help/c-activities/auto-target-to-optimize.md)<br>![Target Premium](/help/assets/premium.png)|Auto Target uses advanced machine learning to identify multiple high performing marketer-defined experiences, and serves the most tailored experience to each visitor based on their individual customer profile and the behavior of previous visitors with similar profiles, in order to personalize content and drive conversions.|
 |[Using Analytics Data](/help/c-activities/t-test-ab/t-test-create-ab/create-a4t.md)|You can configure an activity to use [!DNL Adobe Analytics] as the reporting source. This activity type requires that you link your  [!DNL Adobe Experience Cloud] account with both [!DNL Analytics] and [!DNL Target].|
 |[Multivariate Test](/help/c-activities/c-multivariate-testing/multivariate-testing.md)|Multivariate Testing (MVT) compares combinations of offers in elements on a page to determine which combination performs the best for a specific audience, and identifies which element most impacts the activity's success.|
 |[Experience Targeting](/help/c-activities/t-experience-target/experience-target.md)|Experience Targeting (XT) delivers content to a specific audience based on a set of marketer-defined rules and criteria.|
-|[Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md)<br>(Target Premium)|Automated Personalization (AP) combines offers or messages, and uses advanced machine learning to match different variations to each visitor based on their individual customer profile, in order to personalize content and drive conversions.|
-|[Recommendations](/help/c-recommendations/recommendations.md)<br>(Target Premium)|A recommendation determines how a product is suggested to a website user, depending on that user's activities on the site.<br>For example, you might want to encourage people who purchase a backpack to consider buying hiking shoes and trekking poles. You could create a recommendation that shows items that are often purchased together, using the "People who bought this also bought that" algorithm. Or, you might want to encourage visitors to spend more time on your media site by recommending similar video to the one they are watching, using the "People who viewed this viewed that" algorithm.|
+|[Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md)<br>![Target Premium](/help/assets/premium.png)|Automated Personalization (AP) combines offers or messages, and uses advanced machine learning to match different variations to each visitor based on their individual customer profile, in order to personalize content and drive conversions.|
+|[Recommendations](/help/c-recommendations/recommendations.md)<br>![Target Premium](/help/assets/premium.png)|A recommendation determines how a product is suggested to a website user, depending on that user's activities on the site.<br>For example, you might want to encourage people who purchase a backpack to consider buying hiking shoes and trekking poles. You could create a recommendation that shows items that are often purchased together, using the "People who bought this also bought that" algorithm. Or, you might want to encourage visitors to spend more time on your media site by recommending similar video to the one they are watching, using the "People who viewed this viewed that" algorithm.|
 
 ## Activities list {#section_DE8E2DB30D534962A931EF8BB48240F5}
 
@@ -79,7 +79,7 @@ Note the following details about the Activity list:
 
 By default, the list is sorted by the date the activity was last modified, with the most recent on top. However, there are several filtering options to help you customize the list to show the activities you want to see.
 
-### Search
+### Search {#search-heading}
 
 Use the search field to search for activities that match your search criteria.
 
