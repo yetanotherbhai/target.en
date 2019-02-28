@@ -1,7 +1,7 @@
 ---
 description: This section contains the first steps Target administrators should take after receiving the emailed invitation to the Adobe Experience Cloud.
 keywords: Administration;approver role;approver
-seo-description: This section contains the first steps Target administrators should take after receiving the emailed invitation to the Adobe Experience Cloud.
+seo-description: This section contains the first steps Adobe Target administrators should take after receiving the emailed invitation to the Adobe Experience Cloud.
 seo-title: Administrator first steps
 solution: Target
 subtopic: Getting Started
@@ -12,7 +12,7 @@ uuid: 1a7ea739-4fa6-444a-8f39-17cf346c73c2
 
 # Administrator first steps{#administrator-first-steps}
 
-This section contains the first steps Target administrators should take after receiving the emailed invitation to the Adobe Experience Cloud.
+This section contains the first steps [!DNL Target] administrators should take after receiving the emailed invitation to the [!DNL Adobe Experience Cloud].
 
 ## Invite users to Target {#task_3E0817630774431983FAA3D2CB2E75BD}
 
@@ -20,22 +20,17 @@ Administrators add users to [!DNL Target] by inviting them to join.
 
 1. Add the new user in the role-specific groups in the Enterprise Dashboard.
 
-   After you add a user, the user receives an invitation email. 
+   After you add a user, the user receives an invitation email.
+
 1. After the user accepts the invitation and logs in to [!DNL Target], configure the user's permission level on the [!UICONTROL Users] page in [!DNL Target Standard/Premium] ( **[!UICONTROL Setup]** > **[!UICONTROL Users]**).
 
-   You will not see the new user listed on the [!UICONTROL Users] page until the user logs in using his or her Adobe Experience Cloud account and then logs in to [!DNL Target Standard/Premium] by clicking the [!DNL Target] card.
+   You will not see the new user listed on the [!UICONTROL Users] page until the user logs in using his or her [!DNL Adobe Experience Cloud] account and then logs in to [!DNL Target Standard/Premium] by clicking the [!DNL Target] card.
 
-   ![](assets/target_card.png)
+   ![Target card](/help/administrating-target/assets/target_card_new.png)
 
 ## Accept the invitation {#task_24FE66659E634B24AB61DB8497772E17}
 
 After receiving the invitation to join the [!DNL Adobe Experience Cloud], accept the invitation, log in, and accept the End User Licence Agreement (EULA).
-
-<!-- 
-
-ov/t_accept_invitation.xml
-
- -->
 
 1. Accept the invitation to the [!DNL Adobe Experience Cloud].
 1. If you do not already have an Adobe ID, you are prompted to create one.

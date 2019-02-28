@@ -1,8 +1,8 @@
 ---
-description: Information to help you set up Adobe Target, including preferences, implementation, user management, Scene7 settings, and host management.
+description: Information to help you set up Target, including preferences, implementation, user management, properties, Scene7 settings, host management, and response tokens.
 keywords: implement;implementing;setting up;setup
-seo-description: Information to help you set up Adobe Target, including preferences, implementation, user management, Scene7 settings, and host management.
-seo-title: Administer Target
+seo-description: Information to help you set up Adobe Target, including preferences, implementation, user management, properties, Scene7 settings, host management, and response tokens.
+seo-title: Administer Adobe Target
 solution: Target
 subtopic: Getting Started
 title: Administer Target
@@ -12,25 +12,16 @@ uuid: 496f2dbe-96e2-4cd5-ba2e-d980d80eceb9
 
 # Administer Target{#administer-target}
 
-Information to help you set up Adobe Target, including preferences, implementation, user management, Scene7 settings, and host management.
-
-## Administer Target {#concept_54E75198485F4D2185FE56F96D37E5C2}
-
-Information to help you set up [!DNL Adobe Target], including preferences, implementation, user management, [!DNL Scene7] settings, and host management.
-
-<!-- 
-
-ov/c_seting_up_target.xml
-
- -->
+Information to help you set up Adobe Target, including preferences, implementation, user management, properties, Scene7 settings, host management, and response tokens.
 
 To access the [!UICONTROL Setup] menu items, click **[!UICONTROL Setup]** in the top menu bar, then click the desired tab along the left side:
 
-* Preferences 
-* Implementation 
-* Users 
-* Scene7 Settings 
-* Hosts
+* [Preferences](/help/administrating-target/r-target-account-preferences/target-account-preferences.md) 
+* [Implementation](/help/c-implementing-target/implementing-target.md) 
+* [Users](/help/administrating-target/c-user-management/user-management.md)
+* [Properties](/help/administrating-target/c-user-management/property-channel/property-channel.md)
+* [Scene7 Settings](/help/administrating-target/scene7-settings.md) 
+* [Hosts](/help/administrating-target/hosts.md)
+* [Response Tokens](/help/administrating-target/response-tokens.md)
 
-![](assets/setup_menu.png)
-
+![Adobe Target Setup menu](/help/administrating-target/assets/setup_menu_new.png)

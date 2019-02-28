@@ -17,5 +17,4 @@ Troubleshooting information about managing users in Adobe Target.
 
 You will not see the new user listed on the [!UICONTROL Users] page until the user logs in using his or her Adobe Experience Cloud account and then logs in to [!DNL Target Standard/Premium] by clicking the [!DNL Target] card.
 
-![](assets/target_card.png)
-
+![Target card](/help/administrating-target/assets/target_card_new.png)
