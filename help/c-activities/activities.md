@@ -1,8 +1,8 @@
 ---
 description: Activities let you test page designs and target content to specific audiences.
 keywords: activities list;activities;activity;activity types;edit activity;activity actions;activity attribute;activity list filter;activity limitations
-seo-description: Activities let you test page designs and target content to specific audiences.
-seo-title: Activities
+seo-description: Activities in Adobe Target let you test page designs and target content to specific audiences.
+seo-title: Activities in Adobe Target
 solution: Target
 title: Activities
 topic: Standard
@@ -11,47 +11,53 @@ uuid: 89dca5b4-c23d-4dfa-8f13-f1b05c7ab22c
 
 # Activities{#activities}
 
-Activities let you test page designs and target content to specific audiences.
+Activities let you test page designs and target content to specific audiences. An activity determines the experiences a site visitor might encounter.
 
-An activity determines the experiences a site visitor might encounter.
-
-For example, you might design an activity that tests two different landing pages, one that highlights information about women's summer shoes, and one that highlights more general summer apparel. The activity determines the conditions that control when each of these landing pages appears, and the metrics that determine which page is more successful. The activity is configured to start and end when specific conditions are met, such as between specific dates, or to start when the activity is approved and to end when it is deactivated.
+For example, you might design an activity that tests two different landing pages, one that highlights information about women's summer shoes, and another landing page that highlights more general summer apparel. The activity determines the conditions that control when each of these landing pages appears, and the metrics that determine which page is more successful. The activity is configured to start and end when specific conditions are met, such as between specific dates, or to start when the activity is approved and to end when it is deactivated.
 
 When designing an activity, you should plan carefully. Determine when the activity will start and how long it will last. Then, list your offers and assign a target audience to each one.
 
 ## Activity types
 
-There are several types of activities:
+Target includes several activity types. The following table provides an overview of each activity type with links to help you learn more. To help you better choose the best activity type for your purposes, we have also created the [Adobe Target Activities Guide](/help/c-activities/target-activities-guide.md).
 
 | Activity Type | Description |
 |--- |--- |
-|[A/B Test](/help/c-activities/t-test-ab/test-ab.md)|A/B Testing compares two or more versions of your Web site content to see which version best improves your conversions during a pre-specified test period.|
-|[Auto-Allocate](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)|Auto Allocate identifies a winner among two or more experiences and automatically reallocates more traffic to the winner to increase conversions while the test continues to run and learn.|
-|[Auto-Target](/help/c-activities/auto-target-to-optimize.md)<br>![Target Premium](/help/assets/premium.png)|Auto Target uses advanced machine learning to identify multiple high performing marketer-defined experiences, and serves the most tailored experience to each visitor based on their individual customer profile and the behavior of previous visitors with similar profiles, in order to personalize content and drive conversions.|
-|[Using Analytics Data](/help/c-activities/t-test-ab/t-test-create-ab/create-a4t.md)|You can configure an activity to use [!DNL Adobe Analytics] as the reporting source. This activity type requires that you link your  [!DNL Adobe Experience Cloud] account with both [!DNL Analytics] and [!DNL Target].|
+|[A/B Test](/help/c-activities/t-test-ab/test-ab.md)|A/B Testing compares two or more versions of your Web site content to see which version best improves your conversions during a pre-specified test period.<br>**Note:** You can now include [recommendations inside A/B Test activities](/help/c-recommendations/recommendations-as-an-offer.md). This functionality requires that you have a [Target Premium license](/help/c-intro/intro.md#premium).|
+|[Auto-Allocate](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)|Auto Allocate identifies a winner among two or more experiences and automatically reallocates more traffic to the winner to increase conversions while the test continues to run and learn.<br>**Note:** You can now include [recommendations inside Auto-Allocate activities](/help/c-recommendations/recommendations-as-an-offer.md). This functionality requires that you have a TThis functionality requires that you have a [Target Premium license](/help/c-intro/intro.md#premium).|
+|[Auto-Target](/help/c-activities/auto-target-to-optimize.md)<br>![Target Premium](/help/assets/premium.png)|Auto Target uses advanced machine learning to identify multiple high performing marketer-defined experiences, and serves the most tailored experience to each visitor based on their individual customer profile and the behavior of previous visitors with similar profiles, in order to personalize content and drive conversions.<br>**Note:** You can now include [recommendations inside Auto-Target activities](/help/c-recommendations/recommendations-as-an-offer.md). This functionality requires that you have a This functionality requires that you have a [Target Premium license](/help/c-intro/intro.md#premium).|
+|[Using Analytics Data](/help/c-activities/t-test-ab/t-test-create-ab/create-a4t.md) (A4T)|You can configure an activity to use [!DNL Adobe Analytics] as the reporting source. This activity type requires that you link your  [!DNL Adobe Experience Cloud] account with both [!DNL Analytics] and [!DNL Target].|
 |[Multivariate Test](/help/c-activities/c-multivariate-testing/multivariate-testing.md)|Multivariate Testing (MVT) compares combinations of offers in elements on a page to determine which combination performs the best for a specific audience, and identifies which element most impacts the activity's success.|
-|[Experience Targeting](/help/c-activities/t-experience-target/experience-target.md)|Experience Targeting (XT) delivers content to a specific audience based on a set of marketer-defined rules and criteria.|
+|[Experience Targeting](/help/c-activities/t-experience-target/experience-target.md)|Experience Targeting (XT) delivers content to a specific audience based on a set of marketer-defined rules and criteria.<br>**Note:** You can now include [recommendations inside Experience Targeting activities](/help/c-recommendations/recommendations-as-an-offer.md). This functionality requires that you have a [Target Premium license](/help/c-intro/intro.md#premium).|
 |[Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md)<br>![Target Premium](/help/assets/premium.png)|Automated Personalization (AP) combines offers or messages, and uses advanced machine learning to match different variations to each visitor based on their individual customer profile, in order to personalize content and drive conversions.|
-|[Recommendations](/help/c-recommendations/recommendations.md)<br>![Target Premium](/help/assets/premium.png)|A recommendation determines how a product is suggested to a website user, depending on that user's activities on the site.<br>For example, you might want to encourage people who purchase a backpack to consider buying hiking shoes and trekking poles. You could create a recommendation that shows items that are often purchased together, using the "People who bought this also bought that" algorithm. Or, you might want to encourage visitors to spend more time on your media site by recommending similar video to the one they are watching, using the "People who viewed this viewed that" algorithm.|
+|[Recommendations](/help/c-recommendations/recommendations.md)<br>![Target Premium](/help/assets/premium.png)|A recommendation determines how a product is suggested to a website user, depending on that user's activities on the site.<br>For example, you might want to encourage people who purchase a backpack to consider buying hiking shoes and trekking poles. You could create a recommendation that shows items that are often purchased together, using the "People who bought this also bought that" algorithm. Or, you might want to encourage visitors to spend more time on your media site by recommending similar video to the one they are watching, using the "People who viewed this viewed that" algorithm.<br>**Note:** You can now include recommendations inside A/B Test (including Auto-Allocate and Auto-Target) and Experience Targeting (XT) activities. See [Recommendations as an offer](/help/c-recommendations/recommendations-as-an-offer.md).|
 
 ## Activities list {#section_DE8E2DB30D534962A931EF8BB48240F5}
 
-The [!UICONTROL Activities] list provides an overview of all activities.
+The [!UICONTROL Activities] list is the default view when you open [!DNL Target]. You can create new activities from this page and manage existing activities.
 
-The Activities list displays the following information:
+You can also display the [!UICONTROL Activities] list by clicking the [!UICONTROL Activities] tab at the top of the [!DNL Target] UI.
+
+![Activities list](/help/c-activities/assets/activities-list.png)
+
+The Activities list provides an overview of all activities:
 
 | Element | Description |
 |--- |--- |
 |Type|The activity type, such as A/B or MVT.|
 |Name|The name of the activity.|
-|Objective|The objective appears in lighter text next to the name. If the objective is too long for your screen width, it is truncated.|
 |URL|The URL appears in lighter text below the name.<br>The URL for the activity identifies where the activity is displayed. This helps you quickly identify an activity, and determine whether a particular page already has a test running on it.<br>If a test runs on multiple URLs, a link shows how many more URLs are used. Click the link to view the complete list of URLs for that activity.<br>You can search based on URL. Use the drop-down list next to search box and select [!UICONTROL Search URL].|
 |Status|The status of the activity can be one of the following:<ul><li>**Live**: The activity is currently running.</li><li>**Draft**: The activity setup has started but the activity is not yet ready to run.</li><li>**Scheduled**: The activity is ready to be activated when the specified start date and time arrives.</li><li>**Inactive**: The activity has been paused or deactivated.</li><li>**Syncing**: The activity has been saved and is being synced to the Target delivery network.</li><li>**Ended**: The specified end date and time of activity has reached and the activity is no longer being served.</li><li>**Archived**: The activity has been archived. You can activate an archived activity to use it again.</li></ul>**Note**: When you perform certain actions, such as activating an activity outside of the UI using API methods, the update can take up to ten minutes to propagate to the UI.|
 |Source|Shows where the activity was created:<ul><li>Adobe Target</li><li>Adobe Target Classic</li><li>Adobe Experience Manager (AEM)</li><li>Adobe Mobile Services (AMS)</li></ul>|
+|Property|Shows the [property](/help/administrating-target/c-user-management/property-channel/property-channel.md) for the activity.  |
 |Estimated Lift in Revenue|Shows the predicted increase in revenue if 100% of the audience sees the winning experience.<br>Calculated using the following formula:<br>`(<winning experience> - <control experience>)*<total number of visitors>`<br>This number is rounded to one decimal place, maximum, if the condensed form has only a single digit before the decimal. For example: $1.6M, $60K, $900, $8.5K, $205K<br>This column shows "---" for activities that do not have enough data to call a winner show or do not have a cost estimate.<br>See [Estimating Lift in Revenue](/help/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md) for more information.|
 |Last Updated|The date when the activity was last updated, and by whom.|
 
-Mouse over an activity to see the available actions:
+Mouse over an activity to see the available actions.
+
+![Activities list hover actions](/help/c-activities/assets/activities_list_hover.png)
+
+The following actions are available (depending on your permissions):
 
 |Action|Description|
 | --- | --- |
@@ -83,7 +89,7 @@ By default, the list is sorted by the date the activity was last modified, with 
 
 Use the search field to search for activities that match your search criteria.
 
-![](assets/activities_search.png)
+![Activities search](/help/c-activities/assets/activities_search_new.png)
 
 The search field includes a drop-down menu to help you narrow your search by specifying one of the following search filters: [!UICONTROL Activity Name] and [!UICONTROL URL].
 
@@ -91,13 +97,13 @@ The search field includes a drop-down menu to help you narrow your search by spe
 
 You can determine which activities appear in your Activities list by selecting list filters.
 
-![](assets/activities_filters.png)
+![Filter activities by type](/help/c-activities/assets/activities_filters_new.png)
 
 You can filter by the following options. In each category, if nothing is selected, the default is All.
 
 | Filter Category | Filter |
 |--- |--- |
-|Type|A/B Test: A/B Test Manual, Auto-Allocate, and Auto-Target.<br>Automated Personalization<br>Experience Targeting<br>Multivariate test<br>Recommendations|
+|Type|A/B Test: [Manual](/help/c-activities/t-test-ab/test-ab.md), [Auto-Allocate](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md), and [Auto-Target](/help/c-activities/auto-target-to-optimize.md).<br>[Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md)<br>[Experience Targeting](/help/c-activities/t-experience-target/experience-target.md)<br>[Multivariate Test](/help/c-activities/c-multivariate-testing/multivariate-testing.md)<br>[Recommendations](/help/c-recommendations/recommendations.md)|
 |Status|Live<br>Draft<br>Scheduled<br>Inactive<br>Syncing<br>Ended<br>Archived|
 |Reporting Source|Target<br>Analytics|
 |Experience Composer|Visual<br>Form-Based|
@@ -111,13 +117,15 @@ Click one of the following headings to toggle whether the activities are listed 
 * Activity Name 
 * Activity Type
 
+![Activities list ascending order](/help/c-activities/assets/activities_list_ascending.png)
+
 ## Tips and tricks {#section_F77F30A246A14B538D9363B7F3639F97}
 
 Get the most out of Adobe Target by learning more about various features and see why you should give them a try. The Tips and Tricks feature provides links to videos, use-cases, blogs, documentation, and much more.
 
 The Tips and Tricks feature displays periodically on the Activities list page. After you read or dismiss a tip, it does not display again until the next tip is available. You can optionally disable all tips from displaying by clicking the Help icon > [!UICONTROL Disable Tip of the Day].
 
-![](assets/tip-disable.png)
+![Disable tip of the day](/help/c-activities/assets/tip-disable-new.png)
 
 ## Limitations {#section_049D4684403A4E07B998067EB8E9BE56}
 
