@@ -17,6 +17,9 @@ This page lists important changes made to the Target documentation.
 
 |Date|Topic|Changes|
 | --- | --- | --- |
+|February 28, 2019|[Activities](/help/c-activities/activities.md)|Updated text and images.|
+||[Introduction to Target](/help/c-intro/intro.md)|Added "Recommendations as an offer" under "Target Premium."|
+||[Target key concepts](/help/c-intro/target-key-concepts.md)|Updated "Activity Types" table.|
 |February 26, 2019|[Known issues and resolved issues](/help/r-release-notes/known-issues-resolved-issues.md)|Added a known issue about Enterprise Permissions support in Target APIs.|
 |February 25, 2019|[Target release notes (current)](/help/r-release-notes/release-notes.md), <br>[Target release notes (prerelease)](/help/r-release-notes/target-release-notes.md), and <br>[TLS (Transport Layer Security) encryption changes](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md)|Updated the following information:<br>On February 20, 2019, Adobe Target infrastructure was upgraded in the EMEA, Japan, and APAC regions to no longer collect data from end users with older devices or web browsers that do not support TLS 1.1 or later. This same upgrade is planned for the North America region on **March 4, 2019**. Migrating to TLS 1.2 provides improved security. It is important that you go through the specifics and plan out the changes for a smooth transition. |
 ||[Upgrading from at.js 1.x to at.js 2.0.0](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#payload-mapping)|New section: "at.js 1.x parameters to at.js 2.0.0 payload mapping."|

@@ -35,7 +35,7 @@ Industry best practices are built into [!DNL Target Standard], and it is designe
 
 [!DNL Target Standard] will continue to be enhanced with functionality currently found in [!DNL Target Classic], over the next several releases.
 
-## Target Premium {#section_7728D488C2824105A1D5C6675352CE23}
+## Target Premium {#premium}
 
 [!DNL Target Premium] is an advanced [!DNL Target] license that adds premium features to [!DNL Target Standard].
 
@@ -72,6 +72,17 @@ A recommendation determines how a product is suggested to a customer, depending 
 * Suggest that customers who viewed information about savings plans at your bank also read about IRA accounts.
 
   Show other products people purchased after viewing one product without showing the first product in the recommendations, using the "people who viewed this also bought" criteria.
+
+### Recommendations as an offer
+
+[Recommendations as an offer](/help/c-recommendations/recommendations-as-an-offer.md) lets you include recommendations inside [!UICONTROL A/B Test] (including [!UICONTROL Auto-Allocate] and [!UICONTROL Auto-Target]) and [!UICONTROL Experience Targeting] (XT) activities. 
+
+This functionality opens up entirely new capabilities, such as:
+
+* Test and target recommendations and non-recommendations content within the same activity.
+* Easily experiment with placement of recommendations on the page, including the order of multiple recommendations.
+* Automatically push traffic to the best-performing recommendations experience using [!UICONTROL Auto-Allocate].
+* Dynamically assign visitors to tailored recommendations experiences based on their profile using [!UICONTROL Auto-Target].
 
 ### Enterprise User Permissions
 
