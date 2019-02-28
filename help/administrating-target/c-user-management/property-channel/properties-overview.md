@@ -1,7 +1,7 @@
 ---
-description: Information about the tasks required to add users to your Target implementation;create workspaces, user groups, and properties;update your Target implementation to include the at_property parameter;and specify roles and permissions.
+description: Information about the tasks required to add users to your Target implementation; create workspaces, user groups, and properties; update your Target implementation to include the at_property parameter; and specify roles and permissions.
 keywords: add user;project;user group;properties;workspace;manage property;property;at_property;roles;permissions
-seo-description: Information about the tasks required to add users to your Target implementation;create workspaces, user groups, and properties;update your Target implementation to include the at_property parameter;and specify roles and permissions.
+seo-description: Information about the tasks required to add users to your Adobe Target implementation; create workspaces, user groups, and properties; update your Target implementation to include the at_property parameter; and specify roles and permissions.
 seo-title: Configure enterprise permissions
 solution: Target
 subtopic: Getting Started
@@ -60,7 +60,7 @@ Users can be part of multiple workspaces and can even have different roles withi
 
 1. In the Admin Console, click **[!UICONTROL Products]**, then select the name of the desired product.
 
-   ![](assets/workspace.png)
+   ![workspace](/help/administrating-target/c-user-management/c-user-management/assets/workspace.png)
 
 1. Create the desired workspace (Product Profile):
 
@@ -87,7 +87,7 @@ You'll need to pass the workspace ID to leverage Enterprise Permissions in [Targ
 1. In the [Adobe Admin Console](https://adminconsole.adobe.com), click the [!UICONTROL Products] tab, then click the product in the left menu to display the PLC(workspace) list.
 1. Click the desired PLC(workspace), then locate the "profiles" ID in the URL, as shown below.
 
-![workspaceID](/help/administrating-target/c-user-management/property-channel/assets/workspace-id.png)
+![workspaceID](/help/administrating-target/c-user-management/property-channel/assets/workspace-id-newest.png)
 
 ## Step 3. Create User Groups (Optional) {#section_5F5CB9AA7A9F4D26953E22016DA59605}
 
@@ -107,7 +107,7 @@ Properties belong to specific channels (Web, Mobile, Email, and API/Other).
 1. In [!DNL Target], click **[!UICONTROL Setup]** > **[!UICONTROL Properties]** to display the [!UICONTROL Properties] list. 
 1. Click **Create Property**.
 
-   ![](assets/new_property.png)
+   ![New Property dialog box](/help/administrating-target/c-user-management/property-channel/assets/new_property1.png)
 
    Fill in the fields:
 
@@ -136,11 +136,11 @@ To use the [!DNL Target] user-permissions functionality, you must add the `at_pr
 
     1. Hover your mouse pointer over the [!UICONTROL Last Updated] column for the desired property to display and click the [!UICONTROL Code] icon.
 
-       ![](assets/code_property.png)
+       ![Property hover code](/help/administrating-target/c-user-management/property-channel/assets/code_property_new.png)
 
     1. Right-click the highlighted implementation code to copy it to your clipboard.
 
-       ![](assets/code_property_2.png)
+       ![Property code](/help/administrating-target/c-user-management/property-channel/assets/code_property_2_new.png)
 
 1. Update your Target implementation with the implementation code obtained in the previous step.
 
@@ -168,7 +168,7 @@ To use the [!DNL Target] user-permissions functionality, you must add the `at_pr
 
 1. In the Admin Console, click **[!UICONTROL Products]**, then select the name of the desired product.
 
-   ![](assets/workspace.png)
+   ![workspace](/help/administrating-target/c-user-management/c-user-management/assets/workspace.png)
 
    >[!NOTE]
    >
@@ -179,7 +179,7 @@ To use the [!DNL Target] user-permissions functionality, you must add the `at_pr
 
    The [!UICONTROL Configuration Users] tab displays all of the users in that workspace.
 
-   ![](assets/configuration_users.png)
+   ![Configure users](/help/administrating-target/c-user-management/property-channel/assets/configuration_users_new.png)
 
 1. Select the desired permissions role (Approver, Editor, or Observer) by using the drop-down list for each user in the [!UICONTROL Product Role] column.
 
