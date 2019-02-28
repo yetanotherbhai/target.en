@@ -1,7 +1,7 @@
 ---
 description: Set your account preferences to configure Target Standard or Target Premium to work correctly with your account.
 keywords: account preferences;preferences;site details;custom mbox name;Experience Cloud solution used for reporting;Show estimated lift in revenue;css selectors;use element classes;Default Visual Experience Composer URL;Enable Enhanced Experience Composer;Generate Experience Snapshots;mobile viewport configuration;Industry Vertical;Filter Incompatible Criteria
-seo-description: Set your account preferences to configure Target Standard or Target Premium to work correctly with your account.
+seo-description: Set your account preferences to configure Adobe Target Standard or Target Premium to work correctly with your account.
 seo-title: Preferences
 solution: Target
 subtopic: Getting Started
