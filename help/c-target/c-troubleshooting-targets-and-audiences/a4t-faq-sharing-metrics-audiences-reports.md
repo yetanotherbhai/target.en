@@ -15,7 +15,7 @@ This topic contains answers to questions that are frequently asked about sharing
 
 ## How can I curate a report for my users? {#section_24176388591A488C86F972213CD6A123}
 
-Often, you want to create a view of a test for different groups of users to make it easier for them to look at the test results. In Analytics, it is possible to create a bookmark that will save the current view of a report (the metrics, date ranges, segments, etc.).
+Often, you want to create a view of a test for different groups of users to make it easier for them to look at the test results. In Analytics, it is possible to create a bookmark that will save the current view of a report, including metrics, date ranges, segments, and other data.
 
 For more information, see [Create a Bookmark](https://marketing.adobe.com/resources/help/en_US/sc/user/t_bookmarks_creating.html).
 
