@@ -74,7 +74,7 @@ if (mbox.name == 'Track_Interest') {
 * Parameters and values are case sensitive.
 
   Match the case of the parameters and values you will receive during the campaign or test. 
-* Reference the [JavaScript Expressions for Targeters and Profile Scripts Cheat Sheet](https://marketing.adobe.com/resources/help/en_US/tnt/pdf/js_expression_cheat_sheet.pdf) for more JavaScript syntax.
+* Reference the [JavaScript Expressions for Targeters and Profile Scripts Cheat Sheet](/help/assets/js_expression_cheat_sheet.pdf) for more JavaScript syntax.
 
 ## Viewing Profile Script Information Cards {#section_18EA3B919A8E49BBB09AA9215E1E3F17}
 
