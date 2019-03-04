@@ -27,6 +27,21 @@ In the classic [!DNL Recommendations] product, recommendations were displayed by
 
 The [!DNL Recommendations] activity in [!DNL Target] improves on [!DNL Recommendations Classic] in the following main areas:
 
+## Recommendations as an offer
+
+You can include recommendations inside [!UICONTROL A/B Test] (including [!UICONTROL Auto-Allocate] and [!UICONTROL Auto-Target]) and [!UICONTROL Experience Targeting] (XT) activities. 
+
+This functionality opens up entirely new capabilities, such as:
+
+* Test and target recommendations and non-recommendations content within the same activity.
+* Easily experiment with placement of recommendations on the page, including the order of multiple recommendations.
+* Automatically push traffic to the best-performing recommendations experience using [!UICONTROL Auto-Allocate].
+* Dynamically assign visitors to tailored recommendations experiences based on their profile using [!UICONTROL Auto-Target].
+
+To get started, create an [!UICONTROL A/B Test] or [!UICONTROL Experience Targeting] activity using the [!UICONTROL Visual Experience Composer] and use the [!UICONTROL Insert Before], [!UICONTROL Insert After], or [!UICONTROL Replace With] action to add recommendations to an experience.
+
+For more information, see [Recommendations as an offer](/help/c-recommendations/recommendations-as-an-offer.md).
+
 ## Criteria {#section_117709846DAA404580EBE879FFCBD9BA}
 
 [!DNL Target Recommendations] includes a criteria library containing prepackaged sets of rules and configurations. In [!DNL Recommendations Classic], each recommendation was built manually by filling out a form and choosing from the large list of rules. Now, when creating a [!DNL Recommendations] activity, you simply choose a pre-configured criteria set. You can still create custom recommendations, but the criteria library contains many of the most common configurations, pre-built to simplify the process, and using language that people understand. These prepackaged criteria can be used as is, or they can be copied and edited to fit your specific needs.

@@ -17,6 +17,8 @@ This page lists important changes made to the Target documentation.
 
 |Date|Topic|Changes|
 | --- | --- | --- |
+|March 4, 2019|[Recommendations Classic documentation](/help/c-recommendations/recommendations-classic-documentaton.md)|New topic.|
+||[Recommendations Classic versus Recommendations activities in Target Premium](/help/c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md)|Added information about Recommendations as an offer.|
 |February 28, 2019|[Activities](/help/c-activities/activities.md)|Updated text and images.|
 ||[Introduction to Target](/help/c-intro/intro.md)|Added "Recommendations as an offer" under "Target Premium."|
 ||[Target key concepts](/help/c-intro/target-key-concepts.md)|Updated "Activity Types" table.|
