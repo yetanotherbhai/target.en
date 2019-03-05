@@ -49,45 +49,45 @@ The category affinity algorithm works as follows:
 
 For example, viewing the `mens-clothing` category, then `accessories`, then `jewelry`, then `accessories` again in a session results in affinities of:
 
-`accessories`: 9 (+5 – 1 + 5)
+* `accessories`: 9 (+5 – 1 + 5)
 
-`mens-clothing`: 8 (+10 – 1 – 1)
+* `mens-clothing`: 8 (+10 – 1 – 1)
 
-`jewelry`: 5 (+5)
+* `jewelry`: 5 (+5)
 
 When the session ends, and the user later returns to the site, the scores are halved:
 
-`accessories`: 4.5 (9/2)
+* `accessories`: 4.5 (9/2)
 
-`mens-clothing`: 4 (8/2)
+* `mens-clothing`: 4 (8/2)
 
-`jewelry`: 2.5 (5/2)
+* `jewelry`: 2.5 (5/2)
 
 Assuming the user then views, in order, `jewelry`, `accessories`, `beauty`, `shoes`, and `womens-clothing`:
 
-`accessories`: 6.5 (4.5 + 5 – 1 – 1 - 1)
+* `accessories`: 6.5 (4.5 + 5 – 1 – 1 - 1)
 
-`womens-clothing`: 5 (+5)
+* `womens-clothing`: 5 (+5)
 
-`jewelry`: 4.5 (2.5 + 5 – 1 – 1 - 1)
+* `jewelry`: 4.5 (2.5 + 5 – 1 – 1 - 1)
 
-`shoes`: 4 (+5 – 1)
+* `shoes`: 4 (+5 – 1)
 
-`beauty`: 3 (+5 – 1 - 1)
+* `beauty`: 3 (+5 – 1 - 1)
 
-`mens-clothing` is dropped after the final click of `womens-clothing` as the lowest-scoring category with a score of 1 (4 – 1 – 1 - 1)
+* `mens-clothing` is dropped after the final click of `womens-clothing` as the lowest-scoring category with a score of 1 (4 – 1 – 1 - 1)
 
 When the session ends, and the user later returns to the site, the scores are halved:
 
-`accessories`: 3.3 (6.5/2)
+* `accessories`: 3.3 (6.5/2)
 
-`womens-clothing`: 2.5 (5/2)
+* `womens-clothing`: 2.5 (5/2)
 
-`jewelry`: 2.3 (4.5/2)
+* `jewelry`: 2.3 (4.5/2)
 
-`shoes`: 2 (4/2)
+* `shoes`: 2 (4/2)
 
-`beauty`: 1.5 (3/2)
+* `beauty`: 1.5 (3/2)
 
 ## Use category affinity for targeting {#concept_5750C9E6C97A40F8B062A5C16F2B5FFC}
 
