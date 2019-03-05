@@ -349,6 +349,7 @@ user-guide-title: Adobe Target Help
       + [Integrate Recommendations with email](c-recommendations/c-recommendations-faq/integrating-recs-email.md)
       + [IP addresses used by Recommendations feed-processing servers](c-recommendations/c-recommendations-faq/ip-addresses-marketing-cloud.md)
       + [Recommendations Classic versus Recommendations activities in Target Premium](c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md)
+   + [Recommendations Classic documentation](/help/c-recommendations/recommendations-classic-documentaton.md)
 + Troubleshoot Target {#troubleshoot}
    + [Troubleshoot Target](r-troubleshooting-target/troubleshooting-target.md)
    + [Limits](r-troubleshooting-target/target-limits.md)

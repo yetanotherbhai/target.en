@@ -59,6 +59,6 @@ The following sections describe the sequence of actions for new and returning vi
    * The Visitor API retrieves data from cookies.
    * After Experience Cloud Visitor ID data is retrieved, a request to Target is fired.
 
->[!NOTE}
+>[!NOTE]
 >
 >For new visitors, when the Visitor API is present, Target has to go over the wire multiple times to make sure that Target requests contain Experience Cloud Visitor ID data. For returning visitors, Target goes over the wire only to Target to retrieve the personalized content. 
