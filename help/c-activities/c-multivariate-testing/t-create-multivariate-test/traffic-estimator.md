@@ -34,12 +34,12 @@ The Traffic Estimator also provides feedback that lets you know whether you have
 
    ![](assets/estimatorempty.png)
 
-1. Provide the typical conversion rate, estimated activity impressions per day, and test duration.
+1. Provide the typical conversion rate, estimated visitors per day, and test duration.
 
-   * Number of Content Combinations: Calculated automatically based on the number of experiences being created as a part of your activity after any exclusions. 
-   * Typical Conversion Rate: The conversion rate is expressed as a percentage, based on your estimation or past data from your analytics system 
-   * Estimated Activity Impressions Per Day: This is the number of visitors who are likely to view this page based on the targeting criteria. This could be based on your analytics data. 
-   * Test Duration: The number of days you want the activity to run.
+   * [!UICONTROL Number of Content Combinations]: Calculated automatically based on the number of experiences being created as a part of your activity after any exclusions. 
+   * [!UICONTROL Typical Conversion Rate]: The conversion rate is expressed as a percentage, based on your estimation or past data from your analytics system 
+   * [!UICONTROL Estimated Visitors Per Day]: This is the number of visitors who are likely to view this page based on the targeting criteria. This could be based on your analytics data. 
+   * [!UICONTROL Test Duration]: The number of days you want the activity to run.
 
    The Traffic Estimator uses these statistics to determine what adjustments are needed to run a successful test.
 
