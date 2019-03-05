@@ -139,7 +139,7 @@ Each Target activity has the following content limitations:
 |Mboxes in metrics|50|
 |Audiences and locations|50 Audiences and locations (mbox) combination should not be more than 50.|
 
-If you exceed any of these limits, the activity cannot be saved.
+The activity cannot be saved if you exceed any of these limits.
 
 Increasing the numbers of these items in your activity also increases the length of time it takes to synchronize the activity across Target.
 
@@ -173,7 +173,7 @@ This video explains the activity types available in [!DNL Target Standard/Premiu
 
 * Describe the types of activities included in [!DNL Adobe Target] 
 * Select the appropriate activity type to achieve your goals 
-* Describe the three-step guided workflow that applies to all activity types
+* Describe the three-step guided workflow that applies to all activity types 
 
 >[!VIDEO](https://www.youtube.com/watch?v=vtHg1pPFJp8)
 
