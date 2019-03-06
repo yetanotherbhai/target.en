@@ -17,6 +17,7 @@ This page lists important changes made to the Target documentation.
 
 |Date|Topic|Changes|
 | --- | --- | --- |
+|March 5, 2019|[Target release notes (current)](/help/r-release-notes/release-notes.md),<br>[Target release notes (prerelease)](/help/r-release-notes/target-release-notes.md), and <br>[TLS (Transport Layer Security) encryption changes](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md)|Changed note regarding the TLS change. The exact date is to be determined.|
 |March 4, 2019|[Recommendations Classic documentation](/help/c-recommendations/recommendations-classic-documentaton.md)|New topic.|
 ||[Recommendations Classic versus Recommendations activities in Target Premium](/help/c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md)|Added information about Recommendations as an offer.|
 |February 28, 2019|[Activities](/help/c-activities/activities.md)|Updated text and images.|
