@@ -330,7 +330,7 @@ The following tables explain at.js. 2.0.0 compatibility with different activity 
 
 |Type|Supported?|
 | --- | --- |
-|Analytics for Target (A4T)|Yes|
+|Analytics for Target (A4T)|Yes<br>See "Use `TriggerView` to ensure that A4T works correctly with at.js 2.0.0 and SPAs" below for more information.|
 |Audiences|Yes|
 |Customer Attributes|Yes|
 |AEM Experience Fragments|Yes|
@@ -384,6 +384,22 @@ Another significant difference is that:
 
 The following sections list each at.js 1.*x* parameter, its description, and the corresponding 2.0.0 JSON payload (if applicable):
 
+### at_property
+
+(at.js 1.*x* parameter)
+
+Used for [Enterprise User Permissions](/help/administrating-target/c-user-management/property-channel/property-channel.md).
+
+```
+{
+  ....
+  "property": {
+    "token": "1213213123122313121"
+  }
+  ....
+}
+```
+
 ### browserHeight
 
 (at.js 1.*x* parameter)
@@ -393,7 +409,6 @@ The height of the visitor's browser window.
 at.js 2.0.0 JSON payload:
 
 ```
-
 {
   "context": {
     "window": {
@@ -817,6 +832,51 @@ at.js 2.0.0 JSON payload:
 (at.js 1.*x* parameter)
 
 Version is sent as a query string parameter via the version parameter.
+
+## Use TriggerView to ensure that A4T works correctly with at.js 2.0.0 and SPAs {#triggerview}
+
+To ensure that [Analytics for Target](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T) works correctly with at.js 2.0.0, be sure to send the same SDID in the Target request and in the Analytics request.
+
+As best practices related to SPAs:
+
+* Use custom events to notify that something interesting happens in the application
+* Fire a custom event before the view starts rendering
+* Fire a custom event when the view finishes rendering
+
+at.js 2.0.0 added a new [API triggerView()](/help/c-implementing-target/c-implementing-target-for-client-side-web/cmp-at.js-functions.md#adobe-target-triggerView) function. You should use `triggerView()` to notify at.js that a view will start rendering.
+
+To see how to combine custom events, at.js 2.0.0, and Analytics, let's see an example. This example assumes that the HTML page contains the Visitor API, followed by at.js 2.0.0, followed by AppMeasurement.
+
+Let's assume that the following custom events exist:
+
+* `at-view-start` - When the view starts rendering
+* `at-view-end` - When the view finishes rendering
+
+To make sure that A4T works with at.js 2.0.0,
+
+The view start handler should look something like this:
+
+```
+document.addEventListener("at-view-start", function(e) {
+  var visitor = Visitor.getInstance("<your Adobe Org ID>");
+  
+  visitor.resetState();
+  adobe.target.triggerView("<view name>");
+});
+```
+
+The view end handler should look something like this:
+
+```
+document.addEventListener("at-view-end", function(e) {
+  // s - is the AppMeasurement tracker object
+  s.t();
+});
+```
+
+Although these examples use JavaScript code, all this can be simplified if you are using a tag manager, such as [Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md).
+
+If the above steps are followed you should have a robust A4T solution for SPAs.
 
 ## Training video: at.js 2.0.0 architectural diagram
 
