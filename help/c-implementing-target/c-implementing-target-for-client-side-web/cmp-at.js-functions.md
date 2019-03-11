@@ -242,6 +242,85 @@ adobe.target.getOffers({
 });
 ```
 
+### Fetch and render data from multiple mboxes via getOffers() and applyOffers()
+
+at.js 2.0.0 lets you fetch multiple mboxes via the `getOffers()` API. You can also fetch data for multiple mboxes and then use `applyOffers()` to render the data in different locations identified by a CSS selector.
+
+The following example shows a simple HTML page with at.js 2.0.0 implemented:
+
+```
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>at.js 2.0.0, multiple selectors and multiple mboxes</title>
+  <script src="at.js"></script>
+</head>
+<body>
+  <div id="container1">Default content 1</div>
+  
+  <div id="container2">Default content 2</div>
+
+  <div id="container3">Default content 3</div>
+</body>
+</html>
+```
+
+Assume that you have three containers that you want to modify via content received from [!DNL Target]. You can construct a single request for three mboxes in which each mbox has some content to render into the respective container.
+
+The request and rendering code might look like the following example:
+
+```
+adobe.target.getOffers({
+  request: {
+    prefetch: {
+      mboxes: [
+        {
+          index: 0,
+          name: "mbox1"
+        },
+        {
+          index: 1,
+          name: "mbox2"
+        },
+        {
+          index: 2,
+          name: "mbox3"
+        }
+      ]
+    }
+  }
+})
+.then(response => {
+  // get all mboxes from response
+  const mboxes = response.prefetch.mboxes;
+  let count = 1;
+
+  mboxes.forEach(el => {
+    adobe.target.applyOffers({
+      selector: "#container" + count,
+      response: {
+        prefetch: {
+          mboxes: [el]
+        }
+      }
+    });
+
+    count += 1;
+  });
+});
+```
+
+In the `request > prefetch > mboxes` section, there are three different mboxes. If the request completed successfully, you receive the response for each mbox from `response > prefetch > mboxes`. After you have the responses and the locations you want to use for rendering, you can invoke `applyOffers()` to render the content retrieved from [!DNL Target]. In this example we have the following mapping:
+
+* mbox1 > CSS selector #container1
+* mbox2 > CSS selector #container2
+* mbox3 > CSS selector #container3
+
+This example uses the count variable to construct the CSS selectors. In a real-life scenario you could use a different mapping between the CSS selector and mbox.
+
+Note that this example uses `prefetch > mboxes`, but you could also use `execute > mboxes`. Ensure that if you use prefetch in `getOffers()`, you should also use prefetch in the `applyOffers()` invocation.
+
 ## adobe.target.applyOffer(options) {#reference_BBE83F513B5B4E03BBC3F50D90864245}
 
 This function is for applying the response content.
