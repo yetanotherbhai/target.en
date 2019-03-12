@@ -22,4 +22,4 @@ These domains, and many others, are part of the [Public Suffix List](https://pub
 
 The [!DNL at.js] and [!DNL mbox.js] JavaScript libraries use cookies to track users to ensure that [!DNL Target] always presents a consistent experience. If the [!DNL Target] JavaScript libraries can't save cookies, [!DNL Target] requests are disabled.
 
-**Solution:** As best practice, if you intend to use cloud-based instances with domains included on the Public Suffix List, make sure that you customize the `cookieDomain` setting. For more information, see [targetGlobalSettings()](../../../c-implementing-target/c-implementing-target-for-client-side-web/cmp-at.js-functions.md#concept_8DACBC47ABDE4279BB102B42609FE506). 
+**Solution:** As best practice, if you intend to use cloud-based instances with domains included on the Public Suffix List, make sure that you customize the `cookieDomain` setting. For more information, see [targetGlobalSettings()](../../../c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md#concept_8DACBC47ABDE4279BB102B42609FE506). 

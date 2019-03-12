@@ -32,7 +32,7 @@ Use the following steps to migrate from [!DNL mbox.js] to [!DNL at.js] and to ch
 
    >[!NOTE]
    >
-   >For more information about the various functions mentioned in the preceding table, see [at.js functions](/help/c-implementing-target/c-implementing-target-for-client-side-web/cmp-at.js-functions.md).
+   >For more information about the various functions mentioned in the preceding table, see [at.js functions](/help/c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md).
 
    **Do you have any customizations to your [!DNL mbox.js] file?**
 

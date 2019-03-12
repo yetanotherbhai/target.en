@@ -36,7 +36,7 @@ This page lists important changes made to the Target documentation.
 ||[Single Page Application implementation](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md)|New topic and training videos.|
 ||[at.js version details](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)|Added information about at.js versions 1.7.0 and 2.0.0.|
 ||[Upgrading from at.js 1.x to at.js 2.0.0](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md)|New topic and training video.|
-||[at.js functions](/help/c-implementing-target/c-implementing-target-for-client-side-web/cmp-at.js-functions.md)|Updated topic to reflect changes with the introduction of at.js 2.0.0.<br>There are three new fuctions available for at.js 2.0.0.<ul><li>adobe.target.getOffers(options)</li><li>adobe.target.applyOffers(options)</li><li>adobe.target.triggerView (viewName, options)</li></ul>|
+||[at.js functions](/help/c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md)|Updated topic to reflect changes with the introduction of at.js 2.0.0.<br>There are three new fuctions available for at.js 2.0.0.<ul><li>adobe.target.getOffers(options)</li><li>adobe.target.applyOffers(options)</li><li>adobe.target.triggerView (viewName, options)</li></ul>|
 ||[How at.js works](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md)|Updated topic to reflect changes with the introduction of at.js 2.0.0. and added training video.|
 ||[How at.js manages flicker](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/manage-flicker-with-atjs.md)|Updated topic to reflect changes with the introduction of at.js 2.0.0.|
 ||[at.js Frequently Asked Questions](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md)|Updated topic to reflect changes with the introduction of at.js 2.0.0.|
@@ -87,7 +87,7 @@ This page lists important changes made to the Target documentation.
 ||[Preview experiences for a Multivariate Test](../c-activities/c-multivariate-testing/t-create-multivariate-test/preview-experiences.md)|Updated image.|
 ||[Create combinations](../c-activities/c-multivariate-testing/t-create-multivariate-test/add-offers.md)|Updated text and images.|
 ||[Create a Multivariate Test](../c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test.md)|Updated text and images.|
-|December 11, 2018|[ targetGlobalSettings](../c-implementing-target/c-implementing-target-for-client-side-web/cmp-at.js-functions.md)|Added that the default value for overrideMboxEdgeServer is "true" beginning with at.js version 1.6.2.|
+|December 11, 2018|[ targetGlobalSettings](../c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md)|Added that the default value for overrideMboxEdgeServer is "true" beginning with at.js version 1.6.2.|
 |December 7, 2018|[ Known Issues and Resolved Issues ](known-issues-resolved-issues.md)|Moved the following from the Known Issues table to the Resolved Issues table: <ul><li>at.js: Mboxes not firing on Microsoft Explorer 11 browsers after upgrading to at.js version 1.0 due to the interaction between at.js and Visitor API 2.2.0.0.</li><li>Geo targeting: Searching for a string that contains special characters (such as a space or a comma) is currently not working when creating geo-targeting audiences.</li></ul>|
 |December 5, 2018|[ Personalization Insights reports ](../c-reports/c-personalization-insights-reports/personalization-insights-reports.md)|Added note that the Personalization Insights reports are available in the default environment only.|
 ||[ Adobe Analytics as the reporting source for Adobe Target (AT) ](../c-integrating-target-with-mac/a4t/a4t.md)|Updated table to indicate that A4T supports server-side deployments.|
@@ -387,7 +387,7 @@ This page lists important changes made to the Target documentation.
   </tr> 
   <tr> 
    <td colname="col1"> September 4, 2018 </td> 
-   <td colname="col2"> <p> <a href="../c-implementing-target/c-implementing-target-for-client-side-web/cmp-at.js-functions.md#section_42725F3C837247D58AE1831EA330E44D" format="dita" scope="local"> Data Providers </a> </p> </td> 
+   <td colname="col2"> <p> <a href="../c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md#section_42725F3C837247D58AE1831EA330E44D" format="dita" scope="local"> Data Providers </a> </p> </td> 
    <td colname="col3"> <p>Updated code sample. </p> </td> 
   </tr> 
   <tr> 
