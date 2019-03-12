@@ -335,7 +335,7 @@ The following tables explain at.js. 2.0.0 compatibility with different activity 
 |Customer Attributes|Yes|
 |AEM Experience Fragments|Yes|
 |Adobe Launch extension|Not currently|
-|Debugger|Currently no request capture or mboxTrace|
+|Debugger|Yes|
 |Auditor|Rules have not yet been updated for at.js 2.0|
 |Dynamic Tag Manager (DTM)|Yes|
 |Opt-In| No |
