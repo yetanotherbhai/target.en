@@ -35,7 +35,7 @@ The following illustration shows the Hide Body and Show Body calls in both at.js
 
 ![](assets/target-flow2.png)
 
-For more information about the `bodyHiddenStyle` override, see [targetGlobalSettings()](../../../c-implementing-target/c-implementing-target-for-client-side-web/cmp-at.js-functions.md#concept_8DACBC47ABDE4279BB102B42609FE506).
+For more information about the `bodyHiddenStyle` override, see [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md).
 
 ## Managing flicker when loading at.js asynchronously
 
