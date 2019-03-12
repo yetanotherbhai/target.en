@@ -15,7 +15,7 @@ uuid: ec5f27a7-b22a-48c9-968c-9eb02830a2a6
 List of functions that can be used with the Adobe Target at.js JavaScript library. Click the link in the Function column for more information and examples.
 
 |Function|Details|
-| --- | --- |
+| --- | --- | 
 |[adobe.target.getOffer(options)](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffer.md)|This function fires a request to get a Target offer. Use with `adobe.target.applyOffer()` to process the response or use your own success handling.|
 |[adobe-target-getOffers(options)](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md)<br>(at.js 2.0.0)|This function lets you retrieve multiple offers by passing in multiple mboxes. Additionally, multiple offers can be retrieved for all views in active activities.<br>**Note:** This function was introduced with at.js 2.0.0. This function is not available for at.js version 1.*x*.|
 |[adobe.target.applyOffer(options)](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-applyoffer.md)|This function is for applying the response content.|
