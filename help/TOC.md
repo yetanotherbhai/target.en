@@ -69,9 +69,9 @@ user-guide-title: Adobe Target Help
          + [Implement Target using Dynamic Tag Management \(DTM\)](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-using-dynamic-tag-management.md)
          + [Single Page Application implementation](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md)
       + at.js functions {#functions-overview}
-         + [at.js functions overview](c-implementing-target/c-implementing-target-for-client-side-web/cmp-at-js-functions.md)
+         + [at.js functions overview](c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md)
          + [adobe.target.getOffer(options)](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffer.md)
-         + [adobe.target.getOffers\(Options\) - at.js 2.0.0](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-applyoffers-atjs-2.md)
+         + [adobe.target.getOffers\Options) - at.js 2.0.0](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-applyoffers-atjs-2.md)
          + [adobe.target.applyOffer\(options\)](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-applyoffer.md)
          + [adobe.target.applyOffers\(options\) - at.js 2.0.0](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-applyoffers-atjs-2.md)
          + [adobe.target.triggerView \(viewName, options\) - at.js 2.0.0](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-triggerview-atjs-2.md)
