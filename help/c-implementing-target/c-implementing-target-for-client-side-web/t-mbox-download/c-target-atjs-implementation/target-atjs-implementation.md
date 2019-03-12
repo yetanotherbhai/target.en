@@ -40,7 +40,7 @@ The [!DNL at.js] library offers several improvements over the [!DNL mbox.js] lib
 * No immediate execution of JavaScript in [!DNL Target] responses 
 * Better timeout and error handling
 
-    * Customizable [timeout](../../../../c-implementing-target/c-implementing-target-for-client-side-web/cmp-at.js-functions.md#reference_C81525D1598A4A1199740DCAB81A7FDF) per call 
+    * Customizable [timeout](../../../../c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md#reference_C81525D1598A4A1199740DCAB81A7FDF) per call 
     * No reloads on timeouts
 
 * Functions designed specifically for single-page apps/MVC frameworks

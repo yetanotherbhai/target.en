@@ -122,7 +122,7 @@ Mbox.js version 58 and later executes non-JavaScript content for the global mbox
 
 ## Target Cookie Does Not Get Set {#section_77AFEB541C0B495EB67E29A4475DF960}
 
-If your site has a sub domain, such as [!DNL us.domain.com], but you need the Target cookie set on [!DNL domain.com] (instead of [!DNL us.domain.com]), you must override the `cookieDomain` setting. For more information, see [targetGlobalSettings()](../../c-implementing-target/c-implementing-target-for-client-side-web/cmp-at.js-functions.md#concept_8DACBC47ABDE4279BB102B42609FE506)
+If your site has a sub domain, such as [!DNL us.domain.com], but you need the Target cookie set on [!DNL domain.com] (instead of [!DNL us.domain.com]), you must override the `cookieDomain` setting. For more information, see [targetGlobalSettings()](../../c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md#concept_8DACBC47ABDE4279BB102B42609FE506)
 
 ## Target content flickers or is not shown if an element is also part of AEM personalization. {#section_9E1DABEB75AB431FB9F09887E6DD07D3}
 

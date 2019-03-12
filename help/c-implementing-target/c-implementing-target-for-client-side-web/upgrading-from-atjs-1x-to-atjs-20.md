@@ -67,7 +67,7 @@ There are several functions that have been deprecated in at.js 2.0.0.
 >
 >If these deprecated functions are still used on your site when at.js 2.0.0 is deployed, you will see console warnings. The recommended approach when upgrading is to test the deployment of at.js 2.0.0 in a staging environment and make sure to go through each and every warning that has been logged in the console and translate the deprecated functions to new functions introduced in at.js 2.0. 
 
-You can find the deprecated functions and their counterpart below. For a complete list of functions, see [at.js functions](/help/c-implementing-target/c-implementing-target-for-client-side-web/cmp-at.js-functions.md).
+You can find the deprecated functions and their counterpart below. For a complete list of functions, see [at.js functions](/help/c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md).
 
 >[!NOTE]
 >At.js 2.0.0 no longer automatically pre-hides `mboxDefault` marked elements. Customers will therefore have to accommodate for the pre-hide logic manually on the site or through a tag manager.

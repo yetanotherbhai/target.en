@@ -19,7 +19,7 @@ Only one global mbox is supported across your account.
 
 You can limit where your activities run by adding URL rules to your activities. For more information, see [Include the Same Experience on Similar Pages](../../../c-experiences/c-visual-experience-composer/temtest.md#task_2539D51A18044F82B0D9895636546781).
 
-You could also pass a parameter on the page using ` [targetPageParams()](../../../c-implementing-target/c-implementing-target-for-client-side-web/cmp-at.js-functions.md#reference_B235C9F6DA79449ABE3E23F914FEABAE)` and then select those parameters in the "configure URL" section in the [!UICONTROL Visual Experience Composer] (VEC) or by adding the parameters as "refinements" in the Form-Based Experience Composer.
+You could also pass a parameter on the page using ` [targetPageParams()](../../../c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md#reference_B235C9F6DA79449ABE3E23F914FEABAE)` and then select those parameters in the "configure URL" section in the [!UICONTROL Visual Experience Composer] (VEC) or by adding the parameters as "refinements" in the Form-Based Experience Composer.
 
 ## How do I pass revenue data on a Target global mbox? {#section_17AEA933BADA4D169CCEDF5833C41306}
 

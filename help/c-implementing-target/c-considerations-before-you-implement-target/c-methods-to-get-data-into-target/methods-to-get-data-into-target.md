@@ -193,7 +193,7 @@ Note: Data Providers requires at.js 1.3 or later.
 
 The `window.targetGlobalSettings.dataProviders` setting is an array of data providers.
 
-For more information about the structure for each data provider, see [Data Providers](/help/c-implementing-target/c-implementing-target-for-client-side-web/cmp-at.js-functions.md#section_42725F3C837247D58AE1831EA330E44D).
+For more information about the structure for each data provider, see [Data Providers](/help/c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md#section_42725F3C837247D58AE1831EA330E44D).
 
 ### Example Use Cases
 
@@ -215,11 +215,11 @@ at.js won't try to cache the data. If the data provider fetches data only once, 
 
 ### Code Examples
 
-Several examples can be found in [Data Providers](/help/c-implementing-target/c-implementing-target-for-client-side-web/cmp-at.js-functions.md#section_42725F3C837247D58AE1831EA330E44D) .
+Several examples can be found in [Data Providers](/help/c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md#section_42725F3C837247D58AE1831EA330E44D) .
 
 ### Links to Relevant Information
 
-Documentation: [Data Providers](/help/c-implementing-target/c-implementing-target-for-client-side-web/cmp-at.js-functions.md#section_42725F3C837247D58AE1831EA330E44D)
+Documentation: [Data Providers](/help/c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md#section_42725F3C837247D58AE1831EA330E44D)
 
 ### Training Videos:
 

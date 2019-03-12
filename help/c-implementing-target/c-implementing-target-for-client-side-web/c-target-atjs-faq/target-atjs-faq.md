@@ -132,7 +132,7 @@ Yes, if you are using [at.js version 1.2 or later](../../../c-implementing-targe
 >
 >The following examples are not necessary if you are using at.js version 1.2 or later.
 
-Depending on how you use ` [targetGlobalSettings](../../../c-implementing-target/c-implementing-target-for-client-side-web/cmp-at.js-functions.md#concept_8DACBC47ABDE4279BB102B42609FE506)`, you might need to make additional modifications to the code after downloading at.js. For example, if you needed slightly different settings for your [!DNL Target] implementations on various websites and were unable to define these settings dynamically using custom JavaScript, make these customizations manually after downloading the file and before uploading to the respective website.
+Depending on how you use ` [targetGlobalSettings](../../../c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md#concept_8DACBC47ABDE4279BB102B42609FE506)`, you might need to make additional modifications to the code after downloading at.js. For example, if you needed slightly different settings for your [!DNL Target] implementations on various websites and were unable to define these settings dynamically using custom JavaScript, make these customizations manually after downloading the file and before uploading to the respective website.
 
 The following examples let you use the `targetGlobalSettings()` at.js function to insert a code snippet to support IP addresses:
 
@@ -161,7 +161,7 @@ These message are not related to [!DNL at.js] functionality. The [!DNL at.js] li
 The following are possible root causes if you see this warning message:
 
 * The page structure that activity is running on has been changed. If you reopen the activity in the Visual Experience Composer (VEC), you should get a warning message. You should update the activity so that all the necessary elements can be found. 
-* The underlying page is part of a Single Page Application (SPA) or the page contains elements that appear farther down the page and the [!DNL at.js] "selector polling mechanism" cannot find those elements. Increasing the `selectorsPollingTimeout` might help. For more information, see [targetGlobalSettings()](../../../c-implementing-target/c-implementing-target-for-client-side-web/cmp-at.js-functions.md#concept_8DACBC47ABDE4279BB102B42609FE506). 
+* The underlying page is part of a Single Page Application (SPA) or the page contains elements that appear farther down the page and the [!DNL at.js] "selector polling mechanism" cannot find those elements. Increasing the `selectorsPollingTimeout` might help. For more information, see [targetGlobalSettings()](../../../c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md#concept_8DACBC47ABDE4279BB102B42609FE506). 
 * Any click-tracking metric tries to add itself to every page, regardless of the URL on which the metric was set up. Although harmless, this situation makes many of these messages display. Recent versions of [!DNL at.js] try to suppress these messages, but many customers are still on older versions of [!DNL at.js] or on [!DNL mbox.js].
 
   For best results, please download and use the latest version of [!DNL at.js]. For more information, see [at.js Version Details](../../../c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A) and [Download at.js](../../../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_1E1F958F9CCC4E35AD97581EFAF659E2).
@@ -184,7 +184,7 @@ Adobe Target executes all of its decisioning on the server side. This means that
 
 ## In the best case scenario, can we expect that the user doesn't experience any visible effects on page load relating to hiding, replacing, and showing content? {#section_CB3C566AD61F417FAC0EC5AC706723EB}
 
-at.js tries to avoid pre-hiding HTML BODY or other DOM elements for an extended period of time, but this depends on network conditions and activity setup. at.js provides [settings](../../../c-implementing-target/c-implementing-target-for-client-side-web/cmp-at.js-functions.md#concept_8DACBC47ABDE4279BB102B42609FE506) you can use to customize the BODY hiding CSS style, such that instead of blanking the entire HTML BODY, you can pre-hide only some parts of the page. The expectation is that those parts contain DOM elements that have to be "personalized."
+at.js tries to avoid pre-hiding HTML BODY or other DOM elements for an extended period of time, but this depends on network conditions and activity setup. at.js provides [settings](../../../c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md#concept_8DACBC47ABDE4279BB102B42609FE506) you can use to customize the BODY hiding CSS style, such that instead of blanking the entire HTML BODY, you can pre-hide only some parts of the page. The expectation is that those parts contain DOM elements that have to be "personalized."
 
 ## What is the sequence of events in an average scenario where a user qualifies for an activity? {#section_56E6F448E901403FB77DF02F44C44452}
 
