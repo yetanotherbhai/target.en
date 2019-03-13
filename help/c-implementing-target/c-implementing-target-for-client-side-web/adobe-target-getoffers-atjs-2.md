@@ -20,13 +20,13 @@ This function lets you retrieve multiple offers by passing in multiple mboxes. A
 |Key|Type|Required?|Description|
 | --- | --- | --- | --- |
 |consumerId|String|No|Default value is client's global mbox if not provided. This key is used to generate the supplemental data ID used for A4T integration.|
-|request<br>|Object|Yes|See Requests table below.|
+|request|Object|Yes|See Requests table below.|
 |timeout|Number|No|request timeout. If not specified the default at.js timeout is used.|
 
 ## Request
 
 |Field name|Required?|Limitations|Description|
-| --- | --- | ---| --- |
+| --- | --- | --- | --- |
 |request > id|No||One of `tntId`, `thirdPartyId`, or `marketingCloudVisitorId` is required.|
 |Request > id > thirdPartyId|No|Maximum size = 128||
 |Request > prefetch|No|||
