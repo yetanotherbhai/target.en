@@ -17,7 +17,7 @@ This page lists important changes made to the Target documentation.
 
 |Date|Topic|Changes|
 | --- | --- | --- |
-|March 12, 2019|[Upgrading from at.js 1.x to at.js 2.0.0](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md)|The Debugger is now a supported integration with at.js 2.0.0.|
+|March 12, 2019|[Upgrading from at.js 1.x to at.js 2.0.0](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md) and [Debug at.js using the Adobe Experience Cloud Debugger](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md)|The Debugger is now a supported integration with at.js 2.0.0.|
 |March 11, 2019|[Target release notes (current)](/help/r-release-notes/release-notes.md),<br>[Target release notes (prerelease)](/help/r-release-notes/target-release-notes.md), and <br>[TLS (Transport Layer Security) encryption changes](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md)|Updated text to indicate that TLS changes will occur on **April 1, 2019**.|
 ||[adobe.target.getOffers](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md)|Added the following section: "Fetch and render data from multiple mboxes via getOffers() and applyOffers()."|
 |March 6, 2019|[Upgrading from at.js 1.x to at.js 2.0.0](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md)|Added at_property row to the  "at.js 1.x parameters to at.js 2.0.0 payload mapping" table.|
