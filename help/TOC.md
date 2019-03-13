@@ -8,7 +8,7 @@ user-guide-title: Adobe Target Help
 
 + [Adobe Target product documentation](target-home.md)
 + Target release notes {#release-notes}
-   + [Current release notes](r-release-notes/release-notes.md)
+   + [Target release notes (current)](r-release-notes/release-notes.md)
    + [Target release notes (prerelease)](r-release-notes/target-release-notes.md)
    + [Known issues and resolved issues](r-release-notes/known-issues-resolved-issues.md)
    + [System status updates and proactive notifications](r-release-notes/system-status-updates.md)
