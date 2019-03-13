@@ -149,7 +149,6 @@ user-guide-title: Adobe Target Help
          + [Troubleshoot A4T](c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md)
          + [Minimizing inflated visit and visitor counts in A4T](c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md)
       + A4T Frequently Asked Questions
-         + [A4T Frequently Asked Questions overview](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq.md)
          + [Initial provisioning - A4T FAQ](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-initial-provisioning.md)
          + [Activity settings - A4T FAQ](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md)
          + [View reports - A4T FAQ](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md)
