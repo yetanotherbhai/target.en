@@ -11,6 +11,8 @@ uuid: 8ed04881-3dd9-496f-9c9c-feb9c740ed80
 
 # How at.js works{#how-at-js-works}
 
+To implement [!DNL Adobe Target] client-side, you must use the at.js library. In a client-side implementation of [!DNL Adobe Target], [!DNL Target] delivers the experiences associated with an activity directly to the client browser. The browser decides which experience to display and displays it. With a client-side implementation, you can use a WYSIWYG editor, the [Visual Experience Composer](/help/c-experiences/c-visual-experience-composer/visual-experience-composer.md) (VEC), or a non-visual interface, the [Form-based Experience Composer](/help/c-experiences/form-experience-composer.md), to create your test and personalization experiences.
+
 In the [!DNL Target] implementation illustrated below, the following [!DNL Adobe Experience Cloud] solutions are implemented: Analytics, Target, and Audience Management. In addition, the following Experience Cloud core services are implemented: Adobe Launch, Audiences, and Visitor ID Service.
 
 ## What is the difference between At.js 1.*x* and At.js 2.0.0 workflow diagrams?
