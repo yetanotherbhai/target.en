@@ -13,7 +13,7 @@ uuid: 8755e622-8a31-4106-ba90-b1128a0cf89c
 
 **Last Updated: March 14, 2019 ( [See What Changed](r-release-notes/doc-change.md) )**
 
-The following sections point you to useful links in this guide, arraigned by intended audience based on typical job functions:
+The following sections point you to useful links in this guide, arranged by intended audience based on typical job functions:
 
 ## All [!DNL Target] users {#section_65FA20BA5BC6461E9E21A1B2FAB6393C}
 
