@@ -11,7 +11,7 @@ uuid: 45f81fe8-7b04-4a36-931d-bbf03ed6cbb3
 
 # How to Migrate to at.js from mbox.js{#how-to-migrate-to-at-js-from-mbox-js}
 
-Migrating from mbox.js to at.js is a straightforward process.
+Migrating from mbox.js to at.js in [!DNL Adobe Target] is a straightforward process.
 
 Use the following steps to migrate from [!DNL mbox.js] to [!DNL at.js] and to check your migration: 
 

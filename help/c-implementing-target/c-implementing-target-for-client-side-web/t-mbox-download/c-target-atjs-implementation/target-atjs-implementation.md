@@ -11,7 +11,7 @@ uuid: 10da01d7-d308-44e3-9c6e-ff4f713bd312
 
 # Migrate from mbox.js to at.js{#migrate-from-mbox-js-to-at-js}
 
-The at.js library is a new implementation library for Adobe Target designed for both typical web implementations and single-page applications.
+The at.js library is a new implementation library for [!DNL Adobe Target] designed for both typical web implementations and single-page applications.
 
 Among other benefits, [!DNL at.js] improves page-load times for web implementations and provides better implementation options for single-page applications.
 
@@ -40,7 +40,7 @@ The [!DNL at.js] library offers several improvements over the [!DNL mbox.js] lib
 * No immediate execution of JavaScript in [!DNL Target] responses 
 * Better timeout and error handling
 
-    * Customizable [timeout](../../../../c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md#reference_C81525D1598A4A1199740DCAB81A7FDF) per call 
+    * Customizable [timeout](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) per call 
     * No reloads on timeouts
 
 * Functions designed specifically for single-page apps/MVC frameworks
