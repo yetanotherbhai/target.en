@@ -55,7 +55,7 @@ window.targetGlobalSettings = {
 };
 ```
 
-## Data Providers {#section_42725F3C837247D58AE1831EA330E44D}
+## Data Providers {#data-providers}
 
 This setting lets customers gather data from third-party data providers, such as Demandbase, BlueKai, and custom services, and pass the data to Target as mbox parameters in the global mbox request. It supports the collection of data from multiple providers via async and sync requests. Using this approach makes it easy to manage flicker of default page content, while including independent timeouts for each provider to limit the impact on page performance
 

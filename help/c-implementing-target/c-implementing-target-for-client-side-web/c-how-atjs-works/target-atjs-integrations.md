@@ -11,7 +11,7 @@ uuid: 19036a1d-941c-4d31-8c7b-f50c86996b1c
 
 # at.js integrations{#at-js-integrations}
 
-Information about common integrations with Target and their support status with at.js.
+Information about common integrations with [!DNL Target] and their support status with at.js.
 
 If you have a compelling need for an integration that is not supported or mentioned here, please contact your account representative or consultant.
 
@@ -40,4 +40,4 @@ If you have a compelling need for an integration that is not supported or mentio
 | Integration | Details |
 |--- |--- |
 |Other Tag Managers|at.js should work with non-Adobe tag management platforms, but be careful using custom integration features that other vendors have developed. Their integrations might be dependent on internal  mbox.js functions that no longer exist in  at.js.|
-|Third-party data providers (e.g. Demandbase, Bluekai, weather APIs)|Many third-party data providers used to supplement Target's user profiling can be integrated using the at.js [Data Providers feature](/help/c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md).|
+|Third-party data providers (e.g. Demandbase, Bluekai, weather APIs)|Many third-party data providers used to supplement Target's user profiling can be integrated using the at.js [Data Providers](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#data-providers) feature.|

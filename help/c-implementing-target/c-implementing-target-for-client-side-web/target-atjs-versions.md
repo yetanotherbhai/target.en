@@ -11,7 +11,7 @@ uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 
 # at.js version details {#at-js-version-details}
 
-Details about changes in each version of at.js.
+Details about changes in each version of the [!DNL Adobe Target] at.js JavaScript library.
 
 >[!IMPORTANT]
 >
@@ -131,11 +131,11 @@ at.js version 1.3.0 is now available.
   * CONTENT_RENDERING_NO_OFFERS 
   * CONTENT_RENDERING_REDIRECT
 
-  For more information, see [at.js custom events](../../c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md#reference_A828E4BA535F4E7692A075F3D70CF6CD). 
+  For more information, see [at.js custom events](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md). 
 
 * You can augment an at.js request with additional parameters that come from data providers. Data providers should be added to `window.targetGlobalSettings` under the `dataProviders key`.
 
-  For more information, see [Data Providers](../../c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md#section_42725F3C837247D58AE1831EA330E44D) in [targetGlobalSettings()](../../c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md#concept_8DACBC47ABDE4279BB102B42609FE506). 
+  For more information, see [Data Providers](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#data-providers). 
 
 * at.js requests now use GET, but it will switch to POST when the URL size exceeds 2048 characters. There is a new property named `urlSizeLimit` where you can increase the size limit if necessary. This change allows Target to align at.js to AppMeasurement, which uses the same technique. 
 * Target now enforces that the `mbox` key in the `adobe.target.applyOffer(options)` function is used. This key has been required in the past, but Target now enforces its use to ensure that Target has proper validation and customers are using the function correctly. 
@@ -225,8 +225,8 @@ The following enhancements and fixes are included in [!DNL at.js] version 0.9.6:
 
   This behavior has been changed in [!DNL at.js] 0.9.6, even if the `visitorApiTimeout` is set to say 1 ms, Target will try to collect SDID, tracking servers, and customer IDs data and send those in the Target request. 
 
-* Added the `selectorsPollingTimeout` setting. For more information, see [targetGlobalSettings()](../../c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md#concept_8DACBC47ABDE4279BB102B42609FE506). 
-* The format of the response from `getOffer()` has been changed. For more information, see [adobe.target.getOffer(options)](../../c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md#reference_C81525D1598A4A1199740DCAB81A7FDF). 
+* Added the `selectorsPollingTimeout` setting. For more information, see [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md). 
+* The format of the response from `getOffer()` has been changed. For more information, see [adobe.target.getOffer(options)](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffer.md). 
 * Console logging has been added for unsupported `<!DOCTYPE>` declarations. 
 * Fixed an issue where [!DNL Target Classic] plugins weren’t being applied correctly when multiple default offers were delivered to a single mbox. (TGT-22664) For more information, see [Plug-Ins](https://marketing.adobe.com/resources/help/en_US/tnt/help/t_Using_Plug-Ins.html) in the Adobe Target Classic documentation. 
 * Improved cookie-setting for two letter top-level-domains (TLDs) to ensure that the mbox cookie is set correctly for these domains (for example, [!DNL test.no], [!DNL autodrives.ca], and so forth). 

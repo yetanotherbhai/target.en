@@ -11,7 +11,7 @@ uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 
 # Documentation changes{#documentation-changes}
 
-This page lists important changes made to the Target documentation.
+This page lists important changes made to the [!DNL Adobe Target] documentation.
 
 ## Adobe Target Standard/Premium 19.2.1 (February 19, 2019) {#section-19-2-1}
 
@@ -93,7 +93,7 @@ This page lists important changes made to the Target documentation.
 ||[Preview experiences for a Multivariate Test](../c-activities/c-multivariate-testing/t-create-multivariate-test/preview-experiences.md)|Updated image.|
 ||[Create combinations](../c-activities/c-multivariate-testing/t-create-multivariate-test/add-offers.md)|Updated text and images.|
 ||[Create a Multivariate Test](../c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test.md)|Updated text and images.|
-|December 11, 2018|[ targetGlobalSettings](../c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md)|Added that the default value for overrideMboxEdgeServer is "true" beginning with at.js version 1.6.2.|
+|December 11, 2018|[targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)|Added that the default value for overrideMboxEdgeServer is "true" beginning with at.js version 1.6.2.|
 |December 7, 2018|[ Known Issues and Resolved Issues ](known-issues-resolved-issues.md)|Moved the following from the Known Issues table to the Resolved Issues table: <ul><li>at.js: Mboxes not firing on Microsoft Explorer 11 browsers after upgrading to at.js version 1.0 due to the interaction between at.js and Visitor API 2.2.0.0.</li><li>Geo targeting: Searching for a string that contains special characters (such as a space or a comma) is currently not working when creating geo-targeting audiences.</li></ul>|
 |December 5, 2018|[ Personalization Insights reports ](../c-reports/c-personalization-insights-reports/personalization-insights-reports.md)|Added note that the Personalization Insights reports are available in the default environment only.|
 ||[ Adobe Analytics as the reporting source for Adobe Target (AT) ](../c-integrating-target-with-mac/a4t/a4t.md)|Updated table to indicate that A4T supports server-side deployments.|

@@ -65,7 +65,7 @@ Now that we have covered what Adobe Target Views are, we can leverage this conce
 
    Download the at.js 2.0.0 via the Adobe Target UI located in [!UICONTROL Setup > Implementation]. at.js 2.0.0 can also be deployed via [Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md). However, the Adobe Target Extensions are not currently up to date and supported.
 
-1. Implement at.js 2.0.0’s newest function: `[triggerView()](/help/c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md)` on your sites.
+1. Implement at.js 2.0.0’s newest function: [triggerView()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-triggerview-atjs-2.md) on your sites.
 
    After defining the Views of your SPA where you want to run an A/B or XT test, implement at.js 2.0.0’s `triggerView()` function with the Views passed in as a parameter. This allows marketers to use the VEC to design and run the A/B and XT tests for those Views defined. If the `triggerView()` function is not defined for those Views, the VEC will not detect the Views and thus marketers cannot use the VEC to design and run A/B and XT tests.
 

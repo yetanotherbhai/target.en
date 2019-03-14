@@ -13,7 +13,7 @@ uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 
 These release notes provide information about features, enhancements, and fixes for the latest or upcoming [!DNL Adobe Target] releases.
 
-**Last Updated: February 27, 2019**
+**Last Updated: March 14, 2019**
 
 >[!NOTE]
 >
@@ -27,7 +27,7 @@ Be aware of the following important announcements:
 * [!DNL Target] and the [!DNL Adobe Marketing Cloud] will drop support for Microsoft Internet Explorer 11 starting in March 2019. This change affects [!DNL Target] authoring only; this change does not affect experience delivery. Please switch to Microsoft Edge or another browser. For more information, see [Supported browsers](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md).
 * The [Adobe Target product documentation](https://docs.adobe.com/content/help/en/target/using/target-home.html) has moved to a new domain: `docs.adobe.com`. The documentation can be found at the following URL: `https://docs.adobe.com/content/help/en/target/using/target-home.html`. Please update your bookmarks accordingly.
 
-## [!DNL Target] Standard/Premium 19.3.1 (March 18, 2019) {#release-19-3-1-prerelease}
+## [!DNL Target] Standard/Premium 19.3.1 (March 29, 2019) {#release-19-3-1-prerelease}
 
 This release includes the following features, changes and enhancements:
 

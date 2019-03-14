@@ -11,7 +11,7 @@ uuid: 5887ec53-e5b1-40f9-b469-33685f5c6cd6
 
 # Single Page Application implementation{#single-page-application-implementation}
 
-Traditional websites worked on "Page-to-Page" navigation models, otherwise known as Multi Page Applications where website designs were tightly coupled to URLs and transitions from one webpage to another required a page load. Modern web applications, such as Single Page Applications (SPAs), instead adopt a model that propels rapid use of browser UI rendering, which is often independent of page reloads. These experiences are often triggered by customer interactions, such as scrolls, clicks, and cursor movements. As the paradigms of the modern web have evolved, the relevance of traditional generic events, such as page-load, to deploy personalization and experimentation no longer work.
+Traditional websites worked on "Page-to-Page" navigation models, otherwise known as Multi Page Applications, where website designs were tightly coupled to URLs and transitions from one webpage to another required a page load. Modern web applications, such as Single Page Applications (SPAs), instead adopt a model that propels rapid use of browser UI rendering, which is often independent of page reloads. These experiences are often triggered by customer interactions, such as scrolls, clicks, and cursor movements. As the paradigms of the modern web have evolved, the relevance of traditional generic events, such as page-load, to deploy personalization and experimentation no longer work.
 
 ![Traditional page lifecycle vs. SPA lifecycle](/help/c-experiences/assets/trad-vs-spa.png)
 
@@ -232,7 +232,7 @@ As best practices related to SPAs:
 * Fire a custom event before the view starts rendering
 * Fire a custom event when the view finishes rendering
 
-at.js 2.0.0 added a new [API triggerView()](/help/c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md#adobe-target-triggerView) function. You should use `triggerView()` to notify at.js that a view will start rendering.
+at.js 2.0.0 added a new API [triggerView()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-triggerview-atjs-2.md) function. You should use `triggerView()` to notify at.js that a view will start rendering.
 
 To see how to combine custom events, at.js 2.0.0, and Analytics, let's see an example. This example assumes that the HTML page contains the Visitor API, followed by at.js 2.0.0, followed by AppMeasurement.
 

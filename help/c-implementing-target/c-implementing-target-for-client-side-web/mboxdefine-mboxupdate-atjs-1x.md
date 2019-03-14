@@ -11,7 +11,7 @@ topic: Standard
 
 # mboxDefine() and mboxUpdate() - at.js 1.x
 
-Define and update an mbox.
+Define and update an mbox in Adobe Target.
 
 >[!NOTE]
 >
@@ -25,7 +25,7 @@ Creates an internal mapping between a nodeId and an mbox name, but does not exec
 
 ## mboxUpdate {#section_D20B3E551884452A996305C12D5959D5}
 
-Executes the request and applies the offer to the element identified by the `nodeId` in the `mboxDefine()`. Can also be used to update an mbox initiated by `mboxCreate`. Built into [!DNL at.js] mostly to ease the transition from [!DNL mbox.js] to [!DNL at.js]. `mboxDefine()`/ `mboxUpdate()` could be replaced by [ `adobe.target.getOffer()` ](../../c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md#reference_C81525D1598A4A1199740DCAB81A7FDF)and [ `adobe.target.applyOffer()` ](../../c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md#reference_BBE83F513B5B4E03BBC3F50D90864245) using the selector option.
+Executes the request and applies the offer to the element identified by the `nodeId` in the `mboxDefine()`. Can also be used to update an mbox initiated by `mboxCreate`. Built into [!DNL at.js] mostly to ease the transition from [!DNL mbox.js] to [!DNL at.js]. `mboxDefine()`/ `mboxUpdate()` could be replaced by [adobe.target.getOffer()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffer.md) and [adobe.target.applyOffer()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-applyoffer.md) using the selector option.
 
 ## Example {#section_9C1E75D9E4BA4DC7879D2B69877EB01A}
 

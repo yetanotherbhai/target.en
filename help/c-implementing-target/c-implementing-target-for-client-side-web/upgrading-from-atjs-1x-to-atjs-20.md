@@ -11,7 +11,7 @@ uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 
 # Upgrading from at.js 1.x to at.js 2.0.0 {#upgrading-from-atjs-1x-to-atjs-200}
 
-The newest version of at.js provides rich feature sets that equip your business to execute personalization on next-generation, client-side technologies. This new version is focused on upgrading at.js to have harmonious interactions with single page applications (SPAs). 
+The newest version of at.js in [!DNL Adobe Target] provides rich feature sets that equip your business to execute personalization on next-generation, client-side technologies. This new version is focused on upgrading at.js to have harmonious interactions with single page applications (SPAs). 
 
 Here are some benefits of using at.js 2.0.0 that are not available in previous versions:
 

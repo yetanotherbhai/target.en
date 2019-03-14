@@ -10,7 +10,7 @@ uuid: dcaba49e-7567-4970-bb9a-19377aff7d38
 
 # Use cloud-based instances with Target{#use-cloud-based-instances-with-target}
 
-Information about issues customers face when using cloud-based instances to test Adobe Target.
+Information about issues customers face when using cloud-based instances to test [!DNL Adobe Target].
 
 Target customers sometimes use cloud-based instances with [!DNL Target] for testing or simple proof-of-concept purposes. These instances might include the following domains: 
 
@@ -22,4 +22,4 @@ These domains, and many others, are part of the [Public Suffix List](https://pub
 
 The [!DNL at.js] and [!DNL mbox.js] JavaScript libraries use cookies to track users to ensure that [!DNL Target] always presents a consistent experience. If the [!DNL Target] JavaScript libraries can't save cookies, [!DNL Target] requests are disabled.
 
-**Solution:** As best practice, if you intend to use cloud-based instances with domains included on the Public Suffix List, make sure that you customize the `cookieDomain` setting. For more information, see [targetGlobalSettings()](../../../c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md#concept_8DACBC47ABDE4279BB102B42609FE506). 
+**Solution:** As best practice, if you intend to use cloud-based instances with domains included on the Public Suffix List, make sure that you customize the `cookieDomain` setting. For more information, see [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md). 
