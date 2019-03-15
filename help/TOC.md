@@ -14,6 +14,8 @@ user-guide-title: Adobe Target Help
    + [System status updates and proactive notifications](r-release-notes/system-status-updates.md)
    + [Documentation changes](r-release-notes/doc-change.md)
    + [Release notes for previous releases](r-release-notes/release-notes-for-previous-releases.md)
+   + [Old Current release notes](r-release-notes/r-release-notes.md)
+   + [Old Documentation changes](r-release-notes/r-doc-change.md)
 + Introduction {#introduction}
    + [Introduction to Target](c-intro/intro.md)
    + [Access Target from the Adobe Experience Cloud](c-intro/target-access-from-mac.md)
@@ -23,6 +25,12 @@ user-guide-title: Adobe Target Help
    + [Training and certification](c-intro/training-and-certification.md)
    + [Training videos for Adobe Target Standard and Premium](c-intro/target-standard-premium-training-videos.md)
    + [Target optimization and personalization FAQ](c-intro/cmp-target-standard-cheatsheet.md)
+   + [Old Introduction to Target](c-intro/c-intro.md)
+   + [Old Access Target from the Adobe Experience Cloud](c-intro/t-target-access-from-mac.md)
+   + [Old Glossary](c-intro/r-glossary.md)
+   + [Old How Adobe Target works](c-intro/c-how-target-works.md)
+   + [Old Training and certification](c-intro/r-training-and-certification.md)
+   + [Old Training videos for Adobe Target Standard and Premium](c-intro/c-target-standard-premium-training-videos.md)
 + Administer Target {#administer}
    + [Administer Target Overview](administrating-target/administrating-target.md)
    + [Administrator first steps](administrating-target/start-target.md)
