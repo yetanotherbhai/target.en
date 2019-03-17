@@ -71,6 +71,7 @@ user-guide-title: Adobe Target Help
          + [Implement Target using Dynamic Tag Management (DTM)](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-using-dynamic-tag-management.md)
          + [Single Page Application implementation](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md)
       + at.js functions {#functions-overview}
+         + [Bob at.js functions overview](c-implementing-target/c-implementing-target-for-client-side-web/cmp-at_js-functions.md)
          + [at.js functions overview](c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md)
          + [adobe.target.getOffer()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffer.md)
          + [adobe.target.getOffers() - at.js 2.0.0](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md)
