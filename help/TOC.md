@@ -138,21 +138,6 @@ user-guide-title: Adobe Target Help
       + [Create an Adbox for an image](c-implementing-target/c-non-javascript-based-implementation/testing-content-with-the-adbox.md)
       + [Test an email image Adbox](c-implementing-target/c-non-javascript-based-implementation/testing-email-image-adbox.md)
       + [Work with redirectors](c-implementing-target/c-non-javascript-based-implementation/working-with-redirectors.md)
-+ Bob Target for mobile apps {#mobile-apps}
-   + [Bob Target for mobile apps overview](c-target-mobile-app/c-target-mobile-app.md)
-   + [Bob How Target works in mobile apps](c-target-mobile-app/c-mobile-how-target-works-mobile-apps.md)
-   + [Bob Enable Target in the SDK](c-target-mobile-app/t-mobile-enable-target-in-sdk.md)
-   + [Bob iOS - create a Target location and success metric](c-target-mobile-app/t-mobile-create-location-and-metric.md)
-   + [Bob iOS - send custom user data](c-target-mobile-app/t-mobile-custom-user-data.md)
-   + [Bob Send activity information to Adobe Analytics](c-target-mobile-app/t-mobile-send-activity-information-analytics.md)
-   + [Bob Target mobile preview](c-target-mobile-app/target-mobile-preview.md)
-   + [Bob Prefetch offer content](c-target-mobile-app/c-prefetch-offer-content.md)
-   + Mobile App Visual Experience Composer {#composer}
-      + [Bob Mobile App Visual Experience Composer](c-target-mobile-app/c-mobile-visual-experience-composer/c-mobile-visual-experience-composer.md)
-      + [Bob Android - set up the mobile app](c-target-mobile-app/c-mobile-visual-experience-composer/c-mobile-visual-experience-composer-android.md)
-      + [Bob iOS - set up the mobile app](c-target-mobile-app/c-mobile-visual-experience-composer/c-mobile-visual-experience-composer-ios.md)
-      + [Bob Use Adobe Launch to set up the Mobile App VEC](c-target-mobile-app/c-mobile-visual-experience-composer/c-use-adobe-launch-to-set-up-the-mobile-app-vec.md)
-      + [Bob Set up click tracking in the Mobile VEC](c-target-mobile-app/c-mobile-visual-experience-composer/c-set-up-click-tracking-in-the-mobile-vec.md)
 + Integrate Adobe Target with the Experience Cloud {#integrate}
    + Adobe Analytics as the reporting source for Adobe Target (A4T) {#a4t}
       + [A4T overview](c-integrating-target-with-mac/a4t/a4t.md)
