@@ -29,8 +29,6 @@ user-guide-title: Adobe Target Help
    + Set preferences {#preferences}
       + [Preferences](administrating-target/r-target-account-preferences/target-account-preferences.md)
       + [Estimate lift in revenue](administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md)
-      + [Bob Preferences](administrating-target/r-target-account-preferences/r-target-account-preferences.md)
-      + [Bob Estimate lift in revenue](administrating-target/r-target-account-preferences/c-estimating-lift-in-revenue.md)
    + Manage users {#manage-users}
       + [User management](administrating-target/c-user-management/user-management.md)
       + Users {#users}
@@ -150,7 +148,7 @@ user-guide-title: Adobe Target Help
       + Troubleshooting the Analytics and Target integration (A4T) {#troubleshoot-a4t}
          + [Troubleshoot A4T](c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md)
          + [Minimizing inflated visit and visitor counts in A4T](c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md)
-      + A4T Frequently Asked Questions
+      + A4T Frequently Asked Questions {#a4t-faq}
          + [Initial provisioning - A4T FAQ](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-initial-provisioning.md)
          + [Activity settings - A4T FAQ](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md)
          + [View reports - A4T FAQ](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md)
@@ -160,16 +158,6 @@ user-guide-title: Adobe Target Help
          + [Inflated visit and visitor counts - A4T FAQ](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-inflated-visit-and-visitor-counts.md)
          + [Classifications - A4T FAQ](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-classifications.md)
          + [Legacy SiteCatalyst to Test&Target Integration - A4T FAQ](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-old-integration.md)
-         + [Bob A4T Frequently Asked Questions overview](c-integrating-target-with-mac/a4t/r-a4t-faq/r-a4t-faq.md)
-         + [Bob Initial provisioning - A4T FAQ](c-integrating-target-with-mac/a4t/r-a4t-faq/c-a4t-faq-initial-provisioning.md)
-         + [Bob Activity settings - A4T FAQ](c-integrating-target-with-mac/a4t/r-a4t-faq/c-a4t-faq-activity-setup.md)
-         + [Bob View reports - A4T FAQ](c-integrating-target-with-mac/a4t/r-a4t-faq/c-a4t-faq-viewing-reports.md)
-         + [Bob Redirect offers - A4T FAQ](c-integrating-target-with-mac/a4t/r-a4t-faq/c-a4t-faq-redirect-offers.md)
-         + [Bob Lift and confidence - A4T FAQ](c-integrating-target-with-mac/a4t/r-a4t-faq/c-a4t-faq-lift-and-confidence.md)
-         + [Bob Metric definitions - A4T FAQ](c-integrating-target-with-mac/a4t/r-a4t-faq/c-a4t-faq-metric-definition.md)
-         + [Bob Inflated visit and visitor counts - A4T FAQ](c-integrating-target-with-mac/a4t/r-a4t-faq/c-a4t-faq-inflated-visit-and-visitor-counts.md)
-         + [Bob Classifications - A4T FAQ](c-integrating-target-with-mac/a4t/r-a4t-faq/c-a4t-faq-classifications.md)
-         + [Bob Legacy SiteCatalyst to Test&Target Integration - A4T FAQ](c-integrating-target-with-mac/a4t/r-a4t-faq/c-a4t-faq-old-integration.md)
       + [Expected data variances between Target and Analytics when using and not using A4T](c-integrating-target-with-mac/a4t/understanding-expected-data-variances.md)
    + [Experience Cloud Audiences](c-integrating-target-with-mac/mmp.md)
    + [Integrate Target with Adobe Campaign](c-integrating-target-with-mac/campaign-and-target.md)
