@@ -17,6 +17,7 @@ This page lists important changes made to the [!DNL Adobe Target] documentation.
 
 |Date|Topic|Changes|
 | --- | --- | --- |
+|March 18, 2019|[Target release notes (prerelease)](/help/r-release-notes/target-release-notes.md) and [at.js version details](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)|Added information about at.js versions 2.0.1 and 1.7.1.|
 |March 15, 2019|[Before you implement](/help/c-implementing-target/c-considerations-before-you-implement-target/considerations-before-you-implement-target.md)|Added important note: Modifications to at.js or mbox.js will not be supported by Adobe Customer Care.|
 |March 14, 2019|[Target release notes (prerelease)](/help/r-release-notes/target-release-notes.md)|Changed the date of the Target Standard/Premium 19.3.1 release to March 29, 2019.|
 |March 13, 2019|[Create an Automated Personalization activity](/help/c-activities/t-automated-personalization/create-ap-activity.md)|Updated the text in the Conversion Metric row.|
