@@ -31,6 +31,8 @@ Consider the following information as your work with customer attributes and Tar
 
   For example, if the `vst.myDataSource.id` parameter is used to identify the user (where `myDataSource` is the data source alias) and there is no MCID or third-party ID, using the parameter `vst.myDataSource.authState=0` won't fetch the profile that might have been created through a Customer Attributes import. If the desired behavior is to fetch the authenticated profile, the `vst.myDataSource.authState` has to have the value of 1 (AUTHENTICATED).
 
+* You cannot send the following characters in `mbox3rdPartyID`: plus sign (+) and forward slash (/).
+
 ## Customer Attribute Workflow for Target {#section_00DAE94DA9BA41398B6FD170BC7D38A3}
 
 Complete the following steps to use CRM data in [!DNL Target], as illustrated below:
