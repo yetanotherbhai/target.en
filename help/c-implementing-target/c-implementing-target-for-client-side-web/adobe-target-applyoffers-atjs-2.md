@@ -9,13 +9,13 @@ title: adobe.target.applyOffers(options)
 topic: Standard
 ---
 
-# adobe.target.applyOffers(options) - at.js 2.0.0
+# adobe.target.applyOffers(options) - at.js 2.x
 
 This function lets you apply more than one offer that was retrieved by `adobe.target.getOffers()`.
 
 >[!NOTE]
 >
->This function was introduced with at.js 2.0. This function is not available for at.js version 1.*x*.
+>This function was introduced with at.js 2.x. This function is not available for at.js version 1.*x*.
 
 |Key|Type|Required?|Description|
 | --- | --- | --- | --- |

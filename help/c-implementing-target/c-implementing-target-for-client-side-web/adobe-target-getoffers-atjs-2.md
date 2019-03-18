@@ -9,13 +9,13 @@ title: adobe.target.getOffers(options)
 topic: Standard
 ---
 
-# adobe.target.getOffers(options) - at.js 2.0.0
+# adobe.target.getOffers(options) - at.js 2.x
 
 This function lets you retrieve multiple offers by passing in multiple mboxes. Additionally, multiple offers can be retrieved for all views in active activities.
 
 >[!NOTE]
 >
->This function was introduced with at.js 2.0. This function is not available for at.js version 1.*x*.
+>This function was introduced with at.js 2.x. This function is not available for at.js version 1.*x*.
 
 |Key|Type|Required?|Description|
 | --- | --- | --- | --- |
@@ -120,16 +120,16 @@ adobe.target.getOffers({
 
 ## Fetch and render data from multiple mboxes via getOffers() and applyOffers() {#multiple}
 
-at.js 2.0.0 lets you fetch multiple mboxes via the `getOffers()` API. You can also fetch data for multiple mboxes and then use `applyOffers()` to render the data in different locations identified by a CSS selector.
+at.js 2.x lets you fetch multiple mboxes via the `getOffers()` API. You can also fetch data for multiple mboxes and then use `applyOffers()` to render the data in different locations identified by a CSS selector.
 
-The following example shows a simple HTML page with at.js 2.0.0 implemented:
+The following example shows a simple HTML page with at.js 2.x implemented:
 
 ```
 <!DOCTYPE html>
 <html>
 <head>
   <meta charset="utf-8">
-  <title>at.js 2.0.0, multiple selectors and multiple mboxes</title>
+  <title>at.js 2.x, multiple selectors and multiple mboxes</title>
   <script src="at.js"></script>
 </head>
 <body>

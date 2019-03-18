@@ -57,17 +57,17 @@ Now, marketers might want to run an A/B Test to see whether changing the color f
 
 Now that we have covered what Adobe Target Views are, we can leverage this concept in Target to empower marketers to run A/B and XT tests on SPAs via the VEC. This will require a one-time developer setup. Let’s go through the steps to set this up.
 
-1. Install at.js 2.0.
+1. Install at.js 2.x.
 
-   First, we need to install at.js 2.0.0. This version of at.js was developed with SPAs in mind. Previous versions of at.js and mbox.js do not support Adobe Target Views and the VEC for SPA.
+   First, we need to install at.js 2.x. This version of at.js was developed with SPAs in mind. Previous versions of at.js and mbox.js do not support Adobe Target Views and the VEC for SPA.
 
    ![Implementation details dialog box](/help/c-experiences/assets/imp-200.png)
 
-   Download the at.js 2.0.0 via the Adobe Target UI located in [!UICONTROL Setup > Implementation]. at.js 2.0.0 can also be deployed via [Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md). However, the Adobe Target Extensions are not currently up to date and supported.
+   Download the at.js 2.x via the Adobe Target UI located in [!UICONTROL Setup > Implementation]. at.js 2.x can also be deployed via [Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md). However, the Adobe Target Extensions are not currently up to date and supported.
 
-1. Implement at.js 2.0.0’s newest function: [triggerView()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-triggerview-atjs-2.md) on your sites.
+1. Implement at.js 2.x’s newest function: [triggerView()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-triggerview-atjs-2.md) on your sites.
 
-   After defining the Views of your SPA where you want to run an A/B or XT test, implement at.js 2.0.0’s `triggerView()` function with the Views passed in as a parameter. This allows marketers to use the VEC to design and run the A/B and XT tests for those Views defined. If the `triggerView()` function is not defined for those Views, the VEC will not detect the Views and thus marketers cannot use the VEC to design and run A/B and XT tests.
+   After defining the Views of your SPA where you want to run an A/B or XT test, implement at.js 2.x’s `triggerView()` function with the Views passed in as a parameter. This allows marketers to use the VEC to design and run the A/B and XT tests for those Views defined. If the `triggerView()` function is not defined for those Views, the VEC will not detect the Views and thus marketers cannot use the VEC to design and run A/B and XT tests.
 
    **`adobe.target.triggerView(viewName, options)`**
 
@@ -251,9 +251,9 @@ Now that we have covered what Adobe Target Views are, we can leverage this conce
 
 **How can I retrieve views for the latest audience data hydrated by actions after the initial page load on my SPA?**
 
-The typical workflow of at.js 2.0.0 is when your site loads, all of your views and actions are cached so that subsequent user actions on your site won’t trigger server calls to retrieve offers. If you want to retrieve views depending on the most up-to-date profile data that might have been updated depending on subsequent user actions, you can call `getOffers()` and `applyOffers()` with the latest audience user or profile data passed.
+The typical workflow of at.js 2.x is when your site loads, all of your views and actions are cached so that subsequent user actions on your site won’t trigger server calls to retrieve offers. If you want to retrieve views depending on the most up-to-date profile data that might have been updated depending on subsequent user actions, you can call `getOffers()` and `applyOffers()` with the latest audience user or profile data passed.
 
-For example, consider that you are a telecom company and you have an SPA that uses at.js 2.0.0. As a business, you want to achieve the following objectives:
+For example, consider that you are a telecom company and you have an SPA that uses at.js 2.x. As a business, you want to achieve the following objectives:
 
 * For a logged out or anonymous user, show the latest company promotion, such as showing a “First month free” hero offer on `http://www.telecom.com/home`.
 * For a logged in user, show an upgrade promotional offer for users whose contracts are coming up, such as “You are eligible for a free phone!” on `http://www.telecom.com/loggedIn/home`.
@@ -273,17 +273,17 @@ Your marketers then run the following A/B activities through the VEC:
 Now, lets consider this user flow:
 
 1. An anonymous logged-out user lands on your page.
-1. Because you are using at.js 2.0.0, you pass in the parameter “`loggedIn = false`” on page-load to retrieve all views present in active activities that qualify for when the audience has parameter “`loggedIn = false`”. 
-1. at.js 2.0.0 then retrieves the Logged Out Home view and action to show the “First Month Free” offer and stores it in cache.
+1. Because you are using at.js 2.x, you pass in the parameter “`loggedIn = false`” on page-load to retrieve all views present in active activities that qualify for when the audience has parameter “`loggedIn = false`”. 
+1. at.js 2.x then retrieves the Logged Out Home view and action to show the “First Month Free” offer and stores it in cache.
 1. When `triggerView(“Logged Out Home”)` is invoked, the “First Month Free” offer is retrieved from cache and the offer is shown without a server call.
 1. The user now clicks “Log in” and provides his or her credentials. 
 1. Because your website is an SPA, you do not conduct a full page load and instead route your user to `http://www.telecom.com/loggedIn/home`.
 
-Now, here is the problem. The user logs in and we encounter `triggerView(“Logged In Home”)` because we placed this code on route change. This tells at.js 2.0.0 to retrieve the view and actions from cache, but the only view that exists in cache is Logged Out Home. 
+Now, here is the problem. The user logs in and we encounter `triggerView(“Logged In Home”)` because we placed this code on route change. This tells at.js 2.x to retrieve the view and actions from cache, but the only view that exists in cache is Logged Out Home. 
 
 So, how can we then retrieve our Logged In View and show the “You are eligible for a free phone!” offer? And since all subsequent actions on your site will be from a logged-in-user perspective, how can you make sure all subsequent actions result in personalized offers for logged-in users?
 
-You can use the new `getOffers()` and `applyOffers()` functions supported in at.js 2.0.0:
+You can use the new `getOffers()` and `applyOffers()` functions supported in at.js 2.x:
 
 ```
 adobe.target.getOffers({
@@ -302,11 +302,11 @@ adobe.target.getOffers({
 
 Pass the response of `getOffers()` to `applyOffers()` and now all views and actions associated with “loggedIn = true” will update the at.js cache. 
 
-In other words, at.js 2.0.0 supports a way to retrieve views, actions, and offers with the most up-to-date audience data in an on-demand fashion.
+In other words, at.js 2.x supports a way to retrieve views, actions, and offers with the most up-to-date audience data in an on-demand fashion.
 
-**Does at.js 2.0 support A4T for Single Page Applications?**
+**Does at.js 2.x support A4T for Single Page Applications?**
 
-Yes, at.js 2.0 supports A4T for SPA via the `triggerView()` function given that you have implemented Adobe Analytics and the Experience Cloud Visitor ID Service. See the diagram below with step-by-step descriptions.
+Yes, at.js 2.x supports A4T for SPA via the `triggerView()` function given that you have implemented Adobe Analytics and the Experience Cloud Visitor ID Service. See the diagram below with step-by-step descriptions.
 
 ![Target Flow](/help/c-experiences/assets/atjs-spa-flow.png)
 
@@ -337,7 +337,7 @@ Yes, at.js 2.0 supports A4T for SPA via the `triggerView()` function given that 
 |Automated Personalization|No|
 |Recommendations|No|
 
-**If we installed at.js 2.0 and implemented `triggerView()` on our sites, how do we run Auto-Target A/B activities because the SPA VEC doesn't support Auto-Target?**
+**If we installed at.js 2.x and implemented `triggerView()` on our sites, how do we run Auto-Target A/B activities because the SPA VEC doesn't support Auto-Target?**
 
 If you want to use Auto-Target A/B activities, you can move all of your actions to be executed on Page Load Event in the VEC. Hover over each action, and click the [!UICONTROL Move to Page Load Event] button. After this is done, in the next step, you can select Auto-Target for the traffic allocation method.
 

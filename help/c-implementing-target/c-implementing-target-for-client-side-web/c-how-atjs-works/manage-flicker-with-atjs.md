@@ -25,9 +25,9 @@ Opacity set to 0 keeps the page content hidden to prevent flicker, but the brows
 
 If opacity 0 does not work in your implementation, you can also manage flicker by customizing `bodyHiddenStyle` and set it to `body {visibility:hidden !important}`. You can use either value body `{opacity:0 !important`} or `body {visibility:hidden !important}`, whichever works best for your specific circumstance.
 
-The following illustration shows the Hide Body and Show Body calls in both at.js 1.*x* and at.js 2.0.
+The following illustration shows the Hide Body and Show Body calls in both at.js 1.*x* and at.js 2.x.
 
-**at.js 2.0.0**
+**at.js 2.x**
 
 ![Target flow: at.js page load request](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/atjs-20-flow-page-load-request.png)
 
@@ -99,9 +99,9 @@ Instead of the default:
 body {opacity: 0 !important}
 ```
 
-## Managing Flicker in At.js 2.0.0 for triggerView()
+## Managing Flicker in at.js 2.x for triggerView()
 
-When using `triggerView()` to show targeted content in your SPA, flicker management is provided out of the box. This means that pre-hiding logic does not need to be added manually. Instead, at.js 2.0.0 pre-hides the location where your view needs to be shown before applying the targeted content.
+When using `triggerView()` to show targeted content in your SPA, flicker management is provided out of the box. This means that pre-hiding logic does not need to be added manually. Instead, at.js 2.x pre-hides the location where your view needs to be shown before applying the targeted content.
 
 ## Managing Flicker with getOffer() and applyOffer()
 
@@ -126,7 +126,7 @@ adobe.target.getOffer({
 });
 ```
 
-## Using a regional mbox with mboxCreate() in At.js 1.x (not supported in at.js 2.0.0)
+## Using a regional mbox with mboxCreate() in At.js 1.x (not supported in at.js 2.x)
 
 If you use a regional mbox implementation, you can use `mboxCreate()` with your page provisioned similar to the following sample code:
 

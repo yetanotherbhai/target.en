@@ -5,7 +5,7 @@ seo-description: Information about the mboxCreate(mbox,params) function for the 
 seo-title: Information about the mboxCreate(mbox,params) function for the Adobe Target at.js JavaScript library.
 solution: Target
 subtopic: Getting Started
-title: mboxCreate(mbox,params) - at.js 2.0.0
+title: mboxCreate(mbox,params) - at.js 2.x
 topic: Standard
 ---
 
@@ -15,7 +15,7 @@ Executes a request and applies the offer to the closest DIV with mboxDefault cla
 
 >[!NOTE]
 >
->This function is available for at.js versions 1.*x* only. This function was deprecated with the release of at.js 2.0. This function returns default content if used with at.js 2.0.
+>This function is available for at.js versions 1.*x* only. This function was deprecated with the release of at.js 2.x. This function returns default content if used with at.js 2.x.
 
 This function is built into [!DNL at.js] mostly to ease the transition from [!DNL mbox.js] to [!DNL at.js]. A newer alternative to `mboxCreate()` is `adobe.target.getOffer()`/ `adobe.target.applyOffer()` or the Angular directive.
 

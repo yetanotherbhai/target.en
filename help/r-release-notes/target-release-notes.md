@@ -13,7 +13,7 @@ uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 
 These release notes provide information about features, enhancements, and fixes for the latest or upcoming [!DNL Adobe Target] releases.
 
-**Last Updated: March 14, 2019**
+**Last Updated: March 18, 2019**
 
 >[!NOTE]
 >
@@ -26,6 +26,27 @@ Be aware of the following important announcements:
 * On February 20, 2019, the Adobe Target infrastructure was upgraded in the EMEA, Japan, and APAC regions to no longer collect data from end users with older devices or web browsers that do not support TLS 1.1 or later. This same upgrade is planned for the North America region for **April 1, 2019**. Migrating to TLS 1.2 provides improved security. It is important that you go through the specifics and plan out the changes with your IT team for a smooth transition. For more information, see [TLS (Transport Layer Security) encryption changes](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md).
 * [!DNL Target] and the [!DNL Adobe Marketing Cloud] will drop support for Microsoft Internet Explorer 11 starting in March 2019. This change affects [!DNL Target] authoring only; this change does not affect experience delivery. Please switch to Microsoft Edge or another browser. For more information, see [Supported browsers](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md).
 * The [Adobe Target product documentation](https://docs.adobe.com/content/help/en/target/using/target-home.html) has moved to a new domain: `docs.adobe.com`. The documentation can be found at the following URL: `https://docs.adobe.com/content/help/en/target/using/target-home.html`. Please update your bookmarks accordingly.
+
+
+## at.js version 2.0.1 (TBD)
+
+This is a maintenance release and includes the following enhancements and fixes:
+
+(The issue numbers in parentheses are for internal [!DNL Adobe] use.)
+
+* Fixed a race condition in the DOM polling code that caused JavaScript exceptions for certain customers. (TNT-31869)
+* Notifications that views were rendered have been decoupled from click-tracking event handlers. Initially, Target did not send notifications if click-event handlers belonging to a rendered view could not be attached. Target now sends a view notification even when click elements are not found. (TNT-31969)
+* Fixed an issue that caused the request-succeeded event redirect flag to always be set to true. (TNT-31907)
+* Fixed an issue that caused the VEC rearrange action to be logged as success, even when elements were missing. (TNT-31924)
+* Fixed an issue that caused notifications for certain customers to not contain the Enterprise Permissions property token. (TNT-31999)
+
+## at.js version 1.7.1 (TBD)
+
+This is a maintenance release and includes the following fix:
+
+(The issue numbers in parentheses are for internal [!DNL Adobe] use.)
+
+* Fixed a race condition in the DOM polling code that caused JavaScript exceptions for certain customers. (TNT-31869)
 
 ## [!DNL Target] Standard/Premium 19.3.1 (March 29, 2019) {#release-19-3-1-prerelease}
 
