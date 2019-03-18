@@ -150,7 +150,6 @@ user-guide-title: Adobe Target Help
       + Troubleshooting the Analytics and Target integration (A4T) {#troubleshoot-a4t}
          + [Troubleshoot A4T](c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md)
          + [Minimizing inflated visit and visitor counts in A4T](c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md)
-         + [Bob Troubleshoot A4T](c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/c-a4t-troubleshooting.md)
       + A4T Frequently Asked Questions
          + [Initial provisioning - A4T FAQ](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-initial-provisioning.md)
          + [Activity settings - A4T FAQ](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md)
@@ -175,9 +174,6 @@ user-guide-title: Adobe Target Help
    + [Experience Cloud Audiences](c-integrating-target-with-mac/mmp.md)
    + [Integrate Target with Adobe Campaign](c-integrating-target-with-mac/campaign-and-target.md)
    + [Experience Cloud Device Co-op](c-integrating-target-with-mac/experience-cloud-device-co-op.md)
-   + [Bob Experience Cloud Audiences](c-integrating-target-with-mac/c-mmp.md)
-   + [Bob Integrate Target with Adobe Campaign](c-integrating-target-with-mac/c-campaign-and-target.md)
-   + [Bob Experience Cloud Device Co-op](c-integrating-target-with-mac/c-experience-cloud-device-co-op.md)
 + Activities {#activities}
    + [Activities overview](c-activities/activities.md)
    + [Target activity types](c-activities/target-activities-guide.md)
