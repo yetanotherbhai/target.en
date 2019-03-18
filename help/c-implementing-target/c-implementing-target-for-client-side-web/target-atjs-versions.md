@@ -17,7 +17,7 @@ Details about changes in each version of the [!DNL Adobe Target] at.js JavaScrip
 >
 >The Target team maintains only two versions of [!DNL at.js]—the current version and the second-latest version. Please upgrade [!DNL at.js] as necessary to ensure that you are running a supported version.
 
-## at.js version 2.0.1 (TBD)
+## at.js version 2.0.1 (March 19, 2019)
 
 This is a maintenance release and includes the following enhancements and fixes:
 
@@ -29,7 +29,7 @@ This is a maintenance release and includes the following enhancements and fixes:
 * Fixed an issue that caused the VEC rearrange action to be logged as success, even when elements were missing. (TNT-31924)
 * Fixed an issue that caused notifications for certain customers to not contain the Enterprise Permissions property token. (TNT-31999)
 
-## at.js version 1.7.1 (TBD)
+## at.js version 1.7.1 (March 19, 2019)
 
 This is a maintenance release and includes the following fix:
 

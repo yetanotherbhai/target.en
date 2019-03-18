@@ -28,7 +28,7 @@ Be aware of the following important announcements:
 * The [Adobe Target product documentation](https://docs.adobe.com/content/help/en/target/using/target-home.html) has moved to a new domain: `docs.adobe.com`. The documentation can be found at the following URL: `https://docs.adobe.com/content/help/en/target/using/target-home.html`. Please update your bookmarks accordingly.
 
 
-## at.js version 2.0.1 (TBD)
+## at.js version 2.0.1 (March 19, 2019)
 
 This is a maintenance release and includes the following enhancements and fixes:
 
@@ -40,7 +40,7 @@ This is a maintenance release and includes the following enhancements and fixes:
 * Fixed an issue that caused the VEC rearrange action to be logged as success, even when elements were missing. (TNT-31924)
 * Fixed an issue that caused notifications for certain customers to not contain the Enterprise Permissions property token. (TNT-31999)
 
-## at.js version 1.7.1 (TBD)
+## at.js version 1.7.1 (March 19, 2019)
 
 This is a maintenance release and includes the following fix:
 
