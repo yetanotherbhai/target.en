@@ -15,7 +15,7 @@ Provides a standard way to register a specific extension.
 
 >[!NOTE]
 >
->This function is available for at.js versions 1.*x* only. This function was deprecated with the release of at.js 2.0. This function returns default content if used with at.js 2.0.
+>This function is available for at.js versions 1.*x* only. This function was deprecated with the release of at.js 2.x. This function returns default content if used with at.js 2.x.
 
 The options parameter is mandatory and has the following structure:
 
