@@ -164,15 +164,11 @@ user-guide-title: Adobe Target Help
    + [Experience Cloud Device Co-op](c-integrating-target-with-mac/experience-cloud-device-co-op.md)
 + Activities {#activities}
    + [Activities overview](c-activities/activities.md)
-   + [Bob Activities overview](c-activities/c-activities.md)
    + [Target activity types](c-activities/target-activities-guide.md)
    + A/B Test {#abtest}
       + [A/B test overview](c-activities/t-test-ab/test-ab.md)
       + [How long should you run an A/B test?](c-activities/t-test-ab/sample-size-determination.md)
       + [Nine common A/B testing pitfalls and how to avoid them](c-activities/t-test-ab/common-ab-testing-pitfalls.md)
-      + [Bob A/B test overview](c-activities/t-test-ab/t-test-ab.md)
-      + [Bob How long should you run an A/B test?](c-activities/t-test-ab/c-sample-size-determination.md)
-      + [Bob Nine common A/B testing pitfalls and how to avoid them](c-activities/t-test-ab/c-common-ab-testing-pitfalls.md)
       + Create an A/B test {#create}
          + [Create a test](c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)
          + [Activity URL](c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md)
@@ -182,21 +178,13 @@ user-guide-title: Adobe Target Help
          + [Using Analytics Data](c-activities/t-test-ab/t-test-create-ab/create-a4t.md)
          + [Set metrics](c-activities/t-test-ab/t-test-create-ab/ab-set-metrics.md)
          + [Multiple experience versions in an A/B Test](c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md)
-         + [Bob Create a test](c-activities/t-test-ab/t-test-create-ab/t-test-create-ab.md)
-         + [Bob Activity URL](c-activities/t-test-ab/t-test-create-ab/c-ab-activity-url.md)
-         + [Bob Add experience](c-activities/t-test-ab/t-test-create-ab/t-ab-add-experience.md)
-         + [Bob Select audience](c-activities/t-test-ab/t-test-create-ab/c-ab-audience.md)
-         + [Bob Goals and settings](c-activities/t-test-ab/t-test-create-ab/r-ab-goals-and-settings.md)
-         + [Bob Using Analytics Data](c-activities/t-test-ab/t-test-create-ab/t-create-a4t.md)
-         + [Bob Set metrics](c-activities/t-test-ab/t-test-create-ab/t-ab-set-metrics.md)
-         + [Bob Multiple experience versions in an A/B Test](c-activities/t-test-ab/t-test-create-ab/t-target-experience-to-multiple-audiences.md)
-   + Auto-Allocate {#auto-allocate}
+   + Auto-Allocate {auto-allocate}
       + [Auto-Allocate](c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
       + [Determine a winner](c-activities/automated-traffic-allocation/determine-winner.md)
       + [Bob Determine a winner](c-activities/automated-traffic-allocation/c-determine-winner.md)
    + [Bob Auto-Target](c-activities/c-auto-target-to-optimize.md)
    + [Auto-Target](c-activities/auto-target-to-optimize.md)
-   + Automated Personalization {#automated-personalization}
+   + Automated Personalization {automated-personalization}
       + [Automated Personalization overview](c-activities/t-automated-personalization/automated-personalization.md)
       + [Random Forest Algorithm](c-activities/t-automated-personalization/algo-random-forest.md)
       + [Create an Automated Personalization activity](c-activities/t-automated-personalization/create-ap-activity.md)
