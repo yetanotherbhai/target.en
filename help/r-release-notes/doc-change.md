@@ -17,6 +17,8 @@ This page lists important changes made to the [!DNL Adobe Target] documentation.
 
 |Date|Topic|Changes|
 | --- | --- | --- |
+|March 19, 2019|[Target release notes (current)](/help/r-release-notes/release-notes.md)|Added information about at.js versions 2.0.1 and 1.7.1.|
+||[View reports - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md)|Added the following FAQ: "Does A4T support virtual report suites?"|
 |March 18, 2019|[Target release notes (prerelease)](/help/r-release-notes/target-release-notes.md) and [at.js version details](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)|Added information about at.js versions 2.0.1 and 1.7.1.|
 ||[Methods to get data into Target](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md#section_92AB4820A5624C669D9A1F1B6220D4FA) and [Customer attributes](/help/c-target/c-visitor-profile/working-with-customer-attributes.md)|Added: You cannot send the following characters in `mbox3rdPartyID`: plus sign (+) and forward slash (/).|
 |March 15, 2019|[Before you implement](/help/c-implementing-target/c-considerations-before-you-implement-target/considerations-before-you-implement-target.md)|Added important note: Modifications to at.js or mbox.js will not be supported by Adobe Customer Care.|

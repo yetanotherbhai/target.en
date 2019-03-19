@@ -21,12 +21,29 @@ Be aware of the following important announcements:
 * [!DNL Target] and the [!DNL Adobe Marketing Cloud] will drop support for Microsoft Internet Explorer 11 starting in March 2019. This change affects [!DNL Target] authoring only; this change does not affect experience delivery. Please switch to Microsoft Edge or another browser. For more information, see [Supported browsers](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md).
 * The [Adobe Target product documentation](https://docs.adobe.com/content/help/en/target/using/target-home.html) has moved to a new domain: `docs.adobe.com`. The documentation can be found at the following URL: `https://docs.adobe.com/content/help/en/target/using/target-home.html`. Please update your bookmarks accordingly.
 
-## Platform Changes (February 19, 2019) {#platform-changes-19-2-1}
+## at.js version 2.0.1 (March 19, 2019) {#atjs201}
 
-|Feature/Enhancement|Description|
-| --- | --- |
-|at.js version 2.0.0<br>February 19, 2019|at.js 2.x is now available.<br>The newest version of at.js provides rich feature sets that equip your business to execute personalization on next generation client-side technologies. This new version is focused on upgrading at.js to have harmonious interactions with single page applications (SPAs).<br>Here are some benefits of using at.js 2.x that are not available in previous versions:<ul><li>The ability to cache all offers on page load to reduce multiple server calls to a single server call.</li><li>Tremendously improve your end-users' experiences on your site because offers are shown immediately via the cache without any lag time that traditional server calls introduce.</li><li>Simple one-line of code and one-time developer setup to enable your marketers to create and run A/B and Experience (XT) activities via the Visual Experience Composer (VEC) on your single page applications.</li></ul>at.js 2.x introduces the following new functions:<ul><li>getOffers()</li><li>applyOffers()</li><li>triggerView()</li></ul>The following functions have been deprecated with the introduction of at.js 2.x:<ul><li>mboxCreate()</li><li>mboxDefine</li><li>registerExtension()</li></ul>For more information, see [Upgrading from at.js 1.x to at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md) and [at.js functions](/help/c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md).<br>**Note**: If you require Adobe Opt-in support for the [General Data Protection Regulation](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) (GDPR), you must currently use at.js 1.7.0. Opt-in support is not supported in at.js 2.x.|
-|at.js version 1.7.0<br>February 14, 2019|at.js 1.7.0 is available.<br>This release brings Adobe Opt-In support. Adobe Opt-In is a way to simplify Adobe solutions integrations with consent management platforms.<br>For more information about Adobe Opt-in, see [Privacy and General Data Protection Regulation](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) (GDPR).<br>This release also fixes an issue where Target might override redirect URL parameters with parameters that are coming from the redirect URL.<br>**Note**: If you require Adobe Opt-in support for GDPR, you must currently use at.js 1.7.0. Opt-in support is not supported in at.js 2.x.<br>For a list of all versions, see [at.js version details](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).|
+This is a maintenance release and includes the following enhancements and fixes:
+
+(The issue numbers in parentheses are for internal [!DNL Adobe] use.)
+
+* Fixed a race condition in the DOM polling code that caused JavaScript exceptions for certain customers. (TNT-31869)
+* Notifications that views were rendered have been decoupled from click-tracking event handlers. Initially, Target did not send notifications if click-event handlers belonging to a rendered view could not be attached. Target now sends a view notification even when click elements are not found. (TNT-31969)
+* Fixed an issue that caused the request-succeeded event redirect flag to always be set to true. (TNT-31907)
+* Fixed an issue that caused the VEC rearrange action to be logged as success, even when elements were missing. (TNT-31924)
+* Fixed an issue that caused notifications for certain customers to not contain the Enterprise Permissions property token. (TNT-31999)
+
+>[!NOTE]
+>
+>If you require Adobe Opt-in support for the General Data Protection Regulation (GDPR), you should implement at.js 1.7.1. Opt-in support is not currently supported in at.js 2.*x*.
+
+## at.js version 1.7.1 (March 19, 2019) {#atjs171}
+
+This is a maintenance release and includes the following fix:
+
+(The issue numbers in parentheses are for internal [!DNL Adobe] use.)
+
+* Fixed a race condition in the DOM polling code that caused JavaScript exceptions for certain customers. (TNT-31869)
 
 ## [!DNL Target] Standard/Premium 19.2.1 (February 19, 2019) {#release-19-2-1}
 
