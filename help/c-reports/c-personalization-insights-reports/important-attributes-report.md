@@ -75,7 +75,7 @@ The following table explains how to interpret the report and describes its eleme
 
 **Personalization Insights reports are not available yet for my activity. Why is that?**
 
-There are several reasons why the [!UICONTROL Personalization Insights] reports are not yet available for your activity:
+There are several reasons why the [!UICONTROL Personalization Insights] reports might not yet be available for your activity:
 
 * 15 days has not passed since you activated the activity. Automated Segments and Important Attributes reports won't be available until at least 15 days after you've started your activity. During this initial period, you won't be able to access these reports or click the Automated Segments and Important Attributes icons. 
 * Your activity has not had sufficient traffic during the specified time frame. After 15 days have passed, assuming there is [sufficient personalized traffic](/help/c-activities/auto-target-to-optimize.md#section_BA4D83BE40F14A96BE7CBC7C7CF2A8FB) in your activity to build the personalization models, Automated Segments and Important Attributes reports will be available. 
