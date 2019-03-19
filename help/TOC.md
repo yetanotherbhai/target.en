@@ -178,13 +178,11 @@ user-guide-title: Adobe Target Help
          + [Using Analytics Data](c-activities/t-test-ab/t-test-create-ab/create-a4t.md)
          + [Set metrics](c-activities/t-test-ab/t-test-create-ab/ab-set-metrics.md)
          + [Multiple experience versions in an A/B Test](c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md)
-   + Auto-Allocate {auto-allocate}
+   + Auto-Allocate {#auto-allocate}
       + [Auto-Allocate](c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
       + [Determine a winner](c-activities/automated-traffic-allocation/determine-winner.md)
-      + [Bob Determine a winner](c-activities/automated-traffic-allocation/c-determine-winner.md)
-   + [Bob Auto-Target](c-activities/c-auto-target-to-optimize.md)
    + [Auto-Target](c-activities/auto-target-to-optimize.md)
-   + Automated Personalization {automated-personalization}
+   + Automated Personalization {#automated-personalization}
       + [Automated Personalization overview](c-activities/t-automated-personalization/automated-personalization.md)
       + [Random Forest Algorithm](c-activities/t-automated-personalization/algo-random-forest.md)
       + [Create an Automated Personalization activity](c-activities/t-automated-personalization/create-ap-activity.md)
@@ -197,18 +195,6 @@ user-guide-title: Adobe Target Help
       + [Automated Personalization FAQ](c-activities/t-automated-personalization/automated-personalization-faq.md)
       + [Share experience URLs to preview Automated Personalization outside of Target](c-activities/t-automated-personalization/experience-preview.md)
       + [Troubleshoot Automated Personalization](c-activities/t-automated-personalization/ap-trouble.md)
-      + [Bob Automated Personalization overview](c-activities/t-automated-personalization/t-automated-personalization.md)
-      + [Bob Random Forest Algorithm](c-activities/t-automated-personalization/c-algo-random-forest.md)
-      + [Bob Create an Automated Personalization activity](c-activities/t-automated-personalization/t-create-ap-activity.md)
-      + [Bob Upload data for the Target personalization algorithms](c-activities/t-automated-personalization/c-uploading-data-for-the-target-personalization-algorithms.md)
-      + [Bob Data collection for Target's personalization algorithms](c-activities/t-automated-personalization/r-ap-data.md)
-      + [Bob Estimate the Traffic Required for Success](c-activities/t-automated-personalization/t-ap-traffic-estimator.md)
-      + [Bob Preview Experiences for an Automated Personalization Test](c-activities/t-automated-personalization/t-ap-preview-experiences.md)
-      + [Bob Target Automated Personalization offers](c-activities/t-automated-personalization/t-ap-target-offers.md)
-      + [Bob Manage exclusions](c-activities/t-automated-personalization/c-managing-exclusions.md)
-      + [Bob Automated Personalization FAQ](c-activities/t-automated-personalization/c-automated-personalization-faq.md)
-      + [Bob Share experience URLs to preview Automated Personalization outside of Target](c-activities/t-automated-personalization/t-experience-preview.md)
-      + [Bob Troubleshoot Automated Personalization](c-activities/t-automated-personalization/r-ap-trouble.md)
    + Experience Targeting {#experience-targeting}
       + [Experience Targeting overview](c-activities/t-experience-target/experience-target.md)
       + Create an Experience Targeting activity {#create-targeting}
