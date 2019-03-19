@@ -27,7 +27,6 @@ Be aware of the following important announcements:
 * [!DNL Target] and the [!DNL Adobe Marketing Cloud] will drop support for Microsoft Internet Explorer 11 starting in March 2019. This change affects [!DNL Target] authoring only; this change does not affect experience delivery. Please switch to Microsoft Edge or another browser. For more information, see [Supported browsers](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md).
 * The [Adobe Target product documentation](https://docs.adobe.com/content/help/en/target/using/target-home.html) has moved to a new domain: `docs.adobe.com`. The documentation can be found at the following URL: `https://docs.adobe.com/content/help/en/target/using/target-home.html`. Please update your bookmarks accordingly.
 
-
 ## at.js version 2.0.1 (March 19, 2019)
 
 This is a maintenance release and includes the following enhancements and fixes:
