@@ -69,7 +69,7 @@ For example:
 |2|is greater than 3.0|false|
 |045|equals 45|true|
 
-Only integers and floating-point numbers are supported. Numbers written in scientific notation are compared *only* as strings.
+Strings that represent numbers (floating point numbers are also supported) are compared as numbers.
 
 For example,
 
