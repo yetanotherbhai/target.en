@@ -30,4 +30,4 @@ When the visitor logs out, the merged profile is maintained.
 
 >[!NOTE]
 >
->[!DNL Adobe Analytics] goals won't be tracked in cases where the Adobe Experience Cloud ID (MID) changes (for example, the visitor changes devices), even though the [!DNL Target] profile might be merged based on the mbox3rdPartyID and still has activity information. For visitors identified with the same MID (those who access the site with the same device), [!DNL Analytics for Target] (A4T) should work as expected.
+>[!DNL Adobe Analytics] goals won’t be tracked in cases where the [!DNL Adobe Experience Cloud] ID (MID) changes (for example, the visitor changes devices), even though the [!DNL Target] profile might be merged based on the mbox3rdPartyID and still has activity information. For visitors identified with the same MID (those who access the page with the same device), [!DNL Analytics for Target] (A4T) should work as expected.
