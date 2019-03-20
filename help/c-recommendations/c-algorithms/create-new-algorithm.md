@@ -195,7 +195,7 @@ You can base recommendations on the value of a custom profile attribute. For exa
 
    ![Create new criteria dialog box](/help/c-recommendations/c-algorithms/assets/create-new-criteria-1.png)
 
-If your custom profile attribute does not directly match to a single entity ID, it is necessary to explain to [!DNL Recommendations] how you want the match to an entity to occur. For example, suppose that you want to display the top selling items from a visitor’s favorite brand.
+If your custom profile attribute doesn't directly match to a single entity ID, it is necessary to explain to [!DNL Recommendations] how you want the match to an entity to occur. For example, suppose that you want to display the top selling items from a visitor’s favorite brand.
 
 1. Select your custom profile attribute from the **[!UICONTROL Recommendation Key]** drop-down list (for example, “Favorite Brand”).
 1. Then select the **[!UICONTROL Recommendation Logic]** you want to use with this key (for example, "Top Sellers").
@@ -206,7 +206,7 @@ If your custom profile attribute does not directly match to a single entity ID, 
 
    [!DNL Recommendations] now produces a “Top Sellers” list for each brand and shows the visitor the appropriate “Top Sellers” list based on the value stored in the visitor's Favorite Brand profile attribute.
 
-   ![Create new criteria dialog box](/help/c-recommendations/c-algorithms/assets/create-new-criteria-2.png)
+   ![Create new criteria dialog box 2](/help/c-recommendations/c-algorithms/assets/create-new-criteria-2.png)
 
 ### Last Purchased Item
 
