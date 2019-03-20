@@ -52,7 +52,7 @@ The at.js 1.0.0 release makes it possible to load the Target library asynchronou
 
 To load at.js asynchronously:
 
-* The recommended approach is via a tag manager such as Adobe Dynamic Tag Manager (DTM) or the new Adobe Launch. See the [Adobe Dynamic Tag Manager documentation](https://marketing.adobe.com/resources/help/en_US/dtm/) for more information. 
+* The recommended approach is via a tag manager such as Adobe Launch or Adobe Dynamic Tag Manager (DTM). See the [Add Adobe Target](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html) lesson of the [Implementing the Experience Cloud in Websites with Launch](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/index.html) tutorial for more information. 
 * You can also load at.js asynchronously by adding the async attribute to the script tag that loads at.js. You should use something like this:
 
   ```
@@ -69,6 +69,12 @@ To load at.js asynchronously:
   ```
 
 Loading at.js asynchronously is a great way to avoid blocking the browser from rendering; however, this technique can lead to flicker on the web page.
+
+You can avoid flicker by using a pre-hiding snippet that hides the page (or specified portions) and then reveals it after at.js and the global request have completely loaded. The snippet must be added before loading at.js.
+
+If you are deploying at.js through an asynchronous Launch implementation, be sure to include the pre-hiding snippet directly on your pages, before the Launch Embed code, as described in the [Add the Target Pre-Hiding Snippet](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html#add-the-target-pre-hiding-snippet) section of the [Implementing the Experience Cloud in Websites with Launch tutorial](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/index.html).
+
+If you are deploying at.js through a synchronous DTM implementation, the pre-hiding snippet can be added through a Page Load rule triggered at the top of the page.
 
 For more information, see [How at.js manages flicker](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/manage-flicker-with-atjs.md). 
 
