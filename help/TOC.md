@@ -277,7 +277,6 @@ user-guide-title: Adobe Target Help
    + [Audience filters for reporting](c-target/managing-audience-filters.md)
    + [Apply a reporting audience to a success metric](c-target/apply-reporting-audience-success-metric.md)
    + [Bob Combine multiple audiences](c-target/c-combining-multiple-audiences.md)
-   + [Bob Create an activity-only audience](c-target/creating-activity-only-audience.md)
    + [Bob Audience filters for reporting](c-target/c-managing-audience-filters.md)
    + [Bob Apply a reporting audience to a success metric](c-target/c-apply-reporting-audience-success-metric.md)
    + Visitor profiles {#visitor-profiles}
@@ -346,6 +345,7 @@ user-guide-title: Adobe Target Help
    + [Bob Form-Based Experience Composer](c-experiences/t-form-experience-composer.md)
    + [Form-Based Experience Composer](c-experiences/form-experience-composer.md)
    + [Single Page App (SPA) Visual Experience Composer](c-experiences/spa-visual-experience-composer.md)
+   + [Bob Single Page App (SPA) Visual Experience Composer](c-experiences/c-spa-visual-experience-composer.md)
    + Offers {#offers}
       + [Offers overview](c-experiences/c-manage-content/manage-content.md)
       + [Create offer folder](c-experiences/c-manage-content/create-content-folder.md)
@@ -366,8 +366,6 @@ user-guide-title: Adobe Target Help
       + [Bob Working with Content in the Library](c-experiences/c-manage-content/t-assets-working.md)
       + [Bob Search content and create smart collections](c-experiences/c-manage-content/c-filter-and-search-content.md)
       + [Bob Pass dynamic data into offers](c-experiences/c-manage-content/r-passing-profile-attributes-to-the-html-offer.md)
-      + [Bob AEM experience fragments](c-experiences/c-manage-content/aem-experience-fragments.md)
-   + [Bob Single Page App (SPA) Visual Experience Composer](c-experiences/c-spa-visual-experience-composer.md)
 + Reports {#reports}
    + [Reports overview](c-reports/reports.md)
    + [Bob Reports overview](c-reports/c-reports.md)
