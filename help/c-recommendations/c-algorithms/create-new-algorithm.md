@@ -165,7 +165,7 @@ Single-category pages.
 
 Do NOT use on null search results pages.
 
-### Custom Attribute
+### Custom Attribute {#custom}
 
 Recommendation is determined by an item that is stored in a visitor's profile, using either user.*x* or profile.*x* attributes.
 
@@ -185,6 +185,28 @@ If the key is a custom profile attribute and the algorithm type is Most Viewed o
 **Where to use on your site**
 
 Can be used on any pages.
+
+**Use a custom recommendations key**
+
+You can base recommendations on the value of a custom profile attribute. For example, suppose that you want to display recommended movies based on the movie that a visitor most recently added to his or her queue.
+
+1. Select your custom profile attribute from the **[!UICONTROL Recommendation Key]** drop-down list (for example, “Last Show Added to Watchlist”).
+1. Then select your **[!UICONTROL Recommendation Logic]** (for example "People Who Viewed This, Viewed That").
+
+   ![Create new criteria dialog box](/help/c-recommendations/c-algorithms/assets/create-new-criteria-1.png)
+
+If your custom profile attribute does not directly match to a single entity ID, it is necessary to explain to [!DNL Recommendations] how you want the match to an entity to occur. For example, suppose that you want to display the top selling items from a visitor’s favorite brand.
+
+1. Select your custom profile attribute from the **[!UICONTROL Recommendation Key]** drop-down list (for example, “Favorite Brand”).
+1. Then select the **[!UICONTROL Recommendation Logic]** you want to use with this key (for example, "Top Sellers").
+
+   The [!UICONTROL Group By Unique Value Of] option displays. 
+
+1. Select the entity attribute that matches to the key you’ve chosen. In this case “Favorite Brand” matches to `entity.brand`.
+
+   [!DNL Recommendations] now produces a “Top Sellers” list for each brand and shows the visitor the appropriate “Top Sellers” list based on the value stored in the visitor's Favorite Brand profile attribute.
+
+   ![Create new criteria dialog box](/help/c-recommendations/c-algorithms/assets/create-new-criteria-2.png)
 
 ### Last Purchased Item
 
