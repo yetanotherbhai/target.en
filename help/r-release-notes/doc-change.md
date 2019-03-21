@@ -20,7 +20,7 @@ This page lists important changes made to the [!DNL Adobe Target] documentation.
 |March 20, 2019|[at.js Frequently Asked Questions](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md)|Updated the following FAQ: "[Can I load the Target library asynchronously?](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md#section_AB9A0CA30C5440C693413F1455841470)"|
 ||[Real-time profile syncing for mbox3rdPartyID](/help/c-target/c-visitor-profile/3rd-party-id.md)|Added note at the bottom of the page.|
 ||[Limits](/help/r-troubleshooting-target/target-limits.md)<br>[Custom entity attributes](/help/c-recommendations/c-products/custom-entity-attributes.md#limits)|Added information about "entity custom attribute" limits.|
-||[Targets and audiences FAQ](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md#strings)|Updated text.|
+||[Targets and audiences FAQ](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md#strings-that-represent-numbers)|Updated text.|
 ||[Create new criteria](/help/c-recommendations/c-algorithms/create-new-algorithm.md#custom)|Added new section that explains how to create profile-based groupings for popularity algorithms: "Use a custom recommendations key."|
 |March 19, 2019|[Target release notes (current)](/help/r-release-notes/release-notes.md)|Added information about at.js versions 2.0.1 and 1.7.1.|
 ||[View reports - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md)|Added the following FAQ: "Does A4T support virtual report suites?"|
