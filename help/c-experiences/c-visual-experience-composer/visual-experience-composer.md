@@ -14,37 +14,87 @@ The Visual Experience Composer is one of the main features of Adobe Target. The 
 
 On the Target **[!UICONTROL Setup]** > **[!UICONTROL Preferences]** tab, you can enter the Default Visual Experience Composer URL.
 
-![](assets/pref-default-url.png)
+![Default VEC URL settings](/help/c-experiences/c-visual-experience-composer/assets/pref-default-url-new.png)
 
-This URL determines where you start when you open the Visual Experience Composer. If you do not enter a default, then you start with a blank page when you open the editor, and specify a URL at that time.
+This URL determines where you start when you open the VEC. If you do not enter a default, then you start with a blank page when you open the editor, and specify a URL at that time.
 
 >[!NOTE]
 >
->Certain browsers, such as Firefox, might block a page from displaying in the Visual Experience Composer if the page contains mixed content (for example, a non-secure page in a secure site). If your page does not display, click the icon to the left of the URL in the browser address bar and click **[!UICONTROL Disable protection on this page]**. This issue does not affect the display of your pages to site visitors.
+>Certain browsers, such as Firefox, might block a page from displaying in the VEC if the page contains mixed content (for example, a non-secure page in a secure site). If your page does not display, click the icon next to the URL in the browser address bar and click **[!UICONTROL Disable protection on this page]**. This issue does not affect the display of your pages to site visitors.
 
-Content inside an iframe on the page can't be modified in Visual Experience Composer. To edit content within an iframe, ensure that the iframe document is Target-enabled, then load that iframe URL in the Visual Experience Composer.
+Content inside an iframe on the page can't be modified in the VEC. To edit content within an iframe, ensure that the iframe document is Target-enabled, then load that iframe URL in the VEC.
 
 You can use the drop-down menus across the top of the page to view your page as it would appear to different audiences or with different experiences. You can provide a name for each experience in the second drop-down list. For example, if you are testing the location of the Home link in your nav bar, you might name an experience where the Home link appears first something like, "Home link" to make it easier to identify the experiences in the list.
 
 >[!NOTE]
 >
->Changes to the structure of a page that affect the locations used in an activity created on that page could cause issues with experience editing. If a location has been changed outside the Visual Experience Editor, Target might not be able to find the location where the content was changed.
+>Changes to the structure of a page that affect the locations used in an activity created on that page could cause issues with experience editing. If a location has been changed outside the VEC, Target might not be able to find the location where the content was changed.
 
 As you move your mouse around the page, a context-sensitive box follows the cursor, highlighting the elements on the page.
 
-![](assets/vec_highlight.png)
+![VEC highlighted](/help/c-experiences/c-visual-experience-composer/assets/vec-highlight-new.png)
 
-Click the Overlays icon to change the way the highlight displays. For example, you can choose to highlight only images or mboxes or links, and you can change the color of the highlight. You can also specify a highlight color and type of fill used to highlight different element types.
+Click the **[!UICONTROL Overlays]** icon to change the way the highlight displays. For example, you can choose to highlight only images, links, regional mboxes, modifications, or JavaScript. You can change the color of the highlight. You can also specify a highlight color and type of fill used to highlight different element types.
 
-Click on a highlighted element for a menu of options available for that element type For example, you can click on an image and select **[!UICONTROL Edit Image]** to change the image, or click on a button and change the HTML. You can use the buttons at the top left of the page to toggle the overlays on and off.
+![Change Overlay settings](/help/c-experiences/c-visual-experience-composer/assets/change-overlay.png)
 
-You can also click **[!UICONTROL Browse]**, then navigate to a page that is available from the primary page, such as a shipping page or shopping cart, and test changes on that page. You can also access page elements that are available when you hover, such as flyout menus and mini-carts. When you are finished browsing to the page, click **[!UICONTROL Compose]** to edit the experience. For example, you might want to change the design of a shopping cart drop-down or a carousel of images. This functionality is currently available for A/B tests, A/B tests with Analytics, and experience targeting.
+Click a highlighted element for a menu of options available for that element type For example, you can click on an image and select **[!UICONTROL Edit > Text/HTML]** to change the text, or click a button and change the background color. You can use the buttons at the top left of the page to toggle the overlays on and off.
+
+You can also click **[!UICONTROL Browse]**, then navigate to a page that is available from the primary page, such as a shipping page or shopping cart, and test changes on that page. You can also access page elements that are available when you hover, such as flyout menus and mini-carts. When you are finished browsing to the page, click **[!UICONTROL Compose]** to edit the experience. For example, you might want to change the design of a shopping cart drop-down or a carousel of images.
 
 >[!NOTE]
 >
 >If a hover state depends on JavaScript, make sure **[!UICONTROL Disable JavaScript]** is not selected. JavaScript must be enabled to edit JavaScript elements.
 
-For information about the options available in the Visual Experience Composer, see [Visual Experience Composer Options](../../c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81). 
+For information about the options available in the VEC, see [Visual Experience Composer Options](../../c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81).
+
+You can perform some modifications on a page while the page is loading (or after the page fails to load), or you can cancel page loading in the VEC. For more information, see:
+
+* [Edit a page while the page is loading or after the page fails to load](#loading)
+* [Cancel loading of a page within the VEC](#cancel-loading)
+
+## Edit a page while the page is loading or after the page fails to load {#loading}
+
+ You can perform many actions before the page loads in the VEC, or even if the page fails to load altogether (for example, custom code is no longer operational).
+
+Some reasons why you might want to access or make edits to a page while it is loading within the VEC or after it fails to load:
+
+* You want to make a simple modification to a page, such as to add custom code or change an experience name
+* You want to copy existing custom code from a page that is no longer accessible
+* You know that a page will not load within the VEC, but you want to make simple edits anyway
+
+While the page loads (or after it fails to load), the Experiences panel, Modifications panel, and the settings at the top of the experience (Overlays, Modifications, Configure, and so forth) are all accessible.
+
+The following illustration shows that you can insert custom code or perform other actions while the page is still loading:
+
+![Page loading](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/assets/loading-page.png)
+
+## Cancel loading of a page within the VEC {#cancel-loading}
+
+You can cancel the loading of a page within the VEC to unlock editing of the activity without waiting for the page to load. This feature saves time and helps you make simple edits or insert custom code more efficiently without waiting for the page to load within the VEC.
+
+Some reasons why you might want to cancel page loading within the VEC include:
+
+* You want to make minor edits to existing modifications
+* You want to delete one or more existing modifications
+* You want to insert or edit custom code
+* You mistakenly entered the wrong URL for the page
+* You want to enable or disable JavaScript before loading the page in the VEC
+* You want to add more template testing rules to the Page Delivery criteria
+
+After you cancel page loading in the VEC you can switch between experiences in the activity without waiting for the page to load. To see the page within the VEC again, you must click the **[!UICONTOL Reload]** button.
+
+>[!IMPORTANT]
+>
+>Be aware that when custom code or any modifications are made, by choosing to cancel loading within the VEC, you must ensure that your coding or changes are done properly. Ensure that you perform proper QA to ensure that your custom code and any other modifications are delivered as expected.
+
+To cancel loading of a page within the VEC, click the **[!UICONTROL Cancel Loading]** button while the page is loading. The page will not load in the VEC for this activity during the current editing session.
+
+![Cancel Loading button](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/assets/cancel-loading.png)
+
+To continue managing experiences in the current activity or to add new modifications, you must click the **[!UICONTROL Reload]** button.
+
+![Reload button](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/assets/reload-in-vec.png)
 
 ## Training videos
 
