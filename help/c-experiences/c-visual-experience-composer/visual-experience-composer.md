@@ -10,7 +10,7 @@ uuid: f1e6f67e-1d7e-4806-8389-2ce165b534b4
 
 Information about using the Visual Experience Composer (VEC).
 
-The Visual Experience Composer is one of the main features of Adobe Target. The Visual Experience Composer is an editor that enables marketers and designers to create and change content using a visual interface. Many design choices can be made without requiring direct editing of the code. Editing HTML and JavaScript is also possible using the editing options available in the composer.
+The VEC is one of the main features of [!DNL Adobe Target]. The VEC is an editor that lets marketers and designers create and change content using a visual interface. Many design choices can be made without requiring direct editing of the code. Editing HTML and JavaScript is also possible using the editing options available in the composer.
 
 On the Target **[!UICONTROL Setup]** > **[!UICONTROL Preferences]** tab, you can enter the Default Visual Experience Composer URL.
 
@@ -59,11 +59,11 @@ You can perform some modifications on a page while the page is loading (or after
 
 Some reasons why you might want to access or make edits to a page while it is loading within the VEC or after it fails to load:
 
-* You want to make a simple modification to a page, such as to add custom code or change an experience name
+* You want to make a simple modification to a page, such as to add custom code or change an experience's name
 * You want to copy existing custom code from a page that is no longer accessible
 * You know that a page will not load within the VEC, but you want to make simple edits anyway
 
-While the page loads (or after it fails to load), the Experiences panel, Modifications panel, and the settings at the top of the experience (Overlays, Modifications, Configure, and so forth) are all accessible.
+While the page loads (or after it fails to load), the [!UICONTROL Experiences] panel, [!UICONTROL Modifications] panel, and the settings at the top of the experience (Overlays, Modifications, Configure, and so forth) are all accessible.
 
 The following illustration shows that you can insert custom code or perform other actions while the page is still loading:
 
@@ -81,6 +81,7 @@ Some reasons why you might want to cancel page loading within the VEC include:
 * You mistakenly entered the wrong URL for the page
 * You want to enable or disable JavaScript before loading the page in the VEC
 * You want to add more template testing rules to the Page Delivery criteria
+* You want to override the global Enhanced Experience Composer (EEC) toggle when loading a page via the EEC or iframe-only might depend might vary page to page
 
 After you cancel page loading in the VEC you can switch between experiences in the activity without waiting for the page to load. To see the page within the VEC again, you must click the **[!UICONTOL Reload]** button.
 
