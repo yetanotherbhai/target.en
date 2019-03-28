@@ -56,7 +56,7 @@ Here is the mapping:
 
 ## Target Recommendations APIs
 
-Link: [Target Recommendations APIs](https://www.adobe.io/apis/experiencecloud/target/docs/getting-started.html)
+Link: [Target Recommendations APIs](http://developers.adobetarget.com/api/recommendations)
 
 The Recommendations APIs enable you to programmatically interact with Target's recommendations servers. These APIs can be integrated with a range of application stacks to perform functions that you would typically do via the user interface.
 
