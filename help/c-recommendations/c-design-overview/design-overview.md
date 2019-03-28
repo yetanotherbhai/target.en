@@ -23,7 +23,7 @@ Target can also send your recommendations as JSON objects that can be used in em
 
 The following example shows how to JSON responses can be returned when configuring an activity via the form-based editor.
 
-1. Create a design from within Design Library or within the form-based workflow. If you attempt to do this inside the Visual Experience Composer (VEC) workflow you cannot create anything other than an HTML design, which is wrapped in a <div> for click tracking purposes. 
+1. Create a design from within Design Library or within the form-based workflow. If you attempt to do this inside the Visual Experience Composer (VEC) workflow you cannot create anything other than an HTML design, which is wrapped in a `<div>` for click tracking purposes. 
 1. Ensure that the "HTML Design" option is turned off:
 
    ![](assets/html_design_toggle.png)
