@@ -1,7 +1,6 @@
 ---
 description: What you need to know before creating a Recommendations activity.
-keywords: Recommendations;settings;preferences;industry vertical;filter incompatible criteria;default host group;thumb base url;
-recommendations api token
+keywords: Recommendations;settings;preferences;industry vertical;filter incompatible criteria;default host group;thumb base url;recommendations api token
 seo-description: What you need to know before creating a Recommendations activity.
 seo-title: Plan and Implement Recommendations
 solution: Target
