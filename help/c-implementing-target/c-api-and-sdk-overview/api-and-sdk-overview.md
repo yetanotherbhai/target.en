@@ -19,7 +19,7 @@ The following section lists the various APIs and the NodeJS SDK and provides add
 
 Link: [Server Side Delivery APIs](https://developers.adobetarget.com/api/#server-side-delivery)
 
-/rest/v1/mbox
+`/rest/v1/mbox`
 
 Adobe Target lets your application make mbox calls from any browser, mobile device, or even another server. The Server Side delivery API is specifically designed to integrate Adobe Target with any server-side platform that makes HTTP/HTTPS calls.
 
@@ -35,7 +35,7 @@ This API does not process cookies or redirect calls.
 
 Link: [Server Side Batch Delivery APIs](https://developers.adobetarget.com/api/#server-side-batch-delivery)
 
-/rest/v2/batchmbox
+`/rest/v2/batchmbox`
 
 The Batch Delivery API lets your application request content for multiple mboxes in a single call. It also has a prefetch mode that enables clients like mobile apps, servers, and so forth to fetch content for multiple mboxes in one request, cache it locally, and later notify Target when the user visits those mboxes.
 
