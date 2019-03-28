@@ -20,6 +20,7 @@ This page lists important changes made to the [!DNL Adobe Target] documentation.
 |March 29, 2019|[Visual Experience Composer (VEC)](/help/c-experiences/c-visual-experience-composer/visual-experience-composer.md)|New section: "[Cancel loading of a page within the VEC.](/help/c-experiences/c-visual-experience-composer/visual-experience-composer.md#cancel-loading)"|
 ||[Visual Experience Composer (VEC)](/help/c-experiences/c-visual-experience-composer/visual-experience-composer.md)|New section: "[Edit a page while the page is loading or after the page fails to load](/help/c-experiences/c-visual-experience-composer/visual-experience-composer.md#loading)."|
 ||[Visual Experience Composer options](/help/c-experiences/c-visual-experience-composer/viztarget-options.md)|New section: "[Navigate elements using the DOM path](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path)."|
+||[Known issues and resolved issues](/help/r-release-notes/known-issues-resolved-issues.md#cancel)|Added a current known issue about when you cancel loading of a page within the VEC.|
 ||[Release Notes](/help/r-release-notes/release-notes.md): 19.3.1|This release includes enhancements and fixes. You can read about them and link to the documentation from the Release Notes. This release also includes many documentation updates throughout the help.|
 
 ## Adobe Target Standard/Premium 19.2.1 (February 19, 2019) {#section-19-2-1}

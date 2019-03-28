@@ -97,6 +97,10 @@ To continue managing experiences in the current activity or to add new modificat
 
 ![Reload button](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/assets/reload-in-vec.png)
 
+>[!NOTE]
+>
+>There is a current known issue with this feature that will be fixed in the next release. For more information, see "Cancel loading of a page within the VEC" on the [Known issues and resolved issues](/help/r-release-notes/known-issues-resolved-issues.md#cancel) page.
+
 ## Training videos
 
 The following videos contain more information about the concepts discussed in this article.
