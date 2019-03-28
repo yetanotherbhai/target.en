@@ -23,7 +23,7 @@ Target can also send your recommendations as JSON objects that can be used in em
 
 The following example shows how to JSON responses can be returned when configuring an activity via the form-based editor.
 
-1. Create a design from within Design Library or within the form-based workflow. If you attempt to do this inside the Visual Experience Composer (VEC) workflow you cannot create anything other than an HTML design, which is wrapped in a <div> for click tracking purposes. 
+1. Create a design from within Design Library or within the form-based workflow. If you attempt to do this inside the Visual Experience Composer (VEC) workflow you cannot create anything other than an HTML design, which is wrapped in a `<div>` for click tracking purposes. 
 1. Ensure that the "HTML Design" option is turned off:
 
    ![](assets/html_design_toggle.png)
@@ -86,10 +86,10 @@ The following example shows how to JSON responses can be returned when configuri
 
 | Parameter | Value |
 |--- |--- |
-|[YOUR_CLIENT_CODE]|Target Client code (available on  ../target/products.html#recsSettings  > Recommendation API Token > Client Code.|
-|[YOUR_MBOX_NAME]|The name you've selected in the "locations" section of the form-based Recommendations, in this case YOUR_CLIENT_CODE.|
-|[ENTITY_ID]|The `entity.id` of an item in your catalog.|
-|[AT_PROPERTY_TOKEN]|(Optional) Add if you've selected a Property (part of Enterprise Permissions) during your activity setup.|
+|`[YOUR_CLIENT_CODE]`|Target Client code (available on  ../target/products.html#recsSettings  > Recommendations API Token > Client Code.|
+|`[YOUR_MBOX_NAME]`|The name you've selected in the "locations" section of the form-based Recommendations, in this case YOUR_CLIENT_CODE.|
+|`[ENTITY_ID`]|The `entity.id` of an item in your catalog.|
+|`[AT_PROPERTY_TOKEN]`|(Optional) Add if you've selected a Property (part of Enterprise Permissions) during your activity setup.|
 
 After your algorithm has run, and you have results, your response should look something like this:
 
