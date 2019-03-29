@@ -31,10 +31,6 @@ This release includes the following features, changes and enhancements:
 | --- | --- |
 |Visual Experience Composer|The Visual Experience Composer (VEC) includes the following enhancements to make your work quicker and more efficient:<ul><li>You can now cancel the loading of a website in the VEC to unblock editing of an activity. This enhancement is useful, for example, if you want to make a small edit to the activity, review its settings, or add custom code and you don't want to wait for the site to load. (TGT-31288)<br>See [Cancel loading of a page within the VEC](/help/c-experiences/c-visual-experience-composer/visual-experience-composer.md#cancel-loading).</li><li>You can perform many actions before the page loads in the VEC, or even if the page fails to load altogether (for example, custom code is no longer operational). Actions that cannot be edited before the site loads are disabled in the Target UI. (TGT-31288, TGT-31611, and TGT-32602)<br>See [Edit a page while the page is loading or after the page fails to load](/help/c-experiences/c-visual-experience-composer/visual-experience-composer.md#loading).</li><li>The VEC displays the DOM path so you can easily select the proper element while creating or editing experiences. (TGT-13422)<br>See [Navigate elements using the DOM path](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path).</li></ul>|
 
-**Enhancement, fixes, and changes**
-
-* You are now instructed to re-authenticate when your session expires while reviewing a report. After you log in again, you are directed back to the report. (TGT-32723)
-
 ## at.js version 2.0.1 (March 19, 2019) {#atjs201}
 
 This is a maintenance release and includes the following enhancements and fixes:
