@@ -50,7 +50,7 @@ Multi-value entity custom attributes can contain no more than 500 values. Each i
 
 **Limit**: 1,000 characters.
 
-## excludedId {excludedid}
+## excludedId {#excludedid}
 
 **Limit**: 2,083 characters minus the length of the URL.
 
