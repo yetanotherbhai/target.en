@@ -17,6 +17,7 @@ This page lists important changes made to the [!DNL Adobe Target] documentation.
 
 |Date|Topic|Changes|
 | --- | --- | --- |
+|April 4, 2019|[Target release notes (prerelease)](/help/r-release-notes/target-release-notes.md) |Added preliminary release notes for the Target 19.4.1 and Target 19.4.2 releases, both scheduled for April 2019.|
 |March 30, 2019|[Limits](/help/r-troubleshooting-target/target-limits.md#excludedid)|Added information about the limits for the `excludedID` mbox parameter.|
 |March 29, 2019|[Known issues and resolved issues](/help/r-release-notes/known-issues-resolved-issues.md)|Added the following known issue: "For the Single Page Application (SPA) websites, cancelling loading does not allow you to edit actions under the [!UICONTROL Modifications] panel."<br>Moved the following known issue to the Resolved Issues section: "v1 version of the Offer APIs on Adobe I/O treats all offers created through Target to be in the default workspace."|
 |March 28, 2019|[Visual Experience Composer (VEC)](/help/c-experiences/c-visual-experience-composer/visual-experience-composer.md)|Added the following new sections:<ul><li>[Cancel loading of a page within the VEC.](/help/c-experiences/c-visual-experience-composer/visual-experience-composer.md#cancel-loading)</li><li>[Edit a page while the page is loading or after the page fails to load](/help/c-experiences/c-visual-experience-composer/visual-experience-composer.md#loading).</li></ul>|
