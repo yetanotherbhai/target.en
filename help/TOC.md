@@ -2,13 +2,14 @@
 product: target
 audience: end-user
 user-guide-title: Adobe Target Help
+user-guide-url: /content/help/en/target/using/target-home.html
 ---
 
 # Adobe Target Help {#using}
 
 + [Adobe Target product documentation](target-home.md)
 + Target release notes {#release-notes}
-   + [Current release notes](r-release-notes/release-notes.md)
+   + [Target release notes (current)](r-release-notes/release-notes.md)
    + [Target release notes (prerelease)](r-release-notes/target-release-notes.md)
    + [Known issues and resolved issues](r-release-notes/known-issues-resolved-issues.md)
    + [System status updates and proactive notifications](r-release-notes/system-status-updates.md)
@@ -37,7 +38,7 @@ user-guide-title: Adobe Target Help
       + Enterprise user permissions {#enterprise}
          + [Enterprise user permissions](administrating-target/c-user-management/property-channel/property-channel.md)
          + [Configure enterprise permissions](administrating-target/c-user-management/property-channel/properties-overview.md)
-   + [Scene7 settings](administrating-target/scene7-settings.md)
++ [Scene7 settings](administrating-target/scene7-settings.md)
    + [Hosts](administrating-target/hosts.md)
    + [Response tokens](administrating-target/response-tokens.md)
 + Implement Target {#implement-target}
@@ -69,14 +70,27 @@ user-guide-title: Adobe Target Help
          + [Implement Target using Dynamic Tag Management (DTM)](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-using-dynamic-tag-management.md)
          + [Single Page Application implementation](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md)
       + at.js functions {#functions-overview}
-         + [at.js functions overview](c-implementing-target/c-implementing-target-for-client-side-web/cmp-at.js-functions.md)
+         + [at.js functions overview](c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md)
+         + [adobe.target.getOffer()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffer.md)
+         + [adobe.target.getOffers() - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md)
+         + [adobe.target.applyOffer()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-applyoffer.md)
+         + [adobe.target.applyOffers() - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-applyoffers-atjs-2.md)
+         + [adobe.target.triggerView() - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-triggerview-atjs-2.md)
+         + [adobe.target.trackEvent()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-trackevent.md)
+         + [mboxCreate() - at.js 1.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/mboxcreate-atjs.md)
+         + [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)
+         + [mboxDefine() and mboxUpdate() - at.js 1.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/mboxdefine-mboxupdate-atjs-1x.md)
+         + [targetPageParams()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md)
+         + [targetPageParamsAll()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparamsall.md)
+         + [registerExtension() - at.js 1.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/registerextension-atjs-1x.md)
+         + [at.js custom events](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md)
          + [Debug at.js using the Adobe Experience Cloud Debugger](c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md)
          + [Use cloud-based instances with Target](c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/targeting-using-cloud-based-instances.md)
       + at.js frequently asked questions {#faq-at-js}
          + [at.js FAQs](c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md)
          + [Global mbox Frequently Asked Questions](c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/global-mbox-frequently-asked-questions.md)
       + [at.js version details](c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)
-      + [Upgrading from at.js 1.x to at.js 2.0](c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md)
+      + [Upgrading from at.js 1.x to at.js 2.x](c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md)
       + [at.js cookies](c-implementing-target/c-implementing-target-for-client-side-web/atjs-cookies.md)
       + mbox.js implementation {#mbox-implement}
          + [mbox.js implementation overview](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md)
@@ -135,8 +149,7 @@ user-guide-title: Adobe Target Help
       + Troubleshooting the Analytics and Target integration (A4T) {#troubleshoot-a4t}
          + [Troubleshoot A4T](c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md)
          + [Minimizing inflated visit and visitor counts in A4T](c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md)
-      + A4T Frequently Asked Questions
-         + [A4T Frequently Asked Questions overview](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq.md)
+      + A4T Frequently Asked Questions {#a4t-faq}
          + [Initial provisioning - A4T FAQ](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-initial-provisioning.md)
          + [Activity settings - A4T FAQ](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md)
          + [View reports - A4T FAQ](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md)
@@ -166,11 +179,11 @@ user-guide-title: Adobe Target Help
          + [Using Analytics Data](c-activities/t-test-ab/t-test-create-ab/create-a4t.md)
          + [Set metrics](c-activities/t-test-ab/t-test-create-ab/ab-set-metrics.md)
          + [Multiple experience versions in an A/B Test](c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md)
-   + Auto-Allocate {auto-allocate}
+   + Auto-Allocate {#auto-allocate}
       + [Auto-Allocate](c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
       + [Determine a winner](c-activities/automated-traffic-allocation/determine-winner.md)
    + [Auto-Target](c-activities/auto-target-to-optimize.md)
-   + Automated Personalization {automated-personalization}
+   + Automated Personalization {#automated-personalization}
       + [Automated Personalization overview](c-activities/t-automated-personalization/automated-personalization.md)
       + [Random Forest Algorithm](c-activities/t-automated-personalization/algo-random-forest.md)
       + [Create an Automated Personalization activity](c-activities/t-automated-personalization/create-ap-activity.md)

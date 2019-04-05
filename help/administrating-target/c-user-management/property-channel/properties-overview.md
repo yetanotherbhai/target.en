@@ -156,13 +156,13 @@ To use the [!DNL Target] user-permissions functionality, you must add the `at_pr
 
       ![](assets/property_token_1.png)
 
-      For more information about how to do this with at.js, see [targetPageParams()](../../../c-implementing-target/c-implementing-target-for-client-side-web/cmp-at.js-functions.md#reference_B235C9F6DA79449ABE3E23F914FEABAE). 
+      For more information about how to do this with at.js, see [targetPageParams()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md). 
     
     * **Via the mboxCreate() function:**
 
       ![](assets/property_token_3.png)
 
-      For more information about how to do this with at.js, see [targetPageParams()](../../../c-implementing-target/c-implementing-target-for-client-side-web/cmp-at.js-functions.md#reference_B235C9F6DA79449ABE3E23F914FEABAE). [mboxCreate(mbox,params)](../../../c-implementing-target/c-implementing-target-for-client-side-web/cmp-at.js-functions.md#reference_E68805FE86C64792B2066DB17B253D74)
+      For more information about how to do this with at.js, see [targetPageParams()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md) and  [mboxCreate(mbox,params)](/help/c-implementing-target/c-implementing-target-for-client-side-web/mboxcreate-atjs.md).
 
 ## Step 6: Specify Roles and Permissions {#section_8C425E43E5DD4111BBFC734A2B7ABC80}
 

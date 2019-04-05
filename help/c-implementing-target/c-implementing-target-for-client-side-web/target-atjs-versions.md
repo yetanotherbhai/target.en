@@ -11,39 +11,59 @@ uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 
 # at.js version details {#at-js-version-details}
 
-Details about changes in each version of at.js.
+Details about changes in each version of the [!DNL Adobe Target] at.js JavaScript library.
 
 >[!IMPORTANT]
 >
 >The Target team maintains only two versions of [!DNL at.js]—the current version and the second-latest version. Please upgrade [!DNL at.js] as necessary to ensure that you are running a supported version.
 
+## at.js version 2.0.1 (March 19, 2019)
+
+This is a maintenance release and includes the following enhancements and fixes:
+
+(The issue numbers in parentheses are for internal [!DNL Adobe] use.)
+
+* Fixed a race condition in the DOM polling code that caused JavaScript exceptions for certain customers. (TNT-31869)
+* Notifications that views were rendered have been decoupled from click-tracking event handlers. Initially, Target did not send notifications if click-event handlers belonging to a rendered view could not be attached. Target now sends a view notification even when click elements are not found. (TNT-31969)
+* Fixed an issue that caused the request-succeeded event redirect flag to always be set to true. (TNT-31907)
+* Fixed an issue that caused the VEC rearrange action to be logged as success, even when elements were missing. (TNT-31924)
+* Fixed an issue that caused notifications for certain customers to not contain the Enterprise Permissions property token. (TNT-31999)
+
+## at.js version 1.7.1 (March 19, 2019)
+
+This is a maintenance release and includes the following fix:
+
+(The issue numbers in parentheses are for internal [!DNL Adobe] use.)
+
+* Fixed a race condition in the DOM polling code that caused JavaScript exceptions for certain customers. (TNT-31869)
+
 ## at.js Version 2.0.0 {#at-js-200}
 
-at.js 2.0.0 provides rich feature sets that equip your business to execute personalization on next generation client-side technologies. This new version is focused on upgrading at.js to have harmonious interactions with single page applications (SPAs).
+at.js 2.x provides rich feature sets that equip your business to execute personalization on next generation client-side technologies. This new version is focused on upgrading at.js to have harmonious interactions with single page applications (SPAs).
 
-Here are some benefits of using at.js 2.0.0 that are not available in previous versions:
+Here are some benefits of using at.js 2.x that are not available in previous versions:
 
 * The ability to cache all offers on page load to reduce multiple server calls to a single server call.
 * Tremendously improve your end-users' experiences on your site because offers are shown immediately via the cache without any lag time that traditional server calls introduce.
 * Simple one-line of code and one-time developer setup to enable your marketers to create and run A/B and Experience (XT) activities via the Visual Experience Composer (VEC) on your single page applications.
 
-at.js 2.0.0 introduces the following new functions:
+at.js 2.x introduces the following new functions:
 
 * getOffers()
 * applyOffers()
 * triggerView()
 
-The following functions have been deprecated with the introduction of at.js 2.0.0:
+The following functions have been deprecated with the introduction of at.js 2.x:
 
 * mboxCreate()
 * mboxDefine
 * registerExtension()
 
-For more information, see [Upgrading from at.js 1.x to at.js 2.0.0](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md) and [at.js functions](/help/c-implementing-target/c-implementing-target-for-client-side-web/cmp-at.js-functions.md).
+For more information, see [Upgrading from at.js 1.x to at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md) and [at.js functions](/help/c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md).
 
 >[!NOTE]
 >
->If you require Adobe Opt-in support for the [General Data Protection Regulation](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) (GDPR), you must currently use at.js 1.7.0. Opt-in support is not currently supported in at.js 2.0.0.
+>If you require Adobe Opt-in support for the [General Data Protection Regulation](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) (GDPR), you must currently use at.js 1.7.0. Opt-in support is not currently supported in at.js 2.x.
 
 ## at.js Version 1.7.0 {#at-js-170}
 
@@ -55,7 +75,7 @@ This release also fixes an issue where Target might override redirect URL parame
 
 >[! NOTE]
 >
->If you require Adobe Opt-in support for GDPR, you must currently use at.js 1.7.0. Opt-in support is not currently supported in at.js 2.0.0.<br>For a list of all versions, see [at.js version details](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
+>If you require Adobe Opt-in support for GDPR, you must currently use at.js 1.7.0. Opt-in support is not currently supported in at.js 2.x.<br>For a list of all versions, see [at.js version details](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
 
 ## at.js Version 1.6.4 {#at-js-164}
 
@@ -131,11 +151,11 @@ at.js version 1.3.0 is now available.
   * CONTENT_RENDERING_NO_OFFERS 
   * CONTENT_RENDERING_REDIRECT
 
-  For more information, see [at.js custom events](../../c-implementing-target/c-implementing-target-for-client-side-web/cmp-at.js-functions.md#reference_A828E4BA535F4E7692A075F3D70CF6CD). 
+  For more information, see [at.js custom events](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md). 
 
 * You can augment an at.js request with additional parameters that come from data providers. Data providers should be added to `window.targetGlobalSettings` under the `dataProviders key`.
 
-  For more information, see [Data Providers](../../c-implementing-target/c-implementing-target-for-client-side-web/cmp-at.js-functions.md#section_42725F3C837247D58AE1831EA330E44D) in [targetGlobalSettings()](../../c-implementing-target/c-implementing-target-for-client-side-web/cmp-at.js-functions.md#concept_8DACBC47ABDE4279BB102B42609FE506). 
+  For more information, see [Data Providers](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#data-providers). 
 
 * at.js requests now use GET, but it will switch to POST when the URL size exceeds 2048 characters. There is a new property named `urlSizeLimit` where you can increase the size limit if necessary. This change allows Target to align at.js to AppMeasurement, which uses the same technique. 
 * Target now enforces that the `mbox` key in the `adobe.target.applyOffer(options)` function is used. This key has been required in the past, but Target now enforces its use to ensure that Target has proper validation and customers are using the function correctly. 
@@ -225,8 +245,8 @@ The following enhancements and fixes are included in [!DNL at.js] version 0.9.6:
 
   This behavior has been changed in [!DNL at.js] 0.9.6, even if the `visitorApiTimeout` is set to say 1 ms, Target will try to collect SDID, tracking servers, and customer IDs data and send those in the Target request. 
 
-* Added the `selectorsPollingTimeout` setting. For more information, see [targetGlobalSettings()](../../c-implementing-target/c-implementing-target-for-client-side-web/cmp-at.js-functions.md#concept_8DACBC47ABDE4279BB102B42609FE506). 
-* The format of the response from `getOffer()` has been changed. For more information, see [adobe.target.getOffer(options)](../../c-implementing-target/c-implementing-target-for-client-side-web/cmp-at.js-functions.md#reference_C81525D1598A4A1199740DCAB81A7FDF). 
+* Added the `selectorsPollingTimeout` setting. For more information, see [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md). 
+* The format of the response from `getOffer()` has been changed. For more information, see [adobe.target.getOffer(options)](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffer.md). 
 * Console logging has been added for unsupported `<!DOCTYPE>` declarations. 
 * Fixed an issue where [!DNL Target Classic] plugins weren’t being applied correctly when multiple default offers were delivered to a single mbox. (TGT-22664) For more information, see [Plug-Ins](https://marketing.adobe.com/resources/help/en_US/tnt/help/t_Using_Plug-Ins.html) in the Adobe Target Classic documentation. 
 * Improved cookie-setting for two letter top-level-domains (TLDs) to ensure that the mbox cookie is set correctly for these domains (for example, [!DNL test.no], [!DNL autodrives.ca], and so forth). 

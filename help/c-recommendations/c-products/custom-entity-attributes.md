@@ -15,7 +15,13 @@ badge: premium
 
 Use single- and multi-value custom entity attributes to define additional information about items in your catalog.
 
+## Limits {limits}
+
 You can include up to 100 custom entity attributes to define additional information about items in your catalog. For example, you might create a custom attribute called `entity.genre` to define a book or movie. Or, a ticket vendor might create attributes for an event venue to include a secondary performer, such as a visiting team in a sporting event or an opening act at a concert.
+
+The maximum length of single-value entity custom attributes is 15,000 characters (for one- and two-byte UTF-8 encoded languages such as English and other Latin-script alphabets) or 10,000 characters (for three-byte UTF-8 encoded languages such as Chinese, Japanese and Korean).
+
+Multi-value entity custom attributes can contain no more than 500 values. Each individual value is limited to 100 characters. The total number of characters across all values must conform to the limitations for the maximum length of single-value entity custom attributes (see above.)
 
 ## Custom Entity Attribute Values {#section_313331A9F8194A89B5EDD89363018651}
 
@@ -105,7 +111,8 @@ Use caution when editing a raw catalog CSV file directly.
 
 **Using APIs**
 
-See the [Adobe Recommendation API documentation](http://developers.adobetarget.com/api/recommendations/) for information about using the Delivery and Save entities APIs.
+See the [Adobe Recommendations API documentation](http://developers.adobetarget.com/api/recommendations) for information about
+using the Delivery and Save entities APIs.
 
 ## Using Operators with Multi-Value Attributes {#section_83C2288A805242D9A02EBC4F07DEE945}
 

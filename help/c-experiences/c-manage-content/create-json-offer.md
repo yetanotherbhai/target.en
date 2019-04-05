@@ -20,9 +20,9 @@ Consider the following information as you work with JSON offers:
 * JSON offers are currently available only for AB and XT activities. 
 * JSON offers can be used in form-based activities only. 
 * JSON offer can be retrieved directly when you are using the Server Side API, Mobile SDK, or NodeJS SDK. 
-* In the browser, JSON offers can be retrieved ONLY via at.js 1.2.3 (or later) and using [ `getOffer()` ](../../c-implementing-target/c-implementing-target-for-client-side-web/cmp-at.js-functions.md#reference_C81525D1598A4A1199740DCAB81A7FDF) by filtering actions using the `setJson` action. 
+* In the browser, JSON offers can be retrieved ONLY via at.js 1.2.3 (or later) and using [getOffer()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffer.md) by filtering actions using the `setJson` action. 
 * JSON offers are delivered as native JSON objects rather than as strings. Consumers of these objects are no longer required to handle objects as strings and convert them to JSON objects. 
-* JSON offers are not applied automatically as opposed to other offers (such as HTML offers) because JSON offers are non-visual offers. Developers must write code to explicitly get the offer using [adobe.target.getOffer(options)](../../c-implementing-target/c-implementing-target-for-client-side-web/cmp-at.js-functions.md#reference_C81525D1598A4A1199740DCAB81A7FDF). 
+* JSON offers are not applied automatically as opposed to other offers (such as HTML offers) because JSON offers are non-visual offers. Developers must write code to explicitly get the offer using [getOffer()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffer.md). 
 * JSON offers are not supported if you are using mbox.js.
 
 ## Creating a JSON Offer {#section_BB9C72D59DEA4EFB97A906AE7569AD7A}

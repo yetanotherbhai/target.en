@@ -53,7 +53,7 @@ Automated Personalization activities are evaluated once per session. If there we
 
 Unlike offers and profile scripts, changes made by API to audiences created via Target Standard are not currently synced back to the Target UI.
 
-## Strings that represent numbers (floating point numbers are supported as well) are compared as numbers.
+## Strings that represent numbers (floating point numbers are supported as well) are compared as numbers.{#strings-that-represent-numbers}
 
 If the left and the right part of the equals expressions can be parsed to a number, the two parts are compared as numbers, not as strings.
 
@@ -69,7 +69,7 @@ For example:
 |2|is greater than 3.0|false|
 |045|equals 45|true|
 
-Only integers and floating-point numbers are supported. Numbers written in scientific notation are compared *only* as strings.
+Numbers written in scientific notation will always be compared as strings.
 
 For example,
 

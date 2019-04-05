@@ -1,7 +1,7 @@
 ---
-description: Information to use at.js 2.0.0 to implement Single Page Applications (SPAs).
-keywords: single page application implementation;implement single page application;spa;at.js 2.0
-seo-description: Information to use Adobe Target at.js 2.0.0 to implement Single Page Applications (SPAs).
+description: Information to use at.js 2.x to implement Single Page Applications (SPAs).
+keywords: single page application implementation;implement single page application;spa;at.js 2.x
+seo-description: Information to use Adobe Target at.js 2.x to implement Single Page Applications (SPAs).
 seo-title: Single Page Application implementation
 solution: Target
 title: Single Page Application implementation
@@ -11,13 +11,13 @@ uuid: 5887ec53-e5b1-40f9-b469-33685f5c6cd6
 
 # Single Page Application implementation{#single-page-application-implementation}
 
-Traditional websites worked on "Page-to-Page" navigation models, otherwise known as Multi Page Applications where website designs were tightly coupled to URLs and transitions from one webpage to another required a page load. Modern web applications, such as Single Page Applications (SPAs), instead adopt a model that propels rapid use of browser UI rendering, which is often independent of page reloads. These experiences are often triggered by customer interactions, such as scrolls, clicks, and cursor movements. As the paradigms of the modern web have evolved, the relevance of traditional generic events, such as page-load, to deploy personalization and experimentation no longer work.
+Traditional websites worked on "Page-to-Page" navigation models, otherwise known as Multi Page Applications, where website designs were tightly coupled to URLs and transitions from one webpage to another required a page load. Modern web applications, such as Single Page Applications (SPAs), instead adopt a model that propels rapid use of browser UI rendering, which is often independent of page reloads. These experiences are often triggered by customer interactions, such as scrolls, clicks, and cursor movements. As the paradigms of the modern web have evolved, the relevance of traditional generic events, such as page-load, to deploy personalization and experimentation no longer work.
 
 ![Traditional page lifecycle vs. SPA lifecycle](/help/c-experiences/assets/trad-vs-spa.png)
 
-at.js 2.0.0 provides rich features that equip your business to execute personalization on next-generation, client-side technologies. This version is focused on improving at.js to have harmonious interactions with SPAs. 
+at.js 2.x provides rich features that equip your business to execute personalization on next-generation, client-side technologies. This version is focused on improving at.js to have harmonious interactions with SPAs. 
 
-Here are some benefits to using at.js 2.0.0 that are not available in previous versions:
+Here are some benefits to using at.js 2.x that are not available in previous versions:
 
 * Ability to cache all offers on page-load to reduce multiple server calls to a single server call. 
 * Tremendously improve your end-users' experiences on your site because offers are shown immediately via the cache without lag time introduced by traditional server calls.
@@ -63,17 +63,17 @@ Now, marketers might want to run an A/B Test to see whether changing the color f
 
 Now that we have covered what Adobe Target Views are, we can leverage this concept in Target to empower marketers to run A/B and XT tests on SPAs via the VEC. This will require a one-time developer setup. Let’s go through the steps to set this up.
 
-1. Install at.js 2.0.0.
+1. Install at.js 2.x.
 
-   First, we need to install at.js 2.0.0. This version of at.js was developed with SPAs in mind. Previous versions of at.js and mbox.js do not support Adobe Target Views and the VEC for SPAs.
+   First, we need to install at.js 2.x. This version of at.js was developed with SPAs in mind. Previous versions of at.js and mbox.js do not support Adobe Target Views and the VEC for SPAs.
 
    ![Implementation details dialog box](/help/c-experiences/assets/imp-200.png)
 
-   Download at.js 2.0.0 via the Adobe Target UI located in [!UICONTROL Setup > Implementation]. at.js 2.0.0 can also be deployed via [Adobe Launch](/help/c-target-mobile-app/c-mobile-visual-experience-composer/use-adobe-launch-to-set-up-the-mobile-app-vec.md). However, the Adobe Target Extensions are currently not up to date and supported.
+   Download at.js 2.x via the Adobe Target UI located in [!UICONTROL Setup > Implementation]. at.js 2.x can also be deployed via [Adobe Launch](/help/c-target-mobile-app/c-mobile-visual-experience-composer/use-adobe-launch-to-set-up-the-mobile-app-vec.md). However, the Adobe Target Extensions are currently not up to date and supported.
 
-1. Implement at.js 2.0.0’s newest function, `triggerView()` on your sites.
+1. Implement at.js 2.x’s newest function, `triggerView()` on your sites.
 
-   After defining the Views of your SPA where you want to run an A/B or XT test, implement at.js 2.0.0’s `triggerView()` function with the Views passed in as a parameter. This allows marketers to use the VEC to design and run the A/B and XT tests for those Views defined. If the `triggerView()` function is not defined for those Views, the VEC will not detect the Views and thus marketers cannot use the VEC to design and run A/B and XT tests.
+   After defining the Views of your SPA where you want to run an A/B or XT test, implement at.js 2.x’s `triggerView()` function with the Views passed in as a parameter. This allows marketers to use the VEC to design and run the A/B and XT tests for those Views defined. If the `triggerView()` function is not defined for those Views, the VEC will not detect the Views and thus marketers cannot use the VEC to design and run A/B and XT tests.
 
    **`adobe.target.triggerView(viewName, options)`**
 
@@ -184,11 +184,11 @@ Now that we have covered what Adobe Target Views are, we can leverage this conce
    }
   ```
 
-## at.js 2.0.0 system diagrams
+## at.js 2.x system diagrams
 
-The following diagrams help you understand the workflow of at.js 2.0.0 with Views and how this enhances the SPA integration. To get a better introduction of the concepts used in at.js 2.0.0, see [Single Page Application implementation](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md).
+The following diagrams help you understand the workflow of at.js 2.x with Views and how this enhances the SPA integration. To get a better introduction of the concepts used in at.js 2.x, see [Single Page Application implementation](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md).
 
-![Target flow with at.js 2.0](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/system-diagram-atjs-20.png)
+![Target flow with at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/system-diagram-atjs-20.png)
 
 |Step|Details|
 | --- | --- |
@@ -203,7 +203,7 @@ The following diagrams help you understand the workflow of at.js 2.0.0 with View
 
 Now, wherever `triggerView()` is implemented on your SPA, the Views and actions are retrieved from cache and shown to the user without a server call. `triggerView()` also makes a notifications request to the [!DNL Target] backend in order to increment and record impression counts.
 
-![Target flow at.js 2.0 triggerView](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/atjs-20-triggerview.png)
+![Target flow at.js 2.x triggerView](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/atjs-20-triggerview.png)
 
 |Step|Details|
 | --- | --- |
@@ -216,27 +216,72 @@ Now, wherever `triggerView()` is implemented on your SPA, the Views and actions 
 
 ## Single Page App Visual Experience Composer
 
-After you have completed installing at.js 2.0.0 and adding `triggerView()` to your site, use the VEC to run A/B and XT activities. For more information, see [Single Page App (SPA) Visual Experience Composer](/help/c-experiences/spa-visual-experience-composer.md).
+After you have completed installing at.js 2.x and adding `triggerView()` to your site, use the VEC to run A/B and XT activities. For more information, see [Single Page App (SPA) Visual Experience Composer](/help/c-experiences/spa-visual-experience-composer.md).
 
 >[!NOTE]
 >
 >The VEC for SPAs is really the same VEC that you use on regular web pages, but some additional capabilities are available when you open a single page app with `triggerView()` implemented.
 
+## Use TriggerView to ensure that A4T works correctly with at.js 2.x and SPAs {#triggerview}
+
+To ensure that [Analytics for Target](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T) works correctly with at.js 2.x, be sure to send the same SDID in the Target request and in the Analytics request.
+
+As best practices related to SPAs:
+
+* Use custom events to notify that something interesting happens in the application
+* Fire a custom event before the view starts rendering
+* Fire a custom event when the view finishes rendering
+
+at.js 2.x added a new API [triggerView()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-triggerview-atjs-2.md) function. You should use `triggerView()` to notify at.js that a view will start rendering.
+
+To see how to combine custom events, at.js 2.x, and Analytics, let's see an example. This example assumes that the HTML page contains the Visitor API, followed by at.js 2.x, followed by AppMeasurement.
+
+Let's assume that the following custom events exist:
+
+* `at-view-start` - When the view starts rendering
+* `at-view-end` - When the view finishes rendering
+
+To make sure that A4T works with at.js 2.x,
+
+The view start handler should look something like this:
+
+```
+document.addEventListener("at-view-start", function(e) {
+  var visitor = Visitor.getInstance("<your Adobe Org ID>");
+  
+  visitor.resetState();
+  adobe.target.triggerView("<view name>");
+});
+```
+
+The view end handler should look something like this:
+
+```
+document.addEventListener("at-view-end", function(e) {
+  // s - is the AppMeasurement tracker object
+  s.t();
+});
+```
+
+Although these examples use JavaScript code, all this can be simplified if you are using a tag manager, such as [Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md).
+
+If the above steps are followed you should have a robust A4T solution for SPAs.
+
 ## Training videos
 
 The following videos contain more information:
 
-### Understanding how at.js 2.0.0 works
+### Understanding how at.js 2.x works
 
 >[!VIDEO](https://video.tv.adobe.com/v/26250)
 
-See [Understanding how at.js 2.0.0 works](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) for more information.
+See [Understanding how at.js 2.x works](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) for more information.
 
-### Implement at.js 2.0.0 in a SPA
+### Implement at.js 2.x in a SPA
 
 >[!VIDEO](https://video.tv.adobe.com/v/26248)
 
-See [Implement Adobe Target's at.js 2.0 in a Single Page Application (SPA)](https://helpx.adobe.com/target/kt/using/atjs2-single-page-application-technical-video-implement.html) for more information.
+See [Implement Adobe Target's at.js 2.x in a Single Page Application (SPA)](https://helpx.adobe.com/target/kt/using/atjs2-single-page-application-technical-video-implement.html) for more information.
 
 ### Using the VEC for SPAs in Adobe Target
 

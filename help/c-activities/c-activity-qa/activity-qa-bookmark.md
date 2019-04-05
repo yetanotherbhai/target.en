@@ -17,8 +17,21 @@ Because [QA mode](../../c-activities/c-activity-qa/activity-qa.md#concept_9329EF
 
 To use the Target QA bookmarklet, create a bookmarklet containing the following JavaScript code and add it to your browser's Bookmarks Toolbar:
 
-```javascript
-(function%20()%20{var%20parts%20=%20window.location.href.split('at_preview_token',2);%20if%20(parts.length%20>%201)%20{window.location.href%20=%20parts[0].concat('at_preview_token=');}%20})();
+```
+javascript:(
+    function () {
+        if (window.location.href.indexOf('?') != -1) {
+            var parts = window.location.href.split('at_preview_token',2);
+            if (parts.length > 1) {
+                window.location.href = parts[0].concat('at_preview_token=');
+            } else {
+                window.location.href = window.location.href.concat("&at_preview_token=")
+            }
+        } else {
+            window.location.href = window.location.href.concat("?at_preview_token=")
+        }
+    }
+)();
 ```
 
 The bookmarklet should then appear on the toolbar for re-use.

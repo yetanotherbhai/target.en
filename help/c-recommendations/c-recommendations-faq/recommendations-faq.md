@@ -133,4 +133,18 @@ Ensure that the audience has a unique name. If you gave the audience the same na
 
 ## What is the maximum size of a CSV file for a feed upload? {#section_20F1AF4839A447B9889B246D6E873538}
 
-There is no hard limit on the number of rows or file size for a feed's CSV file upload. However, as a best practice, we recommend limiting the CSV file size to 1 GB to avoid failures during the file upload process. If the size of the file exceeds 1 GB, it should ideally be split into multiple feed files. The maximum number of custom attribute columns is 100 and custom attributes are limited to 4096 characters. Additional limits on the length of required columns are available on the [Target Limitations page](../../r-troubleshooting-target/target-limits.md#reference_BEFE60C3AAA442FF94D4EBFB9D3CC9B1). 
+There is no hard limit on the number of rows or file size for a feed's CSV file upload. However, as a best practice, we recommend limiting the CSV file size to 1 GB to avoid failures during the file upload process. If the size of the file exceeds 1 GB, it should ideally be split into multiple feed files. The maximum number of custom attribute columns is 100 and custom attributes are limited to 4096 characters. Additional limits on the length of required columns are available on the [Target Limitations page](../../r-troubleshooting-target/target-limits.md#reference_BEFE60C3AAA442FF94D4EBFB9D3CC9B1).
+
+## Can I dynamically exclude an entity?
+
+In the query string, you can pass entity IDs for entities that you want to exclude from your recommendations. For example, you might want to exclude items that are already in the shopping cart.
+
+To enable the exclusion functionality, use the `excludedIds` mbox parameter. This parameter points to a list of comma-separated entity IDs. For example, `mboxCreate(..., "excludedIds=1,2,3,4,5")`. The value is sent when requesting recommendations.
+
+>[!NOTE]
+>
+>If too many entities are excluded, recommendations behave as if there aren't enough entities to fill the recommendation template.
+
+To excluded `entityIds`, append the `&excludes=${mbox.excludedIds}` token to the offer content url. When the content url is extracted, the required parameters are substituted using current mbox request parameters.
+
+By default, this feature is enabled for newly created recommendations. Existing recommendations must be saved to support Dynamically Excluded entities.

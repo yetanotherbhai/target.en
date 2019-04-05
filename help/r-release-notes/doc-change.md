@@ -11,13 +11,48 @@ uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 
 # Documentation changes{#documentation-changes}
 
-This page lists important changes made to the Target documentation.
+This page lists important changes made to the [!DNL Adobe Target] documentation.
+
+## Adobe Target Standard/Premium 19.3.1 (March 29, 2019) {#section-19-3-1}
+
+|Date|Topic|Changes|
+| --- | --- | --- |
+|April 5, 2019|[Adobe Target Basics Webinar: Introduction to Recommendations](/help/c-recommendations/recommendations.md#intro-to-recs)|Added link to the "Introduction to Recommendations" webinar recording.|
+||[Activity QA bookmarklet](/help/c-activities/c-activity-qa/activity-qa-bookmark.md)|Updated JavaScript code for the activity QA bookmarklet.|
+||[Target release notes (prerelease)](/help/r-release-notes/target-release-notes.md)|Updated the preliminary release notes for the Target 19.4.1 and Target 19.4.2 releases, both scheduled for April 2019.|
+|April 4, 2019|[Target release notes (prerelease)](/help/r-release-notes/target-release-notes.md) |Added preliminary release notes for the Target 19.4.1 and Target 19.4.2 releases, both scheduled for April 2019.|
+|March 30, 2019|[Limits](/help/r-troubleshooting-target/target-limits.md#excludedid)|Added information about the limits for the `excludedID` mbox parameter.|
+|March 29, 2019|[Known issues and resolved issues](/help/r-release-notes/known-issues-resolved-issues.md)|Added the following known issue: "For the Single Page Application (SPA) websites, cancelling loading does not allow you to edit actions under the [!UICONTROL Modifications] panel."<br>Moved the following known issue to the Resolved Issues section: "v1 version of the Offer APIs on Adobe I/O treats all offers created through Target to be in the default workspace."|
+|March 28, 2019|[Visual Experience Composer (VEC)](/help/c-experiences/c-visual-experience-composer/visual-experience-composer.md)|Added the following new sections:<ul><li>[Cancel loading of a page within the VEC.](/help/c-experiences/c-visual-experience-composer/visual-experience-composer.md#cancel-loading)</li><li>[Edit a page while the page is loading or after the page fails to load](/help/c-experiences/c-visual-experience-composer/visual-experience-composer.md#loading).</li></ul>|
+||[Visual Experience Composer options](/help/c-experiences/c-visual-experience-composer/viztarget-options.md)|New section: "[Navigate elements using the DOM path](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path)."|
+||[Known issues and resolved issues](/help/r-release-notes/known-issues-resolved-issues.md#cancel)|Added a current known issue about when you cancel loading of a page within the VEC.|
+||[Release Notes](/help/r-release-notes/release-notes.md): 19.3.1|This release includes enhancements and fixes. You can read about them and link to the documentation from the Release Notes. This release also includes many documentation updates throughout the help.|
 
 ## Adobe Target Standard/Premium 19.2.1 (February 19, 2019) {#section-19-2-1}
 
 |Date|Topic|Changes|
 | --- | --- | --- |
-|March 5, 2019|[Target release notes (current)](/help/r-release-notes/release-notes.md),<br>[Target release notes (prerelease)](/help/r-release-notes/target-release-notes.md), and <br>[TLS (Transport Layer Security) encryption changes](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md)|Updated text as follows:<br>On February 20, 2019, the Adobe Target infrastructure was upgraded in the EMEA, Japan, and APAC regions to no longer collect data from end users with older devices or web browsers that do not support TLS 1.1 or later. This same upgrade was planned for the North America region for March 4, 2019, but is being moved out to a new date. The exact date is to be determined, but will be in the coming days and will be announced here. Migrating to TLS 1.2 provides improved security. It is important that you go through the specifics and plan out the changes for a smooth transition.|
+|March 20, 2019|[at.js Frequently Asked Questions](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md)|Updated the following FAQ: "[Can I load the Target library asynchronously?](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md#section_AB9A0CA30C5440C693413F1455841470)"|
+||[Real-time profile syncing for mbox3rdPartyID](/help/c-target/c-visitor-profile/3rd-party-id.md)|Added note at the bottom of the page.|
+||[Limits](/help/r-troubleshooting-target/target-limits.md)<br>[Custom entity attributes](/help/c-recommendations/c-products/custom-entity-attributes.md#limits)|Added information about "entity custom attribute" limits.|
+||[Targets and audiences FAQ](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md#strings-that-represent-numbers)|Updated text.|
+||[Create new criteria](/help/c-recommendations/c-algorithms/create-new-algorithm.md#custom)|Added new section that explains how to create profile-based groupings for popularity algorithms: "Use a custom recommendations key."|
+|March 19, 2019|[Target release notes (current)](/help/r-release-notes/release-notes.md)|Added information about at.js versions 2.0.1 and 1.7.1.|
+||[View reports - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md)|Added the following FAQ: "Does A4T support virtual report suites?"|
+|March 18, 2019|[Target release notes (prerelease)](/help/r-release-notes/target-release-notes.md) and [at.js version details](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)|Added information about at.js versions 2.0.1 and 1.7.1.|
+||[Methods to get data into Target](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md#section_92AB4820A5624C669D9A1F1B6220D4FA) and [Customer attributes](/help/c-target/c-visitor-profile/working-with-customer-attributes.md)|Added: You cannot send the following characters in `mbox3rdPartyID`: plus sign (+) and forward slash (/).|
+|March 15, 2019|[Before you implement](/help/c-implementing-target/c-considerations-before-you-implement-target/considerations-before-you-implement-target.md)|Added important note: Modifications to at.js or mbox.js will not be supported by Adobe Customer Care.|
+|March 14, 2019|[Target release notes (prerelease)](/help/r-release-notes/target-release-notes.md)|Changed the date of the Target Standard/Premium 19.3.1 release to March 29, 2019.|
+|March 13, 2019|[Create an Automated Personalization activity](/help/c-activities/t-automated-personalization/create-ap-activity.md)|Updated the text in the Conversion Metric row.|
+||[Profile attributes](/help/c-target/c-visitor-profile/profile-parameters.md)|Added new section: "JavaScript reference for script profile parameters."|
+||[at.js functions](/help/c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md)|Restructured page and created new pages for each at.js function to make accessing information easier.|
+||[How at.js works](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md)|Added introductory paragraph to explain a client-side implementation.|
+||[Recommendations FAQ](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md)|Added following FAQ: "Can I dynamically exclude an entity?"|
+|March 12, 2019|[Upgrading from at.js 1.x to at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md) and [Debug at.js using the Adobe Experience Cloud Debugger](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md)|The Debugger is now a supported integration with at.js 2.x.|
+|March 11, 2019|[Target release notes (current)](/help/r-release-notes/release-notes.md),<br>[Target release notes (prerelease)](/help/r-release-notes/target-release-notes.md), and <br>[TLS (Transport Layer Security) encryption changes](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md)|Updated text to indicate that TLS changes will occur on **April 1, 2019**.|
+||[adobe.target.getOffers](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md)|Added the following section: "Fetch and render data from multiple mboxes via getOffers() and applyOffers()."|
+|March 6, 2019|[Upgrading from at.js 1.x to at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md)|Added at_property row to the  "at.js 1.x parameters to at.js 2.x payload mapping" table.|
+||[Single Page Application implementation](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md)|Added new section: "Use TriggerView to ensure that A4T works correctly with at.js 2.x and SPAs."|
 |March 4, 2019|[Recommendations Classic documentation](/help/c-recommendations/recommendations-classic-documentaton.md)|New topic.|
 ||[Recommendations Classic versus Recommendations activities in Target Premium](/help/c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md)|Added information about Recommendations as an offer.|
 |February 28, 2019|[Activities](/help/c-activities/activities.md)|Updated text and images.|
@@ -25,24 +60,24 @@ This page lists important changes made to the Target documentation.
 ||[Target key concepts](/help/c-intro/target-key-concepts.md)|Updated "Activity Types" table.|
 |February 26, 2019|[Known issues and resolved issues](/help/r-release-notes/known-issues-resolved-issues.md)|Added a known issue about Enterprise Permissions support in Target APIs.|
 |February 25, 2019|[Target release notes (current)](/help/r-release-notes/release-notes.md), <br>[Target release notes (prerelease)](/help/r-release-notes/target-release-notes.md), and <br>[TLS (Transport Layer Security) encryption changes](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md)|Updated the following information:<br>On February 20, 2019, Adobe Target infrastructure was upgraded in the EMEA, Japan, and APAC regions to no longer collect data from end users with older devices or web browsers that do not support TLS 1.1 or later. This same upgrade is planned for the North America region on **March 4, 2019**. Migrating to TLS 1.2 provides improved security. It is important that you go through the specifics and plan out the changes for a smooth transition. |
-||[Upgrading from at.js 1.x to at.js 2.0.0](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#payload-mapping)|New section: "at.js 1.x parameters to at.js 2.0.0 payload mapping."|
+||[Upgrading from at.js 1.x to at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#payload-mapping)|New section: "at.js 1.x parameters to at.js 2.x payload mapping."|
 ||[Troubleshooting Issues Related to the Enhanced Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md)|Added "Hostnames" column to the IP addresses to whitelist.|
 |February 22, 2019|[Configure enterprise permissions](/help/administrating-target/c-user-management/property-channel/properties-overview.md)|Added "Obtain your Workspace ID" section.|
 |February 20, 2019|[Category affinity](/help/c-target/c-visitor-profile/category-affinity.md)|Updated "Category affinity algorithm" section.|
 |February 19, 2019|[Single Page App (SPA) Visual Experience Composer](/help/c-experiences/spa-visual-experience-composer.md)|New topic and training videos.|
 ||[Single Page Application implementation](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md)|New topic and training videos.|
 ||[at.js version details](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)|Added information about at.js versions 1.7.0 and 2.0.0.|
-||[Upgrading from at.js 1.x to at.js 2.0.0](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md)|New topic and training video.|
-||[at.js functions](/help/c-implementing-target/c-implementing-target-for-client-side-web/cmp-at.js-functions.md)|Updated topic to reflect changes with the introduction of at.js 2.0.0.<br>There are three new fuctions available for at.js 2.0.0.<ul><li>adobe.target.getOffers(options)</li><li>adobe.target.applyOffers(options)</li><li>adobe.target.triggerView (viewName, options)</li></ul>|
-||[How at.js works](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md)|Updated topic to reflect changes with the introduction of at.js 2.0.0. and added training video.|
-||[How at.js manages flicker](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/manage-flicker-with-atjs.md)|Updated topic to reflect changes with the introduction of at.js 2.0.0.|
-||[at.js Frequently Asked Questions](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md)|Updated topic to reflect changes with the introduction of at.js 2.0.0.|
-||[Debug at.js using the Adobe Experience Cloud Debugger](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md)|Added note explaining that the Adobe Experience Cloud Debugger Network Request and Mbox Trace features are not yet supported for At.js 2.0.0.|
+||[Upgrading from at.js 1.x to at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md)|New topic and training video.|
+||[at.js functions](/help/c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md)|Updated topic to reflect changes with the introduction of at.js 2.x.<br>There are three new fuctions available for at.js 2.x.<ul><li>adobe.target.getOffers(options)</li><li>adobe.target.applyOffers(options)</li><li>adobe.target.triggerView (viewName, options)</li></ul>|
+||[How at.js works](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md)|Updated topic to reflect changes with the introduction of at.js 2.x. and added training video.|
+||[How at.js manages flicker](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/manage-flicker-with-atjs.md)|Updated topic to reflect changes with the introduction of at.js 2.x.|
+||[at.js Frequently Asked Questions](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md)|Updated topic to reflect changes with the introduction of at.js 2.x.|
+||[Debug at.js using the Adobe Experience Cloud Debugger](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md)|Added note explaining that the Adobe Experience Cloud Debugger Network Request and Mbox Trace features are not yet supported for at.js 2.x.|
 ||[at.js cookies](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-cookies.md)|New topic.|
 ||[Recommendations as an offer](/help/c-recommendations/recommendations-as-an-offer.md)|New topic.|
 ||[Visual Experience Composer Options](/help/c-experiences/c-visual-experience-composer/viztarget-options.md)|<ul><li>Added information about using the [!UICONTROL Insert Before, Insert After, or Replace With] action to add recommendations to an experience in an A/B Test or Experience Targeting activity.</li><li>Added information about using the [!UICONTROL Insert Before or Insert After] action to add AEM Experience Fragments to an experience.</li></ul>|
 ||[Visual Experience Composer helper extension](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)|New topic.|
-||[Privacy and General Data Protection Regulation](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) (GDPR)|Minor edits and information about Opt-in functionality and at.js 1.7.0 and at.js 2.0.0. |
+||[Privacy and General Data Protection Regulation](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) (GDPR)|Minor edits and information about Opt-in functionality and at.js 1.7.0 and at.js 2.x. |
 ||[Known issues and resolved issues](/help/r-release-notes/known-issues-resolved-issues.md)|Added known issues about Target APIs.|
 ||[Entity attributes](/help/c-recommendations/c-products/entity-attributes.md)|Added note that provided entity attribute values expire after 61 days.|
 ||[Release Notes](/help/r-release-notes/release-notes.md): 19.2.1|This release includes enhancements and fixes. You can read about them and link to the documentation from the Release Notes. This release also includes many documentation updates throughout the help.|
@@ -84,7 +119,7 @@ This page lists important changes made to the Target documentation.
 ||[Preview experiences for a Multivariate Test](../c-activities/c-multivariate-testing/t-create-multivariate-test/preview-experiences.md)|Updated image.|
 ||[Create combinations](../c-activities/c-multivariate-testing/t-create-multivariate-test/add-offers.md)|Updated text and images.|
 ||[Create a Multivariate Test](../c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test.md)|Updated text and images.|
-|December 11, 2018|[ targetGlobalSettings](../c-implementing-target/c-implementing-target-for-client-side-web/cmp-at.js-functions.md)|Added that the default value for overrideMboxEdgeServer is "true" beginning with at.js version 1.6.2.|
+|December 11, 2018|[targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)|Added that the default value for overrideMboxEdgeServer is "true" beginning with at.js version 1.6.2.|
 |December 7, 2018|[ Known Issues and Resolved Issues ](known-issues-resolved-issues.md)|Moved the following from the Known Issues table to the Resolved Issues table: <ul><li>at.js: Mboxes not firing on Microsoft Explorer 11 browsers after upgrading to at.js version 1.0 due to the interaction between at.js and Visitor API 2.2.0.0.</li><li>Geo targeting: Searching for a string that contains special characters (such as a space or a comma) is currently not working when creating geo-targeting audiences.</li></ul>|
 |December 5, 2018|[ Personalization Insights reports ](../c-reports/c-personalization-insights-reports/personalization-insights-reports.md)|Added note that the Personalization Insights reports are available in the default environment only.|
 ||[ Adobe Analytics as the reporting source for Adobe Target (AT) ](../c-integrating-target-with-mac/a4t/a4t.md)|Updated table to indicate that A4T supports server-side deployments.|
@@ -384,7 +419,7 @@ This page lists important changes made to the Target documentation.
   </tr> 
   <tr> 
    <td colname="col1"> September 4, 2018 </td> 
-   <td colname="col2"> <p> <a href="../c-implementing-target/c-implementing-target-for-client-side-web/cmp-at.js-functions.md#section_42725F3C837247D58AE1831EA330E44D" format="dita" scope="local"> Data Providers </a> </p> </td> 
+   <td colname="col2"> <p> <a href="../c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md#section_42725F3C837247D58AE1831EA330E44D" format="dita" scope="local"> Data Providers </a> </p> </td> 
    <td colname="col3"> <p>Updated code sample. </p> </td> 
   </tr> 
   <tr> 

@@ -1,7 +1,7 @@
 ---
 description: These release notes provide information about features, enhancements, fixes, and known issues for the latest or upcoming Target releases.
 keywords: release notes
-seo-description: These release notes provide information about features, enhancements, fixes, and known issues for the latest or upcoming Adobe Target releases.
+seo-description: These release notes provide information about features, enhancements, fixes, and known issues for the latest or upcoming Adobe Target releases
 seo-title: Target release notes (prerelease)
 solution: Target
 title: Target release notes (prerelease)
@@ -13,7 +13,7 @@ uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 
 These release notes provide information about features, enhancements, and fixes for the latest or upcoming [!DNL Adobe Target] releases.
 
-**Last Updated: February 27, 2019**
+**Last Updated: April 5, 2019**
 
 >[!NOTE]
 >
@@ -23,23 +23,35 @@ These release notes provide information about features, enhancements, and fixes 
 
 Be aware of the following important announcements:
 
-* The [Adobe Target product documentation](https://docs.adobe.com/content/help/en/target/using/target-home.html) has moved to a new domain: `docs.adobe.com`. The documentation can be found at the following URL: `https://docs.adobe.com/content/help/en/target/using/target-home.html`. Please update your bookmarks accordingly.
-* On February 20, 2019, the Adobe Target infrastructure was upgraded in the EMEA, Japan, and APAC regions to no longer collect data from end users with older devices or web browsers that do not support TLS 1.1 or later. This same upgrade was planned for the North America region for March 4, 2019, but is being moved out to a new date. The exact date is to be determined, but will be in the coming days and will be announced here. Migrating to TLS 1.2 provides improved security. It is important that you go through the specifics and plan out the changes for a smooth transition. For more information, see [TLS (Transport Layer Security) encryption changes](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md).
+* On February 20, 2019, the Adobe Target infrastructure was upgraded in the EMEA, Japan, and APAC regions to no longer collect data from end users with older devices or web browsers that do not support TLS 1.1 or later. This same upgrade is planned for the North America region for **April 1, 2019**. Migrating to TLS 1.2 provides improved security. It is important that you go through the specifics and plan out the changes with your IT team for a smooth transition. For more information, see [TLS (Transport Layer Security) encryption changes](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md).
 * [!DNL Target] and the [!DNL Adobe Marketing Cloud] will drop support for Microsoft Internet Explorer 11 starting in March 2019. This change affects [!DNL Target] authoring only; this change does not affect experience delivery. Please switch to Microsoft Edge or another browser. For more information, see [Supported browsers](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md).
 
-## [!DNL Target] Standard/Premium 19.3.1 (March 18, 2019) {#release-19-3-1-prerelease}
+## [!DNL Target] Standard/Premium 19.4.1 (April 15, 2019) {#release-19-4-1-prerelease}
+
+This release is a maintenance release and includes the following change:
+
+(The issue numbers in parentheses are for internal [!DNL Adobe] use.)
+
+* Updated the [!DNL Adobe Experience Cloud] UI to reflect branding and product changes. (TGT-33546, TGT-33272, and TGT-33331)
+
+## [!DNL Target] Standard/Premium 19.4.2 (April 29, 2019) {#release-19-4-2-prerelease}
 
 This release includes the following features, changes and enhancements:
 
 (The issue numbers in parentheses are for internal [!DNL Adobe] use.)
 
-| Feature / Enhancement | Description |
+ Feature / Enhancement | Description |
 | --- | --- |
-|Visual Experience Composer|The Visual Experience Composer (VEC) includes the following enhancements to make your work quicker and more efficient:<ul><li>You can now cancel the loading of a website in the VEC to unblock editing of an activity. This enhancement is useful, for example, if you want to make a small edit to the activity, review its settings, or add custom code and you don't want to wait for the site to load. Actions that cannot be edited before the site loads are disabled in the Target UI. (TGT-31288, TGT-31611, and TGT-32602)</li><li>The VEC displays the DOM tree so you can easily select the proper element while creating or editing experiences. (TGT-13422)</li></ul>|
+|[!UICONTROL Mobile Visual Experience Composer]|The [!UICONTROL Visual Experience Composer] (VEC) for Native Mobile Apps lets you create activities and personalize content on native mobile apps in a do-it-yourself fashion without continuous development dependencies and app-release cycles.|
+|[!UICONTROL Visual Experience Composer]|The [!UICONTROL Visual Experience Composer] (VEC) includes the following enhancements to make your work quicker and more efficient:<ul><li>You can edit the style of an element, including the background image, in the VEC. (TGT-15001)</li><li>[!DNL Target] supports HTML5 using configurations on v4.5.1 or higher. (TGT-33618)</li>|
 
 **Enhancement, fixes, and changes**
 
-* You are now instructed to re-authenticate when your session expires while reviewing a report. After you log in again, you are directed back to the report. (TGT-32723)
+* We improved the workflow when you delete assets using the VEC. Deleted assets are now removed from the [!UICONTROL Offers library] and from [!DNL Scene7] (if applicable). Deleted assets no longer display in search results. (TGT-31981)
+* We improved the rendering of image offers in the Assets picker. Displaying and selecting image offers is now quicker and more efficient. (TGT-32897)
+* We improved the handling of redirects to URLs when you cancel loading of a page within the VEC. (TGT-33815)
+* Toolbar icons display appropriately after you cancel loading of a page within the VEC. If specific actions cannot be performed until after the page is fully loaded, the associated toolbar icons are disabled. (TGT-33811)
+* After you select a [!UICONTROL Recommendations] collection from the Collections picker, you must now click the [!UICONTROL Save] button. This workflow is consistent with other workflows within [!DNL Target]. (TGT-33205)
 
 ## Product documentation for [!DNL Target] capabilities {#section_F03C61D438814538967B2BF901130BE4}
 

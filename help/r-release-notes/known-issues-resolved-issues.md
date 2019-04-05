@@ -21,6 +21,20 @@ Information about known issues for this release of Target. Also includes informa
 
 The following sections list the known issues for [!DNL Target]:
 
+### Cancel loading of a page within the VEC {#cancel}
+
+* The following known issue currently exists when cancelling the loading of an [!UICONTROL A/B Test] or [!UICONTROL Experience Targeting] (XT) activity within the VEC that contains a redirect URL.
+
+  In step one of the three-part guided workflow inside the VEC, when you cancel page loading, the [!UICONTROL Modifications] panel in the VEC displays and the redirect to URL template is applied on the experience (for example, "Experience B). When you progress to steps two or three and then come back to step one, the following situation occurs.
+
+  On "Experience B," by default, the cancelled website loading template renders and the [!UICONTROL Modifications] panel is accessible, which should not be the case because this experience has a redirect to URL template applied. The redirect to URL template should display.
+
+  To show the correct state of the experience in the VEC:
+
+  If you switch to another experience and then switch back to "Experience B," [!DNL Target] displays the redirect to URL template applied on this experience and the [!UICONTROL Modifications] panel is not accessible. (TGT-32138)
+
+* For the Single Page Application (SPA) websites, cancelling loading does not allow you to edit actions under the [!UICONTROL Modifications] panel.
+
 ### Enterprise Permissions support in Target APIs {#api}
 
 Code offers created from the Target UI in the Offers library might display in the default workspace if the list of offers is pulled using GET APIs. This issue will be fixed in first week of March 2019. After this fix is in place, code offers will display in the appropriate workspace when pulled from APIs. This issue does *not* affect offers created from APIs. For example, code offers created from APIs display in the workspace in which they were created, whether fetched using GET APIs or from within the Target UI.
@@ -107,12 +121,17 @@ As a workaround, please rely on A4T data in Reports & Analytics until this issue
 
 ### Target APIs
 
-* Customers cannot perform CRUD operations on Auto-Allocate activities through the v3 version of the A/B Activities API on Adobe I/O.
-* v1 version of the Offer APIs on Adobe I/O treats all offers created through Target to be in the default workspace. (TTTEAM-41957)
+Customers cannot perform CRUD operations on Auto-Allocate activities through the v3 version of the A/B Activities API on Adobe I/O.
 
 ## Resolved Issues {#section_FD2FC86E7C734D60B1EDC9DEF60E1014}
 
-As known issues above are resolved, they will be moved to the following sections and additional notes, if necessary, will be added. 
+As known issues above are resolved, they will be moved to the following sections and additional notes, if necessary, will be added.
+
+### Target APIs
+
+v1 version of the Offer APIs on Adobe I/O treats all offers created through Target to be in the default workspace. (TTTEAM-41957)
+
+This issue was resolved.
 
 ### at.js
 

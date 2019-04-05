@@ -33,13 +33,9 @@ The [!DNL Adobe Target] solution contains several components:
 
 Industry best practices are built into [!DNL Target Standard], and it is designed to be used by both new and experienced users. You can share data and results and collaborate easily with other team members who use the [!DNL Adobe Experience Cloud].
 
-[!DNL Target Standard] will continue to be enhanced with functionality currently found in [!DNL Target Classic], over the next several releases.
-
 ## Target Premium {#premium}
 
 [!DNL Target Premium] is an advanced [!DNL Target] license that adds premium features to [!DNL Target Standard].
-
-[!DNL Target Premium] will continue to be enhanced with functionality currently found in [!DNL Target Classic], over the next several releases.
 
 Target Premium includes the following premium features: 
 

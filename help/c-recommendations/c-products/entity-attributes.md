@@ -144,7 +144,7 @@ Examples:
 
 `'entity.secondary=Rockies'`
 
-Custom entity attributes support multiple values. A multi-value entity attribute can include up to 100 values. Each value can be up to 100 characters. Values that exceed 100 characters are ignored.
+Custom entity attributes support multiple values. See [Custom entity attributes](/help/c-recommendations/c-products/custom-entity-attributes.md#limits) for character and value limits. 
 
 Example: `'entity.secondary=["band1",&nbsp;"band2"]'`
 

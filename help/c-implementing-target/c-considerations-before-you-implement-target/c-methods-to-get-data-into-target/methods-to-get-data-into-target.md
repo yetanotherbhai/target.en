@@ -12,7 +12,7 @@ uuid: a6d64e39-6cdc-49fe-afe5-ecf7dcacf97d
 
 # Methods to get data into Target{#methods-to-get-data-into-target}
 
-Information about the various methods you can use to get data into Target, including page parameters, in-page profile attributes, script profile attributes, data providers, the bulk profile update API, the single profile update API, and Customer Attributes.
+Information about the different methods you can use to get data into Target, including page parameters, in-page profile attributes, script profile attributes, data providers, the bulk profile update API, the single profile update API, and Customer Attributes.
 
 ## Page parameters (also called "mbox parameters") {#section_5A297816173C4FE48DC4FE03860CB42B}
 
@@ -193,7 +193,7 @@ Note: Data Providers requires at.js 1.3 or later.
 
 The `window.targetGlobalSettings.dataProviders` setting is an array of data providers.
 
-For more information about the structure for each data provider, see [Data Providers](/help/c-implementing-target/c-implementing-target-for-client-side-web/cmp-at.js-functions.md#section_42725F3C837247D58AE1831EA330E44D).
+For more information about the structure for each data provider, see [Data Providers](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#data-providers).
 
 ### Example Use Cases
 
@@ -215,11 +215,11 @@ at.js won't try to cache the data. If the data provider fetches data only once, 
 
 ### Code Examples
 
-Several examples can be found in [Data Providers](/help/c-implementing-target/c-implementing-target-for-client-side-web/cmp-at.js-functions.md#section_42725F3C837247D58AE1831EA330E44D) .
+Several examples can be found in [Data Providers](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#data-providers).
 
 ### Links to Relevant Information
 
-Documentation: [Data Providers](/help/c-implementing-target/c-implementing-target-for-client-side-web/cmp-at.js-functions.md#section_42725F3C837247D58AE1831EA330E44D)
+Documentation: [Data Providers](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#data-providers)
 
 ### Training Videos:
 
@@ -236,6 +236,7 @@ This option is very similar to Customer Attributes with a few differences:
 * Customer Attributes data can be shared with Analytics. Bulk Profile Update is useable only in Target.
 * Customer Attributes support creating a profile for a user Target has not yet seen. The Bulk Profile Update API updates existing Target profiles only.
 * Customer Attributes require the use of the Experience Cloud ID (ECID). The Bulk Profile Update API requires either the TNT ID or the `mbox3rdPartyId`.
+* You cannot send the following characters in `mbox3rdPartyID`: plus sign (+) and forward slash (/).
 
 ### Format
 
