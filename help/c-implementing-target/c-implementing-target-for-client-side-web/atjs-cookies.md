@@ -29,7 +29,7 @@ In at.js 1.*x*, the third-party cookie was stored in the `[CLIENTCODE].tt.omtrdc
 
 However, in at.js 2.x, HTTP GET is no longer used and instead uses HTTP POST. HTTP POST is now used via at.js in order to send JSON payloads to [!DNL Target] edge servers instead of key-value parameters. This means that the redirect request to check whether a browser supports third-party cookies now breaks. This is because HTTP GET requests are idempotent transactions while HTTP POST is non-idempotent and mustn’t be arbitrarily repeated.
 
-Therefore, neither third-party cookies nor cross-domain tracking are not supported in at.js 2.x.
+Therefore, neither third-party cookies nor cross-domain tracking are supported in at.js 2.0.0.
 
 ## at.js 1.*x* cookie behavior {#at-js-1x-cookie-behavior}
 
