@@ -17,7 +17,8 @@ This page lists important changes made to the [!DNL Adobe Target] documentation.
 
 |Date|Topic|Changes|
 | --- | --- | --- |
-|April 5, 2019|[Activity QA bookmarklet](/help/c-activities/c-activity-qa/activity-qa-bookmark.md)|Updated JavaScript code for the activity QA bookmarklet.|
+|April 5, 2019|[Adobe Target Basics Webinar: Introduction to Recommendations](/help/c-recommendations/recommendations.md#intro-to-recs)|Added link to the "Introduction to Recommendations" webinar recording.|
+||[Activity QA bookmarklet](/help/c-activities/c-activity-qa/activity-qa-bookmark.md)|Updated JavaScript code for the activity QA bookmarklet.|
 ||[Target release notes (prerelease)](/help/r-release-notes/target-release-notes.md)|Updated the preliminary release notes for the Target 19.4.1 and Target 19.4.2 releases, both scheduled for April 2019.|
 |April 4, 2019|[Target release notes (prerelease)](/help/r-release-notes/target-release-notes.md) |Added preliminary release notes for the Target 19.4.1 and Target 19.4.2 releases, both scheduled for April 2019.|
 |March 30, 2019|[Limits](/help/r-troubleshooting-target/target-limits.md#excludedid)|Added information about the limits for the `excludedID` mbox parameter.|
