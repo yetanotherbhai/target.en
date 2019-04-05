@@ -12,10 +12,6 @@ uuid: c67901d2-19cd-47d3-b8c4-abdcb046f404
 
 Manage exclusion groups and duplicate offers in Automated Personalization (AP) activities.
 
-## Manage exclusions {#topic_30B4E4F89C914EB2B20B038C0299ED2E}
-
-Manage exclusion groups and duplicate offers in Automated Personalization (AP) activities. 
-
 ## Create Exclusion Groups {#task_AAAA6C7239A84F7696C8492F04B575A2}
 
 Create exclusion groups in Automated Personalization (AP) activities to ensure that experiences with the designated offers are automatically excluded. 
