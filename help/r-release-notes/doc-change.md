@@ -21,6 +21,7 @@ This page lists important changes made to the [!DNL Adobe Target] documentation.
 ||[Before you implement](/help/c-integrating-target-with-mac/a4t/before-implement.md#section_A0D2EF18033D4C3997B08A6EBB34C17A)|Updated mininum requirements to use A4T with redirects (at.js version 1.6.2).|
 ||[Redirect offers - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#section_FA9384C2AA9D41EDBCE263FFFD1D9B58)|Updated mininum requirements to use A4T with redirects (at.js version 1.6.2).|
 ||[Limits](/help/r-troubleshooting-target/target-limits.md#excludedid)|Added information about the limits for the `excludedIDs` mbox parameter.|
+||[Upgrading from at.js 1.x to at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#response-tokens)|Added new section: Response tokens.|
 |April 5, 2019|[Adobe Target Basics Webinar: Introduction to Recommendations](/help/c-recommendations/recommendations.md#intro-to-recs)|Added link to the "Introduction to Recommendations" webinar recording.|
 ||[Activity QA bookmarklet](/help/c-activities/c-activity-qa/activity-qa-bookmark.md)|Updated JavaScript code for the activity QA bookmarklet.|
 ||[Target release notes (prerelease)](/help/r-release-notes/target-release-notes.md)|Updated the preliminary release notes for the Target 19.4.1 and Target 19.4.2 releases, both scheduled for April 2019.|
