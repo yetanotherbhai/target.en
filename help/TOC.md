@@ -41,23 +41,116 @@ user-guide-url: /content/help/en/target/using/target-home.html
 + [Scene7 settings](administrating-target/scene7-settings.md)
    + [Hosts](administrating-target/hosts.md)
    + [Response tokens](administrating-target/response-tokens.md)
+<!--
++ Implement Target {#implement-target}
+   + Client-side web: implement Target {#client-side}
+      + How at.js works {#at-js}
+         + [GHOST How at.js works overview](c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/c-how-atjs-works.md)
+         + [GHOST How at.js manages flicker](c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/c-manage-flicker-with-atjs.md)
+         + [GHOST at.js integrations](c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/c-target-atjs-integrations.md)
+      + How to deploy at.js {#deploy-at-js}
+         + [GHOST How to deploy at.js](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/how-to-deployatjs.md)
+         + [GHOST Implement Target using Adobe Launch](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
+         + [GHOST Implement Target without a tag manager](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md)
+         + [GHOST Implement Target using Dynamic Tag Management (DTM)](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-using-dynamic-tag-management.md)
+         + [GHOST Single Page Application implementation](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/r-target-atjs-single-page-application.md)
+      + at.js functions {#functions-overview}
+         + [GHOST at.js functions overview](c-implementing-target/c-implementing-target-for-client-side-web/cmp-at.js-functions.md)
+         + [GHOST Debug at.js using the Adobe Experience Cloud Debugger](c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/c-target-debugging-atjs.md)
+         + [GHOST Use cloud-based instances with Target](c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/c-targeting-using-cloud-based-instances.md)
+      + at.js frequently asked questions {#faq-at-js}
+         + [GHOST at.js FAQs](c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/c-target-atjs-faq.md)
+         + [GHOST Global mbox Frequently Asked Questions](c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/c-global-mbox-frequently-asked-questions.md)
+      + [GHOST at.js version details](c-implementing-target/c-implementing-target-for-client-side-web/r-target-atjs-versions.md)
+      + mbox.js implementation {#mbox-implement}
+         + [GHOST mbox.js implementation overview](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/t-mbox-download.md)
+         + Migrate from mbox.js to at.js {#migrate-mbox}
+            + [GHOST Migrate from mbox.js to at.js overview](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/c-target-atjs-implementation.md)
+            + [GHOST How to Migrate to at.js from mbox.js](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/t-target-migrate-atjs.md)
+            + [GHOST at.js Limitations](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/c-target-atjs-limitations.md)
+            + [GHOST at.js Plug-ins](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/c-target-atjs-plugins.md)
+            + [GHOST Deploy at.js to a Non-Production Environment](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/r-target-test-atjs.md)
+         + [GHOST What mbox.js does](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-mbox-technical.md)
+         + [GHOST Configure mbox.js](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/r-advanced-mboxjs-settings.md)
+         + [GHOST Download mbox.js](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/t-target-download-config-mbox.md)
+         + [GHOST Target page methods by mbox.js library version](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-call-responses-library-version.md)
+         + [GHOST Create an Order Confirmation mbox - mbox.js](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/t-orderconfirm-create.md)
+         + [GHOST mbox.js Frequently Asked Questions](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-mboxjs-frequently-asked-questions.md)
+         + [GHOST mbox.js functions](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-mboxjs-functions.md)
+         + [GHOST mbox.js cookies](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-cookie-behavior.md)
+         + [GHOST mbox.js version details](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/r-mboxjs-change-log.md)
+         + Understand the Global mbox {#global-mbox}
+            + [GHOST Understand the Global mbox ovreview](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/c-understanding-global-mbox.md)
+            + [GHOST Customize a Global mbox](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/t-customize-global-mbox.md)
+            + [GHOST Use a Global mbox from a Legacy implementation](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/t-mbox-global-target-standard.md)
+            + [GHOST Pass Parameters to a global mbox](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/c-pass-parameters-to-global-mbox.md)
+   + [GHOST Mobile apps: implement Target](c-implementing-target/c-implementing-target-for-moblile-apps.md)
+   + Server Side: implement Target
+      + [GHOST Server Side: implement Target overview](c-implementing-target/c-api-and-sdk-overview/c-api-and-sdk-overview.md)
+      + [GHOST Transition from Target legacy APIs to Adobe I/O](c-implementing-target/c-api-and-sdk-overview/c-target-api-documentation.md)
+   + Email: implement Target {#implement-email}
+      + [GHOST Email: implement Target overview](c-implementing-target/c-non-javascript-based-implementation/c-non-javascript-based-implementation.md)
+      + [GHOST Create an Adbox for an image](c-implementing-target/c-non-javascript-based-implementation/t-testing-content-with-the-adbox.md)
+      + [GHOST Test an email image Adbox](c-implementing-target/c-non-javascript-based-implementation/t-testing-email-image-adbox.md)
+      + [GHOST Work with redirectors](c-implementing-target/c-non-javascript-based-implementation/c-working-with-redirectors.md)
++ Integrate Adobe Target with the Experience Cloud {#integrate}
+   + [GHOST Integrate Adobe Target with the Experience Cloud overview](c-integrating-target-with-mac/c-integrating-target-with-mac.md)
+   + Adobe Analytics as the reporting source for Adobe Target (A4T) {#a4t}
+      + [GHOST A4T overview](c-integrating-target-with-mac/a4t/a4t.md)
+      + [GHOST Before you implement](c-integrating-target-with-mac/a4t/c-before-implement.md)
+      + [GHOST Analytics for Target implementation](c-integrating-target-with-mac/a4t/c-a4timplementation.md)
+      + [GHOST User permission requirements](c-integrating-target-with-mac/a4t/c-account-reqs.md)
+      + [GHOST Activity creation](c-integrating-target-with-mac/a4t/t-campaign-creation.md)
+      + [GHOST Use an Analytics tracking server](c-integrating-target-with-mac/a4t/t-analytics-tracking-server.md)
+      + [GHOST A4T reporting](c-integrating-target-with-mac/a4t/c-reporting.md)
+      + Troubleshooting the Analytics and Target integration (A4T) {#troubleshoot-a4t}
+         + [GHOST Troubleshoot A4T](c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/c-a4t-troubleshooting.md)
+         + [GHOST Minimizing inflated visit and visitor counts in A4T](c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md)
+      + A4T Frequently Asked Questions
+         + [GHOST A4T Frequently Asked Questions overview](c-integrating-target-with-mac/a4t/r-a4t-faq/r-a4t-faq.md)
+         + [GHOST Initial provisioning - A4T FAQ](c-integrating-target-with-mac/a4t/r-a4t-faq/c-a4t-faq-initial-provisioning.md)
+         + [GHOST Activity settings - A4T FAQ](c-integrating-target-with-mac/a4t/r-a4t-faq/c-a4t-faq-activity-setup.md)
+         + [GHOST View reports - A4T FAQ](c-integrating-target-with-mac/a4t/r-a4t-faq/c-a4t-faq-viewing-reports.md)
+         + [GHOST Redirect offers - A4T FAQ](c-integrating-target-with-mac/a4t/r-a4t-faq/c-a4t-faq-redirect-offers.md)
+         + [GHOST Lift and confidence - A4T FAQ](c-integrating-target-with-mac/a4t/r-a4t-faq/c-a4t-faq-lift-and-confidence.md)
+         + [GHOST Metric definitions - A4T FAQ](c-integrating-target-with-mac/a4t/r-a4t-faq/c-a4t-faq-metric-definition.md)
+         + [GHOST Inflated visit and visitor counts - A4T FAQ](c-integrating-target-with-mac/a4t/r-a4t-faq/c-a4t-faq-inflated-visit-and-visitor-counts.md)
+         + [GHOST Classifications - A4T FAQ](c-integrating-target-with-mac/a4t/r-a4t-faq/c-a4t-faq-classifications.md)
+         + [GHOST Legacy SiteCatalyst to Test&Target Integration - A4T FAQ](c-integrating-target-with-mac/a4t/r-a4t-faq/c-a4t-faq-old-integration.md)
+      + [GHOST Expected Data Variances When Not Using A4T](c-integrating-target-with-mac/a4t/c-understanding-expected-data-variances.md)
+   + [GHOST Experience Cloud Audiences](c-integrating-target-with-mac/c-mmp.md)
+   + [GHOST Integrate Target with Adobe Campaign](c-integrating-target-with-mac/c-campaign-and-target.md)
+   + [GHOST Experience Cloud Device Co-op](c-integrating-target-with-mac/c-experience-cloud-device-co-op.md)
+-->
 + Implement Target {#implement-target}
    + [Implement Target overview](c-implementing-target/implementing-target.md)
+   + [GHOST Implement Target overview](c-implementing-target/c-implementing-target.md)
    + Before you implement {#before-implement}
+      + [GHOST Before you implement](c-implementing-target/c-considerations-before-you-implement-target/c-considerations-before-you-implement-target.md)
+      + [GHOST Understand the Target JavaScript libraries](c-implementing-target/c-considerations-before-you-implement-target/c-target-implement.md)
+      + [GHOST Prepare to implement Target](c-implementing-target/c-considerations-before-you-implement-target/c-prepare-to-implement-target.md)
       + [Before you implement](c-implementing-target/c-considerations-before-you-implement-target/considerations-before-you-implement-target.md)
       + [Understand the Target JavaScript libraries](c-implementing-target/c-considerations-before-you-implement-target/target-implement.md)
       + [Prepare to implement Target](c-implementing-target/c-considerations-before-you-implement-target/prepare-to-implement-target.md)
       + Privacy {#privacy}
+         + [GHOST Privacy overview](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/c-privacy.md)
+         + [GHOST Delete the Target cookie](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/t-cookie-deleting.md)
          + [Privacy overview](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md)
          + [Privacy and General Data Protection Regulation (GDPR)](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md)
          + [Delete the Target cookie](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cookie-deleting.md)
       + Methods to get data into Target {#methods}
+         + [GHOST Methods](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/c-methods-to-get-data-into-target.md)
+         + [GHOST Profile API settings](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/c-profile-api-settings.md)
          + [Methods](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md)
          + [Profile API settings](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/profile-api-settings.md)
       + [Target security overview](c-implementing-target/c-considerations-before-you-implement-target/target-security-overview.md)
       + [Supported browsers](c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md)
       + [TLS (Transport Layer Security) encryption changes](c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md)
       + [CNAME and Adobe Target](c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md)
+      + [GHOST Target security overview](c-implementing-target/c-considerations-before-you-implement-target/c-target-security-overview.md)
+      + [GHOST Supported browsers](c-implementing-target/c-considerations-before-you-implement-target/r-supported-browsers.md)
+      + [GHOST TLS (Transport Layer Security) encryption changes](c-implementing-target/c-considerations-before-you-implement-target/c-tls-transport-layer-security-encryption.md)
+      + [GHOST CNAME and Adobe Target](c-implementing-target/c-considerations-before-you-implement-target/c-implement-cname-support-in-target.md)
    + Client-side web: implement Target {#client-side}
       + How at.js works {#at-js}
          + [How at.js works overview](c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md)
