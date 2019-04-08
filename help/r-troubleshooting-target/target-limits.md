@@ -50,11 +50,11 @@ Multi-value entity custom attributes can contain no more than 500 values. Each i
 
 **Limit**: 1,000 characters.
 
-## excludedId {#excludedid}
+## excludedIds {#excludedid}
 
-**Limit**: 2,083 characters minus the length of the URL.
+**Limit**: 5 KB for POST requests. 2,083 characters minus the length of the URL for GET requests.
 
-Although the limit on the back end is 5 KB, due to the fact that Microsoft Internet Explorer limits the URL to 2,083 characters, the realistic limit is 2,083 characters minus the current length of the URL.
+For GET requests, although the limit on the back end is 5 KB, due to the fact that Microsoft Internet Explorer limits the URL to 2,083 characters, the realistic limit is 2,083 characters minus the current length of the URL.
 
 ## Experience names
 
