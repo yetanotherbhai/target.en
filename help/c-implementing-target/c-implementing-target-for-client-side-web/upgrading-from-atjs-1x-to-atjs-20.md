@@ -369,7 +369,7 @@ The following tables explain at.js. 2.0.0 compatibility with different activity 
 
 ## Response tokens {#response-tokens}
 
-at.js 2.*x*, just like at.js 1.*x*, uses the custom event `at-request-succeeded` to surface response tokens. For code examples using the `at-request-succeeded' custom event, see [Response tokens](/help/administrating-target/response-tokens.md).
+at.js 2.*x*, just like at.js 1.*x*, uses the custom event `at-request-succeeded` to surface response tokens. For code examples using the `at-request-succeeded` custom event, see [Response tokens](/help/administrating-target/response-tokens.md).
 
 ## at.js 1.x parameters to at.js 2.x payload mapping {#payload-mapping}
 
