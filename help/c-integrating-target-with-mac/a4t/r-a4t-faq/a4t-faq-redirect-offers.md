@@ -23,7 +23,7 @@ Your implementation must meet the following minimum requirements:
 
 * Experience Cloud Visitor ID Service: [!DNL visitorAPI.js] version 2.3.0 or later. 
 * Adobe Analytics: [!DNL appMeasurement.js] version 2.1. 
-* Adobe Target: [!DNL at.js] version 0.9.6 or later (except version 1.1.0 if using redirect offers with A4T).
+* Adobe Target: [!DNL at.js] version 1.6.2 or later.
 
   The [!DNL mbox.js] library does not support redirect offers with A4T. Your implementation must use [!DNL at.js].
 
