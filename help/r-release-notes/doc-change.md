@@ -17,9 +17,10 @@ This page lists important changes made to the [!DNL Adobe Target] documentation.
 
 |Date|Topic|Changes|
 | --- | --- | --- |
+||[Expected data variances between Target and Analytics when using and not using A4T](/help/c-integrating-target-with-mac/a4t/understanding-expected-data-variances.md)|Updated [Expected data variance when using A4T](/help/c-integrating-target-with-mac/a4t/understanding-expected-data-variances.md#expected-using-a4t). |
 |April 8, 2019|[Minimizing inflated visit and visitor counts in A4T](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md)|Updated information about A4T and redirects under [What contributes to partial data?](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md#section_C9C906BEAA7D44DAB9D3C03932A2FEB8)|
-||[Before you implement](/help/c-integrating-target-with-mac/a4t/before-implement.md#section_A0D2EF18033D4C3997B08A6EBB34C17A)|Updated mininum requirements to use A4T with redirects (at.js version 1.6.2).|
-||[Redirect offers - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#section_FA9384C2AA9D41EDBCE263FFFD1D9B58)|Updated mininum requirements to use A4T with redirects (at.js version 1.6.2).|
+||[Before you implement](/help/c-integrating-target-with-mac/a4t/before-implement.md#section_A0D2EF18033D4C3997B08A6EBB34C17A)|Updated the mininum requirements to use A4T with redirects (at.js version 1.6.2).|
+||[Redirect offers - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#section_FA9384C2AA9D41EDBCE263FFFD1D9B58)|<ul><li>Updated the mininum requirements to use A4T with redirects (at.js version 1.6.2).</li><li>Added information describing how data metrics are counted when a Target hit occurs, but no Analytics hit occurs. </li>|
 ||[Limits](/help/r-troubleshooting-target/target-limits.md#excludedid)|Added information about the limits for the `excludedIDs` mbox parameter.|
 ||[Upgrading from at.js 1.x to at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#response-tokens)|Added new section: Response tokens.|
 |April 5, 2019|[Adobe Target Basics Webinar: Introduction to Recommendations](/help/c-recommendations/recommendations.md#intro-to-recs)|Added link to the "Introduction to Recommendations" webinar recording.|

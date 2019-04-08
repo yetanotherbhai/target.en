@@ -11,17 +11,25 @@ uuid: 61bef460-8613-4251-b1b2-b6226ec86d9b
 
 # Expected data variances between Target and Analytics when using and not using A4T{#expected-data-variances-when-not-using-a-t}
 
-Information about expected data variances between [!DNL Target] and Adobe [!DNL Analytics] when *using* and *not* using Analytics as the Reporting Source (A4T), which eliminates data variance altogether.
+Information about expected data variances between [!DNL Target] and Adobe [!DNL Analytics] when *using* and *not* using Analytics as the Reporting Source (A4T). A4T significantly reduces data variance.
 
-## A4T significantly reduces data variance
+## Expected data variance when using A4T {#expected-using-a4t}
 
 With A4T, both Analytics and Target reporting of activities use Analytics data exclusively, so there is little variance between the solutions in Target activity reports. In some circumstances, however, customers might compare Target data to Analytics data outside the scope of the A4T integration and, thus, experience the variance issues described below.
 
-Here is a scenario in which you might experience expected data variance: Suppose you create an Auto-Allocate activity open to all visitors to a particular page. Because Auto-Allocate activities don't support A4T, all of the activity data is collected by [!DNL Target]. You might expect that the visitors to the activity in the [!DNL Target] reporting should match the visitors to that page in the [!DNL Analytics] reporting for the same date range. This is a scenario in which the variance described below is expected.
+Here are a few scenarios in which you might experience expected data variance: 
 
-For a complete list of activity types that support A4T, see [Supported Activity Types](../../c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA).
+* A4T allows for the possibility that a Target hit (top of page) occurs, but no Analytics hit (bottom of page) occurs. An example of this would be if the user loads the page, but closes the browser before the Analytics call triggered. In these cases, A4T excludes the Target hit from our data. The reason for this is that allowing Target hits (again, top of page) to count as Analytics hits in the absence of an actual Analytics call would create inconsistencies with the data set in Analytics (visitor inflation, etc.).
 
-## Expected data variance when *not using* A4T
+  If a redirect test is set up in Target to split traffic 50/50 (or 25/25/25/25, etc.), user behavior might not be divided evenly. If you see an uneven split, it simply means that one group of users failed to execute an Analytics call on the landing page more than the other group(s) did. This failure to execute the Analytics call for one group caused the Target hit for that user to be excluded, creating the unevenness.
+
+  This is something we hope to address in the future as we work toward A4T on the Adobe Experience Platform. Our teams are working through how best to handle these different events occurring at different times on the page.
+
+* Suppose you create an Auto-Allocate activity open to all visitors to a particular page. Because Auto-Allocate activities don't support A4T, all of the activity data is collected by [!DNL Target]. You might expect that the visitors to the activity in the [!DNL Target] reporting should match the visitors to that page in the [!DNL Analytics] reporting for the same date range. This is a scenario in which the variance described below is expected.
+
+  For a complete list of activity types that support A4T, see [Supported Activity Types](../../c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA).
+
+## Expected data variance when *not using* A4T {#expected-not-using-a4t}
 
 Variances of 15-20% are normal, even with similar data sets. Systems that count differently can result in much higher data variances, as much as 35-50%. In some cases, variances can be even higher.
 
