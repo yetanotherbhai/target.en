@@ -29,6 +29,10 @@ Your implementation must meet the following minimum requirements:
 
 The three libraries must be included on both the page with the redirect offer and the page to which the visitor is redirected.
 
+## Why are there sometimes data discrepancies between A4T and Analytics?
+
+Some data discrepancies are expected. For more information, see [Expected data variances between Target and Analytics when using and not using A4T](/help/c-integrating-target-with-mac/a4t/understanding-expected-data-variances.md). 
+
 ## Why are page views on the original page and on the redirect page sometimes counted? {#section_B8F6CC2190B84CF08D945E797C5AF07B}
 
 There is a possibility that a race condition can occur that might cause the Analytics call to fire before the redirect executes on the first page. This can cause page views on the original page and on the redirect page to all be counted. This situation results in an extra page view on the first page, when the visitor never really "saw" this first page.
