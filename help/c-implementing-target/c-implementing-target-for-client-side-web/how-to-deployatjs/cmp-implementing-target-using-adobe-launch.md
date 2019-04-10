@@ -19,7 +19,7 @@ The following table lists the various sources where you can get more information
 
 | Resource | Details |
 |--- |--- |
-|[Implementing DNL Target using the Adobe Target Extension Tutorial](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html)|This tutorial provides step-by-step instructions to implement Adobe Target in a website with Launch. Topics include adding the at.js JavaScript library, firing the global mbox, adding parameters, and integrating with other solutions. This article is part of a larger tutorial that shows you how to implement Adobe Launch, as well as the other Adobe Experience Cloud solutions.|
+|[Implementing Target using the Adobe Target Extension Tutorial](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html)|This tutorial provides step-by-step instructions to implement Adobe Target in a website with Launch. Topics include adding the at.js JavaScript library, firing the global mbox, adding parameters, and integrating with other solutions. This article is part of a larger tutorial that shows you how to implement Adobe Launch, as well as the other Adobe Experience Cloud solutions.|
 |[Adobe Launch Documentation](https://docs.adobelaunch.com/getting-started)|Information about deploying and managing all of the analytics, marketing, and advertising tags necessary to power relevant customer experiences.|
 |[Adobe Target Extension Documentation](https://docs.adobelaunch.com/extension-reference/web/adobe-target-extension)|Information about implementing Target using Launch.|
 
