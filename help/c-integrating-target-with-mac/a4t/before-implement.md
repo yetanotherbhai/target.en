@@ -35,7 +35,7 @@ This integration requires that you implement the following library versions (or 
 
 To use redirect offers with A4T, you must implement the following library versions (or newer). The order listed is the order of operations.
 
-* Experience Cloud Visitor ID Service: visitorAPI.js version 2.3.0r
+* Experience Cloud Visitor ID Service: visitorAPI.js version 2.3.0
 * Adobe Target: at.js version 1.6.2
 
   **Note:** The  mbox.js library does not support redirect offers with A4T. Your implementation must use at.js.
