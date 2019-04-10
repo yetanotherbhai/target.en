@@ -2,7 +2,7 @@
 description: Several changes occur in your data collection process when enabling Analytics as the reporting source for Target (A4T).
 keywords: Recommendations
 seo-description: Several changes occur in your data collection process when enabling Analytics as the reporting source for Target (A4T).
-seo-title: Before you implement
+seo-title: Before you implement Adobe Analytics as the reporting source for Adobe Target (A4T)
 solution: Target
 title: Before you implement
 topic: Premium
@@ -15,21 +15,36 @@ Several changes occur in your data collection process when enabling Analytics as
 
 Before you decide to use this integration, review the following sections and consider the impact to your reporting processes:
 
-## Implementation Requirements {#section_A0D2EF18033D4C3997B08A6EBB34C17A}
+## Implementation requirements {#section_A0D2EF18033D4C3997B08A6EBB34C17A}
 
 >[!IMPORTANT]
 >
 >Before you can begin using A4T, you need to request that your account be provisioned for the integration. Use [this form](https://www.adobe.com/go/audiences) to request to be provisioned.
 
-This A4T integration requires that you implement the following library versions, depending on whether you want to use redirect offers with A4T or not:
+This A4T integration requires that you implement the following library versions (or newer), depending on whether you want to use redirect offers with A4T or not:
 
-| Requirements Needed for A4T | Requirements Needed for Redirect Offers Using A4T |
-|--- |--- |
-|This integration requires that you implement the following library versions (or newer) if you do not plan on using redirect offers with A4T:<ul><li>Adobe Analytics: appMeasurement.js version 1.7.0</li><li>Experience Cloud Visitor ID Service: visitorAPI.js version 1.8.0</li><li>Adobe Target (depending on your implementation): at.js version 0.9.1 or mbox.js version 61</li></ul>|To use redirect offers with A4T, you must implement the following library versions (or newer):<ul><li>Experience Cloud Visitor ID Service: visitorAPI.js version 2.3.0 or later</li><li>Adobe Analytics: appMeasurement.js version 2.1</li><li>Adobe Target: at.js version 1.6.2 or later</li></ul><br>**Note:** The  mbox.js library does not support redirect offers with A4T. Your implementation must use at.js.|
+### Requirements needed if *not* using redirect offers with A4T
+
+This integration requires that you implement the following library versions (or newer) if you do not plan on using redirect offers with A4T. The order listed is the order of operations.
+
+* Experience Cloud Visitor ID Service: visitorAPI.js version 1.8.0
+* Adobe Target (depending on your implementation): at.js version 0.9.1 or mbox.js version 61
+* Adobe Analytics: appMeasurement.js version 1.7.0
+
+### Requirements needed if using redirect offers with A4T
+
+To use redirect offers with A4T, you must implement the following library versions (or newer). The order listed is the order of operations.
+
+* Experience Cloud Visitor ID Service: visitorAPI.js version 2.3.0r
+* Adobe Target: at.js version 1.6.2
+
+  **Note:** The  mbox.js library does not support redirect offers with A4T. Your implementation must use at.js.
+
+* Adobe Analytics: appMeasurement.js version 2.1
 
 Download and deployment instructions are listed in [Adobe for Target Implementation](https://marketing.adobe.com/resources/help/en_US/target/a4t/c_a4timplementation.html).
 
-## Things to Know Before You Implement {#section_50D49CC52E11414089C89FB67F9B88F5}
+## Things to know before you implement {#section_50D49CC52E11414089C89FB67F9B88F5}
 
 * This integration is enabled on new activities when you select to use Analytics as the reporting source. After you make the implementation changes described in this document, your existing activities are not impacted. 
 * The process of setting up Analytics as the reporting source for Target includes several implementation steps, followed by a provisioning step. It is a good idea to read through the process as described below before implementing. After you complete these steps, you will be ready to use Analytics as your reporting source as soon as it is enabled for you. The provisioning process can take up to five business days. 

@@ -17,6 +17,7 @@ This page lists important changes made to the [!DNL Adobe Target] documentation.
 
 |Date|Topic|Changes|
 | --- | --- | --- |
+|April 10, 2019|[Before you implement](/help/c-integrating-target-with-mac/a4t/before-implement.md)|Minor text updates to the "Implementation requirements" section (requirements reordered).|
 |April 8, 2019|[Expected data variances between Target and Analytics when using and not using A4T](/help/c-integrating-target-with-mac/a4t/understanding-expected-data-variances.md)|Updated [Expected data variance when using A4T](/help/c-integrating-target-with-mac/a4t/understanding-expected-data-variances.md#expected-using-a4t). |
 ||[Minimizing inflated visit and visitor counts in A4T](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md)|Updated information about A4T and redirects under [What contributes to partial data?](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md#section_C9C906BEAA7D44DAB9D3C03932A2FEB8)|
 ||[Before you implement](/help/c-integrating-target-with-mac/a4t/before-implement.md#section_A0D2EF18033D4C3997B08A6EBB34C17A)|Updated the mininum requirements to use A4T with redirects (at.js version 1.6.2).|
