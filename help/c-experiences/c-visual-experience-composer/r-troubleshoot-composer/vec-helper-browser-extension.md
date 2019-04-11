@@ -35,6 +35,14 @@ Benefits of using the VEC Helper extension:
 1. Click [!UICONTROL Add to Chrome > Add Extension].
 1. To use the extension, click the VEC Helper browser extension icon ( ![VEC Helper icon](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/vec-help-extension.png) ) in your Chrome browser's toolbar while in the VEC or [QA Mode](/help/c-activities/c-activity-qa/activity-qa.md).
 
+The following illustration shows the VEC Helper with the [!UICONTROL Inject Target Libraries] setting enabled:
+
+![VEC helper 1](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/vec-help-extension-1.png)
+
+The following illustration shows the VEC Helper asking you whether you want it to inject [!DNL Target] libraries in the page to enable authoring: 
+
+![VEC helper 2](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/vec-helper.png)
+
 ## Notes
 
 * Your implementation must use the [!DNL Target] at.js library. You cannot use an mbox.js implementation with the extension.
