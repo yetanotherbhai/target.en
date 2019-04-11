@@ -11,7 +11,7 @@ uuid: e8aee4d7-2b99-4e1f-8004-2efc820658b5
 
 # Auto-Allocate{#auto-allocate}
 
-Auto Allocate identifies a winner among two or more experiences and automatically reallocates more traffic to the winner to increase conversions while the test continues to run and learn.
+Auto-Allocate identifies a winner among two or more experiences and automatically reallocates more traffic to the winner to increase conversions while the test continues to run and learn.
 
 >[!IMPORTANT]
 >
@@ -35,7 +35,7 @@ In such tests, most products, including Target, use a Student's t-test to produc
 
 Auto-Allocate performs all implicit comparisons across experiences and produces a "true" winner. There is no notion of a "control" experience in the test.
 
-Auto-Allocate intelligently allocates new visitors to experiences until the confidence interval of the best experience does not overlap with that of any other experience. Normally this process could produce false positives, but Auto-Allocate uses confidence intervals based on the [Bernstein Inequality](https://en.wikipedia.org/wiki/Bernstein_inequalities_(probability_theory)) that compensates for repeated evaluations. At this point, we have a true winner. When Auto Allocate stops, provided there is no substantial time-dependence to the visitors who arrive at the page, there is at least a 95% chance that auto-allocate will return an experience whose true response is no worse than 1% (relative) less than the true response of the winning experience.
+Auto-Allocate intelligently allocates new visitors to experiences until the confidence interval of the best experience does not overlap with that of any other experience. Normally this process could produce false positives, but Auto-Allocate uses confidence intervals based on the [Bernstein Inequality](https://en.wikipedia.org/wiki/Bernstein_inequalities_(probability_theory)) that compensates for repeated evaluations. At this point, we have a true winner. When Auto-Allocate stops, provided there is no substantial time-dependence to the visitors who arrive at the page, there is at least a 95% chance that auto-allocate will return an experience whose true response is no worse than 1% (relative) less than the true response of the winning experience.
 
 ## When to Use Auto-Allocate versus A/B or Automated Personalization {#section_3F73B0818A634E4AAAA60A37B502BFF9}
 
@@ -165,9 +165,13 @@ Auto-Allocate, on the other hand, is an A/B test that produces an aggregate winn
 
 Currently, the logic favors visitors that convert quickly or visit more often. This is because such visitors temporarily inflate the overall conversion rate of the experience they belong to. The algorithm adjusts itself frequently, so the increase in conversion rate is amplified at each snapshot. If the site gets a lot of return visitors, their conversions can potentially inflate the overall conversion rate for the experience they belong to. There is a good chance that return visitors are randomly distributed, in which case the aggregate effect (increased lift) is evened out. To mitigate this effect, consider changing the counting method of the success metric to count only once per entrant.
 
-**Can I use the sample size calculator when using Auto Allocate to estimate how long the activity will take to identify the winner?**
+**Can I use the sample size calculator when using Auto-Allocate to estimate how long the activity will take to identify the winner?**
 
 You can use the existing [sample size calculator](https://docs.adobe.com/content/target-microsite/testcalculator.html) with Bonferroni correction appropriately applied to get an estimate of how long the test will run. In our experiments, we’ve seen the Auto-Allocate activity end much sooner than this sample size. 
+
+**Should I remove underperforming experiences from an Auto-Allocate activity to speed the process of determining a winner?**
+
+There is really no reason to remove underperforming experiences. Auto-Allocate automatically serves high-performing experiences more often and serves underperforming experiences less often. Leaving underperforming experiences in the activity will not significantly impact the speed to determine a winner.
 
 ## Training videos {#section_893E5B36DC4A415C9B1D287F51FCCB83}
 
