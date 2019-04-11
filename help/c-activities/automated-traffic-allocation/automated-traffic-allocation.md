@@ -169,9 +169,11 @@ Currently, the logic favors visitors that convert quickly or visit more often. T
 
 You can use the existing [sample size calculator](https://docs.adobe.com/content/target-microsite/testcalculator.html) with Bonferroni correction appropriately applied to get an estimate of how long the test will run. In our experiments, we’ve seen the Auto-Allocate activity end much sooner than this sample size. 
 
-**Should I remove underperforming experiences from an Auto-Allocate activity to speed the process of determining a winner?**
+**Should I remove an underperforming experience from an Auto-Allocate activity to speed the process of determining a winner?**
 
-There is really no reason to remove underperforming experiences. Auto-Allocate automatically serves high-performing experiences more often and serves underperforming experiences less often. Leaving underperforming experiences in the activity will not significantly impact the speed to determine a winner.
+There is really no reason to remove an underperform experience. Auto-Allocate automatically serves high-performing experiences more often and serves underperforming experiences less often. Leaving an underperforming experience in the activity will not significantly impact the speed to determine a winner.
+
+As mentioned above, 20% of visitors are randomly assigned across all experiences. The amount of traffic served to an underperforming experience is minimal (20% divided by the number of offers).
 
 ## Training videos {#section_893E5B36DC4A415C9B1D287F51FCCB83}
 
