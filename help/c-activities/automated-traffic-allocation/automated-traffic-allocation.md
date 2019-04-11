@@ -171,7 +171,7 @@ You can use the existing [sample size calculator](https://docs.adobe.com/content
 
 **Should I remove an underperforming experience from an Auto-Allocate activity to speed the process of determining a winner?**
 
-There is really no reason to remove an underperform experience. Auto-Allocate automatically serves high-performing experiences more often and serves underperforming experiences less often. Leaving an underperforming experience in the activity will not significantly impact the speed to determine a winner.
+There is really no reason to remove an underperforming experience. Auto-Allocate automatically serves high-performing experiences more often and serves underperforming experiences less often. Leaving an underperforming experience in the activity will not significantly impact the speed to determine a winner.
 
 As mentioned above, 20% of visitors are randomly assigned across all experiences. The amount of traffic served to an underperforming experience is minimal (20% divided by the number of experiences).
 
