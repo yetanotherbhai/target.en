@@ -19,6 +19,7 @@ This page lists important changes made to the [!DNL Adobe Target] documentation.
 | --- | --- | --- |
 |April 11, 2019|[adobe.target.getOffers(options) - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md)|Updated code samples.|
 ||[Visual Experience Composer helper extension](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)|Added screenshots.|
+||[Auto-Allocate](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)|Added the following FAQ: "Should I remove underperforming experiences from an Auto-Allocate activity to speed the process of determining a winner?"|
 |April 10, 2019|[Before you implement](/help/c-integrating-target-with-mac/a4t/before-implement.md)|Minor text updates to the "Implementation requirements" section (requirements reordered).|
 ||[adobe.target.triggerView (viewName, options) - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-triggerview-atjs-2.md)|Updated text for the "options > page" parameter.|
 |April 8, 2019|[Expected data variances between Target and Analytics when using and not using A4T](/help/c-integrating-target-with-mac/a4t/understanding-expected-data-variances.md)|Updated [Expected data variance when using A4T](/help/c-integrating-target-with-mac/a4t/understanding-expected-data-variances.md#expected-using-a4t). |
