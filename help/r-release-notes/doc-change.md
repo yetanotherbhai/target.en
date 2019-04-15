@@ -17,7 +17,7 @@ This page lists important changes made to the [!DNL Adobe Target] documentation.
 
 |Date|Topic|Changes|
 | --- | --- | --- |
-|April 15, 2019|[Initial provisioning - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-initial-provisioning.md)|Added new FAQ: "How can I capture Analytics events across multiple pages and associate them with an A4T activity in Target?"|
+|April 15, 2019|[Initial provisioning - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-initial-provisioning.md)|Added new FAQ: "How can I set up a multi-page A4T activity?"|
 ||[User permission requirements](/help/c-integrating-target-with-mac/a4t/account-reqs.md)|Updated topic.|
 |April 11, 2019|[adobe.target.getOffers(options) - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md)|Updated code samples.|
 ||[Visual Experience Composer helper extension](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)|Added screenshots.|
@@ -101,7 +101,6 @@ This page lists important changes made to the [!DNL Adobe Target] documentation.
 | --- | --- | --- |
 |February 2, 2019|[Target release notes](/help/r-release-notes/target-release-notes.md) (prerelease)|Updated prerelease notes for the [!DNL Target] 19.2.1 (February 19, 2019) release.|
 |January 30, 2019|[Targets and audiences](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)|Added new FAQ: Strings that represent numbers (floating point numbers are supported as well) are compared as numbers.|
-||[Troubleshoot the Analytics and Target integration](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md) (A4T)|Added new troubleshooting section: How should I implement the [!DNL Target] and [!DNL Analytics] JavaScript libraries to capture events across multiple pages and associate them with an A4T activity in [!DNL Target].|
 |January 29, 2019|[Target release notes (current)](/help/r-release-notes/release-notes.md)|Enterprise Permissions support in Target APIs availability date updated to February 21, 2019.|
 ||[System status updates and proactive notifications](/help/r-release-notes/system-status-updates.md)|Added Proactive notifications section.|
 |January 22, 2019|[Collections](/help/c-recommendations/c-products/collections.md)<br>[Exclusions](/help/c-recommendations/c-products/exclusions.md)<br>[Catalog search](/help/c-recommendations/c-products/catalog-search.md)<br>[Settings](/help/c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84)<br>[Recommendations: filter collections and exclusions by environment (host group)](/help/administrating-target/hosts.md)|Added information about filtering collections and exclusions by environment (host group).|
