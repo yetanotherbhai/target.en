@@ -13,6 +13,14 @@ uuid: cc80f879-ad2a-46d6-adc2-df616e8ab0b5
 
 This topic contains answers to questions that are frequently asked about provisioning Analytics as the reporting source for Target (A4T).
 
+## How can I capture Analytics events across multiple pages and associate them with an A4T activity in Target?
+
+To implement a basic multi-page A4T use-case:
+
+* Implement both Target and Analytics (JavaScript libraries) on the activity landing page. This stitches the Target data with the Analytics data for each visitor. This data remains in Analytics until it expires. The default expiration is 90 days.
+
+* For the rest of the pages on the site, where you only want to track the Analytics metrics, implement only Analytics on those pages. The Analytics metrics captured across those pages are automatically stitched to the Target activity the visitor initially landed on (based on the Target information attached to that visitor from the preceding bullet).
+
 ## How can I tell whether A4T is enabled on my Target account? {#section_4437D284448F4313BF953D4B6EDBACA6}
 
 Before a report suite can be selected when defining an Analytics activity, you need both an Analytics user account and a Target user account. Your user accounts must be configured as described in the documentation. See [User Permission Requirements](../../../c-integrating-target-with-mac/a4t/account-reqs.md#concept_4BC06CAB00BF46FF9362AFE98656B083) .
