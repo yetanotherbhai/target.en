@@ -17,6 +17,8 @@ This page lists important changes made to the [!DNL Adobe Target] documentation.
 
 |Date|Topic|Changes|
 | --- | --- | --- |
+|April 15, 2019|[Initial provisioning - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-initial-provisioning.md)|Added new FAQ: "How can I capture Analytics events across multiple pages and associate them with an A4T activity in Target?"|
+||[User permission requirements](/help/c-integrating-target-with-mac/a4t/account-reqs.md)|Updated topic.|
 |April 11, 2019|[adobe.target.getOffers(options) - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md)|Updated code samples.|
 ||[Visual Experience Composer helper extension](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)|Added screenshots.|
 ||[Auto-Allocate](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)|Added the following FAQ: "Should I remove an underperforming experience from an Auto-Allocate activity to speed the process of determining a winner?"|
