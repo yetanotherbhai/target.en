@@ -39,13 +39,6 @@ The following sections list the known issues for [!DNL Target]:
 
 Code offers created from the Target UI in the Offers library might display in the default workspace if the list of offers is pulled using GET APIs. This issue will be fixed in first week of March 2019. After this fix is in place, code offers will display in the appropriate workspace when pulled from APIs. This issue does *not* affect offers created from APIs. For example, code offers created from APIs display in the workspace in which they were created, whether fetched using GET APIs or from within the Target UI.
 
-### Exclusion groups
-
-The following are known issues with exclusion groups:
-
-* When auto-dedupe is applied after creating exclusion groups, the count on the activity diagram might be incorrect in the UI.
-* When existing activity with Exclusion Group is edited, the manual inclusions might not be correctly reflected in the UI.
-
 ### Recommendations
 
 The following are known issues with Recommendations activities:
@@ -126,6 +119,15 @@ Customers cannot perform CRUD operations on Auto-Allocate activities through the
 ## Resolved Issues {#section_FD2FC86E7C734D60B1EDC9DEF60E1014}
 
 As known issues above are resolved, they will be moved to the following sections and additional notes, if necessary, will be added.
+
+### Exclusion groups
+
+The following are known issues with exclusion groups:
+
+* When auto-dedupe is applied after creating exclusion groups, the count on the activity diagram might be incorrect in the UI.
+* When existing activity with Exclusion Group is edited, the manual inclusions might not be correctly reflected in the UI.
+
+This issue was resolved.
 
 ### Target APIs
 
