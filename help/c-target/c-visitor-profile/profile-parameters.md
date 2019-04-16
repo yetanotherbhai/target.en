@@ -28,7 +28,7 @@ The following types of profile attributes are available:
 |Mbox|Passed in directly through page code when creating the mbox. See [Pass Parameters to a Global Mbox](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md).<br>Note:   Target  has a limit of 50 unique profile attributes per mbox call. If you need to pass more than 50 profile attributes to  Target , you can pass them using the  Profile Update  API method. For more information, see [Profile Update  in the Adobe Target API documentation](http://developers.adobetarget.com/api/#updating-profiles).|
 |Script|Defined directly with a JavaScript code snippet. These can store running totals like total money spent by consumer and are executed on each mbox request. See Profile Script Attributes below.|
 
-## Profile script tttributes {#concept_8C07AEAB0A144FECA8B4FEB091AED4D2}
+## Profile script attributes {#concept_8C07AEAB0A144FECA8B4FEB091AED4D2}
 
 Define a profile script attribute with its associated JavaScript code snippet.
 

@@ -12,9 +12,9 @@ uuid: 01c0072d-f77d-4f14-935b-8633f220db7b
 
 # How Adobe Target works{#how-adobe-target-works}
 
-Adobe Target integrates with websites by means of one of two JavaScript libraries. at.js or mbox.js
+Information about how Adobe Target works, including information about the Target JavaScript libraries (at.js and mbox.js) and the various activity types included in Target.
 
-## How Adobe Target works {#concept_459AB4DEE7364A9290C2FD405DC29584}
+## Target JavaScript libraries {#libraries}
 
 Adobe Target integrates with websites by means of one of two JavaScript libraries. at.js or mbox.js
 
