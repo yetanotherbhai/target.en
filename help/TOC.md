@@ -38,7 +38,7 @@ user-guide-url: /content/help/en/target/using/target-home.html
       + Enterprise user permissions {#enterprise}
          + [Enterprise user permissions](administrating-target/c-user-management/property-channel/property-channel.md)
          + [Configure enterprise permissions](administrating-target/c-user-management/property-channel/properties-overview.md)
-+ [Scene7 settings](administrating-target/scene7-settings.md)
+   + [Scene7 settings](administrating-target/scene7-settings.md)
    + [Hosts](administrating-target/hosts.md)
    + [Response tokens](administrating-target/response-tokens.md)
 + Implement Target {#implement-target}
@@ -129,7 +129,7 @@ user-guide-url: /content/help/en/target/using/target-home.html
          + [iOS - set up the mobile app](c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-ios.md)
          + [Use Adobe Launch to set up the Mobile App VEC](c-target-mobile-app/c-mobile-visual-experience-composer/use-adobe-launch-to-set-up-the-mobile-app-vec.md)
          + [Set up click tracking in the Mobile VEC](c-target-mobile-app/c-mobile-visual-experience-composer/set-up-click-tracking-in-the-mobile-vec.md)
-   + Server Side: implement Target
+   + Server Side: implement Target {server-side}
       + [Server Side: implement Target overview](c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)
       + [Transition from Target legacy APIs to Adobe I/O](c-implementing-target/c-api-and-sdk-overview/target-api-documentation.md)
    + Email: implement Target {#implement-email}
@@ -273,7 +273,7 @@ user-guide-url: /content/help/en/target/using/target-home.html
       + [Share metrics, audiences, and reports - A4T FAQ](c-target/c-troubleshooting-targets-and-audiences/a4t-faq-sharing-metrics-audiences-reports.md)
 + Experiences and offers {#experiences}
    + [Experiences and offers overview](c-experiences/experiences.md)
-   + Visual Experience Composer (VEC)
+   + Visual Experience Composer (VEC) {#vec}
       + [Visual Experience Composer overview](c-experiences/c-visual-experience-composer/visual-experience-composer.md)
       + [Visual Experience Composer Options](c-experiences/c-visual-experience-composer/viztarget-options.md)
       + [Include the Same Experience on Similar Pages](c-experiences/c-visual-experience-composer/temtest.md)
@@ -310,7 +310,7 @@ user-guide-url: /content/help/en/target/using/target-home.html
       + [AEM experience fragments](c-experiences/c-manage-content/aem-experience-fragments.md)
 + Reports {#reports}
    + [Reports overview](c-reports/reports.md)
-   + Report setttings {#settings}
+   + Report settings {#settings}
       + [Report settings overview](c-reports/c-report-settings/report-settings.md)
       + [Average Lift, Lift Bounds, and Confidence Interval](c-reports/c-report-settings/average-lift-bounds-and-confidence-interval.md)
       + [View multiple metrics in a report](c-reports/c-report-settings/view-multiple-metrics.md)
