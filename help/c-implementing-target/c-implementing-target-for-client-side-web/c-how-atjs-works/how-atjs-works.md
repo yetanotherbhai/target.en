@@ -11,7 +11,15 @@ uuid: 8ed04881-3dd9-496f-9c9c-feb9c740ed80
 
 # How at.js works{#how-at-js-works}
 
-To implement [!DNL Adobe Target] client-side, you must use the at.js library. In a client-side implementation of [!DNL Adobe Target], [!DNL Target] delivers the experiences associated with an activity directly to the client browser. The browser decides which experience to display and displays it. With a client-side implementation, you can use a WYSIWYG editor, the [Visual Experience Composer](/help/c-experiences/c-visual-experience-composer/visual-experience-composer.md) (VEC), or a non-visual interface, the [Form-based Experience Composer](/help/c-experiences/form-experience-composer.md), to create your test and personalization experiences.
+To implement [!DNL Adobe Target] client-side, you must use the at.js library. 
+
+In a client-side implementation of [!DNL Adobe Target], [!DNL Target] delivers the experiences associated with an activity directly to the client browser. The browser decides which experience to display and displays it. With a client-side implementation, you can use a WYSIWYG editor, the [Visual Experience Composer](/help/c-experiences/c-visual-experience-composer/visual-experience-composer.md) (VEC), or a non-visual interface, the [Form-based Experience Composer](/help/c-experiences/form-experience-composer.md), to create your test and personalization experiences.
+
+## What is at.js?
+
+The [at.js library](../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#concept_8AC8D169E02944B1A547A0CAD97EAC17) is the new implementation library for Target. The at.js library improves page-load times for web implementations and provides better implementation options for single-page applications. at.js is the recommended implementation library and is updated frequently with new capabilities. We recommend that all customers implement or migrate to the [latest version of at.js](../c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A).
+
+For more information, see [Target JavaScript libraries](/help/c-intro/how-target-works.md#libraries).
 
 In the [!DNL Target] implementation illustrated below, the following [!DNL Adobe Experience Cloud] solutions are implemented: Analytics, Target, and Audience Management. In addition, the following Experience Cloud core services are implemented: Adobe Launch, Audiences, and Visitor ID Service.
 
