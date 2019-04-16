@@ -52,6 +52,7 @@ This release includes the following features, changes and enhancements:
 * We improved the handling of redirects to URLs when you cancel loading of a page within the VEC. (TGT-33815)
 * Toolbar icons display appropriately after you cancel loading of a page within the VEC. If specific actions cannot be performed until after the page is fully loaded, the associated toolbar icons are disabled. (TGT-33811)
 * After you select a [!UICONTROL Recommendations] collection from the Collections picker, you must now click the [!UICONTROL Save] button. This workflow is consistent with other workflows within [!DNL Target]. (TGT-33205)
+* Fixed an issue that caused a small set of Insights reports to return 0% conversion rates instead of the actual conversion rates. (TNT-32125)
 
 ## Product documentation for [!DNL Target] capabilities {#section_F03C61D438814538967B2BF901130BE4}
 
