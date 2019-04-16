@@ -13,11 +13,13 @@ uuid: cf359bcd-547e-4f8f-bcf6-e646245bb9ce
 
 Information about the user account requirements to create an [!DNL Adobe Analytics]-based activity in [!DNL Adobe Target] (A4T).
 
-Before a report suite can be selected when defining an [!DNL Analytics] activity, you need both an [!DNL Analytics] user account and a [!DNL Target] user account. Your user accounts must be configured as described in the following sections:
+Before a report suite can be selected when defining an [!DNL Analytics] activity, you need both an [!DNL Analytics] user account and a [!DNL Target] user account. 
+
+Your user accounts must be configured as described in the following sections:
 
 ## Adobe Experience Cloud {#section_3931A2FAD38F4A4FA92CC77B92AF3F0D}
 
-Complete the following tasks in the [!DNL Adobe Experience Cloud] [!DNL Admin Console]:
+Complete the following tasks in the [!DNL Adobe Experience Cloud] [Admin Console](https://adminconsole.adobe.com):
 
 ### Link solution accounts to your Adobe ID
 
