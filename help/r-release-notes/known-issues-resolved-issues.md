@@ -122,12 +122,10 @@ As known issues above are resolved, they will be moved to the following sections
 
 ### Exclusion groups
 
-The following are known issues with exclusion groups:
-
 * When auto-dedupe is applied after creating exclusion groups, the count on the activity diagram might be incorrect in the UI.
 * When existing activity with Exclusion Group is edited, the manual inclusions might not be correctly reflected in the UI.
 
-This issue was resolved.
+These issues were resolved.
 
 ### Target APIs
 

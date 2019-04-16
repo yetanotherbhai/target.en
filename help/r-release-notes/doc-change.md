@@ -17,6 +17,7 @@ This page lists important changes made to the [!DNL Adobe Target] documentation.
 
 |Date|Topic|Changes|
 | --- | --- | --- |
+|April 16, 2019|[View reports - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md)|Added new FAQ: "Can I change the percentage of traffic allocation in an activity that uses A4T after the activity has been activated?"|
 |April 15, 2019|[Initial provisioning - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-initial-provisioning.md)|Added new FAQ: "How can I set up a multi-page A4T activity?"|
 ||[User permission requirements](/help/c-integrating-target-with-mac/a4t/account-reqs.md)|Updated topic.|
 ||[Known Issues and resolved issues](/help/r-release-notes/known-issues-resolved-issues.md)|Moved known issues for exclusion groups to the resolved issues table.|

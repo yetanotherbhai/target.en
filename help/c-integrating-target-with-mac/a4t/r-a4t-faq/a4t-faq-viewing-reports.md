@@ -129,3 +129,9 @@ The following list explains reasons why the same visitor could be counted in mul
 ## Does A4T support virtual report suites?
 
 Virtual report suites are *not* included in the Report Suite list and audiences from virtual report suites are not supported in A4T reporting.
+
+## Can I change the percentage of traffic allocation in an activity that uses A4T after the activity has been activated?
+
+Changing the traffic allocation percentage in an activity after activation can cause inconsistent reporting in Analytics because the change impacts only new visitors. Returning visitors are not impacted. 
+
+As best practice, you should stop the existing activity and then create a new activity instead of changing the percentage after activation. Reporting for the new activity starts with new visitors and data from returning visitors will not cause inconsistent reporting.
