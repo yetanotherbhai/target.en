@@ -137,7 +137,6 @@ user-guide-url: /content/help/en/target/using/target-home.html
       + [Create an Adbox for an image](c-implementing-target/c-non-javascript-based-implementation/testing-content-with-the-adbox.md)
       + [Test an email image Adbox](c-implementing-target/c-non-javascript-based-implementation/testing-email-image-adbox.md)
       + [Work with redirectors](c-implementing-target/c-non-javascript-based-implementation/working-with-redirectors.md)
-   + [GHOST Mobile apps](c-implementing-target/c-implementing-target-for-moblile-apps.md)
 + Integrate Adobe Target with the Experience Cloud {#integrate}
    + Adobe Analytics as the reporting source for Adobe Target (A4T) {#a4t}
       + [A4T overview](c-integrating-target-with-mac/a4t/a4t.md)
