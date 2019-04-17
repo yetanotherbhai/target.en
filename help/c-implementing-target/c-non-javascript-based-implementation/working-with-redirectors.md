@@ -41,7 +41,7 @@ Before you can use a redirector, you must create it.
    &mboxDefault=http%3A%2F%2Fwww%2Eyourcompany%2Ecom%2Fusualdestination%2Ehtm
    ```
 
-   * Where `yourclientcode`is your company's client code. Your company's client code is all lower case and has no special characters.
+   * Where `yourclientcode` is your company's client code. Your company's client code is all lower case and has no special characters.
 
      * **at.js**: Your client code is available at the top of the [!UICONTROL Setup > Implementation > Edit at.js Settings] page of the [!DNL Target] interface.
 
