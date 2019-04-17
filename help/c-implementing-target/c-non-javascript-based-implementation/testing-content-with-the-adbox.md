@@ -36,7 +36,7 @@ For help selecting the right setup see [Non-JavaScript-Based Implementations](..
    
    * Where `emailHeroImage123_320x200` is the name of the AdBox.
 
-   * Where `http%3A%2F%2Fwww%2Eyourcompany%2Ecom%2Fimg%2Flogo%2Egif`is the mbox's default content. This must be an image.
+   * Where `http%3A%2F%2Fwww%2Eyourcompany%2Ecom%2Fimg%2Flogo%2Egif` is the mbox's default content. This must be an image.
    
      This must be URL encoded and must be an absolute reference. You can use the [HTML URL Encoding Reference](https://www.w3schools.com/tags/ref_urlencode.asp) to quickly encode your URLs.
 
