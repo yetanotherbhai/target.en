@@ -20,14 +20,25 @@ For help selecting the right setup see [Non-JavaScript-Based Implementations](..
 
 1. Create the AdBox URL:
 
-   `https://myClientCode.tt.omtrdc.net/m2/myClientCode/ubox/image?mbox=emailHeroImage123_320x200&mboxDefault=http%3A%2F%2Fwww%2Eyourcompany%2Ecom%2Fimg%2Flogo%2Egif`
+   ```
+   https://myClientCode.tt.omtrdc.net/m2/myClientCode/ubox/
+   image?mbox=emailHeroImage123_320x200
+   mboxDefault=http%3A%2F%2Fwww%2Eyourcompany%2Ecom%2Fimg%2Flogo%2Egif
+   ```
 
-| Where | Is |
-|--- |--- |
-|myClientCode|Your company's client code.<br>**at.js**: Your client code is available at the top of the [!UICONTROL Setup > Implementation > Edit at.js Settings] page of the [!DNL Target] interface.<br>**mbox.js**: Your client code is available at the top of the [!UICONTROL Setup > Implementation > Edit Mbox.js Settings] page.<br>Your company's client code is all lower case and has no special characters.|
-|image|The call type. In this case it is an image.|
-|emailHeroImage123_320x200|The name of the AdBox.|
-|`http%3A%2F%2Fwww%2Eyourcompany%2Ecom%2Fimg%2Flogo%2Egif`|The mbox's default content. This must be an image.<br>This must be URL encoded and must be an absolute reference.<br>**Tip**: You can use the [HTML URL Encoding Reference](https://www.w3schools.com/tags/ref_urlencode.asp) to quickly encodes your URLs.|
+   * Where `myClientCode` is your company's client code. Your company's client code is all lower case and has no special characters.
+   
+     * **at.js**: Your client code is available at the top of the [!UICONTROL Setup > Implementation > Edit at.js Settings] page of the [!DNL Target] interface.
+   
+     * **mbox.js**: Your client code is available at the top of the [!UICONTROL Setup > Implementation > Edit Mbox.js Settings] page.
+
+   * Where `image` is the call type. In this case it is an image.
+   
+   * Where `emailHeroImage123_320x200` is the name of the AdBox.
+
+   * Where `http%3A%2F%2Fwww%2Eyourcompany%2Ecom%2Fimg%2Flogo%2Egif`is the mbox's default content. This must be an image.
+   
+     This must be URL encoded and must be an absolute reference. You can use the [HTML URL Encoding Reference](https://www.w3schools.com/tags/ref_urlencode.asp) to quickly encode your URLs.
 
 1. Create [Redirect Offers](../../c-experiences/c-manage-content/offer-redirect.md#task_33C80CD722564303B687948261484F94) for each alternative image.
 

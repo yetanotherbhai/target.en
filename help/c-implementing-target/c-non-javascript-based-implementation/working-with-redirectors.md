@@ -36,15 +36,24 @@ Before you can use a redirector, you must create it.
 1. Create the Redirector URL.
 
    ```
-   https://<your_testandtarget_clientcode>.tt.omtrdc.net/​m2/yourclientcode/ubox/​page?mbox=redirectorlink_456
+   https://<your_testandtarget_clientcode>.tt.omtrdc.net/​m2/yourclientcode/ubox
+   /​page?mbox=redirectorlink_456
    &mboxDefault=http%3A%2F%2Fwww%2Eyourcompany%2Ecom%2Fusualdestination%2Ehtm
    ```
 
-| Where | Is |
-|--- |--- |
-|yourclientcode|Your company's client code.<br>**at.js**: Your client code is available at the top of the [!UICONTROL Setup > Implementation > Edit at.js Settings] page of the [!DNL Target] interface.<br>**mbox.js**: Your client code is available at the top of the [!UICONTROL Setup > Implementation > Edit Mbox.js Settings] page.<br>Your company's client code is all lower case and has no special characters.|
-|redirectorlink_456|The name of the Redirector mbox that appears in your account to use in campaigns and tests.<br>Redirectors function differently from other mboxes, but appear just as any other mbox in your account. Name the redirector so it is easily distinguished them from the standard type mboxes in your account.  As best practice, begin the mbox name with 'redirectorlink'.|
-|`http%3A%2F%2Fwww%2Eyourcompany%2Ecom%2Fusualdestination%2Ehtm`|The default destination.<br>This must be URL encoded and must be an absolute reference.<br>**Tip**: You can use the [HTML URL Encoding Reference](https://www.w3schools.com/tags/ref_urlencode.asp) to quickly encodes your URLs.|
+   * Where `yourclientcode`is your company's client code. Your company's client code is all lower case and has no special characters.
+
+     * **at.js**: Your client code is available at the top of the [!UICONTROL Setup > Implementation > Edit at.js Settings] page of the [!DNL Target] interface.
+
+     * **mbox.js**: Your client code is available at the top of the [!UICONTROL Setup > Implementation > Edit Mbox.js Settings] page.
+
+   * `redirectorlink_456` is the name of the Redirector mbox that appears in your account to use in campaigns and tests.
+
+      Redirectors function differently from other mboxes, but appear just as any other mbox in your account. Name the redirector so it is easily distinguished them from the standard type mboxes in your account.  As best practice, begin the mbox name with 'redirectorlink'.
+
+   * Where `http%3A%2F%2Fwww%2Eyourcompany%2Ecom%2Fusualdestination%2Ehtm` is the default destination.
+
+     This must be URL encoded and must be an absolute reference. You can use the [HTML URL Encoding Reference](https://www.w3schools.com/tags/ref_urlencode.asp) to quickly encodes your URLs.|
 
 
 1. Validate the Redirector.
@@ -68,25 +77,14 @@ Before you can use a redirector, you must create it.
 
    >[!NOTE] {class="- topic/note "}
    >
-   >
-   >
-   >
    >* Redirectors are not supported by Offer Preview or Browse for mbox. Preview experiences directly in a browser. 
    >* `mboxDebug` does not work with Redirectors . 
-   >
-   >
 
 1. Submit the full Redirector URL to your Display Ad Network as the ad destination.
 
 ## Use a Redirector to Pass Costs per Click and Revenue Per Click {#concept_3078EF48E9C44B34992D62AAB9628853}
 
 Information about using a redirector to pas costs per click and revenue per click.
-
-<!-- 
-
-ov2/c_using-a-redirector-to-pass-costs-per-click-and-revenue-per-click.xml
-
- -->
 
 ### Passing Costs per Click {#section_DEB889470F7D4360B5CEA85FD05DEDFA}
 
@@ -121,4 +119,3 @@ Example: For a .10 cents revenue per click.
 https://<​your_clientcode>​​​​.tt​​.omtrdc​.net/​​m2/​yourclientcode/​ubox/​​​page?mbox=redirectorlink_456
 &mboxPageValue=0.1​&mbox​Default=​​http%3A%2F%2Fwww%2E​yourcompany%2Ecom​%2Fusualdestination%2Ehtm
 ```
-
