@@ -17,6 +17,8 @@ This page lists important changes made to the [!DNL Adobe Target] documentation.
 
 |Date|Topic|Changes|
 | --- | --- | --- |
+|April 19, 2019|[Automated Segments report](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md#section_740910A52FA646B4AC9452F98C2F5719)|Added new FAQ: Is there any logic to the order that attributes appear in a segment card?|
+||[Feeds](/help/c-recommendations/c-products/feeds.md#section_5DDC2DECF70A42FDAFF2235E91371537)|Updated Important note that describes when uploaded entities expire.|
 |April 16, 2019|[View reports - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md)|Added new FAQ: "Can I change the percentage of traffic allocation in an activity that uses A4T after the activity has been activated?"|
 |April 15, 2019|[Initial provisioning - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-initial-provisioning.md)|Added new FAQ: "How can I set up a multi-page A4T activity?"|
 ||[User permission requirements](/help/c-integrating-target-with-mac/a4t/account-reqs.md)|Updated topic.|

@@ -14,7 +14,7 @@ Display problems sometimes occur in the Visual Experience Composer (VEC) under c
 
 ## When I open my website in the Visual Experience Composer, the Target libraries do not load. (VEC only) {#section_8A7D3F4AD2CC4C3B823EE9432B97E06F}
 
-Target adds two parameters ( `mboxEdit=1` and `mboxDisable=1`) while opening the website in the Visual Experience Composer.
+Target adds two parameters (`mboxEdit=1` and `mboxDisable=1`) while opening the website in the Visual Experience Composer.
 
 If your website (specially Single Page Apps), trims our parameters or actually removes them while navigating from one page to another (without a page reload) the Target functionality breaks and the Target libraries do not load. 
 To avoid this problem, ensure that you do not trim or remove these two parameters.  
@@ -33,7 +33,7 @@ To disable the Enhanced Experience Composer, go to **[!UICONTROL Setup]** > **[!
 
 Some users see the following error message in the console:
 
-![](assets/error_message.jpg)
+![Console error message](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/console_error_message.jpg)
 
 If neither the Visual Experience Composer nor the Enhanced Experience Composer works, use a browser extension like Requestly (Chrome or Firefox) or Modify Response Headers (Firefox) that can overwrite the X-Frames header options for your site and allow them to be loaded in iFrames, enabling the VEC. If you are unable to use browser extensions, use the Form Composer.
 

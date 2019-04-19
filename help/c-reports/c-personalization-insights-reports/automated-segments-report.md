@@ -162,3 +162,6 @@ At this time, [!UICONTROL Personalization Insights] is available only for conver
 * See which attributes are used in the personalization models and how important they are. 
 * Identify opportunities for additional data points you can pass into Target to further inform your personalization.
 
+**Is there any logic to the order that attributes appear in a segment card?**
+
+No, the order of the cards is based only on a ranking described above. The order of the attributes within a card isn’t based on any logic.
