@@ -59,6 +59,7 @@ user-guide-url: /content/help/en/target/using/target-home.html
       + [TLS (Transport Layer Security) encryption changes](c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md)
       + [CNAME and Adobe Target](c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md)
    + Client-side web: implement Target {#client-side}
+      + [Overview: implement Target for client-side web](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md)
       + How at.js works {#at-js}
          + [How at.js works overview](c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md)
          + [How at.js manages flicker](c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/manage-flicker-with-atjs.md)
@@ -287,9 +288,9 @@ user-guide-url: /content/help/en/target/using/target-home.html
       + [Visual Experience Composer Best Practices and Limitations](c-experiences/c-visual-experience-composer/experience-composer-best-practices.md)
       + Troubleshooting the Visual Experience Composer {#troubleshoot-composer}
          + [Troubleshooting the Visual Experience Composer overview](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)
-         + [Visual Experience Composer and Enhanced Experience Composer](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md)
-         + [Visual Experience Composer](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md)
-         + [Troubleshooting Issues Related to the Enhanced Experience Composer](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md)
+         + [Troubleshooting the Visual Experience Composer and Enhanced Experience Composer](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md)
+         + [Troubleshooting the Visual Experience Composer](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md)
+         + [Troubleshooting the Enhanced Experience Composer](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md)
          + [Enabling Mixed Content in Your Browser](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md)
          + [Page Modification Scenarios](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md)
          + [Visual Experience Composer helper extension](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)
