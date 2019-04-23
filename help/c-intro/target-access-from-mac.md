@@ -18,19 +18,19 @@ Information about accessing [!DNL Adobe Target] from the [!DNL Adobe Experience 
 
 1. After signing into the [!DNL Experience Cloud], click the App icon in the navigation bar.
 
-   ![](assets/appmenu.png)
+   ![application icon](/help/c-intro/assets/appmenu-new.png)
 
 1. Click the [!DNL Target] icon in the App menu.
 
-   ![](assets/appmenu-target.png)
+   ![Target icon](/help/c-intro/assets/appmenu-target-new.png)
 
 1. Click **[!UICONTROL Launch]** on the [!DNL Target] card.
 
-   ![](assets/target-launch.png)
+   ![Target launch](/help/c-intro/assets/target-launch-new.png)
 
 1. (Optional) To set [!DNL Target] as your default view when you log in to the [!DNL Experience Cloud], click **[!UICONTROL Edit Profile]** under your profile avatar, then set your landing page preference.
 
-   ![](assets/pagepref.png)
+   ![Landing page](/help/c-intro/assets/pagepref-new.png)
 
 ## Change the default language for the Target UI {#language}
 
