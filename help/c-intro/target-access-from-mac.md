@@ -40,11 +40,11 @@ Information about accessing [!DNL Adobe Target] from the [!DNL Adobe Experience 
 
 1. Click **[!UICONTROL Edit Personal Information]**.
 
-1. Click the [!UICONTROL Communication] tab in the top menu bar.
+1. Click the **[!UICONTROL Communication]** tab in the top menu bar.
 
    ![Preferred languages](/help/c-intro/assets/prefered-language.png)
 
-   The text indicates that this is the language you want [!DNL Adobe] to use when we reach out to you. This is also the language that'll be used in the UI for [!DLN Target] and other [!DNL Adobe Experience Cloud] solutions. You can choose more than one language.
+   The text indicates that this is the language you want [!DNL Adobe] to use when we reach out to you. This is also the language that'll be used in the UI for [!DNL Target] and other [!DNL Adobe Experience Cloud] solutions. You can choose more than one language.
 
 1. Select your first (primary) language, then select a second language, if desired.
 
@@ -60,7 +60,7 @@ Information about accessing [!DNL Adobe Target] from the [!DNL Adobe Experience 
    * Chinese Traditional
    * Korean
 
-1. Click **[UICONTROL Save]**.
+1. Click **[!UICONTROL Save]**.
 
 1. Log out of the [!DNL Adobe Experience Cloud] or [!DNL Target], then log in again for your changes to take effect.
 
