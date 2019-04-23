@@ -17,6 +17,7 @@ This page lists important changes made to the [!DNL Adobe Target] documentation.
 
 |Date|Topic|Changes|
 | --- | --- | --- |
+|April 23, 2019|[Target release notes (prerelease)](/help/r-release-notes/target-release-notes.md)|Updated release notes and changed date to April 30 (was April 29).|
 |April 22, 2019|[Access Target from the Adobe Experience Cloud](/help/c-intro/target-access-from-mac.md)|Added new section: "Change the default language for the Target UI."|
 |April 19, 2019|[Automated Segments report](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md#section_740910A52FA646B4AC9452F98C2F5719)|Added new FAQ: "Is there any logic to the order that attributes appear in a segment card?"|
 ||[Feeds](/help/c-recommendations/c-products/feeds.md#section_5DDC2DECF70A42FDAFF2235E91371537)|Updated Important note that describes when uploaded entities expire.|

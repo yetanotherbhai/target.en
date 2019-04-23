@@ -34,7 +34,7 @@ This release is a maintenance release and includes the following change:
 
 * Updated the [!DNL Adobe Experience Cloud] UI to reflect branding and product changes. (TGT-33546, TGT-33272, and TGT-33331)
 
-## [!DNL Target] Standard/Premium 19.4.2 (April 29, 2019) {#release-19-4-2-prerelease}
+## [!DNL Target] Standard/Premium 19.4.2 (April 30, 2019) {#release-19-4-2-prerelease}
 
 This release includes the following features, changes and enhancements:
 
@@ -50,7 +50,6 @@ This release includes the following features, changes and enhancements:
 * We improved the workflow when you delete assets using the VEC. Deleted assets are now removed from the [!UICONTROL Offers library] and from [!DNL Scene7] (if applicable). Deleted assets no longer display in search results. (TGT-31981)
 * We improved the rendering of image offers in the Assets picker. Displaying and selecting image offers is now quicker and more efficient. (TGT-32897)
 * We improved the handling of redirects to URLs when you cancel loading of a page within the VEC. (TGT-33815)
-* Toolbar icons display appropriately after you cancel loading of a page within the VEC. If specific actions cannot be performed until after the page is fully loaded, the associated toolbar icons are disabled. (TGT-33811)
 * After you select a [!UICONTROL Recommendations] collection from the Collections picker, you must now click the [!UICONTROL Save] button. This workflow is consistent with other workflows within [!DNL Target]. (TGT-33205)
 * Fixed an issue that caused a small set of Insights reports to return 0% conversion rates instead of the actual conversion rates. (TNT-32125)
 
