@@ -11,7 +11,7 @@ uuid: efd672ae-c684-455f-8ec1-0efcfe1e9534
 
 # Visual Experience Composer Options{#visual-experience-composer-options}
 
-When you click a page element in the Visual Experience Composer (VEC), a menu shows the options that are available for that element type. In addition a DOM path displays at the bottom of the page that lets you easily navigate through the page structure.
+When you click a page element in the Visual Experience Composer (VEC), a menu shows the options that are available for that element type. In addition, a DOM path displays at the bottom of the page that lets you easily navigate through the page structure.
 
 ## VEC Options
 
@@ -39,7 +39,108 @@ Several rich text formatting options are available when editing text and HTML fo
 
 Use the color picker to select or configure a background color. You can select a color swatch, and adjust it using RGB values or color hex codes. The red x in the color picker makes the background transparent.
 
-**Note:** This option is not available for an element where a background image is set.
+**Note:** This option is not available for an element where a background image is set. 
+
+#### Styles
+
+Use the [!UICONTROL Styles] panel to view or edit the value of existing styles for the selected element. You can also add additional styling.
+
+To access the [!UICONTROL Styles] panel, click a page element from within the VEC, then click **[!UICONTROL Edit]** > **[!UICONTROL Styles]**.
+
+![Styles menu](/help/c-experiences/c-visual-experience-composer/assets/styles-menu.png)
+
+The [!UICONTROL Styles] panel displays on the right side of the VEC. The panel contains a list of styles that lets you edit or add to the selected element. A real-time CSS Editor lets you view changes and add styles if you are comfortable using Cascading Style Sheets (CSS) or if you receive code from your developer.
+
+![Styles palette](/help/c-experiences/c-visual-experience-composer/assets/styles-palette.png)
+
+As you apply different styles, you can always revert your changes by clicking the [!UICONTROL Revert] icon that displays at the top right corner of the [!UICONTROL Styles] panel after you make a change to any section. Note that clicking the [!UICONTROL Revert] icon reverts all changes on the current section's panel.
+
+Expand each section to edit or add styles, as explained below. To save your changes, click the Back icon at the top of the panel to return to the panel's main display, then click **[!UICONTROL Save]**. 
+
+Note that blue dots on the main display and next to each option on the various section panels indicate that you have made changes to the corresponding styles. This makes it easy for you to review your changes before clicking Save.  
+
+##### Typography
+
+Change the typography of an element. Typography edits are quick and easy. Edits apply to the entire element. If you want to apply typography changes to only a part of the text (not to the full text), use the [rich text editor](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md).
+
+You can edit the following typography styles:
+
+* Font size
+* Font weight
+* Font style
+* Color (specify the color code or use the color picker)
+* Word spacing
+* Line height
+* Text alignment
+
+##### Background
+
+Change the background color and image. You can specify the color code or use the color picker. You can pick an image from the image picker or specify an external URL.
+
+##### Margin
+
+Change the margin for the selected element. You can change the left, right, bottom, and top margins.
+
+Click the drop-down icon for each margin to choose from the following options:
+
+* Auto (Target optimally sets the margin)
+* Value (drag the slider to set the margin or specify the number of pixels for each margin)
+
+##### Padding
+
+Change the padding for the selected element. You can change the left, right, bottom, and top padding.
+
+Drag the slider to set the padding or specify the number of pixels for padding.
+
+##### Border
+
+Click the border icons at the top of the panel to change the selected element's border.
+
+You can edit the following styles for each border (top, right, bottom, and left):
+
+* Border style (none, hidden, dotted, dashed, solid, or double)
+* Border color (specify the color code or use the color picker)
+* Border width (drag the slider to select a border width or specify the width in pixels)
+
+##### Position
+
+Move the selected element from its current position. You can change the element's top, bottom, left, right, and [Z-index](https://www.w3schools.com/cssref/pr_pos_z-index.asp) position.
+
+Click the [!UICONTROL Static] drop-down list to choose from the following position options:
+
+* Static
+* Relative
+* Absolute
+* Sticky
+* Fixed
+
+Click the drop-down icon for each position to choose from the following options:
+
+* Auto (Target optimally positions each element)
+* Value (drag the slider to position the element or specify the number of pixels you want to move the element)
+
+##### Size
+
+Change the selected element's width and height.
+
+Click the drop-down icon next to [!UICONTROL Width] and [!UICONTROL Height] to choose from the following options:
+
+* Auto (Target optimally sizes each element)
+* Value (drag the slider to size the element or specify the number of pixels for each dimension)
+
+##### Filter
+
+Drag the slider for each filter option or specify the desired percentage:
+
+* Sepia
+* Contrast
+* Brightness
+* GrayScale
+* Blur
+* Opacity
+* Invert
+* Hue-rotate
+* Saturate
 
 #### CSS Class
 
