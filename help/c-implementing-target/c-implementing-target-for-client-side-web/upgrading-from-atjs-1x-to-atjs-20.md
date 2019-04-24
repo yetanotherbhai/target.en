@@ -314,7 +314,7 @@ No, you do not need to add pre-hiding code before calling `triggerView()`. at.js
 
 The following tables explain at.js. 2.0.0 compatibility with different activity types, integrations, features, and at.js functions.
 
-### Activity types
+### Activity types {#types}
 
 |Type|Supported?|
 | --- | --- |
@@ -325,6 +325,10 @@ The following tables explain at.js. 2.0.0 compatibility with different activity 
 |Multivariate Test|Yes|
 |Automated Personalization|Yes|
 |Recommendations|Yes|
+
+>[!NOTE]
+>
+>Auto-Target activities are supported through at.js 2.x and the VEC when all modifications are applied to the `Page Load Event`. When modifications are added to particular views, A/B Test, Auto-Allocate, and Experience Targeting (XT) activities only are supported.
 
 ### Integrations
 
