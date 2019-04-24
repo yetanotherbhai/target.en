@@ -79,7 +79,7 @@ Activity QA lets you fully test your Target activities prior to launching them l
 |--- |--- |--- |--- |
 |`at_preview_token`|Encrypted string|Mandatory; no default value|An encrypted entity that contains the list of campaigns IDs that are allowed to be executed in QA mode.|
 |`at_preview_index`|String|Empty|Format of the parameter is `<campaignIndex>` or `<campaignIndex>_< experienceIndex>`<br>Both indexes start with 1.|
-|`t_preview_listed_activities_only`|Boolean (true/false)|Default value: false|If "true," all campaigns specified in the `at_preview_index` parameters are processed.<br>If "false," all the campaigns from the page are processed, even if they were not specified in the preview token.|
+|`at_preview_listed_activities_only`|Boolean (true/false)|Default value: false|If "true," all campaigns specified in the `at_preview_index` parameters are processed.<br>If "false," all the campaigns from the page are processed, even if they were not specified in the preview token.|
 |`at_preview_evaluate_as_true_audience_ids`|String|Empty|Underscore-separated ("_") list of segmentId-s that should always (at targetting and reporting level) be evaluated as "true" in the scope of the mbox request.|
 |`_AT_Debug`|String|Window or console|Console logging or new window.|
 |`adobe_mc_ref`|||Passes the referring URL of the default page to the new page. When used with `AppMeasurement.js` version 2.1 (or later), [!DNL Adobe Analytics] uses this parameter value as the referring URL on the new page.|
