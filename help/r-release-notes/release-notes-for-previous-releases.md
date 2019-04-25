@@ -17,7 +17,41 @@ Release notes for previous Target releases, including release notes for Target S
 >
 >See [Target release notes (current)](../r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) for information about the current month's Target releases (platform and Target Standard/Premium).
 
-## Release notes - 2018 {#reference_36ACC83E135A41F28104C44755C26D5B}
+## Release notes - 2019 {#2019}
+
+## [!DNL Target] Standard/Premium 19.3.1 (March 29, 2019) {#release-19-3-1}
+
+This release includes the following features, changes and enhancements:
+
+(The issue numbers in parentheses are for internal [!DNL Adobe] use.)
+
+| Feature / Enhancement | Description |
+| --- | --- |
+|Visual Experience Composer|The Visual Experience Composer (VEC) includes the following enhancements to make your work quicker and more efficient:<ul><li>You can now cancel the loading of a website in the VEC to unblock editing of an activity. This enhancement is useful, for example, if you want to make a small edit to the activity, review its settings, or add custom code and you don't want to wait for the site to load. (TGT-31288)<br>See [Cancel loading of a page within the VEC](/help/c-experiences/c-visual-experience-composer/visual-experience-composer.md#cancel-loading).</li><li>You can perform many actions before the page loads in the VEC, or even if the page fails to load altogether (for example, custom code is no longer operational). Actions that cannot be edited before the site loads are disabled in the Target UI. (TGT-31288, TGT-31611, and TGT-32602)<br>See [Edit a page while the page is loading or after the page fails to load](/help/c-experiences/c-visual-experience-composer/visual-experience-composer.md#loading).</li><li>The VEC displays the DOM path so you can easily select the proper element while creating or editing experiences. (TGT-13422)<br>See [Navigate elements using the DOM path](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path).</li></ul>|
+
+## at.js version 2.0.1 (March 19, 2019) {#atjs201}
+
+This is a maintenance release and includes the following enhancements and fixes:
+
+(The issue numbers in parentheses are for internal [!DNL Adobe] use.)
+
+* Fixed a race condition in the DOM polling code that caused JavaScript exceptions for certain customers. (TNT-31869)
+* Notifications that views were rendered have been decoupled from click-tracking event handlers. Initially, Target did not send notifications if click-event handlers belonging to a rendered view could not be attached. Target now sends a view notification even when click elements are not found. (TNT-31969)
+* Fixed an issue that caused the request-succeeded event redirect flag to always be set to true. (TNT-31907)
+* Fixed an issue that caused the VEC rearrange action to be logged as success, even when elements were missing. (TNT-31924)
+* Fixed an issue that caused notifications for certain customers to not contain the Enterprise Permissions property token. (TNT-31999)
+
+>[!NOTE]
+>
+>If you require [!DNL Adobe] Opt-in support for the General Data Protection Regulation (GDPR), you should implement at.js 1.7.1. Opt-in support is not currently supported in at.js 2.*x*.
+
+## at.js version 1.7.1 (March 19, 2019) {#atjs171}
+
+This is a maintenance release and includes the following fix:
+
+(The issue numbers in parentheses are for internal [!DNL Adobe] use.)
+
+* Fixed a race condition in the DOM polling code that caused JavaScript exceptions for certain customers. (TNT-31869)
 
 ### Platform Changes (February 19, 2019) {#atjs2}
 
@@ -65,6 +99,8 @@ This release includes the following features, changes and enhancements:
 **Enhancement, fixes, and changes**
 
 * Fixed an issue that caused the Save button to remain disabled when the user logs in through the login pop dialog box on session expiry while editing an audience. (TGT-32722)
+
+## Release notes - 2018 {#reference_36ACC83E135A41F28104C44755C26D5B}
 
 ### Platform (November 15, 2018) {#section_484A56774E004282B98FFFF851E4E670}
 
