@@ -40,10 +40,10 @@ This release includes the following features, changes and enhancements:
 
 (The issue numbers in parentheses are for internal [!DNL Adobe] use.)
 
- Feature / Enhancement | Description |
+|Feature / Enhancement | Description |
 | --- | --- |
 |[!UICONTROL Mobile Visual Experience Composer]|The [!UICONTROL Visual Experience Composer] (VEC) for Native Mobile Apps lets you create activities and personalize content on native mobile apps in a do-it-yourself fashion without continuous development dependencies and app-release cycles.|
-|[!UICONTROL Visual Experience Composer]|The [!UICONTROL Visual Experience Composer] (VEC) includes the following enhancements to make your work quicker and more efficient:<ul><li>The [DOM path feature](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path) is now available when setting up [click tracking](/help/c-activities/r-success-metrics/click-tracking.md).</li><li>You can edit the style of an element, including the background image, in the VEC. For more information, see "Styles" in [Visual Experience Composer Options](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#styles). (TGT-15001)</li><li>[!DNL Target] supports HTML5 using configurations on v4.5.1 or higher. (TGT-33618)</li>|
+|[!UICONTROL Visual Experience Composer]|The [!UICONTROL Visual Experience Composer] (VEC) includes the following enhancements to make your work quicker and more efficient:<ul><li>The DOM path feature is now available when setting up [click tracking](/help/c-activities/r-success-metrics/click-tracking.md). For more information, see [Navigate elements using the DOM path](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path) in *Visual Experience Composer options*.</li><li>You can edit the style of an element, including the background image, in the VEC. For more information, see [Styles](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#styles) in *Visual Experience Composer Options*. (TGT-15001)</li><li>[!DNL Target] supports HTML5 using configurations on v4.5.1 or higher. (TGT-33618)</li>|
 
 **Enhancement, fixes, and changes**
 

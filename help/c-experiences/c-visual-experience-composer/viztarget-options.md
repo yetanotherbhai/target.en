@@ -295,3 +295,5 @@ You can use the DOM path to quickly see information about the selected element (
 When you hover over the DOM path, a blue box highlights the corresponding element in the VEC. When you click the element, an orange box highlights the element and the VEC options menu displays, as explained above.
 
 You can easily navigate to any parent, sibling, or child element within the VEC using the DOM path.
+
+The DOM path feature is also available when setting up [click tracking](/help/c-activities/r-success-metrics/click-tracking.md).

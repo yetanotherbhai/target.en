@@ -20,6 +20,7 @@ This page lists important changes made to the [!DNL Adobe Target] documentation.
 |Date|Topic|Changes|
 | --- | --- | --- |
 |April 30, 2019|[Visual Experience Composer Options](/help/c-experiences/c-visual-experience-composer/viztarget-options.md)|Added new section: "Styles."|
+||[Click tracking](/help/c-activities/r-success-metrics/click-tracking.md)|Added information about the DOM path feature to the "Considerations" section.|
 ||[Release Notes](/help/r-release-notes/release-notes.md): 19.4.2|This release includes enhancements and fixes. You can read about them and link to the documentation from the Release Notes. This release also includes many documentation updates throughout the help.|
 
 ## Adobe Target Standard/Premium 19.3.1 (March 29, 2019) {#section-19-3-1}
