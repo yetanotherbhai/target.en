@@ -17,7 +17,7 @@ Release notes for previous Target releases, including release notes for Target S
 >
 >See [Target release notes (current)](../r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) for information about the current month's Target releases (platform and Target Standard/Premium).
 
-## Release notes - 2019 {#2019}
+## Release notes - 2019 {#releases-2019}
 
 ## [!DNL Target] Standard/Premium 19.3.1 (March 29, 2019) {#release-19-3-1}
 
