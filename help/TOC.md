@@ -274,6 +274,28 @@ user-guide-url: /content/help/en/target/using/target-home.html
       + [Share metrics, audiences, and reports - A4T FAQ](c-target/c-troubleshooting-targets-and-audiences/a4t-faq-sharing-metrics-audiences-reports.md)
 + Experiences and offers {#experiences}
    + [Experiences and offers overview](c-experiences/experiences.md)
+   + Visual Experience Composer (VEC) {#visual-experience-composer-vec}
+      + [GHOST Visual Experience Composer overview](c-experiences/c-visual-experience-composer/visual-experience-composer.md)
+      + [GHOST Visual Experience Composer Options](c-experiences/c-visual-experience-composer/viztarget-options.md)
+      + [GHOST Include the Same Experience on Similar Pages](c-experiences/c-visual-experience-composer/temtest.md)
+      + [GHOST Multipage Activity](c-experiences/c-visual-experience-composer/multipage-activity.md)
+      + [GHOST Activity Collisions](c-experiences/c-visual-experience-composer/activity-collisions.md)
+      + Modifications {#modifications}
+         + [GHOST Modifications overview](c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md)
+         + [GHOST Experience Templates](c-experiences/c-visual-experience-composer/c-vec-code-editor/experience-templates.md)
+      + [GHOST Element Selectors Used in the Visual Experience Composer](c-experiences/c-visual-experience-composer/vec-selectors.md)
+      + [GHOST Mobile Viewports for Responsive Experiences](c-experiences/c-visual-experience-composer/mobile-viewports.md)
+      + [GHOST Visual Experience Composer Best Practices and Limitations](c-experiences/c-visual-experience-composer/experience-composer-best-practices.md)
+      + Troubleshooting the Visual Experience Composer {#troubleshoot-composer}
+         + [GHOST Troubleshooting the Visual Experience Composer overview](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)
+         + [GHOST Troubleshooting the Visual Experience Composer and Enhanced Experience Composer](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md)
+         + [GHOST Troubleshooting the Visual Experience Composer](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md)
+         + [GHOST Troubleshooting the Enhanced Experience Composer](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md)
+         + [GHOST Enabling Mixed Content in Your Browser](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md)
+         + [GHOST Page Modification Scenarios](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md)
+         + [VGHOST isual Experience Composer helper extension](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)
+      + [GHOST Redirect to a URL](c-experiences/c-visual-experience-composer/redirect-offer.md)
+      + [GHOST Creating Carousels that Work in the Visual Experience Composer](c-experiences/c-visual-experience-composer/vec-carousels.md)
    + Visual Experience Composer (VEC) {#vec}
       + [Visual Experience Composer overview](c-experiences/c-visual-experience-composer/visual-experience-composer.md)
       + [Visual Experience Composer Options](c-experiences/c-visual-experience-composer/viztarget-options.md)
