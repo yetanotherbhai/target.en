@@ -24,36 +24,15 @@ Email image testing is achieved through using modified versions of adboxes. Beca
 **Sample code for an email image adbox:**
 
 ```
-<img src="https://<
-<b class="+ topic ph hi-d="" b "="">
- clientcode>.tt.omtrdc.net/m2/​
- <b class="+ topic ph hi-d="" b "="">
-  clientcode/ubox/​
-  <b class="+ topic ph hi-d="" b "="">
-   image?mbox=​
-   <b class="+ topic ph hi-d="" b "="">
-    email_Header&mboxDefault=​
-    <b class="+ topic ph hi-d="" b "="">
-     http%3A%2F%2Fwww.domain.com%2Fheader.jpg&​ 
-         
-     <b class="+ topic ph hi-d="" b "="">
-      mboxXDomain=disabled&​
-      <b class="+ topic ph hi-d="" b "="">
-       mboxSession=123456&​
-       <b class="+ topic ph hi-d="" b "="">
-        mboxPC=123456" border="0" >
-
-       </b class="+ topic>
-      </b class="+ topic>
-     </b class="+ topic>
-    </b class="+ topic>
-   </b class="+ topic>
-  </b class="+ topic>
- </b class="+ topic>
-</b class="+ topic>
+<img src=“https://{clientcode}.tt.omtrdc.net/m2/​{clientcode}/ubox/​image?
+mbox={email_header}&
+mboxDefault=​{http%3A%2F%2Fwww.domain.com%2Fheader.jpg}&
+mboxXDomain=disabled&
+mboxSession={123456}&
+mboxPC={123456}” border=“0"/>
 ```
 
-Where the bold values are specific to you:
+Where the below values are specific to you:
 
 | Value | Description |
 |--- |--- |

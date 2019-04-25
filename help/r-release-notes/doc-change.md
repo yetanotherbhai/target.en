@@ -18,6 +18,7 @@ This page lists important changes made to the [!DNL Adobe Target] documentation.
 |Date|Topic|Changes|
 | --- | --- | --- |
 |April 24, 2019|[Upgrading from at.js 1.x to at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#types)|Added note to "Activity types" section.|
+||[Test an email image Adbox](/help/c-implementing-target/c-non-javascript-based-implementation/testing-email-image-adbox.md)|Reformatted code sample. |
 ||[Activity QA](/help/c-activities/c-activity-qa/activity-qa.md)|Fixed minor typos.|
 |April 23, 2019|[Target release notes (prerelease)](/help/r-release-notes/target-release-notes.md)|Updated release notes and changed date to April 30 (was April 29).|
 |April 22, 2019|[Access Target from the Adobe Experience Cloud](/help/c-intro/target-access-from-mac.md)|Added new section: "Change the default language for the Target UI."|
