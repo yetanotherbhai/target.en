@@ -78,7 +78,7 @@ Detailed instructions for completing each of the following tasks can be found in
 
    Click **[!UICONTROL Add Subscription]**, then select the solution to subscribe these attributes. [Configuring a subscription](https://marketing.adobe.com/resources/help/en_US/mcloud/subscription.html) sets up the data flow between the Experience Cloud and solutions. Activating the attribute source allows the data to flow to subscribed solutions. The customer records you have uploaded are matched up with incoming ID signals from your website or application.
 
-   ![](assets/solution.png.jpeg)
+   ![](assets/solution.png)
 
    ![](assets/activate.PNG)
 
