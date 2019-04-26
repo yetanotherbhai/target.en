@@ -19,7 +19,7 @@ Target's new SDK Library allows developers to do a one-time setup on their Andro
 
 The Mobile VEC can now be used along with the recently released [!DNL Adobe Experience Cloud SDK]. To do this, customers must use the [!DNL Adobe Launch] integration, the recommended method for using SDKs. For more information, see [Adobe Experience Platform SDKs](https://aep-sdks.gitbook.io/docs).
 
-To set up the Target VEC extension from Launch, see [Use Adobe Launch to set up the Mobile App VEC...](../../c-target-mobile-app/c-mobile-visual-experience-composer/use-adobe-launch-to-set-up-the-mobile-app-vec.md#concept_630A05151EF1487193BAE670B59F8CAC).
+To set up the Target VEC extension from Launch, see [Use Adobe Launch to set up the Mobile App VEC](../../c-target-mobile-app/c-mobile-visual-experience-composer/use-adobe-launch-to-set-up-the-mobile-app-vec.md#concept_630A05151EF1487193BAE670B59F8CAC).
 
 ## Include the Mobile SDK & the Target Library {#section_481F9644C71B4CB7AE3FC526D281D1D2}
 
@@ -210,7 +210,7 @@ To set up this application for use in the Mobile VEC:
 1. Build and run the application. 
 1. To enter the Mobile VEC authoring mode, use the [!DNL sdkbeta://com.adobe.sdkbeta] as its URL scheme, and open the generated deep link on the device (see directions below).
 
-All activity starts/resumes are already automatically marked as Target Views by the Target Mobile library extension. Moreover, our first example inserts the `TargetView` call into the application open source movie guide application. In our test application, we insert a Target View directly after a movie listing is about to appear ( `com/esoxjem/movieguide/listing/MovieListingFragment.java:90`) for the first time.
+All activity starts/resumes are already automatically marked as Target Views by the Target Mobile library extension. Moreover, our first example inserts the `TargetView` call into the application open source movie guide application. In our test application, we insert a Target View directly after a movie listing is about to appear (`com/esoxjem/movieguide/listing/MovieListingFragment.java:90`) for the first time.
 
 Target View Call Insertion:
 

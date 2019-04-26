@@ -35,7 +35,7 @@ To start implementing the SDK, you'll need to first create a mobile property in 
 
 1. Click the **[!UICONTROL Extensions]** tab.
 
-   By default, the [!UICONTROL Mobile Core] and [!UICONTROL Profile] extensions are included by default. These extensions are required for each Experience Cloud solution.
+   By default, the [!UICONTROL Mobile Core] and [!UICONTROL Profile] extensions are included. These extensions are required for each Experience Cloud solution.
 
    ![](assets/launch_2.png)
 

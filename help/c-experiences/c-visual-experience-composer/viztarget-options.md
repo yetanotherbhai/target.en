@@ -51,13 +51,27 @@ To access the [!UICONTROL Styles] panel, click a page element from within the VE
 
 The [!UICONTROL Styles] panel displays on the right side of the VEC. The panel contains a list of styles that lets you edit or add to the selected element. A real-time CSS Editor lets you view changes and add styles if you are comfortable using Cascading Style Sheets (CSS) or if you receive code from your developer.
 
-![Styles palette](/help/c-experiences/c-visual-experience-composer/assets/styles-palette.png)
+![Styles panel](/help/c-experiences/c-visual-experience-composer/assets/styles-panel.png)
 
 As you apply different styles, you can always revert your changes by clicking the [!UICONTROL Revert] icon that displays at the top right corner of the [!UICONTROL Styles] panel after you make a change to any section. Note that clicking the [!UICONTROL Revert] icon reverts all changes on the current section's panel.
 
 Expand each section to edit or add styles, as explained below. To save your changes, click the Back icon at the top of the panel to return to the panel's main display, then click **[!UICONTROL Save]**. 
 
-Note that blue dots on the main display and next to each option on the various section panels indicate that you have made changes to the corresponding styles. This makes it easy for you to review your changes before clicking Save.  
+Note that blue dots on the main panel and next to each option on the various section panels indicate that you have made changes to the corresponding styles. This makes it easy for you to review your changes before clicking [!UICONTROL Save]. 
+
+##### Background
+
+Change the background color and image.
+
+* Color (specify the color code or use the color picker)
+* Image (select an image from the image picker)
+* Image source (specify an external URL)
+* Attachment
+  * Click the top drop-down list to select scroll, fixed, or local
+  * Click the bottom drop-down list to select repeat, repeat-x, repeat-y, no-repeat, space, or round
+* Clip
+  * Click the top drop-down list to select border-box, padding-box, content-box, or text
+  * Click the bottom drop-down list to select auto audio or audio
 
 ##### Typography
 
@@ -72,10 +86,6 @@ You can edit the following typography styles:
 * Word spacing
 * Line height
 * Text alignment
-
-##### Background
-
-Change the background color and image. You can specify the color code or use the color picker. You can pick an image from the image picker or specify an external URL.
 
 ##### Margin
 
