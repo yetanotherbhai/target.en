@@ -57,25 +57,17 @@ As you apply different styles, you can always revert your changes by clicking th
 
 Expand each section to edit or add styles, as explained below. To save your changes, click the Back icon at the top of the panel to return to the panel's main display, then click **[!UICONTROL Save]**. 
 
-Note that blue dots on the main panel and next to each option on the various section panels indicate that you have made changes to the corresponding styles. This makes it easy for you to review your changes before clicking [!UICONTROL Save]. 
+Note that blue dots on the main panel and next to each option on the various section panels indicate that you have made changes to the corresponding styles. This makes it easy for you to review your changes before clicking [!UICONTROL Save].
 
-##### Background
-
-Change the background color and image.
-
-* Color (specify the color code or use the color picker)
-* Image (select an image from the image picker)
-* Image source (specify an external URL)
-* Attachment
-  * Click the top drop-down list to select scroll, fixed, or local
-  * Click the bottom drop-down list to select repeat, repeat-x, repeat-y, no-repeat, space, or round
-* Clip
-  * Click the top drop-down list to select border-box, padding-box, content-box, or text
-  * Click the bottom drop-down list to select auto audio or audio
+>[!NOTE]
+>
+>Quick actions for layout changes, background color, resizing, and move are also available as separate actions in the VEC menu. These options can be leveraged as separate actions or you can use the Styles menu, as explained here.
 
 ##### Typography
 
-Change the typography of an element. Typography edits are quick and easy. Edits apply to the entire element. If you want to apply typography changes to only a part of the text (not to the full text), use the [rich text editor](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md).
+Change the typography of an element. Typography edits are quick and easy. 
+
+Although the rich text editor (Edit Text/HTML) is available for fine tuning, quick actions to make changes to the entire element is available via this option. If you want to apply typography changes to only a part of the text (not to the full text), use the [rich text editor](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md). 
 
 You can edit the following typography styles:
 
@@ -96,11 +88,19 @@ Click the drop-down icon for each margin to choose from the following options:
 * Auto (Target optimally sets the margin)
 * Value (drag the slider to set the margin or specify the number of pixels for each margin)
 
+Margin supports positive and negative values.
+
+Target also supports other size units, such as rem, pc, em, etc. For more information about these units, see [Web Style Sheets CSS Tips and Tricks](/https://www.w3.org/Style/Examples/007/units.en.html).
+
 ##### Padding
 
 Change the padding for the selected element. You can change the left, right, bottom, and top padding.
 
 Drag the slider to set the padding or specify the number of pixels for padding.
+
+Padding supports width scales from 0 onwards.
+
+Target also supports other size units, such as rem, pc, em, etc. For more information about these units, see [Web Style Sheets CSS Tips and Tricks](/https://www.w3.org/Style/Examples/007/units.en.html).
 
 ##### Border
 
@@ -111,6 +111,10 @@ You can edit the following styles for each border (top, right, bottom, and left)
 * Border style (none, hidden, dotted, dashed, solid, or double)
 * Border color (specify the color code or use the color picker)
 * Border width (drag the slider to select a border width or specify the width in pixels)
+
+Border supports width scales from 0 onwards.
+
+Target also supports other size units, such as rem, pc, em, etc. For more information about these units, see [Web Style Sheets CSS Tips and Tricks](/https://www.w3.org/Style/Examples/007/units.en.html).
 
 ##### Position
 
@@ -128,6 +132,10 @@ Click the drop-down icon for each position to choose from the following options:
 
 * Auto (Target optimally positions each element)
 * Value (drag the slider to position the element or specify the number of pixels you want to move the element)
+
+Position supports positive and negative values.
+
+Target also supports other size units, such as rem, pc, em, etc. For more information about these units, see [Web Style Sheets CSS Tips and Tricks](/https://www.w3.org/Style/Examples/007/units.en.html).
 
 ##### Size
 
@@ -151,6 +159,24 @@ Drag the slider for each filter option or specify the desired percentage:
 * Invert
 * Hue-rotate
 * Saturate
+
+##### CSS Editor
+
+The real-time CSS Editor lets you view changes and add styles if you are comfortable using Cascading Style Sheets (CSS) or if you receive code from your developer.
+
+The CSS Editor displays any changes that you make in the Styles panel. As shown in the illustration below, the font size, top border, and image size have been changed:
+
+![CSS editor with changes](/help/c-experiences/c-visual-experience-composer/assets/css-changes.png)
+
+Notice the blue dots next to the Typography, Border, and Size options in the preceding illustration. These dots indicate that you have made changes to these sections. If you open these section panels, blue dots display next to the specific options that you changed.
+
+You can type your own code if your desired style is not available in the Styles panel by default.
+
+Be aware that the CSS Editor shows details for the current session only. If you save your changes and then reopen the editor, your previous changes do not display, even if you select the same element again.
+
+>[!Important]
+>
+>You can apply a background image using the CSS Editor, but it might cause flicker. Test your changes before deployment.
 
 #### CSS Class
 
