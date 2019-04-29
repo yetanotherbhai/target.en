@@ -21,6 +21,7 @@ This page lists important changes made to the [!DNL Adobe Target] documentation.
 | --- | --- | --- |
 |April 30, 2019|[Visual Experience Composer Options](/help/c-experiences/c-visual-experience-composer/viztarget-options.md)|Added new section: "Styles."|
 ||[Click tracking](/help/c-activities/r-success-metrics/click-tracking.md)|Added information about the DOM path feature to the "Considerations" section.|
+||[Mobile App Visual Experience Composer](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md)|New overview topic and supporting topics:<ul><li>[Android - set up the mobile app](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-android.md)</li><li>[iOS - set up the mobile app](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-ios.md)</li><li>[Use Adobe Launch to set up the Mobile App VEC](/help/c-target-mobile-app/c-mobile-visual-experience-composer/use-adobe-launch-to-set-up-the-mobile-app-vec.md)</li><li>[Set up click tracking in the Mobile VEC](/help/c-target-mobile-app/c-mobile-visual-experience-composer/set-up-click-tracking-in-the-mobile-vec.md)</li></ul>|
 ||[Release Notes](/help/r-release-notes/release-notes.md): 19.4.2|This release includes enhancements and fixes. You can read about them and link to the documentation from the Release Notes. This release also includes many documentation updates throughout the help.|
 
 ## Adobe Target Standard/Premium 19.3.1 (March 29, 2019) {#section-19-3-1}
