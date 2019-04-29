@@ -168,11 +168,11 @@ The CSS Editor displays any changes that you make in the Styles panel. As shown 
 
 ![CSS editor with changes](/help/c-experiences/c-visual-experience-composer/assets/css-changes.png)
 
-Notice the blue dots next to the Typography, Border, and Size options in the preceding illustration. These dots indicate that you have made changes to these sections. If you open these section panels, blue dots display next to the specific options that you changed.
+Notice the blue dots next to the [!UICONTROL Typography], [!UICONTROL Border], and [!UICONTROL Size] options in the preceding illustration. These dots indicate that you have made changes to these sections. If you open these section panels, blue dots display next to the specific options that you changed.
 
-You can type your own code if your desired style is not available in the Styles panel by default.
+You can type your own code if your desired style is not available by default in the [!UICONTROL Styles].
 
-Be aware that the CSS Editor shows details for the current session only. If you save your changes and then reopen the editor, your previous changes do not display, even if you select the same element again.
+Be aware that the CSS Editor shows details for the current session only. If you save changes and then reopen the editor, details about your previous change do not display in the editor, even if you select the same element again.
 
 >[!Important]
 >
