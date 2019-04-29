@@ -90,7 +90,7 @@ Click the drop-down icon for each margin to choose from the following options:
 
 Margin supports positive and negative values.
 
-Target also supports other size units, such as rem, pc, em, etc. For more information about these units, see [Web Style Sheets CSS Tips and Tricks](/https://www.w3.org/Style/Examples/007/units.en.html).
+Target also supports other size units, such as rem, pc, em, etc. For more information about these units, see [Web Style Sheets CSS Tips and Tricks](https://www.w3.org/Style/Examples/007/units.en.html).
 
 ##### Padding
 
@@ -100,7 +100,7 @@ Drag the slider to set the padding or specify the number of pixels for padding.
 
 Padding supports width scales from 0 onwards.
 
-Target also supports other size units, such as rem, pc, em, etc. For more information about these units, see [Web Style Sheets CSS Tips and Tricks](/https://www.w3.org/Style/Examples/007/units.en.html).
+Target also supports [other size units](https://www.w3.org/Style/Examples/007/units.en.html), such as rem, pc, em, etc.
 
 ##### Border
 
@@ -114,7 +114,7 @@ You can edit the following styles for each border (top, right, bottom, and left)
 
 Border supports width scales from 0 onwards.
 
-Target also supports other size units, such as rem, pc, em, etc. For more information about these units, see [Web Style Sheets CSS Tips and Tricks](/https://www.w3.org/Style/Examples/007/units.en.html).
+Target also supports [other size units](https://www.w3.org/Style/Examples/007/units.en.html), such as rem, pc, em, etc.
 
 ##### Position
 
@@ -135,7 +135,7 @@ Click the drop-down icon for each position to choose from the following options:
 
 Position supports positive and negative values.
 
-Target also supports other size units, such as rem, pc, em, etc. For more information about these units, see [Web Style Sheets CSS Tips and Tricks](/https://www.w3.org/Style/Examples/007/units.en.html).
+Target also supports [other size units](https://www.w3.org/Style/Examples/007/units.en.html), such as rem, pc, em, etc.
 
 ##### Size
 
