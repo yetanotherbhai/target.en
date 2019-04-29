@@ -253,7 +253,11 @@ Consider the following when using or configuring properties and permissions in T
 
 Unfortunately, you cannot move activities from one workspace to another. However, you can copy an activity to any workspace knowing that reporting data will not carry over. For more information, see "Copying/Editing an Activity When Using Workspaces" in [Copying/Editing an Activity When Using Workspaces](../../../c-activities/edit-activity.md#section_45A92E1DD3934523B07E71EF90C4F8B6).
 
-Activities created before the migration continue to run the same way in the Default Workspace unless they are edited and assigned properties. Activities under a specific workspace will honor properties assigned to that workspace and, therefore, behavior might not remain same as before the migration. 
+Activities created before the migration continue to run the same way in the Default Workspace unless they are edited and assigned properties. Activities under a specific workspace will honor properties assigned to that workspace and, therefore, behavior might not remain same as before the migration.
+
+**Why do I get an error message indicating that no property is associated with this activity, even though there is a property assigned?**
+
+If you implemented [!DNL Target] with [!DNL Adobe Launch] and get an error message indicating that there is no property associated with the activity, pass the `at_property` parameter with the `targetPageParams` function.
 
 ## Training video: Enterprise Permissions Training Video {#section_2FA080303A064242B63FF16CFA6DB31D}
 
