@@ -70,120 +70,120 @@ Note that blue dots on the main panel and next to each option on the various sec
 >
 >Quick actions for layout changes, background color, resizing, and move are also available as separate actions in the VEC menu. These options can be leveraged as separate actions or you can use the Styles menu, as explained here.
 
-**Typography**
+* **Typography**
 
-Change the typography of an element. Typography edits are quick and easy. 
+  Change the typography of an element. Typography edits are quick and easy. 
 
-Although the rich text editor (Edit Text/HTML) is available for fine tuning, quick actions to make changes to the entire element is available via this option. If you want to apply typography changes to only a part of the text (not to the full text), use the [rich text editor](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md). 
+  Although the rich text editor (Edit Text/HTML) is available for fine tuning, quick actions to make changes to the entire element is available via this option. If you want to apply typography changes to only a part of the text (not to the full text), use the [rich text editor](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md). 
 
-You can edit the following typography styles:
+  You can edit the following typography styles:
 
-* Font size
-* Font weight
-* Font style
-* Color (specify the color code or use the color picker)
-* Word spacing
-* Line height
-* Text alignment
+  * Font size
+  * Font weight
+  * Font style
+  * Color (specify the color code or use the color picker)
+  * Word spacing
+  * Line height
+  * Text alignment
 
-**Margin**
+* **Margin**
 
-Change the margin for the selected element. You can change the left, right, bottom, and top margins.
+  Change the margin for the selected element. You can change the left, right, bottom, and top margins.
 
-Click the drop-down icon for each margin to choose from the following options:
+  Click the drop-down icon for each margin to choose from the following options:
 
-* Auto (Target optimally sets the margin)
-* Value (drag the slider to set the margin or specify the number of pixels for each margin)
+  * Auto (Target optimally sets the margin)
+  * Value (drag the slider to set the margin or specify the number of pixels for each margin)
 
-Margin supports positive and negative values.
+  Margin supports positive and negative values.
 
-Target also supports other size units, such as rem, pc, em, etc. For more information about these units, see [Web Style Sheets CSS Tips and Tricks](https://www.w3.org/Style/Examples/007/units.en.html).
+  Target also supports other size units, such as rem, pc, em, etc. For more information about these units, see [Web Style Sheets CSS Tips and Tricks](https://www.w3.org/Style/Examples/007/units.en.html).
 
-**Padding**
+* **Padding**
 
-Change the padding for the selected element. You can change the left, right, bottom, and top padding.
+  Change the padding for the selected element. You can change the left, right, bottom, and top padding.
 
-Drag the slider to set the padding or specify the number of pixels for padding.
+  Drag the slider to set the padding or specify the number of pixels for padding.
 
-Padding supports width scales from 0 onwards.
+  Padding supports width scales from 0 onwards.
 
-Target also supports [other size units](https://www.w3.org/Style/Examples/007/units.en.html), such as rem, pc, em, etc.
+  Target also supports [other size units](https://www.w3.org/Style/Examples/007/units.en.html), such as rem, pc, em, etc.
 
-**Border**
+* **Border**
 
-Click the border icons at the top of the panel to change the selected element's border.
+  Click the border icons at the top of the panel to change the selected element's border.
 
-You can edit the following styles for each border (top, right, bottom, and left):
+  You can edit the following styles for each border (top, right, bottom, and left):
 
-* Border style (none, hidden, dotted, dashed, solid, or double)
-* Border color (specify the color code or use the color picker)
-* Border width (drag the slider to select a border width or specify the width in pixels)
+  * Border style (none, hidden, dotted, dashed, solid, or double)
+  * Border color (specify the color code or use the color picker)
+  * Border width (drag the slider to select a border width or specify the width in pixels)
 
-Border supports width scales from 0 onwards.
+  Border supports width scales from 0 onwards.
 
-Target also supports [other size units](https://www.w3.org/Style/Examples/007/units.en.html), such as rem, pc, em, etc.
+  Target also supports [other size units](https://www.w3.org/Style/Examples/007/units.en.html), such as rem, pc, em, etc.
 
-**Position**
+* **Position**
 
-Move the selected element from its current position. You can change the element's top, bottom, left, right, and [Z-index](https://www.w3schools.com/cssref/pr_pos_z-index.asp) position.
+  Move the selected element from its current position. You can change the element's top, bottom, left, right, and [Z-index](https://www.w3schools.com/cssref/pr_pos_z-index.asp) position.
 
-Click the [!UICONTROL Static] drop-down list to choose from the following position options:
+  Click the [!UICONTROL Static] drop-down list to choose from the following position options:
 
-* Static
-* Relative
-* Absolute
-* Sticky
-* Fixed
+  * Static
+  * Relative
+  * Absolute
+  * Sticky
+  * Fixed
 
-Click the drop-down icon for each position to choose from the following options:
+  Click the drop-down icon for each position to choose from the following options:
 
-* Auto (Target optimally positions each element)
-* Value (drag the slider to position the element or specify the number of pixels you want to move the element)
+  * Auto (Target optimally positions each element)
+  * Value (drag the slider to position the element or specify the number of pixels you want to move the element)
 
-Position supports positive and negative values.
+  Position supports positive and negative values.
 
-Target also supports [other size units](https://www.w3.org/Style/Examples/007/units.en.html), such as rem, pc, em, etc.
+  Target also supports [other size units](https://www.w3.org/Style/Examples/007/units.en.html), such as rem, pc, em, etc.
 
-**Size**
+* **Size**
 
-Change the selected element's width and height.
+  Change the selected element's width and height.
 
-Click the drop-down icon next to [!UICONTROL Width] and [!UICONTROL Height] to choose from the following options:
+  Click the drop-down icon next to [!UICONTROL Width] and [!UICONTROL Height] to choose from the following options:
 
-* Auto (Target optimally sizes each element)
-* Value (drag the slider to size the element or specify the number of pixels for each dimension)
+  * Auto (Target optimally sizes each element)
+  * Value (drag the slider to size the element or specify the number of pixels for each dimension)
 
-**Filter**
+* **Filter**
 
-Drag the slider for each filter option or specify the desired percentage:
+  Drag the slider for each filter option or specify the desired percentage:
 
-* Sepia
-* Contrast
-* Brightness
-* GrayScale
-* Blur
-* Opacity
-* Invert
-* Hue-rotate
-* Saturate
+  * Sepia
+  * Contrast
+  * Brightness
+  * GrayScale
+  * Blur
+  * Opacity
+  * Invert
+  * Hue-rotate
+  * Saturate
 
-##### CSS Editor
+* **CSS Editor**
 
-The real-time CSS Editor lets you view changes and add styles if you are comfortable using Cascading Style Sheets (CSS) or if you receive code from your developer.
+  The real-time CSS Editor lets you view changes and add styles if you are comfortable using Cascading Style Sheets (CSS) or if you receive code from your developer.
 
-The CSS Editor displays any changes that you make in the Styles panel. As shown in the illustration below, the font size, top border, and image size have been changed:
+  The CSS Editor displays any changes that you make in the Styles panel. As shown in the illustration below, the font size, top border, and image size have been changed:
 
-![CSS editor with changes](/help/c-experiences/c-visual-experience-composer/assets/css-changes.png)
+  ![CSS editor with changes](/help/c-experiences/c-visual-experience-composer/assets/css-changes.png)
 
-Notice the blue dots next to the [!UICONTROL Typography], [!UICONTROL Border], and [!UICONTROL Size] options in the preceding illustration. These dots indicate that you have made changes to these sections. If you open these section panels, blue dots display next to the specific options that you changed.
+  Notice the blue dots next to the [!UICONTROL Typography], [!UICONTROL Border], and [!UICONTROL Size] options in the preceding illustration. These dots indicate that you have made changes to these sections. If you open these section panels, blue dots display next to the specific options that you changed.
 
-You can type your own code if your desired style is not available by default in the [!UICONTROL Styles].
+  You can type your own code if your desired style is not available by default in the [!UICONTROL Styles].
 
-Be aware that the CSS Editor shows details for the current session only. If you save changes and then reopen the editor, details about your previous change do not display in the editor, even if you select the same element again.
+  Be aware that the CSS Editor shows details for the current session only. If you save changes and then reopen the editor, details about your previous change do not display in the editor, even if you select the same element again.
 
->[!Important]
->
->You can apply a background image using the CSS Editor, but it might cause flicker. Test your changes before deployment.
+  >[!Important]
+  >
+  >You can apply a background image using the CSS Editor, but it might cause flicker. Test your changes before deployment.
 
 #### CSS Class
 
