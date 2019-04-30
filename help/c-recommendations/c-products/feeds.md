@@ -262,17 +262,18 @@ The following are possible statuses for a feed:
 
 | Status | Description |
 |--- |--- |
-|Syncing|Feed setup details are being saved to  Target .|
+|Syncing|Feed setup details are being saved to  Target.|
+|Sync Failed|Feed setup details could not be saved to Target. Please try again.|
 |No Feed Run|You have created a feed but it has not been scheduled (frequency is set to Never).|
 |Scheduled at *date and time*|The feed has not been run, but is scheduled to run at the specified date and time.|
+|Waiting for Download|Target is preparing to download the Feed file.|
+|Downloading Feed File|Target is downloading the Feed file.|
+|Importing Items|Target is importing items from the feed file. Note: Once this step is complete and "Preparing search index updates" is displayed, changes to item attributes have been imported into our central system, and will be reflected in delivered recommendations content returned by our geographic edge nodes within 60 minutes.|
+|Preparing Search Index Updates|Target is preparing to update the Catalog Search index. Note: If this status is listed, changes to item attributes have already been made and will shortly be reflected in delivered recommendations, although they are not yet reflected in Catalog Search.|
+|Updating Search Index|Target is updating the Catalog Search index. Note: If this status is listed, changes to item attributes have already been made and will shortly be reflected in delivered recommendations, although they may not yet be reflected in Catalog Search.|
+|Updates Completed|Target has completed all updates associated with the feed file.|
+|Failed to Index|The index operation failed. Please try again.|
 |Server Not Found|FTP or URL locations are invalid or otherwise unreachable.|
-|Waiting to Download|The feed is waiting to downloaded to  Target .|
-|Preparing to Import|The feed is being prepared to import to  Target .|
-|Flushing Results|The results are being flushed.|
-|Waiting for Index Queue|The feed is in the index queue.   Note:  Once the feed status is "Waiting for Index Queue," the newly updated values are available in delivery and criteria processing.|
-|Indexing since date and time|The feed is being indexed since the date and time indicated.|
-|Indexed at date and time|The feed was successfully indexed at the date and time indicated.|
-|Success|The feed was successfully saved to  Target  at the date and time indicated.|
 
 To update a feed (for example, to make changes to your feed configuration or feed file), open the feed, make any desired changes, and click **[!UICONTROL Save]**. 
 

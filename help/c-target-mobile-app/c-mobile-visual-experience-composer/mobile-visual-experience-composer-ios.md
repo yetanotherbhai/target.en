@@ -19,7 +19,7 @@ Target's new SDK Library allows developers to do a one-time setup on their iOS m
 
 The Mobile VEC can now be used along with the recently released Adobe Experience Cloud SDK. To do this, customers must use the Adobe Launch integration, the recommended method for using SDKs. For more information, see [Adobe Experience Platform SDKs](https://aep-sdks.gitbook.io/docs).
 
-To set up the Target VEC extension from Launch, see [Use Adobe Launch to set up the Mobile App VEC...](../../c-target-mobile-app/c-mobile-visual-experience-composer/use-adobe-launch-to-set-up-the-mobile-app-vec.md#concept_630A05151EF1487193BAE670B59F8CAC).
+To set up the Target VEC extension from Launch, see [Use Adobe Launch to set up the Mobile App VEC](../../c-target-mobile-app/c-mobile-visual-experience-composer/use-adobe-launch-to-set-up-the-mobile-app-vec.md#concept_630A05151EF1487193BAE670B59F8CAC).
 
 ## Include the Mobile SDK & the Target Library {#section_FD969A63C4F74603B2F31B82881422A4}
 
@@ -172,7 +172,7 @@ The Adobe Mobile VEC Extension auto-generates names for your `UIViewControllers`
 ACPTargetVEC.setTargetView("exampleViewController")
 ```
 
-The Adobe Mobile SDK also exposes an alternate method for developers to target custom views during runtime. As a developer, you must ensure that the views are named uniquely. Call following method before adding view to the `superview`:
+The Adobe Mobile SDK also exposes an alternate method for developers to target custom views during runtime. As a developer, you must ensure that the views are named uniquely. Call the following method before adding view to the `superview`:
 
 ```
 // EXAMPLE TARGET VIEW FOR A CUSTOM VIEW IN OBJECTIVE C 
@@ -247,7 +247,7 @@ ACPTargetVEC.setRequest(targetParams)
 
 **Passing parameters to specific view:**
 
-We have seen the API to trigger Views via `TargetVEC.targetView("view_name")`.You can also pass parameters that are specific to the particular view, as shown below:
+We have seen the API to trigger Views via `TargetVEC.targetView("view_name")`. You can also pass parameters that are specific to the particular view, as shown below:
 
 ```
 //For Objective-c 

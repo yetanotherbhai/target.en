@@ -13,7 +13,7 @@ uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 
 These release notes provide information about features, enhancements, and fixes for the latest or upcoming [!DNL Adobe Target] releases.
 
-**Last Updated: April 5, 2019**
+**Last Updated: April 30, 2019**
 
 >[!NOTE]
 >
@@ -40,14 +40,23 @@ This release includes the following features, changes and enhancements:
 
 (The issue numbers in parentheses are for internal [!DNL Adobe] use.)
 
- Feature / Enhancement | Description |
+|Feature / Enhancement | Description |
 | --- | --- |
-|[!UICONTROL Mobile Visual Experience Composer]|The [!UICONTROL Visual Experience Composer] (VEC) for Native Mobile Apps lets you create activities and personalize content on native mobile apps in a do-it-yourself fashion without continuous development dependencies and app-release cycles.|
-|[!UICONTROL Visual Experience Composer]|The [!UICONTROL Visual Experience Composer] (VEC) includes the following enhancements to make your work quicker and more efficient:<ul><li>The [DOM path feature](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path) is now available when setting up [click tracking](/help/c-activities/r-success-metrics/click-tracking.md).</li><li>You can edit the style of an element, including the background image, in the VEC. (TGT-15001)</li><li>[!DNL Target] supports HTML5 using configurations on v4.5.1 or higher. (TGT-33618)</li>|
+|[!UICONTROL Visual Experience Composer]|The [!UICONTROL Visual Experience Composer] (VEC) includes the following enhancements to make your work quicker and more efficient:<ul><li>The DOM path feature is now available when setting up click tracking.<br>For more information, see [click tracking](/help/c-activities/r-success-metrics/click-tracking.md#section_DD49EBA86CC5475E96BA87D2468FDB36).</li><li>You can edit the style of an element, including the background image, in the VEC.<br>For more information, see [Styles](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#styles) in *Visual Experience Composer Options*. (TGT-15001)</li><li>The Rich Text Editor now supports nested HTML5 elements.<br>HTML5 specifications allow new combinations of tags for nesting. The previous version of the rich text editor did not support new nesting of tags as allowed by the HTML5 specification. As a result, any nested elements selected in the VEC were not handled properly, which led to unwanted HTML changes. (TGT-33618)<br>For more information, see [Edit Text/HTML](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#edit-text-html) in *Visual Experience Composer options*.</li>|
 
 **Enhancement, fixes, and changes**
 
 * We improved the workflow when you delete assets using the VEC. Deleted assets are now removed from the [!UICONTROL Offers library] and from [!DNL Scene7] (if applicable). Deleted assets no longer display in search results. (TGT-31981)
+* You can now delete asset folders even if they contain images (non-empty folders). (TGT-33265)
+
+  Previously, you could not delete a non-empty folder from the Target image offers library. You would get a “Folder is not empty!" notification when trying to delete the folder from the UI.  With this feature, we are adding the capability to let you perform the folder deletion to remove an entire folder containing any number of assets and sub-folders inside. This feature is available in the Target UI as well in the Adobe Experience Cloud Assets UI.
+
+  Consider the following:
+
+  * When deleting a folder, some stale references can take time to delete from the database. You might see some folders displayed in the UI that take several minutes to delete (approximately 10 minutes for 2,000 assets). The deletion process is being performed behind the scenes. Check back later to verify the deletion.
+  * If the request takes too long, it might get timed out in the browser. This can lead to showing an error notification in the UI. For now, ignore the error message and visit the asset folder after a while (same as above).
+  * If there are blank folders remaining that contain assets, try deleting the folder again after a while (same as above).
+
 * We improved the rendering of image offers in the Assets picker. Displaying and selecting image offers is now quicker and more efficient. (TGT-32897)
 * We improved the handling of redirects to URLs when you cancel loading of a page within the VEC. (TGT-33815)
 * After you select a [!UICONTROL Recommendations] collection from the Collections picker, you must now click the [!UICONTROL Save] button. This workflow is consistent with other workflows within [!DNL Target]. (TGT-33205)

@@ -13,6 +13,17 @@ uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 
 This page lists important changes made to the [!DNL Adobe Target] documentation.
 
+## Adobe Target Standard/Premium 19.4.2 (April 30, 2019) {19-4-2}
+
+**Note**: The Target Standard/Premium 19.4.1 release was a maintanence release to update the Adobe Experience Cloud UI to reflect branding and product changes.
+
+|Date|Topic|Changes|
+| --- | --- | --- |
+|April 30, 2019|[Visual Experience Composer Options](/help/c-experiences/c-visual-experience-composer/viztarget-options.md)|<ul><li>Added new section: "Styles."</li><li>Added table listing HTML5 tags that can be nested.</li></ul>|
+||[Click tracking](/help/c-activities/r-success-metrics/click-tracking.md)|Added information about the DOM path feature to the "Considerations" section.|
+||[Feed Status and Indicators](/help/c-recommendations/c-products/feeds.md#section_5DDC2DECF70A42FDAFF2235E91371537)|Updated the "Feed Statuses" table.|
+||[Release Notes](/help/r-release-notes/release-notes.md): 19.4.2|This release includes enhancements and fixes. You can read about them and link to the documentation from the Release Notes. This release also includes many documentation updates throughout the help.|
+
 ## Adobe Target Standard/Premium 19.3.1 (March 29, 2019) {#section-19-3-1}
 
 |Date|Topic|Changes|
