@@ -35,9 +35,7 @@ In addition to HTML code, you can edit and inject custom JavaScript.
 
 Several rich text formatting options are available when editing text and HTML for [!UICONTROL A/B] and [!UICONTROL Experience Targeting] activities. You can choose a font, select a font style, change text alignment, and other standard text formatting options. When modifying HTML, you can toggle between the code view and rich-editing view of the HTML.
 
-HTML5 specifications allow new combinations of tags for nesting. The previous version of the editor (based on CKEditor v4.5.1) did not support new nesting of tags as allowed by the HTML5 specification. As a result, any nested elements selected in the VEC were not handled properly, which led to unwanted HTML changes.
-
-Target handles the following nested tags properly:
+The following HTML5 tags can be nested:
 
 |Tag|Allowed Nested Tags|
 | --- | --- |
@@ -58,11 +56,9 @@ Use the [!UICONTROL Styles] panel to view or edit the value of existing styles f
 
 To access the [!UICONTROL Styles] panel, click a page element from within the VEC, then click **[!UICONTROL Edit]** > **[!UICONTROL Styles]**.
 
-![Styles menu](/help/c-experiences/c-visual-experience-composer/assets/styles-menu.png)
-
 The [!UICONTROL Styles] panel displays on the right side of the VEC. The panel contains a list of styles that lets you edit or add to the selected element. A real-time CSS Editor lets you view changes and add styles if you are comfortable using Cascading Style Sheets (CSS) or if you receive code from your developer.
 
-![Styles panel](/help/c-experiences/c-visual-experience-composer/assets/styles-panel.png)
+![Styles panel](/help/c-experiences/c-visual-experience-composer/assets/styles-panel-new.png)
 
 As you apply different styles, you can always revert your changes by clicking the [!UICONTROL Revert] icon that displays at the top right corner of the [!UICONTROL Styles] panel after you make a change to any section. Note that clicking the [!UICONTROL Revert] icon reverts all changes on the current section's panel.
 

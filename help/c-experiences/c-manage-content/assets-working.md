@@ -17,7 +17,7 @@ Information about the tasks you can perform on an asset in the library.
 
    For more information about searching the Offer library and creating Smart Collections, see [Filter and Search Content](../../c-experiences/c-manage-content/filter-and-search-content.md#concept_3B59B8F025BF4CEA82ECC5199D365276). 
 
-1. Hover over the item you want to work with, then select an action.
+1. Hover over the item you want to work with, then select an action. To access and perform some of the actions below, you must first click the Select icon (the checkmark), then choose the desired action (for example, Delete).
 
    A menu of actions appears below the item. The available actions include:
 
