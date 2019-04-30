@@ -28,6 +28,7 @@ This page lists important changes made to the [!DNL Adobe Target] documentation.
 
 |Date|Topic|Changes|
 | --- | --- | --- |
+|April 29, 2019|[Enterprise user permissions](/help/administrating-target/c-user-management/property-channel/property-channel.md#section_31D3450ADEAE4A29963A34F8E8C19FE0)|Added following FAQ: "Why do I get an error message indicating that no property is associated with this activity, even though there is a property assigned?"|
 |April 24, 2019|[Upgrading from at.js 1.x to at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#types)|Added note to "Activity types" section.|
 ||[Test an email image Adbox](/help/c-implementing-target/c-non-javascript-based-implementation/testing-email-image-adbox.md)|Reformatted code sample. |
 ||[Activity QA](/help/c-activities/c-activity-qa/activity-qa.md)|Fixed minor typos.|
