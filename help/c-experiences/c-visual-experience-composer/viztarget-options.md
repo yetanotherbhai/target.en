@@ -27,13 +27,24 @@ The various Visual Experience Composer (VEC) actions are grouped appropriate men
 
 The following options are available:
 
-#### Text/HTML
+#### Text/HTML {#edit-text-html}
 
 Change the HTML code for the element, such as the text for a text area, button, or link.
 
 In addition to HTML code, you can edit and inject custom JavaScript.
 
 Several rich text formatting options are available when editing text and HTML for [!UICONTROL A/B] and [!UICONTROL Experience Targeting] activities. You can choose a font, select a font style, change text alignment, and other standard text formatting options. When modifying HTML, you can toggle between the code view and rich-editing view of the HTML.
+
+HTML5 specifications allow new combinations of tags for nesting. The previous version of the editor (based on CKEditor v4.5.1) did not support new nesting of tags as allowed by the HTML5 specification. As a result, any nested elements selected in the VEC were not handled properly, which led to unwanted HTML changes.
+
+Target handles the following nested tags properly:
+
+|Tag|Allowed Nested Tags|
+| --- | --- |
+|`<a>`|`<h1-h6>`, `<p>`, `<ul>`, `<ol>`, `<menu>`, `<div>`, `<figure>`, `<figcaption>`|
+|`<ins>`|`<h1-h6>`, `<p>`, `<ul>`, `<ol>`, `<menu>`|
+|`<del>`|`<ul>`, `<ol>`, `<menu>`, `<h1-h6>`, `<p>`|
+|`<label>`|`<p>`|
 
 #### Background Color
 

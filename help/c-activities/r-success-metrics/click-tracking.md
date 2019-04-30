@@ -37,7 +37,14 @@ When an activity entrant clicks a selected element, that click is counted as a c
 
 There are several things to consider when selecting elements:
 
-* The DOM path feature is available when setting up click tracking. When you click an element on the page, the VEC options menu displays. In addition, the corresponding DOM path displays at the bottom of the page. You can use the DOM path to quickly see information about the selected element (type, ID, and class) and move up or down the DOM path to select the desired element. For more information, see [Navigate elements using the DOM path](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path) in *Visual Experience Composer Options*.
+* The DOM path feature is available when setting up click tracking. When you click an element on the page, the VEC options menu displays. In addition, the corresponding DOM path displays at the bottom of the page. You can use the DOM path to quickly see information about the selected element (type, ID, and class) and move up or down the DOM path to select the desired element. 
+
+  ![DOM path illustration](/help/c-activities/r-success-metrics/assets/click-tracking-dom.png)
+
+  Just like when creating experiences in Step 1 in the activity-creation workflow, the DOM path selector at the bottom of the page lets you choose an element. On selecting an element from the DOM path, the corresponding element in the VEC displays as "Selected." To unselect a selected element, you can again click the element in the DOM path selector or click the "Selected" box within the VEC.
+
+  For more information, see [Navigate elements using the DOM path](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path) in *Visual Experience Composer Options*.
+
 * You can browse to a different page to track clicks on a page where you might not be changing content. This different page must be included in the activity using the [multipage feature](../../c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48) and [!DNL at.js] or [!DNL mbox.js] must be implemented on it. 
 * If you select more than one element, if an entrant clicks on any one of the chosen elements, the click is counted. To count each item separately, set up individual success metrics for each element. 
 * Make sure you select the level of element you want to track. For example, when specifying a button, make sure you select the link and not the button text. 
