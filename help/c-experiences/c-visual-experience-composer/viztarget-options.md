@@ -70,7 +70,7 @@ Note that blue dots on the main panel and next to each option on the various sec
 >
 >Quick actions for layout changes, background color, resizing, and move are also available as separate actions in the VEC menu. These options can be leveraged as separate actions or you can use the Styles menu, as explained here.
 
-##### Typography
+**Typography**
 
 Change the typography of an element. Typography edits are quick and easy. 
 
@@ -86,7 +86,7 @@ You can edit the following typography styles:
 * Line height
 * Text alignment
 
-##### Margin
+**Margin**
 
 Change the margin for the selected element. You can change the left, right, bottom, and top margins.
 
@@ -99,7 +99,7 @@ Margin supports positive and negative values.
 
 Target also supports other size units, such as rem, pc, em, etc. For more information about these units, see [Web Style Sheets CSS Tips and Tricks](https://www.w3.org/Style/Examples/007/units.en.html).
 
-##### Padding
+**Padding**
 
 Change the padding for the selected element. You can change the left, right, bottom, and top padding.
 
@@ -109,7 +109,7 @@ Padding supports width scales from 0 onwards.
 
 Target also supports [other size units](https://www.w3.org/Style/Examples/007/units.en.html), such as rem, pc, em, etc.
 
-##### Border
+**Border**
 
 Click the border icons at the top of the panel to change the selected element's border.
 
@@ -123,7 +123,7 @@ Border supports width scales from 0 onwards.
 
 Target also supports [other size units](https://www.w3.org/Style/Examples/007/units.en.html), such as rem, pc, em, etc.
 
-##### Position
+**Position**
 
 Move the selected element from its current position. You can change the element's top, bottom, left, right, and [Z-index](https://www.w3schools.com/cssref/pr_pos_z-index.asp) position.
 
@@ -144,7 +144,7 @@ Position supports positive and negative values.
 
 Target also supports [other size units](https://www.w3.org/Style/Examples/007/units.en.html), such as rem, pc, em, etc.
 
-##### Size
+**Size**
 
 Change the selected element's width and height.
 
@@ -153,7 +153,7 @@ Click the drop-down icon next to [!UICONTROL Width] and [!UICONTROL Height] to c
 * Auto (Target optimally sizes each element)
 * Value (drag the slider to size the element or specify the number of pixels for each dimension)
 
-##### Filter
+**Filter**
 
 Drag the slider for each filter option or specify the desired percentage:
 

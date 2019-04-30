@@ -19,7 +19,7 @@ Release notes for previous Target releases, including release notes for Target S
 
 ## Release notes - 2019 {#releases-2019}
 
-## [!DNL Target] Standard/Premium 19.3.1 (March 29, 2019) {#release-19-3-1}
+### [!DNL Target] Standard/Premium 19.3.1 (March 29, 2019) {#release-19-3-1}
 
 This release includes the following features, changes and enhancements:
 
@@ -29,7 +29,7 @@ This release includes the following features, changes and enhancements:
 | --- | --- |
 |Visual Experience Composer|The Visual Experience Composer (VEC) includes the following enhancements to make your work quicker and more efficient:<ul><li>You can now cancel the loading of a website in the VEC to unblock editing of an activity. This enhancement is useful, for example, if you want to make a small edit to the activity, review its settings, or add custom code and you don't want to wait for the site to load. (TGT-31288)<br>See [Cancel loading of a page within the VEC](/help/c-experiences/c-visual-experience-composer/visual-experience-composer.md#cancel-loading).</li><li>You can perform many actions before the page loads in the VEC, or even if the page fails to load altogether (for example, custom code is no longer operational). Actions that cannot be edited before the site loads are disabled in the Target UI. (TGT-31288, TGT-31611, and TGT-32602)<br>See [Edit a page while the page is loading or after the page fails to load](/help/c-experiences/c-visual-experience-composer/visual-experience-composer.md#loading).</li><li>The VEC displays the DOM path so you can easily select the proper element while creating or editing experiences. (TGT-13422)<br>See [Navigate elements using the DOM path](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path).</li></ul>|
 
-## at.js version 2.0.1 (March 19, 2019) {#atjs201}
+### at.js version 2.0.1 (March 19, 2019) {#atjs201}
 
 This is a maintenance release and includes the following enhancements and fixes:
 
@@ -45,7 +45,7 @@ This is a maintenance release and includes the following enhancements and fixes:
 >
 >If you require [!DNL Adobe] Opt-in support for the General Data Protection Regulation (GDPR), you should implement at.js 1.7.1. Opt-in support is not currently supported in at.js 2.*x*.
 
-## at.js version 1.7.1 (March 19, 2019) {#atjs171}
+### at.js version 1.7.1 (March 19, 2019) {#atjs171}
 
 This is a maintenance release and includes the following fix:
 
