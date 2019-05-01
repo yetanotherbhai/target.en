@@ -22,6 +22,7 @@ This page lists important changes made to the [!DNL Adobe Target] documentation.
 |April 30, 2019|[Visual Experience Composer Options](/help/c-experiences/c-visual-experience-composer/viztarget-options.md)|<ul><li>Added new section: "Styles."</li><li>Added table listing HTML5 tags that can be nested.</li></ul>|
 ||[Click tracking](/help/c-activities/r-success-metrics/click-tracking.md)|Added information about the DOM path feature to the "Considerations" section.|
 ||[Feed Status and Indicators](/help/c-recommendations/c-products/feeds.md#section_5DDC2DECF70A42FDAFF2235E91371537)|Updated the "Feed Statuses" table.|
+||Upload content|Added information about deleting folders and images.|
 ||[Release Notes](/help/r-release-notes/release-notes.md): 19.4.2|This release includes enhancements and fixes. You can read about them and link to the documentation from the Release Notes. This release also includes many documentation updates throughout the help.|
 
 ## Adobe Target Standard/Premium 19.3.1 (March 29, 2019) {#section-19-3-1}

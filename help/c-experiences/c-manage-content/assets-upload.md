@@ -20,6 +20,8 @@ You can add items to the Image Offers list.
 
    The item is added to the library. 
 
+While working in the Image Offers list, you can delete folders and images. If you delete a folder with a large number of images, the process running behind the scenes can take time (several minutes) before the UI refreshes to show the final state. You can proceed with other work and check the final state after a several minutes to verify the deletion.
+
 ## Training video: Managing content
 
 This video includes information about managing content. 
