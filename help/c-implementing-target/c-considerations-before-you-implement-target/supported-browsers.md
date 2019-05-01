@@ -12,7 +12,7 @@ uuid: 614088da-412c-45e3-9f2d-6985391973be
 
 # Supported browsers{#supported-browsers}
 
-The [!DANL Adobe Target] application and content delivery has been tested across a wide range of browsers and devices.
+The [!DNL Adobe Target] application and content delivery has been tested across a wide range of browsers and devices.
 
 For additional important information about TLS, see [TLS (Transport Layer Security) Encryption Changes](../../c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451).
 
@@ -22,7 +22,7 @@ The [!DNL [!DNL Target]] Standard/Premium] interface supports the following brow
 
 | Device Type | Browser Version |
 |--- |--- |
-|Windows|<ul><li>Microsoft Internet Explorer 11. **Note**: [!DNL Target] and the Adobe Marketing Cloud will drop support for Microsoft Internet Explorer 11 starting in March 2019. This change affects [!DNL Target] authoring only; this change does not affect experience delivery. Please switch to Microsoft Edge or another supported browser.</li><li>Microsoft Edge</li><li>Google Chrome (Latest, Latest minus 1)</li><li>Mozilla Firefox (Latest, Latest minus 1)</li></ul>|
+|Windows|<ul><li>Microsoft Internet Explorer 11.<br>**Note**: [!DNL Target] and the Adobe Marketing Cloud will drop support for Microsoft Internet Explorer 11 starting in March 2019. This change affects [!DNL Target] authoring only; this change does not affect experience delivery. Please switch to Microsoft Edge or another supported browser.</li><li>Microsoft Edge</li><li>Google Chrome (Latest, Latest minus 1)</li><li>Mozilla Firefox (Latest, Latest minus 1)</li></ul>|
 |Mac|<ul><li>Firefox (Latest, Latest minus 1)</li><li>Chrome (Latest, Latest minus 1)</li></ul>|
 
 ## Content Delivery {#section_1045A946056441268D40025529918D3D}
@@ -31,8 +31,8 @@ Content delivery has been tested across the following browsers and devices:
 
 | Device Type | Browser Version |
 |--- |--- |
-|Windows|<ul><li>Internet Explorer 9 and 10. Tested in emulation mode. **Note**: at.js 1.3.0 (and later) no longer supports content delivery on Microsoft Internet Explorer 9.</li><li>Internet Explorer 11</li><li>Microsoft Edge</li><li>Chrome (Latest, Latest minus 1)</li><li>Firefox (Latest, Latest minus 1)</li></ul>|
-|Mac|<ul><li>Apple Safari (Latest) **Note**: For more information about how Safari handles first- and third-party cookies, see [Target Cookie](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/cookie-behavior.md).</li><li>Firefox (Latest, Latest minus 1)</li><li>Chrome (Latest, Latest minus 1)</li></ul>|
+|Windows|<ul><li>Internet Explorer 9 and 10. Tested in emulation mode.<br>**Note**: at.js 1.3.0 (and later) no longer supports content delivery on Microsoft Internet Explorer 9.</li><li>Internet Explorer 11</li><li>Microsoft Edge</li><li>Chrome (Latest, Latest minus 1)</li><li>Firefox (Latest, Latest minus 1)</li></ul>|
+|Mac|<ul><li>Apple Safari (Latest)<br>**Note**: For more information about how Safari handles first- and third-party cookies, see [Target Cookie](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/cookie-behavior.md).</li><li>Firefox (Latest, Latest minus 1)</li><li>Chrome (Latest, Latest minus 1)</li></ul>|
 |Mobile/Tablet|<ul><li>Apple iOS (Latest)</li><li>Android devices and tablets (Android 4 and later)</li><li>Microsoft Surface (Windows 8.1)</li></ul>|
 
 For [!DNL at.js] implementations, [!DNL Target] displays default content in earlier versions of Internet Explorer and possibly in earlier versions of the above-listed browsers. For [!DNL mbox.js] implementations, [!DNL Target] tries to render content but might not be successful.
