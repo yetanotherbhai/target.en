@@ -13,7 +13,7 @@ uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 
 These release notes provide information about features, enhancements, and fixes for the latest or upcoming [!DNL Adobe Target] releases.
 
-**Last Updated: April 30, 2019**
+**Last Updated: May 1, 2019**
 
 >[!NOTE]
 >
@@ -26,23 +26,21 @@ Be aware of the following important announcements:
 * On February 20, 2019, the Adobe Target infrastructure was upgraded in the EMEA, Japan, and APAC regions to no longer collect data from end users with older devices or web browsers that do not support TLS 1.1 or later. This same upgrade is planned for the North America region for **April 1, 2019**. Migrating to TLS 1.2 provides improved security. It is important that you go through the specifics and plan out the changes with your IT team for a smooth transition. For more information, see [TLS (Transport Layer Security) encryption changes](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md).
 * [!DNL Target] and the [!DNL Adobe Marketing Cloud] will drop support for Microsoft Internet Explorer 11 starting in March 2019. This change affects [!DNL Target] authoring only; this change does not affect experience delivery. Please switch to Microsoft Edge or another browser. For more information, see [Supported browsers](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md).
 
-## [!DNL Target] Standard/Premium 19.4.1 (April 15, 2019) {#release-19-4-1-prerelease}
 
-This release is a maintenance release and includes the following change:
+## [!DNL Target] Standard/Premium 19.5.1 (May 21, 2019) {#release-19-5-1-prerelease}
 
-(The issue numbers in parentheses are for internal [!DNL Adobe] use.)
-
-* Updated the [!DNL Adobe Experience Cloud] UI to reflect branding and product changes. (TGT-33546, TGT-33272, and TGT-33331)
-
-## [!DNL Target] Standard/Premium 19.4.2 (April 30, 2019) {#release-19-4-2-prerelease}
-
-This release includes the following features, changes and enhancements:
+This release includes the following features, changes, and enhancements:
 
 (The issue numbers in parentheses are for internal [!DNL Adobe] use.)
 
 |Feature / Enhancement | Description |
 | --- | --- |
-|[!UICONTROL Visual Experience Composer]|The [!UICONTROL Visual Experience Composer] (VEC) includes the following enhancements to make your work quicker and more efficient:<ul><li>The DOM path feature is now available when setting up click tracking.<br>For more information, see [click tracking](/help/c-activities/r-success-metrics/click-tracking.md#section_DD49EBA86CC5475E96BA87D2468FDB36).</li><li>You can edit the style of an element, including the background image, in the VEC.<br>For more information, see [Styles](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#styles) in *Visual Experience Composer Options*. (TGT-15001)</li><li>The Rich Text Editor now supports nested HTML5 elements.<br>HTML5 specifications allow new combinations of tags for nesting. The previous version of the rich text editor did not support new nesting of tags as allowed by the HTML5 specification. As a result, any nested elements selected in the VEC were not handled properly, which led to unwanted HTML changes. (TGT-33618)<br>For more information, see [Edit Text/HTML](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#edit-text-html) in *Visual Experience Composer options*.</li>|
+|Visual Experience Composer (VEC)| |
+|Single Page App Visual Experience Composer (SPA VEC)||
+|Assets|You can now list and navigate more easily through offer folders in the Asset picker instead of navigating through a flat folder hierarchy. (TGT-33725)|
+|![Premium badge](/help/assets/premium.png)<br>Automated Personalization (AP) & Auto-Target activities|You can select an experience to be used as control while creating an AP or Auto-Target activity. This feauture lets you route the entire control traffic to a specific experience, based on the traffic allocation percentage configured in the activity. You can then evaluate the performance of the personalized servings against the control experience.(TGT-26572)|
+|![Premium badge](/help/assets/premium.png)<br>Recommendations|You can use the Recommend Previously Purchased Items toggle while creating Recently Viewed Items logic. (TGT-34030)|
+
 
 **Enhancement, fixes, and changes**
 
