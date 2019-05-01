@@ -35,30 +35,14 @@ This release includes the following features, changes, and enhancements:
 
 |Feature / Enhancement | Description |
 | --- | --- |
-|Visual Experience Composer (VEC)| |
-|Single Page App Visual Experience Composer (SPA VEC)||
-|Assets|You can now list and navigate more easily through offer folders in the Asset picker instead of navigating through a flat folder hierarchy. (TGT-33725)|
+|Single Page App Visual Experience Composer (SPA VEC)|The SPA VEC includes the following enhancements to make your work quicker and more efficient:<ul><li>You can now cancel the loading of a website in the VEC to unblock editing of an activity. This enhancement is useful, for example, if you want to make a small edit to the activity, review its settings, or add custom code and you don't want to wait for the site to load. (TGT-33872)</li><li>You can perform many actions before the page loads in the VEC, or even if the page fails to load altogether (for example, custom code is no longer operational). Actions that cannot be edited before the site loads are disabled in the Target UI. (TGT-33851 & TGT-34149)</li></ul>|
 |![Premium badge](/help/assets/premium.png)<br>Automated Personalization (AP) & Auto-Target activities|You can select an experience to be used as control while creating an AP or Auto-Target activity. This feauture lets you route the entire control traffic to a specific experience, based on the traffic allocation percentage configured in the activity. You can then evaluate the performance of the personalized servings against the control experience.(TGT-26572)|
 |![Premium badge](/help/assets/premium.png)<br>Recommendations|You can use the Recommend Previously Purchased Items toggle while creating Recently Viewed Items logic. (TGT-34030)|
 
-
 **Enhancement, fixes, and changes**
 
-* We improved the workflow when you delete assets using the VEC. Deleted assets are now removed from the [!UICONTROL Offers library] and from [!DNL Scene7] (if applicable). Deleted assets no longer display in search results. (TGT-31981)
-* You can now delete asset folders even if they contain images (non-empty folders). (TGT-33265)
-
-  Previously, you could not delete a non-empty folder from the Target image offers library ([!UICONTROL Offers] > [!UICONTROL Image Offers]). You would get a “Folder is not empty!" notification when trying to delete the folder from the UI.  With this feature, we are adding the capability to let you perform the folder deletion to remove an entire folder containing any number of assets and sub-folders inside. This feature is available in the Target UI as well in the Adobe Experience Cloud Assets UI.
-
-  Consider the following:
-
-  * When deleting a folder, some stale references can take time to delete from the database. You might see some folders displayed in the UI that take several minutes to delete (approximately 10 minutes for 2,000 assets). The deletion process is being performed behind the scenes. Check back later to verify the deletion.
-  * If the request takes too long, it might get timed out in the browser. This can lead to showing an error notification in the UI. For now, ignore the error message and visit the asset folder after a while (same as above).
-  * If there are blank folders remaining that contain assets, try deleting the folder again after a while (same as above).
-
-* We improved the rendering of image offers in the Assets picker. Displaying and selecting image offers is now quicker and more efficient. (TGT-32897)
-* We improved the handling of redirects to URLs when you cancel loading of a page within the VEC. (TGT-33815)
-* After you select a [!UICONTROL Recommendations] collection from the Collections picker, you must now click the [!UICONTROL Save] button. This workflow is consistent with other workflows within [!DNL Target]. (TGT-33205)
-* Fixed an issue that caused a small set of Insights reports to return 0% conversion rates instead of the actual conversion rates. (TNT-32125)
+* Toolbar icons display appropriately after you cancel loading of a page within the VEC. If specific actions cannot be performed until after the page is fully loaded, the associated toolbar icons are disabled. (TGT-33811)
+* You can now list and navigate more easily through offer folders in the Asset picker instead of navigating through a flat folder hierarchy. (TGT-33725)
 
 ## Product documentation for [!DNL Target] capabilities {#section_F03C61D438814538967B2BF901130BE4}
 
