@@ -37,11 +37,8 @@ This release includes the following features, changes and enhancements:
 
   Previously, you could not delete a non-empty folder from the Target image offers library ([!UICONTROL Offers] > [!UICONTROL Image Offers]). You would get a “Folder is not empty!" notification when trying to delete the folder from the UI.  With this feature, we are adding the capability to let you perform the folder deletion to remove an entire folder containing any number of assets and sub-folders inside. This feature is available in the Target UI as well in the Adobe Experience Cloud Assets UI.
 
-  Consider the following:
-
-  * When deleting a folder, some stale references can take time to delete from the database. You might see some folders displayed in the UI that take several minutes to delete (approximately 10 minutes for 2,000 assets). The deletion process is being performed behind the scenes. Check back later to verify the deletion.
-  * If the request takes too long, it might get timed out in the browser. This can lead to showing an error notification in the UI. For now, ignore the error message and visit the asset folder after a while (same as above).
-  * If there are blank folders remaining that contain assets, try deleting the folder again after a while (same as above).
+  * Non-empty folders in the Image Offer library can be deleted. If all images within the folder are not referenced in any activity, the entire folder and its contents are deleted. If some images within the folder are referenced in any activity, all unreferenced images are deleted, but referenced images and folders containing those images are retained.
+  * Rendering of image offers in the Image Asset picker is made faster and more efficient. (TGT-32897) 
 
 * We improved the rendering of image offers in the Assets picker. Displaying and selecting image offers is now quicker and more efficient. (TGT-32897)
 * We improved the handling of redirects to URLs when you cancel loading of a page within the VEC. (TGT-33815)
