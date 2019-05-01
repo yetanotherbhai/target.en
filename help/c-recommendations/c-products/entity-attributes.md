@@ -73,21 +73,21 @@ Displays an item's brand name.
 
 Example: `'entity.brand=brandxyz'`
 
-### `entity.pageURL`
+### `entity.pageUrl`
 
 Single-value only.
 
 Defines the relative URL of the page where the item can be purchased.
 
-Example: `'entity.pageURL=baseball/giants-tix/giantsvrockies5.12.2000-67833'`
+Example: `'entity.pageUrl=baseball/giants-tix/giantsvrockies5.12.2000-67833'`
 
-### `entity.thumbnailURL`
+### `entity.thumbnailUrl`
 
 Single-value only.
 
 Defines the relative URL to the thumbnail image that displays with the item.
 
-Example: `'entity.thumbnailURL=baseball/giants-tix/giants-136px.gif'`
+Example: `'entity.thumbnailUrl=baseball/giants-tix/giants-136px.gif'`
 
 ### `entity.message`
 
@@ -201,7 +201,7 @@ mboxCreate('productPage',
 'entity.categoryId= 
 <b>BASEBALL, GIANTS, SF BAY AREA</b>', 
  
-'entity.pageURL= 
+'entity.pageUrl= 
 <b>../baseball/giants-tix/giantsvrockies5.12.2000-67833</b>', 
  
 'entity.venue= 
@@ -210,7 +210,7 @@ mboxCreate('productPage',
 'entity.secondary= 
 <b>ROCKIES</b>', 
  
-'entity.thumbnailURL= 
+'entity.thumbnailUrl= 
 <b>../baseball/giants-tix/giants-136px.gif</b>', 
  
 'entity.message= 
@@ -229,7 +229,7 @@ mboxCreate('productPage',
 
 >[!NOTE]
 >
->Relative URLs are preferred for `pageURL` and `thumbnailURL` rather than absolute URLs because recommendations receive data being sent from all environments on your site. Using relative URLs avoids hardcoded links to a staging or development server.
+>Relative URLs are preferred for `pageUrl` and `thumbnailUrl` rather than absolute URLs because recommendations receive data being sent from all environments on your site. Using relative URLs avoids hardcoded links to a staging or development server.
 
 If the mbox is on a product page, you can include both the product ID and category ID. The selected algorithm determines which displays. The product ID is used for affinity algorithms and the category ID is used for category algorithms. 
 
