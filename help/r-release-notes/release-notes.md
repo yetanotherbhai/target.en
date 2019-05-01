@@ -26,11 +26,13 @@ This release includes the following features, changes and enhancements:
 
 (The issue numbers in parentheses are for internal [!DNL Adobe] use.)
 
+### Feature updates
+
 |Feature / Enhancement | Description |
 | --- | --- |
 |[!UICONTROL Visual Experience Composer]|The [!UICONTROL Visual Experience Composer] (VEC) includes the following enhancements to make your work quicker and more efficient:<ul><li>The DOM path feature is now available when setting up click tracking.<br>For more information, see [click tracking](/help/c-activities/r-success-metrics/click-tracking.md#considerations).</li><li>You can edit the style of an element, including the background image, in the VEC.<br>For more information, see [Styles](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#styles) in *Visual Experience Composer Options*. (TGT-15001)</li><li>The Rich Text Editor now supports nested HTML5 elements.<br>HTML5 specifications allow new combinations of tags for nesting. The previous version of the rich text editor did not support new nesting of tags as allowed by the HTML5 specification. As a result, any nested elements selected in the VEC were not handled properly, which led to unwanted HTML changes. (TGT-33618)<br>For more information, see [Edit Text/HTML](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#edit-text-html) in *Visual Experience Composer options*.</li>|
 
-**Enhancement, fixes, and changes**
+### Enhancement, fixes, and changes
 
 * We improved the workflow when you delete assets using the VEC. Deleted assets are now removed from the [!UICONTROL Offers library] and from [!DNL Scene7] (if applicable). Deleted assets no longer display in search results. (TGT-31981)
 * You can now delete asset folders even if they contain images (non-empty folders). (TGT-33265)
@@ -53,45 +55,21 @@ This release is a maintenance release and includes the following change:
 
 * Updated the [!DNL Adobe Experience Cloud] UI to reflect branding and product changes. (TGT-33546, TGT-33272, and TGT-33331)
 
-## Release Notes for Other Adobe Target Capabilities {#section_9EB425262A1947D18953F98CF3D4EE71}
-
-Use the following links to view release notes for Target capabilities other than Target Standard and Target Premium:
-
-* [Recommendations Classic release notes](../assets/adobe-recommendations-classic.pdf) 
-* [Search&Promote release notes](https://marketing.adobe.com/resources/help/en_US/snp/c_searchpromote_release_notes.html)
-
 ## Documentation Changes, Past Release Notes, and Experience Cloud Release Notes {#section_1BC5F5208DA548E9B4344A0836E4B943}
 
 In addition to the notes for each release, the following resources provide additional information:
 
-### Documentation changes
-
-For more information, see [Documentation Changes](../r-release-notes/doc-change.md#reference_366123CF00994BACBBF9BBDF2C4D840C)
-
-View detailed information about updates to this guide that might not be included in these release notes.
-
-### Release notes for previous releases
-
-For more information, see [Release notes for previous releases](../r-release-notes/release-notes-for-previous-releases.md)
-
-View information about new features and enhancements in previous releases of Target Standard and Target Premium.
-
-### Adobe Experience Cloud release notes
-
-For more information, see [Experience Cloud Release Notes](https://marketing.adobe.com/resources/help/en_US/whatsnew/)
-
-View the latest release notes for the Adobe Experience Cloud solutions.
+|Resource|Details|
+|--- |--- |
+|Documentation changes|View detailed information about updates to this guide that might not be included in these release notes.<br>For more information, see [Documentation Changes](../r-release-notes/doc-change.md#reference_366123CF00994BACBBF9BBDF2C4D840C).|
+|Release notes for previous releases|View information about new features and enhancements in previous releases of Target Standard and Target Premium.<br>For more information, see [Release notes for previous releases](../r-release-notes/release-notes-for-previous-releases.md)|
+|Adobe Experience Cloud release notes|View the latest release notes for the Adobe Experience Cloud solutions.<br>For more information, see [Experience Cloud Release Notes](https://marketing.adobe.com/resources/help/en_US/whatsnew/)|
 
 ## Prerelease Information {#section_5D588F0415A2435B851A4D0113ACA3A0}
 
 The following resources let you see what's coming in the next Target release.
 
-### Adobe Priority Product Update list
-
-To receive advance notifications about upcoming product enhancements, sign up for the Adobe Priority Product Update:
-
-[https://www.adobe.com/subscription/priority-product-update.html](https://www.adobe.com/subscription/priority-product-update.html)
-
-### Current and upcoming release notes
-
-For information about the current month's Target releases, including prerelease information, see the [Target Release Notes - Prerelease](/help/r-release-notes/target-release-notes.md) page.
+|Resource|Details|
+|--- |--- |
+|Adobe Priority Product Update list|To receive advance notifications about upcoming product enhancements to Target and other Adobe Experience Cloud solutions, sign up for the Adobe Priority Product Update:<br>[https://www.adobe.com/subscription/priority-product-update.html](https://www.adobe.com/subscription/priority-product-update.html)|
+|Upcoming release notes|For information about the current month's Target releases, including prerelease information, see the [Target Release Notes - Prerelease](/help/r-release-notes/target-release-notes.md) page.|
