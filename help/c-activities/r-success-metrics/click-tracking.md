@@ -33,7 +33,7 @@ Target enables you to track clicks on any element as a success metric.
 
 When an activity entrant clicks a selected element, that click is counted as a conversion.
 
-## Considerations {#section_DD49EBA86CC5475E96BA87D2468FDB36}
+## Considerations {#considerations}
 
 There are several things to consider when selecting elements:
 
