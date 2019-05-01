@@ -26,7 +26,6 @@ Be aware of the following important announcements:
 * On February 20, 2019, the Adobe Target infrastructure was upgraded in the EMEA, Japan, and APAC regions to no longer collect data from end users with older devices or web browsers that do not support TLS 1.1 or later. This same upgrade is planned for the North America region for **April 1, 2019**. Migrating to TLS 1.2 provides improved security. It is important that you go through the specifics and plan out the changes with your IT team for a smooth transition. For more information, see [TLS (Transport Layer Security) encryption changes](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md).
 * [!DNL Target] and the [!DNL Adobe Marketing Cloud] will drop support for Microsoft Internet Explorer 11 starting in March 2019. This change affects [!DNL Target] authoring only; this change does not affect experience delivery. Please switch to Microsoft Edge or another browser. For more information, see [Supported browsers](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md).
 
-
 ## [!DNL Target] Standard/Premium 19.5.1 (May 21, 2019) {#release-19-5-1-prerelease}
 
 This release includes the following features, changes, and enhancements:
@@ -36,8 +35,8 @@ This release includes the following features, changes, and enhancements:
 |Feature / Enhancement | Description |
 | --- | --- |
 |Single Page App Visual Experience Composer (SPA VEC)|The SPA VEC includes the following enhancements to make your work quicker and more efficient:<ul><li>You can now cancel the loading of a website in the VEC to unblock editing of an activity. This enhancement is useful, for example, if you want to make a small edit to the activity, review its settings, or add custom code and you don't want to wait for the site to load. (TGT-33872)</li><li>You can perform many actions before the page loads in the VEC, or even if the page fails to load altogether (for example, custom code is no longer operational). Actions that cannot be edited before the site loads are disabled in the Target UI. (TGT-33851 & TGT-34149)</li></ul>|
-|![Premium badge](/help/assets/premium.png)<br>Automated Personalization (AP) & Auto-Target activities|You can select an experience to be used as control while creating an AP or Auto-Target activity. This feauture lets you route the entire control traffic to a specific experience, based on the traffic allocation percentage configured in the activity. You can then evaluate the performance of the personalized servings against the control experience.(TGT-26572)|
-|![Premium badge](/help/assets/premium.png)<br>Recommendations|You can use the Recommend Previously Purchased Items toggle while creating Recently Viewed Items logic. (TGT-34030)|
+|Automated Personalization (AP) & Auto-Target activities<br>![Premium badge](/help/assets/premium.png)|You can select an experience to be used as control while creating an AP or Auto-Target activity. This feauture lets you route the entire control traffic to a specific experience, based on the traffic allocation percentage configured in the activity. You can then evaluate the performance of the personalized servings against the control experience. (TGT-26572)|
+|Recommendations<br>![Premium badge](/help/assets/premium.png)|You can use the Recommend Previously Purchased Items toggle while creating Recently Viewed Items logic. (TGT-34030)|
 
 **Enhancement, fixes, and changes**
 
