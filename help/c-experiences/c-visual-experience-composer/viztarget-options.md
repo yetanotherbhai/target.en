@@ -92,7 +92,7 @@ Note that blue dots on the main panel and next to each option on the various sec
 
   Click the drop-down icon for each margin to choose from the following options:
 
-  * Auto (Target optimally sets the margin)
+  * Auto 
   * Value (drag the slider to set the margin or specify the number of pixels for each margin)
 
   Margin supports positive and negative values.
@@ -137,7 +137,7 @@ Note that blue dots on the main panel and next to each option on the various sec
 
   Click the drop-down icon for each position to choose from the following options:
 
-  * Auto (Target optimally positions each element)
+  * Auto 
   * Value (drag the slider to position the element or specify the number of pixels you want to move the element)
 
   Position supports positive and negative values.
@@ -150,7 +150,7 @@ Note that blue dots on the main panel and next to each option on the various sec
 
   Click the drop-down icon next to [!UICONTROL Width] and [!UICONTROL Height] to choose from the following options:
 
-  * Auto (Target optimally sizes each element)
+  * Auto 
   * Value (drag the slider to size the element or specify the number of pixels for each dimension)
 
 * **Filter**
