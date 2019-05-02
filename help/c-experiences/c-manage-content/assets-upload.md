@@ -11,7 +11,7 @@ uuid: f6ab926b-163a-4873-80a5-48d2d225ac88
 
 # Upload content{#upload-content}
 
-You can add items to the Image Offers list.
+You can add items to or remove items from the Image Offers list.
 
 1. Click **[!UICONTROL Offers]**, then select the **[!UICONTROL Image Offers]** tab.
 1. Click **[!UICONTROL Create]** > **[!UICONTROL Files]**.
@@ -19,8 +19,6 @@ You can add items to the Image Offers list.
 1. Edit the item's filename, in necessary, then click **[!UICONTROL Upload]**.
 
    The item is added to the library. 
-
-While working in the Image Offers list, you can delete folders and images. If you delete a folder with a large number of images, the process running behind the scenes can take time (several minutes) before the UI refreshes to show the final state. You can proceed with other work and check the final state after a several minutes to verify the deletion.
 
 ## Training video: Managing content
 
