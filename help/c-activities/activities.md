@@ -185,4 +185,4 @@ This video explains how to use the Activities list to manage activities.
 * Find activities in the Activities list 
 * Edit, deactivate, copy, and delete activities
 
->[!VIDEO](https://www.youtube.com/watch?v=tBSHwZaFhag)
+>[!VIDEO](https://video.tv.adobe.com/v/18550)
