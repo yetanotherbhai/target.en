@@ -89,11 +89,11 @@ The multivariate test takes a page-first report. In other words, the test runs o
 
 1. Click **[!UICONTROL Save and Close]** to create the activity.
 
-## Training video: Creating Multivariate Tests
+## Training video: Creating Multivariate Tests (9:25)
 
 This video demonstrates how to plan and create a multivariate test using the Target three-step guided workflow.
 
 * Define and design a multivariate test 
 * Create a multivariate test
 
->[!VIDEO](https://www.youtube.com/watch?v=X8w5IQqEOow)
+>[!VIDEO](https://video.tv.adobe.com/v/17395)

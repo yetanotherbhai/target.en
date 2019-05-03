@@ -162,7 +162,7 @@ This video includes information about activity settings.
 * Add audiences for reporting to create report filters 
 * Enter notes for your activities
 
->[!VIDEO](https://www.youtube.com/watch?v=6XNEM8tUADo)
+>[!VIDEO](https://video.tv.adobe.com/v/17381)
 
 ### Creating Multivariate Tests (9:25)
 
@@ -171,4 +171,4 @@ This video demonstrates how to create a multivariate test using the Target three
 * Define and design a multivariate test 
 * Create a multivariate test
 
->[!VIDEO](https://www.youtube.com/watch?v=X8w5IQqEOow)
+>[!VIDEO](https://video.tv.adobe.com/v/17395)

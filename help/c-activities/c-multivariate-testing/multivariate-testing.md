@@ -92,7 +92,7 @@ This video explains the activity types available in Target Standard/Premium. Mul
 * Select the appropriate activity type to achieve your goals 
 * Describe the three-step guided workflow that applies to all activity types
 
->[!VIDEO](https://www.youtube.com/watch?v=vtHg1pPFJp8)
+>[!VIDEO](https://video.tv.adobe.com/v/17386)
 
 ### Creating Multivariate Tests (9:25)
 
@@ -101,4 +101,4 @@ This video explains how to understand, plan, and create a multivariate test usin
 * Define and design a multivariate test 
 * Create a multivariate test
 
->[!VIDEO](https://www.youtube.com/watch?v=X8w5IQqEOow)
+>[!VIDEO](https://video.tv.adobe.com/v/17395)

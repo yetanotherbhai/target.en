@@ -171,4 +171,4 @@ The following demo video includes information about using the Visual Experience 
 
 This video includes information about setting up mobile viewports in the account preferences, beginning at 4:40 in the video.
 
->[!VIDEO](https://www.youtube.com/watch?v=MJXhgxlP-KI) 
+>[!VIDEO](https://video.tv.adobe.com/v/17379) 

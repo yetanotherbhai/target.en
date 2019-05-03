@@ -29,4 +29,4 @@ This video demonstrates how to plan and create a multivariate test using the Tar
 * Define and design a multivariate test 
 * Create a multivariate test
 
->[!VIDEO](https://www.youtube.com/watch?v=X8w5IQqEOow)
+>[!VIDEO](https://video.tv.adobe.com/v/17395)
