@@ -108,4 +108,4 @@ This video demonstrates how to create an A/B test using the [!DNL Target] three-
 * Create an A/B activity in Adobe Target 
 * Allocate traffic using a manual split or automatic traffic allocation
 
->[!VIDEO](https://www.youtube.com/watch?v=JG0dbWDAvtk)
+>[!VIDEO](https://video.tv.adobe.com/v/17391)

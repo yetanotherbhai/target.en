@@ -74,4 +74,4 @@ This video includes information about account preferences.
 
 * Describe the account settings available in [!DNL Target Standard]
 
->[!VIDEO](https://www.youtube.com/watch?v=MJXhgxlP-KI)
+>[!VIDEO](https://video.tv.adobe.com/v/17379)

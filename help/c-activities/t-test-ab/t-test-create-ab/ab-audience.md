@@ -64,6 +64,6 @@ This video includes information about setting up audiences.
 * Select your traffic allocation method 
 * Allocate traffic between different experiences
 
->[!VIDEO](https://www.youtube.com/watch?v=LOmBgKPeBtA)
+>[!VIDEO](https://video.tv.adobe.com/v/17385)
 
 For detailed information, see [Audiences](../../../c-target/c-audiences/audiences.md#concept_65BE870D290E412D8BBF557EEA67C271). 

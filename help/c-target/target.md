@@ -22,7 +22,7 @@ When a visitor lands on a page where you have set up an activity, [!DNL Target] 
 
 If the visitor is identified as part of a target audience, [!DNL Target] determines which experience to display, based on the criteria established when the activity was created.
 
-## Training Video: Activity Targeting
+## Training Video: Activity Targeting (2:13)
 
 This video includes information about setting up targeting and audiences.
 
@@ -31,4 +31,4 @@ This video includes information about setting up targeting and audiences.
 * Select your traffic allocation method 
 * Allocate traffic between different experiences
 
->[!VIDEO](https://www.youtube.com/watch?v=LOmBgKPeBtA) 
+>[!VIDEO](https://video.tv.adobe.com/v/17385) 

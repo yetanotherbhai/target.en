@@ -37,4 +37,4 @@ Below the graph, a table shows how many entrants saw each experience, as well as
 
 This video demonstrates how to create a multivariate test using the Target three-step guided workflow. The Experience Performance report is described beginning at 8:20.
 
->[!VIDEO](https://www.youtube.com/watch?v=X8w5IQqEOow)
+>[!VIDEO](https://video.tv.adobe.com/v/17395)

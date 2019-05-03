@@ -70,7 +70,7 @@ This video includes information about activity settings.
 * Add audiences for reporting to create report filters 
 * Enter notes for your activities
 
-(https://www.youtube.com/watch?v=6XNEM8tUADo)
+(https://video.tv.adobe.com/v/17381)
 
 ### Creating A/B Tests (8:36)
 
@@ -79,4 +79,4 @@ This video demonstrates how activity settings fit within the three-step guided w
 * Create an A/B activity in Adobe Target 
 * Allocate traffic using a manual split or automatic traffic allocation
 
->[!VIDEO](https://www.youtube.com/watch?v=JG0dbWDAvtk)
+>[!VIDEO](https://video.tv.adobe.com/v/17391)
