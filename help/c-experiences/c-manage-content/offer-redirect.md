@@ -56,7 +56,7 @@ The redirect offer executes JavaScript code to redirect the browser. It uses the
 >
 >Ask your Implementation Consultant before launching these tests.
 
-## Training video: Managing Content (4:56)
+## Training video: The Content Repository (4:56)
 
 This video includes information about managing content.
 
@@ -64,4 +64,4 @@ This video includes information about managing content.
 * Custom HTML Offers 
 * Custom HTML Offer in the Visual Experience Composer
 
->[!VIDEO](https://www.youtube.com/watch?v=ZNIGgXOATMY) 
+>[!VIDEO](https://video.tv.adobe.com/v/17387) 

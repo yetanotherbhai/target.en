@@ -340,4 +340,4 @@ This video includes information about using and creating profile scripts.
 * Use the Available Token menu to access available options 
 * Enable and disable profile scripts
 
->[!VIDEO](https://www.youtube.com/watch?v=m0jH2tIR1XQ)
+>[!VIDEO](https://video.tv.adobe.com/v/17394)

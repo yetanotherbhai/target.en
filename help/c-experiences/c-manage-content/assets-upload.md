@@ -20,7 +20,7 @@ You can add items to or remove items from the Image Offers list.
 
    The item is uploaded to the library. 
 
-## Training video: Managing content
+## Training video: The Content Repository
 
 This video includes information about managing content. 
 
@@ -28,4 +28,4 @@ This video includes information about managing content.
 * Custom HTML Offers 
 * Custom HTML Offer in the Visual Experience Composer 
 
->[!VIDEO](https://www.youtube.com/watch?v=ZNIGgXOATMY)
+>[!VIDEO](https://video.tv.adobe.com/v/17387)

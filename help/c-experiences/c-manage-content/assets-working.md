@@ -33,7 +33,7 @@ Information about the tasks you can perform on an asset in the Content Library.
 
 1. To change the image that represents an item in the library, click the item, then click the **[!UICONTROL Properties]** icon, click **[!UICONTROL Edit]**, and then add an image.
 
-## Training video: Content Library in Adobe Target
+## Training video: The Content Repository
 
 This video includes information about managing content. (4:56)
 
@@ -41,4 +41,4 @@ This video includes information about managing content. (4:56)
 * Custom HTML Offers 
 * Custom HTML Offer in the Visual Experience Composer
 
->[!VIDEO](https://www.youtube.com/watch?v=ZNIGgXOATMY) 
+>[!VIDEO](https://video.tv.adobe.com/v/17387) 
