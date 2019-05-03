@@ -86,4 +86,4 @@ This video includes information about using audiences.
 * Target an activity to an audience 
 * Use audiences for passive reporting in an activity
 
->[!VIDEO](https://www.youtube.com/watch?v=TAMBpW9vpOI)
+>[!VIDEO](https://video.tv.adobe.com/v/17398)

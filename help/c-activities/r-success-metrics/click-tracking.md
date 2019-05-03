@@ -85,4 +85,4 @@ This video includes information about creating click-tracking success metrics.
 * Understand and build Conversion, Revenue, and Engagement metrics 
 * Build a click-tracking metric
 
->[!VIDEO](https://www.youtube.com/watch?v=oCMD2SymhoI)
+>[!VIDEO](https://video.tv.adobe.com/v/17380)

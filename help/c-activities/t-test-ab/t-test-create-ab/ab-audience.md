@@ -47,13 +47,13 @@ The following videos contain more information about the concepts discussed in th
 
 This video explains how to use audiences in [!DNL Target Standard/Premium].
 
-* Explain the term "Audience" 
+* Explain the term "Audience"
 * Explain the two ways audiences are used for optimization 
 * Find audiences in the Audiences list 
 * Target an activity to an audience 
 * Use audiences for passive reporting in an activity
 
->[!VIDEO](https://www.youtube.com/watch?v=TAMBpW9vpOI)
+>[!VIDEO](https://video.tv.adobe.com/v/17398)
 
 ### Activity Workflow - Targeting (2:14)
 
