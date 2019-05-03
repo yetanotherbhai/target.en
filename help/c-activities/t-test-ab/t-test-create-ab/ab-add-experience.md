@@ -95,4 +95,4 @@ The video below provides information about using the Visual Experience Composer 
 * Change the content of a page 
 * Change the layout of a page
 
->[!VIDEO](https://www.youtube.com/watch?v=2KUDgu6Mscg)
+>[!VIDEO](https://video.tv.adobe.com/v/17399)

@@ -112,14 +112,14 @@ This video provides information about using the Visual Experience Composer optio
 * Change the content of a page 
 * Change the layout of a page
 
->[!VIDEO](https://www.youtube.com/watch?v=2KUDgu6Mscg)
+>[!VIDEO](https://video.tv.adobe.com/v/17399)
 
 ### Visual Experience Composer (1 of 2) (7:17)
 
 * Change the content of a page 
 * Change the layout of a page
 
->[!VIDEO](https://www.youtube.com/watch?v=2KUDgu6Mscg)
+>[!VIDEO](https://video.tv.adobe.com/v/17399)
 
 ### Visual Experience Composer (2 of 2) (7:29)
 
