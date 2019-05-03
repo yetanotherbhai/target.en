@@ -11,7 +11,7 @@ uuid: 7518e298-a824-4766-b2bf-49770b293b9a
 
 # Work with content in the library{#work-with-content-in-the-library}
 
-Information about the tasks you can perform on an asset in the library.
+Information about the tasks you can perform on an asset in the Content Library.
 
 1. Click **[!UICONTROL Offer]**, select the **[!UICONTROL Code Offer]** or **[!UICONTROL Image Offer]** tab, then locate the asset you want to work with.
 

@@ -18,7 +18,7 @@ You can add items to or remove items from the Image Offers list.
 1. Select the item you want to add, then click **[!UICONTROL Open]**.
 1. Edit the item's filename, in necessary, then click **[!UICONTROL Upload]**.
 
-   The item is added to the library. 
+   The item is uploaded to the library. 
 
 ## Training video: Managing content
 
