@@ -115,15 +115,3 @@ This example sends the following data to the mbox edge:
 * b=2 
 * `profile.age`=26 
 * `profile.country.city`=San Francisco
-
-**Using DTM to Add mbox Parameters**
-
-This video explains how to add mbox parameters using DTM.
-
-## Training video: Adding mbox Parameters via Activation (DTM) (4:25)
-
-* Map a static name/value pair to a parameter or profile parameter in the target-global-mbox 
-* Understand the basics of a data element 
-* Map a dynamic data element value to a parameter or profile parameter in the target-global-mbox
-
->[!VIDEO](https://www.youtube.com/watch?v=hA0MctwZKlg) 

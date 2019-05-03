@@ -148,13 +148,3 @@ The following sections contain troubleshooting information about implementing Ta
 * [Visual Experience Composer best practices and limitations](/help/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md)
 * [Modifications](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md)
 * "Office Hours" video, an initiative led by the Adobe Customer Care team. See [Visual Experience Composer (VEC)](/help/c-experiences/c-visual-experience-composer/visual-experience-composer.md).
-
-## Training video: Troubleshooting Tools
-
-This video demonstrates tools for troubleshooting [!DNL Target].
-
-* Use native browser tools for inspecting mbox requests
-* Use the Experience Cloud Debugger, mboxTrace, and ttMETA
-* Understand the Target timeout
-
->[!VIDEO](https://www.youtube.com/watch?v=OXznmfKjxwU)

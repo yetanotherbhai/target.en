@@ -37,13 +37,4 @@ You do not need to maintain different activity-specific versions of the file.
    `<script src="/ *`directory`*/ *`scripts`*/mbox.js"></script>`
 
    Where ` *`directory`*/ *`scripts`*` is the directory where you saved your [!DNL mbox.js] file after downloading it. 
-If you already have mboxes on your page from a legacy implementation, these mboxes can still be used in the new interface. The updated [!DNL mbox.js] file is still required, but these mboxes can be selected for activities and edited using the [!UICONTROL Visual Experience Composer]. 
-
-## Training video: mbox.js Implementation Overview (8:52)
-
-This video explains how to implement [!DNL mbox.js].
-
-* Select the correct settings for your [!DNL mbox.js] file 
-* Implement [!DNL Target] by adding the [!DNL mbox.js] file to the <head> of your site
-
->[!VIDEO](https://www.youtube.com/watch?v=f-A1zET6AwE)
+If you already have mboxes on your page from a legacy implementation, these mboxes can still be used in the new interface. The updated [!DNL mbox.js] file is still required, but these mboxes can be selected for activities and edited using the [!UICONTROL Visual Experience Composer].
