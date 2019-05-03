@@ -35,4 +35,4 @@ This video includes information about using audience categories.
 * Create audiences 
 * Define audience categories
 
->[!VIDEO](https://www.youtube.com/watch?v=wV9lVTSOxMk) 
+>[!VIDEO](https://video.tv.adobe.com/v/17392) 

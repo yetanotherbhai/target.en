@@ -165,7 +165,7 @@ The following demo video includes information about using the Visual Experience 
 * Preview and build experience for responsive websites 
 * Use overlays to highlight types of elements
 
->[!VIDEO](https://www.youtube.com/watch?v=qwUKEp8en_k)
+>[!VIDEO](https://video.tv.adobe.com/v/17401)
 
 ### Account Preferences in Adobe Target
 

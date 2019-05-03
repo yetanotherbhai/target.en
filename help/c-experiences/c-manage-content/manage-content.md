@@ -82,7 +82,7 @@ The following information is available:
 * Redirect URL Type 
 * Absolute or Relative URL
 
-## Training video: Offers Library (4:56)
+## Training video: The Content Repository
 
 This video includes information about managing offers.
 
@@ -90,4 +90,4 @@ This video includes information about managing offers.
 * Custom HTML Offers 
 * Custom HTML Offer in the Visual Experience Composer
 
->[!VIDEO](https://www.youtube.com/watch?v=ZNIGgXOATMY)
+>[!VIDEO](https://video.tv.adobe.com/v/17387)

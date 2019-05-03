@@ -113,7 +113,7 @@ This video explains how to use Adobe Analytics as a reporting source in Adobe Ta
 * Explain how A4T works 
 * Understand the prerequisites needed before using A4T
 
->[!VIDEO](https://www.youtube.com/watch?v=eS_LeNmcJug)
+>[!VIDEO](https://video.tv.adobe.com/v/17384)
 
 ### Analytics / Target Integration (A4T) (40:33)
 

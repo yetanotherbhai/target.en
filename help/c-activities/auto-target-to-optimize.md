@@ -249,4 +249,4 @@ After completing this training, you should be able to:
 * Compare and contrast [!UICONTROL Auto-Target] to Automated Personalization 
 * Create [!UICONTROL Auto-Target] activities
 
->[!VIDEO](https://www.youtube.com/watch?v=9ki7XJfzcD4)
+>[!VIDEO](https://video.tv.adobe.com/v/18558)
