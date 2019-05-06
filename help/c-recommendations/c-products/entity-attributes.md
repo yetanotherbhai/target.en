@@ -1,6 +1,6 @@
 ---
 description: Use entity attributes to pass product or content information to Recommendations.
-keywords: entity attributes;pass information to Recommendations;behavioral data;data counter;define relative URL;display inventory level;define price;define profit margin;custom attributes
+keywords: entity;entity attributes;pass information to Recommendations;behavioral data;data counter;define relative URL;display inventory level;define price;define profit margin;custom attributes
 seo-description: Use entity attributes to pass product or content information to Recommendations.
 seo-title: Entity attributes
 solution: Target
