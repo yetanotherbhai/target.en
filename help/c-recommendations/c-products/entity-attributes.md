@@ -1,6 +1,6 @@
 ---
 description: Use entity attributes to pass product or content information to Recommendations.
-keywords: entity attributes;pass information to Recommendations;behavioral data;data counter;define relative URL;display inventory level;define price;define profit margin;custom attributes
+keywords: entity;entity attributes;pass information to Recommendations;behavioral data;data counter;define relative URL;display inventory level;define price;define profit margin;custom attributes
 seo-description: Use entity attributes to pass product or content information to Recommendations.
 seo-title: Entity attributes
 solution: Target
@@ -47,7 +47,7 @@ Category of the current page. This can include multiple categories, such as a ca
 
 >[!NOTE]
 >
->To show a recommendation based on a category in a [!UICONTROL Category] page, only one `categoryId` can be passed into the mbox used to display that particular recommendation. The value of the `categoryId` must match exactly the value of `entity.cateogryId` passed on the [!UICONTROL Product Detail] page.
+>To show a recommendation based on a category in a [!UICONTROL Category] page, only one `categoryId` can be passed into the mbox used to display that particular recommendation. The value of the `categoryId` must match exactly the value of `entity.categoryId` passed on the [!UICONTROL Product Detail] page.
 
 Examples:
 
