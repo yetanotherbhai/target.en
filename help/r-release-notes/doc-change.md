@@ -20,6 +20,7 @@ This page lists important changes made to the [!DNL Adobe Target] documentation.
 |Date|Topic|Changes|
 | --- | --- | --- |
 |May 8, 2019|[Training videos for Adobe Target Standard and Premium](/help/c-intro/target-standard-premium-training-videos.md)|Updated content and links.|
+||[Entity attributes](/help/c-recommendations/c-products/entity-attributes.md)|Updated text for the `entity.id` variable.|
 |May 1, 2019|[Entity attributes](/help/c-recommendations/c-products/entity-attributes.md)|Corrected capitalization in the following variable names:<br>Changed `pageURL` to `pageUrl`.<br>Changed `thumbnailURL` to `thumbnailUrl`.|
 |April 30, 2019|[Visual Experience Composer Options](/help/c-experiences/c-visual-experience-composer/viztarget-options.md)|<ul><li>Added new section: "Styles."</li><li>Added table listing HTML5 tags that can be nested.</li></ul>|
 ||[Click tracking](/help/c-activities/r-success-metrics/click-tracking.md)|Added information about the DOM path feature to the "Considerations" section.|
