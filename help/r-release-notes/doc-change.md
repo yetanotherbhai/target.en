@@ -19,6 +19,8 @@ This page lists important changes made to the [!DNL Adobe Target] documentation.
 
 |Date|Topic|Changes|
 | --- | --- | --- |
+|May 9, 2019|[A4T reporting](/help/c-integrating-target-with-mac/a4t/reporting.md#reports-in-analysis-workspace)|Added new section: "Reports in Analysis Workspace."|
+||[View reports - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md)|Added new FAQ: "Can I view my Target activity data in Adobe Analysis Workspace?"|
 |May 8, 2019|[Training videos for Adobe Target Standard and Premium](/help/c-intro/target-standard-premium-training-videos.md)|Updated content and links.|
 ||[Entity attributes](/help/c-recommendations/c-products/entity-attributes.md)|Updated text in the note under the `entity.id` variable.|
 |May 1, 2019|[Entity attributes](/help/c-recommendations/c-products/entity-attributes.md)|Corrected capitalization in the following variable names:<br>Changed `pageURL` to `pageUrl`.<br>Changed `thumbnailURL` to `thumbnailUrl`.|
