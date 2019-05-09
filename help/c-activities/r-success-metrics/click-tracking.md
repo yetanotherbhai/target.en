@@ -62,7 +62,7 @@ There are several things to consider when selecting elements:
 
 * If you use [!DNL at.js] click tracking and you also use Analytics AppMeasurement, [!DNL at.js] click tracking cancels all other click event handlers. As a result, the AppMeasurement click handler never executes.
 
-[!DNL at.js] has special handling for click tracking when the underlying element is an `A` (link) tag or `FORM` tag.
+  [!DNL at.js] has special handling for click tracking when the underlying element is an `A` (link) tag or `FORM` tag.
 
   The following steps are executed by [!DNL at.js] when the click tracking event is attached to an `A` (link) tag or a `FORM` tag:
 
