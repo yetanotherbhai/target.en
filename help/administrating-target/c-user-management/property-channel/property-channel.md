@@ -259,6 +259,21 @@ Activities created before the migration continue to run the same way in the Defa
 
 If you implemented [!DNL Target] with [!DNL Adobe Launch] and get an error message indicating that there is no property associated with the activity, pass the `at_property` parameter with the `targetPageParams` function.
 
+**How are click-track conversions recorded if a redirect page and the activity URL belong to different properties?**
+
+[Click tracking](/help/c-activities/r-success-metrics/click-tracking.md) is not recorded on pages where the page and activity URL belong to different properties.
+
+Consider the following scenario (applies to both at.js and mbox.js):
+
+* Page1 belongs to Property1
+* Page2 belongs to Property2
+
+In the activity, Page1 redirects to Page2. Page2 contains clicktracks.
+
+When a visitor opens Page1 in a browser, he or she is redirected to Page2. Because Page2 does not qualify to deliver the activity, its Target call does not contain clicktracks in its response. 
+
+If the redirect page and the activity URL belong to the same property, clicktracks work as expected.
+
 ## Training video: Enterprise Permissions Training Video {#section_2FA080303A064242B63FF16CFA6DB31D}
 
 Learning objectives:

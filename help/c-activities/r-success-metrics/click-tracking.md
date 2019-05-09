@@ -77,6 +77,8 @@ There are several things to consider when selecting elements:
 
   This default behavior might interfere with Analytics click tracking. If you are using Analytics, you should rely on Analytics for click tracking rather than Target.
 
+* Click tracking is not recorded on pages where the page and activity URL belong to different properties. Enterprise user permissions is a Target Premium feature. For more information, see [Enterprise user permissions](/help/administrating-target/c-user-management/property-channel/property-channel.md).
+
 ## Training Video {#section_36607204DAE146E3B8E2C609D244EDB1}
 
 This video includes information about creating click-tracking success metrics.
