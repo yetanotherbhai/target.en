@@ -19,6 +19,8 @@ This page lists important changes made to the [!DNL Adobe Target] documentation.
 
 |Date|Topic|Changes|
 | --- | --- | --- |
+|May 10, 2019|[Preferences](/help/administrating-target/r-target-account-preferences/target-account-preferences.md)|Updated text and image.|
+||[Activity QA](/help/c-activities/c-activity-qa/activity-qa.md)|Updated text.|
 |May 9, 2019|[A4T reporting](/help/c-integrating-target-with-mac/a4t/reporting.md#reports-in-analysis-workspace)|Added new section: "Reports in Analysis Workspace."|
 ||[View reports - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md)|Added new FAQ: "Can I view my Target activity data in Adobe Analysis Workspace?"|
 ||[Enterprise user permissions](/help/administrating-target/c-user-management/property-channel/property-channel.md#faqs)|Added new FAQ: "Are click-track conversions recorded if a redirect page and the activity URL belong to different properties?"|
