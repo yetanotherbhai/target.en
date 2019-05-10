@@ -18,7 +18,7 @@ To set your account preferences, click **[!UICONTROL Setup]** > **[!UICONTROL Pr
 
 The following illustration shows the available settings on the [!UICONTROL Account Preferences] page.
 
-![](assets/preferences.png)
+![Preferences page](/help/administrating-target/r-target-account-preferences/assets/preferences-new.png)
 
 Note that some of these preferences are available only if you have [!DNL Target Premium]].
 
