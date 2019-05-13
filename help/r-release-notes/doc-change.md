@@ -21,6 +21,7 @@ This page lists important changes made to the [!DNL Adobe Target] documentation.
 | --- | --- | --- |
 |May 13, 2019|[Activity QA](/help/c-activities/c-activity-qa/activity-qa.md)|Added item to the Considerations list about using QA Mode in a multi-page activity.|
 ||[Include the Same Experience on Similar Pages](/help/c-experiences/c-visual-experience-composer/temtest.md)|Updated steps to match the UI.|
+||[at.js Frequently Asked Questions](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md)|Added new FAQ: "What HTML doctype does at.js require?"|
 |May 10, 2019|[Preferences](/help/administrating-target/r-target-account-preferences/target-account-preferences.md)|Updated text and image.|
 ||[Activity QA](/help/c-activities/c-activity-qa/activity-qa.md)|Updated text.|
 |May 9, 2019|[A4T reporting](/help/c-integrating-target-with-mac/a4t/reporting.md#reports-in-analysis-workspace)|Added new section: "Reports in Analysis Workspace."|
