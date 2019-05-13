@@ -19,6 +19,7 @@ This page lists important changes made to the [!DNL Adobe Target] documentation.
 
 |Date|Topic|Changes|
 | --- | --- | --- |
+|May 13, 2019|[Activity QA](/help/c-activities/c-activity-qa/activity-qa.md)|Added item to the Considerations list about using QA Mode in a multi-page activity.|
 |May 10, 2019|[Preferences](/help/administrating-target/r-target-account-preferences/target-account-preferences.md)|Updated text and image.|
 ||[Activity QA](/help/c-activities/c-activity-qa/activity-qa.md)|Updated text.|
 |May 9, 2019|[A4T reporting](/help/c-integrating-target-with-mac/a4t/reporting.md#reports-in-analysis-workspace)|Added new section: "Reports in Analysis Workspace."|
