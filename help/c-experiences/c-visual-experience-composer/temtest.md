@@ -32,7 +32,7 @@ You can specify pages that include the change elements, or apply the change acro
 
 1. Create an activity as described in [Activities](../../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03).
 1. To specify the pages where the experience will appear, in the Visual Experience Composer click the gear icon, then select **[!UICONTROL Page Delivery]**.
-1. Click **[!UICONTROL Add Rule]**, then specify the criteria for the pages you want to add the experience to.
+1. Click **[!UICONTROL Add Template Rule]**, then specify the criteria for the pages you want to add the experience to.
 
 1. Specify the page range. The page range can be one of the following:
 
