@@ -1,7 +1,7 @@
 ---
 description: Reports provide information about the performance of your activities.
 keywords: reports;block ip address;block visitor from ip address;download reports;csv
-seo-description: Reports provide information about the performance of your activities.
+seo-description: Reports provide information about the performance of your activities
 seo-title: Reports
 solution: Target
 subtopic: Multivariate Test
@@ -48,7 +48,7 @@ In addition to the general reporting information in this topic and its subtopics
 
    ![](assets/report_menu_bar.png)
 
-   The legend displays the following information:
+   The legend displays:
 
     * The activity status, including the date range when the activity ran.
     * The projected winning experience. 
