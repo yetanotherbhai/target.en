@@ -84,3 +84,5 @@ Activity QA lets you fully test your Target activities prior to launching them l
   |`_AT_Debug`|String|Window or console|Console logging or new window.|
   |`adobe_mc_ref`|||Passes the referring URL of the default page to the new page. When used with `AppMeasurement.js` version 2.1 (or later), [!DNL Adobe Analytics] uses this parameter value as the referring URL on the new page.|
   |`adobe_mc_sdid`|||Passes the [!DNL Supplemental Data Id] (SDID) and [!DNL Experience Cloud Org Id] from the default page to the new page in order for Analytics for Target (A4T) to "stitch" together the Target request on the default page with the Analytics request on the new page.|
+
+* The Target QA Mode UI shows just the first URL of an experience in a multi-page activity. The assumption is that you are creating a journey test and you will move from URL1 to URL2. However, if you want to go to URL2 independently, copy all the URL parameters provided against URL1 and apply them to URL2 after placing a "?" just like you see in URL1.
