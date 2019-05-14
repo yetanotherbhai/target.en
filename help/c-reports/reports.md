@@ -1,7 +1,7 @@
 ---
 description: Reports provide information about the performance of your activities.
 keywords: reports;block ip address;block visitor from ip address;download reports;csv
-seo-description: Reports provide information about the performance of your activities.
+seo-description: Reports provide information about the performance of your activities
 seo-title: Reports
 solution: Target
 subtopic: Multivariate Test
