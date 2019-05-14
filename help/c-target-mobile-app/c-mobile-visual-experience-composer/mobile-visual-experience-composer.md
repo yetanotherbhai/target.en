@@ -170,7 +170,7 @@ For Android, here's a table for incorrect locations to put the `targetView` call
 
 ## Delivery {#delivery}
 
-Target activities authored using the Mobile VEC are automatically delivered in mobile apps. These activities are prefetched on app launch(based on launch configuration) and applied as the user navigates through different Target Views, often mapped directly to the screens.
+Target activities authored using the Mobile VEC are automatically delivered in mobile apps. These activities are prefetched on app launch (based on launch configuration) and applied as the user navigates through different Target Views, often mapped directly to the screens.
 
 When calling the `TargetVEC.prefetchOffersBackground()` API method, Target offers are fetched from the Target Edge and cached locally.. This allows for a smoother user experience, as Target offers are immediately applied from cache when Target views are triggered with `targetView()` calls, instead of being fetched over the network.
 
