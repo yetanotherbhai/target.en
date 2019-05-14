@@ -47,7 +47,7 @@ The following values can be "token replaced":
 **Tip:** This information can also be useful for debugging.
 Log information in the console for debugging purposes, such as `${campaign.name}`, `${campaign.id}`, `${campaign.recipe.name}`, `${campaign.recipe.id}`, `${offer.name}`, `${offer.id}`, `${campaign.name}`
 
-For Recommendations Designs, see additional examples here: https://docs.adobe.com/content/help/en/target/using/recommendations/recommendations-design/design-overview.html
+For Recommendations Designs, see additional examples here: [https://docs.adobe.com/content/help/en/target/using/recommendations/recommendations-design/design-overview.html](https://docs.adobe.com/content/help/en/target/using/recommendations/recommendations-design/design-overview.html)
 
 **Implementation**
 
