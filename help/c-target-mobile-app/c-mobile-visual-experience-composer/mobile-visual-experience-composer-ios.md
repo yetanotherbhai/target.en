@@ -1,7 +1,7 @@
 ---
-description: Target's new SDK Library allows developers to do a one-time setup on their iOS mobile apps and enable marketers to use the capabilities of the Mobile Visual Experience Composer (VEC).
+description: The Adobe Target Mobile Visual Experience Composer (VEC) lets developers do a one-time setup on their iOS mobile apps and enable marketers to use the capabilities of the Mobile VEC.
 keywords: mobile vec;mobile visual experience composer;mobile experience composer options;setting up;ios;apple
-seo-description: Target's new SDK Library allows developers to do a one-time setup on their iOS mobile apps and enable marketers to use the capabilities of the Mobile Visual Experience Composer (VEC).
+seo-description: The Adobe Target Mobile Visual Experience Composer (VEC) lets developers do a one-time setup on their iOS mobile apps and enable marketers to use the capabilities of the Mobile VEC.
 seo-title: iOS - set up the mobile app
 solution: Target
 title: iOS - set up the mobile app
@@ -11,17 +11,13 @@ uuid: 6db4f06a-d8f4-4192-af6f-917594e721e6
 
 # iOS - set up the mobile app{#ios-set-up-the-mobile-app}
 
-Target's new SDK Library allows developers to do a one-time setup on their iOS mobile apps and enable marketers to use the capabilities of the Mobile Visual Experience Composer (VEC).
+The Adobe Target Mobile Visual Experience Composer (VEC) lets developers do a one-time setup on their iOS mobile apps and enable marketers to use the capabilities of the Mobile VEC. For more information on enabling the Adobe Target VEC extension, see [Target VEC on Adobe Experience Platform SDKs](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-target-vec).
 
 >[!NOTE]
 >
->The Visual Experience Composer for Native Mobile Apps is currently offered as a Beta feature available to select customers to obtain feedback to help us improve the feature before making it available to all customers. Please talk to your Customer Success Manager or Adobe Client Care to participate in this Beta program.
+>The Visual Experience Composer for Native Mobile Apps is currently offered as a Beta feature available to select customers to obtain feedback to help us improve the feature before making it available to all customers. 
 
-The Mobile VEC can now be used along with the recently released Adobe Experience Cloud SDK. To do this, customers must use the Adobe Launch integration, the recommended method for using SDKs. For more information, see [Adobe Experience Platform SDKs](https://aep-sdks.gitbook.io/docs).
-
-To set up the Target VEC extension from Launch, see [Use Adobe Launch to set up the Mobile App VEC](../../c-target-mobile-app/c-mobile-visual-experience-composer/use-adobe-launch-to-set-up-the-mobile-app-vec.md#concept_630A05151EF1487193BAE670B59F8CAC).
-
-## Include the Mobile SDK & the Target Library {#section_FD969A63C4F74603B2F31B82881422A4}
+## Include the Mobile SDK & the Target Library {#sdk-library}
 
 1. Add the library to your project via your Cocoapods [!DNL Podfile] by adding pod 'ACPTargetVEC'. 
 1. Open your Objective-C application project in XCode. 
@@ -158,9 +154,9 @@ To set up the Target VEC extension from Launch, see [Use Adobe Launch to set up 
 
 1. Build and run your application and use it to test Mobile VEC capabilities.
 
-## Set Up Target Views on Your Mobile App {#section_78600DB29862478E8DF2A5EC3CAC1CB0}
+## Set Up Target Views on Your Mobile App {#views}
 
-In this section, we will first demonstrate how to properly insert these calls with two different demonstration applications and discuss general guidelines on how to properly insert the Target View API calls for any iOS app. In iOS, all the Target Views are defined relative to the `UIViewController` in which they appear. So, unlike Android, the insertion of `TargetViews` are limited to the following calls.
+The Adobe Mobile SDK exposes a new method for developers to trigger whenever a new View is rendered. Please read through the general guidelines on how to properly insert the Target View API calls for an iOS app. In iOS, all the Target Views are defined relative to the `UIViewController` in which they appear. So, unlike Android, the insertion of `TargetViews` are limited to the following calls.
 
 The Adobe Mobile VEC Extension auto-generates names for your `UIViewControllers` to interact within the Mobile VEC framework, based upon the class name of the subclassed `UIViewController`. If you want to override these names, you can call following method in `viewWillAppear` of the `ViewController`.
 
@@ -184,7 +180,7 @@ let popupView = CustomPopupView.init(frame: CGRect(x: 0, y: 0, width: 300, heigh
 ACPTargetVEC.setTargetView("myCustomPopupView", for: popupView)
 ```
 
-## Setting Up Profile Parameters and Other Global Parameters {#section_F87E14F9DF3348698EE006F569EB5B8A}
+## Setting Up Profile Parameters and Other Global Parameters {#parameters}
 
 We now support setting global parameters that will be passed in each and every API call as well as passing mbox/view parameters to corresponding views.
 
@@ -195,7 +191,7 @@ Parameters include:
 * Product parameters 
 * Order parameters
 
-Global parameter support:
+**Global parameter support:**
 
 ```
 //For Objective-c 
