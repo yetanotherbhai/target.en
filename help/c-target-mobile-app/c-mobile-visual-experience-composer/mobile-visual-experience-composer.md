@@ -1,6 +1,5 @@
 ---
 description: The Visual Experience Composer (VEC) for Native Mobile Apps lets you create activities and personalize content on native mobile apps in a do-it-yourself fashion without continuous development dependencies and app-release cycles.
-keywords: keywords: mobile vec;mobile visual experience composer;mobile experience composer options;mobile experience options;target view;target mobile
 seo-description: The Visual Experience Composer (VEC) for Native Mobile Apps lets you create activities and personalize content on native mobile apps in a do-it-yourself fashion without continuous development dependencies and app-release cycles.
 seo-title: Mobile App Visual Experience Composer
 solution: Target
