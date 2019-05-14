@@ -11,9 +11,11 @@ uuid: 39938ec2-b12e-44cf-9218-69195fba0ff7
 
 # Android - set up the mobile app{#android-set-up-the-mobile-app}
 
-The Adobe Target Mobile Visual Experience Composer (VEC) lets developers do a one-time setup on their Android mobile apps and enable marketers to use the capabilities of the Mobile VEC. For more information on enabling the Adobe Target VEC extension, see [Target VEC on Adobe Experience Platform SDKs](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-target-vec).
+The Adobe Target Mobile App Visual Experience Composer (VEC) lets developers do a one-time setup on their Android mobile apps and enable marketers to use the capabilities of the Mobile App VEC. 
 
-## Include the Mobile SDK & the Target Library {#sdk-library}
+For more information on enabling the Adobe Target VEC extension, see [Adobe Target - Visual Experience Composer](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-target-vec) in the *Adobe Experience Platform Mobile SDKs*.
+
+## Include the Mobile SDK and the Target library {#sdk-library}
 
 1. For information about SDK V5 initialization, see [Initialize the SDK and Set Up Tracking](https://aep-sdks.gitbook.io/docs/getting-started/initialize-the-sdk). 
 1. Add the following line to the dependencies section:
@@ -22,7 +24,7 @@ The Adobe Target Mobile Visual Experience Composer (VEC) lets developers do a on
    implementation 'com.adobe.marketing.mobile:target-vec:1.+'
    ```
 
-1. VEC requires following artifacts to be included as a dependency in build.gradle
+1. The Mobile App VEC requires the following artifacts to be included as a dependency in `build.gradle`.
 
    ```
     implementation 'com.google.code.gson:gson:2.8.2'
@@ -33,7 +35,7 @@ The Adobe Target Mobile Visual Experience Composer (VEC) lets developers do a on
     implementation 'com.android.support:design:28.0.0'
    ```
 
-1. Add an intent filter in your [!DNL AndroidManifest.XML] file, choosing a unique deep-link scheme for Mobile VEC authoring (for example, `[sdkbetabus://com.adobe.sdkbetabus](sdkbetabus://com.adobe.sdkbetabus)`):
+1. Add an intent filter in your `AndroidManifest.XML` file, choosing a unique deep-link scheme for Mobile App VEC authoring (for example, `[sdkbetabus://com.adobe.sdkbetabus](sdkbetabus://com.adobe.sdkbetabus)`):
 
    ```
    <activity 
@@ -88,10 +90,10 @@ The Adobe Target Mobile Visual Experience Composer (VEC) lets developers do a on
 1. If your build is not working, review the example projects provided below that should build out-of-the-box and review changes in the following locations:
 
     1. `Application::OnCreate override` 
-    1. [!DNL AndroidManifest.XML] 
-    1. `build.gradle` of the Android Application
+    1. `AndroidManifest.XML`
+    1. `build.gradle` of the Android application
 
-## Set Up Target Views on Your Mobile App {#views}
+## Set Up Target Views on your mobile app {#views}
 
 The Adobe Mobile SDK exposes a new method for developers to trigger whenever a new View is rendered. As a developer, you must ensure that the views are named uniquely, and the `targetView` call is on the UI main thread. In this section, we will first demonstrate how to insert these calls with two different demonstration applications and discuss general guidelines on how to properly insert the Target View API calls for any Android app.
 
@@ -105,7 +107,7 @@ A Target View can be triggered with a function call. Any targeting parameters ca
 public class TargetVEC { 
    
    /** 
-    * Marks a view hierarchy for editing in Mobile VEC.  Call must insert when the view hierarchy 
+    * Marks a view hierarchy for editing in Mobile App VEC.  Call must insert when the view hierarchy 
     * is memory and committed to being shown, but not yet shown on the screen. 
     * 
     * @param viewName the unique Target View Name 
@@ -125,12 +127,12 @@ public class TargetVEC {
 }
 ```
 
-Our first example project is a mock-up of simple bus schedule application. To set up this application for use in the Mobile VEC:
+Our first example project is a mock-up of simple bus schedule application. To set up this application for use in the Mobile App VEC:
 
-1. In Android Studio, open the project with the [!DNL build.gradle] file in the package subdirectory [!DNL BusBooking]. 
+1. In Android Studio, open the project with the `build.gradle` file in the package subdirectory `BusBooking`. 
 1. In the `DemoApplication::OnCreate` method, add `TargetVEC.registerExtension()` to register the Target VEC extension, along with other extensions. 
 1. Build and run the application. 
-1. To enter the Mobile VEC authoring mode, use the [!DNL sdkbetabus://com.adobe.sdkbetabus] as its URL scheme, and open the generated deep link on the device (see directions below).
+1. To enter the Mobile App VEC authoring mode, use the [!DNL sdkbetabus://com.adobe.sdkbetabus] as its URL scheme, and open the generated deep link on the device (see directions below).
 
 From this simple bus-booking application, we use all the automatically generated Target Views associated with the activity life cycle. Furthermore, we demonstrate the flexibility of the API by calling the Target View API on a custom view element that is dynamically added when a hidden button is clicked (the offer image on the screen). This new Target View is implemented by inserting an API call in the code at `OfferDetailsActivity.java:40`. When the hidden button is clicked, a new Target View event called "SURPRISE_VIEW" is fired, allowing the marketer to more precisely target change on the application experience.
 
@@ -212,9 +214,9 @@ public class OfferDetailsActivity extends AppCompatActivity {
 }
 ```
 
-## Setting Up Profile Parameters and Other Global Parameters {#parameters}
+## Setting Up profile parameters and other global parameters {#parameters}
 
-We now support setting global parameters that will be passed in each and every API call as well as passing mbox/view parameters to corresponding views.
+We now support setting global parameters that will be passed in each and every API call, as well as passing mbox/view parameters to corresponding views.
 
 Parameters include:
 
@@ -241,7 +243,7 @@ TargetVEC.setGlobalRequestParameters(new TargetParameters.Builder()
 
 **Passing parameters for next view trigger:**
 
-We have provided some automatic views that are created by default, such as "AUTO_<activity|fragment name>" for each activity and fragment present in your app. If you want to pass these parameters, you can call the following API:
+We have provided some automatic views that are created by default, such as "`AUTO_<activity|fragment name>`" for each activity and fragment present in your app. If you want to pass these parameters, you can call the following API:
 
 ```
 Map<String, String> mboxParams = new HashMap<>();  //Mbox or view params 
@@ -257,9 +259,9 @@ TargetVEC.setRequestParameters(new TargetParameters.Builder()
         .build());
 ```
 
-**Passing parameters to specific view:**
+**Passing parameters to a specific view:**
 
-We have seen the API to trigger Views via `TargetVEC.targetView("view_name")`. You can also pass parameters that are specific to the particular view, as shown below:
+We have seen the API trigger Views via `TargetVEC.targetView("view_name")`. You can also pass parameters that are specific to the particular view, as shown below:
 
 ```
 Map<String, String> profileParams = new HashMap<>(); 
@@ -271,11 +273,11 @@ TargetVEC.targetView("SURPRISE_VIEW",
                 .build());
 ```
 
-## Calling the Prefetch API Explicitly {#section_2D02B74558474D3BA9F25E4D25E7C7E3}
+## Calling the Prefetch API explicitly {#section_2D02B74558474D3BA9F25E4D25E7C7E3}
 
-There might be certain scenarios when you might want to call the prefetch API again to refresh the offers stored in cache. The following APIs are exposed, which are described as :
+There might be certain scenarios when you might want to call the prefetch API again to refresh the offers stored in cache. The following APIs are exposed, which are described as:
 
-* prefetchOffers
+* **prefetchOffers**
 
   ```
   /** 
@@ -287,7 +289,7 @@ There might be certain scenarios when you might want to call the prefetch API ag
   public static void prefetchOffers();
   ```
 
-* prefetchOffersBackground
+* **prefetchOffersBackground**
 
   ```
   /** 
