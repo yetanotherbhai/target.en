@@ -20,6 +20,7 @@ This page lists important changes made to the [!DNL Adobe Target] documentation.
 |Date|Topic|Changes|
 | --- | --- | --- |
 |May 14, 2019|[Mobile App Visual Experience Composer](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md),<br>[Android - set up the mobile app](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-android.md),<br>[iOS - set up the mobile app](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-ios.md), and<br>[Set up click tracking in the Mobile VEC](/help/c-target-mobile-app/c-mobile-visual-experience-composer/set-up-click-tracking-in-the-mobile-vec.md)|New topics.|
+||[Pass dynamic data into offers](/help/c-experiences/c-manage-content/passing-profile-attributes-to-the-html-offer.md)|Updated text.|
 |May 13, 2019|[Activity QA](/help/c-activities/c-activity-qa/activity-qa.md)|Added item to the Considerations list about using QA Mode in a multi-page activity.|
 ||[Include the Same Experience on Similar Pages](/help/c-experiences/c-visual-experience-composer/temtest.md)|Updated steps to match the UI.|
 ||[at.js Frequently Asked Questions](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md)|Added new FAQ: "What HTML doctype does at.js require?"|
