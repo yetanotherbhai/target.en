@@ -14,13 +14,78 @@ The Visual Experience Composer (VEC) for Native Mobile Apps lets you create acti
 
 >[!NOTE]
 >
->The Visual Experience Composer for Native Mobile Apps is currently offered as a Beta feature available to select customers to obtain feedback to help us improve the feature before making it available to all customers. 
+>The Visual Experience Composer for Native Mobile Apps is currently offered as a Beta feature available only to select customers to obtain feedback to help us improve the feature before making it available to all customers. 
 
 ## Overview {#overview}
 
 The existing [Visual Experience Composer](../../c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) gives you a do-it-yourself capability to create activities and personalize experiences that can be dynamically delivered to your web properties via Target's Global Mbox without any developer intervention. You can now take advantage of the VEC to do the same for native mobile applications. The Mobile VEC, available on [AEP SDK v5](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-target-vec), can be used to create [A/B Test](/help/c-activities/t-test-ab/test-ab.md) and [Experience Targeting (XT)](/help/c-activities/t-experience-target/experience-target.md) activities for mobile apps. Support for other activity types will be available in the future.
 
 The Mobile VEC supports the browsers listed in [Supported browsers](../../c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100).
+
+## Using the Visual Experience Composer for Native Mobile Apps {#using-the-mobile-vec}
+
+The following illustration represents the process of using the Mobile VEC:
+
+![](assets/mobile-vec-diagram.png)
+
+| Process | Details |
+|--- |--- |
+|Paring|Securely authorize your mobile app and device to work with Target. This step is required only once for a device.|
+|Authoring|Author a [Target activity](/help/c-activities/activities.md), with real-time preview of actions performed in the Target UI.|
+|Delivery|Target automatically delivers activities in your native mobile app.|
+
+**Pairing:**
+
+The Mobile VEC connects in real-time to the marketer's mobile app for authoring Target activities. In order to enable that, the first step is to securely pair (authorize) the mobile device and app with Target.
+
+1. While creating an A/B Test activity, for example, select **[!UICONTROL Mobile App]**, select **[!UICONTROL Visual (Default)]**, then click **[!UICONTROL Next]**.
+
+   ![](assets/mobile-vec-create-1.png)
+
+1. Enter the app's URL, then click **[!UICONTROL Create Deep Link]**.
+
+   ![](assets/mobile-vec-create-2.png)
+
+The pairing process contains the following steps:
+
+1. Enter the app's URL scheme that can be used to generate a deep link. A typical deep link looks like:
+
+   `mymobileapp://path?params` 
+
+1. The deep link is available as a QR Code or a URL. The user can scan the QR code from the phone or email/message the URL to him or herself. The deep link URL has an authorization token that is used to securely pair the mobile app and device with Target. 
+1. Open the deep link URL on your mobile device. This launches the mobile app. The SDK identifies that the app is launched for pairing and authoring in the VEC.
+
+   The SDK makes a request to the Target server and registers itself. The Target server authorizes the token and establish a real-time connection with the device (currently using web sockets).
+
+   After the connection is established, a real-time view of the app appears in the Target Interface. The app has a red boundary overlay that is an indicator that the app is connected to Target, as shown in the illustration below.
+
+   ![](assets/mobile-vec-create-3.png)
+
+   Devices that are already paired can be reconnected by launching the app and opening the authoring interface.
+
+**Authoring:**
+
+After the app is connected and a real-time view of the app appears in the VEC, you can start authoring your activity. At this time the following actions are supported:
+
+| Action | Details |
+|--- |--- |
+|Swap Image|Swap an image with another one by selecting a different Image Offer or directly setting the CDN URL of an image. Image Offers in Target will be served via [Adobe Scene7](/help/administrating-target/scene7-settings.md).|
+|Change Text|Change the text content, color, and font-size in a Text element, Button or Label.|
+|Change Background|Change the content or element background for Text area or Buttons.|
+
+Actions performed in the VEC are visible in real-time in the app, thereby allowing for a real-time preview capability during authoring. Actions are associated with relevant Mobile Screens or Views and are associated appropriately.
+
+![](assets/mobile-vec-create-4.png)
+
+## Troubleshooting {#troubleshooting}
+
+**The Mobile VEC says that my app has disconnected.**
+
+Your internet connection might have dropped. Relaunch the application after the internet is available and a fresh connection will be established. We recommend authoring a Mobile VEC activity on a Wifi connection.
+
+**The Mobile VEC is not in sync with my mobile app.**
+
+Click the [!UICONTROL Refresh] button in the VEC to sync the display.
 
 ## Target Views & Mobile Applications {#target-views}
 
@@ -106,71 +171,6 @@ For Android, here's a table for incorrect locations to put the `targetView` call
 |Within `Activity::onCreate`|The activity has been created, but the view associated with activity is not guaranteed to be complete, and/or attached to the window. This placement might lead to the authoring screen being not sampled or incompletely sampled, and/or the offers being applied in a non-deterministic manner.|
 |Inside of `View::didAppear`|The view has already appeared and the application of the offer will create a poor UI experience with flicker.|
 |Inside of `View::didLoad`|The view is not attached to the main view hierarchy, and might be instantiated, but are not guaranteed to be shown on the app UI.|
-
-## Using the Visual Experience Composer for Native Mobile Apps {#using-the-mobile-vec}
-
-The following illustration represents the process of using the Mobile VEC:
-
-![](assets/mobile-vec-diagram.png)
-
-| Process | Details |
-|--- |--- |
-|Paring|Securely authorize your mobile app and device to work with Target. This step is required only once for a device.|
-|Authoring|Author a [Target activity](/help/c-activities/activities.md), with real-time preview of actions performed in the Target UI.|
-|Delivery|Target automatically delivers activities in your native mobile app.|
-
-**Pairing:**
-
-The Mobile VEC connects in real-time to the marketer's mobile app for authoring Target activities. In order to enable that, the first step is to securely pair (authorize) the mobile device and app with Target.
-
-1. While creating an A/B Test activity, for example, select **[!UICONTROL Mobile App]**, select **[!UICONTROL Visual (Default)]**, then click **[!UICONTROL Next]**.
-
-   ![](assets/mobile-vec-create-1.png)
-
-1. Enter the app's URL, then click **[!UICONTROL Create Deep Link]**.
-
-   ![](assets/mobile-vec-create-2.png)
-
-The pairing process contains the following steps:
-
-1. Enter the app's URL scheme that can be used to generate a deep link. A typical deep link looks like:
-
-   `mymobileapp://path?params` 
-
-1. The deep link is available as a QR Code or a URL. The user can scan the QR code from the phone or email/message the URL to him or herself. The deep link URL has an authorization token that is used to securely pair the mobile app and device with Target. 
-1. Open the deep link URL on your mobile device. This launches the mobile app. The SDK identifies that the app is launched for pairing and authoring in the VEC.
-
-   The SDK makes a request to the Target server and registers itself. The Target server authorizes the token and establish a real-time connection with the device (currently using web sockets).
-
-   After the connection is established, a real-time view of the app appears in the Target Interface. The app has a red boundary overlay that is an indicator that the app is connected to Target, as shown in the illustration below.
-
-   ![](assets/mobile-vec-create-3.png)
-
-   Devices that are already paired can be reconnected by launching the app and opening the authoring interface.
-
-**Authoring:**
-
-After the app is connected and a real-time view of the app appears in the VEC, you can start authoring your activity. At this time the following actions are supported:
-
-| Action | Details |
-|--- |--- |
-|Swap Image|Swap an image with another one by selecting a different Image Offer or directly setting the CDN URL of an image. Image Offers in Target will be served via [Adobe Scene7](/help/administrating-target/scene7-settings.md).|
-|Change Text|Change the text content, color, and font-size in a Text element, Button or Label.|
-|Change Background|Change the content or element background for Text area or Buttons.|
-
-Actions performed in the VEC are visible in real-time in the app, thereby allowing for a real-time preview capability during authoring. Actions are associated with relevant Mobile Screens or Views and are associated appropriately.
-
-![](assets/mobile-vec-create-4.png)
-
-## Troubleshooting {#troubleshooting}
-
-**The Mobile VEC says that my app has disconnected.**
-
-Your internet connection might have dropped. Relaunch the application after the internet is available and a fresh connection will be established. We recommend authoring a Mobile VEC activity on a Wifi connection.
-
-**The Mobile VEC is not in sync with my mobile app.**
-
-Click the [!UICONTROL Refresh] button in the VEC to sync the display.
 
 ## Delivery {#delivery}
 
