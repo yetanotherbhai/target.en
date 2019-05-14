@@ -13,10 +13,6 @@ uuid: 6db4f06a-d8f4-4192-af6f-917594e721e6
 
 The Adobe Target Mobile Visual Experience Composer (VEC) lets developers do a one-time setup on their iOS mobile apps and enable marketers to use the capabilities of the Mobile VEC. For more information on enabling the Adobe Target VEC extension, see [Target VEC on Adobe Experience Platform SDKs](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-target-vec).
 
->[!NOTE]
->
->The Visual Experience Composer for Native Mobile Apps is currently offered as a Beta feature available to select customers to obtain feedback to help us improve the feature before making it available to all customers. 
-
 ## Include the Mobile SDK & the Target Library {#sdk-library}
 
 1. Add the library to your project via your Cocoapods [!DNL Podfile] by adding pod 'ACPTargetVEC'. 
@@ -50,7 +46,7 @@ The Adobe Target Mobile Visual Experience Composer (VEC) lets developers do a on
 
    If you are using Swift, add the following line:
 
-   `import ACPTargetVEC_iOS` 
+   `import ACPTargetVEC` 
 
 1. In your [!DNL AppDelegate] file, add the following line to `AppDelegate::application:didFinishLaunchingWithOptions:`. If the delegate function is not defined, create it and add the following line for Objective-C or Swift application, respectively:
 
@@ -63,11 +59,10 @@ The Adobe Target Mobile Visual Experience Composer (VEC) lets developers do a on
    [ACPUserProfile registerExtension]; 
    [ACPTarget registerExtension];
 
-   [ACPTargetVEC registerExtension]; 
-   [ACPTargetVEC allowDebugLogging:YES]; //To see debug logs for target VEC 
-     
-   [ACPCore start:nil]; 
-   [ACPCore lifecycleStart:nil]; 
+   [ACPTargetVEC registerExtension];
+   [ACPCore start:^{
+        [ACPCore lifecycleStart:nil];
+   }];
       
    // CONFIGURATION LINE FOR SWIFT ONLY: 
    ACPCore.configure(withAppId: "YOUR_ADOBE_LAUNCH_APP_ID") 
@@ -78,11 +73,10 @@ The Adobe Target Mobile Visual Experience Composer (VEC) lets developers do a on
    ACPTarget.registerExtension() 
      
    ACPTargetVEC.registerExtension() 
-   ACPTargetVEC.allowDebugLogging(true) //To see debug logs for Target VEC 
      
-   ACPCore.start(nil) 
-   ACPCore.lifecycleStart(nil)
-
+   ACPCore.start {
+     ACPCore.lifecycleStart(nil)
+   }
    ```
 
    As a example, the method should resemble the following sample:
@@ -198,20 +192,20 @@ Parameters include:
 NSDictionary *mboxParams = @{@"mboxparam1":@"mboxvalue1"}; //mbox or view params 
 NSDictionary *profileParams = @{@"profilekey1":@"profilevalue1"}; //profile params 
   
-TargetProduct *product = [[TargetProduct alloc] initWithProductId:@"1234" categoryId:@"furniture"]; 
-TargetOrder *order = [[TargetOrder alloc] initWithOrderId:@"12343" total:@(123.45) purchasedProductIds:@[@"100",@"200"]]; 
-TargetParameters *targetParams = [[TargetParameters alloc] initWithParameters:mboxParams 
-                                                            profileParameters:profileParams 
-                                                                      product:product 
-                                                                        order:order]; 
+ACPTargetProduct *product = [ACPTargetProduct targetProductWithId:@"1234" categoryId:@"furniture"]; 
+ACPTargetOrder *order = [ACPTargetOrder targetOrderWithId:@"12343" total:@(123.45) purchasedProductIds:@[@"100",@"200"]]; 
+ACPTargetParameters *targetParams = [ACPTargetParameters targetParametersWithParameters:mboxParams 
+                                                                      profileParameters:profileParams 
+                                                                                product:product 
+                                                                                  order:order]; 
 [ACPTargetVEC setGlobalRequestParameters:targetParams];
 
 //For Swift 
 var mboxParams = ["mboxparam1":"mboxvalue1"] 
 var profileParams = ["profilekey1":"profilevalue1"] 
-var product : TargetProduct = TargetProduct.init(productId: "1234", categoryId: "furniture") 
-var order : TargetOrder = TargetOrder.init(orderId: "12345", total: 123.45, purchasedProductIds: ["100", "200"]) 
-var targetParams : TargetParameters = TargetParameters.init(parameters: mboxParams, profileParameters: profileParams, product: product, order: order) 
+var product : ACPTargetProduct = ACPTargetProduct.init(id: "1234", categoryId: "furniture") 
+var order : ACPTargetOrder = ACPTargetOrder.init(id: "12345", total: 123.45, purchasedProductIds: ["100", "200"]) 
+var targetParams : ACPTargetParameters = ACPTargetParameters.init(parameters: mboxParams, profileParameters: profileParams, product: product, order: order) 
 ACPTargetVEC.setGlobalRequest(targetParams)
 ```
 
@@ -224,20 +218,20 @@ We have provided some automatic views that are created by default, such as "AUTO
 NSDictionary *mboxParams = @{@"viewparam1":@"viewvalue1"}; //mbox or view params 
 NSDictionary *profileParams = @{@"profilekeyforview1":@"profilevalueforview1"}; //profile params 
   
-TargetProduct *product = [[TargetProduct alloc] initWithProductId:@"1234" categoryId:@"furniture"]; 
-TargetOrder *order = [[TargetOrder alloc] initWithOrderId:@"12343" total:@(123.45) purchasedProductIds:@[@"100",@"200"]]; 
-TargetParameters *targetParams = [[TargetParameters alloc] initWithParameters:mboxParams 
-                                                            profileParameters:profileParams 
-                                                                      product:product 
-                                                                        order:order]; 
+ACPTargetProduct *product = [ACPTargetProduct targetProductWithId:@"1234" categoryId:@"furniture"]; 
+ACPTargetOrder *order = [ACPTargetOrder targetOrderWithId:@"12343" total:@(123.45) purchasedProductIds:@[@"100",@"200"]]; 
+ACPTargetParameters *targetParams = [ACPTargetParameters targetParametersWithParameters:mboxParams 
+                                                                      profileParameters:profileParams 
+                                                                                product:product 
+                                                                                  order:order]; 
 [ACPTargetVEC setGlobalRequestParameters:targetParams];
 
 //For Swift 
 var mboxParams = ["mboxparam1":"mboxvalue1"] 
 var profileParams = ["profilekey1":"profilevalue1"] 
-var product : TargetProduct = TargetProduct.init(productId: "1234", categoryId: "furniture") 
-var order : TargetOrder = TargetOrder.init(orderId: "12345", total: 123.45, purchasedProductIds: ["100", "200"]) 
-var targetParams : TargetParameters = TargetParameters.init(parameters: mboxParams, profileParameters: profileParams, product: product, order: order) 
+var product : ACPTargetProduct = ACPTargetProduct.init(id: "1234", categoryId: "furniture") 
+var order : ACPTargetOrder = ACPTargetOrder.init(id: "12345", total: 123.45, purchasedProductIds: ["100", "200"]) 
+var targetParams : ACPTargetParameters = ACPTargetParameters.init(parameters: mboxParams, profileParameters: profileParams, product: product, order: order) 
 ACPTargetVEC.setRequest(targetParams)
 ```
 
