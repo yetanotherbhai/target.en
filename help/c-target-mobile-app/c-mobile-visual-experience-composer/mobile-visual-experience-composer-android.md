@@ -21,8 +21,9 @@ The Adobe Target Mobile Visual Experience Composer (VEC) lets developers do a on
    ```
    implementation 'com.adobe.marketing.mobile:target-vec:1.+'
    ```
+
 1. VEC requires following artifacts to be included as a dependency in build.gradle
-   
+
    ```
     implementation 'com.google.code.gson:gson:2.8.2'
     implementation 'android.arch.lifecycle:extensions:1.1.1'
