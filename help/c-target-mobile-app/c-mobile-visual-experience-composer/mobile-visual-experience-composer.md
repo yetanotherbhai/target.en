@@ -12,10 +12,6 @@ uuid: 83702f9c-40ff-441b-b773-46b01155a6f2
 
 The Visual Experience Composer (VEC) for Native Mobile Apps lets you create activities and personalize content on native mobile apps in a do-it-yourself fashion without continuous development dependencies and app-release cycles.
 
->[!NOTE]
->
->The Visual Experience Composer for Native Mobile Apps is currently offered as a Beta feature available only to select customers to obtain feedback to help us improve the feature before making it available to all customers. 
-
 ## Overview {#overview}
 
 The existing [Visual Experience Composer](../../c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) gives you a do-it-yourself capability to create activities and personalize experiences that can be dynamically delivered to your web properties via Target's Global Mbox without any developer intervention. You can now take advantage of the VEC to do the same for native mobile applications. The Mobile VEC, available on [AEP SDK v5](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-target-vec), can be used to create [A/B Test](/help/c-activities/t-test-ab/test-ab.md) and [Experience Targeting (XT)](/help/c-activities/t-experience-target/experience-target.md) activities for mobile apps. Support for other activity types will be available in the future.
@@ -174,19 +170,20 @@ For Android, here's a table for incorrect locations to put the `targetView` call
 
 ## Delivery {#delivery}
 
-Target activities authored using the Mobile VEC are automatically delivered in mobile apps. These activities are prefetched on app launch and applied as the user navigates through different Target Views, often mapped directly to the screens.
+Target activities authored using the Mobile VEC are automatically delivered in mobile apps. These activities are prefetched on app launch(based on launch configuration) and applied as the user navigates through different Target Views, often mapped directly to the screens.
 
-When setting up the Target Mobile Library by calling the `AdobeTargetMobile.attachVisualEditor()` API method, an additional `prefetchOffers` parameter might be provided. When set to "true" (which is also the default), Target offers are fetched from the Target Edge and cached locally, as part of the library initialization process. This allows for a smoother user experience, as Target offers are immediately applied from cache when Target views are triggered with `targetView()` calls, instead of being fetched over the network.
+When calling the `TargetVEC.prefetchOffersBackground()` API method, Target offers are fetched from the Target Edge and cached locally.. This allows for a smoother user experience, as Target offers are immediately applied from cache when Target views are triggered with `targetView()` calls, instead of being fetched over the network.
 
-For additional flexibility, the `prefetchOffers` parameter may be set to "false," so that Target offer prefetch can be performed separately from library initialization, by explicitly calling `AdobeTargetMobile.prefetchOffers()`.
+For additional flexibility, you can also call `TargetVEC.prefetchOffers()` API, which will prehide the current layout until Target offers are prefetched and applied to visible Target view(possibly causing flicker).
 
-`AdobeTargetMobile.prefetchOffers()` can also be called repeatedly as the user navigates a customer app to refresh the local Target offer cache with the most appropriate content (following the latest updates of the current user's Target profile).
+`TargetVEC.prefetchOffersBackground()` can also be called repeatedly as the user navigates a customer app to refresh the local Target offer cache with the most appropriate content (following the latest updates of the current user's Target profile).
 
 Note that each time Target offers are prefetched, the offers for the last Target view triggered with `AdobeTargetMobile.targetView()` are also applied, if possible.
 
 ## Known Limitations {#limitations}
 
 * The Mobile VEC can currently be used to create [A/B Test](/help/c-activities/t-test-ab/test-ab.md) and [Experience Targeting (XT)](/help/c-activities/t-experience-target/experience-target.md) activities for Mobile Apps. Support for other activity types will be available in the future. 
+* Preview feature is not supported yet. It will be made available in upcoming release.
 * When trying to reconnect the app to the Mobile VEC, you must exit the app completely and relaunch it.
 
   If the mobile app is already open during any of the scenarios listed below, you must close the app and then reopen it. However, you *must* close the app by closing it from the recent apps section and *not* by pressing the Back button. There might be intermittent connection issues if the app is closed by pressing the Back button.
