@@ -71,4 +71,14 @@ Hits that contain data from Analytics and Target contain a supplemental data ID.
 * The visitor ID service is in implemented 
 * A version of [!DNL mbox.js] that supports this integration is implemented.
 
-When troubleshooting, be sure to confirm that the supplemental ID is present on Analytics hits. 
+When troubleshooting, be sure to confirm that the supplemental ID is present on Analytics hits.
+
+## Client-side Analytics logging {#client-side}
+
+>[!NOTE]
+>
+>This feature will be available with the upcoming release of [at.js 2.1.0](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
+
+By default, when at.js, the [!DNL Experience Cloud Visitor ID Service], and appMeasurement.js are on the page, [!DNL Adobe Analytics] and [!DNL Target] correctly stitch events for reporting and analytics purposes in the backend as long as the correct supplemental ID is included from the page, as mentioned above. You won’t need to manage and perform any additional operations for A4T to function correctly.
+
+However, there are cases when you might want to have more control on when and how to send analytics data related to [!DNL Target] to [!DNL Analytics] for reporting purposes. You might have an in-house analytics tool that you leverage for internal purposes but also want to send the analytics data to [!DNL Analytics] via your in-house analytics product so that other members of your organization can continue to utilize [!DNL Analytics] as a visual reporting source. See [Step 7: Reference at.js or mbox.js on all site pages](/help/c-integrating-target-with-mac/a4t/a4timplementation.md#step7) in *Analytics for Target Implementation* for more information.
