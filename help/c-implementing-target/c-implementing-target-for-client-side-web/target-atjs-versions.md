@@ -17,7 +17,7 @@ Details about changes in each version of the [!DNL Adobe Target] at.js JavaScrip
 >
 >The Target team maintains only two versions of [!DNL at.js]—the current version and the second-latest version. Please upgrade [!DNL at.js] as necessary to ensure that you are running a supported version.
 
-## at.js version 2.1 (Date to be announced)
+## at.js version 2.1.0 (Date to be announced)
 
 This release includes the following features and enhancements:
 
@@ -25,9 +25,13 @@ This release includes the following features and enhancements:
 
 * **Industry Standard CSP Compliant**: at.js no longer uses eval() to execute JavaScript.
 
-* **Client Side Analytics Logging**: Give customers full control on how they want to send analytics data to Adobe Analytics, whether on the client-side or server-side.
+* **Client Side Analytics Logging**: Give customers full control on how they want to send analytics data to Adobe Analytics, whether on the client-side or server-side. 
+
+  For more information, see [Client-side Analytics logging](/help/c-integrating-target-with-mac/a4t/before-implement.md#client-side) in *Before you implement*.
 
 * **Send Notifications**: Allow developers to send notifications when an experience is rendered by their code instead of using `applyOffer()` or `applyOffers()`.
+
+  For more information, see [adobe.target.sendNotifications(options)](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe.target.sendnotifications-atjs-21.md).
 
 * **at.js size reduced by ~24%**: The size of at.js is reduced by ~24%, which improves page load performance and reduces the time to download at.js on the page.
 
@@ -77,7 +81,7 @@ For more information, see [Upgrading from at.js 1.x to at.js 2.x](/help/c-implem
 
 >[!NOTE]
 >
->If you require Adobe Opt-in support for the [General Data Protection Regulation](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) (GDPR), you must currently use at.js 1.7.0. Opt-in support is not currently supported in at.js 2.x.
+>If you require Adobe Opt-in support for the [General Data Protection Regulation](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) (GDPR), you must currently use at.js 1.7.0 or at.js 2.1.0.
 
 ## at.js Version 1.7.0 {#at-js-170}
 
@@ -89,7 +93,7 @@ This release also fixes an issue where Target might override redirect URL parame
 
 >[! NOTE]
 >
->If you require Adobe Opt-in support for GDPR, you must currently use at.js 1.7.0. Opt-in support is not currently supported in at.js 2.x.<br>For a list of all versions, see [at.js version details](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
+>If you require Adobe Opt-in support for GDPR, you must currently use at.js 1.7.0 or 2.1.0.<br>For a list of all versions, see [at.js version details](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
 
 ## at.js Version 1.6.4 {#at-js-164}
 

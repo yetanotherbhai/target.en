@@ -19,6 +19,13 @@ This page lists important changes made to the [!DNL Adobe Target] documentation.
 
 |Date|Topic|Changes|
 | --- | --- | --- |
+|May 15, 2019|[Release notes (current)](\help/r-release-notes/release-notes.md)|Added information about the upcoming release of at.js 2.1.0.|
+||[at.js version details](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)|Added information about the upcoming release of at.js 2.1.0.|
+||[Before you implent](/help/c-integrating-target-with-mac/a4t/before-implement.md)|Added new section: "Client-side Analytics logging."|
+||[Analytics for Target implementation](/help/c-integrating-target-with-mac/a4t/a4timplementation.md)|Revised Step 7.|
+||[adobe.target.getOffers(options) - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md)|Added rows to the table for the following field names:<ul><li>Request > experienceCloud</li><li>Request > experienceCloud > analytics</li><li>Request > experienceCloud > analytics > logging</li></ul>|
+||[at.js functions](/help/c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md)|Added row to the table for `adobe.target.sendNotifications(options)`.|
+||[adobe.target.sendNotifications(options)](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe.target.sendnotifications-atjs-21.md)|New topic.|
 |May 14, 2019|[Mobile App Visual Experience Composer](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md),<br>[Android - set up the mobile app](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-android.md),<br>[iOS - set up the mobile app](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-ios.md), and<br>[Set up click tracking in the Mobile VEC](/help/c-target-mobile-app/c-mobile-visual-experience-composer/set-up-click-tracking-in-the-mobile-vec.md)|New topics.|
 ||[Pass dynamic data into offers](/help/c-experiences/c-manage-content/passing-profile-attributes-to-the-html-offer.md)|Updated text.|
 |May 13, 2019|[Activity QA](/help/c-activities/c-activity-qa/activity-qa.md)|Added item to the Considerations list about using QA Mode in a multi-page activity.|

@@ -14,7 +14,7 @@ This function sends a notification to Target edge when an experience is rendered
 
 >[!NOTE]
 >
->This function has been introduced in at.js 2.1 and will be available for any versions above 2.1.
+>This function has been introduced in at.js 2.1.0 and will be available for any versions above 2.1.0.
 
 |Key|Type|Required?|Description|
 | --- | --- | --- | --- |

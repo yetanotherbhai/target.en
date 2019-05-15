@@ -51,7 +51,7 @@ If you previously deployed at.js or mbox.js, you can replace your existing file 
 
 Otherwise, this file can be hosted along with the Visitor ID service and AppMeasurement for JavaScript files. These files must be hosted on a web server that is accessible to all pages on your site. You need the path to these files in the next step.
 
-## Step 7: Reference at.js or mbox.js on all site pages
+## Step 7: Reference at.js or mbox.js on all site pages {#step7}
 
 Include at.js or mbox.js below VisitorAPI.js by adding the following line of code in the tag on each page:
 
