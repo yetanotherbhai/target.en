@@ -73,7 +73,7 @@ Hits that contain data from Analytics and Target contain a supplemental data ID.
 
 When troubleshooting, be sure to confirm that the supplemental ID is present on Analytics hits.
 
-##Client-side Analytics logging
+## Client-side Analytics logging
 
 By default, when at.js, the [!DNL Experience Cloud Visitor ID Service], and appMeasurement.js are on the page, [!DNL Adobe Analytics] and [!DNL Target] correctly stitch events for reporting and analytics purposes in the backend as long as the correct supplemental ID is included from the page, as mentioned above. You won’t need to manage and perform any additional operations for A4T to function correctly.
 
