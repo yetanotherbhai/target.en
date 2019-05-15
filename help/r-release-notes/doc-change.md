@@ -19,7 +19,7 @@ This page lists important changes made to the [!DNL Adobe Target] documentation.
 
 |Date|Topic|Changes|
 | --- | --- | --- |
-|May 15, 2019|[Release notes (current)](\help/r-release-notes/release-notes.md)|Added information about the upcoming release of at.js 2.1.0.|
+|May 15, 2019|[Release notes (current)](/help/r-release-notes/release-notes.md)|Added information about the upcoming release of at.js 2.1.0.|
 ||[at.js version details](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)|Added information about the upcoming release of at.js 2.1.0.|
 ||[Before you implent](/help/c-integrating-target-with-mac/a4t/before-implement.md)|Added new section: "Client-side Analytics logging."|
 ||[Analytics for Target implementation](/help/c-integrating-target-with-mac/a4t/a4timplementation.md)|Revised Step 7.|
