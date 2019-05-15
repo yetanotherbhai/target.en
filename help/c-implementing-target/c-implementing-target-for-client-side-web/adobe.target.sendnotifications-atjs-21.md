@@ -10,7 +10,11 @@ topic: Standard
 
 # adobe.target.sendNotifications(options)
 
-This function sends a notification to Target edge when an experience is rendered without using `adobe.target.applyOffer()` or `adobe.target.applyOffers()`. 
+This function sends a notification to Target edge when an experience is rendered without using `adobe.target.applyOffer()` or `adobe.target.applyOffers()`.
+
+>[!NOTE]
+>
+>This feature will be available with the upcoming release of [at.js 2.1.0](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
 
 >[!NOTE]
 >
