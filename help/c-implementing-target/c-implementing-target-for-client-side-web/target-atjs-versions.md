@@ -17,6 +17,20 @@ Details about changes in each version of the [!DNL Adobe Target] at.js JavaScrip
 >
 >The Target team maintains only two versions of [!DNL at.js]—the current version and the second-latest version. Please upgrade [!DNL at.js] as necessary to ensure that you are running a supported version.
 
+## at.js version 2.1 (Date to be announced)
+
+This release includes the following features and enhancements:
+
+* **Adobe Opt-in Support**: Adobe Opt-In is a way to simplify Adobe solutions integrations with consent management platforms. For more information about Adobe Opt-in, see [Privacy and General Data Protection Regulation (GDPR)](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md).
+
+* **Industry Standard CSP Compliant**: at.js no longer uses eval() to execute JavaScript.
+
+* **Client Side Analytics Logging**: Give customers full control on how they want to send analytics data to Adobe Analytics, whether on the client-side or server-side.
+
+* **Send Notifications**: Allow developers to send notifications when an experience is rendered by their code instead of using `applyOffer()` or `applyOffers()`.
+
+* **at.js size reduced by ~24%**: The size of at.js is reduced by ~24%, which improves page load performance and reduces the time to download at.js on the page.
+
 ## at.js version 2.0.1 (March 19, 2019)
 
 This is a maintenance release and includes the following enhancements and fixes:
