@@ -267,7 +267,7 @@ document.addEventListener("at-view-end", function(e) {
 
 Although these examples use JavaScript code, all this can be simplified if you are using a tag manager, such as [Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md).
 
-If the above steps are followed you should have a robust A4T solution for SPAs.
+If the preceding steps are followed you should have a robust A4T solution for SPAs.
 
 ## Training videos
 
