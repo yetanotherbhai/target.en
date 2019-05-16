@@ -19,6 +19,7 @@ This page lists important changes made to the [!DNL Adobe Target] documentation.
 
 |Date|Topic|Changes|
 | --- | --- | --- |
+|May 15, 2019|[Single Page Application implementation](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md#triggerview)|Added note that you must fire the `at-view-start` and `at-view-end` events.|
 |May 14, 2019|[Mobile App Visual Experience Composer](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md),<br>[Android - set up the mobile app](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-android.md),<br>[iOS - set up the mobile app](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-ios.md), and<br>[Set up click tracking in the Mobile VEC](/help/c-target-mobile-app/c-mobile-visual-experience-composer/set-up-click-tracking-in-the-mobile-vec.md)|New topics.|
 ||[Pass dynamic data into offers](/help/c-experiences/c-manage-content/passing-profile-attributes-to-the-html-offer.md)|Updated text.|
 |May 13, 2019|[Activity QA](/help/c-activities/c-activity-qa/activity-qa.md)|Added item to the Considerations list about using QA Mode in a multi-page activity.|
