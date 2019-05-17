@@ -31,8 +31,8 @@ This function lets you retrieve multiple offers by passing in multiple mboxes. A
 |Request > id > thirdPartyId|No|Maximum size = 128|||
 |Request > experienceCloud|No|||
 |Request > experienceCloud > analytics|No||Adobe Analytics integration|
-|Request > experienceCloud > analytics > logging|No|||
-|Request > prefetch|No|The following must be implemented on page:<ul><li>Visitor ID Service</li><li>Appmeasurement.js</li></ul>|The following values are supported:<br>**client_side**: When specified, an analytics payload will be returned to the caller which should be used to send to Adobe Analytics via the Data Insertion API.<br>**server_side**: This is the default value where the Target and Analytics backend will use the SDID to stitch the calls together for reporting purposes.|
+|Request > experienceCloud > analytics > logging|No|The following must be implemented on page:<ul><li>Visitor ID Service</li><li>Appmeasurement.js</li></ul>|The following values are supported:<br>**client_side**: When specified, an analytics payload will be returned to the caller which should be used to send to Adobe Analytics via the Data Insertion API.<br>**server_side**: This is the default value where the Target and Analytics backend will use the SDID to stitch the calls together for reporting purposes.|
+|Request > prefetch|No|||
 |Request > prefetch > views|No|Maximim count 50<br>Name not blank<br>Name length `<=` 128<br>Value length `<=` 5000<br>Name should not start with "profile"<br>Not allowed names: "orderId", "orderTotal", "productPurchasedId"|Pass in parameters to be used to retrieve relevant views in active activities.|
 |Request > prefetch > views > profileParameters|No|Maximim count 50<br>Name not blank<br>Name length `<=` 128<br>Value length `<=` 5000<br>Name should not start with "profile"|Pass in profile parameters to be used to retrieve relevant views in active activities.|
 |Request > prefetch > views > product|No|||
