@@ -319,7 +319,7 @@ The recommendation is determined by the popularity of items on your site. Popula
 
 General pages, such as home or landing pages and offsite ads.
 
-### Recently Viewed Items
+### Recently Viewed Items {#recently-viewed}
 
 Uses the visitor's history (spanning sessions) to present the last *x* items the visitor has viewed, based on the number of slots in the design.
 
@@ -327,7 +327,7 @@ The Recently Viewed Items criteria now returns results specific to a given [envi
 
 **Logic (Criteria)**
 
-None
+ * [UICONTROL Previously Purchased Items]
 
 **Where to use on your site**
 

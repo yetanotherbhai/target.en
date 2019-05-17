@@ -13,6 +13,14 @@ uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 
 This page lists important changes made to the [!DNL Adobe Target] documentation.
 
+## ## Adobe Target Standard/Premium 19.5.1 (May 21, 2019) {tgt-19-5-1}
+
+|Date|Topic|Changes|
+| --- | --- | --- |
+|May 21, 2019|[Single Page App (SPA) Visual Experience Composer](/help/c-experiences/spa-visual-experience-composer.md)|<ul><li>Updated information about the "Move" option.</li><li>Added note that you can perform many actions before the page loads in the VEC, or even if the page fails to load altogether. </li></ul>|
+||[Recently Viewed Items](/help/c-recommendations/c-algorithms/create-new-algorithm.md#recently-viewed) in *Create criteria*|Added that you can use the Recommend Previously Purchased Items toggle while creating Recently Viewed Items logic.|
+||[Release Notes](/help/r-release-notes/release-notes.md): 19.5.1|This release includes enhancements and fixes. You can read about them and link to the documentation from the Release Notes. This release also includes many documentation updates throughout the help.|
+
 ## Adobe Target Standard/Premium 19.4.2 (April 30, 2019) {19-4-2}
 
 **Note**: The Target Standard/Premium 19.4.1 release was a maintanence release to update the Adobe Experience Cloud UI to reflect branding and product changes.
