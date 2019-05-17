@@ -14,10 +14,6 @@ This function sends a notification to Target edge when an experience is rendered
 
 >[!NOTE]
 >
->This feature will be available with the upcoming release of [at.js 2.1.0](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
-
->[!NOTE]
->
 >This function has been introduced in at.js 2.1.0 and will be available for any versions above 2.1.0.
 
 |Key|Type|Required?|Description|

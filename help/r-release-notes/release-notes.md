@@ -24,10 +24,6 @@ Be aware of the following important announcements:
 
 We are thrilled to announce the following exciting features in at.js 2.1.0:
 
->[!NOTE]
->
->The exact date of the release of at.js 2.1.0 will be announced shortly, but we wanted to give you a sneak preview.
-
 |Feature / Enhancement|Description|
 | --- | --- |
 |Adobe Opt-in support|Adobe Opt-In is a way to simplify Adobe solutions integrations with consent management platforms.<br>For more information about Adobe Opt-in, see [Privacy and General Data Protection Regulation (GDPR)](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md).|
