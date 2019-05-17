@@ -327,7 +327,7 @@ The Recently Viewed Items criteria now returns results specific to a given [envi
 
 **Logic (Criteria)**
 
- * [UICONTROL Previously Purchased Items]
+* [UICONTROL Recommend Previously Purchased Items]
 
 **Where to use on your site**
 
