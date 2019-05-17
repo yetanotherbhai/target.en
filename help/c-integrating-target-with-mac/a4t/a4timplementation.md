@@ -71,9 +71,9 @@ src="http://INSERT-DOMAIN-AND-PATH-TO-CODE-HERE/mbox.js"></script>
 
 It is essential that VisitorAPI.js is loaded before at.js or mbox.js. If you are updating an existing at.js or mbox.js file, make sure that you verify the load order.
 
-The way the out-of-the-box settings are configured for Target and Analytics integration from an implementation perspective is to use the SDID that is passed from the page to stitch the Target and  Analytics request together on the backend automatically for you. This is can only be specified by having the **[!UICONTROL analyticsLogging]** field set to **server_side** in at.js 2.1. Note: any versions below 2.1 do not support this approach.
+The way the out-of-the-box settings are configured for Target and Analytics integration from an implementation perspective is to use the SDID that is passed from the page to stitch the Target and  Analytics request together on the backend automatically for you. 
 
-However, if you want more control on how and when to send analytics data related to Target to Analytics for reporting purposes, and you do not want to opt-in to the default settings of having Target and Analytics automatically stitch the analytics data via the SDID, then you can set **analyticsLogging = client_side** via **window.targetGlobalSettings**. 
+However, if you want more control on how and when to send analytics data related to Target to Analytics for reporting purposes, and you do not want to opt-in to the default settings of having Target and Analytics automatically stitch the analytics data via the SDID, then you can set **analyticsLogging = client_side** via **window.targetGlobalSettings**. Note: any versions below 2.1 do not support this approach.
 
 For example:
 
