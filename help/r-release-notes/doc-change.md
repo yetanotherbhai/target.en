@@ -21,6 +21,7 @@ This page lists important changes made to the [!DNL Adobe Target] documentation.
 ||[Recently Viewed Items](/help/c-recommendations/c-algorithms/create-new-algorithm.md#recently-viewed) in *Create criteria*|Added that you can use the Recommend Previously Purchased Items toggle while creating Recently Viewed Items logic.|
 ||[Users](/help/administrating-target/c-user-management/c-user-management/user-management.md)|Udated text, updated images, and added training video.|
 ||[Configure enterprise permissions](/help/administrating-target/c-user-management/property-channel/properties-overview.md)|Udated text and images.|
+||[Limits](/help/r-troubleshooting-target/target-limits.md)|Added the character limit for the customer attribute alias ID.|
 ||[Release Notes](/help/r-release-notes/release-notes.md): 19.5.1|This release includes enhancements and fixes. You can read about them and link to the documentation from the Release Notes. This release also includes many documentation updates throughout the help.|
 
 ## Adobe Target Standard/Premium 19.4.2 (April 30, 2019) {19-4-2}
