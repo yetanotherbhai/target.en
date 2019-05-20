@@ -330,7 +330,7 @@ The following tables explain at.js. 2.0.0 compatibility with different activity 
 >
 >Auto-Target activities are supported through at.js 2.x and the VEC when all modifications are applied to the `Page Load Event`. When modifications are added to particular views, A/B Test, Auto-Allocate, and Experience Targeting (XT) activities only are supported.
 
-### Integrations
+### Integrations {#integrations}
 
 |Type|Supported?|
 | --- | --- |
