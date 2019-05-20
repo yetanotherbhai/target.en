@@ -194,9 +194,9 @@ Now that we have covered what Adobe Target Views are, we can leverage this conce
 
    **Actions** 
 
-   Clicking an action highlights the element on the site where this action will be applied. Each VEC action created under a view has four icons as shown below: Information, Edit, Move to "Page Load," and Delete.
+   Clicking an action highlights the element on the site where this action will be applied. Each VEC action created under a View has four icons as shown below: Information, Edit, Move, and Delete.
 
-   ![Modifications panel](/help/c-experiences/assets/modifications.png)
+   ![Modifications](/help/c-experiences/assets/modifications-new.png)
 
    The following table describes each action:
 
