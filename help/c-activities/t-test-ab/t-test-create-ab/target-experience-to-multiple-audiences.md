@@ -29,7 +29,9 @@ In this case, what you need are geo-specific versions of the experience, so you 
 
 1. [Create an A/B activity](../../../c-activities/t-test-ab/t-test-create-ab/test-create-ab.md#task_68C8079BF9FF4625A3BD6680D554BB72) as you normally would.
 
-   When configuring the experience that will have multiple versions, select the audience for each version, as shown in the following steps. 1. Select the experience, then click **[!UICONTROL Configure]** > **[!UICONTROL Audiences]** > **[!UICONTROL Multiple Audiences]**.
+   When configuring the experience that will have multiple versions, select the audience for each version, as shown in the following steps. 
+   
+1. Select the experience, then click **[!UICONTROL Configure]** > **[!UICONTROL Audiences]** > **[!UICONTROL Multiple Audiences]**.
 
    ![](assets/multiple-audiences.png)
 
@@ -39,7 +41,8 @@ In this case, what you need are geo-specific versions of the experience, so you 
 
    If the audience does not yet exist, click [Create Audience](../../../c-target/c-audiences/create-audience.md#task_E18BD77A9A8F4ED0AC50569F94556558) and set it up.
 
-   If a visitor qualifies for more than one audience, the content for all audiences is returned, with the last one in the list actually rendering on the page. 
+   If a visitor qualifies for more than one audience, the content for all audiences is returned, with the last one in the list actually rendering on the page.
+
 1. Continue setting up the activity.
 
 **Best Practices**

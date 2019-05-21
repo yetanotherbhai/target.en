@@ -13,6 +13,16 @@ uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 
 This page lists important changes made to the [!DNL Adobe Target] documentation.
 
+## Adobe Target Standard/Premium 19.5.1 (May 21, 2019) {tgt-19-5-1}
+
+|Date|Topic|Changes|
+| --- | --- | --- |
+|May 21, 2019|[Single Page App (SPA) Visual Experience Composer](/help/c-experiences/spa-visual-experience-composer.md)|<ul><li>Updated information about the "Move" option.</li><li>Added note that you can perform many actions before the page loads in the VEC, or even if the page fails to load altogether. </li></ul>|
+||[Users](/help/administrating-target/c-user-management/c-user-management/user-management.md)|Udated text, updated images, and added training video.|
+||[Configure enterprise permissions](/help/administrating-target/c-user-management/property-channel/properties-overview.md)|Udated text and images.|
+||[Limits](/help/r-troubleshooting-target/target-limits.md)|Added the character limit for the customer attribute alias ID.|
+||[Release Notes](/help/r-release-notes/release-notes.md): 19.5.1|This release includes enhancements and fixes. You can read about them and link to the documentation from the Release Notes. This release also includes many documentation updates throughout the help.|
+
 ## Adobe Target Standard/Premium 19.4.2 (April 30, 2019) {19-4-2}
 
 **Note**: The Target Standard/Premium 19.4.1 release was a maintanence release to update the Adobe Experience Cloud UI to reflect branding and product changes.
