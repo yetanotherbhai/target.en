@@ -325,10 +325,6 @@ Uses the visitor's history (spanning sessions) to present the last *x* items the
 
 The Recently Viewed Items criteria now returns results specific to a given [environment](/help/administrating-target/hosts.md). If two sites belong to different environments and a visitor switches between the two sites, each site shows only recently viewed items from the appropriate site. If two sites are in the same environment and a visitor switches between the two sites, the visitor will see the same recently viewed items for both sites.
 
-**Logic (Criteria)**
-
-* [UICONTROL Recommend Previously Purchased Items]
-
 **Where to use on your site**
 
 General pages, such as home or landing pages and offsite ads.

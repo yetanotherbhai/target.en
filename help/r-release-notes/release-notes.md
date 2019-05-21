@@ -31,7 +31,6 @@ This release includes the following features, changes, and enhancements:
 |Feature / Enhancement | Description |
 | --- | --- |
 |Single Page App Visual Experience Composer (SPA VEC)|The SPA VEC includes the following enhancements to make your work quicker and more efficient:<ul><li>Clicking an action in the SPA highlights the element on the site where this action will be applied. Each VEC action created under a View has four corresponding icons: Information, Edit, Move, and Delete. New "Move" functionality in this release lets you move the action to a Page Load Event or any other View that already exists in the modifications panel. (TGT-33746)</li><li>You can perform many actions before the page loads in the VEC, or even if the page fails to load altogether (for example, custom code is no longer operational). Actions that cannot be edited before the site loads are disabled in the Target UI. (TGT-33851 & TGT-34149)</li></ul>For more information, see [Single Page App (SPA) Visual Experience Composer](/help/c-experiences/spa-visual-experience-composer.md).|
-|Recommendations<br>![Premium badge](/help/assets/premium.png)|You can use the Recommend Previously Purchased Items toggle while creating Recently Viewed Items logic. (TGT-34030)<br>For more information, see [Recently Viewed Items](/help/c-recommendations/c-algorithms/create-new-algorithm.md#recently-viewed) in *Create criteria*.|
 
 ### Enhancement, fixes, and changes
 
