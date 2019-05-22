@@ -18,6 +18,8 @@ This page lists important changes made to the [!DNL Adobe Target] documentation.
 |Date|Topic|Changes|
 | --- | --- | --- |
 |May 22 2019|[Mobile App Visual Experience Composer](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md#video)|Added training video.|
+||[iOS - set up the mobile app](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-ios.md#tutorial)|Added links to new tutorials.|
+||[Android - set up the mobile app](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-android.md#tutorial)|Added link to new tutorial.|
 |May 21, 2019|[Single Page App (SPA) Visual Experience Composer](/help/c-experiences/spa-visual-experience-composer.md)|<ul><li>Updated information about the "Move" option.</li><li>Added note that you can perform many actions before the page loads in the VEC, or even if the page fails to load altogether. </li></ul>|
 ||[Users](/help/administrating-target/c-user-management/c-user-management/user-management.md)|Udated text, updated images, and added training video.|
 ||[Configure enterprise permissions](/help/administrating-target/c-user-management/property-channel/properties-overview.md)|Udated text and images.|
