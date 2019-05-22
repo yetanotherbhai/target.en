@@ -300,7 +300,7 @@ There might be certain scenarios when you might want to call the prefetch API ag
    */ 
   public static void prefetchOffersBackground();
   ```
-  
+
 ## Tutorial: Implement the Experience Cloud in Mobile Android Applications {#tutorial}
 
 * [Implement the Experience Cloud in Mobile Android Applications](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-mobile-android-apps-with-launch/index.html)
