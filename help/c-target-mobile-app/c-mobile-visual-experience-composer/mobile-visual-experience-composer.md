@@ -194,3 +194,6 @@ Note that each time Target offers are prefetched, the offers for the last Target
 
   Ensure that you close the app by closing it from the recent apps section and not by pressing the [!UICONTROL Back] button.
 
+## Training video: Adobe Target Mobile App Visual Experience Composer (3:33) {#video}
+
+>[!VIDEO](https://www.youtube.com/watch?v=VOahCFx0sV4)
