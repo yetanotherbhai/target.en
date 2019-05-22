@@ -196,4 +196,4 @@ Note that each time Target offers are prefetched, the offers for the last Target
 
 ## Training video: Adobe Target Mobile App Visual Experience Composer (3:33) {#video}
 
->[!VIDEO](https://www.youtube.com/watch?v=VOahCFx0sV4)
+>[!VIDEO](https://video.tv.adobe.com/v/27528)
