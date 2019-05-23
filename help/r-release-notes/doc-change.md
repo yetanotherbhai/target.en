@@ -17,6 +17,15 @@ This page lists important changes made to the [!DNL Adobe Target] documentation.
 
 |Date|Topic|Changes|
 | --- | --- | --- |
+|May 23, 2019|[Server Side: implement Target](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)|Updated text in the introduction.|
+||[Experiences and offers](/help/c-experiences/experiences.md)|Updated text in the introduction.|
+||[Audiences](/help/c-target/target.md)|Updated text in the introduction.|
+||[Success metrics](/help/c-activities/r-success-metrics/success-metrics.md)|Updated text in the introduction.|
+||[Reports](/help/c-reports/reports.md)|Updated text in the introduction.|
+||[Visual Experience Composer (VEC)](/help/c-experiences/c-visual-experience-composer/visual-experience-composer.md)|Updated text in the introduction.|
+||[Form-based Experience Composer](/help/c-experiences/form-experience-composer.md)|Updated text in the introduction.|
+||[Enterprise user permissions](/help/administrating-target/c-user-management/property-channel/property-channel.md)|Updated text in the introduction.|
+||[Glossary](/help/c-intro/glossary.md)|Added and updated several entries.|
 |May 22 2019|[Mobile App Visual Experience Composer](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md#video)|Added training video.|
 ||[iOS - set up the mobile app](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-ios.md#tutorial)|Added links to new tutorials:<ul><li>Implement the Experience Cloud in Mobile iOS Objective-C Applications</li><li>Implement the Experience Cloud in Mobile iOS Swift Applications</li></ul>|
 ||[Android - set up the mobile app](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-android.md#tutorial)|Added link to new tutorial:<ul><li>Implement the Experience Cloud in Mobile Android Applications</li></ul>|

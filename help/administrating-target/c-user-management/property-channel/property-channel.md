@@ -14,7 +14,7 @@ badge: premium
 
 # ![PREMIUM](/help/assets/premium.png) Enterprise user permissions{#enterprise-user-permissions}
 
-Information about creating properties and using the Properties and Permissions functionality that lets Target administrators create separate workspaces (product profiles) in Target and then assign users different roles and permissions for individual pages, properties, or web sites based on these workspaces.
+Enterprise user permissions is a means of formal administering enterprise-wide user access to Target. Add users to Target, assign permissions based on their roles, and create workspaces for teams based on different departments, global locations, channel, and other logical groupings. You can assign users the roles of Observer, Editor, or Approver.
 
 ## Determine Whether You Have Access to Enterprise User Permissions
 
