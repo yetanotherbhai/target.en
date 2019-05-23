@@ -12,6 +12,8 @@ uuid: 24e9ae0f-099b-430b-b2bb-03b405f88929
 
 In Target Standard, success metrics are pre-configured for both reporting and tracking purposes.
 
+Success metrics are parameters used to measure the success of an activity. Success metrics include key business measures that enable you to determine the success of a given experience or offer in a Target activity. For example, you can determine if a new offer increases your revenue per visitor or adding an item to a shopping cart. Success metrics can be useful for discovering issues with registration, ordering, or purchase funnels, but also simply with visitor or customer engagement.
+
 In keeping with the [!DNL Target Standard] goal of simplifying test creation, the application takes care of some of the configuration that was done manually in [!DNL Target Classic]. For example, success metrics are pre-configured with the optimal options.
 
 By default, conversion events are set to "count once and keep the entrant in the activity" in [!DNL Target Standard]. Conversions are counted only once, no repeat conversions are counted, and the visitor always sees the test content.

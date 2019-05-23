@@ -11,9 +11,7 @@ uuid: 6791ed6f-69d0-4ec4-9ea4-47aa92b2a4c9
 
 # Form-Based Experience Composer{#form-based-experience-composer}
 
-The Form-Based Experience Composer provides non-visual experience creation.
-
- This feature enables Target Standard A/B tests, Experience Targeting, Automated Personalization, and Recommendations activities to be delivered in emails, mobile apps, kiosks, and other places that don't work with a Visual Experience Composer.
+The Form-Based Experience Composer is a non-visual experience and offer creation interface that’s useful in creating experiences for use in A/B Tests, Experience Targeting, Automated Personalization, and Recommendations activities when the visual experience composer is not available or practical for use. For example, you might use the form-based composer to create experiences and offers for delivery in emails, kiosks, and voice assistants.
 
 If you are creating a Recommendations activity, there are no experiences. Choose your criteria and design. If you choose multiple criteria or designs, Target automatically generates the experiences. 
 
