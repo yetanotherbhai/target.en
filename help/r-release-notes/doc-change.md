@@ -17,7 +17,9 @@ This page lists important changes made to the [!DNL Adobe Target] documentation.
 
 |Date|Topic|Changes|
 | --- | --- | --- |
-|May 23, 2019|[Server Side: implement Target](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)|Updated text in the introduction.|
+|May 24, 2019|[Target release notes (prerelease)](/help/r-release-notes/target-release-notes.md)|Added information about at.js 2.1.0.|
+|May 23, 2019|[Manage exclusions](/help/c-activities/t-automated-personalization/managing-exclusions.md)|Added information and link to limit which audiences can see specific offers in AP activities using targeting rules.|
+||[Server Side: implement Target](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)|Updated text in the introduction.|
 ||[Experiences and offers](/help/c-experiences/experiences.md)|Updated text in the introduction.|
 ||[Audiences](/help/c-target/target.md)|Updated text in the introduction.|
 ||[Success metrics](/help/c-activities/r-success-metrics/success-metrics.md)|Updated text in the introduction.|
