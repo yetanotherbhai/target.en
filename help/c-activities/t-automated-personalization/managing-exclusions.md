@@ -10,13 +10,15 @@ uuid: c67901d2-19cd-47d3-b8c4-abdcb046f404
 
 # Manage exclusions{#manage-exclusions}
 
-Manage exclusion groups and duplicate offers in Automated Personalization (AP) activities.
+Manage exclusion groups and duplicate offers in Automated Personalization (AP) activities. 
 
 ## Create Exclusion Groups {#task_AAAA6C7239A84F7696C8492F04B575A2}
 
 Create exclusion groups in Automated Personalization (AP) activities to ensure that experiences with the designated offers are automatically excluded. 
 
 Exclusion groups are a great way to ensure that incompatible offers are not presented in the same experience in different locations. For example, suppose you have two offers: one is for 20% off of all merchandise and the other is for 15% off. You would never want these two offers to be presented to visitors in the same experience. If you add these two offers to an exclusion group, you can ensure that this will never be the case.
+
+You can also limit which audiences can see specific offers in AP activities. For more information, see [Target Automated Personalization offers](/help/c-activities/t-automated-personalization/ap-target-offers.md).
 
 **To create an exclusion group:** 
 

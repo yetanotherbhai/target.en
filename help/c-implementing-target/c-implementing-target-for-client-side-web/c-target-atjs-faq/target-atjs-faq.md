@@ -82,15 +82,15 @@ For more information, see [How at.js manages flicker](/help/c-implementing-targe
 
 [!DNL Adobe Experience Manager] 6.2 with FP-11577 (or later) now supports [!DNL at.js] implementations with its [!UICONTROL Adobe Target Cloud Services] integration. For more information, see [Feature Packs](https://docs.adobe.com/docs/en/aem/6-2/release-notes/feature-packs.html) and [Integrating with Adobe Target](https://docs.adobe.com/docs/en/aem/6-2/administer/integration/marketing-cloud/target.html) in the *Adobe Experience Manager 6.2* documentation.
 
-## How can I prevent page-load flicker using at.js ? {#section_4D78AAAE73C24E578C974743A3C65919}
+## How can I prevent page-load flicker using at.js? {#section_4D78AAAE73C24E578C974743A3C65919}
 
 Target provides several ways to prevent page-load flicker. For more information, see [Preventing Flicker with at.js](../../../c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/manage-flicker-with-atjs.md#concept_AA168574397D4474B993EEAB90865EBA).
 
-## What is the file size of at.js ? {#section_6A25C9A14C66441785A7635FEF5C4475}
+## What is the file size of at.js? {#section_6A25C9A14C66441785A7635FEF5C4475}
 
 The at.js file is approximately 109 KB when downloaded. However, because most servers automatically compress files to make file sizes smaller, at.js is approximately 34 KB when compressed (using GZIP or another method) on your server and loaded as users visit your website. The compression settings on the server where you installed at.js determine its actual compressed size.
 
-## Why is at.js bigger than mbox.js ? {#section_AA1C43897E46448FA3E26EEC10ED7E51}
+## Why is at.js bigger than mbox.js? {#section_AA1C43897E46448FA3E26EEC10ED7E51}
 
 at.js implementations use a single library ( [!DNL at.js]), while mbox.js implementations actually use two libraries ( [!DNL mbox.js] and [!DNL target.js]). So a fairer comparison is at.js versus mbox.js *and* `target.js`. Comparing the gzipped sizes of the two versions, at.js version 1.2 is 34 KB and mbox.js version 63 is 26.2 KB. ``
 
@@ -120,7 +120,7 @@ Yes, you can use the VEC for your SPA if you utilize at.js 2.x. For more informa
 
 Yes. You can also use mboxTrace for debugging purposes or your browser's Developer Tools to inspect the Network requests, filtering to "mbox" to isolate mbox calls.
 
-## Can I use special characters in mbox names with at.js ? {#section_8E31D2E8A27642098934D7DACFB2A600}
+## Can I use special characters in mbox names with at.js? {#section_8E31D2E8A27642098934D7DACFB2A600}
 
 Yes, same as with mbox.js.
 
