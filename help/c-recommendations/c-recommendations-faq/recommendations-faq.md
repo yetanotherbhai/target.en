@@ -15,6 +15,22 @@ badge: premium
 
 List of frequently asked questions (FAQs) about Recommendations activities.
 
+## What is the expected ingest timeframe for Recommendations operations?
+
+The following changes should be reflected within approximately 60 minutes:
+
+* Item attributes that are returned in the Design template.
+* Item attributes used in global exclusion rules that prevent the item from being included in returned recommendations.
+* Item attributes used in inclusion rules within the criteria that impact whether the item is included or excluded in returned recommendations.
+
+The following changes are not reflected until the next algorithm run (12-24 hrs):
+
+* Item attributes used in the Collection rules used for the activity.
+* Item attributes used in a promotion based on an attribute or collection associated with the activity.
+* Item category that the item appears in for a "Current Category" or "Favorite Category" in the Top Sellers or Most Viewed algorithm.
+* Ranking of recommended items when the attribute changed is a custom attribute that is used as the custom key for an algorithm.
+* Ranking of recommended items based on the changed attribute(s) when the recommendation logic is "Items with similar attributes," when "Content Similarity" weighting factors are used, or when "Attribute Weighting" factors are used.
+
 ## What should I do if special characters are breaking my array? {#section_D27214116EE443638A60887C7D1C534E}
 
 Use escaped values in JavaScript. Quotation marks ( " ) can break the array. The following code snippet is an example of escaped values:
