@@ -79,16 +79,16 @@ You can also quickly change the language to any supported language by clicking t
 
 The [!DNL Target] documentation is available in the following languages:
 
-   * English
-   * Spanish
-   * French
-   * German
-   * Japanese
-   * Italian
-   * Brazilian Portuguese
-   * Chinese Simplified (coming soon)
-   * Chinese Traditional
-   * Korean 
+* English
+* Spanish
+* French
+* German
+* Japanese
+* Italian
+* Brazilian Portuguese
+* Chinese Simplified (coming soon)
+* Chinese Traditional
+* Korean 
 
 ## Training video: Adobe Target in the Experience Cloud (4:59)
 
