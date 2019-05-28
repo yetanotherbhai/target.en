@@ -13,13 +13,13 @@ uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 
 These release notes provide information about features, enhancements, and fixes for the latest or upcoming [!DNL Adobe Target] releases.
 
-**Last Updated: May 24, 2019**
+**Last Updated: May 28, 2019**
 
 >[!NOTE]
 >
 >These release notes contain prerelease information. Release dates, features, and other information are subject to change. To view information about the current release, see [Target Release Notes](release-notes.md). The information on these pages might be the same or it might differ, depending on the timing of releases.
 
-## at.js version 2.1.0 (May 28, 2019)
+## at.js version 2.1.0 (June 3, 2019)
 
 We are thrilled to announce the following exciting features in at.js 2.1.0:
 
