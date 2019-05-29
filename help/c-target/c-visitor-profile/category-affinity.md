@@ -27,7 +27,7 @@ You can use `user.categoryAffinities[]` in a profile script to return an array o
 
 >[!IMPORTANT]
 >
->The `user.categoryId` attribute used for Adobe Target's category affinity algorithm is distinct from the `entity.categoryId` attribute used for Adobe Target Recommendations' product and content recommendations. `user.categoryId` is required to track a user's favorite category. `entity.categoryId` is required to base recommendations on the current page's or current item's category. Pass both values to Adobe Target if you wish to use both capabilities.
+>The `user.categoryId` attribute used for Adobe Target's category affinity algorithm is distinct from the `entity.categoryId` attribute used for Adobe Target Recommendations' product and content recommendations. `user.categoryId` is required to track a user's favorite category. `entity.categoryId` is required to base recommendations on the current page's or current item's category. Pass both values to Adobe Target if you want to use both capabilities.
 
 ## Business case for category affinity {#section_D6FF913E88E6486B8FBCE117CA8B253B}
 

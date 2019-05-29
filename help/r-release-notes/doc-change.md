@@ -17,12 +17,15 @@ This page lists important changes made to the [!DNL Adobe Target] documentation.
 
 |Date|Topic|Changes|
 | --- | --- | --- |
+|May 29, 2019|[Category affinity](/help/c-target/c-visitor-profile/category-affinity.md)|Updated text to clarify the difference between `user.categoryId` and `entity.categoryId`.|
+||[Migrate from mbox.js to at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md)|Relocated section to this topic: Benefits of at.js.|
+||[at.js Frequently Asked Questions](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md)|Relocated section to this topic: "What is the impact of at.js and mbox.js on page-load time?"|
 |May 28, 2019|[Access Target from the Adobe Experience Cloud](/help/c-intro/target-access-from-mac.md#doc-lang)|Added new section: "Change the language for the Target product documentation."|
 ||[Determine a winner](/help/c-activities/automated-traffic-allocation/determine-winner.md)|Updated information abut p-values.|
 ||[Troubleshooting Issues Related to the Visual Experience Composer and Enhanced Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md)|Added troubleshooting section about how Target handles multi-level iframes.|
 ||[Recommendations FAQ](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md)|Added new FAQ: "What is the expected ingest timeframe for Recommendations operations?"|
 ||[Implement Target using Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)|Updated the information under "Advantages of Implementing at.js Using the Target Launch Extension."|
-||T[roubleshoot content delivery](/help/c-activities/c-troubleshooting-activities/content-trouble.md)|Added new troubleshooting section about at.js not firing mboxes if you are using an invalid doctype.|
+||[Troubleshoot content delivery](/help/c-activities/c-troubleshooting-activities/content-trouble.md)|Added new troubleshooting section about at.js not firing mboxes if you are using an invalid doctype.|
 |May 24, 2019|[Target release notes (prerelease)](/help/r-release-notes/target-release-notes.md)|Added information about at.js 2.1.0.|
 |May 23, 2019|[Manage exclusions](/help/c-activities/t-automated-personalization/managing-exclusions.md)|Added information and link to limit which audiences can see specific offers in AP activities using targeting rules.|
 ||[Server Side: implement Target](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)|Updated text in the introduction.|
