@@ -20,6 +20,7 @@ This page lists important changes made to the [!DNL Adobe Target] documentation.
 |May 29, 2019|[Category affinity](/help/c-target/c-visitor-profile/category-affinity.md)|Updated text to clarify the difference between `user.categoryId` and `entity.categoryId`.|
 ||[Migrate from mbox.js to at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md)|Relocated section to this topic: Benefits of at.js.|
 ||[at.js Frequently Asked Questions](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md)|Relocated section to this topic: "What is the impact of at.js and mbox.js on page-load time?"|
+||[Pass dynamic data into offers](/help/c-experiences/c-manage-content/passing-profile-attributes-to-the-html-offer.md)|Corrected syntax in the Past behavior row.|
 |May 28, 2019|[Access Target from the Adobe Experience Cloud](/help/c-intro/target-access-from-mac.md#doc-lang)|Added new section: "Change the language for the Target product documentation."|
 ||[Determine a winner](/help/c-activities/automated-traffic-allocation/determine-winner.md)|Updated information abut p-values.|
 ||[Troubleshooting Issues Related to the Visual Experience Composer and Enhanced Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md)|Added troubleshooting section about how Target handles multi-level iframes.|
