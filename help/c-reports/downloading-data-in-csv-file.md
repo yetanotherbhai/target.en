@@ -79,4 +79,4 @@ The following information applies to the Download option:
 * You can download both reports for A/B, Automated Personalization, Experience Targeting, and Multivariate activities. You cannot download the Success Metrics report for Recommendation activities. 
 * The Download option is not available for A/B and Experience Targeting activities created before Target version 15.7.1 (July, 2015). 
 * Experiences with no associated data are not recorded in the downloaded report.
-
+* Audiences applied in the Target reporting UI do not carry over to the download report.

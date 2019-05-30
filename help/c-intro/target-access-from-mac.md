@@ -86,7 +86,7 @@ The [!DNL Target] documentation is available in the following languages:
 * Japanese
 * Italian
 * Brazilian Portuguese
-* Chinese Simplified (coming soon)
+* Chinese Simplified
 * Chinese Traditional
 * Korean 
 
