@@ -57,6 +57,12 @@ Customers who are using a custom integration (not using at.js or the Mobile SDK)
 
    >[!NOTE]
    >
+   >Due to the new changes introduced in iOS 12.2, creating an audience with rules defined by Device Marketing Name and Device Model that specify iPhone Models is impacted. We can no longer target users who have iPhones with iOS 12.2 installed on them. However, if those users do not have iOS 12.2, then the iPhone Model targeting continues to work correctly.
+   >
+   >The iOS 12.2 update does not affect the identification of the following models because these models do not support upgrading to iOS 12.2: iPhone, iPhone 3G, iPhone 3GS, iPhone 4, iPhone 4s, iPhone 5, iPhone 5c, iPad, iPad 2, iPad / Retina display, iPad Retina (4th Gen), iPod Touch 4, and iPod Touch 5.
+
+   >[!NOTE]
+   >
    >You can target by mobile device carrier using the [Geo settings](../../../c-target/c-audiences/c-target-rules/geo.md#concept_5B4D99DE685348FB877929EE0F942670).
 
 1. (Optional) Click **[!UICONTROL Add Rule]** and set up additional rules for the audience. 

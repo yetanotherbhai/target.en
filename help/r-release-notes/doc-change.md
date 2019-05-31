@@ -17,7 +17,8 @@ This page lists important changes made to the [!DNL Adobe Target] documentation.
 
 |Date|Topic|Changes|
 | --- | --- | --- |
-|May 31, 2019|[Plan and Implement Recommendations](/help/c-recommendations/plan-implement.md)|Updated code sample.|
+|May 31, 2019|[Mobile](/help/c-target/c-audiences/c-target-rules/mobile.md)|Added note regarding targeting devices running iOS 12.2.|
+||[Plan and Implement Recommendations](/help/c-recommendations/plan-implement.md)|Updated code sample.|
 |May 30, 2019|[Access Target from the Adobe Experience Cloud](/help/c-intro/target-access-from-mac.md#doc-lang)|The documentation is now available in the Chinese Simplified language.|
 ||[Downloading data in a CSV file](/help/c-reports/downloading-data-in-csv-file.md)|Added new caveat in the Export Order Details to CSV section: "Audiences applied in the Target reporting UI do not carry over to the download report."|
 ||[Report settings](/help/c-reports/c-report-settings/report-settings.md)|Updated screenshots.|
