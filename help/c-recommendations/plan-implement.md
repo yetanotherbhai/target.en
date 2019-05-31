@@ -94,17 +94,15 @@ This example might be especially useful for a media company, with content that c
 For example, you can use the following code in the header section of your product or content pages:
 
 ```
-function targetPageParams() { 
-   return { 
-      "entity": { 
-         "id": " 
-32323", 
-         "categoryId": " 
-My Category", 
-         "value": 105.56, 
-         "inventory": 329 
-      } 
-   } 
+function targetPageParams() {
+ return {
+    "entity": {
+       "id": "32323",
+       "categoryId": "My Category",
+       "value": 105.56,
+       "inventory": 329
+    }
+ }
 }
 ```
 
