@@ -98,9 +98,9 @@ function targetPageParams() {
    return { 
       "entity": { 
          "id": " 
-<i>32323</i>", 
+32323", 
          "categoryId": " 
-<i>My Category</i>", 
+My Category", 
          "value": 105.56, 
          "inventory": 329 
       } 
