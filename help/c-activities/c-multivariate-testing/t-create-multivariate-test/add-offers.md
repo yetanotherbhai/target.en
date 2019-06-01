@@ -1,7 +1,7 @@
 ---
 description: Use the Visual Experience Composer to create the offers you want to include in your test.
 seo-description: Use the Visual Experience Composer to create the offers you want to include in your test.
-seo-title: Create combinations
+seo-title: Create combinations in Adobe Target
 title: Create combinations
 uuid: 2ee47bf5-f8b3-41e2-b9a5-0ff4ab175373
 ---
