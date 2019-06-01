@@ -33,7 +33,7 @@ We are thrilled to announce the following exciting features in at.js 2.1.0:
 |Reduced file size|The size of at.js is reduced by ~24%. The smaller file size improves page load performance and reduces the time to download at.js on the page.|
 |at.js documentation updates|For a full list of all articles updated due to at.js 2.1.0, see the June 3, 2019 entries in [Documentation changes](/help/r-release-notes/doc-change.md).|
 
-## Mobile App Visual Experience Composer (May 14, 2019) {mobile-vec}
+## Mobile App Visual Experience Composer (May 14, 2019) {mobile-app-vec}
 
 |Feature / Enhancement | Description |
 | --- | --- |
