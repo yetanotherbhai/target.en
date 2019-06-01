@@ -15,6 +15,26 @@ badge: premium
 
 List of frequently asked questions (FAQs) about Recommendations activities.
 
+## How long will it take for updates to items in my catalog to be reflected on my site?
+
+After importing a feed file, or after receiving entity updates via API or mbox, the following changes will be reflected in under 60 minutes:
+
+* Item attributes that are returned in the Design template.
+* Item attributes used in global exclusion rules that prevent the item from being included in returned recommendations.
+* Item attributes used in inclusion rules within the criteria that impact whether the item is included or excluded in returned recommendations.
+
+The following changes are not reflected until the next algorithm run occurs (within 12-24 hrs):
+
+* Item attributes used in the Collection rules used for the activity.
+* Item attributes used in a promotion based on an attribute or collection associated with the activity.
+* Item category that the item appears in for a "Current Category" or "Favorite Category" in the Top Sellers or Most Viewed algorithm.
+* Ranking of recommended items when the attribute changed is a custom attribute that is used as the custom key for an algorithm.
+* Ranking of recommended items based on the changed attribute(s) when the recommendation logic is "Items with similar attributes," when "Content Similarity" weighting factors are used, or when "Attribute Weighting" factors are used.
+
+>[!NOTE]
+>
+>A feed file is considered imported when its status changes from "Importing Items" to "Preparing Search Index Updates". Updates may take more than 60 minutes to be reflected in the Catalog Search user interface; Catalog Search is up-to-date when the feed status changes to "Updates Completed". Even if Catalog Search is not yet up-to-date, your site will reflect updates on the timeframes listed above. The most recent Catalog Search index update time is displayed on the Catalog Search page.
+
 ## What should I do if special characters are breaking my array? {#section_D27214116EE443638A60887C7D1C534E}
 
 Use escaped values in JavaScript. Quotation marks ( " ) can break the array. The following code snippet is an example of escaped values:

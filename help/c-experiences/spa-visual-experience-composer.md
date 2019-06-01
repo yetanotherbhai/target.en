@@ -194,9 +194,9 @@ Now that we have covered what Adobe Target Views are, we can leverage this conce
 
    **Actions** 
 
-   Clicking an action highlights the element on the site where this action will be applied. Each VEC action created under a view has four icons as shown below: Information, Edit, Move to "Page Load," and Delete.
+   Clicking an action highlights the element on the site where this action will be applied. Each VEC action created under a View has four icons as shown below: Information, Edit, Move, and Delete.
 
-   ![Modifications panel](/help/c-experiences/assets/modifications.png)
+   ![Modifications](/help/c-experiences/assets/modifications-new.png)
 
    The following table describes each action:
 
@@ -204,8 +204,12 @@ Now that we have covered what Adobe Target Views are, we can leverage this conce
    | --- | --- |
    |Information|Displays the details of the action.|
    |Edit|Allows you to edit the properties of the action directly.|
-   |Move to “Page Load”|Moves the action to a page-load event. These actions are typically applied to static HTML of the SPA that are used across pages, such as the header and footer.|
+   |Move|Moves the action to a Page Load Event or any other View that already exists in the modifications panel.<br>[!UICONTROL Page Load Event] – any actions corresponding to the page load event is applied on the initial page load of your web application.<br>**Note** After a move operation is made, you need to navigate to the View in the VEC via Browse in order to see whether the move was a valid operation. If the action cannot be applied to the View, you will see an error|
    |Delete|Deletes the action.|
+
+   >[!NOTE]
+   >
+   >You can perform many actions before the page loads in the VEC, or even if the page fails to load altogether. Actions that cannot be edited before the site loads are disabled in the UI.
 
    **Example 1**
 

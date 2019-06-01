@@ -44,7 +44,7 @@ The [!DNL at.js] library is a new implementation library for [!DNL Adobe Target]
 
 **audience**
 
-A group of similar activity entrants who will see a targeted activity.
+A group of similar activity entrants who will see a targeted activity.  A group of people with the same characteristics, such as a new visitor, a returning visitor, or returning visitors from the Midwest. The Audience feature allows you to target different content and experiences to specific audiences to optimize your digital marketing by displaying the right messages to the right people at the right time. If a visitor is identified as part of a target audience, Target determines which experience to display, based on criteria defined during activity creation. 
 
 **Auto-Allocate**
 
@@ -150,6 +150,10 @@ The measurement of a visitors interest in a site, measured my time on site, clic
 
 The [!UICONTROL Enhanced Experience Composer] is an extension of the [!UICONTROL Visual Experience Composer] that helps you edit an experience for an iframe-busting site or pages that do not yet include the [!DNL Target] implementation. If you have trouble opening your page in the [!UICONTROL Visual Experience Composer], try the [!UICONTROL Enhanced Experience Composer].
 
+**Enterprise user permissions**
+
+A means of formal administering enterprise-wide user access to Target. Add users to Target, assign permissions based on their roles, and create workspaces for teams based on different departments, global locations, channel and other logical groupings. You can assign users the roles of Observer, Editor, or Approver.
+
 **entity attributes**
 
 Custom parameters used to pass product or content information to Recommendations.
@@ -164,7 +168,7 @@ Hosts are bundled into environments for ease of management. The preset host grou
 
 **experience**
 
-Defines the content (or offer) that displays in an mbox. Sometimes called a recipe.
+An offer, image, text, button, video, combination of these various elements on a page, an entire web page, or a set of pages that perhaps form a purchase funnel or some other logical sequence of pages. It can also be the response of a voice assistant, a customer service script, or even a personalized flavor from a drink machine. You test or personalize experiences in [!DNL Target] activities. 
 
 **experience targeting**
 
@@ -187,6 +191,10 @@ Returns content elements to a Flash file.
 **flow diagram**
 
 The visual representation of an activity in Target Standard.
+
+**Form-Based Experience Composer
+
+A non-visual experience and offer creation interface that’s useful in creating experiences for use in A/B tests, Experience Targeting, Automated Personalization, and Recommendations activities when the visual experience composer is not available or practical for use. For example, you might use the form-based composer to create experiences and offers for delivery in emails, kiosks, and voice assistants. 
 
 ## G {#section_D7B3B62BD3A449EFAA11DF9704773B28}
 
@@ -296,6 +304,10 @@ A group of users with a specific set of privileges.
 
 Use remote offers to host content outside of [!DNL Target] that [!DNL Target] references and delivers to users' websites. This content might be in a content management or other system, either for ease-of-use or for security reasons.
 
+**reports**
+
+Reports provide information about the progress and results of your activities that help you make decisions based on your data. Report data can help you decide when to end a test, show you which experience of offer is the winner, and provide insights or learnings you need to determine next actions.
+
 ## S {#section_9482B06EBB09486784492F838289E54D}
 
 **script profile parameter**
@@ -320,7 +332,7 @@ Similar to script profile parameter, but predefined to provide useful targeting 
 
 **success metrics**
 
-The parameters used to measure the success of an activity.
+The parameters used to measure the success of an activity. Success metrics include key business measures that enable you to determine the success of a given experience or offer in a Target activity. For example, you can determine if a new offer increases your revenue per visitor or adding an item to a shopping cart. Success metrics can be useful for discovering issues with registration, ordering, or purchase funnels, but also simply with visitor or customer engagement. 
 
 ## T {#section_1841144841AF41169AF1E83B90C18292}
 
@@ -346,7 +358,7 @@ A visitor is any person who accesses your site. A visitor is evaluate against ac
 
 **Visual Experience Composer**
 
-In Target Standard, a representation of your page that provides a way to visually identify the components of a Target-enabled page and to modify portions of the page directly rather than requiring you to use the Target application.
+In Target Standard, a WYSIWYG user interface that lets you easily create and test personalized experiences and offers in the site context. You can create experiences and offers for Target activities by dragging and dropping, swapping, and modifying the layout and content of a web page (or offer) or mobile web page.
 
 ## W {#section_62E7B598DBB34ECABAF4EF913B0895EC}
 

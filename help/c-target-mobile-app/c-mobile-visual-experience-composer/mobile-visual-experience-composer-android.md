@@ -301,3 +301,18 @@ There might be certain scenarios when you might want to call the prefetch API ag
   public static void prefetchOffersBackground();
   ```
 
+## Tutorial: Implement the Experience Cloud in Mobile Android Applications {#tutorial}
+
+* [Implement the Experience Cloud in Mobile Android Applications](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-mobile-android-apps-with-launch/index.html)
+
+After completing this tutorial you will be able to:
+
+* Create a mobile Launch property
+* Install a Launch property in an Android app
+* Implement the following Adobe Experience Cloud solutions:
+  * Experience Cloud ID Service
+  * Adobe Target
+  * Adobe Analytics
+  * Adobe Audience Manager
+
+* Publish changes in Launch through development, staging, and production environments

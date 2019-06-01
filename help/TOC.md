@@ -45,7 +45,6 @@ user-guide-url: /content/help/en/target/using/target-home.html
    + [Implement Target overview](c-implementing-target/implementing-target.md)
    + Before you implement {#before-implement}
       + [Before you implement](c-implementing-target/c-considerations-before-you-implement-target/considerations-before-you-implement-target.md)
-      + [Understand the Target JavaScript libraries](c-implementing-target/c-considerations-before-you-implement-target/target-implement.md)
       + [Prepare to implement Target](c-implementing-target/c-considerations-before-you-implement-target/prepare-to-implement-target.md)
       + Privacy {#privacy}
          + [Privacy overview](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md)

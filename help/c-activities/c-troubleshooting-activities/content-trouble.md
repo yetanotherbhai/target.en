@@ -142,6 +142,10 @@ For remote offers, the mbox response can contain `/* invalid remote offer URL */
 
 You can check the mbox response in the browser or using mboxTrace. See [https://tools.ietf.org/html/std66](https://tools.ietf.org/html/std66) for more information on valid URLs. 
 
+## mboxes are not firing on my site.
+
+at.js does not fire Target mboxes if you are using an invalid doctype. at.js requires the HTML 5 doctype.
+
 ## Training videos
 
 The following videos contain more information about the concepts discussed in this article.

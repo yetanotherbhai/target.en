@@ -14,11 +14,11 @@ badge: premium
 
 # ![PREMIUM](/help/assets/premium.png) Configure enterprise permissions{#configure-enterprise-permissions}
 
-Information about the tasks required to add users to your Target implementation;create workspaces, user groups, and properties;update your Target implementation to include the at_property parameter;and specify roles and permissions.
+Information about the tasks required to add users to your Target implementation; create workspaces, user groups, and properties; update your Target implementation to include the `at_property` parameter; and specify roles and permissions.
 
 >[!NOTE]
 >
->Properties and Permissions functionality is available as part of the [!DNL Target Premium] solution. They are not available in [!DNL Target Standard] without a [!DNL Target Premium] license.
+>Properties and Permissions functionality is available as part of the [Target Premium](/help/c-intro/intro.md#premium) solution. They are not available in [!DNL Target Standard] without a [!DNL Target Premium] license.
 
 The following table lists the tasks you should perform to create properties and assign user roles and permissions. Refer to the sections below for more information about each task.
 
@@ -33,11 +33,11 @@ The following table lists the tasks you should perform to create properties and 
 
 For those tasks performed in the Adobe Admin Console for Enterprise, access the console by following these steps:
 
-1. Go to [https://adminconsole.adobe.com/enterprise/](https://adminconsole.adobe.com/enterprise/) > sign in using your Adobe ID, if you have not already logged in.
+1. Go to [https://adminconsole.adobe.com/enterprise](https://adminconsole.adobe.com/enterprise/) > sign in using your Adobe ID, if you have not already logged in.
 
    Or
 
-   If you are already logged in to the Experience Cloud, go to [https://www.marketing.adobe.com](https://www.marketing.adobe.com/), then click the [!UICONTROL App] icon in the top navigation bar > click **[!UICONTROL Administration]** on the right side > then click **[!UICONTROL Launch Admin Console]**. 
+   If you are already logged in to the Experience Cloud, go to [https://www.experiencecloud.adobe.com](https://experiencecloud.adobe.com), then click the [!UICONTROL App] icon in the top navigation bar > click **[!UICONTROL Admin]** on the right side.
 
 1. (Conditional) If you have access to the [!DNL Admin Console for Enterprise] for more than one organization, click the user avatar in the right corner or the top navigation bar, then select the desired organization.
 
@@ -45,7 +45,7 @@ For those tasks performed in the Adobe Admin Console for Enterprise, access the 
 
 When you start using the new [!UICONTROL Properties] functionality, all user management must be performed in the [!DNL Adobe Admin Console for Enterprise]. However, all of your existing users in [!DNL Target] will be migrated from [!DNL Target] to the [!DNL Admin Console for Enterprise].
 
-1. [In the Admin Console](../../../administrating-target/c-user-management/property-channel/properties-overview.md#section_79796E0227D048F59BAE0AB02E544EBE), click the **[!UICONTROL Users]** tab at the top of the page > **[!UICONTROL Users]** to create new users or to edit existing users. 
+1. [In the Admin Console](../../../administrating-target/c-user-management/property-channel/properties-overview.md#section_79796E0227D048F59BAE0AB02E544EBE), click the **[!UICONTROL Users]** tab at the top of the page > **[!UICONTROL Add Users]** to create new users or to edit existing users. 
 1. Follow the instructions in [Manage Users and Groups in the Experience Cloud](https://helpx.adobe.com/enterprise/help/users.html) in the *Enterprise User Guide*.
 
 ## Step 2. Create a Workspace (Product Profile) {#section_B82EB409B67C4D9D9D20CE30E48DB1DC}
@@ -54,13 +54,13 @@ A workspace (Product Profile) lets an organization assign a specific set of user
 
 Organizations can begin taking advantage of Enterprise permissions functionality by creating new workspaces within Admin Console, assigning Target properties to these workspaces, and moving users from the "Default Workspace" configuration to these newer, limited-access workspaces.
 
-Customers can use these workspaces to separate access to different teams by region, by business unit, by sight section, or via any other method they choose.
+Customers can use these workspaces to separate access to different teams by region, by business unit, by site section, or via any other method they choose.
 
 Users can be part of multiple workspaces and can even have different roles within each workspace.
 
 1. In the Admin Console, click **[!UICONTROL Products]**, then select the name of the desired product.
 
-   ![workspace](/help/administrating-target/c-user-management/c-user-management/assets/workspace.png)
+   ![workspace](/help/administrating-target/c-user-management/c-user-management/assets/workspace-new.png)
 
 1. Create the desired workspace (Product Profile):
 
@@ -87,7 +87,7 @@ You'll need to pass the workspace ID to leverage Enterprise Permissions in [Targ
 1. In the [Adobe Admin Console](https://adminconsole.adobe.com), click the [!UICONTROL Products] tab, then click the product in the left menu to display the PLC(workspace) list.
 1. Click the desired PLC(workspace), then locate the "profiles" ID in the URL, as shown below.
 
-![workspaceID](/help/administrating-target/c-user-management/property-channel/assets/workspace-id-newest.png)
+   ![workspaceID](/help/administrating-target/c-user-management/property-channel/assets/workspace-id-newest.png)
 
 ## Step 3. Create User Groups (Optional) {#section_5F5CB9AA7A9F4D26953E22016DA59605}
 
@@ -111,7 +111,7 @@ Properties belong to specific channels (Web, Mobile, Email, and API/Other).
 
    Fill in the fields:
 
-    * **Channel:** Specify the desired channel for the property: Web, Mobile App, Email, or Other/API (for example a set-top box or PlayStation console). 
+    * **Channel:** Select the desired channel for the property: Web, Mobile App, Email, or Other/API (for example a set-top box or PlayStation console). 
     * **Name (Required):** Specify a descriptive name for the property. 
     * **Description:** Specify an optional description for the property.
 
@@ -146,11 +146,15 @@ To use the [!DNL Target] user-permissions functionality, you must add the `at_pr
 
    There are several ways to update your [!DNL Target] implementation. For example, the following methods can be used for web pages:
 
-    * **Via a "Global Parameter" in [!DNL Dynamic Tag Management] (Adobe Activation):**
+    * **Via a "Global Parameter in [!DNL Adobe Launch]:**
+
+      For more information, see [Add Global Mbox Params](https://docs.adobelaunch.com/extension-reference/web/adobe-target-extension#add-global-mbox-params) in the *Adobe Experience Platform Launch* documentation.
+
+    * **Via a "Global Parameter" in [!DNL Dynamic Tag Management]:**
 
       ![](assets/property_token_2.png)
 
-      For more information, see [Global Parameters - Adobe Target](https://marketing.adobe.com/resources/help/en_US/dtm/target_global_params.html) in the *Dynamic Tag Management Product Documentation*. 
+      For more information, see [Global Parameters - Adobe Target](https://docs.adobe.com/content/help/en/dtm/using/tools-reference/target.html#global-parameters---adobe-target) in the *Dynamic Tag Management Product Documentation*. 
     
     * **Via the targetPageParams() function:** Place the following code in the <head> tags, above the at.js or mbox.js reference.
 
@@ -168,16 +172,16 @@ To use the [!DNL Target] user-permissions functionality, you must add the `at_pr
 
 1. In the Admin Console, click **[!UICONTROL Products]**, then select the name of the desired product.
 
-   ![workspace](/help/administrating-target/c-user-management/c-user-management/assets/workspace.png)
+   ![Workspace](/help/administrating-target/c-user-management/c-user-management/assets/workspace-new.png)
 
    >[!NOTE]
    >
-   >The Properties and Permissions functionality applies to [!DNL Target Standard/Premium] only. You cannot use this functionality with [!DNL Target Classic].
+   >The Properties and Permissions functionality applies to [Target Standard/Premium](/help/c-intro/intro.md#premium) only. You cannot use this functionality with [!DNL Target Classic].
 
 1. Click the name of the desired profile. 
 1. Click **[!UICONTROL Users]**.
 
-   The [!UICONTROL Configuration Users] tab displays all of the users in that workspace.
+   The [!UICONTROL Users] tab displays all of the users in that workspace.
 
    ![Configure users](/help/administrating-target/c-user-management/property-channel/assets/configuration_users_new.png)
 

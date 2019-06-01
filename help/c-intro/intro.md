@@ -88,7 +88,13 @@ This functionality opens up entirely new capabilities, such as:
 
 [!DNL Recommendations Classic] automatically displays products or content that might interest your customers based on previous user activity on your website. Recommendations help direct customers to items they might otherwise not know about, improving sales generated on your website.
 
-For more information, see the [Recommendations Classic documentation](../assets/adobe-recommendations-classic.pdf). 
+For more information, see the [Recommendations Classic documentation](../assets/adobe-recommendations-classic.pdf).
+
+## Experience League: The Adobe Target Welcome Kit {#kit}
+
+Build your optimization and personalization program on Adobe Target with this Welcome Kit! It includes key information, tools, and resources to help you prepare for and launch your first Adobe Target activity, with short-term quick wins and long-term optimization strategies.
+
+[The Adobe Target Welcome Kit](https://expleague.azureedge.net/pdf/Adobe-Target-Welcome-Kit.pdf)
 
 ## Training video: Activity Types (9:03)
 

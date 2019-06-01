@@ -41,7 +41,7 @@ For tasks performed in the Adobe Admin Console, access the console by following 
 
    Or
 
-   If you are already logged in to the Experience Cloud, go to [https://www.marketing.adobe.com](https://www.marketing.adobe.com/), then click the [!UICONTROL App] icon in the top navigation bar > click **[!UICONTROL Administration]** on the right side > then click **[!UICONTROL Launch Admin Console]**. 
+   If you are already logged in to the Experience Cloud, go to [https://www.experiencecloud.adobe.com](https://experiencecloud.adobe.com), then click the [!UICONTROL App] icon in the top navigation bar > click **[!UICONTROL Admin]** on the right side. 
 
 1. (Conditional) If you have access to the [!DNL Admin Console for Enterprise] for more than one organization, click the user avatar in the right corner or the top navigation bar, then select the desired organization.
 
@@ -49,14 +49,14 @@ For tasks performed in the Adobe Admin Console, access the console by following 
 
 All user management must be performed in the [!DNL Adobe Admin Console for Enterprise]. However, all of your existing users in [!DNL Target] will be migrated from [!DNL Target] to the [!DNL Admin Console for Enterprise].
 
-1. [In the Admin Console](../../../administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE), click **[!UICONTROL User Management]** > **[!UICONTROL Users]** to create new users or to edit existing users. 
+1. [In the Admin Console](../../../administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE), click **[!UICONTROL Users]** > **[!UICONTROL Users]** to create new users or to edit existing users. 
 1. Follow the instructions in [Manage Users and Groups in the Experience Cloud](https://helpx.adobe.com/enterprise/help/users.html) in the *Enterprise User Guide*.
 
 ## Create User Groups {#section_5F5CB9AA7A9F4D26953E22016DA59605}
 
 You can create user groups, such as Developers, Analysts, Marketers, Executives, etc., and then assign privileges across multiple Adobe products and workspaces. Assigning a new team member all the appropriate privileges across different Adobe products can be as easy as adding them to a specific user group.
 
-1. [In the Admin Console](../../../administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE), click **[!UICONTROL User Management]** > **[!UICONTROL User Groups]** to create new user groups or to edit existing groups. 
+1. [In the Admin Console](../../../administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE), click **[!UICONTROL Users]** > **[!UICONTROL User Groups]** to create new user groups or to edit existing groups. 
 1. Follow the instructions in [Manage Users and Groups in the Experience Cloud](https://helpx.adobe.com/enterprise/help/users.html) in the *Enterprise User Guide*.
 
 ## Specify Roles and Permissions {#section_8C425E43E5DD4111BBFC734A2B7ABC80}
@@ -67,21 +67,33 @@ System admin users must add users to the system. Users are not automatically add
 
 1. [In the Admin Console](../../../administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE), click **[!UICONTROL Products]**, then select the name of the desired product.
 
-   ![](assets/workspace.png)
+   ![Products tab](/help/administrating-target/c-user-management/c-user-management/assets/workspace-new.png)
 
 1. Click the name of the desired configuration. 
-1. Click **[!UICONTROL Configuration Users]**.
+1. Click **[!UICONTROL Users]**.
 
-   The [!UICONTROL Configuration Users] tab displays all of the users in that workspace.
+   The [!UICONTROL Users] tab displays all of the users in that workspace.
 
-   ![](assets/configuration_users.png)
+   ![configuration users](/help/administrating-target/c-user-management/c-user-management/assets/configuration_users-new.png)
 
 1. Select the desired permissions role (Observer, Editor, or Approver) by using the drop-down list for each user in the [!UICONTROL Product Role] column.
 
-| Role | Description |
-|--- |--- |
-|Observer|Can view activities, but cannot create or edit them.|
-|Editor|Can create and edit activities before they are live, but cannot approve the launch of an activity.|
-|Approver|Can create, edit, and activate or stop activities.|
+   | Role | Description |
+   |--- |--- |
+   |Observer|Can view activities, but cannot create or edit them.|
+   |Editor|Can create and edit activities before they are live, but cannot approve the launch of an activity.|
+   |Approver|Can create, edit, and activate or stop activities.|
 
-For more information, see [Manage Product Permissions and Roles in the Admin Console](https://helpx.adobe.com/enterprise/help/manage-permissions-and-roles.html) in the *Enterprise User Guide*. 
+For more information, see [Manage Product Permissions and Roles in the Admin Console](https://helpx.adobe.com/enterprise/help/manage-permissions-and-roles.html) in the *Enterprise User Guide*.
+
+## Training video: How to Configure Target Workspaces
+
+Learning objectives:
+
+* Access the Adobe Admin Console from the Adobe Target interface (three ways)
+* Configure a workspace in the Adobe Admin Console
+    * Add users to workspaces
+    * Add properties to workspaces
+* Understand default workspaces
+
+>[!VIDEO](https://video.tv.adobe.com/v/19463/)

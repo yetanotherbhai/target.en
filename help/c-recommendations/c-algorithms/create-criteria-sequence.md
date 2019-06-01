@@ -47,7 +47,7 @@ There are multiple ways to reach the [!UICONTROL Create Criteria Sequence] scree
 
 1. Click **[!UICONTROL Create Criteria]** or **[!UICONTROL Create New]**.
 
-   ![](assets/button_CreateCriteria.png)
+   ![Create New Criteria](/help/c-recommendations/c-algorithms/assets/button_CreateCriteria_new.png)
 
 1. Select **[!UICONTROL Create Criteria Sequence]**.
 

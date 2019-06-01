@@ -35,6 +35,10 @@ Values longer than 256 characters are truncated.
 
 **Limit**: 128 characters.
 
+## Customer attribute alias ID
+
+**Limit** 50 characters.
+
 ## Entity custom attributes
 
 **Limit**: The maximum length depends on the language.
