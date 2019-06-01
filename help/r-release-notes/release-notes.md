@@ -31,7 +31,7 @@ We are thrilled to announce the following exciting features in at.js 2.1.0:
 |Client-side analytics logging|Gives customers full control on how they want to send analytics data to Adobe Analytics, whether on the client-side or server-side.<br>For more information, see [Client-side Analytics logging](/help/c-integrating-target-with-mac/a4t/before-implement.md#client-side) in *Before you implement*.|
 |Send notifications|Allows developers to send notifications when an experience is rendered by their code instead of using `applyOffer()` or `applyOffers()`.<br>For more information, see [adobe.target.sendNotifications(options)](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe.target.sendnotifications-atjs-21.md).|
 |Reduced file size|The size of at.js is reduced by ~24%. The smaller file size improves page load performance and reduces the time to download at.js on the page.|
-|at.js documentation updates|For a full list of all articles updated due to at.js 2.1.0, see the June 3, 2019 entries in [Documentation changes](/help/r-release-notes/doc-change.md).|
+|at.js documentation updates|For a full list of all articles updated due to the at.js 2.1.0 release, see the June 3, 2019 entries in [Documentation changes](/help/r-release-notes/doc-change.md).|
 
 ## Mobile App Visual Experience Composer (May 14, 2019) {#mobile-app-vec-may14-1}
 
