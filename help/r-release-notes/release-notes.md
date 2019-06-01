@@ -39,6 +39,7 @@ We are thrilled to announce the following exciting features in at.js 2.1.0:
 | --- | --- |
 |Mobile App Visual Experience Composer (VEC)|The Mobile App VEC lets you create activities and personalize content on native mobile apps in a do-it-yourself fashion without continuous development dependencies and app-release cycles.<br>For more information, see:<ul><li>[Mobile App Visual Experience Composer](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md)</li><li>[Android - set up the mobile app](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-android.md)</li><li>[iOS - set up the mobile app](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-ios.md)</li><li>[Set up click tracking in the Mobile VEC](/help/c-target-mobile-app/c-mobile-visual-experience-composer/set-up-click-tracking-in-the-mobile-vec.md)</li></ul>|
 
+
 ## [!DNL Target] Standard/Premium 19.4.2 (April 30, 2019) {#release-19-4-2}
 
 This release includes the following features, changes and enhancements:
