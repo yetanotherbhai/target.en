@@ -330,7 +330,7 @@ The following tables explain at.js. 2.0.0 compatibility with different activity 
 >
 >Auto-Target activities are supported through at.js 2.x and the VEC when all modifications are applied to the `Page Load Event`. When modifications are added to particular views, A/B Test, Auto-Allocate, and Experience Targeting (XT) activities only are supported.
 
-### Integrations
+### Integrations {#integrations}
 
 |Type|Supported?|
 | --- | --- |
@@ -342,7 +342,7 @@ The following tables explain at.js. 2.0.0 compatibility with different activity 
 |Debugger|Yes|
 |Auditor|Rules have not yet been updated for at.js 2.x|
 |Dynamic Tag Manager (DTM)|Yes|
-|Opt-In| No |
+|Opt-In| No. Opt-in support for [GDPR](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) is supported in [at.js version 2.1.0](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).  |
 | AEM Enhanced Personalization powered by Adobe Target | No|
 
 ### Features

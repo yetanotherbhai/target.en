@@ -17,6 +17,14 @@ This page lists important changes made to the [!DNL Adobe Target] documentation.
 
 |Date|Topic|Changes|
 | --- | --- | --- |
+|June 3, 2019|[Release notes (current)](/help/r-release-notes/release-notes.md)|Added information about the upcoming release of at.js 2.1.0.|
+||[at.js version details](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)|Added information about the upcoming release of at.js 2.1.0.|
+||[Before you implent](/help/c-integrating-target-with-mac/a4t/before-implement.md)|Added new section: "Client-side Analytics logging."|
+||[Analytics for Target implementation](/help/c-integrating-target-with-mac/a4t/a4timplementation.md)|Revised Step 7.|
+||[adobe.target.getOffers(options) - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md)|Added rows to the table for the following field names:<ul><li>Request > experienceCloud</li><li>Request > experienceCloud > analytics</li><li>Request > experienceCloud > analytics > logging</li></ul>|
+||[at.js functions](/help/c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md)|Added row to the table for `adobe.target.sendNotifications(options)`.|
+||[adobe.target.sendNotifications(options)](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe.target.sendnotifications-atjs-21.md)|New topic.|
+||[Upgrading from at.js 1.x to at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#integrations)|Added information about Adobe Opt-in support in at.js 2.1.0.|
 |May 31, 2019|[Mobile](/help/c-target/c-audiences/c-target-rules/mobile.md)|Added note regarding targeting devices running iOS 12.2.|
 ||[Plan and Implement Recommendations](/help/c-recommendations/plan-implement.md)|Updated code sample.|
 |May 30, 2019|[Access Target from the Adobe Experience Cloud](/help/c-intro/target-access-from-mac.md#doc-lang)|The documentation is now available in the Chinese Simplified language.|

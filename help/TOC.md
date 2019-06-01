@@ -83,6 +83,7 @@ user-guide-url: /content/help/en/target/using/target-home.html
          + [targetPageParams()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md)
          + [targetPageParamsAll()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparamsall.md)
          + [registerExtension() - at.js 1.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/registerextension-atjs-1x.md)
+         + [sendNotifications() - at.js 2.1](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe.target.sendnotifications-atjs-21.md)
          + [at.js custom events](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md)
          + [Debug at.js using the Adobe Experience Cloud Debugger](c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md)
          + [Use cloud-based instances with Target](c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/targeting-using-cloud-based-instances.md)

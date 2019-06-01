@@ -20,9 +20,26 @@ Be aware of the following important announcements:
 * On February 20, 2019, the Adobe Target infrastructure was upgraded in the EMEA, Japan, and APAC regions to no longer collect data from end users with older devices or web browsers that do not support TLS 1.1 or later. This same upgrade is planned for the North America region for **April 1, 2019**. Migrating to TLS 1.2 provides improved security. It is important that you go through the specifics and plan out the changes with your IT team for a smooth transition. For more information, see [TLS (Transport Layer Security) encryption changes](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md).
 * [!DNL Target] and the [!DNL Adobe Marketing Cloud] will drop support for Microsoft Internet Explorer 11 starting in March 2019. This change affects [!DNL Target] authoring only; this change does not affect experience delivery. Please switch to Microsoft Edge or another browser. For more information, see [Supported browsers](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md).
 
-## [!DNL Target] Standard/Premium 19.5.1 (May 21, 2019) {#tgt-19-5-1}
+## at.js version 2.1.0 (June 3, 2019)
 
-This release includes the following features, changes, and enhancements:
+We are thrilled to announce the following exciting features in at.js 2.1.0:
+
+|Feature / Enhancement|Description|
+| --- | --- |
+|Adobe Opt-in support|Adobe Opt-In is a way to simplify Adobe solutions integrations with consent management platforms.<br>For more information about Adobe Opt-in, see [Privacy and General Data Protection Regulation (GDPR)](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md).|
+|Industry-standard CSP compliant|at.js no longer uses eval() to execute JavaScript.|
+|Client-side analytics logging|Gives customers full control on how they want to send analytics data to Adobe Analytics, whether on the client-side or server-side.<br>For more information, see [Client-side Analytics logging](/help/c-integrating-target-with-mac/a4t/before-implement.md#client-side) in *Before you implement*.|
+|Send notifications|Allows developers to send notifications when an experience is rendered by their code instead of using `applyOffer()` or `applyOffers()`.<br>For more information, see [adobe.target.sendNotifications(options)](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe.target.sendnotifications-atjs-21.md).|
+|Reduced file size|The size of at.js is reduced by ~24%. The smaller file size improves page load performance and reduces the time to download at.js on the page.|
+|at.js documentation updates|For a full list of all articles updated due to the at.js 2.1.0 release, see the June 3, 2019 entries in [Documentation changes](/help/r-release-notes/doc-change.md).|
+
+## Mobile App Visual Experience Composer (May 14, 2019) {#mobile-app-vec-may14-1}
+
+|Feature / Enhancement | Description |
+| --- | --- |
+|Mobile App Visual Experience Composer (VEC)|The Mobile App VEC lets you create activities and personalize content on native mobile apps in a do-it-yourself fashion without continuous development dependencies and app-release cycles.<br>For more information, see:<ul><li>[Mobile App Visual Experience Composer](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md)</li><li>[Android - set up the mobile app](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-android.md)</li><li>[iOS - set up the mobile app](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-ios.md)</li><li>[Set up click tracking in the Mobile VEC](/help/c-target-mobile-app/c-mobile-visual-experience-composer/set-up-click-tracking-in-the-mobile-vec.md)</li></ul>|
+
+## [!DNL Target] Standard/Premium 19.5.1 (May 21, 2019) {#tgt-19-5-1}
 
 (The issue numbers in parentheses are for internal [!DNL Adobe] use.)
 
@@ -36,7 +53,7 @@ This release includes the following features, changes, and enhancements:
 
 * Toolbar icons display appropriately after you cancel loading of a page within the VEC. If specific actions cannot be performed until after the page is fully loaded, the associated toolbar icons are disabled. (TGT-33811)
 
-## Mobile App Visual Experience Composer (May 14, 2019) {mobile-vec}
+## Mobile App Visual Experience Composer (May 14, 2019) {#mobile-vec-may14-2}
 
 |Feature / Enhancement | Description |
 | --- | --- |
