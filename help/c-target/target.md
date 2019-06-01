@@ -12,6 +12,8 @@ uuid: 12317898-e9c9-4605-b659-25bdf200849b
 
 Target different content and experiences to specific audiences to optimize your web marketing by displaying the right messages to the right people at the right time.
 
+An audience is a group of similar activity entrants who will see a targeted activity.  A group of people with the same characteristics, such as a new visitor, a returning visitor, or returning visitors from the Midwest. The Audience feature allows you to target different content and experiences to specific audiences to optimize your digital marketing by displaying the right messages to the right people at the right time. If a visitor is identified as part of a target audience, Target determines which experience to display, based on criteria defined during activity creation.
+
 By default, traffic is split evenly between experiences. However, you can specify percentage targets for each experience.
 
 Targets can also be rule-based. A rule-based target is based on information gathered about the visitor, such as the visitor's location, browser, operating system, mobile device, or other data.

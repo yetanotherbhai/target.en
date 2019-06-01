@@ -13,6 +13,8 @@ uuid: cff5ac56-2f63-48e9-ba06-eb66de9e769f
 
 An experience determines which content displays when the visitor meets the audience criteria for an activity.
 
+An experience can be an offer, image, text, button, video, combination of these various elements on a page, an entire web page, or a set of pages that perhaps form a purchase funnel or some other logical sequence of pages. It can also be the response of a voice assistant, a customer service script, or even a personalized flavor from a drink machine. You test or personalize experiences in [!DNL Target] activities.
+
 An activity typically contains more than one experience. For example, visitors from the Salt Lake City area might see an offer for a $30 discount on ski boots, while visitors from San Diego see an offer for a discount on wet suits. Or, you might test a page with different special offers for returning visitors. Each of these offers is presented in a separate experience.
 
 Target provides the following experience composers:

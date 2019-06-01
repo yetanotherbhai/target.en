@@ -13,12 +13,53 @@ uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 
 This page lists important changes made to the [!DNL Adobe Target] documentation.
 
+## Adobe Target Standard/Premium 19.5.1 (May 21, 2019) {tgt-19-5-1}
+
+|Date|Topic|Changes|
+| --- | --- | --- |
+|May 31, 2019|[Mobile](/help/c-target/c-audiences/c-target-rules/mobile.md)|Added note regarding targeting devices running iOS 12.2.|
+||[Plan and Implement Recommendations](/help/c-recommendations/plan-implement.md)|Updated code sample.|
+|May 30, 2019|[Access Target from the Adobe Experience Cloud](/help/c-intro/target-access-from-mac.md#doc-lang)|The documentation is now available in the Chinese Simplified language.|
+||[Downloading data in a CSV file](/help/c-reports/downloading-data-in-csv-file.md)|Added new caveat in the Export Order Details to CSV section: "Audiences applied in the Target reporting UI do not carry over to the download report."|
+||[Report settings](/help/c-reports/c-report-settings/report-settings.md)|Updated screenshots.|
+|May 29, 2019|[Category affinity](/help/c-target/c-visitor-profile/category-affinity.md)|Updated text to clarify the difference between `user.categoryId` and `entity.categoryId`.|
+||[Migrate from mbox.js to at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md)|Relocated section to this topic: Benefits of at.js.|
+||[at.js Frequently Asked Questions](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md)|Relocated section to this topic: "What is the impact of at.js and mbox.js on page-load time?"|
+||[Pass dynamic data into offers](/help/c-experiences/c-manage-content/passing-profile-attributes-to-the-html-offer.md)|Corrected syntax in the Past behavior row.|
+|May 28, 2019|[Access Target from the Adobe Experience Cloud](/help/c-intro/target-access-from-mac.md#doc-lang)|Added new section: "Change the language for the Target product documentation."|
+||[Determine a winner](/help/c-activities/automated-traffic-allocation/determine-winner.md)|Updated information abut p-values.|
+||[Troubleshooting Issues Related to the Visual Experience Composer and Enhanced Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md)|Added troubleshooting section about how Target handles multi-level iframes.|
+||[Recommendations FAQ](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md)|Added new FAQ: "What is the expected ingest timeframe for Recommendations operations?"|
+||[Implement Target using Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)|Updated the information under "Advantages of Implementing at.js Using the Target Launch Extension."|
+||[Troubleshoot content delivery](/help/c-activities/c-troubleshooting-activities/content-trouble.md)|Added new troubleshooting section about at.js not firing mboxes if you are using an invalid doctype.|
+|May 24, 2019|[Target release notes (prerelease)](/help/r-release-notes/target-release-notes.md)|Added information about at.js 2.1.0.|
+|May 23, 2019|[Manage exclusions](/help/c-activities/t-automated-personalization/managing-exclusions.md)|Added information and link to limit which audiences can see specific offers in AP activities using targeting rules.|
+||[Server Side: implement Target](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)|Updated text in the introduction.|
+||[Experiences and offers](/help/c-experiences/experiences.md)|Updated text in the introduction.|
+||[Audiences](/help/c-target/target.md)|Updated text in the introduction.|
+||[Success metrics](/help/c-activities/r-success-metrics/success-metrics.md)|Updated text in the introduction.|
+||[Reports](/help/c-reports/reports.md)|Updated text in the introduction.|
+||[Visual Experience Composer (VEC)](/help/c-experiences/c-visual-experience-composer/visual-experience-composer.md)|Updated text in the introduction.|
+||[Form-based Experience Composer](/help/c-experiences/form-experience-composer.md)|Updated text in the introduction.|
+||[Enterprise user permissions](/help/administrating-target/c-user-management/property-channel/property-channel.md)|Updated text in the introduction.|
+||[Glossary](/help/c-intro/glossary.md)|Added and updated several entries.|
+|May 22 2019|[Mobile App Visual Experience Composer](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md#video)|Added training video.|
+||[iOS - set up the mobile app](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-ios.md#tutorial)|Added links to new tutorials:<ul><li>Implement the Experience Cloud in Mobile iOS Objective-C Applications</li><li>Implement the Experience Cloud in Mobile iOS Swift Applications</li></ul>|
+||[Android - set up the mobile app](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-android.md#tutorial)|Added link to new tutorial:<ul><li>Implement the Experience Cloud in Mobile Android Applications</li></ul>|
+||[Introduction to Target](/help/c-intro/intro.md#kit)|Added link to the Adobe Target Welcome Kit.|
+|May 21, 2019|[Single Page App (SPA) Visual Experience Composer](/help/c-experiences/spa-visual-experience-composer.md)|<ul><li>Updated information about the "Move" option.</li><li>Added note that you can perform many actions before the page loads in the VEC, or even if the page fails to load altogether. </li></ul>|
+||[Users](/help/administrating-target/c-user-management/c-user-management/user-management.md)|Udated text, updated images, and added training video.|
+||[Configure enterprise permissions](/help/administrating-target/c-user-management/property-channel/properties-overview.md)|Udated text and images.|
+||[Limits](/help/r-troubleshooting-target/target-limits.md)|Added the character limit for the customer attribute alias ID.|
+||[Release Notes](/help/r-release-notes/release-notes.md): 19.5.1|This release includes enhancements and fixes. You can read about them and link to the documentation from the Release Notes. This release also includes many documentation updates throughout the help.|
+
 ## Adobe Target Standard/Premium 19.4.2 (April 30, 2019) {19-4-2}
 
 **Note**: The Target Standard/Premium 19.4.1 release was a maintanence release to update the Adobe Experience Cloud UI to reflect branding and product changes.
 
 |Date|Topic|Changes|
 | --- | --- | --- |
+|May 15, 2019|[Single Page Application implementation](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md#triggerview)|Added note that you must fire the `at-view-start` and `at-view-end` events.|
 |May 14, 2019|[Mobile App Visual Experience Composer](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md),<br>[Android - set up the mobile app](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-android.md),<br>[iOS - set up the mobile app](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-ios.md), and<br>[Set up click tracking in the Mobile VEC](/help/c-target-mobile-app/c-mobile-visual-experience-composer/set-up-click-tracking-in-the-mobile-vec.md)|New topics.|
 ||[Pass dynamic data into offers](/help/c-experiences/c-manage-content/passing-profile-attributes-to-the-html-offer.md)|Updated text.|
 |May 13, 2019|[Activity QA](/help/c-activities/c-activity-qa/activity-qa.md)|Added item to the Considerations list about using QA Mode in a multi-page activity.|

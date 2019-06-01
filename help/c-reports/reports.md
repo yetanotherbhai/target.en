@@ -12,7 +12,7 @@ uuid: 8d20f4e7-72fd-4872-a21f-54ce16a2d2ab
 
 # Reports{#reports}
 
-Reports provide information about the performance of your activities.
+Reports provide information about the progress and results of your activities that help you make decisions based on your data. Report data can help you decide when to end a test, show you which experience of offer is the winner, and provide insights or learnings you need to determine next actions.
 
 >[!NOTE]
 >

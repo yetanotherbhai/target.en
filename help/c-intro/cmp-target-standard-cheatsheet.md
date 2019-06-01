@@ -37,7 +37,7 @@ Please read our [Supported Browsers](../c-implementing-target/c-considerations-b
 
 **Which implementation JavaScript file should I use, at.js or mbox.js?**
 
-at.js is our latest and greatest JavaScript library. mbox.js is our older version. See [Understanding the Target JavaScript Libraries](../c-implementing-target/c-considerations-before-you-implement-target/target-implement.md#concept_60B748DE4293488F917E8F1FA4C7E9EB) to understand the differences between the two libraries. All new customers should use at.js.
+at.js is our latest and greatest JavaScript library. mbox.js is our older version. See [Benefits of at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#benefits) to understand the differences between the two libraries. All new customers should use at.js.
 
 All existing mbox.js customers should migrate to at.js. Learn more about the steps involved in [migrating from mbox.js to at.js](../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA) before making the transition.
 

@@ -1,7 +1,6 @@
 ---
 description: Criteria control the content of your Recommendations activities. Create criteria to show the recommendations that are most appropriate for your activity.
-keywords: creating criteria;similar attributes;content similarity;criteria;recommendations criteria;similarity;content
-seo-description: Criteria control the content of your Recommendations activities. Create criteria to show the recommendations that are most appropriate for your activity.
+seo-description: Criteria control the content of your Adobe Recommendations activities. Create criteria to show the recommendations that are most appropriate for your activity.
 seo-title: Create criteria
 solution: Target
 title: Create criteria
@@ -27,32 +26,42 @@ There are multiple ways to reach the [!UICONTROL Create New Criteria] screen. So
 
 1. Click **[!UICONTROL Create Criteria]** or **[!UICONTROL Create New]**.
 
-   ![](assets/button_CreateCriteria.png)
+   ![Create Criteria button](/help/c-recommendations/c-algorithms/assets/button_CreateCriteria_new.png)
 
 1. Select **[!UICONTROL Create Criteria]**.
 
-   ![](assets/CreateNewCriteria_full.png)
+   ![Create New Criteria](/help/c-recommendations/c-algorithms/assets/CreateNewCriteria_full-new.png)
 
 1. Type a **[!UICONTROL Criteria Name]**.
 
-   This is the "internal" name used to describe the criteria. For example, you might want to call your criteria "Highest margin products," but you don't want that title to display publicly. See the next step to set the public-facing title. 
+   This is the "internal" name used to describe the criteria. For example, you might want to call your criteria "Highest margin products," but you don't want that title to display publicly. See the next step to set the public-facing title.
+
 1. Type a public-facing **[!UICONTROL Display Title]** to appear on the page for any Recommendations that use this criteria.
 
-   For example, you might want to display "People who viewed this viewed that" or "Similar products" when you use this criteria to show recommendations. 
+   For example, you might want to display "People who viewed this viewed that" or "Similar products" when you use this criteria to show recommendations.
+
 1. Type a short **[!UICONTROL Description]** of the criteria.
 
-   The description should help you identify the criteria, and might include information about the purpose of the criteria. 
-1. Select an **[!UICONTROL Industry Vertical]**.
+   The description should help you identify the criteria, and might include information about the purpose of the criteria.
+
+1. Select an **[!UICONTROL Industry Vertical]**:
+
+   * [!UICONTROL Retail/Ecommerce]
+   * [!UICONTROL Lead Generation/B2B/Financial Services]
+   * [!UICONTROL Media/Publishing]
 
    Other criteria options will change based on the industry vertical you select. 
+
 1. Select a **[!UICONTROL Page Type]**.
 
    You can select multiple page types.
 
-   Together, the industry vertical and page types are used to categorize your saved criteria, making it easier to reuse criteria for other [!DNL Recommendations] activities. 
+   Together, the industry vertical and page types are used to categorize your saved criteria, making it easier to reuse criteria for other [!DNL Recommendations] activities.
+
 1. Select a **[!UICONTROL Recommendation Key]**.
 
-   For more information about basing criteria on a key, see [Base the Recommendation on a Recommendation Key](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_2B0ED54AFBF64C56916B6E1F4DC0DC3B). 
+   For more information about basing criteria on a key, see [Base the recommendation on a recommendation key](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_2B0ED54AFBF64C56916B6E1F4DC0DC3B). 
+
 1. Select the **[!UICONTROL Recommendation Logic]**.
 
    For more information about recommendation logic options, see [Criteria](../../c-recommendations/c-algorithms/algorithms.md#concept_4BD01DC437F543C0A13621C93A302750).
@@ -77,7 +86,8 @@ There are multiple ways to reach the [!UICONTROL Create New Criteria] screen. So
 
 1. Select the desired **[!UICONTROL Behavioral Data Source]**: [!UICONTROL mboxes] or [!UICONTROL Analytics].
 
-   If you chose [!UICONTROL Analytics], select the desired report suite. 
+   If you chose [!UICONTROL Analytics], select the desired report suite.
+ 
 1. Set your **[!UICONTROL Content]** rules.
 
    Content rules determine what happens if the number of recommended items does not fill your design. For example, if your design has space for five items, but your criteria causes only three items to be recommended, you can leave the remaining space empty, or you can use backup recommendations to fill the extra space.
@@ -90,25 +100,29 @@ There are multiple ways to reach the [!UICONTROL Create New Criteria] screen. So
 
     This setting is based on the `productPurchasedId`. It is useful if you sell items that people typically purchase only once, such as kayaks. If you sell items that people come back to purchase again, such as shampoo or other personal items, you should disable this option.
 
-1. Set your **[!UICONTROL Inclusion Rules]**.
+1. Set your **[!UICONTROL Inclusion rules]**.
 
    Inclusion rules determine which items will be included in your recommendations. The options available depend on your industry vertical.
 
    For more details, see [Inclusion Rules](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_28DB20F968B1451481D8E51BAF947079). 
-1. Configure **[!UICONTROL Attribute Weighting]**.
+
+1. Configure **[!UICONTROL Attribute weighting]**.
 
    You can add multiple rules to "nudge" the algorithm based on important description or metadata about the content catalog. For example, you can apply a higher weighting to on-sale items so they appear more often in the recommendation.
 
    See [Attribute Weighting](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_2AEDA0DB15B74770B76F6982B24C2E42). 
+
 1. When finished, click **[!UICONTROL Save]**.
 
    If you are creating a new [!UICONTROL Recommendations] activity or editing an existing one, the **[!UICONTROL Save criteria for later]** check box is selected by default. If you do not want to use the criteria in other activities, clear the check box before saving.
 
-**Expected Criteria Processing Time:** If the criteria uses mboxes as the Behavioral Data Source, once created, the criteria will immediately run. Depending on the amount of behavioral data used and the size of the catalog, the algorithm can take up to 12 hours to run. Making changes to the criteria configuration results in the criteria re-running. 
+### Expected criteria processing time
 
-If the criteria uses [!DNL Adobe Analytics] as the Behavioral Data Source, once created, the time for criteria availability depends on whether the selected report suite and lookback window has been used for any other criteria. If the report suite has been previously used with a lookback window at least as long as the selected lookback window, then behavioral data is already available in Target and Recommendations runs the criteria immediately. The algorithm can take up to 12 hours to run depending on the amount of behavioral data used and the size of the catalog. If the report suite has not been previously used, or is used with a longer lookback window, Recommendations must request and receive data from Adobe Analytics, then subsequently run the algorithm. The sync process with Analytics generally takes at least 2 days and might take up to 7 days to complete depending on Analytics system load. 
+* **mboxes**: If the criteria uses mboxes as the Behavioral Data Source, once created, the criteria will immediately run. Depending on the amount of behavioral data used and the size of the catalog, the algorithm can take up to 12 hours to run. Making changes to the criteria configuration results in the criteria re-running. 
 
-## Base the Recommendation on a Recommendation Key {#task_2B0ED54AFBF64C56916B6E1F4DC0DC3B}
+* **Analytics**: If the criteria uses [!DNL Adobe Analytics] as the Behavioral Data Source, once created, the time for criteria availability depends on whether the selected report suite and lookback window has been used for any other criteria. If the report suite has been previously used with a lookback window at least as long as the selected lookback window, then behavioral data is already available in Target and Recommendations runs the criteria immediately. The algorithm can take up to 12 hours to run depending on the amount of behavioral data used and the size of the catalog. If the report suite has not been previously used, or is used with a longer lookback window, Recommendations must request and receive data from Adobe Analytics, then subsequently run the algorithm. The sync process with Analytics generally takes at least 2 days and might take up to 7 days to complete depending on Analytics system load. 
+
+## Base the recommendation on a recommendation key {#task_2B0ED54AFBF64C56916B6E1F4DC0DC3B}
 
 Recommendations based on keys utilize visitor behavior context to show relevant results. 
 
@@ -134,11 +148,11 @@ When this option is selected, the `entity.id` value must be passed as a paramete
 
 **Logic (Criteria)**
 
-* Items with similar attributes
-* People Who Viewed This, Viewed That
-* People Who Viewed This, Bought That
-* People Who Bought This, Bought That
-* Overall behavior
+* [!UICONTROL Items with similar attributes]
+* [!UICONTROL People Who Viewed This, Viewed That]
+* [!UICONTROL People Who Viewed This, Bought That]
+* [!UICONTROL People Who Bought This, Bought That]
+* [!UICONTROL Site Affinity]
 
 **Where to use on your site**
 
@@ -152,7 +166,7 @@ The recommendation is determined by the product category that the visitor is cur
 
 Recommendations display items in the specified product category.
 
-When this option is selected, the entity.categoryId value must be passed as a parameter to the display mbox.
+When this option is selected, the `entity.categoryId` value must be passed as a parameter to the display mbox.
 
 **Logic (Criteria)**
 
@@ -173,12 +187,12 @@ When this option is selected, the `entity.id` value must be present in the profi
 
 **Logic (Criteria)**
 
-* People Who Viewed This, Viewed That
-* People Who Viewed This, Bought That
-* People Who Bought This, Bought That
-* Overall behavior
-* Most Viewed
-* Top Sellers
+* [!UICONTROL People Who Viewed This, Viewed That]
+* [!UICONTROL People Who Viewed This, Bought That]
+* [!UICONTROL People Who Bought This, Bought That]
+* [!UICONTROL Overall behavior]
+* [!UICONTROL Most Viewed]
+* [!UICONTROL Top Sellers]
 
 If the key is a custom profile attribute and the algorithm type is Most Viewed or Top Sellers, a new drop-down list that displays called "Group By Unique Value Of" that has a list of known entity attributes (except ID, category, margin, value, inventory, and environment). This field is required.
 
@@ -198,6 +212,7 @@ You can base recommendations on the value of a custom profile attribute. For exa
 If your custom profile attribute doesn't directly match to a single entity ID, it is necessary to explain to [!DNL Recommendations] how you want the match to an entity to occur. For example, suppose that you want to display the top selling items from a visitor’s favorite brand.
 
 1. Select your custom profile attribute from the **[!UICONTROL Recommendation Key]** drop-down list (for example, “Favorite Brand”).
+
 1. Then select the **[!UICONTROL Recommendation Logic]** you want to use with this key (for example, "Top Sellers").
 
    The [!UICONTROL Group By Unique Value Of] option displays. 
@@ -214,11 +229,11 @@ The recommendation is determined by the last item that was purchased by each uni
 
 **Logic (Criteria)**
 
-* Items with similar attributes
-* People Who Viewed This, Viewed That
-* People Who Viewed This, Bought That
-* People Who Bought This, Bought That
-* Overall behavior
+* [!UICONTROL Items with similar attributes]
+* [!UICONTROL People Who Viewed This, Viewed That]
+* [!UICONTROL People Who Viewed This, Bought That]
+* [!UICONTROL People Who Bought This, Bought That]
+* [!UICONTROL Site Affinity]
 
 **Where to use on your site**
 
@@ -232,11 +247,11 @@ The recommendation is determined by the last item that was viewed by each unique
 
 **Logic (Criteria)**
 
-* Items with similar attributes
-* People Who Viewed This, Viewed That
-* People Who Viewed This, Bought That
-* People Who Bought This, Bought That
-* Overall behavior
+* [!UICONTROL Items with similar attributes]
+* [!UICONTROL People Who Viewed This, Viewed That]
+* [!UICONTROL People Who Viewed This, Bought That]
+* [!UICONTROL People Who Bought This, Bought That]
+* [!UICONTROL Site Affinity]
 
 **Where to use on your site**
 
@@ -258,11 +273,11 @@ For example, viewing surfboardA then surfboardB in one session results in A: 10,
 
 **Logic (Criteria)**
 
-* Items with similar attributes
-* People Who Viewed This, Viewed That
-* People Who Viewed This, Bought That
-* People Who Bought This, Bought That
-* Overall behavior
+* [!UICONTROL Items with similar attributes]
+* [!UICONTROL People Who Viewed This, Viewed That]
+* [!UICONTROL People Who Viewed This, Bought That]
+* [!UICONTROL People Who Bought This, Bought That]
+* [!UICONTROL Site Affinity]
 
 **Where to use on your site**
 
@@ -283,8 +298,8 @@ For example, viewing categoryA then categoryB in one session results in A: 9, B:
 
 **Logic (Criteria)**
 
-* Top Sellers
-* Most Viewed
+* [!UICONTROL Top Sellers]
+* [!UICONTROL Most Viewed]
 
 **Where to use on your site**
 
@@ -296,23 +311,19 @@ The recommendation is determined by the popularity of items on your site. Popula
 
 **Logic (Criteria)**
 
-* Top Sellers
-* Most Viewed
+* [!UICONTROL Top Sellers]
+* [!UICONTROL Most Viewed]
 * Product report metrics (if you are using Adobe Analytics)
 
 **Where to use on your site**
 
 General pages, such as home or landing pages and offsite ads.
 
-### Recently Viewed Items
+### Recently Viewed Items {#recently-viewed}
 
 Uses the visitor's history (spanning sessions) to present the last *x* items the visitor has viewed, based on the number of slots in the design.
 
 The Recently Viewed Items criteria now returns results specific to a given [environment](/help/administrating-target/hosts.md). If two sites belong to different environments and a visitor switches between the two sites, each site shows only recently viewed items from the appropriate site. If two sites are in the same environment and a visitor switches between the two sites, the visitor will see the same recently viewed items for both sites.
-
-**Logic (Criteria)**
-
-None
 
 **Where to use on your site**
 
@@ -321,13 +332,6 @@ General pages, such as home or landing pages and offsite ads.
 ## Inclusion Rules {#task_28DB20F968B1451481D8E51BAF947079}
 
 Several options help you narrow the items that display in your recommendations. You can use inclusion rules while creating criteria or promotions. 
-
-
-<!-- 
-
-recs/t_data_details.xml
-
- -->
 
 Inclusion rules are optional; however, setting these details gives you more control over the items that appear in your recommendations. Each detail you configure further narrows the display criteria. 
 
@@ -370,15 +374,18 @@ Apply a higher weighting to these on-sale items so they show more often in the r
 1. Choose a value.
 
    The value determines the type of item that is more likely to display, based on one of several available criteria. 
+
 1. Choose an evaluator.
 1. Type the keyword to complete the rule attributes.
 
    For example, the complete rule might be "Category contains shoes." 
 
    ![](assets/Recs_AttributeWeighting.png)
+
 1. Select the weight to assign to the rule.
 
    Options range from 0 to 100 in increments of 25. 
+   
 1. Add additional rules if desired.
 
 ## Content Settings {#concept_BC16005C7A1E4F1A87E33D16221F4A96}
@@ -408,7 +415,6 @@ If you enable **[!UICONTROL Show Backup Recommendations]**, the option to apply 
 |Enabled|Disabled|The design is rendered, but may include blank space if fewer recommendations are returned than the design calls for.|
 |Enabled|Enabled|Backup recommendations will fill available design "slots," fully rendering the design.<br>If applying inclusion rules to backup recommendations restricts the number of qualifying backup recommendations to the point that the design cannot be filled, the design is partially rendered.<br>If the criteria does not return any recommendations, and inclusion rules restrict backup recommendations to zero, the design is replaced with default content.|
 |Disabled|Enabled|Backup recommendations will fill available design "slots," fully rendering the design.<br>If applying inclusion rules to backup recommendations restricts the number of qualifying backup recommendations to the point that the design cannot be filled, the design is replaced by default content and no recommendations are displayed.|
-
 
 ## Content Similarity {#concept_5402DAFA279C4E46A9A449526889A0CB}
 
