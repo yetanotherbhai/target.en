@@ -19,7 +19,7 @@ Release notes for previous Target releases, including release notes for Target S
 
 ## Release notes - 2019 {#releases-2019}
 
-## Mobile App Visual Experience Composer (May 14, 2019) {mobile-vec}
+## Mobile App Visual Experience Composer (May 14, 2019) {#mobile-vec}
 
 |Feature / Enhancement | Description |
 | --- | --- |
