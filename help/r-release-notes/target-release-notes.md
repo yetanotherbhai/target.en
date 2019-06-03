@@ -47,7 +47,7 @@ This release includes the following features, changes, and enhancements:
 
 * Toolbar icons display appropriately after you cancel loading of a page within the VEC. If specific actions cannot be performed until after the page is fully loaded, the associated toolbar icons are disabled. (TGT-33811)
 
-## Mobile App Visual Experience Composer (May 14, 2019) {mobile-vec-may14}
+## Mobile App Visual Experience Composer (May 14, 2019) {#mobile-vec-may14}
 
 |Feature / Enhancement | Description |
 | --- | --- |
