@@ -18,6 +18,7 @@ This page lists important changes made to the [!DNL Adobe Target] documentation.
 |Date|Topic|Changes|
 | --- | --- | --- |
 |June 5, 2019|[Mobile App Visual Experience Composer](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md)|Added new [Troubleshooting](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md#ts) section.|
+||[Upgrading from at.js 1.x to at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md)|Updated information about deploying at.js using Adobe Launch, which is the preferred method of deployment.|
 ||[Target key concepts](/help/c-intro/target-key-concepts.md)|Minor text edits.|
 |June 3, 2019|[Release notes (current)](/help/r-release-notes/release-notes.md)|Added information about the upcoming release of at.js 2.1.0.|
 ||[at.js version details](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)|Added information about the upcoming release of at.js 2.1.0.|

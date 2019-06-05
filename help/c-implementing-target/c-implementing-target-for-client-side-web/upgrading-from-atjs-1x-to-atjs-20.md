@@ -51,13 +51,15 @@ Now, wherever `triggerView()` is implemented on your SPA, the Views and actions 
 
 ## Deploy at.js 2.x {#deploy-atjs-200}
 
-1. Download at.js 2.x using the Target UI.
-
-   ![Implementation details dialog box](/help/c-experiences/assets/imp-200.png)
+1. Deploy at.js 2.x via the [Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) extension. 
 
    >[!NOTE]
    >
-   >Installing at.js 2.x via the [Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) extension is not yet supported.
+   > Deploying at.js using Adobe Launch is the preferred method.
+
+   Or
+
+   Manually download at.js 2.x using the Target UI and deploy it using the [method of your choice](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/how-to-deployatjs.md).
 
 ## Deprecated at.js functions
 
@@ -338,7 +340,7 @@ The following tables explain at.js. 2.0.0 compatibility with different activity 
 |Audiences|Yes|
 |Customer Attributes|Yes|
 |AEM Experience Fragments|Yes|
-|Adobe Launch extension|Not currently|
+|Adobe Launch extension|[Yes](/https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/deploy-at-js/cmp-implementing-target-using-adobe-launch.html)|
 |Debugger|Yes|
 |Auditor|Rules have not yet been updated for at.js 2.x|
 |Dynamic Tag Manager (DTM)|Yes|
