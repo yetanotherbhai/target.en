@@ -340,7 +340,7 @@ The following tables explain at.js. 2.0.0 compatibility with different activity 
 |Audiences|Yes|
 |Customer Attributes|Yes|
 |AEM Experience Fragments|Yes|
-|Adobe Launch extension|[Yes](/https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/deploy-at-js/cmp-implementing-target-using-adobe-launch.html)|
+|Adobe Launch extension|[Yes](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)|
 |Debugger|Yes|
 |Auditor|Rules have not yet been updated for at.js 2.x|
 |Dynamic Tag Manager (DTM)|Yes|
