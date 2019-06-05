@@ -178,6 +178,32 @@ For additional flexibility, you can also call the `TargetVEC.prefetchOffers()` A
 
 Note that each time Target offers are prefetched, the offers for the last Target view triggered with `AdobeTargetMobile.targetView()` are also applied, if possible.
 
+## Troubleshooting {#ts}
+
+**I received an error stating that my "context.application.name" value contains prohibited characters. What characters are allowed in mobile app names?**
+
+Allowable characters in mobile app names include:
+
+|Allowed character(s)|Description|
+| --- | --- |
+|Letters||
+|Numbers||
+|`-`|Hyphen|
+|`.`|Period|
+|`,`|Comma|
+|`:`|Colon|
+|`#`|Number sign|
+|`(`|Opening parenthesis|
+|`)`|Closing parenthesis|
+|`&`|Ampersand|
+|`+`|Plus sign|
+
+Using a character that is not allowed, for example, an apostrophe ( `'` ) causes you to receive the following error message:
+
+```
+Target Response was received : {"status":400,"message":"Errors: field - [context.application.name] - Value contains prohibited chars;"}
+```
+
 ## Known limitations {#limitations}
 
 * The Mobile App VEC can currently be used to create [A/B Test](/help/c-activities/t-test-ab/test-ab.md) and [Experience Targeting (XT)](/help/c-activities/t-experience-target/experience-target.md) activities for mobile apps. Support for other activity types will be available in the future. 
