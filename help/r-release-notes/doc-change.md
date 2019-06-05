@@ -25,6 +25,7 @@ This page lists important changes made to the [!DNL Adobe Target] documentation.
 ||[at.js functions](/help/c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md)|Added row to the table for `adobe.target.sendNotifications(options)`.|
 ||[adobe.target.sendNotifications(options)](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe.target.sendnotifications-atjs-21.md)|New topic.|
 ||[Upgrading from at.js 1.x to at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#integrations)|Added information about Adobe Opt-in support in at.js 2.1.0.|
+||[Privacy and General Data Protection Regulation](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md)|Updated information about opt-in support in at.js 2.1.0.|
 |May 31, 2019|[Mobile](/help/c-target/c-audiences/c-target-rules/mobile.md)|Added note regarding targeting devices running iOS 12.2.|
 ||[Plan and Implement Recommendations](/help/c-recommendations/plan-implement.md)|Updated code sample.|
 |May 30, 2019|[Access Target from the Adobe Experience Cloud](/help/c-intro/target-access-from-mac.md#doc-lang)|The documentation is now available in the Chinese Simplified language.|
