@@ -19,39 +19,18 @@ These release notes provide information about features, enhancements, and fixes 
 >
 >These release notes contain prerelease information. Release dates, features, and other information are subject to change. To view information about the current release, see [Target Release Notes](release-notes.md). The information on these pages might be the same or it might differ, depending on the timing of releases.
 
-## at.js version 2.1.0 (June 3, 2019)
-
-We are thrilled to announce the following exciting features in at.js 2.1.0:
+## Target Standard/Premium 19.6.1 (June 25, 2019) {#tgt-19-6-1}
 
 |Feature / Enhancement|Description|
 | --- | --- |
-|Adobe Opt-in support|Adobe Opt-In is a way to simplify Adobe solutions integrations with consent management platforms.<br>For more information about Adobe Opt-in, see [Privacy and General Data Protection Regulation (GDPR)](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md).|
-|Industry-standard CSP compliant|at.js no longer uses eval() to execute JavaScript.|
-|Client-side analytics logging|Gives customers full control on how they want to send analytics data to Adobe Analytics, whether on the client-side or server-side.|
-|Send notifications|Allows developers to send notifications when an experience is rendered by their code instead of using `applyOffer()` or `applyOffers()`.|
-|Reduced file size|The size of at.js is reduced by ~24%. The smaller file size improves page load performance and reduces the time to download at.js on the page.|
-
-## [!DNL Target] Standard/Premium 19.5.1 (May 21, 2019) {#release-19-5-1-prerelease}
-
-This release includes the following features, changes, and enhancements:
-
-(The issue numbers in parentheses are for internal [!DNL Adobe] use.)
-
-### Feature updates
-
-|Feature / Enhancement | Description |
-| --- | --- |
-|Single Page App Visual Experience Composer (SPA VEC)|The SPA VEC includes the following enhancements to make your work quicker and more efficient:<ul><li>Clicking an action in the SPA highlights the element on the site where this action will be applied. Each VEC action created under a View has four corresponding icons: Information, Edit, Move, and Delete. New "Move" functionality in this release lets you move the action to a Page Load Event or any other View that already exists in the modifications panel. (TGT-33746)</li><li>You can perform many actions before the page loads in the VEC, or even if the page fails to load altogether (for example, custom code is no longer operational). Actions that cannot be edited before the site loads are disabled in the Target UI. (TGT-33851 & TGT-34149)</li></ul>For more information, see [Single Page App (SPA) Visual Experience Composer](/help/c-experiences/spa-visual-experience-composer.md).|
+|Visual Experience Composer (VEC)|<ul><li>You can now use the [!DNL Styles > Background] menu in the VEC to change the background image and color for the selected element. (TGT-15001)</li><li>When you click a page element in the VEC, a menu shows the options that are available for that element type. When you click an image then click [!DNL Replace With], two new options display: [!DNL HTML] and [Experience Fragment](/help/c-experiences/c-manage-content/aem-experience-fragments.md).<br> Replacing an image with HTML gives you full control of the element without needing to select the parent element to access the HTML option. Experience fragments let you quickly insert elements created in Adobe Experience Manager (AEM) in Target activiites. (TGT-34097)</li></ul>|
+|Single Page App (SPA) Visual Experience Composer (VEC)|<ul><li>A new guided workflow helps you understand how page-delivery-rule settings should be configured to execute and run an activity successfully for your Single Page App. (TGT-33718)</li><li>You can now define a modification using the SPA VEC and then clone that modification for use in other views in your Single Page App. (TGT-33882)</li><li>We have improved the process for configuring click tracking within the SPA VEC.<br>While selecting elements to use in click tracking, the names of all available elements display in the Modifications panel on the right side, making it quick and easy to select the desired elements.<br>The [!DNL Goals & Settings] page of the three-part guided activity workflow displays a number representing the number of elements selected for click tracking. You can hover over this number to see the names of all selected elements. (TGT-33878) </li></ul>|
+|Mobile Visual Experience Composer (VEC)|<ul><li>You can now author activities for multiple versions of your mobile app, This saves you time and effort when the versions are very similar and you don't need to significantly change the app's UI. (TGT-34231)</li></ul>|
+|![Premium badge](/help/assets/premium.png)<br>Automated Personalization (AP) and Auto-Target activities: experience as control in |<ul><li>You can select an experience to be used as control while creating an AP or Auto-Target activity. This feauture lets you route the entire control traffic to a specific experience, based on the traffic allocation percentage configured in the activity. You can then evaluate the performance of the personalized deliveries against the control experience. (TGT-32801 & TGT-26572)</li></ul>|
 
 ### Enhancement, fixes, and changes
 
-* Toolbar icons display appropriately after you cancel loading of a page within the VEC. If specific actions cannot be performed until after the page is fully loaded, the associated toolbar icons are disabled. (TGT-33811)
-
-## Mobile App Visual Experience Composer (May 14, 2019) {#mobile-vec-may14}
-
-|Feature / Enhancement | Description |
-| --- | --- |
-|Mobile App Visual Experience Composer (VEC)|The Mobile App VEC lets you create activities and personalize content on native mobile apps in a do-it-yourself fashion without continuous development dependencies and app-release cycles.<br>For more information, see:<ul><li>[Mobile App Visual Experience Composer](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md)</li><li>[Android - set up the mobile app](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-android.md)</li><li>[iOS - set up the mobile app](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-ios.md)</li><li>[Set up click tracking in the Mobile VEC](/help/c-target-mobile-app/c-mobile-visual-experience-composer/set-up-click-tracking-in-the-mobile-vec.md)</li><li>[Video: Mobile App Visual Experience Composer](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md#video)</li></ul>|
+* The <BODY> tag now displays in the DOM path that displays at the bottom of the VEC when you click an element on the page, letting you perform actions on the <BODY> tag. (TGT-33736)
 
 ## Prerelease information {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
