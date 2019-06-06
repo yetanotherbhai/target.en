@@ -33,12 +33,6 @@ We are thrilled to announce the following exciting features in at.js 2.1.0:
 |Reduced file size|The size of at.js is reduced by ~24%. The smaller file size improves page load performance and reduces the time to download at.js on the page.|
 |at.js documentation updates|For a full list of all articles updated due to the at.js 2.1.0 release, see the June 3, 2019 entries in [Documentation changes](/help/r-release-notes/doc-change.md).|
 
-## Mobile App Visual Experience Composer (May 14, 2019) {#mobile-app-vec-may14-1}
-
-|Feature / Enhancement | Description |
-| --- | --- |
-|Mobile App Visual Experience Composer (VEC)|The Mobile App VEC lets you create activities and personalize content on native mobile apps in a do-it-yourself fashion without continuous development dependencies and app-release cycles.<br>For more information, see:<ul><li>[Mobile App Visual Experience Composer](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md)</li><li>[Android - set up the mobile app](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-android.md)</li><li>[iOS - set up the mobile app](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-ios.md)</li><li>[Set up click tracking in the Mobile VEC](/help/c-target-mobile-app/c-mobile-visual-experience-composer/set-up-click-tracking-in-the-mobile-vec.md)</li></ul>|
-
 ## [!DNL Target] Standard/Premium 19.5.1 (May 21, 2019) {#tgt-19-5-1}
 
 (The issue numbers in parentheses are for internal [!DNL Adobe] use.)
