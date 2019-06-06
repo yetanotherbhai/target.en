@@ -51,7 +51,7 @@ This release includes the following new features and enhancements:
 
 * **Multiple app versions**: You can now author activities for multiple versions of your mobile app. This saves you time and effort when the versions are similar and you don't need to significantly change the app's UI. (TGT-34231)
 
-### ![Premium badge](/help/assets/premium.png) Automated Personalization (AP) & Auto-Target
+### Automated Personalization (AP) & Auto-Target ![Premium badge](/help/assets/premium.png) 
 
 * **Specific experience as control**: You can select an experience to be used as control while creating an AP or Auto-Target activity. This feature lets you route the entire control traffic to a specific experience, based on the traffic allocation percentage configured in the activity. You can then evaluate the performance reports of the personalized traffic against control traffic to that one experience. The current control option (randomly served experiences) will continue to be available. (TGT-32801 & TGT-26572)
 
