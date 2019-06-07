@@ -86,7 +86,7 @@ For more information on enabling the Adobe Target VEC extension, see [Adobe Targ
      return true
    }
    ```
-   
+
 1. Add the following line to the beginning of `AppDelegate:application:openURL`. If the delegate function is not defined, create it and add the following line.
 
    ```
@@ -153,9 +153,9 @@ NSDictionary *profileParams = @{@"profilekey1":@"profilevalue1"}; //profile para
 ACPTargetProduct *product = [ACPTargetProduct targetProductWithId:@"1234" categoryId:@"furniture"]; 
 ACPTargetOrder *order = [ACPTargetOrder targetOrderWithId:@"12343" total:@(123.45) purchasedProductIds:@[@"100",@"200"]]; 
 ACPTargetParameters *targetParams = [ACPTargetParameters targetParametersWithParameters: mboxParams
-								      profileParameters: profileParams
-										product: product
-										  order: order];
+                      profileParameters: profileParams
+                      product: product
+                      order: order];
 [ACPTargetVEC setGlobalRequestParameters:targetParams];
 
 //For Swift 
