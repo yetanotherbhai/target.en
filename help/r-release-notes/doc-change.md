@@ -18,8 +18,10 @@ This page lists important changes made to the [!DNL Adobe Target] documentation.
 |Date|Topic|Changes|
 | --- | --- | --- |
 |June 7, 2019|[Customize a design using Velocity](/help/c-recommendations/c-design-overview/customizing-a-template.md#default)|Added new section: "Scenario: Create a 4x2 default Recommendations design with null-checking logic."|
+||[Training videos for Adobe Target Standard and Premium](/help/c-intro/target-standard-premium-training-videos.md#tutorials)|Updated link to new Adobe Target Tutorials site.|
 ||[iOS - set up the mobile app](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-ios.md)|Updated text and code snippets.|
 ||[Visitor profile lifetime](/help/c-target/c-visitor-profile/visitor-profile-lifetime.md)|Made minor text edits.|
+||[Test an email image Adbox](/help/c-implementing-target/c-non-javascript-based-implementation/testing-email-image-adbox.md)|Made minor text edits.|
 |June 6, 2019|[adobe.target.triggerView (viewName, options) - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-triggerview-atjs-2.md)|Updated the description for the `options > page` parameter.|
 ||[Administrator first steps](/help/administrating-target/start-target.md)|Updated entire article.|
 ||[Target release notes (prerelease)](/help/r-release-notes/target-release-notes.md)|Added preliminary release notes for the Target 19.6.1 release.|
