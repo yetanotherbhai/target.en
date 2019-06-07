@@ -33,8 +33,8 @@ A collection of how-to videos and tutorials highlighting the capabilities of Tar
 
 ![Experience League videos](/help/c-intro/assets/experience-league.png)
 
-## Adobe Target Tutorials
+## Adobe Target Tutorials {#tutorials}
 
-Video introductions to [!DNL Target] concepts and tools are available on  the [Adobe Target Tutorials](https://helpx.adobe.com/target/tutorials.html) page.
+Video introductions to [!DNL Target] concepts and tools are available on  the [Adobe Target Tutorials](https://docs.adobe.com/content/help/en/target-learn/tutorials/overview.html) page.
 
-![Adobe Target Tutorials](/help/c-intro/assets/adobe-target-tutorials.png)
+![Adobe Target Tutorials](/help/c-intro/assets/adobe-target-tutorials-new.png)
