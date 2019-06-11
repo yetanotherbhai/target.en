@@ -36,7 +36,7 @@ Target provides tools to help ensure that your activity has a large enough sampl
 
 Before setting up your A/B test, access the Adobe Target [sample size calculator](https://docs.adobe.com/content/target-microsite/testcalculator.html).
 
-![](assets/sample_size_calculator.png)
+![Adobe Target Sample Size Calculator](/help/c-activities/t-test-ab/assets/sample_size_calculator-new.png)
 
 It is important to determine an adequate sample size (number of visitors) prior to doing any A/B test, in order to establish the time that the test should be allowed to run before evaluating the results. Simply monitoring the test until statistical significance is achieved causes the confidence interval to be vastly underestimated, making the test unreliable. The intuition behind this result is that, in the event a statistically significant result is detected, the test is stopped and a winner is declared. However, if the result is not statistically significant the test is allowed to continue. This procedure strongly favors the positive outcome, which increases the false positive rate, and so distorts the effective significance level of the test.
 
