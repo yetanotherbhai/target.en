@@ -12,9 +12,9 @@ snippet: y
 
 The Goals and Settings page is where you enter information about the goals of the test.
 
-The available settings depend on whether you use Target or Analytics as the data source.
+The available settings depend on whether you use Target or [Analytics](/help/c-integrating-target-with-mac/a4t/a4t.md) as the data source.
 
-![](assets/ab_settings.png)
+![Activity Settings dialog box](/help/c-activities/t-test-ab/t-test-create-ab/assets/ab_settings-new.png)
 
 ## Activity Settings {#section_DCBDC354261F420EBD4B43EA34947BAC}
 
@@ -37,16 +37,19 @@ The available settings depend on whether you use Target or Analytics as the data
 
 Advanced settings are available for A/B Test goal metrics.
 
-![](assets/Menu_AdvancedSettings.png)
+![Advanced Settings menu](/help/c-activities/t-test-ab/t-test-create-ab/assets/menu-advanced-settings-new.png)
 
 >[!NOTE]
 >
 >If you use Adobe Analytics as your reporting source, settings are managed by the Analytics server. The advanced settings option will not be available.
 
+![Advanced Settings](/help/c-activities/t-test-ab/t-test-create-ab/assets/advanced-settings.png)
+
 | Setting | Description |
 |--- |--- |
 |Which success metric must be reached before incrementing this metric?|Use this option to only count someone as reaching the success metric if they’ve previously reached a different success metric. For example a test conversion might only be valid if the visitor clicks on the offer, or reaches a particular page before converting.  You can provided dependency on multiple metrics along with the flexibility to choose whether the metric should be reached or not reached for the count to increase.  You must define both (or multiple) success metrics before you can make one dependent on another.  The  Add Dependency  option allows the success metric to increment if another success metric has been reached or has not been reached.  To add a dependency:<ul><li>After adding additional metrics, click Advanced Settings.</li><li>Click the  Add Dependency  option:</li><li>Drag and drop the desired metrics from the left pane into the right pane, then click  Reached  to toggle the setting between  Reached  and  Not Reached.</li><li>You can edit or remove dependencies after adding them.</li></ul>|
 |What will happen after a user encounters this goal metric?|There are three options for what happens after a visitor reaches the goal metric:<ul><li>Select  Increment Count & Keep User in Activity  to specify how the count is incremented.</li><li>Select  Increment Count, Release User & Allow Reentry  to specify the experience the user sees if they reenter the activity.</li><li>Select  Increment Count, Release User & Bar from Reentry  to specify what the user sees instead of the activity content.</li></ul>|
+|How will the count be incremented?|There are three options for how the count is incremented:<ul><li>Once per Entrant</li><li>On Every Impression (Excluding page refreshes)</li><li>On Every Impression</li></ul>|
 
 See [Success Metrics](../../../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924) for more information about advanced settings.
 

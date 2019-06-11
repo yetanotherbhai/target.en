@@ -33,7 +33,7 @@ In this case, what you need are geo-specific versions of the experience, so you 
    
 1. Select the experience, then click **[!UICONTROL Configure]** > **[!UICONTROL Audiences]** > **[!UICONTROL Multiple Audiences]**.
 
-   ![](assets/multiple-audiences.png)
+   ![Multiple Audiences option](/help/c-activities/t-test-ab/t-test-create-ab/assets/multiple-audiences-new.png)
 
 1. Click **[!UICONTROL Add Audience]**, then select the first audience you want to target. Repeat for each audience.
 

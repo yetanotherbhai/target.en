@@ -19,9 +19,14 @@ This page lists important changes made to the [!DNL Adobe Target] documentation.
 | --- | --- | --- |
 |June 11, 2019|[Activity creation](/help/c-integrating-target-with-mac/a4t/campaign-creation.md)|Removed note stating that is is unnessary to specify a tracking server if you are using A4T.|
 ||[Create an A/B Test](/help/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)|Updated text and images.|
+||A/B Test: [Activity URL](/help/c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md)|Updated text and images.|
+||A/B Test: [Select audience](/help/c-activities/t-test-ab/t-test-create-ab/ab-audience.md)|Updated text and images.|
+||A/B Test: [Goals and settings](/help/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md)|Updated text and images.|
+||A/B Test: [Set metrics](/help/c-activities/t-test-ab/t-test-create-ab/ab-set-metrics.md)|Updated text and images.|
+||[Multiple experience versions in an A/B Test](/help/c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md)|Updated text and images.|
 ||[Activities](/help/c-activities/activities.md)|Emphasized that you cannot restore a deleted activity. As best practice you can archive an activity so that it can be unarchived, if necessary.|
 ||[Upgrading from at.js 1.x to at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md)|Removed limitation stating that the Experience Cloud Debugger is not fully supported in at.js 2.x.|
-||[Reports](/help/c-reports/reports.md)|Minor text updates and new images.|
+||[Reports](/help/c-reports/reports.md)|Updated text and images.|
 |June 7, 2019|[Customize a design using Velocity](/help/c-recommendations/c-design-overview/customizing-a-template.md#default)|Added new section: "Scenario: Create a 4x2 default Recommendations design with null-checking logic."|
 ||[Training videos for Adobe Target Standard and Premium](/help/c-intro/target-standard-premium-training-videos.md#tutorials)|Updated link to new Adobe Target Tutorials site.|
 ||[iOS - set up the mobile app](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-ios.md)|Updated text and code snippets.|
