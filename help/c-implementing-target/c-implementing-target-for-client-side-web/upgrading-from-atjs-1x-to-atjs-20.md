@@ -218,12 +218,6 @@ Customers who do not replace `mboxCreate()` with `getOffer()` or `applyOffer()` 
 
 Yes, the visitor profile is preserved across pages using different versions and libraries. The cookie format is the same.
 
-**Adobe Experience Cloud Debugger is not fully supported in at.js 2.x**
-
-[!DNL Adobe Experience Cloud Debugger] [!UICONROL Summary Tab] features and [!UICONTROL Disable and Console Logging] tools are supported, but Network Requests and mboxTrace are not supported for at.js 2.x. 
-
-This is because in at.js 2.x, a JSON payload is sent instead of key-value pairs. To inspect [!DNL Target] requests, filter the [!UICONTROL Network] tab of your browser’s Developer Tools to “delivery”, “`tt.omtrdc.net`,” or your client code. Trace data can still be inspected by using the query string parameter and authorization token. For more information, see [mboxTrace](/help/c-activities/c-troubleshooting-activities/content-trouble.md).
-
 **New API use in at.js 2.x**
 
 at.js 2.x uses a new API, which we call the Delivery API. In order to debug whether at.js is calling the [!DNL Target] edge server correctly, you can filter the Network tab of your browser’s Developer Tools to “delivery”, “`tt.omtrdc.net`,” or your client code. You will also notice that [!DNL Target] sends a JSON payload instead of key-value pairs.
