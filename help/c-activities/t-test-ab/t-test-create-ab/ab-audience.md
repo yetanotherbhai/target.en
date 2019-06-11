@@ -35,7 +35,7 @@ Click the down arrow to remove the existing audience or change the audience.
 
 You can specify the percentage of qualifying visitors to include in the activity. For example, you might choose to include 50% of all visitors.
 
-![](assets/audperc.png)
+![Audience Percentage](/help/c-activities/t-test-ab/t-test-create-ab/assets/audperc-new.png)
 
 You can also choose to let Target [allocate traffic automatically](../../../c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4).
 
