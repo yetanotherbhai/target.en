@@ -100,7 +100,11 @@ Adobe currently has data centers on several continents, including multiple regio
 
 Rather than respond to all targeting requests from a single location, requests from the Edge environment closest to the point of request mitigate the impact of network/Internet travel time.
 
-The network also serves as a fail-over mechanism. If one edge node is not functioning, the request is redirected to the next nearest node, to ensure that the user is not served default content (a typical backup response when a request cannot be completed). 
+The network also serves as a fail-over mechanism. If one edge node is not functioning, the request is redirected to the next nearest node, to ensure that the user is not served default content (a typical backup response when a request cannot be completed).
+
+>[!IMPORTANT]
+>
+>[!DNL Adobe Target] currently doesn’t have an Edge network in China and the end-user performance will continue to be limited for [!DNL Target] customers in China. Because of the Great Firewall and the lack of Edge nodes within the country, the experiences of sites with [!DNL Target] deployed will be slow to render and page loads will be affected. Also, the [!DNL Target] user interface might also experience latency.
 
 ## Protected User Experience {#concept_40A5E781D90A41E4955F80EA9E5F8F96}
 

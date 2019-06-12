@@ -17,6 +17,8 @@ This page lists important changes made to the [!DNL Adobe Target] documentation.
 
 |Date|Topic|Changes|
 | --- | --- | --- |
+|June 12, 2019|[Auto-Target](/help/c-activities/auto-target-to-optimize.md)|Updated text and images.|
+||[How Adobe Target works](/help/c-intro/how-target-works.md)|Added important note about using Target in China.|
 |June 11, 2019|[Activity creation](/help/c-integrating-target-with-mac/a4t/campaign-creation.md)|Removed note stating that is is unnessary to specify a tracking server if you are using A4T.|
 ||[Create an A/B Test](/help/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)|Updated text and images.|
 ||A/B Test: [Activity URL](/help/c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md)|Updated text and images.|
