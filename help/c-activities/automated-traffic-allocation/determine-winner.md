@@ -19,7 +19,7 @@ Many marketers make the mistake of prematurely declaring a winning experience be
 
 When using the [!UICONTROL Auto-Allocate] feature, [!DNL Target] displays a badge at the top of the activity's page indicating "No Winner Yet" until the activity reaches the minimum number of conversions with sufficient confidence.
 
-![](assets/auto_traffic_no_winner.png)
+![No Winner badge](/help/c-activities/automated-traffic-allocation/assets/no-winner.png)
 
 When a clear winner is declared, [!DNL Target] displays "Winner: Experience X."
 
