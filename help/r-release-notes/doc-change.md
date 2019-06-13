@@ -19,6 +19,7 @@ This page lists important changes made to the [!DNL Adobe Target] documentation.
 | --- | --- | --- |
 |June 12, 2019|[Auto-Target](/help/c-activities/auto-target-to-optimize.md)|Updated text and images.|
 ||[How Adobe Target works](/help/c-intro/how-target-works.md)|Added important note about using Target in China.|
+||[Supported browsers](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md)|Removed Microsoft Internet Explorer 11 (IE 11) from the "Target Standard/Premium interface" section. Target no longer supports or maintains compatibility for IE 11. This change affects the Target UI only. Content delivery is not affected. This change follows similar announcements made by Adobe Analytics, the Adobe Experience Platform, and Adobe Audience Manager. We recommend users switch to a supported browser.|
 |June 11, 2019|[Activity creation](/help/c-integrating-target-with-mac/a4t/campaign-creation.md)|Removed note stating that is is unnessary to specify a tracking server if you are using A4T.|
 ||[Create an A/B Test](/help/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)|Updated text and images.|
 ||A/B Test: [Activity URL](/help/c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md)|Updated text and images.|
